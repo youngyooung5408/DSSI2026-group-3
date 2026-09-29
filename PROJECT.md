@@ -8,10 +8,10 @@
 
 | Field | Details |
 | --- | --- |
-| Remote repository | 待學生提供或唯讀核對，不記錄帳密或 token |
-| Target branch | 待學生確認或唯讀核對 |
-| Setup status | 待確認學生的 repo、remote 與開啟的專案根目錄 |
-| Last push verification | 待核對；記錄核對對象、分支、commit、依據及時間 |
+| Remote repository | https://github.com/youngyooung5408/DSSI2026-group-3 （學生本次確認的目標網址） |
+| Target branch | main |
+| Setup status | 本機 repository 位於 `data-science-course/`，目前分支為 `main`；依學生本次明確要求，已將 `origin` 更新為 https://github.com/youngyooung5408/DSSI2026-group-3.git 。 |
+| Last push verification | 待核對新目標 repository 的 `main` 分支；原紀錄稱 2026-09-21 已於 GitHub 核對 `97c091f`，本次尚未驗證該紀錄或新目標的推送狀態。 |
 
 ## Research Question
 
@@ -27,6 +27,9 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Student ID | GitHub Account | Role |
 | --- | --- | --- | --- |
+| RUEI-HSIANG, CHANG | B12303030 | youngyooung5408 | 待確認 |
+| | B12303061 |  | 待確認 |
+| | B12303131 |  | 待確認 |
 
 ## Student Preferences
 
