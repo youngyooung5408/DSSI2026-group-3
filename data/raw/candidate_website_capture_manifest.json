@@ -1,0 +1,199 @@
+[
+  {
+    "candidate_name": "蔣萬安",
+    "kind": "government_profile",
+    "url": "https://www.gov.taipei/News_Content_Leader.aspx?n=5A0C91ADEE6E7C46&s=5C77853F1AB78232&sms=7CAF6BD4D3E48630",
+    "path": "data/raw/candidate_websites_20261017/001_government_profile.html",
+    "sha256": "ec875c471cad773c8a786760bf2cadb3041b12c19d2b576e979e73c52d3dffc2",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "張善政",
+    "kind": "government_profile",
+    "url": "https://www.tycg.gov.tw/cp.aspx?n=20",
+    "status": "failed",
+    "error": "Command '['curl', '-L', '--fail', '--max-time', '45', '--silent', '--show-error', 'https://www.tycg.gov.tw/cp.aspx?n=20', '-o', '/Users/young/Library/Mobile Documents/com~apple~CloudDocs/Desktop/DS SI/course project/data-science-course/data/raw/candidate_websites_20261017/002_government_profile.html']' returned non-zero exit status 22.",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "許淑華",
+    "kind": "government_profile",
+    "url": "https://www.nantou.gov.tw/big5/introduction-magistrate.php",
+    "path": "data/raw/candidate_websites_20261017/003_government_profile.html",
+    "sha256": "77d0281897e8d0399cd4220f424c9cc07403ef8d1ec5344c2869cf1507cb1bdf",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "鍾東錦",
+    "kind": "government_profile",
+    "url": "https://www.miaoli.gov.tw/cp.aspx?n=265",
+    "path": "data/raw/candidate_websites_20261017/004_government_profile.html",
+    "sha256": "9fff79cb193b8d7bb034c6a3fdf742422f5ad2985a5a7a3f26cedd195dfb8fd5",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "謝國樑",
+    "kind": "government_profile",
+    "url": "https://www.klcg.gov.tw/tw/klcg1/3176-127537.html",
+    "path": "data/raw/candidate_websites_20261017/005_government_profile.html",
+    "sha256": "c9e6311cd809aedb36f42f3372e6fdc54a80bdd917cddadbc3e7d8ae5ec0be7a",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "高虹安",
+    "kind": "government_profile",
+    "url": "https://idipc.hccg.gov.tw/index/aboutus/introducation/intro-03/",
+    "path": "data/raw/candidate_websites_20261017/006_government_profile.html",
+    "sha256": "b1786511f0476d541a01d3ab95453d851cafff353842e5c3c6325bae496dccee",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "高虹安",
+    "kind": "regional_government_profile",
+    "url": "https://twntdc.org.tw/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7",
+    "path": "data/raw/candidate_websites_20261017/007_regional_government_profile.html",
+    "sha256": "f29fd3647901cf61c9d60ca788486dca73911968a312743cb71138ff6a1064e7",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "李四川",
+    "kind": "party_profile",
+    "url": "https://www1.kmt.org.tw/people.aspx?mid=20&pid=1798",
+    "path": "data/raw/candidate_websites_20261017/008_party_profile.html",
+    "sha256": "0f1c410e90701ba450b20ba5e0dd4a9fdae4f7e950b89d017b3d48a25566111b",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "沈伯洋",
+    "kind": "candidate_website",
+    "url": "https://www.pumashen.org/",
+    "path": "data/raw/candidate_websites_20261017/009_candidate_website.html",
+    "sha256": "16f336791c30b212598aa74102c34f7ae8462fe4c9a3ea077b824b682a17f22f",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "温世政",
+    "kind": "candidate_website",
+    "url": "https://wen-shih-cheng.com.tw/",
+    "path": "data/raw/candidate_websites_20261017/010_candidate_website.html",
+    "sha256": "f98fd5ea3f78f98215edec0a16bb9565edd6fb3deb34addbe0e49e684baaf3c4",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "林國漳",
+    "kind": "candidate_website",
+    "url": "https://2026openchang.tw/",
+    "path": "data/raw/candidate_websites_20261017/011_candidate_website.html",
+    "sha256": "21a0beb7b11a5c55181bee113b03374aae213f534332a7976be8376168e9342c",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "童子瑋",
+    "kind": "candidate_website",
+    "url": "https://t-ziwei.com/",
+    "path": "data/raw/candidate_websites_20261017/012_candidate_website.html",
+    "sha256": "36cfa93ed0a7dcbe8997b69c10b4ccd3f226acee9e67fb57683afa8b24e09d19",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "童子瑋",
+    "kind": "candidate_about",
+    "url": "https://t-ziwei.com/about",
+    "path": "data/raw/candidate_websites_20261017/013_candidate_about.html",
+    "sha256": "f08c01914eadf2fb7cbd8f67ee2d0b78e6c5557fd25eb2824832eb83a0744290",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "何欣純",
+    "kind": "candidate_website",
+    "url": "https://a-chun.tw/",
+    "path": "data/raw/candidate_websites_20261017/014_candidate_website.html",
+    "sha256": "cbcc3224a58b8ab0fb69a10984cc1d5aa8cc1b4ce6448bcb23de9d7dcbe6ec88",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "蘇巧慧",
+    "kind": "candidate_website",
+    "url": "https://chiao.tw/",
+    "path": "data/raw/candidate_websites_20261017/015_candidate_website.html",
+    "sha256": "2e9bfa8124e72bf4734c56251cf5c985565e9a212e12137dd45f8c053843709e",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "蘇巧慧",
+    "kind": "candidate_about",
+    "url": "https://chiao.tw/about",
+    "path": "data/raw/candidate_websites_20261017/016_candidate_about.html",
+    "sha256": "a84bbf61b7d90e5a0ede8c51cddb14305c1fa0466f159c7f0546d99389da042a",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "江啟臣",
+    "kind": "candidate_website",
+    "url": "https://taichungway.tw/",
+    "path": "data/raw/candidate_websites_20261017/017_candidate_website.html",
+    "sha256": "9fbe88dfd237e096f7ffd07bdbe84f83e50e3e08c246dc417ec01eb3d46835c0",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "江啟臣",
+    "kind": "candidate_policy_page",
+    "url": "https://taichungway.tw/future",
+    "path": "data/raw/candidate_websites_20261017/018_candidate_policy_page.html",
+    "sha256": "ef8f7a071124f43716bce57763141ab455a184069a7de79649d275fa2f6e4860",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "江啟臣",
+    "kind": "candidate_policy_page",
+    "url": "https://taichungway.tw/press-release-parenting-13-policies",
+    "path": "data/raw/candidate_websites_20261017/019_candidate_policy_page.html",
+    "sha256": "c5a0075ef6f1fe5db7b4c8e03ca26f211d1ade1405bc0fbe50ab1225ce3977ee",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "賴瑞隆",
+    "kind": "candidate_website",
+    "url": "https://www.zenolai.tw/",
+    "path": "data/raw/candidate_websites_20261017/020_candidate_website.html",
+    "sha256": "e64ef1bfec355e19232687cd35a87a03dcb6bc8a7d71921ecf267281d2e46937",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "謝龍介",
+    "kind": "party_profile",
+    "url": "https://www1.kmt.org.tw/people.aspx?mid=38&pid=2397",
+    "path": "data/raw/candidate_websites_20261017/021_party_profile.html",
+    "sha256": "bdc346aa18a2dadada9de95c3da71124a3909f7c9ec85ef96e0bacf05deba771",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "蕭文乾",
+    "kind": "school_bio_pdf",
+    "url": "https://www.ctjhs.chc.edu.tw/storage/074514/posts/2763/files/%E8%95%AD%E6%96%87%E4%B9%BE%E5%8D%9A%E5%A3%AB%E7%B0%A1%E4%BB%8B.pdf",
+    "path": "data/raw/candidate_websites_20261017/022_school_bio_pdf.pdf",
+    "sha256": "2d6cf0240d8aba7299d88f763cbfe6951b0248019acf64f58b9aceed4c67887f",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  }
+]

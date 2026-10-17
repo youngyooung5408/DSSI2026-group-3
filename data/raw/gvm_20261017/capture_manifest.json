@@ -1,0 +1,8 @@
+{
+  "captured_date": "2026-10-17",
+  "source_url": "https://event.gvm.com.tw/2026_rank/?city=hualien",
+  "data_url": "https://event.gvm.com.tw/2026_rank/data/election-2026.json",
+  "script_url": "https://event.gvm.com.tw/2026_rank/js/election-data.js?v=1002d",
+  "source_type": "media_editorial_compilation",
+  "limitations": "No candidate birth/sex fields; no per-claim citations; policy summaries are editorial, not primary campaign text; 尚未公布 and empty arrays treated as missing."
+}

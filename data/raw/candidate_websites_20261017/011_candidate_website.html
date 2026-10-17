@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>林國漳｜2026 宜蘭縣長參選人 - 改變宜蘭，現在就出發</title>
+  <meta name="description" content="支持2026宜蘭縣長參選人林國漳！深耕宜蘭30年的律師，邀請您透過線上小額捐款、政治獻金支持交通升級與廉能透明。一同點擊加入，讓宜蘭重回民主聖地！" />
+  <meta name="keywords" content="林國漳, 線上捐款, 小額捐款, 政治獻金, 宜蘭縣長參選人, 2026選舉, 民主進步黨, 宜蘭律師, 宜蘭政見, 宜蘭選情" />
+  <meta property="og:title" content="線上捐款支持林國漳｜2026 宜蘭縣長參選人 - 官方網站" />
+  <meta property="og:description" content="支持2026宜蘭縣長參選人林國漳！深耕宜蘭30年的律師，邀請您透過線上小額捐款、政治獻金支持交通升級與廉能透明。一同點擊加入，讓宜蘭重回民主聖地！" />
+  <meta property="og:image" content="https://2026openchang.tw/openchang.jpg?v=20260505" /> 
+  <meta property="og:url" content="https://2026openchang.tw/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:site_name" content="林國漳 2026 宜蘭縣長參選人官方網站" />
+  <link rel="canonical" href="https://2026openchang.tw/" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "林國漳",
+    "url": "https://2026openchang.tw/",
+    "image": "https://2026openchang.tw/openchang.jpg?v=20260505",
+    "description": "支持2026宜蘭縣長參選人林國漳！深耕宜蘭30年的律師，邀請您透過線上小額捐款、政治獻金支持交通升級與廉能透明。一同點擊加入，讓宜蘭重回民主聖地！",
+    "jobTitle": [
+      "2026 宜蘭縣長參選人",
+      "律師",
+      "宜蘭律師公會理事長"
+    ],
+    "memberOf": {
+      "@type": "Organization",
+      "name": "民主進步黨"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "國立臺北大學學士 碩士"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "國立宜蘭高級中學"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "宜蘭縣立宜蘭國民中學"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "宜蘭縣宜蘭市力行國民小學"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/linkuochang.yilan",
+      "https://www.youtube.com/@linkuochang",
+      "https://www.instagram.com/lin.kuo.chang/",
+      "https://line.me/R/ti/p/@821mnknz?ts=10222314&oat_content=url",
+      "https://www.threads.net/@lin.kuo.chang?hl=zh-tw"
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQVW6DTS7Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FQVW6DTS7Q');
+  </script>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" />
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <!-- Fancybox Animation -->
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.min.css" />
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css?v=04273" />
+  <style>
+      /* 懸浮容器設定 */
+      .floating-donate-btn {
+          position: fixed;
+          left: 20px; /* 距離右邊 20 像素 */
+          bottom: 20px; /* 垂直置下 */
+          z-index: 9999;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          cursor: pointer;
+          text-decoration: none;
+          transition: transform 0.3s ease;
+      }
+
+      .floating-donate-btn:hover {
+          transform: translateY(-55%); /* 滑鼠移上去稍微往上飄 */
+      }
+
+      /* 人物圖片設定 */
+      .floating-donate-btn img {
+          width: 100px; /* 你可以根據需求調整寬度 */
+          height: auto;
+          display: block;
+      }
+
+      /* 文字顯示設定 */
+      .donate-text {
+          background-color: #ff4d4d; /* 捐款按鈕顏色，可自行修改 */
+          color: white;
+          padding: 5px 15px;
+          border-radius: 20px;
+          font-weight: bold;
+          font-size: 14px;
+          margin-top: 5px;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+          white-space: nowrap;
+      }
+      #popup{display: none;}
+      #popup ul{list-style: circle;}
+      #popup ul ul{list-style: square; padding-left: 20px}
+	  
+	  /* 優化聯絡資訊區塊的文字與對比 */
+.section-donate {
+    /* 這裡假設您的背景色是圖片中的紫色，我們微調背景與文字的配比 */
+    background: linear-gradient(135deg, #7b68ee 0%, #6a5acd 100%); 
+}
+
+.section-donate .section-title, 
+.section-donate .section-desc {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2); /* 增加輕微陰影讓白字更清晰 */
+}
+
+.contact-item strong {
+    color: #ffeaa7 !important; /* 將標題改為淡金色/米色，增加視覺層次 */
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.contact-item span, 
+.contact-item a {
+    color: #ffffff !important;
+    font-size: 1.05rem;
+    font-weight: 400;
+    opacity: 0.95; /* 稍微降低純白的刺眼感 */
+}
+
+/* 圖示顏色與背景圓圈優化 */
+.contact-icon {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+
+
+/* --- 高質感捐款資訊卡片 --- */
+.donate-card-premium {
+    background: linear-gradient(145deg, #ffffff, #f9f9f9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15), inset 0 1px 0px rgba(255,255,255,1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 頂部香檳金屬質感邊條裝飾 */
+.donate-card-premium::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #d4af37, #fff2cd, #d4af37); 
+}
+
+.donate-card-title {
+    color: #2d3436;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.donate-card-title i {
+    color: #d4af37;
+    font-size: 1.5rem;
+}
+
+.donate-info-box {
+    background: #fdfdfd;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.donate-info-row {
+    margin-bottom: 15px;
+}
+.donate-info-row:last-child {
+    margin-bottom: 0;
+}
+
+.donate-label {
+    font-size: 0.95rem;
+    color: #636e72;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.donate-value {
+    font-size: 1.15rem;
+    color: #2d3436;
+    font-weight: 700;
+    line-height: 1.4;
+    word-break: break-all;
+}
+
+/* 凸顯劃撥帳號的視覺層級 */
+.donate-value.account-number {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: #d63031; 
+    font-family: 'Arial', sans-serif; /* 數字使用無襯線體更俐落 */
+}
+
+/* 調整地圖容器以適應新網格 */
+.contact-map-placeholder {
+    height: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+}
+.contact-map-placeholder iframe {
+    height: 100%;
+    object-fit: cover;
+}	  
+
+	  
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "林國漳",
+  "jobTitle": "宜蘭縣長參選人",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "民主進步黨"
+  },
+  "url": "https://2026openchang.tw/",
+  "description": "林國漳律師為2026年宜蘭縣長參選人，具備30年在地法律服務與深耕宜蘭經驗。",
+  "image": "https://2026openchang.tw/k2.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "宜蘭市",
+    "streetAddress": "公園路35號之一"
+  }
+}
+</script>
+  
+  
+  
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="navbar">
+    <nav class="nav-container">
+      <div class="nav-logo">
+        <span class="dpp-logo">
+		  <a href="https://2026openchang.tw/" class="nav-logo" aria-label="林國漳競選官網回首頁">
+          <img src="logo.png" alt="民進黨" />
+        </span>
+        <span class="nav-name">林國漳</span>
+        <span class="nav-subtitle">2026 宜蘭縣長參選人</span>
+      </div>
+	   </a>
+      <ul class="nav-links">
+        <li><a href="#about">關於國漳</a></li>
+		 <li><a href="#milestones">深耕宜蘭</a></li>
+        <li><a href="#vision">政見主張</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+        <li><a href="https://donate.ecpay.com.tw/home/2026openchang/" class="btn-nav-donate">小額捐款</a></li>
+		  <a href="#popup" data-fancybox>政治獻金法</a> 
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">關於國漳</a>
+      <a href="#vision" class="mobile-link">政見主張</a>
+      <a href="#milestones" class="mobile-link">深耕宜蘭</a>
+      <a href="#contact" class="mobile-link">聯絡我們</a>
+      <a href="https://donate.ecpay.com.tw/home/2026openchang/" class="mobile-link mobile-donate">小額捐款</a>
+	   <a href="#popup" data-fancybox class="mobile-link">政治獻金法</a> 
+    </div>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-right" data-aos-duration="800">
+        <div class="hero-badge">
+          <span>民進黨 2026 宜蘭縣長參選人</span>
+        </div>
+        <h1 class="hero-title hero-highlight" style="color: #FFFF00;">
+          改變宜蘭<br />
+          <span class="hero-highlight" style="color: #FFFF00;">現在就出發</span>
+        </h1>
+        <p class="hero-desc">
+          土生土長的宜蘭人，深耕地方超過30年。<br />
+          從政策藍圖到實際行動，做縣長不分黨派，<br />林國漳準備好帶領宜蘭穩健向前！
+
+        </p>
+        <div class="hero-cta">
+          <a href="https://donate.ecpay.com.tw/home/2026openchang/" class="btn-primary">
+            <i class="fas fa-heart"></i> 小額捐款支持
+          </a>
+          <!--<a href="#about" class="btn-secondary">
+            <i class="fas fa-user"></i> 認識林國漳
+          </a>-->
+		  <a href="https://portaly.cc/lin.kuo.chang" class="btn-secondary" target=_blank>
+            <i class="fas fa-user"></i> 所有社群平台
+          </a>
+		  
+        </div>
+     
+      </div>
+      <div class="hero-image" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+        <div class="hero-img-wrapper">
+          <img
+            src="kg.png"
+            alt="林國漳候選人Q版形象"
+            id="candidateImg"
+          />
+       
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="section-about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">關於候選人</span>
+        <h2 class="section-title">林國漳是誰？</h2>
+        <p class="section-desc">土生土長的宜蘭人，深耕地方超過30年的在地律師</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="about-icon"><i class="fas fa-gavel"></i></div>
+          <h3>執業律師</h3>
+          <p>擁有豐富法律實務經驗，致力保障宜蘭鄉親的權益，為正義而戰。</p>
+        </div>
+        <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="about-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>在地宜蘭人</h3>
+          <p>27歲被游錫堃縣長挖角返鄉，30年來深根宜蘭，是真正了解宜蘭的人。</p>
+        </div>
+        <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="about-icon"><i class="fas fa-star"></i></div>
+          <h3>賴清德推薦</h3>
+          <p>獲得總統賴清德親自提名，肩負民進黨重返宜蘭執政的重要使命。</p>
+        </div>
+        <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="about-icon"><i class="fas fa-users"></i></div>
+          <h3>全民縣長</h3>
+          <p>主張成為宜蘭人的最大公約數，打造一個讓年輕人願意回鄉的宜蘭。</p>
+        </div>
+      </div>
+      <div class="about-quote" data-aos="fade-up">
+        <blockquote>
+          「關懷弱勢 實踐公義」<br />深耕法律服務30年 長期投身縣務行政 歷任30個縣府委員會。
+          <cite>— 林國漳</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VISION SECTION ========== -->
+ <section id="vision" class="section-vision">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">政見主張</span>
+      <h2 class="section-title">我的宜蘭藍圖</h2>
+      <p class="section-desc" style="white-space: nowrap;">「建設勁有力，照顧勁周全，一生做好服務宜蘭人的事，讓宜蘭再現榮耀！」</p>
+    </div>
+    
+    <div class="vision-grid">
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="0">
+	    <a href="https://www.facebook.com/share/p/1CnbWG74dr/" target=_blank aria-label="林國漳小額捐款">
+        <img src="01_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>關心弱勢，全方位社會福利</h3>
+        <p style="font-size: 0.9rem; line-height: 1.6;">
+          關心人民生活，讓照顧落實日常。國漳提出幼童掛號費補助、生育津貼提高、營養午餐精進、疫苗補助、健保補助與新住民關懷。全方位守護弱勢、減輕家庭負擔。
+        </p>
+		</a>
+      </div>
+
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="100">
+	     <a href="https://www.facebook.com/share/p/1CeCP3zgr5/" target=_blank aria-label="林國漳小額捐款">
+        <img src="02_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>女力新宜蘭・幸福不缺席</h3>
+        <p>無數女性在職場與家庭間共同撐起宜蘭的進步。國漳提出涵蓋「生育自主、健康篩檢、平權內閣、育兒倍增」四大方案，打造一個讓女性更自主、家庭更幸福的新宜蘭。</p>
+		</a>     
+	 </div>
+
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="200">
+	     <a href="https://www.facebook.com/share/p/1CgsQtEnzx/" target=_blank aria-label="林國漳小額捐款">
+        <img src="03_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>五星童年・兒童夢土</h3>
+        <p>育兒不只是家庭責任，政府應從「空間、校園、照護」三面向推動「打造探索空間、升級校園環境、提供安心照護」，以精準預算規劃，實質減輕家長負擔，讓在地囝仔快樂成長。。</p>
+      </a>   
+	  </div>
+
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="300">
+	     <a href="https://www.facebook.com/share/p/1CLe75GUvt/" target=_blank aria-label="林國漳小額捐款">
+        <img src="04_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>青年宜蘭・四箭齊發</h3>
+        <p>「留下來、做得到、看見未來」，因此我們承諾400戶社會住宅、打造創業創意基地、青年就業加碼補助以及提升青年決策機制。讓青年在宜蘭實現理想、安心生活。</p>
+		</a>        
+	 </div>
+
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="300">
+	     <a href="https://www.facebook.com/share/p/1DNsYJ2yNb/" target=_blank aria-label="林國漳小額捐款">
+        <img src="05_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>宜蘭動起來・健康一輩子</h3>
+        <p>把健康留在家鄉，把希望留給選手。以「制度化保障」結合「指標性建設」，完善室內場館、精進培育選手制度、提升健康競爭力，打造運動實力城市。</p>
+		</a>      
+   </div>
+
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="300">
+	     <a href="https://www.facebook.com/share/p/1AzEm1mMiJ/" target=_blank aria-label="林國漳小額捐款">
+        <img src="06_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>安心健康-宜蘭品牌好農計畫</h3>
+        <p>用制度扛起風險，讓農民安心務農。推動農業保險與天然災害救助雙軌並行，最高補助95%。農藥減半、擴大有機耕作、建立品牌信任，打造安心永續宜蘭農業。</p>
+		</a>    
+    </div>
+
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="300">
+	     <a href="https://www.facebook.com/share/p/1KmYvSseaB/" target=_blank aria-label="林國漳小額捐款">
+        <img src="07_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>森林城鄉 - 宜蘭青天計畫</h3>
+        <p>從高山護林、平原綠化到海岸定砂，打造300座微型森林。成立「綠政小組」，修訂城市綠化規範，並推出「宜蘭森林認同卡」，結合企業ESG力量，一起守護宜蘭的森林與環境。</p>
+		</a>   
+      </div>
+
+      <div class="vision-card" data-aos="zoom-in" data-aos-delay="300">
+	     <a href="https://www.facebook.com/share/p/1J9vMrYbYn" target=_blank aria-label="林國漳小額捐款">
+        <img src="08_0.jpg" alt="關心弱勢" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+        <h3>宜蘭客家一七GO</h3>
+        <p>語言會逐漸淡去，但文化從未離開。從文化、產業到科技，全面推動宜蘭客家底蘊再生、讓「客家」深深存在於生活、信仰與土地之中，重新成為宜蘭的一種生活方式。</p>
+ 		</a>   
+	</div>
+    </div>
+  </div>
+</section>
+
+  <!-- ========== MILESTONES SECTION ========== -->
+  <section id="milestones" class="section-milestones">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">深耕宜蘭</span>
+        <h2 class="section-title">30年在地軌跡</h2>
+        <p class="section-desc">從年輕律師到縣長候選人，始終堅守宜蘭</p>
+      </div>
+
+      <div class="about-pillars">
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="0">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>宜蘭律師公會理事長</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>財團法人法律扶助基金會宜蘭分會會長</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>宜蘭縣選委會選監小組召集人</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>宜蘭縣車禍受難者關懷協會理事長</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>宜蘭縣政府性騷擾防治審議會委員</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>財團法人朱銘文教基金會董事</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>宜蘭社區大學「生活與法律」講師</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>宜蘭大學兼任教師</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>信賴台灣之友會全國總會常務監事</h4>
+          </div>
+        </div>
+        <div class="pillar-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="pillar-icon"><i class="fas fa-balance-scale"></i></div>
+          <div>
+            <h4>宜蘭縣信賴之友會創會理事長</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== CONTACT SECTION ========== -->
+<section id="contact" class="section-donate">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-tag donate-tag">聯絡我們與支持</span>
+      <h2 class="section-title">傾聽意見．與我們同行</h2>
+      <p class="section-desc">競選辦公室 ＆ 政治獻金專戶</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info" data-aos="fade-left">
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <strong>競選辦公室地址</strong>
+            <span>宜蘭縣宜蘭市公園路35-1號</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <strong>聯絡電話</strong>
+            <a href="tel:+88639251062">(03)925-1062</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fab fa-line"></i></div>
+          <div>
+            <strong>官方 LINE</strong>
+            <a href="https://line.me/R/ti/p/@821mnknz?ts=10222314&oat_content=url" target="_blank">點我加入好友</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <strong>服務時間</strong>
+            <span>週一至週六 09:00 — 18:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-map-placeholder" data-aos="fade-left" aria-label="競選總部位置地圖">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.6539164613223!2d121.7547817743439!3d24.738759050118535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467e4e4e9ab92b7%3A0x8c895294a9b56d56!2zMjYw5a6c6Jit57ij5a6c6Jit5biC5YWs5ZyS6LevMzXomZ8!5e0!3m2!1szh-TW!2stw!4v1777269004249!5m2!1szh-TW!2stw" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="contact-donate" data-aos="fade-left">
+        <div class="donate-card-premium">
+          <div class="donate-card-title">
+            <i class="fas fa-hand-holding-heart"></i> 實體劃撥專戶
+          </div>
+          <div class="donate-info-box">
+            <div class="donate-info-row">
+              <span class="donate-label">戶名</span>
+              <span class="donate-value">115年宜蘭縣縣長擬參選人林國漳政治獻金專戶</span>
+            </div>
+            <div class="donate-info-row">
+              <span class="donate-label">郵政劃撥帳號</span>
+              <span class="donate-value account-number">50486205</span>
+            </div>
+          </div>
+          <p style="font-size: 0.85rem; color: #888; margin: 0; line-height: 1.5;">
+            * 捐款前請詳閱<a href="#popup" data-fancybox style="color: #6a5acd !important; text-decoration: underline; font-weight: 600;">《政治獻金法》</a>規範。<br>
+            * 若需開立電子收據，請務必保留您的劃撥單據備查。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ========== SUCCESS MODAL ========== -->
+  <div class="modal-overlay" id="successModal">
+    <div class="modal-box">
+      <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+      <h3>感謝您的支持！</h3>
+      <p id="modalMessage">您的支持已登記成功，感謝您願意和我們一起改變宜蘭！</p>
+      <div class="modal-candidate">
+        <img
+          src="https://www.genspark.ai/api/files/s/ZDgEqaxN?token=Z0FBQUFBQnA1eV9RSXB0ZzEyUlotUXN4cm9yazhReWJVcEV5Z2lySXQyUTdSQjU3NzYzek4wUHRBNGZiSFhyUjZ3VmNWRDVQMnkwVVNGOEUtUFhZeUo0TVNtWHo4UzhHRnAxX1psbWFVSWxES2ltWWdfSWlvdHdIbDNNMUZWSUJPb2R3blAtLUNmVEVkb0tSQXlPTGNBcDlwS3pYZktaWjA1aTVHZFlDYWdoTXAwdlVDYzFWLUg1NGtCbE9adlU0OHpEUDNCN0tfVUF4eHdBcG4xT1VrOTJGLTFtVDdXTUxuZW1GWFA0THBuYVFRcU9XZV96N0s5UVlMRzVLbDA1b2lwUVFydU1MTjBvcnhGbkVrZzFMTEF1emxhWGJBNm5pcVE9PQ"
+          alt="林國漳"
+        />
+        <p>「感謝您的支持！讓我們一起改變宜蘭！」</p>
+      </div>
+      <button class="btn-modal-close" id="modalClose">繼續瀏覽</button>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div></div>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/linkuochang.yilan" target="_blank" rel="noopener" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/lin.kuo.chang/" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.threads.com/@lin.kuo.chang?hl=zh-tw" target="_blank" rel="noopener" aria-label="Threads">
+            <i class="fab fa-threads"></i>
+          </a>
+		      <a href="https://www.youtube.com/@linkuochang" target="_blank" rel="noopener" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://line.me/R/ti/p/@821mnknz?ts=10222314&oat_content=url" aria-label="Line">
+            <i class="fab fa-line"></i>
+          </a>
+        </div>
+        <div></div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 林國漳宜蘭縣長競選總部 ｜ 民主進步黨提名</p>
+        <p class="footer-legal">本網站為選舉宣傳用途，政治獻金請依<a href="#popup" data-fancybox style="font-size: 1.15em;color: #FFF;">《政治獻金法》</a>相關規定辦理。<br>
+		為符合規定，捐款前請務必閱讀並確認您符合<a href="捐贈者自我檢測表.pdf" data-fancybox style="font-size: 1.15em; color: #FFF;">《捐贈者自我檢測表》</a>之法定資格。</p>
+		
+      </div>
+    </div>
+  </footer>
+
+  <div id="popup">
+    <h3 style="text-align: center;">2026 政治獻金重要規範 (根據《政治獻金法》)</h3>
+    <ul>
+      <li><b>專戶捐款收受期間：</b>至選舉投票日前1日11月27日停止捐款。</li>
+      <span style="color: red;"><li><b>捐贈限額 (每一擬參選人每年)：</b>
+        <ul>
+          <li>個人： 對同一組擬參選人捐贈上限為新臺幣 10 萬元。</li>
+          <li>營利事業 (公司)： 對同一組擬參選人捐贈上限為新臺幣 100 萬元。</li>
+          <li>個人年度捐贈總額： 對不同參選人合計不超過 30 萬元。</li>
+          <li>營利事業年度捐贈總額： 對不同參選人合計不超過 200 萬元。</li>
+		  <li>捐款門檻： 單筆超過新臺幣 1 萬元之捐贈，依法不得匿名。（須提供身分證字號 / 統編與戶籍地址</li>
+        </ul>
+      </li></span>
+      <li><b>禁捐對象：</b>
+        <ul>
+         <li>未滿 20 歲、無選舉權者。</li>
+         <li>外國人、大陸地區人民、香港或澳門居民。</li>
+         <li>累積虧損尚未彌補盡之公司企業。</li>
+         <li>與政府機關有巨額採購或重大公共建設投資契約，且在履約期間之廠商。</li>
+         <li>外資（含港澳及陸資）持股達 30% 以上之國內企業。</li>
+         <li>宗教團體。</li>
+        </ul>
+      </li>
+	   <li><b>收據開立與節稅權益：</b>
+        <ul>
+          <li>節稅申報： 個人或營利事業之政治獻金，依法可作為綜合所得稅或營利事業所得稅之列舉扣除額。</li>
+          <li>收據開立： 系統將依法開立政治獻金受贈收據。請務必填寫相符之真實姓名 / 公司名稱、身分證字號<br> / 統編及戶籍 / 登記地址，以利電子收據寄送至您的信箱，供後續扣稅申報使用。</li>
+        </ul>
+      </li>
+      <li><b>違規處理與罰則：</b>
+        <ul>
+          <li>超過限額之捐贈需於申報截止前返還或繳庫，違者將遭裁罰。</li>
+          <span style="color: red;"><li>捐贈人若違反限制，最高可處捐贈金額2倍以下罰鍰。</span></li>
+        </ul>
+      </li>
+      <li><b>注意事項：</b>
+        <ul>
+          <li>政治獻金不得用於營利或個人私用，需用於相關選舉活動。</li>
+          <li>網路「抖內」(Donate) 或虛擬貨幣捐贈正研議加強監管或禁止，應依最新公告為準。</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="btn-top" id="btnTop" aria-label="回到頂端">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <a href="https://donate.ecpay.com.tw/home/2026openchang/" class="floating-donate-btn">
+      <img src="k2.png" alt="林國漳小額捐款支持連結">
+      <div class="donate-text">我要捐款</div>
+  </a>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Fancybox -->
+  <script src="fancybox/jquery.fancybox.min.js"></script>
+  <!-- AOS & Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

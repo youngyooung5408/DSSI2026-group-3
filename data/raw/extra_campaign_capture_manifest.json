@@ -1,0 +1,44 @@
+[
+  {
+    "candidate_name": "柯志恩",
+    "kind": "candidate_website",
+    "url": "https://kochihen2026.tw/",
+    "status": "failed",
+    "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '30', 'https://kochihen2026.tw/', '-o', '/Users/young/Library/Mobile Documents/com~apple~CloudDocs/Desktop/DS SI/course project/data-science-course/data/raw/candidate_websites_20261017/extra_001_candidate_website.html']' returned non-zero exit status 22.",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "柯志恩",
+    "kind": "candidate_policy_page",
+    "url": "https://kochihen2026.tw/policy/%E5%85%A8%E9%BD%A1%E5%AE%89%E5%BF%83",
+    "status": "failed",
+    "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '30', 'https://kochihen2026.tw/policy/%E5%85%A8%E9%BD%A1%E5%AE%89%E5%BF%83', '-o', '/Users/young/Library/Mobile Documents/com~apple~CloudDocs/Desktop/DS SI/course project/data-science-course/data/raw/candidate_websites_20261017/extra_002_candidate_policy_page.html']' returned non-zero exit status 22.",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "蔣萬安",
+    "kind": "party_profile",
+    "url": "https://www1.kmt.org.tw/people.aspx?mid=38&pid=1962",
+    "path": "data/raw/candidate_websites_20261017/extra_003_party_profile.html",
+    "sha256": "fa4c59a5b720a757fed42bf4763d09eb5469220871b2eef3e00f732b19159542",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "江啟臣",
+    "kind": "party_profile",
+    "url": "https://www1.kmt.org.tw/people.aspx?mid=38&pid=1135",
+    "path": "data/raw/candidate_websites_20261017/extra_004_party_profile.html",
+    "sha256": "80f85f0d3adddbc72011e619f2b744ba54312b5147ad833d0133d04ea0d5882d",
+    "status": "downloaded",
+    "captured_date": "2026-10-17"
+  },
+  {
+    "candidate_name": "張善政",
+    "kind": "government_profile",
+    "url": "https://www.tycg.gov.tw/cp.aspx?n=20",
+    "status": "failed",
+    "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '30', 'https://www.tycg.gov.tw/cp.aspx?n=20', '-o', '/Users/young/Library/Mobile Documents/com~apple~CloudDocs/Desktop/DS SI/course project/data-science-course/data/raw/candidate_websites_20261017/extra_005_government_profile.html']' returned non-zero exit status 22.",
+    "captured_date": "2026-10-17"
+  }
+]

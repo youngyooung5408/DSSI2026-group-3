@@ -1,0 +1,885 @@
+{
+  "source_archive": "election/raw/cec/votedata.zip",
+  "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+  "source_url": "https://db.cec.gov.tw/",
+  "extraction_date": "2026-10-17",
+  "members": [
+    {
+      "path": "data/raw/cec_all_offices/001_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994台灣省議員/區域/elcand.csv",
+      "bytes": 9220,
+      "sha256": "2764ddf6b8f61cb555c5709193390f4b5b26bf1332ffb438807fdfc1e5db4749"
+    },
+    {
+      "path": "data/raw/cec_all_offices/002_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994台灣省議員/山原/elcand.csv",
+      "bytes": 277,
+      "sha256": "5702405ef4e685307917aef7f0f4f49f55c193e4f726572ff086b0c963ec37fd"
+    },
+    {
+      "path": "data/raw/cec_all_offices/003_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994台灣省議員/平原/elcand.csv",
+      "bytes": 110,
+      "sha256": "550ea4b3d760f5e3a1434e449fa227287354de3acb3f7bd5fe722e7203f0fe8b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/004_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994台灣省議員/平原2/elcand.csv",
+      "bytes": 167,
+      "sha256": "fc3e5beff78046d809ff114d7957425b8e1cabe8ad274277220942a748561d08"
+    },
+    {
+      "path": "data/raw/cec_all_offices/005_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994台灣省長/elcand.csv",
+      "bytes": 274,
+      "sha256": "292aac41ce691af45aa4f18c9f4d1706478aef74938019cc284cb08fe9e8a47d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/006_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994直轄市議員/區域/elcand.csv",
+      "bytes": 14549,
+      "sha256": "eefba4b4270160168254a1c17206c920e7bc8bc296b97e771b34f75c41d34cdf"
+    },
+    {
+      "path": "data/raw/cec_all_offices/007_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994直轄市議員/原住民/elcand.csv",
+      "bytes": 714,
+      "sha256": "74961fabcef5da14949a5e697851d981899c45490347ab495b8e645fe9436888"
+    },
+    {
+      "path": "data/raw/cec_all_offices/008_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1994直轄市長/elcand.csv",
+      "bytes": 496,
+      "sha256": "2ea6d51f06a98ca5cea32442cf2c10804303381f6cba9fbd3a8761a4df09bf61"
+    },
+    {
+      "path": "data/raw/cec_all_offices/009_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1996國大代表/區域/elcand.csv",
+      "bytes": 22877,
+      "sha256": "3f38836b9424acfa53a08a59fd14bb58b8f88c96c12f0e9c268b75f29e11accf"
+    },
+    {
+      "path": "data/raw/cec_all_offices/010_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1996國大代表/山原/elcand.csv",
+      "bytes": 276,
+      "sha256": "75c1ede9ec23da1f6e36b215f10c74c9ef41a218c368aa670237d6f86cbd00ca"
+    },
+    {
+      "path": "data/raw/cec_all_offices/011_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1996國大代表/平原/elcand.csv",
+      "bytes": 386,
+      "sha256": "6dc512f5e2db8a599b39215d0fa5ff5e1348cb6fb1564120801ad053d67c2205"
+    },
+    {
+      "path": "data/raw/cec_all_offices/012_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1997縣市長/elcand.csv",
+      "bytes": 4420,
+      "sha256": "f1f734fbfe62731a9b6b1c5e0ae5232b233b0e99b043f10bf539f40f30e8c7ce"
+    },
+    {
+      "path": "data/raw/cec_all_offices/013_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1998直轄市議員/區域/elcand.csv",
+      "bytes": 11440,
+      "sha256": "71dd780ec37f35486a643422bd60bdce2e6a5c701d2f697d071f3cf59cefb548"
+    },
+    {
+      "path": "data/raw/cec_all_offices/014_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1998直轄市議員/原住民/elcand.csv",
+      "bytes": 549,
+      "sha256": "c2a2a02f66e5469c9c87366b91266b674f75a4e53af81572d975205a94e15404"
+    },
+    {
+      "path": "data/raw/cec_all_offices/015_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1998直轄市長/elcand.csv",
+      "bytes": 422,
+      "sha256": "55de4083b27eac8ac3b71de401aa75d26ce699ad3ffe8f5d3baed5bcb162bd18"
+    },
+    {
+      "path": "data/raw/cec_all_offices/016_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1998縣市議員/區域/elcand.csv",
+      "bytes": 98844,
+      "sha256": "9ba72a0618c2d97f1099294931ef70d1da4c21da57358cbf11aea89a2bea094e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/017_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1998縣市議員/山原/elcand.csv",
+      "bytes": 4435,
+      "sha256": "8b2c4b0858e0d77f4af87c01c9302ab6dd8674750b11594f940afdf80932645c"
+    },
+    {
+      "path": "data/raw/cec_all_offices/018_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1998縣市議員/平原/elcand.csv",
+      "bytes": 3824,
+      "sha256": "a73463fe791fffa51f23d60ffbd824460b9d2ccb47243160e2de9f8765c348af"
+    },
+    {
+      "path": "data/raw/cec_all_offices/019_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/1998鄉鎮市長/elcand.csv",
+      "bytes": 45768,
+      "sha256": "890ef67998d1f1255c6290325c5f93fdff59992596eebc3281348a40a2949713"
+    },
+    {
+      "path": "data/raw/cec_all_offices/020_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2000年10任總統/elcand.csv",
+      "bytes": 588,
+      "sha256": "560327dd033356d1a0bc19ddc8d6f46096cda54a7c0c473a5d8eb4af638124c6"
+    },
+    {
+      "path": "data/raw/cec_all_offices/021_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2001縣市長/elcand.csv",
+      "bytes": 4874,
+      "sha256": "4496e2cec118ac7d49f335b15e297e069d50842c33b8a552e5200d7bb5c997d3"
+    },
+    {
+      "path": "data/raw/cec_all_offices/022_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2002直轄市議員(區域)/elcand.csv",
+      "bytes": 12078,
+      "sha256": "25e2c17c5cbe365ffd2199062b8bbb9958233acffa64176fa957552533cf6061"
+    },
+    {
+      "path": "data/raw/cec_all_offices/023_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2002直轄市議員(原住民)/elcand.csv",
+      "bytes": 661,
+      "sha256": "f64fc668009c70479fb212e15ae3b5bcd79adef7c971b40948be158b22c07c95"
+    },
+    {
+      "path": "data/raw/cec_all_offices/024_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2002直轄市長/elcand.csv",
+      "bytes": 388,
+      "sha256": "9640b438860c2b1eefe4856ca683882214300e837fc4161cc64979b50353d503"
+    },
+    {
+      "path": "data/raw/cec_all_offices/025_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2002縣市議員/區域/elcand.csv",
+      "bytes": 104733,
+      "sha256": "9b45e7ab9d873f3d10cf402ce2aacde84b9fbcaa2653c711be1a3f6457b93d06"
+    },
+    {
+      "path": "data/raw/cec_all_offices/026_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2002縣市議員/山原/elcand.csv",
+      "bytes": 4696,
+      "sha256": "088f0bf3173f472617a741b84172fd0f83f80353663b3d834474dad906edf8bf"
+    },
+    {
+      "path": "data/raw/cec_all_offices/027_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2002縣市議員/平原/elcand.csv",
+      "bytes": 3711,
+      "sha256": "e80bfa5672edf7743bf9b5057de352459507775a9e63f0d913dfa0c84c6e4644"
+    },
+    {
+      "path": "data/raw/cec_all_offices/028_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2002鄉鎮市長選舉/elcand.csv",
+      "bytes": 48850,
+      "sha256": "f717951a3e1f0c78782faaf87b3ddf14e30686eb600b2c00ff67221133a10e1e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/029_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2004   11任總統/elcand.csv",
+      "bytes": 233,
+      "sha256": "f52b420dc30544dbc0e0a92f05e35aecfcfa69db353217c0e77db849b027ca3b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/030_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2004第6屆立法委員/區域/elcand.csv",
+      "bytes": 20494,
+      "sha256": "171f03b6981baa58f9b5e54d20497abf269d6930ea77f8940f6b789ccabebc8c"
+    },
+    {
+      "path": "data/raw/cec_all_offices/031_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2004第6屆立法委員/山原/elcand.csv",
+      "bytes": 502,
+      "sha256": "69f56af65830665ccce77027f46286235e89c24538ce801c5729c4cebc79c962"
+    },
+    {
+      "path": "data/raw/cec_all_offices/032_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2004第6屆立法委員/平原/elcand.csv",
+      "bytes": 495,
+      "sha256": "ee67944009136c3b4094946b8cd6390c0219a94890ddff0b0316ba1935c20bdf"
+    },
+    {
+      "path": "data/raw/cec_all_offices/033_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2005任務型國代/elcand.csv",
+      "bytes": 720,
+      "sha256": "dbccb8d3f68bb634542329005505c5deb70961abc8bedf2dcd480ebb468b785e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/034_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2005縣市議員/區域/elcand.csv",
+      "bytes": 85387,
+      "sha256": "4594c987641b51c72dba6df0f55d2dfdcde9b114c731ee1c61dafdc454e3e131"
+    },
+    {
+      "path": "data/raw/cec_all_offices/035_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2005縣市議員/山原/elcand.csv",
+      "bytes": 3658,
+      "sha256": "ff851091b9b8b932928c69106792ec6e336cb6b4fe6e03ac2c632b3799b49bb0"
+    },
+    {
+      "path": "data/raw/cec_all_offices/036_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2005縣市議員/平原/elcand.csv",
+      "bytes": 3617,
+      "sha256": "184855950d9b2e82cac3b9db67a5d673f1cd6c9472eebd85a68d0a8d828ea085"
+    },
+    {
+      "path": "data/raw/cec_all_offices/037_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2005縣市長/elcand.csv",
+      "bytes": 4209,
+      "sha256": "b2ff91466062e0cd5cc83ef2c14398a7cf70606ff0d2b5021658c1582cd0f283"
+    },
+    {
+      "path": "data/raw/cec_all_offices/038_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2005鄉鎮市長/elcand.csv",
+      "bytes": 43703,
+      "sha256": "a85756470c4802aad184c783164882513eae7d4fd64d3f322270359bcb4e1cca"
+    },
+    {
+      "path": "data/raw/cec_all_offices/039_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2006直轄市議員(區域)/elcand.csv",
+      "bytes": 9531,
+      "sha256": "fab5a7736fd819fc3e5ab2b1b3c03b50aea9078e4a6d925fbc111f8587166360"
+    },
+    {
+      "path": "data/raw/cec_all_offices/040_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2006直轄市議員(原住民)/elcand.csv",
+      "bytes": 337,
+      "sha256": "cc58e3116eec1f1ee05a871236c6bf3c4c22036a6fc710bb76566181a251ad5d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/041_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2006直轄市長/elcand.csv",
+      "bytes": 603,
+      "sha256": "5a3da6cde191123226b087f7a267958e5ea026c6f909b35724d89437cbca8e8a"
+    },
+    {
+      "path": "data/raw/cec_all_offices/042_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2008 12任總統/elcand.csv",
+      "bytes": 477,
+      "sha256": "cfb7e53f12cb9a6c619da7ddf37b719197cdc12fb9faac5654687eb737f4ad9a"
+    },
+    {
+      "path": "data/raw/cec_all_offices/043_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20080322-總統/elcand.csv",
+      "bytes": 477,
+      "sha256": "cfb7e53f12cb9a6c619da7ddf37b719197cdc12fb9faac5654687eb737f4ad9a"
+    },
+    {
+      "path": "data/raw/cec_all_offices/044_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2008立委/不分區政黨/elcand.csv",
+      "bytes": 1172,
+      "sha256": "893508afa60f8c48b11e5f1faa0288938b15aed959d9d5ee513610fd2e9ef714"
+    },
+    {
+      "path": "data/raw/cec_all_offices/045_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2008立委/區域/elcand.csv",
+      "bytes": 25612,
+      "sha256": "3f6070174c0af1fbcfcc498e9b3d7aadd19f8f1f0304a138cb15c77c17d9fe18"
+    },
+    {
+      "path": "data/raw/cec_all_offices/046_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2008立委/山原/elcand.csv",
+      "bytes": 847,
+      "sha256": "d261f98e5ba7d48d40791243e0cb1a059948bf4c9d526239f6a961883154276d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/047_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2008立委/平原/elcand.csv",
+      "bytes": 581,
+      "sha256": "f102bd4034423fd5efef8ff61fc4e3a25fd0e9cad5884137cca7ee39b4729e50"
+    },
+    {
+      "path": "data/raw/cec_all_offices/048_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/區域議員/elcand.csv",
+      "bytes": 93268,
+      "sha256": "bb49c983f6a907644e9dee24d07f31999cfeb928afd260b1a771a33c5cb45ff0"
+    },
+    {
+      "path": "data/raw/cec_all_offices/049_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/山地議員/elcand.csv",
+      "bytes": 5934,
+      "sha256": "3d7fd1093e000513a714e85813e1b8bd210cab1805716545a22d0ac8565e712d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/050_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/平地議員/elcand.csv",
+      "bytes": 4723,
+      "sha256": "9c7a62d00eb31738a7c911fae24515cafa3b276ed130acee2b35413ac31b11ed"
+    },
+    {
+      "path": "data/raw/cec_all_offices/051_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/縣市長/elcand.csv",
+      "bytes": 5968,
+      "sha256": "f8399ea6258b49cf9a6a50ad5a4ddd12df6d392d2924b15062c881031875fabb"
+    },
+    {
+      "path": "data/raw/cec_all_offices/052_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/鄉鎮市長/elcand.csv",
+      "bytes": 51759,
+      "sha256": "8ba7d3834f0eb40d8029a5d9a5593362cc6ac2b2230bc227dfe7d7ce7febabed"
+    },
+    {
+      "path": "data/raw/cec_all_offices/053_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20101127-五都市長議員及里長/區域議員/elcand.csv",
+      "bytes": 65632,
+      "sha256": "c1d2c2dfbe9ed247a702c792216e87629fd70cb1003e9365c9a12fd78869678c"
+    },
+    {
+      "path": "data/raw/cec_all_offices/054_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20101127-五都市長議員及里長/山地議員/elcand.csv",
+      "bytes": 2846,
+      "sha256": "ccd1d1d141793a1e66baddd5b685afb307fa850b9492f21f7b488d68254a9bf0"
+    },
+    {
+      "path": "data/raw/cec_all_offices/055_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20101127-五都市長議員及里長/市長/elcand.csv",
+      "bytes": 1533,
+      "sha256": "53c9e89bbcf06e0dd1f243ea3b7850e189fd5941cca696d5a1c6a62ad522bf07"
+    },
+    {
+      "path": "data/raw/cec_all_offices/056_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20101127-五都市長議員及里長/平地議員/elcand.csv",
+      "bytes": 2943,
+      "sha256": "f97cb30409c231893769910c04808f0fc4a671523754ff070152c6896ad13475"
+    },
+    {
+      "path": "data/raw/cec_all_offices/057_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20101127-五都市長議員及里長/里長/elcand.csv",
+      "bytes": 799261,
+      "sha256": "6b5df8fce499ea17edfa1b8a41d9f0bee14b9330153271584eca58b3202221cd"
+    },
+    {
+      "path": "data/raw/cec_all_offices/058_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2010村里長/elcand.csv",
+      "bytes": 463476,
+      "sha256": "e951abb7561e975349ce8c4db53e7963c3e8396a9035cb5a2b62a9e3f0fc8e9d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/059_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2010鄉鎮市民代表/elcand.csv",
+      "bytes": 220664,
+      "sha256": "6597b9e25f92d98a5676cd9d9375e03e68e6e7e3ad5b5743be273418e83d3764"
+    },
+    {
+      "path": "data/raw/cec_all_offices/060_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20120114-總統及立委/不分區政黨/elcand.csv",
+      "bytes": 1109,
+      "sha256": "f6082d1c8404ff9814084b8549a904d743db1b2e9cc0026829725b362d2e0009"
+    },
+    {
+      "path": "data/raw/cec_all_offices/061_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20120114-總統及立委/區域立委/elcand.csv",
+      "bytes": 29363,
+      "sha256": "a5b4397fa6b79bbfb862de08c45450af16f9e378e67e334ee6027751bf11beab"
+    },
+    {
+      "path": "data/raw/cec_all_offices/062_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20120114-總統及立委/山地立委/elcand.csv",
+      "bytes": 705,
+      "sha256": "4526b321bcef1c97cbb00b81361e0d1844f696f7f168deafc2f2b80bc3d6ee93"
+    },
+    {
+      "path": "data/raw/cec_all_offices/063_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20120114-總統及立委/平地立委/elcand.csv",
+      "bytes": 1155,
+      "sha256": "45046f6ca71dac344a868438732f9dd025feed4178396b507acfca7930be7c5b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/064_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/20120114-總統及立委/總統/elcand.csv",
+      "bytes": 651,
+      "sha256": "485fa45e7bebea9abc91876b0bf838680811fc188995daa207728c5a3cbc507f"
+    },
+    {
+      "path": "data/raw/cec_all_offices/065_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/村里長/elcand.csv",
+      "bytes": 1564304,
+      "sha256": "7cfc58ad616434f463624444f72d8639cd66991dbbac83e62e1cb7d268bb33b9"
+    },
+    {
+      "path": "data/raw/cec_all_offices/066_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市區域議員/elcand.csv",
+      "bytes": 70577,
+      "sha256": "37ebfffea990842cc7081c4877337e1d20f537826cac35b8676b4e2b474db64c"
+    },
+    {
+      "path": "data/raw/cec_all_offices/067_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市區民代表/elcand.csv",
+      "bytes": 10518,
+      "sha256": "863f73704d2cb68eaf2a2b3777ac44626e9dd004b1c5cf2f2fccc10783c2d1c3"
+    },
+    {
+      "path": "data/raw/cec_all_offices/068_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市區長/elcand.csv",
+      "bytes": 2262,
+      "sha256": "47ee3b569c7bd6d2d0e989d087457a10dc4a7c2657df51c9c1c97a6436f96720"
+    },
+    {
+      "path": "data/raw/cec_all_offices/069_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市山原議員/elcand.csv",
+      "bytes": 2470,
+      "sha256": "4bf69b5fea7b387da0292adce9056a05e28881ec97b20ea06a0de4bd29a46b02"
+    },
+    {
+      "path": "data/raw/cec_all_offices/070_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市市長/elcand.csv",
+      "bytes": 2194,
+      "sha256": "dd8b3508799aaffe0280e3132bfca43b99dd10e7c692e5881603cd195d357e76"
+    },
+    {
+      "path": "data/raw/cec_all_offices/071_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市平原議員/elcand.csv",
+      "bytes": 3037,
+      "sha256": "da6101ad468513e9f8a5ac0fed59785db55ab0ff5c65251bc50766f8d57e529f"
+    },
+    {
+      "path": "data/raw/cec_all_offices/072_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市區域議員/elcand.csv",
+      "bytes": 88809,
+      "sha256": "4a30a07701a3546dfe57f9a70004283ec218e5a9c15f0af607c7ab150ef7b44f"
+    },
+    {
+      "path": "data/raw/cec_all_offices/073_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市山原議員/elcand.csv",
+      "bytes": 6516,
+      "sha256": "3d5391d0276093fb4721778d84b8d36c4569457d1d865ee14d45805939d9e5bd"
+    },
+    {
+      "path": "data/raw/cec_all_offices/074_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市市長/elcand.csv",
+      "bytes": 7107,
+      "sha256": "f1b81bff7840cf355e52fc4fe44b26b4b61982461ad5a7d7b3f0fa3a1f400633"
+    },
+    {
+      "path": "data/raw/cec_all_offices/075_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市平原議員/elcand.csv",
+      "bytes": 5692,
+      "sha256": "7c64985f22060d58bc8e3a6b1d47387912395f93b74f8ed62c255876e00dceca"
+    },
+    {
+      "path": "data/raw/cec_all_offices/076_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市鄉鎮市民代表/elcand.csv",
+      "bytes": 344669,
+      "sha256": "1ed725a37f8e4be6753de668f350564adc6c736dde6227d3981bde9e8a650a18"
+    },
+    {
+      "path": "data/raw/cec_all_offices/077_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市鄉鎮市民平原代表/elcand.csv",
+      "bytes": 13343,
+      "sha256": "b0d6577d167933232ee6bcf047be70ec4a8dc5bd23464de80a5630c0add91723"
+    },
+    {
+      "path": "data/raw/cec_all_offices/078_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市鄉鎮市長/elcand.csv",
+      "bytes": 52120,
+      "sha256": "94aebc6579696623d73a6ab832ff5647b62f41ff0cb6372da846056eed2195da"
+    },
+    {
+      "path": "data/raw/cec_all_offices/079_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市區域議員/elcand.csv",
+      "bytes": 76707,
+      "sha256": "ef85e65d98a562fe2a8516fd9a85433a462efc79cdc14e1bd1c39aa88358684f"
+    },
+    {
+      "path": "data/raw/cec_all_offices/080_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市區民代表/elcand.csv",
+      "bytes": 11293,
+      "sha256": "19cfbfb2e639ff2e5310856ec64e7933b6d4ff483dc09bd73092075ba12db6e7"
+    },
+    {
+      "path": "data/raw/cec_all_offices/081_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市區長/elcand.csv",
+      "bytes": 2147,
+      "sha256": "d28d646a38daadb2e6313c0331bb43835a6922dc7105581f901492d2faba5185"
+    },
+    {
+      "path": "data/raw/cec_all_offices/082_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市山原議員/elcand.csv",
+      "bytes": 3458,
+      "sha256": "7e5ddab78ddda85708e922dcdededa33f6640d8b42d872e0b090772bd619edbd"
+    },
+    {
+      "path": "data/raw/cec_all_offices/083_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市市長/elcand.csv",
+      "bytes": 2757,
+      "sha256": "9d5989aa30e6753e54722d42a979d195d8bcac9cf399cf05424b7001860be9e7"
+    },
+    {
+      "path": "data/raw/cec_all_offices/084_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市平原議員/elcand.csv",
+      "bytes": 2854,
+      "sha256": "3c7ddf71eaf43613cbd673ebeeb49396cbfcf242ee058a582dd0036a0d06b08a"
+    },
+    {
+      "path": "data/raw/cec_all_offices/085_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市村里長/elcand.csv",
+      "bytes": 909736,
+      "sha256": "77bd5248cea96f698a88982a1c81229399e2dacbd3c33c41a5662e35bd6789db"
+    },
+    {
+      "path": "data/raw/cec_all_offices/086_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市區域議員/elcand.csv",
+      "bytes": 97533,
+      "sha256": "16951fe545070e2c7df1e5d7e6922b4ff4513acbdc718675d02b41ce636b723e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/087_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市山原議員/elcand.csv",
+      "bytes": 7796,
+      "sha256": "58616de64001f72a3f16be830a15aceb42cecdc63b239ce234c13c3ba408e307"
+    },
+    {
+      "path": "data/raw/cec_all_offices/088_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市市長/elcand.csv",
+      "bytes": 7557,
+      "sha256": "3ff2e471a8a9c69465913366787a530c95c7fcc70e66d548e9205c35afd7b28a"
+    },
+    {
+      "path": "data/raw/cec_all_offices/089_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市平原議員/elcand.csv",
+      "bytes": 6851,
+      "sha256": "5c1db9c542df96eec65715e571614fe0027e9ddeb69c696b155b4c39cb44327d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/090_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市村里長/elcand.csv",
+      "bytes": 805458,
+      "sha256": "2f1f08a0960a8ca71f80c4b62d9e80ff63bd6a7546e98e49f38827957284363a"
+    },
+    {
+      "path": "data/raw/cec_all_offices/091_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市鄉鎮市民代表/elcand.csv",
+      "bytes": 373836,
+      "sha256": "230fc9f6eb24c0b7c5a09fcf1d974b2b59b107cd64faae459537232cc0053247"
+    },
+    {
+      "path": "data/raw/cec_all_offices/092_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市鄉鎮市民平原代表/elcand.csv",
+      "bytes": 15031,
+      "sha256": "bb886c2c4d024bab5b5c19d078f0c6a463e2a2d3a030d44851d2eed30355fc69"
+    },
+    {
+      "path": "data/raw/cec_all_offices/093_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市鄉鎮市長/elcand.csv",
+      "bytes": 58598,
+      "sha256": "bacbbc87b4e8b146c79296efc23a0332434c9de806ca660b2e060ec5c0193236"
+    },
+    {
+      "path": "data/raw/cec_all_offices/094_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2020總統立委/不分區政黨/elcand.csv",
+      "bytes": 1606,
+      "sha256": "46f77d94376cc4f684cbbd5b87930de51e2a38c500d1bdbd0e5bfbd2af70377b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/095_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2020總統立委/區域立委/elcand.csv",
+      "bytes": 42448,
+      "sha256": "2106bc9400f7d64784595799d2404496186cffaa56d82b14554d172d781f1b60"
+    },
+    {
+      "path": "data/raw/cec_all_offices/096_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2020總統立委/山地立委/elcand.csv",
+      "bytes": 1241,
+      "sha256": "3a0a8cc10dab27459efb2caad684a18d7bb9284aded22b9cc462448251d26d30"
+    },
+    {
+      "path": "data/raw/cec_all_offices/097_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2020總統立委/平地立委/elcand.csv",
+      "bytes": 1138,
+      "sha256": "a32beb9840e838ecf9feb9d997885a94c9eab1156e84c86583b02bef27ead483"
+    },
+    {
+      "path": "data/raw/cec_all_offices/098_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2020總統立委/總統/elcand.csv",
+      "bytes": 610,
+      "sha256": "9aea0862f86338ff1aa1ced7c23c245b6a8922e0351faa97662da83e7e26d876"
+    },
+    {
+      "path": "data/raw/cec_all_offices/099_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/C1/city/elcand.csv",
+      "bytes": 4231,
+      "sha256": "455d0336b926ef6d5c0352b408102e559bbb046f7293f10bd4dac8e9d5a100a4"
+    },
+    {
+      "path": "data/raw/cec_all_offices/100_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/C1/prv/elcand.csv",
+      "bytes": 2125,
+      "sha256": "2f9db45b93a54fa1dac4959eb5a0f2232ee2e82b8c32ca4e9f747e8b1e852de3"
+    },
+    {
+      "path": "data/raw/cec_all_offices/101_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/D1/elcand.csv",
+      "bytes": 35502,
+      "sha256": "35853ac9d8a7eee4e9882bc04148462876110dcdb3cf0cdc11af0908e1c800f0"
+    },
+    {
+      "path": "data/raw/cec_all_offices/102_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/D2/elcand.csv",
+      "bytes": 1505,
+      "sha256": "de11edb2baa6893f1a951aafd11b38f1e9b301853498db4927d118a933f01203"
+    },
+    {
+      "path": "data/raw/cec_all_offices/103_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/R1/elcand.csv",
+      "bytes": 244990,
+      "sha256": "46773806f1b6ef6389e632be7c10ea59bcb5c3afff3ad2715787974eafe494f0"
+    },
+    {
+      "path": "data/raw/cec_all_offices/104_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/R2/elcand.csv",
+      "bytes": 10228,
+      "sha256": "f7ed94b2556b5cdc78ab07ddb7a10d37fea538bbb8804d2f21e04db5dcdb9d03"
+    },
+    {
+      "path": "data/raw/cec_all_offices/105_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/R3/elcand.csv",
+      "bytes": 7140,
+      "sha256": "0b4ab7af1068906c1579eaedcc81bf022c096953a768ba2a848412bded4f8408"
+    },
+    {
+      "path": "data/raw/cec_all_offices/106_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T1/city/elcand.csv",
+      "bytes": 60829,
+      "sha256": "424fe34e9450796a3a2235ea75f0ff245104a6fa2f586a6bdd269c0e14ba6104"
+    },
+    {
+      "path": "data/raw/cec_all_offices/107_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T1/prv/elcand.csv",
+      "bytes": 48472,
+      "sha256": "af38d1e0ca691d9e353fcfb3e154f0cbe1f178d6e796ce7441ef7cb52d02f1b9"
+    },
+    {
+      "path": "data/raw/cec_all_offices/108_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T2/city/elcand.csv",
+      "bytes": 3470,
+      "sha256": "42cedd03d0943b4340eb69f85747c988be042eeb0321418a932c2d92d6340517"
+    },
+    {
+      "path": "data/raw/cec_all_offices/109_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T2/prv/elcand.csv",
+      "bytes": 2064,
+      "sha256": "d5dc7b0ad7c5bb2b9457e1169c8afbf9c04383bbd7dd3eb771cb73062165c93e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/110_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T3/city/elcand.csv",
+      "bytes": 3730,
+      "sha256": "b323d6713df428b57161e3b1b6799ebf25d679ef9948e8fe4fbb3fa0d7cfbc73"
+    },
+    {
+      "path": "data/raw/cec_all_offices/111_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T3/prv/elcand.csv",
+      "bytes": 2250,
+      "sha256": "231579c3e82e80876f97ca48c9dba024f83691dd0e93f48c06cdc7875fe68a3e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/112_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/V1/elcand.csv",
+      "bytes": 1069779,
+      "sha256": "f355705254d5ca457d4fe130b77983b769602126b10713e7c968889d2d52530c"
+    },
+    {
+      "path": "data/raw/cec_all_offices/113_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2024總統立委/不分區政黨/elcand.csv",
+      "bytes": 1376,
+      "sha256": "80a314a18d41670d0c223578f09f78fe5d059e30d268998a13c6b238cb49a514"
+    },
+    {
+      "path": "data/raw/cec_all_offices/114_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2024總統立委/區域立委/elcand.csv",
+      "bytes": 31868,
+      "sha256": "c12d44a515ba13fb86f76c1c6f1e5eca379a0e5579a2e3aa0965ec42dc9cb480"
+    },
+    {
+      "path": "data/raw/cec_all_offices/115_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2024總統立委/山地立委/elcand.csv",
+      "bytes": 1115,
+      "sha256": "7ccc174f387c5b2ab97b004efa29e7218bdf7e4b6b94f896b1009d662cdc168e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/116_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2024總統立委/平地立委/elcand.csv",
+      "bytes": 970,
+      "sha256": "cf9a675fd5d26c6a6f2961f3c0654699c0fe7905c81a2e68d26d9f3cd852ee3d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/117_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/2024總統立委/總統/elcand.csv",
+      "bytes": 618,
+      "sha256": "30fca9aebe98d9694158a579bd1528ae224954c7abd525a90c0cfa1f56d7dac4"
+    },
+    {
+      "path": "data/raw/cec_all_offices/118_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/3屆立委/區域/elcand.csv",
+      "bytes": 17471,
+      "sha256": "8ab02878de8f5736a6b1a17cc3b86914a02576729bb9d066c3822fbdd0c705b9"
+    },
+    {
+      "path": "data/raw/cec_all_offices/119_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/3屆立委/山原/elcand.csv",
+      "bytes": 503,
+      "sha256": "b72ab7eb710e0c5fe26b8ab8da3e559bb709eb8573f278585f2e3cfd20fbc338"
+    },
+    {
+      "path": "data/raw/cec_all_offices/120_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/3屆立委/平原/elcand.csv",
+      "bytes": 492,
+      "sha256": "8544571218af28d2e81aac4f819fd12de54ce97673ee04a154aaeacd047fb325"
+    },
+    {
+      "path": "data/raw/cec_all_offices/121_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/4屆立委/區域/elcand.csv",
+      "bytes": 21289,
+      "sha256": "fe5249d37eb558883e86d6c21675d6d7ca57d842abad8b8cc70e7b89062cc84b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/122_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/4屆立委/山原/elcand.csv",
+      "bytes": 528,
+      "sha256": "b600da9c873307c5cc3f4578cd2ea2ad827f98ec189fdefb4127df4128d13f47"
+    },
+    {
+      "path": "data/raw/cec_all_offices/123_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/4屆立委/平原/elcand.csv",
+      "bytes": 338,
+      "sha256": "935dfb441cea4c4edb03b1132f66e0adb9ff9b3494197a0a440a0d28bd0ea059"
+    },
+    {
+      "path": "data/raw/cec_all_offices/124_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/5屆立委/區域/elcand.csv",
+      "bytes": 24179,
+      "sha256": "88d30abf8a42f264bc9c45fcb68590eb1059e762ca79fe6d8becf2f0fc122ffd"
+    },
+    {
+      "path": "data/raw/cec_all_offices/125_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/5屆立委/山原/elcand.csv",
+      "bytes": 675,
+      "sha256": "c1e3dcc2d841fa29906c252c5459d66efe9aad409c3b62645c1094ca1e172a17"
+    },
+    {
+      "path": "data/raw/cec_all_offices/126_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/5屆立委/平原/elcand.csv",
+      "bytes": 498,
+      "sha256": "e7cbef8aea0ce8505b2996f7fe4abd9cbcb40fe46a6eb5737eb93251e5a6e09a"
+    },
+    {
+      "path": "data/raw/cec_all_offices/127_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/9任總統/elcand.csv",
+      "bytes": 441,
+      "sha256": "9b3716e9c34cf09efa9fb4c914b4bc64f58f9d941c2994fdab1a666f3fd8d56f"
+    },
+    {
+      "path": "data/raw/cec_all_offices/128_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2009苗栗縣1/elcand.csv",
+      "bytes": 119,
+      "sha256": "23a5616421e3c7f747b0f14b3364f246e711bd602c15bf935da5dc9299110cd0"
+    },
+    {
+      "path": "data/raw/cec_all_offices/129_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2010台中縣3/elcand.csv",
+      "bytes": 118,
+      "sha256": "c40be0b605c49815c876d36e895cc7217f3f4afce5214bbea86e958b3e324d5b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/130_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2010新竹縣/elcand.csv",
+      "bytes": 118,
+      "sha256": "6948d73241237141d9b0c623cafb6c1c075f7dc42518cacfb34a63ccbf807ad8"
+    },
+    {
+      "path": "data/raw/cec_all_offices/131_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2010桃園縣2/elcand.csv",
+      "bytes": 178,
+      "sha256": "3784eea03ec23846de265e4224e1e10f1268b6dc028a5a85f78e3fca2db07af6"
+    },
+    {
+      "path": "data/raw/cec_all_offices/132_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2010桃園縣3/elcand.csv",
+      "bytes": 238,
+      "sha256": "b312876365a5f506c9dbe0f30b496c6c4de6144722deda40dfa237e9395f03c1"
+    },
+    {
+      "path": "data/raw/cec_all_offices/133_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2015南投縣2/elcand.csv",
+      "bytes": 158,
+      "sha256": "be911d7b2da117210ff93126704a243eb1b9585458b5126671000a09926fb67d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/134_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2015台中市6/elcand.csv",
+      "bytes": 105,
+      "sha256": "f5ba4e5f439b3a1f35fd7c26a87c3c506371d2a72bfd2a0665e8dfdb5ef0f097"
+    },
+    {
+      "path": "data/raw/cec_all_offices/135_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2015屏東縣3/elcand.csv",
+      "bytes": 219,
+      "sha256": "607bba9fa5bc63fa770c46df38cb0bdf6592b56f005900dc987441f24bc9f95d"
+    },
+    {
+      "path": "data/raw/cec_all_offices/136_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2015彰化縣4/elcand.csv",
+      "bytes": 211,
+      "sha256": "969c3b4c2098e29c6f71147b429b408677e3e5edb1659db36aa997ffe353321b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/137_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/2015苗栗縣2/elcand.csv",
+      "bytes": 158,
+      "sha256": "e46df8386b32ffd95f2b6e2a07dcae97f629716d16aafed373a73100811cf7ee"
+    },
+    {
+      "path": "data/raw/cec_all_offices/138_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/南投縣1/elcand.csv",
+      "bytes": 118,
+      "sha256": "144de9aa8a87ea1f5f84887eefa66f607d77358b4b032b04e50b87f210e934be"
+    },
+    {
+      "path": "data/raw/cec_all_offices/139_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/台中市2/elcand.csv",
+      "bytes": 177,
+      "sha256": "e1f4e8c7c747a9595e418596d2cdf59af21a2c2de06ccbc2b9d7c2649dabab9e"
+    },
+    {
+      "path": "data/raw/cec_all_offices/140_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/台北市6/elcand.csv",
+      "bytes": 417,
+      "sha256": "f7e513b91a7b9500a5b0e59a28c712b7468c748eae98974bef08d8341866ef8b"
+    },
+    {
+      "path": "data/raw/cec_all_offices/141_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/台南市4/elcand.csv",
+      "bytes": 178,
+      "sha256": "d8b62b2aded021fd138fcb31ae649087fdb0af31a65df5a17985e1731273adf9"
+    },
+    {
+      "path": "data/raw/cec_all_offices/142_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/嘉義縣2/elcand.csv",
+      "bytes": 118,
+      "sha256": "8db9afd996425b4c228336fb7d31419e3f4485491baf4b0079c5318829ba0584"
+    },
+    {
+      "path": "data/raw/cec_all_offices/143_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/臺東縣/elcand.csv",
+      "bytes": 178,
+      "sha256": "2dbe7f684c473c856e47a1d297e16fe66d915b9e1f8c793522a883841b174e42"
+    },
+    {
+      "path": "data/raw/cec_all_offices/144_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/花蓮縣/elcand.csv",
+      "bytes": 178,
+      "sha256": "0e4046f8a985ab658093b51de670029c9aa30ea46e4db74ad7a24561fbe2b0d0"
+    },
+    {
+      "path": "data/raw/cec_all_offices/145_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/雲林縣2/elcand.csv",
+      "bytes": 177,
+      "sha256": "920094d86b146937af0c789bc0d4fbefbaa7abcc0d4843b8bd22d687336360fd"
+    },
+    {
+      "path": "data/raw/cec_all_offices/146_elcand.csv",
+      "archive_member": "votedata/votedata/voteData/立委補選/高雄市4/elcand.csv",
+      "bytes": 118,
+      "sha256": "4339be63297f0c70eea687fcb2b9121e4938629d6eeb2939887892a487005935"
+    }
+  ],
+  "scope_limit": "Archive contents, not a complete lifetime census; proportional lists in elcand.csv can contain parties rather than people."
+}

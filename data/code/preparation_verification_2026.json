@@ -1,0 +1,18 @@
+{
+  "raw_hashes": {
+    "2026_metropolitan_registration.pdf": "5ab6ec29145feab84f8e697495f039217bb18ace252382e7e150bb1ea7ae18fa",
+    "2026_county_registration.pdf": "97c32aa206bfd5d1e07d5b9658f853b6b038053b662dd04fdd0132af614a8136",
+    "cec_registration_2026_source_table.csv": "c057759cabef3f0b6f7a9137d8e85c9afee2b45358c8c31e764ced4cae8c85f0",
+    "historical_mayor_candidates_2001_2022.csv": "ed8f63163d5f0c82301671301e658167cdc4eea5fa81aee8d9078c3226abb097"
+  },
+  "output_hashes": {
+    "candidates_2026_registration": "765797d09de8e70f6cb54486cf660c44f93e7aab1c68c3a6233db60aad7c5832",
+    "candidate_prior_mayor_name_matches": "8a75f370e91438b5eb1462d328baa60473dbae29964f36fbeb48c8aa8e134c4f",
+    "campaign_collection_worklist": "c0986b0282dc2b9911c46f864fff459bef189260db1b0a0fa16c09fe1e5c006d"
+  },
+  "output_rows": {
+    "candidates_2026_registration": 81,
+    "candidate_prior_mayor_name_matches": 25,
+    "campaign_collection_worklist": 81
+  }
+}
