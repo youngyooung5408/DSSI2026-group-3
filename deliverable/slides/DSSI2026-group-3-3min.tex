@@ -1,0 +1,93 @@
+% Compile with XeLaTeX. Edit the text inside each frame to revise the slides.
+\documentclass[aspectratio=169,11pt]{beamer}
+% Use TeX-provided fonts: the built-in compiler cannot access macOS system fonts.
+\usepackage[UTF8,fontset=fandol]{ctex}
+\usetheme{default}
+\definecolor{ink}{HTML}{182D39}
+\definecolor{accent}{HTML}{47736C}
+\definecolor{paper}{HTML}{FAF9F5}
+\setbeamercolor{normal text}{fg=ink,bg=paper}
+\setbeamercolor{frametitle}{fg=ink}
+\setbeamercolor{structure}{fg=accent}
+\setbeamerfont{frametitle}{size=\LARGE,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{\hfill\insertframenumber\,/\,\inserttotalframenumber\hspace{6mm}\vspace{4mm}}
+\setbeamersize{text margin left=10mm,text margin right=10mm}
+\newcommand{\subtitleline}[1]{{\color{accent}\large #1}\par\vspace{8mm}}
+\newcommand{\point}[1]{{\large #1}\par\vspace{7mm}}
+
+\begin{document}
+
+%revised: Use Chinese list separators supported by the font.
+\begin{frame}[plain]
+% message: 核心問題是依個人背景建立候選人類型，再比較競選策略。
+% presenter notes: 0:00–0:25（25秒）
+% 大家好，我們第三組的核心問題是：如何依個人背景，將二〇二六年縣市長候選人分成幾種類型？
+% 我們希望用年齡、性別、學歷、黨派和參選經驗，整理出背景相近的候選人，再比較各類的競選策略。
+% 接下來介紹分類依據，以及目前的資料進度。
+\vspace{8mm}
+{\Huge\bfseries 候選人分類 \par}
+\vspace{10mm}
+{\color{accent}\Large 建立候選人類型，再比較競選策略\par}
+\vspace{12mm}
+第三組｜張睿庠、楊喬茵、許以琳
+% Student IDs: B12303030 / B12303061 / B12303131
+\end{frame}
+
+% -----------------
+\begin{frame}{我們要比較什麼？}
+% message: 區分候選人背景與競選策略，讓印象成為可比較的問題。
+% presenter notes: 0:25–1:05（40秒）
+% 研究分成兩個部分。第一個是候選人背景，包括年齡、性別、學歷、黨派，以及是不是第一次參選。
+% 第二個是競選方式，我們想看社群經營、政見關注哪些議題，以及競選的主視覺。
+% 以社群為例，我們會比較貼文量；政見則看議題重點。重點是把常聽到的印象，變成可以用資料比較的問題。
+\subtitleline{把「候選人背景」和「競選策略」放在一起看}
+\point{候選人背景：年齡、性別、學歷、黨派、參選經驗}
+\point{競選策略：社群經營、政見焦點、主視覺}
+\point{例子：不同年齡的候選人，貼文量是否不同？}
+\end{frame}
+
+% -----------------
+\begin{frame}{目前已整理候選人背景資料}
+% message: 已有81位登記者的資料，但策略資料與部分背景仍待補齊。
+% presenter notes: 1:05–1:40（35秒）
+% 目前我們已經整理八十一位登記者，涵蓋二十二個縣市。
+% 資料主要來自中選會名冊、官方人物介紹，以及候選人官網，另外保留媒體補充資料的來源。
+% 不過，背景欄位還有缺漏，八十一位登記者也還不等於最後研究樣本。
+% 完整社群貼文、追蹤數和主視覺仍要蒐集，不能把沒取得的資料當成零。
+\subtitleline{資料盤點截至 2026 年 10 月 17 日}
+\point{81 位登記者，涵蓋 22 縣市}
+\point{主要來源：中選會名冊、官方人物頁與候選人官網}
+\point{尚缺：完整社群貼文、追蹤數與主視覺資料}
+\end{frame}
+
+% -----------------
+\begin{frame}{接下來怎麼分析？}
+% message: 先依背景分群，再比較策略，分類模型為輔助分析。
+% presenter notes: 1:40–2:25（45秒）
+% 分析會先把背景相近的候選人分在一起。你可以把它想成整理出幾種候選人類型，實際分幾組還要看資料。
+% 接著比較各組的社群貼文、政見議題和視覺風格。競選策略不會拿來決定分組，避免先用策略分組，再說各組策略不同。
+% 如果資料足夠，最後會用簡單分類模型，看看只看競選方式，能不能辨識事先定義的候選人類型。這部分是輔助分析。
+\subtitleline{先分組，再比較競選方式}
+\point{1. 依背景相似程度，把候選人分組}
+\point{2. 比較各組的貼文量、政見議題與視覺風格}
+\point{3. 資料足夠時，再試著用策略辨識候選人類型}
+\end{frame}
+
+% -----------------
+\begin{frame}{我們希望看見哪些差異？}
+% message: 目前是資料準備階段，研究只描述差異，不做因果推論。
+% presenter notes: 2:25–3:00（35秒）
+% 我們希望最後能清楚說明：哪些候選人類型，在社群、政見和視覺上有什麼差異。
+% 現在完成的是一輪資料蒐集與整理，還沒有策略比較的結果。
+% 下一步要補齊資料，並訂出一致的分類標準，讓不同組員用同樣方式判讀。
+% 這個研究只描述差異，不會說某個背景造成某種策略，也不會直接推論哪種策略能贏。謝謝大家。
+\subtitleline{用資料整理競選方式，檢查原本的印象}
+\point{目前：完成一輪資料蒐集與整理，\\還沒有策略比較結果}
+\point{下一步：補齊策略資料，訂出一致的分類標準}
+\point{研究界線：描述差異，不推論因果或選舉勝負}
+\end{frame}
+
+% Sources (project-relative): report/DSSI2026-group-3.md; PROJECT.md.
+% Data status: ../election/README.md, saved version 2026-10-17.
+\end{document}
