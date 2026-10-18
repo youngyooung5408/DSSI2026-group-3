@@ -159,6 +159,12 @@ creation and sharing remain subject to their separate task authorization.
 
 ## Course Repository and Git Workflow
 
+When a student asks AI to commit, push, submit changes to GitHub, or provide
+shell commands for those actions, first use
+`skills/prepare-work-record/SKILL.md` to inspect the intended changes and prepare
+a work record. Then provide student-run commands without executing Git mutations.
+This conversation-triggered workflow does not monitor GitHub in the background.
+
 Students first create their own group repository, clone it through VS Code, and
 place the complete student-kit contents at its root, including hidden project
 files. Each member works in their own local clone. Open that root in VS Code and
@@ -504,6 +510,7 @@ Use repo-local skills in `skills/` when the task matches:
 - `processed-data-documentation`
 - `maintain-data-documentation`
 - `maintain-project-context`
+- `prepare-work-record`
 - `stat-analysis`
 - `prediction-model`
 - `stata-analysis`
