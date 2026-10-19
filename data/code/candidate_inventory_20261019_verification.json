@@ -1,0 +1,97 @@
+{
+  "master": {
+    "path": "data/processed/candidate_master_inventory_20261019.csv",
+    "rows": 1583,
+    "columns": [
+      "candidate_key",
+      "candidate_name",
+      "office_type",
+      "county_city",
+      "electoral_district",
+      "party_registration_raw",
+      "registration_source",
+      "registration_source_file",
+      "registration_source_page",
+      "qualification_inherited",
+      "qualification_audit",
+      "sample_inclusion",
+      "directory_lead_count",
+      "updated_date",
+      "sex_status",
+      "birth_date_status",
+      "education_status",
+      "incumbency_status",
+      "first_time_this_office_status",
+      "first_time_any_office_status",
+      "profile_status",
+      "website_status",
+      "Facebook_status",
+      "Instagram_status",
+      "Threads_status",
+      "posts_Facebook_status",
+      "posts_Instagram_status",
+      "posts_Threads_status",
+      "followers_status",
+      "policy_text_status",
+      "visual_status",
+      "political_family_status",
+      "administrative_experience_status",
+      "qualification_status"
+    ],
+    "sha256": "1c5b8e716033949518a71c8972c21b3671de9487e25563d7c37f23b6ceb03474",
+    "checks": "schema, exact read-back, declared keys; not analysis-ready"
+  },
+  "gaps": {
+    "path": "data/processed/candidate_field_inventory_20261019.csv",
+    "rows": 31660,
+    "columns": [
+      "candidate_key",
+      "candidate_name",
+      "office_type",
+      "county_city",
+      "field",
+      "status",
+      "existing_value",
+      "evidence",
+      "note",
+      "next_source",
+      "updated_date"
+    ],
+    "sha256": "89bf3771afe5d0faf2c2e8353ab208a8459dc8b17e336c3da1f4b251473b3f7b",
+    "checks": "schema, exact read-back, declared keys; not analysis-ready"
+  },
+  "profiles": {
+    "path": "data/processed/candidate_profile_leads_20261019.csv",
+    "rows": 692,
+    "columns": [
+      "candidate_key",
+      "candidate_name",
+      "county_city",
+      "directory_key",
+      "profile_url",
+      "match_status",
+      "education_raw",
+      "experience_raw",
+      "http_status",
+      "page_contains_name",
+      "source_file",
+      "sha256",
+      "capture_error",
+      "captured_date"
+    ],
+    "sha256": "52b723bdeea132df0f5ef9f9ac97594993784ba84edb796c82f0959d63236a3f",
+    "checks": "schema, exact read-back, declared keys; not analysis-ready"
+  },
+  "summary": {
+    "path": "data/processed/candidate_inventory_summary_20261019.csv",
+    "rows": 108,
+    "columns": [
+      "office_type",
+      "field",
+      "status",
+      "count"
+    ],
+    "sha256": "78dfdb83eac1197585deb6bc82e0e987c7b45fdbfe8c0b7f626ab92809ba242f",
+    "checks": "schema, exact read-back, declared keys; not analysis-ready"
+  }
+}

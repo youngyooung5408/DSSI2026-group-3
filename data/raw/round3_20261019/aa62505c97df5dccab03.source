@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+	<meta charset="UTF-8">
+<base href="https://teamtaiwan.dpp.org.tw/" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>台灣好生活，團結拚未來</title>
+<meta property="og:title" content="台灣好生活，團結拚未來" />
+
+<meta name="description" content="縣市好人才 團結拚未來!">
+<meta property="og:description" content="縣市好人才 團結拚未來!" />
+
+
+<meta property="og:image" content="https://teamtaiwan.dpp.org.tw/asset/types/election/img/ogimg.jpg" />
+
+<link href="https://teamtaiwan.dpp.org.tw/asset/types/election/img/favicon.ico" rel="icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://teamtaiwan.dpp.org.tw/asset/types/election/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="https://teamtaiwan.dpp.org.tw/asset/types/election/css/animate.min.css" rel="stylesheet" type="text/css">
+<link href="https://teamtaiwan.dpp.org.tw/asset/types/election/css/slick.css" rel="stylesheet" type="text/css">
+<link href="https://teamtaiwan.dpp.org.tw/asset/types/election/css/style.css?v=1.03" rel="stylesheet" type="text/css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QDJL1MYE4Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QDJL1MYE4Q');
+</script></head>
+<body>
+		<header>
+		<div class="header_bg"></div>
+		<div class="menu">
+			<div class="menu_row flex">
+				<div class="menu_item active">
+					<a href="javascript:;" class="menu_btn" onclick="goto('#mayor')">縣市長候選人</a>
+				</div>
+				<div class="menu_item">
+					<a href="https://teamtaiwan.dpp.org.tw/councilor" class="menu_btn">直轄市議員候選人</a>
+				</div>
+				<div class="menu_item">
+					<a href="https://teamtaiwan.dpp.org.tw/localpolicy" class="menu_btn">共同政見</a>
+				</div>
+				<div class="menu_item">
+					<a href="https://teamtaiwan.dpp.org.tw/achievement" class="menu_btn">縣市好政見</a>
+				</div>
+				<div class="menu_item">
+					<a href="javascript:;" class="menu_btn" onclick="goto('#video')">影音專區</a>
+				</div>
+				<div class="menu_item">
+					<a href="https://teamtaiwan.dpp.org.tw/anti_rumor" class="menu_btn">闢謠專區</a>
+				</div>
+			</div>
+		</div>
+		<a href="https://teamtaiwan.dpp.org.tw/" class="header_logo">
+			<img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/logo.png?v=20260714">
+		</a>
+		<div class="mobile_btn">
+			<img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/mobile_btn.png">
+		</div>
+	</header>	<main>
+
+				<section class="kv">
+			<div class="kv_slick">
+								<div class="kv_item">
+															<a href="https://teamtaiwan.dpp.org.tw#mayor" target="_self" class="kv_abtn">
+						<img src="/uploads/banner/1/b78bc5a9ff73a7fc732d6297468c6726.jpg" class="kv_img_pc">
+												<img src="/uploads/banner/4/d8f0d02ff943bc8f1eaa3383c02ec787.jpg" class="kv_img_m">
+											</a>
+									</div>
+								<div class="kv_item">
+															<a href="https://teamtaiwan.dpp.org.tw/localpolicy" target="_self" class="kv_abtn">
+						<img src="/uploads/banner/7/31d9f2b46a267409680de25a95f89889.jpg" class="kv_img_pc">
+												<img src="/uploads/banner/8/2bd7ec81c698aa148f1041ea2b21c984.jpg" class="kv_img_m">
+											</a>
+									</div>
+								<div class="kv_item">
+															<a href="https://teamtaiwan.dpp.org.tw/localpolicy" target="_self" class="kv_abtn">
+						<img src="/uploads/banner/3/a746a0bf32ff4f0a683c66178016ec4a.jpg" class="kv_img_pc">
+												<img src="/uploads/banner/6/97fca0804911e865f5cb73c3ad314cc6.jpg" class="kv_img_m">
+											</a>
+									</div>
+							</div>
+		</section>
+		
+		<section class="main_sec" id="mayor">
+			<div class="container">
+				<h3 class="sec_title">縣市長候選人</h3>
+				<div class="sec_title_udl"></div>
+				<div class="mayor_slick" id="mayor_data">
+					
+				</div>
+			</div>
+		</section>
+		<!--
+		<section class="main_sec bg2" id="councilor">
+			<div class="container">
+				<h3 class="sec_title">縣市議員候選人</h3>
+				<div class="sec_title_udl"></div>
+				<select class="councilor_sel">
+					<option>台北市</option>
+					<option>新北市</option>
+					<option>桃園市</option>
+				</select>
+				<div class="wow animate__fadeIn">
+					<div class="councilor_list flex">
+						<div class="councilor_item">
+							<div class="councilor_box flex">
+								<div class="councilor_area">第一選區<br>(士林、北投)</div>
+								<div class="councilor_people">
+									<div class="flex flex-v-center">
+										<div class="councilor_photo">
+											<img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/councilor/b01.jpg">
+										</div>
+										<div class="councilor_name">陳賢蔚</div>
+									</div>
+								</div>
+								<div class="councilor_web">
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_line.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_threads.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_fb.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_ig.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_link.png"></a>
+								</div>
+							</div>
+						</div>
+						<div class="councilor_item">
+							<div class="councilor_box flex">
+								<div class="councilor_area">第一選區<br>(士林、北投)</div>
+								<div class="councilor_people">
+									<div class="flex flex-v-center">
+										<div class="councilor_photo">
+											<img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/councilor/b02.jpg">
+										</div>
+										<div class="councilor_name">林延鳳</div>
+									</div>
+								</div>
+								<div class="councilor_web">
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_line.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_threads.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_fb.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_ig.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_link.png"></a>
+								</div>
+							</div>
+						</div>
+						<div class="councilor_item">
+							<div class="councilor_box flex">
+								<div class="councilor_area">第二選區<br>(內湖、南港)</div>
+								<div class="councilor_people">
+									<div class="flex flex-v-center">
+										<div class="councilor_photo">
+											<img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/councilor/b03.jpg">
+										</div>
+										<div class="councilor_name">王孝維</div>
+									</div>
+								</div>
+								<div class="councilor_web">
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_line.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_threads.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_fb.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_ig.png"></a>
+									<a href="javascript:;" class="councilor_abtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_link.png"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		-->
+        <section class="main_sec bg2" id="policy">
+			<div class="container">
+				<h3 class="sec_title">共同政見</h3>
+				<div class="sec_title_udl"></div>
+				<div class="row mb-30">
+																
+                                        <div class="news_item col-6 col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/localpolicy-page/9bebf66f-5bb0-4229-ac82-e633401dad8e" target="_self" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/localpolicy/22/ccee854cb2c5bbe8b0f00985ed2af109.png">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-06-30</div>
+								<div class="newsb_title">台灣好生活 加薪、減稅、增福利、減負擔！</div>
+								<div class="newsb_text">
+																	</div>
+							</div>
+						</a>
+					</div>											
+                                        <div class="news_item col-6 col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/localpolicy-page/d2fa9d1e-d1b2-4879-ba8d-eeb2ff03284b" target="_self" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/localpolicy/1/992706708e56a4d6b9a5af380a848fd2.png">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-06-29</div>
+								<div class="newsb_title">全民打拚！拚回亞洲四小龍第一！</div>
+								<div class="newsb_text">
+																	</div>
+							</div>
+						</a>
+					</div>											
+                                        <div class="news_item col-6 col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/localpolicy-page/2a5553fb-2c4a-430a-bdfc-1aa2fa39e4ea" target="_self" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/localpolicy/2/85be73a6c289979b06cb0afbb78d716b.png">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-06-29</div>
+								<div class="newsb_title">競爭力排名創歷年新高</div>
+								<div class="newsb_text">
+																	</div>
+							</div>
+						</a>
+					</div>											
+                                        <div class="news_item col-6 col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/localpolicy-page/1e13b3e9-76df-4760-a82e-730b3f2bcfb1" target="_self" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/localpolicy/3/43d6606458bd845d46122c6180710881.png">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-06-29</div>
+								<div class="newsb_title">經濟成果全民共享！連續10年加薪！</div>
+								<div class="newsb_text">
+																	</div>
+							</div>
+						</a>
+					</div>														</div>
+				                    <div class="video_slick slick_arrow2 mb-30">
+						<div class="video_item">
+							<a href="https://www.youtube.com/watch?v=hD4kR4Gafrc" target="_blank" class="video_box">
+								<div class="videob_img">
+									<img src="https://img.youtube.com/vi/hD4kR4Gafrc/hqdefault.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="video_item">
+							<a href="https://www.youtube.com/watch?v=nAJVZu1jJq0" target="_blank" class="video_box">
+								<div class="videob_img">
+									<img src="https://img.youtube.com/vi/nAJVZu1jJq0/hqdefault.jpg" alt="">
+								</div>
+							</a>
+						</div>
+						<div class="video_item">
+							<a href="https://www.youtube.com/watch?v=KLbYd5CQXoA&feature=youtu.be" class="video_box">
+								<div class="videob_img">
+									<img src="https://img.youtube.com/vi/KLbYd5CQXoA/hqdefault.jpg" alt="">
+								</div>
+							</a>
+						</div>
+					</div>				<a href="https://teamtaiwan.dpp.org.tw/localpolicy" class="btn_more">更多消息</a>
+			</div>
+		</section>
+        
+		<section class="main_sec" id="policy">
+			<div class="container">
+				<h3 class="sec_title">縣市好政見</h3>
+				<div class="sec_title_udl"></div>
+				<div class="row mb-30">
+																                                        <div class="news_item col-6 col-md-3">
+						<a href="https://www.facebook.com/wayne201817/posts/pfbid02Ayg82BxpLJTnjR8fQiXkfXER3BFvQzqQvFjYBq2N8wcSzrMbdpzvCH15YsKFnMzNl" target="_blank" rel="noopener noreferrer" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/achievement/175/bac0432be1cb713ef5c400d83e38dc94.png" alt="WE CARE 教育政策">
+							</div>
+							<div class="hide">WE CARE 教育政策</div>
+							<div class="hide">
+                                							</div>
+						</a>
+					</div>											                                        <div class="news_item col-6 col-md-3">
+						<a href="https://www.facebook.com/share/p/1BX958yErr/" target="_blank" rel="noopener noreferrer" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/achievement/7/7f312fb1bbeba02a6d904a834a07f338.jpg" alt="四大政見強化基隆社安網">
+							</div>
+							<div class="hide">四大政見強化基隆社安網</div>
+							<div class="hide">
+                                							</div>
+						</a>
+					</div>											                                        <div class="news_item col-6 col-md-3">
+						<a href="https://www.facebook.com/photo.php?fbid=122116992555086317&set=pb.61582589525417.-2207520000&type=3" target="_blank" rel="noopener noreferrer" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/achievement/3/a0ae999dd52391665e13f5a86203efc6.jpg" alt="補助 0-6 歲幼兒掛號費，讓育兒不再是壓力！">
+							</div>
+							<div class="hide">補助 0-6 歲幼兒掛號費，讓育兒不再是壓力！</div>
+							<div class="hide">
+                                							</div>
+						</a>
+					</div>											                                        <div class="news_item col-6 col-md-3">
+						<a href="https://www.facebook.com/puma.taipei/posts/pfbid0ANcEs1Kc6MChyXt8o2bMaYUm6gGWcJtEX5EUCEppcR9c3jUCtQpKr1T7C8kQSJ3wl" target="_blank" rel="noopener noreferrer" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="/uploads/achievement/142/0fac73bb491043f624799b7706209d6c.jpg" alt="「首都文化徑 × 山林徑」政策，從四大方向，重新串起台北的文化與山林">
+							</div>
+							<div class="hide">「首都文化徑 × 山林徑」政策，從四大方向，重新串起台北的文化與山林</div>
+							<div class="hide">
+                                							</div>
+						</a>
+					</div>														</div>
+				<a href="https://teamtaiwan.dpp.org.tw/achievement" class="btn_more">更多消息</a>
+			</div>
+		</section>
+		
+		<section class="main_sec bg3" id="video">
+			<div class="container">
+				<h4 class="sec_title2">短影片專區</h4>
+				<div class="svideo_slick slick_arrow2">
+																					                    <div class="svideo_item">
+						<a href="https://www.youtube.com/shorts/iSFbm5oJqfI" class="svideo_box" data-youtube-id="iSFbm5oJqfI" target="_blank">
+							<div class="svideob_img">
+								<img src="https://img.youtube.com/vi/iSFbm5oJqfI/sddefault.jpg" alt="周春米：比起得獎，公共建設使用率的提升，才是最大肯定！">
+							</div>
+							<div class="videob_title">周春米：比起得獎，公共建設使用率的提升，才是最大肯定！</div>
+						</a>
+					</div>																                    <div class="svideo_item">
+						<a href="https://www.youtube.com/shorts/QaDagDQe8A4" class="svideo_box" data-youtube-id="QaDagDQe8A4" target="_blank">
+							<div class="svideob_img">
+								<img src="https://img.youtube.com/vi/QaDagDQe8A4/sddefault.jpg" alt="從玩模擬城市 樹立對基隆建設的想像 #訂閱好人才 #基隆市長候選人童子瑋">
+							</div>
+							<div class="videob_title">從玩模擬城市 樹立對基隆建設的想像 #訂閱好人才 #基隆市長候選人童子瑋</div>
+						</a>
+					</div>																                    <div class="svideo_item">
+						<a href="https://www.youtube.com/shorts/tmN6r_ZB52I" class="svideo_box" data-youtube-id="tmN6r_ZB52I" target="_blank">
+							<div class="svideob_img">
+								<img src="https://img.youtube.com/vi/tmN6r_ZB52I/sddefault.jpg" alt="讓年輕人放心生活、安居樂業，也讓每一位台中人，都能再次以這座城市為榮！請一起支持民進黨的台中市長候選">
+							</div>
+							<div class="videob_title">讓年輕人放心生活、安居樂業，也讓每一位台中人，都能再次以這座城市為榮！請一起支持民進黨的台中市長候選</div>
+						</a>
+					</div>																                    <div class="svideo_item">
+						<a href="https://www.youtube.com/shorts/gH--cpTmNTI" class="svideo_box" data-youtube-id="gH--cpTmNTI" target="_blank">
+							<div class="svideob_img">
+								<img src="https://img.youtube.com/vi/gH--cpTmNTI/sddefault.jpg" alt="縣市共好，宜蘭更好！#訂閱好人才 #宜蘭縣長候選人林國漳 #宜蘭市長候選人韓瑩">
+							</div>
+							<div class="videob_title">縣市共好，宜蘭更好！#訂閱好人才 #宜蘭縣長候選人林國漳 #宜蘭市長候選人韓瑩</div>
+						</a>
+					</div>																                    <div class="svideo_item">
+						<a href="https://www.youtube.com/shorts/cPyzNMD7DN0" class="svideo_box" data-youtube-id="cPyzNMD7DN0" target="_blank">
+							<div class="svideob_img">
+								<img src="https://img.youtube.com/vi/cPyzNMD7DN0/sddefault.jpg" alt="宜蘭囡仔韓瑩 多年來在外打拚，回到宜蘭市，希望用更開闊的視野與實際行動，為宜蘭市開創更多可能✨">
+							</div>
+							<div class="videob_title">宜蘭囡仔韓瑩 多年來在外打拚，回到宜蘭市，希望用更開闊的視野與實際行動，為宜蘭市開創更多可能✨</div>
+						</a>
+					</div>																                    <div class="svideo_item">
+						<a href="https://www.youtube.com/shorts/kul90FMcbl8" class="svideo_box" data-youtube-id="kul90FMcbl8" target="_blank">
+							<div class="svideob_img">
+								<img src="https://img.youtube.com/vi/kul90FMcbl8/sddefault.jpg" alt="橫跨公益、教育、行政與法理，30年的深耕累積 #訂閱好人才 #宜蘭縣長候選人林國漳">
+							</div>
+							<div class="videob_title">橫跨公益、教育、行政與法理，30年的深耕累積 #訂閱好人才 #宜蘭縣長候選人林國漳</div>
+						</a>
+					</div>														</div>
+			</div>
+		</section>
+
+		<section class="main_sec bg3">
+			<div class="container">
+				<h4 class="sec_title2">影片專區</h4>
+				<div class="video_slick slick_arrow2">
+																                                        <div class="video_item">
+						<a href="https://www.youtube.com/watch?v=AHxQhs3SaFE&t=2s" class="video_box" data-youtube-id="AHxQhs3SaFE" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/AHxQhs3SaFE/hqdefault.jpg" alt="《趣台灣－訂閱好人才》EP1苗栗篇｜從抗爭現場的公益律師 到落地深根成為新苗栗人！Feat.苗栗縣長">
+							</div>
+							<div class="videob_title">《趣台灣－訂閱好人才》EP1苗栗篇｜從抗爭現場的公益律師 到落地深根成為新苗栗人！Feat.苗栗縣長</div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://youtu.be/b05aVoevXDg" class="video_box" data-youtube-id="b05aVoevXDg" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/b05aVoevXDg/hqdefault.jpg" alt="《趣台灣－訂閱好人才》EP6竹市篇｜為新竹市Debug 市政工程師報到！ Feat.新竹市長候選人 ">
+							</div>
+							<div class="videob_title">《趣台灣－訂閱好人才》EP6竹市篇｜為新竹市Debug 市政工程師報到！ Feat.新竹市長候選人 </div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://www.youtube.com/watch?v=pxgbUHsSChE" class="video_box" data-youtube-id="pxgbUHsSChE" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/pxgbUHsSChE/hqdefault.jpg" alt="新世代扛起新時代">
+							</div>
+							<div class="videob_title">新世代扛起新時代</div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://www.youtube.com/watch?v=bAwNAxUNIPY&t=149s" class="video_box" data-youtube-id="bAwNAxUNIPY" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/bAwNAxUNIPY/hqdefault.jpg" alt="《趣台灣－訂閱好人才》EP2基隆篇｜打造基隆宜居城市 串聯觀光廊帶 加速城際往返 Feat.基隆市長">
+							</div>
+							<div class="videob_title">《趣台灣－訂閱好人才》EP2基隆篇｜打造基隆宜居城市 串聯觀光廊帶 加速城際往返 Feat.基隆市長</div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://www.youtube.com/watch?v=3LVX5-TUxUM" class="video_box" data-youtube-id="3LVX5-TUxUM" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/3LVX5-TUxUM/hqdefault.jpg" alt="全力爭取人民的支持！讓新世代為家鄉努力，共同打造民主和平、繁榮的台灣新時代！">
+							</div>
+							<div class="videob_title">全力爭取人民的支持！讓新世代為家鄉努力，共同打造民主和平、繁榮的台灣新時代！</div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://www.youtube.com/watch?v=_usG4QgFxFw&t=255s" class="video_box" data-youtube-id="_usG4QgFxFw" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/_usG4QgFxFw/hqdefault.jpg" alt="《趣台灣－訂閱好人才》EP3南投篇｜脫下醫師袍 走一條彌補遺憾的回家路 Feat.南投縣長候選人 温">
+							</div>
+							<div class="videob_title">《趣台灣－訂閱好人才》EP3南投篇｜脫下醫師袍 走一條彌補遺憾的回家路 Feat.南投縣長候選人 温</div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://youtu.be/FzmluNLPldM" class="video_box" data-youtube-id="FzmluNLPldM" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/FzmluNLPldM/hqdefault.jpg" alt="2026民主進步黨競選歌曲〈台灣好生活〉「日花閃爍 全新的一工」☀️">
+							</div>
+							<div class="videob_title">2026民主進步黨競選歌曲〈台灣好生活〉「日花閃爍 全新的一工」☀️</div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://www.youtube.com/watch?v=5yq46RniBVU&t=1s" class="video_box" data-youtube-id="5yq46RniBVU" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/5yq46RniBVU/hqdefault.jpg" alt="《趣台灣－訂閱好人才》EP4宜蘭篇｜出身基層 三十年磨一劍 接棒民主宜蘭 Feat.宜蘭縣長候選人 ">
+							</div>
+							<div class="videob_title">《趣台灣－訂閱好人才》EP4宜蘭篇｜出身基層 三十年磨一劍 接棒民主宜蘭 Feat.宜蘭縣長候選人 </div>
+						</a>
+					</div>											                                        <div class="video_item">
+						<a href="https://www.youtube.com/watch?v=jEk-xuBdc1A" class="video_box" data-youtube-id="jEk-xuBdc1A" target="_blank">
+							<div class="videob_img">
+								<img src="https://img.youtube.com/vi/jEk-xuBdc1A/hqdefault.jpg" alt="《趣台灣－訂閱好人才》EP5屏東篇｜有故事就會感動！翻轉33鄉鎮 打造專屬在地美學 Feat.屏東縣">
+							</div>
+							<div class="videob_title">《趣台灣－訂閱好人才》EP5屏東篇｜有故事就會感動！翻轉33鄉鎮 打造專屬在地美學 Feat.屏東縣</div>
+						</a>
+					</div>														</div>
+			</div>
+		</section>
+        
+        <section class="main_sec" id="anti_rumor">
+			<div class="container">
+				<h3 class="sec_title">闢謠專區</h3>
+				<div class="sec_title_udl"></div>
+				<div class="row row-p15 mb-30">
+																                    <div class="news_item col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/anti_rumor-page/1500cny" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="https://media.puma.taipei/files/298/qvkVankUH634ps6gL9v6WzoYHKrPcoHAP1Cvtqde.jpg" alt="【闢謠】沈伯洋承諾持續發放1,500元重陽禮金，網傳說法不實">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-10-18</div>
+								<div class="newsb_title">【闢謠】沈伯洋承諾持續發放1,500元重陽禮金，網傳說法不實</div>
+							</div>
+						</a>
+					</div>											                    <div class="news_item col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/anti_rumor-page/fact-check-23" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="https://media.puma.taipei/files/296/fynZUJ8hAf8LCX0fLbUARO7IXOySHgtExmg74zQg.jpg" alt="【闢謠】沈伯洋駁斥安排社子島居民下跪說法">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-10-18</div>
+								<div class="newsb_title">【闢謠】沈伯洋駁斥安排社子島居民下跪說法</div>
+							</div>
+						</a>
+					</div>											                    <div class="news_item col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/anti_rumor-page/601" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="https://www.dpp.org.tw/upload/anti_rumor/6acf41efe9efb.jpg" alt="黃世杰佔用國有地辦活動？事實是依法租賃，合法使用！">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-10-14</div>
+								<div class="newsb_title">黃世杰佔用國有地辦活動？事實是依法租賃，合法使用！</div>
+							</div>
+						</a>
+					</div>											                    <div class="news_item col-md-3">
+						<a href="https://teamtaiwan.dpp.org.tw/anti_rumor-page/600" class="news_box wow animate__fadeIn">
+							<div class="newsb_img">
+                                								<img src="https://www.dpp.org.tw/upload/anti_rumor/6acf2bcb368dc.jpg" alt="黃世杰參加活動送雞蛋賄選？事實是農水署例行活動，不同黨派政治人物皆可出席">
+							</div>
+							<div class="newsb_con">
+								<div class="newsb_date bar">2026-10-14</div>
+								<div class="newsb_title">黃世杰參加活動送雞蛋賄選？事實是農水署例行活動，不同黨派政治人物皆可出席</div>
+							</div>
+						</a>
+					</div>														</div>
+				<a href="https://teamtaiwan.dpp.org.tw/anti_rumor" class="btn_more">更多消息</a>
+			</div>
+		</section>
+	</main>
+
+	<!-- popup 縣市長 -->
+	<div class="popup" id="popup_mayor">
+		<div class="popup_bg"></div>
+		<div class="popup_mayor_box">
+			<div class="flex mb-20">
+				<div class="mayor_people">
+					<img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/mayor/a01.jpg" id="photo">
+				</div>
+				<div class="pmayor_pinfo">
+					<div class="mayor_area" id="city"></div>
+					<div class="mayor_name" id="name"></div>
+				</div>
+			</div>
+			<div>
+				<div class="pmayor_title">學歷</div>
+				<div class="mb-20" id="education">
+				</div>
+				<div class="pmayor_title">經歷</div>
+				<div class="mb-20" id="experience">
+				</div>
+				<div class="pmayor_title">簡介</div>
+				<div class="mb-20" id="introduce">
+				</div>
+			</div>
+			<div class="flex pmayor_abtn_row">
+				<a href="javascript:;" target="_blank" class="pmayor_sitebtn" id="siteurl"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_fb_g.png"></a>
+				<a href="javascript:;" target="_blank" class="pmayor_abtn" id="fb"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_fb_g.png"></a>
+				<a href="javascript:;" target="_blank" class="pmayor_abtn" id="ig"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_ig_g.png"></a>
+				<a href="javascript:;" target="_blank" class="pmayor_abtn" id="threads"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_threads_g.png"></a>
+				<a href="javascript:;" target="_blank" class="pmayor_abtn" id="yt"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_youtube_g.png"></a>
+			</div>
+		</div>
+		<div class="popup_close">×</div>
+	</div>
+
+		<footer>
+		<div class="container-xxl">
+			<a href="https://www.dpp.org.tw/" target="_blank" class="footer_logo">
+				<img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/logo.png">
+			</a>
+			<div class="social_row flex">
+				<a href="https://www.dpp.org.tw/contents/frontend/images/youtube.png" target="_blank" class="footer_sbtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_youtube.png"></a>
+				<a href="https://www.facebook.com/dpptw/" target="_blank" class="footer_sbtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_fb.png"></a>
+				<a href="https://www.instagram.com/dpp_taiwan/" target="_blank" class="footer_sbtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_ig.png"></a>
+				<a href="https://twitter.com/DPPonline" target="_blank" class="footer_sbtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_x.png"></a>
+				<a href="https://www.threads.com/@dpp_taiwan" target="_blank" class="footer_sbtn"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/icon_threads.png"></a>
+			</div>
+		</div>
+	</footer>
+	<div class="gotop"><img src="https://teamtaiwan.dpp.org.tw/asset/types/election/img/arrow_up.png"></div>
+		<script src="https://teamtaiwan.dpp.org.tw/asset/types/election/js/jquery-3.7.1.min.js" type="text/javascript"></script>
+	<script src="https://teamtaiwan.dpp.org.tw/asset/types/election/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://teamtaiwan.dpp.org.tw/asset/types/election/js/wow.min.js" type="text/javascript"></script>
+	<script src="https://teamtaiwan.dpp.org.tw/asset/types/election/js/slick.min.js" type="text/javascript"></script>
+	<script src="https://teamtaiwan.dpp.org.tw/asset/types/election/js/script_mayor.js?v=1.06" type="text/javascript"></script>
+	<script src="https://teamtaiwan.dpp.org.tw/asset/types/election/js/script.js" type="text/javascript"></script></body>
+</html>

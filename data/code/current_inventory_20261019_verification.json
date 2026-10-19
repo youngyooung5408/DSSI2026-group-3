@@ -1,0 +1,30 @@
+{
+  "council_total": 1502,
+  "supported_history_birth_and_sex": 690,
+  "without_supported_birth_and_sex": 812,
+  "no_profile": 785,
+  "no_profile_with_2022_history_leads": 157,
+  "pending_history_candidates": 164,
+  "pending_history_rows": 164,
+  "non_first_any_office_supported": 694,
+  "non_first_council_supported": 691,
+  "social_candidate_platforms_linked": 132,
+  "outputs": {
+    "data/processed/snapshots/pre_source_expansion_20261019/council_background_20261019.csv": {
+      "rows": 1502,
+      "sha256": "2b63c4a399d39788c02d8ae09010ae6bdeaccda6842f41191a1eeffe4c89f81e"
+    },
+    "data/processed/council_history_pending_identity_20261019.csv": {
+      "rows": 164,
+      "sha256": "e88d1bca609d0a837dfc597e95d10d85a1dec12a5feaf8d542c6fc25388c143f"
+    },
+    "data/processed/snapshots/pre_source_expansion_20261019/candidate_master_current.csv": {
+      "rows": 1583,
+      "sha256": "fbb32bba0c26e5b266fe4c7710058f27353f86fdbc8d59f7c112d4a30451f37d"
+    },
+    "data/processed/snapshots/pre_source_expansion_20261019/candidate_fields_current.csv": {
+      "rows": 31660,
+      "sha256": "6a9ac7fa74b768cf05a9ea58140f36a1567a2e62195c5a241cc0d0ce39e21e21"
+    }
+  }
+}

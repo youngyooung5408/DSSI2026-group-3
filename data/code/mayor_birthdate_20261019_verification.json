@@ -1,0 +1,18 @@
+{
+  "data/processed/mayor_birthdate_verified_supplement_20261019.csv": {
+    "rows": 1,
+    "sha256": "284471d062e9bc9474243697d1ec8e0ae0d115884626168f4b97cc95747a5472"
+  },
+  "data/processed/candidates_2026_enriched_round3_20261019.csv": {
+    "rows": 81,
+    "sha256": "e28951160f82504eb5b5d61777995ceb78a9f94bae89a724e4a9238e4c08192d"
+  },
+  "data/processed/candidate_master_reviewed_round4_20261019.csv": {
+    "rows": 1583,
+    "sha256": "8af6660bfdee31ab3f2f0189218fbc607b3d779f0c2d349575fe1d3909daa0fd"
+  },
+  "data/processed/candidate_fields_reviewed_round4_20261019.csv": {
+    "rows": 31660,
+    "sha256": "eb36a93dbe7e38e2a7dbad48741b1f7f37eea114354ca18d021951acfb30fb74"
+  }
+}

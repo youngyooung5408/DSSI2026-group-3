@@ -1,0 +1,37 @@
+[
+  {
+    "path": "data/raw/online_20261018/cec_council_metropolitan.pdf",
+    "url": "https://web.cec.gov.tw/api/file/ccd7e51a-5fd0-4ea0-a81b-a120cd550c9c.pdf",
+    "captured_date": "2026-10-18",
+    "sha256": "28a9bf7edeb4b2f45a0b3ca473d59c930fcf8cba575c8879fb33397815116090",
+    "status": "downloaded"
+  },
+  {
+    "path": "data/raw/online_20261018/cec_council_county.pdf",
+    "url": "https://web.cec.gov.tw/api/file/9ccb6224-20be-479e-931f-81aa6155f28a.pdf",
+    "captured_date": "2026-10-18",
+    "sha256": "11d6334e4a5cf3bc7539455ef047ac40f62e250d3c151348683ab1141f83d517",
+    "status": "downloaded"
+  },
+  {
+    "path": "data/raw/online_20261018/moi_county.html",
+    "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=2000&TYP=KND0002&n=574&sms=11400",
+    "captured_date": "2026-10-18",
+    "sha256": "7ba34c8d17af8cf5bad108312e3218e5f3e5444fef457966f19ec199b97b50b5",
+    "status": "downloaded"
+  },
+  {
+    "path": "data/raw/online_20261018/moi_metropolitan.html",
+    "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=2000&TYP=KND0001&n=573",
+    "captured_date": "2026-10-18",
+    "sha256": "41294443945db5603a7e664434b7532ff58fbc75f1ab63aa6d7258d06486c5af",
+    "status": "downloaded"
+  },
+  {
+    "path": "data/raw/online_20261018/ly_members.html",
+    "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=109",
+    "captured_date": "2026-10-18",
+    "sha256": "54202822c014d09a5e78fa68309906661345ae3e553fb1210d6b75192c77951a",
+    "status": "downloaded"
+  }
+]

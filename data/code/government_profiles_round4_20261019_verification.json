@@ -1,0 +1,40 @@
+{
+  "new_background_profile_people": 7,
+  "new_education_people": 7,
+  "new_experience_people": 7,
+  "page_shells_not_accepted": 2,
+  "mayor_verified_full_birth_dates": 57,
+  "mayor_missing_full_birth_dates": 24,
+  "additional_council_historical_sex_people": 1,
+  "no_profile_after_round4": 756,
+  "outputs": {
+    "data/processed/government_profiles_round4_20261019.csv": {
+      "rows": 7,
+      "sha256": "c66f99647bba2c81b336155c9d3205fab3eab57fd6bd302d31ff669b52ada04e"
+    },
+    "data/processed/government_evidence_round4_20261019.csv": {
+      "rows": 25,
+      "sha256": "8379a828fa123f02bf5331055d9e571a0789fa9ead8a4b71a597086e882bb1ad"
+    },
+    "data/processed/government_access_review_round4_20261019.csv": {
+      "rows": 9,
+      "sha256": "fdc97df6d2b75bb1d28b10e12dff6ece61b9c51563752ff74bc541f14883b96a"
+    },
+    "data/processed/candidates_2026_enriched_round4_20261019.csv": {
+      "rows": 81,
+      "sha256": "37fa15d5298ba12857f55fdd87d3d3903a1dc68d7eb975995b6d228f92be4194"
+    },
+    "data/processed/snapshots/pre_bulletin_round5_20261019/candidate_master_current.csv": {
+      "rows": 1583,
+      "sha256": "df9c43800b4e67b5153ead90ad52128b922d3773c4285e3a3c079f059dbed746"
+    },
+    "data/processed/snapshots/pre_bulletin_round5_20261019/candidate_fields_current.csv": {
+      "rows": 31660,
+      "sha256": "3ac72c7a54ec9e6aaa0ef8c3a0501d415fccefd2537e51d778540434b84513dc"
+    },
+    "data/processed/snapshots/pre_bulletin_round5_20261019/council_background_20261019.csv": {
+      "rows": 1502,
+      "sha256": "46dbe63f4d57ef57efba0497d4d3e906c59397b738a6f4b40691af43a8243256"
+    }
+  }
+}

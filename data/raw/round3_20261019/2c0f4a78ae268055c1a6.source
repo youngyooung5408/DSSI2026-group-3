@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>候選人總覽｜台灣前進</title>
+<meta name="description" content="台灣前進 2026 地方選舉 35 位候選人總覽：16 縣市、四黨＋無黨籍，找你選區的在地出戰者。">
+<link rel="canonical" href="https://taiwangogo.tw/candidates/">
+<meta property="og:title" content="候選人總覽｜台灣前進">
+<meta property="og:description" content="35 席外卡，替你上場。找你選區的候選人。">
+<meta property="og:url" content="https://taiwangogo.tw/candidates/">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="台灣前進">
+<meta property="og:image" content="https://taiwangogo.tw/assets/share/_home.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/_shared.css?v=70be2da3">
+<link rel="stylesheet" href="/_page.css?v=d1a3df0c">
+<style>
+/* ===== 候選人總覽（B・地圖領航）｜沿用個人頁海報語彙；配色/字級走全站 token ===== */
+html{scroll-behavior:smooth}
+/* 地圖密度分層色（alias 回 token） */
+body[data-page="candidates"]{--map-hi:var(--pd);--map-mid:var(--p);--map-none:var(--bd)}
+.cl-wrap{max-width:1140px;margin:0 auto;padding:0 22px}
+
+/* Hero（poster 家族・歸隊候選人頁）：底色/斜地板/水印/網點與 .cv-poster--v1 完全對齊，
+   只保留斜體 3D 大標當通往首頁的橋。radial 配方＝候選人頁同一組 poster token（70% 28% 中心）。 */
+.cl-hero{position:relative;overflow:hidden;color:#fff;
+  background:radial-gradient(120% 150% at 70% 28%,var(--p-poster-hi) 0%,var(--p-poster-mid) 46%,var(--p-hero-deep) 100%)}
+/* 網點紋理與候選人頁 .cv-poster::before 同步：mix-blend-mode:overlay 讓點紋柔化融入底色（否則白點平貼在 10% 會太明顯） */
+.cl-hero::before{content:"";position:absolute;inset:0;opacity:.10;pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,.9) 1.4px,transparent 1.6px);background-size:14px 14px;mix-blend-mode:overlay}
+/* 下緣淺色斜切：同 .tf-hero::after（縣市頁同款），取代原深紫斜地板 */
+.cl-hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;z-index:1;height:56px;background:var(--bg);
+  clip-path:polygon(0 100%,100% 100%,100% 0)}
+/* 水印：對齊候選人頁 .cv-word 級別（150px／.06／12px letter-spacing），縮小＋降透明度避免直書大字被誤讀為「進前」 */
+.cl-hero .word{position:absolute;right:5%;top:7%;z-index:0;font-family:"Noto Serif TC",serif;font-weight:900;
+  font-size:150px;line-height:.86;letter-spacing:12px;writing-mode:vertical-rl;color:rgba(255,255,255,.06);
+  pointer-events:none;user-select:none}
+.cl-hero .in{position:relative;z-index:2;max-width:1140px;margin:0 auto;padding:52px 22px 74px}
+.cl-eyebrow{font-size:var(--fs-xs);font-weight:900;letter-spacing:3px;color:var(--p);background:#fff;
+  display:inline-block;padding:5px 15px;border-radius:999px}
+.cl-hero h1{font-size:clamp(46px,8vw,104px);font-weight:900;letter-spacing:2px;margin:26px 0 4px;line-height:1;
+  display:flex;flex-wrap:wrap;column-gap:.2em;row-gap:.1em}
+.cl-hero h1 .sl{display:inline-block;transform:skewX(-10deg) rotate(-3deg);
+  text-shadow:0 6px 0 var(--pdd),0 22px 40px rgba(0,0,0,.4)}
+
+/* 地圖領航說明句 */
+.cl-intro{font-size:var(--fs-base);color:var(--tm);font-weight:700;margin:22px 0 2px;line-height:1.85;max-width:960px}
+
+/* 迷你海報卡（剪影＋黨色拱底＋黨色點） */
+.cl-cd{position:relative;display:flex;flex-direction:column;background:#fff;border:1.5px solid var(--bd);
+  border-radius:16px;overflow:hidden;text-decoration:none;color:inherit;transition:.16s;--pc:var(--p);--soft:var(--p20)}
+.cl-cd:hover{transform:translateY(-3px);border-color:var(--pc);box-shadow:0 12px 26px rgba(101,73,148,.18)}
+.cl-cd .ph{position:relative;aspect-ratio:1/1.02;overflow:hidden;
+  background:linear-gradient(180deg,#fff,var(--soft));border-bottom:3px solid var(--pc);border-radius:22px 22px 0 0}
+.cl-cd .ph img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.cl-cd .nm{font-size:var(--fs-m);font-weight:900;color:var(--ink);padding:11px 13px 0;display:flex;align-items:center;gap:8px}
+.cl-cd .nm .dot{width:11px;height:11px;border-radius:50%;flex:none;background:var(--pc)}
+.cl-cd .ar{font-size:var(--fs-base);font-weight:700;color:var(--tm);padding:2px 13px 0}
+.cl-cd .lv{font-size:var(--fs-xs);font-weight:700;color:#8a857d;padding:2px 13px 12px}
+
+/* 地圖領航版面：左地圖（sticky）＋右名單 */
+.b-split{display:grid;grid-template-columns:360px 1fr;gap:34px;margin-top:18px;align-items:start}
+.b-mapcol{position:sticky;top:88px}
+.b-mapcard{background:#fff;border:1.5px solid var(--bd);border-radius:20px;padding:20px;box-shadow:0 14px 34px -18px rgba(43,31,69,.35)}
+.b-mapcard h3{font-size:var(--fs-base);font-weight:900;margin:0 0 2px}
+.b-mapcard h3 span{color:var(--p)}
+.b-mapcard .h-sub{font-size:var(--fs-xs);color:var(--tm);font-weight:700;margin-bottom:12px}
+.b-mapcard .mp svg{width:100%;height:auto;display:block}
+.b-mapcard .mp svg path{stroke:var(--on-dark);stroke-width:1.2;transition:.18s}
+.b-mapcard .mp svg path.active{stroke:var(--gold);stroke-width:3.4}
+.b-maplg{display:flex;align-items:center;gap:12px;margin-top:12px;font-size:var(--fs-xs);font-weight:700;color:var(--tm);flex-wrap:wrap}
+.b-maplg i{display:inline-flex;align-items:center;gap:5px}
+.b-maplg i b{width:13px;height:13px;border-radius:4px;display:inline-block}
+
+/* 縣市列：多人＝大標＋卡牆；單人＝2–3 個小單元併一列 */
+.b-crow{padding:16px 0;border-top:1px solid var(--bd);scroll-margin-top:96px}
+.b-crow:first-child{border-top:0;padding-top:4px}
+.b-chead{display:flex;align-items:baseline;gap:9px;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--p20)}
+.b-chead .cy{font-size:var(--fs-m);font-weight:900;line-height:1.12}
+.b-chead .cn{font-size:var(--fs-xs);font-weight:700;color:var(--tm)}
+.b-chead .cn b{color:var(--p);font-size:var(--fs-base);margin-right:2px}
+.b-chead .cdots{display:flex;gap:4px;flex-wrap:wrap;align-self:center;margin-left:2px}
+.b-chead .cdots i{width:9px;height:9px;border-radius:50%;display:block}
+.b-chead.sm{margin-bottom:10px;padding-bottom:6px;gap:7px}
+.b-chead.sm .cy{font-size:var(--fs-base)}
+.b-cwall{display:grid;grid-template-columns:repeat(auto-fill,minmax(146px,1fr));gap:13px}
+.b-cwall .b-cwbreak{grid-column:1/-1;height:0;margin:-13px 0 0}
+.b-solo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:18px}
+.b-solo-unit{display:flex;flex-direction:column;min-width:0}
+.b-solo-unit .cl-cd{width:100%;max-width:214px;flex:1}
+.b-mobzones{display:none}
+
+@media(max-width:860px){
+  .b-split{grid-template-columns:1fr}
+  .b-mapcol{display:none}
+  .b-mobzones{display:flex;gap:8px;overflow-x:auto;position:sticky;top:66px;z-index:50;
+    background:rgba(250,250,250,.94);backdrop-filter:blur(6px);padding:10px 22px;margin:0 -22px 2px}
+  .b-mobzones .mz{flex:none;border:2px solid var(--bd);border-radius:999px;padding:6px 14px;
+    font-weight:900;font-size:var(--fs-xs);cursor:pointer;white-space:nowrap;background:#fff;color:var(--t)}
+  .b-mobzones .mz.active{border-color:var(--p);background:var(--p10);color:var(--p)}
+  .b-mobzones .mz .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:middle}
+}
+@media(max-width:640px){
+  .b-crow{padding:15px 0}
+  .b-cwall{grid-template-columns:repeat(2,1fr)}
+  .b-solo-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .b-solo-unit .cl-cd{max-width:none}
+  .cl-cd .nm{font-size:var(--fs-base);padding:8px 10px 0}
+  .cl-cd .ar{font-size:var(--fs-xs);padding:1px 10px 0}
+  .cl-cd .lv{padding:1px 10px 9px}
+  .cl-hero .word{font-size:120px}
+}
+</style>
+</head>
+<body data-page="candidates">
+
+<div data-slot="nav"><header class="topnav">
+  <a href="/" class="brand">
+    <img src="/assets/taiwan-forward-flyingfish.png" alt="台灣前進">
+    <span>台灣前進</span>
+    <span class="brand-tag">進步・本土・清廉</span>
+  </a>
+  <a class="nav-typhoon-mobile" data-typhoon-entry="mobile_navigation" href="https://typhoon.taiwangogo.tw/" aria-label="前往颱風即時資訊站">颱風資訊</a>
+  <button class="nav-toggle" aria-label="開關選單" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="topnav-links">
+    <a href="/" data-page="home">首頁</a>
+    <a href="/candidates/" data-page="candidates">候選人</a>
+    <a href="/platform/" data-page="platform">政見</a>
+    <a href="/issues/" data-page="issues">議題</a>
+    <a href="/counties/" data-page="counties">縣市</a>
+    <a href="/life/" data-page="life">生活</a>
+    <a href="/finance/" data-page="finance">財務</a>
+    <a href="/about/" data-page="about">關於</a>
+    <a class="nav-typhoon" data-typhoon-entry="navigation" href="https://typhoon.taiwangogo.tw/" aria-label="前往颱風即時資訊站">颱風資訊</a>
+    <a href="/volunteer/" data-page="volunteer" class="pill vol">加入志工</a>
+    <a href="/donate/" data-page="donate" class="pill donate">小額捐款</a>
+  </nav>
+</header></div>
+
+<header class="cl-hero">
+  <div class="word">前進</div>
+  <div class="in">
+    <span class="cl-eyebrow">CANDIDATES · 候選人總覽</span>
+    <h1><span class="sl">35 席外卡，</span><span class="sl">替你上場！</span></h1>
+  </div>
+</header>
+
+<main>
+<section class="pg-sec"><div class="cl-wrap">
+
+  <p class="cl-intro">地圖上有顏色的縣市，是台灣前進的夥伴這一輪出戰的地方，顏色越深、出戰的人越多；灰色是這一輪還沒有人出戰的縣市。名單大致由北到南、東部排在最後，捲到哪裡地圖就同步高亮，點地圖或縣市也能直接跳到名單。</p>
+
+  <div class="b-mobzones" id="bMobZones"><div class="mz" data-city="台北市"><span class="sw" style="background:var(--map-hi)"></span>台北市 6</div><div class="mz" data-city="新北市"><span class="sw" style="background:var(--map-mid)"></span>新北市 4</div><div class="mz" data-city="基隆市"><span class="sw" style="background:var(--map-lo)"></span>基隆市 1</div><div class="mz" data-city="桃園市"><span class="sw" style="background:var(--map-lo)"></span>桃園市 1</div><div class="mz" data-city="新竹縣"><span class="sw" style="background:var(--map-hi)"></span>新竹縣 7</div><div class="mz" data-city="新竹市"><span class="sw" style="background:var(--map-mid)"></span>新竹市 3</div><div class="mz" data-city="苗栗縣"><span class="sw" style="background:var(--map-lo)"></span>苗栗縣 1</div><div class="mz" data-city="台中市"><span class="sw" style="background:var(--map-mid)"></span>台中市 2</div><div class="mz" data-city="彰化縣"><span class="sw" style="background:var(--map-lo)"></span>彰化縣 1</div><div class="mz" data-city="雲林縣"><span class="sw" style="background:var(--map-lo)"></span>雲林縣 1</div><div class="mz" data-city="嘉義市"><span class="sw" style="background:var(--map-mid)"></span>嘉義市 2</div><div class="mz" data-city="台南市"><span class="sw" style="background:var(--map-lo)"></span>台南市 1</div><div class="mz" data-city="屏東縣"><span class="sw" style="background:var(--map-lo)"></span>屏東縣 1</div><div class="mz" data-city="高雄市"><span class="sw" style="background:var(--map-mid)"></span>高雄市 2</div><div class="mz" data-city="宜蘭縣"><span class="sw" style="background:var(--map-lo)"></span>宜蘭縣 1</div><div class="mz" data-city="花蓮縣"><span class="sw" style="background:var(--map-lo)"></span>花蓮縣 1</div></div>
+
+  <div class="b-split">
+    <div class="b-mapcol">
+      <div class="b-mapcard">
+        <h3>你正在看：<span id="bNow">台北市</span></h3>
+        <div class="h-sub">點有顏色的縣市可跳到名單</div>
+        <div class="mp" id="bMap"></div>
+        <div class="b-maplg">
+          <i><b style="background:var(--map-hi)"></b>5+ 位</i>
+          <i><b style="background:var(--map-mid)"></b>2–4 位</i>
+          <i><b style="background:var(--map-lo)"></b>1 位</i>
+          <i><b style="background:var(--map-none)"></b>還沒有人</i>
+        </div>
+      </div>
+    </div>
+    <div id="bRoster"><div class="b-crow" id="cty-台北市" data-cities="台北市"><div class="b-chead"><span class="cy">台北市</span><span class="cn"><b>6</b>位</span><span class="cdots"><i style="background:var(--npp)"></i><i style="background:var(--tsp)"></i><i style="background:var(--tsp)"></i><i style="background:var(--obs)"></i><i style="background:var(--gp)"></i><i style="background:var(--npp)"></i></span></div><div class="b-cwall"><a class="cl-cd" href="/hsieh-min-hung/" data-city="台北市" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/hsieh-min-hung-400.webp" alt="謝閔弘" loading="lazy"></span><span class="nm"><i class="dot"></i>謝閔弘</span><span class="ar">台北市<br>士林、北投</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/wu-hsin-tai/" data-city="台北市" data-party="台灣基進" style="--pc:var(--tsp);--soft:var(--tsp-soft)"><span class="ph"><img src="/assets/faces/clean/wu-hsin-tai-400.webp" alt="吳欣岱" loading="lazy"></span><span class="nm"><i class="dot"></i>吳欣岱</span><span class="ar">台北市<br>內湖、南港</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/teng-le-chiang/" data-city="台北市" data-party="台灣基進" style="--pc:var(--tsp);--soft:var(--tsp-soft)"><span class="ph"><img src="/assets/faces/clean/teng-le-chiang-400.webp" alt="鄧樂強" loading="lazy"></span><span class="nm"><i class="dot"></i>鄧樂強</span><span class="ar">台北市<br>松山、信義</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/li-hui-hsuan/" data-city="台北市" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/li-hui-hsuan-400.webp" alt="李惠暄" loading="lazy"></span><span class="nm"><i class="dot"></i>李惠暄</span><span class="ar">台北市<br>中山、大同</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/wang-chen-ting/" data-city="台北市" data-party="台灣綠黨" style="--pc:var(--gp);--soft:var(--gp-soft)"><span class="ph"><img src="/assets/faces/clean/wang-chen-ting-400.webp" alt="王振庭" loading="lazy"></span><span class="nm"><i class="dot"></i>王振庭</span><span class="ar">台北市<br>中正、萬華</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/chen-chih-ying/" data-city="台北市" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/chen-chih-ying-400.webp" alt="陳峙穎" loading="lazy"></span><span class="nm"><i class="dot"></i>陳峙穎</span><span class="ar">台北市<br>大安、文山</span><span class="lv">市議員候選人</span></a></div></div><div class="b-crow" id="cty-新北市" data-cities="新北市"><div class="b-chead"><span class="cy">新北市</span><span class="cn"><b>4</b>位</span><span class="cdots"><i style="background:var(--gp)"></i><i style="background:var(--obs)"></i><i style="background:var(--gp)"></i><i style="background:var(--fwd)"></i></span></div><div class="b-cwall"><a class="cl-cd" href="/kan-chung-wei/" data-city="新北市" data-party="台灣綠黨" style="--pc:var(--gp);--soft:var(--gp-soft)"><span class="ph"><img src="/assets/faces/clean/kan-chung-wei-400.webp" alt="甘崇緯" loading="lazy"></span><span class="nm"><i class="dot"></i>甘崇緯</span><span class="ar">新北市・新莊</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/chen-wan-yu/" data-city="新北市" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/chen-wan-yu-400.webp" alt="陳宛毓" loading="lazy"></span><span class="nm"><i class="dot"></i>陳宛毓</span><span class="ar">新北市<br>三重、蘆洲</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/chang-yu-fu/" data-city="新北市" data-party="台灣綠黨" style="--pc:var(--gp);--soft:var(--gp-soft)"><span class="ph"><img src="/assets/faces/clean/chang-yu-fu-400.webp" alt="張佑輔" loading="lazy"></span><span class="nm"><i class="dot"></i>張佑輔</span><span class="ar">新北市<br>新店、深坑、石碇、坪林、烏來</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/kuo-shu-cheng/" data-city="新北市" data-party="台灣前進" style="--pc:var(--fwd);--soft:var(--fwd-soft)"><span class="ph"><img src="/assets/faces/clean/kuo-shu-cheng-400.webp" alt="郭書成" loading="lazy"></span><span class="nm"><i class="dot"></i>郭書成</span><span class="ar">新北市<br>汐止、萬里、金山</span><span class="lv">市議員候選人</span></a></div></div><div class="b-crow solo-row" data-cities="基隆市,桃園市"><div class="b-solo-grid"><div class="b-solo-unit" id="cty-基隆市"><div class="b-chead sm"><span class="cy">基隆市</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--tsp)"></i></span></div><a class="cl-cd" href="/wu-cheng-tse/" data-city="基隆市" data-party="台灣基進" style="--pc:var(--tsp);--soft:var(--tsp-soft)"><span class="ph"><img src="/assets/faces/clean/wu-cheng-tse-400.webp" alt="吳程澤" loading="lazy"></span><span class="nm"><i class="dot"></i>吳程澤</span><span class="ar">基隆市・安樂</span><span class="lv">市議員候選人</span></a></div><div class="b-solo-unit" id="cty-桃園市"><div class="b-chead sm"><span class="cy">桃園市</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--obs)"></i></span></div><a class="cl-cd" href="/shen-pei-ling/" data-city="桃園市" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/shen-pei-ling-400.webp" alt="沈佩玲" loading="lazy"></span><span class="nm"><i class="dot"></i>沈佩玲</span><span class="ar">桃園市・桃園</span><span class="lv">市議員候選人</span></a></div></div></div><div class="b-crow" id="cty-新竹縣" data-cities="新竹縣"><div class="b-chead"><span class="cy">新竹縣</span><span class="cn"><b>7</b>位</span><span class="cdots"><i style="background:var(--obs)"></i><i style="background:var(--npp)"></i><i style="background:var(--npp)"></i><i style="background:var(--npp)"></i><i style="background:var(--npp)"></i><i style="background:var(--npp)"></i><i style="background:var(--fwd)"></i></span></div><div class="b-cwall"><a class="cl-cd" href="/li-ya-fen/" data-city="新竹縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/li-ya-fen-400.webp" alt="李雅芬" loading="lazy"></span><span class="nm"><i class="dot"></i>李雅芬</span><span class="ar">新竹縣・竹北西</span><span class="lv">縣議員候選人</span></a><a class="cl-cd" href="/chang-yuci/" data-city="新竹縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/chang-yuci-400.webp" alt="張育慈" loading="lazy"></span><span class="nm"><i class="dot"></i>張育慈</span><span class="ar">新竹縣・竹北東</span><span class="lv">縣議員候選人</span></a><a class="cl-cd" href="/lin-chun-ching/" data-city="新竹縣" data-party="台灣前進" style="--pc:var(--fwd);--soft:var(--fwd-soft)"><span class="ph"><img src="/assets/faces/clean/lin-chun-ching-400.webp" alt="林裙靜" loading="lazy"></span><span class="nm"><i class="dot"></i>林裙靜</span><span class="ar">新竹縣<br>竹東、五峰</span><span class="lv">縣議員候選人</span></a><span class="b-cwbreak"></span><a class="cl-cd" href="/hung-jui-chin/" data-city="新竹縣" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/hung-jui-chin-400.webp" alt="洪瑞瑾" loading="lazy"></span><span class="nm"><i class="dot"></i>洪瑞瑾</span><span class="ar">新竹縣・竹北一</span><span class="lv">市民代表候選人</span></a><a class="cl-cd" href="/hsu-yu-lun/" data-city="新竹縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/hsu-yu-lun-400.webp" alt="許育綸" loading="lazy"></span><span class="nm"><i class="dot"></i>許育綸</span><span class="ar">新竹縣・竹北二</span><span class="lv">市民代表候選人</span></a><a class="cl-cd" href="/lin-hsu-liang/" data-city="新竹縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/lin-hsu-liang-400.webp" alt="林旭良" loading="lazy"></span><span class="nm"><i class="dot"></i>林旭良</span><span class="ar">新竹縣・新埔四</span><span class="lv">鎮民代表候選人</span></a><a class="cl-cd" href="/peng-chih-hao/" data-city="新竹縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/peng-chih-hao-400.webp" alt="彭致豪" loading="lazy"></span><span class="nm"><i class="dot"></i>彭致豪</span><span class="ar">新竹縣・竹東四</span><span class="lv">鎮民代表候選人</span></a></div></div><div class="b-crow" id="cty-新竹市" data-cities="新竹市"><div class="b-chead"><span class="cy">新竹市</span><span class="cn"><b>3</b>位</span><span class="cdots"><i style="background:var(--npp)"></i><i style="background:var(--npp)"></i><i style="background:var(--npp)"></i></span></div><div class="b-cwall"><a class="cl-cd" href="/tsai-hui-ting/" data-city="新竹市" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/tsai-hui-ting-400.webp" alt="蔡惠婷" loading="lazy"></span><span class="nm"><i class="dot"></i>蔡惠婷</span><span class="ar">新竹市・東區</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/lin-yen-fu/" data-city="新竹市" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/lin-yen-fu-400.webp" alt="林彥甫" loading="lazy"></span><span class="nm"><i class="dot"></i>林彥甫</span><span class="ar">新竹市・北區</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/liao-tzu-chi/" data-city="新竹市" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/liao-tzu-chi-400.webp" alt="廖子齊" loading="lazy"></span><span class="nm"><i class="dot"></i>廖子齊</span><span class="ar">新竹市・香山</span><span class="lv">市議員候選人</span></a></div></div><div class="b-crow solo-row" data-cities="苗栗縣"><div class="b-solo-grid"><div class="b-solo-unit" id="cty-苗栗縣"><div class="b-chead sm"><span class="cy">苗栗縣</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--npp)"></i></span></div><a class="cl-cd" href="/wu-yi-li/" data-city="苗栗縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/wu-yi-li-400.webp" alt="吳翌立" loading="lazy"></span><span class="nm"><i class="dot"></i>吳翌立</span><span class="ar">苗栗縣<br>竹南、後龍、造橋</span><span class="lv">縣議員候選人</span></a></div></div></div><div class="b-crow" id="cty-台中市" data-cities="台中市"><div class="b-chead"><span class="cy">台中市</span><span class="cn"><b>2</b>位</span><span class="cdots"><i style="background:var(--obs)"></i><i style="background:var(--npp)"></i></span></div><div class="b-cwall"><a class="cl-cd" href="/tsai-pei-shan/" data-city="台中市" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/tsai-pei-shan-400.webp" alt="蔡佩珊" loading="lazy"></span><span class="nm"><i class="dot"></i>蔡佩珊</span><span class="ar">台中市・北屯</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/tsou-ming-yen/" data-city="台中市" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/tsou-ming-yen-400.webp" alt="鄒明諺" loading="lazy"></span><span class="nm"><i class="dot"></i>鄒明諺</span><span class="ar">台中市<br>大里、霧峰</span><span class="lv">市議員候選人</span></a></div></div><div class="b-crow solo-row" data-cities="彰化縣,雲林縣"><div class="b-solo-grid"><div class="b-solo-unit" id="cty-彰化縣"><div class="b-chead sm"><span class="cy">彰化縣</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--npp)"></i></span></div><a class="cl-cd" href="/chen-yun-chih/" data-city="彰化縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/chen-yun-chih-400.webp" alt="陳昀志" loading="lazy"></span><span class="nm"><i class="dot"></i>陳昀志</span><span class="ar">彰化縣・秀水一</span><span class="lv">鄉民代表候選人</span></a></div><div class="b-solo-unit" id="cty-雲林縣"><div class="b-chead sm"><span class="cy">雲林縣</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--npp)"></i></span></div><a class="cl-cd" href="/liao-chang-chun/" data-city="雲林縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/liao-chang-chun-400.webp" alt="廖昶淳" loading="lazy"></span><span class="nm"><i class="dot"></i>廖昶淳</span><span class="ar">雲林縣<br>斗六、林內、莿桐</span><span class="lv">縣議員候選人</span></a></div></div></div><div class="b-crow" id="cty-嘉義市" data-cities="嘉義市"><div class="b-chead"><span class="cy">嘉義市</span><span class="cn"><b>2</b>位</span><span class="cdots"><i style="background:var(--obs)"></i><i style="background:var(--obs)"></i></span></div><div class="b-cwall"><a class="cl-cd" href="/chen-yueh-chin/" data-city="嘉義市" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/chen-yueh-chin-400.webp" alt="陳玥妗" loading="lazy"></span><span class="nm"><i class="dot"></i>陳玥妗</span><span class="ar">嘉義市・東區</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/lin-shih-han/" data-city="嘉義市" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/lin-shih-han-400.webp" alt="林詩涵" loading="lazy"></span><span class="nm"><i class="dot"></i>林詩涵</span><span class="ar">嘉義市・西區</span><span class="lv">市議員候選人</span></a></div></div><div class="b-crow solo-row" data-cities="台南市,屏東縣"><div class="b-solo-grid"><div class="b-solo-unit" id="cty-台南市"><div class="b-chead sm"><span class="cy">台南市</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--tsp)"></i></span></div><a class="cl-cd" href="/wu-yi-chieh/" data-city="台南市" data-party="台灣基進" style="--pc:var(--tsp);--soft:var(--tsp-soft)"><span class="ph"><img src="/assets/faces/clean/wu-yi-chieh-400.webp" alt="吳依潔" loading="lazy"></span><span class="nm"><i class="dot"></i>吳依潔</span><span class="ar">台南市・永康</span><span class="lv">市議員候選人</span></a></div><div class="b-solo-unit" id="cty-屏東縣"><div class="b-chead sm"><span class="cy">屏東縣</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--gp)"></i></span></div><a class="cl-cd" href="/yu-tzu-ang/" data-city="屏東縣" data-party="台灣綠黨" style="--pc:var(--gp);--soft:var(--gp-soft)"><span class="ph"><img src="/assets/faces/clean/yu-tzu-ang-400.webp" alt="游子昂" loading="lazy"></span><span class="nm"><i class="dot"></i>游子昂</span><span class="ar">屏東縣・屏東市北區</span><span class="lv">市民代表候選人</span></a></div></div></div><div class="b-crow" id="cty-高雄市" data-cities="高雄市"><div class="b-chead"><span class="cy">高雄市</span><span class="cn"><b>2</b>位</span><span class="cdots"><i style="background:var(--fwd)"></i><i style="background:var(--obs)"></i></span></div><div class="b-cwall"><a class="cl-cd" href="/hsueh-chao-chi/" data-city="高雄市" data-party="台灣前進" style="--pc:var(--fwd);--soft:var(--fwd-soft)"><span class="ph"><img src="/assets/faces/clean/hsueh-chao-chi-400.webp" alt="薛兆基" loading="lazy"></span><span class="nm"><i class="dot"></i>薛兆基</span><span class="ar">高雄市<br>左營、楠梓</span><span class="lv">市議員候選人</span></a><a class="cl-cd" href="/yu-hsien-ling/" data-city="高雄市" data-party="小歐盟" style="--pc:var(--obs);--soft:var(--obs-soft)"><span class="ph"><img src="/assets/faces/clean/yu-hsien-ling-400.webp" alt="于仙玲" loading="lazy"></span><span class="nm"><i class="dot"></i>于仙玲</span><span class="ar">高雄市<br>前鎮、小港</span><span class="lv">市議員候選人</span></a></div></div><div class="b-crow solo-row" data-cities="宜蘭縣,花蓮縣"><div class="b-solo-grid"><div class="b-solo-unit" id="cty-宜蘭縣"><div class="b-chead sm"><span class="cy">宜蘭縣</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--npp)"></i></span></div><a class="cl-cd" href="/liu-chung-shu/" data-city="宜蘭縣" data-party="時代力量" style="--pc:var(--npp);--soft:var(--npp-soft)"><span class="ph"><img src="/assets/faces/clean/liu-chung-shu-400.webp" alt="劉仲書" loading="lazy"></span><span class="nm"><i class="dot"></i>劉仲書</span><span class="ar">宜蘭縣・宜蘭</span><span class="lv">縣議員候選人</span></a></div><div class="b-solo-unit" id="cty-花蓮縣"><div class="b-chead sm"><span class="cy">花蓮縣</span><span class="cn"><b>1</b>位</span><span class="cdots"><i style="background:var(--tsp)"></i></span></div><a class="cl-cd" href="/meng-fan-chia/" data-city="花蓮縣" data-party="台灣基進" style="--pc:var(--tsp);--soft:var(--tsp-soft)"><span class="ph"><img src="/assets/faces/clean/meng-fan-chia-400.webp" alt="孟繁嘉" loading="lazy"></span><span class="nm"><i class="dot"></i>孟繁嘉</span><span class="ar">花蓮縣<br>吉安、壽豐、鳳林、光復、豐濱、萬榮</span><span class="lv">縣議員候選人</span></a></div></div></div></div>
+  </div>
+
+</div></section>
+</main>
+
+<div data-slot="footer"><footer>
+  <div class="ftin">
+    <div class="ftbrand">
+      <div class="logo-row">
+        <img src="/assets/taiwan-forward-flyingfish.png" alt="台灣前進">
+        <span class="name">台灣前進</span>
+      </div>
+      <p class="tagline">你忙著生活，<br>我們幫你看緊議會。</p>
+      <div class="ftnl">
+        <div class="ftnl-t">訂閱台灣前進</div>
+        <form class="nl-form" data-nl method="post">
+          <input class="nl-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="email" name="email" required maxlength="80" placeholder="你的 Email" aria-label="Email">
+          <button class="btn btn--md btn--gold" type="submit">訂閱</button>
+        </form>
+        <p class="nl-msg" role="status" tabindex="-1"></p>
+      </div>
+    </div>
+    <div class="ftcol">
+      <h3>了解我們</h3>
+      <a href="/about/">關於台灣前進</a>
+      <a href="/candidates/">候選人總覽</a>
+      <a href="/finance/">財務透明</a>
+      <a href="/privacy/">隱私聲明</a>
+    </div>
+    <div class="ftcol">
+      <h3>議題</h3>
+      <a href="/issues/traffic/">交通安全</a>
+      <a href="/issues/youth/">兒少權益</a>
+      <a href="/issues/expose/">揭露真相</a>
+      <a href="/issues/">其他議題</a>
+    </div>
+    <div class="ftcol">
+      <h3>支持我們</h3>
+      <a href="/donate/">小額捐款</a>
+      <a href="/volunteer/">加入志工</a>
+      <a href="#" data-coming="LINE 圖卡">LINE 圖卡</a>
+    </div>
+  </div>
+  <div class="ftbottom">
+    <div class="parties plogos">
+      <a href="https://newpowerparty.tw" target="_blank" rel="noopener" title="時代力量"><img src="/assets/party-logos/f_npp.png" alt="時代力量"></a>
+      <a href="https://statebuilding.tw" target="_blank" rel="noopener" title="台灣基進"><img src="/assets/party-logos/f_tsp.png" alt="台灣基進"></a>
+      <a href="https://www.greenparty.org.tw" target="_blank" rel="noopener" title="台灣綠黨"><img src="/assets/party-logos/f_gp.png" alt="台灣綠黨"></a>
+      <a href="https://www.facebook.com/obasang2018" target="_blank" rel="noopener" title="小民參政歐巴桑聯盟"><img src="/assets/party-logos/f_obs.png" alt="小民參政歐巴桑聯盟"></a>
+    </div>
+    <div>© 2026 台灣前進 · 本網站目前由時代力量代為管理。若您有任何意見與指教，歡迎隨時來信 <span style="border-bottom:1px solid currentColor"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ec8f8382988d8f98ac988d859b8d828b838b83c2989b">[email&#160;protected]</a></span></div>
+  </div>
+</footer></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/_common.js?v=748b1368"></script>
+<script>(function(){
+var CC={"台北市": 6, "新北市": 4, "基隆市": 1, "桃園市": 1, "新竹市": 3, "新竹縣": 7, "苗栗縣": 1, "台中市": 2, "彰化縣": 1, "雲林縣": 1, "嘉義市": 2, "台南市": 1, "高雄市": 2, "屏東縣": 1, "宜蘭縣": 1, "花蓮縣": 1};
+
+var mapBox=document.getElementById('bMap');
+var svgEl=null;
+function tier(n){return n>=5?'var(--map-hi)':n>=2?'var(--map-mid)':n>=1?'var(--map-lo)':'var(--map-none)';}
+var rows=Array.prototype.slice.call(document.querySelectorAll('.b-crow'));
+var lockTarget=null, active='';
+function applyActive(){
+  var set=new Set(active.split(',').filter(Boolean));
+  if(svgEl) svgEl.querySelectorAll('path').forEach(function(p){p.classList.toggle('active',set.has(p.getAttribute('data-city')));});
+  document.querySelectorAll('#bMobZones .mz').forEach(function(z){z.classList.toggle('active',set.has(z.dataset.city));});
+}
+function setActiveRow(row){
+  if(!row) return;
+  var cities=(row.dataset.cities||'').split(',').filter(Boolean);
+  active=cities.join(',');
+  var now=document.getElementById('bNow'); if(now) now.textContent=cities.join('・');
+  applyActive();
+}
+/* 以參考線（sticky nav 下方）為準，取最後一個「上緣已越過參考線」的列＝正在看 */
+function computeActiveRow(){
+  if(lockTarget){setActiveRow(lockTarget);return;}
+  var ref=130, cur=null;
+  rows.forEach(function(r){ if(r.getBoundingClientRect().top<=ref) cur=r; });
+  if(!cur) cur=rows[0];
+  if(cur) setActiveRow(cur);
+}
+/* 點縣市／地圖／手機 chip：跳到該列並鎖定高亮，直到使用者自己再捲動才解鎖 */
+function jumpCounty(cy){
+  var el=document.getElementById('cty-'+cy);
+  if(!el) return;
+  var row=el.closest('.b-crow'); if(!row) return;
+  lockTarget=row;
+  setActiveRow(row);
+  window.scrollTo({top:el.getBoundingClientRect().top+window.pageYOffset-120,behavior:'smooth'});
+}
+/* 地圖：runtime 抓真實 SVG，依各縣市候選人數密度上色（0 人灰、不可點） */
+fetch('/assets/taiwan_static.svg').then(function(r){return r.text();}).then(function(t){
+  mapBox.innerHTML=t;
+  var svg=mapBox.querySelector('svg'); if(!svg) return; svgEl=svg;
+  svg.removeAttribute('id'); svg.setAttribute('width','100%'); svg.removeAttribute('height');
+  svg.querySelectorAll('path').forEach(function(pa){
+    var city=pa.getAttribute('data-city'); var n=CC[city]||0;
+    pa.style.fill=tier(n);
+    if(n>0){ pa.style.cursor='pointer'; pa.addEventListener('click',function(){ jumpCounty(city); }); }
+    else{ pa.style.pointerEvents='none'; }
+  });
+  applyActive();
+}).catch(function(){});
+document.querySelectorAll('#bMobZones .mz').forEach(function(z){ z.addEventListener('click',function(){ jumpCounty(z.dataset.city); }); });
+window.addEventListener('scroll',computeActiveRow,{passive:true});
+['wheel','touchstart','keydown'].forEach(function(ev){ window.addEventListener(ev,function(){ lockTarget=null; },{passive:true}); });
+computeActiveRow();
+})();</script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d9396727c7b94fb4ae7a4ac1ea8b0d4d"}'></script><!-- Cloudflare Pages Analytics --></body>
+</html>

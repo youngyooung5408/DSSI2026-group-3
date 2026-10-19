@@ -1,7 +1,10 @@
 % Compile with XeLaTeX. Edit the text inside each frame to revise the slides.
 \documentclass[aspectratio=169,11pt]{beamer}
-% Use TeX-provided fonts: the built-in compiler cannot access macOS system fonts.
-\usepackage[UTF8,fontset=fandol]{ctex}
+% Use a Traditional Chinese font; requires Arial Unicode MS (available on this Mac).
+\usepackage[UTF8,fontset=none]{ctex}
+\setCJKmainfont[AutoFakeBold=2]{Arial Unicode MS}
+\setCJKsansfont[AutoFakeBold=2]{Arial Unicode MS}
+\setCJKmonofont{Arial Unicode MS}
 \usetheme{default}
 \definecolor{ink}{HTML}{182D39}
 \definecolor{accent}{HTML}{47736C}
@@ -18,76 +21,133 @@
 
 \begin{document}
 
-%revised: Use Chinese list separators supported by the font.
+% Purpose: 研究問題
+%revised
+% presenter notes: 0:00–0:15｜15秒
+% 大家好，我們第三組想研究二〇二六年縣市長及地方議員候選人，個人背景不同，是否也會採取不同的競選策略？接下來主要介紹我們要蒐集與比較的變數。
 \begin{frame}[plain]
-% message: 核心問題是依個人背景建立候選人類型，再比較競選策略。
-% presenter notes: 0:00–0:25（25秒）
-% 大家好，我們第三組的核心問題是：如何依個人背景，將二〇二六年縣市長候選人分成幾種類型？
-% 我們希望用年齡、性別、學歷、黨派和參選經驗，整理出背景相近的候選人，再比較各類的競選策略。
-% 接下來介紹分類依據，以及目前的資料進度。
-\vspace{8mm}
-{\Huge\bfseries 候選人分類 \par}
-\vspace{10mm}
-{\color{accent}\Large 建立候選人類型，再比較競選策略\par}
-\vspace{12mm}
-第三組｜張睿庠、楊喬茵、許以琳
-% Student IDs: B12303030 / B12303061 / B12303131
+\vspace{6mm}
+{\Huge\bfseries 候選人類型與競選策略\par}
+\vspace{9mm}
+{\color{accent}\Large 2026 縣市長及地方議員選舉\par}
+\vspace{11mm}
+第三組｜張睿庠、楊喬茵、許以琳\par
+\vspace{4mm}
+{\small Project Proposal｜2026 年 10 月 20 日}
 \end{frame}
 
-% -----------------
-\begin{frame}{我們要比較什麼？}
-% message: 區分候選人背景與競選策略，讓印象成為可比較的問題。
-% presenter notes: 0:25–1:05（40秒）
-% 研究分成兩個部分。第一個是候選人背景，包括年齡、性別、學歷、黨派，以及是不是第一次參選。
-% 第二個是競選方式，我們想看社群經營、政見關注哪些議題，以及競選的主視覺。
-% 以社群為例，我們會比較貼文量；政見則看議題重點。重點是把常聽到的印象，變成可以用資料比較的問題。
-\subtitleline{把「候選人背景」和「競選策略」放在一起看}
-\point{候選人背景：年齡、性別、學歷、黨派、參選經驗}
-\point{競選策略：社群經營、政見焦點、主視覺}
-\point{例子：不同年齡的候選人，貼文量是否不同？}
+% Purpose: 候選人背景變數 G1--G5
+%revised
+% presenter notes: 0:15–0:45｜30秒
+% G1到G5描述基本背景與參選經驗。年齡用二〇二六減出生年，性別依可追溯來源記錄；學歷分大學以下、大學與研究所。黨派依官方公告分五類。首次參選是終生首次參選任何民選公職，不只限於這次所選職位；查不到紀錄不能直接認定首次，未核實保留空白。
+\begin{frame}{候選人背景變數：G1--G5}
+\subtitleline{共八個背景變數，均列為分群變數}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item G1 年齡：2026 減出生年
+\item G2 性別：依可追溯來源記錄
+\item G3 學歷：大學以下／大學／研究所
+\item G4 黨派：國民黨／民進黨／民眾黨／其他政黨／無黨籍
+\item G5 首次參選：終生首次參選任何民選公職；未核實留空
+\end{itemize}
 \end{frame}
 
-% -----------------
-\begin{frame}{目前已整理候選人背景資料}
-% message: 已有81位登記者的資料，但策略資料與部分背景仍待補齊。
-% presenter notes: 1:05–1:40（35秒）
-% 目前我們已經整理八十一位登記者，涵蓋二十二個縣市。
-% 資料主要來自中選會名冊、官方人物介紹，以及候選人官網，另外保留媒體補充資料的來源。
-% 不過，背景欄位還有缺漏，八十一位登記者也還不等於最後研究樣本。
-% 完整社群貼文、追蹤數和主視覺仍要蒐集，不能把沒取得的資料當成零。
-\subtitleline{資料盤點截至 2026 年 10 月 17 日}
-\point{81 位登記者，涵蓋 22 縣市}
-\point{主要來源：中選會名冊、官方人物頁與候選人官網}
-\point{尚缺：完整社群貼文、追蹤數與主視覺資料}
+% Purpose: 候選人背景變數 G6--G8
+%revised
+% presenter notes: 0:45–1:15｜30秒
+% G6到G8同樣是背景變數。政治家族背景要記錄親屬關係與曾任公職，不能只靠同姓判斷，親等及公職範圍還要確認。政治獻金與支出分別記錄申報收入、支出、期間和公開日期，尚未公開不能填零。G8合併為一個原住民族背景變數：有來源確認使用原住民族傳統名字，或網路明確記載本人為原住民或具有原住民族血統，任一成立就記為一；保留來源，查不到則標記未知，不只憑名字外觀推定。這三項和前五項地位相同，但資料可得性與編碼細節還需要補齊。
+\begin{frame}{候選人背景變數：G6--G8}
+\subtitleline{同樣列為分群變數；定義與資料仍需查核}
+\point{G6 政治家族背景：親屬關係、曾任公職與期間\newline 親等及公職範圍待確認；不由同姓推定}
+\point{G7 政治獻金與支出：分列申報收入、支出\newline 保存申報期間與公開日期；未取得不填零}
+\point{G8 原住民族背景：任一條件成立即記為 1\newline ①來源確認使用傳統名字；或②網路明載身分／血統\newline {\small 保留來源；查無資料為未知，不僅憑姓名外觀推定}}
 \end{frame}
 
-% -----------------
-\begin{frame}{接下來怎麼分析？}
-% message: 先依背景分群，再比較策略，分類模型為輔助分析。
-% presenter notes: 1:40–2:25（45秒）
-% 分析會先把背景相近的候選人分在一起。你可以把它想成整理出幾種候選人類型，實際分幾組還要看資料。
-% 接著比較各組的社群貼文、政見議題和視覺風格。競選策略不會拿來決定分組，避免先用策略分組，再說各組策略不同。
-% 如果資料足夠，最後會用簡單分類模型，看看只看競選方式，能不能辨識事先定義的候選人類型。這部分是輔助分析。
-\subtitleline{先分組，再比較競選方式}
-\point{1. 依背景相似程度，把候選人分組}
-\point{2. 比較各組的貼文量、政見議題與視覺風格}
-\point{3. 資料足夠時，再試著用策略辨識候選人類型}
+% Purpose: 社群經營指標
+%revised
+% presenter notes: 1:15–1:45｜30秒
+% 社群部分分 Facebook、Instagram 和 Threads 記錄。先確認有沒有官方帳號、窗口內是否發文，再計算貼文總量或每週平均。內容則看兩個比例：行程類是呈現掃街、市場或宮廟等實體活動的貼文；對立語言是攻擊對手或指名批評的貼文。分母都是同一平台、同一窗口內可判讀的貼文，沒有完整資料時不能填零。行程貼文只能代表活動如何被呈現，不能當作實際掃街次數。
+\begin{frame}{社群經營指標}
+\subtitleline{同一平台、同一窗口內比較；三平台分開記錄}
+\point{S1--S2｜官方社群經營狀態、貼文總量或每週平均}
+\point{S3｜行程類貼文占比：掃街、市場、宮廟等活動\newline S4｜對立語言占比：攻擊對手或指名批評}
+\point{內容占比以窗口內可判讀貼文為分母\newline 無法取得資料保留缺失，不填零}
 \end{frame}
 
-% -----------------
-\begin{frame}{我們希望看見哪些差異？}
-% message: 目前是資料準備階段，研究只描述差異，不做因果推論。
-% presenter notes: 2:25–3:00（35秒）
-% 我們希望最後能清楚說明：哪些候選人類型，在社群、政見和視覺上有什麼差異。
-% 現在完成的是一輪資料蒐集與整理，還沒有策略比較的結果。
-% 下一步要補齊資料，並訂出一致的分類標準，讓不同組員用同樣方式判讀。
-% 這個研究只描述差異，不會說某個背景造成某種策略，也不會直接推論哪種策略能贏。謝謝大家。
-\subtitleline{用資料整理競選方式，檢查原本的印象}
-\point{目前：完成一輪資料蒐集與整理，\\還沒有策略比較結果}
-\point{下一步：補齊策略資料，訂出一致的分類標準}
-\point{研究界線：描述差異，不推論因果或選舉勝負}
+% Purpose: 政見與主視覺指標
+%revised
+% presenter notes: 1:45–2:20｜35秒
+% 政見部分先把原文切成獨立主張，去掉重複轉載，再用共同的議題分類手冊編碼。政見數是主張有幾項，不是議題種類有幾種；集中度是最大議題占所有主張的比例；全國議題占比則看兩岸、國防等全國尺度議題。主視覺另外記錄有沒有黨魁或政治明星，以及黨色是否主導。文字分類會用 LLM 輔助並人工抽驗。我們預期不同背景的策略有差異，例如年齡較低者貼文量較高，目前尚未檢驗。
+\begin{frame}{政見與主視覺指標}
+\subtitleline{政見先切成獨立主張、去重，再依共同手冊編碼}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item S5 政見數：獨立主張數，與議題種類數分開
+\item S6 集中度：最大議題的主張數／全部政見主張數
+\item S7 全國議題占比：全國性主張數／全部政見主張數
+\item S8--S9 主視覺：政治明星是否出現、黨色是否主導
+\end{itemize}
+\vspace{4mm}
+{\small S10 議題類型：交通、住宅、社福、教育等；LLM 輔助標註＋人工抽驗}
 \end{frame}
 
-% Sources (project-relative): report/DSSI2026-group-3.md; PROJECT.md.
-% Data status: ../election/README.md, saved version 2026-10-17.
+% Purpose: 先以已找到的背景資料分群，再比較各群的觀察項目
+%revised
+% presenter notes: 約20秒
+% 我們會先用目前找到的年齡、性別、學歷、黨派與參選經驗等背景資料，把背景相近的候選人分成幾群。接著比較各群在我們想觀察的項目上有什麼差異，例如貼文量、政見重點，以及競選圖片的呈現方式。
+% Source: report/DSSI2026-group-3.md, sections 1.4--1.5
+\begin{frame}{分析方法}
+\subtitleline{先用背景資料分群，再比較各群的競選方式}
+\point{第一步：用我們找到的資料分群\newline
+依年齡、性別、學歷、黨派與參選經驗等資料，\newline
+把背景相近的候選人分成幾群}
+\vspace{3mm}
+\point{第二步：比較我們想觀察的項目\newline
+看看各群的貼文量、政見重點，\newline
+以及競選圖片的呈現方式，有哪些差異}
+\end{frame}
+
+% Purpose: 已取得的背景資料、涵蓋程度與核對瓶頸
+%revised
+% presenter notes: 約35秒，完整講稿見同名script.md
+% 已建立81位縣市長與1502位議員名冊。縣市長59人有完整生日，仍缺22人，魏造文性別未知。
+% 議員716人有政府來源完整生日支持、717人有明載性別來源，包含歷史申報，不能當成2026重新認證。
+% 早期689人的2022申報學歷分組已整理，後續持續補原文。721人有非首次任何民選公職支持，其中705人有非首次議員參選支持。
+% 仍720人缺這幾類背景入口、151人歷史身分待核對。卡在同名、更名、跨公職身分連結，以及學校清單是否代表取得學位。
+% Source: report/data_collection_status_20261019.md; report/municipal_roles_round9_20261019.md
+\begin{frame}{背景資料進度與缺口}
+{\color{accent}\large 已整理 1,583 位登記者，持續逐人核對背景}\par\vspace{4mm}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item 名冊：縣市長 81 位、議員 1,502 位，涵蓋 22 縣市
+\item 縣市長：完整生日 59/81 位，仍缺 22 位\newline
+      性別欄 80/81 位有值，來源層級分開保留
+\item 議員：完整生日有政府來源支持 716 位\newline
+      明載性別來源 717 位，非首次任何公職支持 721 位
+\item 缺口：720 位缺背景入口，151 位歷史身分待核對\newline
+      同名、更名與跨公職連結，以及學經歷標準化仍待完成
+\end{itemize}
+\vspace{3mm}
+{\scriptsize 截至2026/10/19第九輪。歷史申報與當屆資料分開，人物入口不等於完整履歷。}
+\end{frame}
+
+% Purpose: 社群與政見已找到的素材，以及尚未進入分析的原因
+%revised
+% presenter notes: 約25秒，完整講稿見同名script.md
+% 社群目前87人201組平台入口，Facebook81、Instagram72、Threads48，尚未全面核對目標帳號與活躍度。
+% 存取曾遇登入、封鎖或只有頁框，無完整窗口貼文。Meta申請、窗口選擇與貼文蒐集目前依指示暫緩。
+% 已有459段競選網站原文，但尚未去重、切成獨立主張與議題編碼。貼文量、追蹤數及主視覺編碼仍缺，尚未執行分群或策略比較。
+% Source: report/candidate_social_links_20261019.md; report/data_collection_status_20261019.md; report/DSSI2026-group-3.md
+\begin{frame}{社群、政見資料與卡點}
+{\color{accent}\large 已保存部分帳號與原文，策略指標尚未建立}\par\vspace{4mm}
+\begin{itemize}\setlength{\itemsep}{3mm}
+\item 社群入口：87 人、201 組候選人$\times$平台\newline
+      Facebook 81、Instagram 72、Threads 48
+\item 帳號與內容：身分及活躍度未全面核對\newline
+      登入、封鎖或頁框限制，尚無完整窗口貼文
+\item 政見素材：459 段競選網站原文\newline
+      尚待去重、切分獨立主張及議題編碼
+\item Meta申請、貼文窗口及蒐集依指示暫緩\newline
+      貼文量、追蹤數與主視覺編碼未齊，尚未進入分析
+\end{itemize}
+\end{frame}
+
+% Source: report/DSSI2026-group-3.md
 \end{document}

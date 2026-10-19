@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+            <link rel="Shortcut Icon" type="image/x-icon" href="https://htes.chc.edu.tw/storage/074621/title_image/logo.ico" />
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="彰化縣花壇國小全球資訊網全球資訊網">
+    <meta name="author" content="">
+    <meta http-equiv="Content-Security-Policy" content="script-src * 'unsafe-inline' 'unsafe-eval';">
+    <title>本縣議會議長原名「謝典林」，自民國114年9月26日起更名為「謝典霖」 | 彰化縣花壇國小全球資訊網</title>
+    <script src="https://htes.chc.edu.tw/js/jquery-3.7.1.min.js"></script>
+    <script src="https://htes.chc.edu.tw/js/jquery.validate.js"></script>
+    <script src="https://htes.chc.edu.tw/js/additional-methods.min.js"></script>
+    <script src="https://htes.chc.edu.tw/js/messages_zh_TW.min.js"></script>
+    <!-- icons -->    
+    <link rel="stylesheet" href="https://htes.chc.edu.tw/bootstrap/css/bootstrap.min.css">
+    <link href="https://htes.chc.edu.tw/css/bootstrap-navbar.css" rel="stylesheet">
+    <link href="https://htes.chc.edu.tw/fontawesome-5.15.4/css/all.css" rel="stylesheet">
+    <link href="https://htes.chc.edu.tw/css/my_css.css" rel="stylesheet">
+    <style>
+        /* 動態導覽欄顏色 (來自後台設定，需保留於 Blade 內) */
+        .navbar-custom {
+            background-color: #dd0f20;
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: #f18a31;
+        }
+        .navbar-custom .navbar-nav .nav-link {
+            color: #f8eb48;
+        }
+        .navbar-custom .nav-item.active .nav-link,
+        .navbar-custom .nav-item:hover .nav-link {
+            color: #16813d;
+        }
+        /* =========================================================
+           無障礙 2.4.7 焦點可視 (Focus Visible) 完整四邊橘框修正
+           ========================================================= */
+        /* 1. 「跳過導覽連結」焦點獲得時顯眼彈出樣式 */
+        .sr-only-focusable {
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            padding: 0 !important;
+            margin: -1px !important;
+            overflow: hidden !important;
+            clip: rect(0, 0, 0, 0) !important;
+            white-space: nowrap !important;
+            border: 0 !important;
+        }
+        .sr-only-focusable:focus {
+            position: absolute !important;
+            top: 10px !important;
+            left: 10px !important;
+            z-index: 999999 !important;
+            width: auto !important;
+            height: auto !important;
+            padding: 10px 18px !important;
+            margin: 0 !important;
+            overflow: visible !important;
+            clip: auto !important;
+            white-space: normal !important;
+            background-color: #0d47a1 !important; /* 高對比深藍背景 */
+            color: #ffffff !important;            /* 純白文字 */
+            font-weight: bold !important;
+            font-size: 1.1rem !important;
+            border: 2px solid #ffffff !important;
+            border-radius: 6px !important;
+            outline: 4px solid #d97706 !important;
+            outline-offset: -2px !important;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+            text-decoration: none !important;
+        }
+        /* 2. 全站所有聚焦元素呈現完整四邊高對比橘色焦點框 */
+        :focus,
+        :focus-visible {
+            outline: 3px solid #d97706 !important;
+            outline-offset: -3px !important; /* 向內收縮 3px，防止左右邊框被螢幕切掉 */
+            box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.3) !important;
+        }
+    </style>
+        <!-- VenoBox CDN (CSS & JS) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.1.8/venobox.min.css" type="text/css" media="screen">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.1.8/venobox.min.js"></script>
+</head>
+<body id="page-top" style="background-color:#f0f1f6;font-family:'Arial','Microsoft JhengHei','微軟正黑體','黑體',sans-serif;">
+<!-- 全站統一無障礙跳過導覽 -->
+<a class="sr-only-focusable" href="#navbar" accesskey="U" title="頂部導覽區 (Alt+U)">跳到頂部導覽區</a>
+<a class="sr-only-focusable" href="#main-content" accesskey="C" title="中央內容區 (Alt+C)">跳到中央內容區</a>
+<div id="navbar-container">
+    <!-- 全局手機端導覽列排版修補 (獨立於顏色判斷之外) -->
+<style>
+    @media (max-width: 767.98px) {
+        /* 1. 導覽列強制單行不折行 */
+        .navbar {
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+            padding: 0.5rem 0.75rem !important;
+        }
+        /* 2. 標題與 Logo 區塊：字體自動縮小，過長單行縮略 */
+        .navbar-brand {
+            font-size: 1.05rem !important; /* 縮小手機端標題字體 */
+            font-weight: bold;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important; /* 超過寬度顯示 ... */
+            max-width: calc(100% - 60px) !important; /* 預留 60px 給右側漢堡按鈕 */
+            margin-right: 0 !important;
+            display: flex !important;
+            align-items: center !important;
+        }
+        /* Logo 縮小適應高度 */
+        .navbar-brand img {
+            width: 30px !important;
+            height: 30px !important;
+            margin-right: 6px !important;
+            flex-shrink: 0;
+        }
+        /* 3. 漢堡選單按鈕美化 (去除舊式灰色立體邊框與陰影) */
+        .navbar-toggler {
+            padding: 5px 10px !important;
+            font-size: 1.25rem !important;
+            background-color: rgba(255, 255, 255, 0.2) !important; /* 半透明質感扁平底色 */
+            border: 1px solid rgba(255, 255, 255, 0.4) !important;  /* 微光柔和外框 */
+            border-radius: 6px !important;
+            color: inherit !important; /* 繼承選單文字顏色 */
+            box-shadow: none !important;
+            outline: none !important;
+            flex-shrink: 0 !important; /* 強迫按鈕不被壓扁 */
+        }
+        /* 按鈕點擊或獲得焦點時的提示框 */
+        .navbar-toggler:focus, .navbar-toggler:hover {
+            background-color: rgba(255, 255, 255, 0.35) !important;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) !important;
+        }
+    }
+</style>
+<style>
+    .navbar-custom {
+        /* $navbar_custom[0]: Navbar 底色 */
+        background-color: #dd0f20 !important;
+        /* $navbar_custom[1]: 網站名稱 / 文字顏色 */
+        --nav-brand-color: #f18a31;
+        /* $navbar_custom[2]: 連結文字顏色 */
+        --nav-link-color: #f8eb48;
+        /* $navbar_custom[3]: Hover / Active 文字顏色 */
+        --nav-hover-color: #16813d;
+    }
+</style>
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top " id="mainNav" role="navigation" aria-label="主要選單導覽">
+    <div class="container-fluid">        
+        <a class="navbar-brand js-scroll-trigger d-inline-flex align-items-center" href="https://htes.chc.edu.tw/index" title="返回網站首頁">
+            <img src="https://htes.chc.edu.tw/storage/074621/title_image/logo.ico" width="30" height="30" class="mr-2" alt="" aria-hidden="true">
+            <span style="white-space: nowrap;">彰化縣花壇國小全球資訊網</span>
+        </a>        
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="切換導覽選單顯示">
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="https://htes.chc.edu.tw/posts"  aria-current="page" >
+            公告系統
+            <span class="sr-only">(目前頁面)</span>                         </a>
+            </li>
+            <li class="nav-item ">
+            <a class="nav-link" href="https://htes.chc.edu.tw/open_files" >
+            檔案庫
+            </a>
+            </li>
+            <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkDepartments" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            學校介紹
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLinkDepartments">
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/3/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 花壇國小大事紀
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/5/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 校長室
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/4/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 歷任校長
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/6/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 學校位置圖
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/7/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 教務處
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/8/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 學務處
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/9/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 總務處
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/10/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 輔導室
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/11/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 人事室
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/12/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 會計室
+            </a>
+            <a class="dropdown-item" href="https://htes.chc.edu.tw/departments/13/show">
+            <i class="fas fa-puzzle-piece" aria-hidden="true"></i> 花壇國小FB專頁
+            </a>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink_6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            學籍管理系統
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink_6">
+            <li>
+            <a class="dropdown-item" href="https://cloudschool.chc.edu.tw/" target="_blank"  title="學籍管理系統 (另開新視窗)" >
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            學籍管理系統
+            <i class="fas fa-level-up-alt" aria-hidden="true"></i>
+            <span class="sr-only">(另開新視窗)</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink_7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            課程計畫
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink_7">
+            <li>
+            <a class="dropdown-item" href="https://www.curriculum.chc.edu.tw/years/115/schools/124/plans" target="_blank"  title="彰化縣國民中小學課程計畫平台 (另開新視窗)" >
+            <i class="fa fa-book-open" aria-hidden="true"></i>
+            彰化縣國民中小學課程計畫平台
+            <i class="fas fa-level-up-alt" aria-hidden="true"></i>
+            <span class="sr-only">(另開新視窗)</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink_8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            學校行事
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink_8">
+            <li>
+            <a class="dropdown-item" href="https://calendar.google.com/calendar/embed?src=htescal@htes.chc.edu.tw" target="_blank"  title="學校行事 (另開新視窗)" >
+            <i class="fa fa-th" aria-hidden="true"></i>
+            學校行事
+            <i class="fas fa-level-up-alt" aria-hidden="true"></i>
+            <span class="sr-only">(另開新視窗)</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdownMenuLink_9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            110週年校慶專區
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink_9">
+            <li>
+            <a class="dropdown-item dropdown-toggle" href="#">
+            <i class="fas fa-folder" aria-hidden="true"></i> 校慶倒數系列
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right">
+            <li>
+            <a class="dropdown-item" href="https://www.youtube.com/watch?v=PUwY8CFtSdc" target="_blank"  title="校慶倒數第30天 (另開新視窗)" >
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            校慶倒數第30天
+            <i class="fas fa-level-up-alt" aria-hidden="true"></i>
+            <span class="sr-only">(另開新視窗)</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+            <li>
+            <a class="dropdown-item" href="https://www.youtube.com/watch?v=YLQRWg9uDhw" target="_blank"  title="1140430 花壇國小110週年校慶暖身 全校師生踩街報喜 (另開新視窗)" >
+            <i class="fa fa-grin" aria-hidden="true"></i>
+            1140430 花壇國小110週年校慶暖身 全校師生踩街報喜
+            <i class="fas fa-level-up-alt" aria-hidden="true"></i>
+            <span class="sr-only">(另開新視窗)</span>
+            </a>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">                
+            <li class="nav-item">
+            <a class="nav-link" href="https://htes.chc.edu.tw/logins">登入</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav></div>
+<br>
+<main id="main-content" tabindex="-1" class="container-fluid">
+    <style>
+    /* 無障礙 HM1020401C 修正：連結、按鈕 Focus 高對比視覺提示 */
+    a:focus-visible,
+    button:focus-visible,
+    .btn:focus-visible,
+    .form-control:focus-visible {
+        outline: 3px solid #0056b3 !important;
+        outline-offset: 2px !important;
+        z-index: 5;
+    }
+    /* 無障礙 2.4.7 修正：VenoBox 燈箱按鈕 Focus 時高對比黃色外框提示 */
+    .vbox-close:focus,
+    .vbox-prev:focus,
+    .vbox-next:focus,
+    .vbox-left:focus,
+    .vbox-right:focus {
+        outline: 3px solid #ffc107 !important;
+        outline-offset: 3px !important;
+        box-shadow: 0 0 0 2px #000 !important;
+        border-radius: 4px !important;
+    }
+    /* =========================================================
+       FCKeditor & Word 複製貼上之防護覆蓋樣式 (CSS Override)
+       ========================================================= */
+    .post-content-body {
+        font-size: 1.15rem;
+        line-height: 1.8;
+        word-break: break-word; /* 避免超長網址或無空格文字撐破版面 */
+        overflow-wrap: break-word;
+    }
+    /* 重置背景色與寬度 (避免從 Word 貼上時帶有固定的背景色或撐破頁面) */
+    .post-content-body span,
+    .post-content-body p,
+    .post-content-body div,
+    .post-content-body font {
+        background-color: transparent !important;
+    }
+    /* 針對 Word/FCKeditor 固定寬度表格進行 RWD 縮放防護 */
+    .post-content-body table {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        table-layout: auto;
+    }
+    /* 針對內文圖片自動縮放 */
+    .post-content-body img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    /* 標題標籤 (h1~h6) 保持語意化放大 */
+    .post-content-body h1 { font-size: 1.8rem !important; font-weight: bold; margin-top: 1rem; }
+    .post-content-body h2 { font-size: 1.5rem !important; font-weight: bold; margin-top: 1rem; }
+    .post-content-body h3 { font-size: 1.3rem !important; font-weight: bold; margin-top: 1rem; }
+    .post-content-body h4, 
+    .post-content-body h5, 
+    .post-content-body h6 { font-size: 1.15rem !important; font-weight: bold; }
+    /* 無障礙螢幕閱讀器專用隱藏文字 */
+    .sr-only {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+    }
+</style>
+<div class="row justify-content-center">
+    <!-- 主內容區塊 (無障礙修正：避免與 master.blade.php 的 main 重複衝突，改用 role="region") -->
+    <div class="col-lg-8" role="region" aria-label="公告詳細內容">
+        <!-- 麵包屑導覽列 -->
+        <nav aria-label="麵包屑導覽">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="https://htes.chc.edu.tw/index" title="返回首頁" aria-label="返回首頁">首頁</a></li>
+            <li class="breadcrumb-item"><a href="https://htes.chc.edu.tw/posts" title="返回公告列表" aria-label="返回公告列表">公告列表</a></li>
+            <li class="breadcrumb-item active" aria-current="page">公告內容</li>
+            </ol>
+        </nav>
+        <!-- 公告主標題 -->
+            <h1 class="h2 mb-3">本縣議會議長原名「謝典林」，自民國114年9月26日起更名為「謝典霖」</h1>                             
+        <!-- 上一則 / 下一則切換導覽 -->
+        <nav aria-label="前後公告切換" class="mb-3">
+            <a href="https://htes.chc.edu.tw/posts/717" class="btn btn-secondary btn-sm" title="前往上一則公告" aria-label="前往上一則公告">
+            <i class="fas fa-arrow-alt-circle-left" aria-hidden="true"></i> 上一則公告
+            </a>
+            <a href="https://htes.chc.edu.tw/posts/719" class="btn btn-secondary btn-sm ml-1" title="前往下一則公告" aria-label="前往下一則公告">
+            下一則公告 <i class="fas fa-arrow-alt-circle-right" aria-hidden="true"></i>
+            </a>
+            </nav>
+        <!-- 中間資訊與管理功能列 -->
+        <div class="lead my-3" style="font-size: 1.1rem;">            
+            <span class="mr-2">類別：<a href="https://htes.chc.edu.tw/posts/0/type" title="分類：一般公告" aria-label="分類：一般公告">一般公告</a></span>
+            <span class="mr-2">張貼者：<a href="https://htes.chc.edu.tw/posts/%E6%96%87%E6%9B%B8%E7%B5%84%E9%95%B7/job_title" title="張貼者：文書組長" aria-label="張貼者：文書組長">文書組長</a></span>
+            </div>
+        <hr>
+        <!-- 張貼時間與點閱數 -->
+        <p>
+            張貼日期： 2025-10-17 15:23:00 
+            點閱：
+            <!-- 無障礙檢測修正：明確標示檔名、副檔名 (txt) 及另開新視窗資訊 -->
+            <a href="https://htes.chc.edu.tw/storage/074621/posts/718/718.txt" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            title="查看點閱記錄檔：718.txt (副檔名：txt，另開新視窗)"
+            aria-label="查看點閱記錄檔：718.txt (副檔名：txt，另開新視窗)">
+            1626
+            <span class="small text-muted">(718.txt)</span>
+            <i class="fas fa-external-link-alt small" aria-hidden="true"></i>
+            <span class="sr-only">(副檔名：txt，另開新視窗)</span>
+            </a>
+        </p>
+        <hr>
+        <!-- 標題圖片 -->
+        <!-- 公告內文區塊：無障礙 2.1.1 修正，加上 tabindex="0" 讓鍵盤可停留並使用方向鍵捲動 -->
+        <article class="p-3 mb-4 rounded border" style="background-color: #ffffff; border-style: dotted !important; border-color: #939699 !important;" tabindex="0" aria-label="本縣議會議長原名「謝典林」，自民國114年9月26日起更名為「謝典霖」 公告詳細內容區">
+            <div class="post-content-body">                                                                                                                                             
+            <p>&#20381;&#25818;&#24432;&#21270;&#32291;&#25919;&#24220;&#20989;&#31034;:<p>&#26412;&#32291;&#35696;&#26371;&#35696;&#38263;&#21407;&#21517;&#12300;&#35613;&#20856;&#26519;&#12301;&#65292;&#33258;&#27665;&#22283;114&#24180;9&#26376;26&#26085;&#36215;&#26356;&#21517;&#28858;&#12300;&#35613;&#20856;&#38678;&#12301;&#65292;&#35531;&#26597;&#29031;&#12290;</p><p> </p></p>
+            </div>
+            </article>
+        <!-- 相關照片區塊 -->
+        <!-- 附件下載區塊 -->
+    </div>
+    <!-- 側邊欄區塊 -->
+    <aside class="col-lg-3" aria-label="側邊欄資訊">
+        <div class="card my-4">
+            <h2 class="card-header h5">近月內熱門公告</h2>
+            <div class="card-body">
+            <ul class="list-unstyled mb-0">
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-21</small>
+            <span class="badge badge-danger ml-1" title="點閱數 238 次" aria-label="點閱數 238 次">238</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1406" class="font-weight-normal" title="閱讀公告：轉知：「第24屆全國聽覺障礙國民國語文競賽實施計畫」，請依說明辦理，請查照。" aria-label="閱讀公告：轉知：「第24屆全國聽覺障礙國民國語文競賽實施計畫」，請依說明辦理，請查照。">
+            轉知：「第24屆全國聽覺障礙國民國語文競賽實施計畫」，請依說明...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-10-01</small>
+            <span class="badge badge-danger ml-1" title="點閱數 124 次" aria-label="點閱數 124 次">124</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1434" class="font-weight-normal" title="閱讀公告：115學年度閩南語認證研習計畫" aria-label="閱讀公告：115學年度閩南語認證研習計畫">
+            115學年度閩南語認證研習計畫
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-24</small>
+            <span class="badge badge-danger ml-1" title="點閱數 116 次" aria-label="點閱數 116 次">116</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1422" class="font-weight-normal" title="閱讀公告：轉知：衛生福利部增設「電子煙回收桶」之資訊，請協助廣為周知教職員工生及家長。" aria-label="閱讀公告：轉知：衛生福利部增設「電子煙回收桶」之資訊，請協助廣為周知教職員工生及家長。">
+            轉知：衛生福利部增設「電子煙回收桶」之資訊，請協助廣為周知教...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-19</small>
+            <span class="badge badge-danger ml-1" title="點閱數 105 次" aria-label="點閱數 105 次">105</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1396" class="font-weight-normal" title="閱讀公告：轉知：財團法人見賢思琪教育基金會辦理115年度「畫出你的好模樣」宣傳大使徵選活動。" aria-label="閱讀公告：轉知：財團法人見賢思琪教育基金會辦理115年度「畫出你的好模樣」宣傳大使徵選活動。">
+            轉知：財團法人見賢思琪教育基金會辦理115年度「畫出你的好模樣...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-24</small>
+            <span class="badge badge-danger ml-1" title="點閱數 105 次" aria-label="點閱數 105 次">105</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1423" class="font-weight-normal" title="閱讀公告：轉知:教育部國民及學前教育署請貴校持續推動校園心理健康輔導相關措施" aria-label="閱讀公告：轉知:教育部國民及學前教育署請貴校持續推動校園心理健康輔導相關措施">
+            轉知:教育部國民及學前教育署請貴校持續推動校園心理健康輔導相...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-19</small>
+            <span class="badge badge-danger ml-1" title="點閱數 100 次" aria-label="點閱數 100 次">100</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1395" class="font-weight-normal" title="閱讀公告：轉知：財團法人感恩社會福利基金會與國語日報社共同主辦之2026「讓好文、好品格一起發光」徵文活動。" aria-label="閱讀公告：轉知：財團法人感恩社會福利基金會與國語日報社共同主辦之2026「讓好文、好品格一起發光」徵文活動。">
+            轉知：財團法人感恩社會福利基金會與國語日報社共同主辦之2026「...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-21</small>
+            <span class="badge badge-danger ml-1" title="點閱數 100 次" aria-label="點閱數 100 次">100</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1407" class="font-weight-normal" title="閱讀公告：「青少年性傳染病防治教師增能研習」共4場次，鼓勵教師踴躍報名參加。" aria-label="閱讀公告：「青少年性傳染病防治教師增能研習」共4場次，鼓勵教師踴躍報名參加。">
+            「青少年性傳染病防治教師增能研習」共4場次，鼓勵教師踴躍報名...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-22</small>
+            <span class="badge badge-danger ml-1" title="點閱數 100 次" aria-label="點閱數 100 次">100</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1417" class="font-weight-normal" title="閱讀公告：轉知:彰化縣二林鎮公所辦理2026二林文化季系列活動海報電子檔1份，請查照。" aria-label="閱讀公告：轉知:彰化縣二林鎮公所辦理2026二林文化季系列活動海報電子檔1份，請查照。">
+            轉知:彰化縣二林鎮公所辦理2026二林文化季系列活動海報電子檔1份...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-22</small>
+            <span class="badge badge-danger ml-1" title="點閱數 100 次" aria-label="點閱數 100 次">100</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1419" class="font-weight-normal" title="閱讀公告：轉知:第22屆「In My Homeland — 我的家園」國際繪 畫比賽訊息，敬邀學生於10月15日前投稿，讓世界看見臺 灣之美，請查照。" aria-label="閱讀公告：轉知:第22屆「In My Homeland — 我的家園」國際繪 畫比賽訊息，敬邀學生於10月15日前投稿，讓世界看見臺 灣之美，請查照。">
+            轉知:第22屆「In My Homeland — 我的家園」國際繪 畫比賽訊息，...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-19</small>
+            <span class="badge badge-danger ml-1" title="點閱數 88 次" aria-label="點閱數 88 次">88</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1397" class="font-weight-normal" title="閱讀公告：轉知：本縣115年度品德教育創新教學徵稿暨發表研討會實施計畫，請各校鼓勵踴躍參加，並於規定期限繳件。" aria-label="閱讀公告：轉知：本縣115年度品德教育創新教學徵稿暨發表研討會實施計畫，請各校鼓勵踴躍參加，並於規定期限繳件。">
+            轉知：本縣115年度品德教育創新教學徵稿暨發表研討會實施計畫，...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-19</small>
+            <span class="badge badge-danger ml-1" title="點閱數 87 次" aria-label="點閱數 87 次">87</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1398" class="font-weight-normal" title="閱讀公告：轉知：本縣115年「學校教師及行政人員品德教育知能及經驗分享研習活動」，請貴校轉知所屬老師踴躍參加。" aria-label="閱讀公告：轉知：本縣115年「學校教師及行政人員品德教育知能及經驗分享研習活動」，請貴校轉知所屬老師踴躍參加。">
+            轉知：本縣115年「學校教師及行政人員品德教育知能及經驗分享研...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-10-09</small>
+            <span class="badge badge-danger ml-1" title="點閱數 87 次" aria-label="點閱數 87 次">87</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1447" class="font-weight-normal" title="閱讀公告：彰化市公所「2026彰化市兒童創意說故事比賽」活動，歡迎小朋友踴躍參加！" aria-label="閱讀公告：彰化市公所「2026彰化市兒童創意說故事比賽」活動，歡迎小朋友踴躍參加！">
+            彰化市公所「2026彰化市兒童創意說故事比賽」活動，歡迎小朋友踴...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-21</small>
+            <span class="badge badge-danger ml-1" title="點閱數 86 次" aria-label="點閱數 86 次">86</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1408" class="font-weight-normal" title="閱讀公告：陽明交通大學執行「114至115學年度校園菸檳危害防制教育介入輔導計畫」，辦理校園菸檳危害防制教育「影爆倡議」短片競賽，請鼓勵學生踴躍報名。" aria-label="閱讀公告：陽明交通大學執行「114至115學年度校園菸檳危害防制教育介入輔導計畫」，辦理校園菸檳危害防制教育「影爆倡議」短片競賽，請鼓勵學生踴躍報名。">
+            陽明交通大學執行「114至115學年度校園菸檳危害防制教育介入輔導...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-22</small>
+            <span class="badge badge-danger ml-1" title="點閱數 85 次" aria-label="點閱數 85 次">85</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1412" class="font-weight-normal" title="閱讀公告：轉知:「2026食魚文化園遊會活動」活動，鼓勵師生及親子踴躍參與。" aria-label="閱讀公告：轉知:「2026食魚文化園遊會活動」活動，鼓勵師生及親子踴躍參與。">
+            轉知:「2026食魚文化園遊會活動」活動，鼓勵師生及親子踴躍參與...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-21</small>
+            <span class="badge badge-danger ml-1" title="點閱數 84 次" aria-label="點閱數 84 次">84</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1409" class="font-weight-normal" title="閱讀公告：轉知：財團法人靖娟兒童安全文教基金會OK繃兒童服務中心辦理「115年兒少交通事故處理推廣座談」，詳如說明，請貴校鼓勵所屬踴躍參加。" aria-label="閱讀公告：轉知：財團法人靖娟兒童安全文教基金會OK繃兒童服務中心辦理「115年兒少交通事故處理推廣座談」，詳如說明，請貴校鼓勵所屬踴躍參加。">
+            轉知：財團法人靖娟兒童安全文教基金會OK繃兒童服務中心辦理「11...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-10-02</small>
+            <span class="badge badge-danger ml-1" title="點閱數 84 次" aria-label="點閱數 84 次">84</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1442" class="font-weight-normal" title="閱讀公告：轉知-「運動部全民運動署製作之「夏日戲水安全宣導影片」" aria-label="閱讀公告：轉知-「運動部全民運動署製作之「夏日戲水安全宣導影片」">
+            轉知-「運動部全民運動署製作之「夏日戲水安全宣導影片」
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-22</small>
+            <span class="badge badge-danger ml-1" title="點閱數 83 次" aria-label="點閱數 83 次">83</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1418" class="font-weight-normal" title="閱讀公告：轉知:彰化縣溪州鄉公所辦理「紙風車兒童劇團《武松打虎》」活動，請踴躍參加，請查照。" aria-label="閱讀公告：轉知:彰化縣溪州鄉公所辦理「紙風車兒童劇團《武松打虎》」活動，請踴躍參加，請查照。">
+            轉知:彰化縣溪州鄉公所辦理「紙風車兒童劇團《武松打虎》」活動...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-21</small>
+            <span class="badge badge-danger ml-1" title="點閱數 82 次" aria-label="點閱數 82 次">82</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1410" class="font-weight-normal" title="閱讀公告：轉知-南華大學辦理「2026南華30南華盃－遇見 Darling 城堡馬拉松」活動" aria-label="閱讀公告：轉知-南華大學辦理「2026南華30南華盃－遇見 Darling 城堡馬拉松」活動">
+            轉知-南華大學辦理「2026南華30南華盃－遇見 Darling 城堡馬拉松...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-22</small>
+            <span class="badge badge-danger ml-1" title="點閱數 82 次" aria-label="點閱數 82 次">82</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1416" class="font-weight-normal" title="閱讀公告：轉知:「2026小公民大行動小學生關懷社會行動方案徵選活 動辦法」，鼓勵學生組隊報名參加，詳如說明， 惠請查照。" aria-label="閱讀公告：轉知:「2026小公民大行動小學生關懷社會行動方案徵選活 動辦法」，鼓勵學生組隊報名參加，詳如說明， 惠請查照。">
+            轉知:「2026小公民大行動小學生關懷社會行動方案徵選活 動辦法」...
+            </a>
+            </li>
+            <li class="mb-2 pb-2 border-bottom">
+            <small class="text-muted">2026-09-23</small>
+            <span class="badge badge-danger ml-1" title="點閱數 82 次" aria-label="點閱數 82 次">82</span>
+            <br>
+            <a href="https://htes.chc.edu.tw/posts/1420" class="font-weight-normal" title="閱讀公告：轉知：彰化縣溪湖鎮成功高中於115年10月3日(星期六)上午辦理全縣性特殊教育親職講座【轉個彎，看見陽光：壓力下的情緒調適與自我賦能】，轉知本校教師並鼓勵家長及教師參加，請查照。" aria-label="閱讀公告：轉知：彰化縣溪湖鎮成功高中於115年10月3日(星期六)上午辦理全縣性特殊教育親職講座【轉個彎，看見陽光：壓力下的情緒調適與自我賦能】，轉知本校教師並鼓勵家長及教師參加，請查照。">
+            轉知：彰化縣溪湖鎮成功高中於115年10月3日(星期六)上午辦理全縣...
+            </a>
+            </li>
+            </ul>
+            </div>
+        </div>
+    </aside>
+</div>
+<!-- 置頂日期選擇 Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h2 class="modal-title h5" id="exampleModalLabel">置頂設定</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="關閉視窗">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <form id="top_up_form" action="https://htes.chc.edu.tw/posts/718/top_up2" method="post">
+            <input type="hidden" name="_token" value="NDSk4pTugoVnlyO7Fh5cV09YkHUQVIMoqJqVuoZv">                <div class="modal-body">
+            <div class="form-group">
+            <label for="top_date">置頂至哪一天？<span class="text-danger">*</span></label>
+            <input type="date" name="top_date" id="top_date" class="form-control" required="required">
+            </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="submit" class="btn btn-primary" onclick="return send_form();">送出置頂</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    function send_form(){
+        if($('#top_date').val().length === 0){
+            alert('請選日期！');
+            return false;
+        }
+        return true;
+    }
+    /* 無障礙 2.1.2 核心修正：VenoBox 燈箱全鍵盤控制與 Focus Trap 鎖定 */
+    var triggerElement = null;
+    var lightboxKeyHandler = null;
+    var vb = new VenoBox({
+        selector: '.venobox',
+        numeration: true,
+        infinigall: true,
+        spinner: 'rotating-plane',
+        onPostOpen: function(content, obj, gallIndex, then) {
+            // 1. 記錄開啟前的觸發元件，供關閉時歸還焦點
+            triggerElement = document.activeElement;
+            setTimeout(function() {
+            var overlay = document.querySelector('.vbox-overlay');
+            if (!overlay) return;
+            // 2. 動態強制修復並取得當前畫面上所有可見的可聚焦按鈕
+            function getFocusables() {
+            var allControls = overlay.querySelectorAll('.vbox-close, .vbox-prev, .vbox-next, .vbox-left, .vbox-right');
+            // 強制為 DOM 內部所有控制按鈕補上 Focus 關鍵屬性
+            allControls.forEach(function(el) {
+            el.setAttribute('tabindex', '0');
+            el.setAttribute('role', 'button');
+            if (el.classList.contains('vbox-close')) {
+            el.setAttribute('aria-label', '關閉懸浮視窗');
+            el.setAttribute('title', '關閉懸浮視窗');
+            } else if (el.classList.contains('vbox-prev') || el.classList.contains('vbox-left')) {
+            el.setAttribute('aria-label', '檢視上一張照片');
+            el.setAttribute('title', '檢視上一張照片');
+            } else if (el.classList.contains('vbox-next') || el.classList.contains('vbox-right')) {
+            el.setAttribute('aria-label', '檢視下一張照片');
+            el.setAttribute('title', '檢視下一張照片');
+            }
+            });
+            // 依 HTML DOM 順序選取潛在焦點
+            var candidates = overlay.querySelectorAll('.vbox-close, .vbox-next, .vbox-prev, .vbox-left, .vbox-right, a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])');
+            return Array.from(candidates).filter(function(el) {
+            var style = window.getComputedStyle(el);
+            return el.offsetWidth > 0 && 
+            el.offsetHeight > 0 && 
+            style.display !== 'none' && 
+            style.visibility !== 'hidden' && 
+            style.opacity !== '0';
+            });
+            }
+            // 3. 預設將焦點定在第一個可聚焦按鈕（關閉按鈕）
+            var focusables = getFocusables();
+            if (focusables.length > 0) {
+            focusables[0].focus();
+            }
+            // 4. 一體化鍵盤控制（包含 Tab 鎖定循環、Enter/Space 觸發、Esc 關閉、左右方向鍵）
+            lightboxKeyHandler = function(e) {
+            var currentOverlay = document.querySelector('.vbox-overlay');
+            if (!currentOverlay || !document.body.contains(currentOverlay)) return;
+            var key = e.key;
+            var keyCode = e.keyCode;
+            var activeEl = document.activeElement;
+            // A. Tab 鍵 Focus Trap (嚴格依據 DOM 順序於燈箱內部循環)
+            if (key === 'Tab' || keyCode === 9) {
+            var items = getFocusables();
+            if (items.length === 0) return;
+            var firstItem = items[0];
+            var lastItem = items[items.length - 1];
+            if (e.shiftKey) { // Shift + Tab (反向移動)
+            if (activeEl === firstItem || !currentOverlay.contains(activeEl)) {
+            e.preventDefault();
+            lastItem.focus();
+            }
+            } else { // Tab (正向移動)
+            if (activeEl === lastItem || !currentOverlay.contains(activeEl)) {
+            e.preventDefault();
+            firstItem.focus();
+            }
+            }
+            }
+            // B. Enter (13) 或 Space (32) 鍵觸發對應動作，並維持焦點不掉落
+            else if (key === 'Enter' || key === ' ' || keyCode === 13 || keyCode === 32) {
+            if (activeEl) {
+            if (activeEl.classList.contains('vbox-close') || activeEl.closest('.vbox-close')) {
+            e.preventDefault();
+            vb.close();
+            } else if (activeEl.classList.contains('vbox-prev') || activeEl.classList.contains('vbox-left') || activeEl.closest('.vbox-prev, .vbox-left')) {
+            e.preventDefault();
+            vb.prev();
+            setTimeout(function() {
+            var p = document.querySelector('.vbox-prev, .vbox-left');
+            if (p) p.focus();
+            }, 80);
+            } else if (activeEl.classList.contains('vbox-next') || activeEl.classList.contains('vbox-right') || activeEl.closest('.vbox-next, .vbox-right')) {
+            e.preventDefault();
+            vb.next();
+            setTimeout(function() {
+            var n = document.querySelector('.vbox-next, .vbox-right');
+            if (n) n.focus();
+            }, 80);
+            }
+            }
+            }
+            // C. Escape (27) 關閉懸浮視窗
+            else if (key === 'Escape' || keyCode === 27) {
+            e.preventDefault();
+            vb.close();
+            }
+            // D. 左右方向鍵 (← / →) 直接切換照片
+            else if (key === 'ArrowLeft' || keyCode === 37) {
+            e.preventDefault();
+            vb.prev();
+            setTimeout(function() {
+            var p = document.querySelector('.vbox-prev, .vbox-left');
+            if (p) p.focus();
+            }, 80);
+            } else if (key === 'ArrowRight' || keyCode === 39) {
+            e.preventDefault();
+            vb.next();
+            setTimeout(function() {
+            var n = document.querySelector('.vbox-next, .vbox-right');
+            if (n) n.focus();
+            }, 80);
+            }
+            };
+            document.addEventListener('keydown', lightboxKeyHandler);
+            }, 100);
+        },
+        onPostClose: function() {
+            // 5. 關閉燈箱時解除鍵盤監聽，並將焦點歸還給原本點擊的圖片連結
+            if (lightboxKeyHandler) {
+            document.removeEventListener('keydown', lightboxKeyHandler);
+            lightboxKeyHandler = null;
+            }
+            if (triggerElement && typeof triggerElement.focus === 'function') {
+            triggerElement.focus();
+            }
+        }
+    });
+</script>
+</main>
+<br>
+<br>
+<div>
+    </div>
+<script src="https://htes.chc.edu.tw/js/popper2.min.js"></script>
+<script src="https://htes.chc.edu.tw/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://htes.chc.edu.tw/js/bootstrap-navbar.js"></script>
+<link href="https://htes.chc.edu.tw/css/navbar-top-fixed.css" rel="stylesheet">
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    /* =========================================================
+       全域 AccessKey 無障礙快捷鍵與焦點鎖定 (Prevent default URL hash)
+       ========================================================= */
+    // 1. 上方主要導覽區 (Alt + U)
+    $(document).on('click', 'a[href="#navbar"], a[href="#page-top"], a[accesskey="U"]', function(e) {
+        e.preventDefault();
+        var $nav = $('#navbar');
+        if (!$nav.length) {
+            $nav = $('.navbar').first();
+        }
+        if (!$nav.length) {
+            $nav = $('#navbar-container');
+        }
+        if ($nav.length) {
+            $nav.attr('tabindex', '-1').focus();
+            $('html, body').animate({
+            scrollTop: 0
+            }, 100);
+        }
+    });
+    // 2. 中央主要內容區 (Alt + C)
+    $(document).on('click', 'a[href="#main-content"], a[accesskey="C"]', function(e) {
+        e.preventDefault();
+        var $main = $('#main-content');
+        if ($main.length) {
+            $main.attr('tabindex', '-1').focus();
+            $('html, body').animate({
+            scrollTop: $main.offset().top - 15
+            }, 100);
+        }
+    });
+    // 3. 下方底部資訊區 (Alt + Z) - 僅在頁面有 #footer 時作用
+    $(document).on('click', 'a[href="#footer"], a[accesskey="Z"]', function(e) {
+        e.preventDefault();
+        var $footer = $('#footer');
+        if (!$footer.length) {
+            $footer = $('footer').first();
+        }
+        if ($footer.length) {
+            $footer.attr('tabindex', '-1').focus();
+            $('html, body').animate({
+            scrollTop: $footer.offset().top - 20
+            }, 100);
+        }
+    });
+});
+</script>
+</body>
+</html>

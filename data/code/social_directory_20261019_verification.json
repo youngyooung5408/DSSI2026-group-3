@@ -1,0 +1,14 @@
+{
+  "data/processed/candidate_social_account_evidence_20261019.csv": {
+    "rows": 162,
+    "sha256": "b15e1bf88876de049533f381771920c3c560e18eef5c53e04fb8142cbedc5ff9"
+  },
+  "data/processed/meta_candidate_account_worklist_20261019.csv": {
+    "rows": 4749,
+    "sha256": "b3432a639e2179f640f68681dc54eb2889fcf743540aef5b71ec4dd1593a0a49"
+  },
+  "data/processed/social_directory_unmatched_20261019.csv": {
+    "rows": 6,
+    "sha256": "322af147e7847b92ad7cf9a49929adcae5d86f197cfe69c5be8a655a1b15b786"
+  }
+}

@@ -1,0 +1,431 @@
+var mayor_data = [
+	{
+		"index": 0,
+		"city": "台北市",
+		"name": "沈伯洋",
+		"img": "img/mayor/a01.jpg",
+		"text": "你的市長 沈伯洋",
+		"education": ["加州大學爾灣分校犯罪與法律社會學博士","賓州大學法學碩士","台灣大學法學碩士"],
+		"experience": ["第11屆立法委員","台北大學犯罪學研究所副教授暨所長","黑熊學院創辦人暨院長（榮譽職）","台灣民主實驗室理事長","台灣人權促進會執行委員暨副理事長"],
+		"introduce": "我是沈伯洋，土生土長的台北人，從小在五分埔長大。從前就讀博士時所修的社會生態學形塑了我對城市規劃的想像。成為一位父親後，我更希望有機會將這些願景加以實踐。<br>輕度動畫宅、中度電動宅和重度漫畫宅。擔任公職後較少有機會追新番，但最近仍努力在跑行程之餘跟女兒一起訓練成為陀螺戰士。",
+		"fb": "https://www.facebook.com/puma.taipei",
+		"ig": "https://www.instagram.com/pumashen/",
+		"threads": "https://www.threads.com/@pumashen",
+		"yt": "https://www.youtube.com/@PumaShen",
+		"siteurl": "https://puma.taipei",
+		"siteimg": "img/icon_puma.svg"
+	},{
+		"index": 1,
+		"city": "新北市",
+		"name": "蘇巧慧",
+		"img": "img/mayor/a02.jpg",
+		"text": "溫暖創新會做事",
+		"education": ["美國賓州大學法律碩士","美國波士頓大學法律碩士","國立台灣大學法律學系司法組","台北市立第一女子高級中學"],
+		"experience": ["第9～11屆立法委員","民主進步黨新北市黨部主任委員","民主進步黨立法院黨團副幹事長","超越基金會執行長","萬國法律事務所律師"],
+		"introduce": "最愛樹林的肉包、板橋的麵線、三重的滷肉飯、金山的地瓜、新莊的肉粽，深坑的臭豆腐、烏來的麵包，新北美食庫可以分享三天三夜。<br>非常重視家庭時光，會和女兒一起看鬼滅之刃和排球少年，也曾在疫情期間一起在家收看泰國偶像的線上演唱會。<br>重度皮克敏玩家，但當初入坑皮克敏的原因其實是為了送女兒蘑菇券。<br>雖然是棒球迷，但心中的天秤總是在兄弟和悍將之間擺盪。<br>和先生認識的過程也是因為棒球，只不過是被他的球K到。<br>競選主軸「溫暖、創新、會做事」，其實是來自新北各地鄉親十年來最常稱讚她的關鍵字。",
+		"fb": "https://www.facebook.com/chiaohui.su",
+		"ig": "https://www.instagram.com/su.chiaohui/",
+		"threads": "https://www.threads.com/@su.chiaohui",
+		"yt": "https://www.youtube.com/@su.chiaohui",
+		"siteurl": "https://chiao.tw",
+		"siteimg": "img/icon_chiao_pink.png"
+	},{
+		"index": 2,
+		"city": "桃園市",
+		"name": "黃世杰",
+		"img": "img/mayor/a03.jpg",
+		"text": "心桃園 動起來",
+		"education": ["2001年律師高考第一名","2001年司法官特考及格","美國哥倫比亞大學法學碩士","國立台灣大學法學碩士","國立台灣大學法律學系及社會學系雙學士"],
+		"experience": ["法務部政務次長","第10屆立法委員","桃園市政府顧問","桃園市政府參議","國際通商法律事務所律師"],
+		"introduce": "我是一個會陪3歲小孩在路邊研究各種車車的爸爸。熱愛籃球，以前留過長髮。身為新屋客家子弟，推薦吃客家鹹湯圓要淋一圈醬油，是我最在地的日常。<br>帶著原本想當學者的嚴謹，我意外從政，成了一聊政策就停不下來的「政策控」。<br>在桃園市政府服務期間，我主導了1,500項法規翻新，協助桃園升格直轄市「轉大人」。擔任立法委員期間，也積極為地方發聲，成功爭取各項重大交通建設。<br>我深愛這塊土地，我會用最紮實的治理經驗，和大家一起讓「心桃園，動起來」！",
+		"fb": "https://www.facebook.com/SCHuangLawyer/",
+		"ig": "https://www.instagram.com/schuanglawyer/",
+		"threads": "https://www.threads.com/@schuanglawyer",
+		"yt": "",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 3,
+		"city": "新竹縣",
+		"name": "鄭朝方",
+		"img": "img/mayor/a04.jpg",
+		"text": "竹北經驗 • 竹縣實現",
+		"education": ["國立台北大學財經法律學系學士"],
+		"experience": ["金鐘獎得主｜金曲獎入圍","新竹新聞電視主播｜環宇廣播電台主持人","加拿大品牌調香首獎｜調香師","總統府總統辦公室參議","民進黨中央黨部發言人、客家部主任、竹縣黨部主委"],
+		"introduce": "朝方將「進步建設、創新施政、積極承擔」打造竹北城市品牌，在最基層僅有80餘名的有限的人力與資源條件下，積極推動道路改善、人本通學、公設改造、文化品牌建設。<br>三年多實績，亦打造了竹北光節、竹北燈、星際系列遊樂場域．．．等具代表性的國際級作品，使竹北城市建設兼具功能與美感。<br>面對竹縣交通、教育等非市公所主管業務，也主動跨域積極承擔，如：中正東路地下道、黃金通學線用解決問題之行動力、執行力，成功提昇竹北能見度與城市形象，也感謝市民肯定與看見我的力求創新、務實的施政風格。",
+		"fb": "https://www.facebook.com/newchange13",
+		"ig": "https://www.instagram.com/new.change13/",
+		"threads": "https://www.threads.com/@new.change13",
+		"yt": "https://youtube.com/channel/UCzjXmEb66RBs42wX4BC3wMA",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 4,
+		"city": "新竹市",
+		"name": "莊競程",
+		"img": "img/mayor/a05.jpg",
+		"text": "新竹有競程<br>事事都竟成",
+		"education": ["國立台灣大學醫學工程學系博士","筑波大學物理工程系計算光學實驗室訪問學者"],
+		"experience": ["財團法人台灣智庫執行長","行政院中部聯合服務中心執行長","第10屆立法委員","國立交通大學生醫工程研究所助理教授","國立交通大學電機工程學系合聘助理教授"],
+		"introduce": "資深爪迷，從小跟鄰居報隊打棒球，去看球都穿二代象球衣！<br>曾睡在交大工六一整年的醫工教授，預防醫學的專家。<br>田徑隊短跑健將，爆發力超強，練三天就衝進決賽。<br>興趣是飛鏢和騎腳踏車。對飛鏢超痴，辦公室常備鏢盤，高度、距離都要精算過！<br>新竹是我的新故鄉，今年我決定回到新竹，從交大研究室走進新竹市民生活，把理工腦和行動力，拿來和大家一起打造更好的新竹。",
+		"fb": "https://www.facebook.com/Power3C/",
+		"ig": "https://www.instagram.com/legislator2020/",
+		"threads": "https://www.threads.com/@legislator2020",
+		"yt": "https://www.youtube.com/@%E8%8E%8A%E7%AB%B6%E7%A8%8B",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 5,
+		"city": "苗栗縣",
+		"name": "陳品安",
+		"img": "img/mayor/a06.jpg",
+		"text": "幸福苗栗．萬事品安",
+		"education": ["國立台灣大學科際法律研究所法學碩士","國立台灣大學財務金融學系管理學學士"],
+		"experience": ["苗栗縣議會第19屆、第20屆議員","2016年優秀公益律師","環境法律人協會副秘書長"],
+		"introduce": "「人不能決定自己在哪裡出生，但可以決定自己在哪裡落地生根」，我是陳品安，我有三隻貓、兩個女兒、一個先生，原本是協助苗栗鄉親守護鄉土的義務律師，卻決定留在苗栗參選議員，深耕地方8年，現在是苗栗史上最年輕的女性縣長候選人。<br>除了是有財金專業的律師外，品安從年輕就是「孩子王」，游泳一級棒的她還讓台大同學誤以為是體保生，不只考過救生員，更考過執照擔任過救生員的教練。",
+		"fb": "https://www.facebook.com/pinanchen064",
+		"ig": "https://www.instagram.com/vote4pinan",
+		"threads": "https://www.threads.com/@vote4pinan",
+		"yt": "https://www.youtube.com/@陳品安律師苗栗縣議員",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 6,
+		"city": "南投縣",
+		"name": "温世政",
+		"img": "img/mayor/a07.jpg",
+		"text": "南投温顧，世代幸福<br>温ㄟ故鄉，温來顧！",
+		"education": ["英國牛津大學聖艾德蒙學院精準醫學院士","美國密西根大學牙周病研究所研究員及講師","國立台灣大學臨床牙醫學研究所碩士","台北醫學大學牙醫學系學士"],
+		"experience": ["行政院政務顧問","醫療無任所大使","衛生福利部部立雙和醫院牙科部主治醫師","國立台灣大學醫學院附設醫院牙科兼任主治醫師","教育部部定助理教授"],
+		"introduce": "1. 咖哩要拌，而且要兩倍醬<br>2. 火鍋不加芋頭，因為芋頭是澱粉熱量會很高<br>3. 是鐵道迷，家裡有一個拼起來的大鐵道，跟床一樣大<br>4. 不管天氣多熱都會穿長袖襯衫，有20、30件西裝<br>5. 喜歡天竺鼠車車<br>6. 唱歌沒有技巧，全是感情<br>7. 只要一吃到東西就要用牙線，在車上常常都在用牙線<br>8. 超級認真在做防曬<br>9. 非常非常愛吃香菜<br>10. 因為拜訪社區舞蹈班，舞蹈技能慢慢開啟中",
+		"fb": "https://www.facebook.com/wEnShihheng/",
+		"ig": "https://www.instagram.com/wen_shih_cheng/",
+		"threads": "https://www.threads.com/@wen_shih_cheng",
+		"yt": "https://www.youtube.com/@%E6%B8%A9%E4%B8%96%E6%94%BFWenshih-cheng",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 7,
+		"city": "台中市",
+		"name": "何欣純",
+		"img": "img/mayor/a08.jpg",
+		"text": "市長換欣．台中創新！<br>心存大台中",
+		"education": ["英國約克大學婦女研究碩士","國立成功大學"],
+		"experience": ["第8～11屆立法委員","立法院民主進步黨黨團幹事長、書記長","立法院教育及文化委員會、交通委員會召委","第一屆大台中市議員","第15、16屆台中縣議員"],
+		"introduce": "喜歡吃辣，隨身會攜帶辣椒醬，熱愛香菜，湯一定要很燙！喜歡台灣的小吃，不挑食。<br>父親早逝，媽媽是政治人物，因為媽媽忙於工作，所以小時候的何欣純很排斥政治，因緣際會自己也進入政治圈，還和媽媽不同政黨，因此有鬧過家庭革命。<br>在英國唸書的時候，喜歡下午茶時間泡紅茶搭配司康。<br>髮質容易毛躁，但是不喜歡使用定型液之類的產品讓頭髮有油膩感，台中下雨的時候，會讓頭髮比較柔順。",
+		"fb": "https://www.facebook.com/94achun",
+		"ig": "https://www.instagram.com/a_chun1973/",
+		"threads": "https://www.threads.com/@a_chun1973",
+		"yt": "https://www.youtube.com/channel/UCFcDN6t7tJ7qObwtyBQHdRg",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 8,
+		"city": "雲林縣",
+		"name": "劉建國",
+		"img": "img/mayor/a09.jpg",
+		"text": "勇敢、轉型、新雲林<br>雲林好生活 交給劉建國",
+		"education": ["南華大學管理學院旅遊管理學碩士"],
+		"experience": ["立法院第7～11屆立法委員","立法院衛環、司法委員會召委","立法院厚生會會長","民進黨議會黨團召集人暨第15、16屆議員","雲林縣體育會副理事長、棒球委員會主委"],
+		"introduce": "勇敢、轉型、新雲林<br>劉建國，是甘苦出身的孩子。<br>沒有家族背景，沒有靠山，一路走來靠著拚勁、信念與鄉親支持，在立法院為雲林爭氣，年年獲頒第一名立委、優秀立委殊榮。<br>爭取全國首座、也是唯一一座「國家級高齡醫學暨健康福祉研究中心」落腳雲林，也爭取台大雲林分院虎尾院區二期大樓興建，兩項建設合計超過150億元，讓長輩能在地健康老化，讓雲林從高齡化挑戰，轉型成為全國高齡照護與健康產業示範基地。<br>為了打造新雲林、新幸福，劉建國從來沒有離開，也從來沒有放棄。<br>這些年，他把挫折化為力量，把鄉親的期待放在心上，一步一步為雲林爭建設、拚未來。<br>劉建國已經準備好了，<br>用勇敢帶領轉型，<br>打造更幸福的新雲林。",
+		"fb": "https://www.facebook.com/liucnko.fans",
+		"ig": "https://www.instagram.com/liu.cn.ko/",
+		"threads": "https://www.threads.com/@liu.cn.ko",
+		"yt": "https://www.youtube.com/@liucnko0309",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 9,
+		"city": "彰化縣",
+		"name": "陳素月",
+		"img": "img/mayor/a10.jpg",
+		"text": "彰化加速",
+		"education": ["文化大學史學研究所碩士","文化大學史學系","台中女中","南投縣名間國中、僑興國小"],
+		"experience": ["第8~11屆立法委員","第16~17屆彰化縣議員","民進黨第10~16屆全國黨代表","立法委員魏明谷國會助理","立法委員翁金珠國會助理","國立空中大學講師、大葉大學講師","財團法人拓展文教基金會執行長"],
+		"introduce": "農家子弟長大的小孩，家裡姐妹人稱七仙女（排行第六個），還有一個弟弟。<br>晚上可以喝濃茶和熱美式，不怕睡不著，練就一上車就可以秒睡休息，下車馬上就精神奕奕的功力。<br>最喜歡肉素尾便當，三餐吃都沒有問題～<br>喜歡下廚，會用心準備食材親自燒菜煮飯給助理和小孩一起吃～為了衛生乾淨，超認真洗菜，一片一片重覆洗，下午2點開始洗菜，到晚上7點才能吃到飯，因為時間不多，所以一年煮不到3次（笑）。",
+		"fb": "https://www.facebook.com/chengSayYes",
+		"ig": "https://www.instagram.com/sayyessayhi",
+		"threads": "https://www.threads.com/@sayyessayhi",
+		"yt": "https://www.youtube.com/@sayyessayyhi",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 10,
+		"city": "嘉義縣",
+		"name": "蔡易餘",
+		"img": "img/mayor/a11.jpg",
+		"text": "嘉義黃金十年<br>經濟活力沖天",
+		"education": ["台灣大學財經法律學系"],
+		"experience": ["第9～11屆立法委員","萬國法律事務所律師","民主進步黨中央執行委員、中央常務委員","台灣陪審團協會理事","民主進步黨嘉義縣黨部主委"],
+		"introduce": "靈活的胖子，重力嘉速度！<br>喜歡蚵仔、蛤蜊、茶和咖啡，一直被叮嚀水果不要吃太多，小英總統下命減肥，達標驗收但忘了保固，打瘦瘦針過敏放棄治療！<br>討厭人家叫他玄彬，叫嘉義結冰還可以接受！<br>很社會化的阿宅，有當兵有律師資格，比阿川會爬山，有駕照還有小船執照最近想報考漁民證！<br>十年立委現在想要轉職，接力轉型讓嘉義注入更大活力！",
+		"fb": "https://www.facebook.com/chiayionefish",
+		"ig": "https://www.instagram.com/chiayionefish",
+		"threads": "https://www.threads.com/@chiayionefish",
+		"yt": "https://www.youtube.com/@chiayionefish",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 11,
+		"city": "嘉義市",
+		"name": "王美惠",
+		"img": "img/mayor/a12.jpg",
+		"text": "美好嘉義、惠創新局",
+		"education": ["國立嘉義大學管理碩士"],
+		"experience": ["民主進步黨全國黨代表","立法院第10～11屆立法委員","內政、紀律、經費稽核委員會召委","立法院第十屆第5會期民進黨黨團副書記長","嘉義市議會第7～10屆議員"],
+		"introduce": "王美惠，嘉義市立法委員。從助理、市議員到立法委員，22年來深耕基層、傾聽民意，以行動力為嘉義爭取建設與福利。她始終秉持「一步一腳印、腳踏實地」的信念，未來也會繼續用真誠與熱情，為嘉義市的進步努力打拚。",
+		"fb": "https://www.facebook.com/ahueimoto",
+		"ig": "https://www.instagram.com/ahueimoto",
+		"threads": "https://www.threads.com/@ahueimoto",
+		"yt": "",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 12,
+		"city": "台南市",
+		"name": "陳亭妃",
+		"img": "img/mayor/a13.jpg",
+		"text": "台南400年第一女市長",
+		"education": ["長榮大學經營管理博士","長榮大學經營管理碩士"],
+		"experience": ["第14～16屆台南市議員","第7～11屆立法委員","立法院民進黨團正、副書記長、副幹事長","外交及國防、教育及文化、經濟委員會召委","民進黨台南市黨部主委"],
+		"introduce": "香菜控政治人物<br>媽祖代言人<br>小朋友的妃妃姐姐<br>與時間賽跑的陳亭妃<br>6:03的陳亭妃<br>姐姐市長陳亭妃<br>蹲點28年的陳亭妃",
+		"fb": "https://www.facebook.com/fififans",
+		"ig": "https://www.instagram.com/chen_tingfei",
+		"threads": "https://www.threads.com/@chen_tingfei",
+		"yt": "https://www.youtube.com/@tingfei0719",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 13,
+		"city": "高雄市",
+		"name": "賴瑞隆",
+		"img": "img/mayor/a14.jpg",
+		"text": "南方崛起 邁向國際",
+		"education": ["國立台灣大學國家發展研究所碩士","東吳大學政治系"],
+		"experience": ["第9～11屆立法委員","民進黨中評會第20、21屆主委","立法院經濟、內政委員會召委","公督盟國會評鑑連續20次優秀立委","高雄市新聞局長、海洋局長、觀光局主秘"],
+		"introduce": "您好，我是賴瑞隆，一個努力E化的I人，平常喜歡運動，偶爾唱歌舒壓。我風趣的不明顯，我接話很常句點，但是我真實在。<br>早年練習鉛球養成的爆發力，和這些年跑行程鍛鍊的好體能，成就我的「腳勤」，是我服務眾人的優勢。<br>市府服務十年，國會問政十年，無論身處何處，心繫的始終是如何讓高雄不斷進步。<br>連續20次優秀立委的肯定，是我對民意的承諾；延續高雄榮光為下一世代開拓更寬廣的未來，是我的目標，我有信心在這條偉大的航道上繼續前行，開啟「南方崛起、邁向國際」的黃金十年。<br>手托耳際、傾聽民意，雙腿蹲低、蓄力發勁，高雄的未來如同掌心的鉛球，我要緊緊貼住、用盡全力，拋出一道完美的拋物線，投向璀璨的彼端。",
+		"fb": "https://www.facebook.com/zenolai2",
+		"ig": "https://www.instagram.com/zenolai",
+		"threads": "https://www.threads.com/@zenolai",
+		"yt": "https://www.youtube.com/@賴瑞隆",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 14,
+		"city": "屏東縣",
+		"name": "周春米",
+		"img": "img/mayor/a15.jpg",
+		"text": "希望城市，穩健前行",
+		"education": ["國立台灣大學法律學系法學組"],
+		"experience": ["現任第19屆屏東縣長","第9～10屆立法委員","司法與法制委員會召委","高雄、屏東地方法院法官","執業律師"],
+		"introduce": "1、法律人性格，很愛說這樣公平嗎？<br>2、如果用三個字形容自己：溫暖、細膩、專業<br>3、不只會唱「心花開」，其實可以當助唱歌手<br>4、愛吃美食，會看韓劇<br>5、我的自我介紹：屏東有春又有米 我是屏東縣長周春米",
+		"fb": "https://www.facebook.com/RiceChouChunMi",
+		"ig": "https://www.instagram.com/choulittlerice",
+		"threads": "https://www.threads.com/@choulittlerice",
+		"yt": "https://www.youtube.com/@ricechou819",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 15,
+		"city": "宜蘭縣",
+		"name": "林國漳",
+		"img": "img/mayor/a16.jpg",
+		"text": "在地打拚 全民縣長",
+		"education": ["國立台北大學 (原中興法商學院)法律學研究所碩士","國立台北大學 (原中興法商學院)法律學系學士","國立宜蘭高級中學","宜蘭縣立宜蘭國民中學","宜蘭縣宜蘭市力行國民小學"],
+		"experience": ["1.宜蘭縣選委會選監小組召集人","2.宜蘭縣車禍受難者關懷協會理事長","3.財團法人法律扶助基金會宜蘭分會長","4.宜蘭律師公會理事長","5.宜蘭社區大學、宜蘭大學講師"],
+		"introduce": "看著龜山島，是每一位宜蘭人共同的鄉愁，至於香菜，國漳認為一定要加在花生捲冰淇淋裡，才是真正的靈魂！<br>如果說參選縣長，是國漳對宜蘭最重要的承諾，那曾經擔任陳定南縣長的律師，大概就是人生中最特別的一段經歷。<br>體力部分，算是「總統級認證」——爬山不太會喘。學生時期是大學籃球系隊，現在則靠打羽球維持日常運動與紓壓。<br>而身為道地宜蘭人，最不能少的當然是宜蘭味！糕渣、肝花、棗餅、卜肉、鴨賞、一串心、米粉羹，都是國漳從小吃到大的最愛。<br>這就是國漳，一個熱愛宜蘭、也始終想為宜蘭多做一點事的人。",
+		"fb": "https://www.facebook.com/linkuochang.yilan",
+		"ig": "https://www.instagram.com/lin.kuo.chang",
+		"threads": "https://www.threads.com/@lin.kuo.chang",
+		"yt": "https://www.youtube.com/@linkuochang",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 16,
+		"city": "基隆市",
+		"name": "童子瑋",
+		"img": "img/mayor/a17.jpg",
+		"text": "基隆有作為 就選童子瑋",
+		"education": ["國立台灣海洋大學航運管理所碩士"],
+		"experience": ["基隆市議員","基隆市議長","基隆市體育會跆拳道、圍棋委員會主委","慶安宮顧問","中華男籃領隊"],
+		"introduce": "爪爪 簽名球搜集狂熱份子<br>湖人球迷<br>最愛基隆廟口36號碳燒蚵仔煎<br>雖然油頭感覺很沈穩但其實才39歲<br>小英總統已經認證：爬山不喘有幹勁",
+		"fb": "https://www.facebook.com/wayne201817",
+		"ig": "https://www.instagram.com/tungtung_keelung",
+		"threads": "https://www.threads.com/@tungtung_keelung",
+		"yt": "https://www.youtube.com/@tungtung_keelung",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 17,
+		"city": "台東縣",
+		"name": "陳瑩",
+		"img": "img/mayor/a18.jpg",
+		"text": "WIN WIN TAITUNG<br>瑩領台東",
+		"education": ["美國伊利諾大學香檳校園音樂系碩士","美國舊金山音樂學院學士"],
+		"experience": ["第6屆平地原住民立法委員","第7屆不分區立法委員","第9～11屆平地原住民立法委員","公督盟第10屆第5會期立委評鑑特殊貢獻獎","台東縣體育會棒球委員會主任委員"],
+		"introduce": "台東的女兒，要帶著中央的歷練和資源，回到台東為地方服務，懇請支持。",
+		"fb": "https://www.facebook.com/11YIG",
+		"ig": "https://www.instagram.com/asenayig",
+		"threads": "https://www.threads.com/@asenayig",
+		"yt": "",
+		"siteurl": "",
+		"siteimg": ""
+	},{
+		"index": 18,
+		"city": "澎湖縣",
+		"name": "吳淑瑾",
+		"img": "img/mayor/a19.jpg",
+		"text": "堅定承擔 守護澎湖",
+		"education": ["靜宜文理學院(靜宜大學)中文系肄業","左營高中畢業"],
+		"experience": ["澎湖免費兒童英語班主任","澎湖縣水噹噹婦女會理事長","陳光復立委服務處主任","陳光復議員服務處主任","資深幼兒教育工作者"],
+		"introduce": "吳淑瑾，返鄉澎湖逾二十年。她催生澎湖第一酒廠，創辦免費兒童英語班，組織義剪服務偏鄉逾三萬人次。每一件事，她親力親為、執行到底。從幕後到台前，是最懂澎湖、也最能把事做好的行動家。",
+		"fb": "https://www.facebook.com/profile.php?id=61591067645616",
+		"ig": "https://www.instagram.com/wu_shuchin",
+		"threads": "https://www.threads.com/@wu_shuchin",
+		"yt": "",
+		"siteurl": "",
+		"siteimg": ""
+	}
+];
+
+//==== 縣市長 ====
+var items_per_page = 6;
+var total_pages = 19; // 產生 19 頁（共 114 筆卡片，次數絕對平均）
+var total_items = total_pages * items_per_page; // 114 筆
+
+// 1. 產生一個大桶子，裡面裝滿 6 輪「各自獨立打亂」的 19 筆資料
+var master_pool = [];
+var required_rounds = Math.ceil(total_items / mayor_data.length); // 114 / 19 = 6 輪
+
+for (let r = 0; r < required_rounds; r++) {
+    var one_round = Array.from({length: mayor_data.length}, (_, i) => i)
+                         .sort(() => Math.random() - 0.5);
+    master_pool = master_pool.concat(one_round);
+}
+
+// 2. 【核心防重機制】修正大桶子中跨輪次交接處可能產生的鄰近重複
+// 確保任何連續 6 筆資料內都不會有重複的人
+for (let i = 0; i < master_pool.length; i++) {
+    // 檢查目前位置往前的 5 筆資料（因為每頁最多 6 筆，往前查 5 筆就能確保同一頁與跨頁交接不重複）
+    var lookback = [];
+    for (let k = 1; k <= 5; k++) {
+        if (i - k >= 0) lookback.push(master_pool[i - k]);
+    }
+    
+    // 如果目前這個人跟前面鄰近的人重複了，就往後找一個不重複的人跟他交換
+    if (lookback.includes(master_pool[i])) {
+        var swap_index = i + 1;
+        // 往後尋找，直到找到一個不在 lookback 裡，且也不會跟它自己原本鄰近重複的人
+        while (swap_index < master_pool.length && lookback.includes(master_pool[swap_index])) {
+            swap_index++;
+        }
+        // 如果後面還有牌可以換，就進行交換
+        if (swap_index < master_pool.length) {
+            var temp = master_pool[i];
+            master_pool[i] = master_pool[swap_index];
+            master_pool[swap_index] = temp;
+        }
+    }
+}
+
+/**
+ * 根據調整好順序的 master_pool 渲染指定頁面
+ */
+function generatePageHtml(page) {
+    var html_items = '';
+    var start_index = page * items_per_page;
+    
+    for (let i = 0; i < items_per_page; i++) {
+        var data_index = master_pool[start_index + i];
+        var now_data = mayor_data[data_index];
+        
+        html_items += `
+            <div class="mayor_item">
+                <div class="mayor_box" index="${now_data.index}">
+                    <div class="mayor_people">
+                        <img src="/asset/types/election/${now_data.img}" loading="lazy">
+                    </div>
+                    <div class="mayor_area">${now_data.city}</div>
+                    <div class="mayor_name">${now_data.name}</div>
+                    <div class="mayor_slogan">${now_data.text}</div>
+                </div>
+            </div>
+        `;
+    }
+    
+    return `
+        <div class="mayor_sitem" data-page="${page}">
+            <div class="mayor_srow flex">
+                ${html_items}
+            </div>
+        </div>
+    `;
+}
+
+// ==========================================
+// 🚀 【執行渲染】
+// ==========================================
+$("#mayor_data").empty();
+
+for (let page = 0; page < total_pages; page++) {
+    var page_html = generatePageHtml(page);
+    $("#mayor_data").append(page_html);
+}
+
+//縣市長按鈕
+$(document).on("click", ".mayor_box", function(){
+	var now_data = mayor_data[parseInt($(this).attr("index"))];
+	$("#photo").attr("src", "/asset/types/election/" + now_data.img);
+	$("#city").text(now_data.city);
+	$("#name").text(now_data.name);
+	//學歷
+	var education_text = "";
+	now_data.education.forEach(function(item, index){
+		education_text += item + "<br>";
+	});
+	$("#education").html(education_text);
+	//經歷
+	var experience_text = "";
+	now_data.experience.forEach(function(item, index){
+		experience_text += item + "<br>";
+	});
+	$("#experience").html(experience_text);
+	
+	$("#introduce").html(now_data.introduce);
+	if(now_data.fb.length > 0){
+		$("#fb").attr("href", now_data.fb);
+		$("#fb").show();
+	}else{
+		$("#fb").hide();
+	}
+	if(now_data.ig.length > 0){
+		$("#ig").attr("href", now_data.ig);
+		$("#ig").addClass("active");
+		$("#ig").show();
+	}else{
+		$("#ig").hide();
+	}
+	if(now_data.threads.length > 0){
+		$("#threads").attr("href", now_data.threads);
+		$("#threads").addClass("active");
+		$("#threads").show();
+	}else{
+		$("#threads").hide();
+	}
+	if(now_data.yt.length > 0){
+		$("#yt").attr("href", now_data.yt);
+		$("#yt").addClass("active");
+		$("#yt").show();
+	}else{
+		$("#yt").hide();
+	}
+	if(now_data.siteurl.length > 0){
+		$("#siteurl").attr("href", now_data.siteurl);
+		$("#siteurl").find("img").attr("src", "/asset/types/election/" + now_data.siteimg);
+		$("#siteurl").show();
+	}else{
+		$("#siteurl").hide();
+	}
+	
+	$("#popup_mayor").stop().fadeIn();
+	$(".popup_mayor_box").scrollTop(0);
+});

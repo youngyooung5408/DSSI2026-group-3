@@ -1,0 +1,18 @@
+{
+  "data/processed/candidate_background_evidence_round3_20261019.csv": {
+    "rows": 146,
+    "sha256": "5195c8b1902f8228f8001f3986e7d2d433b0662e2d5a069bdd015a491d4bf663"
+  },
+  "data/processed/council_campaign_profiles_20261019.csv": {
+    "rows": 28,
+    "sha256": "28fed78971de8248fab91ce32c889851ae2df17de303c2ea25b3e0bb9778ae00"
+  },
+  "data/processed/candidate_master_reviewed_round3_20261019.csv": {
+    "rows": 1583,
+    "sha256": "b5656f830d321c7806d3742175f7a0761699f59f3ecd442cb9a5b3310b1c8840"
+  },
+  "data/processed/candidate_fields_reviewed_round3_20261019.csv": {
+    "rows": 31660,
+    "sha256": "72c245eedc0396077cf2fa5c0e821f68c41c9d566d10242b3bb2ba5b2e615144"
+  }
+}

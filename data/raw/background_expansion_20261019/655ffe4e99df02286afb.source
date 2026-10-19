@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<!--手機解析度-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<!--TDK-->
+<title>關於蕭告｜蕭告律師｜刑事案件專業律師｜毒品案件、詐欺案件辯護</title>
+<meta name="description" content="蕭告律師事務所專注於刑事案件辯護，包含毒品案件、詐欺案件、洗錢案件等。蕭告律師畢業於國立臺灣大學法律學系，致力以專業法律知識保護當事人權益。">
+<meta name="keywords" content="蕭告律師, 蕭告律師事務所, 刑事案件律師, 毒品案件律師, 詐欺案件律師, 刑事辯護律師">
+
+<!--Other Code-->
+
+
+<!--open graph protocol-->
+<meta property="og:title" content="關於蕭告｜蕭告律師｜刑事案件專業律師｜毒品案件、詐欺案件辯護">
+<meta property="og:image" content="https://www.hsiaogao.com/upload/base_fb_img/Snipaste_2025-02-25_16-40-29__25B25WtFsC.png">
+<meta property="og:description" content="蕭告律師事務所專注於刑事案件辯護，包含毒品案件、詐欺案件、洗錢案件等。蕭告律師畢業於國立臺灣大學法律學系，致力以專業法律知識保護當事人權益。">
+<meta property="og:url" content="https://www.hsiaogao.com/about/aboutus/">
+<meta property="og:site_name" content="蕭告律師事務所">
+<meta property="og:type" content="website">
+
+<!--bread script-->
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{
+			"@type": "ListItem",
+			"position": 1,
+			"item": {
+				"@id": "https://www.hsiaogao.com/",
+				"name": "首頁"
+			}
+		},
+		{
+			"@type": "ListItem",
+			"position": 2,
+			"item": {
+				"@id": "https://www.hsiaogao.com/about/",
+				"name": "關於我們"
+			}
+		},
+		{
+			"@type": "ListItem",
+			"position": 3,
+			"item": {
+				"@id": "https://www.hsiaogao.com/about/aboutus/",
+				"name": "關於蕭告"
+			}
+		}
+		 
+	]
+}
+</script>
+
+<link rel="alternate" hreflang="x-default" href="https://www.hsiaogao.com/about/" />
+<link rel="alternate" hreflang="zh-Hant-TW" href="https://www.hsiaogao.com/about/" />
+<!--css-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://www.hsiaogao.com/css/master.css?v=011618056"><link rel="stylesheet" type="text/css" href="https://www.hsiaogao.com/css/about.css?v=011618056">
+
+<script src="https://www.hsiaogao.com/public/js/jquery-3.6.0.min.js"></script>
+<script src="https://www.hsiaogao.com/public/js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+<script src="https://www.hsiaogao.com/public/js/jquery.blockUI.min.js"></script>
+<script src="https://www.hsiaogao.com/public/js/ajax_function.js"></script> 
+<script src="https://www.hsiaogao.com/public/js/script.js?v=011618056"></script>
+<script>
+	const isMobile = false;
+	const isTablet = false;
+    const _http_url_link = 'https://www.hsiaogao.com/';
+    const http_url_link = 'https://www.hsiaogao.com/';
+
+    function open_layer_detail(div_name,width,height) {
+        if(width==''){
+            width=0;
+        }
+        if(height==''){
+            height=0;
+        }
+        if($('#'+div_name).length > 0)
+        {
+            $.blockUI({
+                message:$('#'+div_name),
+                css:{ 
+                cursor:'default',
+                width: width + 'px',
+                height:height+ 'px',
+                padding:'0px',
+                top:($(window).height()-height)/2 + 'px',
+                left:($(window).width()-width)/2 + 'px'
+                }
+            });
+        }
+    }
+
+    function open_loading_status(loading_name) {
+        if($('#'+loading_name).length > 0)
+        {
+            width=$('#'+loading_name).css('width').replace("px","");
+            height=$('#'+loading_name).css('height').replace("px","");
+            $.blockUI({
+                message:$('#'+loading_name),
+                css:{ 
+                cursor:'default',
+                border:'',
+                backgroundColor:'',
+                width: width + 'px',
+                height:height+ 'px',
+                padding:'0px',
+                top:($(window).height()-height)/2 + 'px',
+                left:($(window).width()-width)/2 + 'px'
+                }
+            });
+        }
+    }
+
+    function close_layer_detail() {
+        $.unblockUI();
+    } 
+
+    function close_top_layer_detail() {
+        top.$.unblockUI();
+    }
+    
+    //建立執行的div
+    $(function(){
+        jQuery.browser = {};
+        (function () {
+            jQuery.browser.msie = false;
+            jQuery.browser.version = 0;
+            if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+                jQuery.browser.msie = true;
+                jQuery.browser.version = RegExp.$1;
+            }
+        })();
+        $('body').prepend("<span id='iframe_string'></span>");
+        $('body').prepend('<div id="waiting_action" style="display:none;text-align:center;position: absolute;z-index: 99998;color:#FFF;font-size:12px;border:0px;"><img src="'+http_url_link+'public/loading_type/loading_big.gif" hspace="2" align="absmiddle"/><br><img src="'+http_url_link+'public/loading_type/loading_text.png" hspace="2" align="absmiddle"/></div>');
+    });
+    //end
+
+    class ibestToasts {
+        constructor(options = {}) {
+            this.container = null;
+            if (options.position) {
+                const positionX = ['left', 'right'];
+                const positionY = ['top', 'bottom'];
+                this.position = [...new Set(options.position)].filter(item => [...positionX, ...positionY].includes(item));
+                !this.position.some(item => positionX.includes(item)) && this.position.push('right');
+                !this.position.some(item => positionY.includes(item)) && this.position.push('bottom');
+            } else {
+                this.position = ['right', 'bottom'];
+            }
+            this.autoCloseDelay = options.closeDelay || 3000;
+            this.template = `<div class="toastMessageText"><div class="toastText"></div></div>`;
+            this.background = {
+                'success': '#20bb89',
+                'error': '#ec3535',
+                'warning': '#f0c64e',
+                'normal': '#323232',
+            }
+            this.icon = {
+                'success': 'fa-check-circle-o',
+                'error': 'fa-times',
+                'warning': 'fa-exclamation-triangle',
+            }
+            this.init();
+        }
+
+        init() {
+            const container = document.createElement('div');
+            container.classList.add('toastMessageBox');
+            this.position.forEach(item => container.classList.add(item));
+            const outerWrap = document.querySelector('.outerWrap');
+            outerWrap.appendChild(container);
+            this.container = container;
+            const outerWrapPaddingTop = window.getComputedStyle(outerWrap).paddingTop || '0px';
+            this.container.style.paddingTop = outerWrapPaddingTop;
+            this.resize();
+
+            window.addEventListener('resize', () => this.resize());
+        }
+
+        resize() {
+            const fixedQuickLink = document.querySelector('.fixedQuickLink');
+            if (fixedQuickLink && this.position.includes('bottom'))
+                this.container.style.paddingBottom = fixedQuickLink.clientHeight + 'px';
+        }
+
+        create(type = 'normal') {
+            const toast = document.createElement('div');
+            toast.classList.add('toastMessage');
+            toast.style.backgroundColor = this.background[type] || this.background['normal'];
+            toast.innerHTML = this.template;
+            const icon = this.icon[type];
+            if (icon) {
+                const iconDom = document.createElement('i');
+                iconDom.classList.add('fa', icon);
+                const textBoxDom = toast.querySelector('.toastMessageText');
+                textBoxDom.insertBefore(iconDom, textBoxDom.firstChild);
+            }
+            this.container.appendChild(toast);
+            return toast;
+        }
+
+        show(message, type = 'normal', autoClose = true) {
+            if (!message) return false;
+            const toast = this.create(type);
+            const textDom = toast.querySelector('.toastText');
+            textDom.textContent = message;
+            toast.addEventListener('click', () => this.hide(toast));
+            setTimeout(() => toast.classList.add('show'), 200);
+            autoClose && setTimeout(() => this.hide(toast), this.autoCloseDelay);
+        }
+
+        hide(dom) {
+            dom.classList.remove('show');
+            setTimeout(() => dom.remove(), 1000);
+        }
+    }    
+</script>
+<script>
+        window.getCopy=function(){var t=atob('RDJlJXMjaURnMm51IzRiNHk1IzhpZUJiZUJzYnR1I2YlI3U2OCU1dTY2ZCMlJXUyNWU0JTR5YWklI3UyNThmZTglYm4lMXU0NXNldTI1YjUlZXUlNGdlMDg2YjUlYnV1NTQyc2RhOWklMnV1NmQyJTQ4MDUjLTJkMDAydTYwLXQxYjA5'),a='',i,p=function(s){return JSON.parse('"'+s+'"');};for(i=0;i<t.length;i+=2){a+=(t[i]=='%')?'\\':(t[i]=='#')?' ':t[i];}return p(a);}
+</script>
+<meta name="google-site-verification" content="sHc1hRfBS6tk3qxtrSdKzQioZXQ3v8ty0_yi67gF1ZY" />
+
+
+
+
+</head>
+
+<body class="darkBg aboutPage" id="about">
+
+    
+    
+    
+    
+    <!-- loadingArea -->
+<div class="loadingArea">
+    <div class="loadLogo">
+        <lottie-player id="loading" src="https://www.hsiaogao.com/public/js/loading.json" background="transparent" speed="1" autoplay></lottie-player>
+    </div>
+</div>
+<!-- loadingArea end -->
+
+<div class="afterLoadingMask"></div>
+
+<script>
+    ;
+    (function() {
+        const bodyDom = document.querySelector('body');
+        const loadingDom = document.querySelector('.loadingArea');
+        bodyDom.classList.add('loadingOverflow');
+
+                if (!navigator.cookieEnabled) {
+            removeLoading();
+            return;
+        }
+
+                const loadingSession = sessionStorage.getItem('loading');
+        if (loadingSession === 'ok') {
+            removeLoading();
+            return;
+        }
+
+        sessionStorage.setItem('loading', 'ok');
+        setTimeout(showLoading, 500);
+        setTimeout(hideLoading, 2500);
+        setTimeout(removeLoading, 3500);
+
+        
+        function showLoading() {
+            loadingDom.classList.add('show');
+
+            // loading執行時移除afterLoadingMask，避免跟loading動畫重疊
+            const afterLoadingMask = document.querySelector('.afterLoadingMask');
+            if (afterLoadingMask) {
+                afterLoadingMask.remove();
+            }
+        }
+
+        
+        function hideLoading() {
+            loadingDom.classList.add('hide');
+            loadingDom.style.pointerEvents = "none";
+        }
+
+        
+        function removeLoading() {
+            loadingDom.remove();
+            bodyDom.classList.remove('loadingOverflow');
+
+            // 晚點出現 privacyArea
+            setTimeout(function() {
+                const privacyArea = document.querySelector('.privacyArea');
+                if (privacyArea) {
+                    privacyArea.classList.add('show');
+                }
+            }, 1500);
+
+            setTimeout(function() {
+                bodyDom.classList.add('afterLoading');
+            }, 10)
+
+        }
+    })();
+</script>
+    <div class="outerWrap"><!--outerWrap-->
+
+        <header><!--header-->
+            <div class="wrap"><!--wrap-->
+                <div class="logo">
+                    <a href="https://www.hsiaogao.com/" title="蕭告律師事務所">
+                        <img src="https://www.hsiaogao.com/images/logo.svg" alt="蕭告律師事務所">
+                    </a>
+                </div>
+
+                <nav class="menuBox"><!--menuBox-->
+                    <ul class="menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><!--menu-->
+    <li class="menuItem dropDown">
+        <span itemprop="name"><a class="mainLink" itemprop="url" href="https://www.hsiaogao.com/about/">蕭告律師</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span itemprop="name"><a class="mainLink" itemprop="url" href="https://www.hsiaogao.com/solution/">專業領域</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span itemprop="name"><a class="mainLink" itemprop="url" href="https://www.hsiaogao.com/team/">成功案例</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span itemprop="name"><a class="mainLink" itemprop="url" href="https://www.hsiaogao.com/news/">最新消息</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span itemprop="name"><a class="mainLink" itemprop="url" href="https://www.hsiaogao.com/comment/">客戶評價</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span itemprop="name"><a class="mainLink" itemprop="url" href="https://www.hsiaogao.com/articles/">法律專欄</a></span>
+    </li>
+    </ul><!--menu end-->
+                </nav><!--menuBox end-->
+
+                <div class="rightBox">
+                    <div class="consultingBox">
+                        <a class="btn" href="https://page.line.me/602kqlub" target="_blank" title="預約諮詢">預約諮詢</a>
+                    </div>
+
+                    <div class="slideMenuTrigger open">
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div><!--wrap end-->
+        </header><!--header end-->
+
+        
+<main class="mainArea"><!--mainArea-->
+    <div class="bread arrow"><!--bread-->
+    <div class="wrap">
+        <a href="https://www.hsiaogao.com/" title="蕭告律師事務所">首頁</a>
+
+                <a href="https://www.hsiaogao.com/about/" title="關於我們">關於我們</a>
+        
+                <a href="https://www.hsiaogao.com/about/aboutus/" title="關於蕭告">關於蕭告</a>
+            </div>
+</div><!--bread end-->
+    <div class="wrap"><!--wrap-->
+        <div class="titleBox insTitleBox"><!--titleBox-->
+            <em class="decoTitle">About Us</em>
+            <div class="title">關於我們</div>
+        </div><!--titleBox end-->
+
+        <article class="contentBox"><!--contentBox-->
+            <nav class="classBox classBoxRow"><!--classBox-->
+    <div class="classCurrent">
+        關於蕭告    </div>
+	<ul class="classLink"><!--classLink-->
+            <li><a href="https://www.hsiaogao.com/about/aboutus/"  class="current">關於蕭告</a></li>
+            <li><a href="https://www.hsiaogao.com/about/practice-drug-defense/" >台北毒品案件辯護律師｜施用、持有、販賣、運輸全類型｜蕭告律師事務所</a></li>
+    	</ul><!--classLink end-->
+</nav><!--classBox end-->
+            		<h1 class="articleTitle">關於蕭告</h1>
+		<div class="textEditor"><!--文字編輯器-->			
+			<div class="contentBuilder">
+<div class="shelfWrap" style="background-image: url();">
+<div class="shelfBox">
+<div class="item picLeft">
+<div class="Img"><img title="關於蕭告｜蕭告律師｜刑事案件專業律師｜毒品案件、詐欺案件辯護" src="https://www.hsiaogao.com/upload/about_b/ALL_about_25C07_iNiD3r4oVJ.png" alt="關於蕭告｜蕭告律師｜刑事案件專業律師｜毒品案件、詐欺案件辯護"></div>
+<div class="Txt thin">
+<div class="textBox">
+<h2 class="subtitle pb20 h2Title" style="text-align: left;"><span style="font-size: 36px;">法律只會保護懂法律的人</span></h2>
+<h2 class="subtitle pb20 h2Title" style="text-align: left;"><span style="font-size: 36px;">而我是來保護你的</span></h2>
+<p data-path-to-node="5">當初在登記「蕭告律師事務所」時，曾因名稱特殊性一度受阻。但在溝通後，我決定以本名「蕭告」為事務所命名，因為這正是法律賦予的權利，也最能傳達我們的執業核心&mdash;&mdash;將法律專業轉化為守護當事人的堅實後盾，確保您的每一項權益都能獲得法律的最大保障。</p>
+<p data-path-to-node="5">&nbsp;</p>
+<p data-path-to-node="6"><span style="font-size: 20px;"><strong data-path-to-node="6" data-index-in-node="0">【學經歷】</strong></span></p>
+<p data-path-to-node="6"><span style="font-size: 20px;">&nbsp;我們結合了傳統法律的嚴謹與新媒體的傳播力，致力於提供最貼近需求的法律服務。</span></p>
+<p data-path-to-node="6">&nbsp;</p>
+<p data-path-to-node="7,0,0"><span style="font-size: 20px;"><strong data-path-to-node="7,0,0" data-index-in-node="0">專業背景</strong></span></p>
+<ul>
+<li style="list-style-type: none;">
+<ul data-path-to-node="7,0,1">
+<li style="font-size: 20px;">
+<p data-path-to-node="7,0,1,0,0"><span style="font-size: 20px;">國立臺灣大學法律學系司法組畢業</span></p>
+</li>
+<li style="font-size: 20px;">
+<p data-path-to-node="7,0,1,1,0"><span style="font-size: 20px;">加州大學舊金山法學院（UC Hastings）交換學生</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="7,1,0"><span style="font-size: 20px;"><strong data-path-to-node="7,1,0" data-index-in-node="0">執業經歷</strong></span></p>
+<ul>
+<li style="list-style-type: none;">
+<ul data-path-to-node="7,1,1">
+<li style="font-size: 20px;">
+<p data-path-to-node="7,1,1,0,0"><span style="font-size: 20px;">蕭告律師事務所主持律師</span></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p data-path-to-node="7,2,0"><span style="font-size: 20px;"><strong data-path-to-node="7,2,0" data-index-in-node="0">專業肯定與社群影響力</strong></span></p>
+<ul>
+<li style="list-style-type: none;">
+<ul data-path-to-node="7,2,1">
+<li style="font-size: 20px;">
+<p data-path-to-node="7,2,1,0,0"><span style="font-size: 20px;">金刻獎第一屆知識獎得主</span></p>
+</li>
+<li style="font-size: 20px;">
+<p data-path-to-node="7,2,1,1,0"><span style="font-size: 20px;">金刻獎第二、三屆專業評審</span></p>
+</li>
+<li style="font-size: 20px;">
+<p data-path-to-node="7,2,1,2,0"><span style="font-size: 20px;">TikTok 官方年度創作者</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 class="subtitle pb20">&nbsp;</h3>
+<h2 class="subtitle pb20 h2Title" style="text-align: left;">&nbsp;</h2>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph">
+<p class="MsoNormal subtitle" style="line-height: 2;">&nbsp;</p>
+<p class="MsoNormal subtitle" style="line-height: 2;"><span style="font-size: 48px;"><strong><span style="font-family: '微軟正黑體',sans-serif;">&nbsp;</span></strong></span></p>
+<p class="MsoNormal subtitle" style="line-height: 2;"><span style="font-size: 48px;"><strong><span style="font-family: '微軟正黑體',sans-serif;">&nbsp;</span></strong></span></p>
+<p class="MsoNormal">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>		</div><!--文字編輯器-->
+
+        </article><!--contentBox end-->
+            </div><!--wrap end-->
+
+</main><!--mainArea end-->
+
+    <footer><!--footer-->
+        <div class="wrap"><!--wrap-->
+            <div class="deco">
+                <div class="Img">
+                    <img src="https://www.hsiaogao.com/images/deco/footer-deco.png" alt="">
+                </div>
+            </div>
+            <nav>
+                <ul class="footerMenu"  ><!--menu-->
+    <li class="menuItem ">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/about/">蕭告律師</a></span>
+    </li>
+    <li class="menuItem ">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/solution/">專業領域</a></span>
+    </li>
+    <li class="menuItem ">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/team/">成功案例</a></span>
+    </li>
+    <li class="menuItem ">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/news/">最新消息</a></span>
+    </li>
+    <li class="menuItem ">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/comment/">客戶評價</a></span>
+    </li>
+    <li class="menuItem ">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/articles/">法律專欄</a></span>
+    </li>
+    </ul><!--menu end-->
+            </nav>
+            <!--socialBox end-->
+<nav class="socialBox">
+    <ul class="socialList">
+                    <li>
+                <a href="https://www.instagram.com/narcos_lawyer/" target="_blank" title="Instagram">
+                    <svg>
+                        <use xlink:href='#iconIg'></use>
+                    </svg>
+                </a>
+            </li>
+        
+                    <li>
+                <a href="https://www.instagram.com/narcos_lawyer/" target="_blank" title="tiktok">
+                    <svg>
+                        <use xlink:href='#icon-tiktok'></use>
+                    </svg>
+                </a>
+            </li>
+        
+                    <li><a href="https://page.line.me/602kqlub" target="_blank" title="Line">
+                    <svg>
+                        <use xlink:href="#iconLine"></use>
+                    </svg>
+                </a>
+            </li>
+        
+                    <li><a href="https://www.facebook.com/narcoslawyer/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        
+                    <li><a href="https://www.youtube.com/@narcos_lawyer" target="_blank" title="Youtube"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+</nav>
+<!--socialBox end-->            <!--contactInfo-->
+<address class="sideContactInfo">
+	<ul class="infoList">
+					<li class="tel">
+				<i class="icon fa fa-phone"></i>
+				<span class="infoText">TEL.</span>
+				<a href="tel:0916-420-222" title="0916-420-222" target="_blank">0916-420-222</a>
+			</li>
+							<li class="fax">
+				<i class="icon fa fa-fax"></i>
+				<span class="infoText">FAX.</span>
+				<span>02-2732-4202</span>
+			</li>
+							<li class="address">
+				<i class="icon fa fa-map-marker"></i>
+				<span class="infoText">ADD.</span>
+				<a href="https://maps.app.goo.gl/xuu1YNMBhcpXg4By8" title="台北市信義區基隆路二段189號4樓之8" target="_blank">台北市信義區基隆路二段189號4樓之8</a>
+			</li>
+					</ul>
+</address>
+<!--contactInfo end-->            <div class="copyrightBox">
+    <div class="copyright">
+        <p>
+            <span>Copyright ©</span>
+            <span class="year">2026</span>
+            <span>hsiao gao law firm</span>
+            <span>All Rights Reserved.</span>
+        </p>
+    </div>
+    <div class="ibestLink">
+        <a href="https://www.ibest.com.tw" target="_blank">Design</a>
+        <span>by</span>
+        <a href="https://www.ibest.tw" target="_blank">iBest</a>
+    </div>
+</div>
+            <div class="goTopBox">
+                <div class="goTop">
+                    <svg class="icon">
+                        <use xlink:href='#iconAngle'></use>
+                    </svg>
+                    <span class="text">PAGE TOP</span>
+                </div>
+            </div>
+        </div><!--wrap end-->
+    </footer><!--footer end-->
+    </div><!--outerWrap end-->
+
+    <!--手機側邊選單-->
+    <!-- slideMenuArea -->
+<div class="slideMenuArea">
+	<div class="wrap">
+
+		<div class="topBox">
+			<div class="slideMenuLogo"><a href="https://www.hsiaogao.com/" title="蕭告律師事務所"><img src="https://www.hsiaogao.com/images/logo.svg" alt="蕭告律師事務所"></a></div>
+
+			<div class="rightBox">
+				<div class="consultingBox">
+					<a class="btn" href="https://page.line.me/602kqlub" target="_blank" title="預約諮詢">預約諮詢</a>
+				</div>
+				<div class="slideMenuTrigger close"><span class="line"></span></div>
+			</div>
+		</div>
+
+		<div class="menuBox">
+			<ul class="nav"  ><!--menu-->
+    <li class="menuItem dropDown">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/about/">蕭告律師</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/solution/">專業領域</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/team/">成功案例</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/news/">最新消息</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/comment/">客戶評價</a></span>
+    </li>
+    <li class="menuItem dropDown">
+        <span ><a class="mainLink"  href="https://www.hsiaogao.com/articles/">法律專欄</a></span>
+    </li>
+    </ul><!--menu end-->
+		</div>
+
+		<div class="bottomBox">
+			<!--socialBox end-->
+<nav class="socialBox">
+    <ul class="socialList">
+                    <li>
+                <a href="https://www.instagram.com/narcos_lawyer/" target="_blank" title="Instagram">
+                    <svg>
+                        <use xlink:href='#iconIg'></use>
+                    </svg>
+                </a>
+            </li>
+        
+                    <li>
+                <a href="https://www.instagram.com/narcos_lawyer/" target="_blank" title="tiktok">
+                    <svg>
+                        <use xlink:href='#icon-tiktok'></use>
+                    </svg>
+                </a>
+            </li>
+        
+                    <li><a href="https://page.line.me/602kqlub" target="_blank" title="Line">
+                    <svg>
+                        <use xlink:href="#iconLine"></use>
+                    </svg>
+                </a>
+            </li>
+        
+                    <li><a href="https://www.facebook.com/narcoslawyer/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        
+                    <li><a href="https://www.youtube.com/@narcos_lawyer" target="_blank" title="Youtube"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+</nav>
+<!--socialBox end-->			<div class="copyrightBox">
+    <div class="copyright">
+        <p>
+            <span>Copyright ©</span>
+            <span class="year">2026</span>
+            <span>hsiao gao law firm</span>
+            <span>All Rights Reserved.</span>
+        </p>
+    </div>
+    <div class="ibestLink">
+        <a href="https://www.ibest.com.tw" target="_blank">Design</a>
+        <span>by</span>
+        <a href="https://www.ibest.tw" target="_blank">iBest</a>
+    </div>
+</div>		</div>
+
+	</div>
+</div>
+<!-- slideMenuArea end -->
+<div class="slideMenuMask"></div>
+    <!-- GA4 & GTM view_cart -->
+    
+    <!--cookie提醒-->
+    <div class="moduleBox cookie" id="moduleCookie"><!--cookieArea-->
+    <div class="moduleWrap"><!--moduleWrap-->
+        <button class="moduleClose" aria-label="關閉"></button>
+        <div class="moduleContent"><!--moduleContent-->
+            <p class="text">偵測到您已關閉Cookie，為提供最佳體驗，建議您使用Cookie瀏覽本網站以便使用本站各項功能</p>
+        </div><!--moduleContent end-->
+    </div><!--moduleWrap end-->
+</div><!--cookieArea end-->
+    <!--privacy-->
+    
+        <!--privacyArea-->
+        <div class="privacyArea">
+            <div class="wrap"><!-- wrap -->
+                <div class="text"><p>我們使用 Cookie 以允許我們網站的正常工作、個性化設計內容和廣告、提供社交媒體功能並分析流量。我們還同社交媒體、廣告和分析合作夥伴分享有關您使用我們網站的信息</p></div>
+                <div class="btnBox flex">
+                    <a class="btn small bgMain openModule" href="#modulePrivacy" title="管理Cookies">管理Cookies</a>
+                    <button class="btn small bgMain privacyTrigger acceptAll" aria-label="全部接受">全部接受</button>
+                </div>
+            </div><!-- wrap end -->
+        </div>
+        <!--privacyArea end-->
+
+        <div class="moduleBox privacy" id="modulePrivacy">
+            <div class="moduleWrap">
+                <button class="moduleClose" aria-label="關閉"></button>
+                <div class="moduleContent">
+                    <div class="settingBox main">
+                        <p class="moduleTitle">隱私權偏好設定中心</p>
+                                                    <div class="text">
+                                <p>我們使用 Cookie 以允許我們網站的正常工作、個性化設計內容和廣告、提供社交媒體功能並分析流量。我們還同社交媒體、廣告和分析合作夥伴分享有關您使用我們網站的信息</p>                            </div>
+                                                <div class="btnBox flex">
+                            <a class="btn small bgMain" href="https://www.hsiaogao.com/privacy/" title="查看隱私權政策">查看隱私權政策</a>
+                            <button class="btn small bgMain privacyTrigger acceptAll" aria-label="全部接受">全部接受</button>
+                        </div>
+                    </div>
+                    <div class="settingBox custom">
+                        <p class="moduleTitle">管理同意設定</p>
+                        <div class="customList">
+                                                            <div class="customItem">
+                                    <div class="topBox">
+                                        <p class="subtitle">必要的Cookie</p>
+                                        <div class="trigger">
+                                            <span class="alwaysOn">一律啟用</span>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <p>網站運行離不開這些 Cookie 且您不能在系統中將其關閉。通常僅根據您所做出的操作（即服務請求）來設置這些 Cookie，如設置隱私偏好、登錄或填充表格。您可以將您的瀏覽器設置為阻止或向您提示這些 Cookie，但可能會導致某些網站功能無法工作。</p>                                    </div>
+                                </div>
+                            
+                            
+
+                                                            <div class="customItem">
+                                    <div class="topBox">
+                                        <p class="subtitle">行銷的Cookie</p>
+                                        <div class="trigger">
+                                            <label for="cookie_marketing">
+                                                <input type="checkbox" name="cookie_marketing" id="cookie_marketing">
+                                                <span></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <p>行銷 Cookie 能用來追蹤訪客造訪網站的歷程。目的是用來顯示與個別使用者相關或吸引他們的廣告，因此對發佈者或第三方廣告商而言比較重要。<br><br>定向 Cookie<br>這些 Cookie 由廣告合作夥伴通過我們的網站進行設置。這些公司可能利用 Cookie 構建您的興趣分佈圖並向您展示其他網站上的相關廣告。它們只需識別您的瀏覽器和設備便可發揮作用。如果您不允許使用這些 Cookie，您將不能體驗不同網站上的定向廣告。<br><br>社交媒體 Cookie<br>這些 Cookie 由我們已添加到網站上的一系列社交媒體服務設置，使您能夠與朋友和網絡共享我們的內容。它們能夠通過其他網站跟踪您的瀏覽器並構建您的興趣分佈圖。這可能會影響您在訪問其他網站時所查看的內容和消息。如果您不允許使用這些 Cookie，您可能無法使用或查看這些共享工具。</p>                                    </div>
+                                </div>
+                                                    </div>
+                        <div class="btnBox single"><button class="btn small bgMain privacyTrigger acceptCustom" aria-label="確認選擇">確認選擇</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            (function() {
+                $('#modulePrivacy .topBox .subtitle').on('click', function(e) {
+                    $(this).parents('.topBox').stop(false, false).toggleClass('open');
+                    $(this).parents('.topBox').siblings('.text').stop(false, false).slideToggle(300);
+                });
+
+                function removePrivacyElement() {
+                    $('body').removeClass('overflow');
+                    $('#modulePrivacy, .moduleMask').removeClass('show');
+                    $('.privacyArea').addClass('check');
+
+                    setTimeout(function() {
+                        $('#modulePrivacy, .privacyArea').remove();
+                    }, 1000);
+                }
+
+                if (navigator.cookieEnabled) {
+
+                    $('#modulePrivacy .privacyTrigger, .privacyArea .privacyTrigger').on('click', function(e) {
+                        e.preventDefault();
+
+                        let privacyJson = {
+                            necessary: 'ok',
+                            functional: 'ok',
+                            marketing: 'ok'
+                        }
+
+                        let functionalCode = {
+                            head: "\n",
+                            bodyfron: "\n",
+                            bodyend: "\n",
+                        }
+                        let marketingCode = {
+                            head: "<!-- Google tag (gtag.js) -->\r\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-5JV7Y4L19J\"><\/script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-5JV7Y4L19J');\r\n<\/script>\n",
+                            bodyfron: "\n",
+                            bodyend: "\n",
+                        }
+
+                        //客製化
+                        if ($(this).hasClass('acceptCustom')) {
+                            if (!$('#cookie_functional').prop('checked')) delete privacyJson.functional;
+                            if (!$('#cookie_marketing').prop('checked')) delete privacyJson.marketing;
+                        }
+
+                        if (privacyJson.functional) {
+                            $('head').append(functionalCode.head);
+                            $('body').prepend(functionalCode.bodyfront);
+                            $('body').append(functionalCode.bodyend);
+                        }
+                        if (privacyJson.marketing) {
+                            $('head').append(marketingCode.head);
+                            $('body').prepend(marketingCode.bodyfront);
+                            $('body').append(marketingCode.bodyend);
+                        }
+
+                        //儲存
+                        privacyJson = JSON.stringify(privacyJson);
+                        document.cookie = 'privacy=' + privacyJson + '; max-age=604800; SameSite=None; Secure; path=/;';
+
+                        removePrivacyElement();
+                    });
+                } else {
+                    $('#modulePrivacy .btn a, .privacyArea .btn a.acceptAll').on('click', function(e) {
+                        e.preventDefault();
+                        removePrivacyElement();
+                    });
+                }
+            })();
+        </script>
+
+
+    <!--svg-->
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+	<symbol id="iconLineColored" viewBox="0 0 183.433 173.511">
+		<style type="text/css">
+			.line {
+				fill: #4fc441;
+			}
+		</style>
+		<path class="line" d="M183.386,70.704c-0.289-7.491-1.932-14.663-4.937-21.514c-6.256-14.268-16.528-25.032-29.549-33.255    C131.479,4.932,112.285,0.115,89.979,0c-2.006,0.124-5.82,0.281-9.619,0.606C70.566,1.442,61.08,3.673,51.921,7.219    c-15.101,5.846-28.187,14.56-38.25,27.425C5.831,44.666,1.049,55.975,0.154,68.728C-0.775,82.01,2.507,94.3,9.613,105.544    c8.252,13.058,19.762,22.445,33.436,29.319c11.559,5.811,23.861,9.089,36.684,10.539c2.479,0.28,4.229,2.276,4.166,4.766    c-0.037,1.442-0.242,2.881-0.399,4.319c-0.479,4.4-0.935,8.804-1.468,13.199c-0.539,4.442,3.966,7.116,7.854,5.193    c13.784-6.816,27.194-14.253,39.832-23.035c8.887-6.174,17.255-12.979,24.989-20.56c6.584-6.455,12.108-13.753,17.366-21.295    C179.898,96.765,183.916,84.446,183.386,70.704z M59.079,95.217c-0.9,1.201-2.151,1.811-3.63,1.817    c-6.274,0.025-12.549,0.044-18.824-0.005c-2.623-0.021-4.506-2.028-4.512-4.663c-0.015-5.924-0.004-11.848-0.004-17.772    c0-5.88-0.015-11.76,0.008-17.639c0.008-2.359,1.678-4.124,4.154-4.498c1.938-0.292,4.149,1.142,4.756,3.166    c0.184,0.614,0.196,1.294,0.197,1.944c0.012,9.478,0.008,18.956,0.008,28.434c0,1.845,0.004,1.849,1.9,1.851    c4.081,0.005,8.162-0.001,12.242,0.008c1.941,0.004,3.421,0.871,4.203,2.629C60.296,92.103,60.178,93.75,59.079,95.217z     M73.857,74.81c0,6.015,0.002,12.031-0.002,18.046c0,2.802-1.396,4.201-4.217,4.178c-0.867-0.007-1.768-0.024-2.594-0.253    c-1.339-0.371-2.143-1.354-2.297-2.748c-0.102-0.912-0.079-1.84-0.08-2.761c-0.004-11.372-0.004-22.744-0.002-34.116    c0.001-4.128,3.546-6.211,7.265-4.262c1.392,0.73,1.931,1.947,1.931,3.475C73.854,62.516,73.857,68.663,73.857,74.81z     M117.352,91.996c0,2.34-1.193,4.135-3.168,4.791c-2.013,0.668-3.756,0.049-5.27-1.907c-5.829-7.529-11.651-15.063-17.477-22.595    c-0.285-0.367-0.586-0.72-1.146-1.408c-0.038,0.85-0.076,1.303-0.076,1.755c-0.005,6.629,0.01,13.257-0.012,19.885    c-0.008,2.318-1.668,4.138-4.004,4.502c-2.062,0.321-4.238-1.051-4.897-3.147c-0.166-0.529-0.205-1.117-0.206-1.678    c-0.011-11.589-0.012-23.178-0.005-34.766c0.002-2.299,1.197-4.104,3.077-4.724c2.045-0.674,3.902-0.018,5.4,1.931    c5.804,7.549,11.603,15.101,17.405,22.65c0.283,0.367,0.496,0.715,0.793,1.071c0.122-0.05,0.272-0.101,0.272-0.151V76.66    c0-6.496,0.082-12.993,0.105-19.49c0.01-2.453,1.391-4.067,3.733-4.601c2.692-0.614,5.415,1.475,5.44,4.266    c0.039,3.95,0.035,7.901,0.035,11.852C117.354,76.457,117.355,84.226,117.352,91.996z M133.699,63.151    c0.1,1.751,0.023,3.512,0.025,5.269c0.004,1.769,0.006,1.775,1.846,1.777c4.084,0.004,8.168-0.023,12.252,0.011    c3.113,0.025,5.027,2.303,4.594,5.376c-0.311,2.203-2.268,3.781-4.816,3.799c-4.128,0.027-8.257,0.061-12.384-0.024    c-1.282-0.027-1.562,0.435-1.511,1.585c0.076,1.754,0.091,3.517-0.004,5.268c-0.068,1.251,0.322,1.688,1.613,1.667    c4.127-0.07,8.256-0.054,12.383-0.014c3.187,0.03,5.098,2.204,4.729,5.276c-0.262,2.181-2.11,3.875-4.44,3.89    c-6.28,0.039-12.561,0.045-18.84-0.001c-2.621-0.02-4.531-2.022-4.539-4.65c-0.021-5.885-0.006-11.77-0.006-17.655    c-0.002-5.753-0.006-11.506,0-17.26c0.004-3.1,1.877-5.029,4.98-5.042c6.017-0.027,12.033-0.024,18.05,0    c2.351,0.01,4.292,1.463,4.741,3.438c0.499,2.192-0.364,4.318-2.303,5.237c-0.756,0.359-1.686,0.477-2.539,0.487    c-4.084,0.048-8.168,0.055-12.252,0.002C134.104,61.572,133.63,61.907,133.699,63.151z" />
+	</symbol>
+	<symbol id="iconGoogle" viewBox="0 0 215.4 220.6">
+		<style type="text/css">
+			.google0 {
+				fill: #E94535;
+			}
+
+			.google1 {
+				fill: #4EA853;
+			}
+
+			.google2 {
+				fill: #4285F3;
+			}
+
+			.google3 {
+				fill: #F7BB32;
+			}
+
+			.google4 {
+				fill: #3C84EF;
+			}
+		</style>
+		<g>
+			<path class="google0" d="M11.7,61.3C28.2,28.7,54.6,8.6,90.3,2c32.6-6,62.4,1.7,88.7,22.1c3.5,2.7,3.8,4.2,0.4,7.3
+				c-8.8,8.3-17.3,17-25.8,25.7c-1.8,1.8-2.8,2.3-5.3,0.6c-36.8-25.3-82.9-11.1-99.3,30.5c-0.2,0.4-0.5,0.8-0.8,1.2
+				c-1.5-1.1-3-2.1-4.4-3.2C33.2,77.9,22.4,69.6,11.7,61.3z" />
+			<path class="google1" d="M48.3,131.1c4.9,12.3,11.7,23.2,22.6,31c22.7,16.4,47,17.3,72.1,6.1c1.6-0.7,3-2.1,5-2c11.4,9,22.7,18,34.1,27
+				c-17.4,16.4-38.3,24.9-61.7,27c-45.1,4-87.2-19.2-107.9-59.1c-0.3-0.6-0.5-1.2-0.8-1.8C23.8,149.8,36,140.5,48.3,131.1z" />
+			<path class="google2" d="M182,193.1c-11.4-9-22.7-18-34.1-27c1.7-3,4.8-4.3,7.2-6.6c5.2-4.9,8.6-11.1,11.9-17.3c0.8-0.5,1-1.3,0.9-2.1
+				c0,0-0.1,0.1-0.1,0.1c2.5-2,3.2-5.1,2.4-7.5c-0.8-2.6-4.1-1.4-6.3-1.4c-15.8-0.1-31.6-0.1-47.4,0c-3.4,0-4.6-1-4.6-4.5
+				c0.2-12.1,0.1-24.3,0.1-36.4c33.3,0,66.6,0,99.9,0c0.4,0.3,0.7,0.6,1.1,0.9c0,0-0.1-0.1-0.1-0.1c0.1,0.3,0.3,0.6,0.4,1
+				c0.1,0.7,0.3,1.4,0.4,2.2c-1.2,1.9-2,3.8,0.9,5c3.4,35.3-5.6,66.5-30.8,92.3C183.4,192.2,182.7,192.6,182,193.1z" />
+			<path class="google3" d="M48.3,131.1c-12.2,9.4-24.4,18.8-36.7,28.2c-15.4-32.7-15.5-65.3,0.1-98c10.7,8.3,21.5,16.7,32.2,25
+				c1.4,1.1,2.9,2.2,4.4,3.2C44.2,103.4,44.2,117.2,48.3,131.1z" />
+			<path class="google4" d="M112.1,90.4c0,12.1,0.1,24.3-0.1,36.4c-0.1,3.5,1.1,4.5,4.6,4.5c15.8-0.1,31.6-0.1,47.4,0
+				c2.2,0,5.5-1.2,6.3,1.4c0.8,2.4,0.1,5.6-2.4,7.5c1.4-7.3,1.4-7.3-6-7.3c-15.6,0-31.2-0.1-46.8,0.1c-3.5,0-5-0.6-4.9-4.6
+				c0.3-11.4,0.1-22.9,0.2-34.4C110.3,92.8,109.1,90.5,112.1,90.4z" />
+			<path class="google4" d="M214.8,99.3c-2.9-1.2-2.1-3-0.9-5C214.2,96,214.5,97.7,214.8,99.3z" />
+			<path class="google4" d="M167.9,140.2c0.1,0.9-0.1,1.6-0.9,2.1C167,141.5,167.1,140.7,167.9,140.2z" />
+			<path class="google4" d="M213.1,91.3c-0.4-0.3-0.7-0.6-1.1-0.9C212.6,90.3,213,90.6,213.1,91.3z" />
+			<path class="google4" d="M213.4,92.2c-0.1-0.3-0.3-0.6-0.4-1C213.2,91.5,213.3,91.9,213.4,92.2z" />
+		</g>
+	</symbol>
+	<symbol id="iconFacebook" viewBox="0 0 16.9 32.1">
+		<style type="text/css">
+			.facebook0 {
+				fill: #FFFFFF;
+			}
+		</style>
+		<g>
+			<path class="facebook0" d="M11,18c0-0.2,0-0.3,0.3-0.3c1.5,0,2.9,0,4.4,0c0.2,0,0.3-0.1,0.3-0.3c0.2-1.7,0.4-3.5,0.7-5.2
+				c0-0.2,0-0.3-0.3-0.3c-1.7,0-3.5,0-5.2,0c-0.2,0-0.3,0-0.3-0.2c0-1.2,0-2.4,0-3.7c0-0.3,0-0.7,0.1-1c0.2-0.7,0.6-1.2,1.3-1.4
+				c0.3-0.1,0.7-0.2,1.1-0.2c1,0,2.1,0,3.2,0c0.2,0,0.3,0,0.3-0.2c0-1.6,0-3.1,0-4.7c0-0.2,0-0.2-0.2-0.3C15.6,0.1,14.5,0,13.4,0
+				c-1,0-1.9,0-2.9,0.2C8.4,0.6,6.8,1.7,5.9,3.7C5.3,4.8,5,6.1,5,7.3c0,1.4,0,2.9,0,4.3c0,0.2-0.1,0.3-0.3,0.3c-1.5,0-3,0-4.4,0
+				C0,11.9,0,12,0,12.2c0,1.7,0,3.5,0,5.2c0,0.2,0.1,0.3,0.3,0.3c1.5,0,2.9,0,4.4,0C5,17.7,5,17.7,5,18c0,4.7,0,9.4,0,14.1h6
+				C11,27.4,11,22.7,11,18z" />
+		</g>
+	</symbol>
+	<symbol id="iconTwitter" viewBox="0 0 1200 1227">
+		<path d="M714.2,519.3L1160.9,0H1055L667.1,450.9L357.3,0H0l468.5,681.8L0,1226.4h105.9l409.6-476.2l327.2,476.2H1200L714.2,519.3
+		L714.2,519.3z M569.2,687.8l-47.5-67.9L144,79.7h162.6l304.8,436l47.5,67.9l396.2,566.7H892.5L569.2,687.8L569.2,687.8z" />
+	</symbol>
+	<symbol id="icon-garbage" viewBox="0 0 44 52">
+		<path stroke="currentColor" style="fill:none;stroke-width:2;stroke-linejoin:round;" d="M43,15H1v-5c0-1.657,1.343-3,3-3h36  c1.656,0,3,1.343,3,3V15z" />
+		<path stroke="currentColor" style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="M39,19v28  c0,2.209-1.791,4-4,4H9c-2.209,0-4-1.791-4-4V19" />
+		<path stroke="currentColor" style="fill:none;stroke-width:2;stroke-linejoin:round;" d="M15,7V4c0-1.657,1.344-3,3-3h8  c1.656,0,3,1.343,3,3v3" />
+		<line stroke="currentColor" style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="25" y1="21" x2="25" y2="45" />
+		<line stroke="currentColor" style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="19" y1="21" x2="19" y2="45" />
+		<line stroke="currentColor" style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="13" y1="21" x2="13" y2="45" />
+		<line stroke="currentColor" style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="31" y1="21" x2="31" y2="45" />
+	</symbol>
+	<symbol id="iconLock" viewBox="0 0 29.4 39">
+		<path fill="currentColor" d="M24.4,17c-0.2-2.5-0.1-5-0.6-7.3c-1-4.4-5.1-7.3-9.5-7.1c-4.6,0.2-8.3,3.4-9,7.9c-0.1,0.5-0.1,1-0.2,1.4             c-0.1,0.7-0.5,1.3-1.1,1.2c-0.6,0-1-0.6-1-1.4C3.2,6.2,7,1.7,12.5,0.6c6.7-1.4,13.4,3.7,13.8,10.6c0.1,1.6,0.1,3.2,0.1,4.8             c0,0.3,0,0.6,0,0.9c2.2,0.4,2.6,0.9,2.6,3.1c0,4,0,8,0,11.9c0,2.6-1,4.7-3.4,5.9c-0.9,0.4-2,0.7-2.9,0.7c-5.3,0.1-10.6,0.1-15.9,0             c-3.7,0-6.3-2.6-6.4-6.4c-0.1-4.3,0-8.6,0-12.9c0-1.5,0.9-2.3,2.5-2.3c6.7,0,13.4,0,20.1,0C23.4,17,23.8,17,24.4,17z M26.8,19.2             c-8.2,0-16.2,0-24.3,0c0,0.3,0,0.6,0,0.9c0,3.9,0,7.8,0,11.8c0,2.9,1.6,4.5,4.5,4.6c5.1,0,10.2,0,15.3,0c2.9,0,4.5-1.6,4.5-4.6             c0-3.9,0-7.8,0-11.8C26.8,19.9,26.8,19.6,26.8,19.2z" />
+		<path fill="currentColor" d="M14.7,32c-2.1,0-4-1.8-4-4c0-2.2,1.9-4.1,4-4c2.2,0,4,1.8,4,4C18.7,30.2,16.9,32,14.7,32z M14.7,26.1             c-1,0-1.9,0.8-1.9,1.8c0,1,0.9,1.9,1.9,1.9c0.9,0,1.9-0.9,1.9-1.9C16.6,27,15.7,26.1,14.7,26.1z" />
+	</symbol>
+	<symbol id="iconKey" viewBox="0 0 52.3 52.3">
+		<path fill="currentColor" d="M37.3,26.2c1.1-0.1,1.5,0.4,1.5,1.5c0,1.9,0.9,2.8,2.8,2.8c1,0,1.4,0.5,1.5,1.4c0.1,2.1,0.7,2.6,2.8,2.8   c0.7,0.1,1.5,0.3,1.3,1.2c-0.2,1.4,0.5,2.2,1.4,3c0.8,0.7,1.5,1.4,2.2,2.2c0.4,0.5,0.7,1.2,0.7,1.8c0.1,2.4,0,4.9,0,7.3   c0,1.3-0.3,1.6-1.6,1.6c-2.4,0-4.8,0-7.2,0c-0.9,0-1.5-0.3-2.1-0.9c-4.9-5-9.9-9.9-14.8-14.8c-0.3-0.3-0.6-0.5-1.1-1   c-0.3,0.4-0.6,0.8-0.9,1.2c-0.9,0.9-1.6,0.8-2.2-0.3c-0.1-0.2-0.2-0.4-0.3-0.6c-0.2-0.7-0.7-0.9-1.5-0.8c-1.6,0.2-3.2,0.3-4.8,0   C5.6,33-0.5,24.7,0.8,15.1C2,5.6,11.8-1.1,21.1,1c8.6,2,14.1,9.3,13.4,18.1c-0.1,1.5,0,2.3,1.5,2.8c1,0.3,1,1.1,0.3,1.9   c-0.4,0.4-0.9,0.7-1.3,0.9C35.6,26,36.4,26.2,37.3,26.2z M49.4,43.1c0-0.4-0.3-0.8-0.5-1c-0.8-0.9-1.8-1.7-2.5-2.6   c-0.6-0.7-1-1.5-1.7-2.6c-1.9-0.4-3.7-2.2-3.8-4.2c-2.5-0.6-4-2.2-4.2-4.4c-1.7,0.4-2.4-1-3.4-1.9c-1.1-1.1-1.1-1.4,0-2.5   c0.2-0.2,0.3-0.3,0.5-0.5c-0.3-0.2-0.5-0.3-0.7-0.4c-1-0.4-1.2-1.1-1-2.1c1.4-6.7-1.6-13.2-7.6-16.3C18.9,1.7,13.3,2.1,8.4,6   c-5,4-6.8,9.4-5,15.7c1.7,6,5.8,9.6,11.9,10.6c1.5,0.2,3,0.2,4.5,0c1.6-0.2,2.9-0.5,3.3,1.6c2.1-1.6,2.1-1.6,3.9,0.2   c4.9,4.9,9.9,9.9,14.8,14.8c0.4,0.4,1.2,0.7,1.8,0.7c1.9,0.1,3.8,0,5.9,0C49.5,47.3,49.5,45.2,49.4,43.1z" />
+		<path fill="currentColor" d="M18.9,13c0,2.9-2.4,5.4-5.4,5.4c-2.8,0-5.3-2.4-5.3-5.3c0-2.9,2.4-5.4,5.3-5.3C16.4,7.7,18.8,10.1,18.9,13z   M13.5,9.8c-1.8,0-3.2,1.5-3.2,3.2c0,1.7,1.4,3.1,3.2,3.1c1.8,0,3.2-1.3,3.2-3.1C16.7,11.2,15.2,9.8,13.5,9.8z" />
+	</symbol>
+	<symbol id="iconDonwloadArrow" viewBox="0 0 27.41 31.84">
+		<rect x="18.97" y="17.01" width="2" height="19" transform="translate(-24.9 13.88) rotate(-45)" />
+		<rect x="22.49" y="25.51" width="19" height="2" transform="translate(-21.38 22.38) rotate(-45)" />
+		<rect x="12.9" width="2.16" height="24" />
+		<rect x="12.9" width="2.16" height="24" />
+		<rect y="29.68" width="27.06" height="2.16" />
+	</symbol>
+	<symbol id="icon-step01" viewBox="0 0 849.097 887.018">
+		<path fill="currentColor" d="M828.51,425.554c-0.732-15.16-13.201-27.037-28.385-27.037H663.361l-16.664-194.48  c-1.807-21.881-20.096-39.022-41.637-39.022h-78.385C516.082,72.441,439.008-0.001,346.906-0.001  c-89.807,0-165.301,68.89-178.828,158.147c-1.08,2.098-1.797,4.412-2.041,6.869H88.75c-21.899,0-39.801,16.773-41.639,38.963  L0.236,751.061c-0.018,0.204-0.029,0.414-0.043,0.618C0.115,752.354,0,753.454,0,754.792c0,72.909,63.769,132.226,142.154,132.226  H388.99h0.473h431.218c7.693,0,15.17-3.188,20.521-8.761c5.334-5.561,8.201-13.182,7.867-21L828.51,425.554z M346.906,38.541  c70.996,0,130.613,55.169,140.871,126.474h-281.75C216.29,93.713,275.91,38.541,346.906,38.541 M381.163,425.568l-20.139,422.91  H142.154c-56.85,0-103.154-41.617-103.609-92.922c0.048-0.451,0.103-1.032,0.136-1.71l46.836-546.634  c0.172-2.087,1.561-3.656,3.233-3.656h77.189v50.561c0,10.642,8.627,19.269,19.272,19.269c10.642,0,19.269-8.627,19.269-19.269  v-50.561h283.744v50.561c0,10.642,8.627,19.269,19.27,19.269c10.645,0,19.271-8.627,19.271-19.269v-50.561h78.295  c1.406,0,3.041,1.395,3.232,3.712l16.387,191.249H409.55C394.372,398.517,381.902,410.389,381.163,425.568 M399.609,848.478  l19.592-411.42h371.27l19.596,411.42H399.609z" />
+		<path fill="currentColor" d="M722.518,462.011c-10.641,0-19.271,8.625-19.271,19.271v34.606c0,54.265-44.145,98.411-98.408,98.411  s-98.412-44.146-98.412-98.411v-34.606c0-10.646-8.627-19.271-19.27-19.271c-10.645,0-19.271,8.625-19.271,19.271v34.606  c0,75.515,61.438,136.952,136.953,136.952s136.949-61.438,136.949-136.952v-34.606C741.787,470.636,733.164,462.011,722.518,462.011  " />
+	</symbol>
+	<symbol id="icon-step02" viewBox="0 0 711.683 891.632">
+		<path fill="currentColor" d="M628.303,58.834H452.004H440.15h-17.127C420.531,26,391.352,0,355.839,0  C320.333,0,291.155,26,288.663,58.834h-28.986c-1.681,0-3.337,0.089-4.973,0.239c-0.944-0.142-1.901-0.239-2.885-0.239H83.376  C37.405,58.834,0,93.872,0,136.938v676.591c0,43.067,37.405,78.104,83.377,78.104h544.926c45.974,0,83.38-35.037,83.38-78.104  V136.938C711.683,93.872,674.276,58.834,628.303,58.834 M590.961,179.56v591.35H120.723V179.56h75.565  c5.882,10.913,17.705,18.399,31.335,18.399h256.44c13.627,0,25.453-7.486,31.33-18.399H590.961z M307.761,97.375  c10.644,0,19.271-8.627,19.271-19.27V63.395c0-13.704,12.923-24.854,28.808-24.854c15.889,0,28.815,11.15,28.815,24.854v14.711  c0,10.643,8.627,19.27,19.27,19.27h36.227h11.854c3.726,0,7.148,1.258,9.638,3.543c1.436,1.318,3.146,3.53,3.146,6.603v41.751  c0,3.722,1.057,7.199,2.885,10.146H244.009c1.828-2.947,2.884-6.424,2.884-10.146v-41.751c0-5.499,5.855-10.146,12.784-10.146  H307.761z M673.143,813.528c0,21.815-20.115,39.563-44.84,39.563H83.376c-24.724,0-44.836-17.748-44.836-39.563V136.938  c0-21.815,20.112-39.562,44.836-39.562h126.116c-0.737,3.276-1.14,6.666-1.14,10.146v28.002c-2.474,1.555-4.721,3.41-6.71,5.495  H101.452c-10.643,0-19.27,8.627-19.27,19.271v629.89c0,10.644,8.627,19.271,19.27,19.271H610.23  c10.645,0,19.271-8.627,19.271-19.271V160.29c0-10.644-8.627-19.271-19.271-19.271H510.041c-1.992-2.086-4.24-3.94-6.713-5.496  v-27.994c0-3.46-0.391-6.854-1.119-10.153h126.094c24.725,0,44.84,17.747,44.84,39.562V813.528z" />
+		<path fill="currentColor" d="M353.174,149.36c5.064,0,10.046-2.064,13.627-5.643c3.578-3.578,5.644-8.534,5.644-13.627  c0-5.065-2.065-10.048-5.644-13.626c-3.581-3.58-8.563-5.645-13.627-5.645c-5.068,0-10.05,2.065-13.628,5.645  c-3.579,3.606-5.643,8.561-5.643,13.626c0,5.066,2.064,10.049,5.643,13.627C343.124,147.296,348.106,149.36,353.174,149.36" />
+		<path fill="currentColor" d="M275.132,263.172l-64.83,64.832l-18.031-18.033c-7.528-7.524-19.728-7.524-27.255,0  c-7.525,7.525-7.525,19.728,0,27.253l31.658,31.658c3.764,3.763,8.695,5.644,13.628,5.644c4.933,0,9.864-1.881,13.628-5.644  l78.457-78.458c7.525-7.524,7.525-19.727,0-27.252C294.86,255.647,282.66,255.647,275.132,263.172" />
+		<rect fill="currentColor" x="369.282" y="270.604" width="104.61" height="38.541" />
+		<rect fill="currentColor" x="369.281" y="322.909" width="156.229" height="38.541" />
+		<path fill="currentColor" d="M275.132,431.788l-64.83,64.833l-18.031-18.033c-7.528-7.525-19.728-7.525-27.255,0  c-7.525,7.524-7.525,19.727,0,27.252l31.658,31.659c3.764,3.762,8.695,5.644,13.628,5.644c4.933,0,9.864-1.882,13.628-5.644  l78.457-78.458c7.525-7.525,7.525-19.729,0-27.252C294.86,424.263,282.66,424.263,275.132,431.788" />
+		<rect fill="currentColor" x="369.282" y="439.219" width="104.61" height="38.541" />
+		<rect fill="currentColor" x="369.281" y="491.524" width="156.229" height="38.541" />
+		<path fill="currentColor" d="M275.132,600.403l-64.83,64.831l-18.031-18.032c-7.528-7.525-19.728-7.525-27.255,0  c-7.525,7.524-7.525,19.728,0,27.253l31.658,31.658c3.764,3.762,8.695,5.644,13.628,5.644c4.933,0,9.864-1.882,13.628-5.644  l78.457-78.458c7.525-7.524,7.525-19.728,0-27.252C294.86,592.878,282.66,592.878,275.132,600.403" />
+		<rect fill="currentColor" x="369.282" y="607.835" width="104.61" height="38.541" />
+		<rect fill="currentColor" x="369.281" y="660.14" width="156.229" height="38.541" />
+	</symbol>
+	<symbol id="icon-step03" viewBox="0 0 1132.689 807.526">
+		<path fill="currentColor" d="M1097.802,574.688h-18.728v-192.89c0-28.847-8.529-56.745-24.674-80.683l-95.029-140.739  c-26.846-39.76-71.516-63.497-119.487-63.497H692.479c-27.839,0-50.485,22.652-50.485,50.496v427.313h-6.108V66.105  C635.886,29.655,606.23,0,569.781,0H104.502C68.05,0,38.396,29.655,38.396,66.105v508.583h-3.507C15.65,574.688,0,590.336,0,609.575  v47.372c0,19.229,15.65,34.876,34.888,34.876h182.698c0.757,0,1.506-0.045,2.242-0.129c0.316,63.922,52.416,115.832,116.411,115.832  c63.955,0,116.03-51.84,116.416-115.703h275.464c0.387,63.863,52.461,115.703,116.412,115.703  c63.954,0,116.028-51.84,116.416-115.703h136.854c19.238,0,34.887-15.646,34.887-34.876v-47.372  C1132.688,590.336,1117.04,574.688,1097.802,574.688 M225.556,655.002c-2.429-1.104-5.127-1.721-7.969-1.721H38.542v-40.054H249.78  C239.004,625.18,230.667,639.365,225.556,655.002 M336.239,768.985c-42.94,0-77.872-34.936-77.872-77.874  c0-42.944,34.932-77.883,77.872-77.883c42.942,0,77.878,34.938,77.878,77.883C414.117,734.049,379.182,768.985,336.239,768.985   M76.937,574.688V66.105c0-15.2,12.366-27.565,27.566-27.565h465.279c15.2,0,27.564,12.365,27.564,27.565v508.583H76.937z   M734.146,654.091c-1.756-0.526-3.618-0.81-5.549-0.81h-279.16c-1.023,0-2.027,0.078-3.006,0.234  c-5.148-15.05-13.298-28.717-23.73-40.288h238.563c10.644,0,19.271-8.63,19.271-19.271V147.375c0-6.593,5.357-11.956,11.944-11.956  h147.404c35.147,0,67.876,17.392,87.547,46.524l95.021,140.73c11.828,17.541,18.082,37.986,18.082,59.125v192.89H869.8  c-2.554,0-4.984,0.505-7.216,1.407c-5.885-0.919-11.912-1.407-18.053-1.407C793.272,574.688,749.646,607.986,734.146,654.091   M844.531,768.985c-42.938,0-77.874-34.936-77.874-77.874c0-42.944,34.936-77.883,77.874-77.883  c42.942,0,77.878,34.938,77.878,77.883C922.409,734.049,887.474,768.985,844.531,768.985 M1094.148,653.282H957.716  c-1.02,0-2.02,0.078-2.992,0.23c-5.151-15.051-13.318-28.713-23.758-40.284h128.838h34.345V653.282z" />
+		<path fill="currentColor" d="M942.263,359.378c13.073,0,24.938-7.208,30.962-18.814c6.024-11.605,5.092-25.458-2.433-36.151  l-75.979-107.956c-6.517-9.28-17.184-14.821-28.537-14.821H747.758c-19.235,0-34.885,15.647-34.885,34.88v107.973  c0,19.238,15.649,34.889,34.885,34.889H942.263z M751.414,220.177h112.963l70.845,100.661H751.414V220.177z" />
+		<path fill="currentColor" d="M809.236,390.54h-44.047c-10.644,0-19.271,8.627-19.271,19.271s8.627,19.271,19.271,19.271h44.047  c10.643,0,19.27-8.627,19.27-19.271S819.879,390.54,809.236,390.54" />
+		<path fill="currentColor" d="M335.736,643.806c-27.323,0-49.553,22.229-49.553,49.552c0,27.324,22.23,49.553,49.553,49.553  c27.323,0,49.552-22.229,49.552-49.553C385.288,666.036,363.059,643.806,335.736,643.806 M335.736,704.37  c-6.072,0-11.012-4.938-11.012-11.012c0-6.07,4.94-11.012,11.012-11.012c6.071,0,11.012,4.941,11.012,11.012  C346.748,699.431,341.807,704.37,335.736,704.37" />
+		<path fill="currentColor" d="M845.023,643.806c-27.322,0-49.552,22.229-49.552,49.552c0,27.324,22.229,49.553,49.552,49.553  s49.553-22.229,49.553-49.553C894.576,666.036,872.346,643.806,845.023,643.806 M845.023,704.37  c-6.073,0-11.012-4.938-11.012-11.012c0-6.07,4.938-11.012,11.012-11.012s11.012,4.941,11.012,11.012  C856.035,699.431,851.097,704.37,845.023,704.37" />
+		<rect fill="currentColor" x="150.237" y="191.442" width="350.979" height="38.541" />
+		<rect fill="currentColor" x="249.338" y="313.253" width="251.878" height="38.541" />
+		<rect fill="currentColor" x="364.953" y="435.062" width="136.263" height="38.542" />
+	</symbol>
+	<symbol id="icon-maple" viewBox="0 0 36 36">
+		<path d="M22.3732 26.6645C30.5841 28.6497 35.8046 24.8904 35.8046 24.8904C35.8046 24.8904 30.4641 21.0753 22.1179 23.2277C32.4571 17.8161 33.8817 9.06766 33.8817 9.06766C33.8817 9.06766 25.5643 10.4529 20.1672 20.1326C23.9688 8.48686 18.0292 0.982544 18.0292 0.982544C18.0292 0.982544 12.0667 8.51662 15.9153 20.2017C10.5211 10.3608 2.10187 8.96014 2.10187 8.96014C2.10187 8.96014 3.56395 17.9448 14.2862 23.3361C5.70763 20.9525 0.195312 24.8904 0.195312 24.8904C0.195312 24.8904 5.43979 28.6661 13.6843 26.6501C11.5032 28.0171 8.97259 30.4344 7.22155 34.6872C13.9646 32.724 16.6468 28.4942 17.6164 26.2968L17.3659 35.0174H18.708L18.4142 26.292C19.3828 28.4885 22.0641 32.7221 28.812 34.6872C27.0676 30.4497 24.5496 28.0344 22.3732 26.6645Z" fill="currentColor" />
+	</symbol>
+	<symbol id="icon-tiktok" viewBox="0 0 30 30">
+		<path d="M27.9231 12.3403C25.3823 12.3458 22.904 11.5526 20.8385 10.073V20.3884C20.8379 22.2989 20.254 24.1636 19.1649 25.7332C18.0758 27.3028 16.5334 28.5025 14.744 29.1718C12.9546 29.8411 11.0035 29.9481 9.15168 29.4784C7.29984 29.0088 5.63554 27.9849 4.38136 26.5438C3.12718 25.1026 2.34292 23.3129 2.13346 21.414C1.92401 19.515 2.29934 17.5974 3.20927 15.9176C4.11919 14.2377 5.52033 12.8757 7.22529 12.0138C8.93025 11.1518 10.8577 10.831 12.75 11.0942V16.2807C11.8848 16.0083 10.9556 16.0163 10.0952 16.3035C9.23472 16.5907 8.48702 17.1423 7.95881 17.8798C7.4306 18.6172 7.14889 19.5027 7.1539 20.4097C7.15892 21.3168 7.4504 22.1991 7.98673 22.9307C8.52306 23.6622 9.27682 24.2056 10.1404 24.4832C11.0039 24.7609 11.9331 24.7586 12.7953 24.4767C13.6575 24.1947 14.4085 23.6476 14.9412 22.9134C15.4739 22.1792 15.761 21.2955 15.7615 20.3884V0.230713H20.8385C20.8356 0.660096 20.8723 1.08883 20.9481 1.51148C21.1246 2.4536 21.4914 3.34982 22.0261 4.14536C22.5608 4.94091 23.252 5.61907 24.0577 6.13841C25.2045 6.89581 26.5487 7.2991 27.9231 7.29802V12.3403Z" fill="currentColor" />
+	</symbol>
+		<symbol id="iconLine" viewBox="0 0 30 30">
+		<path d="M18.2227 11.5313V16.2949C18.2227 16.418 18.1289 16.5117 18.0059 16.5117H17.2442C17.168 16.5117 17.1035 16.4707 17.0684 16.4238L14.8828 13.4766V16.3008C14.8828 16.4238 14.7891 16.5176 14.666 16.5176H13.9043C13.7813 16.5176 13.6875 16.4238 13.6875 16.3008V11.5371C13.6875 11.4141 13.7813 11.3203 13.9043 11.3203H14.6602C14.7246 11.3203 14.8008 11.3555 14.8359 11.4141L17.0215 14.3613V11.5371C17.0215 11.4141 17.1152 11.3203 17.2383 11.3203H18C18.1231 11.3145 18.2227 11.4141 18.2227 11.5254V11.5313ZM12.7324 11.3145H11.9707C11.8477 11.3145 11.7539 11.4082 11.7539 11.5313V16.2949C11.7539 16.418 11.8477 16.5117 11.9707 16.5117H12.7324C12.8555 16.5117 12.9492 16.418 12.9492 16.2949V11.5313C12.9492 11.4199 12.8555 11.3145 12.7324 11.3145ZM10.8926 15.3047H8.80665V11.5313C8.80665 11.4082 8.7129 11.3145 8.58985 11.3145H7.82814C7.70509 11.3145 7.61134 11.4082 7.61134 11.5313V16.2949C7.61134 16.3535 7.62892 16.4004 7.66993 16.4414C7.71095 16.4766 7.75782 16.5 7.81642 16.5H10.875C10.9981 16.5 11.0918 16.4063 11.0918 16.2832V15.5215C11.0918 15.4102 10.9981 15.3047 10.8867 15.3047H10.8926ZM22.2422 11.3145H19.1777C19.0664 11.3145 18.9609 11.4082 18.9609 11.5313V16.2949C18.9609 16.4063 19.0547 16.5117 19.1777 16.5117H22.2363C22.3594 16.5117 22.4531 16.418 22.4531 16.2949V15.5274C22.4531 15.4043 22.3594 15.3106 22.2363 15.3106H20.1563V14.5137H22.2363C22.3594 14.5137 22.4531 14.4199 22.4531 14.2969V13.5293C22.4531 13.4063 22.3594 13.3125 22.2363 13.3125H20.1563V12.5098H22.2363C22.3594 12.5098 22.4531 12.416 22.4531 12.293V11.5313C22.4473 11.4199 22.3535 11.3145 22.2363 11.3145H22.2422ZM30 5.47267V24.5742C29.9942 27.5742 27.5332 30.0059 24.5274 30H5.42579C2.42579 29.9942 -0.00584881 27.5274 1.0567e-05 24.5274V5.42579C0.00586994 2.42579 2.47267 -0.00584881 5.47267 1.0567e-05H24.5742C27.5742 0.00586994 30.0059 2.46681 30 5.47267ZM25.875 13.6817C25.875 8.79493 20.9707 4.81642 14.9531 4.81642C8.93556 4.81642 4.03126 8.79493 4.03126 13.6817C4.03126 18.0586 7.91603 21.7324 13.166 22.4297C14.4434 22.7051 14.2969 23.1738 14.0098 24.8965C13.9629 25.1719 13.7871 25.9746 14.9531 25.4883C16.1192 25.002 21.2402 21.7852 23.5371 19.1484C25.1192 17.4082 25.875 15.6445 25.875 13.6934V13.6817Z" fill="currentColor" />
+	</symbol>
+	<symbol id="iconIg" viewBox="0 0 30 30">
+		<path d="M14.979 7.55966C10.8758 7.55966 7.56611 10.8693 7.56611 14.9726C7.56611 19.0758 10.8758 22.3855 14.979 22.3855C19.0822 22.3855 22.3919 19.0758 22.3919 14.9726C22.3919 10.8693 19.0822 7.55966 14.979 7.55966ZM14.979 19.7919C12.3274 19.7919 10.1597 17.6306 10.1597 14.9726C10.1597 12.3145 12.321 10.1532 14.979 10.1532C17.6371 10.1532 19.7984 12.3145 19.7984 14.9726C19.7984 17.6306 17.6306 19.7919 14.979 19.7919ZM24.4242 7.25644C24.4242 8.21773 23.65 8.98547 22.6951 8.98547C21.7339 8.98547 20.9661 8.21127 20.9661 7.25644C20.9661 6.3016 21.7403 5.5274 22.6951 5.5274C23.65 5.5274 24.4242 6.3016 24.4242 7.25644ZM29.3339 9.01127C29.2242 6.69515 28.6951 4.64353 26.9984 2.95321C25.308 1.26289 23.2564 0.733855 20.9403 0.617726C18.5532 0.482242 11.3984 0.482242 9.01127 0.617726C6.7016 0.727404 4.64998 1.25644 2.95321 2.94676C1.25644 4.63708 0.733855 6.68869 0.617726 9.00482C0.482242 11.3919 0.482242 18.5468 0.617726 20.9339C0.727404 23.25 1.25644 25.3016 2.95321 26.9919C4.64998 28.6822 6.69515 29.2113 9.01127 29.3274C11.3984 29.4629 18.5532 29.4629 20.9403 29.3274C23.2564 29.2177 25.308 28.6887 26.9984 26.9919C28.6887 25.3016 29.2177 23.25 29.3339 20.9339C29.4693 18.5468 29.4693 11.3984 29.3339 9.01127ZM26.25 23.4951C25.7468 24.7597 24.7726 25.7339 23.5016 26.2435C21.5984 26.9984 17.0822 26.8242 14.979 26.8242C12.8758 26.8242 8.35321 26.9919 6.45644 26.2435C5.19192 25.7403 4.21773 24.7661 3.70805 23.4951C2.95321 21.5919 3.1274 17.0758 3.1274 14.9726C3.1274 12.8693 2.95966 8.34676 3.70805 6.44998C4.21127 5.18547 5.18547 4.21127 6.45644 3.7016C8.35966 2.94676 12.8758 3.12095 14.979 3.12095C17.0822 3.12095 21.6048 2.95321 23.5016 3.7016C24.7661 4.20482 25.7403 5.17902 26.25 6.44998C27.0048 8.35321 26.8306 12.8693 26.8306 14.9726C26.8306 17.0758 27.0048 21.5984 26.25 23.4951Z" fill="currentColor" />
+	</symbol>
+	<symbol id="iconAngle" viewBox="0 0 25 45">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M24.3848 12.1943L13.6066 1.41625L13.6067 1.41616L13.1999 1.00938V1H13.1906L12.1925 0.00195311L12.1924 0.00204944L12.1904 0L10.7761 1.4142L10.7782 1.41625L0 12.1943L1.41422 13.6085L11.1999 3.82291L11.2 45H13.2L13.1999 3.83798L22.9705 13.6085L24.3848 12.1943Z" fill="currentColor" />
+	</symbol>
+	<symbol id="iconArrowNext" viewBox="0 0 16 9">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M7.35355 0.646484L15.2071 8.50004H0V7.50004H12.7929L6.64645 1.35359L7.35355 0.646484Z" fill="currentColor" />
+	</symbol>
+	<symbol id="iconArrowPrev" viewBox="0 0 16 8">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M7.85348 0L-7.53403e-05 7.85355H15.207V6.85355H2.41414L8.56058 0.707107L7.85348 0Z" fill="currentColor" />
+	</symbol>
+	<symbol id="iconNewsLink" viewBox="0 0 41 41" fill="none">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M19 19L19 -1.31134e-07L22 0L22 19L19 19Z" fill="currentColor" />
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M19 41L19 22L22 22L22 41L19 41Z" fill="currentColor" />
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M22 19L41 19L41 22L22 22L22 19Z" fill="currentColor" />
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M2.62268e-07 19L19 19L19 22L0 22L2.62268e-07 19Z" fill="currentColor" />
+	</symbol>
+</svg>
+    <!--後台預覽模式-->
+    
+
+    <!--general Js-->
+    <script src="https://www.hsiaogao.com/lib/jsManage.js"></script>
+
+    <!--lightGallery-->
+    <link rel="stylesheet" href="https://www.hsiaogao.com/public/js/lightGallery/dist/css_style/lightgallery.css">
+    <script src="https://www.hsiaogao.com/public/js/lightGallery/dist/js/lightgallery-all-custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.titan').lightGallery({
+                actualSize: false,
+                download: false,
+                hash: false,
+                share: false,
+                // 影片自動撥放設定
+                autoplayFirstVideo: false, //是否自動撥放 (自動撥放一定要靜音，要注意是否需要出現控制列(開啟音量))
+                tumbnails: false,
+                youtubePlayerParams: {
+                    rel: 0,
+                    controls: 0 //0:隱藏 1:顯示控制列
+                },
+            });
+        });
+    </script>
+
+    <!--footable-->
+    <link rel="stylesheet" type="text/css" href="https://www.hsiaogao.com/public/js/footable/footable.core.css">
+    <script src="https://www.hsiaogao.com/public/js/footable/footable.min.js"></script>
+    <script>
+        $('table.responsive').footable();
+    </script>
+
+    <!-- dragscroll -->
+    <script src="https://www.hsiaogao.com/public/js/dragscroll.js"></script>
+
+    <!--dotdot-->
+    <script src="https://www.hsiaogao.com/public/js/jquery.dotdotdot.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            if ($('.ellipsis').length) {
+                $('.ellipsis').dotdotdot({
+                    wrap: 'letter',
+                    remove: [' ', ',', ';', '.', '!', '?'],
+                    watch: true
+                });
+            }
+        });
+    </script>
+
+    <!--scrollreveal-->
+    <script src="https://www.hsiaogao.com/public/js/scrollreveal.min.js"></script>
+    <script>
+        $(function() {
+            window.sr = ScrollReveal({
+                mobile: true,
+                scale: 1,
+                duration: 300,
+                easing: 'linear',
+                distance: '10px',
+                viewFactor: 0,
+            });
+            if (sr.isSupported()) {
+                document.documentElement.classList.add('sr');
+            }
+
+            let footerTl = gsap.timeline({
+                defaults: {
+                    duration: .8,
+                    ease: 'power2.inOut'
+                },
+                scrollTrigger: {
+                    trigger: 'footer',
+                }
+            });
+
+            footerTl.from('footer .footerMenu .menuItem', {
+                filter: 'blur(10px)',
+                y: -20,
+                opacity: 0,
+                stagger: .1
+            }).from("footer .socialBox .socialList li", {
+                filter: 'blur(10px)',
+                y: -20,
+                opacity: 0,
+                stagger: .1
+            }, '<=.2').from("footer .sideContactInfo .infoList li", {
+                filter: 'blur(10px)',
+                y: -20,
+                opacity: 0,
+                stagger: .1
+            }, '<=.2').from("footer .copyrightBox", {
+                y: -10,
+                opacity: 0
+            }, '<=.2').from("footer .goTopBox", {
+                y: 20,
+                opacity: 0
+            }, '<=.2').from("footer .deco", {
+                scaleY: 0,
+                opacity: 0
+            }, '<');
+        });
+    </script>
+
+    <!--slick-->
+    <link rel="stylesheet" href="https://www.hsiaogao.com/public/js/slick-slider/slick-theme.css">
+    <link rel="stylesheet" href="https://www.hsiaogao.com/public/js/slick-slider/slick.css">
+    <script src="https://www.hsiaogao.com/public/js/slick-slider/slick.min.js"></script>
+
+    <!--gsap-->
+    <script src="https://www.hsiaogao.com/public/js/gsap/gsap.min.js"></script>
+    <script src="https://www.hsiaogao.com/public/js/gsap/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.config({
+            nullTargetWarn: false
+        });
+    </script>
+
+    <!-- swiper -->
+    <link rel='stylesheet' href='https://www.hsiaogao.com/public/js/swiper/swiper-bundle.min.css' />
+    <script src='https://www.hsiaogao.com/public/js/swiper/swiper-bundle.min.js'></script>
+
+    <!-- lottie -->
+    <script src="https://www.hsiaogao.com/public/js/lottie-player.min.js"></script>
+
+    <!--youtube_plugin-->
+    <script src="https://www.hsiaogao.com/public/js/youtubePlugin.js"></script>
+
+    <!-- imagesloaded -->
+    <script src="https://www.hsiaogao.com/public/js/imagesloaded.min.js"></script>
+
+    
+    
+    
+    <script>
+    $(function() {
+        sr.reveal(".insTitleBox", {
+            origin: 'top',
+        });
+
+        sr.reveal(".contentBox", {
+            origin: 'top',
+            delay: 200,
+        });
+    });
+</script>
+<script>
+    $(function() {
+
+        //slick
+        $('.albumList').slick({
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            cssEase: 'ease-in-out',
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 1025,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 641,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }
+            ]
+        });
+
+
+        // albumList event
+        var albumEventObj = new Object();
+        albumEventObj.dom = $('.albumList .albumItem');
+
+        if (isMobile || isTablet) {
+            albumEventObj.start = 'touchstart';
+            albumEventObj.end = 'touchend';
+        } else {
+            albumEventObj.start = 'mousedown';
+            albumEventObj.end = 'mouseup';
+        }
+
+        // distance calculate start
+        albumEventObj.dom.on(albumEventObj.start, function(e) {
+            if (albumEventObj.start === 'touchstart') {
+                albumEventObj.startPosition = e.changedTouches[0].clientX;
+            } else {
+                albumEventObj.startPosition = e.clientX;
+            }
+        });
+
+        albumEventObj.dom.on(albumEventObj.end, function(e) {
+            if (albumEventObj.end === 'touchend') {
+                albumEventObj.endPosition = e.changedTouches[0].clientX;
+            } else {
+                albumEventObj.endPosition = e.clientX;
+            }
+
+            albumEventObj.result = albumEventObj.startPosition - albumEventObj.endPosition;
+        });
+        // distance calculate end
+
+        // trigger
+        albumEventObj.dom.on('click', function(e) {
+            if (Math.abs(albumEventObj.result) < 5) {
+                $(this).parents('.albumList').siblings('.titan').find('a').eq($(this).data('id')).click();
+            }
+        });
+
+    });
+</script>
+</body>
+
+</html>

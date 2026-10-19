@@ -1,0 +1,35 @@
+[
+  {
+    "label": "陳素月2015公報",
+    "url": "https://web.cec.gov.tw/api/file/6305cc3a-425a-47f8-908f-56659e3e5b30.pdf",
+    "status": "200",
+    "content_type": "application/pdf",
+    "final_url": "https://web.cec.gov.tw/api/file/6305cc3a-425a-47f8-908f-56659e3e5b30.pdf",
+    "path": "data/raw/government_profiles_round4_20261019/fb7352f9d4659cae5344.source",
+    "sha256": "dad7127a1d7976e167441bef0dbf7e61d1ff26b6a7ee9c898708f53ba73ebb90",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "label": "陳素月立院",
+    "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46818",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46818",
+    "path": "data/raw/government_profiles_round4_20261019/f8b1ef5979fc2345e5a6.source",
+    "sha256": "58bbcdfaff3b0d4bc691faf7aa9ffd50d7f540d7abfaf75517645ac9de7fcb68",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "label": "杜文卿2026黨公告",
+    "url": "https://www.dpp.org.tw/content_print/media/11764",
+    "status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.dpp.org.tw/content_print/media/11764",
+    "path": "data/raw/government_profiles_round4_20261019/6d91997f75463b9e1ac9.source",
+    "sha256": "f690473203b0c52cbe0e3e3282d2c0f91da5cb171d908a962298416ac859ce31",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  }
+]

@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FH30FB73SB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FH30FB73SB');
+</script>
+<title>林妤芬 — 妤你同行，新竹加芬｜新竹市第一選區（東區）議員參選人</title>
+<meta name="description" content="林妤芬，留美律師、新竹市社區關懷法律服務協會理事長，無黨籍參選新竹市第一選區（東區）市議員。聚焦育兒、交通、治安三大核心議題。">
+<meta property="og:title" content="林妤芬 — 妤你同行，新竹加芬">
+<meta property="og:description" content="法律人的高度，新竹東區的溫度。無黨籍市議員參選人 林妤芬律師">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yufenlovehsinchu.com/">
+<link rel="canonical" href="https://yufenlovehsinchu.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --rose:       #c2688a;
+    --rose-light: #e8c4d3;
+    --rose-pale:  #f7eef3;
+    --rose-dark:  #7d3357;
+    --plum:       #7c5091;
+    --plum-light: #d4bfe0;
+    --plum-pale:  #f2edf7;
+    --plum-dark:  #4a2e5c;
+    --warm-gray:  #f5f2f0;
+    --warm-dark:  #2e2430;
+    --text-main:  #231828;
+    --text-muted: #7a6474;
+    --text-light: #b09aab;
+    --white:      #ffffff;
+    --shadow-sm: 0 2px 12px rgba(120,60,100,0.07);
+    --shadow-md: 0 6px 32px rgba(120,60,100,0.10);
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-xl: 32px;
+    --font-sans: 'Noto Sans TC', sans-serif;
+    --font-serif: 'Noto Serif TC', serif;
+  }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+  body {
+    font-family: var(--font-sans);
+    color: var(--text-main);
+    background: var(--white);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  html,
+  body {
+    overflow-x: clip;
+    max-width: 100%;
+  }
+  img,
+  svg,
+  video,
+  canvas,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rose-light);
+    padding: 0 2rem;
+    height: 60px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--rose-dark);
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+  .nav-brand span { color: var(--plum); }
+  .nav-links { display: flex; gap: 2rem; align-items: center; }
+  .nav-links a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    transition: color 0.2s;
+    letter-spacing: 0.03em;
+  }
+  .nav-links a:hover { color: var(--rose); }
+  .nav-cta {
+    background: var(--rose) !important;
+    color: var(--white) !important;
+    padding: 0.4rem 1.1rem !important;
+    border-radius: 20px !important;
+    font-weight: 500 !important;
+    transition: background 0.2s, transform 0.1s !important;
+  }
+  .nav-cta:hover { background: var(--rose-dark) !important; transform: translateY(-1px); }
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 6px; border: none; background: transparent; }
+  .hamburger span { display: block; width: 22px; height: 2px; background: var(--rose-dark); border-radius: 2px; transition: all 0.3s; }
+  .nav-mobile-spacer { display: none; }
+  .mobile-menu { display: none; position: fixed; top: 60px; left: 0; right: 0; background: var(--white); border-bottom: 1px solid var(--rose-light); padding: 1rem 2rem 1.5rem; z-index: 99; flex-direction: column; gap: 1rem; }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a { font-size: 1rem; color: var(--text-muted); text-decoration: none; font-weight: 500; padding: 0.4rem 0; border-bottom: 1px solid var(--rose-pale); }
+  .mobile-menu a:last-child { border-bottom: none; }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    padding-top: 60px;
+    display: flex; align-items: center;
+    background: linear-gradient(145deg, #fdf6fa 0%, #f3e8f2 40%, #ede4f5 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-deco {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.18;
+    pointer-events: none;
+  }
+  .hero-deco-1 { width: 500px; height: 500px; background: var(--rose-light); top: -120px; right: -100px; }
+  .hero-deco-2 { width: 300px; height: 300px; background: var(--plum-light); bottom: 0; left: -80px; }
+  .hero-inner {
+    max-width: 1200px; margin: 0 auto; padding: 4rem 2rem;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;
+    position: relative; z-index: 1;
+  }
+  .hero-text { }
+  .hero-tag {
+    display: inline-block;
+    background: rgba(194,104,138,0.12);
+    color: var(--rose-dark);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(194,104,138,0.25);
+  }
+  .hero-name {
+    font-family: var(--font-serif);
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 700;
+    color: var(--warm-dark);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.6rem;
+  }
+  .hero-name span { color: var(--rose); }
+  .hero-subtitle {
+    font-size: 1.05rem;
+    color: var(--plum-dark);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.03em;
+  }
+  .hero-slogan {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--plum);
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+    letter-spacing: 0.05em;
+  }
+  .hero-desc {
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+  }
+  .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--rose);
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 4px 18px rgba(194,104,138,0.35);
+    display: inline-block;
+  }
+  .btn-primary:hover { background: var(--rose-dark); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(194,104,138,0.40); }
+  .btn-secondary {
+    background: transparent;
+    color: var(--plum-dark);
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: 1.5px solid var(--plum-light);
+    transition: all 0.2s;
+    display: inline-block;
+  }
+  .btn-secondary:hover { background: var(--plum-pale); border-color: var(--plum); }
+  .hero-photo-wrap {
+    display: flex; justify-content: center; align-items: flex-end;
+  }
+  .hero-photo-frame {
+    width: 380px; max-width: 100%;
+    background: linear-gradient(160deg, var(--rose-pale), var(--plum-pale));
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    overflow: hidden;
+    border: 2px solid rgba(194,104,138,0.15);
+    box-shadow: var(--shadow-md);
+    position: relative;
+    min-height: 460px;
+    display: flex; flex-direction: column; justify-content: flex-end;
+  }
+  .hero-photo-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 1rem;
+    color: var(--rose-dark);
+    opacity: 0.5;
+  }
+  .hero-photo-placeholder svg { width: 64px; height: 64px; }
+  .hero-photo-placeholder p { font-size: 0.85rem; text-align: center; line-height: 1.5; }
+  .hero-photo-label {
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(8px);
+    padding: 1rem 1.2rem;
+    border-top: 1px solid var(--rose-light);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  .hero-photo-label strong { color: var(--rose-dark); font-weight: 700; font-size: 1rem; display: block; }
+  .hero-stats {
+    display: flex; gap: 2rem; margin-top: 2.5rem;
+  }
+  .hero-stat { text-align: left; }
+  .hero-stat-num {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--rose);
+    line-height: 1;
+  }
+  .hero-stat-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 2px; }
+
+  /* ── SECTIONS ── */
+  section { padding: 6rem 2rem; }
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+  .section-tag {
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    color: var(--rose);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+  }
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(1.7rem, 3.5vw, 2.3rem);
+    font-weight: 700;
+    color: var(--warm-dark);
+    margin-bottom: 0.8rem;
+    line-height: 1.3;
+  }
+  .section-title span { color: var(--rose); }
+  .section-desc {
+    font-size: 1rem;
+    color: var(--text-muted);
+    max-width: 580px;
+    line-height: 1.8;
+  }
+  .section-header { margin-bottom: 3rem; }
+
+  /* ── ABOUT ── */
+  #about { background: var(--white); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 4rem;
+    align-items: start;
+  }
+  .about-grid > * { min-width: 0; }
+  .about-profile-card {
+    background: linear-gradient(160deg, var(--rose-pale), var(--plum-pale));
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    border: 1px solid var(--rose-light);
+    position: sticky; top: 80px;
+  }
+  .about-photo-area {
+    width: 100%; aspect-ratio: 3/4;
+    background: rgba(194,104,138,0.08);
+    border-radius: var(--radius-md);
+    margin-bottom: 1.5rem;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column; gap: 0.5rem;
+    color: var(--rose-dark);
+    font-size: 0.8rem;
+    border: none;
+  }
+  .about-photo-area svg { width: 40px; height: 40px; }
+  .about-name-en {
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    color: var(--text-light);
+    margin-bottom: 0.3rem;
+    overflow-wrap: anywhere;
+  }
+  .about-name-zh {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--rose-dark);
+    margin-bottom: 0.2rem;
+  }
+  .about-role {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+    overflow-wrap: anywhere;
+  }
+  .about-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .badge {
+    background: rgba(194,104,138,0.10);
+    color: var(--rose-dark);
+    font-size: 0.75rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    border: 1px solid rgba(194,104,138,0.2);
+    font-weight: 500;
+  }
+  .badge-plum {
+    background: rgba(124,80,145,0.08);
+    color: var(--plum-dark);
+    border-color: rgba(124,80,145,0.2);
+  }
+  .about-content { }
+  .about-bio {
+    font-size: 1rem;
+    color: var(--text-muted);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    overflow-wrap: anywhere;
+  }
+  .about-bio strong { color: var(--rose-dark); font-weight: 700; }
+  .about-edu-exp { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .about-block-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--rose);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .about-block-title::after { content: ''; flex: 1; height: 1px; background: var(--rose-light); }
+  .timeline-item {
+    display: flex; gap: 0.8rem;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+  }
+  .timeline-dot {
+    width: 8px; height: 8px;
+    background: var(--rose-light);
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 0.55rem;
+    border: 2px solid var(--rose);
+  }
+  .timeline-text {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .timeline-text strong { color: var(--text-main); font-weight: 500; display: block; }
+
+  /* ── POLICY ── */
+  #policy { background: var(--warm-gray); }
+  .policy-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .policy-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    border: 1px solid rgba(194,104,138,0.12);
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+  .policy-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--rose), var(--plum));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+  .policy-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); border-color: var(--rose-light); }
+  .policy-card:hover::before { transform: scaleX(1); }
+  .policy-icon {
+    width: 52px; height: 52px;
+    background: var(--rose-pale);
+    border-radius: var(--radius-md);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .policy-card-num {
+    position: absolute; top: 1.2rem; right: 1.5rem;
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(194,104,138,0.07);
+    line-height: 1;
+  }
+  .policy-card-title {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--warm-dark);
+    margin-bottom: 0.5rem;
+  }
+  .policy-card-sub {
+    font-size: 0.8rem;
+    color: var(--rose);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+  }
+  .policy-card-desc {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    line-height: 1.75;
+    margin-bottom: 1.2rem;
+  }
+  .policy-points { list-style: none; }
+  .policy-points li {
+    font-size: 0.825rem;
+    color: var(--text-muted);
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--rose-pale);
+    display: flex; gap: 0.5rem; align-items: flex-start;
+  }
+  .policy-points li:last-child { border-bottom: none; }
+  .policy-points li::before { content: '▸'; color: var(--rose); flex-shrink: 0; margin-top: 1px; }
+  .policy-data {
+    margin-top: 1.2rem;
+    background: var(--rose-pale);
+    border-radius: var(--radius-sm);
+    padding: 0.8rem 1rem;
+    font-size: 0.78rem;
+    color: var(--rose-dark);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  /* ── WHY ── */
+  #why { background: var(--white); }
+  .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+  .why-quote {
+    font-family: var(--font-serif);
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--warm-dark);
+    line-height: 1.5;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  .why-quote::before {
+    content: '「';
+    position: absolute; left: 0; top: 0;
+    color: var(--rose-light);
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+  }
+  .why-quote em { color: var(--rose); font-style: normal; }
+  .why-quote::after { content: '」'; color: var(--rose-light); font-size: 3rem; font-weight: 700; line-height: 0; vertical-align: -0.4em; }
+  .why-points { display: flex; flex-direction: column; gap: 1.2rem; }
+  .why-point {
+    display: flex; gap: 1rem; align-items: flex-start;
+    padding: 1.2rem 1.4rem;
+    background: var(--rose-pale);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--rose);
+  }
+  .why-point-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    width: 40px; height: 40px;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(194,104,138,0.12);
+    border-radius: var(--radius-sm);
+  }
+  .why-point-title { font-weight: 700; font-size: 0.95rem; color: var(--warm-dark); margin-bottom: 0.25rem; }
+  .why-point-desc { font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; }
+
+  /* ── SUPPORT ── */
+  #support { background: linear-gradient(145deg, var(--rose-pale), var(--plum-pale)); }
+  .support-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+  .support-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+    border: 1px solid var(--rose-light);
+    box-shadow: var(--shadow-sm);
+  }
+  .support-card-title {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--warm-dark);
+    margin-bottom: 0.4rem;
+  }
+  .support-card-desc { font-size: 0.875rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem; }
+  .donate-tiers { display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem; }
+  .donate-tier {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.9rem 1.1rem;
+    background: var(--rose-pale);
+    border-radius: var(--radius-sm);
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .donate-tier:hover { border-color: var(--rose); background: white; }
+  .donate-tier-label { font-weight: 700; color: var(--rose-dark); font-size: 1rem; }
+  .donate-tier-desc { font-size: 0.78rem; color: var(--text-muted); }
+  .donate-note { font-size: 0.75rem; color: var(--text-light); line-height: 1.6; }
+  .donate-note a { color: var(--rose); }
+  .join-options { display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem; }
+  .join-option {
+    display: flex; gap: 0.8rem; align-items: center;
+    padding: 1rem 1.1rem;
+    background: var(--plum-pale);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    transition: all 0.2s;
+  }
+  .join-option:hover { border-color: var(--plum); background: white; }
+  .join-option-icon { font-size: 1.3rem; flex-shrink: 0; }
+  .join-option-text { font-size: 0.875rem; }
+  .join-option-text strong { color: var(--plum-dark); display: block; font-size: 0.95rem; }
+  .join-option-text span { color: var(--text-muted); font-size: 0.8rem; }
+
+  /* ── CONTACT ── */
+  #contact { background: var(--white); }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 4rem; align-items: start; }
+  .contact-info { }
+  .contact-item {
+    display: flex; gap: 1rem; align-items: flex-start;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rose-pale);
+  }
+  .contact-item:last-child { border-bottom: none; }
+  .contact-item-icon {
+    width: 40px; height: 40px;
+    background: var(--rose-pale);
+    border-radius: var(--radius-sm);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+  .contact-item-label { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0.1rem; font-weight: 500; letter-spacing: 0.05em; }
+  .contact-item-value { font-size: 0.9rem; color: var(--text-main); font-weight: 500; }
+  .contact-item-value a { color: var(--rose); text-decoration: none; }
+  .contact-form { background: var(--rose-pale); border-radius: var(--radius-lg); padding: 2.5rem; border: 1px solid var(--rose-light); }
+  .form-title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; color: var(--warm-dark); margin-bottom: 1.5rem; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+  .form-group { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; }
+  .form-group label { font-size: 0.8rem; font-weight: 500; color: var(--text-muted); letter-spacing: 0.03em; }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 0.7rem 1rem;
+    border: 1.5px solid var(--rose-light);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--text-main);
+    background: var(--white);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    resize: vertical;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: var(--rose);
+    box-shadow: 0 0 0 3px rgba(194,104,138,0.12);
+  }
+  .form-submit {
+    width: 100%;
+    background: var(--rose);
+    color: var(--white);
+    padding: 0.85rem;
+    border: none;
+    border-radius: 30px;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    box-shadow: 0 4px 18px rgba(194,104,138,0.3);
+  }
+  .form-submit:hover { background: var(--rose-dark); transform: translateY(-1px); }
+  .form-note { font-size: 0.75rem; color: var(--text-light); text-align: center; margin-top: 0.8rem; line-height: 1.5; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--warm-dark);
+    color: rgba(255,255,255,0.65);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  .footer-inner { max-width: 800px; margin: 0 auto; }
+  .footer-name {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--rose-light);
+    margin-bottom: 0.3rem;
+  }
+  .footer-slogan { font-size: 0.875rem; color: rgba(255,255,255,0.4); margin-bottom: 1.5rem; letter-spacing: 0.05em; }
+  .footer-links { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+  .footer-links a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--rose-light); }
+  .footer-social { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; }
+  .social-icon {
+    width: 38px; height: 38px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+  .social-icon:hover { background: var(--rose); color: white; border-color: var(--rose); }
+  .footer-disclaimer {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.25);
+    line-height: 1.7;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 1.2rem;
+  }
+
+  /* ── SCROLL REVEAL ── */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease, transform 0.65s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal-delay-1 { transition-delay: 0.1s; }
+  .reveal-delay-2 { transition-delay: 0.2s; }
+  .reveal-delay-3 { transition-delay: 0.3s; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; text-align: center; gap: 2rem; }
+    .hero-btns { justify-content: center; }
+    .hero-stats { justify-content: center; }
+    .hero-desc { margin: 0 auto 2.5rem; }
+    .hero-photo-wrap { order: -1; }
+    .hero-photo-frame { width: 280px; min-height: 320px; }
+    .about-grid { grid-template-columns: 1fr; }
+    .about-profile-card { position: static; }
+    .policy-grid { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr; }
+    .support-grid { grid-template-columns: 1fr; }
+    .contact-grid { grid-template-columns: 1fr; }
+    .about-edu-exp { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    nav {
+      display: grid;
+      grid-template-columns: 40px 1fr 40px;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hamburger {
+      grid-column: 1;
+      justify-self: start;
+    }
+    .nav-brand {
+      grid-column: 2;
+      justify-self: center;
+      text-align: center;
+      font-size: 1.05rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+    .nav-mobile-spacer {
+      display: block;
+      grid-column: 3;
+      width: 40px;
+      height: 1px;
+    }
+    .mobile-menu {
+      padding: 1rem 1.2rem 1.2rem;
+    }
+  }
+  @media (max-width: 600px) {
+    section { padding: 4rem 1.2rem; }
+    nav { padding: 0 1.2rem; }
+    .hero-inner { padding: 3rem 1.2rem; }
+    .hero-stats { flex-direction: column; gap: 1rem; align-items: center; }
+    .contact-form { padding: 1.5rem; }
+    .hero-tag {
+      letter-spacing: 0.08em;
+      font-size: 0.72rem;
+    }
+    .hero-slogan {
+      font-size: 1.2rem;
+    }
+  }
+
+  /* Marquee */
+  @keyframes marquee-left {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  @keyframes marquee-right {
+    0%   { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+  .marquee-left  { animation: marquee-left  40s linear infinite; }
+  .marquee-right { animation: marquee-right 45s linear infinite; }
+  .marquee-left:hover,
+  .marquee-right:hover { animation-play-state: paused; }
+
+  /* ── MOBILE FIXES ── */
+  @media (max-width: 768px) {
+    /* 新聞卡片單欄 */
+    #news-grid { grid-template-columns: 1fr !important; }
+
+    /* 捐款雙欄改單欄 */
+    #support-grid { grid-template-columns: 1fr !important; }
+
+    /* 聯絡卡片雙欄 */
+    #contact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+
+    /* About 照片限高，避免撐爆 */
+    .about-photo-area {
+      aspect-ratio: 4/3 !important;
+      max-height: 280px !important;
+    }
+    .about-photo-area img {
+      object-position: center top !important;
+    }
+
+    /* 推薦人輪播卡片縮小 */
+    .marquee-track > div { width: 260px !important; }
+
+    /* 政見 grid 手機單欄 */
+    .policy-grid[style*="repeat(2,1fr)"] {
+      grid-template-columns: 1fr !important;
+    }
+
+    #early-therapy [style*="1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+    }
+
+    /* About 區塊避免卡片與段落被裁切 */
+    #about .about-profile-card,
+    #about .about-content {
+      min-width: 0;
+    }
+    #about .about-profile-card {
+      padding: 1.5rem;
+    }
+    #about [style*="grid-template-columns:repeat(4,1fr)"] {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    #about [style*="margin-top:2rem; background:linear-gradient(135deg, var(--rose-pale), var(--plum-pale))"] {
+      padding: 1.2rem !important;
+    }
+
+    /* 可能過長的銀行名稱與標籤列在手機上允許自然換行 */
+    #support [style*="display:flex; gap:0.8rem; align-items:center"] {
+      align-items: flex-start !important;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .mobile-menu a {
+      font-size: 0.95rem;
+      padding: 0.5rem 0;
+    }
+    .btn-primary,
+    .btn-secondary {
+      width: 100%;
+      text-align: center;
+    }
+    .marquee-track > div {
+      width: min(85vw, 280px) !important;
+    }
+    #contact-grid {
+      grid-template-columns: 1fr !important;
+    }
+    #about [style*="grid-template-columns:repeat(4,1fr)"] {
+      grid-template-columns: 1fr !important;
+    }
+    #about .about-name-en {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="main-nav" role="navigation" aria-label="主選單">
+  <button class="hamburger" id="hamburger" aria-label="開啟選單" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <a href="#hero" class="nav-brand">林妤芬 <span>律師</span></a>
+  <div class="nav-links">
+    <a href="#about">關於妤芬</a>
+    <a href="#testimonials">推薦夥伴</a>
+    <a href="#news">媒體報導</a>
+    <a href="#policy">核心政見</a>
+    <a href="#early-therapy">顧早療</a>
+    <a href="#support">支持我們</a>
+    <a href="#contact" class="nav-cta">加入支持</a>
+  </div>
+  <span class="nav-mobile-spacer" aria-hidden="true"></span>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="行動裝置選單">
+  <a href="#about" onclick="closeMobileMenu()">關於妤芬</a>
+  <a href="#policy" onclick="closeMobileMenu()">核心政見</a>
+  <a href="#early-therapy" onclick="closeMobileMenu()">顧早療</a>
+  <a href="#support" onclick="closeMobileMenu()">支持我們</a>
+  <a href="#contact" onclick="closeMobileMenu()">加入支持</a>
+</div>
+
+<!-- HERO -->
+<section id="hero" aria-label="首頁封面">
+  <div class="hero-deco hero-deco-1" aria-hidden="true"></div>
+  <div class="hero-deco hero-deco-2" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-tag">新竹市第一選區（東區）無黨籍議員參選人</div>
+      <div class="hero-name">林<span>妤</span>芬</div>
+      <div class="hero-subtitle">律師 ✕ 公益 ✕ 新竹女兒</div>
+      <div class="hero-slogan">妤你同行，新竹加芬</div>
+      <p class="hero-desc">
+        留美律師、新竹市社區關懷法律服務協會理事長。<br>
+        帶著法律人的嚴謹與公益的溫度，為東區選民把關市政、推動育兒、交通、治安三大核心議題。
+      </p>
+      <div class="hero-btns">
+        <a href="#policy" class="btn-primary">看我的政見</a>
+        <a href="#support" class="btn-secondary">支持妤芬</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">100+</div>
+          <div class="hero-stat-label">社區法律活動場次</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">3000+</div>
+          <div class="hero-stat-label">陪伴服務兒少人數</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">無黨籍</div>
+          <div class="hero-stat-label">只對選民負責</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-frame">
+        <img src="images/hero.png" alt="林妤芬律師形象照" style="width:100%; height:100%; object-fit:cover; object-position:center top; display:block;">
+        <div class="hero-photo-label">
+          <strong>林妤芬 律師</strong>
+          新竹市第一選區（東區）議員參選人
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-title">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="section-tag">關於妤芬 · About</div>
+      <h2 class="section-title" id="about-title">法律人的高度，<span>新竹的溫度</span></h2>
+      <p class="section-desc">留美歸國律師，從義務法律諮詢到公益協會，從訴訟現場到社區第一線，妤芬始終站在最靠近市民的地方。</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-profile-card reveal">
+        <div class="about-photo-area" style="background:transparent; border:none; padding:0; aspect-ratio:3/4; overflow:hidden; border-radius:var(--radius-md);" aria-label="林妤芬律師形象照">
+          <img src="images/about.png" alt="林妤芬律師形象照" style="width:100%; height:100%; object-fit:cover; object-position:center top; display:block;">
+        </div>
+        <div class="about-name-en">LIN YU-FEN, Attorney at Law</div>
+        <div class="about-name-zh">林妤芬 律師</div>
+        <div class="about-role">弘準國際法律事務所 主持律師<br>新竹市社區關懷法律服務協會 創辦人暨理事長</div>
+        <div class="about-badges">
+          <span class="badge">UC Berkeley 法學碩士</span>
+          <span class="badge">輔仁大學財經法律系</span>
+          <span class="badge badge-plum">無黨籍</span>
+          <span class="badge badge-plum">東區第一選區</span>
+          <span class="badge">廉政會報委員</span>
+          <span class="badge">警局諮詢委員</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="about-bio reveal">
+          妤芬是土生土長的新竹女兒，畢業於<strong>美國加州大學柏克萊分校（UC Berkeley）法學碩士</strong>，具備紮實法學訓練與國際視野。在長期的公益律師實務中，她看見的不只是法理勝負，而是每一個眼神裡的無助。
+        </p>
+        <p class="about-bio reveal reveal-delay-1">
+          她曾參與美國加州柏克萊市政府與 NGO <strong>East Bay Community Law Center</strong> 推動居住正義政策，也投入桃園航空城訴訟、台積電中科二期環境訴訟等重大公共案件。回到新竹，她創辦了<strong>新竹市社區關懷法律服務協會</strong>，帶領百名志工深入校園與社區，累計服務超過 3,000 位兒少。
+        </p>
+        <p class="about-bio reveal reveal-delay-2">
+          這一次，她決定從諮詢者走向決策者——因為法律能處理一個人的冤屈，但<strong>公共參與才能守護一群人的幸福</strong>。
+        </p>
+        <div class="about-edu-exp">
+          <div class="reveal reveal-delay-1">
+            <div class="about-block-title">學歷</div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-text">
+                <strong>美國加州大學柏克萊分校</strong>法學碩士（LL.M.）
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-text">
+                <strong>輔仁大學財經法律系</strong>法學士
+              </div>
+            </div>
+          </div>
+          <div class="reveal reveal-delay-2">
+            <div class="about-block-title">重要經歷</div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-text">
+                <strong>新竹市政府廉政會報委員</strong>監督市政透明度
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-text">
+                <strong>新竹縣警局諮詢委員</strong>治安與法律實務
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-text">
+                <strong>弘準國際法律事務所</strong>主持律師
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-text">
+                <strong>Berkeley 居住正義政策</strong>NGO 合作推動
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 協會成就區塊 -->
+        <div style="margin-top:2rem; background:linear-gradient(135deg, var(--rose-pale), var(--plum-pale)); border-radius:var(--radius-lg); padding:1.8rem 2rem; border:1px solid var(--rose-light);" class="reveal">
+          <div class="about-block-title" style="margin-bottom:1.2rem;">新竹市社區關懷法律服務協會</div>
+          <p style="font-size:0.875rem; color:var(--text-muted); line-height:1.8; margin-bottom:1.4rem;">
+            林妤芬律師於 2023 年創辦，以貼近生活的方式推動法律科普、兒少保護與社區服務，
+            長期深耕新竹東區各里、學校、關懷據點與弱勢族群。
+          </p>
+          <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; margin-bottom:1.4rem;">
+            <div style="text-align:center; background:white; border-radius:var(--radius-md); padding:1rem 0.5rem; border:1px solid var(--rose-light);">
+              <div style="font-family:var(--font-serif); font-size:1.6rem; font-weight:700; color:var(--rose); line-height:1;">100+</div>
+              <div style="font-size:0.72rem; color:var(--text-muted); margin-top:4px; line-height:1.4;">法律講座<br>防詐宣導</div>
+            </div>
+            <div style="text-align:center; background:white; border-radius:var(--radius-md); padding:1rem 0.5rem; border:1px solid var(--rose-light);">
+              <div style="font-family:var(--font-serif); font-size:1.6rem; font-weight:700; color:var(--rose); line-height:1;">5000+</div>
+              <div style="font-size:0.72rem; color:var(--text-muted); margin-top:4px; line-height:1.4;">服務<br>民眾人數</div>
+            </div>
+            <div style="text-align:center; background:white; border-radius:var(--radius-md); padding:1rem 0.5rem; border:1px solid var(--rose-light);">
+                <div style="font-family:var(--font-serif); font-size:1.6rem; font-weight:700; color:var(--rose); line-height:1;">3000+</div>
+              <div style="font-size:0.72rem; color:var(--text-muted); margin-top:4px; line-height:1.4;">兒童法律<br>行動家</div>
+            </div>
+            <div style="text-align:center; background:white; border-radius:var(--radius-md); padding:1rem 0.5rem; border:1px solid var(--rose-light);">
+                <div style="font-family:var(--font-serif); font-size:1.6rem; font-weight:700; color:var(--rose); line-height:1;">100+</div>
+              <div style="font-size:0.72rem; color:var(--text-muted); margin-top:4px; line-height:1.4;">培訓<br>志工人數</div>
+            </div>
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+            <span class="badge">兒少保護</span>
+            <span class="badge">反霸凌教育</span>
+            <span class="badge">防詐宣導</span>
+            <span class="badge">長照關懷</span>
+            <span class="badge badge-plum">身心障礙服務</span>
+            <span class="badge badge-plum">法律科普</span>
+            <span class="badge badge-plum">早療支持</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POLICY -->
+<section id="policy" aria-labelledby="policy-title">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="section-tag">核心政見 · Policy</div>
+      <h2 class="section-title" id="policy-title">新竹 <span>234</span>，妤芬進行式</h2>
+      <p class="section-desc">不只喊口號，每一項政見都有數據支撐、有方法論、有可追蹤的具體目標。</p>
+    </div>
+
+    <!-- 主題標籤 -->
+    <div style="display:flex; gap:1rem; margin-bottom:3rem; flex-wrap:wrap;" class="reveal">
+      <div style="background:var(--plum); color:white; padding:0.5rem 1.4rem; border-radius:30px; font-weight:700; font-size:0.9rem;">2️⃣ 大建設，妤你暢行</div>
+      <div style="background:var(--rose); color:white; padding:0.5rem 1.4rem; border-radius:30px; font-weight:700; font-size:0.9rem;">3️⃣ 大升級，妤你守護</div>
+      <div style="background:var(--rose-dark); color:white; padding:0.5rem 1.4rem; border-radius:30px; font-weight:700; font-size:0.9rem;">4️⃣ 大幸福，妤你樂活</div>
+    </div>
+
+    <!-- ② 大建設，妤你暢行 -->
+    <div class="reveal" style="margin-bottom:1rem;">
+      <div style="display:flex; align-items:center; gap:0.8rem; margin-bottom:1.5rem;">
+        <div style="background:var(--plum); color:white; font-family:var(--font-serif); font-size:1.5rem; font-weight:700; width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">2</div>
+        <div>
+          <div style="font-family:var(--font-serif); font-size:1.3rem; font-weight:700; color:var(--warm-dark);">大建設，妤你暢行</div>
+          <div style="font-size:0.8rem; color:var(--plum); font-weight:500;">Traffic & Infrastructure</div>
+        </div>
+      </div>
+    </div>
+    <div class="policy-grid reveal" style="grid-template-columns:repeat(2,1fr); gap:1.5rem; margin-bottom:3rem;">
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">01</div>
+        <div class="policy-icon">🚆</div>
+        <div class="policy-card-title">推動大新竹輕軌建設</div>
+        <div class="policy-card-sub">打造便捷交通網</div>
+        <p class="policy-card-desc">推動大新竹輕軌分期建設，強化新竹市與竹北、竹東等生活圈的交通連結，打造便捷、安全、有效率的公共運輸系統。透過路網整合與轉乘優化，減少通勤時間，讓交通不再成為生活負擔。</p>
+        <ul class="policy-points">
+          <li>積極監督輕軌計畫時程與預算執行進度</li>
+          <li>強化與竹北、竹東生活圈的交通連結</li>
+          <li>推動路網整合與轉乘優化，縮短通勤時間</li>
+        </ul>
+      </div>
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">02</div>
+        <div class="policy-icon">🚗</div>
+        <div class="policy-card-title">推廣尖峰智慧共乘</div>
+        <div class="policy-card-sub">提升停車空間</div>
+        <p class="policy-card-desc">導入數位工具智慧媒合，鼓勵上班尖峰時段共乘與企業協作通勤，提升車輛使用效率，有效降低車流量與碳排放，打造更順暢且環保的城市交通環境。</p>
+        <ul class="policy-points">
+          <li>推動尖峰時段智慧共乘平台，減少私家車上路</li>
+          <li>強力爭取停車場複合化建設，增加停車空間</li>
+          <li>整合停車資訊，提升車位使用效率</li>
+        </ul>
+        <div class="policy-data">📊 停車位不足為東區民意問卷回饋第一名議題</div>
+      </div>
+    </div>
+
+    <!-- ③ 大升級，妤你守護 -->
+    <div class="reveal" style="margin-bottom:1rem;">
+      <div style="display:flex; align-items:center; gap:0.8rem; margin-bottom:1.5rem;">
+        <div style="background:var(--rose); color:white; font-family:var(--font-serif); font-size:1.5rem; font-weight:700; width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">3</div>
+        <div>
+          <div style="font-family:var(--font-serif); font-size:1.3rem; font-weight:700; color:var(--warm-dark);">大升級，妤你守護</div>
+          <div style="font-size:0.8rem; color:var(--rose); font-weight:500;">Education & Childcare · #育兒環境三大升級</div>
+        </div>
+      </div>
+    </div>
+    <div class="policy-grid reveal" style="gap:1.5rem; margin-bottom:3rem;">
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">01</div>
+        <div class="policy-icon">🏫</div>
+        <div class="policy-card-title">推廣親子品格教育</div>
+        <div class="policy-card-sub">落實反霸凌安心校園</div>
+        <p class="policy-card-desc">強化家庭、學校與社區合作關係，建立完整兒少支持系統，協助孩子培養責任感、同理心、自我管理與人際溝通能力，降低霸凌事件發生風險。</p>
+        <ul class="policy-points">
+          <li>將 SEL 社會情緒學習納入反霸凌基礎工程</li>
+          <li>完善校園安全通報、輔導與修復機制</li>
+          <li>強化情緒教育，營造友善、安全的學習環境</li>
+        </ul>
+        <div class="policy-data">📊 SEL 可有效降低 42% 校園衝突、20% 霸凌事件</div>
+      </div>
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">02</div>
+        <div class="policy-icon">🍼</div>
+        <div class="policy-card-title">擴充多元托育支持</div>
+        <div class="policy-card-sub">打造友善育兒環境</div>
+        <p class="policy-card-desc">因應雙薪家庭、輪班工作及多元照顧需求，逐步擴充嬰幼兒臨時托育與夜間托育服務量能，減輕家庭照顧壓力。強化社區型托育據點與公共托育資源配置，讓孩子獲得穩定、安全且具品質的照顧環境。</p>
+        <ul class="policy-points">
+          <li>擴增臨時、夜間與到宅托育服務量能</li>
+          <li>強化社區型托育據點，提升服務可近性與時段彈性</li>
+          <li>完善托育人力與安全管理機制</li>
+        </ul>
+        <div class="policy-data">📊 東區 6 歲以下幼童 13,714 人，臨托僅 34 位保母可提供</div>
+      </div>
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">03</div>
+        <div class="policy-icon">💻</div>
+        <div class="policy-card-title">升級數位教育</div>
+        <div class="policy-card-sub">軟硬體授權、維護編入常態預算</div>
+        <p class="policy-card-desc">推動校園數位基礎建設升級，常態編列預算，確保教學資源穩定運作。讓教師安心教學、學生持續受益，全面提升教學品質。</p>
+        <ul class="policy-points">
+          <li>建立數位設備、軟體授權與維修保養常態支持制度</li>
+          <li>推動「校校有特色、班班都優質」教育願景</li>
+          <li>深化職涯探索課程，建立產業參訪與職場體驗機制</li>
+        </ul>
+        <div class="policy-data">📊 新竹市「國中技藝教育」全國倒數第二（114 年行政院考核）</div>
+      </div>
+    </div>
+
+    <!-- ④ 大幸福，妤你樂活 -->
+    <div class="reveal" style="margin-bottom:1rem;">
+      <div style="display:flex; align-items:center; gap:0.8rem; margin-bottom:1.5rem;">
+        <div style="background:var(--rose-dark); color:white; font-family:var(--font-serif); font-size:1.5rem; font-weight:700; width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">4</div>
+        <div>
+          <div style="font-family:var(--font-serif); font-size:1.3rem; font-weight:700; color:var(--warm-dark);">大幸福，妤你樂活</div>
+          <div style="font-size:0.8rem; color:var(--rose-dark); font-weight:500;">Social Welfare & Community · #幸福共好</div>
+        </div>
+      </div>
+    </div>
+    <div class="policy-grid reveal" style="grid-template-columns:repeat(2,1fr); gap:1.5rem;">
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">01</div>
+        <div class="policy-icon">🔒</div>
+        <div class="policy-card-title">健全打詐專責小組</div>
+        <div class="policy-card-sub">強化法制保障、精準打擊詐騙</div>
+        <p class="policy-card-desc">整合警政、社政、教育與法制資源，健全跨局處任務編組。促請市府編列專職人力與專案預算，建立「法律諮詢、科技預警、快速應變」三位一體的防護機制，提升整體治安防護力。</p>
+        <ul class="policy-points">
+          <li>成立跨局處防詐小組，季度公開追蹤報告</li>
+          <li>結合科技輔助與基層社區緊密連結</li>
+          <li>提供被害人即時法律救濟，讓市民生活更安心</li>
+        </ul>
+        <div class="policy-data">📊 廉政委員 × 警局諮詢委員雙重專業監督身份</div>
+      </div>
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">02</div>
+        <div class="policy-icon">🌸</div>
+        <div class="policy-card-title">保障長者醫療權</div>
+        <div class="policy-card-sub">推動預防型長照城市</div>
+        <p class="policy-card-desc">強化全方位銀髮支持，推動社區型照護服務與在地老化政策，讓長者能在熟悉環境中安心生活，提升整體生活品質與尊嚴。</p>
+        <ul class="policy-points">
+          <li>從醫療走向預防，打造預防型長照城市</li>
+          <li>推廣銀髮法律規劃（遺囑、醫療、繼承諮詢）</li>
+          <li>深化長照關懷網絡，防範高齡孤獨死</li>
+        </ul>
+      </div>
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">03</div>
+        <div class="policy-icon">🎨</div>
+        <div class="policy-card-title">推動舊城活化與城市美學</div>
+        <div class="policy-card-sub">打造質感生活</div>
+        <p class="policy-card-desc">推動商圈活化與公共空間再造，結合地方創生理念，帶動在地產業發展與社區經濟活絡。推廣藝文活動、完善場館與設施建設，提升城市美學與生活質感，讓藝術、美感與文化自然融入日常生活。</p>
+        <ul class="policy-points">
+          <li>推動商圈活化與公共空間再造</li>
+          <li>推廣藝文活動，讓博物館、親子館成為第二課堂</li>
+          <li>結合地方創生，帶動社區經濟活絡</li>
+        </ul>
+      </div>
+      <div class="policy-card">
+        <div class="policy-card-num" aria-hidden="true">04</div>
+        <div class="policy-icon">🐾</div>
+        <div class="policy-card-title">爭取提高寵物絕育補助</div>
+        <div class="policy-card-sub">充實動保人力資源</div>
+        <p class="policy-card-desc">補充動保人力與法律能量，推廣飼主責任教育，建立人與動物和諧共處的城市環境。</p>
+        <ul class="policy-points">
+          <li>爭取提高寵物絕育補助額度</li>
+          <li>充實動保稽查人力與資源</li>
+          <li>推廣飼主責任教育，建立友善動物城市</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EARLY THERAPY SPOTLIGHT -->
+<section id="early-therapy" style="background:linear-gradient(145deg, var(--plum-pale) 0%, var(--rose-pale) 100%); padding:6rem 2rem;">
+  <div class="section-inner">
+    <div class="section-header reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+      <div class="section-tag" style="justify-content:center; display:flex;">特教早療 · Special Focus</div>
+      <h2 class="section-title" style="margin-bottom:0.4rem;">照顧東區第一品牌<br><span>顧早療，妤芬來</span></h2>
+      <p class="section-desc" style="margin:0 auto;">從醫院中心走向校園中心，讓每一個孩子都不錯過黃金療育期。</p>
+    </div>
+    <div class="reveal" style="background:white; border-radius:var(--radius-lg); padding:2rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+      <div class="about-block-title" style="margin-bottom:1rem;">妤芬的解方</div>
+      <ul class="policy-points" style="display:grid; grid-template-columns:1fr 1fr; gap:0 1.5rem;">
+        <li><strong>入園即評估</strong>：校園端建立一站式發展篩檢機制，不遺漏任何孩子</li>
+        <li><strong>聯合評估社區化</strong>：結合基層診所、治療所組成任務型評估團隊進校園</li>
+        <li><strong>落實分級轉介</strong>：高風險個案優先銜接醫療聯評，確保 30 日內完成報告</li>
+        <li><strong>跨局處資料自動對接</strong>：教育、社政、衛生一次建檔、多元使用，減少家長奔波</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" style="background:var(--warm-gray); padding:5rem 0; overflow:hidden;">
+  <div style="max-width:1100px; margin:0 auto; padding:0 2rem;" class="reveal">
+    <div class="section-tag" style="text-align:center;">支持者推薦 · Endorsements</div>
+    <h2 class="section-title" style="text-align:center; margin-bottom:0.5rem;">各界夥伴，<span>與妤芬同行</span></h2>
+    <p style="text-align:center; color:var(--text-muted); font-size:0.95rem; margin-bottom:3rem;">來自學術、醫界、科技、法律、公益各領域的真摯推薦</p>
+  </div>
+
+  <!-- 第一排：向左跑 -->
+  <div style="position:relative; margin-bottom:1.2rem;">
+    <div class="marquee-track marquee-left" style="display:flex; gap:1.2rem; width:max-content;">
+<div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">新竹需要更多懷抱熱誠，不受限於政黨意識形態的專業人士投入，讓民眾的生活更幸福。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">李</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">李欣晏</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">佛光大學公共行政暨國際事務學系
+兼任助理教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">林妤芬長期投入公益與社區服務，真正願意走進第一線理解民眾需求。我相信，一位願意傾聽、願意研究問題，也願意承擔責任的人，才能成為真正替市民解決問題的好議員。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">曾</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">曾文智醫師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">Dr.SAFe健康訓練教室負責人</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我在妤芬身上看到難得的熱誠與行動力。她是真正願意親自投入公共事務、提出具體解方的人，我願意支持這樣的年輕世代站出來。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">賴</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">賴碧薇</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">南投同鄉會第七屆理事長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我支持妤芬，不只是因為她有能力，而是因為她始終沒有忘記，公共事務最終要回應的，是人民每天真實的生活。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">彭</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">彭榮貴</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">關東獅子會會長、前新美國際同濟會會長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">公共事務需要理性、專業與長期投入。妤芬具備良好的專業素養，也有持續參與公共議題的熱情，我期待她為新竹帶來更成熟的政策討論文化。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">吳</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">吳政憲醫師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">新竹市牙醫師公會顧問</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬有理性的一面，也有溫暖的一面。她能從政策角度看見問題，也能從人的角度理解焦慮與需求。我認為，這正是一位民意代表最重要的特質。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">洪</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">洪振德醫師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">醫師</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬讓我印象最深刻的，是她做事情非常認真，也真正願意花時間研究政策。這樣願意投入、願意負責的人，非常值得年輕世代支持。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">吳</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">吳隆庸教授</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">新竹是一座高度年輕化與快速變動的城市，需要能理解產業、教育與年輕家庭需求的新世代民意代表。妤芬的思考務實且有前瞻性。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">游</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">游國良</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">科技公司董事</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">新竹需要更多懷抱熱誠，不受限於政黨意識形態的專業人士投入，讓民眾的生活更幸福。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">李</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">李欣晏</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">佛光大學公共行政暨國際事務學系
+兼任助理教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">林妤芬長期投入公益與社區服務，真正願意走進第一線理解民眾需求。我相信，一位願意傾聽、願意研究問題，也願意承擔責任的人，才能成為真正替市民解決問題的好議員。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">曾</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">曾文智醫師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">Dr.SAFe健康訓練教室負責人</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我在妤芬身上看到難得的熱誠與行動力。她是真正願意親自投入公共事務、提出具體解方的人，我願意支持這樣的年輕世代站出來。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">賴</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">賴碧薇</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">南投同鄉會第七屆理事長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我支持妤芬，不只是因為她有能力，而是因為她始終沒有忘記，公共事務最終要回應的，是人民每天真實的生活。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">彭</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">彭榮貴</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">關東獅子會會長、前新美國際同濟會會長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">公共事務需要理性、專業與長期投入。妤芬具備良好的專業素養，也有持續參與公共議題的熱情，我期待她為新竹帶來更成熟的政策討論文化。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">吳</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">吳政憲醫師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">新竹市牙醫師公會顧問</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬有理性的一面，也有溫暖的一面。她能從政策角度看見問題，也能從人的角度理解焦慮與需求。我認為，這正是一位民意代表最重要的特質。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">洪</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">洪振德醫師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">醫師</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬讓我印象最深刻的，是她做事情非常認真，也真正願意花時間研究政策。這樣願意投入、願意負責的人，非常值得年輕世代支持。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">吳</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">吳隆庸教授</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--rose); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">新竹是一座高度年輕化與快速變動的城市，需要能理解產業、教育與年輕家庭需求的新世代民意代表。妤芬的思考務實且有前瞻性。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--rose-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--rose); flex-shrink:0;">游</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">游國良</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">科技公司董事</div>
+          </div>
+        </div>
+      </div>    </div>
+  </div>
+
+  <!-- 第二排：向右跑 -->
+  <div style="position:relative;">
+    <div class="marquee-track marquee-right" style="display:flex; gap:1.2rem; width:max-content;">
+<div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我相信政治最重要的，不是立場，而是有沒有把民眾的需求放在心上。妤芬是既有理想，也願意務實面對問題。這樣的人，才有能力真正推動改變。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">朱</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">朱香連</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">公司董事長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">身為家長，我最在意的是孩子能不能在安全、友善的環境成長。妤芬長期關注教育、反霸凌與托育議題，我相信她是真正理解家長焦慮與需求的人。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">邱</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">邱郁倫</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">曙光國小家長會會長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我欣賞妤芬願意花時間傾聽不同聲音，也願意把複雜的問題，一步一步整理成真正可執行的公共政策。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">吳</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">吳信賢</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">創意電子測試設計整合處處長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我看到妤芬對很多議題都有深入準備，她很清楚自己為什麼參選，也很清楚自己想替新竹解決什麼問題。這份方向感與責任感，是我願意支持她的重要原因。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">劉</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">劉軍廷</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">科技公司創辦人</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬具備完整法律專業，也長期投入公共事務，我相信她不只是會監督，更有能力真正看懂問題、提出具體解方。新竹市議會需要真正懂法律、懂制度的人。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">余</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">余嘉哲律師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">卓約法律事務所主持律師</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">現在的政治環境，太容易流於情緒與對立。妤芬的法律專業背景，加上長期參與公益與公共事務的經驗，我期待她為新竹帶來更專業、更理性的問政文化。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">余</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">余嘉勳律師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">余嘉勳律師事務所主持律師</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">一座城市的進步，需要更多具有專業背景與公共關懷的人投入。妤芬有法律專業，也長期深耕地方，我相信她能為新竹帶來更理性、更務實的公共討論。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">林</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">林樹均教授</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">國立清華大學榮譽退休教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬是少數讓我相信會長期留下來做事的人。她願意一步一步累積、真正投入地方，而不是把政治當成個人的捷徑，這也是我敢放心推薦妤芬的原因。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">羅</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">羅佩禎教授</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">國立陽明交通大學退休教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬身為法律專業工作者，選擇成為公益律師，說明了她能看見被害人、弱勢家庭與邊緣處境者在現實中遇到的無助。我支持妤芬，因為她願意看見那些不容易被看見的人。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">孫</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">孫敏聿</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">原住民身心障礙協會總幹事</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我相信政治最重要的，不是立場，而是有沒有把民眾的需求放在心上。妤芬是既有理想，也願意務實面對問題。這樣的人，才有能力真正推動改變。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">朱</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">朱香連</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">公司董事長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">身為家長，我最在意的是孩子能不能在安全、友善的環境成長。妤芬長期關注教育、反霸凌與托育議題，我相信她是真正理解家長焦慮與需求的人。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">邱</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">邱郁倫</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">曙光國小家長會會長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我欣賞妤芬願意花時間傾聽不同聲音，也願意把複雜的問題，一步一步整理成真正可執行的公共政策。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">吳</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">吳信賢</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">創意電子測試設計整合處處長</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">我看到妤芬對很多議題都有深入準備，她很清楚自己為什麼參選，也很清楚自己想替新竹解決什麼問題。這份方向感與責任感，是我願意支持她的重要原因。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">劉</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">劉軍廷</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">科技公司創辦人</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬具備完整法律專業，也長期投入公共事務，我相信她不只是會監督，更有能力真正看懂問題、提出具體解方。新竹市議會需要真正懂法律、懂制度的人。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">余</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">余嘉哲律師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">卓約法律事務所主持律師</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">現在的政治環境，太容易流於情緒與對立。妤芬的法律專業背景，加上長期參與公益與公共事務的經驗，我期待她為新竹帶來更專業、更理性的問政文化。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">余</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">余嘉勳律師</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">余嘉勳律師事務所主持律師</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">一座城市的進步，需要更多具有專業背景與公共關懷的人投入。妤芬有法律專業，也長期深耕地方，我相信她能為新竹帶來更理性、更務實的公共討論。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">林</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">林樹均教授</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">國立清華大學榮譽退休教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬是少數讓我相信會長期留下來做事的人。她願意一步一步累積、真正投入地方，而不是把政治當成個人的捷徑，這也是我敢放心推薦妤芬的原因。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">羅</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">羅佩禎教授</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">國立陽明交通大學退休教授</div>
+          </div>
+        </div>
+      </div><div style="flex-shrink:0; width:300px; background:white; border-radius:16px; padding:1.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-size:1.5rem; color:var(--plum); margin-bottom:0.6rem; line-height:1;">"</div>
+        <p style="font-size:0.82rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; min-height:80px;">妤芬身為法律專業工作者，選擇成為公益律師，說明了她能看見被害人、弱勢家庭與邊緣處境者在現實中遇到的無助。我支持妤芬，因為她願意看見那些不容易被看見的人。</p>
+        <div style="border-top:1px solid var(--rose-pale); padding-top:0.8rem; display:flex; align-items:center; gap:0.7rem;">
+          <div style="width:36px; height:36px; background:var(--plum-pale); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:var(--plum); flex-shrink:0;">孫</div>
+          <div>
+            <div style="font-weight:700; font-size:0.875rem; color:var(--warm-dark);">孫敏聿</div>
+            <div style="font-size:0.72rem; color:var(--text-light); line-height:1.4;">原住民身心障礙協會總幹事</div>
+          </div>
+        </div>
+      </div>    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section id="news" style="background:white; padding:5rem 2rem;">
+  <div style="max-width:1100px; margin:0 auto;">
+    <div class="section-header reveal">
+      <div class="section-tag">媒體報導 · Media</div>
+      <h2 class="section-title">妤芬在<span>媒體上</span></h2>
+      <p class="section-desc">各大媒體對林妤芬律師參選與政見的相關報導。</p>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem;" class="reveal" id="news-grid">
+
+      <!-- 自由時報 -->
+      <a href="https://news.ltn.com.tw/news/politics/breakingnews/5436482" target="_blank" rel="noopener"
+        style="display:flex; flex-direction:column; background:var(--white); border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); overflow:hidden; text-decoration:none; transition:all 0.25s; box-shadow:var(--shadow-sm);"
+        onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 12px 32px rgba(120,60,100,0.12)'"
+        onmouseout="this.style.transform=''; this.style.boxShadow='var(--shadow-sm)'">
+        <!-- 圖片區 -->
+        <div style="background:linear-gradient(135deg, var(--rose-pale), var(--plum-pale)); height:140px; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden;">
+          <div style="font-size:3rem; opacity:0.3;">📰</div>
+          <div style="position:absolute; top:0.8rem; left:0.8rem; background:var(--rose); color:white; font-size:0.7rem; font-weight:700; padding:0.2rem 0.6rem; border-radius:20px; letter-spacing:0.05em;">政治</div>
+          <div style="position:absolute; bottom:0.8rem; right:0.8rem; background:rgba(255,255,255,0.9); color:var(--text-muted); font-size:0.7rem; padding:0.2rem 0.6rem; border-radius:20px;">2026.05.14</div>
+        </div>
+        <!-- 內容 -->
+        <div style="padding:1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.6rem;">
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span style="font-size:0.72rem; font-weight:700; color:var(--rose); letter-spacing:0.08em; background:var(--rose-pale); padding:0.15rem 0.5rem; border-radius:10px;">自由時報</span>
+          </div>
+          <div style="font-family:var(--font-serif); font-size:1rem; font-weight:700; color:var(--warm-dark); line-height:1.4;">法袍變戰袍！竹市公益律師林妤芬參選東區議員</div>
+          <p style="font-size:0.8rem; color:var(--text-muted); line-height:1.7; flex:1;">新竹市公益律師林妤芬宣布以無黨籍身分投入東區市議員選舉，以「妤你同行 新竹加芬」為主軸，發揮法學素養與公益服務經驗，為市民爭取權益。</p>
+          <div style="display:flex; align-items:center; gap:0.3rem; color:var(--rose); font-size:0.8rem; font-weight:600; margin-top:auto;">閱讀全文 <span>→</span></div>
+        </div>
+      </a>
+
+      <!-- 聯合報 -->
+      <a href="https://udn.com/news/story/7324/9508576" target="_blank" rel="noopener"
+        style="display:flex; flex-direction:column; background:var(--white); border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); overflow:hidden; text-decoration:none; transition:all 0.25s; box-shadow:var(--shadow-sm);"
+        onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 12px 32px rgba(120,60,100,0.12)'"
+        onmouseout="this.style.transform=''; this.style.boxShadow='var(--shadow-sm)'">
+        <div style="background:linear-gradient(135deg, #e8f0f7, #d4e4f0); height:140px; display:flex; align-items:center; justify-content:center; position:relative;">
+          <div style="font-size:3rem; opacity:0.25;">📰</div>
+          <div style="position:absolute; top:0.8rem; left:0.8rem; background:#1a73b8; color:white; font-size:0.7rem; font-weight:700; padding:0.2rem 0.6rem; border-radius:20px;">地方</div>
+          <div style="position:absolute; bottom:0.8rem; right:0.8rem; background:rgba(255,255,255,0.9); color:var(--text-muted); font-size:0.7rem; padding:0.2rem 0.6rem; border-radius:20px;">2026.05.17</div>
+        </div>
+        <div style="padding:1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.6rem;">
+          <span style="font-size:0.72rem; font-weight:700; color:#1a73b8; background:#e8f0f7; padding:0.15rem 0.5rem; border-radius:10px; width:fit-content;">聯合報</span>
+          <div style="font-family:var(--font-serif); font-size:1rem; font-weight:700; color:var(--warm-dark); line-height:1.4;">律師林妤芬號召公益力量推動兒童權利保障 逾300家庭響應</div>
+          <p style="font-size:0.8rem; color:var(--text-muted); line-height:1.7; flex:1;">林妤芬結合愛恆社會福利基金會舉辦「幸福加倍親子童趣園遊會」，吸引超過300個家庭參與，透過寓教於樂引導孩子建立法律常識與反霸凌觀念。</p>
+          <div style="display:flex; align-items:center; gap:0.3rem; color:#1a73b8; font-size:0.8rem; font-weight:600; margin-top:auto;">閱讀全文 <span>→</span></div>
+        </div>
+      </a>
+
+      <!-- 台灣好新聞 -->
+      <a href="https://www.taiwanhot.net/news/1137547/%E6%89%93%E8%A9%90%E6%94%BF%E8%A6%8B%E5%BC%95%E9%97%9C%E6%B3%A8+%E6%9D%B1%E5%8D%80%E8%AD%B0%E5%93%A1%E5%8F%83%E9%81%B8%E4%BA%BA%E6%9E%97%E5%A6%A4%E8%8A%AC%E5%91%BC%E7%B1%B2%E9%87%8D%E8%A6%96%E5%88%B6%E5%BA%A6" target="_blank" rel="noopener"
+        style="display:flex; flex-direction:column; background:var(--white); border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); overflow:hidden; text-decoration:none; transition:all 0.25s; box-shadow:var(--shadow-sm);"
+        onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 12px 32px rgba(120,60,100,0.12)'"
+        onmouseout="this.style.transform=''; this.style.boxShadow='var(--shadow-sm)'">
+        <div style="background:linear-gradient(135deg, #fff3e0, #ffe0b2); height:140px; display:flex; align-items:center; justify-content:center; position:relative;">
+          <div style="font-size:3rem; opacity:0.25;">📰</div>
+          <div style="position:absolute; top:0.8rem; left:0.8rem; background:#e65100; color:white; font-size:0.7rem; font-weight:700; padding:0.2rem 0.6rem; border-radius:20px;">政治</div>
+          <div style="position:absolute; bottom:0.8rem; right:0.8rem; background:rgba(255,255,255,0.9); color:var(--text-muted); font-size:0.7rem; padding:0.2rem 0.6rem; border-radius:20px;">2026.05.26</div>
+        </div>
+        <div style="padding:1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.6rem;">
+          <span style="font-size:0.72rem; font-weight:700; color:#e65100; background:#fff3e0; padding:0.15rem 0.5rem; border-radius:10px; width:fit-content;">台灣好新聞</span>
+          <div style="font-family:var(--font-serif); font-size:1rem; font-weight:700; color:var(--warm-dark); line-height:1.4;">打詐政見引關注 東區議員參選人林妤芬呼籲重視制度</div>
+          <p style="font-size:0.8rem; color:var(--text-muted); line-height:1.7; flex:1;">林妤芬以165打詐儀錶板數據指出新竹市詐騙件數連續11個月全台之冠，提出制度化、專職化、透明化、在地化四項主張，獲市長當日正面回應。</p>
+          <div style="display:flex; align-items:center; gap:0.3rem; color:#e65100; font-size:0.8rem; font-weight:600; margin-top:auto;">閱讀全文 <span>→</span></div>
+        </div>
+      </a>
+
+      <!-- 新頭條-TheHubNews：競總開幕 -->
+      <a href="https://www.thehubnews.net/archives/662923" target="_blank" rel="noopener" class="news-extra"
+        style="display:flex; flex-direction:column; background:var(--white); border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); overflow:hidden; text-decoration:none; transition:all 0.25s; box-shadow:var(--shadow-sm);">
+        <div style="background:linear-gradient(135deg, #e0f5f0, #c2ebe0); height:140px; display:flex; align-items:center; justify-content:center; position:relative;">
+          <div style="font-size:3rem; opacity:0.25;">📰</div>
+          <div style="position:absolute; bottom:0.8rem; right:0.8rem; background:rgba(255,255,255,0.9); color:var(--text-muted); font-size:0.7rem; padding:0.2rem 0.6rem; border-radius:20px;">2026.09.08</div>
+        </div>
+        <div style="padding:1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.6rem;">
+          <span style="font-size:0.72rem; font-weight:700; color:#0d9488; background:#e0f5f0; padding:0.15rem 0.5rem; border-radius:10px; width:fit-content;">新頭條 TheHubNews</span>
+          <div style="font-family:var(--font-serif); font-size:1rem; font-weight:700; color:var(--warm-dark); line-height:1.4;">林妤芬競總開幕 翻轉傳統打造「鄰里充電站」</div>
+          <p style="font-size:0.8rem; color:var(--text-muted); line-height:1.7; flex:1;">林妤芬於新竹市東區建美路成立競選總部，以「幸福加芬音樂派對」形式開幕，打造市民交流的「鄰里充電站」。</p>
+          <div style="display:flex; align-items:center; gap:0.3rem; color:#0d9488; font-size:0.8rem; font-weight:600; margin-top:auto;">閱讀全文 <span>→</span></div>
+        </div>
+      </a>
+
+      <!-- Yahoo奇摩新聞：登記參選 -->
+      <a href="https://tw.news.yahoo.com/%E5%85%AC%E7%9B%8A%E5%BE%8B%E5%B8%AB%E7%99%BB%E8%A8%98%E5%8F%83%E9%81%B8%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E8%AD%B0%E5%93%A1-%E6%9E%97%E5%A6%A4%E8%8A%AC%E5%9C%A8%E5%9C%B0%E6%B7%B1%E8%80%95-%E6%89%93%E9%80%A0%E5%B0%88%E6%A5%AD%E5%95%8F%E6%94%BF%E6%96%B0%E9%81%B8%E6%93%87-110835840.html" target="_blank" rel="noopener" class="news-extra"
+        style="display:flex; flex-direction:column; background:var(--white); border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); overflow:hidden; text-decoration:none; transition:all 0.25s; box-shadow:var(--shadow-sm);">
+        <div style="background:linear-gradient(135deg, #ede9fe, #ddd6fe); height:140px; display:flex; align-items:center; justify-content:center; position:relative;">
+          <div style="font-size:3rem; opacity:0.25;">📰</div>
+          <div style="position:absolute; bottom:0.8rem; right:0.8rem; background:rgba(255,255,255,0.9); color:var(--text-muted); font-size:0.7rem; padding:0.2rem 0.6rem; border-radius:20px;">2026.09.03</div>
+        </div>
+        <div style="padding:1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.6rem;">
+          <span style="font-size:0.72rem; font-weight:700; color:#6d28d9; background:#ede9fe; padding:0.15rem 0.5rem; border-radius:10px; width:fit-content;">Yahoo奇摩新聞</span>
+          <div style="font-family:var(--font-serif); font-size:1rem; font-weight:700; color:var(--warm-dark); line-height:1.4;">公益律師登記參選竹市東區議員 林妤芬在地深耕</div>
+          <p style="font-size:0.8rem; color:var(--text-muted); line-height:1.7; flex:1;">林妤芬完成參選登記，分享入園前評估、智慧輔具長照與分區防詐等政見構想。</p>
+          <div style="display:flex; align-items:center; gap:0.3rem; color:#6d28d9; font-size:0.8rem; font-weight:600; margin-top:auto;">閱讀全文 <span>→</span></div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT -->
+<section id="support" aria-labelledby="support-title">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="section-tag">支持妤芬 · Support</div>
+      <h2 class="section-title" id="support-title">你的支持，<span>就是妤芬最強的後盾</span></h2>
+      <p class="section-desc">每一筆捐款，都是推動新竹東區幸福升級的重要力量。感謝您用最實質的行動與溫暖的信任成為妤芬的夥伴！</p>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem;" class="reveal" id="support-grid">
+
+      <!-- 左：匯款資訊 -->
+      <div style="background:white; border-radius:var(--radius-lg); padding:2rem 2.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-family:var(--font-serif); font-size:1.3rem; font-weight:700; color:var(--warm-dark); margin-bottom:0.4rem;">🏦 政治獻金專戶</div>
+        <p style="font-size:0.875rem; color:var(--text-muted); line-height:1.7; margin-bottom:1.5rem;">依《政治獻金法》規定，捐款將依法向監察院申報，並為您開立正式捐贈收據，可於明年申報綜合所得稅時列舉扣除。</p>
+
+        <div style="background:var(--rose-pale); border-radius:var(--radius-md); padding:1.4rem 1.6rem; margin-bottom:1.5rem; border-left:4px solid var(--rose);">
+          <div style="font-size:0.75rem; color:var(--text-light); font-weight:500; letter-spacing:0.08em; margin-bottom:0.8rem;">匯款資訊</div>
+          <div style="display:flex; flex-direction:column; gap:0.6rem;">
+            <div style="display:flex; gap:0.8rem; align-items:flex-start;">
+              <span style="font-size:0.8rem; color:var(--text-light); width:60px; flex-shrink:0;">戶名</span>
+              <span style="font-size:0.875rem; color:var(--warm-dark); font-weight:600; line-height:1.5;">115年新竹市議員擬參選人<br>林妤芬政治獻金專戶</span>
+            </div>
+            <div style="display:flex; gap:0.8rem; align-items:center;">
+              <span style="font-size:0.8rem; color:var(--text-light); width:60px; flex-shrink:0;">銀行</span>
+              <span style="font-size:0.875rem; color:var(--warm-dark); font-weight:600;">中華郵政竹北成功分局（代碼：700）</span>
+            </div>
+            <div style="display:flex; gap:0.8rem; align-items:center;">
+              <span style="font-size:0.8rem; color:var(--text-light); width:60px; flex-shrink:0;">帳號</span>
+              <span style="font-size:1.05rem; color:var(--rose-dark); font-weight:700; letter-spacing:0.08em;">00614510114418</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="background:var(--plum-pale); border-radius:var(--radius-md); padding:1.2rem 1.4rem; border-left:4px solid var(--plum);">
+          <div style="font-size:0.78rem; font-weight:700; color:var(--plum-dark); margin-bottom:0.6rem;">⚠️ 依政治獻金法規定</div>
+          <ul style="list-style:none; display:flex; flex-direction:column; gap:0.4rem;">
+            <li style="font-size:0.8rem; color:var(--text-muted); display:flex; gap:0.5rem;"><span style="flex-shrink:0;">👤</span>捐款人須為年滿 18 歲且具備中華民國國籍之國民</li>
+            <li style="font-size:0.8rem; color:var(--text-muted); display:flex; gap:0.5rem;"><span style="flex-shrink:0;">💰</span>個人每年捐贈上限 <strong>NT$10 萬元</strong>；營利事業 NT$100 萬元</li>
+            <li style="font-size:0.8rem; color:var(--text-muted); display:flex; gap:0.5rem;"><span style="flex-shrink:0;">🔍</span>請填寫真實姓名與身分證字號；匿名超過 NT$1 萬元須依法繳交國庫</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 右：收據填表 -->
+      <div style="background:white; border-radius:var(--radius-lg); padding:2rem 2.5rem; border:1px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="font-family:var(--font-serif); font-size:1.3rem; font-weight:700; color:var(--warm-dark); margin-bottom:0.4rem;">📋 填寫收據資料</div>
+        <p style="font-size:0.875rem; color:var(--text-muted); line-height:1.7; margin-bottom:1.5rem;">完成匯款後，請填寫以下表單，以便依法為您開立正式政治獻金捐贈收據。</p>
+
+        <a href="https://forms.gle/xeVRUPhnequDf7VR7" target="_blank" rel="noopener"
+          style="display:flex; align-items:center; justify-content:center; gap:0.7rem; background:var(--rose); color:white; padding:1rem 1.5rem; border-radius:30px; font-weight:700; font-size:1rem; text-decoration:none; letter-spacing:0.04em; box-shadow:0 4px 18px rgba(194,104,138,0.35); transition:all 0.2s; margin-bottom:1.2rem;">
+          📝 點此填寫收據資料表單
+        </a>
+
+        <div style="display:flex; flex-direction:column; gap:0.8rem;">
+          <div style="padding:0.9rem 1.1rem; background:var(--rose-pale); border-radius:var(--radius-sm); display:flex; gap:0.8rem; align-items:center;">
+            <span style="font-size:1.2rem;">💖</span>
+            <div>
+              <div style="font-size:0.875rem; font-weight:600; color:var(--rose-dark);">感謝您的相挺</div>
+              <div style="font-size:0.78rem; color:var(--text-muted);">讓我們一起為新竹的未來加芬！</div>
+            </div>
+          </div>
+          <div style="padding:0.9rem 1.1rem; background:var(--plum-pale); border-radius:var(--radius-sm); display:flex; gap:0.8rem; align-items:center;">
+            <span style="font-size:1.2rem;">🧾</span>
+            <div>
+              <div style="font-size:0.875rem; font-weight:600; color:var(--plum-dark);">收據用途</div>
+              <div style="font-size:0.78rem; color:var(--text-muted);">可於明年申報綜合所得稅時列舉扣除</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:1.5rem; padding-top:1.2rem; border-top:1px solid var(--rose-light);">
+          <div style="font-size:0.78rem; color:var(--text-light); line-height:1.7; text-align:center;">
+            如有捐款相關問題，請聯絡競選辦公室<br>
+            📞 0978-632-181 ｜ ✉️ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="89fae5edeababfb1b0c9eee4e8e0e5a7eae6e4">[email&#160;protected]</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="section-tag">聯絡我們 · Contact</div>
+      <h2 class="section-title" id="contact-title">讓妤芬<span>聽見你的聲音</span></h2>
+      <p class="section-desc">無論是地方議題、政策建議，還是想加入我們的行列，歡迎透過以下方式聯絡。</p>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem;" class="reveal" id="contact-grid">
+      <a href="https://www.facebook.com/profile.php?id=61579331195688" target="_blank" rel="noopener"
+        style="display:flex; flex-direction:column; align-items:center; gap:0.8rem; padding:2rem 1.5rem; background:white; border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); text-decoration:none; transition:all 0.2s; box-shadow:var(--shadow-sm);">
+        <div style="width:52px; height:52px; background:var(--rose-pale); border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:1.5rem;">📘</div>
+        <div style="font-weight:700; color:var(--warm-dark); font-size:0.95rem;">Facebook</div>
+        <div style="font-size:0.8rem; color:var(--text-muted); text-align:center;">林妤芬律師官方粉絲專頁</div>
+      </a>
+      <a href="https://www.instagram.com/attorney_sophialin" target="_blank" rel="noopener"
+        style="display:flex; flex-direction:column; align-items:center; gap:0.8rem; padding:2rem 1.5rem; background:white; border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); text-decoration:none; transition:all 0.2s; box-shadow:var(--shadow-sm);">
+        <div style="width:52px; height:52px; background:var(--rose-pale); border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:1.5rem;">📸</div>
+        <div style="font-weight:700; color:var(--warm-dark); font-size:0.95rem;">Instagram</div>
+        <div style="font-size:0.8rem; color:var(--text-muted); text-align:center;">@attorney_sophialin</div>
+      </a>
+      <a href="https://reurl.cc/qVXnKg" target="_blank" rel="noopener"
+        style="display:flex; flex-direction:column; align-items:center; gap:0.8rem; padding:2rem 1.5rem; background:white; border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); text-decoration:none; transition:all 0.2s; box-shadow:var(--shadow-sm);">
+        <div style="width:52px; height:52px; background:var(--rose-pale); border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:1.5rem;">💬</div>
+        <div style="font-weight:700; color:var(--warm-dark); font-size:0.95rem;">LINE 官方帳號</div>
+        <div style="font-size:0.8rem; color:var(--text-muted); text-align:center;">點此加入，第一手掌握動態</div>
+      </a>
+      <a href="tel:+886978632181"
+        style="display:flex; flex-direction:column; align-items:center; gap:0.8rem; padding:2rem 1.5rem; background:white; border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); text-decoration:none; transition:all 0.2s; box-shadow:var(--shadow-sm);">
+        <div style="width:52px; height:52px; background:var(--plum-pale); border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:1.5rem;">📞</div>
+        <div style="font-weight:700; color:var(--warm-dark); font-size:0.95rem;">聯絡電話</div>
+        <div style="font-size:0.8rem; color:var(--text-muted); text-align:center;">0978-632-181</div>
+      </a>
+      <a href="/cdn-cgi/l/email-protection#c2b1aea6a1f1f4fafb82a5afa3abaeeca1adaf" style="display:flex; flex-direction:column; align-items:center; gap:0.8rem; padding:2rem 1.5rem; background:white; border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); text-decoration:none; transition:all 0.2s; box-shadow:var(--shadow-sm);">
+        <div style="width:52px; height:52px; background:var(--plum-pale); border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:1.5rem;">✉️</div>
+        <div style="font-weight:700; color:var(--warm-dark); font-size:0.95rem;">Email</div>
+        <div style="font-size:0.8rem; color:var(--text-muted); text-align:center;"><span class="__cf_email__" data-cfemail="7c0f10181f4f4a44453c1b111d1510521f1311">[email&#160;protected]</span></div>
+      </a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFA6KGgrwbik2nmUqvOFGDCbd0oO4fNm063X_dWJtWmwSxQQ/viewform" target="_blank" rel="noopener"
+        style="display:flex; flex-direction:column; align-items:center; gap:0.8rem; padding:2rem 1.5rem; background:white; border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); text-decoration:none; transition:all 0.2s; box-shadow:var(--shadow-sm);">
+        <div style="width:52px; height:52px; background:var(--rose-pale); border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:1.5rem;">📅</div>
+        <div style="font-weight:700; color:var(--warm-dark); font-size:0.95rem;">競總活動報名</div>
+        <div style="font-size:0.8rem; color:var(--text-muted); text-align:center;">點此填寫表單，掌握最新活動</div>
+      </a>
+      <div style="display:flex; flex-direction:column; align-items:center; gap:0.8rem; padding:2rem 1.5rem; background:linear-gradient(135deg,var(--rose-pale),var(--plum-pale)); border-radius:var(--radius-lg); border:1.5px solid var(--rose-light); box-shadow:var(--shadow-sm);">
+        <div style="width:52px; height:52px; background:white; border-radius:var(--radius-md); display:flex; align-items:center; justify-content:center; font-size:1.5rem;">📍</div>
+        <div style="font-weight:700; color:var(--warm-dark); font-size:0.95rem;">競選服務處</div>
+        <div style="font-size:0.8rem; color:var(--text-muted); text-align:center;">新竹市東區建美路15號</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-name">林妤芬 律師</div>
+    <div class="footer-slogan">妤你同行，新竹加芬 · 新竹市第一選區（東區）議員參選人</div>
+    <div class="footer-social" aria-label="社群媒體連結">
+      <a href="https://www.facebook.com/profile.php?id=61579331195688" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook 粉絲專頁">fb</a>
+      <a href="https://www.threads.net" target="_blank" rel="noopener" class="social-icon" aria-label="Threads">@</a>
+      <a href="https://www.instagram.com/attorney_sophialin" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">ig</a>
+      <a href="https://reurl.cc/qVXnKg" target="_blank" rel="noopener" class="social-icon" aria-label="LINE 官方帳號">L</a>
+    </div>
+    <div class="footer-links">
+      <a href="#about">關於妤芬</a>
+    <a href="#testimonials">推薦夥伴</a>
+    <a href="#news">媒體報導</a>
+      <a href="#policy">核心政見</a>
+      <a href="#support">支持我們</a>
+      <a href="#contact">聯絡我們</a>
+    </div>
+    <div class="footer-disclaimer">
+      © 2026 林妤芬競選辦公室 · 新竹市第一選區（東區）無黨籍市議員參選人<br>
+      本網站所有政治獻金資訊依《政治獻金法》規定公開申報。<br>
+      如有疑問請聯絡：<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ee8d81809a8f8d9aae828780979b888b80c09a99">[email&#160;protected]</a>
+    </div>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // Mobile Menu
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', isOpen);
+  });
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+  }
+  document.addEventListener('click', (event) => {
+    if (!mobileMenu.classList.contains('open')) return;
+    const clickedInsideMenu = mobileMenu.contains(event.target);
+    const clickedHamburger = hamburger.contains(event.target);
+    if (!clickedInsideMenu && !clickedHamburger) closeMobileMenu();
+  });
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900) closeMobileMenu();
+  });
+
+  // Scroll Reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  revealEls.forEach(el => observer.observe(el));
+
+  // Nav Highlight
+  const sections = document.querySelectorAll('section[id], footer');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 80) current = s.getAttribute('id'); });
+    navLinks.forEach(a => {
+      a.style.color = (a.getAttribute('href') === '#' + current) ? 'var(--rose)' : '';
+    });
+    // Nav shadow on scroll
+    document.getElementById('main-nav').style.boxShadow = window.scrollY > 10 ? '0 2px 20px rgba(120,60,100,0.08)' : 'none';
+  }, { passive: true });
+
+  // Form Submit
+  function handleSubmit(e) {
+    e.preventDefault();
+    const form = document.getElementById('contact-form');
+    const success = document.getElementById('form-success');
+    form.style.display = 'none';
+    success.style.display = 'block';
+  }
+</script>
+</body>
+</html>

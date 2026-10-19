@@ -1,0 +1,2405 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>數位孿生救嘉義 - 市長候選人 陳愷璜 校長</title>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="數位孿生救嘉義" />
+<meta property="og:title" content="數位孿生救嘉義 - 市長候選人 陳愷璜 校長" />
+<meta property="og:description" content="沒有政黨奧援，就自己來。沒有龐大團隊，就親自做。以數位孿生與人文美學，翻轉嘉義市。十大經濟政見、諸羅之歌、參選登記全紀錄。" />
+<meta property="og:url" content="https://chiayi-mayor.duckdns.org/" />
+<meta property="og:image" content="https://chiayi-mayor.duckdns.org/assets/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="數位孿生救嘉義 - 市長候選人 陳愷璜 校長" />
+<meta name="twitter:description" content="沒有政黨奧援，就自己來。以數位孿生與人文美學，翻轉嘉義市。" />
+<meta name="twitter:image" content="https://chiayi-mayor.duckdns.org/assets/og-image.jpg" />
+<link rel="icon" href="assets/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<meta name="description" content="沒有政黨奧援，就自己來。沒有龐大團隊，就親自做。以數位孿生與人文美學，翻轉嘉義市。十大經濟政見、諸羅之歌、參選登記全紀錄。" />
+<link rel="canonical" href="https://chiayi-mayor.duckdns.org/" />
+<link rel="alternate" hreflang="zh-Hant" href="https://chiayi-mayor.duckdns.org/" />
+<link rel="alternate" hreflang="en" href="https://chiayi-mayor.duckdns.org/en.html" />
+<link rel="alternate" hreflang="ja" href="https://chiayi-mayor.duckdns.org/ja.html" />
+<link rel="alternate" hreflang="ko" href="https://chiayi-mayor.duckdns.org/ko.html" />
+<link rel="alternate" hreflang="fr" href="https://chiayi-mayor.duckdns.org/fr.html" />
+<link rel="alternate" hreflang="x-default" href="https://chiayi-mayor.duckdns.org/" />
+<link rel="preload" href="assets/fonts/NotoSerifTC-700-subset.woff2" as="font" type="font/woff2" crossorigin />
+<style>
+  /* 自架襯線字型（Noto Serif 子集化，OFL 授權）— 只含本頁用到的字 */
+  @font-face {
+    font-family: "Chiayi Serif";
+    src: url("assets/fonts/NotoSerifTC-700-subset.woff2") format("woff2");
+    font-weight: 700; font-style: normal; font-display: swap;
+  }
+  :root {
+    /* ---- T2 骨架：深色科技（導覽 / Hero / 深色容器 / 最終 CTA / 頁尾）---- */
+    --d-bg: #08131C;
+    --d-surface: #10222F;
+    --d-deep: #0A1A24;
+    --d-line: #1D3A4B;
+    --d-ink: #E6F2F7;
+    --d-ink2: #A8C0CD;
+    --teal: #2FDBA6;
+    --yt-red: #E01B39;        /* YouTube 品牌紅（白字 4.79:1）*/
+    --teal-ink: #04231A;
+    --blue: #4FA8FF;
+
+    /* ---- T1 內文：諸羅木都暖紙 ---- */
+    --paper: #F3ECE0;
+    --paper2: #FFFCF6;
+    --sand: #EDE3D2;
+    --line: #DCCDB6;
+    --ink: #33261C;
+    --ink2: #6B5748;
+    --ink3: #75624B;
+
+    /* 語意色（沿用既有變數名 → 全站自動換色）*/
+    --red: #8C3A22;
+    --red-dark: #6E2B18;
+    --brand: #8C3A22;
+    --gold: #E0B45C;
+    --gold-ink: #7A5518;
+
+    /* 字體 */
+    --head: "Chiayi Serif","Noto Serif TC","Songti TC","STSong","Source Han Serif TC",serif;
+    --mono: "SF Mono","Menlo","Consolas","Noto Sans Mono",monospace;
+
+    /* 圓角級距：工藝感的安靜尺度 */
+    --r-xs: 3px; --r-sm: 6px; --r-md: 8px; --r-lg: 10px; --r-xl: 12px; --r-pill: 999px;
+
+    /* 陰影：淺底極收斂、深底黑系 */
+    --sh-1: 0 1px 2px rgba(51,38,28,.06);
+    --sh-2: 0 8px 20px rgba(51,38,28,.10);
+    --sh-3: 0 16px 34px rgba(51,38,28,.14);
+    --sh-d1: 0 8px 20px rgba(0,0,0,.35);
+    --sh-d2: 0 16px 36px rgba(0,0,0,.45);
+    --sh-d3: 0 26px 60px rgba(0,0,0,.58);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* 螢幕閱讀器專用（視覺隱藏） */
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---- Nav ---- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(44,33,31,.96); backdrop-filter: blur(6px);
+    color: #f6f0e4;
+  }
+  nav { display: flex; align-items: center; justify-content: space-between; height: 58px; }
+  .brand { font-weight: 800; letter-spacing: .5px; font-size: 22px; color: var(--gold); white-space: nowrap; }
+  .brand span { color: #fff; }
+  .brand:hover, .brand:focus-visible { opacity: .82; }
+  nav .links { display: flex; gap: 22px; font-size: 14.5px; flex-wrap: wrap; justify-content: flex-end; }
+  nav a { color: #e8ddc9; text-decoration: none; transition: color .2s; white-space: nowrap; }
+  nav a:hover { color: var(--gold); }
+  /* ---- 語言下拉選單 ---- */
+  .lang-dropdown { position: relative; }
+  .lang-dropdown > summary {
+    list-style: none; cursor: pointer; border: 1px solid rgba(245,179,1,.55);
+    padding: 3px 11px; border-radius: var(--r-pill); font-weight: 700; color: #e8ddc9;
+    white-space: nowrap; transition: color .2s, border-color .2s;
+  }
+  .lang-dropdown:not([open]) .lang-list { display: none; }
+  .lang-dropdown > summary::-webkit-details-marker { display: none; }
+  .lang-dropdown > summary::marker { content: ""; }
+  .lang-dropdown > summary:hover, .lang-dropdown[open] > summary { color: var(--gold); border-color: var(--gold); }
+  .lang-list {
+    position: absolute; right: 0; top: calc(100% + 8px); z-index: 60; min-width: 150px;
+    background: #241b19; border: 1px solid rgba(245,179,1,.35); border-radius: var(--r-md);
+    overflow: hidden; box-shadow: var(--sh-d2);
+  }
+  .lang-list a { display: block; padding: 10px 16px; color: #e8ddc9; text-decoration: none; font-size: 14px; white-space: nowrap; }
+  .lang-list a:hover { background: rgba(245,179,1,.14); color: var(--gold); }
+  .lang-list a.active { color: var(--gold); font-weight: 800; background: rgba(245,179,1,.08); }
+
+  /* ---- Hero ---- */
+  .hero { position: relative; background: #2b211f; text-align: center; }
+  .hero img { width: 100%; max-width: 1320px; height: auto; display: block; margin: 0 auto; }
+  .manifesto { margin: 0 auto; max-width: 1320px; }
+  .manifesto img {
+    width: 100%; height: auto; display: block; border-radius: var(--r-md);
+    box-shadow: var(--sh-2);
+  }
+
+  /* ---- 參選登記區 ---- */
+  .register {
+    background: linear-gradient(150deg,#3a2b24,#5a4033);
+    border-radius: var(--r-xl); padding: 40px; color: #f6f0e4; position: relative; overflow: hidden;
+    box-shadow: var(--sh-3);
+  }
+  .register::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at 90% 6%, rgba(245,179,1,.14), transparent 46%);
+  }
+  .register .r-banner { position: relative; text-align: center; margin-bottom: 30px; }
+  .register .r-badge {
+    display: inline-block; background: var(--red); color: #fff; font-weight: 800; letter-spacing: 2px;
+    font-size: 13px; padding: 7px 22px; border-radius: var(--r-pill); margin-bottom: 16px;
+    box-shadow: 0 6px 18px rgba(200,16,46,.4);
+  }
+  .register .r-title { font-size: clamp(26px,4vw,38px); font-weight: 800; letter-spacing: 2px; line-height: 1.4; }
+  .register .r-title em { font-style: normal; color: var(--gold); }
+  .register .r-sub { color: #d9c8b0; margin-top: 12px; font-size: 15.5px; }
+  .register .r-motto { margin-top: 18px; font-weight: 700; color: #fff; font-size: 16px; letter-spacing: 1px; }
+  .register .r-motto span { color: var(--gold); }
+  .register .r-motto .blk { display: block; margin-top: 6px; }
+  .register .r-inspire { position: relative; max-width: 900px; margin: 0 auto 28px; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--sh-d1); }
+  .register .r-inspire img { width: 100%; height: auto; display: block; }
+  .register .grid-r { position: relative; display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
+  .register .photo {
+    position: relative; border-radius: var(--r-md); overflow: hidden; background: #000; cursor: zoom-in;
+    box-shadow: var(--sh-d1); transition: transform .25s, box-shadow .25s;
+  }
+  .register .photo:hover { transform: translateY(-4px); box-shadow: var(--sh-d2); }
+  .register .photo img { width: 100%; height: auto; display: block; }
+  .register .photo .cap {
+    position: absolute; left: 0; right: 0; bottom: 0; padding: 30px 16px 14px;
+    background: linear-gradient(transparent, rgba(0,0,0,.88)); font-size: 14.5px; font-weight: 700;
+    color: #fff; line-height: 1.5; text-shadow: 0 1px 3px rgba(0,0,0,.6);
+  }
+
+  /* ---- 參選登記故事 ---- */
+  .r-stories { position: relative; margin-top: 32px; }
+  .rs-title { display: flex; align-items: center; gap: 10px; font-size: 19px; font-weight: 800; color: var(--gold); margin-bottom: 18px; letter-spacing: 1px; }
+  .rs-title::after { content: ""; flex: 1; height: 1px; background: rgba(245,179,1,.3); }
+  .rs-card {
+    background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1);
+    border-radius: var(--r-md); padding: 22px 24px; margin-bottom: 16px; position: relative; overflow: hidden;
+  }
+  .rs-card::before { content: "\201C"; position: absolute; top: -22px; left: 10px; font-size: 120px; color: rgba(245,179,1,.12); line-height: 1; font-weight: 800; }
+  a.rs-link { display: block; text-decoration: none; color: inherit; cursor: pointer; transition: transform .25s, border-color .25s, box-shadow .25s; }
+  a.rs-link:hover { transform: translateY(-4px); border-color: rgba(245,179,1,.5); box-shadow: var(--sh-d2); }
+  a.rs-link .src { color: var(--gold); font-weight: 700; white-space: nowrap; }
+  .rs-card .rs-quote { font-size: 15.5px; line-height: 1.85; color: #f0e6d6; position: relative; }
+  .rs-card .rs-quote strong { color: var(--gold); }
+  .rs-card .rs-quote em { font-style: normal; color: #fff; font-weight: 700; }
+  .rs-card .rs-meta { margin-top: 14px; font-size: 12.5px; color: #c9bba3; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 8px; }
+  .rs-card .rs-meta .tag { flex-shrink: 0; white-space: nowrap; background: var(--red); color: #fff; font-weight: 800; font-size: 12px; padding: 3px 10px; border-radius: var(--r-pill); letter-spacing: 1px; }
+  .rs-news { position: relative; }
+  .rs-news .rs-nq { font-size: 14.5px; line-height: 1.85; color: #e8ddc9; }
+  .rs-news .rs-nq strong { color: #fff; }
+
+  /* ---- 諸羅之歌區 ---- */
+  .song-section {
+    background: linear-gradient(160deg,#4a3326,#2f211a);
+    border-radius: var(--r-xl); padding: 40px; color: #f6f0e4; position: relative; overflow: hidden;
+    box-shadow: var(--sh-3);
+  }
+  .song-section::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at 88% 8%, rgba(245,179,1,.13), transparent 46%);
+  }
+  .song-video { position: relative; max-width: 900px; margin: 0 auto; border-radius: var(--r-md); overflow: hidden; box-shadow: var(--sh-d2); background: #000; }
+  .song-video video { display: block; width: 100%; height: auto; }
+  .song-video .song-badge {
+    position: absolute; top: 14px; left: 14px; background: rgba(200,16,46,.92); color: #fff;
+    font-size: 12px; font-weight: 800; letter-spacing: 1px; padding: 6px 14px; border-radius: var(--r-pill); z-index: 2;
+  }
+  .song-credit { position: relative; margin-top: 18px; text-align: center; font-size: 13.5px; color: #d9c8b0; }
+  .song-credit strong { color: var(--gold); }
+  .song-desc { position: relative; text-align: center; max-width: 780px; margin: 14px auto 0; font-size: 15px; line-height: 1.85; color: #e8ddc9; }
+  .song-desc strong { color: #fff; }
+
+  /* ---- 燈箱 ---- */
+  .lightbox {
+    position: fixed; inset: 0; z-index: 999; background: rgba(0,0,0,.9);
+    display: none; align-items: center; justify-content: center; flex-direction: column;
+    padding: 24px; text-align: center;
+  }
+  .lightbox.show { display: flex; }
+  .lightbox img { max-width: 92vw; max-height: 82vh; border-radius: var(--r-sm); box-shadow: var(--sh-d3); }
+  .lightbox .lb-cap { position: relative; color: #ddd; margin-top: 16px; font-size: 15px; max-width: 800px; line-height: 1.6; }
+  .lightbox .lb-close {
+    position: absolute; top: 22px; right: 24px; background: rgba(255,255,255,.12); color: #fff;
+    border: 1px solid rgba(255,255,255,.3); width: 44px; height: 44px; border-radius: 50%;
+    font-size: 20px; cursor: pointer; transition: background .2s;
+  }
+  .lightbox .lb-close:hover { background: rgba(200,16,46,.9); }
+  /* 燈箱觸發元素：滑鼠可點、鍵盤也可（Enter / Space）*/
+  .lb-trigger { cursor: zoom-in; }
+  .lb-trigger:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; border-radius: var(--r-sm); }
+  .register .lb-trigger:focus-visible { outline-color: var(--gold); }   /* 深底改用金色 */
+
+  /* ---- Section header ---- */
+  .sec { padding: 64px 0 40px; }
+  .sec-head { text-align: center; margin-bottom: 40px; }
+  .sec-head .kicker {
+    display: inline-block; color: var(--red); font-weight: 700; letter-spacing: 2px;
+    font-size: 13px; text-transform: uppercase; margin-bottom: 8px;
+  }
+  .sec-head h2 { font-size: clamp(26px, 4vw, 36px); font-weight: 800; letter-spacing: 1px; }
+  .sec-head .sub { color: #7f6f5d; margin-top: 8px; font-size: 15px; }
+
+  .divider { height: 2px; max-width: 90px; margin: 18px auto 0; background: var(--gold); border-radius: var(--r-pill); }
+
+  /* ---- Intro ---- */
+  .intro {
+    background: linear-gradient(135deg,#2b211f,#4a312c);
+    color: #f6f0e4; padding: 40px 44px; border-radius: var(--r-lg);
+    box-shadow: var(--sh-2); position: relative; overflow: hidden;
+  }
+  .intro::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at 90% 10%, rgba(245,179,1,.18), transparent 50%);
+  }
+  .intro p { position: relative; font-size: 17px; line-height: 1.9; }
+  .intro strong { color: var(--gold); }
+
+  /* ---- Grid of policies ---- */
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .card {
+    background: var(--sand); border: 1px solid var(--line); border-radius: var(--r-md);
+    padding: 26px 24px 20px; position: relative; transition: transform .25s, box-shadow .25s, border-color .25s;
+    overflow: hidden;
+  }
+  .card::after {
+    content: attr(data-num); position: absolute; top: -22px; right: 6px;
+    font-size: 88px; font-weight: 800; color: rgba(200,16,46,.08); line-height: 1;
+    pointer-events: none;
+  }
+  .card:hover { transform: translateY(-6px); box-shadow: var(--sh-1); border-color: var(--gold); }
+  .card .tag {
+    display: inline-block; background: var(--red); color: #fff; font-weight: 800;
+    font-size: 16px; letter-spacing: 1px; padding: 5px 14px; border-radius: var(--r-pill); margin-bottom: 12px;
+  }
+  .card h3 { font-size: 21px; font-weight: 800; margin-bottom: 8px; }
+  .card p { color: #6a5a4a; font-size: 15px; }
+
+  /* ---- CTA / Contact ---- */
+  .contact {
+    background: var(--red); color: #fff; text-align: center; padding: 52px 24px; border-radius: var(--r-lg);
+    margin-top: 20px; box-shadow: 0 20px 44px rgba(200,16,46,.25);
+  }
+  .contact h2 { font-size: clamp(24px,3.4vw,30px); font-weight: 800; margin-bottom: 10px; }
+  .contact p { opacity: .95; font-size: 16px; }
+  .contact .row { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 26px; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 8px; background: #fff; color: var(--red-dark);
+    padding: 12px 22px; border-radius: var(--r-pill); font-weight: 700; font-size: 15px;
+    text-decoration: none; transition: transform .2s;
+  }
+  .pill:hover { transform: translateY(-3px); }
+  .pill.yt { background: var(--ink); color: #fff; }
+  .pill.fb { background: #1565d8; color: #fff; }
+
+  /* ---- 總部位置地圖卡片 ---- */
+  .hq-card {
+    background: #fff; border-radius: var(--r-xl); overflow: hidden; margin-top: 14px;
+    box-shadow: var(--sh-d1); text-align: left; display: flex; flex-wrap: wrap;
+  }
+  .hq-info { flex: 1 1 320px; padding: 30px 30px; }
+  .hq-info .hq-kicker { color: var(--red); font-weight: 800; letter-spacing: 2px; font-size: 12px; text-transform: uppercase; margin-bottom: 10px; }
+  .hq-info h3 { font-size: 24px; font-weight: 800; color: var(--ink); margin-bottom: 8px; }
+  .hq-info p { color: #6a5a4a; font-size: 15px; line-height: 1.75; }
+  .hq-info .addr {
+    display: inline-flex; align-items: center; gap: 8px; margin-top: 18px;
+    background: var(--sand); border: 1px solid var(--line); color: var(--ink);
+    padding: 12px 20px; border-radius: var(--r-pill); font-weight: 700; font-size: 15px;
+    text-decoration: none; transition: transform .2s, border-color .2s;
+  }
+  .hq-info .addr:hover { transform: translateY(-3px); border-color: var(--gold); }
+  .hq-map { flex: 1.4 1 360px; min-height: 320px; background: #eee; }
+  .hq-map iframe { width: 100%; height: 100%; min-height: 320px; border: 0; display: block; }
+
+  /* ---- 加入我們 / 政治獻金 ---- */
+  .support-section {
+    display: flex; flex-wrap: wrap; gap: 34px; margin-top: 22px;
+    background: linear-gradient(160deg,#fdf3e3,#f9ead0); border: 1px solid #ecd9b4;
+    border-radius: var(--r-xl); padding: 36px; align-items: center; position: relative; overflow: hidden;
+  }
+  .support-text { flex: 1 1 360px; color: var(--ink); }
+  .support-text .sp-badge {
+    display: inline-block; background: var(--red); color: #fff; font-weight: 800; letter-spacing: 1px;
+    font-size: 12px; padding: 5px 14px; border-radius: var(--r-pill); margin-bottom: 14px;
+  }
+  .support-text h3 { font-size: clamp(20px,2.6vw,26px); font-weight: 800; color: var(--ink); margin-bottom: 10px; line-height: 1.5; }
+  .support-text .sp-lead { font-size: 15px; line-height: 1.85; color: #6a5a4a; }
+  .support-text .sp-lead strong { color: var(--red-dark); }
+  .support-text .sp-goals { margin: 16px 0; }
+  .support-text .sp-goals .goal {
+    display: flex; gap: 10px; align-items: flex-start; margin-bottom: 10px; font-size: 14.5px; line-height: 1.7; color: #6a5a4a;
+  }
+  .support-text .sp-goals .goal .num {
+    flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: var(--red); color: #fff;
+    font-size: 13px; font-weight: 800; display: flex; align-items: center; justify-content: center; margin-top: 2px;
+  }
+  .support-text .sp-cta { font-size: 15px; line-height: 1.8; color: var(--ink); font-weight: 600; }
+  .support-text .sp-cta em { font-style: normal; color: var(--red); font-weight: 800; }
+  .support-card { flex: 0 1 300px; text-align: center; }
+  .support-card img {
+    width: 100%; max-width: 300px; border-radius: var(--r-md); box-shadow: var(--sh-2);
+    display: block; margin: 0 auto; cursor: zoom-in;
+  }
+  .support-card .sc-hint { margin-top: 12px; font-size: 13px; color: var(--red-dark); font-weight: 700; }
+  .bank-info { margin-top: 22px; border-top: 1px dashed #e3cfa4; padding-top: 20px; flex-basis: 100%; }
+  .bank-info h4 { font-size: 15px; font-weight: 800; color: var(--ink); margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+  .bank-info h4 .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--red); }
+  .bank-rows { display: grid; grid-template-columns: minmax(90px,auto) 1fr; gap: 8px 16px; font-size: 15px; }
+  .bank-rows .label { color: var(--red-dark); font-weight: 800; white-space: nowrap; }
+  .bank-rows .value { color: var(--ink); font-weight: 600; word-break: break-all; }
+  .bank-rows .value .acct { font-family: "Menlo","SF Mono",monospace; letter-spacing: .5px; white-space: nowrap; }
+  @media (max-width: 720px) {
+    .bank-rows { grid-template-columns: 1fr; gap: 3px 0; }
+    .bank-rows .value { margin-bottom: 9px; }
+  }
+
+  /* ---- YouTube 專屬區 ---- */
+  .yt-section {
+    background: linear-gradient(160deg,#2b211f,#41332c);
+    border-radius: var(--r-xl); padding: 44px 40px 40px; color: #f6f0e4;
+    box-shadow: var(--sh-2); position: relative; overflow: hidden;
+  }
+  .yt-section::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at 92% 8%, rgba(255,0,0,.16), transparent 44%);
+  }
+  .yt-section .yt-head { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-bottom: 30px; }
+  .yt-section .yt-chanlogo {
+    width: 66px; height: 66px; border-radius: var(--r-lg); flex-shrink: 0;
+    background: linear-gradient(145deg,#c8102e,#8f0b20); display: flex; align-items: center; justify-content: center;
+    font-size: 34px; box-shadow: 0 8px 22px rgba(200,16,46,.4);
+  }
+  .yt-section .yt-meta { flex: 1; min-width: 200px; }
+  .yt-section .yt-meta h3 { font-size: 22px; font-weight: 800; letter-spacing: 1px; margin-bottom: 4px; }
+  .yt-section .yt-meta .yt-sub { color: #cbb89e; font-size: 14px; }
+  .yt-section .yt-subscribe {
+    background: #c8102e; color: #fff; text-decoration: none; font-weight: 700;
+    padding: 11px 24px; border-radius: var(--r-pill); font-size: 15px; white-space: nowrap;
+    box-shadow: 0 6px 18px rgba(200,16,46,.4); transition: transform .2s, background .2s;
+  }
+  .yt-section .yt-subscribe:hover { transform: translateY(-3px); background: #e01b39; }
+  .yt-grid { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .yt-card {
+    background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.08);
+    border-radius: var(--r-md); overflow: hidden; transition: transform .25s, box-shadow .25s, border-color .25s;
+    text-decoration: none; color: inherit; display: block;
+  }
+  .yt-card:hover { transform: translateY(-5px); box-shadow: var(--sh-d2); border-color: rgba(255,255,255,.22); }
+  .yt-card .thumb { position: relative; width: 100%; padding-top: 56.25%; background: #1a1211; }
+  .yt-card .thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .yt-card .play {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: rgba(0,0,0,.18); opacity: .9; transition: opacity .2s;
+  }
+  .yt-card:hover .play { opacity: 1; }
+  .yt-card .play span {
+    width: 54px; height: 54px; border-radius: 50%; background: rgba(200,16,46,.92);
+    color: #fff; font-size: 22px; display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 22px rgba(0,0,0,.4); padding-left: 5px;
+  }
+  .yt-card .ep {
+    position: absolute; top: 10px; left: 10px; background: rgba(200,16,46,.92); color: #fff;
+    font-size: 12px; font-weight: 800; padding: 4px 10px; border-radius: var(--r-pill); letter-spacing: 1px;
+  }
+  .yt-card .body { padding: 12px 14px 14px; }
+  .yt-card .body .t { font-size: 14.5px; font-weight: 700; line-height: 1.45; color: #f6f0e4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 42px; }
+  .yt-card .body .m { margin-top: 8px; font-size: 12.5px; color: #c9bba3; }
+
+  /* ---- Facebook 後援會區 ---- */
+  .fb-section {
+    background: linear-gradient(160deg,#1b2a52,#2563a8);
+    border-radius: var(--r-xl); padding: 44px 40px 40px; color: #fff;
+    box-shadow: var(--sh-2); position: relative; overflow: hidden;
+  }
+  .fb-section::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at 92% 8%, rgba(255,255,255,.12), transparent 44%);
+  }
+  .fb-head { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-bottom: 20px; }
+  .fb-logo {
+    width: 66px; height: 66px; border-radius: var(--r-lg); flex-shrink: 0;
+    background: #1877f2; display: flex; align-items: center; justify-content: center;
+    font-size: 38px; font-weight: 800; box-shadow: 0 8px 22px rgba(24,119,242,.4);
+  }
+  .fb-meta { flex: 1; min-width: 200px; }
+  .fb-meta h3 { font-size: 22px; font-weight: 800; letter-spacing: .5px; margin-bottom: 4px; }
+  .fb-meta .fb-sub { color: #d7e7fd; font-size: 14px; }
+  .fb-join {
+    background: #fff; color: #1b2a52; text-decoration: none; font-weight: 700;
+    padding: 11px 24px; border-radius: var(--r-pill); font-size: 15px; white-space: nowrap;
+    box-shadow: 0 6px 18px rgba(0,0,0,.2); transition: transform .2s, background .2s;
+  }
+  .fb-join:hover { transform: translateY(-3px); background: #edf4ff; }
+  .fb-about { position: relative; color: #dbe9fb; font-size: 15px; line-height: 1.85; }
+  .fb-about strong { color: #fff; }
+
+  /* ---- 電子看板廣告區 ---- */
+  .ad-section {
+    background: linear-gradient(160deg,#1a1a1a,#2b2b2b);
+    border-radius: var(--r-xl); padding: 40px; color: #fff;
+    box-shadow: var(--sh-d1); position: relative; overflow: hidden;
+  }
+  .ad-section::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at 92% 8%, rgba(255,0,0,.1), transparent 44%);
+  }
+  .ad-section h3 { position: relative; font-size: 18px; font-weight: 800; margin-bottom: 4px; color: #fff; }
+  .ad-section .ad-sub { position: relative; color: #b3b3b3; font-size: 13.5px; margin-bottom: 22px; }
+  .ad-banner { position: relative; }
+  .video-row { position: relative; }
+  .video-item { position: relative; border-radius: var(--r-md); overflow: hidden; background: #000; box-shadow: var(--sh-d2); margin-bottom: 22px; }
+  .video-item video { display: block; width: 100%; height: auto; }
+  .video-item .vlabel {
+    position: absolute; top: 12px; left: 12px; background: rgba(200,16,46,.92); color: #fff;
+    font-size: 12px; font-weight: 800; padding: 5px 12px; border-radius: var(--r-pill); letter-spacing: 1px;
+    z-index: 2;
+  }
+  .video-item .vtime {
+    position: absolute; bottom: 12px; right: 12px; background: rgba(0,0,0,.62); color: #fff;
+    font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: var(--r-xs); z-index: 2;
+  }
+  .video-item .vdate {
+    position: absolute; top: 12px; right: 12px; background: rgba(47,219,166,.92); color: #04231A;
+    font-size: 12px; font-weight: 800; padding: 3px 10px; border-radius: var(--r-pill); letter-spacing: .5px; z-index: 2;
+  }
+  .video-item .unsound {
+    position: absolute; bottom: 12px; left: 12px; background: rgba(0,0,0,.62); color: #ff0;
+    font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: var(--r-xs); z-index: 2;
+  }
+  .video-item .mutebtn {
+    position: absolute; bottom: 12px; left: 12px; width: 40px; height: 40px; border-radius: 50%;
+    background: rgba(0,0,0,.6); color: #fff; border: 1px solid rgba(255,255,255,.25);
+    font-size: 16px; z-index: 3; cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: background .2s;
+  }
+  .video-item .mutebtn:hover { background: rgba(200,16,46,.9); }
+  .video-item .mutebtn.playing::before { content: "▶"; }
+  .video-item .mutebtn.paused::before { content: "❚❚"; }
+  .video-item video::-webkit-media-controls { display: none!important; }
+
+  footer { text-align: center; padding: 34px 0 42px; color: #7f6f5d; font-size: 13.5px; }
+  footer .brandline { color: #6a5a4a; font-weight: 700; margin-bottom: 6px; }
+
+  @media (max-width: 720px) {
+    nav { height: auto; min-height: 56px; flex-wrap: wrap; padding: 8px 0; row-gap: 4px; }
+    .brand { font-size: 17px; }
+    nav .links { gap: 12px 14px; font-size: 13px; }
+    .grid { grid-template-columns: 1fr; }
+    .intro { padding: 30px 26px; }
+    .yt-section { padding: 30px 22px; }
+    .ad-section { padding: 26px 18px; }
+    .hq-info { padding: 24px 22px; }
+    .hq-map { min-height: 260px; }
+    .register { padding: 28px 20px; }
+    .song-section { padding: 26px 18px; }
+    .support-section { padding: 26px 20px; gap: 24px; }
+    .support-card { flex-basis: 100%; }
+  }
+  /* 兩支 10s 並排 */
+  .video-row { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 1000px) {
+    .yt-grid { grid-template-columns: repeat(2, 1fr); }
+    .video-row { grid-template-columns: 1fr; }
+  }
+  /* 手機覆蓋：需在 1000px 之後，後宣告者勝 */
+  @media (max-width: 720px) {
+    .yt-grid { grid-template-columns: 1fr; }
+    .register .grid-r { grid-template-columns: 1fr; }
+  }
+  .song-name, .nowrap { white-space: nowrap; }
+  /* ---- 參選登記故事：全文可收合（桌機與手機一致；手機版行數沿用下方 media query 的 6 行）---- */
+  .rs-more {
+    display: block; width: 100%; margin: -4px 0 18px;
+    padding: 11px 16px; border: 1px solid rgba(224,180,92,.45); border-radius: var(--r-pill);
+    background: rgba(224,180,92,.08); color: var(--gold);
+    font-family: inherit; font-size: 13.5px; font-weight: 800; letter-spacing: 1px;
+    cursor: pointer; transition: background .2s, border-color .2s;
+  }
+  .rs-more:hover, .rs-more:active { background: rgba(224,180,92,.18); border-color: rgba(224,180,92,.7); }
+  .rs-card .rs-nq, .rs-card .rs-quote {
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .rs-card.open .rs-nq, .rs-card.open .rs-quote {
+    display: block; -webkit-line-clamp: unset; overflow: visible;
+  }
+  /* 手機版預覽行數較多（寬度換行少）——沿用原本 6 行 */
+  @media (max-width: 720px) {
+    .rs-card .rs-nq, .rs-card .rs-quote { -webkit-line-clamp: 6; }
+  }
+
+  /* ---- 政見詳細內容：浮出卡片（modal） ---- */
+  .card.has-detail { cursor: pointer; }
+  .card.has-detail:focus-visible { outline: 3px solid var(--gold-ink); outline-offset: 3px; }
+  .card .more {
+    display: inline-block; margin-top: 14px; padding-bottom: 2px;
+    font-size: 13px; font-weight: 800; letter-spacing: .6px; color: var(--red);
+    border-bottom: 1px dashed rgba(200,16,46,.55); white-space: nowrap;
+    transition: color .2s, border-color .2s;
+  }
+  .card.has-detail:hover .more { color: var(--red-dark); border-bottom-style: solid; border-color: var(--gold); }
+
+  .pm-overlay {
+    position: fixed; inset: 0; z-index: 1000; display: none;
+    align-items: center; justify-content: center; padding: 24px;
+    background: rgba(26,17,15,.74);
+  }
+  .pm-overlay.show { display: flex; }
+  body.pm-open { overflow: hidden; }
+  .pm-card {
+    position: relative; display: flex; flex-direction: column;
+    width: min(880px,100%); max-height: 86vh; overflow: hidden;
+    background: var(--paper); border: 1px solid rgba(245,179,1,.65); border-radius: var(--r-xl);
+    box-shadow: var(--sh-d3); animation: pmIn .26s ease-out;
+  }
+  @keyframes pmIn { from { opacity: 0; transform: translateY(20px) scale(.985); } to { opacity: 1; transform: none; } }
+  .pm-close {
+    position: absolute; top: 14px; right: 14px; z-index: 3;
+    width: 40px; height: 40px; border-radius: 50%; cursor: pointer;
+    background: var(--sand); border: 1px solid var(--line); color: var(--ink);
+    font-family: inherit; font-size: 16px; line-height: 1; transition: background .2s, color .2s, border-color .2s;
+  }
+  .pm-close:hover { background: var(--red); border-color: var(--red); color: #fff; }
+  .pm-head { padding: 26px 30px 18px; background: linear-gradient(160deg,#fdf3e3,#f7e6c8); border-bottom: 1px solid var(--line); }
+  .pm-head .pm-tag {
+    display: inline-block; background: var(--red); color: #fff; font-weight: 800;
+    font-size: 15px; letter-spacing: 1px; padding: 4px 13px; border-radius: var(--r-pill); margin-bottom: 10px;
+  }
+  .pm-head .pm-kicker { color: var(--red); font-weight: 800; letter-spacing: 2px; font-size: 12px; text-transform: uppercase; margin-bottom: 6px; }
+  .pm-head h3 { font-size: clamp(20px,2.6vw,25px); font-weight: 800; color: var(--ink); padding-right: 46px; }
+  .pm-body { padding: 22px 30px 30px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .pm-body h4 {
+    font-size: 17.5px; font-weight: 800; color: var(--red-dark); line-height: 1.55;
+    margin: 24px 0 10px; padding-left: 12px; border-left: 4px solid var(--gold);
+  }
+  .pm-body h4:first-child { margin-top: 2px; }
+  .pm-body p { font-size: 15.5px; line-height: 1.95; color: #4a3f37; margin-bottom: 12px; }
+  .pm-body p strong, .pm-body ul li strong { color: var(--ink); }
+  .pm-body ul { list-style: none; margin: 0 0 14px; padding: 0; }
+  .pm-body ul li { position: relative; padding-left: 20px; margin-bottom: 7px; font-size: 15.5px; line-height: 1.9; color: #4a3f37; }
+  .pm-body ul li::before { content: "▸"; position: absolute; left: 2px; top: 0; color: var(--gold-ink); font-weight: 800; }
+  .pm-key {
+    background: linear-gradient(160deg,#fdf3e3,#f9ead0); border: 1px solid #ecd9b4;
+    border-radius: var(--r-md); padding: 16px 18px 6px; margin: 16px 0 18px;
+  }
+  .pm-key .k-label {
+    display: inline-block; background: linear-gradient(135deg,#1565c0,#0d47a1); color: #ffeeb5; font-size: 12px; font-weight: 800;
+    letter-spacing: 1.5px; padding: 3px 11px; border-radius: var(--r-pill); margin-bottom: 9px; white-space: nowrap;
+  }
+  .pm-note { margin-top: 20px; padding-top: 14px; border-top: 1px dashed var(--line); color: #7f6f5d; font-size: 13px; line-height: 1.8; }
+  .pm-body ol { list-style: none; counter-reset: pmnum; margin: 0 0 14px; padding: 0; }
+  .pm-body ol li {
+    position: relative; counter-increment: pmnum; padding-left: 30px; margin-bottom: 12px;
+    font-size: 15.5px; line-height: 1.9; color: #4a3f37;
+  }
+  .pm-body ol li::before {
+    content: counter(pmnum); position: absolute; left: 0; top: 5px;
+    width: 21px; height: 21px; border-radius: 50%; background: var(--red); color: #fff;
+    font-size: 12px; font-weight: 800; display: flex; align-items: center; justify-content: center;
+  }
+  .pm-quote {
+    margin: 16px 0 18px; padding: 14px 20px;
+    border-left: 4px solid var(--red); border-radius: 0 var(--r-md) var(--r-md) 0;
+    background: rgba(200,16,46,.055);
+  }
+  .pm-quote p { margin: 0; font-size: 15.5px; line-height: 1.95; color: #4a3f37; }
+  .pm-quote .q-by { display: block; margin-top: 8px; text-align: right; font-size: 13.5px; font-weight: 800; color: var(--red); white-space: nowrap; }
+  @media (max-width: 720px) {
+    .pm-overlay { padding: 10px; align-items: flex-end; }
+    .pm-card { max-height: 92vh; border-radius: var(--r-lg); }
+    .pm-head { padding: 22px 20px 14px; }
+    .pm-head h3 { padding-right: 42px; }
+    .pm-body { padding: 16px 20px 26px; }
+    .pm-body p, .pm-body ul li, .pm-body ol li { font-size: 15px; line-height: 1.85; }
+  }
+  /* =======================================================================
+     混血版：T2 骨架（深色科技）+ T1 內文（諸羅木都暖紙）
+     覆蓋層置於最後，同性質選擇器一律以本層為準。
+     深色骨架 = 導覽 / Hero / 深色容器 / 最終 CTA / 頁尾
+     暖紙內文 = 政見卡片 / 內文區塊 / 總部 / 支持我們 / 政見浮出卡片
+     ======================================================================= */
+
+  /* 數字由 assets/stats.json 覆寫（抓不到就沿用頁面內的預設值）；不要因 <b> 變成粗體 */
+  [data-stat] { font-weight: inherit; }
+  /* <picture> 包一層時不要變成 inline（避免與 img 的 block 排版衝突）*/
+  picture { display: block; }
+  /* ---- 標題字體：襯線（T1）／標籤與代碼：等寬（T2）---- */
+  .sec-head h2, .card h3, .panel h3, .contact h2, .hq-info h3, .support-text h3,
+  .register .r-title, .yt-section .yt-meta h3, .fb-meta h3, .ad-section h3,
+  .pm-head h3, .pm-body h4, .pm-key h4, .lightbox .lb-cap strong, .bio-col .b-head h3,
+  .cl-card > summary h3, .cl-sign-name {
+    font-family: var(--head); font-weight: 700; letter-spacing: .02em;
+  }
+
+  /* ======================= T2 骨架：導覽列 ======================= */
+  header { background: rgba(8,19,28,.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--d-line); }
+  nav { min-height: 60px; }
+  .brand { font-family: var(--mono); font-size: 17px; font-weight: 700; letter-spacing: .06em; color: var(--teal); }
+  .brand span { color: var(--d-ink); }
+  /* 頁首品牌整體往左移 4 個字（1 字 = 1em 字寬 + .06em letter-spacing = 1.06em）；
+     視窗不夠寬時位移自動遞減，確保左緣至少留 16px、不貼邊也不被裁切 */
+  .brand { margin-left: calc(-1 * min(4.24em, max(0px, calc((100vw - 1080px) / 2 + 6px)))); }
+  nav a { font-family: var(--mono); font-size: 12.5px; letter-spacing: .03em; color: var(--d-ink2); }
+  nav a:hover { color: var(--teal); }
+  .lang-dropdown > summary {
+    font-family: var(--mono); font-size: 12px; border-radius: var(--r-xs);
+    border-color: rgba(47,219,166,.55); color: var(--d-ink2);
+  }
+  .lang-dropdown > summary:hover, .lang-dropdown[open] > summary { color: var(--teal); border-color: var(--teal); }
+  .lang-list { background: #0C1B26; border-color: var(--d-line); border-radius: var(--r-sm); box-shadow: var(--sh-d2); }
+  .lang-list a { font-family: var(--mono); font-size: 12.5px; color: var(--d-ink2); }
+  .lang-list a:hover { background: rgba(47,219,166,.12); color: var(--teal); }
+  .lang-list a.active { background: rgba(47,219,166,.09); color: var(--teal); font-weight: 700; }
+
+  /* ======================= T2 骨架：Hero ======================= */
+  .hero { background: var(--d-bg); text-align: left; }
+  .hero-frame { position: relative; max-width: 1320px; margin: 0 auto; border-left: 1px solid var(--d-line); border-right: 1px solid var(--d-line); }
+  .hero img { display: block; width: 100%; height: auto; filter: saturate(.9) brightness(.95) contrast(1.05); }
+  .hero-strip {
+    display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; justify-content: space-between;
+    padding: 16px 22px; background: var(--d-bg); border-top: 1px solid var(--d-line);
+  }
+  .hero-tag { font-family: var(--mono); font-size: 11.5px; letter-spacing: .16em; color: var(--teal); text-transform: uppercase; }
+  .hero-tag::before { content: "◆ "; color: var(--teal); }
+  .hero-cta { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 13px; font-weight: 700;
+    letter-spacing: .04em; text-decoration: none; padding: 10px 20px; border-radius: var(--r-xs); transition: .2s;
+  }
+  .btn-teal { background: var(--teal); color: var(--teal-ink); }
+  .btn-teal:hover { background: #26C795; transform: translateY(-2px); }
+  .btn-ghost { border: 1px solid rgba(168,192,205,.5); color: var(--d-ink); }
+  .btn-ghost:hover { border-color: var(--teal); color: var(--teal); transform: translateY(-2px); }
+
+  /* ======================= T1 內文：淺色內容 ======================= */
+  .sec-head .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: .16em; color: var(--brand); }
+  .sec-head .sub { color: var(--ink3); }
+  .divider { background: var(--brand); height: 3px; }
+
+  .card { background: var(--paper2); border: 1px solid var(--line); border-radius: var(--r-md); }
+  .card:hover { transform: translateY(-3px); box-shadow: var(--sh-2); border-color: var(--brand); }
+  .card::after { color: rgba(140,58,34,.07); font-family: var(--head); font-weight: 700; }
+  .card p { color: var(--ink2); }
+  .card .tag { background: var(--brand); color: #FFFCF6; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; padding: 4px 12px; }
+  .card .more { font-family: var(--mono); font-size: 12px; letter-spacing: .06em; color: var(--brand); border-bottom-color: var(--brand); }
+  .card.has-detail:hover .more { color: var(--red-dark); border-bottom-color: var(--brand); }
+
+  .hq-card { background: var(--paper2); }
+  .hq-info .hq-kicker { font-family: var(--mono); color: var(--brand); letter-spacing: .16em; font-size: 11.5px; }
+  .hq-info p { color: var(--ink2); }
+  .hq-info .addr { border-radius: var(--r-xs); }
+  .hq-info .addr:hover { border-color: var(--brand); }
+  .hq-map { background: var(--sand); }
+
+  .support-section { background: var(--paper2); border: 1px solid var(--line); border-radius: var(--r-md); }
+  .support-text .sp-badge { background: var(--brand); color: #FFFCF6; font-family: var(--mono); letter-spacing: .1em; }
+  .support-text .sp-lead { color: var(--ink2); }
+  .bank-info { border-top-color: var(--line); }
+  .bank-rows .label { font-family: var(--mono); color: var(--brand); }
+  .support-card img { border-radius: var(--r-md); box-shadow: var(--sh-2); }
+
+  .manifesto img { border-radius: var(--r-md); box-shadow: var(--sh-2); }
+
+  /* ======================= 深色容器：統一為 T2 家族 ======================= */
+  .register, .song-section, .yt-section, .fb-section, .ad-section {
+    background: linear-gradient(160deg, var(--d-surface), var(--d-deep));
+    box-shadow: var(--sh-d2);
+  }
+  .register::before, .song-section::before, .yt-section::before, .fb-section::before, .ad-section::before {
+    background: radial-gradient(circle at 92% 6%, rgba(47,219,166,.13), transparent 46%);
+  }
+  /* T1 暖白文字留在藍黑底上（14.3:1 以上），深底用金色 */
+  .register { color: #F6F0E4; }
+  .song-section { color: #F6F0E4; }
+  .yt-section { color: #F6F0E4; }
+  .ad-section { color: var(--d-ink); }
+  .fb-section { color: var(--d-ink); }
+  .fb-about { color: #C9DBE8; }
+  .fb-about strong { color: var(--d-ink); }
+  .fb-meta .fb-sub { color: var(--d-ink2); }
+
+  .register .r-badge { background: var(--brand); color: #FFFCF6; box-shadow: none; font-family: var(--mono); letter-spacing: .1em; }
+  .register .r-title em, .register .r-motto span, .rs-title { color: var(--gold); }
+  a.rs-link .src { color: var(--gold); font-family: var(--mono); font-size: 12.5px; }
+  .rs-card .rs-quote strong { color: var(--gold); }
+  .rs-card .rs-meta .tag { background: var(--brand); color: #FFFCF6; }
+  .rs-more { border-color: rgba(224,180,92,.45); background: rgba(224,180,92,.08); }
+  .rs-more:hover, .rs-more:active { background: rgba(224,180,92,.18); border-color: rgba(224,180,92,.7); }
+  .song-credit strong { color: var(--gold); }
+
+  /* YouTube 區 → 青綠（T2） */
+  .yt-section .yt-chanlogo {
+    background: var(--yt-red); border: 1px solid rgba(255,255,255,.2); color: #fff; box-shadow: none;
+  }
+  .yt-section .yt-subscribe { background: var(--yt-red); color: #fff; box-shadow: none; font-family: var(--mono); font-size: 13px; }
+  .yt-section .yt-subscribe:hover { background: #C8102E; }
+  .yt-section .yt-sub { color: #C9BBB0; }
+  .yt-card { background: rgba(255,255,255,.04); border-color: rgba(168,192,205,.45); border-radius: var(--r-md); }
+  .yt-card .body .t { font-family: var(--head); font-weight: 700; }
+
+  /* Facebook 區 → 同一深色家族，僅保留品牌色標記 */
+  .fb-join { background: #1565D8; color: #fff; font-weight: 700; box-shadow: none; font-family: var(--mono); font-size: 13px; }
+  .fb-join:hover { background: #0F55BE; }
+  .fb-logo { border-radius: var(--r-md); }
+
+  /* 電子看板區：純黑 → 同家族 */
+  .video-item .vlabel, .song-video .song-badge { background: rgba(140,58,34,.92); }
+  .yt-card .ep, .yt-card .play span { background: rgba(224,27,57,.92); }
+  .video-item .mutebtn:hover { background: rgba(140,58,34,.9); }
+
+  /* ======================= 最終 CTA：回到 T2 深色骨架 ======================= */
+  .contact {
+    background: linear-gradient(160deg, var(--d-surface), var(--d-deep)); color: var(--d-ink);
+    box-shadow: var(--sh-d2); border: 1px solid var(--d-line);
+  }
+  .contact p { opacity: 1; color: var(--d-ink2); }
+  .pill { border-radius: var(--r-xs); font-family: var(--mono); font-size: 12.5px; letter-spacing: .04em; }
+  .pill.yt { background: var(--yt-red); color: #fff; font-weight: 700; border: 1px solid transparent; }
+  .pill.yt:hover { background: #C8102E; border-color: transparent; color: #fff; }
+  .pill.fb { background: #1565D8; color: #fff; font-weight: 700; border: 1px solid transparent; }
+  .pill:hover { transform: translateY(-2px); }
+  .pill.fb:hover { background: #0F55BE; border-color: transparent; color: #fff; }
+  /* 標題避免孤字（orphan）：近代瀏覽器支援，舊版自動忽略 */
+  .sec-head h2, .card h3, .contact h2, .support-text h3, .register .r-title, .hq-info h3, .pm-head h3, .yt-section .yt-meta h3, .fb-meta h3 { text-wrap: balance; }
+  .card p, .pm-body p { text-wrap: pretty; }
+
+  /* ======================= 頁尾：T2 骨架 ======================= */
+  footer {
+    background: var(--d-bg); border-top: 1px solid var(--d-line); color: var(--d-ink2);
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: .04em; padding: 34px 22px 42px;
+  }
+  footer .brandline { font-family: var(--mono); color: var(--d-ink); font-weight: 700; }
+  /* 頁尾技術團隊名稱連到諸羅科技站 */
+  footer .brandline a { color: var(--teal); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; padding: 6px 4px; }
+  footer .brandline a:hover, footer .brandline a:focus-visible { color: #7CF0C8; }
+
+  /* ======================= 政見浮出卡片：T1 內文 + T2 標籤 ======================= */
+  .pm-card { background: var(--paper2); border-color: var(--line); }
+  .pm-head { background: linear-gradient(160deg, #F7EFE2, #EFE3D0); border-bottom-color: var(--line); }
+  .pm-head .pm-tag { background: var(--brand); color: #FFFCF6; font-family: var(--mono); font-size: 13px; letter-spacing: .08em; }
+  .pm-head .pm-kicker { font-family: var(--mono); color: var(--brand); letter-spacing: .16em; }
+  .pm-body h4 { color: var(--brand); border-left-color: var(--gold); }
+  .pm-body p, .pm-body ul li, .pm-body ol li, .pm-quote p { color: #4A3F37; }
+  .pm-body ul li::before { color: var(--gold-ink); }
+  .pm-key { background: var(--sand); border-color: var(--line); border-radius: var(--r-sm); }
+  .pm-key .k-label { background: var(--d-surface); color: var(--teal); font-family: var(--mono); letter-spacing: .12em; }
+  .pm-quote { border-left-color: var(--brand); background: rgba(140,58,34,.06); }
+  .pm-quote .q-by { color: var(--brand); font-family: var(--mono); font-size: 12.5px; }
+  .pm-note { color: var(--ink3); }
+  .pm-body ol li::before { background: var(--brand); }
+
+
+  /* ---- 導覽列高度改為可成長：語言頁第 6 個連結會在窄視寬換行，固定 height 會裁切 ---- */
+  nav { height: auto; }
+
+  /* ======================= 學歷與經歷（bio） ======================= */
+  .bio-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 20px; align-items: start; }
+  .bio-col {
+    background: var(--paper2); border: 1px solid var(--line); border-radius: var(--r-md);
+    padding: 26px 26px 20px; box-shadow: var(--sh-1);
+    transition: transform .25s, box-shadow .25s, border-color .25s;
+  }
+  .bio-col:hover { transform: translateY(-3px); box-shadow: var(--sh-2); border-color: var(--brand); }
+  .bio-col .b-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; border-bottom: 1px solid var(--line); padding-bottom: 12px; }
+  .bio-col .b-head .b-kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; color: var(--brand); text-transform: uppercase; }
+  .bio-col .b-head h3 { font-family: var(--head); font-weight: 700; font-size: 20px; letter-spacing: .04em; color: var(--ink); }
+  .bio-col .b-head .b-cnt { font-family: var(--mono); font-size: 11px; color: var(--ink3); margin-left: auto; }
+  .bio-list { list-style: none; }
+  .bio-item {
+    display: grid; grid-template-columns: 88px 1fr; gap: 12px;
+    padding: 11px 8px 11px 8px; margin: 0 -8px; border-bottom: 1px dashed var(--line);
+    border-radius: var(--r-xs); transition: background .2s;
+  }
+  .bio-item:last-child { border-bottom: none; }
+  .bio-item:hover { background: rgba(140,58,34,.05); }
+  .bio-item .yr { font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: .01em; color: var(--gold-ink); white-space: nowrap; padding-top: 2px; }
+  .bio-item .tx { color: var(--ink2); font-size: 14.5px; line-height: 1.62; text-wrap: pretty; }
+  .bio-item .tx strong { color: var(--ink); font-weight: 700; }
+
+  /* ======================= 白皮書下載（whitepaper） ======================= */
+  .wp-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .wp-card {
+    display: flex; flex-direction: column;
+    background: var(--paper2); border: 1px solid var(--line); border-radius: var(--r-md);
+    padding: 26px 26px 22px; box-shadow: var(--sh-1);
+    transition: transform .25s, box-shadow .25s, border-color .25s;
+  }
+  .wp-card:hover { transform: translateY(-3px); box-shadow: var(--sh-2); border-color: var(--brand); }
+  .wp-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; border-bottom: 1px solid var(--line); padding-bottom: 12px; }
+  .wp-no { font-family: var(--mono); font-size: 11.5px; letter-spacing: .16em; color: var(--brand); }
+  .wp-meta { font-family: var(--mono); font-size: 11.5px; color: var(--ink3); margin-left: auto; white-space: nowrap; }
+  .wp-card h3 { font-family: var(--head); font-weight: 700; font-size: 20px; line-height: 1.5; color: var(--ink); margin: 16px 0 12px; text-wrap: balance; }
+  .wp-quote {
+    margin: 0 0 14px; padding: 12px 16px;
+    background: rgba(140,58,34,.06); border-left: 3px solid var(--brand);
+    border-radius: 0 var(--r-sm) var(--r-sm) 0;
+    font-size: 15px; line-height: 1.8; color: var(--ink2); text-wrap: pretty;
+  }
+  .wp-desc { font-size: 14.5px; line-height: 1.8; color: var(--ink2); text-wrap: pretty; }
+  .wp-tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 16px 0 20px; padding: 0; }
+  .wp-tags li {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: .04em; color: var(--gold-ink);
+    background: var(--sand); border: 1px solid var(--line); border-radius: var(--r-pill);
+    padding: 4px 12px; white-space: nowrap;
+  }
+  .wp-act { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; }
+  .wp-act .btn { padding: 10px 18px; font-size: 12.5px; }
+  .wp-dl { background: var(--brand); color: #FFFCF6; }
+  .wp-dl:hover { background: var(--red-dark); transform: translateY(-2px); }
+  .wp-read { border: 1px solid rgba(140,58,34,.5); color: var(--brand); }
+  .wp-read:hover { border-color: var(--brand); background: rgba(140,58,34,.06); transform: translateY(-2px); }
+  /* WP–02 卡片縮圖：白皮書封面（浮動右上，文字環繞）*/
+  .wp-thumb { float: left; width: 118px; margin: 2px 18px 12px 0; }
+  .wp-thumb img {
+    display: block; width: 100%; height: auto;
+    border: 1px solid var(--line); border-radius: var(--r-sm); box-shadow: var(--sh-1);
+    cursor: zoom-in; transition: transform .25s, box-shadow .25s;   /* 可點擊看全圖 */
+  }
+  .wp-thumb img:hover { transform: translateY(-3px); box-shadow: var(--sh-2); }
+  @media (max-width: 720px) {
+    .wp-grid { grid-template-columns: 1fr; gap: 16px; }
+    .wp-card { padding: 22px 18px 18px; }
+    .wp-card h3 { font-size: 18px; }
+    .wp-meta { margin-left: 0; }
+    .wp-thumb { width: 92px; margin: 2px 14px 10px 0; }
+    .wp-act .btn { flex: 1 1 auto; justify-content: center; }
+  }
+
+  /* ---- 學歷／經歷：可收合（.is-extra 為預設收起項） ---- */
+  .bio-item.is-extra, .bio-sub.is-extra { display: none; }
+  .bio-col.expanded .bio-item.is-extra { display: grid; }
+  .bio-col.expanded .bio-sub.is-extra { display: block; }
+  .bio-col:not(.expanded) .bio-list { position: relative; }
+  .bio-col:not(.expanded) .bio-list::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 54px;
+    background: linear-gradient(rgba(255,252,246,0), var(--paper2)); pointer-events: none;
+  }
+  .bio-sub {
+    display: block; margin: 14px 0 2px; padding: 16px 8px 2px; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: .12em; color: var(--brand);
+  }
+  .bio-toggle {
+    display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%;
+    margin-top: 14px; padding: 11px 14px; cursor: pointer;
+    font-family: var(--mono); font-size: 12.5px; font-weight: 700; letter-spacing: .04em;
+    color: var(--brand); background: var(--sand); border: 1px solid var(--line);
+    border-radius: var(--r-sm); transition: background .2s, border-color .2s;
+  }
+  .bio-toggle:hover { background: #E3D4BC; border-color: var(--brand); }
+  .bio-toggle:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+  .bio-toggle .chev { display: inline-block; transition: transform .25s; }
+  .bio-col.expanded .bio-toggle .chev { transform: rotate(180deg); }
+
+  /* ---- 導覽下拉選單（學經歷／十大政見）---- */
+  .nav-dropdown { position: relative; }
+  .nav-dropdown > summary {
+    list-style: none; cursor: pointer; white-space: nowrap; padding: 3px 0;
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: .03em;
+    color: var(--d-ink2); transition: color .2s;
+  }
+  .nav-dropdown > summary::-webkit-details-marker { display: none; }
+  .nav-dropdown > summary::marker { content: ""; }
+  .nav-dropdown > summary::after { content: " ▾"; font-size: 9px; opacity: .75; }
+  .nav-dropdown > summary:hover, .nav-dropdown[open] > summary { color: var(--teal); }
+  .nav-dropdown:not([open]) .nav-list { display: none; }
+  .nav-list {
+    position: absolute; left: 0; top: calc(100% + 8px); z-index: 60;
+    min-width: 232px; width: max-content; max-width: calc(100vw - 44px);
+    background: #0C1B26; border: 1px solid var(--d-line); border-radius: var(--r-sm);
+    box-shadow: var(--sh-d2); overflow: hidden; padding: 6px 0;
+  }
+  .nav-list a {
+    display: flex; align-items: baseline; gap: 10px; padding: 9px 16px;
+    font-family: var(--mono); font-size: 12.5px; letter-spacing: .02em;
+    color: var(--d-ink2); text-decoration: none; white-space: nowrap;
+  }
+  .nav-list a:hover, .nav-list a:focus-visible { background: rgba(47,219,166,.12); color: var(--teal); }
+  .nav-list a .nn { color: var(--teal); opacity: .8; font-size: 11px; min-width: 1.2em; white-space: nowrap; }
+
+
+  /* ======================= 手機 ======================= */
+  @media (max-width: 720px) {
+    nav { height: auto; min-height: 56px; padding: 8px 0; }
+    .hero-strip { padding: 14px 18px; gap: 12px; justify-content: flex-start; }
+    .hero-tag { font-size: 10.5px; letter-spacing: .1em; }
+    .btn { padding: 9px 16px; font-size: 12.5px; }
+    .brand { font-size: 15px; }
+    nav .links { gap: 10px 12px; font-size: 11.5px; }
+    .lang-dropdown > summary { font-size: 11px; }
+    .sec-head h2 { font-size: clamp(22px, 5.6vw, 28px); }
+    .nav-dropdown > summary { font-size: 11.5px; }
+    .nav-list { min-width: 140px; padding: 4px 0; }
+    .nav-list a { padding: 9px 14px; font-size: 12px; white-space: normal; line-height: 1.5; }
+    .bio-grid { grid-template-columns: 1fr; gap: 16px; }
+    .bio-col { padding: 22px 18px 16px; }
+    .bio-col .b-head h3 { font-size: 18px; }
+    .bio-item { grid-template-columns: 76px 1fr; gap: 10px; }
+    .bio-item .yr { font-size: 11px; }
+    .contact { padding: 40px 20px; }
+    footer { font-size: 11.5px; }
+  }
+
+  /* ---- 政見卡片圓形配圖（有圖的卡片：圓圖左欄 + 內文右欄，內文一律靠左對齊）---- */
+  .card.has-photo { display: flex; align-items: flex-start; gap: 16px; }
+  .card.has-photo > .card-photo { flex: 0 0 132px; width: 132px; height: 132px; margin: 2px 0 0; }
+  .card.has-photo > .card-body { flex: 1 1 auto; min-width: 0; }
+  .card .card-photo img {
+    display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
+    border: 3px solid var(--paper2); box-shadow: var(--sh-1);
+  }
+  @media (max-width:720px) {
+    .card.has-photo { gap: 12px; }
+    .card.has-photo > .card-photo { flex-basis: 104px; width: 104px; height: 104px; }
+  }
+  }
+
+  /* ======================= 澄清專區（clarify） ======================= */
+  .cl-list { display: grid; gap: 14px; }
+  .cl-card {
+    background: var(--paper2); border: 1px solid var(--line); border-radius: var(--r-md);
+    box-shadow: var(--sh-1); overflow: hidden;
+    transition: box-shadow .25s, border-color .25s;
+  }
+  .cl-card:hover { border-color: rgba(140,58,34,.45); box-shadow: var(--sh-2); }
+  .cl-card[open] { border-color: rgba(140,58,34,.5); box-shadow: var(--sh-2); }
+  .cl-card > summary {
+    list-style: none; cursor: pointer;
+    display: flex; align-items: center; gap: 14px;
+    padding: 20px 22px; background: rgba(140,58,34,.045);
+  }
+  .cl-card > summary::-webkit-details-marker { display: none; }
+  .cl-card > summary::marker { content: ""; }
+  .cl-card > summary:focus-visible { outline: 2px solid var(--brand); outline-offset: -3px; }
+  .cl-card > summary h3 { flex: 1 1 auto; min-width: 0; font-size: 19px; line-height: 1.5; color: var(--ink); text-wrap: balance; }
+  .cl-chev { flex: 0 0 auto; color: var(--brand); font-size: 13px; line-height: 1; transition: transform .25s; }
+  .cl-card[open] .cl-chev { transform: rotate(180deg); }
+  /* 護欄：<details> 的原生「關閉即隱藏」在子元素被指定 display 時會失效，明寫才穩 */
+  .cl-card:not([open]) .cl-body { display: none; }
+  .cl-body {
+    border-top: 1px solid var(--line);
+    padding: 24px 22px 26px;
+    font-size: 15px; line-height: 1.95; color: var(--ink2);
+  }
+  .cl-body p { margin: 0 0 15px; text-wrap: pretty; }
+  .cl-body p:last-child { margin-bottom: 0; }
+  .cl-lead { color: var(--ink); font-weight: 700; letter-spacing: .02em; }
+  .cl-call { margin-top: 22px; color: var(--ink); font-weight: 700; letter-spacing: .06em; }
+  .cl-sign {
+    margin-top: 12px; padding-top: 16px; border-top: 1px dashed var(--line);
+    text-align: right; color: var(--ink);
+  }
+  .cl-sign-role { font-size: 13.5px; color: var(--ink2); }
+  .cl-sign-name { font-size: 20px; letter-spacing: .08em; }
+  .cl-sign-date { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; color: var(--ink3); margin-top: 5px; }
+  /* 澄清專區內的影片卡（暖紙底；外連 YouTube，縮圖沿用站上慣例的 i.ytimg.com）*/
+  .cl-video {
+    display: flex; gap: 16px; align-items: flex-start; margin: 2px 0 14px;
+    background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-md);
+    padding: 12px; text-decoration: none; color: inherit;
+    transition: transform .25s, box-shadow .25s, border-color .25s;
+  }
+  .cl-video:hover, .cl-video:focus-visible { transform: translateY(-3px); box-shadow: var(--sh-2); border-color: var(--brand); }
+  .cl-video .thumb { position: relative; flex: 0 0 224px; width: 224px; aspect-ratio: 16 / 9; border-radius: var(--r-sm); overflow: hidden; background: #1a1211; }
+  .cl-video .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .cl-video .play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,.16); transition: background .25s; }
+  .cl-video .play span { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding-left: 3px; border-radius: 50%; background: rgba(224,27,57,.92); color: #fff; font-size: 15px; box-shadow: var(--sh-d1); }
+  .cl-video:hover .play { background: rgba(0,0,0,.02); }
+  .cl-video .body { flex: 1 1 auto; min-width: 0; }
+  .cl-video .t { font-family: var(--head); font-weight: 700; font-size: 16px; line-height: 1.6; color: var(--ink); text-wrap: pretty; }
+  .cl-video .m { margin-top: 8px; font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--ink3); }
+  .cl-note { font-family: var(--mono); font-size: 12.5px; letter-spacing: .02em; color: var(--ink3); }
+  @media (max-width: 720px) {
+    .cl-card > summary { padding: 16px; gap: 10px; }
+    .cl-card > summary h3 { font-size: 17px; }
+    .cl-body { padding: 18px 16px 20px; font-size: 14.5px; line-height: 1.9; }
+    .cl-sign-name { font-size: 18px; }
+    .cl-video { flex-direction: column; gap: 12px; padding: 10px; }
+    .cl-video .thumb { flex: 0 0 auto; width: 100%; }
+    .cl-video .t { font-size: 15px; }
+  }
+  /* 導覽列多一項（澄清）後，721–900px 會把語言選單擠到第二排（實測 768px 缺口 32px）；
+     收窄 gap 至 16px 可省 48px 回到單排。只寫在中文頁（各語系 CSS 自帶一份），不影響外語頁。 */
+  @media (min-width: 721px) and (max-width: 900px) {
+    nav .links { gap: 16px; }
+  }
+</style>
+<script defer src="https://chiayi-mayor.duckdns.org/umami/script.js" data-website-id="e7205cac-6663-4e82-b007-b8183c6a54ce"></script>
+<!-- 自訂事件標記（見 assets/track.js 檔頭的完整事件清單） -->
+<script defer src="assets/track.js"></script>
+<script defer src="assets/stats.js"></script>
+<script defer src="assets/videos.js?v=20261005a"></script>
+</head>
+<body>
+<h1 class="sr-only">數位孿生救嘉義 - 市長候選人 陳愷璜 校長</h1>
+
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#top" title="回到最上面">數位<span>孿生</span>救嘉義</a>
+    <div class="links">
+      <details class="nav-dropdown">
+        <summary>學經歷</summary>
+        <div class="nav-list">
+          <a href="#bio-edu" data-goto="bio-edu" data-bio-open="bio-edu">學歷</a>
+          <a href="#bio-exp" data-goto="bio-exp" data-bio-open="bio-exp">經歷</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>十大政見</summary>
+        <div class="nav-list">
+          <a href="#policy-1" data-goto="policy-1" data-open-detail="pdetail-1"><span class="nn">壹</span>走路經濟學</a>
+          <a href="#policy-2" data-goto="policy-2" data-open-detail="pdetail-2"><span class="nn">貳</span>跨宗教經濟學</a>
+          <a href="#policy-3" data-goto="policy-3" data-open-detail="pdetail-3"><span class="nn">參</span>公園經濟學</a>
+          <a href="#policy-4" data-goto="policy-4" data-open-detail="pdetail-4"><span class="nn">肆</span>木都經濟學</a>
+          <a href="#policy-5" data-goto="policy-5" data-open-detail="pdetail-5"><span class="nn">伍</span>「諸羅顯影」經濟學</a>
+          <a href="#policy-6" data-goto="policy-6" data-open-detail="pdetail-6"><span class="nn">陸</span>「藝術圓夢中心」經濟學</a>
+          <a href="#policy-7" data-goto="policy-7" data-open-detail="pdetail-7"><span class="nn">柒</span>「十字廊帶」經濟學</a>
+          <a href="#policy-8" data-goto="policy-8" data-open-detail="pdetail-8"><span class="nn">捌</span>超低底盤運輸載具經濟學</a>
+          <a href="#policy-9" data-goto="policy-9" data-open-detail="pdetail-9"><span class="nn">玖</span>垃圾資源經濟學</a>
+          <a href="#policy-10" data-goto="policy-10" data-open-detail="pdetail-10"><span class="nn">拾</span>城市數位孿生經濟學</a>
+        </div>
+      </details>
+      <details class="nav-dropdown">
+        <summary>白皮書</summary>
+        <div class="nav-list">
+          <a href="#whitepaper-1" data-goto="whitepaper-1"><span class="nn">WP–01</span>《解構諸羅之美學運動白皮書》</a>
+          <a href="#whitepaper-2" data-goto="whitepaper-2"><span class="nn">WP–02</span>《市長參選人陳愷璜校長政策白皮書》</a>
+        </div>
+      </details>
+      <a href="#clarify">澄清</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#song">諸羅之歌</a>
+      <a href="#facebook">後援會</a>
+      <a href="#contact">加入我們</a>
+      <details class="lang-dropdown">
+        <summary>🌐 中文</summary>
+        <div class="lang-list">
+        <a href="index.html" class="active">中文</a>
+        <a href="en.html">English</a>
+        <a href="ja.html">日本語</a>
+        <a href="ko.html">한국어</a>
+        <a href="fr.html">Français</a>
+        </div>
+      </details>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-frame">
+    <picture>
+  <source type="image/webp" srcset="assets/主視覺-電子看板-720.webp 720w, assets/主視覺-電子看板-1320.webp 1320w" sizes="(max-width: 760px) 100vw, 1320px" />
+  <img src="assets/主視覺-電子看板.png" alt="這擺，咱賀嘉義變水！嘉義市長參選人 陳愷璜 — 美學新政" width="1672" height="941" fetchpriority="high" decoding="async" />
+</picture>
+    <div class="hero-strip">
+      <span class="hero-tag">DIGITAL TWIN · 數位孿生救嘉義</span>
+      <div class="hero-cta">
+        <a class="btn btn-teal" href="#policy">十大政見</a>
+        <a class="btn btn-ghost" href="#register">參選登記全紀錄</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 敬致各界（內定展開的卡片，置於澄清專區之前；僅中文頁、導覽不列入口） -->
+<section class="sec" id="openletter">
+  <div class="wrap">
+    <div class="cl-list">
+      <details class="cl-card" id="openletter-1" open>
+        <summary class="cl-head">
+          <h3>給城市的一封公開信——服務處與政治獻金</h3>
+          <span class="cl-chev" aria-hidden="true">▼</span>
+        </summary>
+        <div class="cl-body">
+          <p class="cl-lead">致嘉義、台灣各界關注城市發展議題先進、朋友們：</p>
+          <p>屆臨2026選舉最後階段，歡迎各界朋友們一起來實質支持陳愷璜校長參選嘉義市市長；推動台灣公民社會的城市進化，給嘉義市一個實踐機會—它的規模尺度—正是給台灣一個永續的進化生活實踐方案。</p>
+          <p>考慮籌措社會資源不易，本團隊將不另行舉辦募款餐會、競選總部成立等耗費有限資源的傳統選舉習俗。僅以今年年初即開辦的「2026嘉義美學運動—諸羅美學理絡實驗室（Lab. BES-01）」轉作為陳愷璜校長嘉義市長選舉的賜教服務處：嘉義市（西區）北榮街131號。歡迎各界關注城市發展議題、台灣社會系統進化的市民、各界朋友們，蒞臨指教、交流需求與願景。</p>
+          <p>政治獻金專戶：115年嘉義市市長擬參選人陳愷璜政治獻金專戶</p>
+          <p>嘉義市第三信用合作社<span class="nowrap">（178） 00013-11-2367530</span></p>
+          <p class="cl-call">敬謝社會各界朋友們的支持與鼓勵</p>
+          <div class="cl-sign">
+            <div class="cl-sign-name">陳愷璜 敬啟</div>
+            <div class="cl-sign-date">10.2026</div>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 澄清專區 -->
+<section class="sec" id="clarify">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Clarification</div>
+      <h2>澄清專區</h2>
+      <div class="sub">針對網路上流傳的不實影片與相關言論，謹此鄭重說明</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="cl-list">
+      <details class="cl-card" id="clarify-1">
+        <summary class="cl-head">
+          <h3>網路上流傳的不實影片澄清</h3>
+          <span class="cl-chev" aria-hidden="true">▼</span>
+        </summary>
+        <div class="cl-body">
+          <p class="cl-lead">誠 奉告各位社會正人君子與網民大眾：</p>
+          <p>當代社會正深陷一種集體無意識的病態之中。面對校園權力鬥爭中遭受霸凌、被各種形式暴力對待的被害者，社會不分青紅皂白，往往變態地要求被害者不斷出來說明、澄清，將其痛苦當作獵奇的真人秀；卻集體噤聲，放過並迴避了真正的加害者與集體暴力。</p>
+          <p>在浮濫的自媒體與演算法世界裡，流量至上、聳動為王，基本的事實、同理心與公平正義早已徹底滅頂。當年的網路影音內容，正是因權力鬥爭而被刻意醜化、虛構編撰的惡意產物。台端切毋恣意在網路上隨意散佈、轉傳這些霸凌與造假內容，以免觸犯誹謗罪以及意圖使候選人不當選之相關刑事法律責任。</p>
+          <p>數位民主若淪為網路霸凌的溫床，正義便蕩然無存。嗚呼哀哉，社會大眾實應深自省思。</p>
+          <p class="cl-call">特此奉告</p>
+          <div class="cl-sign">
+            <div class="cl-sign-role">嘉義市長參選人</div>
+            <div class="cl-sign-name">陳愷璜 謹誌</div>
+            <div class="cl-sign-date">2026-09</div>
+          </div>
+        </div>
+      </details>
+
+      <details class="cl-card" id="clarify-2">
+        <summary class="cl-head">
+          <h3>事件後的澄清採訪報導（影片）</h3>
+          <span class="cl-chev" aria-hidden="true">▼</span>
+        </summary>
+        <div class="cl-body">
+          <p>爭議發生後，陳愷璜校長即親自出面接受媒體訪問，就外界質疑逐項說明事情原委。以下為當時《中時新聞網》全程直播的存檔（2024-06-02，全長約 27 分鐘）——完整、未經剪輯的當面回應；對照網路上流傳的片段，較能看見事情的全貌。</p>
+          <a class="cl-video" href="https://www.youtube.com/watch?v=Lyv1YdIviik" target="_blank" rel="noopener">
+            <div class="thumb">
+              <img src="https://i.ytimg.com/vi/Lyv1YdIviik/hqdefault.jpg" alt="【直播備份】北藝大校長室豪華裝潢風波 校長陳愷璜親自出面回應" width="480" height="360" loading="lazy" />
+              <span class="play" aria-hidden="true"><span>▶</span></span>
+            </div>
+            <div class="body">
+              <div class="t">【直播備份】北藝大校長室豪華裝潢風波 校長陳愷璜親自出面回應</div>
+              <div class="m">中時新聞網直播存檔 · 2024-06-02 · 約 27 分鐘 · 於 YouTube 觀看 ↗</div>
+            </div>
+          </a>
+          <p class="cl-note">影片出處：YouTube「敢勝一族」頻道轉存之《中時新聞網》2024-06-02 直播備份。</p>
+        </div>
+      </details>
+
+      <details class="cl-card" id="clarify-3">
+        <summary class="cl-head">
+          <h3>拒絕「邪惡二分法」——關於公共議題的回應</h3>
+          <span class="cl-chev" aria-hidden="true">▼</span>
+        </summary>
+        <div class="cl-body">
+          <p class="cl-lead">有一些公民社會共同關注的議題被轉貼到這個社群來。於是，就有人在提問：安樂死、廢死（反廢死）……等重大公共問題，到底與選市長有什麼關係？我覺得必須對這些公共關注提出一點回應。</p>
+          <p>首先，這些極為複雜的議題（從個體到社會）是有著當然的關聯，不論是不是選市長都會有著直接或間接的關係。台灣社會，或者說屆臨選舉時的政治性操弄，這些議題都會被刻意簡化成贊成與否的選邊站！我把它統稱為：邪惡二分法。這特別是政黨最喜歡的直接站隊法，加上民粹式的扭曲，台灣的公民社會總是在揪惡之中難以自拔地來面對自己的價值觀。</p>
+          <p>這些議題其實都不是簡單地回答贊成與否、選邊站，它們就能化解真正遭遇到時候的困境。簡單講，它們都不是是非題，也應該不是二分的選項（非此即彼）。它們理當是公民社會整體組成的共同申論題。因為有太多的條件、信念價值、倫理關係甚至是生命的態度，在每一種個案中都將非常困難的只被均質化看待，生命的歷程，的確沒有誰的命會比較貴！</p>
+          <p>這也是，為什麼我在嘉義市長選舉中標舉：以公民社會的成長進化地方派系政治。否則，嘉義市就只能永遠沉淪在政黨選邊站的「假政治感知」生態中沉浮，那不是台灣民主政治發展應該要繼續的惡習。這裡面自然也包括資訊落差的套用，公開透明並沒有因為社會的言論自由而被重視，網路的無端謾罵、霸凌與偽批評博取的聲量，各式的社團、組織、校園……鬥爭，反而自然就被視為攸關選舉的扭曲判準，這全然符應社會運動的盲目與非理智。</p>
+          <p>這些惡質現象並非是我對嘉義人的本性理解，因此我期待我們能夠有機會一起來改造、進化這個城市。</p>
+          <div class="cl-sign">
+            <div class="cl-sign-role">嘉義市長參選人</div>
+            <div class="cl-sign-name">陳愷璜 謹誌</div>
+            <div class="cl-sign-date">2026-10</div>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 參選登記 -->
+<section class="sec" id="register">
+  <div class="wrap">
+    <div class="register">
+      <div class="r-banner">
+        <span class="r-badge">參選登記完成</span>
+        <div class="r-title">陳愷璜 · 正式登記參選<em>嘉義市長</em></div>
+        <div class="r-sub">嘉義市選舉委員會受理登記梯次 — 以初心之名，為城市挺身而出</div>
+        <div class="r-motto">
+          <span>沒有政黨奧援，就自己來</span>
+          <span class="blk">沒有龐大團隊，就親自做</span>
+          <span class="blk">因為參政的初心，就是為市民幸福把關</span>
+        </div>
+      </div>
+
+      <div class="r-inspire">
+        <img src="assets/register/理念.webp" width="1320" height="880" alt="陳校長參選理念" loading="lazy" />
+      </div>
+
+      <div class="grid-r">
+        <figure class="photo lb-trigger" role="button" tabindex="0" onclick="openLightbox('assets/register/登記填表-1.webp','嘉義市選委會 · 受理登記現場 — 陳校長親自填寫候選人登記申請書')">
+          <img src="assets/register/登記填表-1-thumb.jpg" alt="受理登記現場" loading="lazy" />
+          <figcaption class="cap">嘉義市選委會 · 受理登記現場<br>陳校長親自填寫候選人登記申請書</figcaption>
+        </figure>
+        <figure class="photo lb-trigger" role="button" tabindex="0" onclick="openLightbox('assets/register/登記填表-2.webp','嘉義市選委會 · 候選人登記申請書 — 校長現場修改需要更正的項目')">
+          <img src="assets/register/登記填表-2-thumb.jpg" alt="校長現場修改需要更正的項目" loading="lazy" />
+          <figcaption class="cap">嘉義市選委會 · 候選人登記申請書<br>校長現場修改需要更正的項目</figcaption>
+        </figure>
+        <figure class="photo lb-trigger" role="button" tabindex="0" onclick="openLightbox('assets/register/選委會合影.webp','嘉義市選舉委員會 — 參選登記完成後接受記者聯訪')">
+          <img src="assets/register/選委會合影-thumb.jpg" alt="參選登記完成後接受記者聯訪" loading="lazy" />
+          <figcaption class="cap">嘉義市選舉委員會<br>參選登記完成後接受記者聯訪</figcaption>
+        </figure>
+      </div>
+
+      <!-- 參選登記故事 -->
+      <div class="r-stories">
+        <div class="rs-title">參選登記現場故事</div>
+
+        <a class="rs-card rs-link rs-news" href="https://www.facebook.com/share/p/1EAnHpU3gu/" target="_blank" rel="noopener">
+          <div class="rs-nq">
+            <strong>【嘉義訊】</strong>今（9/1）日正式登記參選嘉義市市長的參選人、前北藝大陳愷璜校長，拋出以<strong>「數位孿生救嘉義」</strong>為核心的震撼城市藍圖，主打用<strong>科技智能治理</strong>與<strong>人文美學</strong>翻轉桃城！<br><br>
+            競選團隊指出，本次政見以「四大支柱」與「美學新政」為基底，全面導入<strong>數位孿生與生成式AI</strong>進行城市模擬，降低試錯成本。亮點包含：將舊城區木都文化轉型為<strong>高溢價IP</strong>；進化<strong>Smart BRT 20分鐘直達高鐵站</strong>；打造全台高齡友善典範，設置「生活統籌事務官」與空間特許豁免；並首創<strong>桃城孵夢所</strong>與<strong>毛孩安老共生特區</strong>。<br><br>
+            參選人陳愷璜校長強調，這套兼具前瞻科技與在地溫度的全齡治理方案，要打破傳統官僚沈痾，讓青年不用外漂、長者尊嚴樂活。<em>這擺，咱賀嘉義變水閣生猛！</em>
+          </div>
+          <div class="rs-meta"><span class="tag">嘉義訊</span>正式登記參選嘉義市市長 · 9/1 新聞稿 · <span class="src">原文出處 ↗</span></div>
+        </a>
+        <button class="rs-more" type="button">展開全文 ▾</button>
+
+        <a class="rs-card rs-link" href="https://www.facebook.com/share/p/1JjvTxgC3K/" target="_blank" rel="noopener">
+          <div class="rs-quote">
+            因為<strong>第一次參選</strong>，難免經驗不足，現場登記過程中也出現了一些小狀況。不過，這些問題依然難不倒陳愷璜校長。<br><br>
+            其實，登記所需的表格與相關資料，陳校長<strong>早已事先準備妥當</strong>。現場發生的狀況，主要是因為部分認知上的落差所造成。當工作人員詢問校長是否需要請助理協助現場修改時，陳校長很直接地回應：<em>「我可以馬上改。」</em><br><br>
+            話一說完，陳校長隨即從袋子裡拿出 MacBook，打開電腦，<strong>當場進行資料修改</strong>。<strong>不到 5 分鐘</strong>，所有需要調整的內容便全部完成，而且也都符合現場工作人員的要求。<br><br>
+            這一幕，也讓現場工作人員有些驚訝——竟然有市長參選人親自坐在現場處理文書作業。但對陳校長而言，這或許正是他參政理念最直接的體現。<strong>沒有政黨的支援，沒有龐大的幕僚團隊，許多事情就是自己來、自己面對、自己完成。</strong>因為陳校長始終認為，參政最重要的，就是站在市民的立場，為市民的權益與福利把關。<em>該自己做的事情，就不假他人之手。</em><br><br>
+            值得一提的是，陳校長這次登記參選，並沒有特別挑選所謂的「吉時」，也沒有事先通知媒體到場採訪。一切就按照既定流程，<strong>低調、踏實地完成</strong>。沒想到現場剛好遇到準備採訪下一場行程的記者，記者也把握機會現場採訪，讓校長向大家說明參選的初衷與理念。<br><br>
+            沒有鋪張的排場，沒有刻意安排的媒體聲勢。就這樣，<strong>一台 MacBook、一份份自己親手處理的文件，以及一份想為市民做事的初心</strong>，完成了今天參選登記的重要一步。
+          </div>
+          <div class="rs-meta"><span class="tag">參選登記</span>後援會貼文 · 陳愷璜校長選市長後援會 · <span class="src">原文出處 ↗</span></div>
+        </a>
+        <button class="rs-more" type="button">展開全文 ▾</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 政見主視覺 -->
+<section class="sec" id="manifesto" style="padding-top:0">
+  <div class="wrap">
+    <div class="manifesto">
+      <picture>
+  <source type="image/webp" srcset="assets/數位孿生救嘉義-720.webp 720w, assets/數位孿生救嘉義-1320.webp 1320w" sizes="(max-width: 760px) 100vw, 1320px" />
+  <img src="assets/數位孿生救嘉義.png" alt="數位孿生救嘉義 — 十大經濟政見" width="1672" height="941" loading="lazy" decoding="async" />
+</picture>
+    </div>
+  </div>
+</section>
+
+<!-- 燈箱 -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lb-close" onclick="closeLightbox()">✕</button>
+  <img id="lightboxImg" alt="" />
+  <div id="lightboxCap" class="lb-cap"></div>
+</div>
+<script>
+function openLightbox(src, cap) {
+  document.getElementById("lightboxImg").src = src;
+  document.getElementById("lightboxCap").textContent = cap || "";
+  document.getElementById("lightbox").classList.add("show");
+}
+function closeLightbox() {
+  document.getElementById("lightbox").classList.remove("show");
+}
+/* Esc 關閉燈箱（僅在燈箱開啟時動作）*/
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" || e.key === "Esc") {
+    var lb = document.getElementById("lightbox");
+    if (lb && lb.classList.contains("show")) { closeLightbox(); }
+  }
+});
+/* 燈箱觸發元素支援鍵盤：Enter / Space 等同點擊 */
+document.addEventListener("keydown", function (e) {
+  if (e.key !== "Enter" && e.key !== " " && e.key !== "Spacebar") { return; }
+  var el = e.target;
+  if (el && el.classList && el.classList.contains("lb-trigger")) { e.preventDefault(); el.click(); }
+});
+</script>
+
+<!-- 理念 -->
+<section class="sec" id="idea">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Digital Twin · Chiayi</div>
+      <h2>用城市數位孿生，振興嘉義經濟</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="intro">
+      <p>
+        <strong>數位孿生（Digital Twin）</strong>，是在數位世界裡建立一座嘉義城的即時分身——
+        讓城市每一條街、每一座公園、每一寸人流與商機，都能被<strong>看見、模擬、優化</strong>。
+        陳愷璜校長主張：把這座智慧城市的數據引擎，化作<strong>十大經濟動能</strong>，
+        從走路經濟到木都文創，從宗教觀光到移動經濟，
+        讓古老的諸羅城，重現繁榮與光彩。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 學歷與經歷 -->
+<section class="sec" id="bio">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Profile · Kai-Huang Chen</div>
+      <h2>學歷與經歷</h2>
+      <div class="sub">從嘉義的幼稚園到巴黎高等藝術學院，再到北藝大校長 — 完整的學歷與職務年表</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="bio-grid">
+      <div class="bio-col" id="bio-edu">
+        <div class="b-head">
+          <span class="b-kicker">Education</span>
+          <h3>學歷</h3>
+          <span class="b-cnt">12 項</span>
+        </div>
+        <ul class="bio-list">
+          <li class="bio-item"><span class="yr">2026-</span><span class="tx"><strong>淡江大學土木工程學系博士班</strong>（建築組）</span></li>
+          <li class="bio-item"><span class="yr">2018</span><span class="tx">ISO-14064-1 Internal Verifier Training Course Achievement</span></li>
+          <li class="bio-item"><span class="yr">1999</span><span class="tx"><strong>國立政治大學商學院</strong>碩士後網路與數位多媒體設計班結業</span></li>
+          <li class="bio-item"><span class="yr">1988</span><span class="tx"><strong>法國國立巴黎建築學院</strong>（1669 年創立）研修「建築元素」</span></li>
+          <li class="bio-item"><span class="yr">1986-1990</span><span class="tx"><strong>法國國立巴黎高等藝術學院</strong>（1648 年創立）國家造型藝術最高等級文憑 · D.N.S.A.P.：造型藝術碩士（avec mention félicitation du juri l'unanimité，獲第一獎學位）</span></li>
+          <li class="bio-item is-extra"><span class="yr">1984</span><span class="tx">文化建設委員會<strong>第一屆雕刻與空間裝置創作營</strong>結業</span></li>
+          <li class="bio-item is-extra"><span class="yr">1983-1986</span><span class="tx"><strong>國立臺灣藝術專科學校</strong>美術科西畫組畢業（1955 年創立；2018 年國立臺灣藝術大學傑出校友）</span></li>
+          <li class="bio-item is-extra"><span class="yr">1979-1982</span><span class="tx">海軍陸戰隊三〇七梯（七七師）— 海軍陸戰隊士官學校無線電通信士</span></li>
+          <li class="bio-item is-extra"><span class="yr">1975-1978</span><span class="tx"><strong>省立嘉義高級中學</strong>（1924 年創立；2018 年傑出校友）</span></li>
+          <li class="bio-item is-extra"><span class="yr">1973-1975</span><span class="tx"><strong>嘉義縣立蘭潭國民中學</strong>（1961 年創立；2022 年傑出校友）</span></li>
+          <li class="bio-item is-extra"><span class="yr">1966-1972</span><span class="tx"><strong>嘉義縣嘉義市民族國民小學</strong>（1919 年創立；2020 年傑出校友）</span></li>
+          <li class="bio-item is-extra"><span class="yr">1965-1966</span><span class="tx"><strong>嘉義市立吳鳳幼稚園</strong>（1915 年創立）</span></li>
+        </ul>
+        <button class="bio-toggle" type="button" data-bio-toggle="bio-edu" aria-expanded="false" aria-controls="bio-edu" data-label-more="展開全部 12 項" data-label-less="收合，只顯示前 5 項">
+          <span class="t-label">展開全部 12 項</span><span class="chev">▾</span>
+        </button>
+      </div>
+
+      <div class="bio-col" id="bio-exp">
+        <div class="b-head">
+          <span class="b-kicker">Experience</span>
+          <h3>經歷</h3>
+          <span class="b-cnt">33 項</span>
+        </div>
+        <ul class="bio-list">
+          <li class="bio-item"><span class="yr">2026-2028</span><span class="tx"><strong>臺灣教師專業發展學會理事長</strong>（第七屆）</span></li>
+          <li class="bio-item"><span class="yr">2025-</span><span class="tx"><strong>Art Venture Ehime Fes 2025</strong>（日本愛媛縣藝術三年祭）國際評審</span></li>
+          <li class="bio-item"><span class="yr">2024</span><span class="tx">經濟部外貿協會 2025 大阪世界博覽會國家館評選案徵選委員</span></li>
+          <li class="bio-item"><span class="yr">2024-2025</span><span class="tx">台灣版高等教育「跨學門校園共享」（北藝大、北市大、宜大、暨大）跨校學程（Shared Campus on Taiwan, Scot）發起人</span></li>
+          <li class="bio-item"><span class="yr">2023-</span><span class="tx">財團法人臺灣偏鄉兒童教育基金會創會董事</span></li>
+          <li class="bio-item is-extra"><span class="yr">2022-</span><span class="tx">新北市青年社會住宅公共藝術執委暨徵選委員、台北捷運公司萬大線公共藝術執委暨徵選委員</span></li>
+          <li class="bio-item is-extra"><span class="yr">2019-2024</span><span class="tx"><strong>國立臺北藝術大學人文學院文學跨領域創作研究所創所所長</strong></span></li>
+          <li class="bio-item is-extra"><span class="yr">2019-2025</span><span class="tx"><strong>財團法人台北市關渡文化藝術基金會創會董事兼董事長</strong></span></li>
+          <li class="bio-item is-extra"><span class="yr">2019-2025</span><span class="tx">中華工程教育學會（IEET）理監事、委員</span></li>
+          <li class="bio-item is-extra"><span class="yr">2019-2025</span><span class="tx">教育部藝術教育貢獻獎評選委員</span></li>
+          <li class="bio-item is-extra"><span class="yr">2017-2025</span><span class="tx"><strong>國立臺北藝術大學校長</strong></span></li>
+          <li class="bio-item is-extra"><span class="yr">2017-2025</span><span class="tx">亞洲藝術院校聯盟（ALIA）理事主席（2017-2023）、理事副主席（2023-2025）</span></li>
+          <li class="bio-item is-extra"><span class="yr">2017-2025</span><span class="tx">歐亞高等藝術教育「校園共享」（ELIA / Shared Campus）跨國國際學程發起及夥伴學校</span></li>
+          <li class="bio-item is-extra"><span class="yr">2017-2025</span><span class="tx">教育部藝術教育推動會委員（歷任法制組召集人、副召集人）</span></li>
+          <li class="bio-item is-extra"><span class="yr">2017-2025</span><span class="tx">財團法人台北市文化基金會董事</span></li>
+          <li class="bio-item is-extra"><span class="yr">2017-2025</span><span class="tx">台北市政府文化市政顧問</span></li>
+          <li class="bio-item is-extra"><span class="yr">2015-2025</span><span class="tx">新北市、桃園市、宜蘭縣文化局公共藝術審議會審議委員</span></li>
+          <li class="bio-item is-extra"><span class="yr">2007-2023</span><span class="tx">香港中文大學、香港教育大學碩士論文國際（外部）審查委員</span></li>
+          <li class="bio-item is-extra"><span class="yr">1996-2025</span><span class="tx"><strong>國立臺北藝術大學美術學院藝術跨域研究所</strong>（美術系／美術創作碩士班、博士班、藝跨所創所所長）專任教授，2025 退休</span></li>
+          <li class="bio-item is-extra"><span class="yr">1996-</span><span class="tx"><strong>藝術與觀念（藝術強度）實驗室創辦人</strong>（Lab. TCHENOGRAMME / NON-PROFIT）</span></li>
+          <li class="bio-sub is-extra">藝術相關職務</li>
+          <li class="bio-item is-extra"><span class="yr">2016-17</span><span class="tx">財團法人淡水文化基金會董事</span></li>
+          <li class="bio-item is-extra"><span class="yr">2015-16</span><span class="tx">工信工程、加拿大商龐巴迪、英商莫特麥克唐納「<strong>捷運三鶯線</strong>」公共藝術案總顧問</span></li>
+          <li class="bio-item is-extra"><span class="yr">2014</span><span class="tx">國立臺北藝術大學特聘教授</span></li>
+          <li class="bio-item is-extra"><span class="yr">2013-16</span><span class="tx"><strong>財團法人三芝文化基金會董事兼董事長</strong></span></li>
+          <li class="bio-item is-extra"><span class="yr">2013-16</span><span class="tx">國立臺北藝術大學美術學院院長</span></li>
+          <li class="bio-item is-extra"><span class="yr">2006-</span><span class="tx">曾參與五十餘案環境與公共藝術案執行暨徵選委員</span></li>
+          <li class="bio-item is-extra"><span class="yr">2006-10</span><span class="tx"><strong>國立臺北藝術大學美術系主任兼所長</strong>、造型研究所所長、藝術跨域研究所（創所）所長</span></li>
+          <li class="bio-item is-extra"><span class="yr">2005</span><span class="tx">國立臺北藝術大學學務長</span></li>
+          <li class="bio-item is-extra"><span class="yr">2000</span><span class="tx">Communiversity e-learning 網路科技公司 CEO</span></li>
+          <li class="bio-item is-extra"><span class="yr">1999</span><span class="tx">成立「學校」（THE SCHOOL / L'ÉCOLE）</span></li>
+          <li class="bio-item is-extra"><span class="yr">1998</span><span class="tx">Dreamer's media 網路藝術顧問</span></li>
+          <li class="bio-item is-extra"><span class="yr">1996</span><span class="tx">Baleine Design Studio 藝術總監</span></li>
+          <li class="bio-item is-extra"><span class="yr">1995</span><span class="tx">在地實驗總編輯／藝術總監（創立網路電視台 etat web tv site）</span></li>
+        </ul>
+        <button class="bio-toggle" type="button" data-bio-toggle="bio-exp" aria-expanded="false" aria-controls="bio-exp" data-label-more="展開全部 33 項" data-label-less="收合，只顯示前 5 項">
+          <span class="t-label">展開全部 33 項</span><span class="chev">▾</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  document.querySelectorAll("[data-bio-toggle]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var card = document.getElementById(btn.getAttribute("data-bio-toggle"));
+      var open = card.classList.toggle("expanded");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.querySelector(".t-label").textContent = open ? btn.dataset.labelLess : btn.dataset.labelMore;
+    });
+  });
+})();
+</script>
+
+<!-- 十大政見 -->
+<section class="sec" id="policy">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">10 Economic Policies</div>
+      <h2>十大經濟政見</h2>
+      <div class="sub">一支城市數位孿生引擎 · 十大振興經濟板塊</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="grid">
+      <div class="card has-photo has-detail" data-num="壹" data-detail="pdetail-1" data-detail-sub="十大經濟政見 · 走路經濟學" id="policy-1">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/walk-480.webp" />
+          <img src="assets/policy/walk-480.jpg" alt="走路經濟學 — 嘉義老街的步行人潮與在地店家街景" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">壹</span>
+        <h3>走路經濟學</h3>
+        <p>打造行人友好的街區與步行廊道，讓人流成為城市經濟最穩定的動脈，商店、攤販與在地生活一同活絡。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-detail has-photo" data-num="貳" data-detail="pdetail-2" data-detail-sub="十大經濟政見 · 跨宗教經濟學" id="policy-2">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/faith-480.webp" />
+          <img src="assets/policy/faith-480.jpg" alt="跨宗教經濟學 — 教堂與廟宇同街並立的城市景觀示意" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">貳</span>
+        <h3>跨宗教經濟學</h3>
+        <p>串聯嘉義多元宗教場域，發展祈福觀光與文化節慶經濟，讓信仰資產化身城市品牌。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-detail has-photo" data-num="參" data-detail="pdetail-3" data-detail-sub="十大經濟政見 · 公園經濟學" id="policy-3">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/park-480.webp" />
+          <img src="assets/policy/park-480.jpg" alt="公園經濟學 — 嘉義市全齡化公園的滑板與親子活動場景" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">參</span>
+        <h3>公園經濟學</h3>
+        <p>活化公園綠地，導入市集、藝文與休閒消費動能，讓綠地不只是休憩，更是在地經濟的客廳。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-photo has-detail" data-detail="pdetail-4" data-detail-sub="十大經濟政見 · 木都經濟學" data-num="肆" id="policy-4">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/wood-480.webp" />
+          <img src="assets/policy/wood-480.jpg" alt="木都經濟學 — 木作老師傅刨木的工坊場景" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">肆</span>
+        <h3>木都經濟學</h3>
+        <p>擦亮嘉義「木都」金字招牌，發展木藝文創、循環木料與匠人產業鏈，讓古調唱出新聲。</p>
+      
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-photo has-detail" data-detail="pdetail-5" data-detail-sub="十大經濟政見 · 「諸羅顯影」經濟學" data-num="伍" id="policy-5">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/tsulo-480.webp" />
+          <img src="assets/policy/tsulo-480.jpg" alt="「諸羅顯影」經濟學 — 古城輪廓光雕與夜空星圖示意" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">伍</span>
+        <h3>「諸羅顯影」經濟學</h3>
+        <p>用影像與故事行銷諸羅古城，發展影視、攝影與觀光創作經濟，讓地方的歷史被世界看見。</p>
+      
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-photo has-detail" data-num="陸" data-detail="pdetail-6" data-detail-sub="十大經濟政見 · 「藝術圓夢中心」經濟學" id="policy-6">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/art-480.webp" />
+          <img src="assets/policy/art-480.jpg" alt="「藝術圓夢中心」經濟學 — 社區藝術工坊裡，青年陪長輩一起作畫" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">陸</span>
+        <h3>「藝術圓夢中心」經濟學</h3>
+        <p>打造藝術聚落與夢想孵化基地，讓創作帶動商機，藝術家與城市共同圓夢、共同繁榮。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-photo has-detail" data-num="柒" data-detail="pdetail-7" data-detail-sub="十大經濟政見 · 「十字廊帶」經濟學" id="policy-7">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/cross-480.webp" />
+          <img src="assets/policy/cross-480.jpg" alt="「十字廊帶」經濟學 — 以嘉義車站為核心的十字廊帶城市願景示意" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">柒</span>
+        <h3>「十字廊帶」經濟學</h3>
+        <p>串聯舊城十字軸線，復甦商圈廊帶與街區經濟，讓老城核心重新聚集人氣與消費。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-photo has-detail" data-num="捌" data-detail="pdetail-8" data-detail-sub="十大經濟政見 · 超低底盤運輸載具經濟學" id="policy-8">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/transit-480.webp" />
+          <img src="assets/policy/transit-480.jpg" alt="超低底盤運輸載具經濟學 — 低底盤自動駕駛小巴示意（雨天城市街景）" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">捌</span>
+        <h3>超低底盤運輸載具經濟學</h3>
+        <p>導入低底盤大眾運具與觀光移動載體，打造無障礙、可遊逛的移動經濟，讓每一段旅程都創造價值。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-photo has-detail" data-num="玖" data-detail="pdetail-9" data-detail-sub="十大經濟政見 · 垃圾資源經濟學" id="policy-9">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/waste-480.webp" />
+          <img src="assets/policy/waste-480.jpg" alt="垃圾資源經濟學 — 智慧回收站與資源再利用示意" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">玖</span>
+        <h3>垃圾資源經濟學</h3>
+        <p>垃圾變資源，發展循環經濟與環境永續產業，讓城市廢棄物從負擔變成新的成長動能。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+      <div class="card has-photo has-detail" data-num="拾" data-detail="pdetail-10" data-detail-sub="十大經濟政見 · 城市數位孿生經濟學" id="policy-10">
+        <figure class="card-photo"><picture>
+          <source type="image/webp" srcset="assets/policy/twin-480.webp" />
+          <img src="assets/policy/twin-480.jpg" alt="城市數位孿生經濟學 — 城市新陳代謝轉型圖譜" width="480" height="480" loading="lazy" decoding="async" />
+        </picture></figure>
+        <div class="card-body">
+        <span class="tag">拾</span>
+        <h3>城市數位孿生經濟學</h3>
+        <p>建立城市數位分身，以數據驅動治理與產業創新，讓嘉義邁向智慧與繁榮並進的未來。</p>
+        <span class="more">看詳細內容 ▸</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 政見詳細內容範本（點選卡片時浮出） -->
+<template id="pdetail-1">
+  <h4>一、前言：從城市移動到在地經濟學</h4>
+  <p>在當代都市發展與觀光規劃中，交通工具的選擇往往決定了人們對城市的感知深度。嘉義市獨特的<strong>「走路經濟學（Walkable Economy）」</strong>，其核心概念在於：如何透過放慢移動速度，活化地方老街區，讓市民與遊客在漫步中創造真實的經濟價值，並將地方文化轉化為永續發展的經濟產值。</p>
+
+  <h4>二、速度悖論與「摩擦力經濟學」</h4>
+  <p>現代人習慣追求快速便利，開車或騎車雖然能迅速抵達目的地，但高速移動帶來的往往只有噪音與廢氣。這裡存在一個關鍵的城市經濟悖論——<strong>速度越快，城市越貧瘠；速度越慢，經濟黏著度越高</strong>。</p>
+  <div class="pm-key">
+    <span class="k-label">核心概念</span>
+    <p><strong>摩擦力經濟學（Friction Economics）</strong><br>步行是一種高度具有「摩擦力」的移動狀態。摩擦係數越高（即遊客越頻繁停下來看、聽、聞、買、吃），產生的商業行為與經濟產值就越大。相反地，環繞城市的快速道路與外圍快速移動區，因缺乏停留點，商業機能往往呈現荒涼。</p>
+  </div>
+  <p>當移動速度從汽車放慢至機車、腳踏車，再到步行（每小時約 4-5 公里），遊客的五官才真正全部展開。他們能聞到 60 年代的老味道、看到巷弄小店的精緻陳列，進而駐足消費。這種「流連忘返」的過程，正是<strong>街道微循環（Micro-circulation）</strong>的核心運作機制。</p>
+
+  <h4>三、嘉義市區的客觀優勢：「大通」與「二通」的黃金步行圈</h4>
+  <p>嘉義市具備發展走路經濟學得天獨厚的客觀要件。國際上被稱為適合行走的城市，其核心精華區規模多落在 5 至 8 平方公里左右。而嘉義市區正好完美吻合這項規模：</p>
+  <ul>
+    <li><strong>大通</strong>：即中山路，自嘉義火車站延伸而出的主幹道。</li>
+    <li><strong>二通</strong>：俗稱中正路，百年來一直是老商號與商業聚集的歷史核心區。</li>
+  </ul>
+  <p>大通與二通交織而成的核心老街區，正是嘉義市的<strong>「蛋黃中的蛋黃」</strong>。從這一端走到那一端，步行時間多半在 15 至 30 分鐘以內，騎機車則在 10 分鐘以內。這種緊湊且充滿歷史底蘊的尺度，使得遊客不需要依賴繁複的公共運輸，僅靠雙腳就能完整體驗嘉義市獨特的「生活感」。</p>
+
+  <h4>四、活體感測器：步行者的傳播效應</h4>
+  <p>在走路經濟學的架構中，步行者不僅是摩擦力的主要創造者，更是城市行銷中不可或缺的<strong>「活體感測器（Living Sensor）」</strong>。</p>
+  <p>當步行者全面展開五官，體驗當地的歷史、故事與日常，這些記憶會深刻烙印在腦海中，並透過現代社群媒體主動宣傳出去。這種由下而上的口碑傳播，遠比官方枯燥的廣告更具感染力。步行者既是消費者，也是最佳的城市傳播單元。</p>
+
+  <h4>五、政府的角色與未來展望</h4>
+  <p>面對這樣充滿潛力的走路經濟學，政府與在地治理者應當扮演什麼角色？其中，市政府最重要的一項任務，就是<strong>「把地方故事給挖出來」</strong>。</p>
+  <p>走路經濟學並非依靠高深的經濟理論，而是建立在源源不絕、厚實的文化內容來源之上。唯有透過歷史故事的挖掘與梳理，才能為步行經濟提供源源不絕的在地靈魂，讓造訪者不僅留得下來、離不開，更能真正融入並體驗最純正的<strong>「嘉義式生活（Chiayi Lifestyle）」</strong>。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「走路經濟學（Walkable Economy）」內容整理。</div>
+</template>
+
+<template id="pdetail-2">
+  <h4>一、引言：嘉義獨特的城市底蘊與宗教氛圍</h4>
+  <p>作為城市經濟的第二個核心主題，<strong>「跨宗教經濟學」</strong>承接了「走路經濟學」的思考脈絡。兩者之間存在著高度的共同底層邏輯——皆以「城市」作為核心基礎，並根植於深厚的歷史與文化脈絡之中。</p>
+  <p>相較於台北等大都會，現代人在快節奏的生活中往往與鄰人保持距離，不同群體間的宗教信仰界線模糊且鮮少公開談論；然而，嘉義這座歷史小城卻展現出截然不同的風貌。嘉義的街頭巷尾充滿了廟宇、教堂與天主堂，各宗教的建築與據點彷彿彼此緊鄰、接壤，甚至交織在一塊。無論是信眾眾多的佛道教、遍布各處的基督教教堂，抑或是為數不少、主動表明信仰的天主教徒，這個城市的空氣中總是瀰漫著一種宗教距離極近、氛圍濃厚的特殊氣息。</p>
+  <p>在嘉義，各種宗教之間彷彿接在一起、黏在一塊。它們並不真的綁在一起，但距離真的很近——這是這座城市獨特的「錯覺」，也是一種罕見的空間氣質。</p>
+  <p>每一個宗教在歷史演進中，都發展出了一套非常獨立且運作順暢的社會資源募集與組織方法。然而，若站在城市治理與宏觀發展的角度來看，市政府的角色絕對不應只是任由各宗教「各走各的路」。如何善用這些歷史積累的宗教核心價值、倫理價值與正向觀念，將其轉化為城市的文化地景，進而與城市形成<strong>「共生共榮」</strong>的獨特風貌，正是跨宗教經濟學的核心意義所在。</p>
+
+  <h4>二、歷史的回響：從文藝復興到嘉義大廟與小廟的寄居故事</h4>
+  <p>要理解跨宗教經濟學的可行性，西方歷史上輝煌的「文藝復興時期」正是一個經典的例證。當時達文西、米開朗基羅、拉斐爾等大師的偉大創作，幾乎全數與宗教緊密結合。然而時至今日，我們看待這些作品時，已不再單純將其侷限於宗教教條，而是將其視為人類偉大的<strong>「文化資產」</strong>。正是因為藝術的轉譯與注釋，後人才得以深刻品味與回望那個時代的宗教發展與人文萌芽。</p>
+  <p>這種宗教與藝術、歷史交織的共生關係，在嘉義本土的歷史脈絡中同樣清晰可見，並非憑空想像。從日治時代到二戰之後，嘉義的在地歷史正提供了鮮明的例證：</p>
+  <div class="pm-key">
+    <span class="k-label">歷史記憶</span>
+    <p><strong>嘉義城隍廟與「二房東」的在地故事</strong><br>在日治時代後期，日本推動殖民地「皇民化運動」，曾一度將嘉義市許多在地廟宇廢棄，禁止進行宗教活動。當時為了讓香火得以延續、神明有所歸宿，許多小型廟宇紛紛「寄居」在大廟之內，例如歷史悠久的嘉義城隍廟就曾收容並寄放過許多小廟的神明。直到二戰結束後，隨著地方民眾的重新凝聚與要求，這些小廟才陸續被「取回」，由信眾重新買地並獨立建廟。</p>
+  </div>
+  <p>這種大廟作為「二房東」、庇護小廟度過歷史風暴的過程，造就了嘉義在地宗教網絡中極其獨特、互助且深具人情味的故事。跨宗教經濟學的構想，正是奠基於這樣深厚的歷史情感與在地記憶之上。</p>
+
+  <h4>三、市政府的戰略定位：三大層面的轉化機制</h4>
+  <p>當外界質疑「各宗教本已擁有獨特運作模式，市政府介入到底能做什麼？」時，市政府的戰略定位必須被清楚界定：市政府絕非意圖取代任何宗教，而是扮演<strong>「整合者」與「平台推動者」</strong>的角色，透過系統性的政策引導，讓各大宗教發揮更大的社會正念力量。具體而言，這需要落實以下三個層面的關鍵轉化：</p>
+  <ol>
+    <li><strong>宗教儀式的美學轉譯：形塑城市公共文化地景</strong><br>首要任務是將各不同宗教傳統信仰中的儀式、祭典與核心精神，進行深度的「美學轉譯」。透過現代藝術與美學的重新包裝，這些傳統儀式不再只是封閉的教派活動，而是能夠轉化為城市的「公共文化地景」。這正如歐洲大陸各大城市，其城市靈魂與觀光魅力幾乎完全脫離不了歷史宗教脈絡一般，讓嘉義市的主體角色增添豐富的宗教與人文層次。</li>
+    <li><strong>宗教教派資源的良性循環：打破競爭、共享平台</strong><br>第二個層面是透過市政府提供的公共資源平台，將原本可能帶有潛在競爭性的宗教教派資源，轉化為良善循環的合作機制。借鏡過去大廟庇護小廟的歷史互助精神，現代的宗教平台能夠促進不同教派之間的對話與資源共享，讓宗教團體不再是各自為政，而是在同一張美學地圖與歷史軸線上相輔相成。</li>
+    <li><strong>從私人消費到美學共享經濟：打造一年四季的宗教節慶</strong><br>第三個層面則是將一般民眾理解的「個別私人消費」，透過這一套跨宗教美學機制，昇華為一種全新的<strong>「美學共享經濟」</strong>。未來，嘉義市可以跳脫傳統單一宮廟活動的框架，效仿音樂節、藝術節與文化節的模式，定期舉辦規模宏大的「跨宗教藝術節」或「宗教節」。</li>
+  </ol>
+  <p>這是一項定期的活動——每年都有這樣一次，一年四季都可以呼應不同的宗教、推動不同的活動，進而扮演一種非常獨特、全新的經濟平台推動角色。</p>
+  <p>透過一年四季的循環活動落實，不同的宗教節慶與文化季得以輪番上陣，彼此呼應。市政府在此過程中扮演關鍵的整合與推動角色，使之成功落地，進而帶動地方的文化觀光與經濟產值。</p>
+
+  <h4>四、結論：讓宗教價值昇華為城市永續的共生共榮</h4>
+  <p>總結而言，《諸羅經濟學》所提出的「跨宗教經濟學」，並非流於表面的商業操作，而是一場深刻的城市文化復興運動。它巧妙地捕捉了嘉義市「廟宇教堂林立、距離緊密」的獨特空間特色，並將歷史上大廟與小廟互助共生的在地故事化為養分。</p>
+  <p>透過市政府建構的公共平台與三大轉化機制——儀式的美學轉譯、教派資源的良性循環、以及美學共享經濟的建立，嘉義市有望將歷史積累的宗教正向價值，轉化為一年四季不斷電的城市文化節慶。這不僅讓宗教團體與城市形成「共生共榮」的獨特文化景致，更為規模不大的嘉義市開闢了一條兼具人文深度與經濟活力的永續發展道路。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「跨宗教經濟學」內容整理。</div>
+</template>
+
+<template id="pdetail-3">
+  <h4>一、超越綠地的迷思與城市規模的反思</h4>
+  <p>在當代都會區的發展脈絡中，公園往往被視為日常起居的附屬產物。多數居民對公園的期待相當基本，僅滿足於呼吸芬多精、提供兒童遊戲與長者休憩等基礎機能，甚至常將其簡化為「只要有綠色植物、能排除在住宅容積率之外」的法定綠地。然而，從宏觀的都市發展與經濟學視角切入，這種「千篇一律」的公園樣態，對於規模袖珍、人口結構邁入超高齡化的城市而言，並未能發揮其最大的潛在價值。</p>
+  <p>以嘉義市為例，其境內擁有高達 <strong>52 座</strong>編定各異的公園綠地，以戶籍人口比例來看，在全台灣名列前茅。在「木都」的歷史底蘊與超高齡社會的雙重背景下，這 52 座公園若僅停留在傳統的休憩層面，無疑是一種資源的低度利用。如何跳脫傳統框架，將這些分散的綠帶轉化為具備戰略意義的<strong>「公園經濟學」</strong>，成為一門值得深思的城市發展課題。</p>
+
+  <h4>二、歷史脈絡與集體記憶：從「木都」到活體生態系</h4>
+  <p>嘉義市自日治時期以降，作為阿里山木業的門戶與集散地，百年來與「木」字結下不解之緣，因而贏得「木都」的美譽。這種歷史命運不僅是過往的工業遺產，更是當代城市轉型的重要資產。</p>
+  <p>傳統的木都概念多聚焦於已切割、加工的木造結構與歷史建築；但在現代的公園經濟學中，公園裡的樹木是<strong>「活著的森林（Living woods）」</strong>。這種從「死物木材」到<strong>「活體生態（Living ecosystem）」</strong>的轉變，將歷史人文與自然生態緊密串聯。這 52 座公園不該是孤立的綠地個體，而是承載歷史長河變遷、具備故事性與文化厚度的集體記憶場域。透過整體的綠帶規劃，公園成為城市碳匯（Carbon sink）的重要據點，完美扣合當前全球重視的 ESG（環境、社會、治理）永續發展浪潮。</p>
+
+  <h4>三、空間美學與城市策展：打造沒有圍牆的學校</h4>
+  <p>借鏡國際都市的發展經驗，如美國芝加哥透過河流、綠帶與大型公共藝術（如雲門 Cloud Gate）相互交織，成功形塑出繁華市區中的文化地景與觀光地標。嘉義市同樣具備形塑獨特地景的本錢。</p>
+  <p>當這 52 座公園被賦予不同的主題與定位時，它們就不再只是單調的休憩空間，而是 <strong>52 個城市的展覽場所</strong>。結合在地豐富的教育資源——包括嘉義市及周邊十多所涵蓋農業、環境等專業領域的大專院校——這些公園可以成為實戰人才培育的場域。年輕學子與專業人才得以在其中實踐環境美學、景觀設計與生態維護，讓整座城市化為一座<strong>「沒有圍牆的學校」</strong>。這不僅創造了城市文化地景，更為在地教育與實務接軌提供絕佳的平台。</p>
+
+  <h4>四、永續經濟與多元共榮的未來願景</h4>
+  <p>公園經濟學的核心價值，在於打破「公園只是綠地」的狹隘認知，將其升級為推動城市永續發展的戰略引擎。具體而言，其效益可涵蓋四個核心層面：</p>
+  <ol>
+    <li><strong>滿足居民生活需求</strong>：兼顧日常休憩與高齡化社會的健康照護品質。</li>
+    <li><strong>彰顯歷史文化紋理</strong>：讓公園成為訴說地方歷史與木都故事的載體。</li>
+    <li><strong>推升城市行銷與移居魅力</strong>：吸引外地人口移居，強化「最適宜退休生活城市」的品牌形象。</li>
+    <li><strong>帶動觀光旅遊與綠色產業</strong>：以獨特的綠色地景吸引遊客停留，發展出可延伸的 ESG 相關綠色產業鏈。</li>
+  </ol>
+
+  <h4>五、結論</h4>
+  <p>總結來說，嘉義市的 52 座公園絕對不是都市發展下的偶然產物，而是歷史脈絡延續至今的必然寶藏。在永續發展成為顯學的當代，如何善用這些既有的空間資產，將木都的歷史命運、活體植物的生態價值、農業美學以及青年人才培育相互融合，將是城市能否在超高齡浪潮中開創全新可能性的關鍵。公園經濟學不僅是一場空間的改造運動，更是一場關於城市認同、環境永續與經濟轉型的深刻實踐。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「公園經濟學」內容整理。</div>
+</template>
+
+<template id="pdetail-4">
+  <h4>一、城市的獨特脈絡：留存六千棟老木屋的歷史契機</h4>
+  <p>綜觀全球大都市，在經歷近代化、都市更新、戰爭與動亂的洗禮後，絕大多數具備歷史規模的木構建築聚落早已灰飛煙滅。然而，嘉義市卻奇蹟似地保留了從清帝國時期延續至近代、數量高達<strong>六千多棟</strong>的木造老屋群。</p>
+  <p>對於這批珍貴資產的留存原因，坊間說法不一：有一說認為是因為嘉義城市發展步調不夠快，因而「僥倖留存」；另一說則歸功於在地居民情感上的高度關注與強烈護守。然而，無論歷史的偶然為何，當這六千多棟老木屋真實座落於城市街巷時，如何將其從「歷史遺產的負擔」轉化為<strong>「城市經濟學的新動能」</strong>，便成為當代地方治理最核心的命題。</p>
+
+  <h4>二、跨越時空的對接：以當代需求審視歷史資產</h4>
+  <p>面對這批珍貴的歷史木造聚落，我們不能僅停留在過去懷舊的史學視角，必須將其與<strong>「當代全球需求」</strong>進行精準對接。回顧西元 2000 年以前，聯合國即開始推動永續發展相關指標；而在 1980 年代全球化浪潮後，地緣政治與環境變遷更迫使人類必須用全新視野看待老舊事物。</p>
+  <p>當代永續指標的對接核心，可歸納為三個層面：</p>
+  <ol>
+    <li><strong>跳脫傳統行政補貼</strong>：過去政府採取年度個案補貼、十年僅處理一百多棟的模式緩不濟急，若依此速度恐需五百年才能全數修繕完畢。</li>
+    <li><strong>導入 ESG 與碳權思維</strong>：將六千多棟老木屋視為一個完整的 Ecosystem（生態系統），賦予其「固碳裝置」的實質功能。</li>
+    <li><strong>跨國界資本鏈結</strong>：從台灣出發，擴及亞洲至全世界，吸引尋求永續投資與碳權回饋的國際對象，讓老屋修繕獲得龐大且務實的民間與國際資本支援。</li>
+  </ol>
+
+  <h4>三、木都經濟學的核心優勢：綠建築、碳銀行與美學經濟</h4>
+  <p>從碳足跡與建築學理切入，木都經濟學在當代永續浪潮中具有絕對的優勢。新建現代鋼筋混凝土建築在營造過程中會產生大量碳排放與營建廢棄物，而嘉義市的老木屋本身就是<strong>「碳銀行（Carbon Banking）」</strong>的具體展現——碳早已被固化在木材之中。</p>
+  <p>「我們只是在做更新，而不是新建。」在公平的碳排計算基礎上，保留並修繕老木屋不只能避免水泥與鋼筋帶來的環境負擔，更完美符合綠建築的嚴格標準。這種兼具歷史厚度與環境效益的做法，在永續評比中能獲得極高的分數。</p>
+
+  <h4>四、借鏡國際：形塑如歐洲古堡與日本老街的美學體驗</h4>
+  <p>在美學與觀光價值層面，木都經濟學展現了令人嚮往的想像空間：</p>
+  <ul>
+    <li><strong>歐洲古堡的歷史凝視</strong>：歐洲人之所以前往參觀古堡，正是因為其歷經數百年歲月所沉澱的歷史厚度。嘉義市擁有源自清帝國、日治時期等不同年代的木造建築，同樣具備深厚的歷史縱深。</li>
+    <li><strong>日本民宿的沉浸體驗</strong>：旅客前往日本時，往往偏愛入住古色古香的傳統老木屋民宿，其所營造的空間氛圍遠勝於一般現代旅館。</li>
+  </ul>
+  <p>嘉義市絕對有潛力發展成這樣的狀況——只要給予適當的機會，這六千多棟老木屋將能以符合當代、甚至是未來形態需求的 ESG 生態系概念，重新面對全世界。</p>
+
+  <h4>五、結論：八至十五年的可見未來與多贏願景</h4>
+  <p>傳統的公共資源分配往往流於杯水車薪，但若能將「文化附贈（Cultural Endowment）」機制與 ESG 精神完美結合，木都經濟學將不再只是雙贏，而是一場多贏的城市革命。</p>
+  <p>透過國際資本的挹注與當代生態系統的建構，這六千多棟過去可能面臨崩壞的城市角落，將在短短的八年、十年到十五年內，以可見的速度全面完成修繕與更新。這不僅讓「木都」之美名獲得國際肯認，更讓歷史脈絡在當代永續使命中展現嶄新的延續性，為台灣中等城市立下了典範級的經濟轉型藍圖。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「木都經濟學」內容整理。</div>
+</template>
+
+<template id="pdetail-5">
+  <h4>一、序言：在百年歷史的斷層中尋找城市定位</h4>
+  <p>綜觀當代城市的發展，多數地方政府在追求現代化的同時，往往不自覺地陷入了千篇一律的混凝土與柏油路迷思中。然而，歷史悠久的古城如嘉義——這座擁有三百二十餘年深厚底蘊的台灣第一古城，其珍貴之處不在於摩天大樓的競逐，而在於那層疊於地表之下的時間厚度。以<strong>「諸羅顯影」</strong>為題，這不只是一次對歷史的追憶，更是一套極具前瞻性的城市美學與經濟再生構想。</p>
+  <p>「諸羅顯影」的核心價值在於：當實體古城因歷經多次土地重劃、馬路開闢與私有化而無法完整復原時，我們該如何透過當代的藝術、建築、美學與科技專業，重新召喚城市的「魅影」與歷史靈魂？這不僅是一場文化資產的復甦工程，更是一次為嘉義市量身打造的城市美學經濟轉型。</p>
+
+  <h4>二、歷史的立體座標：周鍾瑄與清代早期的陰陽共治</h4>
+  <p>要理解諸羅城的顯影計畫，必須先將時光倒流至康熙年間（西元 1704 年），聚焦於當時的一位關鍵歷史人物——諸羅縣令周鍾瑄。周鍾瑄絕對不是一位傳統官僚，而是一位極具遠見與全方位治理能力的跨時空立體人物。他在任內推動了幾項對後世影響深遠的創舉：</p>
+  <ol>
+    <li><strong>奠定行政與信仰的雙軌治理</strong>：周鍾瑄不僅治理世俗的民政，更積極推動興建今日已成為國定古蹟的嘉義城隍廟。其核心治理哲學極具哲理，即「陰陽共治」——行政官員管理陽世眾人之事，而心靈與精神世界則委由宗廟神靈共同關照、保佑庶民平安。這種將世俗法治與宗教信仰融為一體的治理邏輯，展現了早期地方官員高超的社會安定策略。</li>
+    <li><strong>擘劃台灣第一古城的空間格局</strong>：周鍾瑄主導了最早諸羅城的建設。當時的城牆高度約在三點八米至四點八米之間（約莫兩層樓高），範圍大約落在今日嘉義市的民權路、和平路與光華路所圍繞的區域。這座被歷史文獻《諸羅縣志》完整記錄的古城，成為了台灣城市發展史上的重要原點。</li>
+    <li><strong>跨越百年的民生水利建設</strong>：除了城池與廟宇，周鍾瑄在任內推動的灌溉系統至今仍默默流淌於阡陌之間，跨越三百多年依然發揮著實質效用。他同時也是經典文史巨著《諸羅縣志》的重要推手。這位「包山包海」的縣令，直到今天依然以「周大人」的尊稱受萬民香火景仰，其神位至今仍安座於嘉義城隍廟內，接受信眾的膜拜。</li>
+  </ol>
+
+  <h4>三、當代空間的困境：實體城牆的消逝與私有化挑戰</h4>
+  <p>然而，歷史的巨輪並未停歇。當我們站在現代的嘉義市街頭放眼望去，當年的諸羅城牆早已不復存在。漫長的歲月中，無數次的土地重劃、道路拓寬、住宅與商業大樓的興建，早已將古城的實體痕跡徹底覆蓋。更棘手的是，古城原址的土地早已高度私有化，散落於無數市民手中。</p>
+  <p>從都市計畫與公共工程的角度來看，這是一個極度令人棘手的死結。若採取傳統的區段徵收或大規模拆遷手段，不僅將面臨天文數字般的財政負擔，更會引發巨大的社會衝突與抗爭，幾乎不具備任何可行性。正因如此，如何<strong>「在不徵收土地、不破壞現狀的前提下找回歷史」</strong>，便成為了當代城市治理者最大的考驗。</p>
+  <div class="pm-key">
+    <span class="k-label">關鍵評析</span>
+    <p><strong>從「實體重建」轉向「負面表述」</strong><br>傳統的文化資產保存往往陷入「必須完整復原實體建物」的迷思，因而動輒碰壁。然而，「諸羅顯影」計畫的精妙之處，在於它跳脫了「實體重建」的舊思維，轉而擁抱「負面表述（Negative Description）」與「數位美學再現」的創新路徑。</p>
+  </div>
+
+  <h4>四、諸羅顯影的解方：美學、藝術、建築與科技的完美交織</h4>
+  <p>面對無法重現的實體城牆，一套令人耳目一新的整合方案於焉成形——不依賴土地徵收，而是巧妙利用現有的「公領域場域」，透過美學、藝術、建築與科技四大專業的跨域整合，重新召喚三百年前的諸羅古城魅影。這套方案主要由兩個維度交織而成：</p>
+  <ol>
+    <li><strong>白天的地景譜系（材質再現）</strong>：如同進入歐洲古羅馬城時，遊客可以透過地面獨特的石板路材質切換，瞬間感受到歷史的厚度與空間的轉換。諸羅顯影計畫提出，在城牆原址的地面材質上進行細膩的轉換與鋪設——即便柏油路面必須存在，我們也可以透過貼近歷史材質的設計手法，讓行經該處的民眾在腳步的觸感與視覺的鋪面中，清晰意識到：「這裡就是昔日城牆的邊界」。</li>
+    <li><strong>夜晚的數位光雕（時空投影）</strong>：當夜幕低垂，科技與藝術便成為重現歷史的主角。計畫規劃在特定的時段與節點（例如市政府門口或特定歷史節點），運用先進的光雕投影技術（Projection Mapping），在城市空間中重現當年的古城風貌與歷史場景。這就如同義大利貝拉焦（Bellagio）的噴水池，或是世界各大城市在聖誕節時透過城堡光雕投影營造的節慶氛圍一般，光雕將成為嘉義市最具代表性的城市觀光象徵與美學符號。</li>
+  </ol>
+
+  <h4>五、城市的未來想像：從歷史印記到美學產業的經濟飛輪</h4>
+  <p>從經濟學的視角切入來看，這項計畫不僅僅是一場文化活動，更是一門龐大的<strong>「美學經濟學」</strong>。當全世界的觀光客造訪台灣時，誰不想親眼看一看台灣第一古城究竟長什麼模樣？過去，因為缺乏具體的視覺載體，遊客來到嘉義往往只能走馬看花；而「諸羅顯影」落實之後，白天有精心設計的地坪材質譜系訴說歷史，夜晚有震撼人心的光雕展演活化空間，甚至連 Google 的人造衛星俯瞰而下，都能清晰勾勒出這座歷史古城的輪廓與負空間（Negative Space）。</p>
+  <p>這種虛實整合的城市美學部署，完全不需要動用高額的土地徵收成本，卻能最大程度地激發嘉義市的文化觀光潛能。它將歷史資產成功轉化為可持續營運的美學產業鏈，讓古城魅影在當代科技的加持下重新發光發熱。</p>
+
+  <h4>六、結論：拭目以待的迷人印記</h4>
+  <p>總結而言，「諸羅顯影」是一場跨越三百二十年的時空對話。它向我們證明了：城市的歷史不會因為現代化的水泥建築而真正消失，只要我們具備足夠的想像力、美學高度與科技整合能力，歷史就能以全新且迷人的姿態重返人間。</p>
+  <p>這是一個令人無比期待的構想。當美學、藝術、建築與科技在嘉義市完美交會，我們彷彿已經看到三百年前周鍾瑄所建立的諸羅城，在現代的夜空中重新綻放光芒。這不僅是嘉義的驕傲，更是台灣城市美學治理的一座重要里程碑。讓我們共同拭目以待，這道跨越時空的迷人歷史印記。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「諸羅顯影」內容整理。</div>
+</template>
+
+<template id="pdetail-6">
+  <h4>一、問題意識：人口斷崖下，如何讓美學變成產業</h4>
+  <p>「<strong>藝術圓夢中心</strong>」要回答的，是一個看起來不太像藝術題目的問題：當人口即將斷崖式減少，美學如何變成一門產業，並且產生經濟產值？推估二十年後，臺灣人口將大幅減少，這使得任何產業構想都必須先回答「人從哪裡來、產值從哪裡來」。這項政策正是從這個挑戰出發，用經濟學的角度重新理解「藝術圓夢中心」作為美學產業的可能性與可行性。</p>
+  <p>換句話說，它不是一棟場館的興建計畫，而是一套以人為核心、以藝術為媒介的產業設計。要判斷它可不可行，得先把尺度拉大，看清楚客觀環境的要件，再回到地方談落實；而在論證的順序上，必須先確定「人」與「需求」存在，才可能談場域、談產業，最後談產值。</p>
+  <p>這也牽涉到一個定位問題：藝術圓夢中心不是社會福利的一環，而是一門產業。社會福利是支出，產業則要能自己運轉、產生收入並帶動周邊；把高齡者的圓夢需求視為市場，把藝術專業視為供給，兩者對接之後，才有可能形成可長可久的經濟模式。</p>
+
+  <h4>二、客觀條件：七億銀髮人口的資產與「圓夢」需求</h4>
+  <p>把尺度放大到亞洲與全世界，銀髮族、壯世代的人口已經超過七億；廣義的東亞更擁有一半以上的高齡人口。這群人中已退休者與超高齡者，握有嬰兒潮世代的優勢——那個世代所處的經濟發展背景，讓他們手頭上擁有相對豐厚的資產。</p>
+  <p>當人生走到最後階段，投資的方向往往回到自己身上：如何讓晚年生活合乎自己的期許，成為最精妙的思考。順著這個需求，得出的概念就是「圓夢中心」；對應到美學產業的架構，就是「藝術圓夢中心」。人與需求先成立，產業才有起點。</p>
+  <p>這裡的關鍵是需求層次的轉變。對這群人而言，退休後的生活不再是「被照顧」而已——他們有時間、有資源，也有強烈的意願去完成一件自己想做的事。藝術創作正好提供這樣一個載體：它需要時間累積，需要專業陪伴，也需要被看見；而這三件事，剛好都可以被設計成服務與產業。</p>
+
+  <h4>三、為什麼是嘉義：畫都的歷史脈絡與可被落實的場域</h4>
+  <p>人有了，還需要一個重要的客觀場域，而這個場域是嘉義市。在全臺灣的城市裡，不論規模大小，嘉義市剛好擁有近代、現代性以來的美學脈絡——它被稱為「畫都」。從林玉山那一輩的畫家、藝術家，到當代許多藝術家，為數眾多的人都出生於嘉義市；數量之多，足以讓這座城市擁有畫都的美名。對一門以藝術為核心的產業而言，這種歷史縱深意味著辨識度：談到畫，嘉義市本來就有位置，不需要從零開始建立說服力。</p>
+  <p>這項構想借用了這樣的歷史脈絡，也善用了當下的地緣性、甚至世界性的趨勢。面對少子女化與高齡、超高齡社會的降臨——速度飛快——真正的問題是：如何在這樣動盪的客觀環境裡，透過一套足以被落實的美學產業，讓大量外來者願意來到這座小城市，在這裡圓一個藝術的美夢。</p>
+
+  <h4>四、規模推算與連鎖效應：三萬六千人的平台如何帶動百工百業</h4>
+  <p>規模是可以計算的。廣義東亞的高齡者超過三點六億人；若每年有萬分之一的人口前來，就是三萬六千人。一個以三萬六千人為規模的高階藝術圓夢平台，不只足以活絡地方眾多微型產業，也足以構築產業本身的產值。而這套設計之所以能成立，還有一項專業條件：規劃者在藝術教育與創作領域深耕超過四十年，清楚每一個不同的藝術學門，可以在一個一般性的產業平台中開啟什麼樣的在地經濟學模式。</p>
+  <p>更關鍵的是連鎖效應。一位前來圓畫家夢的人，可能來幾次、待上一段時間，甚至常住下來；他累積了作品，就需要辦展覽，展覽會帶來從臺北、臺中、海外前來的朋友——住宿、餐飲、交通與各種服務隨之發生。這種「一個領頭產業帶動一整條產業鏈」的效果，正是地方整體振興的路徑；以嘉義市為例，像成仁街一帶長年傳承的事業體，就能跟著獲得永續發展的機會。</p>
+  <p>它同時也回應了少子女化的現實：城市裡許多學校因為學生數下降而快速減班，每班人數降到二十人以下，郊區學校壓縮更快，甚至面臨廢校或轉型為長照中心、各類社會與公益用途。政策的方向不是悲觀以對，而是把美學產業與高齡人口導入城市，讓這些空間與人力開啟另一段亮麗的人生階段。</p>
+
+  <h4>五、結論：讓百工百業都因為藝術圓夢中心而永續</h4>
+  <p>藝術產業有一個最大的好處：它不污染環境，而且是永續的——這種永續不只是環境的，也是精神性的，因此更符合 ESG 所強調的社會層面。對年長者而言，生活品質不只是有人照顧、有飯吃，而是活得開心、每年辦一個展、持續創作與被看見。</p>
+  <p>這種帶動方式，與日本地方創生常談的「六級產業」概念相通：當地方有一個領頭的產業，漣漪效應會一層層擴散出去——不是只有藝術工作者獲利，而是旅館業、餐飲業、交通與零售都跟著受益，最後形成整個地方的振興。</p>
+  <p>總結來說，藝術圓夢中心是地方產業整體振興的推動力量：它讓百工百業都因為這個中心而得到永續性的可能，也讓一座規模不大的城市，在人口結構劇烈變動的時代裡，找到自己的產業定位。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「藝術圓夢中心」內容整理。</div>
+</template>
+
+<template id="pdetail-10">
+  <h4>一、系列收尾：從十個在地經濟學到一個共同底層</h4>
+  <p>「<strong>城市數位孿生經濟學</strong>」是《諸羅經濟學》系列的最後一集，也是整套十大在地經濟學的收尾。這一系列從一開始就以總覽的方式展開，最後一集要做的，是把十項政策重新爬梳一次，為它們找出一個明確、整合性的概念——也就是從理論到實踐，如何讓這一整套回應客觀條件的在地經濟學，真正在城市裡落實成為可用、可被實踐、具有實效的一套方法。</p>
+  <p>換句話說，這不是十個各自獨立的政策清單，而是一套需要被整體推動的系統工程。若只停留在宣示層次，任何一項都難以成立；要能落地，就必須在總體經濟學與計畫性經濟學的層次上，把十項政策串成一個可以運作的整體，並且讓它每一天都在生活裡發生。值得注意的是，數位孿生這個概念其實在十集的討論裡反覆出現——它一直是各個生態系運作背後的主軸，卻始終沒有被當成主題來談；把它放在最後一集，正是要讓前面所有的鋪陳在此收攏。</p>
+
+  <h4>二、十項政策的共同邏輯：城市數位孿生</h4>
+  <p>回顧這十項內容：走路經濟學處理人與街道的關係；跨宗教經濟學串聯信仰場域與祈福觀光；公園經濟學以五十二座公園為基礎，讓綠地成為城市的客廳；木都經濟學從地方到中央、再到全球，提出 ESG 的固碳概念；「諸羅顯影」把數百年的歷史縮影重新召喚回來；藝術圓夢中心讓高齡者與超高齡者把人生歷練投注在圓夢的理想之中；十字廊帶以地緣關係論證區域經濟的可能；超低底盤運輸載具把高智能的運輸系統轉換為城市治理的管理參照；垃圾資源經濟學則把垃圾轉換為新能源，建構城市的新創能力。</p>
+  <p>把這十項爬梳過一遍之後，共同的底層邏輯就清楚了：<strong>城市的數位孿生</strong>。數位孿生說穿了，就是在 AI 高度被運用、也逐漸被理解的這個時代裡，如何走到一個彼此共同面對、也共同期待的「後端應用」問題。換言之，真正的課題不在前端設備有多炫，而在後端資料如何被理解、被使用、被回饋。若能把這十項在地經濟學的底層邏輯，透過 AI 應用做成一個獨特的城市實驗，嘉義市就有機會回應自身的客觀條件與歷史脈絡，讓每一項在地經濟學都走出非常不一樣的面貌。</p>
+
+  <h4>三、為什麼是嘉義：小得剛剛好、大得剛剛好、老得剛剛好</h4>
+  <p>從全球化的視角看，如果一家科技大廠要在全世界選一座城市，做一個完整的數位孿生實驗計畫，它不會一開始就挑大城市。大城市要處理的問題太多、人口太多、影響太複雜，一層影響之下還有另一層，牽一髮而動全身。像嘉義這樣的城市反而充滿優勢：實驗計畫不需要大，需要的是空間，需要的是「小得剛剛好」，讓問題能在第一時間被看見、被驗證；而在實驗期，運作的成本也相對較低。換句話說，這座城市不是要變成另一個大城市，而是要在自己的尺度上，成為一個可以被複製的實驗場。</p>
+  <p>這也是為什麼，一座過去並非臺灣進步城市指標的城市，反而可能在新一波數位孿生的浪潮裡取得先行優勢。過去被視為「不夠大、不夠快」的條件，在新的實驗邏輯裡反而成為優點：規模小意味著變數可控、驗證快速、調整成本低。更完整的說法是：這座城市「小得剛剛好、大得剛剛好」——它的規模足以支撐這樣一種新形態的實驗；同時它「老得剛剛好」——三百多年的歷史脈絡，剛好足以支撐它生成一個具有 IP 意義與價值的未來。若再善用 AI 的高智能後端應用，很難再找出第二個地方。</p>
+
+  <h4>四、落實路徑：城市治理系統與可被實踐的在地經濟學</h4>
+  <p>需要強調的是，這不是一件「誠意過高」的事——它不是宣示性的期待，而是真正可以落實到在地日常生活的後端應用。這些應用能在多大程度上解決過去以來的困境，取決於城市治理是否有一套系統，能夠一步一腳印地把它落實下去。</p>
+  <p>換言之，數位孿生的價值不在於概念新穎，而在於它把政策從宣示帶進執行：資料在哪裡產生、由誰使用、如何回饋到決策，都是每天都要發生的事。當十項政策共用同一個資料底座，城市就有能力用同一套邏輯去調度交通、環境、產業與照顧服務，而不是各自為政。這也是十項政策為什麼必須共用同一套底層邏輯的原因：底座一致，政策之間才能互相支援，而不是彼此抵銷。</p>
+
+  <h4>五、結論：給嘉義一個機會，就是給臺灣一個機會</h4>
+  <p>把數位孿生（Digital Twin）這個當代總成的概念放在嘉義，就有機會讓嘉義市成為臺灣第一個擁有這種獨特典範的城市。也因此，這套構想很早就對社會提出一個請求：<strong>給嘉義市一個機會，其實就是給臺灣一個機會</strong>。透過數位孿生，可以把這套 know-how、模式與典範一一擴散、分享出去。</p>
+  <p>之所以如此急迫，是因為這不是在面對一個遙遠的未來，而是正在發生的、非常快速的變動。這也正是為什麼，會在非常短的時間裡提出十大經濟學——它是一份對嘉義市所有關心公共事務的朋友，乃至全臺灣關注 AI 智能應用者的邀請：這是一個超越嘉義市、屬於臺灣全體的機會。若實驗能在嘉義被驗證，它輸出的就不只是技術，而是一整套可以被其他城市複製的治理模式與生活想像。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「城市數位孿生經濟學」內容整理。</div>
+</template>
+
+<template id="pdetail-9">
+  <h4>一、問題意識：四十年的追垃圾車日常與「錯置位置的資源」</h4>
+  <p>環保領域有一句常被引用的話：沒有什麼東西是真正的垃圾，只有錯置位置的資源。「<strong>垃圾資源經濟學</strong>」正是從這句話出發，處理一個在臺灣將近半個世紀都難以妥善解決的問題：在一般人的心目中，垃圾就是垃圾，很難被轉念成一種資源。</p>
+  <p>回顧歷史，民國八十幾年起，省政府開始推動「垃圾不落地」的社會生活運動，原本的用意是改善生活品質。然而一追就是四十幾年，直到今天，家家戶戶仍在追垃圾車；垃圾始終停留在一個難以被容忍、難以被接納的狀態。反觀歐美日等先進國家，日常生活中幾乎沒有「追垃圾車」這樣的規範。臺灣地狹人稠，確實不得不形成這種互動關係，但真正的課題是：在人均垃圾量從幾公斤到幾十公斤的劇烈變化之下，如何透過收集與回收的生態系，讓垃圾集中管理、再應用，形成新的循環。這也是這個議題如此急迫的原因——它不是單純的環境衛生問題，而是每天都發生、直接影響每一戶人家的生活品質與城市運作效率的問題。</p>
+
+  <h4>二、轉念：從廢棄物到資源——回收生態系與城市生產力</h4>
+  <p>關鍵的轉念在於：垃圾的集中管理與再應用，可以是一種新形態的生態系，而且是能夠滿足 AI 科技應用的生態系。對城市而言，它就不只是「處理不需要的物質」的概念，而是如何更良善地去面對這些轉化的過程。</p>
+  <p>當一項資源不再被生活需要，並不代表它的價值就此結束。透過重新建構的生態系統，它可以進入新的循環，形成新的生產力，甚至成為城市經濟命脈的一部分。這條路徑的終點非常具體：市民再也不必追垃圾車。</p>
+
+  <h4>三、國際座標與臺灣條件：從北歐的新能源到科技產業鏈</h4>
+  <p>國際上已有先行者。北歐有幾個國家非常先進，他們把垃圾的運用轉型為生成新能源的重要來源之一；垃圾對他們而言，不是負擔，而是能源系統的一環。臺灣有自己的客觀條件，不必照抄，而是可以應用自身獨特的科技產業鏈與技術系統，重構城市的生產力與產業的生產力，讓這些不再被生活需要的資源進入重新構建的生態系統。換句話說，臺灣不必從零開始建立分類與再利用的技術，而是可以把既有的產業能力，重新對接城市每天產生的廢棄資源，形成新的應用出口。</p>
+  <p>更值得計算的是規模化的可能。這套模式若能先在嘉義市透過數位孿生模組形成新的生態系，就能成為全臺灣的新典範；而全世界與嘉義市約略等規模的城市，將近六百個。若這個實驗能在嘉義落實，再推向全國、甚至推向全世界，機會將非常可觀——這正是以垃圾資源的再運用，形塑出一套具有生產力的在地經濟學，最核心的用意。</p>
+
+  <h4>四、在地實踐：AI 資源分類站、八十四個里的網絡與高齡者的生活品質</h4>
+  <p>具體的落點在應用端，而且非常具體。以 AI 資源分類中心為例：二十四小時開放，市民在自己覺得合適的時間拎著垃圾來投放；若長輩行動不便，則有車輛到府收運，現場以機器人協助分類。它首先解決了「追垃圾車」這件事——不必再聽到《給愛麗絲》就反射性地抓起垃圾往外衝；對長輩的生活品質，更是明顯的提升。</p>
+  <p>更深層的改變，是它重構了過去對垃圾收集的想像。過去的流程是「定點、定時、垃圾車、人工丟入再分類」，中間必然存在大量效率與時間的損耗，這也正是資源分類始終難以徹底落實的原因。新的模式把這些環節解構，重新在流程裡找出具有經濟價值的節點，再重新建構一次。於是不再只有街頭巷尾的一個資源分類站，而是一整套被重新設計過的收集與配置流程。</p>
+  <p>而且它不是孤立的站點。嘉義市目前有八十四個里，如果設有八十四個、甚至上看一百個資源分類站，對 AI 而言，整座城市就是一個網絡——一個資源重新分類之後、重新配置的網絡；這正是它具備經濟學意義的地方。因為垃圾處理是每天都要例行發生的事，透過大數據編整，整體生態系的可行性可以被真實評估與即時調度。</p>
+  <p>這套系統還有一個關鍵的服務對象：嘉義市本身有六成多的高齡人口，其中有一定比例行動不便。AI 高智能系統可以針對性地協助他們處理生活中的難題。丟垃圾看似小事，卻可能是高齡者日常中苦不堪言、難以面對的困境；從年輕人到老年人每天都必須面對的這件事，正是這套經濟學最需要以同理心處理的起點。</p>
+
+  <h4>五、結論：從嘉義到全世界——約六百個等規模城市的典範輸出</h4>
+  <p>總結來說，垃圾資源經濟學重塑的不只是回收流程，而是一個新的、與 AI 相關的產業，也是後端應用具體落實的新可能。這個模式剛好可以成為臺灣的一種新典範，甚至成為世界的一種新典範。</p>
+  <p>要在全世界開拓這種新類型的在地經濟學，想法確實相當大膽；但它並非憑空想像，而是站在客觀的條件與真實的需求上，去想像一件事情，再為它找出具體可行的方案。當垃圾不再是垃圾，而是一座城市可以運用的資源，城市的生產力也就在同一個過程裡被重新建構起來。從嘉義出發的意義正在於此：一座約二十六萬人口的城市若能做到，全世界將近六百座等規模的城市，同樣有機會複製這套模式。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「垃圾資源經濟學」內容整理。</div>
+</template>
+
+<template id="pdetail-7">
+  <h4>一、問題意識：規模經濟的門檻與少子女化的挑戰</h4>
+  <p>經濟學有一個重要的前提：要有足夠的規模，規模經濟才會出現。「<strong>十字廊帶</strong>」這項構想正是從這個前提出發，回應嘉義與臺灣共同面對的難題。臺灣正面臨少子女化，推估二十年後人口可能從兩千三百萬減半至一千一百五十萬人；當人口基數消失，規模經濟便成為第一個必須克服的關卡。</p>
+  <p>因此，十字廊帶的思考起點並不是「再造一個商圈」，而是先把規模做出來。它主張把嘉義市與周邊生活圈視為一個整體，透過既有的地緣與生活文化連結，把原本分散的人口與資源整合成足以支撐產業的市場規模；有了規模，產業、就業與公共服務才有機會形成正向循環，學校也不必再因為招生不足，年年面對減班與廢校的壓力。</p>
+
+  <h4>二、區域座標：以嘉義市為核心的雲嘉南十字廊帶</h4>
+  <p>這條廊帶的範圍，落在近代以來在地人熟悉的「雲嘉南」生活圈：雲林的南半邊、嘉義縣與嘉義市，加上臺南的北半邊。若以地理座標說明，北從斗六、斗南、大林、民雄一路接到嘉義縣市；往南是白河、水上、後壁、柳營、新營一帶的北臺南；東邊最遠處是阿里山，並涵蓋番路、竹崎、中埔；跨過嘉義市往西，則有高鐵太保站、朴子，直抵布袋與東石的海線。</p>
+  <p>把這些區域加總，人口總數超過一百萬人；對照嘉義市約二十六點一萬的戶籍人口，這個生活圈的規模大約是四到五倍。廊帶的第一層意義，就是先把規模做一次放大與統整。而這個區域裡的每一塊地方都各具特色，對應到的正是「摩擦力經濟學」的概念：地方特色越鮮明，停留與消費越容易發生，各地就能形成不同摩擦力的產值。</p>
+  <p>這樣的整合也有方法論上的依據。在地方學的概念裡，每一個地方的特色都會形成不等量的摩擦力與產值，廊帶要做的正是把這些不同摩擦力的節點統整起來，讓生活文化本身成為可以被行銷、可以被體驗的內容，而不只是地方居民日常裡理所當然的風景。</p>
+
+  <h4>三、落實路徑：生活文化藝術節與國際生態鏈</h4>
+  <p>規模做出來之後，下一步是讓它被看見、被停留。具體作法是以這個區域為範圍，每隔兩年到三年籌劃一次「<strong>十字廊帶生活文化藝術節</strong>」，用節慶把散落的地方特色串成一條可遊、可停留的路線。</p>
+  <p>要辦得起來，關鍵在於產業化的路徑：必須先把從地方到中央、再到國際的生態鏈環節理出脈絡，讓它形成一個生態系，產業才有機會在其中被孕育。這方面並非沒有經驗基礎——本案的規劃者曾在二〇二五年擔任日本四國愛媛縣藝術節的國際籌劃委員，長年當代藝術創作的實踐，也讓「幾年一度的藝術節如何在地方與國際之間運作」有具體的方法可循。</p>
+  <p>產值的來源可以分成三層：區域內超過一百萬的基礎人口、臺灣各地上千萬的潛在訪客，以及國際來訪人次。三者疊加，就構成一個每幾年一度、規模可觀的週期性產值。藝術節的形式也不只是單純的展演，而是把在地的產業、技藝、飲食與風景一起納入策展，讓節慶成為產業的入口，而非一次性的熱鬧。</p>
+
+  <h4>四、多贏的系統效益：交通、行政突破與地方特色</h4>
+  <p>十字廊帶的效益不限於文化活動。在交通面，運輸規劃與建設可以因為廊帶的形成而更便利、更有效率、使用度更高；在治理面，它能突破行政區域各自為政、力有未逮的困難；在經濟面，則讓每一個地方的特色都有機會發揮長久累積的潛力。</p>
+  <p>因此，這不是雙贏，而是多贏。當訪客因為更多可遊玩的點、更多吃喝玩樂與文化的深度而願意停留更久，人數與停留時間同時增加，每天帶來的經濟產值就會提高。更重要的是，位於中心的嘉義不只是受益者，也是能量的輸出端：往阿里山輸出、往布袋東石輸出、往南向臺南輸出、往北向雲林輸出，形成共榮共好的關係；嘉義街頭近年常見的年輕面孔與外國旅客，正是這份潛力的初步跡象。在這樣的經濟形勢裡，每一個地方都會有很強的意願，去展現自己獨樹一幟、具有地方特色的生活文化內容；這份共同意願，也正是廊帶能不能持續運轉的關鍵。</p>
+
+  <h4>五、結論：以人為針、以美學為線——從西南偏南到嘉義</h4>
+  <p>總結這套經濟學的運作方式：以人為針，以藝術美學為線，透過軟性的訴求與生活文化的藝術節慶，重新把產業串起來、把大家綁在一起。在空間上，南北向是一條「<strong>人文薈萃線</strong>」——這個區域內各級學校密集，光是大學與專科院校就有十幾所；東西向則是一條「<strong>山海產業線</strong>」——TSMC 已進駐太保，無人機產業也在嘉義縣落腳，產業生成正在進行中。</p>
+  <p>這條路徑並非沒有先例。國際知名的「西南偏南」（South by Southwest，SXSW）原本只是音樂節，許多歌手早年在此被發掘而走紅；後來它開始增加關注科技的場次，因為音樂的傳遞與社群的連結早已與科技密不可分——當年的 Twitter 正是在 SXSW 被推薦使用，才讓全美一夕之間認識這個新的社群平台。SXSW 的演變說明了節慶的另一種可能：它從一個音樂節，逐步擴張為涵蓋科技、影視與互動媒體的綜合性節慶，成為新產品與新觀念被看見的舞台。生活、藝術、音樂與科技、人文可以混搭，當它們混合在一起，就會從嘉義這個地方長出許多可能性。這也是十字廊帶最核心的期待：一個可能真正由在地推動的、共生共榮的機會。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「十字廊帶經濟學」內容整理。</div>
+</template>
+
+<template id="pdetail-8">
+  <h4>一、問題意識：蛋黃區的道路尺度與超高齡社會的移動困境</h4>
+  <p>在當代都會發展的脈絡中，交通工具的選擇往往決定了人們對一座城市的感知深度。嘉義市的市中心精華地段路幅狹小、機車密度偏高，碳排放與噪音隨之而來；而在高齡化、甚至超高齡化的社會結構下，既有的移動方式對長者與行動不便者並不友善。「<strong>超低底盤運輸載具經濟學</strong>」所要處理的，正是這道城市難題：如何透過新的移動模式讓摩托車減量、讓城市交通更順暢，並引進低碳、永續且結合 AI 技術的新載具，重新塑造嘉義的生活環境。</p>
+  <p>這項構想的起點相當明確。嘉義市是全臺灣高齡化程度第二高的城市，僅次於臺北市，如何讓居住在城市裡的高齡者能夠方便、舒適地出門，而不是只能被照顧，成為整套規劃的第一個問題；載具的規格、路線與服務方式，都是從這個問題往回推導而成。換言之，它先問「誰被城市困住了」，再問「要用什麼工具把人接回來」。</p>
+
+  <h4>二、概念拆解：超低底盤與「十五公分的經濟學」</h4>
+  <p>這項政見的名稱看似又臭又長，實際上包含三個關鍵概念：<strong>超低底盤、十五公分的經濟學，以及使用對象</strong>。所謂超低底盤，談的不只是車體本身的高度，而是車體高度與月台高度之間的對應關係；依交通法規容許的彈性，大約是十五到二十公分、十到二十公分。這個看似微小的落差不僅決定上下車的順暢程度，更決定了哪些人能夠真正使用這套系統——十五公分，於是不只是工程規格，而是一道關於「誰能上車」的門檻。</p>
+  <p>從技術史的角度看，超低底盤載具在世界各地的出現至少已超過四十年，甚至接近半個世紀，因此它並不是特別新的科技。真正的新意在於<strong>應用</strong>：如何讓一項成熟的技術更貼近高齡化社會的需求，以更便捷、便利、友善的方式，回應不同世代使用者在生活上的各種困難。技術早已存在，差別只在於城市是否願意把它用在對的人身上。</p>
+
+  <h4>三、載具的本質與服務設計：移動式數據中心、核心區先行</h4>
+  <p>這套載具系統基本上是無人駕駛、純電驅動，它本身就是一座<strong>「移動的數據中心」</strong>，也是一個生產性的平台，而不只是一台交通工具。依規劃，它需要劃定一定的運行區域，在區域內持續移動、持續產生資料，資料再回饋到城市的治理與服務；以嘉義市為例，合適的起點是核心區，比照全世界一般性的規範，大約是五到八平方公里，甚至有人講得更小，約二到四平方公里。需要被服務的族群包括：</p>
+  <ul>
+    <li><strong>在地居民與高齡者</strong>：日常採買、就醫與社交移動的主要使用者。</li>
+    <li><strong>行動不便者與輪椅使用者</strong>：超低底盤與無障礙設計的直接受益者。</li>
+    <li><strong>懷孕的年輕媽媽</strong>：需要平穩、安全且容易上下車的移動方式。</li>
+    <li><strong>推著嬰兒車的家長</strong>：推車可直接進出，不必再與階梯搏鬥。</li>
+  </ul>
+  <p>這些完全不一樣的需求，可以共同透過同一套移動載具被滿足，困境才能全面性地得到處理，而不是一項一項分開補破網。當一套載具能同時回應高齡者、輪椅族、孕婦與家長，它就不再只是交通設施，而是城市對弱勢移動權的具體承諾。</p>
+
+  <h4>四、治理與經濟的雙重效益：即時回饋與老城的立體翻轉</h4>
+  <p>因為載具夠便捷、夠方便，而且免費，它可以一定程度降低駛進這個區域的油車與排放廢氣的摩托車數量，直接改善空氣與噪音；載具在移動的同時，也即刻回饋環境數據，讓環境管理有了即時的眼睛。這些數據對市政府如何營運、管理整座城市形成很大的助益：包括警政系統、行政單位，以及各種疊加出來、多項度的生活供應需求與備援系統，都能得到非常及時的後端應用與處置。換句話說，這套運具同時是城市的感知器與反應神經。</p>
+  <p>從經濟學的角度檢視，這項規劃的關鍵仍在於人。到底是誰在用它、誰在使用它，以及這種使用本身能為在地經濟學提供什麼樣的重要內容，是整套構想的核心命題；技術只是介面，人與使用才是產值的來源。即使談的是超低底盤、數位載具與經濟學等科技介面，實質上要處理的是人如何參與使用這套整合型、高智能的新創生態系統——這讓老城市有了一個全面、整體、立體地翻轉生產力的機會，老邁的城市不再只是老邁，而是開始具備新創與應用的能力。</p>
+
+  <h4>五、結論：從「一線」與「一圈」回到走路經濟學</h4>
+  <p>這套系統並非憑空而來。任何經濟學的關鍵，都在於決策者能否從世界上已經普及的技術中，找到適合這座城市的切入點，切入之後再慢慢擴張成線、成面。它與既有的高鐵直通車構想——從嘉義高鐵站一路綠燈進入市中心的智慧運具——其實是同一個計畫：高鐵站到市中心是「<strong>一線</strong>」，市區核心的運行範圍是「<strong>一圈</strong>」，兩者相互搭配，未來也可能擴為兩圈。一圈的樣貌會隨使用狀況改變：白天的時間以長輩使用為主，下午遊客開始出現，無人車的班距、派駐車次與抵達地點，都由即時數據回饋決定；因此這項計畫同時是智慧運具、低碳城市計畫，也是智慧城市計畫。</p>
+  <p>總結而言，這套系統最終仍要接回走路經濟學：這座城市必須是可以走路、可以移動的。超低底盤、無障礙、友善、舒適的載具，加上 AI 後端的生產力建構，能讓在地居民與來訪遊客非常容易形成可及性、更 walkable；有了扎實的經濟生成基礎，才不會因為少子女化與人口減少的問題，讓城市的支持系統開始面臨更大的挑戰。</p>
+  <div class="pm-note">資料來源：《諸羅經濟學》系列節目「超低底盤運輸載具經濟學」內容整理。</div>
+</template>
+
+<!-- 政見詳細內容浮出卡片 -->
+<!-- 白皮書全文下載 -->
+<section class="sec" id="whitepaper">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">White Papers · 2026</div>
+      <h2>白皮書全文下載</h2>
+      <div class="sub">兩本完整論述 · 共 518 頁 · 中文原文 PDF</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="wp-grid">
+      <article class="wp-card" id="whitepaper-1">
+        <div class="wp-head">
+          <span class="wp-no">WP–01</span>
+          <span class="wp-meta">217 頁 · 10.8 MB</span>
+        </div>
+        <h3>《解構諸羅之美學運動白皮書》</h3>
+        <p class="wp-quote">「如果有一場美學運動，它不是為了觀光，而是為了讓住在這裡的人，重新感覺著尊嚴。」</p>
+        <p class="wp-desc">從「解凍現代性」到「被中斷的現代性」，本書把嘉義重新放回台灣文化地圖上定位：諸羅城的歷史重啟、六千餘棟老木屋的材質記憶、二十四節氣的街道體感書寫，以及藝術生產的結構性建置。主張美學不是展場裡的活動，而是城市的作業系統。</p>
+        <ul class="wp-tags">
+          <li>城市美學運動</li>
+          <li>24 節氣書寫</li>
+          <li>諸羅城歷史</li>
+          <li>藝術文化政策</li>
+        </ul>
+        <div class="wp-act">
+          <a class="btn wp-dl" href="assets/docs/chiayi-aesthetic-movement-whitepaper.pdf" download="解構諸羅之美學運動白皮書.pdf" data-doc="aesthetic-movement">下載 PDF ↓</a>
+          <a class="btn wp-read" href="assets/docs/chiayi-aesthetic-movement-whitepaper.pdf" target="_blank" rel="noopener" data-doc="aesthetic-movement">線上閱讀 ↗</a>
+        </div>
+      </article>
+
+      <article class="wp-card" id="whitepaper-2">
+        <div class="wp-head">
+          <span class="wp-no">WP–02</span>
+          <span class="wp-meta">301 頁 · 8.5 MB</span>
+        </div>
+        <div class="wp-main">
+        <picture class="wp-thumb">
+          <source type="image/webp" srcset="assets/docs/wp-02-cover-360.webp?v=20260916c" />
+          <img class="lb-trigger" role="button" tabindex="0" onclick="openLightbox('assets/docs/wp-02-cover-full.webp?v=20260916c','《市長參選人陳愷璜校長政策白皮書》封面 — 諸羅美學新政 · 陳愷璜校長 著')" title="點擊看全圖" src="assets/docs/wp-02-cover-360.jpg?v=20260916c" alt="《市長參選人陳愷璜校長政策白皮書》封面：諸羅美學新政 — 嘉義市政白皮書，陳愷璜著，諸羅美學理絡實驗室" width="360" height="509" loading="lazy" decoding="async" />
+        </picture>
+        <h3>《<span class="nowrap">市長參選人陳愷璜校長</span>政策白皮書》</h3>
+        <p class="wp-quote">「重構文明尺度，奪回生活主權。」</p>
+        <p class="wp-desc">《諸羅美學新政 2026》共 28 章：先攤開十大市民痛點——舊城「囚老」、行人地獄、木屋消防隱憂、垃圾車前的集體罰站——再以 CY-Digital Twin 數位孿生、超低底盤公共運輸、木都 CLT 產業與「美學產業三箭」，逐項提出五十年尺度的解方。</p>
+        <ul class="wp-tags">
+          <li>諸羅美學新政</li>
+          <li>十大市民痛點</li>
+          <li>城市數位孿生</li>
+          <li>生老病死全齡政策</li>
+        </ul>
+        </div>
+        <div class="wp-act">
+          <a class="btn wp-dl" href="assets/docs/chiayi-policy-whitepaper.pdf" download="市長參選人陳愷璜校長政策白皮書.pdf" data-doc="policy">下載 PDF ↓</a>
+          <a class="btn wp-read" href="assets/docs/chiayi-policy-whitepaper.pdf" target="_blank" rel="noopener" data-doc="policy">線上閱讀 ↗</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-card">
+    <button class="pm-close" type="button" data-close aria-label="關閉">✕</button>
+    <div class="pm-head">
+      <span class="pm-tag" id="pm-tag"></span>
+      <div class="pm-kicker" id="pm-kicker"></div>
+      <h3 id="pm-title"></h3>
+    </div>
+    <div class="pm-body" id="pm-body"></div>
+  </div>
+</div>
+
+<!-- YouTube 專屬區 -->
+<section class="sec" id="youtube">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">諸羅美學新政 · 諸羅經濟學</div>
+      <h2>陳愷璜校長 · <span class="nowrap">YouTube 頻道</span></h2>
+      <div class="sub">以美學改造城市 — 每週二集，看見嘉義的改變</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="yt-section">
+      <div class="yt-head">
+        <div class="yt-chanlogo">▶</div>
+        <div class="yt-meta">
+          <h3>陳愷璜校長選市長</h3>
+          <div class="yt-sub"><b data-stat="yt-subs">69</b> 位訂閱者 · <b data-stat="yt-videos">18</b> 部影片 · 諸羅美學新政 · 諸羅經濟學 系列</div>
+        </div>
+        <a class="yt-subscribe" href="https://www.youtube.com/@陳愷璜校長選市長" target="_blank" rel="noopener">訂閱頻道</a>
+      </div>
+
+      <div class="yt-grid">
+        <a class="yt-card" href="https://www.youtube.com/watch?v=gCJW6u2W4NI" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/gCJW6u2W4NI/hqdefault.jpg" alt="EP1" loading="lazy"><span class="ep">EP1</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">15分鐘到高鐵站？</div><div class="m">309 次觀看 · 2 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=LdtV-mLyOz0" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/LdtV-mLyOz0/hqdefault.jpg" alt="EP2" loading="lazy"><span class="ep">EP2</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">老街區不機車</div><div class="m">148 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=A1lIijCVD14" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/A1lIijCVD14/hqdefault.jpg" alt="EP3" loading="lazy"><span class="ep">EP3</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">美學產業三支箭 第一箭：諸羅顯影</div><div class="m">148 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=j5Ykq_sqByE" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/j5Ykq_sqByE/hqdefault.jpg" alt="EP4" loading="lazy"><span class="ep">EP4</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">美學產業三支箭 第二箭：美學產業化</div><div class="m">57 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=RxdrTuz5Ko8" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/RxdrTuz5Ko8/hqdefault.jpg" alt="EP5" loading="lazy"><span class="ep">EP5</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">美學產業三支箭 第三箭：十字廊帶</div><div class="m">90 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=E6hEQGbdmNM" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/E6hEQGbdmNM/hqdefault.jpg" alt="EP6" loading="lazy"><span class="ep">EP6</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅之住 木屋是資產 不是破敗</div><div class="m">282 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=VsojFK1Rrzs" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/VsojFK1Rrzs/hqdefault.jpg" alt="EP7" loading="lazy"><span class="ep">EP7</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅之住 美學生態系治理</div><div class="m">60 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=r8UVX-jsvkU" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/r8UVX-jsvkU/hqdefault.jpg" alt="EP8" loading="lazy"><span class="ep">EP8</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅之住 老木屋變身美學IP？</div><div class="m">77 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=YTauAvz8fco" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/YTauAvz8fco/hqdefault.jpg" alt="EP9" loading="lazy"><span class="ep">EP9</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅之住 垃圾場也能AI化？</div><div class="m">124 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=wB1iQENfMZM" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/wB1iQENfMZM/hqdefault.jpg" alt="EP10" loading="lazy"><span class="ep">EP10</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅之生 幸福生育的權利</div><div class="m">45 次觀看 · 1 個月前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=GUkRdpR8KEU" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/GUkRdpR8KEU/hqdefault.jpg" alt="EP11" loading="lazy"><span class="ep">EP11</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅之死 生命人文園區</div><div class="m">69 次觀看 · 4 週前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=Nq953OuNl5w" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/Nq953OuNl5w/hqdefault.jpg" alt="經濟EP1" loading="lazy"><span class="ep">經濟EP1</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅經濟學是什麼？</div><div class="m">221 次觀看 · 3 週前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=77GcCmwSMbE" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/77GcCmwSMbE/hqdefault.jpg" alt="經濟EP2" loading="lazy"><span class="ep">經濟EP2</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">走路經濟學</div><div class="m">422 次觀看 · 2 週前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=mODq6n1rwEw" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/mODq6n1rwEw/hqdefault.jpg" alt="經濟EP3" loading="lazy"><span class="ep">經濟EP3</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">跨宗教經濟學</div><div class="m">43 次觀看 · 2 週前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=eXw1MPgJE8E" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/eXw1MPgJE8E/hqdefault.jpg" alt="經濟EP4" loading="lazy"><span class="ep">經濟EP4</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">公園經濟學</div><div class="m">148 次觀看 · 10 天前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=qSshj0MFg5U" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/qSshj0MFg5U/hqdefault.jpg" alt="經濟EP5" loading="lazy"><span class="ep">經濟EP5</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">木都經濟學</div><div class="m">52 次觀看 · 7 天前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=EUTRttazqMg" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/EUTRttazqMg/hqdefault.jpg" alt="經濟EP6" loading="lazy"><span class="ep">經濟EP6</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">諸羅顯影經濟學</div><div class="m">83 次觀看 · 3 天前</div></div>
+        </a>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=au3IGxpI7D4" target="_blank" rel="noopener">
+          <div class="thumb"><img src="https://i.ytimg.com/vi/au3IGxpI7D4/hqdefault.jpg" alt="經濟EP7" loading="lazy"><span class="ep">經濟EP7</span><span class="play"><span>▶</span></span></div>
+          <div class="body"><div class="t">藝術圓夢中心</div><div class="m">1 次觀看 · 4 小時前</div></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 諸羅之歌 -->
+<section class="sec" id="song">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">諸羅之歌</div>
+      <h2>陳愷璜校長 · 台語歌謠<span class="song-name">《諸羅之歌》</span></h2>
+      <div class="sub">為回嘉義推動美學運動而創作 — 唱出諸羅古城的新生命與初心</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="song-section">
+      <div class="song-video">
+        <span class="song-badge">諸羅之歌</span>
+        <video src="assets/song/諸羅之歌-web.mp4" poster="assets/song/poster.jpg" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="song-credit">
+        台語漢字字幕 承蒙 嘉義市台語漢字<span class="nowrap">前輩 <strong>董育儒老師</strong> 訂正</span>
+      </div>
+      <div class="song-desc">
+        <strong>詞 / 曲：陳愷璜、陳躍文</strong>，以諸羅古城牆為背景，用最親切的台語唱出對這座城市的深情與期盼。
+        這是陳校長回嘉義推動美學運動時，親自創作的一首歌謠。誠摯邀請您聆聽，一起感受諸羅的美與感動。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 電子看板廣告區 -->
+<section class="sec" id="ads">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">數位電子看板</div>
+      <h2>電子看板廣告影片</h2>
+      <div class="sub">4:3 帶音樂廣告 — 點擊 ▶ 播放 · 點擊畫面右上的 🔊/🔇 控制聲音</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="ad-section">
+      <h3>廣告影片</h3>
+      <div class="ad-sub">陳愷璜校長 · 選舉宣傳影片 · 4:3 帶音樂版本</div>
+
+      <div class="ad-banner">
+        <!-- 兩支 10 秒並排 -->
+        <div class="video-row" id="row10s">
+          <div class="video-item">
+            <span class="vlabel">10S 廣告 · 藍</span>
+            <span class="vdate">上線 2026-09-10</span>
+            <span class="vtime">10 秒</span>
+            <button class="mutebtn paused" onclick="toggleSound(this)" aria-label="播放/聲音"></button>
+            <video src="assets/videos/ad-10s-blue.mp4" loop muted playsinline preload="metadata" poster=""></video>
+          </div>
+          <div class="video-item">
+            <span class="vlabel">10S 廣告 · 綠</span>
+            <span class="vdate">上線 2026-09-10</span>
+            <span class="vtime">10 秒</span>
+            <button class="mutebtn paused" onclick="toggleSound(this)" aria-label="播放/聲音"></button>
+            <video src="assets/videos/ad-10s-green.mp4" loop muted playsinline preload="metadata" poster=""></video>
+          </div>
+        </div>
+        <!-- 兩支 10 秒影片（2 行字幕版，2026-10-04 上線）並排 -->
+        <div class="video-row" id="row10s-2line">
+          <div class="video-item">
+            <span class="vlabel">10S 廣告 · 藍</span>
+            <span class="vdate">上線 2026-10-04</span>
+            <span class="vtime">10 秒</span>
+            <button class="mutebtn paused" onclick="toggleSound(this)" aria-label="播放/聲音"></button>
+            <video src="assets/videos/ad-10s-blue-2line.mp4" loop muted playsinline preload="metadata" poster=""></video>
+          </div>
+          <div class="video-item">
+            <span class="vlabel">10S 廣告 · 綠</span>
+            <span class="vdate">上線 2026-10-04</span>
+            <span class="vtime">10 秒</span>
+            <button class="mutebtn paused" onclick="toggleSound(this)" aria-label="播放/聲音"></button>
+            <video src="assets/videos/ad-10s-green-2line.mp4" loop muted playsinline preload="metadata" poster=""></video>
+          </div>
+        </div>
+        <!-- 一支 20 秒全寬 -->
+        <div class="video-item" style="margin-bottom:0">
+          <span class="vlabel">20S 廣告 · 全長</span>
+          <span class="vdate">上線 2026-09-10</span>
+          <span class="vtime">20 秒</span>
+          <button class="mutebtn paused" onclick="toggleSound(this)" aria-label="播放/聲音"></button>
+          <video src="assets/videos/ad-20s.mp4" loop muted playsinline preload="metadata" poster=""></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+function toggleSound(btn) {
+  const video = btn.parentElement.querySelector("video");
+  if (video.paused) {
+    // 需要使用者手勢才能開聲
+    video.muted = false;
+    video.play();
+    btn.classList.remove("paused");
+    btn.classList.add("playing");
+    btn.textContent = "🔇";
+  } else {
+    video.pause();
+    btn.classList.remove("playing");
+    btn.classList.add("paused");
+    btn.textContent = "🔊";
+  }
+}
+// 點擊影片其他區域也切換播放
+document.querySelectorAll(".video-item").forEach(item => {
+  const v = item.querySelector("video");
+  const btn = item.querySelector(".mutebtn");
+  item.addEventListener("click", (e) => {
+    if (e.target.closest(".mutebtn")) return;
+    toggleSound(btn);
+  });
+  v.addEventListener("ended", () => {
+    if (v.loop) return;
+    btn.classList.remove("playing");
+    btn.classList.add("paused");
+    btn.textContent = "🔊";
+  });
+});
+</script>
+
+<!-- Facebook 後援會區 -->
+<section class="sec" id="facebook">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Facebook 後援會</div>
+      <h2>加入陳愷璜校長後援會</h2>
+      <div class="sub">集結認同理念的力量 — 與我們一起，讓城市更好</div>
+      <div class="divider"></div>
+    </div>
+
+    <div class="fb-section">
+      <div class="fb-head">
+        <div class="fb-logo">f</div>
+        <div class="fb-meta">
+          <h3>陳愷璜校長選市長 - 後援會</h3>
+          <div class="fb-sub">公開社團 · <b data-stat="fb-members">85</b> 位成員 · 讓我們的力量更強大</div>
+        </div>
+        <a class="fb-join" href="https://www.facebook.com/groups/1316339523125409" target="_blank" rel="noopener">加入後援會</a>
+      </div>
+      <div class="fb-about">
+        <p>
+          <strong>陳愷璜校長選市長後援會</strong>，是一群認同陳愷璜校長理念與公共服務精神的市民朋友，
+          因為對城市未來的共同期待而凝聚在一起。希望匯集各界熱情與力量，
+          支持一位具備<strong>教育視野、務實精神與服務熱忱</strong>的市長人選。
+          加入我們，一同迎接更美好的嘉義。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 聯絡 / 支持 -->
+<section class="sec" id="contact">
+  <div class="wrap">
+    <div class="contact">
+      <h2>加入我們，迎接數位孿生新嘉義</h2>
+      <p>陳愷璜 校長 · 競選2026年嘉義市市長</p>
+      <div class="row">
+        <a class="pill" href="https://www.google.com/maps/search/?api=1&query=嘉義市西區北榮街131號" target="_blank" rel="noopener">📍 嘉義市北榮街131號</a>
+        <a class="pill yt" href="https://www.youtube.com/@陳愷璜校長選市長" target="_blank" rel="noopener">▶ YouTube 頻道</a>
+        <a class="pill fb" href="https://www.facebook.com/groups/1316339523125409" target="_blank" rel="noopener">fb 後援會</a>
+      </div>
+    </div>
+
+    <!-- 加入我們 / 政治獻金 -->
+    <div class="support-section">
+      <div class="support-text">
+        <span class="sp-badge">支持陳愷璜</span>
+        <h3>這擺，咱賀嘉義變水！支持陳愷璜，看見不一樣的嘉義</h3>
+        <p class="sp-lead">
+          嘉義市，是一座擁有深厚歷史底蘊的古城。面對<strong>人口減少與高齡化</strong>的挑戰，
+          我們需要的不再是盲目複製別人的水泥建設，而是找回嘉義專屬的<strong>文化驕傲與經濟活力</strong>。
+          我是陳愷璜，我主張推動<strong>「諸羅美學新政」</strong>，我的願景很明確：
+        </p>
+        <div class="sp-goals">
+          <div class="goal"><span class="num">1</span><div><strong>精準治理</strong>：導入最先進的 AI 與科技數據輔助，讓市政資源的分配更精準，提升整體城市效率。</div></div>
+          <div class="goal"><span class="num">2</span><div><strong>文化經濟</strong>：將嘉義豐厚的歷史人文轉化為實質的產業動能，讓美學不只是口號，而是能帶動地方繁榮的「實體經濟」。</div></div>
+        </div>
+        <p class="sp-lead">
+          未來的嘉義，要在保留老城靈魂的同時，具備現代化的競爭力。改變一座城市，需要集結眾人的力量。
+        </p>
+        <p class="sp-cta">誠邀您，透過實質的行動與小額捐款，成為<em>「嘉義美學運動」</em>的推手。一起努力，<em>這擺，咱賀嘉義變水！</em></p>
+      </div>
+
+      <div class="support-card">
+        <img class="lb-trigger" role="button" tabindex="0" src="assets/support/support-card.jpg" alt="政治獻金 QR Code 支援卡" loading="lazy" onclick="openLightbox('assets/support/政治獻金QR-Code.jpg','陳愷璜政治獻金專戶 — 歡迎掃碼了解更多')" />
+        <div class="sc-hint">掃描 QR Code 捐款支持 · 點擊放大</div>
+      </div>
+
+      <div class="bank-info">
+        <h4><span class="dot"></span>陳愷璜政治獻金專戶</h4>
+        <div class="bank-rows">
+          <div class="label">戶名</div><div class="value">115年嘉義市市長參選人陳愷璜政治獻金專戶</div>
+          <div class="label">帳號</div><div class="value">嘉義市第三信用合作社<span class="nowrap">(178)<span class="acct">00013-11-2367530</span></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 總部位置地圖 -->
+    <div class="hq-card">
+      <div class="hq-info">
+        <div class="hq-kicker">競選總部</div>
+        <h3>嘉義市西區北榮街131號</h3>
+        <p>歡迎各位市民朋友蒞臨競選總部，與我們一起聊聊嘉義的未來。期待與您在這裡相見，共同迎向更美好的城市。</p>
+        <a class="addr" href="https://www.google.com/maps/search/?api=1&query=嘉義市西區北榮街131號" target="_blank" rel="noopener">📍 查看地點 · 開啟 Google 地圖</a>
+      </div>
+      <div class="hq-map">
+        <iframe
+          src="https://www.google.com/maps?q=嘉義市西區北榮街131號&output=embed"
+          width="600" height="320" style="border:0"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="競選總部位置"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="brandline">數位孿生救嘉義 · 陳愷璜校長競選團隊 · <a href="https://tsulo-tech.duckdns.org/" target="_blank" rel="noopener">諸羅科技組</a></div>
+  <div>十大經濟政見 · 用心再造嘉義經濟未來</div>
+</footer>
+
+<script>
+(function(){
+  document.querySelectorAll('.rs-more').forEach(function(btn){
+    var card = btn.previousElementSibling;
+    if (!card || !card.classList.contains('rs-card')) return;
+    btn.setAttribute('aria-expanded', 'false');
+    btn.addEventListener('click', function(){
+      var open = card.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.textContent = open ? '收合 ▲' : '展開全文 ▾';
+      if (!open) card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+  });
+})();
+
+/* ---- 政見詳細內容：點卡片浮出另一張卡片 ---- */
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  if (!overlay) return;
+  var body     = document.getElementById('pm-body');
+  var tagEl    = document.getElementById('pm-tag');
+  var kickerEl = document.getElementById('pm-kicker');
+  var titleEl  = document.getElementById('pm-title');
+  var closeBtn = overlay.querySelector('.pm-close');
+  var lastFocus = null;
+
+  function open(card){
+    var tpl = document.getElementById(card.getAttribute('data-detail') || '');
+    if (!tpl) return;
+    var tag = card.querySelector('.tag');
+    var h3  = card.querySelector('h3');
+    tagEl.textContent    = tag ? tag.textContent : '';
+    titleEl.textContent  = h3 ? h3.textContent : '';
+    kickerEl.textContent = card.getAttribute('data-detail-sub') || '十大經濟政見 · 詳細內容';
+    // 安全：內容來源為同頁靜態 <template>，無任何使用者輸入字串
+    body.innerHTML = tpl.innerHTML;
+    body.scrollTop = 0;
+    lastFocus = card;
+    overlay.classList.add('show');
+    document.body.classList.add('pm-open');
+    if (closeBtn) closeBtn.focus();
+  }
+
+  function close(){
+    overlay.classList.remove('show');
+    document.body.classList.remove('pm-open');
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  document.querySelectorAll('.card[data-detail]').forEach(function(card){
+    card.setAttribute('role', 'button');
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('aria-haspopup', 'dialog');
+    card.addEventListener('click', function(){ open(card); });
+    card.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); open(card); }
+    });
+  });
+
+  overlay.addEventListener('click', function(e){
+    if (e.target === overlay || e.target.closest('[data-close]')) close();
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && overlay.classList.contains('show')) close();
+  });
+})();
+</script>
+<script>
+/* ---- 導覽下拉選單：項目導引（捲到目標、必要的話展開內文或開啟浮出卡片）---- */
+(function () {
+  var drops = document.querySelectorAll(".nav-dropdown");
+  if (!drops.length) return;
+
+  function closeAll() {
+    drops.forEach(function (d) { d.open = false; });
+  }
+  function fitMenu(dd) {
+    var list = dd.querySelector(".nav-list");
+    if (!list) return;
+    list.style.left = ""; list.style.right = "";
+    var pad = 10;
+    var vw = document.documentElement.clientWidth;
+    var r = list.getBoundingClientRect();
+    // 單次位移量：先靠右收進來、再確保不超出左緣（來回改 left/right 會在兩邊都放不下時互相打架）
+    var shift = 0;
+    if (r.right > vw - pad) shift = (vw - pad) - r.right;
+    if (r.left + shift < pad) shift = pad - r.left;
+    if (shift) list.style.left = shift + "px";
+  }
+  function scrollToEl(el) {
+    var html = document.documentElement;
+    var prev = html.style.scrollBehavior;
+    html.style.scrollBehavior = "auto";
+    window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - 86);
+    html.style.scrollBehavior = prev;
+  }
+  function expandBio(id) {
+    var card = document.getElementById(id);
+    if (!card || card.classList.contains("expanded")) return;
+    card.classList.add("expanded");
+    var btn = document.querySelector('[data-bio-toggle="' + id + '"]');
+    if (btn) {
+      btn.setAttribute("aria-expanded", "true");
+      var lbl = btn.querySelector(".t-label");
+      if (lbl) lbl.textContent = btn.dataset.labelLess;
+    }
+  }
+
+  drops.forEach(function (dd) {
+    dd.addEventListener("toggle", function () {
+      if (!dd.open) return;
+      drops.forEach(function (o) { if (o !== dd) o.open = false; });
+      fitMenu(dd);
+    });
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".nav-dropdown")) closeAll();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeAll();
+  });
+
+  document.querySelectorAll(".nav-list a[data-goto]").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      var id = a.getAttribute("data-goto");
+      var target = document.getElementById(id);
+      var detail = a.getAttribute("data-open-detail");
+      closeAll();
+      if (!target) return;
+      e.preventDefault();
+      scrollToEl(target);
+      if (a.hasAttribute("data-bio-open")) expandBio(id);
+      if (detail) setTimeout(function () { target.click(); }, 130);
+      history.replaceState(null, "", "#" + id);
+    });
+  });
+
+  /* 點擊頁首品牌文字：回到最上面 */
+  var brand = document.querySelector(".brand");
+  if (brand) {
+    brand.addEventListener("click", function (e) {
+      e.preventDefault();
+      closeAll();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+    });
+  }
+})();
+</script>
+</body>
+</html>

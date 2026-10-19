@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FAF7F2" />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <title>臺中味 Taichung Way｜臺中市長候選人江啟臣</title>
+  <meta name="description" content="江啟臣競選官方網站。看見臺中真實的樣貌，聽見市民的聲音，一起打造屬於我們的臺中。" />
+
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="臺中味 Taichung Way｜臺中市長候選人江啟臣" />
+  <meta property="og:description" content="江啟臣競選官方網站。看見臺中真實的樣貌，聽見市民的聲音，一起打造屬於我們的臺中。" />
+  <meta property="og:image" content="https://taichungway.tw/assets/images/ogimg.png" />
+  <link rel="canonical" href="https://taichungway.tw/" />
+  <meta property="og:url" content="https://taichungway.tw/" />
+  <meta property="og:site_name" content="臺中味 Taichung Way" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="臺中味 Taichung Way｜臺中市長候選人江啟臣" />
+  <meta name="twitter:description" content="江啟臣競選官方網站。看見臺中真實的樣貌，聽見市民的聲音，一起打造屬於我們的臺中。" />
+  <meta name="twitter:image" content="https://taichungway.tw/assets/images/ogimg.png" />
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="assets/css/reset.css?v=1790766285" />
+  <link rel="stylesheet" href="assets/css/tokens.css?v=1790766285" />
+  <link rel="stylesheet" href="assets/css/base.css?v=1790766285" />
+  <link rel="stylesheet" href="assets/css/layout.css?v=1790766285" />
+  <link rel="stylesheet" href="assets/css/components.css?v=1790766285" />
+  <link rel="stylesheet" href="assets/css/home.css?v=1790766285" />
+  <link rel="stylesheet" href="assets/css/animations.css?v=1790766285" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6M54YCF9PQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6M54YCF9PQ');
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://taichungway.tw/#website",
+        "url": "https://taichungway.tw/",
+        "name": "臺中味 Taichung Way",
+        "inLanguage": "zh-Hant"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://taichungway.tw/#candidate",
+        "name": "江啟臣",
+        "jobTitle": "臺中市長候選人",
+        "url": "https://taichungway.tw/way",
+        "image": "https://taichungway.tw/assets/images/jiang-portrait.png"
+      }
+    ]
+  }
+  </script></head>
+<body>
+  
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="." class="site-logo" aria-label="臺中味 Taichung Way 首頁">
+        <img class="site-logo__mark" src="assets/images/logo-check.svg" alt="" aria-hidden="true" />
+        <span>Taichung Way</span>
+        <span class="site-logo__zh">臺中味</span>
+      </a>
+
+      <nav id="site-nav" class="site-nav" aria-label="主導覽">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="taste">
+            <span class="site-nav__link__en">Taste</span>臺中味道
+          </a></li>
+          <li><a class="site-nav__link" href="way">
+            <span class="site-nav__link__en">Way</span>臺中做事
+          </a></li>
+          <li><a class="site-nav__link" href="future">
+            <span class="site-nav__link__en">Future</span>臺中未來
+          </a></li>
+          <li><a class="site-nav__link" href="live">
+            <span class="site-nav__link__en">Live</span>臺中現場
+          </a></li>
+          <li><a class="site-nav__link" href="we">
+            <span class="site-nav__link__en">We</span>臺中集合
+          </a></li>
+        </ul>
+        <a class="nav-cta" href="https://johnnywin2026.oen.tw" target="_blank" rel="noopener">
+          <span class="nav-cta__dot" aria-hidden="true"></span>
+          贊助我們
+        </a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="開啟導覽" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+<main>
+
+    
+    <section class="hero">
+      <video class="hero__video" autoplay muted loop playsinline poster="assets/images/hero-poster.jpg">
+        <source src="assets/videos/hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <div class="hero__text">
+          <span class="hero__eyebrow" data-reveal>
+            <span class="hero__eyebrow__dot" aria-hidden="true"></span>
+            <span class="hero__eyebrow__en">CAMPAIGN 2026</span>
+            <span>江啟臣・臺中市長候選人</span>
+          </span>
+
+          <h1 class="hero__title" data-reveal data-delay="1">
+            啟動<span class="accent">臺中味</span>，<br />
+            打造我們的<br />
+            <span class="en">Taichung Way.</span>
+          </h1>
+
+          <p class="hero__sub" data-reveal data-delay="2">
+            臺中味是文化、是人情，是清晨豆漿店的霧氣、傍晚黃昏市場的喊價，
+            也是這座城市對未來的執行力。我們相信，最深的政見藏在最日常的生活裡。
+          </p>
+
+          <div class="hero__cta" data-reveal data-delay="3">
+            <a href="future" class="btn btn--primary btn--lg">
+              看我們的政見
+              <svg class="btn__arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="marquee__item">做伙挺啟臣</span>
+        <span class="marquee__item">打造旗艦城</span>
+        <span class="marquee__item">臺中升級</span>
+        <span class="marquee__item">幸福加給</span>
+        <span class="marquee__item">Make Taichung Best Ever</span>
+        <span class="marquee__item">做伙挺啟臣</span>
+        <span class="marquee__item">打造旗艦城</span>
+        <span class="marquee__item">臺中升級</span>
+        <span class="marquee__item">幸福加給</span>
+        <span class="marquee__item">Make Taichung Best Ever</span>
+      </div>
+    </div>
+
+    
+    <section class="kaleidoscope" aria-label="臺中萬花筒">
+      <div class="kaleidoscope__head">
+        <span class="eyebrow">Taichung Kaleidoscope</span>
+        <div class="section-head">
+          <h2 class="section-head__title">臺中萬花筒，<br /><span class="accent">一直在發生</span></h2>
+        </div>
+      </div>
+
+      
+      <div class="kaleidoscope__row kaleidoscope__row--left" aria-label="第一排輪播">
+        <div class="kaleidoscope__track">
+          <a class="k-cell k-cell--photo" href="taste">
+            <img src="assets/images/kaleidoscope/kaleidoscope-04.jpg" alt="臺中市第二市場" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">老市場</span>
+              <span class="k-cell__caption">中區・第二市場</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-fishball-uncle-wu-ming-dao">
+            <img src="assets/images/taste/fishball-uncle/fishball-uncle-4.jpg" alt="魚丸伯 吳明道" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">北屯</span>
+              <span class="k-cell__caption">魚丸伯・吳明道</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-councilor-zhang-jing-fen">
+            <img src="assets/images/taste/councilor-zhang-jing-fen/councilor-zhang-jing-fen-1.jpg" alt="議員 張瀞分" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">豐原</span>
+              <span class="k-cell__caption">議員・張瀞分</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-village-chief-chen-an-ji">
+            <img src="assets/images/taste/village-chief/village-chief-3.jpg" alt="里長 陳安吉" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">清水</span>
+              <span class="k-cell__caption">里長・陳安吉</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste">
+            <img src="assets/images/kaleidoscope/kaleidoscope-01.jpg" alt="臺中中區水岸綠廊" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">水岸</span>
+              <span class="k-cell__caption">中區・水岸綠廊</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-noodle-brand-liu-shi-xin">
+            <img src="assets/images/taste/noodle-brand/noodle-brand-3.jpg" alt="大呷麵本家 劉世欣" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">大甲</span>
+              <span class="k-cell__caption">大呷麵本家・劉世欣</span>
+            </div>
+          </a>
+
+          
+          <a class="k-cell k-cell--photo" href="taste" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/kaleidoscope/kaleidoscope-04.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">老市場</span><span class="k-cell__caption">中區・第二市場</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-fishball-uncle-wu-ming-dao" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/fishball-uncle/fishball-uncle-4.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">北屯</span><span class="k-cell__caption">魚丸伯・吳明道</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-councilor-zhang-jing-fen" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/councilor-zhang-jing-fen/councilor-zhang-jing-fen-1.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">豐原</span><span class="k-cell__caption">議員・張瀞分</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-village-chief-chen-an-ji" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/village-chief/village-chief-3.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">清水</span><span class="k-cell__caption">里長・陳安吉</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/kaleidoscope/kaleidoscope-01.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">水岸</span><span class="k-cell__caption">中區・水岸綠廊</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-noodle-brand-liu-shi-xin" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/noodle-brand/noodle-brand-3.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">大甲</span><span class="k-cell__caption">大呷麵本家・劉世欣</span></div>
+          </a>
+        </div>
+      </div>
+
+      
+      <div class="kaleidoscope__row kaleidoscope__row--right" aria-label="第二排輪播">
+        <div class="kaleidoscope__track">
+          <a class="k-cell k-cell--photo" href="taste-story-torpedo-bat-chen-zhi-wei">
+            <img src="assets/images/taste/torpedo-bat/torpedo-bat-3.jpg" alt="魚雷棒 陳致維" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">大雅</span>
+              <span class="k-cell__caption">魚雷棒・陳致維</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste">
+            <img src="assets/images/kaleidoscope/kaleidoscope-02.jpg" alt="臺中城市公園" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">公園</span>
+              <span class="k-cell__caption">臺中・城市綠地</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-lacquer-art-qiu-jun-zhang">
+            <img src="assets/images/taste/lacquer-art/lacquer-art-1.jpg" alt="豐園漆 邱俊彰" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">豐原</span>
+              <span class="k-cell__caption">豐園漆・邱俊彰</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-baoquan-bakery-weng-yi-qi">
+            <img src="assets/images/taste/baoquan-bakery/baoquan-bakery-4.jpg" alt="陳允寶泉 翁羿琦" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">中區</span>
+              <span class="k-cell__caption">陳允寶泉・翁羿琦</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste">
+            <img src="assets/images/kaleidoscope/kaleidoscope-03.jpg" alt="臺中老樹綠蔭" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">綠意</span>
+              <span class="k-cell__caption">臺中・老樹綠蔭</span>
+            </div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-lishan-tea-huang-yuan-zheng">
+            <img src="assets/images/taste/lishan-tea/lishan-tea-2.jpg" alt="梨山茶 黃元政" loading="lazy" />
+            <div class="k-cell__overlay">
+              <span class="k-cell__tag">和平</span>
+              <span class="k-cell__caption">梨山茶・黃元政</span>
+            </div>
+          </a>
+
+          
+          <a class="k-cell k-cell--photo" href="taste-story-torpedo-bat-chen-zhi-wei" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/torpedo-bat/torpedo-bat-3.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">大雅</span><span class="k-cell__caption">魚雷棒・陳致維</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/kaleidoscope/kaleidoscope-02.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">公園</span><span class="k-cell__caption">臺中・城市綠地</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-lacquer-art-qiu-jun-zhang" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/lacquer-art/lacquer-art-1.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">豐原</span><span class="k-cell__caption">豐園漆・邱俊彰</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-baoquan-bakery-weng-yi-qi" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/baoquan-bakery/baoquan-bakery-4.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">中區</span><span class="k-cell__caption">陳允寶泉・翁羿琦</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/kaleidoscope/kaleidoscope-03.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">綠意</span><span class="k-cell__caption">臺中・老樹綠蔭</span></div>
+          </a>
+          <a class="k-cell k-cell--photo" href="taste-story-lishan-tea-huang-yuan-zheng" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/taste/lishan-tea/lishan-tea-2.jpg" alt="" loading="lazy" />
+            <div class="k-cell__overlay"><span class="k-cell__tag">和平</span><span class="k-cell__caption">梨山茶・黃元政</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="pillars">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2 class="section-head__title">四個入口，<br />一個<span class="accent">真實的臺中</span></h2>
+          <p class="section-head__desc">
+            從味道、做事方法、未來藍圖，到你我的集合。
+            點開任何一扇門，都會通往同一座城市——但你看見的會不一樣。
+          </p>
+        </div>
+
+        <div class="pillars__grid">
+          <a href="taste" class="pillar pillar--taste" data-reveal data-delay="1">
+            <video class="pillar__video" muted loop playsinline preload="none" poster="assets/images/pillar-taste-poster.jpg">
+              <source src="assets/videos/pillar-taste.mp4" type="video/mp4" />
+            </video>
+            <div class="pillar__overlay" aria-hidden="true"></div>
+            <span class="pillar__num">01 / TASTE</span>
+            <div class="pillar__foot">
+              <h3 class="pillar__en">
+                <span class="pillar__brand">Taichung</span>
+                <span class="pillar__word">Taste.</span>
+              </h3>
+              <div class="pillar__row">
+                <p class="pillar__zh">臺中味道・人情地圖</p>
+                <span class="pillar__arrow" aria-hidden="true">↗</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="way" class="pillar pillar--way" data-reveal data-delay="2">
+            <video class="pillar__video" muted loop playsinline preload="none" poster="assets/images/pillar-way-poster.jpg">
+              <source src="assets/videos/pillar-way.mp4" type="video/mp4" />
+            </video>
+            <div class="pillar__overlay" aria-hidden="true"></div>
+            <span class="pillar__num">02 / WAY</span>
+            <div class="pillar__foot">
+              <h3 class="pillar__en">
+                <span class="pillar__brand">Taichung</span>
+                <span class="pillar__word">Way.</span>
+              </h3>
+              <div class="pillar__row">
+                <p class="pillar__zh">啟動・臺中做事態度</p>
+                <span class="pillar__arrow" aria-hidden="true">↗</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="future" class="pillar pillar--future" data-reveal data-delay="3">
+            <video class="pillar__video" muted loop playsinline preload="none" poster="assets/images/pillar-future-poster.jpg">
+              <source src="assets/videos/pillar-future.mp4" type="video/mp4" />
+            </video>
+            <div class="pillar__overlay" aria-hidden="true"></div>
+            <span class="pillar__num">03 / FUTURE</span>
+            <div class="pillar__foot">
+              <h3 class="pillar__en">
+                <span class="pillar__brand">Taichung</span>
+                <span class="pillar__word">Future.</span>
+              </h3>
+              <div class="pillar__row">
+                <p class="pillar__zh">預見・永續藍圖</p>
+                <span class="pillar__arrow" aria-hidden="true">↗</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="we" class="pillar pillar--we" data-reveal data-delay="4">
+            <video class="pillar__video" muted loop playsinline preload="none" poster="assets/images/pillar-we-poster.jpg">
+              <source src="assets/videos/pillar-we.mp4" type="video/mp4" />
+            </video>
+            <div class="pillar__overlay" aria-hidden="true"></div>
+            <span class="pillar__num">04 / WE</span>
+            <div class="pillar__foot">
+              <h3 class="pillar__en">
+                <span class="pillar__brand">Taichung</span>
+                <span class="pillar__word">We.</span>
+              </h3>
+              <div class="pillar__row">
+                <p class="pillar__zh">集合・你的臺中味</p>
+                <span class="pillar__arrow" aria-hidden="true">↗</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="home-news">
+      <div class="home-news__inner">
+        <div class="home-news__head" data-reveal>
+          <span class="eyebrow">Taichung Live</span>
+          <div class="section-head">
+            <h2 class="section-head__title">臺中<span class="accent">現場</span></h2>
+            <a href="live" class="pill-link">前往臺中現場 <span class="pill-link__arrow">→</span></a>
+          </div>
+        </div>
+                <ul class="home-news__list">
+          <li class="home-news__item" data-reveal data-delay="1">
+            <a href="press-release-medical-longterm-care-support-launch">
+              <time class="home-news__date" datetime="2026-10-18">2026.10.18</time>
+              <span class="home-news__title">醫療長照界近千人挺江啟臣　提五大原則、設長照處守護市民</span>
+              <i class="home-news__arrow fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="home-news__item" data-reveal data-delay="2">
+            <a href="press-release-tucheng-taiping-market-canvass">
+              <time class="home-news__date" datetime="2026-10-18">2026.10.18</time>
+              <span class="home-news__title">帶著「臺中啟程」搶攻屯區！江啟臣市場掃街人氣旺　端銀髮社福政策顧長者</span>
+              <i class="home-news__arrow fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="home-news__item" data-reveal data-delay="3">
+            <a href="press-release-markets-night-market-sweep">
+              <time class="home-news__date" datetime="2026-10-16">2026.10.16</time>
+              <span class="home-news__title">「一定會投給你！」民眾拉手力挺　江啟臣從早市走到夜市搏感情</span>
+              <i class="home-news__arrow fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="home-news__item" data-reveal data-delay="4">
+            <a href="press-release-xitun-fushou-temple-briefing">
+              <time class="home-news__date" datetime="2026-10-16">2026.10.16</time>
+              <span class="home-news__title">敬老卡計程車每趟最高抵200點！江啟臣西屯端長輩照護政見</span>
+              <i class="home-news__arrow fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+              </div>
+    </section>
+
+    
+    <section class="stories">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Latest Stories</span>
+          <h2 class="section-head__title">最新的<span class="accent">臺中味</span></h2>
+          <a href="taste" class="pill-link">看全部故事 <span class="pill-link__arrow">→</span></a>
+        </div>
+
+        <div class="stories__grid">
+          <a class="card" href="taste-story-miso-brewery-xu-li-sheng" data-reveal data-delay="1">
+            <div class="card__media">
+              <img src="assets/images/taste/miso-brewery-xu-li-sheng/miso-brewery-xu-li-sheng-1.jpg" alt="" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="chip">豐原區</span>
+                <span>＃職人百工</span>
+              </div>
+              <h3 class="card__title">不急著長大，只想把一件事做好：許立昇用時間釀出傳承的新滋味</h3>
+              <p class="card__excerpt">味噌需要時間熟成，才能慢慢形成自己的風味；經營一家老企業也是如此。</p>
+              <p class="card__quote">釀造是一件急不得的事。</p>
+            </div>
+          </a>
+
+          <a class="card" href="taste-story-hgt-tea-du-cang-lin" data-reveal data-delay="2">
+            <div class="card__media">
+              <img src="assets/images/taste/hgt-tea-du-cang-lin/hgt-tea-du-cang-lin-1.jpg" alt="" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="chip">臺中</span>
+                <span>＃職人百工</span>
+              </div>
+              <h3 class="card__title">從臺中的山，到世界的茶：杜蒼林家族五代守住一杯茶的滋味</h3>
+              <p class="card__excerpt">一杯茶端上桌，很多人喝的是香氣與回甘，但茶裡裝著的，是家族五代人的時間。</p>
+              <p class="card__quote">照顧茶，其實就是先照顧土地。</p>
+            </div>
+          </a>
+
+          <a class="card" href="taste-story-village-chief-wu-rong-yi" data-reveal data-delay="3">
+            <div class="card__media">
+              <img src="assets/images/taste/village-chief-wu-rong-yi/village-chief-wu-rong-yi-1.jpg" alt="" loading="lazy" />
+            </div>
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="chip">臺中</span>
+                <span>＃地方頭人</span>
+              </div>
+              <h3 class="card__title">四十年，走在同一條街上：吳榮益守住的日常與人情</h3>
+              <p class="card__excerpt">走進吳榮益里長的辦公室，牆上掛著一張泛黃的當選證書。</p>
+              <p class="card__quote">人民的小事是政府的大事。</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+  
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <h2><img class="site-footer__logo" src="assets/images/logo-footer.svg" alt="Taichung Way" /><br /><span class="site-footer__brand-sub">臺中味・我們的臺中 Way</span></h2>
+        <p>守護臺中，堅持幸福；旗艦臺中，啟程國際</p>
+      </div>
+
+      <div>
+        <h3 class="site-footer__title">Sitemap</h3>
+        <ul class="site-footer__list">
+          <li><a href="taste">臺中味道</a></li>
+          <li><a href="way">臺中做事</a></li>
+          <li><a href="future">臺中未來</a></li>
+          <li><a href="live">臺中現場</a></li>
+          <li><a href="we">臺中集合</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="site-footer__title">Connect</h3>
+        <div class="site-footer__social">
+          <a href="https://www.facebook.com/johnnyccchiang/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/@kesing168/" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/taichungjohnny/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.threads.com/@taichungjohnny" target="_blank" rel="noopener" aria-label="Threads"><i class="fa-brands fa-threads" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>© <span data-year>2026</span> 旗艦城市工作站 ｜ All rights reserved.</span>
+      <div class="site-footer__legal">
+        <a href="privacy">隱私權聲明</a>
+        <a href="cookie">Cookie 政策</a>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="assets/js/main.js?v=1785995704" defer></script>
+  <script src="assets/js/reveal.js?v=1785995704" defer></script>
+  <script src="assets/js/animations.js?v=1785995704" defer></script>
+</body>
+</html>

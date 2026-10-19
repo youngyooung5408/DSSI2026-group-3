@@ -45,6 +45,3 @@
 - 第五輪五個current檔封存於 `data/processed/snapshots/pre_career_round6_20261019/`；第五輪產生程式與文件已改寫／讀取封存位置並重新執行，不會覆寫第六輪current。
 - 本批待學生檢閱與提交；未代做commit或push。建議commit message：`data: integrate round6 candidate evidence and social links`。
 
-## 下一步
-
-依1162列工作單優先查733位仍缺頁面者；把公報與履歷的個人欄位切出後逐人交叉核對。社群則逐一核對目標帳號身分與有效性；來源入口不取代帳號內容驗證。仍待22位縣市長生日、魏造文性別、現任異動及兩種首次參選的終生履歷確認。

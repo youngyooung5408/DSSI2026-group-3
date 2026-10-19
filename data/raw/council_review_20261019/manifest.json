@@ -1,0 +1,122 @@
+[
+  {
+    "path": "data/raw/council_review_20261019/T1_city_elbase.csv",
+    "sha256": "59c702f5384e839a5665c15eaf029efd660ade19924d09f9d4d57b7d917c1eef",
+    "url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T1/city/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "existing_archive_member"
+  },
+  {
+    "path": "data/raw/council_review_20261019/T1_prv_elbase.csv",
+    "sha256": "8320dd2af356191191e3eff5c27bceb7219b8432ef439d33e8215ec01f1b56ec",
+    "url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T1/prv/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "existing_archive_member"
+  },
+  {
+    "path": "data/raw/council_review_20261019/T2_city_elbase.csv",
+    "sha256": "fd87beb45b9406deab03446e7b4b2a079c1dc31ee310f384272faefa9a2674f0",
+    "url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T2/city/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "existing_archive_member"
+  },
+  {
+    "path": "data/raw/council_review_20261019/T2_prv_elbase.csv",
+    "sha256": "23ff2c352fcdfd7024f0c3eeda56d6da2c98cb3027fba460ca547c8ac37254e1",
+    "url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T2/prv/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "existing_archive_member"
+  },
+  {
+    "path": "data/raw/council_review_20261019/T3_city_elbase.csv",
+    "sha256": "163487ae4d04748de0d00ebe6e5b79f982852d8312f13447a8d2a13724b037bb",
+    "url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T3/city/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "existing_archive_member"
+  },
+  {
+    "path": "data/raw/council_review_20261019/T3_prv_elbase.csv",
+    "sha256": "ca4d0b75424876a61dee226cf94d3d2277e5af22cdde20390369d0fc7e1de4b1",
+    "url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T3/prv/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "existing_archive_member"
+  },
+  {
+    "path": "data/raw/council_review_20261019/cec_schema.odt",
+    "sha256": "942bae6d54a47c2d5e4d724bec548ed32aaea44c279f94f08f06108a219ff240",
+    "url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/選舉資料庫格式.odt",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "existing_archive_member"
+  },
+  {
+    "path": "data/raw/council_review_20261019/xie_rename.html",
+    "sha256": "81f39fa9eb34169acb9a03d7f30c80fb53c776a6eca6d488306d0c40f2540fab",
+    "url": "https://htes.chc.edu.tw/posts/718",
+    "archive_member": "",
+    "archive_sha256": "",
+    "http_status": "200",
+    "captured_date": "2026-10-19",
+    "source_type": "public_official_response"
+  },
+  {
+    "path": "data/raw/council_review_20261019/hsinchu_redistrict.html",
+    "sha256": "1416af7754afcf0677453e2599bd1cd6cfe8bcf74be0c51be3fbc3d9900a1cbb",
+    "url": "https://web.cec.gov.tw/central/article/61081",
+    "archive_member": "",
+    "archive_sha256": "",
+    "http_status": "200",
+    "captured_date": "2026-10-19",
+    "source_type": "public_official_response"
+  },
+  {
+    "path": "data/raw/council_review_20261019/dong_elected.pdf",
+    "sha256": "6ef8df6551b3cc035c98e8d72ce3f3f3668e84b0d8585563f7ff556a973d5238",
+    "url": "https://web.cec.gov.tw/api/file/911a3648-bbb8-44e3-987e-366cccc120fc.pdf",
+    "archive_member": "",
+    "archive_sha256": "",
+    "http_status": "200",
+    "captured_date": "2026-10-19",
+    "source_type": "public_official_response"
+  },
+  {
+    "path": "data/raw/council_review_20261019/hsinchu_redistrict_notice_20250926.pdf",
+    "sha256": "807ca79177328857ffec0e02633dbf73a9ce192c33d26726a80b324171ba30c9",
+    "url": "https://web.cec.gov.tw/api/file/339375cf-f16c-4e4f-ba44-ec4a9502088f.pdf",
+    "archive_member": "",
+    "archive_sha256": "",
+    "http_status": "200",
+    "captured_date": "2026-10-19",
+    "source_type": "public_official_response"
+  },
+  {
+    "path": "data/raw/council_review_20261019/hsinchu_district_crosswalk.csv",
+    "sha256": "f4e2aa1aaeabe664f3536ccb9194ea0a94ada26540943d466b8c14e833f41f10",
+    "url": "https://web.cec.gov.tw/api/file/339375cf-f16c-4e4f-ba44-ec4a9502088f.pdf",
+    "archive_member": "",
+    "archive_sha256": "",
+    "http_status": "",
+    "captured_date": "2026-10-19",
+    "source_type": "manual_source_transcription"
+  }
+]

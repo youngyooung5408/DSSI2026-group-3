@@ -1,0 +1,72 @@
+[
+  {
+    "candidate_name": "李四川",
+    "kind": "hub",
+    "url": "https://portaly.cc/hammerlee",
+    "status": "200",
+    "path": "data/raw/candidate_hubs_20261019/70cc9de8d32133049f8a.html",
+    "sha256": "2ae94406e39f9e5e9052bbec2ef0e75ab24facc159bd873667f2c697f5990351",
+    "captured_date": "2026-10-19",
+    "error": ""
+  },
+  {
+    "candidate_name": "黃世杰",
+    "kind": "hub",
+    "url": "https://portaly.cc/schuanglawyer",
+    "status": "200",
+    "path": "data/raw/candidate_hubs_20261019/f2fc320765b9c106d582.html",
+    "sha256": "310bc9c8359da1baf0a940ab317d3be8a95019dca137038b1934cdf28e451822",
+    "captured_date": "2026-10-19",
+    "error": ""
+  },
+  {
+    "candidate_name": "謝龍介",
+    "kind": "hub",
+    "url": "https://linktr.ee/longuy",
+    "status": "200",
+    "path": "data/raw/candidate_hubs_20261019/aa0b7ac02b9079f42081.html",
+    "sha256": "65321ce98b237a47c8a26f18e6d4779df6e2fec6f9472e755c2b0b1b8d12636e",
+    "captured_date": "2026-10-19",
+    "error": ""
+  },
+  {
+    "candidate_name": "葉人文",
+    "kind": "support",
+    "url": "https://tainanyesman.oen.tw/",
+    "status": "200",
+    "path": "data/raw/candidate_hubs_20261019/31bdd006bbe5dd2fbf80.html",
+    "sha256": "3b511233e537b6ca95d830dd076410e00fa3cc42ab587ed9919a84e9c1d1ef47",
+    "captured_date": "2026-10-19",
+    "error": ""
+  },
+  {
+    "candidate_name": "陳瑩",
+    "kind": "support",
+    "url": "https://asenay2026.oen.tw/",
+    "status": "200",
+    "path": "data/raw/candidate_hubs_20261019/4d2a36bb3887b20b7386.html",
+    "sha256": "b409ef32fda61871c83464e90bf4614f645b4559af93e4b1dd3547800823d3cf",
+    "captured_date": "2026-10-19",
+    "error": ""
+  },
+  {
+    "candidate_name": "葉竹林",
+    "kind": "support",
+    "url": "https://penghuyehchulin.oen.tw/",
+    "status": "200",
+    "path": "data/raw/candidate_hubs_20261019/0a579cd5b9bb584dbf12.html",
+    "sha256": "6cda07a3c8f3075481a4814e81e7e18f2eec59fdaf650b1fd9be879b4e8ffeec",
+    "captured_date": "2026-10-19",
+    "error": ""
+  },
+  {
+    "candidate_name": "高虹安",
+    "kind": "support",
+    "url": "https://drann.oen.tw/",
+    "status": "200",
+    "path": "data/raw/candidate_hubs_20261019/51368bc99fc481316b20.html",
+    "sha256": "e883c4ce744d70a8c527634f5a46b486d72bb7beb31a8dc5e76470db21bc574b",
+    "captured_date": "2026-10-19",
+    "error": ""
+  }
+]
