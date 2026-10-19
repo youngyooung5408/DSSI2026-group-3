@@ -1,0 +1,608 @@
+[
+  {
+    "url": "https://www.moi.gov.tw/cl.aspx?n=12",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/moi_index.html",
+    "sha256": "f9f20a5b9b4fea428406dbf78522a06fc0e5d579481ce25a293607bf2bc47906"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=578&TYP=KND0004",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/d775b86444063b922227.html",
+    "sha256": "49c626bc51229c9b9fb8be255605a11ae352e8cadf9526b2d19c83900d384e0a",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=579&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/f824ebc7e52abb2e4a54.html",
+    "sha256": "a8a50f62399b2619b1dad3f42f2f4899b6979d98c27bc72031b0a0ecb51981b0",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=578&_PARENT_ID=MYR11112DD0001&_TYP=MYR&TYP=KND0004",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/3f63c28273c889f94862.html",
+    "sha256": "02b8ad56048757ac882074882300a9472d3b49ed950e5ac9b9e9ba954fe0eef4",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=578&_PARENT_ID=MYR11112FD0001&_TYP=MYR&TYP=KND0004",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/be060bb813ceb7178746.html",
+    "sha256": "e7da0c60d1ad621242ad38f89d8d4c10cdaba75a936cb4c3463541068d2cac76",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=578&_PARENT_ID=MYR11112HD0001&_TYP=MYR&TYP=KND0004",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/6f03f4272784b2b5abc1.html",
+    "sha256": "2cfdda01922c16316f708f5ae3fcc2b0957a012079ab1fb729cc6b3736892e3b",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=578&_PARENT_ID=MYR11112ED0001&_TYP=MYR&TYP=KND0004",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/8cd2dd7543fb1fa88d2f.html",
+    "sha256": "8740ec7752dfe796934cd465d60db776db9d6396fa4c73182bd06d3e328f8ae5",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=578&_PARENT_ID=MYR11112BD0001&_TYP=MYR&TYP=KND0004",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/83360adf4566989f9302.html",
+    "sha256": "b86a60c2c65c71472a35f58ab6301973aa7f5873f84f5716ea62e11d4b6f4048",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=578&_PARENT_ID=MYR11112AD0001&_TYP=MYR&TYP=KND0004",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/e2263dbfb2d71e851286.html",
+    "sha256": "c3dc0c3394fe219721448677411a094621b3b4e425a6412c23739089ba9de9af",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112OE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/fdc0102ea196d639c51a.html",
+    "sha256": "d1e56a53abe984e0432a212ae7cd76a5947c9c7425290a38bd916dd5517006ba",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112WE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/b24fa2c217256c63b01f.html",
+    "sha256": "956c2b6e81722eb0474e75b113074cf103e9208999af5d1802ffd76c96f72ecb",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112ZE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/4f25f3245ff93e0ca7b1.html",
+    "sha256": "5b12431b0c6dc7196c4becb3d062a2944ad31c8a4dea846eed3a3c34c884f70f",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112GE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/e4dcc1ea780e6c02d5ec.html",
+    "sha256": "8325a26dd5ce8ceeeb464c2c02576e6b3ae6cf6e570917890d095eb4d6c4032e",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112PE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/8a45e67812065cc0a1fe.html",
+    "sha256": "cb57685d4889028c4d115e8fe06b8007b621a125a9a6f5c6d6f986a7be7d3de5",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112JE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/2bf00738dba41e2a5b99.html",
+    "sha256": "129bddfca4ca08942a2e186692c2dc637ae7cf1af486661a1e0a63b1e464ca70",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112NE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/608039e64cff8b84f2d9.html",
+    "sha256": "7800fdf26f783ae400ed56e58b6b16518e4ca5d1cf8fb86d3107da756b1fcb4a",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112KE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/2069317dce4f3386d472.html",
+    "sha256": "abccbfd39b44805ca59e411ae129a69c904f5383996ad1cd763f24ec3e0ab497",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112CE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/233906baf93cb56cbd3a.html",
+    "sha256": "eb1e5353613976a50a57339fe4bbefb80133a08c0eb7f6630d8065b183cf5efb",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112UE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/207d98c1ff2ab4618283.html",
+    "sha256": "6c6967eeb64ddca960cda1ef4ce33514897742af91b80216c2864f211de3bf55",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112IE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/aa7a42d7b4f798f07dc0.html",
+    "sha256": "f94b5308832b628437cc9c7793c48ef6dfb81cb89dec3b587879ec8c21b2a28d",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112QE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/157ad5a9894dde6b8376.html",
+    "sha256": "c772f7b24f0d4b9e33945bad36280db829c6a09381a664bc5deacfa74ddf68f1",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11201TE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/0990e46da06cc03c518c.html",
+    "sha256": "31c2487affe124044c7ec6341c4f388bc6072057ac0aa2df5622a309844654e4",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11201VE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/27f688a962564fe3e023.html",
+    "sha256": "0460058f7be66ae71002b11d317b9a1356b443984ff079fea47d7c42031c8157",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11201ME0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/122b46c316476d145c8e.html",
+    "sha256": "44c1d7c0d4006a03c81522c3f17ed226cc63e2bed0e554fa9646144e1e5ea1c5",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11202XE0001&_TYP=MYR&TYP=KND0005",
+    "status": "200",
+    "path": "data/raw/mayor_incumbency_20261019/c1f90b41ce7184d7d327.html",
+    "sha256": "6605b7488c2e5fe0421f6845963c205c2129589b8ae854318ba3ff4a69845afe",
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "臺北市",
+    "expected_name": "蔣萬安",
+    "url": "https://www.gov.taipei/News_Content_Leader.aspx?n=5A0C91ADEE6E7C46&s=5C77853F1AB78232&sms=7CAF6BD4D3E48630",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.gov.taipei/News_Content_Leader.aspx?n=5A0C91ADEE6E7C46&s=5C77853F1AB78232&sms=7CAF6BD4D3E48630",
+    "path": "data/raw/mayor_incumbency_20261019/ef32153352779b162060.html",
+    "sha256": "74d613759cfe0352a61426c95aa8a2964500c3fcb591b2ae41d55689accb19d6",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "新北市",
+    "expected_name": "侯友宜",
+    "url": "https://www.ntpc.gov.tw/ch/home.jsp?id=5de1e44dcb4cd218",
+    "status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.ntpc.gov.tw/ch/home.jsp?id=5de1e44dcb4cd218",
+    "path": "data/raw/mayor_incumbency_20261019/02a5c146d9fd23d7e268.html",
+    "sha256": "395b2052c95ec1d48569b6bb53b3b21ce7b5a53dd7f0e6608ba47284cf5a833f",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "桃園市",
+    "expected_name": "張善政",
+    "url": "https://idipc-tiiai.tycg.gov.tw/about?id=0svttlticq8f56dl",
+    "status": "200",
+    "content_type": "text/html; charset: utf-8;charset=UTF-8",
+    "final_url": "https://idipc-tiiai.tycg.gov.tw/about?id=0svttlticq8f56dl",
+    "path": "data/raw/mayor_incumbency_20261019/ede27d373c1df21e4082.html",
+    "sha256": "ce5de43c92954af5e8cdb8255059ebeef4e6c22ee5194b88e268a4ea70e6f5f2",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "臺中市",
+    "expected_name": "盧秀燕",
+    "url": "https://cdn.www.taichung.gov.tw/8868/9942/9986/9989/1173576/post",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://cdn.www.taichung.gov.tw/8868/9942/9986/9989/1173576/post",
+    "path": "data/raw/mayor_incumbency_20261019/40003936c8ad0e5cddff.html",
+    "sha256": "e83bf553fa47e528981647007f285ea1d739a9644b7d60bdcf7715df9032f8b6",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "臺南市",
+    "expected_name": "黃偉哲",
+    "url": "https://www.tainan.gov.tw/cp.aspx?n=5034",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.tainan.gov.tw/cp.aspx?n=5034",
+    "path": "data/raw/mayor_incumbency_20261019/1c2c10475f30177c67f4.html",
+    "sha256": "88f8c69410a763783d82e2a627ad45da9f2a34fc091ed785c2320e8fd15ae67e",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "高雄市",
+    "expected_name": "陳其邁",
+    "url": "https://www.kcg.gov.tw/cp.aspx?n=59C096A5BBC7AFB1",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.kcg.gov.tw/cp.aspx?n=59C096A5BBC7AFB1",
+    "path": "data/raw/mayor_incumbency_20261019/073b4b373ff6173a4278.html",
+    "sha256": "65a4d478e49528cb4117583cc499924675ce47c2457575f4c66cffd1842d24b1",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "新竹縣",
+    "expected_name": "楊文科",
+    "url": "https://www.hsinchu.gov.tw/cp.aspx?n=134",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.hsinchu.gov.tw/cp.aspx?n=134",
+    "path": "data/raw/mayor_incumbency_20261019/75cd9f9fe7f13bf99700.html",
+    "sha256": "709d2f8a4f4587e95c7a4230c09084b714d1100cc1df7bd21af1d6e244816b86",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "苗栗縣",
+    "expected_name": "鍾東錦",
+    "url": "https://www.miaoli.gov.tw/cp.aspx?n=265",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.miaoli.gov.tw/cp.aspx?n=265",
+    "path": "data/raw/mayor_incumbency_20261019/cfe8b305f2071b592728.html",
+    "sha256": "45a68b1f6b8928fc272005967f480821df70aa8edeb2307b9e39049b808a4f54",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "彰化縣",
+    "expected_name": "王惠美",
+    "url": "https://www.chcg.gov.tw/ch2/intro-magistrate.aspx",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.chcg.gov.tw/ch2/intro-magistrate.aspx",
+    "path": "data/raw/mayor_incumbency_20261019/5c923841133f53b0dd00.html",
+    "sha256": "7d4677ec8995b67a1857d4f8eeaf0d1dea2ffedace6a976c2cd8a6340e342f64",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "南投縣",
+    "expected_name": "許淑華",
+    "url": "https://www.nantou.gov.tw/big5/introduction-magistrate.php",
+    "status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.nantou.gov.tw/big5/introduction-magistrate.php",
+    "path": "data/raw/mayor_incumbency_20261019/0f3e74096173a98f900a.html",
+    "sha256": "58d1148fcd00df8c3f9ff93850e45422e492fe38657eb1b32e674e0b3137fd68",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "宜蘭縣",
+    "expected_name": "林茂盛",
+    "url": "https://www.e-land.gov.tw/cp.aspx?n=2700",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.e-land.gov.tw/cp.aspx?n=2700",
+    "path": "data/raw/mayor_incumbency_20261019/8744a445376c2c429df4.html",
+    "sha256": "9cdc76bfef9fecad26f423153cae4df9beae2c05f50fa0f860e49603e4a85d66",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "嘉義縣",
+    "expected_name": "翁章梁",
+    "url": "https://www.cyhg.gov.tw/",
+    "status": "000",
+    "content_type": "",
+    "final_url": "https://www.cyhg.gov.tw/",
+    "path": "",
+    "sha256": "",
+    "return_code": 35,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "嘉義市",
+    "expected_name": "黃敏惠",
+    "url": "https://www.chiayi.gov.tw/",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.chiayi.gov.tw/",
+    "path": "data/raw/mayor_incumbency_20261019/e51321c3a170cb17abcf.html",
+    "sha256": "0ec82b83428028a06f298199fd73ef52608281f78a370025668273d54886b05c",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "屏東縣",
+    "expected_name": "周春米",
+    "url": "https://www.pthg.gov.tw/",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.pthg.gov.tw/Default.aspx",
+    "path": "data/raw/mayor_incumbency_20261019/85b772a8ea1eae944340.html",
+    "sha256": "13b39a808b0b33a1bb6890273d300f8a03113018b711288942a0988879dc2160",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "臺東縣",
+    "expected_name": "饒慶鈴",
+    "url": "https://www.taitung.gov.tw/",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.taitung.gov.tw/",
+    "path": "data/raw/mayor_incumbency_20261019/4212f7766527fc7a0b5e.html",
+    "sha256": "7f066b480b576861df30c2c41ffd811f1e2d503527d132909725762db0caa1f7",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "花蓮縣",
+    "expected_name": "徐榛蔚",
+    "url": "https://www.hl.gov.tw/",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.hl.gov.tw/",
+    "path": "data/raw/mayor_incumbency_20261019/a17fe3e388acfb4b7522.html",
+    "sha256": "29f38c1abd640b0eaeaa4984404ae3d2ce9ea9ed94ef947aaa6bcbf797d6fa78",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "澎湖縣",
+    "expected_name": "陳光復",
+    "url": "https://www.penghu.gov.tw/",
+    "status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.penghu.gov.tw/ch/index.jsp",
+    "path": "data/raw/mayor_incumbency_20261019/454b4e8e4da6768fe0b3.html",
+    "sha256": "2f21a7f64b70fb9f158ae7e11d055e3b7063c8008b5e3571e4defc8ae5fb0741",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "基隆市",
+    "expected_name": "謝國樑",
+    "url": "https://www.klcg.gov.tw/",
+    "status": "200",
+    "content_type": "text/html",
+    "final_url": "https://www.klcg.gov.tw/tw/klcg1",
+    "path": "data/raw/mayor_incumbency_20261019/a6dd97f4cf6b64a9f68b.html",
+    "sha256": "1e8c12b96b877e8363b67d238d164aae097cf48ce12ba144fd42f4ac36810a48",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "新竹市",
+    "expected_name": "高虹安",
+    "url": "https://www.hccg.gov.tw/",
+    "status": "200",
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://www.hccg.gov.tw/hccg/index",
+    "path": "data/raw/mayor_incumbency_20261019/5cdbe4c6b92575425c58.html",
+    "sha256": "f0c4cd788f4c76d8de77ecc41cbede3d12db7ec714723191898d0c4d872e3f3b",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "金門縣",
+    "expected_name": "陳福海",
+    "url": "https://www.kinmen.gov.tw/",
+    "status": "000",
+    "content_type": "",
+    "final_url": "https://www.kinmen.gov.tw/",
+    "path": "",
+    "sha256": "",
+    "return_code": 60,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "連江縣",
+    "expected_name": "王忠銘",
+    "url": "https://www.matsu.gov.tw/",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.matsu.gov.tw/",
+    "path": "data/raw/mayor_incumbency_20261019/24f373e67857b984a4e0.html",
+    "sha256": "e97ab18eb0d4aefcbd78db0e0bccc3a109bcd85c78be2a901b1a9b0693a4164d",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "雲林縣",
+    "expected_name": "張麗善",
+    "url": "https://www.yunlin.gov.tw/",
+    "status": "403",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.yunlin.gov.tw/",
+    "path": "data/raw/mayor_incumbency_20261019/d62605112e45c0e1c66f.html",
+    "sha256": "07361275985d152ceae262c5c174176ccaff5a977f1364098f94ec5bec8a2f73",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "屏東縣",
+    "expected_name": "周春米",
+    "url": "https://www.pthg.gov.tw/cp.aspx?n=2CD2D022F4AA2FE5",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.pthg.gov.tw/cp.aspx?n=2CD2D022F4AA2FE5",
+    "path": "data/raw/mayor_incumbency_20261019/9e659e19edd027e0d2cd.html",
+    "sha256": "0df55f260967f2fb89f2ecd1ad4b2de4a883c9e6e691725120d4c2f088bf3fbb",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "臺東縣",
+    "expected_name": "饒慶鈴",
+    "url": "https://www.taitung.gov.tw/cp.aspx?n=13358",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.taitung.gov.tw/cp.aspx?n=13358",
+    "path": "data/raw/mayor_incumbency_20261019/54f41a2a2a3f085b2b9c.html",
+    "sha256": "c14a7e36eb9e3816d599f37c13d68437bf8698e3c3a922757ce1a503ae14c231",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "基隆市",
+    "expected_name": "謝國樑",
+    "url": "https://www.klcg.gov.tw/tw/klcg1/3176.html",
+    "status": "200",
+    "content_type": "text/html",
+    "final_url": "https://www.klcg.gov.tw/tw/klcg1/3176.html",
+    "path": "data/raw/mayor_incumbency_20261019/d566003a726a9caf68d0.html",
+    "sha256": "4cb8f80108204cd7168544d2ff9cef78b93319b8847fc9ec28c1d7f99af281a2",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "新竹市",
+    "expected_name": "高虹安",
+    "url": "https://www.hccg.gov.tw/hccg/app/artwebsite?module=artwebsite&id=900&serno=null",
+    "status": "403",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.hccg.gov.tw/hccg/app/artwebsite?module=artwebsite&id=900&serno=null",
+    "path": "data/raw/mayor_incumbency_20261019/90ced26583c9f6adcb71.html",
+    "sha256": "4b550a284d7095a49c5fe56da0cfa856b0145b4975c3fedb35c47db00303df8c",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "澎湖縣",
+    "expected_name": "陳光復",
+    "url": "https://www.penghu.gov.tw/ch/home.jsp?id=10048",
+    "status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.penghu.gov.tw/ch/home.jsp?id=10048",
+    "path": "data/raw/mayor_incumbency_20261019/deea521c419197efb7ec.html",
+    "sha256": "79469eb6186b2ad23073f9aa9e8563052ea51f7d0455d825e45bf83f5b91d55f",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "連江縣",
+    "expected_name": "王忠銘",
+    "url": "https://www.matsu.gov.tw/chhtml/chiefpage/371030000A/19",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.matsu.gov.tw/chhtml/chiefpage/371030000A/19",
+    "path": "data/raw/mayor_incumbency_20261019/c595659f415615648dcc.html",
+    "sha256": "8cbdfdff70763998eec2ac22b32ea00091eaa12058701ea89b98c73e84495a7c",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "嘉義市",
+    "expected_name": "黃敏惠",
+    "url": "https://www.chiayi.gov.tw/cp.aspx?n=446",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.chiayi.gov.tw/cp.aspx?n=446",
+    "path": "data/raw/mayor_incumbency_20261019/7cff82b0f5be32e7cff4.html",
+    "sha256": "162581fc0acfbccd3e3085e1f09ff7ea1be15287bdf041557f513f67d7caa97b",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "花蓮縣",
+    "expected_name": "徐榛蔚",
+    "url": "https://www.hl.gov.tw/cl.aspx?n=32741",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.hl.gov.tw/cl.aspx?n=32741",
+    "path": "data/raw/mayor_incumbency_20261019/70174b78ed1026a925cb.html",
+    "sha256": "2b903d21ad6c7034dee0b7a6a053af81fb4902c81a6a7f78d1fbae042d660498",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "雲林縣",
+    "expected_name": "張麗善",
+    "url": "https://dsh.yunlin.gov.tw/News_Content.aspx?n=7200&s=603887&sms=9662",
+    "status": "403",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://dsh.yunlin.gov.tw/News_Content.aspx?n=7200&s=603887&sms=9662",
+    "path": "data/raw/mayor_incumbency_20261019/30f55321c8f179fe98ef.html",
+    "sha256": "ae897455a32cb810029cd4fdbde78e8ffa052831fb142889323b01fb0a151e5f",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "嘉義縣",
+    "expected_name": "翁章梁",
+    "url": "https://www.president.gov.tw/News/40088",
+    "status": "200",
+    "content_type": "text/html",
+    "final_url": "https://www.president.gov.tw/News/40088",
+    "path": "data/raw/mayor_incumbency_20261019/82e4adc2a3461664a2bb.html",
+    "sha256": "91c942ce5b283351c24a527c4c5e276788356c38bbd28640d1054ee02d5fb1da",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "金門縣",
+    "expected_name": "陳福海",
+    "url": "https://www.kmdn.gov.tw/1117/1271/1272/588384/",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.kmdn.gov.tw/1117/1271/1272/588384/",
+    "path": "data/raw/mayor_incumbency_20261019/a363a8be4dbf3de4bae0.html",
+    "sha256": "5803b490dc7c0ace00f4b7403649e8db238e78d83777afb4f2095f3f8e59e615",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "新竹市",
+    "expected_name": "高虹安",
+    "url": "https://dep-tourism.hccg.gov.tw/ch/home.jsp?dataserno=d9fbab87-19f1-4a8c-b042-88aa5438eb40&id=16&mcustomize=municipalnews_view.jsp&mserno=201601300177&parentpath=0%2C1&t=MunicipalNews&toolsflag=Y",
+    "status": "403",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://dep-tourism.hccg.gov.tw/ch/home.jsp?dataserno=d9fbab87-19f1-4a8c-b042-88aa5438eb40&id=16&mcustomize=municipalnews_view.jsp&mserno=201601300177&parentpath=0%2C1&t=MunicipalNews&toolsflag=Y",
+    "path": "data/raw/mayor_incumbency_20261019/66f6e23e1c45cf922ccb.html",
+    "sha256": "c239fd1e238bad0dc763e3d93e8535aa5fbe665753b5f875f8294fa70e37f31e",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "花蓮縣",
+    "expected_name": "徐榛蔚",
+    "url": "https://www.hl.gov.tw/cp.aspx?n=32793",
+    "status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://www.hl.gov.tw/cp.aspx?n=32793",
+    "path": "data/raw/mayor_incumbency_20261019/0b983be118abe6ac6719.html",
+    "sha256": "05bbf5f3c8c7d3d5d2555e9d894f1be86ec2e55299fcf8339ff43a3d4d6cbbee",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  },
+  {
+    "county_city": "雲林縣",
+    "expected_name": "張麗善",
+    "url": "https://www.president.gov.tw/NEWS/40268",
+    "status": "200",
+    "content_type": "text/html",
+    "final_url": "https://www.president.gov.tw/NEWS/40268",
+    "path": "data/raw/mayor_incumbency_20261019/a18da20a790a7a402c1b.html",
+    "sha256": "45cbd3e03d4b361270037bc114b970a9d4d96b582db8e6f28fb362150c5deeb4",
+    "return_code": 0,
+    "captured_date": "2026-10-19"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "retrieval_method": "web_tool_page_excerpts_not_original_HTTP_response",
+  "checked_date": "2026-10-19",
+  "notes": "Direct Python requests to the two URLs returned HTTP403 and remain separately preserved. These short excerpts were read through web.run open/find, not represented as successful raw HTTP downloads. Primary full birthday evidence is the separately preserved 2021 association PDF, page1 row8, visually inspected.",
+  "sources": [
+    {
+      "url": "https://www.cna.com.tw/tag/54498/",
+      "locator": "person profile, birthday field",
+      "excerpt": "温世政；生日：1973年5月4日"
+    },
+    {
+      "url": "https://www.nownews.com/news/6851218",
+      "locator": "温世政小檔案; published 2026-07-23",
+      "excerpt": "現職：世樺牙醫診所院長、民進黨徵召南投縣長參選人"
+    }
+  ]
+}

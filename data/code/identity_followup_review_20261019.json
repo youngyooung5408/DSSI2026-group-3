@@ -1,0 +1,116 @@
+[
+  {
+    "candidate_name": "林慧欣",
+    "source_url": "https://newtalk.tw/news/view/2026-02-10/1019657",
+    "source_file": "data/raw/identity_followup_20261019/web_01.txt",
+    "source_sha256": "5311e75d0896fbc18e58a6d9465e94fab7d6c99cfe7e0460fc6c81bda040576b",
+    "source_retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "identity_anchor_claims": [
+      "擔任過老師",
+      "擔任邱議瑩委員的助理"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  },
+  {
+    "candidate_name": "鄭東元",
+    "source_url": "https://hoomedia.com.tw/2026/09/04/165433/",
+    "source_file": "data/raw/identity_followup_20261019/web_02.txt",
+    "source_sha256": "999edfa5ba3be1c901aaf8ca935218c11c0e302105e19b5f0e196f328549637a",
+    "source_retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "identity_anchor_claims": [
+      "國立高雄大學經濟管理研究所碩士",
+      "正修科技大學土木工程學系"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  },
+  {
+    "candidate_name": "陳若翠",
+    "source_url": "https://www.300c3.org.tw/uninews_view.php?lang=TS&new_sn=117624",
+    "source_file": "data/raw/identity_followup_20261019/b3a33c911ca5f0207e34.html",
+    "source_sha256": "7271c9298115d75e7648fd3fe3721d21b9c4c16d13ced7bbfd0187a37c3469d5",
+    "source_retrieval_method": "http_original_bytes",
+    "identity_anchor_claims": [
+      "預計投入2026年高雄市第五選區市議員選舉的前市議員陳若翠"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": "2022第8選區、2026第5選區；以曾任高雄市議員及2026第5選區情境補強，保留跨選區標記"
+  },
+  {
+    "candidate_name": "陳惠君",
+    "source_url": "https://more-news.tw/714185/",
+    "source_file": "data/raw/identity_followup_20261019/c1e0df6c4a9d33cee592.html",
+    "source_sha256": "764280c179712fff20dd8c57b7c6cbb6c1694313942710ae1306fe5b9fc8345e",
+    "source_retrieval_method": "http_original_bytes",
+    "identity_anchor_claims": [
+      "曾於四年前獲台灣民眾黨提名投入市議員選舉的陳惠君",
+      "長期接觸音樂教育及學生培育"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  },
+  {
+    "candidate_name": "童燕珍",
+    "source_url": "https://www.cna.com.tw/news/aloc/202604220132.aspx",
+    "source_file": "data/raw/identity_followup_20261019/web_03.txt",
+    "source_sha256": "8c3ca40774032c94b68e800f052a2246e7d040c82915a998373a4876e01dd2ff",
+    "source_retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "identity_anchor_claims": [
+      "曾任5屆高雄市議員，2022年連任失敗後",
+      "第7選區三民區"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  },
+  {
+    "candidate_name": "蘇致榮",
+    "source_url": "https://udn.com/vote2026/story/124652/9652381",
+    "source_file": "data/raw/identity_followup_20261019/005f873a8fc98fe29510.html",
+    "source_sha256": "116c06ad0f6a87a000d965dd969271978b57d6e008c6495810ea01b2ac55e537",
+    "source_retrieval_method": "http_original_bytes",
+    "identity_anchor_claims": [
+      "蘇致榮為本屆「落選頭」，父親是前市議員蘇炎城"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  },
+  {
+    "candidate_name": "徐尚賢",
+    "source_url": "https://udn.com/vote2026/story/124652/9652381",
+    "source_file": "data/raw/identity_followup_20261019/005f873a8fc98fe29510.html",
+    "source_sha256": "116c06ad0f6a87a000d965dd969271978b57d6e008c6495810ea01b2ac55e537",
+    "source_retrieval_method": "http_original_bytes",
+    "identity_anchor_claims": [
+      "前「罷捷」領銜人徐尚賢",
+      "第九（鳳山）選區"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  },
+  {
+    "candidate_name": "湯茹婷",
+    "source_url": "https://news111.com.tw/news/47/12852",
+    "source_file": "data/raw/identity_followup_20261019/2284ca924ca216df5ac4.html",
+    "source_sha256": "59d65954f2f1596d2ea89957423b48c48af18eb3d4d8ca9ae891322611fb2ec9",
+    "source_retrieval_method": "http_original_bytes",
+    "identity_anchor_claims": [
+      "國立中山大學中國與亞太區域研究所碩士",
+      "2022年曾代表時代力量參選高雄市第10選舉區市議員"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  },
+  {
+    "candidate_name": "洪村銘",
+    "source_url": "https://news111.com.tw/news/48/10939",
+    "source_file": "data/raw/identity_followup_20261019/2e04933edda8d0e24c09.html",
+    "source_sha256": "ea838d8d45e7a770c5544113bc98bd4aa2475d750c22329443de4be5b05ce939",
+    "source_retrieval_method": "http_original_bytes",
+    "identity_anchor_claims": [
+      "洪村銘曾任行政院南部服務中心執行長及民進黨高雄市黨部執行長"
+    ],
+    "review": "2026同縣市／當屆參選情境與2022公報過往職務或學校相互支持；非僅以姓名連結",
+    "cross_district_note": ""
+  }
+]

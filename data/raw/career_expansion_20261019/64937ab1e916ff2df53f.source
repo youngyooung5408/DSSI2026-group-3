@@ -1,0 +1,724 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="image/x-icon" rel="shortcut icon" href="http://www.penghu.gov.tw/favicon.ico">
+<title>&#x4ee3;&#x8868;&#x540d;&#x518a;-馬公市民代表會</title>
+<meta property="og:title" content="&#x4ee3;&#x8868;&#x540d;&#x518a;" />
+<meta name="Keywords" content="&#x4ee3;&#x8868;&#x540d;&#x518a;-馬公市民代表會"/>
+<!-- 分類檢索 -->
+	  
+	
+
+
+
+
+
+<meta name="DC.Title" content="代表名冊">
+<meta name="DC.Creator" content="澎湖縣馬公市民代表會">
+<meta name="DC.Subject" content="代表名冊">
+<meta name="DC.Description" content="代表名冊">
+<meta name="DC.Publisher" content="澎湖縣馬公市民代表會">
+<meta name="DC.Contributor" content="">
+<meta name="DC.Date" content="2017-06-28 18:42:46.0">
+<meta name="DC.Type" content="文字、聲音、影像、文件檔案">
+<meta name="DC.Format" content="">
+<meta name="DC.Identifier" content="2.16.886.101.90023.90001.20001">
+<meta name="DC.Relation" content="">
+<meta name="DC.Source" content="">
+<meta name="DC.Language" content="">
+<meta name="DC.coverage" content="">
+<meta name="DC.Rights" content="">
+<meta name="Category.Theme" content="900">
+<meta name="Category.Cake" content="J00">
+<meta name="Category.Service" content="I00">
+<meta name="keywords" content="澎湖縣馬公市民代表會全球資訊網">
+
+	
+<!-- Bootstrap core CSS -->
+<link href="js/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<!-------------nav------------------>
+<link rel="stylesheet" href="js/responsive-nav.js-master/responsive-nav.css">
+<script src="js/responsive-nav.js-master/responsive-nav.js"></script>
+<!-- CSS -->
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style_rwd.css" rel="stylesheet" type="text/css">
+<link href="css/template.css" rel="stylesheet" type="text/css">
+<!------nav--------------->
+<link rel='stylesheet prefetch' href='js/flexnav-master/css/flexnav.css'>
+<!-------slick---------->
+<link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick-theme.css">
+<!--------fat------------------>
+<link rel="stylesheet" href="/pubprogram/js/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="/pubprogram/js/jquery-ui/jquery-ui.theme.min.css">
+<!---------------底圖輪播----------------->
+<link href="css/maximg.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="js/MaxImage-master/lib/css/jquery.maximage.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="js/MaxImage-master/lib/css/screen.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+<!------圖片自動高度---------------->
+<link href="js/responsive-equal-height-column-with-css-flexbox-demo/com/css/css.css" rel="stylesheet" type="text/css">
+<link href="css/equal_height.css" rel="stylesheet" type="text/css">
+<!-----------lightbox--------------->
+<link rel="stylesheet" type="text/css" href="js/CSS3Lightbox/css/style3.css" />
+</head>
+<body class="home">
+
+  <!----------上方資訊------------>
+  <div class="top">
+    
+      <div class="top_box">
+      <h1><a href="index.jsp">
+      
+    	  <img src="/uploaddowndoc?file=autosite/201707050948500.png&filedisplay=logo%E4%B8%8A.fw.png&flag=pic" alt="馬公市民代表會">
+    	  
+      </a></h1>
+      <!-------------toplink-------------->
+      <h2 class="top_link"> <a href="#" accesskey="u" class="accesskey" title="上方資訊">:::</a> <a href="home.jsp?id=2">網站導覽</a>│ <a href="index.jsp">回首頁</a>│ <a href="http://www.penghu.gov.tw">澎湖縣政府</a> </h2>
+    </div>
+    
+  </div>
+  <!---------------底圖倫播-----------------------> 
+  <a href="" id="arrow_left"><img src="js/MaxImage-master/lib/images/demo/arrow_left.png" alt="廣告輪播上一張" /></a> <a href="" id="arrow_right"><img src="js/MaxImage-master/lib/images/demo/arrow_right.png" alt="廣告輪播下一張" /></a> <img id="cycle-loader" src="js/MaxImage-master/lib/images/ajax-loader.gif" alt="載入圖片" />
+  <div id="maximage">
+     
+			  <div> <img src="/uploaddowndoc?file=topimage/201708071746540.jpg&filedisplay=%E9%A6%AC%E5%85%AC%E5%B8%82%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8%E6%9C%83.jpg&flag=pic" alt="馬公市民代表會(另開視窗)" /> <img id="gradient" src="js/MaxImage-master/lib/images/demo/gradient.png" alt="陰影" />
+		      <div class="in-slide-content" style="display:none;" data-sec="6">   	
+		   	
+			    <p>馬公市民代表會</p>
+			    
+		    </div>
+		    </div>
+			  
+  </div>
+  <div class="container"> 
+    
+    <!-------------主選單------------->
+    
+    <!-------------主選單------------->
+    <script id="scriptOut">
+
+
+//點閱率(Menu)
+function read(menuid) {
+	  $.ajax({
+		  url: "ap/updatenumber_menu.jsp",
+		  type: "POST",
+		  data: "menuid=" + menuid 
+	  });
+}	 
+</script>
+<div class="menu_box">
+      <div class="menu-button"><img src="images/all/s_menu.png" alt="選單"></div>
+      <nav>
+        <ul data-breakpoint="1000" class="flexnav">
+          
+        	      <li><a href="home.jsp?id=3" title="沿革" onclick="javascript:read('3')" onkeypress="javascript:read('3')"  target="_self">沿革</a>
+        	      
+        	      </li>
+        	    
+        	      
+        	      <li><a href="home.jsp?id=5" title="代表名冊" onclick="javascript:read('5')" onkeypress="javascript:read('5')"  target="_self">代表名冊</a>
+        	      
+        	      </li>
+        	    
+        	      
+        	      <li><a href="home.jsp?id=9" title="議事訊息" onclick="javascript:read('9')" onkeypress="javascript:read('9')"  target="_self">議事訊息</a>
+        	      
+        	    	  <ul style="display:none">
+        	    	  
+        	    		  <li><a href="home.jsp?id=23" title="議事錄"  onclick="javascript:read('23')" onkeypress="javascript:read('23')" target="_self">議事錄</a>
+        	    		  
+        	    		  </li>
+        	    		  
+        	    		  <li><a href="home.jsp?id=24" title="開會影音檔"  onclick="javascript:read('24')" onkeypress="javascript:read('24')" target="_self">開會影音檔</a>
+        	    		  
+        	    		  </li>
+        	    		  
+        	    		  <li><a href="home.jsp?id=25" title="議事日程"  onclick="javascript:read('25')" onkeypress="javascript:read('25')" target="_self">議事日程</a>
+        	    		  
+        	    		  </li>
+        	    		  
+        	    	  </ul>
+        	    	  
+        	      </li>
+        	    
+        	      
+        	      <li><a href="home.jsp?id=21" title="徵才專區" onclick="javascript:read('21')" onkeypress="javascript:read('21')"  target="_self">徵才專區</a>
+        	      
+        	      </li>
+        	    
+        	      
+        	      <li><a href="home.jsp?id=26" title="公佈欄及法規查詢" onclick="javascript:read('26')" onkeypress="javascript:read('26')"  target="_self">公佈欄及法規查詢</a>
+        	      
+        	      </li>
+        	    
+        	      
+        </ul>
+      </nav>
+	<script src='/pubprogram/js/jquery.min.js'></script>
+	<script src='/pubprogram/js/jquery-migrate-3.5.2.min.js'></script>
+	<script>
+		jQuery.browser = {};
+		(function () {
+			jQuery.browser.msie = false;
+			jQuery.browser.version = 0;
+			if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+				jQuery.browser.msie = true;
+				jQuery.browser.version = RegExp.$1;
+			}
+		})();
+	</script>
+      <script src='js/flexnav-master/js/jquery.flexnav.js'></script> 
+      <script src="js/flexnav-master/index.js"></script> 
+    </div>
+    <!----------內容區----------------->
+    
+    <div class="row">
+    <div class="home_box">
+      <div class="main">
+        <div class="content">
+           <div class="bread"><a href="#" accesskey="c" class="accesskey" title="內容區塊" id="accesskey">:::</a>目前位置 ： <a href="index.jsp">首頁</a>
+            
+			    				&gt;<a href="home.jsp?id=7" title="代表名冊">代表名冊</a>
+			    			
+			    &gt;<a href="home.jsp?id=7" title="&#x4ee3;&#x8868;&#x540d;&#x518a;">&#x4ee3;&#x8868;&#x540d;&#x518a;</a>
+			    
+            </div>
+			
+            <script>
+            //使用者字型大小
+            function createCookie(name, value, days) {
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    var expires = "; expires=" + date.toGMTString();
+                }
+                else expires = "";
+                document.cookie = name + "=" + value + expires + "; path=/";
+            }
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ')
+                        c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0)
+                        return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+            function SetFont(size) {
+            	
+            	document.getElementById("pagecontent").className=size;
+            	
+                //document.getElementById("home_content").style.class.fontSize = size;
+                createCookie('fontsize', size, 30);
+            }
+            function LoadFont() {
+                var fontsize;
+                if (readCookie('fontsize') == null) {
+                    createCookie('fontsize', 'medium', 30);
+                    fontsize = 'medium';
+                } else {
+                    fontsize = readCookie('fontsize');
+                }
+                SetFont(fontsize);
+            }
+            function openprint() {
+	
+    	window.open("print.html");
+    }
+            	</script>
+            <ul class="plug">              
+              <span class="group">
+              	<li title="skip" class="skip"><a href="#content" title="略過分享">_</a></li>
+              	<li title="微博" class="weibot"><a href="http://service.weibo.com/share/share.php?url=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7&title=%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A"  target="_blank" title="另開新視窗，分享到微博">微博</a></li>
+                <li title="FACEBOOK" class="fb"><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7"  target="_blank" title="另開新視窗，分享到臉書">FB</a></li>
+                <li title="Plurk" class="plurk"><a href="http://www.plurk.com/?qualifier=shares&amp;status=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7 (%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A)" target="_blank" title="另開新視窗，分享到噗浪">Plurk</a></li>
+                <li title="Twitter" class="twitter"><a href="http://twitthat.com/go?url=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7&title=%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A" target="_blank" title="另開新視窗，分享到twitthat">Twittet</a></li>
+                <li title="line" class="line"><a href="http://line.naver.jp/R/msg/text/?https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7&title=%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A" target="_blank" title="另開新視窗，分享到Line">line</a></li>
+                <span class="mail group">
+              		<li title="gmail" class="gmail"><a href="https://mail.google.com/mail/?ui=2&amp;view=cm&amp;fs=1&amp;tf=1&amp;su=%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A&amp;body=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7" title="另開新視窗，使用Gmail線上郵件分享" target="_blank">gmail</a></li>
+                	<li title="yahoo" class="yahoo"><a href="http://tw-mg31.mail.yahoo.com/neo/launch?rand=548066766&amp;action=compose&amp;Subj=%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A&amp;Body=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7"  title="另開新視窗，使用Yahoo線上郵件分享" target="_blank">yahoo</a></li>
+                	<li title="hotmail" class="hotmail"><a href="https://bay176.mail.live.com/default.aspx?rru=compose&amp;subject=%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A&amp;body=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7" title="另開新視窗，使用Live mail線上郵件分享" target="_blank">hotmail</a></li>
+                	<li title="outlook" class="outlook"><a href="mailto:?subject=%E4%BB%A3%E8%A1%A8%E5%90%8D%E5%86%8A&amp;body=https%3A%2F%2Fevent.penghu.gov.tw%2FRmarkun%2Fhome.jsp%3Fid%3D7" title="另開新視窗，使用Outlook mail線上郵件分享" target="_blank">outlook</a></li>
+                </span>
+               </span>
+                <span class="set group">
+                <li title="友善列印" class="print"><a href="javascript:openprint()">友善列印</a>
+                <noscript>您的瀏覽器，不支援script語法，若您的瀏覽器無法支援，請按鍵盤上的ctrl鍵+P列印</noscript>
+                </li>
+                <li>字級設定：</li>
+                <li title="小字" class="word l"><a href="javascript:SetFont('small');">小字</a></li>
+                <li title="一般" class="word m"><a href="javascript:SetFont('medium')">一般</a></li>
+                <li title="大字" class="word s"><a href="javascript:SetFont('large');">大字</a></li>
+                </span>
+              </ul>
+          <div class="title">
+          <span class="icon"><img src="images/home/title_icon.png" alt="icon"></span>
+         &#x4ee3;&#x8868;&#x540d;&#x518a; </div>
+          <div id="pagecontent" class="medium">
+         
+						  <script>
+						  console.log("ap/artwebsite.jsp");
+						  </script>
+              
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/template.css">
+ <div class="editor clearfix">
+	<table border="1" cellpadding="1" cellspacing="1" class="rwd-table table0 table02" summary=" " width="100%">
+	<caption>澎湖縣馬公市民代表會第十二屆代表名冊</caption>
+	<thead>
+		<tr>
+			<th scope="col">職別</th>
+			<th scope="col">姓名</th>
+			<th scope="col">出生年月日</th>
+			<th scope="col">住址</th>
+			<th scope="col">行動電話</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-th="職別" style="text-align: center;">主席</td>
+			<td data-th="姓名" style="text-align: center;">歐 銀 花</td>
+			<td data-th="出生年月日" style="text-align: center;">45.11.09</td>
+			<td data-th="住址">馬公市西文里西文澳168號</td>
+			<td data-th="行動電話" style="text-align: center;">0933-695-159</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">副主席</td>
+			<td data-th="姓名" style="text-align: center;">莊 國 輝</td>
+			<td data-th="出生年月日" style="text-align: center;">79.10.10</td>
+			<td data-th="住址">馬公市光榮里文光路東一橫巷42號</td>
+			<td data-th="行動電話" style="text-align: center;">0932-858-630</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">呂 蕙 羽</td>
+			<td data-th="出生年月日" style="text-align: center;">78.04.12</td>
+			<td data-th="住址">馬公市中央里正義街8號</td>
+			<td data-th="行動電話" style="text-align: center;">0911-404-364</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">吳 仁 祥</td>
+			<td data-th="出生年月日" style="text-align: center;">60.11.07</td>
+			<td data-th="住址">馬公市重光里五福路152號</td>
+			<td data-th="行動電話" style="text-align: center;">0932-779-166</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">譚 蘭 芬</td>
+			<td data-th="出生年月日" style="text-align: center;">57.10.21</td>
+			<td data-th="住址">馬公市貿商街142號10樓之1</td>
+			<td data-th="行動電話" style="text-align: center;">0932-972-951</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">薛 淑 娟</td>
+			<td data-th="出生年月日" style="text-align: center;">70.12.22</td>
+			<td data-th="住址">馬公市西衛里西衛641號</td>
+			<td data-th="行動電話" style="text-align: center;">0983-318-628</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">黃 旭 輝</td>
+			<td data-th="出生年月日" style="text-align: center;">47.09.19</td>
+			<td data-th="住址">馬公市西衛里五福路14號</td>
+			<td data-th="行動電話" style="text-align: center;">0933-695-803</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">胡 佩 青</td>
+			<td data-th="出生年月日" style="text-align: center;">68.04.20</td>
+			<td data-th="住址">馬公市西文里西文澳92號之48</td>
+			<td data-th="行動電話" style="text-align: center;">0939-240-339</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">吳 武 宗</td>
+			<td data-th="出生年月日" style="text-align: center;">70.01.10</td>
+			<td data-th="住址">馬公市西文里新店路393號</td>
+			<td data-th="行動電話" style="text-align: center;">0911-749-667</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">洪 清 騰</td>
+			<td data-th="出生年月日" style="text-align: center;">65.06.07</td>
+			<td data-th="住址">馬公市烏崁里烏崁105之70號</td>
+			<td data-th="行動電話" style="text-align: center;">0928-370-969</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">陳 永 澎</td>
+			<td data-th="出生年月日" style="text-align: center;">43.12.24</td>
+			<td data-th="住址">馬公市山水里32之26號</td>
+			<td data-th="行動電話" style="text-align: center;">0933-695-802</td>
+		</tr>
+		<tr>
+			<td data-th="職別" style="text-align: center;">代表</td>
+			<td data-th="姓名" style="text-align: center;">吳 志 宏</td>
+			<td data-th="出生年月日" style="text-align: center;">61.12.30</td>
+			<td data-th="住址">馬公市鎖港里鎖港六路256號</td>
+			<td data-th="行動電話" style="text-align: center;">0931-165-066</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellpadding="1" cellspacing="1" class="table01 table02" summary=" " width="100%">
+	<caption>&nbsp;</caption>
+	<thead>
+		<tr>
+			<th scope="col">電話：06-9270122</th>
+			<th scope="col">傳真：06-9272976</th>
+			<th scope="col">會址：澎湖縣馬公市永福街30號4樓</th>
+			<th scope="col">郵遞區號：880009</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+
+
+</div>
+
+	<div class="visitors">
+	
+
+
+
+<div class="opera clearfix">
+
+
+  
+       <div class="note"> 瀏覽人次：4648 人</div>
+         
+      
+       <div class="note">更新日期：2024-11-28</div>
+          
+      
+ <ul>
+                <li class="home"><a href="index.jsp">回首頁</a></li>
+                <li class="back"><a href="javascript:history.go(-1)">回上頁</a></li>
+                <li id="gotop" class="gotop"><a href="#">TOP</a></li>
+              </ul>
+              </div>
+        </div>
+	
+	
+    
+          </div>
+        </div>
+        <div class="gotop" id="gotop"><a href="#">gotop</a></div>
+      </div>
+    
+    </div>
+  </div>
+    <!-----------底部區塊---------------->
+    <div class="bottomarea">
+    <div class="wave">底圖區塊</div>
+    
+    
+
+    
+	   <script type="text/javascript">
+				
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'Y']);
+			  _gaq.push(['_trackPageview']);
+				
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+
+			</script> 
+	    
+    
+<!--------FATFOOT---------------->
+    
+
+    <div class="fat_box">
+    <script type="text/javascript">
+
+function openfat(){
+	if(document.getElementById("openstat").value=='0'){
+		document.getElementById("accordion").style.display="";
+		document.getElementById("openstat").value="1";
+		document.getElementById("opentext").innerHTML="<span>-</span> 點選收合";
+		
+		
+	}
+	else{
+	document.getElementById("accordion").style.display="none";
+		document.getElementById("openstat").value="0";
+		document.getElementById("opentext").innerHTML="<span>+</span> 點選收合";
+		
+	}
+}
+
+</script>
+     
+<input type="hidden" name="openstat"  id="openstat" value="1">
+<div class="btn"><a href="javascript:openfat()">
+<div id="opentext"><span>-</span>點選收合</div></a></div>
+      <div id="accordion" class="fat" >
+        <div><span>-</span>點選收合</div>
+        <div class="equal-height-thumbnail">
+          
+         <ul>
+            <li class="title"><a href="home.jsp?id=3" title="沿革"  onclick="javascript:read('3')" onkeypress="javascript:read('3')" target="_self">沿革</a></li>
+            
+            </ul>
+        
+         <ul>
+            <li class="title"><a href="home.jsp?id=5" title="代表名冊"  onclick="javascript:read('5')" onkeypress="javascript:read('5')" target="_self">代表名冊</a></li>
+            
+            </ul>
+        
+         <ul>
+            <li class="title"><a href="home.jsp?id=9" title="議事訊息"  onclick="javascript:read('9')" onkeypress="javascript:read('9')" target="_self">議事訊息</a></li>
+            
+	    		  <li><a href="home.jsp?id=23" title="議事錄"  onclick="javascript:read('23')" onkeypress="javascript:read('23')" target="_self">議事錄</a></li>
+	    		  
+	    		  <li><a href="home.jsp?id=24" title="開會影音檔"  onclick="javascript:read('24')" onkeypress="javascript:read('24')" target="_self">開會影音檔</a></li>
+	    		  
+	    		  <li><a href="home.jsp?id=25" title="議事日程"  onclick="javascript:read('25')" onkeypress="javascript:read('25')" target="_self">議事日程</a></li>
+	    		  
+            </ul>
+        
+         <ul>
+            <li class="title"><a href="home.jsp?id=21" title="徵才專區"  onclick="javascript:read('21')" onkeypress="javascript:read('21')" target="_self">徵才專區</a></li>
+            
+            </ul>
+        
+         <ul>
+            <li class="title"><a href="home.jsp?id=26" title="公佈欄及法規查詢"  onclick="javascript:read('26')" onkeypress="javascript:read('26')" target="_self">公佈欄及法規查詢</a></li>
+            
+            </ul>
+        
+        </div>
+      </div>
+    </div>
+    <!----------------FAT-end------------------> 
+    
+    <!------------FOOTER----->
+    <div class="footer_box">
+      <div class="footer clearfix">
+        <div class="txt_link">
+               
+        
+                      
+        </div>
+        <div class="left">
+        <div class="logo">
+        	<img src="/uploaddowndoc?file=autosite/201707051334480.png&filedisplay=Logo%E9%A0%81%E5%B0%BE%E8%99%95%E4%BB%A3%E8%A1%A8%E6%9C%83.fw.png&flag=pic" alt="馬公市民代表會">
+        	</div>
+        <div class="link">
+          <ul class="icon01">
+           
+            <li><a href="http://www.gov.tw/" target="_blank"><img src="images/all/icon_gov.png" alt="我的E政府(另開視窗)"></a></li>
+          </ul>
+          <ul class="txt">
+          <li class="date">更新日期：2026-10-19</li>
+          <li class="people">瀏覽人次：27257人</li>
+          </ul>
+        </div>
+        </div>
+        <div class="right">
+         
+        	<div>聯絡電話：(06)9270122</div>
+        	
+        	<div>傳真服務專線:(06)9272976</div>
+        	
+        	<div>週一至週五上午8:00至12:00下午13:30至17:30 (週六、日及例假日休息)</div>
+        	
+        	<div>聯絡地址：澎湖馬公市永福街30號4樓
+        <span class="map"><a href="https://www.google.com.tw/maps/place/880%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E6%B0%B8%E7%A6%8F%E8%A1%9730%E8%99%9F/@23.5661168,119.5764726,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5aea4116d50b:0xb60eeb7c26ba2f1b!8m2!3d23.5661119!4d119.5786"><img src="images/all/icon_map.png" alt="地理位置"></a></span>
+        </div>
+               
+        	
+        </div>        
+      </div>
+    </div>
+    </div>
+    <!---------底部區塊end---------------->
+    <!---------底部區塊end---------------->
+  </div>
+  
+  	<script src='/pubprogram/js/jquery.min.js'></script>
+	<script src='/pubprogram/js/jquery-migrate-3.5.2.min.js'></script>
+	<script>
+		jQuery.browser = {};
+		(function () {
+			jQuery.browser.msie = false;
+			jQuery.browser.version = 0;
+			if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+				jQuery.browser.msie = true;
+				jQuery.browser.version = RegExp.$1;
+			}
+		})();
+	</script>
+  <script src="js/MaxImage-master/lib/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="js/MaxImage-master/lib/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script> 
+  <script type="text/javascript" charset="utf-8">
+  var banner_timer,banner_sec,maximage_timer,maximage_sec;
+			$(function(){
+	
+				$('#maximage').maximage({
+					cycleOptions: {
+						fx: 'fade',
+						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
+						timeout: 0,
+						prev: '#arrow_left',
+						next: '#arrow_right',
+						pause: 1,
+						before: function(last,current){
+							if(!$.browser.msie){
+								// Start HTML5 video when you arrive
+								if($(current).find('video').length > 0) $(current).find('video')[0].play();
+							}
+								maximage_sec=$(current).find(".in-slide-content").attr("data-sec");
+						},
+						after: function(last,current){
+							if(!$.browser.msie){
+								// Pauses HTML5 video when you leave it
+								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
+							}
+						}
+					},
+					onFirstImageLoaded: function(){
+						jQuery('#cycle-loader').hide();
+						jQuery('#maximage').fadeIn('fast');
+					}
+				});
+	
+				// Helper function to Fill and Center the HTML5 Video
+				jQuery('video,object').maximage('maxcover');
+	
+				// To show it is dynamic html text
+				jQuery('.in-slide-content').delay(1200).fadeIn();
+			});
+			function reSetMaximageSec(){
+				if(maximage_timer){
+					maximage_timer.stop();
+				}	
+				maximage_timer = new Timer(function(){$('#maximage').cycle('next');reSetMaximageSec();}, maximage_sec*1000);
+			}
+			maximage_sec=$('#maximage').find(".in-slide-content:first").attr("data-sec");
+			reSetMaximageSec();
+			$('#maximage').mouseenter(MaximageTimePasue);
+			$('#maximage').mouseleave(MaximageTimeResume);
+			function MaximageTimePasue(){
+				maximage_timer.pause();
+			}
+			function MaximageTimeResume(){
+				maximage_timer.resume();
+			}		
+		</script> 
+
+  
+  <!----------------底圖輪播END----------------------> 
+  
+ <script src="/pubprogram/js/jquery-ui/jquery-ui.min.js"></script> 
+  <script src="/pubprogram/js/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="/pubprogram/js/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="/pubprogram/js/shim.js"></script> 
+  <script>
+    $(document).on('ready', function() {
+		/*top*/
+            $("#gotop").click(function () {
+                jQuery("html,body").animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 300) {
+                    $('#gotop').fadeIn("fast");
+                } else {
+                    $('#gotop').stop().fadeOut("fast");
+                }
+            });
+		
+		
+		
+		
+    });	 
+</script> 
+  <!-- 抬頭顯示器 --> 
+  <script src="js/resize-header-on-scroll/js/classie.js"></script> 
+  <script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 400,
+                header = document.querySelector(".menu_box");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script> 
+  <script>
+	$(function() {
+		$( "#accordion" ).accordion({
+			collapsible: true
+		});
+	});
+</script> 
+  </script> 
+  <script>
+$(function(){
+    var len = 50; // 超過50個字以"..."取代
+    $(".ellipsis").each(function(i){
+        if($(this).text().length>len){
+            $(this).attr("title",$(this).text());
+            var text=$(this).text().substring(0,len-1)+"...";
+            $(this).text(text);
+        }
+    });
+	var len = 20; // 超過50個字以"..."取代
+    $(".title.ellipsis").each(function(i){
+        if($(this).text().length>len){
+            $(this).attr("title",$(this).text());
+            var text=$(this).text().substring(0,len-1)+"...";
+            $(this).text(text);
+        }
+    });
+	var len = 100; // 超過50個字以"..."取代
+    $(".event.list .txt").each(function(i){
+        if($(this).text().length>len){
+            $(this).attr("title",$(this).text());
+            var text=$(this).text().substring(0,len-1)+"...";
+            $(this).text(text);
+        }
+    });
+});
+</script>
+</form>
+</body>
+</html>
+ 

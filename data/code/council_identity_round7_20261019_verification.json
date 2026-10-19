@@ -1,0 +1,93 @@
+{
+  "new_history_people": 9,
+  "new_history_names": [
+    "林慧欣",
+    "鄭東元",
+    "陳若翠",
+    "陳惠君",
+    "童燕珍",
+    "蘇致榮",
+    "徐尚賢",
+    "湯茹婷",
+    "洪村銘"
+  ],
+  "historical_2022_birth_dates": 701,
+  "historical_2022_sex": 701,
+  "birth_official_union": 705,
+  "sex_explicit_source_union": 706,
+  "new_substantive_profile_people": 3,
+  "remaining_web_profile_gaps": 730,
+  "profile_pages_placeholder_only": 6,
+  "council_nonfirst_any": 712,
+  "council_nonfirst_council": 704,
+  "new_nonfirst_any_names": [
+    "林慧欣",
+    "鄭東元",
+    "陳若翠",
+    "陳惠君",
+    "童燕珍",
+    "蘇致榮",
+    "徐尚賢",
+    "湯茹婷",
+    "洪村銘",
+    "黃裕庭"
+  ],
+  "remaining_identity_worklist": 153,
+  "outputs": {
+    "data/processed/snapshots/pre_cross_office_round8_20261019/candidate_master_current.csv": {
+      "rows": 1583,
+      "columns": 34,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "0d2d2620f62cde3abaf691ce843925231bc84f95362562b16794d74aadf022e9"
+    },
+    "data/processed/snapshots/pre_cross_office_round8_20261019/candidate_fields_current.csv": {
+      "rows": 31660,
+      "columns": 11,
+      "key": [
+        "candidate_key",
+        "field"
+      ],
+      "sha256": "e2e4528410ee10272ddef071f431e42334e14891255277a1a44dce2203ef9b22"
+    },
+    "data/processed/snapshots/pre_cross_office_round8_20261019/council_background_20261019.csv": {
+      "rows": 1502,
+      "columns": 50,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "f4b9055e53c7d8476f34389e4d810e26569c394c5e4916c50230b31fef7db2da"
+    },
+    "data/processed/snapshots/pre_cross_office_round8_20261019/council_history_pending_identity_current.csv": {
+      "rows": 153,
+      "columns": 18,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "abf997cfa9ceac55cd7636db7950cfa934cb5d553183f5ff05d6181bc9bd72e0"
+    },
+    "data/processed/council_identity_review_round7_20261019.csv": {
+      "rows": 11,
+      "columns": 16,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "624ab491f27dc8dd87bdb823f919960e7118b9b591a9c41ee63246df5f4b5be5"
+    },
+    "data/processed/party_profile_review_round7_20261019.csv": {
+      "rows": 9,
+      "columns": 12,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "a50a882aeb2bedfbe9dfadb1d0dfb8aeaf2930ba9b51d89178151a3f6a51baa1"
+    },
+    "data/processed/candidate_evidence_round7_20261019.csv": {
+      "rows": 70,
+      "columns": 9,
+      "key": [],
+      "sha256": "a9a07816dc0f97566966a2d0214806a2138f7b6b3d9022f4bbdc614f9f4bf303"
+    }
+  }
+}

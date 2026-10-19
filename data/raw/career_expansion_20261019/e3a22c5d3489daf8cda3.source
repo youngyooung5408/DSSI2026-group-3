@@ -1,0 +1,778 @@
+﻿
+<!DOCTYPE html>
+
+<html id="FormHtml" xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-tw">
+<head id="Head1">    <style>
+        .for_accessibility a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 99;
+            width: 1px;
+            height: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            color: #000;
+        }
+            .for_accessibility a:focus {
+                width: auto;
+                height: auto;
+                padding: 6px;
+                background-color: #fff;
+            }
+        .for_accessibility div {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background-color: transparent;
+            opacity: .1
+        }
+    </style>
+<script src='https://www.hlyl.gov.tw/Scripts/jquery-3.7.1.min.js'></script>
+<script src='https://www.hlyl.gov.tw/Scripts/jquery-migrate-3.5.2.js'></script>
+<script src='https://www.hlyl.gov.tw/Scripts/jquery.lazy.min.js'></script>
+<script src='https://www.hlyl.gov.tw/Scripts/jquery.lazy.plugins.min.js'></script>
+<script src='https://www.hlyl.gov.tw/Scripts/js.cookie.min.js'></script>
+<script src='https://www.hlyl.gov.tw/Scripts/JQCookieToJSCookie.js'></script>
+<script src='https://www.hlyl.gov.tw/Scripts/jUtil.js'></script>
+<script src='https://www.hlyl.gov.tw/Scripts/fancybox/jquery.fancybox.js'></script>
+<link rel='stylesheet' type='text/css'  href='https://www.hlyl.gov.tw/Scripts/fancybox/jquery.fancybox.css'> 
+<script src='https://www.hlyl.gov.tw/Scripts/hamalightGallery/hamalightGallery.js'></script>
+<link rel='stylesheet' type='text/css'  href='https://www.hlyl.gov.tw/Scripts/hamalightGallery/css/hamalightGallery.css'> 
+<script src='https://www.hlyl.gov.tw/Scripts/J_Pager.js'></script>
+<script  src='https://www.hlyl.gov.tw/Scripts/Chart/chart.js'></script> 
+<script  src='https://www.hlyl.gov.tw/Scripts/Chart/chartjs-plugin-datalabels.js'></script> 
+<script  src='https://www.hlyl.gov.tw/Scripts/chart.js'></script> 
+<script  src='https://www.hlyl.gov.tw/Scripts/jquery.mousewheel.min.js'></script> 
+<script  src='https://www.hlyl.gov.tw/Scripts/jquery.touchwipe.min.js'></script> 
+<script  src='https://www.hlyl.gov.tw/js/airdatepicker/datepicker.min.js'></script> 
+<script  src='https://www.hlyl.gov.tw/js/airdatepicker/datepicker.zh-tw.js'></script> 
+<script  src='https://www.hlyl.gov.tw/js/airdatepicker/datepicker.en.js'></script> 
+<link rel='stylesheet' type='text/css'  href='https://www.hlyl.gov.tw/js/airdatepicker/datepicker.min.css'> 
+<script  src='https://www.hlyl.gov.tw/Scripts/esapi4js/esapi-compressed.js'></script> 
+<script>var CCMS_WWWURL='https://www.hlyl.gov.tw';var CCMS_LanguageSN=1;var CCMS_SitesSN_Encryption='502';</script><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="DC.Title" content="" />
+<meta name="DC.Subject" content="花蓮縣政府，機關網站，花蓮縣" />
+<meta name="DC.Creator" content="" />
+<meta name="DC.Publisher" content="" />
+<meta name="DC.Date" content="" />
+<meta name="DC.Type" content="" />
+<meta name="DC.Identifier" content="" />
+<meta name="DC.Description" content="" />
+<meta name="DC.Contributor" content="" />
+<meta name="DC.Format" content="" />
+<meta name="DC.Relation" content="" />
+<meta name="DC.Source" content="" />
+<meta name="DC.Language" content="" />
+<meta name="DC.Rights" content="" />
+<meta name="Category.Theme" content="" />
+<meta name="Category.Cake" content="" />
+<meta name="Category.Service" content="" />
+<meta name="DC.Keywords" content="" />
+<title>
+	花蓮縣玉里鎮公所- 代表服務通訊
+</title><link id="likCssGlobal" href="/css/global.css" rel="stylesheet" type="text/css" media="all" /><link id="likCssPage" href="/css/page.css" rel="stylesheet" type="text/css" /><link id="likPrint" href="/css/print.css" rel="stylesheet" type="text/css" media="print" /><link id="lnkCssSysDetail" href="/css/sys_detail.css" rel="stylesheet" type="text/css" />
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"><meta property="og:title" content=" 代表服務通訊" >
+<meta property="og:type" content="article" >
+<meta property="og:url" content="https://www.hlyl.gov.tw/cl.aspx?n=20242" >
+<meta property="og:site_name" content="花蓮縣玉里鎮公所" >
+</head>
+<body id="Formbody" data-js="false"><div class="for_accessibility">
+    <a href="#CCMS_Content" class="" title="跳到主要內容區塊">跳到主要內容區塊</a>    <div>
+        <nav></nav>
+    </div>
+    <script>
+        var $a = $('.for_accessibility a');
+        $a.on('click', function (evt) {
+            var $href = $($(this).attr('href')),
+                $target = $href.find('a').eq(0).get(0);
+            setTimeout(function () { try { $target.focus(); } catch (e) { } }, 0);
+        });
+    </script>
+</div>
+<script> document.body.setAttribute("data-js", "true");</script>
+    
+    <form method="post" action="./cl.aspx?n=20242&amp;Create=1" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="8WhmCT2jMJnNIaVYoUp/kpNR5XD4QsdB5diorpSumhD2KzI7oowrGdYS0ZMYY/fL6DGPq2pCZEXbZ9GY5t07nXD+HEM4MU05JW9zaJJK+je2K+l1HZEuWFNr/xNUPeHxf+2p0j4p9i6fBKaByL8TFZsC96jznE30SwiN/X95fhfMHiVWastKxM5i055AzNf2BmBzDydYClNqxVWlhPLMvqPUrQe/jWmrqV4LhsYLXYGmgkxQhdTcjRxf4uQa3+1EW8xtgB647JZvWHfDHG7m/QTizGvGz5qfOl3u6Y9eeRPh0gs31sQ8I+kBEvlZsannchidmJDL2pqE55aKB35jt2pws5KZ6j0uU1aZa0Ghjh9Yk8eiSQC0mN87jlL/hzJNLgApYH3lfU9PyvQz5wz55+EaXCTRpQsK8nfo+zmC3NeBrbeAZUxTKpyuNXR1ABZcGrYZGkOUgsuBu3nItNmf2PzMIsFy8fnvqgmRntmulQoqzJVchO9tR0wJ8IorJfqJfiO0ykF0JhqoY6I+4OJ6d0JWYkUtIGHA98gvVWLzzi7M6Hdv77ExiIinckQ+qWJpqV7bxoeCw4XNF08LDWqP5F3TmSNDdFO0YI5NwyW7IpPezFcRXyQhQl2E1zC/FhXz/Fl4/gisSpnVq52IEMG+egTGZH4eu7yxpmAM8BOpb1UFxtntcqwzhGPX8BItorWhB+mu4zANeLOGn11YN4beTQttcxFxO3WJYQqWpsgJN2uooqwsGxGiHo/rgu1CfjUVX2QJrSCH6IsIeXUsRVe+cF31zdmFRoFYZYg3rfWGXVxoTGmuR06UxyYzfSHqtfTlPBrTr/JpjvMliwXnTXxi3Dzsc/i4+LWWEjGM6hZpsw7OcSon4EcCiJkjhgahBYEqgqlRUbaa6GEXpp9LeBjJDm3OrgA3PE1rVvsc6r4dvNxjscsGmoHl0F0pL8FyvT8zvF3M3TtGTLK6oLln2tYDzpzCODJBiuwneJxkmCjAPM3mz1F9qt7fP2JSxZIb1o17UTsLf4eCtqWPLSRy9QDs/vXCUwKkn8nV3D8jt+OlAVwb3UP/Wv5GOTh5nmyKjcQISaPLa4W6pSFT4NztNEkyS9ySDt6qH/t843r7HE1E0a8IY4VZDm3QlDJQffGHCB2gCDMOafVbhwsFpDsnq5KYSzqMXXVwtNSeZMZWrl/pkgK1lW/w9JujT9yTqPQRXy1ZWJaK4IkY9P9UfpG62nHD72PknC3vmMrec2E/N2R2r9GnQg8volrVdlhaTRl82hSIsNgBPThlGNjTj1dNt8kl32HvIS5SpEUcZOpp3Yx2oGJ7xaPwXx4NmDGGWlUY1eDL71gQpsQs6LheCM34M5VAocX4ViuMPUThVXZBWDvcuWz6ShFhSRyT5Reak8idJQWDb1x79hlQHIp2l+u3YtgizuAI8jwZRnVt40Vb2jGREw5s/T0YP5Rs6AVqtt9CrNcHtyWuDdQSkSKOIWeO1gHJpaWln+9vupZfJxH4KgPqkvnJMNT2Ob9D48t8KHzHKY6VC6drZTqv3vTabSE9aL5Tfsd1wlkuO1cfgiSx5gh+uNvlSXN7+HxYsiKbb3bc1PEF" />
+</div>
+
+        <!--主選單 結束-->
+        <!--標題-->
+
+        <div class="title">
+            
+
+        </div>
+        
+        
+        
+        
+        
+        
+     <div class="group sys-root" data-func="{&#39;datePicker&#39;:{&#39;autoClose&#39;:true,&#39;language&#39;:&#39;zh-tw&#39;,&#39;navTitles&#39;:{&#39;days&#39;:&#39;&lt;i&amp;gt;民國 rrr 年&lt;/i&amp;gt; &amp;nbsp; MM&#39;,&#39;months&#39;:&#39;民國 rrr 年&#39;,&#39;years&#39;:&#39;民國 rrr1 至 rrr2 年&#39;}}}" data-nojs="您的瀏覽器似乎不支援 JavaScript 語法，但沒關係，這並不會影響到內容的陳述。如需要選擇適合您的字級大小，可利用鍵盤 Ctrl   ( )放大 (-)縮小。如需要回到上一頁，可使用瀏覽器提供的 Alt   左方向鍵(←)。如需要列印，可利用鍵盤 Ctrl   p 使用瀏覽器提供的列印功能。" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="group base-mobile" data-func="{&#39;toggleBtn&#39;:{}}" data-index="1" data-type="3"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a    title="手機版選單"   >手機版選單</a></span></div></div></div><div class="ct"><div class="in"> <div class="area-form search" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="search"   >search</a></span></div></div></div><div class="ct"><div class="in"><div class="fieldset">
+  <span class="search"><input data-search="btn_a90ea51f05df4b7e88900482abc28844" type="search" placeholder="Search" title="搜尋"></span>
+  <span class="submit"><a href="#" class='CCMS_SearchBtn' data-search="btn_a90ea51f05df4b7e88900482abc28844" title="搜尋" >搜尋</a></span>
+</div>
+<div class="list">
+  <ul data-index="1" data-child="0">
+  </ul>
+</div>
+<script >
+$(function () {
+    $('[data-search="a90ea51f05df4b7e88900482abc28844"]').on("keydown", function (event) {
+        if (event.which == 13) {
+             doSearch($('#btn_a90ea51f05df4b7e88900482abc28844'));
+            return false;
+        }
+    });
+});
+</script>
+</div></div><div class="ft"><div class="in"><ul data-index="1" data-child="1">
+  <li data-index="1" class="advanced"><span><a target="_blank" rel="noopener noreferrer" href="https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.hlyl.gov.tw" title="進階搜尋[另開新視窗]">進階搜尋</a></span></li>
+</ul>
+</div></div></div></div> <div class="list-text share" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="#"   title="分享"   >分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  class="facebook"  >		<span  ><a   href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"   title="Share to Facebook[另開新視窗]"   target="_self"  >Facebook</a></span></li><li   data-index="2"  class="twitter"  >		<span  ><a   href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));"   title="Share to twitter[另開新視窗]"   target="_self"  >Twitter</a></span></li><li   data-index="3"  class="line"  >		<span  ><a   href="javascript: void(window.open('http://line.naver.jp/R/msg/text/?'.concat(encodeURIComponent(location.href)) ));"   title="Share to line[另開新視窗]"   target="_self"  >line</a></span></li><li   data-index="4"  class="email"  >		<span  ><a   href="javascript:  void(window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=' +  encodeURIComponent(document.URL)));"   title="Share to email[另開新視窗]"   target="_self"  >Email</a></span></li></ul>
+</div></div></div></div> <div class="group-list nav" data-func="{&#39;majorNavMobile&#39;:{}}" data-index="3" data-type="4" data-child="14"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="14"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19811"      title="璞石玉里"   >璞石玉里</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cp.aspx?n=19812"      title="玉里簡介"   >玉里簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=19813"      title="史蹟源流"   >史蹟源流</a></span></li><li   data-index="3"  >		<span  ><a   href="cp.aspx?n=19814"      title="鎮徽介紹"   >鎮徽介紹</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=19815"      title="金色風華"   >金色風華</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19819"      title="鎮長專欄"   >鎮長專欄</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20168"      title="鎮長介紹"   >鎮長介紹</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21187"      title="鎮長信箱"   >鎮長信箱</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19820"      title="公所介紹"   >公所介紹</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=19821"      title="組織執掌"   >組織執掌</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=19825"      title="行政區域"   >行政區域</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=20079"      title="各課室業務職掌"   >各課室業務職掌</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=26569"      title="通訊服務"   >通訊服務</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20211"      title="資訊公開說明區"   >資訊公開說明區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="11"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20212"      title="資訊公開說明"   >資訊公開說明</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=20213&sms=20186"      title="年度施政計畫"   >年度施政計畫</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=20215&sms=20188"      title="年度預算"   >年度預算</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20216&sms=20189"      title="年度決算"   >年度決算</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20217&sms=20190"      title="補/捐助團體款項 "   >補/捐助團體款項 </a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=20218&sms=20191"      title="代表建設建議事項   "   >代表建設建議事項   </a></span></li><li   data-index="7"  >		<span  ><a   href="News.aspx?n=20219&sms=20192"      title="會計月報 "   >會計月報 </a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=20214&sms=20187"      title="國家賠償受理案件統計表"   >國家賠償受理案件統計表</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=24443&sms=22030"      title="因應預算法62條之1公開事項"   >因應預算法62條之1公開事項</a></span></li><li   data-index="10"  >		<span  ><a   href="cl.aspx?n=34907"      title="[另開新視窗]公務統計報表"   target="_blank" rel="noopener noreferrer" >公務統計報表</a></span></li><li   data-index="11"  >		<span  ><a   href="News.aspx?n=34991&sms=26541"      title="[另開新視窗]國土署核定案件"   target="_blank" rel="noopener noreferrer" >國土署核定案件</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20255"      title="防災專區"   >防災專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="9"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=33145"      title="災情通報處理聯繫窗口"   >災情通報處理聯繫窗口</a></span></li><li   data-index="2"  >		<span  ><a   href="News_Photo.aspx?n=25566&sms=22448"      title="緊急避難資訊"   >緊急避難資訊</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=25570&sms=22450"      title="災害應變中心相關資訊"   >災害應變中心相關資訊</a></span></li><li   data-index="4"  >		<span  ><a   href="News_Link2.aspx?n=25568&sms=22449"      title="災害防救相關網站連結"   >災害防救相關網站連結</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20259&sms=20215"      title="災害防救相關計畫及法規"   >災害防救相關計畫及法規</a></span></li><li   data-index="6"  >		<span  ><a   href="News2.aspx?n=25571&sms=22451"      title="防災演練成果紀錄"   >防災演練成果紀錄</a></span></li><li   data-index="7"  >		<span  ><a   href="News.aspx?n=25573&sms=22454"      title="玉里鎮災害潛勢圖"   >玉里鎮災害潛勢圖</a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=20256&sms=20212"      title="防災宣導下載區"   >防災宣導下載區</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=31145&sms=25227"      title="0403震災相關資訊"   >0403震災相關資訊</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="6"> <div class="group nav" data-index="6" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="https://www.hlyl.gov.tw/News.aspx?n=21145&sms=20617"      title="最新公共債務訊息"   >最新公共債務訊息</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="7"> <div class="group nav" data-index="7" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20260"      title="玉里鎮立圖書館"   >玉里鎮立圖書館</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="12"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20261"      title="圖書館簡介"   >圖書館簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21222"      title="服務項目"   >服務項目</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21246"      title="借閱規則"   >借閱規則</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20262&sms=20216"      title="公告專區"   >公告專區</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20263&sms=20217"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=20264&sms=20218"      title="表單下載"   >表單下載</a></span></li><li   data-index="7"  >		<span  ><a   href="https://library.hccc.gov.tw/lp.asp?ctNode=1036&CtUnit=245&BaseDSD=56&mp=20"      title="電子書查詢"   >電子書查詢</a></span></li><li   data-index="8"  >		<span  ><a   href="http://app.hccc.gov.tw/webpacIndex.jsp"      title="[另開新視窗]花蓮縣館藏查詢"   target="_blank" rel="noopener noreferrer" >花蓮縣館藏查詢</a></span></li><li   data-index="9"  >		<span  ><a   href="https://www.ncl.edu.tw/"      title="[另開新視窗]國家圖書館"   target="_blank" rel="noopener noreferrer" >國家圖書館</a></span></li><li   data-index="10"  >		<span  ><a   href="https://www.nlpi.edu.tw/"      title="[另開新視窗]國立公共資訊圖書館"   target="_blank" rel="noopener noreferrer" >國立公共資訊圖書館</a></span></li><li   data-index="11"  >		<span  ><a   href="https://www.ntl.edu.tw/"      title="[另開新視窗]國立臺灣圖書館"   target="_blank" rel="noopener noreferrer" >國立臺灣圖書館</a></span></li><li   data-index="12"  >		<span  ><a   href="News.aspx?n=30716&sms=24994"      title="[另開新視窗]圓夢繪本有聲故事書"   target="_blank" rel="noopener noreferrer" >圓夢繪本有聲故事書</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="8"> <div class="group nav" data-index="8" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20240"      title="玉里鎮民代表會"   >玉里鎮民代表會</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20241"      title="現任代表介紹"   >現任代表介紹</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=20242"      title=" 代表服務通訊"   > 代表服務通訊</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=20243&sms=20204"      title=" 開會日程表"   > 開會日程表</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20244&sms=20205"      title=" 代表出國報告"   > 代表出國報告</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=20245"      title="議事公開專區"   >議事公開專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="9"> <div class="group nav" data-index="9" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21334"      title="客家生活館"   >客家生活館</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=21335"      title="生活館簡介"   >生活館簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=21362&sms=20685"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21363"      title="展覽申請表下載"   >展覽申請表下載</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="10"> <div class="group nav" data-index="10" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21360"      title="玉里觀光導覽網"   >玉里觀光導覽網</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=35694"      title="JUST IN 玉里 LOVE IT LOVE"   >JUST IN 玉里 LOVE IT LOVE</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21361"      title="溫泉專區"   >溫泉專區</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21366"      title="自行車專區"   >自行車專區</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=21367"      title="景觀特色"   >景觀特色</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=21380"      title="遊憩資訊"   >遊憩資訊</a></span></li><li   data-index="6"  >		<span  ><a   href="cl.aspx?n=21385"      title="美食天地"   >美食天地</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=21387"      title="原住民手工藝"   >原住民手工藝</a></span></li><li   data-index="8"  >		<span  ><a   href="cl.aspx?n=21388"      title="部落簡介"   >部落簡介</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="11"> <div class="group nav" data-index="11" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33248"      title="補助訊息公告專區"   >補助訊息公告專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=31153&sms=25225"      title="[另開新視窗]補助訊息公告專區"   target="_blank" rel="noopener noreferrer" >補助訊息公告專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="12"> <div class="group nav" data-index="12" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33249"      title="殯葬管理透明措施"   >殯葬管理透明措施</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=33292&sms=25919"      title="殯葬管理透明措施"   >殯葬管理透明措施</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=41005"      title="花蓮縣玉里鎮公所殯葬資訊服務網"   >花蓮縣玉里鎮公所殯葬資訊服務網</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="13"> <div class="group nav" data-index="13" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33250"      title="公共設施維護管理資訊公開"   >公共設施維護管理資訊公開</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=33294&sms=25920"      title="公共設施維護管理資訊公開"   >公共設施維護管理資訊公開</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="14"> <div class="group nav" data-index="14" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33251"      title="公職人員利益衝突迴避法身分關係揭露專區"   >公職人員利益衝突迴避法身分關係揭露專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=31154&sms=25226"      title="[另開新視窗]公職人員利益衝突迴避法身分關係揭露專區"   target="_blank" rel="noopener noreferrer" >公職人員利益衝突迴避法身分關係揭露專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div class="list-text hot-key-word" data-index="4" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="熱門關鍵字"   >熱門關鍵字</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text link" data-index="5" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="上方連結"   >上方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="Default.aspx"   title="回首頁"   target="_self"  >回首頁</a></span></li><li   data-index="2"  >		<span  ><a   href="SiteMap.aspx"   title="網站導覽"   target="_self"  >網站導覽</a></span></li></ul>
+</div></div></div></div> <div class="list-text link" data-index="6" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="下方連結"   >下方連結</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div></div></div></div></div> <div class="group base-extend" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group default info" data-index="1" data-type="3"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_U" id="Accesskey_U" accesskey="U" title="上方選單連結區，此區塊列有本網站的主要連結">:::</a></span></div></div></div></div> <div class="list-text link" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="上方連結"   >上方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="Default.aspx"   title="回首頁"   target="_self"  >回首頁</a></span></li><li   data-index="2"  >		<span  ><a   href="SiteMap.aspx"   title="網站導覽"   target="_self"  >網站導覽</a></span></li></ul>
+</div></div></div></div> <div class="list-text share" data-func="{&#39;toggleBtn&#39;:{&#39;clickToRemove&#39;:true}}" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="#"   title="分享"   >分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  class="facebook"  >		<span  ><a   href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"   title="Share to Facebook[另開新視窗]"   target="_self"  >Facebook</a></span></li><li   data-index="2"  class="twitter"  >		<span  ><a   href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));"   title="Share to twitter[另開新視窗]"   target="_self"  >Twitter</a></span></li><li   data-index="3"  class="line"  >		<span  ><a   href="javascript: void(window.open('http://line.naver.jp/R/msg/text/?'.concat(encodeURIComponent(location.href)) ));"   title="Share to line[另開新視窗]"   target="_self"  >line</a></span></li><li   data-index="4"  class="email"  >		<span  ><a   href="javascript:  void(window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=' +  encodeURIComponent(document.URL)));"   title="Share to email[另開新視窗]"   target="_self"  >Email</a></span></li></ul>
+</div></div></div></div> <div class="list-text font-size" data-func="{&#39;toggleBtn&#39;:{&#39;clickToRemove&#39;:true},&#39;fontSize&#39;:{}}" data-index="3" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="#"   title="字級"   >字級</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  class="small"  >		<span  ><a   href="#"   title="小 字級"   >小 字級</a></span></li><li   data-index="2"  class="medium"  >		<span  ><a   href="#"   title="中 字級"   >中 字級</a></span></li><li   data-index="3"  class="large"  >		<span  ><a   href="#"   title="大 字級"   >大 字級</a></span></li></ul>
+</div></div></div></div></div></div></div></div> <div class="simple-text major-logo" data-index="2" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><h1><a href="Default.aspx" title="回首頁">花蓮縣玉里鎮公所</a><strong style="display: none;">花蓮縣玉里鎮公所</strong></h1></div></div></div></div> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_L" id="Accesskey_L" accesskey="L" title="左方次要連結區，此區塊列有本網站的次要連結">:::</a></span></div></div></div></div> <div class="group-list nav" data-func="{&#39;majorNavStraight&#39;:{}}" data-index="3" data-type="4" data-child="14"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="14"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19811"      title="璞石玉里"   >璞石玉里</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cp.aspx?n=19812"      title="玉里簡介"   >玉里簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=19813"      title="史蹟源流"   >史蹟源流</a></span></li><li   data-index="3"  >		<span  ><a   href="cp.aspx?n=19814"      title="鎮徽介紹"   >鎮徽介紹</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=19815"      title="金色風華"   >金色風華</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19819"      title="鎮長專欄"   >鎮長專欄</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20168"      title="鎮長介紹"   >鎮長介紹</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21187"      title="鎮長信箱"   >鎮長信箱</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19820"      title="公所介紹"   >公所介紹</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=19821"      title="組織執掌"   >組織執掌</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=19825"      title="行政區域"   >行政區域</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=20079"      title="各課室業務職掌"   >各課室業務職掌</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=26569"      title="通訊服務"   >通訊服務</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20211"      title="資訊公開說明區"   >資訊公開說明區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="11"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20212"      title="資訊公開說明"   >資訊公開說明</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=20213&sms=20186"      title="年度施政計畫"   >年度施政計畫</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=20215&sms=20188"      title="年度預算"   >年度預算</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20216&sms=20189"      title="年度決算"   >年度決算</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20217&sms=20190"      title="補/捐助團體款項 "   >補/捐助團體款項 </a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=20218&sms=20191"      title="代表建設建議事項   "   >代表建設建議事項   </a></span></li><li   data-index="7"  >		<span  ><a   href="News.aspx?n=20219&sms=20192"      title="會計月報 "   >會計月報 </a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=20214&sms=20187"      title="國家賠償受理案件統計表"   >國家賠償受理案件統計表</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=24443&sms=22030"      title="因應預算法62條之1公開事項"   >因應預算法62條之1公開事項</a></span></li><li   data-index="10"  >		<span  ><a   href="cl.aspx?n=34907"      title="[另開新視窗]公務統計報表"   target="_blank" rel="noopener noreferrer" >公務統計報表</a></span></li><li   data-index="11"  >		<span  ><a   href="News.aspx?n=34991&sms=26541"      title="[另開新視窗]國土署核定案件"   target="_blank" rel="noopener noreferrer" >國土署核定案件</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20255"      title="防災專區"   >防災專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="9"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=33145"      title="災情通報處理聯繫窗口"   >災情通報處理聯繫窗口</a></span></li><li   data-index="2"  >		<span  ><a   href="News_Photo.aspx?n=25566&sms=22448"      title="緊急避難資訊"   >緊急避難資訊</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=25570&sms=22450"      title="災害應變中心相關資訊"   >災害應變中心相關資訊</a></span></li><li   data-index="4"  >		<span  ><a   href="News_Link2.aspx?n=25568&sms=22449"      title="災害防救相關網站連結"   >災害防救相關網站連結</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20259&sms=20215"      title="災害防救相關計畫及法規"   >災害防救相關計畫及法規</a></span></li><li   data-index="6"  >		<span  ><a   href="News2.aspx?n=25571&sms=22451"      title="防災演練成果紀錄"   >防災演練成果紀錄</a></span></li><li   data-index="7"  >		<span  ><a   href="News.aspx?n=25573&sms=22454"      title="玉里鎮災害潛勢圖"   >玉里鎮災害潛勢圖</a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=20256&sms=20212"      title="防災宣導下載區"   >防災宣導下載區</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=31145&sms=25227"      title="0403震災相關資訊"   >0403震災相關資訊</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="6"> <div class="group nav" data-index="6" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="https://www.hlyl.gov.tw/News.aspx?n=21145&sms=20617"      title="最新公共債務訊息"   >最新公共債務訊息</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="7"> <div class="group nav" data-index="7" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20260"      title="玉里鎮立圖書館"   >玉里鎮立圖書館</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="12"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20261"      title="圖書館簡介"   >圖書館簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21222"      title="服務項目"   >服務項目</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21246"      title="借閱規則"   >借閱規則</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20262&sms=20216"      title="公告專區"   >公告專區</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20263&sms=20217"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=20264&sms=20218"      title="表單下載"   >表單下載</a></span></li><li   data-index="7"  >		<span  ><a   href="https://library.hccc.gov.tw/lp.asp?ctNode=1036&CtUnit=245&BaseDSD=56&mp=20"      title="電子書查詢"   >電子書查詢</a></span></li><li   data-index="8"  >		<span  ><a   href="http://app.hccc.gov.tw/webpacIndex.jsp"      title="[另開新視窗]花蓮縣館藏查詢"   target="_blank" rel="noopener noreferrer" >花蓮縣館藏查詢</a></span></li><li   data-index="9"  >		<span  ><a   href="https://www.ncl.edu.tw/"      title="[另開新視窗]國家圖書館"   target="_blank" rel="noopener noreferrer" >國家圖書館</a></span></li><li   data-index="10"  >		<span  ><a   href="https://www.nlpi.edu.tw/"      title="[另開新視窗]國立公共資訊圖書館"   target="_blank" rel="noopener noreferrer" >國立公共資訊圖書館</a></span></li><li   data-index="11"  >		<span  ><a   href="https://www.ntl.edu.tw/"      title="[另開新視窗]國立臺灣圖書館"   target="_blank" rel="noopener noreferrer" >國立臺灣圖書館</a></span></li><li   data-index="12"  >		<span  ><a   href="News.aspx?n=30716&sms=24994"      title="[另開新視窗]圓夢繪本有聲故事書"   target="_blank" rel="noopener noreferrer" >圓夢繪本有聲故事書</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="8"> <div class="group nav" data-index="8" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20240"      title="玉里鎮民代表會"   >玉里鎮民代表會</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20241"      title="現任代表介紹"   >現任代表介紹</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=20242"      title=" 代表服務通訊"   > 代表服務通訊</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=20243&sms=20204"      title=" 開會日程表"   > 開會日程表</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20244&sms=20205"      title=" 代表出國報告"   > 代表出國報告</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=20245"      title="議事公開專區"   >議事公開專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="9"> <div class="group nav" data-index="9" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21334"      title="客家生活館"   >客家生活館</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=21335"      title="生活館簡介"   >生活館簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=21362&sms=20685"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21363"      title="展覽申請表下載"   >展覽申請表下載</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="10"> <div class="group nav" data-index="10" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21360"      title="玉里觀光導覽網"   >玉里觀光導覽網</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=35694"      title="JUST IN 玉里 LOVE IT LOVE"   >JUST IN 玉里 LOVE IT LOVE</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21361"      title="溫泉專區"   >溫泉專區</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21366"      title="自行車專區"   >自行車專區</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=21367"      title="景觀特色"   >景觀特色</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=21380"      title="遊憩資訊"   >遊憩資訊</a></span></li><li   data-index="6"  >		<span  ><a   href="cl.aspx?n=21385"      title="美食天地"   >美食天地</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=21387"      title="原住民手工藝"   >原住民手工藝</a></span></li><li   data-index="8"  >		<span  ><a   href="cl.aspx?n=21388"      title="部落簡介"   >部落簡介</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="11"> <div class="group nav" data-index="11" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33248"      title="補助訊息公告專區"   >補助訊息公告專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=31153&sms=25225"      title="[另開新視窗]補助訊息公告專區"   target="_blank" rel="noopener noreferrer" >補助訊息公告專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="12"> <div class="group nav" data-index="12" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33249"      title="殯葬管理透明措施"   >殯葬管理透明措施</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=33292&sms=25919"      title="殯葬管理透明措施"   >殯葬管理透明措施</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=41005"      title="花蓮縣玉里鎮公所殯葬資訊服務網"   >花蓮縣玉里鎮公所殯葬資訊服務網</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="13"> <div class="group nav" data-index="13" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33250"      title="公共設施維護管理資訊公開"   >公共設施維護管理資訊公開</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=33294&sms=25920"      title="公共設施維護管理資訊公開"   >公共設施維護管理資訊公開</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="14"> <div class="group nav" data-index="14" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33251"      title="公職人員利益衝突迴避法身分關係揭露專區"   >公職人員利益衝突迴避法身分關係揭露專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=31154&sms=25226"      title="[另開新視窗]公職人員利益衝突迴避法身分關係揭露專區"   target="_blank" rel="noopener noreferrer" >公職人員利益衝突迴避法身分關係揭露專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div></div></div></div></div> <div class="group base-wrapper" data-index="3" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="group base-header" data-index="1" data-type="3"><div class="in"><div class="ct"><div class="in"> <div class="list-text hot-key-word" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="熱門關鍵字"   >熱門關鍵字</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="area-form search" data-func="{&#39;showDataList&#39;:{}}" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="search"   >search</a></span></div></div></div><div class="ct"><div class="in"><div class="fieldset">
+  <span class="search"><input data-search="btn_caade665d1604ca99c24168230ca0c5f" type="search" placeholder="Search" title="搜尋"></span>
+  <span class="submit"><a href="#" class='CCMS_SearchBtn' data-search="btn_caade665d1604ca99c24168230ca0c5f" title="搜尋" >搜尋</a></span>
+</div>
+<div class="list">
+  <ul data-index="1" data-child="0">
+  </ul>
+</div>
+<script >
+$(function () {
+    $('[data-search="caade665d1604ca99c24168230ca0c5f"]').on("keydown", function (event) {
+        if (event.which == 13) {
+             doSearch($('#btn_caade665d1604ca99c24168230ca0c5f'));
+            return false;
+        }
+    });
+});
+</script>
+</div></div><div class="ft"><div class="in"><ul data-index="1" data-child="1">
+  <li data-index="1" class="advanced"><span><a target="_blank" rel="noopener noreferrer" href="https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.hlyl.gov.tw" title="進階搜尋[另開新視窗]">進階搜尋</a></span></li>
+</ul>
+</div></div></div></div></div></div></div></div> <div id="base-content" class="group base-content" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group base-page-area" data-index="1" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group base-section" data-index="1" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_C" id="Accesskey_C" accesskey="C" title="中間主要內容區，此區塊呈現網頁的網頁內容">:::</a></span></div></div></div></div> <div class="group page-header" data-index="1" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="list-text breadcrumb" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="Default.aspx"   title="首頁"   target="_self"  >首頁</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=20240"   title="玉里鎮民代表會"   target="_self"  >玉里鎮民代表會</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=20242"   title=" 代表服務通訊"   target="_self"  > 代表服務通訊</a></span></li></ul>
+</div></div></div></div> <div class="group default info" data-index="2" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div class="simple-text heading" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><h2><span> 代表服務通訊</span></h2></div></div></div></div> <div class="group default msg-tool" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-func="{&#39;focusContent&#39;:{}}" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#CCMS_Content" title="跳過此子選單列請按[Enter]，繼續則按[Tab]">_</a></span></div></div></div></div> <div class="list-text user-tool" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="javascript :return false;"   title="網頁功能"   target="_self"  >網頁功能</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  class="print"  >		<span  ><a   href="javascript:CCMS_Print(502);"   title="列印內容"   target="_self"  >列印內容</a></span></li><li   data-index="2"  class="bopomofo"  >		<span  ><a   href="#"   title="Bopomofo"   >Bopomofo</a></span></li></ul>
+</div></div></div></div> <div class="list-text share" data-func="{&#39;toggleBtn&#39;:{&#39;clickToRemove&#39;:true}}" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="#"   title="分享"   >分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  class="facebook"  >		<span  ><a   href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"   title="Share to Facebook[另開新視窗]"   target="_self"  >Facebook</a></span></li><li   data-index="2"  class="twitter"  >		<span  ><a   href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));"   title="Share to twitter[另開新視窗]"   target="_self"  >Twitter</a></span></li><li   data-index="3"  class="line"  >		<span  ><a   href="javascript: void(window.open('http://line.naver.jp/R/msg/text/?'.concat(encodeURIComponent(location.href)) ));"   title="Share to line[另開新視窗]"   target="_self"  >line</a></span></li><li   data-index="4"  class="email"  >		<span  ><a   href="javascript:  void(window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=' +  encodeURIComponent(document.URL)));"   title="Share to email[另開新視窗]"   target="_self"  >Email</a></span></li></ul>
+</div></div></div></div></div></div></div></div></div></div></div></div> <div class="area-editor system-info" data-index="3" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><table align="left" border="1" cellpadding="0" cellspacing="0" class="MsoTable15Grid4Accent5" style="width:96.22%;border-collapse:
+ collapse;border:none;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:
+ accent5;mso-border-themetint:153;mso-yfti-tbllook:1184;mso-table-lspace:9.0pt;
+ margin-left:6.75pt;mso-table-rspace:9.0pt;margin-right:6.75pt;mso-table-anchor-vertical:
+ margin;mso-table-anchor-horizontal:page;mso-table-left:34.7pt;mso-table-top:
+ 114.0pt;mso-padding-alt:0cm 5.4pt 0cm 5.4pt" summary="花蓮縣玉里鎮鎮民代表會聯絡名冊" width="96%">
+	<tbody>
+		<tr style="mso-yfti-irow:-1;mso-yfti-firstrow:yes;mso-yfti-lastfirstrow:yes;
+  height:24.75pt">
+			<td colspan="3" nowrap="nowrap" style="width:100.0%;border:solid #4472C4 1.0pt;
+  mso-border-themecolor:accent5;mso-border-alt:solid #4472C4 .5pt;mso-border-themecolor:
+  accent5;background:#4472C4;mso-background-themecolor:accent5;padding:0cm 5.4pt 0cm 5.4pt;
+  height:24.75pt" valign="top" width="100%">
+			<p align="center" class="MsoNormal" style="text-align:center;mso-line-height-alt:
+  18.0pt;mso-pagination:widow-orphan;mso-yfti-cnfc:5;mso-element:frame;
+  mso-element-frame-hspace:9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:
+  page;mso-element-left:34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:20.0pt;mso-bidi-font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:
+  新細明體;color:white;mso-themecolor:background1;letter-spacing:.75pt;mso-font-kerning:
+  0pt">花蓮縣玉里鎮鎮民代表會聯絡名冊</span></b><b><span lang="EN-US" style="font-size:16.0pt;
+  font-family:標楷體;mso-bidi-font-family:新細明體;color:white;mso-themecolor:background1;
+  letter-spacing:.75pt;mso-font-kerning:0pt"><o:p></o:p></span></b></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:0;height:24.75pt">
+			<td nowrap="nowrap" style="border:solid #8EAADB 1.0pt;mso-border-themecolor:
+  accent5;mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt;height:24.75pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:68;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">姓名<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td nowrap="nowrap" style="width:33.62%;border-top:none;
+  border-left:none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:
+  accent5;mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;
+  mso-border-right-themecolor:accent5;mso-border-right-themetint:153;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent5;
+  mso-border-top-themetint:153;mso-border-left-alt:solid #8EAADB .5pt;
+  mso-border-left-themecolor:accent5;mso-border-left-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt;height:24.75pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">行動電話<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td nowrap="nowrap" style="width:33.62%;border-top:none;
+  border-left:none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:
+  accent5;mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;
+  mso-border-right-themecolor:accent5;mso-border-right-themetint:153;
+  mso-border-top-alt:solid #8EAADB .5pt;mso-border-top-themecolor:accent5;
+  mso-border-top-themetint:153;mso-border-left-alt:solid #8EAADB .5pt;
+  mso-border-left-themecolor:accent5;mso-border-left-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt;height:24.75pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">電話<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:1">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:4;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">呂佳怡<span lang="EN-US">(</span>主席<span lang="EN-US">)<o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0937-028202<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">03-8881287<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:2">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:68;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt"><span lang="EN-US"><span style="font-style: normal;">林彩英</span>(</span>副主席<span lang="EN-US">)<o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0933-487080<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">&nbsp;<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:3">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:4;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><font face="標楷體"><span style="font-size: 21.3333px; letter-spacing: 1px;"><b>謝德川</b></span></font></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0910-522774<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly">&nbsp;</p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:4">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:68;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">吳朝成<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0937-169882<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">&nbsp;<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:5">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:4;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><font face="標楷體"><span style="font-size: 21.3333px; letter-spacing: 1px;"><b>吳新文</b></span></font></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0933-998330<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">&nbsp;<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:6">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:68;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">秀吉‧撒夫洛<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0985-984136<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">03-8871505<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:7">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:4;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">徐玉珠<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0900-623357<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">&nbsp;<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:8">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:68;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><font face="標楷體"><span style="font-size: 21.3333px; letter-spacing: 1px;"><b>姜文博</b></span></font></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0933-481891<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">&nbsp;<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:9">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:4;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">周鑾英<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0968-499887<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">03-8880808<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:10">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  background:#D9E2F3;mso-background-themecolor:accent5;mso-background-themetint:
+  51;padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:68;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">張明慧<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0933-486788<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;background:#D9E2F3;mso-background-themecolor:accent5;
+  mso-background-themetint:51;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:64;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">&nbsp;<o:p></o:p></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:11;mso-yfti-lastrow:yes">
+			<td style="border:solid #8EAADB 1.0pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;border-top:none;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-alt:
+  solid #8EAADB .5pt;mso-border-themecolor:accent5;mso-border-themetint:153;
+  padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-yfti-cnfc:4;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><b><span style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">羅世泉<span lang="EN-US"><o:p></o:p></span></span></b></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">0933-486306<o:p></o:p></span></p>
+			</td>
+			<td style="width:33.62%;border-top:none;border-left:
+  none;border-bottom:solid #8EAADB 1.0pt;mso-border-bottom-themecolor:accent5;
+  mso-border-bottom-themetint:153;border-right:solid #8EAADB 1.0pt;mso-border-right-themecolor:
+  accent5;mso-border-right-themetint:153;mso-border-top-alt:solid #8EAADB .5pt;
+  mso-border-top-themecolor:accent5;mso-border-top-themetint:153;mso-border-left-alt:
+  solid #8EAADB .5pt;mso-border-left-themecolor:accent5;mso-border-left-themetint:
+  153;mso-border-alt:solid #8EAADB .5pt;mso-border-themecolor:accent5;
+  mso-border-themetint:153;padding:0cm 5.4pt 0cm 5.4pt" valign="top" width="33%">
+			<p align="center" class="MsoNormal" style="text-align:center;line-height:18.0pt;
+  mso-pagination:widow-orphan;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-horizontal:page;mso-element-left:
+  34.75pt;mso-element-top:114.0pt;mso-height-rule:exactly"><span lang="EN-US" style="font-size:16.0pt;font-family:標楷體;mso-bidi-font-family:新細明體;letter-spacing:
+  .75pt;mso-font-kerning:0pt">03-8886998<o:p></o:p></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div></div></div></div></div></div></div></div> <div class="group page-content " id="CCMS_Content" data-func="{&#39;linkType&#39;:{&#39;domains&#39;:[&#39;https://ws.hl.gov.tw&#39;,&#39;https://ws.hl.gov.tw&#39;]}}" data-index="2" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in">
+        
+        
+    
+</div></div></div></div> <div class="group page-footer" data-index="3" data-type="3" data-child="4"><div class="in"><div class="ct"><div class="in"> <div class="area-editor system-info" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"></div></div></div></div> <div class="list-text detail" data-index="2" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div> <div class="list-text jump-tool" data-index="3" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  class="back"  >		<span  ><a   href="javascript:window.location =document.referrer;"   title="回上一頁"   target="_self"  >回上一頁</a></span></li><li   data-index="2"  class="to-top"  >		<span  ><a   href="#Accesskey_U"   title="回最上面"   target="_self"  >回最上面</a></span></li></ul>
+</div></div></div></div>
+        </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div> <div class="group base-footer" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;close&#39;,&#39;btnActiveText&#39;:&#39;open&#39;,&#39;focusActive&#39;:false}}" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a    title="選單"   >選單</a></span></div></div></div><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_Z" id="Accesskey_Z" accesskey="Z" title="下方選單連結區塊，為頁尾網站資訊">:::</a></span></div></div></div></div> <div class="group-list nav" data-func="{&#39;setNavLen&#39;:{}}" data-index="1" data-type="4" data-child="21"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="21"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19811"      title="璞石玉里"   >璞石玉里</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cp.aspx?n=19812"      title="玉里簡介"   >玉里簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=19813"      title="史蹟源流"   >史蹟源流</a></span></li><li   data-index="3"  >		<span  ><a   href="cp.aspx?n=19814"      title="鎮徽介紹"   >鎮徽介紹</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=19815"      title="金色風華"   >金色風華</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19819"      title="鎮長專欄"   >鎮長專欄</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20168"      title="鎮長介紹"   >鎮長介紹</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21187"      title="鎮長信箱"   >鎮長信箱</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19805"      title="訊息廣場"   >訊息廣場</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="9"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=19806&sms=20021"      title="最新消息"   >最新消息</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=20121&sms=20669"      title="一般公告"   >一般公告</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=26577&sms=20667"      title="法規公告"   >法規公告</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=19808&sms=20668"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="5"  >		<span  ><a   href="News_Video.aspx?n=20120&sms=20153"      title="影音專區"   >影音專區</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=20131&sms=20185"      title="防災資訊"   >防災資訊</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=21213"      title="文件下載"   >文件下載</a></span></li><li   data-index="8"  >		<span  ><a   href="cl.aspx?n=21199"      title="常見問答"   >常見問答</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=36575&sms=27974"      title="首長出國報告"   >首長出國報告</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21136"      title="課室業務"   >課室業務</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="10"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=21138"      title="民政課"   >民政課</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21143"      title="財政課"   >財政課</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21147"      title="建設課"   >建設課</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=21151"      title="農業課"   >農業課</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=21152"      title="原民課"   >原民課</a></span></li><li   data-index="6"  >		<span  ><a   href="cl.aspx?n=21153"      title="行政室"   >行政室</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=21154"      title="主計室"   >主計室</a></span></li><li   data-index="8"  >		<span  ><a   href="cl.aspx?n=21156"      title="人事室"   >人事室</a></span></li><li   data-index="9"  >		<span  ><a   href="cl.aspx?n=21157"      title="環保暨殯葬管理所"   >環保暨殯葬管理所</a></span></li><li   data-index="10"  >		<span  ><a   href="cl.aspx?n=21313"      title="市場管理所"   >市場管理所</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19820"      title="公所介紹"   >公所介紹</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=19821"      title="組織執掌"   >組織執掌</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=19825"      title="行政區域"   >行政區域</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=20079"      title="各課室業務職掌"   >各課室業務職掌</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=26569"      title="通訊服務"   >通訊服務</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="6"> <div class="group nav" data-index="6" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=19827"      title="村里導覽"   >村里導覽</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="16"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20187"      title="行政位置"   >行政位置</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21195"      title="各里沿革"   >各里沿革</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=20170"      title="德武里"   >德武里</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=20171"      title="春日里"   >春日里</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=20172"      title="松浦里"   >松浦里</a></span></li><li   data-index="6"  >		<span  ><a   href="cl.aspx?n=20173"      title="觀音里"   >觀音里</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=20175"      title="樂合里"   >樂合里</a></span></li><li   data-index="8"  >		<span  ><a   href="cl.aspx?n=20176"      title="源城里"   >源城里</a></span></li><li   data-index="9"  >		<span  ><a   href="cl.aspx?n=20177"      title="東豐里"   >東豐里</a></span></li><li   data-index="10"  >		<span  ><a   href="cl.aspx?n=20178"      title="長良里"   >長良里</a></span></li><li   data-index="11"  >		<span  ><a   href="cl.aspx?n=20179"      title="中城里"   >中城里</a></span></li><li   data-index="12"  >		<span  ><a   href="cl.aspx?n=20181"      title="泰昌里"   >泰昌里</a></span></li><li   data-index="13"  >		<span  ><a   href="cl.aspx?n=20182"      title="大禹里"   >大禹里</a></span></li><li   data-index="14"  >		<span  ><a   href="cl.aspx?n=20183"      title="啟模里"   >啟模里</a></span></li><li   data-index="15"  >		<span  ><a   href="cl.aspx?n=20184"      title="永昌里"   >永昌里</a></span></li><li   data-index="16"  >		<span  ><a   href="cl.aspx?n=20186"      title="三民里"   >三民里</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="7"> <div class="group nav" data-index="7" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20225"      title="法規查詢"   >法規查詢</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="https://law.moj.gov.tw/index.aspx"      title="[另開新視窗]全國法規資料庫"   target="_blank" rel="noopener noreferrer" >全國法規資料庫</a></span></li><li   data-index="2"  >		<span  ><a   href="https://glrs.hl.gov.tw/glrsout/"      title="[另開新視窗]本縣自治法規"   target="_blank" rel="noopener noreferrer" >本縣自治法規</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=21260&sms=20665"      title="[另開新視窗]地方自治法規(本公所自治法規)"   target="_blank" rel="noopener noreferrer" >地方自治法規(本公所自治法規)</a></span></li><li   data-index="4"  >		<span  ><a   href="http://www.libel.com.tw/"      title="[另開新視窗]訴狀宅急便(專業訴狀分類)"   target="_blank" rel="noopener noreferrer" >訴狀宅急便(專業訴狀分類)</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="8"> <div class="group nav" data-index="8" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20211"      title="資訊公開說明區"   >資訊公開說明區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="11"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20212"      title="資訊公開說明"   >資訊公開說明</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=20213&sms=20186"      title="年度施政計畫"   >年度施政計畫</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=20215&sms=20188"      title="年度預算"   >年度預算</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20216&sms=20189"      title="年度決算"   >年度決算</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20217&sms=20190"      title="補/捐助團體款項 "   >補/捐助團體款項 </a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=20218&sms=20191"      title="代表建設建議事項   "   >代表建設建議事項   </a></span></li><li   data-index="7"  >		<span  ><a   href="News.aspx?n=20219&sms=20192"      title="會計月報 "   >會計月報 </a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=20214&sms=20187"      title="國家賠償受理案件統計表"   >國家賠償受理案件統計表</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=24443&sms=22030"      title="因應預算法62條之1公開事項"   >因應預算法62條之1公開事項</a></span></li><li   data-index="10"  >		<span  ><a   href="cl.aspx?n=34907"      title="[另開新視窗]公務統計報表"   target="_blank" rel="noopener noreferrer" >公務統計報表</a></span></li><li   data-index="11"  >		<span  ><a   href="News.aspx?n=34991&sms=26541"      title="[另開新視窗]國土署核定案件"   target="_blank" rel="noopener noreferrer" >國土署核定案件</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="9"> <div class="group nav" data-index="9" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20228"      title="文化典藏"   >文化典藏</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=20230&sms=20197"      title="玉里鎮志下載"   >玉里鎮志下載</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=20231&sms=20198"      title="繪本"   >繪本</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="10"> <div class="group nav" data-index="10" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20255"      title="防災專區"   >防災專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="9"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=33145"      title="災情通報處理聯繫窗口"   >災情通報處理聯繫窗口</a></span></li><li   data-index="2"  >		<span  ><a   href="News_Photo.aspx?n=25566&sms=22448"      title="緊急避難資訊"   >緊急避難資訊</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=25570&sms=22450"      title="災害應變中心相關資訊"   >災害應變中心相關資訊</a></span></li><li   data-index="4"  >		<span  ><a   href="News_Link2.aspx?n=25568&sms=22449"      title="災害防救相關網站連結"   >災害防救相關網站連結</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20259&sms=20215"      title="災害防救相關計畫及法規"   >災害防救相關計畫及法規</a></span></li><li   data-index="6"  >		<span  ><a   href="News2.aspx?n=25571&sms=22451"      title="防災演練成果紀錄"   >防災演練成果紀錄</a></span></li><li   data-index="7"  >		<span  ><a   href="News.aspx?n=25573&sms=22454"      title="玉里鎮災害潛勢圖"   >玉里鎮災害潛勢圖</a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=20256&sms=20212"      title="防災宣導下載區"   >防災宣導下載區</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=31145&sms=25227"      title="0403震災相關資訊"   >0403震災相關資訊</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="11"> <div class="group nav" data-index="11" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20232"      title="行政透明專區"   >行政透明專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=20233&sms=20199"      title="重大工程監造日誌"   >重大工程監造日誌</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=20234&sms=20200"      title="近期施作工程"   >近期施作工程</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=20235&sms=20201"      title="公共工程違失通報"   >公共工程違失通報</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20237&sms=20202"      title="廉政志工專區"   >廉政志工專區</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20238&sms=20203"      title="公職人員利益衝突迴避專區"   >公職人員利益衝突迴避專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="12"> <div class="group nav" data-index="12" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="https://www.hlyl.gov.tw/News.aspx?n=21145&sms=20617"      title="最新公共債務訊息"   >最新公共債務訊息</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="13"> <div class="group nav" data-index="13" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20260"      title="玉里鎮立圖書館"   >玉里鎮立圖書館</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="12"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20261"      title="圖書館簡介"   >圖書館簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21222"      title="服務項目"   >服務項目</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21246"      title="借閱規則"   >借閱規則</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20262&sms=20216"      title="公告專區"   >公告專區</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=20263&sms=20217"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=20264&sms=20218"      title="表單下載"   >表單下載</a></span></li><li   data-index="7"  >		<span  ><a   href="https://library.hccc.gov.tw/lp.asp?ctNode=1036&CtUnit=245&BaseDSD=56&mp=20"      title="電子書查詢"   >電子書查詢</a></span></li><li   data-index="8"  >		<span  ><a   href="http://app.hccc.gov.tw/webpacIndex.jsp"      title="[另開新視窗]花蓮縣館藏查詢"   target="_blank" rel="noopener noreferrer" >花蓮縣館藏查詢</a></span></li><li   data-index="9"  >		<span  ><a   href="https://www.ncl.edu.tw/"      title="[另開新視窗]國家圖書館"   target="_blank" rel="noopener noreferrer" >國家圖書館</a></span></li><li   data-index="10"  >		<span  ><a   href="https://www.nlpi.edu.tw/"      title="[另開新視窗]國立公共資訊圖書館"   target="_blank" rel="noopener noreferrer" >國立公共資訊圖書館</a></span></li><li   data-index="11"  >		<span  ><a   href="https://www.ntl.edu.tw/"      title="[另開新視窗]國立臺灣圖書館"   target="_blank" rel="noopener noreferrer" >國立臺灣圖書館</a></span></li><li   data-index="12"  >		<span  ><a   href="News.aspx?n=30716&sms=24994"      title="[另開新視窗]圓夢繪本有聲故事書"   target="_blank" rel="noopener noreferrer" >圓夢繪本有聲故事書</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="14"> <div class="group nav" data-index="14" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=20240"      title="玉里鎮民代表會"   >玉里鎮民代表會</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=20241"      title="現任代表介紹"   >現任代表介紹</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=20242"      title=" 代表服務通訊"   > 代表服務通訊</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=20243&sms=20204"      title=" 開會日程表"   > 開會日程表</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=20244&sms=20205"      title=" 代表出國報告"   > 代表出國報告</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=20245"      title="議事公開專區"   >議事公開專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="15"> <div class="group nav" data-index="15" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21258"      title="民政行動查報"   >民政行動查報</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="13"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=21111&sms=20599"      title="水溝不通"   >水溝不通</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=21129&sms=20608"      title="違建通報"   >違建通報</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=21130&sms=20609"      title="違規廣告"   >違規廣告</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=21131&sms=20610"      title="道路坑洞"   >道路坑洞</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=21132&sms=20611"      title="路樹修剪"   >路樹修剪</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=21133&sms=20612"      title="路燈報修"   >路燈報修</a></span></li><li   data-index="7"  >		<span  ><a   href="News.aspx?n=21134&sms=20613"      title="髒亂點通報"   >髒亂點通報</a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=21135&sms=20614"      title="一般查報"   >一般查報</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=21127&sms=20605"      title="野狗捕捉"   >野狗捕捉</a></span></li><li   data-index="10"  >		<span  ><a   href="News.aspx?n=21126&sms=20664"      title="水溝溝蓋"   >水溝溝蓋</a></span></li><li   data-index="11"  >		<span  ><a   href="News.aspx?n=21125&sms=20604"      title="災害通報"   >災害通報</a></span></li><li   data-index="12"  >		<span  ><a   href="News.aspx?n=21110&sms=20598"      title="大型廢棄物"   >大型廢棄物</a></span></li><li   data-index="13"  >		<span  ><a   href="News.aspx?n=21128&sms=20606"      title="無牌廢棄車輛拖吊"   >無牌廢棄車輛拖吊</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="16"> <div class="group nav" data-index="16" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21334"      title="客家生活館"   >客家生活館</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=21335"      title="生活館簡介"   >生活館簡介</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=21362&sms=20685"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21363"      title="展覽申請表下載"   >展覽申請表下載</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="17"> <div class="group nav" data-index="17" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=21360"      title="玉里觀光導覽網"   >玉里觀光導覽網</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=35694"      title="JUST IN 玉里 LOVE IT LOVE"   >JUST IN 玉里 LOVE IT LOVE</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=21361"      title="溫泉專區"   >溫泉專區</a></span></li><li   data-index="3"  >		<span  ><a   href="cl.aspx?n=21366"      title="自行車專區"   >自行車專區</a></span></li><li   data-index="4"  >		<span  ><a   href="cl.aspx?n=21367"      title="景觀特色"   >景觀特色</a></span></li><li   data-index="5"  >		<span  ><a   href="cl.aspx?n=21380"      title="遊憩資訊"   >遊憩資訊</a></span></li><li   data-index="6"  >		<span  ><a   href="cl.aspx?n=21385"      title="美食天地"   >美食天地</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=21387"      title="原住民手工藝"   >原住民手工藝</a></span></li><li   data-index="8"  >		<span  ><a   href="cl.aspx?n=21388"      title="部落簡介"   >部落簡介</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="18"> <div class="group nav" data-index="18" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33248"      title="補助訊息公告專區"   >補助訊息公告專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=31153&sms=25225"      title="[另開新視窗]補助訊息公告專區"   target="_blank" rel="noopener noreferrer" >補助訊息公告專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="19"> <div class="group nav" data-index="19" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33249"      title="殯葬管理透明措施"   >殯葬管理透明措施</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=33292&sms=25919"      title="殯葬管理透明措施"   >殯葬管理透明措施</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=41005"      title="花蓮縣玉里鎮公所殯葬資訊服務網"   >花蓮縣玉里鎮公所殯葬資訊服務網</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="20"> <div class="group nav" data-index="20" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33250"      title="公共設施維護管理資訊公開"   >公共設施維護管理資訊公開</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=33294&sms=25920"      title="公共設施維護管理資訊公開"   >公共設施維護管理資訊公開</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="21"> <div class="group nav" data-index="21" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headH3"  >		<span  ><a   href="cl.aspx?n=33251"      title="公職人員利益衝突迴避法身分關係揭露專區"   >公職人員利益衝突迴避法身分關係揭露專區</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=31154&sms=25226"      title="[另開新視窗]公職人員利益衝突迴避法身分關係揭露專區"   target="_blank" rel="noopener noreferrer" >公職人員利益衝突迴避法身分關係揭露專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div class="group default info" data-index="1" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="list-text link" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="下方連結"   >下方連結</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="simple-text update-time" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="本站更新"   >本站更新</a></span></div></div></div><div class="ct"><div class="in"><span>115-10-19</span></div></div></div></div> <div class="simple-text visit-count" data-index="3" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="瀏覽人次"   >瀏覽人次</a></span></div></div></div><div class="ct"><div class="in"><span id="footer_visitcount_span">..</span></div></div></div></div> <div class="area-editor address" data-func="{&#39;linkToMap&#39;:{&#39;bindClass&#39;:&#39;.map&#39;,&#39;linkClass&#39;:&#39;is-map&#39;}}" data-index="4" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><p>花蓮縣玉里鎮公所（ http://www.hlyl.gov.tw）&nbsp;&nbsp;</p>
+
+<p>地址：花蓮縣玉里鎮中正路148號&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>郵件信箱：hlyl@hlyl.gov.tw&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>電話：03-8883166&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p>傳真：03-8882674&nbsp;&nbsp;&nbsp;</p>
+
+<p>路燈報修專線：03-8883440</p>
+</div></div></div></div> <div class="list-pic icon" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  class="E-Gov"  >		<span style="background-image: url('/images/egov.png');" ><a   href="//www.gov.tw/"   title="[另開新視窗]我的E政府 [另開新視窗]"   target="_blank" rel="noopener noreferrer" ><img src="/images/egov.png" alt="我的E政府 [另開新視窗]"   /></a></span></li></ul>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7DFBA79C" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div></form>
+    <script src="Scripts/jHandicapFree.js"></script>
+<script  src='https://www.hlyl.gov.tw/js/require.js'></script>
+<script>
+        requirejs.config({  
+             baseUrl:'https://www.hlyl.gov.tw/js'
+        }); 
+        requirejs(['main'], function (func) {
+            func();
+        });
+</script>
+</body>
+</html>
+

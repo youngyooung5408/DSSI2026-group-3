@@ -1,0 +1,10 @@
+{
+  "source_url": "https://db.cec.gov.tw/",
+  "original_archive": "election/raw/cec/votedata.zip",
+  "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+  "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/V1/elbase.csv",
+  "path": "data/raw/cross_office_round8_20261019/2022_village_elbase.csv",
+  "sha256": "4d0afbae084ccd77785ebe9a878eadb7e97e828555926d92866dddbfb4b14e79",
+  "extracted_date": "2026-10-19",
+  "method": "extract unchanged bytes from previously preserved official ZIP; no new network request"
+}

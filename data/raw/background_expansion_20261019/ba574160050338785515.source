@@ -1,0 +1,737 @@
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="rights" content="牧迪網頁設計" />
+<meta name="author" content="牧迪網頁設計" />
+<meta name="keywords" content="漾新聞,Young News, 高雄 ,台灣,在地,教育,學校,陳其邁,柯志恩,賴瑞隆,即時 #追蹤漾新聞看更多">
+<meta name="description" content="漾新聞是強調原創新聞（自採自寫）與獨家新聞，以及影音新聞為優先的媒體，每天報導民眾關心的時事，以高雄為主，再輻射到屏東、台南、台中、台北，從市政、黨政、教育、藝文、觀光到社區大小事，讓城市動起來、讓新聞有溫度。
+優質新聞 真實報導 資訊分享 也為民發聲。
+漾新聞陪你看見高雄／台灣的每一刻！
+
+#漾新聞 #高雄 #在地 #即時 #追蹤漾新聞看更多
+網站網址 https://www.youngnews3631.com">
+<link rel="shortcut icon" href="favicon.ico?20261019162020">
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!--link rel="stylesheet" href="css/swipebox.css"-->
+
+<link rel="stylesheet" href="css/style.css?v=1758320254" >
+<link rel="stylesheet" href="css/bootstrap-edit.css?v=1758208974" > 
+
+     <title>漾新聞｜旗美最年輕參選人李振豪出征　喊話為客家原鄉拚新未來 - 漾新聞Young News</title>
+
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="漾新聞｜旗美最年輕參選人李振豪出征　喊話為客家原鄉拚新未來">
+    <meta property="og:url" content="https://youngnews3631.com/news_detail.php?NewsID=16253">
+    <meta property="og:description" content="【漾新聞記者黃山高／高雄報導】高雄市議員第一選區國民黨提名候選人李振豪，是旗美地區最年輕參選人，29日在美濃「原鄉緣紙傘文化村」召開參選記者會，希望透過正式的機會請大家多宣傳，其他包括鳳山地區有很多年輕人當市議員，本地區目前還沒有年輕的曙光亮出來，希望年輕人出來政壇氣象會愈來愈好。
+
+
+
+&amp;nbsp;李振豪展現新世代參政者的專業與行動力，將積極推動農業升級轉型、促進地方特色產業發展、活化觀...">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://youngnews3631.com/images/newsimg/small/ImgFull_260529093714.jpeg">
+    <meta property="og:site_name" content="漾新聞Young News">
+
+    <!-- Twitter Card Meta Tags (可选) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="漾新聞｜旗美最年輕參選人李振豪出征　喊話為客家原鄉拚新未來">
+    <meta name="twitter:description" content="【漾新聞記者黃山高／高雄報導】高雄市議員第一選區國民黨提名候選人李振豪，是旗美地區最年輕參選人，29日在美濃「原鄉緣紙傘文化村」召開參選記者會，希望透過正式的機會請大家多宣傳，其他包括鳳山地區有很多年輕人當市議員，本地區目前還沒有年輕的曙光亮出來，希望年輕人出來政壇氣象會愈來愈好。
+
+
+
+&amp;nbsp;李振豪展現新世代參政者的專業與行動力，將積極推動農業升級轉型、促進地方特色產業發展、活化觀...">
+    <meta name="twitter:image" content="https://youngnews3631.com/images/newsimg/small/ImgFull_260529093714.jpeg">
+</head>
+<body class="navbar_padding">
+    
+<!-- 整個 header 固定 -->
+<header class="border-bottom fixed-top bg-white shadow-sm">
+    <div class="container py-2">
+        <!-- 第一行：Logo (左) + 搜尋 + 會員 (右) -->
+        <div class="d-flex align-items-center justify-content-between">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.php">
+                <img src="../images/logo.png" alt="漾新聞Young News" height="45">
+            </a>
+
+            <!-- 右側：搜尋 + 會員 -->
+            <div class="d-flex align-items-center">
+                <!-- 搜尋框 (桌面版小尺寸) -->
+                 <!-- 會員圖示 +日期-->
+	 
+				<div>2026/10/19</div>&nbsp;&nbsp;
+				<a href="login.php" class="btn btn-secondary btn-sm me-2" title="登入">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+<form class="d-none d-md-flex me-3" role="search" action="search.php" method="GET">
+    <input class="form-control form-control-sm me-2 w-auto" type="search" name="keyword" placeholder="搜尋" aria-label="Search" required>
+    <button class="btn btn-sm btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+</form>
+               
+
+                <!-- 手機版選單按鈕 -->
+                <button class="btn btn-outline-secondary d-lg-none ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+     <!-- 第二行：桌面版導覽列 -->
+    <nav class="navbar navbar-expand-lg  d-none d-lg-block custom-nav">
+        <div class="container">
+            <div class="collapse navbar-collapse show justify-content-center">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+					 <li class="nav-item"><a class="nav-link" href="index.php">首頁</a></li>
+					 <li class="nav-item"><a class="nav-link" href="news_home.php">即時</a></li>
+                    <li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E5%BD%B1%E9%9F%B3">影音</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E6%94%BF%E6%B2%BB">政治</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E7%94%A2%E7%B6%93">產經</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E8%A7%80%E5%85%89">觀光</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E6%95%99%E8%82%B2">教育</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E8%97%9D%E6%96%87">藝文</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E7%A4%BE%E6%9C%83">社會</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E9%AB%94%E8%82%B2">體育</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E5%81%A5%E5%BA%B7">健康</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E7%94%9F%E6%B4%BB">生活</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E5%85%A9%E5%B2%B8">兩岸</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E5%89%AF%E5%88%8A">副刊</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E6%B4%BB%E5%8B%95">活動</a>
+                              </li><li class="nav-item">
+                                <a class="nav-link" href="news_home.php?MidCode=%E8%A9%95%E8%AB%96">評論</a>
+                              </li>                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- 手機版 Offcanvas 選單 -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="mobileMenuLabel">選單</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <!-- 搜尋框 (手機版顯示) -->
+<form class="d-flex mb-3" role="search" action="search.php" method="GET">
+    <input class="form-control form-control-sm me-2 w-auto" type="search" name="keyword" placeholder="搜尋" aria-label="Search" required>
+    <button class="btn btn-sm btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+</form>
+
+    <!-- 手機版導覽項目 (一行兩個) -->
+    <div class="row g-2">
+	<div class="col-6"><a class="btn btn-outline-secondary w-100" href="index.php">首頁</a></div>
+	<div class="col-6"><a class="btn btn-outline-secondary w-100" href="news_home_n.php">即時</a></div>	
+        <div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E5%BD%B1%E9%9F%B3">影音</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E6%94%BF%E6%B2%BB">政治</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E7%94%A2%E7%B6%93">產經</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E8%A7%80%E5%85%89">觀光</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E6%95%99%E8%82%B2">教育</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E8%97%9D%E6%96%87">藝文</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E7%A4%BE%E6%9C%83">社會</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E9%AB%94%E8%82%B2">體育</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E5%81%A5%E5%BA%B7">健康</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E7%94%9F%E6%B4%BB">生活</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E5%85%A9%E5%B2%B8">兩岸</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E5%89%AF%E5%88%8A">副刊</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E6%B4%BB%E5%8B%95">活動</a>
+                  </div><div class="col-6">
+                    <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E8%A9%95%E8%AB%96">評論</a>
+                  </div>    </div>
+  </div>
+</div>
+
+<!--=======主要内容 ===================================-->    
+<div class="container my-4">
+    <article class="card shadow-sm px-3 py-4 px-md-5 py-md-5">
+        <div class="news-header">
+            <!-- 新聞標題 -->
+            <h1 class="news-title">漾新聞｜旗美最年輕參選人李振豪出征　喊話為客家原鄉拚新未來</h1>
+
+            <!-- 新聞資訊 -->
+            <div class="d-flex flex-wrap justify-content-center text-muted gap-3 pb-2 mb-4 border-bottom">
+                <span><i class="fas fa-tag"></i> 政治</span>
+                <span>
+                    <i class="fas fa-calendar-alt"></i>
+                    <time datetime="2026-05-29T15:56:00">
+                        2026-05-29 15:56                    </time>
+                </span>
+                                
+				
+            </div>
+			<!-- AddToAny BEGIN -->
+			<div class="a2a_kit a2a_kit_size_32 a2a_default_style" style='display: flex; justify-content: right;margin-bottom:2%'>
+			<a class="a2a_button_line"></a>
+			<a class="a2a_button_facebook"></a>	
+			<a class="a2a_button_wechat"></a>
+			<a class="a2a_button_x"></a>	
+			<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+			</div>
+
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+			<!-- AddToAny END -->	
+            <!-- 新聞圖片 -->
+					
+           			<img 
+				src="/images/newsimg/small/ImgFull_260529093714.jpeg" 
+				class="img-fluid rounded my-3"
+				alt="漾新聞｜旗美最年輕參選人李振豪出征　喊話為客家原鄉拚新未來"
+				loading="lazy"
+			>
+			
+            <!-- 新聞內容（內文圖片響應式） -->
+   <div class="news-content ">
+    <div class="mb-3">  <div class="ratio ratio-16x9">    <iframe src=" https://www.youtube.com/embed/2B_mJlZZmeU?si=n_HrynGQ4sy7HnWs" title="YouTube video" allowfullscreen></iframe>  </div></div><p>【漾新聞記者黃山高／高雄報導】高雄市議員第一選區國民黨提名候選人李振豪，是旗美地區最年輕參選人，29日在美濃「原鄉緣紙傘文化村」召開參選記者會，希望透過正式的機會請大家多宣傳，其他包括鳳山地區有很多年輕人當市議員，本地區目前還沒有年輕的曙光亮出來，希望年輕人出來政壇氣象會愈來愈好。</p>
+
+<p><img loading="lazy" class="img-fluid rounded my-3 news-img-80" alt="新聞圖片" src="https://www.youngnews3631.com/images/newsimg/small/2605290937140.jpeg" /></p>
+
+<p>&nbsp;李振豪展現新世代參政者的專業與行動力，將積極推動農業升級轉型、促進地方特色產業發展、活化觀光資源、打造青年返鄉就業平台，為旗美創造更多優質工作機會，讓青年願意回來、留下來、發展起來。</p>
+
+<p>&nbsp;李振豪是前議員李鴻鈞兒子，李鴻鈞是「原鄉緣紙傘廠」創辦人，致力於傳承本土文化藝術油紙傘之保存與推廣工作，1989年成立「原鄉緣紙傘廠」，秉持「原鄉繫情意，傘緣傳千里」，賦予傳統手工藝「油紙傘」現代使命感，塑造「以傘結緣」的文化村，開拓美濃客家文化新領域，設立「原鄉緣紙傘文化村」，1994年落成啟用，成為最具客家文化代表的「香格里拉」。</p>
+
+<p><img loading="lazy" class="img-fluid rounded my-3 news-img-80" alt="新聞圖片" src="https://www.youngnews3631.com/images/newsimg/small/2605290937141.jpeg" /></p>
+
+<p>&nbsp;李振豪為南藝大音樂學系學士、客家藝文音樂青年老師、教育部評審委員，國民黨中央黨部青年部副主任、國民黨中央委員、外交部國際青年大使，李振豪選舉看板以自己姓名諧音有「你真好」，懇託給年輕人有服務的機會：青創力、新活力、新發展、新建設。</p>
+
+<p><img loading="lazy" class="img-fluid rounded my-3 news-img-80" alt="新聞圖片" src="https://www.youngnews3631.com/images/newsimg/small/16253_1.jpg" /></p>
+
+<p>&nbsp;李振豪象徵客家人「硬頸精神」，展現年輕世代勇於承擔、全力拚戰的強烈勝選企圖心，懷抱對旗美地區深厚情感正式投入選戰，他指稱大旗美地區是高雄珍貴的後花園，擁有豐厚的人文底蘊、農業實力、自然景觀與觀光資源，但長年面臨人口外流、青年返鄉困難與建設發展不均等挑戰，他強調地方值得被更多人看見，更值得擁有更好的未來。</p>
+
+<p>圖說｜第一選區國民黨提名候選人李振豪，是旗美地區最年輕參選人，在美濃「原鄉緣文化村」招開參選記者會。 &nbsp; &nbsp; &nbsp;（黃山高攝）</p>
+
+<p>【版權所有 翻印必究】#漾新聞 #高雄</p>
+
+<p>看更多新聞請點選【漾新聞官網】網址https://youngnews3631.com/index.php</p>
+<div class="row g-3 mb-4"></div><div class="row g-3"><div class="col-12">  <div class="ratio ratio-16x9">    <iframe src=" https://www.youtube.com/embed/P65lgIrRIWI?si=dq5goUHeM7fsg8oD" title="YouTube video 2" allowfullscreen></iframe>  </div></div><div class="col-12">  <div class="ratio ratio-16x9">    <iframe src="https://www.youtube.com/embed/OucXjqj6UCM?si=WE55kLXgCaS1yqbp" title="YouTube video 3" allowfullscreen></iframe>  </div></div><div class="col-12">  <div class="ratio ratio-16x9">    <iframe src=" https://www.youtube.com/embed/wzhun35WZIM?si=78INtpUeZfk2csVP" title="YouTube video 4" allowfullscreen></iframe>  </div></div></div></div>
+
+
+            <!-- 返回按鈕 -->
+            <a href="index.php" class="btn btn-outline-secondary mt-4">
+                <i class="fas fa-arrow-left"></i> 返回上一頁
+            </a>
+        </div>
+    </article>
+
+    <!-- 相關新聞 -->
+        <section class="mt-5">
+        <h2 class="h4 mb-3">相關新聞</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                <a href="news_detail.php?NewsID=18911" class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                                                <img src="images/newsimg/small/20261019160739.jpg" class="card-img-top img-fluid" alt="選戰倒數40天！青壯世代邱俊憲、黃文志、何權峰跨選區路口聯合拜票挺育兒家庭" loading="lazy">
+                                                <div class="card-body">
+                            <h3 class="card-title h6">選戰倒數40天！青壯世代邱俊憲、黃文志、何權峰跨選區路口聯合拜票挺育兒家庭</h3>
+                            <p class="card-text text-muted mb-0">2026-10-19</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                        <div class="col">
+                <a href="news_detail.php?NewsID=18904" class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                                                <img src="images/newsimg/small/20261019140132.jpg" class="card-img-top img-fluid" alt="林智鴻力挺沈伯洋「洋流」　500條飄帶秒殺政策帶進議會" loading="lazy">
+                                                <div class="card-body">
+                            <h3 class="card-title h6">林智鴻力挺沈伯洋「洋流」　500條飄帶秒殺政策帶進議會</h3>
+                            <p class="card-text text-muted mb-0">2026-10-19</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                        <div class="col">
+                <a href="news_detail.php?NewsID=18899" class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                                                <img src="images/newsimg/small/20261018222940.jpg" class="card-img-top img-fluid" alt="李雅靜玩瘋了！跳進鳳山水樂園遭童水槍圍攻" loading="lazy">
+                                                <div class="card-body">
+                            <h3 class="card-title h6">李雅靜玩瘋了！跳進鳳山水樂園遭童水槍圍攻</h3>
+                            <p class="card-text text-muted mb-0">2026-10-18</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                    </div>
+    </section>
+    <!---推薦新聞---------------------------------------->	 
+ <section class="container mt-5">
+  <div class="section-header">
+    <h2 class="section-title">推薦新聞</h2>
+    <!--a href="#" class="view-all">查看全部 <i class="fas fa-chevron-right"></i></a-->
+  </div>
+
+  <ul class="list-unstyled">
+    
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18911" class="text-decoration-none">
+                    選戰倒數40天！青壯世代邱俊憲、黃文志、何權峰跨選區路口聯合拜票挺育兒家庭
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18910" class="text-decoration-none">
+                    高雄鹹酥雞嘉年華88家名店開炸　雙日美食派對登場 
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18909" class="text-decoration-none">
+                    高雄漾藝博11月駁二登場　34新銳藝術家亮相聯票開賣 
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18908" class="text-decoration-none">
+                    蔡健雅高流首唱B面金曲　四千歌迷感動合唱 打狗祭「KMC Select」打造150分鐘音樂盛宴
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18907" class="text-decoration-none">
+                    高雄醫師公會80週年特展揭幕　百年史料揭醫界結社新發現
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18906" class="text-decoration-none">
+                    鳳山高中學生全英文解析樂透機率與降噪耳機　美菲學者肯定雙語數學AI專題成果
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18905" class="text-decoration-none">
+                    彌陀國中和平壁畫牽起台日情誼　長崎貴賓走進世界客廳
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18904" class="text-decoration-none">
+                    林智鴻力挺沈伯洋「洋流」　500條飄帶秒殺政策帶進議會
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18903" class="text-decoration-none">
+                    右昌國小潔牙奪全國金牌　師生相擁喜極而泣
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18902" class="text-decoration-none">
+                    吉洋國小客家藝文競賽南區初賽績優
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18901" class="text-decoration-none">
+                    旗美高中把家鄉變成教室
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18900" class="text-decoration-none">
+                    高科大華南校友會20週年　跨海金門深化校友情與校際交流
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18899" class="text-decoration-none">
+                    李雅靜玩瘋了！跳進鳳山水樂園遭童水槍圍攻
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18898" class="text-decoration-none">
+                    張以理競總成立陳其邁力挺　賴瑞隆扮權志隆嗨翻左楠
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18897" class="text-decoration-none">
+                    中山大學68學者躋身全球前2%科學家　五領域稱霸全台
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18896" class="text-decoration-none">
+                    漾新聞｜全民運台中隊氣勢如虹！提前賽狂摘72面獎牌　手持原民運旗幟邀全國明年到台中
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18895" class="text-decoration-none">
+                    漾新聞｜台中巨蛋地下工程完工、主體施工接棒！進度近2成超前　拚119年完工
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18894" class="text-decoration-none">
+                    漾新聞｜宇宙人、周湯豪接力嗨唱！潮派鹿港音樂祭湧樂迷　百年古城變身潮流舞台
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18893" class="text-decoration-none">
+                    漾新聞｜草屯千人割稻飯重現農村情　冠軍好米入桌、許淑華頒獎表揚農友
+                  </a>
+                </li>
+              
+                <li class="mb-2">
+                  • <a href="news_detail.php?NewsID=18892" class="text-decoration-none">
+                    漾新聞｜歌舞、美食、野餐一次滿足！南投多國野餐祭促進移工與在地交流
+                  </a>
+                </li>
+                </ul>
+</section>	
+<!---小圖---------------------------------------->
+<hr>
+	 
+<div class="container my-3">
+    <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17152" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1785873724.png" 
+                         alt="正義中學校長交棒｜叢培麒以「五氣」擘畫教育新局 " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">正義中學校長交棒｜叢培麒以「五氣」擘畫教育新局 </h6>
+                        <p class="card-text small text-muted text-truncate">正義中學校長交棒｜叢培麒以「五氣」擘畫教育新局 </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=18229" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1790302870.jpg" 
+                         alt="漾新聞｜高雄市長戰差0.3個百分點！柯志恩43.8%、賴瑞隆43.5%陷拉鋸  " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">漾新聞｜高雄市長戰差0.3個百分點！柯志恩43.8%、賴瑞隆43.5%陷拉鋸  </h6>
+                        <p class="card-text small text-muted text-truncate">戰貓隆貓合體擼貓　蕭美琴讚賴瑞隆善良</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17018" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1784777559.png" 
+                         alt="高雄市教育两大工會終於開戰了！校長要被拔掉親師群起抗議 教職李雅文槓上教產公開宣戰" 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">高雄市教育两大工會終於開戰了！校長要被拔掉親師群起抗議 教職李雅文槓上教產公開宣戰</h6>
+                        <p class="card-text small text-muted text-truncate">岡山國小校長被迫降調離校？親師志工不滿市府陳情 教師工會槓上教產 李雅文紅眼哽咽：我們不出來，誰出來？</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=18223" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1790092285.png" 
+                         alt="「蓮池潭沒有蓮花、烏龜島看不到烏龜 陳玫娟促救回左營共同記憶 " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">「蓮池潭沒有蓮花、烏龜島看不到烏龜 陳玫娟促救回左營共同記憶 </h6>
+                        <p class="card-text small text-muted text-truncate">「蓮池潭沒有蓮花、烏龜島看不到烏龜 陳玫娟促救回左營共同記憶 </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href=" https://www.youngnews3631.com/news_detail.php?NewsID=16756" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1783156684.png" 
+                         alt="獨家｜驚爆！高雄市有18個校長集體被告  連人死了也成了被告！" 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">獨家｜驚爆！高雄市有18個校長集體被告  連人死了也成了被告！</h6>
+                        <p class="card-text small text-muted text-truncate"></p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=16827" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1783492766.png" 
+                         alt="獨家｜跌破眼鏡！會考全國榜首不選雄女　俞可恩「做自己」就近讀新莊高中追雙語夢" 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">獨家｜跌破眼鏡！會考全國榜首不選雄女　俞可恩「做自己」就近讀新莊高中追雙語夢</h6>
+                        <p class="card-text small text-muted text-truncate">跌破眼鏡！會考全國榜首不選雄女　俞可恩「做自己」就近讀新莊高中追雙語夢</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17952" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1789236977.jpg" 
+                         alt="漾新聞｜藍營力拱湯茹婷搶關鍵一席　宋立彬、李雅芬：讓勞工女兒 " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">漾新聞｜藍營力拱湯茹婷搶關鍵一席　宋立彬、李雅芬：讓勞工女兒 </h6>
+                        <p class="card-text small text-muted text-truncate">漾新聞｜藍營力拱湯茹婷搶關鍵一席　宋立彬、李雅芬：讓勞工女兒 </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://admissions.nuk.edu.tw/" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1790671233.png" 
+                         alt="高雄大學116學年度研究所碩、博士班甄試網路報名期間為9月29日至10月19日" 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">高雄大學116學年度研究所碩、博士班甄試網路報名期間為9月29日至10月19日</h6>
+                        <p class="card-text small text-muted text-truncate">高雄大學116學年度研究所碩、博士班甄試，網路報名期間為9月29日（二）至10月19日（一）。連結網址：https://admissions.nuk.edu.tw/</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="#" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1792047157.jpg" 
+                         alt="堅守的，是每個崗位；一直在的，是台灣中油！" 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">堅守的，是每個崗位；一直在的，是台灣中油！</h6>
+                        <p class="card-text small text-muted text-truncate">堅守的，是每個崗位；一直在的，是台灣中油！</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youtube.com/embed/HZrrVMTYX0E?si=JIU387Bk0VZr4-fK" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1757741865.jpg" 
+                         alt="那年芒果花開了" 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">那年芒果花開了</h6>
+                        <p class="card-text small text-muted text-truncate"></p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17158" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1785874009.png" 
+                         alt="103位校長園長布達交接　陳其邁勉守初心領航高雄教育 " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">103位校長園長布達交接　陳其邁勉守初心領航高雄教育 </h6>
+                        <p class="card-text small text-muted text-truncate">103位校長園長布達交接　陳其邁勉守初心領航高雄教育 </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17720" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1789238874.png" 
+                         alt="獨家｜漾新聞｜不婚不生年代她生5個！「五寶媽」高岱君：孩子不是負擔，是陪我走人生的人  " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">獨家｜漾新聞｜不婚不生年代她生5個！「五寶媽」高岱君：孩子不是負擔，是陪我走人生的人  </h6>
+                        <p class="card-text small text-muted text-truncate">獨家｜漾新聞｜不婚不生年代她生5個！「五寶媽」高岱君：孩子不是負擔，是陪我走人生的人  </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://youngnews3631.com/news_detail.php?NewsID=10981" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1760693385.jpg" 
+                         alt="這所學校家長、教職員不忍了！公開聲援校長" 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">這所學校家長、教職員不忍了！公開聲援校長</h6>
+                        <p class="card-text small text-muted text-truncate"></p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17934" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1789237415.png" 
+                         alt="漾新聞｜陳美雅緊追高銀光電貸款　2案逾放、青年流失與高雄債務全攤牌 " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">漾新聞｜陳美雅緊追高銀光電貸款　2案逾放、青年流失與高雄債務全攤牌 </h6>
+                        <p class="card-text small text-muted text-truncate">漾新聞｜陳美雅緊追高銀光電貸款　2案逾放、青年流失與高雄債務全攤牌 </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17933" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1789237500.png" 
+                         alt="漾新聞｜一棵「台灣樹」種進非洲！黃柏霖送1850組再生電腦　讓高雄愛心跨海 " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">漾新聞｜一棵「台灣樹」種進非洲！黃柏霖送1850組再生電腦　讓高雄愛心跨海 </h6>
+                        <p class="card-text small text-muted text-truncate">漾新聞｜一棵「台灣樹」種進非洲！黃柏霖送1850組再生電腦　讓高雄愛心跨海 </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+            <div class="col-12 col-sm-6 col-md-3">
+            <a href="https://www.youngnews3631.com/news_detail.php?NewsID=17953" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm">
+                    <img src="images/slider/slider_1789237263.png" 
+                         alt="漾新聞｜44里長力挺賴瑞隆！許智傑掌後援會　喊鳳山全面亮起來  " 
+                         class="card-img-top img-fluid" 
+                         style="object-fit:cover; aspect-ratio:3/2;">
+                    <div class="card-body p-2">
+                        <h6 class="card-title mb-1 text-truncate">漾新聞｜44里長力挺賴瑞隆！許智傑掌後援會　喊鳳山全面亮起來  </h6>
+                        <p class="card-text small text-muted text-truncate">漾新聞｜44里長力挺賴瑞隆！許智傑掌後援會　喊鳳山全面亮起來  </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        </div>
+</div>
+
+<!---//小圖---------------------------------------->	
+	
+	
+</div>
+
+<!--=======//主要内容 ===================================-->
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- 第一欄 -->
+	   <div class="col-md-3 mb-3 footer-section">
+        <h5 class="fw-bold">聯絡我們</h3>
+       
+        <p><i class="fas fa-envelope"></i>&nbsp; 
+          <a href="mailto:july0917@ms55.hinet.net" class="text-white">
+            july0917@ms55.hinet.net          </a>
+        </p>
+      
+		<div class="d-flex gap-3 social-icons">
+                        <a href="https://www.facebook.com/Young-News-%E6%BC%BE%E6%96%B0%E8%81%9E-196382724302869/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@youngnews1594" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>   
+
+      </div>
+	   <!-- 第二欄 -->
+         <div class="col-md-4 mb-3 footer-section">
+                <h5 class="fw-bold">關於我們</h3>
+        <a href="https://www.youngnews3631.com" class="text-white">
+          <p>漾新聞陪你看見高雄／台灣的每一刻！</p>
+
+<p>我們每天關心你關心的事，從地方市政、教育、藝文與社區大小事，到全國大小事，讓高雄／台灣動起來、讓新聞更有溫度！<br />
+在地新聞 全國報導 時事真實呈現 資訊分享 也為民發聲 可信賴的優質媒體！</p>
+
+<p>點選頁面上的「追蹤」，按讚分享，不錯過每一則第一手最真實消息<br />
+也歡迎分享給你關心高雄/台灣時事的朋友！</p>
+
+<p>#漾新聞 #高雄 #在地即時 #追蹤漾新聞看更多</p>        </a>
+      </div>		
+    
+
+      <!-- 第三欄 -->
+
+
+     
+		
+    </div>
+
+    <div class="text-center mt-3 border-top pt-3">
+      <p class="mb-0">Copyright &copy; 2022
+             <a href="admin/admineditconfig.php" class="text-white">
+          漾新聞Young News        </a>版權所有 | Design by 
+        <a href="https://mudi.com.tw" class="text-white">Mudi</a></p>
+		   <div style="text-align: center; padding: 10px; ">本站總訪問量: <strong>32,065,416</strong> 次</div>             
+      
+     
+    </div>
+  </div>
+</footer>
+<!-- 回頂端按鈕 -->
+<a href="#" class="scroll-up"><i class="fa-solid fa-arrow-up"></i></a><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- 載入 jQuery (Bootstrap 5 不含 jQuery，要自己加) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-up').fadeIn();
+        } else {
+            $('.scroll-up').fadeOut();
+        }
+    });
+
+    $('.scroll-up').click(function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, 600);
+    });
+});
+	
+/*手動初始化 carousel，確保左右箭頭有效
+document.addEventListener('DOMContentLoaded', function() {
+    var myCarousel = document.querySelector('#bannerCarousel');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 5000,
+        ride: 'carousel'
+    });
+});	*/
+</script>
+ </body>
+</html>

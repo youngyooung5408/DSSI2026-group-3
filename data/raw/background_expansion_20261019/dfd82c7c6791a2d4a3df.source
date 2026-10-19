@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="zh_tw" class="orbit">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" media="all" href="/assets/frontend_extend-6e6fee32947faaca25930d5cba7966550bbcb0e639c20682e0e519d64d7a6219.css">
+<link rel="stylesheet" media="all" href="/assets/front_end-90a51f75b85c9c0851f66391f0366203e847348dabb87732a66f26657e2a4361.css">
+<meta property="og:title" content="亞洲大學財法系賴苡任錄取北大法學院博士班！">
+<meta property="og:site_name" content="亞洲大學兩岸教育交流中心">
+<meta property="og:url" content="/zh_tw/Offcampusmessage/%E4%BA%9E%E6%B4%B2%E5%A4%A7%E5%AD%B8%E8%B2%A1%E6%B3%95%E7%B3%BB%E8%B3%B4%E8%8B%A1%E4%BB%BB%E9%8C%84%E5%8F%96%E5%8C%97%E5%A4%A7%E6%B3%95%E5%AD%B8%E9%99%A2%E5%8D%9A%E5%A3%AB%E7%8F%AD-17610133">
+<meta property="og:description" content="財法系碩士生賴苡任，擊敗眾多台港澳陸法律高材生，脫穎而出，錄取北京大學法學院博士班！
+
+
+亞洲大學（Asia University, Taiwan）財經法律學系碩士生賴苡任，6月畢業前，報考北京大學法學院博士班-知識產權組，擊敗眾多台港澳陸法律高材生，順利獲得錄取，7月12日他將負笈北京，參加大陸律師考試暑期衝刺">
+<meta property="og:type" content="Article">
+<meta property="og:image" content="https://ccae.asia.edu.tw/uploads/bulletin/image/611b28cd8ccb5cba04000016/part_43185_6100309_61688.jpg">
+<meta property="og:image:width" content="458">
+<meta property="og:image:height" content="406">
+  <script src="/assets/jquery-2a83d06853bd343c7bfc2e5d4539814cfa934676e2948ed348311435eca862f5.js"></script>
+<script src="/assets/jquery_prefix-5c5a0bbb9dfff7d410703a0565bc948dca28ec736d1a0e725050111c330805d3.js"></script>
+<script src="/assets/jquery_ujs_custom-a76b6cd8d652c18d24ed38d1f7a4d18f51d1f594a88a0f2ade82afec33966e2b.js"></script>
+<script src="/assets/jquery.cycle2.min-ec60b272289a05b845d7613d074237d008c08a069dc283c2e4c62dfc513242db.js"></script>
+<script src="/assets/jquery.cycle2.carousel.min-3d226d0713bcf58909be7c7e753fa1eef4409eee278299adfe70ff4ea646d65f.js"></script>
+<script src="/assets/jquery.cycle2.scrollVert.min-ce8da4c3f5e336753d998c9f02e64cc8b7e3977f5f6988133faf24a44c90b427.js"></script>
+<script src="/assets/jquery.cycle2.tile.min-83b4b0c4c2604b9c9acb20199a740f4b9e83c227ae46c1a430aa67bf97ff5457.js"></script>
+<link rel="stylesheet" media="all" href="/assets/datatables.min-2155ecc89ec52206f289afaf5d99a0a8b8226db6d9f3742ae37ed6690e713642.css">
+<script src="/assets/datatables.min-598993c579b423583458a17773ed1e86103dc54e60eae7ab6c27b426af16df6f.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="uGvnuwyJ2G2nLGM5GGeveSIfMHdgQ4Jr1zQUsGOc6FPmXNA5BBYjmukkHU5J3jxwiGichr903gtVpvESzhDgAA==">
+<script>
+    $.fn.dataTable.defaults.initComplete = function(settings) {
+        $(this).find('td:first-child').trigger('click');
+    };
+</script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-61dc45f90f167cda014133d5165631d96bfef02eabc1011a73e34d179b4cc316.ico">
+  <title>亞洲大學財法系賴苡任錄取北大法學院博士班 | 亞洲大學兩岸教育交流中心</title>
+  <link rel="stylesheet" media="all" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="all" href="/assets/bootstrap/bootstrap.min-9265396508083c569e539b3da3f04478cb53d93bc9df8166c08934b57d4588d9.css">
+  <link rel="stylesheet" media="all" href="/assets/template/template-d4e1d726451265c23413dfd62049ff7ff08d826ae04b92ee9be0acfe34db7744.css">
+  <link rel="stylesheet" media="all" href="/assets/template/jquery.scrolling-tabs.min-0aaa5bfc7b51e5bacb1b208e1bc8d8cf1b8daba5c234626bc7fda4be4effb5df.css">
+  <link rel="stylesheet" media="print" type="text/css" href="/assets/template/print.css">
+  <script src="/assets/plugin/modernizr-d5770395993b83f1cd01c625a62f0cc2a8f2536f7288ef3a45f2863f2e20a9c1.js"></script>
+  <script src="/assets/plugin/picturefill.min-1e1f7d4e867ad1ec3d5886ad5e69512b6692509c939a89634ffcf63ba17b6b7d.js"></script>
+  <script src="/assets/plugin/jquery.mobile.custom.min-94832de9dd3faaf354dabd20e980b49bfe549a3750d73e5855bc4104b53afe9d.js"></script>
+  <script src="/assets/bootstrap.min-18024db0d6a0bc75ca740863a3b491b7f9b9cbd080ba3ee25e22265801d0b0c9.js"></script>
+  
+  <script src="/assets/plugin/jquery.cycle2.video.min-384b34504c43f5962ffa3295b0b28947fd8a4498968853be0477a5dc664bd9b9.js"></script>
+  <script src="/assets/plugin/jquery-bullseye-min-8149d6adb748bd9561e9f1fd822e59337a75d065e017c7891699d50d69414bc2.js"></script>
+  <script src="/assets/plugin/jquery.scrolling-tabs.min-2ca04680a371ceee7710b234d1e8795bf3d4247da7327300094cf74ed64829fa.js"></script>
+
+  <script src="/assets/plugin/owl.carousel.min-ec9585fb4e14679aaa65e0d62fac99d496ce23ea8052fc718d5b3fbc84525e61.js"></script>
+  <link rel="stylesheet" type="text/css" href="/assets/template/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/template/owl.theme.default.min.css">
+  
+  <script src="/assets/app-2de7c717e8427c0ef1f883a1fc36c88d9cec3a095710d417f1a3af3b278973d0.js"></script>
+  <script src="/assets/frontend-121b87925d20c2b21764d1c5053c911976bcf14ba23128fed1904f6b7a19033d.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+<link rel="stylesheet" media="all" href="/assets/basic/icon-02ab17711373a2fee6746d031bbf8f89850adda636a54834e220d1b80d790b49.css">
+<link rel="stylesheet" media="all" href="/assets/lib/orbit_bar/orbit-bar-9a68f0bc146ac3fd789a7da1d1e67caa1ff87338517f8a0395b99df664f17cb3.css">
+<script src="/assets/frontend_extend-18d8a9e578b8a7c72226a638c39f581b47ee42b5f58651d7f8b57f27c5fab08a.js"></script>
+</head>
+<body class="internal-page banner_height_setting_0" data-module="announcement">
+  <link rel="stylesheet" media="all" href="/assets/fontawesome-6.2.1.min-8aec0118643d34254cb9f5c27b931239c9de8008c849c9800d8651a5da1abcb2.css">
+<link rel="stylesheet" media="all" href="/assets/fontawesome-6.2.1-fix.min-a85d2f928ef91b80968519d9fd352220353e6db2bd1a8f61f2f1c4377323c59d.css">
+<link rel="stylesheet" media="all" href="/assets/lib/jquery-ui-1.13.2/jquery-ui.min-857eeb1d8eca98b4e9d8d1c09331c0c5844b263fe668efdf8b45679dd9b07c1b.css">
+<link rel="stylesheet" media="all" href="/assets/jquery-ui-timepicker-addon-ee91708eac547223792975e0d9a9aae62127da4b28a58d40c0634927f19665f0.css">
+  <script src="/assets/lib/jquery-ui-1.13.2/jquery-ui.min-b88d0b98b7b90a20cae0fc32eaf0845ac1ffdc0e4b3176c501e353d45c975064.js"></script>
+  <script src="/assets/jquery.ui.datepicker.monthyearpicker-6126b863aa1c4b399bf657869bbc51389d83ff5101b069ff7e1d0b02793c67e1.js"></script>
+<style type="text/css">
+  .ui-dialog {
+    z-index: 2000000000000 !important;
+  }
+  .ui-datepicker {z-index:1000000 !important}
+    @media screen and (min-width:768px){
+      html body #orbit-bar .orbit-bar-inner,html body #orbit-bar .orbit-bar-inner form,html body #orbit-bar .orbit-bar-search-sign-language{
+        background-color: #000000 !important;
+      }
+    }
+    html body #orbit-bar .orbit-bar-inner,html body #orbit-bar .orbit-bar-inner form,html body #orbit-bar .orbit-bar-search-sign-language{
+      background-color: #000000 !important;
+    }
+    html body #orbit-bar .orbit-bar-inner>ul>li:hover>span, html body #orbit-bar .orbit-bar-inner>ul>li:hover>a, html body #orbit-bar .orbit-bar-inner>ul>li:hover #language, html body #orbit-bar .orbit-bar-inner>ul>li>ul li:hover, html body #orbit-bar .orbit-bar-inner>ul>li>ul li.active,.orbit-bar-search-sign-language li:hover form,.orbit-bar-search-sign-language li:hover label
+    {
+        background-color: #0095cf !important;
+        color: #ffffff !important;
+    }
+    html body #orbit-bar .orbit-bar-inner>ul>li span:hover,html body #orbit-bar .orbit-bar-inner>ul>li:hover>span#user, html body #orbit-bar .orbit-bar-inner>ul>li>ul li a:hover,html body #orbit-bar .orbit-bar-inner>ul>li:hover #language,html body #orbit-bar .orbit-bar-menu .showlist:hover .orbit-bar-home, html body #orbit-bar .orbit-bar-inner>ul>li:hover label
+    {
+        color: #ffffff !important;
+    }
+    html body #orbit-bar .orbit-bar-inner > ul > li > ul
+    {
+      background-color: #000000 !important;
+    }
+    @media screen and (max-width:767px){
+      html body #orbit-bar .orbit-bar-inner > ul
+      {
+        background-color: #000000 !important;
+      }
+      html body #orbit-bar .orbit-bar-inner form{
+        background-color: #000000 !important;
+      }
+    }
+    @media screen and (min-width:768px){
+      html body #orbit-bar .orbit-bar-search-sign-language #language, html body #orbit-bar .orbit-bar-menu .orbit-bar-home,html body #orbit-bar .orbit-bar-search-sign-language #user,html body #orbit-bar .orbit-bar-inner>ul>li>a,html body #orbit-bar .orbit-bar-inner>ul>li label {
+        color: #ffffff !important;
+      }
+    }
+    @media screen and (max-width:767px){
+      #orbit-bar .orbit-bar-title a{
+        color: #ffffff !important;
+      }
+      label[for="open-orbit-nav"]{
+        border-color: #ffffff !important;
+        color: #ffffff !important;
+      }
+    }
+    html body #orbit-bar .orbit-bar-inner > ul > li > ul a,html body #orbit-bar .orbit-bar-inner > ul > li > ul .active{
+      color: #ffffff !important;
+    }
+    html body #orbit-bar .orbit-bar-inner > ul > li > ul:before{
+      border-color: transparent transparent #ffffff transparent !important;
+    }
+    @media screen and (max-width:767px){
+      html body #orbit-bar .orbit-bar-search-sign-language #language, html body #orbit-bar .orbit-bar-menu .orbit-bar-home,html body #orbit-bar .orbit-bar-search-sign-language #user,html body #orbit-bar .orbit-bar-inner>ul>li>a,html body #orbit-bar .orbit-bar-inner>ul>li label {
+        color: #ffffff !important;
+      }
+    }
+</style>
+  <div id="orbit-bar">
+      <label for="open-orbit-login" style="display:none;">Open login</label>
+      <input type="checkbox" title="open login" id="open-orbit-login">
+      <label for="open-orbit-login" class="cover" title="Close login"><p style="display: none;">Close login</p></label>
+      <div class="login-window">
+        <div class="login-header">
+          <label tabindex="0" for="open-orbit-login" class="close">close</label>
+          <p>登入 亞洲大學兩岸教育交流中心</p>
+        </div>
+        <div class="login-body">
+          <form class="container" action="/sessions?locale=zh_tw" accept-charset="UTF-8" method="post">
+<input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="FGhT6Tw7PdFCR1fwYS7nCyn5/UWqq9L8pZ6tZSpnOiBKX2RrNKTGJgxPKYcwl3QCg45RtHWcjpwnDEjHh+sycw==">
+            <div class="prepend input-group">
+              <span class="add input-group-addon"><i class="icon-user"></i></span>
+              <label for="user_user_id" style="display:none;">Username</label>
+              <input class="input" id="user_user_id" title="username" name="user_name" placeholder="使用者帳號" size="30" type="text">
+            </div>
+            <div class="prepend input-group">
+              <span class="add input-group-addon"><i class="icon-lock"></i></span>
+              <label for="user_password" style="display:none;">Password</label>
+              <input class="input" id="user_password" name="password" placeholder="密碼" title="password" size="30" type="password">
+            </div>
+            <div class="login-submit-wrap">
+              <div class="submit">
+                <button class="login-btn" type="submit">登入</button>
+              </div>
+            </div>
+            <script>
+              function forgot_password(){
+                if(document.getElementById('user_user_id').value !='')
+                  var post_data = $.post('/sessions/forgot_password',{ user_name: document.getElementById('user_user_id').value });
+                if(document.getElementById('user_user_id').value != ''){
+                  post_data.done(function(){
+                    try{
+                      if(I18n.locale == 'en')
+                        if(post_data.responseJSON['user_email'] == '')
+                          var alert_texts = 'This user_name or user_email is not registered yet!Please contact customer service to deal with this problem.';
+                        else
+                          var alert_texts = 'Please check '+post_data.responseJSON['user_email']+' to see the new password for user_name:'+post_data.responseJSON['user_name'].join(' , ');
+                      else
+                        if(post_data.responseJSON['user_email'] == '')
+                          var alert_texts = '該使用者名稱或是使用者email尚未註冊!請聯絡客服協助處理。';
+                        else
+                          var alert_texts = '請確認'+post_data.responseJSON['user_email']+'來查看使用者名稱:'+post_data.responseJSON['user_name'].join('、')+'的新密碼';
+                    }catch(e){
+                      if(I18n.locale == 'en')
+                        var alert_texts = 'Please contact customer service to deal with the problem.';
+                      else
+                        var alert_texts = '請聯絡客服協助處理。';
+                    };
+                    $('.alert-error').text(alert_texts);
+                    alert(alert_texts);
+                  });
+                }else{
+                  if(I18n.locale == 'en')
+                    var alert_texts = 'Please fill-in your user id without password, click “Forgot your password?“, and check you email for updated password.';
+                  else
+                    var alert_texts = '請輸入您的使用者帳號無需輸入密碼，點選「忘記密碼」後至您的信箱檢查密碼更新郵件！';
+                  alert(alert_texts);
+                };
+              };
+            </script>
+            <a onclick="forgot_password()" style="float: left;font-size: 0.813em;margin-left: 1em;" href="#forgot_password">忘記密碼?</a>
+            <div style="clear: both;"></div>
+</form>        </div>
+
+      </div>
+    <input type="checkbox" id="open-orbit-nav" title="orbitbar">
+    <div class="orbit-bar-inner">
+      <label for="open-orbit-nav">
+        <i class="icons-list-2"></i>
+      </label>
+      <ul class="orbit-bar-menu">
+        <li>
+          <a href="javascript:;" class="orbit-bar-logo" title="請登入以管理網站,按下開啟登入視窗">
+            <img src="/assets/orbit-logo.png" alt="奧博科技商標">
+            <p style="display: none;">請登入以管理網站,按下開啟登入視窗</p>
+          </a>
+        </li>
+        <li>
+          <a href="/" class="orbit-bar-home" title="首頁" tabindex="0"><i class="icons-house"></i><p>home</p></a>
+        </li>
+      </ul>
+      <h1 class="orbit-bar-title">
+        <a href="/" title="亞洲大學兩岸教育交流中心">亞洲大學兩岸教育交流中心</a>
+      </h1>
+      <ul class="orbit-bar-search-sign-language">
+        <li style="background-color:transparent;">
+          <form id="search" method="get" action="https://www.google.com/custom" target="_blank" style="border: 0 !important;">
+            <input type="hidden" name="authenticity_token" value='value="vT7N77jwNZnScYcBmv2UOtHKglbLRo5J9JNfR0qRbsTjCfptsG/Obpx5+XbLRAcze70upxRx0il2Abrl5x1mlw=="'>
+            <input type="hidden" name="client" value="pub-&amp;amp">
+            <input type="hidden" name="ie" id="ie" value="utf-8">
+            <input type="hidden" name="oe" id="oe" value="utf-8">
+            <input type="hidden" name="cof" id="cof" value="AH:center;AWFID:03de271f1940eea3;">
+            <input type="hidden" name="domains" value="ccae.asia.edu.tw">
+            <input type="hidden" name="sitesearch" value="ccae.asia.edu.tw">
+            <label style="display:none;" for="q" accesskey="S">Google Search</label>
+            <input type="search" name="q" id="q" value="" placeholder="全站搜尋" x-webkit-speech="" title="search">
+          </form>
+        </li>
+        <li id="language-li" style="background-color:transparent;" class="mobile_login_bar">
+            <a id="languagebutton" href="javascript:;" title="按下關閉語言選單"><span id="language"><i class="icons-earth orbit-bar-language-icon"></i><span class="orbit-bar-language-text">Language</span></span></a>
+            <ul>
+                  <li class="active">
+                    繁體中文
+                  </li>
+                  <li>
+                    <a accesskey="s" href="/zh_cn/Offcampusmessage/%E4%BA%9E%E6%B4%B2%E5%A4%A7%E5%AD%B8%E8%B2%A1%E6%B3%95%E7%B3%BB%E8%B3%B4%E8%8B%A1%E4%BB%BB%E9%8C%84%E5%8F%96%E5%8C%97%E5%A4%A7%E6%B3%95%E5%AD%B8%E9%99%A2%E5%8D%9A%E5%A3%AB%E7%8F%AD-17610133">
+                      简体中文
+                    </a>
+                  </li>
+            </ul>
+        </li>
+        <li style="margin-right:-1em;" class="mobile_login_bar">
+          <a id="loginbutton" title="按下開啟登入視窗" href="javascript:;">
+            <label for="open-orbit-login">
+              <i style="font-style: inherit;font-size: 0.8rem;width: 2.875em;text-align: right;vertical-align: middle;">登入</i>
+              <i class="icons-login" style="font-size: 1.4em;width: 1.875em;text-align: left;vertical-align: middle;"></i>
+            </label>
+          </a>
+        </li>
+        <style>
+          @media screen and (min-width:768px){
+            .orbit-bar-search-sign-language{
+              max-height:100%;
+            }
+          }
+        </style>
+      </ul>
+      <ul id="language-li-ul" class="orbit-bar-mobile-sign-language" style="background-color: #000000 !important;">
+        <li>
+            <span id="language" class="mobile-button"><i class="icons-earth orbit-bar-language-icon" style="color: #ffffff !important;"></i><span class="orbit-bar-language-text">Language</span></span>
+            <ul>
+                  <li class="active">
+                    繁體中文
+                  </li>
+                  <li>
+                    <a accesskey="s" href="/zh_cn/Offcampusmessage/%E4%BA%9E%E6%B4%B2%E5%A4%A7%E5%AD%B8%E8%B2%A1%E6%B3%95%E7%B3%BB%E8%B3%B4%E8%8B%A1%E4%BB%BB%E9%8C%84%E5%8F%96%E5%8C%97%E5%A4%A7%E6%B3%95%E5%AD%B8%E9%99%A2%E5%8D%9A%E5%A3%AB%E7%8F%AD-17610133">
+                      简体中文
+                    </a>
+                  </li>
+            </ul>
+        </li>
+        <li>
+          <label for="open-orbit-login">
+            <i class="icons-login" style="color: #ffffff !important;"></i>
+            <p style="display: none;">Open login</p>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <style>
+  @media (max-width: 767px) {#orbit-bar ul.orbit-bar-search-sign-language > li + li{width:33.3333%;}}
+  </style>
+      <script>$('.orbit-bar-logo').off('click').on('click',function(){window.orbit_login_button = $(this);$("#open-orbit-login").click()});</script>
+  <script type="text/javascript">
+    var lang_opentitle = '按下開啟語言選單';
+    var lang_closetitle = '按下關閉語言選單';
+    $('#languagebutton').off('click').on('click',function(){
+      if ($(this).parent().find('>ul').hasClass('show')) {
+        $(this).attr('title', lang_opentitle);
+      } else {
+        $(this).attr('title', lang_closetitle);
+      }
+    });
+    $('#languagebutton').focus(function(){
+      if ($(this).parent().find('>ul').hasClass('show')) {
+        $(this).attr('title', lang_closetitle);
+      } else {
+        $(this).attr('title', lang_opentitle);
+      }
+    });
+    /* when tab key choose close,press enter to close login window start */
+    function closelabel(e){
+      var keynum;
+      if(window.event) // IE
+      {
+        keynum = e.keyCode
+      }
+      else if(e.which) // Netscape/Firefox/Opera/chrome
+      {
+        keynum = e.which
+      }
+      if( keynum == 13 ){
+        $(".orbit-bar-logo").one("focusin",function(){
+          window.orbit_login_button.focus();
+        })
+        $("#open-orbit-login").click();
+      };
+    }
+    $('label.close').attr('onkeydown','closelabel(event)');
+    /* when tab key choose  close,press enter to close login window end   */
+    $('#loginbutton >label').off('click').on('click',function(){window.orbit_login_button = $('#loginbutton');$("#open-orbit-login").click()});
+    $('#loginbutton').off('click').on('click',function(){window.orbit_login_button = $('#loginbutton');$("#open-orbit-login").click()});
+    /* press esc to close login window start */
+    function esc_close_login_window(event){
+      var e = event;
+      var keynum;
+      if(window.event) // IE
+      {
+        keynum = e.keyCode;
+      }
+      else if(e.which) // Netscape/Firefox/Opera/chrome
+      {
+        keynum = e.which;
+      }
+      if( keynum == 27 ){
+        $(".orbit-bar-logo").one("focusin",function(){
+          window.orbit_login_button.focus();
+        })
+        $("#open-orbit-login").click();
+      };
+    }
+    /* press esc to close login window end   */
+    $("#open-orbit-login").on("change",function(){
+      if($(this).is(":checked")){
+        $(window).off('keydown', esc_close_login_window).on('keydown', esc_close_login_window);
+        $("#user_user_id").focus(); //when open login window,focus on the username
+      }else{
+        $(window).off('keydown', esc_close_login_window);
+      }
+    })
+    $(".login-body form").on("submit",function(){
+      $(this).append("<input type='hidden' name='referer_url' value='/zh_tw/Offcampusmessage/%E4%BA%9E%E6%B4%B2%E5%A4%A7%E5%AD%B8%E8%B2%A1%E6%B3%95%E7%B3%BB%E8%B3%B4%E8%8B%A1%E4%BB%BB%E9%8C%84%E5%8F%96%E5%8C%97%E5%A4%A7%E6%B3%95%E5%AD%B8%E9%99%A2%E5%8D%9A%E5%A3%AB%E7%8F%AD-17610133'/>");
+    })
+    var I18n = {};
+    Object.defineProperty(I18n,"locale",{
+      value: "zh_tw"
+    });
+    Object.defineProperty(I18n,"validLocales",{
+      value: ["zh_tw","zh_cn"]
+    });
+  </script>
+  <style>
+    #language-li ul li a{
+      margin-left: 0;
+      position: relative;
+    }
+    @media screen and (min-width:768px){
+        .sub_orbit_bar{
+          background-color:#000000!important;
+        }
+        .orbit-bar-menu{
+          background-color:transparent!important;
+        }
+        .sub_orbit_bar_text{
+          color:#ffffff!important;
+        }
+    }
+    @media screen and (max-width:767px){
+        .sub_orbit_bar{
+          background-color:#000000!important;
+        }
+        .orbit-bar-menu{
+          background-color:#000000!important;
+        }
+        .sub_orbit_bar_text{
+          color:#ffffff!important;
+        }
+      .mobile_login_bar{
+        width: 50%!important;
+      }
+    }
+      @media screen and (max-width: 767px){
+        #orbit-bar .orbit-bar-inner .orbit-bar-mobile-sign-language {
+            background: #333;
+            display: block;
+            margin: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+      }
+    .orbit-bar-mobile-sign-language {
+        display: none;
+    }
+    @media screen and (max-width: 767px){
+      #orbit-bar .orbit-bar-inner .orbit-bar-mobile-sign-language > li ul.show {
+        display: block;
+      }
+      #orbit-bar .orbit-bar-inner .orbit-bar-mobile-sign-language > li > span > span {
+        display: none;
+      }
+      #orbit-bar .orbit-bar-inner .orbit-bar-mobile-sign-language > li {
+        color: #fff;
+        float: left;
+        position: relative;
+      }
+      #orbit-bar .orbit-bar-inner .orbit-bar-mobile-sign-language > li > span , #orbit-bar .orbit-bar-inner .orbit-bar-mobile-sign-language > li > label{
+        cursor: pointer;
+        display: block;
+        height: 40px;
+        line-height: 43px;
+        width: 40px;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      #orbit-bar .orbit-bar-inner .orbit-bar-mobile-sign-language > li ul {
+          background: #333 none repeat scroll 0 0;
+          border-radius: 0;
+          display: none;
+          position: fixed;
+          right: 0;
+          top: 40px;
+          width: 100%;
+      }
+    }
+  </style>
+  <script>
+    function calc_orbit_bar_title_width(){
+      if($(window).outerWidth(true) <= 767){
+        $('.orbit-bar-inner > .orbit-bar-title').css({'width': '','margin': ''});
+        return;
+      }
+      var w1 = $('.orbit-bar-inner').width();
+      var w2 = $('.orbit-bar-inner>*:not(.orbit-bar-title)').map(function(i,v){
+        if ($(v).hasClass('custom_widget') && $(v).text().replace(/\s+/,'')==''){
+          $(v).css('flex','none');
+          return 0;
+        }else{
+          return $(v).css('display') == 'none' ? 0 : $(v).outerWidth(true);
+        }
+      }).toArray().reduce(function(v1,v2){return v1+v2});
+      var w3 = $('.orbit-bar-title').css('margin-left').match(/([\d\.]+)px$/);
+      w3 = w3 ? parseFloat(w3[0]) : 0;
+      var w4 = $('.orbit-bar-title').css('margin-right').match(/([\d\.]+)px$/);
+      w4 = w4 ? parseFloat(w4[0]) : 0;
+      var title_width = w1-w2-w3-w4-2;
+      $('.orbit-bar-title').width(title_width);
+      return title_width;
+    }
+    $(document).ready(function(){
+      calc_orbit_bar_title_width();
+      $(".orbit-bar-inner").css("overflow","visible");
+      if($(window).outerWidth(true) <= 767){
+        $('.orbit-bar-menu').before($('.orbit-bar-title'));
+      }else{
+        $(".orbit-bar-search-sign-language").before($('.orbit-bar-title'));
+      }
+    })
+    $(window).on("load",function(){
+      calc_orbit_bar_title_width();
+    })
+    $(window).resize(function(){
+      calc_orbit_bar_title_width();
+      if($(window).outerWidth(true) <= 767){
+        $('.orbit-bar-menu').before($('.orbit-bar-title'));
+      }else{
+        $(".orbit-bar-search-sign-language").before($('.orbit-bar-title'));
+      }
+    })
+  </script>
+
+  <div class="background" data-pp="100"></div>
+  
+
+<div id="fb-root"></div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div class="mobile-menu">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#layout-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar icon-bar-top"></span>
+        <span class="icon-bar icon-bar-middle"></span>
+        <span class="icon-bar icon-bar-bottom"></span>
+  </button>
+  <div class="cover"></div>
+</div>
+<header class="navbar layout-header no-print" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#layout-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar icon-bar-top"></span>
+        <span class="icon-bar icon-bar-middle"></span>
+        <span class="icon-bar icon-bar-bottom"></span>
+      </button>
+	  
+	  <script>$(document).ready(function(){var url =$('.site-logo').eq(0).attr('src');if(url == "/assets/default-site-logo.png"){$('.navbar-brand').eq(0).remove();};if($('.navbar-brand').length == 2){$('.site-logo').css('height','auto')};$('.site-logo').eq(0).css('margin-right',0);$('.navbar-brand').css('padding-right',0)})</script>
+    <a title="主頁" class="navbar-brand" href="/"><h2 class="default_site_h1">
+<img class="site-logo" src="/uploads/site/site_logo/60fa242b8ccb5c719e000022/asia_logos1.png" alt="亞洲大學兩岸教育交流中心的Logo"> 亞洲大學兩岸教育交流中心<span style="display: none;">亞洲大學兩岸教育交流中心</span>
+</h2></a>
+    <div class="header-nav">
+    <a id="accesskey_top" accesskey="U" title="accesskey top" href="#">:::</a>
+      
+    </div>
+    </div>
+    <section class="header-banner" data-pp="1000"></section>
+    <div class="collapse navbar-collapse modules-menu" id="layout-navigation">
+    <a id="accesskey_menu" title="accesskey menu" accesskey="M" href="#">:::</a>
+      <ul id="main-nav" class="navbar-right navbar-nav modules-menu-level-0 nav-level-0 no-print" data-menu-level="0">
+<li>
+    <a href="/?locale=zh_tw" title="最新消息" data-menu-link="true" class="dropdown-toggle" target="_self">最新消息</a>
+    
+  </li>
+<li>
+    <a href="/zh_tw/IntroductiontotheCenter" title="本中心簡介" data-menu-link="true" class="dropdown-toggle" target="_self">本中心簡介</a>
+    
+  </li>
+<li>
+    <a href="/zh_tw/Organizationmember" title="組織成員" data-menu-link="true" class="dropdown-toggle" target="_self">組織成員</a>
+    
+  </li>
+<li>
+    <a href="/zh_tw/relevantregulation" title="相關法規" data-menu-link="true" class="dropdown-toggle" target="_self">相關法規</a>
+    
+  </li>
+<li>
+    <a href="/zh_tw/MainlandChinadegreestudentarea" title="大陸學位生專區" data-menu-link="true" class="dropdown-toggle" target="_self">大陸學位生專區</a>
+    <ul class="modules-menu-level-1 nav-level-1" data-menu-level="1">
+<li>
+        <a href="/zh_tw/MainlandChinadegreestudentarea/TerrestrialHandbook" title="陸生手冊" data-menu-link="true" target="_self">陸生手冊</a>
+        
+      </li>
+<li>
+        <a href="/zh_tw/MainlandChinadegreestudentarea/AdmissionandRecognitionofAcademic" title="大陸地區學歷採認辦法" data-menu-link="true" target="_self">大陸地區學歷採認辦法</a>
+        
+      </li>
+<li>
+        <a href="/zh_tw/MainlandChinadegreestudentarea/Graduatealumnicontactwindow" title="畢業校友聯繫窗口" data-menu-link="true" target="_self">畢業校友聯繫窗口</a>
+        
+      </li>
+<li>
+        <a href="https://coa.immigration.gov.tw/coa-frontend/student/entry/china-student" title="入台線上申請" data-menu-link="true" target="_blank">入台線上申請</a>
+        
+      </li>
+<li>
+        <a href="/zh_tw/MainlandChinadegreestudentarea/Q&amp;A01" title="Q&amp;A" data-menu-link="true" target="_self">Q&amp;A</a>
+        
+      </li>
+<li>
+        <a href="/zh_tw/MainlandChinadegreestudentarea/MainlandStudents" title="招生大陸學生資訊" data-menu-link="true" target="_self">招生大陸學生資訊</a>
+        
+      </li>
+</ul>
+  </li>
+<li>
+    <a href="/zh_tw/Formdownload" title="表單下載" data-menu-link="true" class="dropdown-toggle" target="_self">表單下載</a>
+    
+  </li>
+<li>
+    <a href="/zh_tw/Linkresources" title="連結資源" data-menu-link="true" class="dropdown-toggle" target="_self">連結資源</a>
+    
+  </li>
+</ul>
+      <div class="leftbanner" data-pp="23"></div>
+    </div>
+  </div>
+</header>
+
+
+  <div class="layout-content">
+    <div class="layout-content-inner container">
+      <div class="contentwrap">
+        <div class="breadcrumb-wrap" data-pp="500"></div>
+        <div class="sitemenu-wrap" data-pp="400"></div>
+        <div class="content">
+        <section class="page-content-box col-sm-3" data-pp="901"></section>
+        <section class="page-content-box col-sm-6" data-pp="902"></section>
+        <section class="page-content-box col-sm-3" data-pp="903"></section>
+        </div>
+        <div class="row">
+          <section class="layout-content-box left-column col-sm-9">
+          <div class="extra" data-pp="600"></div>
+          <main id="main-content" class="main-content" data-content="true"><div>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+  .full-size-img img {
+    width: 100%;
+  }
+  .full-size-img {
+      width: 100%;
+  }
+  .s-annc__sub-img.pull-right {
+    margin-left: 2em;
+  }
+  .s-annc__sub-img.pull-left {
+    margin-right: 2em;
+  }
+</style>
+<article class="s-annc show-announcement">
+  <h1 class="s-annc__show-title">亞洲大學財法系賴苡任錄取北大法學院博士班！</h1>
+  
+  <ul class="s-annc__meta-wrap list-unstyled no-print">
+    <li class="s-annc__date-wrap s-annc__meta--item">
+      <i class="fa fa-calendar-o"></i>
+      <span class="s-annc__date" date-format="%Y-%m-%d"> 2016-07-12</span>
+    </li>
+    <li class="s-annc__author-wrap s-annc__meta--item">
+      <i class="fa fa-male"></i>
+      <span class="s-annc__author">SystemAdmin</span>
+    </li>
+    <li class="s-annc__tag-wrap s-annc__meta--item ">
+      <i class="fa fa-tags"></i>
+      <span data-list="tags" data-level="0"></span>
+    </li>
+  </ul>
+
+  <section class="s-annc__post-wrap">
+    <div class="s-annc__sub-img  hide">
+    <img src="" alt="">
+    <span class="s-annc__img_description"></span>
+    </div>
+    <div class="s-annc__subtitle"></div>
+    <div class="s-annc__post-body">
+<div class="ptcontent">財法系碩士生賴苡任，擊敗眾多台港澳陸法律高材生，脫穎而出，錄取北京大學法學院博士班！<br>
+<br>
+<br>
+亞洲大學（Asia University, Taiwan）財經法律學系碩士生賴苡任，6月畢業前，報考北京大學法學院博士班-知識產權組，擊敗眾多台港澳陸法律高材生，順利獲得錄取，7月12日他將負笈北京，參加大陸律師考試暑期衝刺班，9月開學後攻讀法學博士學位；賴苡任同學強調，學成之後，將發揮所學，為母校亞大、北京大學搭起交流橋樑，並致力兩岸智慧財產權交流、互動。<br>
+出身法律世家的賴苡任同學表示，父母都是法律人，父親也是法學博士，妹妹也唸法律，對於法律具有天生的敏銳度與學習力；之前到新加坡唸高中時，曾遭遇學習障礙挫折，卻不放棄自己，決定先返台服完兵役後，再考上亞洲大學財法系，重新尋找人生方向。<br>
+「就讀亞洲大學大一、大二時，仍成績平平！」賴苡任同學說，直到大三時遇見啟蒙恩師、曾任德國籍法官魏馬哲老師(Matthias Wetzel)、謝如蘭老師夫婦，人生才有大轉折；魏馬哲老師專攻智慧財產權、法學英文，以全英文授課，需要具備英文能力及智慧財產權專業能力人員同步翻譯，他的英文底子不錯，也曾獲得政府頒授「商標審查高級實務班」證書，符合擔任翻譯人員條件，被魏馬哲老師看中，聘為即時口譯助教，開啟他專業法律知識視野。<br>
+<br>
+賴苡任同學強調，他是財法系五年一貫學制的碩士生，因此，與魏馬哲老師相處3年，從翻譯大學部的「商標法」，進階成翻譯碩士班的「國際授權契約理論與實務」課程，可說是練就一身「功夫」；2014年他以大學生身分代表亞大參加「全國碩士智慧財產權全英文簡報比賽」，獲得第五名；參加亞大外文系所辦「全英文簡報比賽」，榮獲第一名，參加隊伍不乏外籍生組隊參加。<br>
+值得一提的是，亞大前財法系主任唐淑美任內批准他就讀五年一貫學制，同時指導他的碩士論文─兩岸「商標搶註」之研究，給他自主發揮的空間，從旁即時建議，讓他受益良多。<br>
+財法系主任王國治表示，亞大講座教授、前法務部長施茂林也曾指導賴苡任同學簡報能力，磨練他的口才、膽識、反應力；他深信賴苡任同學是塊璞玉，鼓勵他報考人民大學、北京大學法學院博士班，果然不負眾望，錄取北大博士班，相當難得。</div>
+</div>
+  </section>
+  <div id="sub_anncs_list"></div>
+  <ul class="s-annc__related-wrap list-unstyled no-print">
+    <li class="s-annc__related-file">
+      <i class="fa fa-fw fa-paperclip"></i>
+      <div class="s-annc__related-file-list" data-list="bulletin_files" data-level="0"></div>
+    </li>
+
+    <li class="s-annc__related-link">
+      <i class="fa fa-fw fa-link"></i>
+      <div class="s-annc__related-link-list" data-list="bulletin_links" data-level="0"></div>
+    </li>
+  </ul>
+
+</article>
+
+<p>
+<style type="text/css">
+  strong.carousel__description {
+    color: white;
+  }
+  .carousel_images{
+    width: 75%;margin: auto;
+  }
+  @media (max-width: 767px){
+    .carousel_images{
+      width: 100%;
+    }
+  }
+</style>
+</p>
+<div class="carousel_images">
+  <div class="w-ba-banner ba-banner-widget-1">
+    <div class="w-ba-banner__wrap  cycle-slideshow" data-cycle-slides=".bulletin_carousel_slide" data-cycle-log="false" data-cycle-auto-height="0" data-cycle-speed="300" data-cycle-timeout="5000" data-cycle-fx="fade" data-pager-active-class="active-slide" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz">
+      <div class="w-ba-banner__slide bulletin_carousel_slide" data-cycle-title="圖說：亞大財法系碩士生賴苡任，考取北京大學法學院博士班。">
+             <img class="w-ba-banner__image banner-responsive" src="/uploads/bulletin_carousel_image/file/611b28cd8ccb5cba04000017/part_43185_6100309_61688.jpg" alt="圖說：亞大財法系碩士生賴苡任，考取北京大學法學院博士班。">
+             <div class="ad-overlay w-ad-banner__overlay bulletin_carousel__overlay">
+               <p><strong class="carousel__description">圖說：亞大財法系碩士生賴苡任，考取北京大學法學院博士班。</strong></p>
+             </div>
+             <div class="transitionfade"></div>
+      </div>
+      <div class="w-ba-banner__slide bulletin_carousel_slide" data-cycle-title="圖說：亞洲大學財法系碩士生賴苡任，擊敗眾多台港澳陸法律高材生，脫穎而出，錄取北京大學法學院博士班！">
+             <img class="w-ba-banner__image banner-responsive" src="/uploads/bulletin_carousel_image/file/611b28cd8ccb5cba04000018/part_43185_1758160_61688.jpg" alt="圖說：亞洲大學財法系碩士生賴苡任，擊敗眾多台港澳陸法律高材生，脫穎而出，錄取北京大學法學院博士班！">
+             <div class="ad-overlay w-ad-banner__overlay bulletin_carousel__overlay">
+               <p><strong class="carousel__description">圖說：亞洲大學財法系碩士生賴苡任，擊敗眾多台港澳陸法律高材生，脫穎而出，錄取北京大學法學院博士班！</strong></p>
+             </div>
+             <div class="transitionfade"></div>
+      </div>
+      <div class="w-ba-banner__slide bulletin_carousel_slide" data-cycle-title="圖說：考取北京大學法學院博士班的財法系碩士生賴苡任(中)與啟蒙恩師、曾任德國籍法官魏馬哲老師(Matthias Wetzel)、謝如蘭老師夫婦。">
+             <img class="w-ba-banner__image banner-responsive" src="/uploads/bulletin_carousel_image/file/611b28cd8ccb5cba04000019/part_43185_120402_61689.jpg" alt="圖說：考取北京大學法學院博士班的財法系碩士生賴苡任(中)與啟蒙恩師、曾任德國籍法官魏馬哲老師(Matthias Wetzel)、謝如蘭老師夫婦。">
+             <div class="ad-overlay w-ad-banner__overlay bulletin_carousel__overlay">
+               <p><strong class="carousel__description">圖說：考取北京大學法學院博士班的財法系碩士生賴苡任(中)與啟蒙恩師、曾任德國籍法官魏馬哲老師(Matthias Wetzel)、謝如蘭老師夫婦。</strong></p>
+             </div>
+             <div class="transitionfade"></div>
+      </div>
+    </div>
+      <ul class="controlplay">
+<a class="resume-slide" title="繼續播放"><i></i></a><a class="pause-slide" title="暫停播放"><i></i></a>
+</ul>
+    <ul class="button-mid">
+      <i class="fa fa-angle-left prev-button" aria-hidden="true" title="上一張"></i>
+      <i class="fa fa-angle-right next-button" aria-hidden="true" title="下一張"></i>
+    </ul>
+  </div>
+  <div style="position: relative;">
+    <h4>
+<span class="active_slide">1</span>/3</h4>
+    <ul class="carousel_images_slide w-annc__list  row list-unstyled">
+      <li class="carousel_img_item  col-sm-3">
+      <div class="carousel_img-wrap">
+        <img class="carousel_img" src="/uploads/bulletin_carousel_image/file/611b28cd8ccb5cba04000017/part_43185_6100309_61688.jpg" alt="圖說：亞大財法系碩士生賴苡任，考取北京大學法學院博士班。">
+      </div>
+      </li>
+      <li class="carousel_img_item  col-sm-3">
+      <div class="carousel_img-wrap">
+        <img class="carousel_img" src="/uploads/bulletin_carousel_image/file/611b28cd8ccb5cba04000018/part_43185_1758160_61688.jpg" alt="圖說：亞洲大學財法系碩士生賴苡任，擊敗眾多台港澳陸法律高材生，脫穎而出，錄取北京大學法學院博士班！">
+      </div>
+      </li>
+      <li class="carousel_img_item  col-sm-3">
+      <div class="carousel_img-wrap">
+        <img class="carousel_img" src="/uploads/bulletin_carousel_image/file/611b28cd8ccb5cba04000019/part_43185_120402_61689.jpg" alt="圖說：考取北京大學法學院博士班的財法系碩士生賴苡任(中)與啟蒙恩師、曾任德國籍法官魏馬哲老師(Matthias Wetzel)、謝如蘭老師夫婦。">
+      </div>
+      </li>
+    </ul>
+    <ul class="button-mid">
+      <i class="fa fa-angle-left prev-button prev_img" aria-hidden="true" title="上一張"></i>
+      <i class="fa fa-angle-right next-button next_img" aria-hidden="true" title="下一張"></i>
+    </ul>
+  </div>
+</div>
+<style type="text/css">
+  .carousel_img_item{
+    display: none;
+    float: left;
+  }
+  .controlplay {
+    position: absolute;
+    right: 1em;
+    top: 3%;
+    z-index: 200;
+  }
+  .controlplay a {
+    display: inline-block;
+    margin-right: 0.25em;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+    background: rgba(0,0,0,0.2);
+  }
+  .controlplay a i {
+    font-family: FontAwesome;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1;
+    color: #FFF;
+    vertical-align: middle;
+    font-style: unset;
+  }
+  .controlplay .resume-slide i::before {
+    content: "\f04b";
+  }
+  .controlplay .pause-slide i::before {
+    content: "\f04c";
+  }
+  ul.button-mid .prev-button {
+      transition: 0.4s;
+      position: relative;
+      float: left;
+      left: 0.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 2.2rem;
+      color: #ffffff;
+      background: rgba(0,0,0,0.2);
+      text-align: center;
+      line-height: 2.5rem;
+      top: 50%;
+      position: absolute;
+      transform: translateY(-50%);
+      z-index: 999;
+  }
+  ul.button-mid .next-button {
+      float: right;
+      transition: 0.4s;
+      position: relative;
+      right: 0.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 2.2rem;
+      color: #fff;
+      background: rgba(0,0,0,0.2);
+      text-align: center;
+      line-height: 2.5rem;
+      top: 50%;
+      position: absolute;
+      transform: translateY(-50%);
+      z-index: 999;
+  }
+  .carousel_images_slide{
+    padding: 3em;
+  }
+  .carousel_img_item img{
+    cursor: pointer;
+  }
+  @media (max-width: 479px){
+    .carousel_img_item:nth-child(-n+1){
+      display: block;
+      width: 100%;
+      float: left;
+    }
+    .carousel_img_item{
+      width: 100%;
+    }
+  }
+  @media (min-width: 480px){
+    .carousel_img_item:nth-child(-n+2){
+      display: block;
+      width: 50%;
+      float: left;
+    }
+    .carousel_img_item{
+      width: 50%;
+    }
+  }
+  @media (min-width: 768px){
+    .carousel_img_item:nth-child(-n+3){
+      display: block;
+      width: 33%;
+      float: left;
+    }
+    .carousel_img_item{
+      width: 33%;
+    }
+  }
+  @media (min-width: 1280px){
+    .carousel_img_item:nth-child(-n+4){
+      display: block;
+      width: 25%;
+      float: left;
+    }
+    .carousel_img_item{
+      width: 25%;
+    }
+  }
+</style>
+<script>
+  (function($) {
+    $('.pause-slide').click(function(){
+      $(this).parent("ul").parent('.w-ba-banner').find(".cycle-slideshow").cycle('pause');
+    });
+    $('.resume-slide').click(function(){
+      $(this).parent("ul").parent('.w-ba-banner').find(".cycle-slideshow").cycle('resume');
+    });
+    $('.next-button').off('click').on('click',function(){
+      $(this).parent("ul").parent('.w-ba-banner').find(".cycle-slideshow").cycle("next");
+    })
+    $('.prev-button').off('click').on('click',function(){
+      $(this).parent("ul").parent('.w-ba-banner').find(".cycle-slideshow").cycle("prev");
+    })
+    window.active_slide = 0;
+    $('.prev_img').off('click').on('click',function(){
+      var carousel_images_slide = $('.carousel_images_slide');
+      var carousel_images_slide_first_child = carousel_images_slide.find(">li").eq(active_slide);
+      if(carousel_images_slide_first_child.length > 0){
+        var content_size = Math.floor((carousel_images_slide.outerWidth() - Number.parseInt(carousel_images_slide.css('font-size')) * 3) / carousel_images_slide_first_child.outerWidth(true));
+        content_size = Math.max(content_size,1);
+        if(carousel_images_slide.find(">li").length > content_size && active_slide > 0){
+          active_slide -= content_size;
+          carousel_images_slide.find(">li").css("display","none");
+          for(var i = active_slide; i < active_slide + content_size;i++){
+            carousel_images_slide.find(">li").eq(i).css("display","block");
+          }
+        }
+      }
+    })
+    $('.next_img').off('click').on('click',function(){
+      var carousel_images_slide = $('.carousel_images_slide');
+      var carousel_images_slide_first_child = carousel_images_slide.find(">li").eq(active_slide);
+      if(carousel_images_slide_first_child.length > 0){
+        var content_size = Math.floor((carousel_images_slide.outerWidth() - Number.parseInt(carousel_images_slide.css('font-size')) * 3) / carousel_images_slide_first_child.outerWidth(true));
+        content_size = Math.max(content_size,1);
+        var li_length = carousel_images_slide.find(">li").length;
+        if(li_length > content_size){
+          active_slide += content_size;
+          active_slide = Math.min(active_slide,li_length - 1);
+          carousel_images_slide.find(">li").css("display","none");
+          for(var i = active_slide; i < active_slide + content_size;i++){
+            carousel_images_slide.find(">li").eq(i).css("display","block");
+          }
+        }
+      }
+
+    })
+    $(".carousel_img_item img").off("click").on("click",function(){
+      $(".carousel_images .cycle-slideshow").cycle($(this).index(".carousel_img_item img"));
+    })
+    $(document).ready(function(){
+      $(".carousel_images .cycle-slideshow").cycle('pause');
+      var carousel_image_block_width = $('.carousel_images').width();
+      var heights = $(".bulletin_carousel_slide").map(function(i,v){
+        return $(v).height() * carousel_image_block_width / $(v).width();
+      })
+      var max_height = Math.max.apply(null,heights);
+      $(".bulletin_carousel_slide").each(function(i,v){
+        $(v).height(max_height);
+      })
+      $(".carousel_images .cycle-slideshow").cycle('resume');
+      $('.cycle-slideshow').on('cycle-after',function(){
+        $(".active_slide").text($('.bulletin_carousel_slide.cycle-slide-active').index());
+      })
+    })
+    $(window).on("load",function(){
+      $(".carousel_images .cycle-slideshow").cycle('pause');
+      var carousel_image_block_width = $('.carousel_images').width();
+      var heights = $(".bulletin_carousel_slide").map(function(i,v){
+        return $(v).height() * carousel_image_block_width / $(v).width();
+      })
+      var max_height = Math.max.apply(null,heights);
+      $(".bulletin_carousel_slide").each(function(i,v){
+        $(v).height(max_height);
+      })
+      $(".carousel_images .cycle-slideshow").cycle('resume');
+    })
+    $(window).resize(function(){
+      var carousel_images_slide = $('.carousel_images_slide');
+      var carousel_images_slide_first_child = carousel_images_slide.find(">li").eq(active_slide);
+      if(carousel_images_slide_first_child.length > 0){
+        var content_size = Math.floor((carousel_images_slide.outerWidth() - Number.parseInt(carousel_images_slide.css('font-size')) * 3) / carousel_images_slide_first_child.outerWidth(true));
+        content_size = Math.max(content_size,1);
+        carousel_images_slide.find(">li").css("display","none");
+        var active_count = carousel_images_slide.find(">li").length - active_slide;
+        if(active_count < content_size){
+          active_slide -= (content_size - active_count);
+        }
+        active_slide = Math.max(active_slide,0);
+        console.log(content_size)
+        for(var i = active_slide; i < active_slide + content_size;i++){
+          carousel_images_slide.find(">li").eq(i).css("display","block");
+        }
+      }
+      var carousel_image_block_width = $('.carousel_images').width();
+      $(".bulletin_carousel_slide").css("height",'');
+      var heights = $(".bulletin_carousel_slide").map(function(i,v){
+        return $(v).height() * carousel_image_block_width / $(v).width();
+      })
+      var max_height = Math.max.apply(null,heights);
+      $(".bulletin_carousel_slide").each(function(i,v){
+        $(v).height(max_height);
+      })
+    })
+  }(jQuery));
+</script>
+
+<script>
+  (function($) {
+
+    function hideEmptyEl(el, elParent) {
+      if( el.length === 0) {
+        elParent.addClass('hide');
+      }
+    }
+
+    // Hiding parent element when children elements are not present
+    // Tags
+    hideEmptyEl($('.s-annc__tag'), $('.s-annc__tag-wrap'));
+    
+    // Attachments
+    hideEmptyEl($('.s-annc__flie-title'), $('.s-annc__related-file'));
+    
+    // Links
+    hideEmptyEl($('.s-annc__link-title'), $('.s-annc__related-link'));
+    $("img[src='']").remove();
+  }(jQuery));
+</script>
+
+
+<style type="text/css">
+  div[contentEditable=true]:empty:before{
+    content: attr(data-ph);
+    color: #000000;
+    padding-left: 3%;
+    font-weight: bold;
+    font-family: serif;
+  }
+  .announcement-comment {
+    margin-top: 1em;
+    border: solid 0.2em #000000;
+    background: #ffffff;
+    color: #000000;
+    font-size: 1.15em;
+    padding: 0.3em 0 0.3em 3%;
+    border-radius: 0.7em;
+    display: inline-block;
+    width: 80%;
+    outline: 0;
+  }
+  .annc-comment-div,.annc-comments{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn-comment{
+    margin-top: 1em;
+    margin-left: 3%;
+    color: #ffffff;
+    font-size: 1em;
+    background: #000000;
+    margin-left: 3%;
+  }
+  .btn.btn-comment:focus{
+    color: #ffffff;
+  }
+  .btn-comment:hover{
+    color: #ffffff;
+    background-color: #0095cf;
+  }
+  .annc-comments-nickname {
+    margin-top: 1em;
+    margin-left: 3%;
+    color: #000000;
+  }
+  .comment-time{
+    padding-left: 1em;
+    width: 100%;
+    color: #000000;
+  }
+  .annc-comments{
+    margin: 1.5em 0;
+  }
+  @media (max-width: 767px) {
+    .annc-comment-div,.annc-comments{
+      justify-content: center;
+    }
+    .announcement-comment {
+      width: 100%;
+    }
+  }
+</style>
+<script type="text/javascript">
+  $(function(){
+    $('.annc-comment-div .btn-comment').click(function(){
+      $.ajax({
+        url: "/xhr/announcements/%E4%BA%9E%E6%B4%B2%E5%A4%A7%E5%AD%B8%E8%B2%A1%E6%B3%95%E7%B3%BB%E8%B3%B4%E8%8B%A1%E4%BB%BB%E9%8C%84%E5%8F%96%E5%8C%97%E5%A4%A7%E6%B3%95%E5%AD%B8%E9%99%A2%E5%8D%9A%E5%A3%AB%E7%8F%AD-17610133-17610133/comment",
+        data : {"comment" : $(this).parents('.annc-comment-div').find('.announcement-comment').html()},
+        dataType : "json",
+        type : "get",
+        success : function(data){
+          window.location.href = window.location.href
+        }
+      })
+    })
+  })
+</script>
+</div></main>
+          <div class="box-social-share no-print">
+<!-- Load Facebook SDK for JavaScript -->
+								<div id="fb-root"></div>
+								<script style="display: none !important;;">(function(d, s, id) {
+									var js, fjs = d.getElementsByTagName(s)[0];
+									if (d.getElementById(id)) return;
+									js = d.createElement(s); js.id = id;
+									js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+									fjs.parentNode.insertBefore(js, fjs);
+								}(document, 'script', 'facebook-jssdk'));</script>
+								<div class="fb-share-button" data-type="button"></div>
+<a class="line-it-button" title="Share this page on LINE. (open in new window.)" href="javascript:void(0)" target="_blank">
+					<img src="https://www.line-website.com/social-plugins/img/common/line_v3@3x.png" alt="Line icon">
+					<span class="label">
+						<span class="lang">
+							Share
+						</span>
+					</span>
+				</a>
+				<script style="display: none !important;">
+				$('.line-it-button').attr('href','https://social-plugins.line.me/lineit/share?url='+encodeURIComponent(document.location.href)+"&text="+document.title)
+				</script><div class="tw-share-button"><a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none">Tweet</a></div>
+<div class="print-button"><a href="#" title="print" onclick="window.print();return false;"><i class="fa fa-print"></i><span class="print-txt">Print this page</span></a></div>
+</div>
+          <div class="extra" data-pp="700"></div>
+          </section>
+          <aside class="layout-content-box aside right-column col-sm-3" data-pp="13"></aside>
+        </div>
+        <div class="extra" data-pp="800"></div>
+      </div>
+    </div>
+  </div>
+  
+
+<footer class="layout-footer no-print footercontainer">
+  <div class="container layout-footer-inner">
+      <div class="layout-footer-content">
+<p style="text-align: center;"><img alt="" src="https://ccae.asia.edu.tw/ezfiles/71/1071/img/1461/3.jpg" style="width: 80px;">41354 台中市霧峰區柳豐路500號 兩岸教育交流中心 L105 TEL: 04-2332-3456 分機6711</p>
+
+<p style="text-align: center;">Copyright© 2021 Office of Cross-Strait Education Exchange , Asia University, Taiwan</p>
+</div>
+      <div class="footer-counter">造訪人次 : 872762</div>
+      <div class="footer-updated-date"></div>
+  </div>
+</footer>
+
+
+</body>
+</html>

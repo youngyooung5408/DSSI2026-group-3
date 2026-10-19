@@ -1,0 +1,18 @@
+[
+  {
+    "source_url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/R1/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "path": "data/raw/municipal_roles_round9_20261019/2022_R1_elbase.csv",
+    "sha256": "96ee98216f80e97cee27c8edbbbab35c240717bdd2ecf5eef4edaea4b45d36ee",
+    "method": "unchanged extraction from preserved ZIP; no new network request"
+  },
+  {
+    "source_url": "https://db.cec.gov.tw/",
+    "archive_member": "votedata/votedata/voteData/2022-111年地方公職人員選舉/D1/elbase.csv",
+    "archive_sha256": "84740535b1f4a9a8fec8ebfe8f7577889837b7639cd7f5e40ef8826c6ab2f69a",
+    "path": "data/raw/municipal_roles_round9_20261019/2022_D1_elbase.csv",
+    "sha256": "780f22895ffc9db630f92733fce3defbe913e6c936ca64cecf8860e34df0768a",
+    "method": "unchanged extraction from preserved ZIP; no new network request"
+  }
+]

@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+
+<html id="FormHtml" xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-tw">
+<head id="Head1"><script>var CCMS_WWWURL='https://www.miaoli.gov.tw';var CCMS_LanguageSN=1;var CCMS_SitesSN_Encryption='402';var miaolilocation='$%mylocation%$';var miaolilocationbase='www2';</script><script src='https://www.miaoli.gov.tw/Scripts/jquery.min.js'></script>
+<script src='https://www.miaoli.gov.tw/Scripts/fu_Accessibility.js'></script>
+<script src='https://www.miaoli.gov.tw/Scripts/jquery.cookie.js'></script>
+<script src='https://www.miaoli.gov.tw/Scripts/jUtil.js'></script>
+<script src='https://www.miaoli.gov.tw/Scripts/fancybox/jquery.fancybox.js'></script>
+<link rel='stylesheet' type='text/css'  href='https://www.miaoli.gov.tw/Scripts/fancybox/jquery.fancybox.css'> 
+<script src='https://www.miaoli.gov.tw/Scripts/lightGallery/js/lightgallery-all.min.js'></script>
+<link rel='stylesheet' type='text/css'  href='https://www.miaoli.gov.tw/Scripts/lightGallery/css/lightgallery.min.css'> 
+<script src='https://www.miaoli.gov.tw/Scripts/J_Pager.js'></script>
+<script  src='https://www.miaoli.gov.tw/Scripts/Chart/chart.js'></script> 
+<script  src='https://www.miaoli.gov.tw/Scripts/Chart/chartjs-plugin.js'></script> 
+<script  src='https://www.miaoli.gov.tw/Scripts/jquery.mousewheel.min.js'></script> 
+<script  src='https://www.miaoli.gov.tw/Scripts/jquery.touchwipe.min.js'></script> 
+<script  src='https://www.miaoli.gov.tw/js/airdatepicker/datepicker.min.js'></script> 
+<script  src='https://www.miaoli.gov.tw/js/airdatepicker/datepicker.zh-tw.js'></script> 
+<script  src='https://www.miaoli.gov.tw/js/airdatepicker/datepicker.en.js'></script> 
+<link rel='stylesheet' type='text/css'  href='https://www.miaoli.gov.tw/js/airdatepicker/datepicker.min.css'> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="DC.Title" content="苗栗縣政府全球資訊網-中文網首頁" />
+<meta name="DC.Subject" content="" />
+<meta name="DC.Creator" content="苗栗縣政府" />
+<meta name="DC.Publisher" content="" />
+<meta name="DC.Date" content="2025-07-10" />
+<meta name="DC.Type" content="" />
+<meta name="DC.Identifier" content="" />
+<meta name="DC.Description" content="" />
+<meta name="DC.Contributor" content="" />
+<meta name="DC.Format" content="" />
+<meta name="DC.Relation" content="" />
+<meta name="DC.Source" content="" />
+<meta name="DC.Language" content="" />
+<meta name="DC.Coverage.t.min" content="2024-07-10" />
+<meta name="DC.Coverage.t.max" content="2026-07-10" />
+<meta name="DC.Rights" content="" />
+<meta name="Category.Theme" content="" />
+<meta name="Category.Cake" content="" />
+<meta name="Category.Service" content="" />
+<meta name="DC.Keywords" content="" />
+<title>
+	苗栗縣政府全球資訊網-中文網-逆境築夢　苗栗兩學子以毅力獲總統教育獎
+</title><link id="likCssGlobal" href="/css/global.css" rel="stylesheet" type="text/css" /><link id="likCssPage" href="/css/page.css" rel="stylesheet" type="text/css" /><link id="likPrint" href="/css/print.css" rel="stylesheet" type="text/css" media="print" /><link id="lnkCssSysDetail" href="/css/sys_detail.css" rel="stylesheet" type="text/css" />
+<link href="https://webws.miaoli.gov.tw/001/Upload/402/sites/pagebackimage/a653bb51-8b36-46ce-8429-ce1f5ec8a55c.png" rel="icon" type="image/x-icon"><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148735888-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148735888-1');
+</script>
+<meta property="og:title" content="逆境築夢　苗栗兩學子以毅力獲總統教育獎" >
+<meta property="og:type" content="article" >
+<meta property="og:url" content="https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=872639" >
+<meta property="og:site_name" content="苗栗縣政府全球資訊網-中文網" >
+</head>
+<body id="Formbody" data-js="false"><div class="for_accessibility">
+    <style>
+        .for_accessibility a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 99;
+            width: 1px;
+            height: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            color: #000;
+        }
+            .for_accessibility a:focus {
+                width: auto;
+                height: auto;
+                padding: 6px;
+                background-color: #fff;
+            }
+        .for_accessibility div {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background-color: transparent;
+            opacity: .1
+        }
+    </style>
+    <a href="#CCMS_Content" class="" title="跳到主要內容區塊">跳到主要內容區塊</a>    <div>
+    </div>
+    <script>
+        var $a = $('.for_accessibility a');
+        $a.on('click', function (evt) {
+            var $href = $($(this).attr('href')),
+                $target = $href.find('a').eq(0).get(0);
+            setTimeout(function () { try { $target.focus(); } catch (e) { } }, 0);
+        });
+    </script>
+</div>
+<script> document.body.setAttribute("data-js", "true");</script>
+    
+    <form method="post" action="./News_Content2.aspx?n=285&amp;s=872639" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="S+18iBCtI3FB3D2PRO/DYnWCEBGf8mE1BI6oKjswbuZ/23eG6PwMO19+pPctpaiGSvKJ5GiUQrn9PiWSL5ZZLz70S7h7UPwrkOkgLbnIsbNFSFf+pWTabQ8ZtYjVO2+S98phI/xW4oFc8pc/dSen3UWuHvqaxKzo57drK2vlV1SSGCSg323WAgZ6Gza/+eA3O7sNYXUaAKMkZnFbqQUsj5mu7wb9NDPJJlNEdRbVSkN74e3ORd8hvshGZRUY8hmydeXV/GFF8mrZ+5QUwZcEt/KJjm57nI3slAVunFC2BtQXGSzxrUvePQ0/z1/Ic2HmSLsNcVh4QtdkJ4TACn6i2S1dKmYGVBkMkjVzPrk28vGnrllWvs5uXYDxOXnqpwVHNIDA/F9K/c0ZvVne6wAuReC7bwYCWT435MHvU8Yq/XgAPo6c2nucve/tgo8arV/CQLQ6V7C3mqZUQXT/szJo9bzyI9+FRSc2QYLPlMFBNCBXwaBJWqElRF7Y5owCaKtOGVGTUoPmNu1kx+tTDD22RIZQLfzGiBiu4tJacjejgKXz2d3eQCVwL1CYcLo/dJ2BnnAcr8ocerhIU5NOuX9cRO0teRg49j5qWRphrKwpHKsbs2JSPLPVe3tfqqJvqgBscsfnt7nZ5+IC/WjalYuowyaa2MRZ2PfTySSxeduhEm3OM8zT+qTnCTdAgvoBcJJNeQiiIlY8ASQfeA8HQWJJFpwRPiteFzBJPPmovWKem8rNflv2uVxLITgIcjI6/lPo1hMU7vdxA1gzC/7xOgFrahV6c1/obEbxtdQTxB4DCq830gpkd2OD3huy54z3+qRc6l7xp21YUhoyMzGbZXgkZ4fMIutvQ/XMTQYp7HzwyaKH9Is/hJjg8tuHAqrCexWzWOGbBYW8uOkNX1+pSHq8ytsREvpR7+O+bfR98ObWp1MVfHn+0obTwKGb7QapTojDAVmKuXKHFsUnSpAW+XSYE971x+uvX3NMXaw0FbpyYXyxToHZ8+t4rGRrYxCJdb11PDwKOySdhBFQTla/udDBgyq4WTpm6Uv/jZkDJGsXX7tQv2e2tmnGP7IWqT0SIT9Ojb1f7tc0fDwJRN3EpnEupFlcIt1QiKgJc+8t79Sidib9Y0vSrRwH71w7lPBQqDvgFj+ggfZTYUf98T7SpLQvP08eKU0JO5BVfr4dHUBo9fAhUvgaEpx9BUL6dCB3k4jTJhMz19S89vJqB/GjGjs8dROM1+VJYlO5v7eKomGLX7MiB67qeG+YppdYMTN3GKbQx8I1QUzieb1qhyzHTZaw76oxjX/wpSqzxg/O9bcXBV1jxPpvNB15k6N2T9wY/U+jAcPDpd/3pdWCVX8FM2bE9IRjTxw5aCBP8Ut++GYzOjl4K/XdI8evheIgWJLeoR7IlzQN8Q+ZP96YRl9MpdKICLp2br+0APC7wAWhbXWUXoHZZ/D/nIn0XI7RPRpL71bsO6MF15yr+jipe+UfUZqJXcGrZBzRAEJBmJrFtM+ipVkg1idoPCYrXlQLlZzeSzs2dlW+hwgfZ0mLNGFOtND91N4Q/D4KXrc1qjB3Dg==" />
+</div>
+
+        <!--主選單 結束-->
+        <!--標題-->
+
+        <div class="title">
+            
+
+        </div>
+        
+        
+        
+        
+        
+        
+     <div class="group sys-root" data-func="{&#39;datePicker&#39;:{&#39;autoClose&#39;:true,&#39;language&#39;:&#39;zh-tw&#39;,&#39;navTitles&#39;:{&#39;days&#39;:&#39;&lt;i&amp;gt;民國 rrr 年&lt;/i&amp;gt; &amp;nbsp; MM&#39;,&#39;months&#39;:&#39;民國 rrr 年&#39;,&#39;years&#39;:&#39;民國 rrr1 至 rrr2 年&#39;}}}" data-nojs="您的瀏覽器似乎不支援 JavaScript 語法，但沒關係，這並不會影響到內容的陳述。如需要選擇適合您的字級大小，可利用鍵盤 Ctrl   ( )放大 (-)縮小。如需要回到上一頁，可使用瀏覽器提供的 Alt   左方向鍵(←)。如需要列印，可利用鍵盤 Ctrl   p 使用瀏覽器提供的列印功能。" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="group base-mobile" data-func="{&#39;toggleBtn&#39;:{}}" data-index="1" data-type="3"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a    title="手機版選單"   >手機版選單</a></span></div></div></div><div class="ct"><div class="in"> <div class="area-form search" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="search"   >search</a></span></div></div></div><div class="ct"><div class="in"><div class="fieldset">
+  <span class="search"><input id="btn_9b8e2602c11846a4a2e87568e52b9491" data-search="btn_9b8e2602c11846a4a2e87568e52b9491" type="search" placeholder="Search" title="搜尋"></span>
+  <span class="submit"><a href="#" class='CCMS_SearchBtn' role='button' data-search="btn_9b8e2602c11846a4a2e87568e52b9491" >搜尋</a></span>
+</div>
+<div class="list">
+  <ul data-index="1" data-child="3">
+    <li data-index="1"><span><a href="#">慢城</a></span></li>
+    <li data-index="2"><span><a href="#">貓裏喵</a></span></li>
+    <li data-index="3"><span><a href="#"> 客家圓樓</a></span></li>
+  </ul>
+</div>
+<script >
+$(function () {
+    $('[data-search="btn_9b8e2602c11846a4a2e87568e52b9491"]').on("keydown", function (event) {
+        if (event.which == 13) {
+             doSearch($('#btn_9b8e2602c11846a4a2e87568e52b9491'));
+            return false;
+        }
+    });
+});
+</script>
+</div></div><div class="ft"><div class="in"><ul data-index="1" data-child="1">
+  <li data-index="1" class="advanced"><span><a target="_blank" href="https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.miaoli.gov.tw" title="進階搜尋[另開新視窗]">進階搜尋</a></span></li>
+</ul>
+</div></div></div></div> <div class="list-text share" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="#"   title="分享"   >分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li   data-index="1"  class="facebook"  >		<span  ><a   href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"   title="Share to Facebook[另開新視窗]"   target="_self"  >Facebook</a></span></li><li   data-index="2"  class="plurk"  >		<span  ><a   href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status='.concat(encodeURIComponent(location.href)) ));"   title="Share toPlurk[另開新視窗]"   target="_self"  >Plurk</a></span></li><li   data-index="3"  class="twitter"  >		<span  ><a   href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));"   title="Share to twitter[另開新視窗]"   target="_self"  >Twitter</a></span></li><li   data-index="4"  class="line"  >		<span  ><a   href="javascript: void(window.open('http://line.naver.jp/R/msg/text/?'.concat(encodeURIComponent(location.href)) ));"   title="Share to line[另開新視窗]"   target="_self"  >line</a></span></li><li   data-index="5"  class="email"  >		<span  ><a   href="javascript:  void(window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=' +  encodeURIComponent(document.URL)));"   title="Share to email[另開新視窗]"   target="_self"  >Email</a></span></li></ul>
+</div></div></div></div> <div class="group-list nav" data-func="{&#39;majorNavStraight&#39;:{}}" data-index="3" data-type="4" data-child="5"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=258"      title="幸福苗栗"   >幸福苗栗</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cp.aspx?n=259"      title="歷史沿革"   >歷史沿革</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=260"      title="地理環境"   >地理環境</a></span></li><li   data-index="3"  >		<span  ><a   href="cp.aspx?n=261"      title="自然環境"   >自然環境</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=262"      title="人文風情"   >人文風情</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=263"      title="縣府介紹"   >縣府介紹</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="6"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=264"      title="首長專欄"   >首長專欄</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=272"      title="組織架構"   >組織架構</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=273&sms=9457"      title="機關通訊"   >機關通訊</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=324"      title="交通位置"   >交通位置</a></span></li><li   data-index="5"  >		<span  ><a   href="cp.aspx?n=333"      title="樓層配置"   >樓層配置</a></span></li><li   data-index="6"  >		<span  ><a   href="cl.aspx?n=277"      title="縣府識別"   >縣府識別</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=284"      title="縣府消息"   >縣府消息</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=285&sms=9462"      title="縣府新聞"   >縣府新聞</a></span></li><li   data-index="2"  >		<span  ><a   href="News_Video.aspx?n=4590&sms=11514"      title="影音新聞"   >影音新聞</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=286&sms=9463"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=287&sms=9464"      title="最新公告"   >最新公告</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=288&sms=11623"      title="徵才公告"   >徵才公告</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=289&sms=9465"      title="榮譽榜"   >榮譽榜</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=4578"      title="影音專區"   >影音專區</a></span></li><li   data-index="8"  >		<span  ><a   href="News_Link.aspx?n=283&sms=11348"      title="縣府專刊"   >縣府專刊</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=4579"      title="縣政資訊"   >縣政資訊</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="9"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=4580"      title="主題服務"   >主題服務</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=360"      title="最新債務訊息"   >最新債務訊息</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=322&sms=9480"      title="政府資訊公開"   >政府資訊公開</a></span></li><li   data-index="4"  >		<span  ><a   href="News_photo2.aspx?n=274&sms=9458"      title="縣政施政建設"   >縣政施政建設</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=275&sms=9459"      title="縣政大事紀要"   >縣政大事紀要</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=341&sms=9487"      title="苗栗縣政府現金收支表"   >苗栗縣政府現金收支表</a></span></li><li   data-index="7"  >		<span  ><a   href="News_photo2.aspx?n=276&sms=9460"      title="縣務會議"   >縣務會議</a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=331&sms=9483"      title="民間團體補捐助"   >民間團體補捐助</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=339&sms=9486"      title="議員所提地方建設建議事項處理情形"   >議員所提地方建設建議事項處理情形</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=293"      title="便民服務"   >便民服務</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="13"><li   data-index="1"  >		<span  ><a   href="https://eservice.miaoli.gov.tw"      title="[另開新視窗]便民快e通"   target="_blank"  >便民快e通</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=294&sms=9467"      title="表單下載"   >表單下載</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=295&sms=9468"      title="申辦須知"   >申辦須知</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=4807"      title="標準化作業流程"   >標準化作業流程</a></span></li><li   data-index="5"  >		<span  ><a   href="https://service.miaoli.gov.tw/CP.aspx?n=2444"      title="[另開新視窗]縣民熱線1999"   target="_blank"  >縣民熱線1999</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=302&sms=9471"      title="為民服務專線"   >為民服務專線</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=4585"      title="縣民生活連結"   >縣民生活連結</a></span></li><li   data-index="8"  >		<span  ><a   href="https://service.miaoli.gov.tw/FAQDefault.aspx"      title="[另開新視窗]常見問答集"   target="_blank"  >常見問答集</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=312&sms=9476"      title="粉絲團"   >粉絲團</a></span></li><li   data-index="10"  >		<span  ><a   href="News_App.aspx?n=314&sms=9478"      title="APP下載"   >APP下載</a></span></li><li   data-index="11"  >		<span  ><a   href="cl.aspx?n=4814"      title="機構評鑑專區"   >機構評鑑專區</a></span></li><li   data-index="12"  >		<span  ><a   href="cl.aspx?n=5612"      title="苗栗縣婦女福利服務資源整合平台"   >苗栗縣婦女福利服務資源整合平台</a></span></li><li   data-index="13"  >		<span  ><a   href="News.aspx?n=306&sms=9472"      title="雙語詞彙"   >雙語詞彙</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div class="list-text hot-key-word" data-index="4" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="熱門關鍵字"   >熱門關鍵字</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="Advanced_Search.aspx?q=慢城"   title="慢城"   target="_self"  >慢城</a></span></li><li   data-index="2"  >		<span  ><a   href="Advanced_Search.aspx?q=貓裏喵"   title="貓裏喵"   target="_self"  >貓裏喵</a></span></li><li   data-index="3"  >		<span  ><a   href="Advanced_Search.aspx?q= 客家圓樓"   title=" 客家圓樓"   target="_self"  > 客家圓樓</a></span></li></ul>
+</div></div></div></div> <div class="list-text link" data-index="5" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="上方連結"   >上方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="SiteMap.aspx"   title="網站導覽"   target="_self"  >網站導覽</a></span></li><li   data-index="2"  >		<span  ><a   href="/eng"   title="[另開新視窗]English[另開新視窗]"   target="_blank"  >English</a></span></li></ul>
+</div></div></div></div> <div class="list-text link" data-index="6" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="下方連結"   >下方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="cp.aspx?n=4831&s=2690"   title="隱私權與資訊安全政策"   target="_self"  >隱私權與資訊安全政策</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=7687"   title="政府網站資料開放宣告"   target="_self"  >政府網站資料開放宣告</a></span></li><li   data-index="3"  >		<span  ><a   href="https://www.mlc.gov.tw"   title="[另開新視窗]藝文之美[另開新視窗]"   target="_blank"  >藝文之美</a></span></li></ul>
+</div></div></div></div></div></div></div></div> <div class="group base-extend" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div data-func="{&#39;anchor&#39;:{},&#39;scrollToShow&#39;:{}}" class="simple-text btn" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#" title="回最上面[連結]">回最上面</a></span></div></div></div></div></div></div></div></div> <div class="group base-wrapper" data-index="3" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="group base-header" data-index="1" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_U" id="Accesskey_U" accesskey="U" title="上方選單連結區，此區塊列有本網站的主要連結">:::</a></span></div></div></div></div> <div class="group default info" data-index="1" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="simple-text major-logo" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><h1><a href="Default.aspx" title="回首頁">苗栗縣政府全球資訊網-中文網</a><strong style="display: none;">苗栗縣政府全球資訊網-中文網</strong></h1></div></div></div></div> <div class="group default msg-tool" data-index="1" data-type="3"><div class="in"><div class="ct"><div class="in"> <div class="list-text link" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="上方連結"   >上方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  >		<span  ><a   href="SiteMap.aspx"   title="網站導覽"   target="_self"  >網站導覽</a></span></li><li   data-index="2"  >		<span  ><a   href="/eng"   title="[另開新視窗]English[另開新視窗]"   target="_blank"  >English</a></span></li></ul>
+</div></div></div></div> <div class="list-text font-size" data-func="{&#39;fontSize&#39;:{}}" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="#"   title="字級"   >字級</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  class="small"  >		<span  ><a   href="#"   title="小" role="button"  >小</a></span></li><li   data-index="2"  class="medium"  >		<span  ><a   href="#"   title="中" role="button"  >中</a></span></li><li   data-index="3"  class="large"  >		<span  ><a   href="#"   title="大" role="button"  >大</a></span></li></ul>
+</div></div></div></div> <div class="area-form search" data-func="{&#39;showDataList&#39;:{}}" data-index="3" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="search"   >search</a></span></div></div></div><div class="ct"><div class="in"><div class="fieldset">
+  <span class="search"><input id="btn_b12bffa3332d4b47a6a35bd24e6b8d68" data-search="btn_b12bffa3332d4b47a6a35bd24e6b8d68" type="search" placeholder="Search" title="搜尋"></span>
+  <span class="submit"><a href="#" class='CCMS_SearchBtn' role='button' data-search="btn_b12bffa3332d4b47a6a35bd24e6b8d68" >搜尋</a></span>
+</div>
+<div class="list">
+  <ul data-index="1" data-child="3">
+    <li data-index="1"><span><a href="#">慢城</a></span></li>
+    <li data-index="2"><span><a href="#">貓裏喵</a></span></li>
+    <li data-index="3"><span><a href="#"> 客家圓樓</a></span></li>
+  </ul>
+</div>
+<script >
+$(function () {
+    $('[data-search="btn_b12bffa3332d4b47a6a35bd24e6b8d68"]').on("keydown", function (event) {
+        if (event.which == 13) {
+             doSearch($('#btn_b12bffa3332d4b47a6a35bd24e6b8d68'));
+            return false;
+        }
+    });
+});
+</script>
+</div></div><div class="ft"><div class="in"><ul data-index="1" data-child="1">
+  <li data-index="1" class="advanced"><span><a target="_blank" href="https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.miaoli.gov.tw" title="進階搜尋[另開新視窗]">進階搜尋</a></span></li>
+</ul>
+</div></div></div></div> <div class="list-text share" data-func="{&#39;toggleBtn&#39;:{&#39;clickToRemove&#39;:true}}" data-index="4" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="#"   title="分享"   >分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li   data-index="1"  class="facebook"  >		<span  ><a   href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"   title="Share to Facebook[另開新視窗]"   target="_self"  >Facebook</a></span></li><li   data-index="2"  class="plurk"  >		<span  ><a   href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status='.concat(encodeURIComponent(location.href)) ));"   title="Share toPlurk[另開新視窗]"   target="_self"  >Plurk</a></span></li><li   data-index="3"  class="twitter"  >		<span  ><a   href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));"   title="Share to twitter[另開新視窗]"   target="_self"  >Twitter</a></span></li><li   data-index="4"  class="line"  >		<span  ><a   href="javascript: void(window.open('http://line.naver.jp/R/msg/text/?'.concat(encodeURIComponent(location.href)) ));"   title="Share to line[另開新視窗]"   target="_self"  >line</a></span></li><li   data-index="5"  class="email"  >		<span  ><a   href="javascript:  void(window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=' +  encodeURIComponent(document.URL)));"   title="Share to email[另開新視窗]"   target="_self"  >Email</a></span></li></ul>
+</div></div></div></div> <div class="list-text hot-key-word" data-index="5" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="熱門關鍵字"   >熱門關鍵字</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="Advanced_Search.aspx?q=慢城"   title="慢城"   target="_self"  >慢城</a></span></li><li   data-index="2"  >		<span  ><a   href="Advanced_Search.aspx?q=貓裏喵"   title="貓裏喵"   target="_self"  >貓裏喵</a></span></li><li   data-index="3"  >		<span  ><a   href="Advanced_Search.aspx?q= 客家圓樓"   title=" 客家圓樓"   target="_self"  > 客家圓樓</a></span></li></ul>
+</div></div></div></div></div></div></div></div></div></div></div></div> <div class="group-list nav" data-func="{&#39;hud&#39;:{},&#39;majorNavMiaoli&#39;:{}}" data-index="2" data-type="4" data-child="5"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=258"      title="幸福苗栗"   >幸福苗栗</a></span></div></div></div><div class="ct"><div class="in"> <div class="group-list marquee-nav" data-func="{&#39;marqueeHorizontal&#39;:{&#39;auto&#39;:false,&#39;delay&#39;:5000,&#39;speed&#39;:300}}" data-index="1" data-type="4" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li data-index="1"> <div class="group mega-nav" data-index="1" data-type="3" data-child="4"><div class="in"><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=259"      title="歷史沿革"   >歷史沿革</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="2" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=260"      title="地理環境"   >地理環境</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="3" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=261"      title="自然環境"   >自然環境</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="4" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=262"      title="人文風情"   >人文風情</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li></ul></div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=263"      title="縣府介紹"   >縣府介紹</a></span></div></div></div><div class="ct"><div class="in"> <div class="group-list marquee-nav" data-func="{&#39;marqueeHorizontal&#39;:{&#39;auto&#39;:false,&#39;delay&#39;:5000,&#39;speed&#39;:300}}" data-index="1" data-type="4" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li data-index="1"> <div class="group mega-nav" data-index="1" data-type="3" data-child="6"><div class="in"><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=264"      title="首長專欄"   >首長專欄</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="2" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=272"      title="組織架構"   >組織架構</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="3" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=273&sms=9457"      title="機關通訊"   >機關通訊</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="4" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=324"      title="交通位置"   >交通位置</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="5" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=333"      title="樓層配置"   >樓層配置</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="6" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=277"      title="縣府識別"   >縣府識別</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li></ul></div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=284"      title="縣府消息"   >縣府消息</a></span></div></div></div><div class="ct"><div class="in"> <div class="group-list marquee-nav" data-func="{&#39;marqueeHorizontal&#39;:{&#39;auto&#39;:false,&#39;delay&#39;:5000,&#39;speed&#39;:300}}" data-index="1" data-type="4" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li data-index="1"> <div class="group mega-nav" data-index="1" data-type="3" data-child="8"><div class="in"><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=285&sms=9462"      title="縣府新聞"   >縣府新聞</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="2" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News_Video.aspx?n=4590&sms=11514"      title="影音新聞"   >影音新聞</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="3" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=286&sms=9463"      title="活動訊息"   >活動訊息</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="4" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=287&sms=9464"      title="最新公告"   >最新公告</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="5" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=288&sms=11623"      title="徵才公告"   >徵才公告</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="6" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=289&sms=9465"      title="榮譽榜"   >榮譽榜</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="7" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=4578"      title="影音專區"   >影音專區</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="8" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News_Link.aspx?n=283&sms=11348"      title="縣府專刊"   >縣府專刊</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li></ul></div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=4579"      title="縣政資訊"   >縣政資訊</a></span></div></div></div><div class="ct"><div class="in"> <div class="group-list marquee-nav" data-func="{&#39;marqueeHorizontal&#39;:{&#39;auto&#39;:false,&#39;delay&#39;:5000,&#39;speed&#39;:300}}" data-index="1" data-type="4" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li data-index="1"> <div class="group mega-nav" data-index="1" data-type="3" data-child="9"><div class="in"><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=4580"      title="主題服務"   >主題服務</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="2" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=360"      title="最新債務訊息"   >最新債務訊息</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="3" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=322&sms=9480"      title="政府資訊公開"   >政府資訊公開</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="4" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News_photo2.aspx?n=274&sms=9458"      title="縣政施政建設"   >縣政施政建設</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="5" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=275&sms=9459"      title="縣政大事紀要"   >縣政大事紀要</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="6" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=341&sms=9487"      title="苗栗縣政府現金收支表"   >苗栗縣政府現金收支表</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="7" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News_photo2.aspx?n=276&sms=9460"      title="縣務會議"   >縣務會議</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="8" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=331&sms=9483"      title="民間團體補捐助"   >民間團體補捐助</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="9" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=339&sms=9486"      title="議員所提地方建設建議事項處理情形"   >議員所提地方建設建議事項處理情形</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li></ul></div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=293"      title="便民服務"   >便民服務</a></span></div></div></div><div class="ct"><div class="in"> <div class="group-list marquee-nav" data-func="{&#39;marqueeHorizontal&#39;:{&#39;auto&#39;:false,&#39;delay&#39;:5000,&#39;speed&#39;:300}}" data-index="1" data-type="4" data-child="2"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li data-index="1"> <div class="group mega-nav" data-index="1" data-type="3" data-child="12"><div class="in"><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="https://eservice.miaoli.gov.tw"      title="[另開新視窗]便民快e通"   target="_blank"  >便民快e通</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="2" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=294&sms=9467"      title="表單下載"   >表單下載</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="3" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=295&sms=9468"      title="申辦須知"   >申辦須知</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="4" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cp.aspx?n=4807"      title="標準化作業流程"   >標準化作業流程</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="5" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="https://service.miaoli.gov.tw/CP.aspx?n=2444"      title="[另開新視窗]縣民熱線1999"   target="_blank"  >縣民熱線1999</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="6" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=302&sms=9471"      title="為民服務專線"   >為民服務專線</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="7" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=4585"      title="縣民生活連結"   >縣民生活連結</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="8" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="https://service.miaoli.gov.tw/FAQDefault.aspx"      title="[另開新視窗]常見問答集"   target="_blank"  >常見問答集</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="9" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=312&sms=9476"      title="粉絲團"   >粉絲團</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="10" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News_App.aspx?n=314&sms=9478"      title="APP下載"   >APP下載</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="11" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=4814"      title="機構評鑑專區"   >機構評鑑專區</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div> <div class="list-text nav" data-index="12" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="cl.aspx?n=5612"      title="苗栗縣婦女福利服務資源整合平台"   >苗栗縣婦女福利服務資源整合平台</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group mega-nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="News.aspx?n=306&sms=9472"      title="雙語詞彙"   >雙語詞彙</a></span></div></div></div><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li></ul></div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div data-func="{&#39;kinmenExtendNav&#39;:{&#39;hud&#39;:&#39;.base-header .group-list.nav&#39;}}" class="extend-nav" data-index="2" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul><li class="i_vision"><span><a href="#" title="形象主題[連結]">形象主題</a></span></li><li class="i_news"><span><a href="#" title="訊息發佈[連結]">訊息發佈</a></span></li><li class="i_service"><span><a href="#" title="便民服務[連結]">便民服務</a></span></li><li class="i_link1"><span><a href="#" title="主題服務[連結]">主題服務</a></span></li><li class="i_stroke"><span><a href="#" title="大事紀[連結]">大事紀</a></span></li><li class="i_information"><span><a href="#" title="資訊透明專區[連結]">資訊透明專區</a></span></li><li class="i_vedio"><span><a href="#" title="影音專刊[連結]">影音專刊</a></span></li><li class="i_link2"><span><a href="#" title="相關連結[連結]">相關連結</a></span></li><li class="i_top"><span><a href="#" title="回頁首[連結]">回頁首</a></span></li></ul></div></div></div></div></div></div></div></div> <div id="base-content" class="group base-content" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group base-page-area" data-index="1" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div id="Group_5_aDHxATfFdv" data-Margin_right="" data-sort="" data-bgColor="" data-AddParentGroup="" data-GroupSN="5" data-WidthDeskTop="" data-anchor="" data-tabType="3" class="group base-aside" data-index="1" data-Margin_DefaultSetting="false" data-type="3" data-bgClass="" data-WidthMobile="" data-groupname="" data-WidthPad="" data-Margin_left="" data-MenuWidth="" data-isgroup="true" data-Margin_bottom="" data-child="1" data-Margin_Top=""><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_L" id="Accesskey_L" accesskey="L" title="左方次要連結區，此區塊列有本網站的次要連結">:::</a></span></div></div></div></div> <div id="Group_12038_EkhbNQKKPP" data-SitesModuleSN="8" data-Margin_right="" data-sort="2" data-bgColor="" data-AddParentGroup="" data-GroupSN="12038" data-WidthDeskTop="" data-anchor="" data-tabType="0" class="list-text minor-nav is-pad-hide is-phone-hide" data-index="1" data-Margin_DefaultSetting="false" data-type="0" data-bgClass="" data-WidthMobile="" data-groupname="" data-WidthPad="" data-Margin_left="" data-MenuWidth="" data-isgroup="true" data-setLen="0" data-Margin_bottom="" data-child="1" data-Margin_Top=""><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="縣府消息"   >縣府消息</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=285&sms=9462"      title="縣府新聞"   >縣府新聞</a></span></li><li   data-index="2"  >		<span  ><a   href="News_Video.aspx?n=4590&sms=11514"      title="影音新聞"   >影音新聞</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=286&sms=9463"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=287&sms=9464"      title="最新公告"   >最新公告</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=288&sms=11623"      title="徵才公告"   >徵才公告</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=289&sms=9465"      title="榮譽榜"   >榮譽榜</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=4578"      title="影音專區"   >影音專區</a></span></li><li   data-index="8"  >		<span  ><a   href="News_Link.aspx?n=283&sms=11348"      title="縣府專刊"   >縣府專刊</a></span></li></ul>
+</div></div></div></div></div></div></div></div> <div class="group base-section" data-index="2" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_C" id="Accesskey_C" accesskey="C" title="中間主要內容區，此區塊呈現網頁的網頁內容">:::</a></span></div></div></div></div> <div class="group page-header" data-index="1" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div class="list-text breadcrumb" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="Default.aspx"   title="首頁"   target="_self"  >首頁</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=284"   title="縣府消息"   target="_self"  >縣府消息</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=285&sms=9462"   title="縣府新聞"   target="_self"  >縣府新聞</a></span></li></ul>
+</div></div></div></div> <div class="group default info" data-index="2" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div class="simple-text heading" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><h2><span>縣府新聞</span></h2></div></div></div></div> <div class="group default msg-tool" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-func="{&#39;focusContent&#39;:{}}" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#CCMS_Content" title="跳過此子選單列請按[Enter]，繼續則按[Tab]">_</a></span></div></div></div></div> <div class="list-text user-tool" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a   href="javascript :return false;"   title="網頁功能"   target="_self"  >網頁功能</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li   data-index="1"  class="print"  >		<span  ><a   href="javascript:CCMS_Print(402);"   title="列印內容"   target="_self"  >列印內容</a></span></li></ul>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div> <div class="group page-content " id="CCMS_Content" data-func="{&#39;linkType&#39;:{&#39;domains&#39;:[&#39;https://webws.miaoli.gov.tw&#39;,&#39;https://webws.miaoli.gov.tw&#39;]}}" data-index="2" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="simple-text title" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><h3>逆境築夢　苗栗兩學子以毅力獲總統教育獎</h3></div></div></div></div>
+        
+         <div class="list-text detail" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  >承辦人：林倩怡</span></li><li   data-index="2"  >		<span  >聯絡電話：037-339226</span></li><li   data-index="3"  >		<span  >上版日期：114-07-10 15:23</span></li></ul>
+</div></div></div></div>
+ <div class="area-essay page-caption-p" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><div   class="div"  title=""   >  <div class="essay">    <div class="caption"><span></span></div>    <div class="p">      <p><span><div class="cp around-pic">
+<img style="width:50%" alt="1縣府-總統教育獎暨教育創新100.JPG" src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/e9b6a7ec-6717-443a-84c4-8992645e6d45@710x470.jpg" />
+<p><p>　苗栗縣政府10日上午在縣府第一辦公大樓A401會議室，縣長鍾東錦接見「2025年總統教育獎」獲獎學生與「親子天下2025教育創新100」入選團隊並頒發獎狀與獎勵金，表彰獲獎者的卓越表現與奮鬥精神，傳遞苗栗教育持續向上的力量。他表示，蘇翊捷同學透過音樂與文字抒發情感，展現對生活的熱愛；賴欣儀同學則自幼罹患腦性麻痺，卻不為病痛所屈，憑藉堅定意志與不懈努力，從復健室走向國際舞台，投入健康照護領域，展現驚人的堅韌與成長力。他們不僅為苗栗爭光，更讓父母長期以來的付出獲得肯定，成為全體學子敬仰的典範與希望。</p>
+
+<p>&nbsp;</p>
+
+<p>　榮獲「2025年總統教育獎」的蘇翊捷（通霄鎮烏眉國小）與賴欣儀（苑裡鎮，現就讀國立臺北護理健康大學）克服身心困境，憑藉堅毅精神與卓越表現，深深感動人心。縣長鍾東錦特別頒發每人貳萬元獎勵金及獎牌，以示嘉許。同時，三灣國小大坪分校教師團隊亦榮獲《親子天下》「2025教育創新100」肯定，結合在地農業與AI時代教育，展現偏鄉小學的創新潛力與教育韌性，鍾縣長頒發獎狀與壹萬元獎勵金，讚譽該校在「多元永續教育」議題上的傑出表現。</p>
+
+<p>&nbsp;</p>
+
+<p>　縣長鍾東錦10日偕同教育處副處長彭德俊、縣政顧問黃乃輝、議員周玉滿、陳品安、張顧礫、翁杰、陳光軒、徐永煌助理徐瑞轅、苑裡鎮長劉育育機要吳若安以及通霄鎮長張可欣助理張聖昌等各界代表，共同齊聚縣府會議室，見證苗栗教育的重要里程碑與榮耀時刻，展現各界對教育發展的高度重視與支持。</p>
+
+<p>&nbsp;</p>
+
+<p>　縣長鍾東錦指出，今年苗栗縣兩位傑出學子，烏眉國小的蘇翊捷同學與現就讀國立臺北護理健康大學的賴欣儀同學，榮獲「2025總統教育獎」，他們自幼面對身體挑戰，卻以堅定意志與不懈努力，突破有形障礙，展現感人的毅力與生命力，令人感佩；鍾東錦頒贈兩學子小紅包與獎牌致賀，並期勉再接再厲。三灣國小大坪分校教師團隊則以「AI時代，如何幫助孩子成為更有智慧的人」為核心理念，贏得「2025教育創新100」殊榮，鍾東錦肯定教學團隊融合在地農業、環境議題與語文教育，激發學生潛能與世界連結，即使身處偏鄉，只要有熱忱與專業，教育依然能綻放光彩。</p>
+
+<p>&nbsp;</p>
+
+<p>　鍾東錦進一步指出，苗栗的教育願景不僅著重於培育優秀人才，更期望提供家長更多元的教育選擇。縣府積極推動頭份市信德國小的再造計畫，與光罩慈善基金會攜手合作，採「公有民營」模式，目前已吸引超過150名學生就讀，並設有夜間班，辦學有聲有色，讓都市家長願意將孩子送至校園接受多樣化的教學，此成果相當難得，也展現出本縣教育體系的多元與活力。</p>
+
+<p>&nbsp;</p>
+
+<p>　此外，縣長鍾東錦持續高度關注私立建臺中學發生大學分科測驗報名作業疏失一事，他得知訊息後第一時間，即指示教育處與教育部展開協調處理，為考生斡旋爭取權益，也萬分感謝各級民代一起關心和協助。鍾東錦強調，儘管目前溝通結果尚未明朗，但縣府持續請託兩席立委居間協助，一定會盡力而為，大考中心能否協助幫忙，目前只能「聽天命」；他再度為這批考生請命，希望大考中心的長官、教授，能夠網開一面、給孩子一個機會，讓他們免於浪費1年的寶貴時間。</p>
+</p>
+</div>
+<style type="text/css">.cp.around-pic{margin:8px 0}.cp.around-pic img{float:left;margin:0 8px 8px 0}@media (max-width: 560px){.cp.around-pic img{display:block;width:100% !important;margin-bottom:8px}}.cp.around-pic:after{content:"​";display:block;height:0;clear:both}
+</style>
+
+</span></p>    </div>  </div></div></div></div></div></div> <div class="area-editor system-info" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div> <div class="group page-footer" data-index="3" data-type="3" data-child="4"><div class="in"><div class="ct"><div class="in"> <div class="list-pic pic-download" data-func="{&#39;gallery&#39;:{},&#39;backgroundResize&#39;:{}}" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="相關圖片"   >相關圖片</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="9"><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/e9b6a7ec-6717-443a-84c4-8992645e6d45@710x470.jpg"  data-index="1"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/e9b6a7ec-6717-443a-84c4-8992645e6d45@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/e9b6a7ec-6717-443a-84c4-8992645e6d45@710x470.jpg"   title="[點圖放大]1縣府-總統教育獎暨教育創新100.JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/e9b6a7ec-6717-443a-84c4-8992645e6d45@710x470.jpg" alt="1縣府-總統教育獎暨教育創新100.JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/67b7881d-620f-40c4-96bc-f1d1b0f2aeed@710x470.jpg"  data-index="2"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/67b7881d-620f-40c4-96bc-f1d1b0f2aeed@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/67b7881d-620f-40c4-96bc-f1d1b0f2aeed@710x470.jpg"   title="[點圖放大]2縣府-縣長致詞.JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/67b7881d-620f-40c4-96bc-f1d1b0f2aeed@710x470.jpg" alt="2縣府-縣長致詞.JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/2ed78378-c21b-4eb4-8c09-00359a01c53b@710x470.jpg"  data-index="3"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/2ed78378-c21b-4eb4-8c09-00359a01c53b@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/2ed78378-c21b-4eb4-8c09-00359a01c53b@710x470.jpg"   title="[點圖放大]3縣府-處長引言.JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/2ed78378-c21b-4eb4-8c09-00359a01c53b@710x470.jpg" alt="3縣府-處長引言.JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6dbc55f2-4842-43de-89cd-546ca57c6668@710x470.jpg"  data-index="4"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6dbc55f2-4842-43de-89cd-546ca57c6668@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6dbc55f2-4842-43de-89cd-546ca57c6668@710x470.jpg"   title="[點圖放大]4縣府-2025年總統教育獎(賴欣儀).JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6dbc55f2-4842-43de-89cd-546ca57c6668@710x470.jpg" alt="4縣府-2025年總統教育獎(賴欣儀).JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/a3bc6836-75de-46bc-b463-bd029b39322b@710x470.jpg"  data-index="5"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/a3bc6836-75de-46bc-b463-bd029b39322b@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/a3bc6836-75de-46bc-b463-bd029b39322b@710x470.jpg"   title="[點圖放大]5縣府-2025年總統教育獎(蘇翊捷).JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/a3bc6836-75de-46bc-b463-bd029b39322b@710x470.jpg" alt="5縣府-2025年總統教育獎(蘇翊捷).JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/0a07c350-69df-405c-9bae-af8f7f52799a@710x470.jpg"  data-index="6"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/0a07c350-69df-405c-9bae-af8f7f52799a@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/0a07c350-69df-405c-9bae-af8f7f52799a@710x470.jpg"   title="[點圖放大]6縣府-親子天下2025教育創新100(三灣國小大坪分校).JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/0a07c350-69df-405c-9bae-af8f7f52799a@710x470.jpg" alt="6縣府-親子天下2025教育創新100(三灣國小大坪分校).JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/1a8af430-4d6e-4bf1-b369-a96e62f61d7e@710x470.jpg"  data-index="7"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/1a8af430-4d6e-4bf1-b369-a96e62f61d7e@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/1a8af430-4d6e-4bf1-b369-a96e62f61d7e@710x470.jpg"   title="[點圖放大]7縣府-賴欣儀分享經歷.JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/1a8af430-4d6e-4bf1-b369-a96e62f61d7e@710x470.jpg" alt="7縣府-賴欣儀分享經歷.JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6bb1a448-0613-41af-9f87-6c840908c3d5@710x470.jpg"  data-index="8"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6bb1a448-0613-41af-9f87-6c840908c3d5@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6bb1a448-0613-41af-9f87-6c840908c3d5@710x470.jpg"   title="[點圖放大]8縣府-2025年總統教育獎(蘇翊捷).JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/6bb1a448-0613-41af-9f87-6c840908c3d5@710x470.jpg" alt="8縣府-2025年總統教育獎(蘇翊捷).JPG"  /></a></span></li><li data-src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/5fba45b5-106d-4bfd-ae06-323a2b56ab86@710x470.jpg"  data-index="9"  class="is-img"  >		<span style="background-image: url('https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/5fba45b5-106d-4bfd-ae06-323a2b56ab86@710x470.jpg');" ><a   href="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/5fba45b5-106d-4bfd-ae06-323a2b56ab86@710x470.jpg"   title="[點圖放大]9縣府-2025年總統教育獎(賴欣儀).JPG"   target="_self"  ><img src="https://webws.miaoli.gov.tw/001/Upload/402/relpic/9462/872639/5fba45b5-106d-4bfd-ae06-323a2b56ab86@710x470.jpg" alt="9縣府-2025年總統教育獎(賴欣儀).JPG"  /></a></span></li></ul>
+</div></div></div></div> <div class="list-text detail" data-index="2" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div> <div class="list-text jump-tool" data-index="3" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li   data-index="1"  class="back"  >		<span  ><a   href="javascript:window.location =document.referrer;"   title="回上一頁"   target="_self"  >回上一頁</a></span></li><li   data-index="2"  class="to-top"  >		<span  ><a   href="#Accesskey_U"   title="回最上面"   target="_self"  >回最上面</a></span></li></ul>
+</div></div></div></div>
+        </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div> <div class="group base-footer" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;關閉&#39;,&#39;btnActiveText&#39;:&#39;開啟&#39;,&#39;focusActive&#39;:false,&#39;addHd&#39;:true}}" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a    title="close"   >close</a></span></div></div></div><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_Z" id="Accesskey_Z" accesskey="Z" title="頁尾網站資訊">:::</a></span></div></div></div></div> <div class="group-list nav" data-func="{&#39;setNavLen&#39;:{}}" data-index="1" data-type="4" data-child="5"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=258"      title="幸福苗栗"   >幸福苗栗</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li   data-index="1"  >		<span  ><a   href="cp.aspx?n=259"      title="歷史沿革"   >歷史沿革</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=260"      title="地理環境"   >地理環境</a></span></li><li   data-index="3"  >		<span  ><a   href="cp.aspx?n=261"      title="自然環境"   >自然環境</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=262"      title="人文風情"   >人文風情</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=263"      title="縣府介紹"   >縣府介紹</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="6"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=264"      title="首長專欄"   >首長專欄</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=272"      title="組織架構"   >組織架構</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=273&sms=9457"      title="機關通訊"   >機關通訊</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=324"      title="交通位置"   >交通位置</a></span></li><li   data-index="5"  >		<span  ><a   href="cp.aspx?n=333"      title="樓層配置"   >樓層配置</a></span></li><li   data-index="6"  >		<span  ><a   href="cl.aspx?n=277"      title="縣府識別"   >縣府識別</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=284"      title="縣府消息"   >縣府消息</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li   data-index="1"  >		<span  ><a   href="News.aspx?n=285&sms=9462"      title="縣府新聞"   >縣府新聞</a></span></li><li   data-index="2"  >		<span  ><a   href="News_Video.aspx?n=4590&sms=11514"      title="影音新聞"   >影音新聞</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=286&sms=9463"      title="活動訊息"   >活動訊息</a></span></li><li   data-index="4"  >		<span  ><a   href="News.aspx?n=287&sms=9464"      title="最新公告"   >最新公告</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=288&sms=11623"      title="徵才公告"   >徵才公告</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=289&sms=9465"      title="榮譽榜"   >榮譽榜</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=4578"      title="影音專區"   >影音專區</a></span></li><li   data-index="8"  >		<span  ><a   href="News_Link.aspx?n=283&sms=11348"      title="縣府專刊"   >縣府專刊</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=4579"      title="縣政資訊"   >縣政資訊</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="9"><li   data-index="1"  >		<span  ><a   href="cl.aspx?n=4580"      title="主題服務"   >主題服務</a></span></li><li   data-index="2"  >		<span  ><a   href="cl.aspx?n=360"      title="最新債務訊息"   >最新債務訊息</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=322&sms=9480"      title="政府資訊公開"   >政府資訊公開</a></span></li><li   data-index="4"  >		<span  ><a   href="News_photo2.aspx?n=274&sms=9458"      title="縣政施政建設"   >縣政施政建設</a></span></li><li   data-index="5"  >		<span  ><a   href="News.aspx?n=275&sms=9459"      title="縣政大事紀要"   >縣政大事紀要</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=341&sms=9487"      title="苗栗縣政府現金收支表"   >苗栗縣政府現金收支表</a></span></li><li   data-index="7"  >		<span  ><a   href="News_photo2.aspx?n=276&sms=9460"      title="縣務會議"   >縣務會議</a></span></li><li   data-index="8"  >		<span  ><a   href="News.aspx?n=331&sms=9483"      title="民間團體補捐助"   >民間團體補捐助</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=339&sms=9486"      title="議員所提地方建設建議事項處理情形"   >議員所提地方建設建議事項處理情形</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  class="headeH3"  >		<span  ><a   href="cl.aspx?n=293"      title="便民服務"   >便民服務</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="13"><li   data-index="1"  >		<span  ><a   href="https://eservice.miaoli.gov.tw"      title="[另開新視窗]便民快e通"   target="_blank"  >便民快e通</a></span></li><li   data-index="2"  >		<span  ><a   href="News.aspx?n=294&sms=9467"      title="表單下載"   >表單下載</a></span></li><li   data-index="3"  >		<span  ><a   href="News.aspx?n=295&sms=9468"      title="申辦須知"   >申辦須知</a></span></li><li   data-index="4"  >		<span  ><a   href="cp.aspx?n=4807"      title="標準化作業流程"   >標準化作業流程</a></span></li><li   data-index="5"  >		<span  ><a   href="https://service.miaoli.gov.tw/CP.aspx?n=2444"      title="[另開新視窗]縣民熱線1999"   target="_blank"  >縣民熱線1999</a></span></li><li   data-index="6"  >		<span  ><a   href="News.aspx?n=302&sms=9471"      title="為民服務專線"   >為民服務專線</a></span></li><li   data-index="7"  >		<span  ><a   href="cl.aspx?n=4585"      title="縣民生活連結"   >縣民生活連結</a></span></li><li   data-index="8"  >		<span  ><a   href="https://service.miaoli.gov.tw/FAQDefault.aspx"      title="[另開新視窗]常見問答集"   target="_blank"  >常見問答集</a></span></li><li   data-index="9"  >		<span  ><a   href="News.aspx?n=312&sms=9476"      title="粉絲團"   >粉絲團</a></span></li><li   data-index="10"  >		<span  ><a   href="News_App.aspx?n=314&sms=9478"      title="APP下載"   >APP下載</a></span></li><li   data-index="11"  >		<span  ><a   href="cl.aspx?n=4814"      title="機構評鑑專區"   >機構評鑑專區</a></span></li><li   data-index="12"  >		<span  ><a   href="cl.aspx?n=5612"      title="苗栗縣婦女福利服務資源整合平台"   >苗栗縣婦女福利服務資源整合平台</a></span></li><li   data-index="13"  >		<span  ><a   href="News.aspx?n=306&sms=9472"      title="雙語詞彙"   >雙語詞彙</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div class="group default info" data-index="1" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group default msg-tool" data-index="1" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="list-text link" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="下方連結"   >下方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  >		<span  ><a   href="cp.aspx?n=4831&s=2690"   title="隱私權與資訊安全政策"   target="_self"  >隱私權與資訊安全政策</a></span></li><li   data-index="2"  >		<span  ><a   href="cp.aspx?n=7687"   title="政府網站資料開放宣告"   target="_self"  >政府網站資料開放宣告</a></span></li><li   data-index="3"  >		<span  ><a   href="https://www.mlc.gov.tw"   title="[另開新視窗]藝文之美[另開新視窗]"   target="_blank"  >藝文之美</a></span></li></ul>
+</div></div></div></div> <div class="simple-text update-time" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="更新日期"   >更新日期</a></span></div></div></div><div class="ct"><div class="in"><span>115-10-19</span></div></div></div></div> <div class="simple-text visit-count" data-index="3" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div   data-index="0"  >		<span  ><a    title="瀏覽人次"   >瀏覽人次</a></span></div></div></div><div class="ct"><div class="in"><span id="footer_visitcount_span">..</span></div></div></div></div> <div class="area-editor address" data-func="{&#39;linkToMap&#39;:{&#39;bindClass&#39;:&#39;.map&#39;,&#39;linkClass&#39;:&#39;is-map&#39;}}" data-index="4" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><p>版權所有 &copy; 苗栗縣政府 Copyright 2019 Miaoli County Government All rights reserved.<br />
+36001 苗栗市縣府路100號(第一辦公大樓)、36046 苗栗市府前路1號(第二辦公大樓) 電話:1999(限苗栗縣內撥打), 037-322150(外縣市)<br />
+服務時間：上午8:00~12:00、13:00~17:00（彈性上班時間：上午8:00~8:30）</p>
+<style type="text/css">/* 列表與容器基礎設定 */
+  .group-list.message > .in > .ct > .in > ul > li {
+    height: 400px;
+  }
+.group-list.major-slider .in {
+    position: relative;
+    z-index: 1;
+}
+
+
+  .list-text.slider.Marquee {
+    width: 95%;
+  }
+
+  .list-text.slider.Marquee .in {
+    margin: 0;
+  }
+
+  /* 控制按鈕設定 */
+  .list-text.slider.Marquee .in .ctrl_btn {
+    top: 3px !important;
+    right: 0 !important;
+    z-index: 1 !important;
+  }
+
+  .list-text.slider.Marquee .in .ctrl_btn a {
+    width: 42px !important;
+    font-size: 0.8em !important;
+    padding: 8px 15px 8px 30px !important;
+    background-position: 3% 50% !important;
+  }
+
+  /* 跑馬燈內容與圖示設定 */
+  .list-text.slider.Marquee .in .ct {
+    background-color: #e4e4e4;
+  }
+
+  .list-text.slider.Marquee .in .ct .in:before {
+    content: url(/Images/icon-pic/loudspeaker.png);
+    display: block;
+    background-color: #C04B1C;
+    padding: 7px;
+    background-position: center;
+    position: absolute;
+    bottom: 3px;
+    left: 4px;
+    border-radius: 20px;
+  }
+
+  .list-text.slider .ct ul li {
+    padding-left: 40px;
+  }
+
+  .list-text.slider .ct span:before {
+    display: none;
+  }
+
+  .list-text.slider .ct a {
+    padding-right: 95px;
+  }
+
+  /* 平板尺寸樣式 (769px - 1280px) */
+  @media (min-width: 769px) and (max-width: 1280px) {
+    .list-text.slider.Marquee {
+      margin-top: 85px;
+    }
+  }
+
+  /* 手機尺寸樣式 (0px - 768px) */
+  @media (max-width: 768px) {
+
+.list-text.slider.Marquee .in .ctrl_btn{
+    top: 45px !important;
+}
+    .list-text.slider .ct a {
+      padding-right: 8px;
+    }
+
+    .list-text.slider.Marquee .in {
+      overflow: inherit !important;
+    }
+
+    /* 手機版僅顯示第一則跑馬燈項目 */
+    .list-text.slider .ct ul li:nth-child(n+2) {
+  display: none !important;
+}
+
+    .list-text.slider .ct ul li:first-child {
+      display: block !important;
+    }
+.group-list.message > .in > .ct > .in > ul > li {
+    height: auto;
+}
+  }
+</style>
+<style type="text/css">/* .ct 裡面有 ul */
+.list-text.slider.Marquee:has(.ct ul) {
+    display: block !important;
+}
+
+/* .ct 裡面沒有 ul */
+.list-text.slider.Marquee:not(:has(.ct ul)) {
+        opacity: 0;
+    margin-top: 30px;
+}
+</style>
+</div></div></div></div> <div class="list-pic icon" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li   data-index="1"  class="E-Gov"  >		<span style="background-image: url('/images/egov.png');" ><a   href="//www.gov.tw/"   title="我的E政府 [另開新視窗]"   target="_blank"  ><img src="/images/egov.png" alt="我的E政府 [另開新視窗]"  /></a></span></li><li   data-index="2"  class="wcag"  >		<span style="background-image: url('/images/aplus.png');" ><a   href="https://accessibility.moda.gov.tw/Applications/Detail?category=20260115103904"   title="通過A等級無障礙網頁檢測"   target="_blank"  ><img src="/images/aplus.png" alt="通過A等級無障礙網頁檢測" title="無障礙網站 [另開新視窗]" /></a></span></li><li   data-index="3"  class="qrcode"  >		<span style="background-image: url('data:image/png;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABQAFADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3ueeG1t5bi4ljhgiQvJJIwVUUDJJJ4AA71h/8J34P/wChr0P/AMGMP/xVHjv/AJJ54m/7BV1/6KavAPEviWz8Had4Vs7Pwd4VvPtXh+0vJpr7TBJI0jAhiWBGc7Qeeck80AfRem+JdB1m4a30vW9Nvp1Te0drdJKwXIGSFJOMkc+4qxPq2m2txLb3GoWkM8VubqSOSZVZIQcGQgnIQH+LpXjmjR2f/CZJeWem/wBn/b/h+LyaHQYBFJ5jyAsYVH/LToFzk5C81b0fWNN1+41jVNL0PxPd6ppfhyfSWXWrRZILloiG8qXaSzzsxG5cjIJ4FAHqEHiXQbq3iuLfW9NmgluBaxyR3SMrzEZEYIOC5H8PWifxLoNrby3FxremwwRXBtZJJLpFVJgMmMknAcD+HrXgEHw716S3ie4j1mxna4HiKS00tXitIIccwwIVyt8p4VegUAbq1NK1/wANzeIb281HSL5PC2m6VJFcQ63bRj7VqsbgszKx2PdtHkEnDn5u1AHtcHiXQbq3iuLfW9NmgluBaxyR3SMrzEZEYIOC5H8PWjUvEug6NcLb6prem2M7JvWO6ukiYrkjIDEHGQefY18yWt1eWfjKeLQ7f+19E1XdqS2GkobiTS45ZOJEjT5YbuJMKG5CEgZINegazHZ/8Jk95eab/aH2D4fm8hh16ASyeYkhKmZT/wAtOobGDktzQB6f/wAJ34P/AOhr0P8A8GMP/wAVW5BPDdW8VxbyxzQSoHjkjYMrqRkEEcEEd6+ZPDXiWz8Y6d4qs7zwd4Vs/svh+7vIZrHTBHIsigBSGJOMbieOcgc17/4E/wCSeeGf+wVa/wDopaALHiy1+3eDdcs/tEFv5+nzxedcPsjj3RsNzt2UZyT2FeMRyXn9nafZ3mpfBzUPsFpHZwzX05lk8tBhQWP4njAyTxXtfiXTZtZ8K6vpdu0az3tlNbxtISFDOhUE4BOMn0Ned+AvDuj6pmzl8L+HJbHRov7KvpptPRrmbUYdokdWwQ0JByC2HJ6gUAZaW2pWus3eqa34n8FaTPdeF303Sl02/aBUVm3Qyru5CA5wynsMDiuQ03Vpo7dvDOl6h4gWC9vdja9azELPrbgR4Nwpw1qww+MGQ8NWx4n0mGTxVYW6afG2l2WuxvdR6rCDdwWqOQ5jGNq6Wq9CcKGzmunvLLwrJrOq3+l6pozeHbLQpp207RbiIzwXSNn7XFGvyLKqYVZeGBwOlAB4nOvR29h4Z1TX5NFgt9CjmXXlvHt1n1NQY/Ke4bhkYZcrjecbu1ZCaHDp/gW7sEutN8S6XqaObrUVkF41lq8kWHuHkxtjt0UbjIcyLuyetcvod5qUdxc634g1i0vvDqu0tvpHi65aW7ntch1mghf5GlZNyK4O0sXHStDw74d03xPca/o2jeJNStJ9Ut7jV7Oy0y+WOwihlIVILlFBKygsFdACAoABNAFfSfE+m+CfHVilvp0djO3hyPSo7uSBYrS6uvNGLwuCC9uxXPm/eKjOK7PVYdY1TxDZeKNI1rwNefatKj0G8ju7p5Laa4ZzI8UYXO7ORhSckE5FcBYeHPB+u+IbbwvqMnjnUNbsNun3Elu0Mttb7HEbFCwLJbq5OCQMA9M1oeHNfs/DnxDks9X0jZ4W027Oj2cyWwFst5HKAl1MzEILjywS0gw2OgxQB0EmjeJP7O1Czs0+FWn/AG/zNGmmsRJFJ5jjDQBgP9Z0Ow5OQOK9b8NabNo3hXSNLuGjaeysobeRoySpZECkjIBxkegryDUvDE3jvxUqaXqMcMEWp/b2u9CnK2BhDn5mdQw/tLDgk9Nu05r2uwtfsOnW1n9onuPIiWLzrh98km0AbnbuxxknuaAI9W1KHRtGvtUuFkaCyt5LiRYwCxVFLEDJAzgeorxifxXqWreFZb/Rjpvh3VBrp1Sz06TdaT6va7MpmNSWneViF4+VyuAeK9j126s7Hw9qd5qNv9osYLSWW4h2B/MjVCWXa3ByARg8GvI7KDTfE+jal4w1aK08Ozi3l0jw4b9VtIIodoltZ13ZKygscPGcAKdo4zQBmar4ovL77FeeKL7wrb30/l2yQ6bKUuY5GyRb6ishyLQEsJk6g4qPWPGMOjeKtH8P+FNG8B3M+r2UFre3Frah4DNK5SSMtGwPlZCnawJwRnNHjuCHRtG0OwSLwHcz6vZW9tdajdKHuzNKrB7wScHysjd5pydxJOa1/B3h/wAE6N4F1ZLi2kbVLK3mvJLt0hN2VSJc3Ni5AbyNwzFJx83OaAOg8RDTbW40Cw1nQPDEM8Vvbi81HU7NVsEhBIe3tpG5EoOWSM8bck1zmsw/Djw5pz/2HrV899qWql1/4Ra6tzer5gOIF2YIt8gYTn5ttcXZXmvR2+pa3f6xpt9papLLp+keNrl5Z54cB45ooT8rOy5RXU4JLgVoaLrGm6n4q0FNU0Pw/DBElvrK3fhO0VWtGDj5bx2OI4kBJkHb5TmgC54c+x+KfinJ/wAIv/aukX2laId/23FvJeXkU4z9s8vJkVyy+Z0ZiD0xWhf3X/COajc+I/HFv4c1TRHlaxl0zQE8+NdRJLmaWKXCibYHVnJ34KjGCar3/iTwfoXiG5g06PXNP1u/1VtQt9VuFhitrje5Ch5lIZ7BnAYgZyBnOa20fTWuLvxX4kstNh8OxWTxz2MsSrBqOpg+Y11axv8AJKJE3KkhO9hx0oAua39j1TTvDekeF/P8J2Opy2upve2+LCOaOQFTbo8eQ1yQVITBBCZzxXqFha/YdOtrP7RPceREsXnXD75JNoA3O3djjJPc14hNpV5runaRpE9/Pp9jf63Drul3rzGKO3s3G2KzhcghLlQcrEoKgDINe32Fr9h062s/tE9x5ESxedcPvkk2gDc7d2OMk9zQBj+O/wDknnib/sFXX/opq8c1PwdqV18NPC9vcazHN4dlS01CSO7uma/eYwkG1swV2EFP9XH13Z5xXtfiy6+w+DdcvPs8Fx5Gnzy+TcJvjk2xsdrr3U4wR3FeVjxB4qk0bRHv7j4XWMDW8F/p9pfvLE0C7f3bKhOFKjIBXpggGgDhNK0b/hK9OvdDnSe48jUJLPS0lG/VrPaAkQuQQfLsk3fPtHyv0Fd/4ltf+EO/4RWKzuNKvPFN1p9p4ZmsL5/Mtmt2zukMYw5UyKF3HjBI25o0+61j/hIdd0y8t/Bun31/4auNSh1zRkeL77hVkec87c5csAegOaNK8XeD/EenXumajZz3ut+HtEka41yKKGSRvIAVpbadmLFt5LoxA5OeDQBqeLZYdPuPDNhe+BtNvp1S1TUtRbSRLYWVrlhKEkPMYQgsA3yqpya5yG18H2PjLV7PSLiC40SDT5vEV5NpjwvJJtkw9iWX5TbFAD5J6nGWxXJ2XiDxto1vqWt29xd6zpdwksceka+81xObBgHF08IIXyto2GTO3JYd67DWNS+H114F0d0WO01TVEgiurTwcLdLt2liO+F0zuMRbgoc/MEBzQBh+Ltb0f4gaja6RF4WvtLsU0pJ7G9bT0gkgwWWN5XywWwUPlio4IyOlZ91rusWOowadear4G1mx0nw+vk201w9xZSeUdq7VJwbsgEDGMqe2aufEC91K68K2dv4f0q706DT7JLK4jvLdodYe1jRgzyBODZkbck4XzAeK1P+KP8A+Fef8yN/yKn/AEx/tL+0fK/z/t76AMvwpPqXxE8KiwuJbvToNP13+15NRDNDaWNrGigwW8h3CN0D7kThVUZzX0PpKQx6NYpb3sl9AtvGI7uSUStOu0YcuOGLDnPfOa+VPA+q3ml+DdR8iw8R3ljdSy2uqfZ4TJZQ2bRr5siYIC3IA4ZvlCnmvp/wn9j/AOEN0P8As7z/ALD/AGfB9n+0Y8zy/LXbv28bsYzjjNAFfx3/AMk88Tf9gq6/9FNXgHiXw1Z+MdO8K3ln4x8K2f2Xw/aWc0N9qYjkWRQSwKgHGNwHPOQeK+m54Ibq3lt7iKOaCVCkkcihldSMEEHggjtWH/wgng//AKFTQ/8AwXQ//E0AeQSSWf8AaOoWdnqVjqH2D4ayWc01jOJY/MQ4YBh+B5wcEcVcl0mHwx4V8G+IPD+n6adU16ystCuLe8hH2SVZ03tJIqAMzllUFiTlc8GvW7Xwn4bsfP8Asfh/Srfz4mgm8myjTzI2+8jYHKnAyDwauPpOmyW9pbvp9o0Fk6PaxtCpWBkGEKDGFKjoRjHagDz/AMT3s2jW9hYJpXhix1RtMjgutR1W3MWlmHBD2kcnDZ3DcIjxsBJrhJPBtn4j/tDUYoYE1vTdPkurG58FKBprSR/NHGW2ljc7znauDs2Y5r3vUtJ03WbdbfVNPtL6BX3rHdQrKobBGQGBGcE8+5o03SdN0a3a30vT7SxgZ97R2sKxKWwBkhQBnAHPsKAPmTwvoniSbxDZ6v4t8UwaXslSC7svEOoSQXN1Zh1Z02SD54W+YYJ2khgehrUvPCmg+LbjVbfwoNNbS7LU5r29jTYdUlVDiRLMRgqbcqy+WGxl+pr3/UvDWg6zcLcapomm306psWS6tUlYLknALAnGSePc0ab4a0HRrhrjS9E02xnZNjSWtqkTFcg4JUA4yBx7CgD58+HmgaPqn9saHeav4y0Oxk1Ca2hRrlLa2mzsRbeUEENckE7kA5C+1fRek6bDo2jWOl27SNBZW8dvG0hBYqihQTgAZwPQVH/YWj/9Aqx/4+/t3/Hun/Hx/wA9un+s/wBrr71oUAf/2Q==');" ><a    title="苗栗縣政府全球資訊網-中文網 QRCode"   ><img src="data:image/png;base64,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" alt="苗栗縣政府全球資訊網-中文網 QRCode"  /></a></span></li></ul>
+</div></div></div></div></div></div></div></div> <div class="area-customize right-box" data-index="2" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><div class='right_box'>
+   <a class="open " href="javascript: void(0)" onclick="btn_open(); return false;"  > <span>open</span></a>
+<ul>
+    <li>
+        <!--facebook--->
+        <div class="facebook facebookbody">
+            <div class="group-list major-slider" data-type="4" data-child="2" data-func="{'picSlider':{'auto':true,'delay':5000,'speed':500,'sliderType':1}}">
+                <div class="in">
+                   <div class="ct">
+                      <div class="in">
+                   <a class="facebookbtn"  href="javascript: void(0)" onclick="facebookbtn_open(); return false;" onfocus="facebookbtn_open(); return false;"><span>facebook</span></a>
+                         <ul data-index="1" data-child="3">
+                             <li data-index="1">
+	                				<iframe title='苗栗玩透透' src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTourMiaoli%2F&tabs=timeline&amp;width=200&amp;height=470&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="200" height="405" style="border:none;overflow:hidden;overflow: hidden;border: none;background-color: transparent;"  allow="encrypted-media"></iframe>
+	                			</li>
+                         </ul>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <!--聯絡我們--->
+        <div class="Contact Contactbody">
+            <div class="Contact">
+                <a class="Contactbtn" href="javascript: void(0)" onclick="Contactbtn_open(); return false;" onfocus="Contactbtn_open(); return false;"><span>聯絡我們</span></a>
+                <div class='h3'>聯絡我們</div><div class='h4'>Connect With Us</div>
+                <ul>
+                    <li><a style="background-image: url(https://webws.miaoli.gov.tw/001/Upload/402/relpic/13327/327242/b0e87812-c372-48f6-b0b4-e993e826f859.png);" target="_blank" href="https://service.miaoli.gov.tw/CP.aspx?n=2444" >1999苗栗縣民當家熱線</a></li>
+                    <li><a style="background-image: url(https://webws.miaoli.gov.tw/001/Upload/402/relpic/13327/327241/82dacb08-afb4-4f37-ac79-69aeab74ad3d.png);" target="_blank" href="https://service.miaoli.gov.tw/sps/SWSF/SWSF01009.aspx" >縣長信箱</a></li>
+                    <li><a style="background-image: url(https://webws.miaoli.gov.tw/001/Upload/402/relpic/13327/327240/32da960b-478a-40c0-aab4-062b04b9067b.png);"  href="cp.aspx?n=324" >交通位置</a></li>
+                    <li><a style="background-image: url(https://webws.miaoli.gov.tw/001/Upload/402/relpic/13327/327239/7afeb5f3-154e-4e2f-80cb-eca57ae85673.png);"  href="News.aspx?n=314&sms=9478" >APP下載</a></li>
+                    <li><a style="background-image: url(https://webws.miaoli.gov.tw/001/Upload/402/relpic/13327/327237/bc4d18dd-476c-43b2-99b3-93c07075f827.png);"  href="News.aspx?n=273&sms=9457" >機關通訊</a></li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <li>
+        <!--諮詢服務--->
+        <div class="Service Servicebody" >
+            <div class="Service" >
+                <a class="Servicebtn" href="javascript: void(0)" onclick="Servicebtn_open(); return false;" onfocus="Servicebtn_open(); return false;"><span>諮詢服務</span></a>
+                <div class="h3">諮詢服務</div>
+                <div class="h4">consultation service</div>
+                <a href="https://service.miaoli.gov.tw/FAQDefault.aspx" target="_blank" title="需要幫助嗎？">
+                    <img alt="需要幫助嗎？" src="../Images/help.png"></a>
+                <ul>
+                    <li><a target="_blank" href="https://service.miaoli.gov.tw/FAQTable.aspx?n=2268" >2019新型冠狀病毒是什麼?怎麼傳播?</a></li>
+                    <li><a target="_blank" href="https://service.miaoli.gov.tw/FAQTable.aspx?n=2269" >我要怎麼預防感染新型冠狀病毒?</a></li>
+                    <li><a target="_blank" href="https://service.miaoli.gov.tw/FAQTable.aspx?n=2171" >苗栗縣流感停課停班停托標準為何?</a></li>
+                    <li><a target="_blank" href="https://service.miaoli.gov.tw/FAQTable.aspx?n=2261" >如何申請犬貓絕育補助及免費狂犬病疫苗注射?</a></li>
+                    <li><a target="_blank" href="https://service.miaoli.gov.tw/FAQTable.aspx?n=2263" >犬叫聲擾寧</a></li>
+                </ul>
+            </div>
+        </div>
+    </li>
+</ul></div>
+<script>
+
+		function Contactbtn_open() {
+			$('.Contact').css( 'zIndex', 5 );
+			$('.facebookbody').css( 'zIndex', 1 );
+			$('.disasterbody').css( 'zIndex', 1 );
+			$('.Epidemic').css( 'zIndex', 1 );
+			$('.Service').css( 'zIndex', 1 );
+	if($('.right_box').hasClass('btn_open')){
+	}else{
+		$('.right_box').addClass('btn_open');
+		$('.open').addClass('btn_open');
+	}
+		}
+		function facebookbtn_open() {
+			$('.Contact').css( 'zIndex', 1 );
+			$('.facebookbody').css( 'zIndex', 5 );
+			$('.disasterbody').css( 'zIndex', 1 );
+			$('.Epidemic').css( 'zIndex', 1 );
+			$('.Service').css( 'zIndex', 1 );
+	if($('.right_box').hasClass('btn_open')){
+	}else{
+		$('.right_box').addClass('btn_open');
+		$('.open').addClass('btn_open');
+	}
+		}
+		function disasterbtn_open() {
+			$('.Contact').css( 'zIndex', 1 );
+			$('.facebookbody').css( 'zIndex', 1 );
+			$('.disasterbody').css( 'zIndex', 5 );
+			$('.Epidemic').css( 'zIndex', 1 );
+			$('.Service').css( 'zIndex', 1 );
+	if($('.right_box').hasClass('btn_open')){
+	}else{
+		$('.right_box').addClass('btn_open');
+		$('.open').addClass('btn_open');
+	}
+		}
+		function Servicebtn_open() {
+			$('.Contact').css( 'zIndex', 1 );
+			$('.facebookbody').css( 'zIndex', 1 );
+			$('.disasterbody').css( 'zIndex', 1 );
+			$('.Epidemic').css( 'zIndex', 1 );
+			$('.Service').css( 'zIndex', 5 );
+	if($('.right_box').hasClass('btn_open')){
+	}else{
+		$('.right_box').addClass('btn_open');
+		$('.open').addClass('btn_open');
+	}
+		}
+		function Epidemicbtn_open() {
+			$('.Contact').css( 'zIndex', 1 );
+			$('.facebookbody').css( 'zIndex', 1 );
+			$('.disasterbody').css( 'zIndex', 1 );
+			$('.Epidemic').css( 'zIndex', 5 );
+			$('.Service').css( 'zIndex', 1 );
+	if($('.right_box').hasClass('btn_open')){
+	}else{
+		$('.right_box').addClass('btn_open');
+		$('.open').addClass('btn_open');
+	}
+		}
+		
+function btn_open() {
+	if($('.right_box').hasClass('btn_open')){
+		$('.right_box').removeClass('btn_open');		
+		$('.open').removeClass('btn_open');		
+	    document.cookie = "isClosed=0;}"
+	}else{
+		$('.right_box').addClass('btn_open');
+		$('.open').addClass('btn_open');
+	    document.cookie = "isClosed=1;}"
+	}
+}
+
+$('.Service.Servicebody').find('a').eq(-1).focusout(function(){
+  btn_open();
+});
+</script>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="15903A5D" />
+</div></form>
+    <script src="js/require.js"></script>
+    <script>        requirejs.config({ baseUrl: CCMS_WWWURL + '/js' });
+        requirejs(['main'], function (func) {
+            func();
+        });
+    </script>
+</body>
+</html>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'JIFCGBBMINFODPBFILLJLMFEFPGPEBIOJMHILHACAFKJILGNMDALKHKAJCADGKFDALHBNPGLAANEPPJBJAEAMAKOAAAJOMHLCENNBJLLBICJDJOPGGEPBCFADLEJGJJI',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1022318295aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;'+';';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>

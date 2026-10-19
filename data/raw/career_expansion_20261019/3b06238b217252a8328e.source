@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="zh-tw" xmlns:fb="https://ogp.me/ns/fb#">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="zh-tw" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&#x81EA;&#x8A8D;&#x300C;&#x6700;&#x52AA;&#x529B;&#x65B0;&#x4EBA;&#x300D; &#x9127;&#x51F1;&#x52DB;&#x76FC;&#x70BA;&#x4EBA;&#x6C11;&#x5E36;&#x4F86;&#x6539;&#x8B8A;</title>
+    <meta name='keywords' content='大紀元,大纪元,台灣大紀元電子日報,電子報,大紀元電子報,大紀元時報,媒體,新聞,新聞媒體,新聞網站,新聞網,即時新聞,環球新聞' />
+    <meta name='description' content='大紀元時報-全球發行最廣,大紀元實體報有中英法德等八語種,遍及三十五國;大紀元新聞網-全球綜合新聞網站包含全球二十一個語種聞,即時新聞,大陸新聞,香港新聞,台灣新聞,北美新聞,國際,財經新聞,科技新聞,體育新聞,娛樂新聞,生活新聞,文化新聞,藝術新聞,健康新聞,養生新聞,美食...傳播中華傳統文化,關注人權和信仰自由,忠於事實真相,自由公正獨立,全方位報導環球新聞' />
+
+    <link href="/stylesheet/main.css?20250808" rel="stylesheet" type="text/css" />
+    <link href="/stylesheet/article.css?20221129" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="de40edecc6e19088b90b532f-text/javascript"></script>
+    <!-- Google Tag Manager -->
+    <script type="de40edecc6e19088b90b532f-text/javascript">
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N7S9VRM');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7S9VRM"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="header_bar background_deepblue flex flex-justify-space-between" style="align-items: center;" id="top_header_bar">
+        <img src="/images/menu-icon.jpg" class="header_bar_img" style="aspect-ratio: 5 / 4 ;" onclick="if (!window.__cfRLUnblockHandlers) return false; OpneSlideMenu()" data-cf-modified-de40edecc6e19088b90b532f-="" />
+        <a href="/"><img src="/images/logo.jpg" class="header_bar_img" style="display: flex;justify-content: center;align-items: center;" /></a>
+        <img src="/images/search.jpg" class="header_bar_img" style="display: flex;justify-content: center;align-items: center;aspect-ratio: 27 / 25 ;" onclick="if (!window.__cfRLUnblockHandlers) return false; show_right_panel()" data-cf-modified-de40edecc6e19088b90b532f-="" />
+    </div>
+    <div class="navibar_block">
+
+        <!--menuTop start-->
+        <img src="/images/previous.png" class="navi_pre" id="navi_pre" />
+<div class="swiperX">
+    <div class="swiper-wrapperX" id="swiper-wrapperX">
+        <div class="swiper-slideX"><a href="/">首頁</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/000">即時</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/148">要聞</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/201">中國</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/202">國際</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/263">財經</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/264">產業</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/254">兩岸</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/151">地方</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/203">科技</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/149">副刊</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/243">教育</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/150">文化</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/153">評論</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/272">養生</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/152">娛樂</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/242">體育</a></div>
+        <div class="swiper-slideX"><a href="/b5/category/id/159">神韻</a></div>
+        <div class="swiper-slideX"><a href="https://epochtimes.com.tw/LeadTaiwan.html?utm_source=AppMenu&utm_medium=AppMenu&utm_campaign=AppMenu">利益台灣</a></div>
+        <div class="swiper-slideX">　　　　</div>
+        <div class="swiper-slideX">　　　　</div>
+        <div class="swiper-slideX">　　　　</div>
+        <div class="swiper-slideX">　　　　</div>
+    </div>
+</div>
+<img src="/images/next.png" class="navi_next" id="navi_next" />
+        <!--menuTop end-->
+
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="de40edecc6e19088b90b532f-text/javascript"></script>
+
+    <div class="navi_bar_mobile">
+        <!--menuLeft start-->
+        <div class="slide_left_btn" onclick="if (!window.__cfRLUnblockHandlers) return false; CloseSlideMenu()" data-cf-modified-de40edecc6e19088b90b532f-="">＜</div>
+<a href="/"><span class="navi_item">首頁</span></a>
+<a href="/b5/category/id/000"><span class="navi_item">即時</span></a>
+<a href="/b5/category/id/148"><span class="navi_item">要聞</span></a>
+<a href="/b5/category/id/201"><span class="navi_item">中國</span></a>
+<a href="/b5/category/id/202"><span class="navi_item">國際</span></a>
+<a href="/b5/category/id/263"><span class="navi_item">財經</span></a>
+<a href="/b5/category/id/264"><span class="navi_item">產業</span></a>
+<a href="/b5/category/id/254"><span class="navi_item">兩岸</span></a>
+<a href="/b5/category/id/151"><span class="navi_item">地方</span></a>
+<a href="/b5/category/id/203"><span class="navi_item">科技</span></a>
+<a href="/b5/category/id/149"><span class="navi_item">副刊</span></a>
+<a href="/b5/category/id/243"><span class="navi_item">教育</span></a>
+<a target="_blank" href="https://www.epochtimes.com.tw/app"><img src="/images/EpochApp.jpg" /></a>
+<a href="/b5/category/id/150"><span class="navi_item">文化</span></a>
+<a href="/b5/category/id/153"><span class="navi_item">評論</span></a>
+<a href="/b5/category/id/272"><span class="navi_item">養生</span></a>
+<a href="/b5/category/id/152"><span class="navi_item">娛樂</span></a>
+<a href="/b5/category/id/242"><span class="navi_item">體育</span></a>
+<a href="/b5/category/id/159"><span class="navi_item">神韻專題</span></a>
+<a href="https://www.epochtimes.com.tw/LeadTaiwan.html?utm_source=AppMenu&utm_medium=AppMenu&utm_campaign=AppMenu"><span class="navi_item">利益台灣</span></a>
+<a href="https://www.epochtimes.com.tw/about.htm" target="_blank"><span class="navi_item2">關於我們</span></a>
+<a href="http://order.epochtimes.com.tw/" target="_blank"><span class="navi_item2">立即訂報</span></a>
+<a href="https://event.epochtimes.com.tw/" target="_blank"><span class="navi_item2">數位專題</span></a>
+<a href="http://anshi.epochtimes.com.tw/" target="_blank"><span class="navi_item2">安心小站</span></a>
+<a href="https://www.epochtimes.com.tw/adservice" target="_blank"><span class="navi_item2">廣告服務</span></a>
+<a href="https://www.epochmall.com/" target="_blank"><span class="navi_item2">紀元購物</span></a>
+<a href="https://www.epochtimes.com.tw/contact" target="_blank"><span class="navi_item2">聯絡我們</span></a>
+        <!--menuLeft end-->
+    </div>
+    <div id="main">
+
+        <article>
+            <header class="article_header">
+                <h1 class="article_title">自認「最努力新人」 鄧凱勛盼為人民帶來改變</h1>
+                <time datetime="2021-12-28" class="artcle_date font-darkgray">2026年09月09日 | 綜合</time>
+                <figure class="article_img">
+                    <img src="https://img.epochtimes.com.tw/upload/images/2026/09/09/872501_medium.jpg" title="新北板橋市議員參選人鄧凱勛。（大紀元）" alt="新北板橋市議員參選人鄧凱勛。（大紀元）">
+                </figure>
+                <figcaption class="article_img_desc">
+                    新北板橋市議員參選人鄧凱勛。（大紀元）
+                </figcaption>
+            </header>
+            <div class="sharebar background_lightgray ">
+                <div id="shareImgFirstThree" class="sharebar_inside flex flex-justify-space-between flex-align-items-center">
+                    <img src="/images/sharearticle.png" class="share_text" />
+                    <a href="" class="share_img" target="_blank"><img src="/images/fbshare.png" class="share_img" /></a>
+                    <a href="" class="share_img" target="_blank"><img src="/images/LineShare.png" class="share_img" /></a>
+                    <a href="" class="share_img" target="_blank"><img src="/images/CopyLink.png" class="share_img" /></a>
+                </div>
+            </div>
+            <div id="article_content" class="width90">
+                <p />
+                <div class="author_box">【記者常懷仁／台北報導】<br /></div>
+                
+
+<p>「最沒背景的新人、最努力的新人、歷練最完整的新人」，今年要參選新北板橋市議員的鄧凱勛以這三句話來形容自己，曾擔任過國民黨青年團執行長、國民黨發言人、立委許宇甄辦公室主任的他接受《大紀元時報》專訪分享從政收穫時，他說，他沒有政治背景，但他希望能為人民帶來改變，因為每次民眾向他陳情時的真摯眼神令他非常難忘。</p><h2><strong>從政收穫</strong></h2><p>在接受本報採訪的最後，鄧凱勛分享了自己從政以來的收穫，他回憶，他在初選前車掃時，有一位小姐跟他說唯一支持鄧凱勛，讓他覺得何德何能可以得到如此熱烈的支持。所以交到好朋友與大家一同擘畫板橋的未來，這是一件非常幸福的事情。</p><p>不過，鄧凱勛也吐苦水分享自己的困境，因為他沒有任何政治背景，家中沒人從事政治，但從事政治這行仍會有需要家族淵源、依靠父執輩關係等。「坦白說現在在選舉的時候，看到其他候選人滿坑滿谷的看板，你說心裡會不會慌，其實坦白說會，但我就是沒有這些資源做這件事情」。</p><p>不過，鄧凱勛認為這未嘗不是一件好事，他說，「我只能靠雙腳來走，但雙腳來走的好處是我覺得非常踏實」，雖然他沒有看板，但是「我握過的每一雙手，然後我點過的每一次頭，我的每一次交談，我認為都會讓我更成長一些」，希望這能夠成為他繼續奮鬥的動力之一。</p><p>他曾在菜市場遇到一位阿姨，對方跟他述說著生活過得並不好，遇到很多問題，希望鄧凱勛能幫她解決問題，但尚未當選的他仍未有公權力，於是只好先和對方互留聯絡方式，鄧凱勛說，若未來當選一定會盡全力幫妳。</p><p>鄧凱勛坦言，他每次接收民眾陳情時，對方希望你幫忙帶來改變的真摯眼神，「是我每一次每一雙都非常難忘的」，因為「對於民意代表也許是一件小事情，但對於那個陳情的民眾，都是他生活中天大的事情」。</p><p>最後，鄧凱勛強調，這也是為何他希望可以參選並真的服務這些生活上遇到問題的民眾，並為人民帶來改變，因為這能夠解決民眾生活中的大小事。最後，他說，「我跟大家一樣都是白手起家，就是一路靠著自己打拼奮鬥上來，所以我最能瞭解，現在的年輕人到底哪裡很辛苦，哪裡也許需要加強，我真的跟大家都一樣。」◇</p>
+
+<iframe width="600" height="338" src="https://www.youtube.com/embed/r6cakqxw2Ro?si=FreL5V1ABl0YCeTZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<br>（觀看<a href="https://www.youtube.com/playlist?list=PLA9khW01ndFc" target="_blank">《大紀元》選戰風雲系列專訪影片</a>）
+
+<div class="related-article" style="margin-top: 1.5em; font-weight: bold;">★相關閱讀：</div><ul class="related-posts" style="padding: 0 0 1em 25px; margin-left: 10px; color: #3333FF; list-style: outside;">
+
+<li style="padding:0.5rem 20px 0 0;"><a style="color:#3333FF;" href="https://www.epochtimes.com.tw/n513076.html" rel="noopener">自認「最努力的新人」之一 鄧凱勛談板橋交通、居住</a></li>
+
+<li style="padding:0.5rem 20px 0 0;"><a style="color:#3333FF;" href="https://www.epochtimes.com.tw/n512925.html" rel="noopener">自認「最努力的新人」之二 鄧凱勛提建設停車場</a></li>
+
+<li style="padding:0.5rem 20px 0 0;"><a style="color:#3333FF;" href="https://www.epochtimes.com.tw/n512970.html" rel="noopener">自認「最努力的新人」之三 鄧凱勛：台灣應對民主有信心</a></li>
+
+</ul>
+            </div>
+        </article>
+        <div id="sharebox">
+            <img src="/images/sharebox.png" />
+            <div id="sharebox_inside">
+                <a href=""><img src="/images/fbsharbox.png" /></a>
+                <a href=""><img src="/images/Linsharebox.png" /></a>
+                <a href="" target="_blank"><img src="/images/CopyLinkBox032600.png" /></a>
+            </div>
+        </div>
+        <div id="supportme" class="ad">
+            <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v5.4.0 -->
+            <ins data-revive-zoneid="6" data-revive-id="8d0c8c600ceb9c3b2530134fdcee60c2"></ins>
+            <script async src="//ad.epochtimes.com.tw/live/www/delivery/asyncjs.php" type="de40edecc6e19088b90b532f-text/javascript"></script>
+        </div>
+        <div class="cat_news_lists">
+            <div class="cat-headbar background_lightblue">
+                <div></div>
+                <span class="cat-headbar-title">延伸閱讀</span>
+
+            </div>
+
+
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512934/防制境外資金介選-調查局查緝54案、查獲628億.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="https://img.epochtimes.com.tw/upload/images/2026/09/08/872144_thumbnail.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512934/防制境外資金介選-調查局查緝54案、查獲628億.html">防制境外資金介選 調查局查緝54案、查獲628億</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月08日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512925/自認最努力新人-鄧凱勛提建設停車場.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="/images/epoch_small.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512925/自認最努力新人-鄧凱勛提建設停車場.html">自認「最努力新人」 鄧凱勛提建設停車場</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月08日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512892/沈伯洋-打造亞洲第一觀光登山城.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="https://img.epochtimes.com.tw/upload/images/2026/09/08/872112_thumbnail.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512892/沈伯洋-打造亞洲第一觀光登山城.html">沈伯洋：打造亞洲第一觀光登山城</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月08日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512802/陳竹音選新北議員-基進-應納國家忠誠審查.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="https://img.epochtimes.com.tw/upload/images/2026/09/07/871930_thumbnail.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512802/陳竹音選新北議員-基進-應納國家忠誠審查.html">陳竹音選新北議員 基進：應納國家忠誠審查</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月07日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512813/德另類選擇黨地方選舉大勝.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="https://img.epochtimes.com.tw/upload/images/2026/09/07/871877_thumbnail.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512813/德另類選擇黨地方選舉大勝.html">德另類選擇黨地方選舉大勝</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月07日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n508553/選舉舞弊-關於零證據的迷思.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="https://img.epochtimes.com.tw/upload/images/2026/09/07/871970_thumbnail.webp" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n508553/選舉舞弊-關於零證據的迷思.html">選舉舞弊：關於零證據的迷思</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年07月17日 | 3個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512832/選前接受中方招待-新北里長有罪定讞.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="/images/epoch_small.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512832/選前接受中方招待-新北里長有罪定讞.html">選前接受中方招待 新北里長有罪定讞</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月07日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512737/展演大象來了交通亂引民怨-沈伯洋-市府應規劃.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="https://img.epochtimes.com.tw/upload/images/2026/09/06/871756_thumbnail.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512737/展演大象來了交通亂引民怨-沈伯洋-市府應規劃.html">展演《大象來了》交通亂引民怨 沈伯洋：市府應規劃</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月06日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512749/竹縣藍白撕破臉-白-替藍站台最重開除黨籍.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="/images/epoch_small.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512749/竹縣藍白撕破臉-白-替藍站台最重開除黨籍.html">竹縣藍白撕破臉 白：替藍站台最重開除黨籍</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月06日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+                <div class="cat_news_item flex border_top_line">
+                    <a href="/n512729/李四川訪基隆-談捷運、育兒.html" class="cat_news_item_img"><img src="/images/epoch_small.jpg" class="lazy" data-src="https://img.epochtimes.com.tw/upload/images/2026/09/06/871755_thumbnail.jpg" /></a>
+                    <div class="cat_news_item_title">
+                        <a href="/n512729/李四川訪基隆-談捷運、育兒.html">李四川訪基隆 談捷運、育兒</a>
+                        <div class="cat_news_date font-darkgray">
+                            2026年09月06日 | 1個月前
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            <div class="ad">
+            </div>
+            <div class="hot_news padding-top-2">
+                <div class="cat-headbar background_Orange">
+
+                    <span class="cat-headbar-title">熱門排行</span>
+                </div>
+                <div class="hot_news_box">
+                    <!--熱門排行 start-->
+                                    <div class="hot_news_item border_bottom_line">
+                    <span class="hot_news_no">1</span><a href="/n516065/老人免健保費三讀-青壯年年增3千元負擔.html">老人免健保費三讀 青壯年年增3千元負擔</a>
+                </div>                <div class="hot_news_item border_bottom_line">
+                    <span class="hot_news_no">2</span><a href="/n516117/少女遇氣爆重傷-修煉法輪功獲新生.html">少女遇氣爆重傷 修煉法輪功獲新生</a>
+                </div>                <div class="hot_news_item border_bottom_line">
+                    <span class="hot_news_no">3</span><a href="/n516115/成都疑現鼠疫死亡病例-官方-保密.html">成都疑現鼠疫死亡病例 官方：保密</a>
+                </div>                <div class="hot_news_item border_bottom_line">
+                    <span class="hot_news_no">4</span><a href="/n516140/長者免健保費修法惹議-政院憂世代負擔加重.html">長者免健保費修法惹議 政院憂世代負擔加重</a>
+                </div>                <div class="hot_news_item border_bottom_line">
+                    <span class="hot_news_no">5</span><a href="/n516107/重陽敬老共創高齡友善新模式--桃園會稽國中獨居長者團圓餐.html">重陽敬老共創高齡友善新模式  桃園會稽國中獨居長者團圓餐</a>
+                </div>                <div class="hot_news_item border_bottom_line">
+                    <span class="hot_news_no">6</span><a href="/n515615/六科技領袖獲川普頒國家獎章.html">六科技領袖獲川普頒國家獎章</a>
+                </div>
+                    <!--熱門排行 end-->
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div id="footer">
+            <div class="GetTruthAd">
+                <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v5.4.0 -->
+                <ins data-revive-zoneid="5" data-revive-id="8d0c8c600ceb9c3b2530134fdcee60c2"></ins>
+                <script async src="//ad.epochtimes.com.tw/live/www/delivery/asyncjs.php" type="de40edecc6e19088b90b532f-text/javascript"></script>
+            </div>
+            <div id="tuidang2">
+                <span id="tuidang_no2">467,586,308</span>
+                <a href="https://tuidang.epochtimes.com/" target="_blank"> <img src="/images/Tuidang2.jpg" /></a>
+            </div>
+            <div id="footer-share">
+                <a target="_blank" href="https://www.facebook.com/epochtimes.taiwan/"><img src="/images/black_fbshare.jpg" class="b_fb" /></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCApkp-DRCG3ioHRepJU85tw"><img src="/images/black_youtube.jpg" class="b_yt" /></a>
+            </div>
+            <div id="footer-links" class="flex flex-justify-space-between flex-align-items-center">
+                <a target="_blank" href="https://www.epochtimes.com.tw/introduction">關於我們</a> | <a target="_blank" href="https://www.epochtimes.com.tw/terms">授權</a> | <a target="_blank" href="https://www.epochtimes.com.tw/contribute">投稿</a> | <a target="_blank" href="https://www.epochtimes.com.tw/adservice">廣告服務</a> | <a target="_blank" href="https://www.epochtimes.com.tw/contact">聯絡我們</a>
+            </div>
+            <div id="footer-copyright">
+                Copyright &copy; 2000-2022 Epoch Times Taiwan
+            </div>
+        </div>
+        <div id="footer_ad">
+            <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v5.4.0 -->
+            <ins data-revive-zoneid="8" data-revive-id="8d0c8c600ceb9c3b2530134fdcee60c2"></ins>
+            <script async src="//ad.epochtimes.com.tw/live/www/delivery/asyncjs.php" type="de40edecc6e19088b90b532f-text/javascript"></script>
+        </div>
+
+        <!--GoogleSearch start-->
+        <!--<div id="right_panel_2">
+        <h1>　&nbsp;搜尋 大紀元新聞</h1>
+        <script async src="https://cse.google.com/cse.js?cx=90f0e5c7117f9d70c">
+        </script>
+        <div class="gcse-search"></div>
+    </div>-->
+
+<div id="right_panel">
+    <div class="searech_block">
+        <div class="search_combine">
+            <div class="HWbtn">
+                <img onclick="if (!window.__cfRLUnblockHandlers) return false; search_by_input()" src="/images/search-white.png" id="btnSearch" data-cf-modified-de40edecc6e19088b90b532f-="">
+            </div>
+            <input id="inputkeyword" type="text" class="searchinput" placeholder="搜尋">
+        </div>
+        <div class="cancelSearch" onclick="if (!window.__cfRLUnblockHandlers) return false; show_right_panel()" data-cf-modified-de40edecc6e19088b90b532f-="">取消</div>
+    </div>
+
+
+    <div class="cat_news_lists" id="quotes"></div>
+
+
+    <div class="loader">
+        <div><img src="/images/clock-solid.svg" class="svgbtn svgbtnNoBord"></div>
+        <div><img src="/images/clock-solid.svg" class="svgbtn svgbtnNoBord"></div>
+        <div><img src="/images/clock-solid.svg" class="svgbtn svgbtnNoBord"></div>
+    </div>
+</div>
+        <!--GoogleSearch end-->
+    </div>
+
+
+    <script src="/js/main.js?20250807" type="de40edecc6e19088b90b532f-text/javascript"></script>
+    <script src="/js/gogleSearch.js?20230410" type="de40edecc6e19088b90b532f-text/javascript"></script>
+    <script type="de40edecc6e19088b90b532f-text/javascript">
+        const shareImgFirstThreeArray = Array.from(document.querySelectorAll('#shareImgFirstThree a.share_img'));
+        const shareImgSecondThreeArray = Array.from(document.querySelectorAll('#sharebox_inside a'));
+
+        //更新文章區的分享連結
+        const updateLinkInShareImg = () => {
+            let href = "https://www.epochtimes.com.tw/n512972/自認最努力新人-鄧凱勛盼為人民帶來改變.html";
+            let hrefIndex = href.match(/\/(n\d{5,10})/);
+            let herfTitle = href.substring(href.indexOf(hrefIndex[1] + "/") + (hrefIndex[1] + "/").length );
+            console.log(hrefIndex[1]);
+            shareImgFirstThreeArray[0].href = "https://m.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(href);
+            shareImgFirstThreeArray[1].href = "https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(href);
+            //shareImgFirstThreeArray[2].setAttribute("onclick", "WebShareApi('" + href + "')");
+            shareImgFirstThreeArray[2].href = "https://epochtimes.com.tw/shareto/shareto.html?target=epoch_" + hrefIndex[1] + "&title=" + herfTitle;
+
+            shareImgSecondThreeArray[0].href = "https://m.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(href);
+            shareImgSecondThreeArray[1].href = "https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(href);
+            //shareImgSecondThreeArray[2].setAttribute("onclick", "WebShareApi('" + href + "')");
+            shareImgSecondThreeArray[2].href = "https://epochtimes.com.tw/shareto/shareto.html?target=epoch_" + hrefIndex[1] + "&title=" + herfTitle;
+        };
+        const updateClipboard = (newClip) => {
+            navigator.clipboard.writeText(newClip).then(function () {
+                /* clipboard successfully set */
+            }, function () {
+                /* clipboard write failed */
+            });
+            alert('已複製本頁連結: ' + newClip);
+        };
+
+        function WebViewClipboard(newClip) {
+            navigator.clipboard.writeText(newClip).then(
+                v => alert('已複製本頁連結: ' + newClip),
+                e => alert("複製失敗 \n" + e));
+
+            //NativeAndroid.copyToClipboard(newClip);
+            MyClipboard.copyToClipboard(newClip);
+        }
+
+        const WebShareApi = async (newClip) => {
+            try {
+                await navigator.share({ title: "謝謝您分享大紀元時報：", url: newClip });
+                //console.log("Data was shared successfully");
+            } catch (err) {
+                console.error("Ｏ分享Ｏ．．．出現問題:", err.message);
+            }
+        };
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            //更新文章區的分享連結
+            updateLinkInShareImg();
+
+
+            InitSearchQuote();//顯示之前的搜尋結果
+
+
+            adjustADImgSize2();//調整廣告圖片大小
+        }, false);
+
+
+    </script>
+    <script type="de40edecc6e19088b90b532f-text/javascript">
+
+
+
+        //將目前的種類位置寫入cookie
+        let filenamestart =  262 ;
+        filenamestart = GetBigCateFromInputCate(filenamestart); // 取得父分類編號
+
+
+        //console.log("分類編號:", filenamestart);
+        document.cookie = "categoryID=" + filenamestart + "; path=/";
+
+        //讀取 種類位置cookie
+        let cookieValue = document.cookie
+            .split('; ')
+            .find(row => row.startsWith('categoryID='))
+            .split('=')[1];
+
+        //顯示top menu的目前位置
+        const TopMenuNavArray = Array.from(document.querySelectorAll('.swiper-slideX'));
+        if (cookieValue == "-1") {
+            TopMenuNavArray[0].children[0].classList.add("swiper-slideX-now");
+        } else if (cookieValue == "-9") {
+        } else {
+            TopMenuNavArray.forEach((item, index) => {
+                if (item.children[0] != undefined) {
+                    if (item.children[0].href.includes(cookieValue)) {
+                        item.children[0].classList.add("swiper-slideX-now");
+                    } else {
+                        item.children[0].classList.remove("swiper-slideX-now");
+                    }
+                }
+            });
+        }
+
+        //決定該讓 navi bar 捲到哪一頁
+        navWarpPage(navTranslatePageIndexFromParentCategoryID(262));
+
+
+    </script>
+
+    <script type="de40edecc6e19088b90b532f-text/javascript">
+        //將可能出現的IFRAME調整尺寸
+        let article_content_width = getOffsetALL(document.getElementById("article_content")).width;
+        let iframes = document.querySelectorAll('iframe');
+        for (let i = 0; i < iframes.length; i++) {
+            if (iframes[i].title.includes('YouTube')) {
+                iframes[i].style.width = article_content_width + 'px';
+                iframes[i].style.height = (article_content_width * 0.5625) + 'px';
+            }
+        }
+    </script>
+
+    <script type="de40edecc6e19088b90b532f-text/javascript">
+        let timeoutID = null;
+        let adjustADImgSizeFlag = true; //  false不調整/true調整
+        let adjustADImgSizeFlagCount = 0; //  false counter
+        function adjustADImgSize() {
+            timeoutID = window.setInterval((() => {
+                let insGroup = document.querySelectorAll('ins');
+                if (adjustADImgSizeFlag) {
+                    //最後一則的圖片不處理 (頁尾廣告不調整大小)
+                    adjustADImgSizeFlagCount = 0;
+                    for (let i = 0; i < insGroup.length - 1; i++) {
+                        if (insGroup[i].querySelector('iframe') != null) {
+                            let targetimg = insGroup[i].querySelector('iframe');
+                            if (targetimg.width == null) { adjustADImgSizeFlag = true; } else {
+                                let oldW = targetimg.width;
+                                let oldH = targetimg.height
+                                let newW = window.innerWidth * 0.9;
+                                let newH = newW * oldH / oldW;
+                                targetimg.style.width = newW + 'px';
+                                targetimg.style.height = newH + 'px';
+                                adjustADImgSizeFlag = false;
+                                adjustADImgSizeFlagCount++;
+                            }
+                        }
+
+                        if (insGroup[i].querySelector('a img') != null) {
+                            let targetimg = insGroup[i].querySelector('a img');
+                            if (targetimg.naturalWidth == null) { adjustADImgSizeFlag = true; } else {
+                                let oldW = targetimg.naturalWidth;
+                                let oldH = targetimg.naturalHeight
+                                let newW = window.innerWidth * 0.9;
+                                let newH = newW * oldH / oldW;
+                                targetimg.style.width = newW + 'px';
+                                targetimg.style.height = newH + 'px';
+                                adjustADImgSizeFlag = false;
+                                adjustADImgSizeFlagCount++;
+                            }
+                        }
+
+
+
+                        console.log(adjustADImgSizeFlagCount);
+                    }
+                }
+                if (adjustADImgSizeFlagCount >= (insGroup.length - 1)) { window.clearInterval(timeoutID); }
+            }), 1888);
+        }
+
+
+
+
+        function adjustADImgSize2() {
+            timeoutID = window.setInterval((() => {
+                let insGroup = document.querySelectorAll('ins');
+                if (adjustADImgSizeFlag) {
+                    adjustADImgSizeFlagCount = 0;
+                    for (let i = 0; i < insGroup.length - 1; i++) {
+                        //這裡指定處理第1~2則的圖片,調整其寬度高度
+                        if (i == 0 || i == 1) {
+                            if (insGroup[i].querySelector('a img') != null) {
+                                let targetimg = insGroup[i].querySelector('a img');
+                                if (targetimg.naturalWidth == null) { adjustADImgSizeFlag = true; } else {
+                                    let oldW = targetimg.naturalWidth;
+                                    let oldH = targetimg.naturalHeight
+                                    let newW = window.innerWidth * 0.9;
+                                    let newH = newW * oldH / oldW;
+                                    targetimg.style.width = newW + 'px';
+                                    targetimg.style.height = newH + 'px';
+                                    adjustADImgSizeFlag = false;
+                                    adjustADImgSizeFlagCount++;
+                                }
+                            }
+                        }
+                        console.log(adjustADImgSizeFlagCount);
+                    }
+                }
+                if (adjustADImgSizeFlagCount >= (0)) { window.clearInterval(timeoutID); }
+
+            }), 1888);
+        }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script type="de40edecc6e19088b90b532f-text/javascript">
+        //Make all pic Lazy Load
+        document.addEventListener("DOMContentLoaded", function () {
+            const lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+            let lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        let lazyImage = entry.target;
+                        lazyImage.src = lazyImage.dataset.src;
+                        lazyImage.classList.remove("lazy");
+                        lazyImageObserver.unobserve(lazyImage);
+                    }
+                });
+            });
+
+            lazyImages.forEach(function (lazyImage) {
+                lazyImageObserver.observe(lazyImage);
+            });
+
+        });
+    </script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="de40edecc6e19088b90b532f-|49" defer></script></body>
+</html>

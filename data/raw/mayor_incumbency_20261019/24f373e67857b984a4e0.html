@@ -1,0 +1,1817 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta name="keywords" content="馬祖-連江縣政府,馬祖航空海運交通,觀光旅遊資訊,縣政資訊,馬祖藍眼淚-北海坑道,馬祖神像,芹壁聚落,觀光特產,馬祖酒廠,黑嘴端鳳頭燕鷗,梅花鹿" />
+    <meta name="description" content="馬祖-連江縣政府,縣府簡介-縣長專欄,縣府團隊,縣府組織,業務職掌,海空交通,縣政資訊||新聞櫥窗-公告事項,年度活動,徵求人才,影音新聞專區||施政計畫-各局室年度計畫,縣長政見||便民服務-各局室檔案下載,公開資訊,網路通報,行動社福,電子書||民意交流-首長信箱,民意信箱||細說馬祖-歷史起源,氣候地景,動植物生態,海濱海洋,植物之美,古蹟建築,經濟產業,戰地風光||縣內景緻-鄉鎮特產,景點導覽,餐飲資訊,產業觀光 (卡蹓馬祖),團體與個人住宿,360度景緻展示" />
+    <meta name="COMPANY" content="馬祖-連江縣政府" />
+    <meta name="copyright" content="馬祖-連江縣政府" />
+    <meta name="Accessible_website" content="本網站通過AA檢測等級無障礙網頁檢測" />
+    <meta name="RATING" content="general" />
+    <meta name="ROBOTS" content="ALL" />
+    <meta name="ROBOTS" content="index,follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link href="/frontcss00/header_footer.css" rel="stylesheet" type="text/css" />
+    <link href="/frontcss00/index.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <link href="/frontcss/header_footer_IE.css" rel="stylesheet" type="text/css" />
+    <link href="/frontcss/index_IE.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <title>馬祖-連江縣政府</title>
+    <link href="/js/scrollTo/style.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-3.6.4.min.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-88236774-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script>
+        $(function () {
+            var winW, winH, docH, scrollTop, _offsetTop, _offsetTop2;
+
+            $goTop = $('#goTop');
+
+            winH = $(window).height();
+
+            //docH = $(document).height();
+
+            $(window).scroll(function () {
+                winW = $(window).width();
+                if (winW <= 766) {
+                    $goTop.hide();
+                    return;
+                }
+
+                if (winW > 1514) {
+                    _offsetTop = parseInt($("#hid_pos").offset().top) + 1500;
+                } else {
+                    _offsetTop = parseInt($("#hid_pos").offset().top) - 230;
+                }
+
+                scrollTop = $(window).scrollTop() + winH;
+
+                if ((scrollTop > 766 && scrollTop <= 1000) || (scrollTop > 1200 && scrollTop <= 2000)) {
+                    $("#menutop").addClass("MENU_F");
+                }
+
+                if (scrollTop <= 766 || scrollTop <= 1200) {
+                    $("#menutop").removeClass("MENU_F");
+                }
+
+                if (scrollTop > 1300) {
+                    $goTop.fadeIn();
+                } else {
+                    $goTop.fadeOut();
+                }
+
+                if (scrollTop > _offsetTop) {
+                    var _bottom = scrollTop - _offsetTop;
+
+                    $goTop.css({
+                        'position': 'fixed',
+                        'bottom': _bottom
+                    });
+                } else {
+                    $goTop.css({
+                        'bottom': 20
+                    });
+                }
+
+            }); //end scroll
+
+            $goTop.click(function () {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 1000, 'easeOutQuart');
+            }); //end click
+
+            $goTop.hover(function () {
+                $this = $(this);
+                $this.css("opacity", 0.7);
+            },
+                function () {
+                    $this.css("opacity", 1);
+                }); //end hover
+        });                                     //end ready
+    </script>
+    <!-- D3圖表 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.9/d3.min.js"></script>
+    <style type="text/css">
+        svg#Line_Chart {
+            width: 100%;
+            height: auto;
+        }
+
+            svg#Line_Chart text.text_axis {
+                fill: rgba(0, 0, 0, 1);
+                font-size: 0.75rem;
+            }
+
+        path.path_1 {
+            stroke: #2AB8CC;
+        }
+
+        path.arc_1 {
+            stroke: #2AB8CC; /*框線*/
+            fill: #2AB8CC; /*底色*/
+        }
+
+        text.arc_1 {
+            font-size: 0.875rem; /*人口數*/
+            display: none; /*block*/
+            fill: #ff8400;
+        }
+
+        g.axis text.text_axis {
+            display: none;
+        }
+
+        text._X {
+            font-size: 0.75rem;
+            fill: #000;
+        }
+
+        text._Y {
+            font-size: 0.75rem;
+            fill: #2AB8CC;
+        }
+    </style>
+
+    <script type="text/javascript">
+        //
+        var data = [
+            { x: 0, y: 992, mon: '112/6' },{ x: 10, y: 1005, mon: '112/7' },{ x: 20, y: 1028, mon: '112/8' },{ x: 30, y: 1049, mon: '112/9' },{ x: 40, y: 1071, mon: '112/10' },{ x: 50, y: 1071, mon: '112/11' },{ x: 60, y: 1039, mon: '112/12' },{ x: 70, y: 1034, mon: '113/1' },{ x: 80, y: 1005, mon: '113/2' },{ x: 90, y: 1006, mon: '113/3' },{ x: 100, y: 1008, mon: '113/4' }
+        ];
+        var line_chart = {
+            SVG_append_g: function (axisX, g_attr, text_attr, text_style) {
+                var self = this;
+
+                self.s.append('g')
+                    .call(axisX)
+                    .attr(g_attr).selectAll('text')
+                    .attr(text_attr).style(text_style);
+            },
+            SVG_append_path: function (g_attr) {
+                var self = this;
+
+                return self.s.append('path').attr(g_attr);
+            },
+            svg_style: { 'border': '0px dotted #aaa' },
+            s: {},
+            Add_G: [],
+            Add_Path: [],
+            Add_text: [],
+            set_SVG: function (el_id) {
+                var self = this;
+                self.s = d3.select(el_id);
+                self.s.style(self.svg_style);
+            },
+            main: function (el_id) {
+                var self = this;
+                self.set_SVG(el_id);
+
+                self.svg_attr_width = 730;
+                self.svg_attr_height = 300;
+                self.translate_x = 50;
+                self.translate_y = 25;
+
+                self.data_Y = ArraySelect(data, 'y'); // Y軸區間
+                self.data_Y_Max = d3.max(self.data_Y);
+                self.data_Y_Min = d3.min(self.data_Y);
+
+                self.scaleX = d3.scale.linear();
+                self.scaleX.range([0, self.svg_attr_width]).domain([0, 100]);
+                self.scaleY = d3.scale.linear();
+                self.scaleY.range([0, self.svg_attr_height]).domain([self.data_Y_Max, self.data_Y_Min]);
+                /* ---------------線條範圍
+                -----------------------------------------------------資料範圍-*/
+
+
+                self.DoAllFunction(self.Add_G);
+                self.DoAllFunction(self.Add_Path);
+                self.DoAllFunction(self.Add_text);
+
+            },
+            DoAllFunction: function (Things) {
+                var self = this;
+                for (var i = 0; i < Things.length; i++) {
+                    Things[i](self);
+                }
+            }
+        };
+    </script>
+    <!-- D3圖表 -->
+    <noscript>
+        您的瀏覽器似乎不支援JavaScript語法，此為回最上方的控制，這裡的JavaScript語法並不會影響到內容的陳述!
+    </noscript>
+    <style>
+        .skipnav {
+            text-align: left;
+        }
+
+            .skipnav a {
+                position: absolute;
+                left: -10000px;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+            }
+
+                .skipnav a:focus, .skipnav a:active {
+                    position: static;
+                    left: 0;
+                    width: auto;
+                    height: auto;
+                    overflow: visible;
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+
+<body style="overflow-x:hidden;">
+
+    
+
+    
+    <div class="skipnav">
+        <a href="#COM_B" title="至中央區塊">至中央區塊</a>
+        <a href="#SITEMAP" title="至網站導覽">至網站導覽</a>
+    </div>
+
+    <!--左上角日曆-->
+
+    <div class="calendarbox" id="qcalendarbox" style="z-index:0">
+        <div class="calendar" id="qcalendar">
+            <div class="daytop"><p>2026</p></div>
+            <div class="dayimg">
+                <img src="https://www.matsu.gov.tw/calendarpic/20161019.jpg" alt="今日圖片" title="今日圖片" />
+                <p>10/19<br /><i>星期一</i></p>
+            </div>
+        </div>
+    </div>
+    <!--左上角日曆end-->
+
+    <script type="text/javascript">
+        var myDiv = document.getElementById("myDiv");
+        var qcalendarbox = document.getElementById("qcalendarbox");
+
+        function myfun() {
+            // 隱藏myDiv
+            //myDiv.style.display = "none";
+            $("#myDiv").hide();
+            qcalendarbox.style.zIndex = "0";
+        }
+        function iframecancle(obj) {
+            obj.style.display = "none";
+            qcalendarbox.style.zIndex = "1";
+        }
+        function iframeshow() {
+            //myDiv.style.display = "block";
+            $("#myDiv").show();
+            qcalendarbox.style.zIndex = "-1";
+        }
+        function iframeget(data) {
+            var message = document.getElementById("message");
+            message.value = data;
+            //myDiv.style.display = "none";
+            $("#myDiv").hide();
+            qcalendarbox.style.zIndex = "0";
+        }
+        window.onload = myfun;
+
+    </script>
+
+    <!--手機用leftMENU頭-->
+    <!--MENU_PHONE頭-->
+    <div id="mobmenu" class="LEFT_MENU SHUT">
+        <div class="MENU_PHONE">
+            <ul>
+                <li><h2><a title='連至縣府簡介' href='#'  id='pmm1' role='button' aria-controls='mm1' aria-expanded='false' onclick="mob_open('pmm1','mm1');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm1','mm1'); }">縣府簡介</a></h2><ul  class='SHUT' id='mm1'><li><h3><a title='連至縣府架構' href='https://www.matsu.gov.tw/chhtml/content/371030000A/1920'>縣府架構</a></h3></li><li><h3><a title='連至縣長專欄' href='https://www.matsu.gov.tw/chhtml/chiefpage/371030000A/19'>縣長專欄</a></h3></li><li><h3><a title='連至縣長政見' href='https://www.matsu.gov.tw/chhtml/content/371030000A/702'>縣長政見</a></h3></li><li><h3><a title='連至縣府組織' href='https://www.matsu.gov.tw/chhtml/government/371030000A/22'>縣府組織</a></h3></li><li><h3><a title='連至機關連結' href='https://www.matsu.gov.tw/chhtml/content/371030000A/1985'>機關連結</a></h3></li><li><h3><a title='連至聯絡電話' href='https://www.matsu.gov.tw/chhtml/content/371030000A/7141'>聯絡電話</a></h3></li></ul></li><li><h2><a title='連至縣政資訊' href='#'  id='pmm2' role='button' aria-controls='mm2' aria-expanded='false' onclick="mob_open('pmm2','mm2');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm2','mm2'); }">縣政資訊</a></h2><ul  class='SHUT' id='mm2'><li><h3><a title='連至新聞櫥窗' href='https://www.matsu.gov.tw/chhtml/news/371030000A/25'>新聞櫥窗</a></h3></li><li><h3><a title='連至公告事項' href='https://www.matsu.gov.tw/chhtml/news/371030000A/26'>公告事項</a></h3></li><li><h3><a title='連至徵求人才' href='https://www.matsu.gov.tw/chhtml/news/371030000A/29'>徵求人才</a></h3></li><li><h3><a title='連至影音專區' href='https://www.matsu.gov.tw/chhtml/medialist/371030000A/30'>影音專區</a></h3></li></ul></li><li><h2><a title='連至觀光資訊' href='#'  id='pmm3' role='button' aria-controls='mm3' aria-expanded='false' onclick="mob_open('pmm3','mm3');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm3','mm3'); }">觀光資訊</a></h2><ul  class='SHUT' id='mm3'><li><h3><a title='連至航班資訊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/23'>航班資訊</a></h3></li><li><h3><a title='連至船班資訊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/6051'>船班資訊</a></h3></li><li><h3><a title='連至觀光旅遊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/6052'>觀光旅遊</a></h3></li><li><h3><a title='連至海空交通' href='https://www.matsu.gov.tw/chhtml/content/371030000A/624'>海空交通</a></h3></li><li><h3><a title='連至年度活動' href='https://www.matsu.gov.tw/chhtml/news/371030000A/2094'>年度活動</a></h3></li><li><h3><a title='連至鄉鎮特產' href='https://www.matsu.gov.tw/chhtml/specialtylist/371030000A/51'>鄉鎮特產</a></h3></li><li><h3><a title='連至景點導覽' href='https://www.matsu.gov.tw/chhtml/landscapelist/371030000A/52'>景點導覽</a></h3></li><li><h3><a title='連至生態環境' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/580'>生態環境</a></h3></li><li><h3><a title='連至文化風情' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/600'>文化風情</a></h3></li><li><h3><a title='連至合法旅館民宿' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6086'>合法旅館民宿</a></h3></li></ul></li><li><h2><a title='連至便民服務' href='#'  id='pmm4' role='button' aria-controls='mm4' aria-expanded='false' onclick="mob_open('pmm4','mm4');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm4','mm4'); }">便民服務</a></h2><ul  class='SHUT' id='mm4'><li><h3><a title='連至各局處檔案下載' href='https://www.matsu.gov.tw/chhtml/download/371030000A/43'>各局處檔案下載</a></h3></li><li><h3><a title='連至電子書' href='https://www.matsu.gov.tw/chhtml/Ebooklist/371030000A/77'>電子書</a></h3></li><li><h3><a title='連至好站連連' href='https://www.matsu.gov.tw/chhtml/content/371030000A/623'>好站連連</a></h3></li></ul></li><li><h2><a title='連至計畫專區' href='#'  id='pmm5' role='button' aria-controls='mm5' aria-expanded='false' onclick="mob_open('pmm5','mm5');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm5','mm5'); }">計畫專區</a></h2><ul  class='SHUT' id='mm5'><li><h3><a title='開新視窗,連至連江縣示範住宅專區' href='http://sites.google.com/view/matzuhousing/%E9%A6%96%E9%A0%81' target='_blank'>連江縣示範住宅專區</a></h3></li><li><h3><a title='開新視窗,連至離島綜合建設平台' href='http://www.matsu.gov.tw/Chhtml/Index/371050000A0010LD' target='_blank'>離島綜合建設平台</a></h3></li><li><h3><a title='連至兒童權利公約(CRC)' href='http://www.matsuhb.gov.tw/Chhtml/news/2483'>兒童權利公約(CRC)</a></h3></li><li><h3><a title='開新視窗,連至再生能源資訊平台' href='http://feversocial.com/matsu/renewable-11341' target='_blank'>再生能源資訊平台</a></h3></li><li><h3><a title='連至縣民卡專區' href='http://www.matsu.gov.tw/Chhtml/Index/371050000A0001MC'>縣民卡專區</a></h3></li><li><h3><a title='連至內部控制專區' href='http://www.matsu.gov.tw/chhtml/newslist/371030000A0012/687'>內部控制專區</a></h3></li><li><h3><a title='連至性別平等專區' href='http://www.matsu.gov.tw/chhtml/download/371030000A0001/5989'>性別平等專區</a></h3></li><li><h3><a title='連至兩公約-人權教育專區' href='http://www.matsu.gov.tw/chhtml/news/371030000A0010/1974'>兩公約-人權教育專區</a></h3></li><li><h3><a title='連至新住民專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/1982'>新住民專區</a></h3></li><li><h3><a title='連至珠螺暨東引亮點計畫' href='http://www.matsu.gov.tw/chhtml/content/371030000A0005/2058'>珠螺暨東引亮點計畫</a></h3></li><li><h3><a title='連至前瞻計畫專區' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/2652'>前瞻計畫專區</a></h3></li><li><h3><a title='連至連江縣規費收費基準' href='https://www.matsu.gov.tw/chhtml/download/371030000A/3953'>連江縣規費收費基準</a></h3></li><li><h3><a title='連至連江縣智慧城市專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/5967'>連江縣智慧城市專區</a></h3></li><li><h3><a title='連至道路交通安全專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/6013'>道路交通安全專區</a></h3></li><li><h3><a title='連至食農教育資訊整合平臺' href='http://drive.google.com/file/d/1TlCOk1zrr8lYC1nMtiDIyi2mIkAzrfrC/view'>食農教育資訊整合平臺</a></h3></li></ul></li><li><h2><a title='連至資訊公開' href='#'  id='pmm6' role='button' aria-controls='mm6' aria-expanded='false' onclick="mob_open('pmm6','mm6');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm6','mm6'); }">資訊公開</a></h2><ul  class='SHUT' id='mm6'><li><h3><a title='開新視窗,連至主管法規查詢' href='http://law.matsu.gov.tw/' target='_blank'>主管法規查詢</a></h3></li><li><h3><a title='開新視窗,連至開放資訊平台' href='http://data.gov.tw/datasets/search?p=1&size=10&s=pubdate.date_desc&rft=%E9%80%A3%E6%B1%9F%E7%B8%A3' target='_blank'>開放資訊平台</a></h3></li><li><h3><a title='連至施政計畫(成果)' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/609'>施政計畫(成果)</a></h3></li><li><h3><a title='連至縣政統計(主計處)' href='http://www.matsu.gov.tw/chhtml/news/371030000A0012/2035'>縣政統計(主計處)</a></h3></li><li><h3><a title='連至研究報告' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2615'>研究報告</a></h3></li><li><h3><a title='連至請願/1999服務' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/613'>請願/1999服務</a></h3></li><li><h3><a title='連至訴願決定書' href='http://www.matsu.gov.tw/chhtml/news/371030000A0010/2098'>訴願決定書</a></h3></li><li><h3><a title='連至支付或接受之補助' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/615'>支付或接受之補助</a></h3></li><li><h3><a title='連至縣議會資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/616'>縣議會資料</a></h3></li><li><h3><a title='連至連江縣政府會議資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/617'>連江縣政府會議資料</a></h3></li><li><h3><a title='連至其它公告資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/618'>其它公告資料</a></h3></li><li><h3><a title='連至12年中長程計畫' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/1892'>12年中長程計畫</a></h3></li><li><h3><a title='連至連江縣青年事務平台' href='http://www.matsu.edu.tw/PublishList.aspx?cnid=116'>連江縣青年事務平台</a></h3></li><li><h3><a title='連至統計專區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/610'>統計專區</a></h3></li><li><h3><a title='連至重大工程成本效益區' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2307'>重大工程成本效益區</a></h3></li><li><h3><a title='連至政策宣導執行專區' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2441'>政策宣導執行專區</a></h3></li><li><h3><a title='連至應用統計分析專區(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6094'>應用統計分析專區(交旅局)</a></h3></li><li><h3><a title='連至公務統計方案(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6096'>公務統計方案(交旅局)</a></h3></li><li><h3><a title='連至預告統計資料發布時間表(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6097'>預告統計資料發布時間表(交旅局)</a></h3></li><li><h3><a title='連至職場霸凌申訴專區' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A0011/7310'>職場霸凌申訴專區</a></h3></li></ul></li><li><h2><a title='連至民意交流' href='#'  id='pmm7' role='button' aria-controls='mm7' aria-expanded='false' onclick="mob_open('pmm7','mm7');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm7','mm7'); }">民意交流</a></h2><ul  class='SHUT' id='mm7'><li><h3><a title='連至首長信箱' href='http://www.matsu.gov.tw/chhtml/chairmanmailfist/371030000A/48'>首長信箱</a></h3></li><li><h3><a title='連至首長信箱進度查詢' href='http://www.matsu.gov.tw/Chhtml/chairmanmailqry/371030000A/48'>首長信箱進度查詢</a></h3></li></ul></li><li><h2><a title='連至常見問答' href='https://www.matsu.gov.tw/chhtml/faq/371030000A/39'  id='pmm8' role='button' aria-controls='mm8' aria-expanded='false' onclick="mob_open('pmm8','mm8');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm8','mm8'); }">常見問答</a></h2><ul  class='SHUT' id='mm8'></ul></li><li><h2><a title='連至利衝專區' href='#'  id='pmm9' role='button' aria-controls='mm9' aria-expanded='false' onclick="mob_open('pmm9','mm9');" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('pmm9','mm9'); }">利衝專區</a></h2><ul  class='SHUT' id='mm9'><li><h3><a title='連至補助公告區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/7247'>補助公告區</a></h3></li><li><h3><a title='連至身分揭露區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/7248'>身分揭露區</a></h3></li><li><h3><a title='連至表單下載' href='https://www.matsu.gov.tw/chhtml/download/371030000A/7249'>表單下載</a></h3></li><li><h3><a title='連至監察院公職人員利衝補助交易系統' href='http://cfcmweb.cy.gov.tw/cfcm_w/'>監察院公職人員利衝補助交易系統</a></h3></li></ul></li>
+            </ul>
+        </div>
+        <!--MENU_PHONE-->
+        <!--手機用TBAR頭-->
+        <div class="TBAR_PHONE">
+            <ul>
+                <li><a href="https://www.matsu.gov.tw/Chhtml/Index/371030000A" title="回首頁">回首頁</a></li>
+                <li><a href="https://www.matsu.gov.tw/Enhtml/Index" title="English">English</a></li>
+                <li><a href="https://www.matsu.gov.tw/childhtml/Index" title="兒童版">兒童版</a></li>
+                
+                <li><a href="https://www.matsu.gov.tw/Chhtml/sitemap/371030000A/123" title="網站導覽">網站導覽</a></li>
+                
+                <li><a href="https://itaiwan.gov.tw/hotspotQueryList.php?area_code=21" title="開新視窗,無線熱點" target="_blank">無線熱點</a></li>
+            </ul>
+        </div>
+        <!--手機TBAR尾-->
+    </div>
+    <!--手機用leftMENU尾-->
+    <!--手機用搜尋區塊-->
+    <div class="P_IN_INPUT SHUT" id='searchid'>
+
+        <div class="SEARCH_hot">
+            <font>熱門搜尋 ► <a href="#" title="熱門搜尋,藍眼淚" onkeypress="doSubmit11(1);" onclick="doSubmit11(1);">藍眼淚</a>、<a href="#" title="熱門搜尋,交通" onkeypress="doSubmit11(2);" onclick="doSubmit11(2);">交通</a>、<a href="#" title="熱門搜尋,住宿" onkeypress="doSubmit11(3);" onclick="doSubmit11(3);">住宿</a>、<a href="#" title="熱門搜尋,旅遊景點" onkeypress="doSubmit11(1);" onclick="doSubmit11(4);">旅遊景點</a></font>&nbsp;
+        </div>
+
+        <form action='/chhtml/search/371030000A/124' id='SEARCH1' method='post' onsubmit="return keysearch1(this);">
+            <input type="hidden" name="sitesearch" value="" />
+            <label for="SER_BOX" class="input-label" style="display:none">全文檢索</label>
+            <input id="SER_BOX" name="qstr1" type="text" class="data_field" placeholder="全文檢索" accesskey="S" /><span class="icon_clear">x</span>
+            <input id="SER_SUBMIT" type="submit" value="查詢" />
+            <a class="SEARCH_go" href="https://www.google.com.tw/advanced_search?hl=zh-TW&as_sitesearch=https://www.matsu.gov.tw" title="開新視窗,連至google進階搜尋" target="_blank">進階搜尋</a>
+        </form>
+        <script>
+            function doSubmit11(tmp) {
+
+                if (tmp == "1")
+                { $("input[name='qstr1']").val('藍眼淚'); }
+
+                if (tmp == "2")
+                { $("input[name='qstr1']").val('交通'); }
+
+                if (tmp == "3")
+                { $("input[name='qstr1']").val('住宿'); }
+
+                if (tmp == "4")
+                { $("input[name='qstr1']").val('旅遊景點'); }
+
+                $('#SEARCH1').submit()
+            }
+
+            function keysearch1() {
+                var errmsg = "";
+                if ($('input[name="qstr1"]').val().trim() == "")
+                { errmsg = "請輸入關鍵字進行查詢!!" }
+
+                if (errmsg != "") {
+                    alert(errmsg);
+                    return false;
+                }
+            }
+        </script>
+        <noscript>
+            您的瀏覽器似乎不支援JavaScript語法，此為關鍵字查詢判斷，這裡的JavaScript語法並不會影響到內容的陳述!
+        </noscript>
+    </div>
+    <!--手機用搜尋區塊尾-->
+   
+    <!--最上方TBAR頭-->
+
+<div class="TBAR">    
+ <div class="COM">    
+            <div style='text-align:right; width:auto;  float:right;'>
+                <ul style=" text-align:right;">
+                    <li><a id="accesskeyU" href="#accesskeyU" title="上層選單區" accesskey="U" style="color:#ffffff;font-size:0.5625rem; text-decoration:none;color:black; ">:::</a></li>
+                    <li><a href="https://www.matsu.gov.tw/Chhtml/Index/371030000A" title="回首頁">回首頁</a></li>
+                    <li><a href="https://www.matsu.gov.tw/Chhtml/sitemap/371030000A/123" title="網站導覽">網站導覽</a></li>
+                    <li><a href="https://www.matsu.gov.tw/Enhtml/Index" title="English">English</a></li>
+                    <li><a href="https://www.matsu.gov.tw/childhtml/Index" title="兒童版">兒童版</a></li>
+                    
+                    
+                    
+                    
+                    <li><a href="https://itaiwan.gov.tw/hotspotQueryList.php?area_code=21" title="開新視窗,無線熱點" target="_blank">無線熱點</a></li>
+
+                </ul>           
+			</div>
+			</div>
+		</div>
+    <!--最上方TBAR尾-->
+    <!--HEADER頭-->
+    <div class="HEADER">
+        <div class="COM">
+
+            <div class="MENU_BT"><a href="#" role="button" aria-label="開啟主選單" aria-controls="mobmenu" aria-expanded="false" onclick="mob_open('',''); return false;" onkeydown="if(event.key === ' '){ event.preventDefault(); mob_open('',''); }">MENU</a></div>
+            <script>
+                var mobileMenuTrigger = null;
+
+                function mob_open(obj1, tmpid) {
+
+                    if (obj1 == '') {
+                        var wasMenuExpanded = !$('#mobmenu').hasClass("SHUT");
+
+                        if (!wasMenuExpanded) {
+                            mobileMenuTrigger = document.activeElement;
+                        }
+
+                        $('#mobmenu').toggleClass("SHUT");
+                        var isMenuExpanded = !$('#mobmenu').hasClass("SHUT");
+                        $('.MENU_BT a[aria-controls="mobmenu"]')
+                            .attr("aria-expanded", isMenuExpanded)
+                            .attr("aria-label", isMenuExpanded ? "關閉主選單" : "開啟主選單");
+
+                        if (isMenuExpanded) {
+                            $(document).off(".mobileMenuFocusTrap").on("keydown.mobileMenuFocusTrap", function (event) {
+                                var $focusableItems = $('#mobmenu')
+                                    .find('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')
+                                    .filter(':visible');
+
+                                if (event.key === "Escape") {
+                                    event.preventDefault();
+                                    mob_open('', '');
+                                    return;
+                                }
+
+                                if (event.key !== "Tab" || !$focusableItems.length) {
+                                    return;
+                                }
+
+                                var firstItem = $focusableItems[0];
+                                var lastItem = $focusableItems[$focusableItems.length - 1];
+
+                                if (event.shiftKey && document.activeElement === firstItem) {
+                                    event.preventDefault();
+
+                                    if (mobileMenuTrigger && typeof mobileMenuTrigger.focus === "function") {
+                                        mobileMenuTrigger.focus();
+                                    }
+                                }
+                                else if (!event.shiftKey && (document.activeElement === lastItem || !$.contains($('#mobmenu')[0], document.activeElement))) {
+                                    event.preventDefault();
+                                    firstItem.focus();
+                                }
+                            });
+
+                            $(document).on("focusin.mobileMenuFocusTrap", function (event) {
+                                if (event.target === mobileMenuTrigger) {
+                                    return;
+                                }
+
+                                if (!$.contains($('#mobmenu')[0], event.target)) {
+                                    var $firstFocusableItem = $('#mobmenu')
+                                        .find('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')
+                                        .filter(':visible')
+                                        .first();
+
+                                    if ($firstFocusableItem.length) {
+                                        $firstFocusableItem.focus();
+                                    }
+                                }
+                            });
+
+                            window.setTimeout(function () {
+                                var $firstFocusableItem = $('#mobmenu')
+                                    .find('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')
+                                    .filter(':visible')
+                                    .first();
+
+                                if ($firstFocusableItem.length) {
+                                    $firstFocusableItem.focus();
+                                }
+                            }, 0);
+                        }
+                        else {
+                            $(document).off(".mobileMenuFocusTrap");
+
+                            if (mobileMenuTrigger && typeof mobileMenuTrigger.focus === "function") {
+                                mobileMenuTrigger.focus();
+                            }
+                        }
+                    }
+                    else {
+                        if ($('#' + obj1).attr("class") == "SELEST") {
+                            $('#' + obj1).removeClass("SELEST");
+                            $('#' + tmpid).addClass("SHUT");
+                            $('#' + obj1).attr("aria-expanded", "false");
+                        }
+                        else {
+                            //$('#pmm1').slideDown('slow');
+                            $('#' + obj1).addClass("SELEST");
+                            $('#' + tmpid).removeClass("SHUT");
+                            $('#' + obj1).attr("aria-expanded", "true");
+                        }
+                    }
+
+                }
+
+        var searchTrigger = null;
+
+/**
+ * 取得搜尋區內可使用 Tab 到達的項目。
+ *
+ * 順序：
+ * 藍眼淚 → 交通 → 住宿 → 旅遊景點
+ * → 全文檢索 → 查詢 → 進階搜尋
+ */
+function getSearchFocusableItems() {
+    return $('#searchid')
+        .find(
+            'a[href], ' +
+            'button:not([disabled]), ' +
+            'input:not([type="hidden"]):not([disabled]), ' +
+            'select:not([disabled]), ' +
+            'textarea:not([disabled]), ' +
+            '[tabindex]:not([tabindex="-1"])'
+        )
+        .filter(':visible');
+}
+
+/**
+ * 更新搜尋按鈕狀態。
+ */
+function setSearchButtonState(isExpanded) {
+    $('.SEARCH_BT a[aria-controls="searchid"]')
+        .attr('aria-expanded', isExpanded ? 'true' : 'false')
+        .attr('aria-label', isExpanded ? '關閉搜尋' : '開啟搜尋');
+}
+
+/**
+ * 開啟搜尋區。
+ */
+function openSearchPanel(trigger) {
+    var $panel = $('#searchid');
+
+    if (trigger) {
+        searchTrigger = trigger;
+    }
+
+    $panel.removeClass('SHUT');
+    setSearchButtonState(true);
+
+    // 開啟後，焦點移到第一個熱門搜尋「藍眼淚」
+    window.setTimeout(function () {
+        var $items = getSearchFocusableItems();
+
+        if ($items.length) {
+            $items.first().focus();
+        }
+    }, 0);
+}
+
+/**
+ * 關閉搜尋區並回到搜尋按鈕。
+ */
+function closeSearchPanel() {
+    $('#searchid').addClass('SHUT');
+    setSearchButtonState(false);
+
+    if (
+        searchTrigger &&
+        typeof searchTrigger.focus === 'function'
+    ) {
+        searchTrigger.focus();
+    }
+}
+
+/**
+ * 開啟或關閉搜尋區。
+ */
+function search_open(trigger) {
+    var $panel = $('#searchid');
+
+    if (trigger) {
+        searchTrigger = trigger;
+    }
+
+    if ($panel.hasClass('SHUT')) {
+        openSearchPanel(trigger);
+    } else {
+        closeSearchPanel();
+    }
+}
+
+/**
+ * 搜尋按鈕的鍵盤操作。
+ */
+function searchButtonKeydown(event, trigger) {
+    var $panel = $('#searchid');
+
+    // 空白鍵：開啟或關閉搜尋區
+    if (
+        event.key === ' ' ||
+        event.key === 'Spacebar'
+    ) {
+        event.preventDefault();
+        search_open(trigger);
+        return;
+    }
+
+    /*
+     * 搜尋區已經開啟時：
+     * 在搜尋按鈕按 Tab，移到「藍眼淚」
+     */
+    if (
+        event.key === 'Tab' &&
+        !event.shiftKey &&
+        !$panel.hasClass('SHUT')
+    ) {
+        var $items = getSearchFocusableItems();
+
+        if ($items.length) {
+            event.preventDefault();
+            $items.first().focus();
+        }
+    }
+}
+
+/**
+ * 控制搜尋區的 Tab 與 Shift+Tab。
+ */
+$(document)
+    .off('keydown.searchPanel')
+    .on('keydown.searchPanel', function (event) {
+        var $panel = $('#searchid');
+
+        // 搜尋區沒有開啟時，不處理
+        if ($panel.hasClass('SHUT')) {
+            return;
+        }
+
+        /*
+         * Escape：
+         * 關閉搜尋區並回到搜尋按鈕
+         */
+        if (event.key === 'Escape') {
+            event.preventDefault();
+            closeSearchPanel();
+            return;
+        }
+
+        if (event.key !== 'Tab') {
+            return;
+        }
+
+        var $items = getSearchFocusableItems();
+
+        if (!$items.length || !searchTrigger) {
+            return;
+        }
+
+        var firstItem = $items[0];
+        var lastItem = $items[$items.length - 1];
+        var activeItem = document.activeElement;
+
+        /*
+         * 在「藍眼淚」按 Shift+Tab：
+         * 回到搜尋按鈕，但搜尋區保持開啟
+         */
+        if (
+            event.shiftKey &&
+            activeItem === firstItem
+        ) {
+            event.preventDefault();
+            searchTrigger.focus();
+            return;
+        }
+
+        /*
+         * 在「進階搜尋」按 Tab：
+         * 回到「藍眼淚」，形成循環
+         */
+        if (
+            !event.shiftKey &&
+            activeItem === lastItem
+        ) {
+            event.preventDefault();
+            firstItem.focus();
+        }
+    });
+            </script>
+
+            <noscript>
+                您的瀏覽器似乎不支援JavaScript語法，此為手機版選單控制，這裡的JavaScript語法並不會影響到內容的陳述!
+            </noscript>
+
+            
+            <h1>
+                <a href="/Chhtml/Index/371030000A" title="回首頁" class="LOGO"><img alt='連江縣政府logo' title='連江縣政府logo' src='https://www.matsu.gov.tw/Other/l-20250113092928.png'/></a>
+            </h1>
+					<!--動畫區-->
+        <div>
+            <div id="sea" class="ANIMATION1">
+                <div class="i">
+                    <img src="/frontimages/icon_sea.png" alt="" />
+                </div>
+                <div class="f">
+                    <img src="/frontimages/anim/anim_seagull.png" alt="" />
+                </div>
+                <div class="g">
+                    <img src="/frontimages/anim/anim_seagull02.png" alt="" />
+                </div>
+                <div class="h">
+                    <img src="/frontimages/anim/anim_seagull03.png" alt="" />
+                </div>
+            </div>
+
+            <div id="m_sea" class="ANIMATION1">
+
+                <div class="i">
+                    <img src="/frontimages/icon_sea.png" alt="動畫海浪" title="動畫海浪" />
+                </div>
+                <div class="f">
+
+                    <img src="/frontimages/anim/anim_seagull.png" alt="燕鷗" title="燕鷗" border="0" />
+
+                </div>
+                <div class="g">
+
+                    <img src="/frontimages/anim/anim_seagull02.png" alt="燕鷗" title="燕鷗" border="0" />
+
+                </div>
+                <div class="h">
+
+                    <img src="/frontimages/anim/anim_seagull03.png" alt="燕鷗" title="燕鷗" border="0" />
+
+                </div>
+            </div>
+
+            <div class="ANIMATION">
+                <div class="MOUN02"></div>
+                <div class="MOUN02_2"></div>
+                <div class="MATSU"></div>
+                <div class="MOUN01"></div>
+            </div>
+            <!-- 燈塔動畫 -->
+
+            <script src="/js/light/jquery-ui.min.js" type="text/javascript"></script>
+            <script src="/js/frontjquery/greensock/src/minified/gsap.min.js" type="text/javascript"></script>
+            <script src="/js/frontjquery/greensock/src/minified/MotionPathPlugin.min.js" type="text/javascript"></script>
+            <script>
+                (function () {
+                    var animationContainer = document.querySelector(".ANIMATION");
+
+                    if (!animationContainer) {
+                        console.error("找不到 .ANIMATION 元素");
+                        return;
+                    }
+
+                    // 移除舊按鈕
+                    var oldButton = document.getElementById("animation-toggle");
+
+                    if (oldButton) {
+                        oldButton.remove();
+                    }
+
+                    // 設定按鈕定位基準
+                    if (window.getComputedStyle(animationContainer).position === "static") {
+                        animationContainer.style.setProperty("position", "relative", "important");
+                    }
+
+                    var sea = $("#sea .i");
+                    var mobileSea = $("#m_sea .i");
+                    var bird = $("#sea .f,#sea .g,#sea .h");
+                    var mobileBird = $("#m_sea .f,#m_sea .g,#m_sea .h");
+
+                    // 清除原本動畫，避免重複
+                    var targets = $("#sea .i, #m_sea .i," + "#sea .f, #sea .g, #sea .h," + "#m_sea .f, #m_sea .g, #m_sea .h");
+
+                    targets.each(function () {
+                        gsap.killTweensOf(this);
+                    });
+
+                    var animations = [];
+
+                    gsap.registerPlugin(MotionPathPlugin);
+
+                    function addAnimation(target, duration, values, ease) {
+                        if (!target || target.length === 0) {
+                            return;
+                        }
+
+                        animations.push(
+                            gsap.to(target, {
+                                duration: duration,
+                                repeat: -1,
+                                motionPath: {
+                                    type: "cubic",
+                                    path: values,
+                                },
+                                ease: ease,
+                            }),
+                        );
+                    }
+
+                    // 海浪動畫
+                    addAnimation(
+                        sea,
+                        2,
+                        [
+                            { x: 0, y: 0 },
+                            { x: -20, y: -3 },
+                            { x: 20, y: -3 },
+                            { x: 0, y: 0 },
+                        ],
+                        "none",
+                    );
+
+                    addAnimation(
+                        mobileSea,
+                        2,
+                        [
+                            { x: 0, y: 0 },
+                            { x: -20, y: -2 },
+                            { x: 20, y: -2 },
+                            { x: 0, y: 0 },
+                        ],
+                        "none",
+                    );
+
+                    // 鳥的飛行路徑
+                    var birdPath1 = [
+                        { x: 0, y: 0, scaleX: 1 },
+                        { x: -50, y: -40, scaleX: 0.5 },
+                        { x: 50, y: -20, scaleX: 0.3 },
+                        { x: 0, y: 0, scaleX: 1 },
+                    ];
+
+                    var birdPath2 = [
+                        { x: 0, y: 0, scaleX: 1 },
+                        { x: -50, y: -40, scaleX: 0.8 },
+                        { x: 50, y: -40, scaleX: 0.3 },
+                        { x: 0, y: 0, scaleX: 1 },
+                    ];
+
+                    // 桌面版鳥動畫
+                    addAnimation(bird.eq(0), 15, birdPath1, "power1.inOut");
+
+                    addAnimation(bird.eq(1), 10, birdPath1, "power1.inOut");
+
+                    addAnimation(bird.eq(2), 12, birdPath2, "power1.inOut");
+
+                    // 手機版鳥動畫
+                    addAnimation(mobileBird.eq(0), 15, birdPath1, "power1.inOut");
+
+                    addAnimation(mobileBird.eq(1), 10, birdPath1, "power1.inOut");
+
+                    addAnimation(mobileBird.eq(2), 12, birdPath2, "power1.inOut");
+
+                    // 播放圖示
+                    var playIcon =
+                        '<svg viewBox="0 0 24 24" ' +
+                        'width="15" height="15" ' +
+                        'fill="currentColor" aria-hidden="true">' +
+                        '<path d="M8 5.5v13l10-6.5L8 5.5z"/>' +
+                        "</svg>";
+
+                    // 暫停圖示
+                    var pauseIcon =
+                        '<svg viewBox="0 0 24 24" ' +
+                        'width="15" height="15" ' +
+                        'fill="currentColor" aria-hidden="true">' +
+                        '<path d="M7 5h4v14H7V5zm6 0h4v14h-4V5z"/>' +
+                        "</svg>";
+
+                    // 建立按鈕
+                    var button = document.createElement("button");
+
+                    button.id = "animation-toggle";
+                    button.type = "button";
+                    button.innerHTML = pauseIcon;
+                    button.title = "暫停動畫";
+                    button.setAttribute("aria-label", "暫停動畫");
+                    button.setAttribute("aria-pressed", "false");
+
+                    // 按鈕樣式
+                    var buttonStyles = {
+                        position: "absolute",
+                        right: "24px",
+                        bottom: "10px",
+                        width: "30px",
+                        height: "30px",
+                        minWidth: "30px",
+                        minHeight: "30px",
+                        padding: "0",
+                        margin: "0",
+                        border: "0",
+                        borderRadius: "50%",
+                        background: "rgb(0 0 0 / 50%)",
+                        color: "#ffffff",
+                        boxShadow: "none",
+                        cursor: "pointer",
+                        display: "flex",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        lineHeight: "0",
+                        boxSizing: "border-box",
+                        visibility: "visible",
+                        opacity: "1",
+                        zIndex: "9999",
+                        transition: "opacity .15s ease",
+                    };
+
+                    Object.keys(buttonStyles).forEach(function (property) {
+                        button.style.setProperty(property, buttonStyles[property], "important");
+                    });
+
+                    // SVG 水平及垂直置中
+                    function centerIcon() {
+                        var svg = button.querySelector("svg");
+
+                        if (!svg) {
+                            return;
+                        }
+
+                        svg.style.setProperty("display", "block", "important");
+                        svg.style.setProperty("width", "15px", "important");
+                        svg.style.setProperty("height", "15px", "important");
+                        svg.style.setProperty("margin", "auto", "important");
+                        svg.style.setProperty("padding", "0", "important");
+                        svg.style.setProperty("flex", "0 0 auto", "important");
+                        svg.style.setProperty("pointer-events", "none", "important");
+                    }
+
+                    // 將按鈕放入 .ANIMATION
+                    animationContainer.appendChild(button);
+                    centerIcon();
+
+                    var paused = false;
+
+                    // 播放／暫停切換
+                    button.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        event.stopPropagation();
+
+                        paused = !paused;
+
+                        animations.forEach(function (animation) {
+                            if (paused) {
+                                animation.pause();
+                            } else {
+                                animation.resume();
+                            }
+                        });
+
+                        if (paused) {
+                            button.innerHTML = playIcon;
+                            button.title = "播放動畫";
+                            button.setAttribute("aria-label", "播放動畫");
+                            button.setAttribute("aria-pressed", "true");
+                        } else {
+                            button.innerHTML = pauseIcon;
+                            button.title = "暫停動畫";
+                            button.setAttribute("aria-label", "暫停動畫");
+                            button.setAttribute("aria-pressed", "false");
+                        }
+
+                        centerIcon();
+                    });
+
+                    // 滑鼠按下：只改變透明度
+                    button.addEventListener("mousedown", function () {
+                        button.style.setProperty("opacity", "0.55", "important");
+                    });
+
+                    // 滑鼠放開
+                    button.addEventListener("mouseup", function () {
+                        button.style.setProperty("opacity", "1", "important");
+                    });
+
+                    // 滑鼠移出
+                    button.addEventListener("mouseleave", function () {
+                        button.style.setProperty("opacity", "1", "important");
+                    });
+
+                    // 觸控按下
+                    button.addEventListener(
+                        "touchstart",
+                        function () {
+                            button.style.setProperty("opacity", "0.55", "important");
+                        },
+                        { passive: true },
+                    );
+
+                    // 觸控放開
+                    button.addEventListener(
+                        "touchend",
+                        function () {
+                            button.style.setProperty("opacity", "1", "important");
+                        },
+                        { passive: true },
+                    );
+
+                    console.log("按鈕已放入 .ANIMATION，共控制 " + animations.length + " 個動畫。");
+                })();
+            </script>
+            <noscript>
+                您的瀏覽器似乎不支援JavaScript語法，此為海浪與鳥的動畫控制，這裡的JavaScript語法並不會影響到內容的陳述!
+            </noscript>
+
+        </div>
+    <!--動畫區尾-->
+			<div class="SEARCH_BT">
+               <a href="#"
+				   role="button"
+				   aria-controls="searchid"
+				   aria-expanded="false"
+				   aria-label="開啟搜尋"
+				   onclick="search_open(this); return false;"
+				   onkeydown="searchButtonKeydown(event, this);">
+					搜尋
+				</a>
+            </div>
+            <div style=" width:410px;height:auto;  float:right;margin-top:10px;">
+		
+                <div class="SEARCH_hot">
+                    <font>熱門搜尋 ► <a href="#" title="熱門搜尋,藍眼淚" onkeypress="doSubmit1(1);" onclick="doSubmit1(1);">藍眼淚</a>、<a href="#" title="熱門搜尋,交通" onkeypress="doSubmit1(2);" onclick="doSubmit1(2);">交通</a>、<a href="#" title="熱門搜尋,住宿" onkeypress="doSubmit1(3);" onclick="doSubmit1(3);">住宿</a>、<a href="#" title="熱門搜尋,旅遊景點" onkeypress="doSubmit1(1);" onclick="doSubmit1(4);">旅遊景點</a></font>&nbsp;
+                </div>
+
+                <!--分享按鈕-->
+                
+                <!--分享按鈕-->
+                <!--搜尋-->
+                <div class="IN_INPUT">
+                    <form action='/chhtml/search/371030000A/124' id='SEARCH' method='post' onsubmit="return keysearch();">
+                        <input type="hidden" name="sitesearch" value="" />
+                        <label for="SER_BOX" class="input-label" style="display:none"></label>
+                        <input id="SER_BOX" name="qstr" type="text" class="data_field" placeholder="全文檢索" accesskey="S" /><span class="icon_clear">x</span>
+                        <input id="SER_SUBMIT" alt="查詢" title="查詢" type="submit" value="查詢" />
+                        <a class="SEARCH_go" href="https://www.google.com.tw/advanced_search?hl=zh-TW&as_sitesearch=https://www.matsu.gov.tw" title="開新視窗,連至google進階搜尋" target="_blank">進階搜尋</a>
+                    </form>
+                </div>
+                <script>
+                    function doSubmit1(tmp) {
+
+                        if (tmp == "1")
+                        { $("input[name='qstr']").val('藍眼淚'); }
+
+                        if (tmp == "2")
+                        { $("input[name='qstr']").val('交通'); }
+
+                        if (tmp == "3")
+                        { $("input[name='qstr']").val('住宿'); }
+
+                        if (tmp == "4")
+                        { $("input[name='qstr']").val('旅遊景點'); }
+
+                        $('#SEARCH').submit()
+                    }
+
+                    function keysearch() {
+                        var errmsg = "";
+                        if ($('input[name="qstr"]').val().trim() == "")
+                        { errmsg = "請輸入關鍵字進行查詢!!" }
+
+                        if (errmsg != "") {
+                            alert(errmsg);
+                            return false;
+                        }
+                    }
+                </script>
+                <noscript>
+                    您的瀏覽器似乎不支援JavaScript語法，此為關鍵字查詢判斷，這裡的JavaScript語法並不會影響到內容的陳述!
+                </noscript>
+                <!--搜尋-->
+            </div>
+        </div>
+
+    </div>
+    <!--最上方HEADER尾-->
+
+ 
+    <!--MENU頭-->
+    <div id="menutop" class="MENU">
+        <div class="COM">
+            <ul id="t_menu">
+                <li><h2><a title='連至縣府簡介' href='#' >縣府簡介</a></h2><ul  class='SHUT' id='mm1'><li><h3><a title='連至縣府架構' href='https://www.matsu.gov.tw/chhtml/content/371030000A/1920'>縣府架構</a></h3></li><li><h3><a title='連至縣長專欄' href='https://www.matsu.gov.tw/chhtml/chiefpage/371030000A/19'>縣長專欄</a></h3></li><li><h3><a title='連至縣長政見' href='https://www.matsu.gov.tw/chhtml/content/371030000A/702'>縣長政見</a></h3></li><li><h3><a title='連至縣府組織' href='https://www.matsu.gov.tw/chhtml/government/371030000A/22'>縣府組織</a></h3></li><li><h3><a title='連至機關連結' href='https://www.matsu.gov.tw/chhtml/content/371030000A/1985'>機關連結</a></h3></li><li><h3><a title='連至聯絡電話' href='https://www.matsu.gov.tw/chhtml/content/371030000A/7141'>聯絡電話</a></h3></li></ul></li><li><h2><a title='連至縣政資訊' href='#' >縣政資訊</a></h2><ul  class='SHUT' id='mm2'><li><h3><a title='連至新聞櫥窗' href='https://www.matsu.gov.tw/chhtml/news/371030000A/25'>新聞櫥窗</a></h3></li><li><h3><a title='連至公告事項' href='https://www.matsu.gov.tw/chhtml/news/371030000A/26'>公告事項</a></h3></li><li><h3><a title='連至徵求人才' href='https://www.matsu.gov.tw/chhtml/news/371030000A/29'>徵求人才</a></h3></li><li><h3><a title='連至影音專區' href='https://www.matsu.gov.tw/chhtml/medialist/371030000A/30'>影音專區</a></h3></li></ul></li><li><h2><a title='連至觀光資訊' href='#' >觀光資訊</a></h2><ul  class='SHUT' id='mm3'><li><h3><a title='連至航班資訊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/23'>航班資訊</a></h3></li><li><h3><a title='連至船班資訊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/6051'>船班資訊</a></h3></li><li><h3><a title='連至觀光旅遊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/6052'>觀光旅遊</a></h3></li><li><h3><a title='連至海空交通' href='https://www.matsu.gov.tw/chhtml/content/371030000A/624'>海空交通</a></h3></li><li><h3><a title='連至年度活動' href='https://www.matsu.gov.tw/chhtml/news/371030000A/2094'>年度活動</a></h3></li><li><h3><a title='連至鄉鎮特產' href='https://www.matsu.gov.tw/chhtml/specialtylist/371030000A/51'>鄉鎮特產</a></h3></li><li><h3><a title='連至景點導覽' href='https://www.matsu.gov.tw/chhtml/landscapelist/371030000A/52'>景點導覽</a></h3></li><li><h3><a title='連至生態環境' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/580'>生態環境</a></h3></li><li><h3><a title='連至文化風情' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/600'>文化風情</a></h3></li><li><h3><a title='連至合法旅館民宿' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6086'>合法旅館民宿</a></h3></li></ul></li><li><h2><a title='連至便民服務' href='#' >便民服務</a></h2><ul  class='SHUT' id='mm4'><li><h3><a title='連至各局處檔案下載' href='https://www.matsu.gov.tw/chhtml/download/371030000A/43'>各局處檔案下載</a></h3></li><li><h3><a title='連至電子書' href='https://www.matsu.gov.tw/chhtml/Ebooklist/371030000A/77'>電子書</a></h3></li><li><h3><a title='連至好站連連' href='https://www.matsu.gov.tw/chhtml/content/371030000A/623'>好站連連</a></h3></li></ul></li><li><h2><a title='連至計畫專區' href='#' >計畫專區</a></h2><ul  class='SHUT' id='mm5'><li><h3><a title='開新視窗,連至連江縣示範住宅專區' href='http://sites.google.com/view/matzuhousing/%E9%A6%96%E9%A0%81' target='_blank'>連江縣示範住宅專區</a></h3></li><li><h3><a title='開新視窗,連至離島綜合建設平台' href='http://www.matsu.gov.tw/Chhtml/Index/371050000A0010LD' target='_blank'>離島綜合建設平台</a></h3></li><li><h3><a title='連至兒童權利公約(CRC)' href='http://www.matsuhb.gov.tw/Chhtml/news/2483'>兒童權利公約(CRC)</a></h3></li><li><h3><a title='開新視窗,連至再生能源資訊平台' href='http://feversocial.com/matsu/renewable-11341' target='_blank'>再生能源資訊平台</a></h3></li><li><h3><a title='連至縣民卡專區' href='http://www.matsu.gov.tw/Chhtml/Index/371050000A0001MC'>縣民卡專區</a></h3></li><li><h3><a title='連至內部控制專區' href='http://www.matsu.gov.tw/chhtml/newslist/371030000A0012/687'>內部控制專區</a></h3></li><li><h3><a title='連至性別平等專區' href='http://www.matsu.gov.tw/chhtml/download/371030000A0001/5989'>性別平等專區</a></h3></li><li><h3><a title='連至兩公約-人權教育專區' href='http://www.matsu.gov.tw/chhtml/news/371030000A0010/1974'>兩公約-人權教育專區</a></h3></li><li><h3><a title='連至新住民專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/1982'>新住民專區</a></h3></li><li><h3><a title='連至珠螺暨東引亮點計畫' href='http://www.matsu.gov.tw/chhtml/content/371030000A0005/2058'>珠螺暨東引亮點計畫</a></h3></li><li><h3><a title='連至前瞻計畫專區' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/2652'>前瞻計畫專區</a></h3></li><li><h3><a title='連至連江縣規費收費基準' href='https://www.matsu.gov.tw/chhtml/download/371030000A/3953'>連江縣規費收費基準</a></h3></li><li><h3><a title='連至連江縣智慧城市專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/5967'>連江縣智慧城市專區</a></h3></li><li><h3><a title='連至道路交通安全專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/6013'>道路交通安全專區</a></h3></li><li><h3><a title='連至食農教育資訊整合平臺' href='http://drive.google.com/file/d/1TlCOk1zrr8lYC1nMtiDIyi2mIkAzrfrC/view'>食農教育資訊整合平臺</a></h3></li></ul></li><li><h2><a title='連至資訊公開' href='#' >資訊公開</a></h2><ul  class='SHUT' id='mm6'><li><h3><a title='開新視窗,連至主管法規查詢' href='http://law.matsu.gov.tw/' target='_blank'>主管法規查詢</a></h3></li><li><h3><a title='開新視窗,連至開放資訊平台' href='http://data.gov.tw/datasets/search?p=1&size=10&s=pubdate.date_desc&rft=%E9%80%A3%E6%B1%9F%E7%B8%A3' target='_blank'>開放資訊平台</a></h3></li><li><h3><a title='連至施政計畫(成果)' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/609'>施政計畫(成果)</a></h3></li><li><h3><a title='連至縣政統計(主計處)' href='http://www.matsu.gov.tw/chhtml/news/371030000A0012/2035'>縣政統計(主計處)</a></h3></li><li><h3><a title='連至研究報告' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2615'>研究報告</a></h3></li><li><h3><a title='連至請願/1999服務' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/613'>請願/1999服務</a></h3></li><li><h3><a title='連至訴願決定書' href='http://www.matsu.gov.tw/chhtml/news/371030000A0010/2098'>訴願決定書</a></h3></li><li><h3><a title='連至支付或接受之補助' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/615'>支付或接受之補助</a></h3></li><li><h3><a title='連至縣議會資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/616'>縣議會資料</a></h3></li><li><h3><a title='連至連江縣政府會議資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/617'>連江縣政府會議資料</a></h3></li><li><h3><a title='連至其它公告資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/618'>其它公告資料</a></h3></li><li><h3><a title='連至12年中長程計畫' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/1892'>12年中長程計畫</a></h3></li><li><h3><a title='連至連江縣青年事務平台' href='http://www.matsu.edu.tw/PublishList.aspx?cnid=116'>連江縣青年事務平台</a></h3></li><li><h3><a title='連至統計專區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/610'>統計專區</a></h3></li><li><h3><a title='連至重大工程成本效益區' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2307'>重大工程成本效益區</a></h3></li><li><h3><a title='連至政策宣導執行專區' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2441'>政策宣導執行專區</a></h3></li><li><h3><a title='連至應用統計分析專區(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6094'>應用統計分析專區(交旅局)</a></h3></li><li><h3><a title='連至公務統計方案(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6096'>公務統計方案(交旅局)</a></h3></li><li><h3><a title='連至預告統計資料發布時間表(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6097'>預告統計資料發布時間表(交旅局)</a></h3></li><li><h3><a title='連至職場霸凌申訴專區' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A0011/7310'>職場霸凌申訴專區</a></h3></li></ul></li><li><h2><a title='連至民意交流' href='#' >民意交流</a></h2><ul  class='SHUT' id='mm7'><li><h3><a title='連至首長信箱' href='http://www.matsu.gov.tw/chhtml/chairmanmailfist/371030000A/48'>首長信箱</a></h3></li><li><h3><a title='連至首長信箱進度查詢' href='http://www.matsu.gov.tw/Chhtml/chairmanmailqry/371030000A/48'>首長信箱進度查詢</a></h3></li></ul></li><li><h2><a title='連至常見問答' href='https://www.matsu.gov.tw/chhtml/faq/371030000A/39' >常見問答</a></h2><ul  class='SHUT' id='mm8'></ul></li><li><h2><a title='連至利衝專區' href='#' >利衝專區</a></h2><ul  class='SHUT' id='mm9'><li><h3><a title='連至補助公告區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/7247'>補助公告區</a></h3></li><li><h3><a title='連至身分揭露區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/7248'>身分揭露區</a></h3></li><li><h3><a title='連至表單下載' href='https://www.matsu.gov.tw/chhtml/download/371030000A/7249'>表單下載</a></h3></li><li><h3><a title='連至監察院公職人員利衝補助交易系統' href='http://cfcmweb.cy.gov.tw/cfcm_w/'>監察院公職人員利衝補助交易系統</a></h3></li></ul></li>
+            </ul>
+        </div>
+    </div>
+    <link href="https://www.matsu.gov.tw/js/t_menu/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.matsu.gov.tw/js/t_menu/script.js" type="text/javascript"></script>
+   <!--中間區塊-->
+
+    <div id="banner" style="position:absolute;z-index:-1;">
+        <div class="box">
+                <div class="slide" style="background-image:url(https://www.matsu.gov.tw/upload/21437.jpg);">
+                    <div class="word">
+                        
+                        <div style="font-size:1.9375rem;"><b>馬祖-連江縣政府邀您體驗海洋、生態與文化之美</b></div>
+                        
+                    </div>
+                </div>
+        </div>
+        <div class="dot">
+        </div>
+        <!--div class="nav">
+            <a class="prev"></a><a class="next"></a>
+        </div-->
+    </div>
+
+    <link href="https://www.matsu.gov.tw/js/frontjquery/banner_v3.0/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.matsu.gov.tw/js/frontjquery/banner_v3.0/css/style-s.css" media="only screen and (max-width:766px)" />
+    <script src="https://www.matsu.gov.tw/js/frontjquery/banner_v3.0/js/script.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            $('#banner').banner({
+                //picW: '100%', //跑馬燈圖片寬度
+                //picH: '890', //跑馬燈圖片高度
+                viewport: [1024, 768, 737],
+                picW: ['100%', '100%', '100%'],
+                picH: [890, 600, 600],
+                duration: 3000, //動畫時間
+                timerSet: 5000, //定時器時間
+                navShow: true, //左右箭頭隱藏
+                dotShow: false, //下方索引隱藏
+                dotBottom: '50%', //下方索引位置
+                autoPlay: false, //自動輪播
+                easing: "easeInOutQuart", //緩衝參數
+                index: 0//初始索引
+            });
+        });    //end ready
+    </script>
+    <!--div class="INTER_CON" style="background-image:url(/frontimages/bg_ph/00.png)"-->
+    <!--COM頭-->
+    <script>
+        function goplane() {
+            if (tb1.style.display == 'none') {
+                w1.style.display = 'none';
+                p1.style.display = 'none';
+                co1.style.display = 'none';
+                tb1.style.display = '';
+                co2.style.display = '';
+                //$("#plane1").attr("display", "none");
+                //alert('test');
+                $('#co2').animate({ top: 90, left: 5 });
+                //TweenMax.to($('#co2'), 15, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.5 }, { x: 50, y: -20, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+                //splane.width = 50;
+            } else {
+                w1.style.display = '';
+                p1.style.display = '';
+                co1.style.display = '';
+                tb1.style.display = 'none';
+                co2.style.display = 'none';
+                //$("#plane1").attr("display", "none");
+                //alert('test');
+                //TweenMax.to($('#co2'), 15, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.5 }, { x: 50, y: -20, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+                $('#co2').animate({ top: 0, left: 10 });
+                //splane.width = 50;
+            }
+        }
+    </script>
+    <noscript>
+        您的瀏覽器似乎不支援JavaScript語法，此為氣象跟飛機航班資訊的縮放功能，這裡的JavaScript語法並不會影響到內容的陳述!
+    </noscript>
+
+    <div class="COM">
+        <table height="460" id="tb1" style="display:none"><tr><td>&nbsp;</td></tr></table>
+        <div id="co2" class="goplane" style="display:none;" onclick="goplane()" onkeypress="goplane()"><img alt="航班天氣" title="航班天氣" src="/frontimages/splane.gif" id="splane" align="center" /><br />航班天氣</div>
+        <!--天氣區塊-->
+        
+        <!--天氣區塊尾-->
+        <!--航班區塊頭-->
+        <div class="FLIGHT" id="p1" style="visibility:hidden">
+            <!--航班menu-->
+            <div class="F_MENU">
+                <ul>
+                    <li id="fmenu0" tabindex="0" class="L"><a href="#" tabindex="-1" title="松山機場">松山機場</a></li>
+                    <li id="fmenu1" tabindex="0"><a href="#" tabindex="-1" title="北竿機場">北竿機場</a></li>
+                    <li id="fmenu2" tabindex="0"><a href="#" tabindex="-1" title="南竿機場">南竿機場</a></li>
+                </ul>
+            </div>
+            <script>
+                function fightchange(tmpval) {
+                    var tmpname = "";
+                    for (k = 0; k <= 2; k++) {
+                        if (k == tmpval) {
+                            tmpname = $(".F_MENU li:eq(" + k + ")").text();
+                            $(".F_MENU li:eq(" + k + ")").addClass("L");
+                            $(".F_MENU li:eq(" + k + ")").empty();
+                            $(".F_MENU li:eq(" + k + ")").append(tmpname);
+                            $("#fbox" + k).show();
+                        }
+                        else {
+                            tmpname = $(".F_MENU li:eq(" + k + ")").text();
+                            $(".F_MENU li:eq(" + k + ")").removeClass("L");
+                            $(".F_MENU li:eq(" + k + ")").empty();
+                            $(".F_MENU li:eq(" + k + ")").append("<a href='#' tabindex='-1'>" + tmpname + "</a>");
+                            $("#fbox" + k).hide();
+                        }
+                    }
+                }
+
+                $(".F_MENU li").each(function () {
+                    var nmenuliID = $(this).attr("id");
+                    $(this).click(function () { fightchange(nmenuliID.substr(5, 1)); })
+                    $(this).focus(function () { fightchange(nmenuliID.substr(5, 1)); })
+                    $(this).keydown(function () {
+                        if (event.keyCode == 9) { $("#" + nmenuliID + "_more").focus(); return false; }
+                    })
+                })
+
+            </script>
+            <noscript>
+                您的瀏覽器似乎不支援JavaScript語法，此為飛機航班資訊頁籤切換功能，這裡的JavaScript語法並不會影響到內容的陳述!
+            </noscript>
+
+            <!--航班menu尾-->
+                    <div class="F_BOX" id="fbox0">
+                        <ul>
+                            <li>航班</li>
+                            <li>編號</li>
+                            <li>表定</li>
+                            <li>實際</li>
+                            <li>目的地</li>
+                            <li>狀態</li>
+                        </ul>
+
+
+                            <p style="text-align:center; color:white">目前已無航班，<br />請於明早再查詢。謝謝！</p>
+
+                        <p class="T01_SS">
+                            <span>
+                                <i>能見度</i>-
+                                <i>風速</i>-
+                                <i>風向</i>-
+                                <i>雲高</i>-
+
+                            </span>
+                            &nbsp;│<span>更新時間：2026/10/19 19:15</span>
+                        </p>
+
+                        <div class="BT"><a id="fmenu0_more" href="/chhtml/traffic/371030000A/23" title="更多松山機場資訊" onkeydown="if (event.keyCode == 9 && 0 < 2) { $('#fmenu1').focus(); return false;}">更多資訊</a></div>
+                    </div>
+                    <div class="F_BOX" id="fbox1">
+                        <ul>
+                            <li>航班</li>
+                            <li>編號</li>
+                            <li>表定</li>
+                            <li>實際</li>
+                            <li>目的地</li>
+                            <li>狀態</li>
+                        </ul>
+
+
+                            <p style="text-align:center; color:white">目前已無航班，<br />請於明早再查詢。謝謝！</p>
+
+                        <p class="T01_SS">
+                            <span>
+                                <i>能見度</i>-
+                                <i>風速</i>-
+                                <i>風向</i>-
+                                <i>雲高</i>-
+
+                            </span>
+                            &nbsp;│<span>更新時間：2026/10/19 19:15</span>
+                        </p>
+
+                        <div class="BT"><a id="fmenu1_more" href="/chhtml/traffic/371030000A/23" title="更多北竿機場資訊" onkeydown="if (event.keyCode == 9 && 1 < 2) { $('#fmenu2').focus(); return false;}">更多資訊</a></div>
+                    </div>
+                    <div class="F_BOX" id="fbox2">
+                        <ul>
+                            <li>航班</li>
+                            <li>編號</li>
+                            <li>表定</li>
+                            <li>實際</li>
+                            <li>目的地</li>
+                            <li>狀態</li>
+                        </ul>
+
+
+                            <p style="text-align:center; color:white">目前已無航班，<br />請於明早再查詢。謝謝！</p>
+
+                        <p class="T01_SS">
+                            <span>
+                                <i>能見度</i>-
+                                <i>風速</i>-
+                                <i>風向</i>-
+                                <i>雲高</i>-
+
+                            </span>
+                            &nbsp;│<span>更新時間：2026/10/19 19:15</span>
+                        </p>
+
+                        <div class="BT"><a id="fmenu2_more" href="/chhtml/traffic/371030000A/23" title="更多南竿機場資訊" onkeydown="if (event.keyCode == 9 && 2 < 2) { $('#fmenu3').focus(); return false;}">更多資訊</a></div>
+                    </div>
+
+
+        </div>
+        <script>fightchange(0);</script>
+        <!--航班區塊尾-->
+    </div>
+    <!--CON尾-->
+    <!--COM_B頭-->
+
+    <div class="COM_B" id="COM_B" tabindex="-1">
+        <div class="IMG"><img alt="" src="https://www.matsu.gov.tw/frontimages/img01.png" width="407" height="10" /></div>
+        <!--CON02頭-->
+        <div class="COM02">
+            <!--最新消息-->
+            <div class="BOX01">
+                <!--最新消息MENU-->
+                <a id="accesskeyC" href="#accesskeyC" title="網站中央區" accesskey="C" style="color:#ffffff;font-size:0.5625rem; text-decoration:none;color:black; ">:::</a>
+                <ul class="N_MENU">
+                    <li class="L"><div class="title title_img03" title="最新消息">最新消息</div></li>
+                </ul>
+                <!--最新消息MENU尾-->
+                <!--區塊橫向延伸-->
+                <div class="NEWS_BOX_BG">
+                    <!--區塊一-->
+
+                    <div class="NEWS_BOX">
+                            <ul class="CON_P">
+                                    <li>
+                                        <span class="T02">2026/09/23</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/70?mcid=113556&amp;tmpcid=2094" target="" title="115年10月16日連江縣身心障礙者強化就業穩定課程" class="LINK03">115年10月16日連江縣身心障礙者強化就業穩定課程</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/09/16</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/70?mcid=113421&amp;tmpcid=2094" target="" title="115年10月9日連江縣身心障礙者就業前準備課程" class="LINK03">115年10月9日連江縣身心障礙者就業前準備課程</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/09/02</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/70?mcid=113253&amp;tmpcid=2094" target="" title="新制上路！「臺灣職安卡」教育訓練於 9/17-18 開課" class="LINK03">新制上路！「臺灣職安卡」教育訓練於 9/17-18 開課</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/05/08</span>
+                                        <a href="https://www.matsu.gov.tw/upload/f-20260508134339.pdf" target="_blank" title="開新視窗,114年特種考試離島地區公務人員考試分配結果一覽表" class="LINK03">114年特種考試離島地區公務人員考試分配結果一覽表</a>
+                                    </li>
+
+                            </ul>
+                            <div class="BT" style="margin:0 auto;"><a id="newsmoreinfo" href="/chhtml/news/371030000A/2094" title="更多活動資訊">更多資訊</a></div>
+                        
+                    </div>
+                    <!--區塊一尾-->
+                </div>
+                <!--區塊橫向延伸尾-->
+            </div>
+            <!--最新消息-->
+            <!--縣長區塊頭-->
+            <div class="BOX02">
+                <div class="COM_BG">
+<p align="center" class="T01">縣/首長專欄</p>                    <table width="100%" bgcolor="#eeeeee">
+                        <tr>
+                            <td align="center">
+                                <img alt='縣/首長照片' title='縣/首長照片' src='https://www.matsu.gov.tw/Other/c-20221225204031.jpg'/>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="BT02">
+                        <ul>
+                                <li><a href="/chhtml/chiefpage/371030000A/19" title="首長介紹" class="AA">首長介紹</a></li>                            <li><a href="/chhtml/chairmanmail/371030000A/48" title="信箱連結" class="CC">信箱連結</a></li>
+                                <li><a href="/chhtml/content/371030000A/702" title="施政目標" class="BB">施政目標</a></li>
+                                <li><a href="https://www.facebook.com/people/%E7%8E%8B%E5%BF%A0%E9%8A%98/100071514671190/" target="_blank" title="開新視窗,臉書連結" class="DD">臉書連結</a></li>
+                        </ul>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <!--縣長區塊頭尾-->
+            <hr style="border: 1px dashed #eee; clear:both;" class="hr" />
+            <div class="BOX01" id="Hotelinf">
+                <ul class="N_MENU">
+                    <li class="L">
+                        <div class="title title_img01" title="新聞櫥窗">新聞櫥窗</div>
+                    </li>
+                </ul>
+
+                <div class="NEWS_BOX_BG">
+                    <div class="NEWS_BOX">
+                            <ul class="CON_P">
+                                    <li>
+                                        <span class="T02">2026/10/19</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/202?mcid=113893&amp;tmpcid=25" target="" title="福州戲睽違17年重返東引　鄉親熱情捧場" class="LINK03">福州戲睽違17年重返東引　鄉親熱情捧場</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/19</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/202?mcid=113892&amp;tmpcid=25" target="" title="媽祖在馬祖昇天祭　信眾齊聚熱鬧歡騰" class="LINK03">媽祖在馬祖昇天祭　信眾齊聚熱鬧歡騰</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/16</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/202?mcid=113859&amp;tmpcid=25" target="" title="仁愛國小首度出征全國潔牙賽　勇奪離島組金牌獎" class="LINK03">仁愛國小首度出征全國潔牙賽　勇奪離島組金牌獎</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/16</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/202?mcid=113858&amp;tmpcid=25" target="" title="第11屆馬祖馬拉松倒數　7國2508位選手參賽" class="LINK03">第11屆馬祖馬拉松倒數　7國2508位選手參賽</a>
+                                    </li>
+                            </ul>
+                            <div class="BT" style="margin:0 auto;">
+                                <a href="/chhtml/news/371030000A/25" title="更多新聞資訊">
+                                    更多資訊
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="BOX01" id="Hotelinf">
+                <ul class="N_MENU">
+                    <li class="L">
+                        <div class="title title_img02" title="公告">公告</div>
+                    </li>
+                </ul>
+
+                <div class="NEWS_BOX_BG">
+                    <div class="NEWS_BOX">
+                            <ul class="CON_P">
+                                    <li>
+                                        <span class="T02">2026/10/19</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/72?mcid=113889&amp;tmpcid=29" target="_blank" title="開新視窗,民社處甄選職災勞工重返職場計畫約用人員第2次公告" class="LINK03">民社處甄選職災勞工重返職場計畫約用人員第2次公告</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/16</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/69?mcid=113861&amp;tmpcid=26" target="" title="民社處甄選職場霸凌聘用人員第2次公告" class="LINK03">民社處甄選職場霸凌聘用人員第2次公告</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/05</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/137?mcid=113696&amp;tmpcid=26" target="" title="公告屏東縣政府扣留本縣屏東七里橋西方13.5浬（N22&#176;14；E120&#176;24）海面拾獲無主物菸品公告案。" class="LINK03">公告屏東縣政府扣留本縣屏東七里橋西方13.5浬（N22&#176;14；E120&#176;24）海面拾獲無主物菸品公告案。</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/01</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/69?mcid=113640&amp;tmpcid=26" target="" title="「勞工請假規則」第2條、第12條於115年9月30日修正發布" class="LINK03">「勞工請假規則」第2條、第12條於115年9月30日修正發布</a>
+                                    </li>
+                            </ul>
+                            <div class="BT" style="margin:0 auto;">
+                                <a href="https://www.matsu.gov.tw/chhtml/news/371030000A/26" title="更多公告資訊">
+                                    更多資訊
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="BOX01 " id="Hotelinf" style="margin-right: 0;">
+                <ul class="N_MENU">
+                    <li class="L">
+                        <div class="title title_img04" title="人才招募">人才招募</div>
+                    </li>
+                </ul>
+
+                <div class="NEWS_BOX_BG">
+                    <div class="NEWS_BOX">
+                            <ul class="CON_P">
+                                    <li>
+                                        <span class="T02">2026/10/19</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/72?mcid=113889&amp;tmpcid=29" target="" title="民社處甄選職災勞工重返職場計畫約用人員第2次公告" class="LINK03">民社處甄選職災勞工重返職場計畫約用人員第2次公告</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/16</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/72?mcid=113860&amp;tmpcid=29" target="" title="民社處甄選職場霸凌聘用人員第2次公告" class="LINK03">民社處甄選職場霸凌聘用人員第2次公告</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/10/16</span>
+                                        <a href="https://www.matsu.gov.tw/upload/f-20261016093504.pdf" target="_blank" title="開新視窗,連江縣政府主計處約用人員錄取公告" class="LINK03">連江縣政府主計處約用人員錄取公告</a>
+                                    </li>
+                                    <li>
+                                        <span class="T02">2026/09/22</span>
+                                        <a href="https://www.matsu.gov.tw/chhtml/Detail/371030000A/72?mcid=113532&amp;tmpcid=29" target="" title="民政社會處甄選職場霸凌防治業務聘用人員公告" class="LINK03">民政社會處甄選職場霸凌防治業務聘用人員公告</a>
+                                    </li>
+                            </ul>
+                            <div class="BT" style="margin:0 auto;">
+                                <a href="https://www.matsu.gov.tw/chhtml/news/371030000A/29" title="更多人才招募資訊">
+                                    更多資訊
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!--COM03頭-->
+                    <div class="COM03">
+                        <!--各相關按鈕MENU02頭-->
+                        <div class="MENU02">
+                            <ul>
+                                    <li>
+                                        <a href="https://www.matsu.gov.tw/chhtml/content/371030000A/23" class="M01" title="開新視窗,航班資訊" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51717.png" alt="" border="0" /></div>
+                                            <div class="title">航班資訊</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu.gov.tw/chhtml/content/371030000A/6051" class="M01" title="開新視窗,船班資訊" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51722.png" alt="" border="0" /></div>
+                                            <div class="title">船班資訊</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu.gov.tw/chhtml/content/371030000A/6052" class="M01" title="開新視窗,觀光旅遊" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51723.png" alt="" border="0" /></div>
+                                            <div class="title">觀光旅遊</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu-nsa.gov.tw/Festival-Content.aspx?a=306&amp;l=1" class="M01" title="開新視窗,藍眼淚特區" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51720.png" alt="" border="0" /></div>
+                                            <div class="title">藍眼淚特區</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu-nsa.gov.tw/Festival-Content.aspx?a=308&amp;l=1" class="M01" title="開新視窗,梅花鹿生態" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51727.png" alt="" border="0" /></div>
+                                            <div class="title">梅花鹿生態</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu-nsa.gov.tw/Festival-Content.aspx?a=476&amp;l=1" class="M01" title="開新視窗,燕鷗專區" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51719.png" alt="" border="0" /></div>
+                                            <div class="title">燕鷗專區</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu-news.gov.tw/" class="M01" title="開新視窗,馬祖日報" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51724.png" alt="" border="0" /></div>
+                                            <div class="title">馬祖日報</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/2228" class="M01" title="開新視窗,利衝法專區" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/77134.png" alt="" border="0" /></div>
+                                            <div class="title">利衝法專區</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://165dashboard.tw" class="M01" title="開新視窗,防詐專區" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/77111.png" alt="" border="0" /></div>
+                                            <div class="title">防詐專區</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.matsu.gov.tw/Chhtml/Index/371050000A0001MC" class="M01" title="開新視窗,縣民卡專區" target=_blank=opentarget>
+                                            <div class="imgbox"><img src="https://www.matsu.gov.tw/upload/51725.png" alt="" border="0" /></div>
+                                            <div class="title">縣民卡專區</div>
+                                        </a>
+                                    </li>
+                            </ul>
+                            
+                                <div class="other_btn">
+                                    <button class="advanced-search">
+                                        更多
+                                        <img src="https://www.matsu.gov.tw/frontimages/main-menu-icon-17-1.svg" alt="更多" />
+                                    </button>
+                                </div>
+                            
+                              <script type="text/javascript">
+                                    $(document).ready(function () {
+                                    // 收合選單
+                                    $('.advanced-search').click(function(e){
+                                        e.preventDefault();
+                                        $(this).closest('.MENU02').toggleClass('active');
+                                        // 添加或移除名为 active 的类
+                                    });
+
+                                    // 根据屏幕宽度调整条件
+                                    $(window).resize(function(){
+                                        var screenWidth = $(window).width();
+                                        var iCondition = 8; // 默认条件
+
+                                        // 修改条件以适应不同的屏幕宽度
+                                        if (screenWidth < 1024) {
+                                            iCondition = 4; // 当屏幕宽度小于1024px时，条件改为4
+                                        }
+                                        if (screenWidth < 768) {
+                                            iCondition = 3; // 当屏幕宽度小于768px时，条件改为3
+                                        }
+
+                                        // 获取当前 li 元素的数量
+                                        var liCount = $('.MENU02 ul li').length;
+
+                                        if (liCount > iCondition) {
+                                            $('.other_btn').show(); // 显示按钮
+                                        } else {
+                                            $('.other_btn').hide(); // 隐藏按钮
+                                        }
+                                    }).resize(); // 初始化
+                                });
+
+                                </script>
+                        </div>
+                        <!--各相關按鈕MENU02尾-->
+                    </div>
+
+            <!--COM03尾-->
+
+            <!--COM03頭-->
+            <link href="https://www.matsu.gov.tw/js/jcarousel/jcarousel.responsive.css" rel="stylesheet" type="text/css" />
+            <script src="https://www.matsu.gov.tw/js/jcarousel/jquery.jcarousel.min.js" type="text/javascript"></script>
+            <script src="https://www.matsu.gov.tw/js/jcarousel/jcarousel.responsive.js" type="text/javascript"></script>
+            <div class="productbox">
+                <div class="jcarousel-wrapper">
+                    <a class="jcarousel-control-prev" href="#" title="廣告輪播向左移" alt="廣告輪播向左移">‹</a>
+                    <div class="jcarousel">
+                        <ul>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/Chhtml/Index/371050000A0001MC" target="_blank" title="開新視窗,連江縣民卡專區 ">
+                                        <img src="/Upload/20944.jpg" alt="連江縣民卡專區" title="連江縣民卡專區" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/chhtml/photolist/371030000A0004/5964" target="_blank" title="開新視窗,連江縣政府消費者保護專區 ">
+                                        <img src="/Upload/93.jpg" alt="連江縣政府消費者保護專區" title="連江縣政府消費者保護專區" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/chhtml/news/371030000A0012/1916" target="_blank" title="開新視窗,政府對民間團體補助經費表 ">
+                                        <img src="/Upload/477.jpg" alt="政府對民間團體補助經費表" title="政府對民間團體補助經費表" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.nta.gov.tw/" target="_blank" title="開新視窗,財政部國庫署 ">
+                                        <img src="/Upload/95.jpg" alt="財政部國庫署" title="財政部國庫署" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/chhtml/news/371030000A0012/1915" target="_blank" title="開新視窗,議員所提地方建設建議事項處理明細表 ">
+                                        <img src="/Upload/479.jpg" alt="議員所提地方建設建議事項處理明細表" title="議員所提地方建設建議事項處理明細表" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/chhtml/Downloadclass/371030000A/615?cclassid=54" target="_blank" title="開新視窗,連江縣政府公益彩券季報 ">
+                                        <img src="/Upload/480.png" alt="連江縣政府公益彩券季報" title="連江縣政府公益彩券季報" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ifi.immigration.gov.tw/wSite/mp?mp=1" target="_blank" title="開新視窗,外籍配偶服務中心 ">
+                                        <img src="/Upload/374.gif" alt="外籍配偶服務中心" title="外籍配偶服務中心" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.lcfd.gov.tw/disaster/refuge/" target="_blank" title="開新視窗,連江縣災民收容所一覽表 ">
+                                        <img src="/Upload/378.jpg" alt="連江縣災民收容所一覽表" title="連江縣災民收容所一覽表" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.immigration.gov.tw/5385/7445/7910/" target="_blank" title="開新視窗,外來人士在臺生活諮詢服務網 ">
+                                        <img src="/Upload/379.gif" alt="外來人士在臺生活諮詢服務網" title="外來人士在臺生活諮詢服務網" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://rdrc.mnd.gov.tw/rdrc/index.aspx" target="_blank" title="開新視窗,國軍人才招募中心 ">
+                                        <img src="/Upload/380.gif" alt="國軍人才招募中心" title="國軍人才招募中心" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://prtr.epa.gov.tw/" target="_blank" title="開新視窗,列管污染源資料查詢系統 ">
+                                        <img src="/Upload/381.jpg" alt="列管污染源資料查詢系統" title="列管污染源資料查詢系統" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/chhtml/Downloadclass/371030000A/618?cclassid=51" target="_blank" title="開新視窗,路平方案 ">
+                                        <img src="/Upload/382.jpg" alt="路平方案" title="路平方案" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://taiwanstay.net.tw/" target="_blank" title="開新視窗,台灣旅宿網 ">
+                                        <img src="/Upload/384.jpg" alt="台灣旅宿網" title="台灣旅宿網" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.taiwanjobs.gov.tw/Internet/index/index.aspx" target="_blank" title="開新視窗,台灣就業通 ">
+                                        <img src="/Upload/385.gif" alt="台灣就業通" title="台灣就業通" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bot.com.tw/GESSI/Pages/default.aspx" target="_blank" title="開新視窗,公教人員保險服務 ">
+                                        <img src="/Upload/386.jpg" alt="公教人員保險服務" title="公教人員保險服務" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.matsu-ebus.tw/" target="_blank" title="開新視窗,ebus ">
+                                        <img src="/Upload/387.jpg" alt="ebus" title="ebus" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://addressrs.moi.gov.tw/address/" target="_blank" title="開新視窗,門牌查詢系統 ">
+                                        <img src="/Upload/476.jpg" alt="門牌查詢系統" title="門牌查詢系統" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/chhtml/content/371030000A0001/1787" target="_blank" title="開新視窗,兵籍調查線上申報 ">
+                                        <img src="/Upload/392.jpg" alt="兵籍調查線上申報" title="兵籍調查線上申報" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/Chhtml/Index/371050000A0010LD" target="_blank" title="開新視窗,離島建設知識網 ">
+                                        <img src="/Upload/536.jpg" alt="離島建設知識網" title="離島建設知識網" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.matsu-trip.tw/" target="_blank" title="開新視窗,台灣好行@馬祖祖 ">
+                                        <img src="/Upload/19786.JPG" alt="台灣好行@馬祖祖" title="台灣好行@馬祖祖" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsuebs.com/" target="_blank" title="開新視窗,馬祖海上交通訂位購票系統 ">
+                                        <img src="/Upload/19787.jpg" alt="馬祖海上交通訂位購票系統" title="馬祖海上交通訂位購票系統" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://beboss.wda.gov.tw/cp.aspx?n=33" target="_blank" title="開新視窗,勞動部勞動力發展署-微型創業協助計畫網站 ">
+                                        <img src="/Upload/20953.jpg" alt="勞動部勞動力發展署-微型創業協助計畫網站" title="勞動部勞動力發展署-微型創業協助計畫網站" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://mydata.nat.gov.tw/" target="_blank" title="開新視窗,個人化資料自主運用(My Data) ">
+                                        <img src="/Upload/21421.png" alt="個人化資料自主運用(My Data)" title="個人化資料自主運用(My Data)" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.matsu.gov.tw/chhtml/newslist/371030000A0011/7310" target="_blank" title="開新視窗,職場霸凌申訴專區 ">
+                                        <img src="/Upload/77154.png" alt="職場霸凌申訴專區" title="職場霸凌申訴專區" />
+                                    </a>
+                                </li>
+                        </ul>
+                    </div>
+                    <a class="jcarousel-control-next" href="#" title="廣告輪播向右移">›</a>
+                </div>
+            </div>
+
+                <!--歷年人口成長趨線圖-->
+                <!--歷年人口成長趨線圖END-->
+            
+                <div class="videobox_group">
+                    <div class="videobox">
+                            <a class="video" href="https://www.youtube.com/watch?v=m8BVnIf1B3U" title="開新視窗, 連至2026年連江縣政府賀歲影片" target="_blank">
+                                <div class="imgbox">
+                                    <img src="https://www.matsu.gov.tw/upload/p-20260213151556.jpg" alt="*" />
+                                </div>
+                                <div class="title">2026年連江縣政府賀歲影片</div>
+                            </a>
+                            <a class="video" href="https://www.youtube.com/watch?v=MKHFSsipuFk" title="開新視窗, 連至馬祖限定大盛事 前哨熱鬧在莒光" target="_blank">
+                                <div class="imgbox">
+                                    <img src="https://www.matsu.gov.tw/upload/p-20260416121326.png" alt="*" />
+                                </div>
+                                <div class="title">馬祖限定大盛事 前哨熱鬧在莒光</div>
+                            </a>
+                            <a class="video" href="https://www.youtube.com/watch?v=_yUxbuT8SuA&amp;amp;t=3s" title="開新視窗, 連至拍楸是什麼?帶您先探馬祖祖輩的智慧和精神" target="_blank">
+                                <div class="imgbox">
+                                    <img src="https://www.matsu.gov.tw/upload/p-20250319134751.png" alt="*" />
+                                </div>
+                                <div class="title">拍楸是什麼?帶您先探馬祖祖輩的智慧和精神</div>
+                            </a>
+                    </div>
+                    <div class="BT" style="margin:0 auto;">
+                        <a href="https://www.matsu.gov.tw/chhtml/medialist/371030000A/30" title="更多影音專區">
+                            更多資訊
+                        </a>
+                    </div>
+                </div>
+            
+            <!--COM03尾-->
+
+            <div class="CLOSE_BT SHUT"><a href="#">close</a></div>
+        </div>
+        <!--CON02尾-->
+    </div>
+    <!--CON_B尾給縣長對應框-->
+ 
+    <!--中間區塊尾-->
+    <!--SiteMap區塊頭-->
+    <div class="SITEMAP" id="SITEMAP" tabindex="-1">
+        <!--內容區-->
+        <div class="C_BG">
+            <div class="COM">
+                <ul><li><a title='連至縣府簡介' href='#' >縣府簡介</a><ul id='mm1'><li><a title='連至縣府架構' href='https://www.matsu.gov.tw/chhtml/content/371030000A/1920' style=font-size:0.875rem>縣府架構</a></li><li><a title='連至縣長專欄' href='https://www.matsu.gov.tw/chhtml/chiefpage/371030000A/19' style=font-size:0.875rem>縣長專欄</a></li><li><a title='連至縣長政見' href='https://www.matsu.gov.tw/chhtml/content/371030000A/702' style=font-size:0.875rem>縣長政見</a></li><li><a title='連至縣府組織' href='https://www.matsu.gov.tw/chhtml/government/371030000A/22' style=font-size:0.875rem>縣府組織</a></li><li><a title='連至機關連結' href='https://www.matsu.gov.tw/chhtml/content/371030000A/1985' style=font-size:0.875rem>機關連結</a></li><li><a title='連至聯絡電話' href='https://www.matsu.gov.tw/chhtml/content/371030000A/7141' style=font-size:0.875rem>聯絡電話</a></li></ul></li><li><a title='連至縣政資訊' href='#' >縣政資訊</a><ul id='mm2'><li><a title='連至新聞櫥窗' href='https://www.matsu.gov.tw/chhtml/news/371030000A/25' style=font-size:0.875rem>新聞櫥窗</a></li><li><a title='連至公告事項' href='https://www.matsu.gov.tw/chhtml/news/371030000A/26' style=font-size:0.875rem>公告事項</a></li><li><a title='連至徵求人才' href='https://www.matsu.gov.tw/chhtml/news/371030000A/29' style=font-size:0.875rem>徵求人才</a></li><li><a title='連至影音專區' href='https://www.matsu.gov.tw/chhtml/medialist/371030000A/30' style=font-size:0.875rem>影音專區</a></li></ul></li><li><a title='連至觀光資訊' href='#' >觀光資訊</a><ul id='mm3'><li><a title='連至航班資訊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/23' style=font-size:0.875rem>航班資訊</a></li><li><a title='連至船班資訊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/6051' style=font-size:0.875rem>船班資訊</a></li><li><a title='連至觀光旅遊' href='https://www.matsu.gov.tw/chhtml/content/371030000A/6052' style=font-size:0.875rem>觀光旅遊</a></li><li><a title='連至海空交通' href='https://www.matsu.gov.tw/chhtml/content/371030000A/624' style=font-size:0.875rem>海空交通</a></li><li><a title='連至年度活動' href='https://www.matsu.gov.tw/chhtml/news/371030000A/2094' style=font-size:0.875rem>年度活動</a></li><li><a title='連至鄉鎮特產' href='https://www.matsu.gov.tw/chhtml/specialtylist/371030000A/51' style=font-size:0.875rem>鄉鎮特產</a></li><li><a title='連至景點導覽' href='https://www.matsu.gov.tw/chhtml/landscapelist/371030000A/52' style=font-size:0.875rem>景點導覽</a></li><li><a title='連至生態環境' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/580' style=font-size:0.875rem>生態環境</a></li><li><a title='連至文化風情' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/600' style=font-size:0.875rem>文化風情</a></li><li><a title='連至合法旅館民宿' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6086' style=font-size:0.875rem>合法旅館民宿</a></li></ul></li><li><a title='連至便民服務' href='#' >便民服務</a><ul id='mm4'><li><a title='連至各局處檔案下載' href='https://www.matsu.gov.tw/chhtml/download/371030000A/43' style=font-size:0.875rem>各局處檔案下載</a></li><li><a title='連至電子書' href='https://www.matsu.gov.tw/chhtml/Ebooklist/371030000A/77' style=font-size:0.875rem>電子書</a></li><li><a title='連至好站連連' href='https://www.matsu.gov.tw/chhtml/content/371030000A/623' style=font-size:0.875rem>好站連連</a></li></ul></li><li><a title='連至計畫專區' href='#' >計畫專區</a><ul id='mm5'><li><a title='開新視窗,連至連江縣示範住宅專區' href='http://sites.google.com/view/matzuhousing/%E9%A6%96%E9%A0%81' target='_blank' style=font-size:0.875rem>連江縣示範住宅專區</a></li><li><a title='開新視窗,連至離島綜合建設平台' href='http://www.matsu.gov.tw/Chhtml/Index/371050000A0010LD' target='_blank' style=font-size:0.875rem>離島綜合建設平台</a></li><li><a title='連至兒童權利公約(CRC)' href='http://www.matsuhb.gov.tw/Chhtml/news/2483' style=font-size:0.875rem>兒童權利公約(CRC)</a></li><li><a title='開新視窗,連至再生能源資訊平台' href='http://feversocial.com/matsu/renewable-11341' target='_blank' style=font-size:0.875rem>再生能源資訊平台</a></li><li><a title='連至縣民卡專區' href='http://www.matsu.gov.tw/Chhtml/Index/371050000A0001MC' style=font-size:0.875rem>縣民卡專區</a></li><li><a title='連至內部控制專區' href='http://www.matsu.gov.tw/chhtml/newslist/371030000A0012/687' style=font-size:0.875rem>內部控制專區</a></li><li><a title='連至性別平等專區' href='http://www.matsu.gov.tw/chhtml/download/371030000A0001/5989' style=font-size:0.875rem>性別平等專區</a></li><li><a title='連至兩公約-人權教育專區' href='http://www.matsu.gov.tw/chhtml/news/371030000A0010/1974' style=font-size:0.875rem>兩公約-人權教育專區</a></li><li><a title='連至新住民專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/1982' style=font-size:0.875rem>新住民專區</a></li><li><a title='連至珠螺暨東引亮點計畫' href='http://www.matsu.gov.tw/chhtml/content/371030000A0005/2058' style=font-size:0.875rem>珠螺暨東引亮點計畫</a></li><li><a title='連至前瞻計畫專區' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A/2652' style=font-size:0.875rem>前瞻計畫專區</a></li><li><a title='連至連江縣規費收費基準' href='https://www.matsu.gov.tw/chhtml/download/371030000A/3953' style=font-size:0.875rem>連江縣規費收費基準</a></li><li><a title='連至連江縣智慧城市專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/5967' style=font-size:0.875rem>連江縣智慧城市專區</a></li><li><a title='連至道路交通安全專區' href='https://www.matsu.gov.tw/chhtml/news/371030000A/6013' style=font-size:0.875rem>道路交通安全專區</a></li><li><a title='連至食農教育資訊整合平臺' href='http://drive.google.com/file/d/1TlCOk1zrr8lYC1nMtiDIyi2mIkAzrfrC/view' style=font-size:0.875rem>食農教育資訊整合平臺</a></li></ul></li><li><a title='連至資訊公開' href='#' >資訊公開</a><ul id='mm6'><li><a title='開新視窗,連至主管法規查詢' href='http://law.matsu.gov.tw/' target='_blank' style=font-size:0.875rem>主管法規查詢</a></li><li><a title='開新視窗,連至開放資訊平台' href='http://data.gov.tw/datasets/search?p=1&size=10&s=pubdate.date_desc&rft=%E9%80%A3%E6%B1%9F%E7%B8%A3' target='_blank' style=font-size:0.875rem>開放資訊平台</a></li><li><a title='連至施政計畫(成果)' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/609' style=font-size:0.875rem>施政計畫(成果)</a></li><li><a title='連至縣政統計(主計處)' href='http://www.matsu.gov.tw/chhtml/news/371030000A0012/2035' style=font-size:0.875rem>縣政統計(主計處)</a></li><li><a title='連至研究報告' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2615' style=font-size:0.875rem>研究報告</a></li><li><a title='連至請願/1999服務' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/613' style=font-size:0.875rem>請願/1999服務</a></li><li><a title='連至訴願決定書' href='http://www.matsu.gov.tw/chhtml/news/371030000A0010/2098' style=font-size:0.875rem>訴願決定書</a></li><li><a title='連至支付或接受之補助' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/615' style=font-size:0.875rem>支付或接受之補助</a></li><li><a title='連至縣議會資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/616' style=font-size:0.875rem>縣議會資料</a></li><li><a title='連至連江縣政府會議資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/617' style=font-size:0.875rem>連江縣政府會議資料</a></li><li><a title='連至其它公告資料' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/618' style=font-size:0.875rem>其它公告資料</a></li><li><a title='連至12年中長程計畫' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/1892' style=font-size:0.875rem>12年中長程計畫</a></li><li><a title='連至連江縣青年事務平台' href='http://www.matsu.edu.tw/PublishList.aspx?cnid=116' style=font-size:0.875rem>連江縣青年事務平台</a></li><li><a title='連至統計專區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/610' style=font-size:0.875rem>統計專區</a></li><li><a title='連至重大工程成本效益區' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2307' style=font-size:0.875rem>重大工程成本效益區</a></li><li><a title='連至政策宣導執行專區' href='https://www.matsu.gov.tw/chhtml/download/371030000A/2441' style=font-size:0.875rem>政策宣導執行專區</a></li><li><a title='連至應用統計分析專區(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6094' style=font-size:0.875rem>應用統計分析專區(交旅局)</a></li><li><a title='連至公務統計方案(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6096' style=font-size:0.875rem>公務統計方案(交旅局)</a></li><li><a title='連至預告統計資料發布時間表(交旅局)' href='https://www.matsu.gov.tw/chhtml/download/371030000A/6097' style=font-size:0.875rem>預告統計資料發布時間表(交旅局)</a></li><li><a title='連至職場霸凌申訴專區' href='https://www.matsu.gov.tw/chhtml/newslist/371030000A0011/7310' style=font-size:0.875rem>職場霸凌申訴專區</a></li></ul></li><li><a title='連至民意交流' href='#' >民意交流</a><ul id='mm7'><li><a title='連至首長信箱' href='http://www.matsu.gov.tw/chhtml/chairmanmailfist/371030000A/48' style=font-size:0.875rem>首長信箱</a></li><li><a title='連至首長信箱進度查詢' href='http://www.matsu.gov.tw/Chhtml/chairmanmailqry/371030000A/48' style=font-size:0.875rem>首長信箱進度查詢</a></li></ul></li><li><a title='連至常見問答' href='https://www.matsu.gov.tw/chhtml/faq/371030000A/39' >常見問答</a><ul id='mm8'></ul></li><li><a title='連至利衝專區' href='#' >利衝專區</a><ul id='mm9'><li><a title='連至補助公告區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/7247' style=font-size:0.875rem>補助公告區</a></li><li><a title='連至身分揭露區' href='https://www.matsu.gov.tw/chhtml/downloadclass/371030000A/7248' style=font-size:0.875rem>身分揭露區</a></li><li><a title='連至表單下載' href='https://www.matsu.gov.tw/chhtml/download/371030000A/7249' style=font-size:0.875rem>表單下載</a></li><li><a title='連至監察院公職人員利衝補助交易系統' href='http://cfcmweb.cy.gov.tw/cfcm_w/' style=font-size:0.875rem>監察院公職人員利衝補助交易系統</a></li></ul></li></ul>
+            </div>
+        </div>
+        <!--內容區-->
+    </div>
+    <div id="hid_pos"></div>
+    
+    <!--SiteMap區塊尾-->
+    <div class="FOOTER">
+        <div class="COM">
+            <div class="LOGO02"><a href="https://www.matsu.gov.tw/chhtml/index/371030000A" title="回首頁">回首頁</a></div>
+            <div class="QRCODE"><img src="https://www.matsu.gov.tw/frontimages/qrcode/VBKCJEB5JB.png" width="99" height="99" alt="連江縣政府QRCODE" title="連江縣政府QRCODE" /></div>
+            <div class="QRCODE">
+                <a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20260901153625" title="無障礙網站">
+                    <img src="https://www.matsu.gov.tw/Images/AAccessibility.png" border="0" width="88" height="31" alt="通過AA無障礙網頁檢測" />
+                </a>
+            </div>
+            <div class="INFOR">
+                <p class="T05">
+                    <a href="https://www.matsu.gov.tw/chhtml/content/371030000A/1903?Mcid=13521" class="LINK06" title="政府網站資料開放宣告">政府網站資料開放宣告</a>&nbsp;|&nbsp;
+                    <a href="https://www.matsu.gov.tw/chhtml/link/371030000A/55" class="LINK06" title="相關連結">相關連結</a>&nbsp;|&nbsp;
+                    <a href="https://www.matsu.gov.tw/chhtml/lantransform/371030000A/80" class="LINK06" title="雙語詞彙對照">雙語詞彙對照</a>&nbsp;|&nbsp;
+                    <a href="https://www.matsu.gov.tw/chhtml/content/371030000A/38?Mcid=5341" class="LINK06" title="隱私權政策聲明">隱私權政策聲明</a>&nbsp;|&nbsp;
+                    <a href="https://www.matsu.gov.tw/chhtml/content/371030000A/81?Mcid=5342" class="LINK06" title="資訊安全政策">資訊安全政策</a>&nbsp;|&nbsp;
+
+                    <!--<a href="https://www.matsu.gov.tw/chhtml/mailfist/371030000A/591" class="LINK06">線上信箱</a>-->
+                </p>
+                <p class="T05">
+                    地 址：20941 連江縣南竿鄉介壽村76號&nbsp;&nbsp;<img src="/frontimages/tel.png" alt="tel" title="tel" align='absmiddle' />&nbsp;<a href="tel:0836-25131" title="電話0836-25131" style="color:#ffffff">0836-25131</a>
+
+
+                    &nbsp;網頁更新時間：2026-10-19
+                    <br />
+                    Address：No.76, Jieshou Village, Nangan Township,Matsu Taiwan County 20941, R.O.C.<br />連江縣政府版權所有 Copyright ©2016 Lienchiang County Government. All rights reserved
+                </p>
+
+            </div>
+        </div>
+    </div>
+<div id="goTop" >
+<a href="#" tabindex="0">
+        <img src="https://www.matsu.gov.tw/frontimages/btn_top.png" alt="top" /></a>
+    </div>
+    <script type="text/javascript">
+        var tmpval = '';
+        if(tmpval != "")
+        {
+            window.onload=function(){
+                iframeshow();
+            }
+        }
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,775 @@
+
+
+<!DOCTYPE html>
+
+<html id="FormHtml" xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-tw">
+<head id="Head1">    <style nonce="M3Za30dvB1zffSiV8EZw1g==">
+        .for_accessibility a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 99;
+            width: 1px;
+            height: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            color: #000;
+        }
+            .for_accessibility a:focus {
+                width: auto;
+                height: auto;
+                padding: 6px;
+                background-color: #fff;
+            }
+        .for_accessibility div {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background-color: transparent;
+            opacity: .1
+        }
+    </style>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==">var CCMS_WWWURL='https://www.moi.gov.tw';var CCMS_LanguageSN=1;var CCMS_SitesSN_Encryption='400';</script><script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/core.min.js'></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/jquery.lazy.min.js'></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/jquery.lazy.plugins.min.js'></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/jquery.cookie.js'></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/jUtil.js'></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/fancybox/jquery.fancybox.js'></script>
+<link rel='stylesheet' type='text/css' href='https://www.moi.gov.tw/Scripts/fancybox/jquery.fancybox.css' /> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/hamalightGallery/hamalightGallery.js'></script>
+<link rel='stylesheet' type='text/css' href='https://www.moi.gov.tw/Scripts/hamalightGallery/css/hamalightGallery.css' /> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/J_Pager.js'></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/Chart/chart.js'></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/Chart/chartjs-plugin-datalabels.js'></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/chart.js'></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/jquery.mousewheel.min.js'></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/jquery.touchwipe.min.js'></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/js/airdatepicker/datepicker.min.js'></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/js/airdatepicker/datepicker.zh-tw.js'></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/js/airdatepicker/datepicker.en.js'></script> 
+<link rel='stylesheet' type='text/css' href='https://www.moi.gov.tw/js/airdatepicker/datepicker.min.css' /> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='//api.tgos.tw/TGOS_API/tgos?ver=2&AppID=8cqA18AC10z19cUf5D/fkp4G91EKmncNT+DiMtZs8dmMjmmDQG/SDA==&APIKey=cGEErDNy5yN/1fQ0vyTOZrghjE+jIU6uoFjQ96gn3QD3Ad2Ex7H4akP/n7ZFmivMZN4DeiNS5uHNpjVLG2spsONpWeId7gdA7DOhF3BrGC9uBaIKlcDTT1c7lrINOFzCtzGurV0KqZ++IyPBt1FQdCExYZ2YqjcTbPkfD9O5zOysZmQwmZwB+OzY0HmF7PYHwExaQW413JtSAxNIgsGtA1EpT1lwS6yJg9djbuqsc9m5pX0B5fZZNN6inYFVT0qtOlcemObCsE9LsOhuJrn7u+kGAUKihWLC+gRPn8nWKV3+TWOrFede5HgWt0OmoNsGmiYdK4XShavMEyYCu2z2g9lkCGlURchMAWfO0VhDLV+WQOuXxCqe1PLWsmgk0JJGvTJEjdzMR8Cx9bJx8MB71dYbUootXj8xE1NGBPdk1medCmpne8TytUwCzstlo+eRMtP1756fmjXHxmo2NZi6mUq8pJWmVzpWR63swbL9RSjJsr0UYFKKfq4Ie9ZZeRfPdEaO8S38e5hhGJXNzq+n9A2wksged2UdmCAZnMjato46qxK07MalPXdYj5hiHiBWSTgyHkdJkcdpJcgeLZr1CzupksHnlnYIL2nYlb9tx8J5dok3dc6/Gu0NR4du3Ca+xmnQFOX3N8c7GRpRCS1kJE6tyzglFFcmPLCQByIPQwKqquvNiuiW59Q0nlygLUZs2Dtv4LUM9W4T+EpRnd6iMekT/d/cDFzlUVap/nRGe7OuimLzKEk0iNvpOCabZ+7KuLvoIsUSTsOkSolVe6TbGIqPIq1XIbs6JJF7eA7j4DXGQj8udVAQpp9KCD1e0xUjBP7e71PV7OpN2RDPDQer/mr0L51+Z86A5dahkr3KCOHnrDzdW/CaJOIEQHtNfewBJZrz6XfvZ/xFVZor5SX1qdrdkoiS17etbHkl05r9atD7Kvuy8itazY7LX+LQqusXB5Odvpodv39cUQtRUBvR203f3CRP8YNdwZQ2aho+02J/YNHfZ6mN0rHWlRQKevx3LUPOW+MmC+13ViDLx91lthC0WnFMJ+dwkyw6iIXpXWN1YToFZ7dO6iyEKH8l/W/rX6dQ6B9T4MhfgJIvCdCoo6LcohnJCIf1JmG3YjuHfoAT11Jr4HU1xCekPbAAUc+jWLvgGTQwxnw0KODV2PSP0QEqK4K7soVhPdz5767/Fv9uP7hn0NQMMwavrpucuJV+0zoU4+a4r0Y5jpu6LZOqno7m06cOvIgjS4JLPqHFNPOaEbzQvoGHTVkJwku8gkv4FvU006646QM='></script> 
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/Scripts/jGMap.js'></script> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="DC.Title" content="" />
+<meta name="DC.Subject" content="" />
+<meta name="DC.Creator" content="" />
+<meta name="DC.Publisher" content="" />
+<meta name="DC.Date" content="" />
+<meta name="DC.Type" content="" />
+<meta name="DC.Identifier" content="" />
+<meta name="DC.Description" content="" />
+<meta name="DC.Contributor" content="" />
+<meta name="DC.Format" content="" />
+<meta name="DC.Relation" content="" />
+<meta name="DC.Source" content="" />
+<meta name="DC.Language" content="" />
+<meta name="DC.Rights" content="" />
+<meta name="Category.Theme" content="" />
+<meta name="Category.Cake" content="" />
+<meta name="Category.Service" content="" />
+<meta name="DC.Keywords" content="" />
+<title>
+	內政部全球資訊網-中文網-縣市長
+</title><link id="likCssGlobal" href="/css/global.css" rel="stylesheet" type="text/css" /><link id="likCssPage" href="/css/page.css" rel="stylesheet" type="text/css" /><link id="likPrint" href="/css/print.css" rel="stylesheet" type="text/css" media="print" /><link id="lnkCssSysDetail" href="/css/sys_detail.css" rel="stylesheet" type="text/css" />
+    <script nonce="M3Za30dvB1zffSiV8EZw1g==" src="Scripts/Custom/Histroy_BigEvents.js" type="text/javascript"></script>
+    <script nonce="M3Za30dvB1zffSiV8EZw1g==" type="text/javascript">
+        $(function () {
+            function BindNextLvl(NextLvlId, Value, ApiObj, DefaultOpt, OptValProp, OptTxtProp) {
+                if ($('#' + NextLvlId).length) {
+                    if (Value != '') {
+                        $.ajax({
+                            async: false,
+                            data: ApiObj,
+                            type: 'POST',
+                            url: '/CustomAPI/LocalOfficialData.ashx',
+                            success: function (resp) {
+                                $('#' + NextLvlId).find('option').remove();
+                                $('#' + NextLvlId).append('<option selected="selected" value>全部</option>');
+                                $.each(resp, function (Idx) {
+                                    $('#' + NextLvlId).append('<option value="' + resp[Idx][OptValProp] + '">' + resp[Idx][OptTxtProp] + '</option>');
+                                });
+                                $('#' + NextLvlId).removeAttr('disabled');
+                            }
+                        });
+                    }
+                    else {
+                        $('#' + NextLvlId).find('option').remove();
+                        $('#' + NextLvlId).append('<option selected="selected" value>' + DefaultOpt + '</option>');
+                        $('#' + NextLvlId).attr('disabled', 'disabled');
+                    }
+                }
+            }
+
+            $('#QCD_CTY_ID').change(function (event) {
+                var CityId = $(event.target).find('option:selected').val();
+
+                var AjaxData;
+                if (QryParas.TYP == 'KND0001' || QryParas.TYP == 'KND0002') {
+                    AjaxData = { 'type': 'AREA', 'parid': CityId };
+                    BindNextLvl('QCD_OPT_DTL1', CityId, AjaxData, '請先選擇縣市別', 'EDJ_ID', 'EDJ_NAM');
+                }
+                else if (QryParas.TYP == 'KND0010') {
+                    AjaxData = { 'type': 'ORG', 'parid': CityId };
+                    BindNextLvl('QCD_OPT_DTL1', CityId, AjaxData, '請先選擇縣市別', 'ID', 'Name');
+                }
+                else {
+                    if (QryParas.TYP == 'KND0008') {
+                        AjaxData = { 'type': 'twn', 'parid': CityId, 'area': '1' };
+                    }
+                    else {
+                        AjaxData = { 'type': 'twn', 'parid': CityId };
+                    }
+                    BindNextLvl('QCD_OPT_DTL1', CityId, AjaxData, '請先選擇縣市別', 'TDJ_ID', 'TDJ_NAM');
+                }
+
+                BindNextLvl('QCD_OPT_DTL2', '', { 'type': 'vlg', 'parid': '' }, '請先選擇鄉鎮市區別', 'VDJ_ID', 'VDJ_NAM');
+            });
+
+            $('#QCD_OPT_DTL1').change(function (event) {
+                var TownId = $(event.target).find('option:selected').val();
+                
+                var AjaxData = { 'type': 'vlg', 'parid': TownId };
+                BindNextLvl('QCD_OPT_DTL2', TownId, AjaxData, '請先選擇鄉鎮市區別', 'VDJ_ID', 'VDJ_NAM');
+            });
+
+            $('#JLocalOfficial_BtnReset').click(function (event) {
+                // 重新勾選職稱項目
+                $('ul').find('input[id^="QCD_CHK_POSI"]').each(function () {
+                    $(this).prop("checked", true);
+                });
+
+                // 重置選舉年度下拉選單
+                if ($('#QCD_YEAR_ID').length) {
+                    $('#QCD_YEAR_ID').find('option:selected').removeAttr('selected');
+                    $('#QCD_YEAR_ID').find('option:first').attr('selected', 'selected');
+                }
+
+                // 重置縣市別下拉選單
+                if ($('#QCD_CTY_ID').length) {
+                    $('#QCD_CTY_ID').find('option:selected').removeAttr('selected');
+                    $('#QCD_CTY_ID').find('option:first').attr('selected', 'selected');
+                }
+
+                // 縣市重置後，重置鄉鎮市區別下拉選單
+                var AjaxData;
+                if (QryParas.TYP == 'KND0001' || QryParas.TYP == 'KND0002') {
+                    AjaxData = { 'type': 'AREA', 'parid': $('#QCD_CTY_ID').val() };
+                    BindNextLvl('QCD_OPT_DTL1', $('#QCD_CTY_ID').val(), AjaxData, '請先選擇縣市別', 'EDJ_ID', 'EDJ_NAM');
+                }
+                else {
+                    if (QryParas.TYP == 'KND0008') {
+                        AjaxData = { 'type': 'twn', 'parid': $('#QCD_CTY_ID').val(), 'area': '1' };
+                    }
+                    else {
+                        AjaxData = { 'type': 'twn', 'parid': $('#QCD_CTY_ID').val() };
+                    }
+                    BindNextLvl('QCD_OPT_DTL1', $('#QCD_CTY_ID').val(), AjaxData, '請先選擇縣市別', 'TDJ_ID', 'TDJ_NAM');
+                }
+
+                if ($('#QCD_OPT_DTL2').length) {
+                    var AjaxData = { 'type': 'vlg', 'parid': $('#QCD_OPT_DTL1').val() };
+                    BindNextLvl('QCD_OPT_DTL2', $('#QCD_OPT_DTL1').val(), AjaxData, '請先選擇鄉鎮市區別', 'VDJ_ID', 'VDJ_NAM');
+                }
+
+                $('#QCD_LST_NAM').val('');
+                $('#QCD_FIR_NAM').val('');
+                $('#QCD_PTY_NAM').val('');
+            });
+        });
+    </script>
+
+    <script nonce="M3Za30dvB1zffSiV8EZw1g==" type="text/javascript" src="Scripts/JAutoGenerateTableTH.js"></script>
+<link href="https://ws.moi.gov.tw/001/Upload/400/sites/pagebackimage/ef9b9560-7f3e-4f12-86e4-e4f196ebb4c4.png" rel="icon" type="image/x-icon" /><!-- Global site tag (gtag.js) - Google Analytics -->
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" async src="https://www.googletagmanager.com/gtag/js?id=G-SM8YJ6LKEQ"></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SM8YJ6LKEQ');
+</script><meta property="og:title" content="縣市長" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.moi.gov.tw/LocalOfficial.aspx?n=579&TYP=KND0005" />
+<meta property="og:site_name" content="內政部全球資訊網-中文網" />
+<style nonce="M3Za30dvB1zffSiV8EZw1g==">.jhfFontsize{font-size: 0em;}.csp-s-00896ef1a1156b00a01de83459a360f5c3986637{display:none !important}.csp-s-592df2517a6909ee9325c999e5b09e521fbe2794{background-color:#f0f0f0 !important;margin:0 !important;padding:12px 0 !important;text-align:center !important}.csp-s-f9f9665a234229cc2b2a81d615934258c7ac41e5{color:#000000 !important;font-size:1.1em !important;font-weight:700 !important}.csp-s-aed61325b4086ac51c18fe282999d3c937658339{font-size:1.1em !important;font-weight:700 !important;text-decoration:underline !important}.csp-s-4ab4b56a12390fd0407ef39f12930c170c3815c4{color:transparent !important;position:absolute !important}.csp-s-df5ca6fd4c91d26a8d23166406935ffe74ee509c{background-image:url('/images/egov.png') !important}.csp-s-1015e8e3ef158bc952e1c01135de057ec708cd67{background-image:url('/images/aplus.png') !important}.csp-s-f3b4bff441be8c829913ee1b107d56a48688b1f9{background-image:url('data:image/png;base64,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') !important}</style></head>
+<body id="Formbody" data-js="false"><div class="for_accessibility">
+    <a href="#Accesskey_C" class="" title="跳到主要內容區塊">跳到主要內容區塊</a>    <script nonce="M3Za30dvB1zffSiV8EZw1g==">
+        var $a = $('.for_accessibility a');
+        $a.on('click', function (evt) {
+            var $href = $($(this).attr('href')),
+                $target = $href.find('a').eq(0).get(0);
+            setTimeout(function () { try { $target.focus(); } catch (e) { } }, 0);
+        });
+    </script>
+</div>
+<script nonce="M3Za30dvB1zffSiV8EZw1g=="> document.body.setAttribute("data-js", "true");</script>
+
+    <form method="post" action="./LocalOfficial.aspx?n=579&amp;TYP=KND0005" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="EAjUorK5aTK5vrVeIPyUVXl/pMiV5LDVv0D8SnPtv2vnY2oDCqOlvilTOEDSQZoHx803yVUxWbJmv/OFBoUton0fVD8HY47l1igmxuCk5kawYTtGGTTeGId3iQiFRWhImW1B8fjYRmKySt73egGgiTC5UXBbP/4/O76MEfgpDoiRiOWDEBgawIfq3z1fja6keYpGtTPIqysJIsXLLEXaKdVB/WOOoKaMBTrTXVzdzXGYh0U5xtCvtLx6ZyUmiGqqQmxnqEhvs9AlrRbkPD4PZ64AfR3TPSNNZWF8GgPYZN1aEmD7/O+HxTOFCY/Qhw23oq1xpc85vIflI5oAO06E6h9a3oMKKF3Roq+IXn6rJo3LeONwvqkBL6k9lrzQJDOV9vCEfxNfVhxMnT0GVEP9zN8rIgj9C3+iCQ90P7D1jEu4jUFLsXa1gSA39++pWpA2NUujNrLP6gTfZx78tqFtY4/LqMSymEEfgIGTjfbgY139uQvOMKkkxFZYCdwgNSCyt2IJ6pl+pld3grP59jOQoEzFSo09RtzAG9I7IHBDby7mLLbITTb67ohJT2WAFIs/MNawQCwBBC9QJHN+F1KBua3Yy2ILPW0K1mFhSdB3BSndAH3DQJEvVt3sZrLoP0WA3puDjwwX3wWRQaka+HePgZ6XoR/JeO7nXTzxIXpgR9zzfsr3iuRCmbWiNicYZdlmV+KybYAE0qRkLQF8m5dsodTIu2kZLG8mLkUP0Un82gX+3svjoY/5E2nBGE36fUbuJyzZL8euEvIs5a/uiCGJDPZ6kjvDAeegTEqLj/LDGGdVxPzpg53nbVBI3VqF8q3VVRxRzt7ZpLwcjiNsIvrd7OxBtkU7Mog35nP0hM0IrXBFahYLR3QrvphzjLeoRHFTwYQVSYYGxDUOcepqWuAzXY0fs+fJv4N6XHGJbQVQ21w8GY0FH10QAzifLYbl7UmlEZIpGB+rpmmylqiPWl3b2uZWYFd1Deqqyy8KS214ws5JiOzfcYarszdgpacEnKPz3jvVbq4aRlf9msCikKyAPMVUUS6en3R3vadTP/xuTVEadJY+NYTGXIRlZ+5glckP3jjesoBn8698dhUR3PzTLBKzEgv/zK4UaBJ2u9CdTb97v9yChEBTxh5GXPGQSI7oSx2CxBnmEB/EIi9Wy6Nx3jDAnH/9YQCYIvDjmj2nzezLpQuFOmjxtNBCgsrMSOBdEeC0C1nD4M+bOD9JDiBsqGciOFFbHoO3sB10ehyxzO6NkD1saFA1mUyznUMuDs3roUx/BD2esxTUANA371LtJnuX+8YYBZJMjoBPFOISAUI=" />
+</div>
+
+        <!--主選單 結束-->
+        <!--標題-->
+        <div class="title">
+            
+        </div>
+        
+        
+        
+        
+
+        
+     <div class="group sys-root" data-func="{&#39;datePicker&#39;:{&#39;autoClose&#39;:true,&#39;language&#39;:&#39;zh-tw&#39;,&#39;navTitles&#39;:{&#39;days&#39;:&#39;&lt;i&amp;gt;民國 rrr 年&lt;/i&amp;gt; &amp;nbsp; MM&#39;,&#39;months&#39;:&#39;民國 rrr 年&#39;,&#39;years&#39;:&#39;民國 rrr1 至 rrr2 年&#39;}}}" data-nojs="您的瀏覽器似乎不支援 JavaScript 語法，但沒關係，這並不會影響到內容的陳述。如需要選擇適合您的字級大小，可利用鍵盤 Ctrl   ( )放大 (-)縮小。如需要回到上一頁，可使用瀏覽器提供的 Alt   左方向鍵(←)。如需要列印，可利用鍵盤 Ctrl   p 使用瀏覽器提供的列印功能。" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="group base-mobile" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;關閉&#39;,&#39;btnActiveText&#39;:&#39;開啟&#39;,&#39;escFunc&#39;:true,&#39;blankTitle&#39;:true}}" data-index="1" data-type="3"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a title="手機版選單" id="">手機版選單</a></span></div></div></div><div class="ct"><div class="in"> <div class="area-form search" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="search" id="">search</a></span></div></div></div><div class="ct"><div class="in"><div class="fieldset">
+  <span class="search"><input id="tbx_advancedSearchBtn" data-search="btn_advancedSearchBtn" type="search" placeholder="Search" title="搜尋" /></span>
+  <span class="submit"><a href="#" class='CCMS_SearchBtn' data-search="btn_advancedSearchBtn" title="搜尋">搜尋</a></span>
+</div>
+<div class="list">
+  <ul data-index="1" data-child="2">
+    <li data-index="1"><span><a href="#">人事</a></span></li>
+    <li data-index="2"><span><a href="#">自然人憑證應用</a></span></li>
+  </ul>
+</div>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==">
+$(function () {
+    $('#tbx_advancedSearchBtn').on("keydown", function (event) {
+        if (event.which == 13) {
+             doSearch($('#tbx_advancedSearchBtn'));
+            return false;
+        }
+    });
+});
+</script>
+</div></div><div class="ft"><div class="in"><ul data-index="1" data-child="1">
+  <li data-index="1" class="advanced"><span><a target="_blank" href="https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.moi.gov.tw" title="進階搜尋[另開新視窗]">進階搜尋</a></span></li>
+</ul>
+</div></div></div></div> <div class="list-text share" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a href="#" title="分享" id="">分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1" class="facebook">		<span><a href="#" data-share="fb" title="Share to Facebook[另開新視窗]" id="">Facebook</a></span></li><li data-index="2" class="plurk">		<span><a href="#" data-share="plurk" title="Share toPlurk[另開新視窗]" id="">Plurk</a></span></li><li data-index="3" class="twitter">		<span><a href="#" data-share="twitter" title="Share to twitter[另開新視窗]" id="">Twitter</a></span></li><li data-index="4" class="line">		<span><a href="#" data-share="line" title="Share to line[另開新視窗]" id="">line</a></span></li><li data-index="5" class="email">		<span><a href="#" data-share="email" title="Share to email[另開新視窗]" id="">Email</a></span></li></ul>
+</div></div></div></div> <div class="group-list nav" data-func="{&#39;majorNavStraight&#39;:{&#39;blankTitle&#39;:true}}" data-index="3" data-type="4" data-child="5"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=24" title="本部簡介" id="">本部簡介</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li data-index="1">		<span><a href="cp.aspx?n=12260" title="職掌及組織" id="">職掌及組織</a></span></li><li data-index="2">		<span><a href="cl.aspx?n=26" title="部長專區" id="">部長專區</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=30" title="施政計畫" id="">施政計畫</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=15571" title="[另開新視窗]內政防疫成果" id="" target="_blank">內政防疫成果</a></span></li><li data-index="5">		<span><a href="ContactInfos.aspx?n=32&sms=11240" title="聯絡資訊" id="">聯絡資訊</a></span></li><li data-index="6">		<span><a href="cl.aspx?n=33" title="本部單位及所屬機關" id="">本部單位及所屬機關</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=7573" title="史料專區" id="">史料專區</a></span></li><li data-index="8">		<span><a href="https://www.ey.gov.tw/" title="[另開新視窗]上級機關-行政院" id="" target="_blank">上級機關-行政院</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=20" title="主題政策" id="">主題政策</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li data-index="1">		<span><a href="cp.aspx?n=21" title="打詐防騙" id="">打詐防騙</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=22" title="安居家園" id="">安居家園</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=23" title="淨零碳排" id="">淨零碳排</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=1" title="訊息快遞" id="">訊息快遞</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li data-index="1">		<span><a href="News_MonthCalendar.aspx?n=20030&sms=13541" title="部次長公開行程" id="">部次長公開行程</a></span></li><li data-index="2">		<span><a href="News.aspx?n=4&sms=9009" title="新聞發布" id="">新聞發布</a></span></li><li data-index="3">		<span><a href="News.aspx?n=8&sms=9224" title="即時新聞澄清" id="">即時新聞澄清</a></span></li><li data-index="4">		<span><a href="News.aspx?n=20035&sms=13542" title="部務會報決定(議)" id="">部務會報決定(議)</a></span></li><li data-index="5">		<span><a href="News.aspx?n=9&sms=9009" title="行政公告" id="">行政公告</a></span></li><li data-index="6">		<span><a href="News.aspx?n=10&sms=9009" title="活動訊息" id="">活動訊息</a></span></li><li data-index="7">		<span><a href="News.aspx?n=11&sms=9009" title="本部徵才" id="">本部徵才</a></span></li><li data-index="8">		<span><a href="cl.aspx?n=14" title="多媒體專區" id="">多媒體專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=36" title="主題服務" id="">主題服務</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="22"><li data-index="1">		<span><a href="cl.aspx?n=51" title="政府資訊公開" id="">政府資訊公開</a></span></li><li data-index="2">		<span><a href="https://moica.nat.gov.tw/index.html" title="[另開新視窗]內政部憑證管理中心" id="" target="_blank">內政部憑證管理中心</a></span></li><li data-index="3">		<span><a href="cl.aspx?n=126" title="重要指標查詢" id="">重要指標查詢</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=37" title="申辦服務" id="">申辦服務</a></span></li><li data-index="5">		<span><a href="cp.aspx?n=18789" title="轉型正義業務專區" id="">轉型正義業務專區</a></span></li><li data-index="6">		<span><a href="cp.aspx?n=18489" title="綜合規劃司專區" id="">綜合規劃司專區</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=7572" title="民政服務專區" id="">民政服務專區</a></span></li><li data-index="8">		<span><a href="https://www.ris.gov.tw/app/portal" title="[另開新視窗]戶政司" id="" target="_blank">戶政司</a></span></li><li data-index="9">		<span><a href="https://www.land.moi.gov.tw/" title="[另開新視窗]地政司" id="" target="_blank">地政司</a></span></li><li data-index="10">		<span><a href="cp.aspx?n=15798" title="宗教禮制殯葬專區" id="">宗教禮制殯葬專區</a></span></li><li data-index="11">		<span><a href="cl.aspx?n=13226" title="國土專區" id="">國土專區</a></span></li><li data-index="12">		<span><a href="group.htm?" title="合作及人民團體專區" id="">合作及人民團體專區</a></span></li><li data-index="13">		<span><a href="cp.aspx?n=7570" title="工程施工查核專區" id="">工程施工查核專區</a></span></li><li data-index="14">		<span><a href="cp.aspx?n=11985" title="人事主題專區" id="">人事主題專區</a></span></li><li data-index="15">		<span><a href="cp.aspx?n=7578" title="政風專區" id="">政風專區</a></span></li><li data-index="16">		<span><a href="cp.aspx?n=5590" title="統計主題專區" id="">統計主題專區</a></span></li><li data-index="17">		<span><a href="cl.aspx?n=138" title="法規及訴願" id="">法規及訴願</a></span></li><li data-index="18">		<span><a href="cl.aspx?n=15920" title="機關檔案管理專區" id="">機關檔案管理專區</a></span></li><li data-index="19">		<span><a href="https://tfoa.moi.gov.tw/foundation" title="[另開新視窗]內政財團法人登錄系統" id="" target="_blank">內政財團法人登錄系統</a></span></li><li data-index="20">		<span><a href="psu.htm?" title="採購稽核小組專區" id="">採購稽核小組專區</a></span></li><li data-index="21">		<span><a href="cl.aspx?n=22286" title="勞務承攬派駐勞工申訴機制專區" id="">勞務承攬派駐勞工申訴機制專區</a></span></li><li data-index="22">		<span><a href="cl.aspx?n=22355" title="丹娜絲颱風及728豪雨災後復原重建影像專區" id="">丹娜絲颱風及728豪雨災後復原重建影像專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=165" title="互動交流" id="">互動交流</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="7"><li data-index="1">		<span><a href="RSS.aspx?n=12363" title="RSS" id="">RSS</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=8370&s=2125" title="1996" id="">1996</a></span></li><li data-index="3">		<span><a href="https://www.facebook.com/moi.gov.tw" title="[另開新視窗]Facebook" id="" target="_blank">Facebook</a></span></li><li data-index="4">		<span><a href="https://www.youtube.com/user/wwwmoigovtw?gl=TW&hl=zh-TW" title="[另開新視窗]YouTube" id="" target="_blank">YouTube</a></span></li><li data-index="5">		<span><a href="cl.aspx?n=8356" title="常見問答" id="">常見問答</a></span></li><li data-index="6">		<span><a href="https://terms.naer.edu.tw/" title="[另開新視窗]雙語詞彙" id="" target="_blank">雙語詞彙</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=10280" title="民意信箱" id="">民意信箱</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div class="list-text hot-key-word" data-index="4" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="熱門關鍵字" id="">熱門關鍵字</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li data-index="1">		<span><a href="Advanced_Search.aspx?q=人事" title="人事" id="" target="_self">人事</a></span></li><li data-index="2">		<span><a href="Advanced_Search.aspx?q=自然人憑證應用" title="自然人憑證應用" id="" target="_self">自然人憑證應用</a></span></li></ul>
+</div></div></div></div> <div class="list-text link" data-index="5" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="上方連結" id="">上方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li class="godefault" data-index="1">		<span><a href="Default.aspx" title="回首頁" id="" target="_self">回首頁</a></span></li><li class="gositemap" data-index="2">		<span><a href="SiteMap.aspx" title="網站導覽" id="" target="_self">網站導覽</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=10280" title="民意信箱" id="" target="_self">民意信箱</a></span></li><li data-index="4">		<span><a href="https://terms.naer.edu.tw/" title="[另開新視窗]雙語詞彙[另開新視窗]" id="" target="_blank">雙語詞彙</a></span></li><li data-index="5">		<span><a href="News_toggle3.aspx?n=174&sms=9015" title="常見問答" id="" target="_self">常見問答</a></span></li><li data-index="6">		<span><a href="cl.aspx?n=172" title="電子報" id="" target="_self">電子報</a></span></li><li data-index="7">		<span><a href="RSS.aspx?n=12363" title="RSS" id="" target="_self">RSS</a></span></li><li data-index="8">		<span><a href="english/Default.aspx" title="English" id="" target="_self">English</a></span></li></ul>
+</div></div></div></div> <div class="list-text link" data-index="6" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="下方連結" id="">下方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li data-index="1">		<span><a href="cp.aspx?n=10952" title="網站安全政策" id="" target="_self">網站安全政策</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=10953" title="隱私權保護政策" id="" target="_self">隱私權保護政策</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=10954" title="政府網站資料開放宣告" id="" target="_self">政府網站資料開放宣告</a></span></li><li data-index="4">		<span><a href="https://ws.moi.gov.tw/001/Upload/400/relfile/0/10955/61d93ae4-35fb-44e8-a1d9-31a677243330.pdf" title="[另開新視窗]保有及管理個人資料[另開新視窗]" id="" target="_blank">保有及管理個人資料</a></span></li></ul>
+</div></div></div></div></div></div></div></div> <div class="group base-extend" data-func="{&#39;listNotime&#39;:{},&#39;ytVideoViewer&#39;:{&#39;video&#39;:&#39;moi-cus-video&#39;},&#39;handicap&#39;:{},&#39;rwdDetect&#39;:{}}" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group default moi-main-site" data-index="1" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="simple-text major-logo moi-logo" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><h1><a href="Default.aspx" title="回首頁">內政部全球資訊網-中文網</a><strong class="csp-s-00896ef1a1156b00a01de83459a360f5c3986637">內政部全球資訊網-中文網</strong></h1></div></div></div></div> <div class="group default top-info" data-index="1" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div class="group default info" data-index="1" data-type="3"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_U" id="Accesskey_U" accesskey="U" title="選單連結區塊，此區塊列有本網站主要連結。">:::</a></span></div></div></div></div> <div class="list-text link" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="上方連結" id="">上方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li class="godefault" data-index="1">		<span><a href="Default.aspx" title="回首頁" id="" target="_self">回首頁</a></span></li><li class="gositemap" data-index="2">		<span><a href="SiteMap.aspx" title="網站導覽" id="" target="_self">網站導覽</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=10280" title="民意信箱" id="" target="_self">民意信箱</a></span></li><li data-index="4">		<span><a href="https://terms.naer.edu.tw/" title="[另開新視窗]雙語詞彙[另開新視窗]" id="" target="_blank">雙語詞彙</a></span></li><li data-index="5">		<span><a href="News_toggle3.aspx?n=174&sms=9015" title="常見問答" id="" target="_self">常見問答</a></span></li><li data-index="6">		<span><a href="cl.aspx?n=172" title="電子報" id="" target="_self">電子報</a></span></li><li data-index="7">		<span><a href="RSS.aspx?n=12363" title="RSS" id="" target="_self">RSS</a></span></li><li data-index="8">		<span><a href="english/Default.aspx" title="English" id="" target="_self">English</a></span></li></ul>
+</div></div></div></div> <div class="list-text font-size" data-func="{&#39;fontSize&#39;:{}}" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a href="#" title="字級" id="">字級</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li data-index="1" class="small">		<span><a href="#" title="小 字級" id="">小</a></span></li><li data-index="2" class="medium">		<span><a href="#" title="中 字級" id="">中</a></span></li><li data-index="3" class="large">		<span><a href="#" title="大 字級" id="">大</a></span></li></ul>
+</div></div></div></div> <div class="list-text share" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;關閉&#39;,&#39;btnActiveText&#39;:&#39;開啟&#39;,&#39;addHd&#39;:true,&#39;clickToRemove&#39;:true,&#39;hoverExpand&#39;:true,&#39;escFunc&#39;:true,&#39;blankTitle&#39;:true}}" data-index="3" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a href="#" title="分享" id="">分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1" class="facebook">		<span><a href="#" data-share="fb" title="Share to Facebook[另開新視窗]" id="">Facebook</a></span></li><li data-index="2" class="plurk">		<span><a href="#" data-share="plurk" title="Share toPlurk[另開新視窗]" id="">Plurk</a></span></li><li data-index="3" class="twitter">		<span><a href="#" data-share="twitter" title="Share to twitter[另開新視窗]" id="">Twitter</a></span></li><li data-index="4" class="line">		<span><a href="#" data-share="line" title="Share to line[另開新視窗]" id="">line</a></span></li><li data-index="5" class="email">		<span><a href="#" data-share="email" title="Share to email[另開新視窗]" id="">Email</a></span></li></ul>
+</div></div></div></div></div></div></div></div> <div class="group default msg-tool moi-main" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group-list nav" data-func="{&#39;hud&#39;:{},&#39;majorNavStraight&#39;:{&#39;hoverExpand&#39;:true,&#39;clickToRemove&#39;:true,&#39;blankTitle&#39;:true},&#39;setNavWidth&#39;:{}}" data-index="1" data-type="4" data-child="5"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1" data-width="2"> <div id="Group_35_uyJYgEXpUc" data-width="2" data-margin_right="0" data-sort="" data-bgcolor="#0000ffff" data-addparentgroup="False" data-groupsn="35" data-widthdesktop="0" data-anchor="" data-tabtype="3" class="group nav" data-index="1" data-margin_defaultsetting="false" data-type="3" data-bgclass="" data-widthmobile="0" data-groupname="" data-widthpad="0" data-margin_left="0" data-menuwidth="2" data-isgroup="true" data-margin_bottom="0" data-child="1" data-margin_top="0"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=24" title="本部簡介" id="">本部簡介</a></span></div></div></div><div class="ct"><div class="in"> <div id="Group_36_mFLeFRQBbG" data-sitesmodulesn="75" data-margin_right="" data-sort="2" data-bgcolor="" data-addparentgroup="" data-groupsn="36" data-widthdesktop="" data-anchor="" data-tabtype="0" class="list-text nav" data-index="1" data-margin_defaultsetting="false" data-type="0" data-bgclass="" data-widthmobile="" data-groupname="" data-widthpad="" data-margin_left="" data-menuwidth="" data-isgroup="true" data-setlen="0" data-margin_bottom="" data-child="1" data-margin_top=""><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li data-index="1">		<span><a href="cp.aspx?n=12260" title="職掌及組織" id="">職掌及組織</a></span></li><li data-index="2">		<span><a href="cl.aspx?n=26" title="部長專區" id="">部長專區</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=30" title="施政計畫" id="">施政計畫</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=15571" title="[另開新視窗]內政防疫成果" id="" target="_blank">內政防疫成果</a></span></li><li data-index="5">		<span><a href="ContactInfos.aspx?n=32&sms=11240" title="聯絡資訊" id="">聯絡資訊</a></span></li><li data-index="6">		<span><a href="cl.aspx?n=33" title="本部單位及所屬機關" id="">本部單位及所屬機關</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=7573" title="史料專區" id="">史料專區</a></span></li><li data-index="8">		<span><a href="https://www.ey.gov.tw/" title="[另開新視窗]上級機關-行政院" id="" target="_blank">上級機關-行政院</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2" data-width="2"> <div id="Group_33_QbIkAQEUFS" data-width="2" data-margin_right="0" data-sort="" data-bgcolor="#0000ffff" data-addparentgroup="False" data-groupsn="33" data-widthdesktop="0" data-anchor="" data-tabtype="3" class="group nav" data-index="2" data-margin_defaultsetting="false" data-type="3" data-bgclass="" data-widthmobile="0" data-groupname="" data-widthpad="0" data-margin_left="0" data-menuwidth="2" data-isgroup="true" data-margin_bottom="0" data-child="1" data-margin_top="0"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=20" title="主題政策" id="">主題政策</a></span></div></div></div><div class="ct"><div class="in"> <div id="Group_34_ttwabcUfbp" data-sitesmodulesn="75" data-margin_right="" data-sort="2" data-bgcolor="" data-addparentgroup="" data-groupsn="34" data-widthdesktop="" data-anchor="" data-tabtype="0" class="list-text nav" data-index="1" data-margin_defaultsetting="false" data-type="0" data-bgclass="" data-widthmobile="" data-groupname="" data-widthpad="" data-margin_left="" data-menuwidth="" data-isgroup="true" data-setlen="0" data-margin_bottom="" data-child="1" data-margin_top=""><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li data-index="1">		<span><a href="cp.aspx?n=21" title="打詐防騙" id="">打詐防騙</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=22" title="安居家園" id="">安居家園</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=23" title="淨零碳排" id="">淨零碳排</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3" data-width="2"> <div id="Group_7_wrQdvytjIk" data-width="2" data-margin_right="0" data-sort="" data-bgcolor="#0000ffff" data-addparentgroup="False" data-groupsn="7" data-widthdesktop="0" data-anchor="" data-tabtype="3" class="group nav" data-index="3" data-margin_defaultsetting="false" data-type="3" data-bgclass="" data-widthmobile="0" data-groupname="" data-widthpad="0" data-margin_left="0" data-menuwidth="2" data-isgroup="true" data-margin_bottom="0" data-child="1" data-margin_top="0"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=1" title="訊息快遞" id="">訊息快遞</a></span></div></div></div><div class="ct"><div class="in"> <div id="Group_8_AGEiioSiFT" data-sitesmodulesn="75" data-margin_right="" data-sort="2" data-bgcolor="" data-addparentgroup="" data-groupsn="8" data-widthdesktop="" data-anchor="" data-tabtype="0" class="list-text nav" data-index="1" data-margin_defaultsetting="false" data-type="0" data-bgclass="" data-widthmobile="" data-groupname="" data-widthpad="" data-margin_left="" data-menuwidth="" data-isgroup="true" data-setlen="0" data-margin_bottom="" data-child="1" data-margin_top=""><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li data-index="1">		<span><a href="News_MonthCalendar.aspx?n=20030&sms=13541" title="部次長公開行程" id="">部次長公開行程</a></span></li><li data-index="2">		<span><a href="News.aspx?n=4&sms=9009" title="新聞發布" id="">新聞發布</a></span></li><li data-index="3">		<span><a href="News.aspx?n=8&sms=9224" title="即時新聞澄清" id="">即時新聞澄清</a></span></li><li data-index="4">		<span><a href="News.aspx?n=20035&sms=13542" title="部務會報決定(議)" id="">部務會報決定(議)</a></span></li><li data-index="5">		<span><a href="News.aspx?n=9&sms=9009" title="行政公告" id="">行政公告</a></span></li><li data-index="6">		<span><a href="News.aspx?n=10&sms=9009" title="活動訊息" id="">活動訊息</a></span></li><li data-index="7">		<span><a href="News.aspx?n=11&sms=9009" title="本部徵才" id="">本部徵才</a></span></li><li data-index="8">		<span><a href="cl.aspx?n=14" title="多媒體專區" id="">多媒體專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4" data-width="4"> <div id="Group_37_VuBUyFnCKm" data-width="4" data-margin_right="0" data-sort="" data-bgcolor="#0000ffff" data-addparentgroup="False" data-groupsn="37" data-widthdesktop="0" data-anchor="" data-tabtype="3" class="group nav" data-index="4" data-margin_defaultsetting="false" data-type="3" data-bgclass="" data-widthmobile="0" data-groupname="" data-widthpad="0" data-margin_left="0" data-menuwidth="4" data-isgroup="true" data-margin_bottom="0" data-child="1" data-margin_top="0"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=36" title="主題服務" id="">主題服務</a></span></div></div></div><div class="ct"><div class="in"> <div id="Group_38_iDItxSfRdb" data-sitesmodulesn="75" data-margin_right="" data-sort="2" data-bgcolor="" data-addparentgroup="" data-groupsn="38" data-widthdesktop="" data-anchor="" data-tabtype="0" class="list-text nav" data-index="1" data-margin_defaultsetting="false" data-type="0" data-bgclass="" data-widthmobile="" data-groupname="" data-widthpad="" data-margin_left="" data-menuwidth="" data-isgroup="true" data-setlen="0" data-margin_bottom="" data-child="1" data-margin_top=""><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="22"><li data-index="1">		<span><a href="cl.aspx?n=51" title="政府資訊公開" id="">政府資訊公開</a></span></li><li data-index="2">		<span><a href="https://moica.nat.gov.tw/index.html" title="[另開新視窗]內政部憑證管理中心" id="" target="_blank">內政部憑證管理中心</a></span></li><li data-index="3">		<span><a href="cl.aspx?n=126" title="重要指標查詢" id="">重要指標查詢</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=37" title="申辦服務" id="">申辦服務</a></span></li><li data-index="5">		<span><a href="cp.aspx?n=18789" title="轉型正義業務專區" id="">轉型正義業務專區</a></span></li><li data-index="6">		<span><a href="cp.aspx?n=18489" title="綜合規劃司專區" id="">綜合規劃司專區</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=7572" title="民政服務專區" id="">民政服務專區</a></span></li><li data-index="8">		<span><a href="https://www.ris.gov.tw/app/portal" title="[另開新視窗]戶政司" id="" target="_blank">戶政司</a></span></li><li data-index="9">		<span><a href="https://www.land.moi.gov.tw/" title="[另開新視窗]地政司" id="" target="_blank">地政司</a></span></li><li data-index="10">		<span><a href="cp.aspx?n=15798" title="宗教禮制殯葬專區" id="">宗教禮制殯葬專區</a></span></li><li data-index="11">		<span><a href="cl.aspx?n=13226" title="國土專區" id="">國土專區</a></span></li><li data-index="12">		<span><a href="group.htm?" title="合作及人民團體專區" id="">合作及人民團體專區</a></span></li><li data-index="13">		<span><a href="cp.aspx?n=7570" title="工程施工查核專區" id="">工程施工查核專區</a></span></li><li data-index="14">		<span><a href="cp.aspx?n=11985" title="人事主題專區" id="">人事主題專區</a></span></li><li data-index="15">		<span><a href="cp.aspx?n=7578" title="政風專區" id="">政風專區</a></span></li><li data-index="16">		<span><a href="cp.aspx?n=5590" title="統計主題專區" id="">統計主題專區</a></span></li><li data-index="17">		<span><a href="cl.aspx?n=138" title="法規及訴願" id="">法規及訴願</a></span></li><li data-index="18">		<span><a href="cl.aspx?n=15920" title="機關檔案管理專區" id="">機關檔案管理專區</a></span></li><li data-index="19">		<span><a href="https://tfoa.moi.gov.tw/foundation" title="[另開新視窗]內政財團法人登錄系統" id="" target="_blank">內政財團法人登錄系統</a></span></li><li data-index="20">		<span><a href="psu.htm?" title="採購稽核小組專區" id="">採購稽核小組專區</a></span></li><li data-index="21">		<span><a href="cl.aspx?n=22286" title="勞務承攬派駐勞工申訴機制專區" id="">勞務承攬派駐勞工申訴機制專區</a></span></li><li data-index="22">		<span><a href="cl.aspx?n=22355" title="丹娜絲颱風及728豪雨災後復原重建影像專區" id="">丹娜絲颱風及728豪雨災後復原重建影像專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5" data-width="2"> <div id="Group_39_gbGNnPTSXC" data-width="2" data-margin_right="0" data-sort="" data-bgcolor="#0000ffff" data-addparentgroup="False" data-groupsn="39" data-widthdesktop="0" data-anchor="" data-tabtype="3" class="group nav" data-index="5" data-margin_defaultsetting="false" data-type="3" data-bgclass="" data-widthmobile="0" data-groupname="" data-widthpad="0" data-margin_left="0" data-menuwidth="2" data-isgroup="true" data-margin_bottom="0" data-child="1" data-margin_top="0"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=165" title="互動交流" id="">互動交流</a></span></div></div></div><div class="ct"><div class="in"> <div id="Group_40_VsxRkgHusJ" data-sitesmodulesn="75" data-margin_right="" data-sort="2" data-bgcolor="" data-addparentgroup="" data-groupsn="40" data-widthdesktop="" data-anchor="" data-tabtype="0" class="list-text nav" data-index="1" data-margin_defaultsetting="false" data-type="0" data-bgclass="" data-widthmobile="" data-groupname="" data-widthpad="" data-margin_left="" data-menuwidth="" data-isgroup="true" data-setlen="0" data-margin_bottom="" data-child="1" data-margin_top=""><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="7"><li data-index="1">		<span><a href="RSS.aspx?n=12363" title="RSS" id="">RSS</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=8370&s=2125" title="1996" id="">1996</a></span></li><li data-index="3">		<span><a href="https://www.facebook.com/moi.gov.tw" title="[另開新視窗]Facebook" id="" target="_blank">Facebook</a></span></li><li data-index="4">		<span><a href="https://www.youtube.com/user/wwwmoigovtw?gl=TW&hl=zh-TW" title="[另開新視窗]YouTube" id="" target="_blank">YouTube</a></span></li><li data-index="5">		<span><a href="cl.aspx?n=8356" title="常見問答" id="">常見問答</a></span></li><li data-index="6">		<span><a href="https://terms.naer.edu.tw/" title="[另開新視窗]雙語詞彙" id="" target="_blank">雙語詞彙</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=10280" title="民意信箱" id="">民意信箱</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div class="group default search-tool" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;關閉&#39;,&#39;btnActiveText&#39;:&#39;開啟&#39;,&#39;addHd&#39;:true,&#39;clickToRemove&#39;:true,&#39;hoverExpand&#39;:true,&#39;escFunc&#39;:true,&#39;blankTitle&#39;:true}}" data-index="1" data-type="3"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a title="搜尋" id="">搜尋</a></span></div></div></div><div class="ct"><div class="in"> <div class="area-form search" data-func="{&#39;showDataList&#39;:{}}" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="search" id="">search</a></span></div></div></div><div class="ct"><div class="in"><div class="fieldset">
+  <span class="search"><input id="tbx_advancedSearchBtn" data-search="btn_advancedSearchBtn" type="search" placeholder="Search" title="搜尋" /></span>
+  <span class="submit"><a href="#" class='CCMS_SearchBtn' data-search="btn_advancedSearchBtn" title="搜尋">搜尋</a></span>
+</div>
+<div class="list">
+  <ul data-index="1" data-child="2">
+    <li data-index="1"><span><a href="#">人事</a></span></li>
+    <li data-index="2"><span><a href="#">自然人憑證應用</a></span></li>
+  </ul>
+</div>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==">
+$(function () {
+    $('#tbx_advancedSearchBtn').on("keydown", function (event) {
+        if (event.which == 13) {
+             doSearch($('#tbx_advancedSearchBtn'));
+            return false;
+        }
+    });
+});
+</script>
+</div></div><div class="ft"><div class="in"><ul data-index="1" data-child="1">
+  <li data-index="1" class="advanced"><span><a target="_blank" href="https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.moi.gov.tw" title="進階搜尋[另開新視窗]">進階搜尋</a></span></li>
+</ul>
+</div></div></div></div> <div class="list-text hot-key-word" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="熱門關鍵字" id="">熱門關鍵字</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li data-index="1">		<span><a href="Advanced_Search.aspx?q=人事" title="人事" id="" target="_self">人事</a></span></li><li data-index="2">		<span><a href="Advanced_Search.aspx?q=自然人憑證應用" title="自然人憑證應用" id="" target="_self">自然人憑證應用</a></span></li></ul>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div> <div class="group base-wrapper" data-index="3" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="group base-header" data-index="1" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group default site-tool" data-index="1" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div data-func="{&#39;extendNav&#39;:{&#39;hud&#39;:&#39;.base-extend .group-list.nav&#39;}}" class="extend-nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul><li data-index="1" class="moi-ext-promo"><span><a href="#" role="button" title="移動到 政策宣導">政策宣導</a></span></li><li data-index="2" class="moi-ext-news"><span><a href="#" role="button" title="移動到 訊息快遞">訊息快遞</a></span></li><li data-index="3" class="moi-ext-media"><span><a href="#" role="button" title="移動到 本部動態">本部動態</a></span></li><li data-index="4" class="moi-ext-evt"><span><a href="#" role="button" title="移動到 好康報報">好康報報</a></span></li><li data-index="5" class="moi-ext-serv"><span><a href="#" role="button" title="移動到 快捷服務">快捷服務</a></span></li><li data-index="6" class="moi-ext-stat"><span><a href="#" role="button" title="移動到 視覺化統計">視覺化統計</a></span></li><li data-index="7" class="moi-ext-links"><span><a href="#" role="button" title="移動到 相關連結">相關連結</a></span></li></ul></div></div></div></div> <div class="group default guide-nav" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;關閉&#39;,&#39;btnActiveText&#39;:&#39;開啟&#39;,&#39;addHd&#39;:true,&#39;clickToRemove&#39;:true,&#39;hoverExpand&#39;:true,&#39;escFunc&#39;:true,&#39;blankTitle&#39;:true}}" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a title="分眾導覽" id="">分眾導覽</a></span></div></div></div><div class="ct"><div class="in"> <div class="guide-nav-list" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul><li data-index="1" class="guide-ppl"><span><a href="cp.aspx?n=13197" title="一般民眾[連結]">一般民眾</a></span></li><li data-index="1" class="guide-gov"><span><a href="cp.aspx?n=13198" title="政府機關[連結]">政府機關</a></span></li><li data-index="1" class="guide-group"><span><a href="cp.aspx?n=13199" title="企業法人[連結]">企業法人</a></span></li><li data-index="1" class="guide-foreigner"><span><a href="/english/News.aspx?n=8348&sms=11280" title="Foreign Nationals[link][Open New Window]" target="_blank" rel="noopener noreferrer">Foreign Nationals</a></span></li></ul></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div> <div id="base-content" class="group base-content" role="main" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="group base-page-area" data-index="1" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div id="Group_5_VwrVjAtTkh" data-margin_right="" data-sort="" data-bgcolor="" data-addparentgroup="" data-groupsn="5" data-widthdesktop="" data-anchor="" data-tabtype="3" class="group base-aside" data-index="1" data-margin_defaultsetting="false" data-type="3" data-bgclass="" data-widthmobile="" data-groupname="" data-widthpad="" data-margin_left="" data-menuwidth="" data-isgroup="true" data-margin_bottom="" data-child="1" data-margin_top=""><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_L" id="Accesskey_L" accesskey="L" title="左方區塊。">:::</a></span></div></div></div></div> <div id="Group_15800_bqwiuSVdoh" data-index="1" data-sitesmodulesn="8" data-margin_right="0" data-sort="2" data-bgcolor="#0000ffff" data-addparentgroup="False" data-groupsn="15800" data-widthdesktop="0" data-anchor="" data-tabtype="0" class="group-list nav minor-nav is-pad-hide is-phone-hide" data-func="{&#39;majorNavStraight&#39;:{&#39;cookie&#39;:false}}" data-margin_defaultsetting="false" data-type="4" data-bgclass="" data-widthmobile="0" data-groupname="" data-widthpad="0" data-margin_left="0" data-menuwidth="" data-isgroup="true" data-setlen="0" data-margin_bottom="0" data-child="11" data-margin_top="0"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a title="地方公職人員資訊專區" id="">地方公職人員資訊專區</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="11"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=573&TYP=KND0001" title="直轄市議員" id="">直轄市議員</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=574&TYP=KND0002" title="縣市議員" id="">縣市議員</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=575&TYP=KND0003" title="鄉鎮市民代表" id="">鄉鎮市民代表</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=576&TYP=KND0008" title="直轄市原住民區代表" id="">直轄市原住民區代表</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=577&TYP=KND0007" title="村里長" id="">村里長</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="6"> <div class="group nav" data-index="6" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=578&TYP=KND0004" title="直轄市長" id="">直轄市長</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="7"> <div class="group nav" data-index="7" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=579&TYP=KND0005" title="縣市長" id="">縣市長</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="8"> <div class="group nav" data-index="8" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=580&TYP=KND0006" title="鄉鎮市長" id="">鄉鎮市長</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="9"> <div class="group nav" data-index="9" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=581&TYP=KND0009" title="直轄市原住民區長" id="">直轄市原住民區長</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="10"> <div class="group nav" data-index="10" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=582&TYP=KND0010" title="區長" id="">區長</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li><li data-index="11"> <div class="group nav" data-index="11" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="LocalOfficial.aspx?n=583&TYP=KND0011" title="村里幹事" id="">村里幹事</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div></div></div></div></div></li></ul></div></div></div></div></div></div></div></div> <div class="group base-section" data-index="2" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_C" id="Accesskey_C" accesskey="C" title="中央內容區塊，為本頁主要內容區。">:::</a></span></div></div></div></div> <div class="group page-header" data-index="1" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="list-text breadcrumb" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1">		<span><a href="Default.aspx" title="首頁" id="" target="_self">首頁</a></span></li><li data-index="2">		<span><a href="cl.aspx?n=36" title="主題服務" id="" target="_self">主題服務</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=7572" title="民政服務專區" id="" target="_self">民政服務專區</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=12" title="地方公職人員資訊專區" id="" target="_self">地方公職人員資訊專區</a></span></li><li data-index="5">		<span><a href="LocalOfficial.aspx?n=579&TYP=KND0005" title="縣市長" id="" target="_self">縣市長</a></span></li></ul>
+</div></div></div></div> <div class="group default info" data-index="2" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div class="simple-text heading" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><h2><span>縣市長</span></h2></div></div></div></div> <div class="group default msg-tool" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="list-text user-tool" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="網頁功能" id="">網頁功能</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="1"><li data-index="1" class="print">		<span><a href="#" data-call="CCMS_Print" data-call-arg="400" title="[開啟懸浮視窗]列印內容" id="" role="button">[開啟懸浮視窗]列印內容</a></span></li></ul>
+</div></div></div></div> <div class="list-text share" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;關閉&#39;,&#39;btnActiveText&#39;:&#39;開啟&#39;,&#39;addHd&#39;:true,&#39;clickToRemove&#39;:true,&#39;hoverExpand&#39;:true,&#39;escFunc&#39;:true}}" data-index="2" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a href="#" title="分享" id="">分享</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="5"><li data-index="1" class="facebook">		<span><a href="#" data-share="fb" title="Share to Facebook[另開新視窗]" id="">Facebook</a></span></li><li data-index="2" class="plurk">		<span><a href="#" data-share="plurk" title="Share toPlurk[另開新視窗]" id="">Plurk</a></span></li><li data-index="3" class="twitter">		<span><a href="#" data-share="twitter" title="Share to twitter[另開新視窗]" id="">Twitter</a></span></li><li data-index="4" class="line">		<span><a href="#" data-share="line" title="Share to line[另開新視窗]" id="">line</a></span></li><li data-index="5" class="email">		<span><a href="#" data-share="email" title="Share to email[另開新視窗]" id="">Email</a></span></li></ul>
+</div></div></div></div></div></div></div></div></div></div></div></div> <div class="area-editor system-info" data-index="3" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><p class="csp-s-592df2517a6909ee9325c999e5b09e521fbe2794"><span class="csp-s-f9f9665a234229cc2b2a81d615934258c7ac41e5">本網頁匯出之 Ods 檔案請使用 OpenOffice 或 LibreOffice 開啟，</span><a href="https://zh-tw.libreoffice.org/download/download-libreoffice/" title="下載 LibreOffice" target="_blank" rel="noopener noreferrer" class="csp-s-aed61325b4086ac51c18fe282999d3c937658339">開啟軟體下載連結請點我</a>。</p></div></div></div></div></div></div></div></div> <div class="group page-content " id="CCMS_Content" data-func="{&#39;linkType&#39;:{&#39;domains&#39;:[&#39;https://ws.moi.gov.tw&#39;,&#39;https://ws.moi.gov.tw&#39;]}, &#39;imgMapRwd&#39;:{}}" data-index="2" data-type="3" data-child="3"><div class="in"><div class="ct"><div class="in"> <div class="area-form page-search cand-search is-active" data-func="{&#39;reset&#39;:{},&#39;toggleBtn&#39;:{}}" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a href="#" title="資料查詢" id="">資料查詢</a></span></div></div></div><div class="ct"><div class="in"><div class="fieldset">
+    <label for="QCD_YEAR_ID">選舉年度：
+    </label>
+    <select id="QCD_YEAR_ID" name="QCD_YEAR_ID">
+        <option selected="selected" value>全部</option>
+        <option selected="selected" value="EY00005">111</option>
+        <option value="EY00004">107</option>
+        <option value="EY00003">103</option>
+        <option value="EY00002">099</option>
+        <option value="EY00001">098</option>
+    </select>
+</div>
+<div class="fieldset">
+    <label for="QCD_CTY_ID">縣市別：
+    </label>
+    <select id="QCD_CTY_ID" name="QCD_CTY_ID">
+        <option selected="selected" value>全部</option>
+        <option value="20CTY07">宜蘭縣</option>
+        <option value="20CTY08">桃園縣</option>
+        <option value="20CTY09">新竹縣</option>
+        <option value="20CTY10">苗栗縣</option>
+        <option value="20CTY11">彰化縣</option>
+        <option value="20CTY12">南投縣</option>
+        <option value="20CTY13">雲林縣</option>
+        <option value="20CTY14">嘉義縣</option>
+        <option value="20CTY15">屏東縣</option>
+        <option value="20CTY16">臺東縣</option>
+        <option value="20CTY17">花蓮縣</option>
+        <option value="20CTY18">澎湖縣</option>
+        <option value="20CTY19">基隆市</option>
+        <option value="20CTY20">新竹市</option>
+        <option value="20CTY21">嘉義市</option>
+        <option value="20CTY22">連江縣</option>
+        <option value="20CTY23">金門縣</option>
+    </select>
+</div>
+<div class="fieldset">
+    <label for="QCD_LST_NAM">姓：
+    </label>
+    <input id="QCD_LST_NAM" name="QCD_LST_NAM" placeholder="請輸入姓氏" type="text" value="" />
+</div>
+<div class="fieldset">
+    <label for="QCD_FIR_NAM">名：
+    </label>
+    <input id="QCD_FIR_NAM" name="QCD_FIR_NAM" placeholder="請輸入名字" type="text" value="" />
+</div>
+<div class="fieldset">
+    <label for="QCD_PTY_NAM">黨籍：
+    </label>
+    <input id="QCD_PTY_NAM" name="QCD_PTY_NAM" placeholder="請輸入黨籍" type="text" value="" />
+</div>
+<div class="fieldset">
+	  <span class="submit">
+        <label for="JLocalOfficial_btnSendQry" class="csp-s-00896ef1a1156b00a01de83459a360f5c3986637">送出查詢</label>
+        <input type="submit" id="JLocalOfficial_btnSendQry" name="JLocalOfficial_btnSendQry" value="送出查詢" />
+    </span>
+
+    <span class="reset">
+        <label for="JLocalOfficial_BtnReset" class="csp-s-00896ef1a1156b00a01de83459a360f5c3986637">清除</label>
+        <input id="JLocalOfficial_BtnReset" type="button" value="清除" />
+    </span>
+</div>
+</div></div></div></div> <div class="area-customize moi-servant" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><div class="list-func">
+    <ul>
+        <li>
+            <label for="JLocalOfficial_ExportOds" class="csp-s-4ab4b56a12390fd0407ef39f12930c170c3815c4">選擇ods檔案匯出</label>
+            <input type="submit" id="JLocalOfficial_ExportOds" name="JLocalOfficial_ExportOds" value="轉出Ods" input />
+        </li>
+    </ul>
+</div>
+<div class="serv-group">
+    <div class="result-list">
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3847b2ad-9cac-4446-a4e8-51e57e4b8884.jpg" alt="高　虹安" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>高虹安</span>                    </div>
+                    <div class="locate">
+                        <span>新竹市</span>                    </div>
+                    <div class="position">
+                        <span>新竹市政府</span><span>市長</span>                    </div>
+                    <div class="group">
+                        <span>台灣民眾黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112OE0001&_TYP=MYR&TYP=KND0005" title="高虹安詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/61e0332d-24dd-4a90-848d-6248d47efab6.jpg" alt="陳　福海" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>陳福海</span>                    </div>
+                    <div class="locate">
+                        <span>金門縣</span>                    </div>
+                    <div class="position">
+                        <span>金門縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>無</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112WE0001&_TYP=MYR&TYP=KND0005" title="陳福海詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/73307c2a-650a-424b-b374-e52cedf758d8.jpg" alt="王　忠銘" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>王忠銘</span>                    </div>
+                    <div class="locate">
+                        <span>連江縣</span>                    </div>
+                    <div class="position">
+                        <span>連江縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112ZE0001&_TYP=MYR&TYP=KND0005" title="王忠銘詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/36a63f55-811d-4027-a114-b0235d0cb2ee.jpg" alt="林　姿妙" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>林姿妙</span>                    </div>
+                    <div class="locate">
+                        <span>宜蘭縣</span>                    </div>
+                    <div class="position">
+                        <span>宜蘭縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112GE0001&_TYP=MYR&TYP=KND0005" title="林姿妙詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9511ebb1-6665-4493-a268-98d5983e43a1.jpg" alt="張　麗善" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>張麗善</span>                    </div>
+                    <div class="locate">
+                        <span>雲林縣</span>                    </div>
+                    <div class="position">
+                        <span>雲林縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112PE0001&_TYP=MYR&TYP=KND0005" title="張麗善詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e019e068-75f1-4075-9e06-df681db7be98.jpg" alt="楊　文科" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>楊文科</span>                    </div>
+                    <div class="locate">
+                        <span>新竹縣</span>                    </div>
+                    <div class="position">
+                        <span>新竹縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112JE0001&_TYP=MYR&TYP=KND0005" title="楊文科詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1c576a31-7ab3-494b-9074-f3caf3efad95.jpg" alt="王　惠美" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>王惠美</span>                    </div>
+                    <div class="locate">
+                        <span>彰化縣</span>                    </div>
+                    <div class="position">
+                        <span>彰化縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112NE0001&_TYP=MYR&TYP=KND0005" title="王惠美詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/11bf51ae-3e20-4df4-a262-2effdf4e499f.jpg" alt="鍾　東錦" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>鍾東錦</span>                    </div>
+                    <div class="locate">
+                        <span>苗栗縣</span>                    </div>
+                    <div class="position">
+                        <span>苗栗縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>無</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112KE0001&_TYP=MYR&TYP=KND0005" title="鍾東錦詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/72391def-1867-4c6d-bf98-fbfd96bb38a4.jpg" alt="謝　國樑" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>謝國樑</span>                    </div>
+                    <div class="locate">
+                        <span>基隆市</span>                    </div>
+                    <div class="position">
+                        <span>基隆市政府</span><span>市長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112CE0001&_TYP=MYR&TYP=KND0005" title="謝國樑詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8fd7edfd-2694-420c-b477-faccda70d6ba.jpg" alt="徐　榛蔚" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>徐榛蔚</span>                    </div>
+                    <div class="locate">
+                        <span>花蓮縣</span>                    </div>
+                    <div class="position">
+                        <span>花蓮縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112UE0001&_TYP=MYR&TYP=KND0005" title="徐榛蔚詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/200b1721-3e8c-4e3b-bcf3-d382484d2c53.jpg" alt="黃　敏惠" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>黃敏惠</span>                    </div>
+                    <div class="locate">
+                        <span>嘉義市</span>                    </div>
+                    <div class="position">
+                        <span>嘉義市政府</span><span>市長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112IE0001&_TYP=MYR&TYP=KND0005" title="黃敏惠詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b78f69f2-a79a-46fb-bc35-40088c93672c.jpg" alt="翁　章梁" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>翁章梁</span>                    </div>
+                    <div class="locate">
+                        <span>嘉義縣</span>                    </div>
+                    <div class="position">
+                        <span>嘉義縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>民主進步黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11112QE0001&_TYP=MYR&TYP=KND0005" title="翁章梁詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/11205fd3-b307-4fd6-8796-62dedef7dbf2.jpg" alt="周　春米" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>周春米</span>                    </div>
+                    <div class="locate">
+                        <span>屏東縣</span>                    </div>
+                    <div class="position">
+                        <span>屏東縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>民主進步黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11201TE0001&_TYP=MYR&TYP=KND0005" title="周春米詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/fbc8eba2-4195-4832-8cf7-05a45dc24d7d.jpg" alt="饒　慶鈴" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>饒慶鈴</span>                    </div>
+                    <div class="locate">
+                        <span>臺東縣</span>                    </div>
+                    <div class="position">
+                        <span>臺東縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11201VE0001&_TYP=MYR&TYP=KND0005" title="饒慶鈴詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/dabde06c-38cf-410f-af25-52820229a93e.jpg" alt="許　淑華" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>許淑華</span>                    </div>
+                    <div class="locate">
+                        <span>南投縣</span>                    </div>
+                    <div class="position">
+                        <span>南投縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>中國國民黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11201ME0001&_TYP=MYR&TYP=KND0005" title="許淑華詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="in">
+                <div class="img">
+                    <span>
+                        <img src="https://ws.moi.gov.tw/001/Upload/localofficial/urllink/835b1022-e38a-443e-a9bd-fbad19a97fe0.jpg" alt="陳　光復" />                    </span>
+                </div>
+                <div class="essay">
+                    <div class="caption">
+                        <span>陳光復</span>                    </div>
+                    <div class="locate">
+                        <span>澎湖縣</span>                    </div>
+                    <div class="position">
+                        <span>澎湖縣政府</span><span>縣長</span>                    </div>
+                    <div class="group">
+                        <span>民主進步黨</span>
+                    </div>
+                </div>
+                <!-- 更多按鈕這裡，title可能有個無障礙問題，解法是在title裡面補上人名，例如：柯文哲詳細資訓 這樣 -->
+                <div class="more-btn">
+                    <ul>
+                        <li><a href="/LocalOfficial_Content.aspx?n=579&_PARENT_ID=MYR11202XE0001&_TYP=MYR&TYP=KND0005" title="陳光復詳細資訊">詳細資訊</a></li>                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div></div></div></div></div></div></div></div> <div class="group page-footer" data-index="3" data-type="3" data-child="4"><div class="in"><div class="ct"><div class="in"> <div class="area-editor system-info" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"></div></div></div></div> <div class="list-text detail" data-index="2" data-type="0"><div class="in"><div class="ct"><div class="in"></div></div></div></div> <div class="list-text jump-tool" data-index="3" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="2"><li data-index="1" class="back">		<span><a href="#" data-action="history-back" title="回上一頁" id="">回上一頁</a></span></li><li data-index="2" class="to-top">		<span><a href="#Accesskey_U" title="回最上面" id="" target="_self">回最上面</a></span></li></ul>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div> <div class="group base-footer" data-func="{&#39;toggleBtn&#39;:{&#39;btnOrangeText&#39;:&#39;開啟&#39;,&#39;btnActiveText&#39;:&#39;關閉&#39;,&#39;focusActive&#39;:false,&#39;btnTextRemove&#39;:true,&#39;expanded&#39;: true}}" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a title="選單" id="">選單</a></span></div></div></div><div class="ct"><div class="in"> <div class="simple-text accesskey" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><span><a href="#Accesskey_Z" id="Accesskey_Z" accesskey="Z" title="下方選單連結區塊，為頁尾網站資訊">:::</a></span></div></div></div></div> <div class="group-list nav" data-func="{&#39;setNavLen&#39;:{}}" data-index="1" data-type="4" data-child="6"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="6"><li data-index="1"> <div class="group nav" data-index="1" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=24" title="本部簡介" id="">本部簡介</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li data-index="1">		<span><a href="cp.aspx?n=12260" title="職掌及組織" id="">職掌及組織</a></span></li><li data-index="2">		<span><a href="cl.aspx?n=26" title="部長專區" id="">部長專區</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=30" title="施政計畫" id="">施政計畫</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=15571" title="[另開新視窗]內政防疫成果" id="" target="_blank">內政防疫成果</a></span></li><li data-index="5">		<span><a href="ContactInfos.aspx?n=32&sms=11240" title="聯絡資訊" id="">聯絡資訊</a></span></li><li data-index="6">		<span><a href="cl.aspx?n=33" title="本部單位及所屬機關" id="">本部單位及所屬機關</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=7573" title="史料專區" id="">史料專區</a></span></li><li data-index="8">		<span><a href="https://www.ey.gov.tw/" title="[另開新視窗]上級機關-行政院" id="" target="_blank">上級機關-行政院</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="2"> <div class="group nav" data-index="2" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=20" title="主題政策" id="">主題政策</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li data-index="1">		<span><a href="cp.aspx?n=21" title="打詐防騙" id="">打詐防騙</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=22" title="安居家園" id="">安居家園</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=23" title="淨零碳排" id="">淨零碳排</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="3"> <div class="group nav" data-index="3" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=1" title="訊息快遞" id="">訊息快遞</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="8"><li data-index="1">		<span><a href="News_MonthCalendar.aspx?n=20030&sms=13541" title="部次長公開行程" id="">部次長公開行程</a></span></li><li data-index="2">		<span><a href="News.aspx?n=4&sms=9009" title="新聞發布" id="">新聞發布</a></span></li><li data-index="3">		<span><a href="News.aspx?n=8&sms=9224" title="即時新聞澄清" id="">即時新聞澄清</a></span></li><li data-index="4">		<span><a href="News.aspx?n=20035&sms=13542" title="部務會報決定(議)" id="">部務會報決定(議)</a></span></li><li data-index="5">		<span><a href="News.aspx?n=9&sms=9009" title="行政公告" id="">行政公告</a></span></li><li data-index="6">		<span><a href="News.aspx?n=10&sms=9009" title="活動訊息" id="">活動訊息</a></span></li><li data-index="7">		<span><a href="News.aspx?n=11&sms=9009" title="本部徵才" id="">本部徵才</a></span></li><li data-index="8">		<span><a href="cl.aspx?n=14" title="多媒體專區" id="">多媒體專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="4"> <div class="group nav" data-index="4" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=36" title="主題服務" id="">主題服務</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="22"><li data-index="1">		<span><a href="cl.aspx?n=51" title="政府資訊公開" id="">政府資訊公開</a></span></li><li data-index="2">		<span><a href="https://moica.nat.gov.tw/index.html" title="[另開新視窗]內政部憑證管理中心" id="" target="_blank">內政部憑證管理中心</a></span></li><li data-index="3">		<span><a href="cl.aspx?n=126" title="重要指標查詢" id="">重要指標查詢</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=37" title="申辦服務" id="">申辦服務</a></span></li><li data-index="5">		<span><a href="cp.aspx?n=18789" title="轉型正義業務專區" id="">轉型正義業務專區</a></span></li><li data-index="6">		<span><a href="cp.aspx?n=18489" title="綜合規劃司專區" id="">綜合規劃司專區</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=7572" title="民政服務專區" id="">民政服務專區</a></span></li><li data-index="8">		<span><a href="https://www.ris.gov.tw/app/portal" title="[另開新視窗]戶政司" id="" target="_blank">戶政司</a></span></li><li data-index="9">		<span><a href="https://www.land.moi.gov.tw/" title="[另開新視窗]地政司" id="" target="_blank">地政司</a></span></li><li data-index="10">		<span><a href="cp.aspx?n=15798" title="宗教禮制殯葬專區" id="">宗教禮制殯葬專區</a></span></li><li data-index="11">		<span><a href="cl.aspx?n=13226" title="國土專區" id="">國土專區</a></span></li><li data-index="12">		<span><a href="group.htm?" title="合作及人民團體專區" id="">合作及人民團體專區</a></span></li><li data-index="13">		<span><a href="cp.aspx?n=7570" title="工程施工查核專區" id="">工程施工查核專區</a></span></li><li data-index="14">		<span><a href="cp.aspx?n=11985" title="人事主題專區" id="">人事主題專區</a></span></li><li data-index="15">		<span><a href="cp.aspx?n=7578" title="政風專區" id="">政風專區</a></span></li><li data-index="16">		<span><a href="cp.aspx?n=5590" title="統計主題專區" id="">統計主題專區</a></span></li><li data-index="17">		<span><a href="cl.aspx?n=138" title="法規及訴願" id="">法規及訴願</a></span></li><li data-index="18">		<span><a href="cl.aspx?n=15920" title="機關檔案管理專區" id="">機關檔案管理專區</a></span></li><li data-index="19">		<span><a href="https://tfoa.moi.gov.tw/foundation" title="[另開新視窗]內政財團法人登錄系統" id="" target="_blank">內政財團法人登錄系統</a></span></li><li data-index="20">		<span><a href="psu.htm?" title="採購稽核小組專區" id="">採購稽核小組專區</a></span></li><li data-index="21">		<span><a href="cl.aspx?n=22286" title="勞務承攬派駐勞工申訴機制專區" id="">勞務承攬派駐勞工申訴機制專區</a></span></li><li data-index="22">		<span><a href="cl.aspx?n=22355" title="丹娜絲颱風及728豪雨災後復原重建影像專區" id="">丹娜絲颱風及728豪雨災後復原重建影像專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="5"> <div class="group nav" data-index="5" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=165" title="互動交流" id="">互動交流</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="7"><li data-index="1">		<span><a href="RSS.aspx?n=12363" title="RSS" id="">RSS</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=8370&s=2125" title="1996" id="">1996</a></span></li><li data-index="3">		<span><a href="https://www.facebook.com/moi.gov.tw" title="[另開新視窗]Facebook" id="" target="_blank">Facebook</a></span></li><li data-index="4">		<span><a href="https://www.youtube.com/user/wwwmoigovtw?gl=TW&hl=zh-TW" title="[另開新視窗]YouTube" id="" target="_blank">YouTube</a></span></li><li data-index="5">		<span><a href="cl.aspx?n=8356" title="常見問答" id="">常見問答</a></span></li><li data-index="6">		<span><a href="https://terms.naer.edu.tw/" title="[另開新視窗]雙語詞彙" id="" target="_blank">雙語詞彙</a></span></li><li data-index="7">		<span><a href="cp.aspx?n=10280" title="民意信箱" id="">民意信箱</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li><li data-index="6"> <div class="group nav" data-index="6" data-type="3" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0" class="headH3">		<span><a href="cl.aspx?n=176" title="網站資訊" id="">網站資訊</a></span></div></div></div><div class="ct"><div class="in"> <div class="list-text nav" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li data-index="1">		<span><a href="News.aspx?n=5459&sms=10321" title="主題政策" id="">主題政策</a></span></li><li data-index="2">		<span><a href="News_Link.aspx?n=5460&sms=10322" title="相關連結" id="">相關連結</a></span></li><li data-index="3">		<span><a href="News_Link.aspx?n=5506&sms=10323" title="快捷服務" id="">快捷服務</a></span></li><li data-index="4">		<span><a href="cl.aspx?n=12481" title="內政部聽證專區" id="">內政部聽證專區</a></span></li></ul>
+</div></div></div></div></div></div></div></div></li></ul></div></div></div></div> <div class="group default info" data-index="1" data-type="3" data-child="2"><div class="in"><div class="ct"><div class="in"> <div class="list-text link" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="下方連結" id="">下方連結</a></span></div></div></div><div class="ct"><div class="in"><ul data-index="1" data-child="4"><li data-index="1">		<span><a href="cp.aspx?n=10952" title="網站安全政策" id="" target="_self">網站安全政策</a></span></li><li data-index="2">		<span><a href="cp.aspx?n=10953" title="隱私權保護政策" id="" target="_self">隱私權保護政策</a></span></li><li data-index="3">		<span><a href="cp.aspx?n=10954" title="政府網站資料開放宣告" id="" target="_self">政府網站資料開放宣告</a></span></li><li data-index="4">		<span><a href="https://ws.moi.gov.tw/001/Upload/400/relfile/0/10955/61d93ae4-35fb-44e8-a1d9-31a677243330.pdf" title="[另開新視窗]保有及管理個人資料[另開新視窗]" id="" target="_blank">保有及管理個人資料</a></span></li></ul>
+</div></div></div></div> <div class="list-pic icon" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><ul data-index="1" data-child="3"><li data-index="1" class="E-Gov">		<span class="csp-s-df5ca6fd4c91d26a8d23166406935ffe74ee509c"><a href="//www.gov.tw/" title="[另開新視窗]我的E政府 [另開新視窗]" id="" target="_blank"><img src="/images/egov.png" alt="我的E政府 [另開新視窗]" /></a></span></li><li data-index="2" class="wcag">		<span class="csp-s-1015e8e3ef158bc952e1c01135de057ec708cd67"><a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20240502140845" title="[另開新視窗]通過AA等級無障礙網頁檢測" id="" target="_blank"><img src="/images/aplus.png" alt="通過AA等級無障礙網頁檢測" /></a></span></li><li data-index="3" class="qrcode">		<span class="csp-s-f3b4bff441be8c829913ee1b107d56a48688b1f9"><a title="手機掃描QR Code，可取得此頁連結。" id=""><img src="data:image/png;base64,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" alt="手機掃描QR Code，可取得此頁連結。" /></a></span></li></ul>
+</div></div></div></div> <div class="group default msg-tool" data-index="2" data-type="3" data-child="1"><div class="in"><div class="ct"><div class="in"> <div class="area-editor address" data-func="{&#39;linkToMap&#39;:{&#39;bindClass&#39;:&#39;.map&#39;,&#39;linkClass&#39;:&#39;is-map&#39;}}" data-index="1" data-type="0" data-child="1"><div class="in"><div class="ct"><div class="in"><div class="media-icons"><ul><li><a href="https://www.facebook.com/moi.gov.tw/?locale=zh_TW" target="_blank" title="facebook" rel="noopener noreferrer"><img alt="Facebook" height="50" src="https://ws.moi.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDAwL2NrZmlsZS9jZjliMGEzOC1kOTE3LTRlODItOTMzYy1kMjJmYTQyNDljMDgucG5n&n=aW1hZ2UucG5n" width="50" class="fr-fic fr-dii" /></a></li><li><a href="https://www.youtube.com/user/wwwmoigovtw?gl=TW&hl=zh-TW" target="_blank" title="Youtube頻道(另開新視窗)"><img alt="Youtube頻道" src="https://ws.moi.gov.tw/001/Upload/400/relpic/-1/400/dfd91cb5-4e91-4866-9d56-59995b845b53.png" class="fr-fic fr-dii" /></a></li></ul></div><ul><li>地址：100218臺北市中正區徐州路5號 (<a href="ContactInfos.aspx?n=34&BelongToMOI=True&_SN=2&_MTC_ID=2020MTC000002" target="_blank" title="內政部位置圖 開新視窗">位置圖</a>)</li><li>總機：1996 內政服務熱線；(02)7750-5096</li></ul></div></div></div></div> <div class="group default update-info" data-index="1" data-type="3"><div class="in"><div class="ct"><div class="in"> <div class="simple-text update-time" data-index="1" data-type="0" data-child="1"><div class="in"><div class="hd"><div class="in"><div data-index="0">		<span><a title="更新日期" id="">更新日期</a></span></div></div></div><div class="ct"><div class="in"><span>115-10-19</span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="142E1EE8" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div></form>
+    <script nonce="M3Za30dvB1zffSiV8EZw1g==" type="text/javascript" src="Scripts/jHandicapFree.js"></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==" src='https://www.moi.gov.tw/js/require.js'></script>
+<script nonce="M3Za30dvB1zffSiV8EZw1g==">
+        requirejs.config({  
+             baseUrl:'https://www.moi.gov.tw/js'
+        }); 
+        requirejs(['main'], function (func) {
+            func();
+        });
+</script>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=550217093" async nonce="M3Za30dvB1zffSiV8EZw1g=="></script></body>
+</html>

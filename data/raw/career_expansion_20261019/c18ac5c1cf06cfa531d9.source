@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7,9,10,11" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>連江縣議會-最新消息</title>
+    <link href="https://www.mtcc.gov.tw//frontcss/index.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.mtcc.gov.tw//frontcss/page.css" rel="stylesheet" type="text/css" />
+    <script>
+        var ttop = top.location.href;
+        if (ttop.substr(0, 7) == "http://")
+        {
+            if (ttop.toLowerCase().indexOf('www') >= 0)
+            {
+               top.location.href = ttop.replace("http://", "https://");
+            }
+            else
+            {
+                top.location.href = ttop.replace("http://", "https://www.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="headerbox">
+            <!--logo------------>
+            <a href="https://www.mtcc.gov.tw//ch/index" class="logo">連江縣議會</a>
+            <!--toolbar--------->
+            <div class="toolbar">
+                <div class="toolbarmenu">
+                    <a title="上層選單區"
+                       id="accesskeyU"
+                       accesskey="U"
+                       style="color: black; text-decoration: none"
+                       href="https://www.matsu.gov.tw/#accesskeyU">
+                        :::
+                    </a>
+                    <a href="https://www.mtcc.gov.tw//ch/index" class="iconimg">回首頁</a>
+                    |
+                    <a href="https://www.mtcc.gov.tw//ch/sitemap/7194" class="iconimg">網站導覽</a>
+                    |
+                    <a href="https://www.mtcc.gov.tw//en/content/7202">Engilsh</a>
+                </div>
+                <div class="topsearchbar">
+                    <form action='https://www.mtcc.gov.tw//ch/search/7195' id='SEARCH' method='post' onsubmit="return keysearch();">
+                        <input name="__RequestVerificationToken" type="hidden" value="AuZSywqezEw9uYxnJykw1A_tAc60b7tFcvdyoayGF7l7yVB1iGgWmmsj_sPsLhQneJZDOVtMgxFlb4GbWunB0X64fa9y51KXHx4y__DAOpo5xyrqnLGVa7-v1aMLiw5c3ifRhqVoWzV1WxIoI0NxA_6tp-Vq-0i5IOIYhmbWD-U1" />
+                        <label for="querykey" style="display:none">全文檢索</label>
+                        <input name="querykey" class="data_field" id="querykey" accesskey="S" type="text" placeholder="全文檢索" title="全文檢索" value="" /><label for="sKwss" style="display:none;">送出關鍵字查詢</label><input type="submit" id="sKwss" name="sKwss" class="searchbtn" value="&nbsp;" title="送出關鍵字查詢" />
+                    </form>
+                    
+                </div>
+            </div>
+            <script>
+                function keysearch() {
+                    var errmsg = "";
+                    if ($("#querykey").val() == "") { errmsg = "請輸入關鍵字進行查詢!" }
+
+                    if (errmsg != "") {
+                        alert(errmsg);
+                        return false;
+                    }
+                }
+            </script>
+            <!--MOB-MENU---位置放<div class="headerbox">內--->
+            <!--手機選單-漢堡圖-->
+            <div class="mu2 nav-button"><a title="Menu" class="animate" href="#">MENU</a></div>
+            <!--手機選單-END-->
+            <!-- Nav手機選單 -->
+            <link href="https://www.mtcc.gov.tw//mobmu/common.css" rel="stylesheet" />
+            <!--[if gte IE 9]><!-->
+            <script src="https://www.mtcc.gov.tw//mobmu/jquery-2.1.3.min.js"></script>
+            <!--<![endif]-->
+            <script src="https://www.mtcc.gov.tw//mobmu/jquery.mobile-1.4.5.custom.min.js"></script>
+            <script src="https://www.mtcc.gov.tw//mobmu/jquery.bxslider-4.1.1.min.js"></script>
+            <script src="https://www.mtcc.gov.tw//mobmu/common.js"></script>
+
+            <div class="nav-panel" id="nav">
+                <h1 class="hidden-element">主選單</h1>
+
+                <div class="othermu">
+                    <a href="https://www.mtcc.gov.tw//ch/index" title="回首頁">回首頁</a>
+                    <a href="https://www.mtcc.gov.tw//ch/sitemap/7194" title="網站導覽">網站導覽</a>
+                    <a href="https://www.mtcc.gov.tw//en/content/7202" target="blank" title="開新視窗,English" class="EN">English</a>
+                </div>
+                <form action='https://www.mtcc.gov.tw//ch/search/7195' id='SEARCH' method='post' onsubmit="return keysearch1();">
+                    <input name="__RequestVerificationToken" type="hidden" value="tyf5Jql3I8sEHUg-MDxxPj-xiLIdHXUeXzzfzpKS99sG0fl3IZIEtXcPfGBa4xUA2Q31NPc5kjNmk9O_PsPhQWfcijNSKTNGrf2QQQdHCYClqmXGrr2F1jyZuF6pA3gJGHvWxu89qH5FQe6H2rlcSpdxaH7Tyu5aTIS1-DiL_f41" />
+                    <div class="topsearchbar">
+                        <label for="querykey1" style="display:none">全文檢索</label>
+                        <INPUT class="data_field" type="text" placeholder="請輸入關鍵字" accesskey="S" title="請輸入關鍵字" id="querykey1" name="querykey1" value=""><INPUT class="searchbtn" type="submit" value="&nbsp;">
+                        
+                    </div>
+                </form>
+                <script>
+                    function keysearch1() {
+                        var errmsg = "";
+                        if ($("#querykey1").val() == "") { errmsg = "請輸入關鍵字進行查詢!" }
+
+                        if (errmsg != "") {
+                            alert(errmsg);
+                            return false;
+                        }
+                    }
+                </script>
+                <noscript>
+                    您的瀏覽器似乎不支援JavaScript語法，此為關鍵字查詢判斷，這裡的JavaScript語法並不會影響到內容的陳述!
+                </noscript>
+                <ul class='reset'><li><h2><a title='常用功能' href='#'>常用功能</a></h2><div class='nav-second'><ul class='reset'><LI><A title='連至轉播網址回顧' href='https://www.mtcc.gov.tw//ch/content/7243' ><SPAN class='menu_text'>轉播網址回顧</SPAN></A></LI><LI><A title='連至遊說案件公告' href='https://www.mtcc.gov.tw//ch/news/7221' ><SPAN class='menu_text'>遊說案件公告</SPAN></A></LI><LI><A title='連至會議紀錄' href='https://www.mtcc.gov.tw//ch/news/7222' ><SPAN class='menu_text'>會議紀錄</SPAN></A></LI><LI><A title='連至會計月報' href='https://www.mtcc.gov.tw//ch/news/7223' ><SPAN class='menu_text'>會計月報</SPAN></A></LI><LI><A title='連至預算資料' href='https://www.mtcc.gov.tw//ch/news/7224' ><SPAN class='menu_text'>預算資料</SPAN></A></LI><LI><A title='連至決算資料' href='https://www.mtcc.gov.tw//ch/news/7225' ><SPAN class='menu_text'>決算資料</SPAN></A></LI><LI><A title='連至歷次議事日程' href='https://www.mtcc.gov.tw//ch/news/7226' ><SPAN class='menu_text'>歷次議事日程</SPAN></A></LI></ul></div></li><li><h2><a title='開新視窗,下載議事日程' href='https://www.mtcc.gov.tw//Other/f-20261006152356.pdf'  target='_blank'>議事日程</a></h2></li><li><h2><a title='連至最新消息' href='https://www.mtcc.gov.tw//ch/news/7168' >最新消息</a></h2></li><li><h2><a title='連至活動剪影' href='https://www.mtcc.gov.tw//ch/news/7169' >活動剪影</a></h2></li><li><h2><a title='連至議會簡介' href='https://www.mtcc.gov.tw//ch/content/7172' >議會簡介</a></h2><div class='nav-second'><ul class='reset'><li><a title='連至議會沿革' href='https://www.mtcc.gov.tw//ch/content/7181' >議會沿革</a></li><li><a title='連至議會職權' href='https://www.mtcc.gov.tw//ch/content/7182' >議會職權</a></li><li><a title='連至議會組織' href='https://www.mtcc.gov.tw//ch/content/7183' >議會組織</a></li><li><a title='連至行政部門' href='https://www.mtcc.gov.tw//ch/content/7184' >行政部門</a></li><li><a title='連至議長' href='https://www.mtcc.gov.tw//ch/content/7185' >議長</a></li><li><a title='連至副議長' href='https://www.mtcc.gov.tw//ch/content/7186' >副議長</a></li><li><a title='連至秘書長' href='https://www.mtcc.gov.tw//ch/content/7187' >秘書長</a></li><li><a title='連至交通位置' href='https://www.mtcc.gov.tw//ch/content/7188' >交通位置</a></li></ul></div></li><li><h2><a title='連至本屆概況	' href='https://www.mtcc.gov.tw//ch/content/7173' >本屆概況	</a></h2><div class='nav-second'><ul class='reset'><li><a title='連至選區劃分圖' href='https://www.mtcc.gov.tw//ch/content/7189' >選區劃分圖</a></li><li><a title='連至議員介紹' href='https://www.mtcc.gov.tw//ch/counciler_introlist/7190' >議員介紹</a></li><li><a title='連至議員通訊錄' href='https://www.mtcc.gov.tw//ch/counciler_contact/7191' >議員通訊錄</a></li></ul></div></li><li><h2><a title='連至會史館' href='#' >會史館</a></h2><div class='nav-second'><ul class='reset'><li><a title='連至議會簡介' href='https://www.mtcc.gov.tw//ch/content/7228' >議會簡介</a></li><li><a title='連至歷屆縣議會' href='https://www.mtcc.gov.tw//ch/content/7229' >歷屆縣議會</a></li><li><a title='連至諮詢代表' href='https://www.mtcc.gov.tw//ch/content/7230' >諮詢代表</a></li><li><a title='連至臨時縣議會' href='https://www.mtcc.gov.tw//ch/content/7231' >臨時縣議會</a></li><li><a title='連至邁向民主' href='https://www.mtcc.gov.tw//ch/content/7232' >邁向民主</a></li><li><a title='連至議員之最' href='https://www.mtcc.gov.tw//ch/content/7233' >議員之最</a></li><li><a title='連至首長之初' href='https://www.mtcc.gov.tw//ch/content/7234' >首長之初</a></li></ul></div></li><li><h2><a title='連至便民資訊' href='https://www.mtcc.gov.tw//ch/content/7175' >便民資訊</a></h2></li><li><h2><a title='連至質詢影音' href='https://www.mtcc.gov.tw//ch/counciler_index/7176' >質詢影音</a></h2></li><li><h2><a title='連至議事錄' href='https://www.mtcc.gov.tw//ch/news/7177' >議事錄</a></h2></li><li><h2><a title='連至提案資料' href='https://www.mtcc.gov.tw//ch/news/7178' >提案資料</a></h2></li><li><h2><a title='連至議事法規' href='https://www.mtcc.gov.tw//ch/content/7179' >議事法規</a></h2></li><li><h2><a title='連至相關網站' href='#' >相關網站</a></h2><div class='nav-second'><ul class='reset'><li><a title='連至連江縣政府機關' href='https://www.mtcc.gov.tw//ch/link/7192' >連江縣政府機關</a></li><li><a title='連至縣市議會網站' href='https://www.mtcc.gov.tw//ch/link/7193' >縣市議會網站</a></li><li><a title='連至馬祖旅遊生態' href='https://www.mtcc.gov.tw//ch/link/7207' >馬祖旅遊生態</a></li><li><a title='連至其他相關' href='https://www.mtcc.gov.tw//ch/link/7208' >其他相關</a></li></ul></div></li></ul>
+            </div>
+            <!--MOB-MENU--END--->
+        </div>
+        <div class="adv">
+            <div class="ADVbox"><img src="https://www.mtcc.gov.tw//upload/77150.png" alt="banner" /></div>
+        </div>
+    </div>
+    <!--header-end-->
+    <!--MENU start-->
+    <link href="https://www.mtcc.gov.tw//menu_top/menu_top.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.mtcc.gov.tw//menu_top/jquery-2.0.3.min.js"></script>
+    <script src="https://www.mtcc.gov.tw//menu_top/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://www.mtcc.gov.tw//menu_top/menu_top.js" type="text/javascript"></script>
+
+    <div class="MENU" id="menutop">
+        <div class="COM">
+            <ul id='t_menu'><li><h2><a title='開新視窗,下載議事日程' href='https://www.mtcc.gov.tw//Other/f-20261006152356.pdf'  target='_blank'>議事日程</a></h2></li><li><h2><a title='連至最新消息' href='https://www.mtcc.gov.tw//ch/news/7168' >最新消息</a></h2></li><li><h2><a title='連至活動剪影' href='https://www.mtcc.gov.tw//ch/news/7169' >活動剪影</a></h2></li><li><h2><a title='連至議會簡介' href='https://www.mtcc.gov.tw//ch/content/7172' >議會簡介</a></h2><ul class='SHUT'><li><h3><a title='連至議會沿革' href='https://www.mtcc.gov.tw//ch/content/7181' >議會沿革</a></h3></li><li><h3><a title='連至議會職權' href='https://www.mtcc.gov.tw//ch/content/7182' >議會職權</a></h3></li><li><h3><a title='連至議會組織' href='https://www.mtcc.gov.tw//ch/content/7183' >議會組織</a></h3></li><li><h3><a title='連至行政部門' href='https://www.mtcc.gov.tw//ch/content/7184' >行政部門</a></h3></li><li><h3><a title='連至議長' href='https://www.mtcc.gov.tw//ch/content/7185' >議長</a></h3></li><li><h3><a title='連至副議長' href='https://www.mtcc.gov.tw//ch/content/7186' >副議長</a></h3></li><li><h3><a title='連至秘書長' href='https://www.mtcc.gov.tw//ch/content/7187' >秘書長</a></h3></li><li><h3><a title='連至交通位置' href='https://www.mtcc.gov.tw//ch/content/7188' >交通位置</a></h3></li></ul></li><li><h2><a title='連至本屆概況	' href='https://www.mtcc.gov.tw//ch/content/7173' >本屆概況	</a></h2><ul class='SHUT'><li><h3><a title='連至選區劃分圖' href='https://www.mtcc.gov.tw//ch/content/7189' >選區劃分圖</a></h3></li><li><h3><a title='連至議員介紹' href='https://www.mtcc.gov.tw//ch/counciler_introlist/7190' >議員介紹</a></h3></li><li><h3><a title='連至議員通訊錄' href='https://www.mtcc.gov.tw//ch/counciler_contact/7191' >議員通訊錄</a></h3></li></ul></li><li><h2><a title='連至會史館' href='#' >會史館</a></h2><ul class='SHUT'><li><h3><a title='連至議會簡介' href='https://www.mtcc.gov.tw//ch/content/7228' >議會簡介</a></h3></li><li><h3><a title='連至歷屆縣議會' href='https://www.mtcc.gov.tw//ch/content/7229' >歷屆縣議會</a></h3></li><li><h3><a title='連至諮詢代表' href='https://www.mtcc.gov.tw//ch/content/7230' >諮詢代表</a></h3></li><li><h3><a title='連至臨時縣議會' href='https://www.mtcc.gov.tw//ch/content/7231' >臨時縣議會</a></h3></li><li><h3><a title='連至邁向民主' href='https://www.mtcc.gov.tw//ch/content/7232' >邁向民主</a></h3></li><li><h3><a title='連至議員之最' href='https://www.mtcc.gov.tw//ch/content/7233' >議員之最</a></h3></li><li><h3><a title='連至首長之初' href='https://www.mtcc.gov.tw//ch/content/7234' >首長之初</a></h3></li></ul></li><li><h2><a title='連至便民資訊' href='https://www.mtcc.gov.tw//ch/content/7175' >便民資訊</a></h2></li><li><h2><a title='連至質詢影音' href='https://www.mtcc.gov.tw//ch/counciler_index/7176' >質詢影音</a></h2></li><li><h2><a title='連至議事錄' href='https://www.mtcc.gov.tw//ch/news/7177' >議事錄</a></h2></li><li><h2><a title='連至提案資料' href='https://www.mtcc.gov.tw//ch/news/7178' >提案資料</a></h2></li><li><h2><a title='連至議事法規' href='https://www.mtcc.gov.tw//ch/content/7179' >議事法規</a></h2></li><li><h2><a title='連至相關網站' href='#' >相關網站</a></h2><ul class='SHUT'><li><h3><a title='連至連江縣政府機關' href='https://www.mtcc.gov.tw//ch/link/7192' >連江縣政府機關</a></h3></li><li><h3><a title='連至縣市議會網站' href='https://www.mtcc.gov.tw//ch/link/7193' >縣市議會網站</a></h3></li><li><h3><a title='連至馬祖旅遊生態' href='https://www.mtcc.gov.tw//ch/link/7207' >馬祖旅遊生態</a></h3></li><li><h3><a title='連至其他相關' href='https://www.mtcc.gov.tw//ch/link/7208' >其他相關</a></h3></li></ul></li></ul>
+        </div>
+    </div>
+    <!--MENU end-->
+    <div class="container pagebox">
+        <div class="containerbox">
+            
+
+<div class="leftbox">
+    <div class="page-section leftbtn-box">
+        <a href="https://www.youtube.com/channel/UCLFeXjIoUzY-FiVlWvL6b8Q" target="_blank">
+            <img src="https://www.mtcc.gov.tw//frontimages/lefticon01.svg" alt="議事影音(直播)" />
+            <span>議事影音(直播)</span>
+        </a>
+        <a href="https://www.matsu.gov.tw/council/ch/content/7171" target="_blank">
+            <img src="https://www.mtcc.gov.tw//frontimages/lefticon02.svg" alt="議事日程表" />
+            <span>議事日程表</span>
+        </a>
+    </div>
+    <div class="page-section leftmenu-box">
+        <div class="titlebox">
+            <font>常用功能</font>
+            <button class="advanced-search">
+                <img src="https://www.mtcc.gov.tw//frontimages/icon-01.svg" alt="" />
+            </button>
+        </div>
+        <ul class='formlist'><LI><A title='連至轉播網址回顧' href='https://www.mtcc.gov.tw//ch/content/7243' ><SPAN class='menu_text'>轉播網址回顧</SPAN></A></LI><LI><A title='連至遊說案件公告' href='https://www.mtcc.gov.tw//ch/news/7221' ><SPAN class='menu_text'>遊說案件公告</SPAN></A></LI><LI><A title='連至會議紀錄' href='https://www.mtcc.gov.tw//ch/news/7222' ><SPAN class='menu_text'>會議紀錄</SPAN></A></LI><LI><A title='連至會計月報' href='https://www.mtcc.gov.tw//ch/news/7223' ><SPAN class='menu_text'>會計月報</SPAN></A></LI><LI><A title='連至預算資料' href='https://www.mtcc.gov.tw//ch/news/7224' ><SPAN class='menu_text'>預算資料</SPAN></A></LI><LI><A title='連至決算資料' href='https://www.mtcc.gov.tw//ch/news/7225' ><SPAN class='menu_text'>決算資料</SPAN></A></LI><LI><A title='連至歷次議事日程' href='https://www.mtcc.gov.tw//ch/news/7226' ><SPAN class='menu_text'>歷次議事日程</SPAN></A></LI></UL>
+        
+    </div>
+
+    <script>
+        (function waitForjQuery() {
+            if (!window.jQuery) {
+                return setTimeout(waitForjQuery, 50);
+            }
+            (function ($) {
+                var NS = ".advSearch";
+
+                function toggleBox($box) {
+                    $box.toggleClass("active");
+                    $box.find(".formlist").toggleClass("active");
+                    var expanded = $box.hasClass("active");
+                    $box.find(".advanced-search").attr("aria-expanded", expanded);
+                }
+
+                // ensure ARIA and ids
+                $(".leftmenu-box").each(function (i) {
+                    var $b = $(this);
+                    var $list = $b.find(".formlist");
+                    if (!$list.attr("id")) $list.attr("id", "formlist-" + i);
+                    $b.find(".advanced-search").attr({
+                        "aria-controls": $list.attr("id"),
+                        "aria-expanded": false,
+                        type: "button",
+                    });
+                });
+
+                // (re)bind handlers namespaced so we can safely init multiple times
+                $(".advanced-search")
+                    .off("click" + NS)
+                    .on("click" + NS, function (e) {
+                        e.preventDefault();
+                        toggleBox($(this).closest(".leftmenu-box"));
+                    });
+
+                // also allow clicking the titlebox (except clicks on the button itself)
+                $(".leftmenu-box .titlebox")
+                    .off("click" + NS)
+                    .on("click" + NS, function (e) {
+                        if ($(e.target).closest(".advanced-search").length) return;
+                        toggleBox($(this).closest(".leftmenu-box"));
+                    });
+            })(jQuery);
+        })();
+    </script>
+</div>
+
+
+
+<div class="mainbox">
+    <div class="page-section">
+        <!-- 麵包屑 -->
+        <div class="topbox">
+            <!--topfrom麵包屑-->
+            <div id='topfrom'><a href='#C' name='C' id='mainlist' title='中央內容區' accesskey='C' style='color: black; font-size: 7pt; text-decoration: none;'>:::</a>　<a href='https://www.mtcc.gov.tw//ch/index' title='首頁'>首頁</a> > <a href='https://www.mtcc.gov.tw//ch/news/7168' title='連至最新消息'>最新消息</a></div>
+        </div>
+        <!-- 麵包屑 -->
+        <!-- 標題 -->
+        <div class="titlebox">
+            <span>最新消息</span>
+        </div>
+        <!-- 標題 -->
+        <!-- 內容區 -->
+        <div class="content">
+            <p>
+	<br />
+</p>
+<p>
+	--2026-09-05&nbsp; 馬祖日報
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<img src="https://www.matsu-news.gov.tw/uploads/news/20260905000751_11.jpg" alt="https://www.matsu-news.gov.tw/uploads/news/20260905000751_11.jpg" />
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<br />
+</p>
+<p>
+	&emsp;【記者馮紹夫報導】連江縣議員選舉候選人登記昨（3）日截止，4鄉議員選舉均有競爭者投入，確定沒有同額競選情形。現任議員除議長張永江不參選外，其餘現任議員均登記競選連任，地方選情正式升溫。
+</p>
+<p>
+	&emsp;南竿鄉議員選舉競爭最為熱絡，現任5席議員曹丞君、曹以標、陳書建、曹爾章及林明揚全數登記參選連任，另有前議員林惠萍再次投入選戰，加上更生黨參選人吳軾子參選，共7人角逐南竿鄉議員席次。
+</p>
+<p>
+	&emsp;北竿鄉部分，現任議員周瑞國、陳玉發登記競選連任，北竿青年謝秉軒則於昨日下午截止前完成登記，成為第三位投入選戰的候選人。出生於87年次的謝秉軒，也成為本次連江縣議員選舉中最年輕的候選人，能否以青年身分及新面孔突破現有政治版圖，受到地方關注。
+</p>
+<p>
+	&emsp;莒光鄉議員選舉則由現任議員陳貽斌尋求連任，前議員王孝榛也再次登記參選，兩人將爭取選民支持。
+</p>
+<p>
+	&emsp;東引鄉選情則出現不同於其他選區的變化，現任議長張永江已表態不參選本屆議員，東引鄉長林德建及東引船舶股份有限公司負責人馮印才完成登記，兩人將競逐東引鄉議員席次。
+</p>
+<p>
+	&emsp;隨著候選人登記作業完成，各選區人選底定，接下來將進入競選活動階段。
+</p>
+<p>
+	<br />
+</p>
+
+            <div class="upday"> <div class='upday'>更新日期：2026/9/5 下午 12:10:19</div></div>
+            <div class="bottomline">&nbsp;</div>
+
+
+            
+        </div>
+        <div class="pagenumber2">
+            <a href="#" class="btn" onclick="window.history.go(-1);return false;" onkeypress="window.history.go(-1);return false;" title="回前頁">回前頁</a>
+            <noscript>當script無法執行時可按"alt + &larr;(Backspace)"鍵替代</noscript>
+            <a href="https://www.mtcc.gov.tw//ch/index" class="btn" title="回首頁">回首頁</a>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <!--footer--------------------------------------------------------------->
+    
+<!--footer-->
+<div class="footer">
+    <div class="footerbox">
+        <span>
+            <div class="logo">
+                <img src="https://www.mtcc.gov.tw//frontimages/logo.png" alt="連江縣議會logo" />
+            </div>
+        </span>
+        <span class="Copyrightinfo">
+            <span>地址:20941 連江縣南竿鄉復興村146號</span>
+            |
+            <span><a href="tel:0836-22755" title="電話 0836-22755" style="color:#ffffff">電話: 0836-22755</a></span>
+            |
+            <span>傳真: 0836-22834</span>
+            <p>
+                Address：No. 146, Fuxing Village, Nangan Township,Matsu Taiwan County 20941, R.O.C.
+                
+                <br /><span>Telephone: 0836-22755</span>
+                |
+                <span>Fax: 0836-22834</span>
+            </p>
+            <p>連江縣議會版權所有 Copyright ©2026 Lienchiang County Council. All rights reserved</p>
+            
+        </span>
+    </div>
+</div>
+<div id="top">
+    <img title="top" alt="top" src="https://www.mtcc.gov.tw//frontimages/gotop.svg" title="回到上面" />
+</div>
+<script src="https://www.mtcc.gov.tw//frontjs/gotop.js" type="text/javascript"></script>
+<!--footer-end----------------------------------------------------------->
+    <!--footer-end----------------------------------------------------------->
+</body>
+</html>
+
+
+

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="謝秉舟市議員參選人介紹、專業經歷與政策主張。">
+  <title>謝秉舟市議員參選人｜官方網站</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pages.css">
+  <link rel="stylesheet" href="detail-pages.css">
+  <script src="analytics.js"></script>
+</head>
+<body class="brand-page council-page">
+  <header>
+    <a class="brand" href="/"><span>謝</span>秉舟</a>
+    <nav aria-label="頁面導覽">
+      <a href="#about">關於秉舟</a><a href="#experience">專業經驗</a><a href="#policy">政策主張</a><a href="#service-offices">服務處</a><a href="#volunteer-form-title">加入團隊</a>
+    </nav>
+    <a class="head-cta" href="/">三個網站入口　↗</a>
+    <button class="menu" type="button" aria-label="開啟導覽選單" aria-expanded="false">☰</button>
+  </header>
+  <main>
+    <section class="brand-hero">
+      <div class="hero-gallery" aria-label="謝秉舟形象照">
+        <figure class="hero-portrait hero-suit-slideshow" aria-label="謝秉舟深色西裝動態形象照">
+          <img class="hero-suit-slide is-active" src="images/hsieh-ping-chou-suit-01.jpg" alt="謝秉舟深色西裝形象照" width="1200" height="1800" fetchpriority="high">
+          <img class="hero-suit-slide" src="images/hsieh-ping-chou-suit-02.jpg" alt="謝秉舟深色西裝形象照，整理領帶" width="1200" height="1800">
+          <img class="hero-suit-slide" src="images/hsieh-ping-chou-suit-03.jpg" alt="謝秉舟深色西裝正面形象照" width="1200" height="1800">
+        </figure>
+        <div class="hero-gallery-thumbs">
+          <img src="images/hsieh-ping-chou-white-01.jpg" alt="謝秉舟白袍形象照，雙手交叉" width="1200" height="1800">
+          <img src="images/hsieh-ping-chou-white-02.jpg" alt="謝秉舟白袍形象照，雙手插袋" width="1200" height="1800">
+        </div>
+      </div>
+      <p class="eyebrow">COUNCILOR · WITH THE PEOPLE</p>
+      <h1>讓城市更有溫度，<br><em>讓承諾接受檢驗。</em></h1>
+      <p>我是謝秉舟。從牙醫專業與社區醫療實務出發，<br>關心長照、全民健康、孩童教育與在地經濟。</p>
+      <a class="button yellow" href="#about">認識謝秉舟　↓</a>
+    </section>
+    <section class="brand-section council-about" id="about">
+      <p class="eyebrow dark">ABOUT HSIEH PING-CHOU</p>
+      <h2>以專業守護健康，<br>以行動回應地方。</h2>
+      <p>謝秉舟，牙醫出身，長期關注社區口腔健康與高齡照護。希望把醫療現場累積的實務經驗帶進公共服務，從市民每天真正面對的問題出發，提出誠懇、務實、可被檢驗的承諾。</p>
+    </section>
+    <section class="council-experience" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">PROFESSIONAL &amp; COMMUNITY</p>
+        <h2>專業，是為了<br><em>更貼近人的需要。</em></h2>
+      </div>
+      <div class="experience-groups">
+        <article><span>01</span><h3>醫療專業</h3><ul><li>牙醫專業背景</li><li>全口重建與口腔重建專長</li><li>醫療管理與公共衛生經驗</li></ul></article>
+        <article><span>02</span><h3>社區行動</h3><ul><li>投入社區健康巡迴服務</li><li>關注長期照護政策</li><li>推動校園講座與健康教育</li></ul></article>
+      </div>
+    </section>
+    <section class="council-policy" id="policy">
+      <div class="policy-heading">
+        <div><p class="eyebrow dark">POLICY PLATFORM</p><h2>三項政策主張</h2></div>
+        <p>從健康、照護到下一代，建立能真正支持每個家庭的城市。</p>
+      </div>
+      <div class="policy-grid">
+        <article><span>01</span><h3>全民健康與社區醫療</h3><p>強化社區醫療資源，推動長照與預防醫學，降低醫療負擔，並規劃行動牙醫及巡迴醫療服務。</p></article>
+        <article><span>02</span><h3>長照與高齡友善城市</h3><p>完善長照服務網絡、提升居家服務品質，持續改善無障礙環境，支持長者參與社會。</p></article>
+        <article><span>03</span><h3>教育與青年扶持</h3><p>擴大校園健康教育與職涯輔導，支持青年創業與就業機會，建立更完整的地方實習平台。</p></article>
+      </div>
+    </section>
+    <section class="service-offices" id="service-offices" aria-labelledby="service-offices-title">
+      <div class="service-offices-heading"><p class="eyebrow dark">LOCAL SERVICE OFFICES</p><h2 id="service-offices-title">謝秉舟市議員參選人<br>地方服務處</h2><p>歡迎市民就地方事務與公共議題前來交流。前往前建議先與團隊確認服務時間。</p></div>
+      <div class="service-office-grid">
+        <article><span>01 · WEST CENTRAL DISTRICT</span><h3>中西區服務處</h3><p>臺南市中西區<br>民生路一段167號3樓</p><strong>謝秉舟市議員參選人服務處</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=臺南市中西區民生路一段167號3樓" target="_blank" rel="noopener noreferrer">開啟地圖　↗</a></article>
+        <article><span>02 · SOUTH DISTRICT</span><h3>南區服務處</h3><p>臺南市南區廣州里<br>金華路二段374號</p><strong>此處同為悦舟日新牙醫診所</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=臺南市南區廣州里金華路二段374號" target="_blank" rel="noopener noreferrer">開啟地圖　↗</a></article>
+      </div>
+    </section>
+    <section class="volunteer-section" id="volunteer">
+      <div>
+        <p class="eyebrow">VOLUNTEER WITH US</p>
+        <h2>一起讓改變，<br><em>從地方發生。</em></h2>
+      </div>
+      <div class="volunteer-copy">
+        <p>不論您擅長文宣社群、活動執行、行政整理或專業支援，都歡迎加入志願團隊。填寫報名表後，團隊將依服務需求與您聯絡。</p>
+        <a class="button yellow volunteer-button" href="#volunteer-form-title">填寫志願者報名表　↓</a>
+        <small>報名資料僅供志願服務聯繫及管理使用。</small>
+      </div>
+    </section>
+    <section class="volunteer-form-section" aria-labelledby="volunteer-form-title">
+      <div class="volunteer-form-heading">
+        <p class="eyebrow dark">VOLUNTEER SIGN-UP</p>
+        <h2 id="volunteer-form-title">志願者報名表單</h2>
+        <p>填寫後，團隊會依服務需求與您聯絡。</p>
+      </div>
+      <form class="volunteer-mini-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeqFr5cPHDFX5E-aoZqnywSZD-OpxGo2-Jda-VTbnRG9qEjOA/formResponse" method="post" target="google-form-response" aria-describedby="volunteer-privacy">
+        <input type="hidden" name="entry.791565498" value="未提供（網站報名表單）">
+        <input type="hidden" name="entry.1973804031" value="未提供（網站報名表單）">
+        <div class="form-field">
+          <label for="volunteer-name">姓名</label>
+          <input id="volunteer-name" name="entry.113471279" type="text" autocomplete="name" placeholder="您的姓名" required>
+        </div>
+        <div class="form-field">
+          <label for="volunteer-phone">手機</label>
+          <input id="volunteer-phone" name="entry.595936858" type="tel" autocomplete="tel" inputmode="tel" placeholder="09xx-xxx-xxx" required>
+        </div>
+        <div class="form-field">
+          <label for="volunteer-role">可協助項目</label>
+          <select id="volunteer-role" name="entry.1463293993" required><option value="">請選擇</option><option>文宣與社群</option><option>活動與場務</option><option>電話聯繫</option><option>街頭宣傳</option><option>行政與資料整理</option><option>專業支援</option></select>
+        </div>
+        <div class="form-field">
+          <label for="volunteer-time">主要可服務時段</label>
+          <select id="volunteer-time" name="entry.1936268379" required><option value="">請選擇</option><option>平日白天</option><option>平日晚間</option><option>週末白天</option><option>週末晚間</option><option>時間彈性</option></select>
+        </div>
+        <label class="consent-field"><input type="checkbox" name="entry.2001280794" value="我已閱讀並同意上述個人資料蒐集與使用說明" required><span id="volunteer-privacy">我已閱讀並同意個人資料僅供志願服務聯繫與管理使用。</span></label>
+        <button class="button yellow form-submit" type="submit">送出報名</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <iframe class="form-response-frame" name="google-form-response" title="報名表傳送結果"></iframe>
+    </section>
+  </main>
+  <footer>
+    <a class="brand" href="/"><span>謝</span>秉舟</a><p>與你一起，讓家鄉更好。</p>
+    <div class="social-links" aria-label="社群媒體">
+      <a href="https://www.instagram.com/pchsieh9/" target="_blank" rel="noopener noreferrer" aria-label="Instagram：pchsieh9" title="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="social-fill" d="M13.65 21v-8h2.7l.4-3h-3.1V8.08c0-.87.24-1.46 1.55-1.46h1.66V3.94c-.29-.04-1.27-.12-2.42-.12-2.4 0-4.04 1.46-4.04 4.15V10H7.69v3h2.71v8h3.25Z"></path></svg>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61583778973157" target="_blank" rel="noopener noreferrer" aria-label="謝秉舟 Facebook" title="Facebook">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.25"></circle><circle class="social-dot" cx="17.4" cy="6.7" r="1"></circle></svg>
+      </a>
+    </div>
+    <small>© 2026 謝秉舟市議員參選人團隊｜網站資料將依正式公布資訊持續更新。</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1602 @@
+<!doctype html>
+<html lang="zh-TW" prefix="og: https://ogp.me/ns#">
+	<head>
+	    <!-- favicon set -->
+	    <link rel="apple-touch-icon" sizes="180x180" href="https://cnews.com.tw/wp-content/themes/cnews-theme/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://cnews.com.tw/wp-content/themes/cnews-theme/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://cnews.com.tw/wp-content/themes/cnews-theme/img/favicon-16x16.png">
+        <link rel="manifest" href="https://cnews.com.tw/wp-content/themes/cnews-theme/img/site.webmanifest">
+        <link rel="mask-icon" href="https://cnews.com.tw/wp-content/themes/cnews-theme/img/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- favicon set END -->
+		<meta charset="UTF-8">
+        <meta name='dailymotion-domain-verification' content='dmzjpgpqqtc67q6zf' />
+         <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/uikit.min.css" integrity="sha512-VfPp6o8LqWjBb8wOqc4JZciCKYKkooptgsam3wg6Pz8xZLKRk8+E8qizaV6P50qRix7gE0nlDqVaTiq2iorXgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js" integrity="sha512-mI405K6ARd5O8ZY5r+y18Yii3L5UtzsvZI/lvVlMLcBks+hmtrU1snugQytxfJ9csZCz+gpR05CEBIHptP5c9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js" integrity="sha512-KfIWbfxVidgNi6olHjp4daDDZo6bFJmnaKKw7pBuCQGlXCqcZ2+gxqSBDg8F94Az4VUMv/2OXpyGoVy35SrCZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- FB驗證 開始 -->
+		<meta name="facebook-domain-verification" content="x7j7cpwsdn41vyiob0o5jj450dtgkq" />
+		<!-- FB驗證 結束-->
+        <!-- facebook social plugin -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v16.0&appId=1234726917400774&autoLogAppEvents=1" nonce="hUlUs1Oj"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+
+        <meta name="theme-color" content="#1fcbd6">
+        <meta name="msapplication-TileColor" content="#1fcbd6"/>
+
+        <link href="https://cnews.com.tw/wp-content/themes/cnews-theme/assets/styles/first.css" rel="stylesheet">
+        <style>
+            @font-face {
+                font-family: 'icomoon';
+                src:url('https://cnews.com.tw/wp-content/themes/cnews-theme/assets/fonts/icomoon.eot');
+                src:url('https://cnews.com.tw/wp-content/themes/cnews-theme/assets/fonts/icomoon.eot') format('embedded-opentype'),
+                url('https://cnews.com.tw/wp-content/themes/cnews-theme/assets/fonts/icomoon.woff') format('woff'),
+                url('https://cnews.com.tw/wp-content/themes/cnews-theme/assets/fonts/icomoon.ttf') format('truetype'),
+                url('https://cnews.com.tw/wp-content/themes/cnews-theme/assets/fonts/icomoon.svg#icomoon') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            [class^="icit_icon-"], [class*=" icit_icon-"] {
+                font-family: 'icomoon';
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+
+                /* Better Font Rendering =========== */
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            .icit_icon-Cloud:before {
+                content: "\e600";
+            }
+            .icit_icon-CloudyMoon:before {
+                content: "\e601";
+            }
+            .icit_icon-CloudySun:before {
+                content: "\e602";
+            }
+            .icit_icon-Drizzle:before {
+                content: "\e603";
+            }
+            .icit_icon-Fog:before {
+                content: "\e604";
+            }
+            .icit_icon-Hail:before {
+                content: "\e605";
+            }
+            .icit_icon-Mist:before {
+                content: "\e606";
+            }
+            .icit_icon-Moon:before {
+                content: "\e607";
+            }
+            .icit_icon-Rain:before {
+                content: "\e608";
+            }
+            .icit_icon-Sleet:before {
+                content: "\e609";
+            }
+            .icit_icon-Snow:before {
+                content: "\e60a";
+            }
+            .icit_icon-Sun:before {
+                content: "\e60b";
+            }
+            .icit_icon-Thunder:before {
+                content: "\e60c";
+            }
+            #icit_weather_widget--1 .weather-wrapper {
+                margin: 0 !important;
+                position:relative;
+                border:none !important;
+            }
+            #icit_weather_widget--1 .weather-wrapper .main {
+                color: #202020 !important;
+                height: 100%;
+                background-color: transparent !important;
+            }
+            #icit_weather_widget--1 .weather-wrapper .no-break .weather-temperature {
+                display:none;
+            }
+            #icit_weather_widget--1 .weather-wrapper .weather-icon{
+                /*position:absolute;*/
+                /*margin-top: -30px;*/
+            }
+            #icit_weather_widget--1 .weather-wrapper .weather-location {
+                display:none;
+            }
+            .icit-credit-link{
+                display:none;
+            }
+
+            .icit_icon-Cloud:before,
+            .icit_icon-CloudyMoon:before,
+            .icit_icon-CloudySun:before,
+            .icit_icon-Drizzle:before,
+            .icit_icon-Fog:before,
+            .icit_icon-Hail:before,
+            .icit_icon-Mist:before,
+            .icit_icon-Moon:before,
+            .icit_icon-Rain:before,
+            .icit_icon-Sleet:before,
+            .icit_icon-Snow:before,
+            .icit_icon-Sun:before,
+            .icit_icon-Thunder:before{
+                position:absolute;
+                font-size:30px;
+                left: -7px;
+            }
+            .weather-wrapper {
+                position: relative;
+                width: 24px !important;
+                height: 24px;
+            }
+            .weather-icon {
+                position: relative;
+            }
+			.article.a-normal p{
+				word-break: break-word!important;
+			}
+        </style>
+        
+        
+<!-- Rank Math 的搜尋引擎最佳化 - https://rankmath.com/ -->
+<title>指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時 - 匯流新聞網</title>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://cnews.com.tw/235260115a02/" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時 - 匯流新聞網" />
+<meta property="og:description" content="CNEWS匯流新聞網記者潘語綺／宜蘭報導 爭取國民黨宜蘭縣長提名的立委吳宗憲拋出「國小課後照顧班全面免費，並延長至晚間7點」政見。對此，民進黨宜蘭縣議員參選人游國連今（15）日於臉書發文表示，這項政策聽起來是對家長一大福利，但他身為一名在宜蘭基層教學現場服務超過25年的老師，必須從教育理念與教學實務的角度，提出深刻的擔憂。 「孩子待在學校11個小時，真的對孩..." />
+<meta property="og:url" content="https://cnews.com.tw/235260115a02/" />
+<meta property="og:site_name" content="匯流新聞網" />
+<meta property="article:publisher" content="https://www.facebook.com/CNEWSTW/" />
+<meta property="article:tag" content="游國連" />
+<meta property="article:tag" content="基層教師" />
+<meta property="article:tag" content="吳宗憲" />
+<meta property="article:section" content="政治匯流" />
+<meta property="og:updated_time" content="2026-01-15T18:33:59+08:00" />
+<meta property="fb:app_id" content="1091669770929856" />
+<meta property="og:image" content="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg" />
+<meta property="og:image:secure_url" content="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg" />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="667" />
+<meta property="og:image:alt" content="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2026-01-15T11:14:10+08:00" />
+<meta property="article:modified_time" content="2026-01-15T18:33:59+08:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時 - 匯流新聞網" />
+<meta name="twitter:description" content="CNEWS匯流新聞網記者潘語綺／宜蘭報導 爭取國民黨宜蘭縣長提名的立委吳宗憲拋出「國小課後照顧班全面免費，並延長至晚間7點」政見。對此，民進黨宜蘭縣議員參選人游國連今（15）日於臉書發文表示，這項政策聽起來是對家長一大福利，但他身為一名在宜蘭基層教學現場服務超過25年的老師，必須從教育理念與教學實務的角度，提出深刻的擔憂。 「孩子待在學校11個小時，真的對孩..." />
+<meta name="twitter:image" content="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg" />
+<meta name="twitter:label1" content="撰寫者" />
+<meta name="twitter:data1" content="潘語綺" />
+<meta name="twitter:label2" content="閱讀時間" />
+<meta name="twitter:data2" content="少於一分鐘" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://cnews.com.tw/#organization","name":"CNEWS \u532f\u6d41\u65b0\u805e\u7db2","url":"https://cnews.com.tw","sameAs":["https://www.facebook.com/CNEWSTW/"],"logo":{"@type":"ImageObject","@id":"https://cnews.com.tw/#logo","url":"https://cnews.com.tw/wp-content/uploads/2021/11/logo.jpg","contentUrl":"https://cnews.com.tw/wp-content/uploads/2021/11/logo.jpg","caption":"\u532f\u6d41\u65b0\u805e\u7db2","inLanguage":"zh-TW","width":"160","height":"90"},"description":"\u532f\u6d41\u65b0\u805e\u7db2 CNEWS\uff5c\u53f0\u7063\u5c08\u696d\u7db2\u8def\u65b0\u5a92\u9ad4\uff0c\u5c08\u696d\u63a1\u8a2a\u5831\u5c0e\u7d93\u71df\u6578\u4f4d\u5167\u5bb9\u5e73\u53f0\uff0c\u5305\u542b\u653f\u6cbb\u6c11\u8abf\u3001\u6578\u4f4d\u532f\u6d41\u3001\u91ab\u85e5\u751f\u6d3b\u3001\u7db2\u8def\u79d1\u6280\u7b49\u9818\u57df\u3002\u81ea\u88fd\u5f71\u97f3\u5167\u5bb9\u5f37\u5927\uff0cYouTube \u8fd1 32 \u842c\u8a02\u95b1\uff0c\u5168\u65b9\u4f4d\u638c\u63e1\u53f0\u7063\u6578\u4f4d\u6642\u4ee3\u8108\u52d5\uff01"},{"@type":"WebSite","@id":"https://cnews.com.tw/#website","url":"https://cnews.com.tw","name":"\u532f\u6d41\u65b0\u805e\u7db2","alternateName":"CNEWS","publisher":{"@id":"https://cnews.com.tw/#organization"},"inLanguage":"zh-TW"},{"@type":"ImageObject","@id":"https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg","url":"https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg","width":"200","height":"200","inLanguage":"zh-TW"},{"@type":"WebPage","@id":"https://cnews.com.tw/235260115a02/#webpage","url":"https://cnews.com.tw/235260115a02/","name":"\u6307\u5433\u5b97\u61b2\u653f\u898b\u589e\u57fa\u5c64\u6559\u5e2b\u6c89\u91cd\u8ca0\u64d4\u3000\u6e38\u570b\u9023\u63d03\u89e3\u65b9\uff1a\u4e0d\u61c9\u5c07\u5b69\u5b50\u7559\u5728\u5b78\u682111\u5c0f\u6642 - \u532f\u6d41\u65b0\u805e\u7db2","datePublished":"2026-01-15T11:14:10+08:00","dateModified":"2026-01-15T18:33:59+08:00","isPartOf":{"@id":"https://cnews.com.tw/#website"},"primaryImageOfPage":{"@id":"https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg"},"inLanguage":"zh-TW"},{"@type":"Person","@id":"https://cnews.com.tw/author/cnews235/","name":"\u6f58\u8a9e\u7dba","url":"https://cnews.com.tw/author/cnews235/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/0acaef9548e6238cd99ef75820b1c94f7963b5b35188e58e30509284341813d5?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/0acaef9548e6238cd99ef75820b1c94f7963b5b35188e58e30509284341813d5?s=96&amp;d=mm&amp;r=g","caption":"\u6f58\u8a9e\u7dba","inLanguage":"zh-TW"},"worksFor":{"@id":"https://cnews.com.tw/#organization"}},{"@type":"NewsArticle","headline":"\u6307\u5433\u5b97\u61b2\u653f\u898b\u589e\u57fa\u5c64\u6559\u5e2b\u6c89\u91cd\u8ca0\u64d4\u3000\u6e38\u570b\u9023\u63d03\u89e3\u65b9\uff1a\u4e0d\u61c9\u5c07\u5b69\u5b50\u7559\u5728\u5b78\u682111\u5c0f\u6642 - \u532f\u6d41\u65b0\u805e\u7db2","datePublished":"2026-01-15T11:14:10+08:00","dateModified":"2026-01-15T18:33:59+08:00","articleSection":"\u653f\u6cbb\u532f\u6d41, \u65b0\u805e\u532f\u6d41","author":{"@id":"https://cnews.com.tw/author/cnews235/","name":"\u6f58\u8a9e\u7dba"},"publisher":{"@id":"https://cnews.com.tw/#organization"},"description":"CNEWS\u532f\u6d41\u65b0\u805e\u7db2\u8a18\u8005\u6f58\u8a9e\u7dba\uff0f\u5b9c\u862d\u5831\u5c0e","name":"\u6307\u5433\u5b97\u61b2\u653f\u898b\u589e\u57fa\u5c64\u6559\u5e2b\u6c89\u91cd\u8ca0\u64d4\u3000\u6e38\u570b\u9023\u63d03\u89e3\u65b9\uff1a\u4e0d\u61c9\u5c07\u5b69\u5b50\u7559\u5728\u5b78\u682111\u5c0f\u6642 - \u532f\u6d41\u65b0\u805e\u7db2","@id":"https://cnews.com.tw/235260115a02/#richSnippet","isPartOf":{"@id":"https://cnews.com.tw/235260115a02/#webpage"},"image":{"@id":"https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg"},"inLanguage":"zh-TW","mainEntityOfPage":{"@id":"https://cnews.com.tw/235260115a02/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO 外掛 -->
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://cnews.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcnews.com.tw%2F235260115a02%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://cnews.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcnews.com.tw%2F235260115a02%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='post-views-counter-frontend-css' href='https://cnews.com.tw/wp-content/plugins/post-views-counter/css/frontend.css?ver=1.8.0' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='avatar-manager-css' href='https://cnews.com.tw/wp-content/plugins/avatar-manager/assets/css/avatar-manager.min.css?ver=1.2.1' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://cnews.com.tw/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://cnews.com.tw/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' media='all' />
+<style id='addtoany-inline-css' type='text/css'>
+.addtoany_content { text-align:center; }
+.a2a_svg { border-radius: 0 !important; }
+.addtoany_list a{ padding: 9px 4px 0 4px!important;}
+/*# sourceURL=addtoany-inline-css */
+</style>
+<script type="text/javascript" src="https://cnews.com.tw/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="ajax-auth-script-js-extra">
+/* <![CDATA[ */
+var ajax_auth_object = {"ajaxurl":"https://cnews.com.tw/wp-admin/admin-ajax.php","redirecturl":"","loadingmessage":"\u767b\u5165\u4e2d..."};
+//# sourceURL=ajax-auth-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/themes/cnews-theme/js/ajax-login-script.js" id="ajax-auth-script-js"></script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/themes/cnews-theme/js/lib/modernizr-2.7.1.min.js" id="modernizr-js"></script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/themes/cnews-theme/js/scripts.js" id="html5blankscripts-js"></script>
+<script type="text/javascript" id="post-views-counter-frontend-js-before">
+/* <![CDATA[ */
+var pvcArgsFrontend = {"mode":"rest_api","countEnabled":true,"postID":639418,"requestURL":"https:\/\/cnews.com.tw\/wp-json\/post-views-counter\/view-post\/639418","displayURL":"https:\/\/cnews.com.tw\/wp-json\/post-views-counter\/get-post-views","nonce":"45b6c49296","dataStorage":"cookies","multisite":false,"path":"\/","domain":""};
+
+//# sourceURL=post-views-counter-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/plugins/post-views-counter/js/frontend.js?ver=1.8.0" id="post-views-counter-frontend-js"></script>
+<script type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
+	Share: "分享",
+	Save: "儲存",
+	Subscribe: "訂閱",
+	Email: "電子郵件",
+	Bookmark: "書籤",
+	ShowAll: "顯示全部",
+	ShowLess: "顯示較少",
+	FindServices: "尋找服務",
+	FindAnyServiceToAddTo: "立即尋找想要新增的服務",
+	PoweredBy: "開發團隊:",
+	ShareViaEmail: "透過電子郵件分享",
+	SubscribeViaEmail: "透過電子郵件訂閱",
+	BookmarkInYourBrowser: "在瀏覽器中加入書籤",
+	BookmarkInstructions: "按下 Ctrl+D 或 \u2318+D 將這個頁面加入書籤",
+	AddToYourFavorites: "新增至 [我的最愛]",
+	SendFromWebOrProgram: "透過任何電子郵件地址或電子郵件程式傳送",
+	EmailProgram: "電子郵件程式",
+	More: "進一步了解...",
+	ThanksForSharing: "感謝分享！",
+	ThanksForFollowing: "感謝追蹤！"
+};
+
+a2a_config.thanks = {
+    postShare: false,
+	ad: false,
+};
+
+//# sourceURL=addtoany-core-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="text/javascript" defer src="https://cnews.com.tw/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/plugins/avatar-manager/assets/js/avatar-manager.min.js?ver=1.2.1" id="avatar-manager-js"></script>
+<link rel="https://api.w.org/" href="https://cnews.com.tw/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://cnews.com.tw/wp-json/wp/v2/posts/639418" />    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5FG6R94');</script>
+    <!-- End Google Tag Manager -->
+        <!-- Google Tag Manager -->
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-KBR6ZPG');</script>
+	<!-- End Google Tag Manager -->
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G7R36YXJ1Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G7R36YXJ1Y');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PP9T55HC');</script>
+<!-- End Google Tag Manager -->
+<style id='wpcb-styles-header'>
+@media screen and (min-width: 1722px){
+    #nav.fixed>ul ._logo>a {
+        background-image: url(https://cnews.com.tw/wp-content/themes/cnews-theme/assets/images/logo_04.svg)!important;
+        width: 75px!important;
+        height: 25px!important;
+        background-size: 75px 25px!important;
+    }
+}
+.read-more-btn_video{
+    display: block;
+    width: 40%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    height: 55px;
+    line-height: 50px;
+    border: 1.5px solid #9068ff;
+    text-decoration: none;
+    color: #9068ff;
+    font-size: 16px;
+    background-color: #9068ff33;
+}
+.read-more-btn_today{
+    display: block;
+    width: 40%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    height: 55px;
+    line-height: 50px;
+    border: 1.5px solid #1fcbd6;
+    text-decoration: none;
+    color: #1fcbd6;
+    font-size: 16px;
+    background-color: #1fcbd624;
+}
+.read-more-btn_forums{
+    display: block;
+    width: 40%;
+    margin: 60px auto 30px auto;
+    text-align: center;
+    height: 55px;
+    line-height: 50px;
+    border: 1.5px solid #1fcbd6;
+    text-decoration: none;
+    color: #1fcbd6;
+    font-size: 16px;
+    background-color: #1fcbd624;
+}
+.read-more-btn_health{
+  	display: none;
+    width: 40%;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    height: 55px;
+    line-height: 50px;
+    border: 1.5px solid #28c163;
+    text-decoration: none;
+    color: #28c163;
+    font-size: 16px;
+    background-color: #28c16326;
+}
+.read-more-btn_life{
+  display: none;
+    width: 40%;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    height: 55px;
+    line-height: 50px;
+    border: 1.5px solid #ff76ac;
+    text-decoration: none;
+    color: #ff76ac;
+    font-size: 16px;
+    background-color: #ff76ac24;
+}
+.read-more-btn_financial{
+  display: none;
+    width: 40%;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    height: 55px;
+    line-height: 50px;
+    border: 1.5px solid #ffe41c;
+    text-decoration: none;
+    color: #ffe41c;
+    font-size: 16px;
+    background-color: #ffe41c17;
+}
+@media (max-width: 767px) {
+ 	.read-more-btn_video{
+   	 width: 90%;
+	}
+    .read-more-btn_today{
+      width: 90%;
+  	}
+    .read-more-btn_forums{
+      width: 90%;
+  	}
+  	.read-more-btn_health{
+  		display: block;
+      	width: 90%;
+      	margin: 10px auto 30px auto;
+	}
+	.read-more-btn_life{
+  		display: block;
+     	width: 90%;
+      	margin: 10px auto 30px auto;
+	}
+	.read-more-btn_financial{
+  		display: block;
+      	width: 90%;
+      	margin: 10px auto 30px auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+#mobile-search{
+		display:none;
+}
+@media (max-width: 767px) {
+	#mobile-search{
+		display:block;
+      	width: 100%;
+      	position: absolute;
+        top: 0;
+        height: 40px;
+        z-index: 2;
+      	background-color: #bcfeff;
+	}
+    #mobile-search .content {
+      margin: 0 15px;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: -webkit-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-align-items: center;
+  }
+  #mobile-search input {
+      position: relative;
+      border: 0;
+      padding: 0;
+      height: 20px;
+      width: calc(100% - 10px);
+      color: #202020;
+      background-color: transparent;
+  }
+  #mobile-search input::placeholder {
+    color:#138f90;
+  }
+  #nav>ul {
+    padding-top: 40px;
+  }
+  .cnews-head-format .article-dot+.container {
+    z-index: 2;
+  }
+}
+
+ul.info>li .icon.post-views{
+    float: left;
+    height: 22px;
+    margin: 0 4px 0 0;
+}
+ul.info .post-views{
+    display: inline-block;
+    padding-right: 10px;
+}
+.icon.eye {
+  	float: left;
+  	width: 16px;
+    height: 22px;
+    margin: 0 4px 0 0;
+    background-image: url(https://cnews.com.tw/wp-content/themes/cnews-theme/assets/images/eye.svg);
+}
+
+
+#nav.fixed{
+  z-index: 10;
+}
+#header{
+  z-index: 9;
+}
+.grecaptcha-badge {
+    opacity: 0;
+}
+
+#authorSlider .avatar {
+	border-radius: 50%;
+	aspect-ratio: 1/1;
+}
+
+#authorSlider .slider-image .circle {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+article.post_video-video img.news-cover {
+    display: none;
+}
+
+.video-rwd {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+ 
+.video-rwd iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.theme-article-content article iframe[src*="youtube.com"] {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100%;
+}
+@media print{
+    body{
+      width: 100%;
+      margin: 0;
+      float: none;
+      line-height: 1.5;
+      font-size: 12pt;
+    }
+    img {
+        max-width: 100%;
+    }
+    a:link, a:visited, a {
+          background: transparent;
+          color: #222;
+          font-weight: bold;
+          text-decoration: underline;
+          text-align: left;
+          word-wrap: break-word; /*避免網址過長超出頁面*/
+    }
+    a[href^="http://"]:after, a[href^="https://"]:after {
+        content: " (" attr(href) ") ";
+    }
+    thead{
+        display: table-header-group; /* 表格即使分頁也會顯示表頭 */
+    }
+    #nav, #socialMediaTab, aside, .keywords, .page-tab, .extend-wrapper, #sponsor, footer, header{
+        display: none!important;
+    }
+    .special-format .info-wrapper, .breadcrumb, .indicator, .flicker, li, #adGeek-slot-compass-fit-4285866, .fb-comments, #_popIn_recommend{
+        display: none!important;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after:avoid;
+        page-break-inside:avoid
+    }
+    h1+p, h2+p, h3+p {
+        page-break-before: avoid;
+    }
+    a {
+        page-break-inside:avoid;
+    }
+    img{
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+    table, blockquote{
+        page-break-inside: avoid;
+    }
+    ul, ol, dl {
+        page-break-before:avoid;
+    }
+    /* 如架構本身用一組一組的 DIV 包住，也可強制設定每組 DIV 會各自切成一頁 */
+    div.pageBlock{
+        page-break-before: always;
+    }
+    article p{
+        font-size: 18pt!important;
+    }
+    #articleTitle strong{
+        font-size: 24pt!important;
+    }
+}
+@page{
+  size: A4 portrait;
+  margin: 0.5cm;
+  orphans:4;
+  widows:2;
+}
+ul.info {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .theme-article-title {
+    margin-bottom: 0 !important;
+  }
+}
+
+.live-stream-icon {
+  display: flex;
+  background-color: #EF4A4A;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 50px;
+  position: absolute;
+  top: -38px;
+  right: 37%;
+}
+.live-stream-icon:before, .live-stream-icon:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #EF4A4A;
+  border-radius: 100%;
+}
+.live-stream-icon:before {
+  animation: pulse1 1500ms infinite cubic-bezier(0, 0.6, 1, 0.6);
+}
+.live-stream-icon:after {
+  animation: pulse2 1500ms infinite linear;
+}
+@keyframes pulse1 {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes pulse2 {
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+@media (max-width: 768px) {
+  .live-stream-icon {
+    right: 14%;
+  }
+}
+.youtube-player {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 5px;
+}
+.youtube-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: transparent;
+}
+.youtube-player img {
+  object-fit: cover;
+  display: block;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: 0.4s all;
+  -moz-transition: 0.4s all;
+  transition: 0.4s all;
+}
+.youtube-player img:hover {
+  -webkit-filter: brightness(75%);
+  -moz-filter: brightness(75%);
+  filter: brightness(75%);
+}
+.youtube-player .play {
+  height: 48px;
+  width: 68px;
+  left: 50%;
+  top: 50%;
+  margin-left: -34px;
+  margin-top: -24px;
+  position: absolute;
+  background: url("https://i.ibb.co/j3jcJKv/yt.png") no-repeat;
+  cursor: pointer;
+}
+
+.theme-author-title .special-format .head .left .avatar {
+    object-fit: cover;
+}</style><script type="text/javascript">
+//Get the button:
+mybutton = document.getElementById("goTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script><link rel="icon" href="https://cnews.com.tw/wp-content/uploads/2023/11/2023-11-21_14-20-17_096509-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://cnews.com.tw/wp-content/uploads/2023/11/2023-11-21_14-20-17_096509-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cnews.com.tw/wp-content/uploads/2023/11/2023-11-21_14-20-17_096509-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://cnews.com.tw/wp-content/uploads/2023/11/2023-11-21_14-20-17_096509-270x270.jpg" />
+        
+	<link rel='stylesheet' id='icomoon-css' href='https://cnews.com.tw/wp-content/plugins/interconnect-it-weather-widget/images/icomoon/style.css?ver=6.9.10' media='all' />
+
+</head>
+	<body class="wp-singular post-template-default single single-post postid-639418 single-format-standard wp-theme-cnews-theme 235260115a02">
+	    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PP9T55HC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+            <!-- <ModalLogin>-->
+<div class="uk-flex-top" id="modalLogin" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical modal-padding-remove modal-radius uk-overflow-hidden uk-padding-remove" style="width: 430px; background-color: #F4F8FB;">
+    <button class="uk-modal-close-default" type="button" uk-close style="color: #222"></button>
+    <div class="uk-margin-remove">
+      <div class="uk-position-relative uk-background-muted" style="padding: 6rem 0 0 0;">
+        <div><img class="uk-display-block uk-margin-auto" src="https://cnews.com.tw/wp-content/themes/cnews-theme/assets/images/other/cnews_fb_share.svg" style="width: 150px;"></div>
+        <h2 class="heading-green uk-text-center uk-margin-medium-top uk-margin-remove-bottom" style="letter-spacing: 1rem; text-indent: 1rem; font-size: 22px;">會員登入</h2>
+      </div>
+      <div class="uk-width-5-6 uk-margin-auto">
+        <form class="uk-margin-small-top" class="ajax-auth" action="login" method="post" id="login">
+          <div class="uk-margin uk-position-relative">
+            <input class="uk-input" type="email" placeholder="電子郵件" name="username" id="username" required><img class="uk-position-small uk-position-center-right" src="https://cnews.com.tw/wp-content/themes/cnews-theme/img/icons/icon-mail2.svg" uk-svg>
+          </div>
+          <div class="uk-margin uk-position-relative">
+            <input class="uk-input" type="password" placeholder="密碼" id="password" name="password" required><img class="uk-position-small uk-position-center-right" src="https://cnews.com.tw/wp-content/themes/cnews-theme/img/icons/icon-key.svg" uk-svg style='width: 20px; opacity: .4;'>
+          </div>
+          <span id="messageLoginError" class="text-small text-red" style="display:none; color: red"></span>
+          <div class="uk-margin">
+            <button class="uk-button uk-button-primary uk-button-large uk-width-1-1 text-small-spacing text-white" type="submit" style="padding-left: 40px; background-color: #22d8da; font-size: 16px" id="btnLogin">立即登入</button>
+          </div>
+          <input type="hidden" id="security" name="security" value="14754a1dec" /><input type="hidden" name="_wp_http_referer" value="/235260115a02/" />        </form>
+        <!-- <div class="uk-margin">
+          <p class="uk-text-center text-xsmall uk-margin-remove-bottom">還不是會員？<a class="text-dark link-underline" href="#modalSignUp" uk-toggle>我要註冊</a></p>
+          <p class="uk-text-center text-xsmall uk-margin-remove-top">我曾經註冊過，但我<a class="text-dark link-underline" href="#modalPassword" uk-toggle>忘記密碼</a></p>
+        </div> -->
+        <div class="uk-margin-xlarge-top">
+          <p class="uk-text-center uk-marign-top text-xsmall"><a class="text-dark link-underline" style="color: #666;" href="https://cnews.com.tw/版權聲明" uk-toggle>隱私權條款</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- </ModalLogin>-->		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBR6ZPG"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+<header id="header">
+    <div id="progressBar" class="_progress-bar"></div>
+    <div class="pagelet">
+        <div class="wrapper">
+            <div class="content">
+                <div class="reading-progress-wrapper">
+                    <div class="read-logo">
+                        <a href="https://cnews.com.tw">
+                            <div class="main-logo"></div>
+                        </a>
+                    </div>
+                    <div class="read-head">
+                        <h2>
+                            指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時                        </h2>
+                    </div>
+                </div>
+                <div class="left">
+                    <ul>
+                        <li class="hide-sm">
+                            <p>星期一 Mon. Oct. 19, 2026</p>
+                        </li>
+                        <li class="bdl">
+                            <div id="icit_weather_widget--1" class="weather-none widget icit_weather_widget">
+<!-- ICIT Weather Widget CSS -->
+<style type="text/css" media="screen">
+
+	#icit_weather_widget--1 div {
+		box-sizing: border-box;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper {
+		margin: 20px 0;
+		width: 100%;
+		font-family: Trebuchet MS, Candara, sans-serif;
+		border: 2px solid #FF7C80;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .main {
+		width: 100%;
+		color: #FF7C80;
+		background-color: #FFFFFF;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .main .cond {
+		display: inline-block;
+		padding: 5px 10px 0;
+		width: 100%;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-temperature {
+		display: inline-block;
+		width: 25%;
+		float: left;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .no-break .weather-temperature {
+		text-align: center;
+		font-size: 20px;
+		width: 100%;
+		padding: 5% 10px;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-condition {
+		display: inline-block;
+		width: 55%;
+		float: left;
+		font-size: 14px;
+		padding-top: 3px;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-wind-condition {
+		display: inline-block;
+		width: 75%;
+		float: right;
+		text-align: right;
+		font-size: 14px;
+		padding-top: 3px;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-humidity {
+		display: inline-block;
+		width: 45%;
+		float: right;
+		text-align: right;
+		font-size: 14px;
+		padding-top: 3px;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-icon {
+		clear: both;
+		text-align: center;
+		padding: 0;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-icon .icit-icon {
+		font-size: 7em;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-location {
+		font-size: 16px;
+		padding-bottom: 4%;
+		font-weight: bold;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-forecast {
+		margin: 0;
+		display: inline-block;
+		width: 100%;
+		border-top: 2px solid #FF7C80;
+		color: #FF7C80;
+		background-color: #FFFFFF;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-forecast .weather-forecast-day {
+		display: inline-block;
+		text-align: center;
+		margin: 0;
+		padding: 3px 0 10px;
+		width: 31.66%;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-forecast .weather-forecast-day .forecast-day {
+		padding: 10% 0;
+	}
+
+	#icit_weather_widget--1 .weather-wrapper .weather-forecast .weather-forecast-day .forecast-icon .icit-icon {
+		font-size: 2.2em;
+	}
+
+	#icit_weather_widget--1 .icit-credit-link a {
+		color: #FF7C80;
+	}
+
+</style>
+
+			
+				<!-- ICIT Weather Widget Wrapper -->
+				<div class="weather-wrapper">
+
+					
+						
+						<div class="main no-break">
+							<div class="weather-temperature">
+								85&deg;F							</div>
+							<div class="weather-icon">
+								<div class="icit-icon icit_icon-Moon"></div>								<div class="weather-location">
+									<span class="weather-city">Taipei</span> <br><span class="weather-country">Taiwan, Province Of China</span>								</div>
+							</div>
+						</div>
+
+						
+						
+					
+					<!-- Last updated at 10:30:46 on 2026-10-19 -->
+				</div> <p class="icit-credit-link">Weather Widget by <a href="http://interconnectit.com/" title="Wordpress Development Specialists">interconnect/<strong>it</strong></a></p></div>                        </li>
+                    </ul>
+                </div><div class="center">
+                    <a href="https://cnews.com.tw">
+                        <div class="main-logo"></div>
+                        <h1 class="cheat-hide">匯流新聞網
+                        <img src="https://cnews.com.tw/wp-content/themes/cnews-theme/assets/images/other/cnews_fb_share.svg"
+                             alt="CNEWS" class="cheat-hide">
+                        </h1>
+                    </a>
+                </div><div class="right">
+                    <ul class="small-pattern">
+                        <li id="showShareButton" class="hide-sm"><a href="javascript:;" onclick="showShare();" class="icon share"></a></li>
+                        <li id="hideShareButton" class="hide hide-sm"><a href="javascript:;" onclick="closeShare();" class="icon close"></a></li>
+                        <li id="showNavButton" class="bdl"><a href="javascript:;" onclick="showNav();" class="icon menu"></a></li>
+                        <li id="hideNavButton" class="bdl hide"><a href="javascript:;" onclick="closeNav();" class="icon close"></a></li>
+                    </ul>
+
+                    <div class="large-pattern">
+                        <ul class="hint">
+                            <li>
+                                <a href="https://cnews.com.tw/feed/" target="_blank" class="icon rss hover-effect"></a>
+                                <a href="https://www.facebook.com/CNEWSTW/" target="_blank" class="icon facebook hover-effect"></a>
+                                <!--<a href="https://plus.google.com/110830787664003193718" target="_blank" class="icon google hover-effect"></a>-->
+                                <a href="https://page.line.me/cho1008w" target="_blank" class="icon line hover-effect"></a>
+                            </li>
+                            <li class="bdl tc">
+                                <a href="javascript:;" name="translate_button" onclick="translateChinese();">
+                                    簡
+                                </a>
+                            </li>
+                                                        <li class="bdl tc">
+                                <a href="#modalLogin" uk-toggle>
+                                    <i uk-icon="sign-in"></i><br>
+                                    <span style="font-size:12px;">登入</span>
+                                </a>
+                            </li>
+                                                        <li class="bdl tr">
+                                <a href="javascript:;" class="icon search hover-effect" onclick="closeNav(); closeShare(); showSearch();"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<script>
+    window.readingProgress = true;
+</script>
+<nav id="nav" class="">
+    <ul>
+		<div id="mobile-search">
+			<form class="content" method="get" action="https://cnews.com.tw" role="search">
+				<input id="searchText" class="search-input" type="search" name="s" placeholder="SEARCH CNEWS...">
+				<button class="icon search-go" type="submit" role="button"></button>
+				<a href="javascript:;" class="icon" onclick="closeSearch();"></a>
+			</form>
+		</div>
+        <li class="_logo">
+            <a href="https://cnews.com.tw"></a>
+        </li>
+
+        <li id="menu-item-9487" class="h-cyan menu-item menu-item-type-post_type menu-item-object-page menu-item-9487"><a href="https://cnews.com.tw/news/"><div class="_ins cyan"></div><span>新聞匯流</span><span class="en">NEWS</span></a></li>
+<li id="menu-item-8447" class="h-blue menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8447"><a href="https://cnews.com.tw/category/%e6%95%b8%e4%bd%8d%e5%8c%af%e6%b5%81/"><div class="_ins blue"></div><span>數位匯流</span><span class="en">DIGITAL</span></a></li>
+<li id="menu-item-8448" class="h-pink menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8448"><a href="https://cnews.com.tw/category/%e7%94%9f%e6%b4%bb%e5%8c%af%e6%b5%81/"><div class="_ins pink"></div><span>生活匯流</span><span class="en">LIFE</span></a></li>
+<li id="menu-item-8442" class="h-green menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8442"><a href="https://cnews.com.tw/category/%e5%81%a5%e5%ba%b7%e5%8c%af%e6%b5%81/"><div class="_ins green"></div><span>健康匯流</span><span class="en">HEALTH</span></a></li>
+<li id="menu-item-8451" class="h-yellow menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8451"><a href="https://cnews.com.tw/category/%e9%87%91%e8%9e%8d%e5%8c%af%e6%b5%81/"><div class="_ins yellow"></div><span>財經匯流</span><span class="en">FINANCIAL</span></a></li>
+<li id="menu-item-8443" class="h-red menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8443"><a href="https://cnews.com.tw/category/%e5%9c%8b%e9%9a%9b%e5%8c%af%e6%b5%81/"><div class="_ins red"></div><span>國際匯流</span><span class="en">INTERNATIONAL</span></a></li>
+<li id="menu-item-8446" class="h-orange menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8446"><a href="https://cnews.com.tw/category/%e8%aa%bf%e6%9f%a5%e5%8c%af%e6%b5%81/"><div class="_ins orange"></div><span>調查匯流</span><span class="en">SURVEY</span></a></li>
+<li id="menu-item-128602" class="h-purple menu-item menu-item-type-taxonomy menu-item-object-post_video menu-item-128602"><a href="https://cnews.com.tw/post_video/video/"><div class="_ins purple"></div><span>影音匯流</span><span class="en">Video</span></a></li>
+<li id="menu-item-8450" class="h-purple uk-hidden menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8450"><a href="https://cnews.com.tw/category/%e8%a8%8a%e6%81%af%e5%8c%af%e6%b5%81/"><div class="_ins purple"></div><span>訊息匯流</span><span class="en">INFORMATION</span></a></li>
+<li id="menu-item-8445" class="h-indigo menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-8445"><a href="https://cnews.com.tw/category/%e6%94%bf%e6%b2%bb%e5%8c%af%e6%b5%81/"><div class="_ins indigo"></div><span>政治匯流</span><span class="en">POLITICAL</span></a></li>
+<li id="menu-item-8449" class="h-lime menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8449"><a href="https://cnews.com.tw/category/%e8%a7%80%e9%bb%9e%e5%8c%af%e6%b5%81/"><div class="_ins lime"></div><span>觀點匯流</span><span class="en">VIEWPOINT</span></a></li>
+<li id="menu-item-441080" class="h-orange menu-item menu-item-type-taxonomy menu-item-object-category menu-item-441080"><a href="https://cnews.com.tw/category/%e5%bd%b1%e5%8a%87%e5%a8%9b%e6%a8%82/"><div class="_ins orange"></div><span>影劇娛樂</span><span class="en">Entertainment</span></a></li>
+     </ul>
+    <div class="assist">	
+        <ul>
+            <li class="tab">
+                <a href="javascript:;" name="translate_button" onclick="translateChinese();">
+                    簡
+                </a>
+            </li>
+                        <li class="tab">
+                <a href="#modalLogin" uk-toggle>
+                    <i uk-icon="sign-in"></i>
+                    <span style="font-size:12px;">登入</span>
+                </a>
+            </li>
+                        <li class="sub">
+                <a href="https://cnews.com.tw/feed/" target="_blank" class="icon rss"></a>
+                <a href="https://www.facebook.com/CNEWSTW/" target="_blank" class="icon facebook"></a>
+                <!-- <a href="https://plus.google.com/110830787664003193718" target="_blank" class="icon google"></a> -->
+                <a href="https://page.line.me/cho1008w" target="_blank" class="icon line"></a>
+            </li>
+            <li class="tab">
+                <a href="javascript:;" class="icon search" onclick="closeNav(); closeShare(); showSearch();"></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="share">
+    <ul>
+        <li><a href="https://cnews.com.tw/feed/" target="_blank" class="icon rss"></a></li>
+        <li><a href="https://www.facebook.com/CNEWSTW/" target="_blank" class="icon facebook"></a></li>
+        <li><a href="https://page.line.me/cho1008w" target="_blank" class="icon line"></a></li>
+    </ul>
+</div>
+
+<div id="search">
+    <form class="content" method="get" action="https://cnews.com.tw" role="search">
+        <input id="searchText" class="search-input" type="search" name="s" placeholder="SEARCH CNEWS...">
+<!--        <input type="text"  placeholder="SEARCH CNEWS..." value="">-->
+        <button class="icon search-go" type="submit" role="button">
+<!--            <a href="javascript:;" class="icon search-go"></a>-->
+        </button>
+        <a href="javascript:;" class="icon search-close" onclick="closeSearch();"></a>
+    </form>
+</div>
+<main id="main">
+    <p class="breadcrumb"><a href="https://cnews.com.tw">HOME</a> &gt; <a href="https://cnews.com.tw/category/%e6%94%bf%e6%b2%bb%e5%8c%af%e6%b5%81/">政治匯流</a> &gt; <span class="current">指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時</span></p>  <section id="articleTitle" class="section-wrapper">
+            <div class="cnews-head-format theme-article-title cyan">
+          <div class="article-dot"></div>
+
+          <div class="container">
+              <hgroup>
+                  <h2 class="flicker">NEWS</h2>
+              </hgroup>
+                  				
+              <div class="special-format">
+                  <div class="_line">
+                      <strong>
+                          指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時                      </strong>
+                      <div class="info-wrapper">
+                          <ul class="info">
+                              <li class="date">
+                                  <span class="icon calendar"></span>
+                                  <span>2026-01-15</span>
+                              </li>
+							                                <li class="user">
+                                  <span class="icon author"></span>
+                                  <a href="https://cnews.com.tw/author/cnews235/" title="「潘語綺」的文章" rel="author">潘語綺</a>                                                                </li>
+                              <li class="tags"><span class="icon tag"></span><a href="https://cnews.com.tw/tag/%e6%b8%b8%e5%9c%8b%e9%80%a3/">游國連</a> <a href="https://cnews.com.tw/tag/%e5%9f%ba%e5%b1%a4%e6%95%99%e5%b8%ab/">基層教師</a> <a href="https://cnews.com.tw/tag/%e5%90%b3%e5%ae%97%e6%86%b2/">吳宗憲</a> </li>                          </ul>
+
+                          <div class="indicator">
+                              <ul class="font-magnifier">
+                                  <li>
+                                      <span class="text">字級</span>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:;" id="a_small" class="icon a-minus"></a>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:;" id="a_midd" class="icon a-normal"></a>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:;" id="a_big" class="icon a-plus"></a>
+                                  </li>
+                              </ul>
+                              <ul class="share-btns">
+                                  <div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_42 addtoany_list" data-a2a-url="https://cnews.com.tw/235260115a02/" data-a2a-title="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fcnews.com.tw%2F235260115a02%2F&amp;linkname=%E6%8C%87%E5%90%B3%E5%AE%97%E6%86%B2%E6%94%BF%E8%A6%8B%E5%A2%9E%E5%9F%BA%E5%B1%A4%E6%95%99%E5%B8%AB%E6%B2%89%E9%87%8D%E8%B2%A0%E6%93%94%E3%80%80%E6%B8%B8%E5%9C%8B%E9%80%A3%E6%8F%903%E8%A7%A3%E6%96%B9%EF%BC%9A%E4%B8%8D%E6%87%89%E5%B0%87%E5%AD%A9%E5%AD%90%E7%95%99%E5%9C%A8%E5%AD%B8%E6%A0%A111%E5%B0%8F%E6%99%82" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_facebook_messenger" href="https://www.addtoany.com/add_to/facebook_messenger?linkurl=https%3A%2F%2Fcnews.com.tw%2F235260115a02%2F&amp;linkname=%E6%8C%87%E5%90%B3%E5%AE%97%E6%86%B2%E6%94%BF%E8%A6%8B%E5%A2%9E%E5%9F%BA%E5%B1%A4%E6%95%99%E5%B8%AB%E6%B2%89%E9%87%8D%E8%B2%A0%E6%93%94%E3%80%80%E6%B8%B8%E5%9C%8B%E9%80%A3%E6%8F%903%E8%A7%A3%E6%96%B9%EF%BC%9A%E4%B8%8D%E6%87%89%E5%B0%87%E5%AD%A9%E5%AD%90%E7%95%99%E5%9C%A8%E5%AD%B8%E6%A0%A111%E5%B0%8F%E6%99%82" title="Messenger" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_line" href="https://www.addtoany.com/add_to/line?linkurl=https%3A%2F%2Fcnews.com.tw%2F235260115a02%2F&amp;linkname=%E6%8C%87%E5%90%B3%E5%AE%97%E6%86%B2%E6%94%BF%E8%A6%8B%E5%A2%9E%E5%9F%BA%E5%B1%A4%E6%95%99%E5%B8%AB%E6%B2%89%E9%87%8D%E8%B2%A0%E6%93%94%E3%80%80%E6%B8%B8%E5%9C%8B%E9%80%A3%E6%8F%903%E8%A7%A3%E6%96%B9%EF%BC%9A%E4%B8%8D%E6%87%89%E5%B0%87%E5%AD%A9%E5%AD%90%E7%95%99%E5%9C%A8%E5%AD%B8%E6%A0%A111%E5%B0%8F%E6%99%82" title="Line" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_telegram" href="https://www.addtoany.com/add_to/telegram?linkurl=https%3A%2F%2Fcnews.com.tw%2F235260115a02%2F&amp;linkname=%E6%8C%87%E5%90%B3%E5%AE%97%E6%86%B2%E6%94%BF%E8%A6%8B%E5%A2%9E%E5%9F%BA%E5%B1%A4%E6%95%99%E5%B8%AB%E6%B2%89%E9%87%8D%E8%B2%A0%E6%93%94%E3%80%80%E6%B8%B8%E5%9C%8B%E9%80%A3%E6%8F%903%E8%A7%A3%E6%96%B9%EF%BC%9A%E4%B8%8D%E6%87%89%E5%B0%87%E5%AD%A9%E5%AD%90%E7%95%99%E5%9C%A8%E5%AD%B8%E6%A0%A111%E5%B0%8F%E6%99%82" title="Telegram" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_wechat" href="https://www.addtoany.com/add_to/wechat?linkurl=https%3A%2F%2Fcnews.com.tw%2F235260115a02%2F&amp;linkname=%E6%8C%87%E5%90%B3%E5%AE%97%E6%86%B2%E6%94%BF%E8%A6%8B%E5%A2%9E%E5%9F%BA%E5%B1%A4%E6%95%99%E5%B8%AB%E6%B2%89%E9%87%8D%E8%B2%A0%E6%93%94%E3%80%80%E6%B8%B8%E5%9C%8B%E9%80%A3%E6%8F%903%E8%A7%A3%E6%96%B9%EF%BC%9A%E4%B8%8D%E6%87%89%E5%B0%87%E5%AD%A9%E5%AD%90%E7%95%99%E5%9C%A8%E5%AD%B8%E6%A0%A111%E5%B0%8F%E6%99%82" title="WeChat" rel="nofollow noopener" target="_blank"></a></div></div>                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="article" class="section-wrapper">
+      <div class="container">
+          <ul id="socialMediaTab" class="function-wrapper">
+              <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://cnews.com.tw/235260115a02/" target="_blank" class="icon facebook-gray hover-effect"></a></li>
+              <li><a href="http://line.me/R/msg/text/?指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時%0D%0Ahttps://cnews.com.tw/235260115a02/" target="_blank" class="icon line-gray hover-effect"></a></li>
+              <li><a href="https://cnews.com.tw/feed/" target="_blank" class="icon rss-gray hover-effect"></a></li>
+              <li><a href="javascript:;" class="icon print-gray hover-effect" onclick="window.print();"></a></li>
+              <li><a href="https://cnews.com.tw/contactus" class="icon envelope-gray hover-effect"></a></li>
+          </ul>
+          <div class="article-left">
+              <div class="theme-article-content">
+                  <article id="post-639418" class="post-639418 post type-post status-publish format-standard hentry category-3377 category-4653 tag-138914 tag-138915 tag-24890 rss-delivery-live17 rss-delivery-life rss-delivery-pchome rss-delivery-yahoo rss-delivery-yam rss-delivery-owlnews rss-delivery-scooptw rss-delivery-ftv">
+
+                      	                   
+                        <p><img fetchpriority="high" decoding="async" width="1000" height="667" class="alignnone size-full wp-image-639422" src="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg" alt="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時 9" title="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時 10" srcset="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453.jpg 1000w, https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453-700x467.jpg 700w, https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453-200x133.jpg 200w, https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-56-51_991453-219x146.jpg 219w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p>CNEWS匯流新聞網記者潘語綺／宜蘭報導</p>
+<p>爭取國民黨宜蘭縣長提名的立委吳宗憲拋出「國小課後照顧班全面免費，並延長至晚間7點」政見。對此，民進黨宜蘭縣議員參選人游國連今（15）日於臉書發文表示，這項政策聽起來是對家長一大福利，但他身為一名在宜蘭基層教學現場服務超過25年的老師，必須從教育理念與教學實務的角度，提出深刻的擔憂。</p>
+<p>「孩子待在學校11個小時，真的對孩子好嗎？」游國連指出，教育不該只是「安置」，孩子需要喘息空間；而政策推行，錢確實可以解決一部分問題，但教育的本質不應只是把孩子「留」在學校。</p>
+<p>游國連表示，若課後這各班延長至晚間7點，孩子待在校園的時間將長達11小時，對成長中的學童而言是極大的身心壓力，孩子需要的是放鬆、與家人相處，以及探索校園外的多元生活，而非被單一地安置在課桌椅前。就像是寒暑假的原意是讓學生離開框架，摸索自己感興趣的事物，「全面免費且轉向長時間在校，恐剝奪孩子學習自主規劃時間的權利」。</p>
+<p>「吳宗憲的政見背後，隱藏著第一線師資面臨崩潰的現實。」游國連進一步表示，若延長照顧時間，勢必增加基層教師的沉重負擔。教師也是人，也需要下班回歸家庭照顧自己的孩子；相信基層教師與工會，將會對此類「壓榨式照顧」表達強烈疑慮。</p>
+<p><img decoding="async" width="1000" height="667" class="alignnone size-full wp-image-639425" src="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_11-14-02_863733.jpg" alt="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時 11" title="指吳宗憲政見增基層教師沉重負擔　游國連提3解方：不應將孩子留在學校11小時 12" srcset="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_11-14-02_863733.jpg 1000w, https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_11-14-02_863733-700x467.jpg 700w, https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_11-14-02_863733-200x133.jpg 200w, https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_11-14-02_863733-219x146.jpg 219w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p>游國連也提到特教生照顧的專業難題，指出目前特教生已有暑寒假課後班，但目前面臨的最核心問題是找不到足夠合格特教老師；特教照護不像一般課後班只要大學畢業即可，若缺乏專業師資，全面免費只是徒具虛名，無法提供高品質的陪伴。</p>
+<p>游國連以自己曾參與的「夜光天使」實務經驗為例，教育部於2008年為了強化弱勢扶助，創辦「夜光天使點燈專案計畫」，開放到晚上8點，而他當年就是宜蘭縣第一批申請辦理的學校。</p>
+<p>「然而，這項計畫學校堅持了6年，最後仍無以為繼。」游國連指出，因為要執行這項計畫，必須要有願意犧牲奉獻，從早上8點上班到晚上8點的老師。 他曾以輔導主任親自帶頭做了2年，再找2位熱血夥伴各接手2年；6年過去，卻再也找不到願意如此燃燒生命的老師。教育品質不能只靠第一線教師的犧牲與熱情來撐起，這是可持續的運作的政策模型。</p>
+<p>游國連以「專業分工、精準扶助」為前提，提出3項主張。第一、將資源集中在弱勢，持續完善現有「夜光天使」與「課後照顧」機制，讓低收、失親、經濟弱勢家庭獲得真正的專業扶助，而非不分對象的全面齊頭式福利；第二、多元照顧網絡，減輕育兒壓力應結合民間與社區力量，而非單純延長學生在校時間及讓基層教師承擔家庭照顧責任。</p>
+<p>游國連進一步指出，第三、保障師資權益，在沒有良好的教學環境與合理的工時，就沒有優質的教育品質；教師要著重在教學內容及學生的學習，不是變成安親班老師。</p>
+<p>「應給孩子空間，給老師尊嚴。」游國連強調，吳宗憲所提出之教育政見與現場教育理念不合，所有政策都必須回歸教育本質、拒絕口號式的政見，要給宜蘭孩子更健康、更有彈性的未來。</p>
+<p>照片來源：翻攝自游國連臉書</p>
+<p>《更多CNEWS匯流新聞網報導》</p>
+<p><a href="https://cnews.com.tw/235260115a01/">鄭麗君、楊珍妮昨赴美第6輪磋商　4目標會後將對外宣布共識內容</a></p>
+<p><a href="https://cnews.com.tw/235260114a07/">賴清德3問「金門縣長人選」沒下文　地方人士揭露陳玉珍強大原因</a></p>
+<p>【文章轉載請註明出處】</p>
+		      
+                        <br class="clear">
+                                          </article>
+                                            
+        <!--
+                  <div id="ypaAdWrapper-cnews_1"></div>
+        -->
+                  <ul class="keywords"><li class="icon"></li><li><a href="https://cnews.com.tw/tag/%e6%b8%b8%e5%9c%8b%e9%80%a3/">游國連</a></li><li><a href="https://cnews.com.tw/tag/%e5%9f%ba%e5%b1%a4%e6%95%99%e5%b8%ab/">基層教師</a></li><li><a href="https://cnews.com.tw/tag/%e5%90%b3%e5%ae%97%e6%86%b2/">吳宗憲</a></li></ul>
+                  <ul class="page-tab">
+                        <li>
+                                                            <a href="https://cnews.com.tw/003260115a01/">
+                                    <figure>
+                                        <div class="photo bg-center full lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_10-54-09_095007.jpg">
+                                            <div class="_read-more"></div>
+                                        </div>
+                                        <span class="prev"></span>
+                                        <h3>台灣人常用藥前五名止痛藥占2種！   「過量使用」反成送醫禍首</h3>
+                                    </figure>
+                                </a>
+                                                    </li>
+                        
+                        <!-- 同樣的邏輯也可以應用在下一篇文章的部分 -->
+                        <li>
+                                                            <a href="https://cnews.com.tw/%e3%80%90%e4%bd%95%e5%95%9f%e8%81%96%e5%b0%88%e6%ac%84%e3%80%91%e7%95%b6%e7%be%8e%e5%9c%8b%e9%81%b8%e6%93%87%e9%99%8d%e6%ba%ab-%e5%8f%b0%e7%81%a3%e5%8d%bb%e9%82%84%e5%9c%a8%e8%87%aa%e6%88%91%e5%8d%87/">
+                                    <figure>
+                                        <div class="photo bg-center full lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/01/2026-01-15_11-14-05_699491.jpg">
+                                            <div class="_read-more"></div>
+                                        </div>
+                                        <span class="next"></span>
+                                        <h3>【何啟聖專欄】當美國選擇降溫 台灣卻還在自我升高風險？</h3>
+                                    </figure>
+                                </a>
+                                                    </li>
+                    </ul>
+
+                                            <div class="extend-wrapper">
+                          <h2>延伸閱讀</h2>
+                          <div class="aside-tab">
+
+                                                        <figure class="tab-item">
+                                  <div class="flag cyan">
+                                      <a href="https://cnews.com.tw/category/%e6%96%b0%e8%81%9e%e5%8c%af%e6%b5%81/">新聞匯流</a>
+                                  </div>
+                                  <a href="https://cnews.com.tw/%e3%80%90cnews%e3%80%91%e8%bc%95%e6%94%be%e6%83%a1%e4%ba%ba%e6%87%b2%e7%bd%b0%e5%a5%bd%e4%ba%ba%ef%bc%81%e9%80%b2%e6%ad%a5%e4%ba%ba%e6%ac%8a%e5%8f%8d%e8%ae%8a%e6%95%99%e8%82%b2%e6%82%b2%e6%ad%8c/">
+                                      <div class="photo bg-center full fit lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/07/2026-07-05_17-27-56_468646-700x467.jpg">
+                                          <div class="_read-more"><span class="hide-sm">READ MORE</span></div>
+                                      </div>
+                                      <h3>
+                                          【CNEWS】輕放惡人=懲罰好人！進步人權反變教育悲歌？侯漢廷怒轟民進黨：造就一群「超級大巨嬰」 ⁨                                      </h3>
+                                  </a>
+                                  <ul class="info cyan">
+                                      <li class="date">
+                                          <span class="icon calendar"></span>
+                                          <span>2026-07-05</span>
+                                      </li>
+                                      <li class="user">
+                                          <span class="icon author"></span>
+                                          <a href="https://cnews.com.tw/author/cnews188/" title="「韓 羽婕」的文章" rel="author">韓 羽婕</a>                                      </li>
+                                      <li class="tags">
+                                          <span class="icon tag"></span>
+                                          <a href="https://cnews.com.tw/tag/%e5%ae%89%e9%a4%8a%e4%b8%ad%e5%bf%83/">安養中心</a><a href="https://cnews.com.tw/tag/%e5%b1%81%e5%ad%a9/">屁孩</a><a href="https://cnews.com.tw/tag/%e6%b0%91%e9%80%b2%e9%bb%a8/">民進黨</a>                                      </li>
+                                  </ul>
+                              </figure>
+                                                            <figure class="tab-item">
+                                  <div class="flag cyan">
+                                      <a href="https://cnews.com.tw/category/%e6%96%b0%e8%81%9e%e5%8c%af%e6%b5%81/">新聞匯流</a>
+                                  </div>
+                                  <a href="https://cnews.com.tw/%e3%80%90cnews%e3%80%91%e8%a7%a3%e9%8e%96rap%e6%8a%80%e8%83%bd%ef%bc%9f%e9%84%ad%e9%8a%98%e8%ac%99%e9%96%8b%e5%95%9f%e3%80%8c%e7%84%a1%e9%99%90%e8%bc%aa%e8%bf%b4%e3%80%8d-%e5%90%b3%e5%ae%97%e6%86%b2/">
+                                      <div class="photo bg-center full fit lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/10/2026-10-14_12-24-13_529864-700x467.jpg">
+                                          <div class="_read-more"><span class="hide-sm">READ MORE</span></div>
+                                      </div>
+                                      <h3>
+                                          【CNEWS】解鎖Rap技能？鄭銘謙開啟「無限輪迴」 吳宗憲傻眼怒：部長你在幹什麼                                      </h3>
+                                  </a>
+                                  <ul class="info cyan">
+                                      <li class="date">
+                                          <span class="icon calendar"></span>
+                                          <span>2026-10-14</span>
+                                      </li>
+                                      <li class="user">
+                                          <span class="icon author"></span>
+                                          <a href="https://cnews.com.tw/author/cnews198/" title="「王 聿瀠」的文章" rel="author">王 聿瀠</a>                                      </li>
+                                      <li class="tags">
+                                          <span class="icon tag"></span>
+                                          <a href="https://cnews.com.tw/tag/%e6%b0%91%e7%9c%be%e9%bb%a8/">民眾黨</a><a href="https://cnews.com.tw/tag/%e5%90%b3%e5%ae%97%e6%86%b2/">吳宗憲</a><a href="https://cnews.com.tw/tag/%e9%83%a8%e9%95%b7/">部長</a>                                      </li>
+                                  </ul>
+                              </figure>
+                                                            <figure class="tab-item">
+                                  <div class="flag cyan">
+                                      <a href="https://cnews.com.tw/category/%e6%96%b0%e8%81%9e%e5%8c%af%e6%b5%81/">新聞匯流</a>
+                                  </div>
+                                  <a href="https://cnews.com.tw/250261013a07/">
+                                      <div class="photo bg-center full fit lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/10/2026-10-13_17-04-29_747859-e1791882277171.jpg">
+                                          <div class="_read-more"><span class="hide-sm">READ MORE</span></div>
+                                      </div>
+                                      <h3>
+                                          樂見吳宗憲跟進「當公務員靠山」　林國漳競辦：盼對手堂堂正正打選戰                                      </h3>
+                                  </a>
+                                  <ul class="info cyan">
+                                      <li class="date">
+                                          <span class="icon calendar"></span>
+                                          <span>2026-10-13</span>
+                                      </li>
+                                      <li class="user">
+                                          <span class="icon author"></span>
+                                          <a href="https://cnews.com.tw/author/cnews250/" title="「黃 泰宇」的文章" rel="author">黃 泰宇</a>                                      </li>
+                                      <li class="tags">
+                                          <span class="icon tag"></span>
+                                          <a href="https://cnews.com.tw/tag/%e6%9e%97%e5%9c%8b%e6%bc%b3/">林國漳</a><a href="https://cnews.com.tw/tag/%e5%ae%9c%e8%98%ad%e7%b8%a3%e9%95%b7%e9%81%b8%e6%88%b0/">宜蘭縣長選戰</a><a href="https://cnews.com.tw/tag/%e5%90%b3%e5%ae%97%e6%86%b2/">吳宗憲</a>                                      </li>
+                                  </ul>
+                              </figure>
+                                                        </div>
+                      </div>
+                                      <div id="_popIn_recommend"></div>
+                      <script type="text/javascript">
+            
+                          (function() {
+                              var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.charset = "utf-8"; pa.async = true;
+                              pa.src = window.location.protocol + "//api.popin.cc/searchbox/cnews_tw.js";
+                              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+                          })(); 
+                      </script>
+                  <div class="fb-comments" data-width="100%" data-numposts="3"></div>
+              </div>
+
+              <div class="small-banner">
+    </div>          </div>
+
+          <aside class="article-right aside">
+        <hgroup class="aside-title shape-z cyan ">
+        <h3>Selected Articles</h3>
+        <h4>政治匯流精選</h4>
+    </hgroup>
+
+    <hr class="">
+    
+    <div class="aside-tab ">
+                    <figure class="tab-item">
+                                <a href="https://cnews.com.tw/247261012a02/">
+                    <div class="photo bg-center full lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/10/2026-10-12_14-25-00_885030.jpg                    ">
+                        <div class="_read-more"></div>
+                    </div>
+                    <h3>
+                        中午來開匯／指柯文哲定調2028藍白合　江和樹：真正的小草不會情勒國民黨                    </h3>
+                </a>
+                                <ul class="info">
+                    <li class="date">
+                        <span class="icon calendar"></span>
+                        <span>2026-10-12</span>
+                    </li>
+                </ul>
+            </figure>
+                    <figure class="tab-item">
+                                <a href="https://cnews.com.tw/262171002a02/">
+                    <div class="photo bg-center full lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/10/2026-10-02_11-36-04_372685.jpg                    ">
+                        <div class="_read-more"></div>
+                    </div>
+                    <h3>
+                        【選情快報2-2】蔣豐懋解析6都最後攻防　台北外溢、新北決勝時機點、高雄「關鍵王牌」                    </h3>
+                </a>
+                                <ul class="info">
+                    <li class="date">
+                        <span class="icon calendar"></span>
+                        <span>2026-10-02</span>
+                    </li>
+                </ul>
+            </figure>
+                    <figure class="tab-item">
+                                <a href="https://cnews.com.tw/262171002a01/">
+                    <div class="photo bg-center full lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/10/2026-10-02_11-34-30_682135.jpg                    ">
+                        <div class="_read-more"></div>
+                    </div>
+                    <h3>
+                        【選情快報2-1】沈伯洋相關聲量增875％　蔣豐懋：「人設檢驗戰」正式點燃                    </h3>
+                </a>
+                                <ul class="info">
+                    <li class="date">
+                        <span class="icon calendar"></span>
+                        <span>2026-10-02</span>
+                    </li>
+                </ul>
+            </figure>
+                    <figure class="tab-item">
+                                <a href="https://cnews.com.tw/262170930a01/">
+                    <div class="photo bg-center full lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/09/2026-09-30_13-39-26_122697.jpg                    ">
+                        <div class="_read-more"></div>
+                    </div>
+                    <h3>
+                        追「洋流」啟動念刑法番外篇　國三生曬自學筆記、沈伯洋留言鼓勵                    </h3>
+                </a>
+                                <ul class="info">
+                    <li class="date">
+                        <span class="icon calendar"></span>
+                        <span>2026-09-30</span>
+                    </li>
+                </ul>
+            </figure>
+                    <figure class="tab-item">
+                                <a href="https://cnews.com.tw/174260930a02/">
+                    <div class="photo bg-center full lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2026/09/2026-09-30_11-55-10_570905.jpg                    ">
+                        <div class="_read-more"></div>
+                    </div>
+                    <h3>
+                        鞭刑公投遭擋改走修法　洪孟楷提4類重大犯罪最高12鞭                    </h3>
+                </a>
+                                <ul class="info">
+                    <li class="date">
+                        <span class="icon calendar"></span>
+                        <span>2026-09-30</span>
+                    </li>
+                </ul>
+            </figure>
+            </div>
+
+    <hr class="">
+    <!--
+    <hgroup class="aside-title shape-z cyan" >
+        <h3>Most Popular</h3>
+        <h4>熱門排行</h4>
+    </hgroup>
+    
+    
+    <hr>
+
+        <div class="aside-tab">
+            </div>
+
+    <hr>
+    -->
+    <hgroup class="aside-title shape-l cyan">
+        <h3>ADVERTISEMENT</h3>
+    </hgroup>
+
+    <div class="height-banner" style="height:auto;">
+            </div>
+
+    <hgroup class="aside-title shape-l cyan">
+        <h3>JOIN US ON FACEBOOK</h3>
+    </hgroup>
+
+    <div class="fb-page mt-md" data-href="https://www.facebook.com/CNEWSTW/" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/CNEWSTW/" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/CNEWSTW/">
+                CNEWS
+            </a>
+        </blockquote>
+    </div>
+</aside>      </div>
+  </section>
+
+  <div id="goTop" class="go-top fixed">
+    <a href="javascript:;" onclick="topFunction();">
+        <span class="icon arrow-up"></span>
+    </a>
+</div></main>
+<div class="hide show">R18</div>
+
+
+<section id="sponsor" class="section-wrapper bg-gray">
+    <div class="slider-wrapper">
+        <div id="sponsorSlider">
+            <div id="jssor_4" class="jssor">
+                <div class="loading" data-u="loading" style="position: absolute; top: 0; left: 0;">
+                    <div class="_mask"></div>
+                </div>
+                <div data-u="slides" class="slider-photos">
+                                        
+                        <div class="slider-photo" style="display: none;">
+                            <a href="https://www.taiwanmobile.com/index.html" target="_blank">
+                                <div class="slider-image lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2020/08/TWM_橫式_中文_白底.jpg"></div>
+                            </a>
+                        </div>
+
+                        
+                        <div class="slider-photo" style="display: none;">
+                            <a href="http://www.emome.net/" target="_blank">
+                                <div class="slider-image lazyload" data-src="https://cnews.com.tw/wp-content/uploads/電信公司a-01.jpg"></div>
+                            </a>
+                        </div>
+
+                        
+                        <div class="slider-photo" style="display: none;">
+                            <a href="https://www.youtube.com/playlist?list=PLvLRbCbNVPiA1Cz0bGW2Q2Wk0X-aP6LOB" target="_blank">
+                                <div class="slider-image lazyload" data-src="https://cnews.com.tw/wp-content/uploads/2021/02/20210223cnews-FOOD-GROUP.png"></div>
+                            </a>
+                        </div>
+
+                        
+                        <div class="slider-photo" style="display: none;">
+                            <a href="https://www.youtube.com/playlist?list=PLvLRbCbNVPiCKPQE9vklQxA-dXpoF-1uQ" target="_blank">
+                                <div class="slider-image lazyload" data-src="https://cnews.com.tw/wp-content/uploads/20200713a02.jpg"></div>
+                            </a>
+                        </div>
+
+                        
+                        <div class="slider-photo" style="display: none;">
+                            <a href="http://www.fetnet.net/Home/index.html" target="_blank">
+                                <div class="slider-image lazyload" data-src="https://cnews.com.tw/wp-content/uploads/電信公司a-02.jpg"></div>
+                            </a>
+                        </div>
+
+                                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="area-1">
+        <ul class="footer-list"><li id="menu-item-8453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8453"><a href="https://cnews.com.tw/author/">作者列表</a></li>
+<li id="menu-item-8461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8461"><a href="https://cnews.com.tw/%e7%89%88%e6%ac%8a%e8%81%b2%e6%98%8e/">版權聲明</a></li>
+<li id="menu-item-8462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8462"><a href="https://cnews.com.tw/%e5%bb%a3%e5%91%8a%e6%b4%bd%e8%a9%a2/">廣告洽詢</a></li>
+<li id="menu-item-8454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8454"><a href="https://cnews.com.tw/aboutus/">關於我們</a></li>
+<li id="menu-item-8455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8455"><a href="https://cnews.com.tw/contactus/">聯絡我們</a></li>
+ </ul>    </div>
+    <div class="area-2">
+        <img src="https://cnews.com.tw/wp-content/themes/cnews-theme/assets/images/logo_02.svg" alt="CNEWS">
+    </div>
+    <div class="area-3">
+        <div class="social-media-wrapper">
+            <a href="https://www.facebook.com/CNEWSTW/" target="_blank" class="icon facebook"></a>
+            <a href="https://page.line.me/cho1008w" target="_blank" class="icon line"></a>
+        </div>
+    </div>
+    <div class="area-4">
+        © 2023 CNEWS ALL RIGHTS RESERVED.
+        <div class="co-pos">
+            Design & Develop by <a href="http://nongdesign.com/" target="_blank">NongDesign.com(弄弄設計)</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+// // facebook sdk
+// (function(d, s, id) {
+// var js, fjs = d.getElementsByTagName(s)[0];
+// if (d.getElementById(id)) return;
+// js = d.createElement(s);
+// js.id = id;
+// js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";//&appId=1091669770929856";
+// fjs.parentNode.insertBefore(js, fjs);
+// }(document, 'script', 'facebook-jssdk'));
+
+
+<!-- Start Alexa Certify Javascript -->
+_atrk_opts = { atrk_acct:"K5fOn1QolK10fn", domain:"cnews.com.tw",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+<!-- End Alexa Certify Javascript -->
+
+//<script type="text/javascript" src="//static.adsinstant.com/cnews/ypa.js">
+//demo page
+//http://ex.adsinstant.com/cnews.html?c=dvd
+if("undefined"==typeof TECHOCEAN||!TECHOCEAN)var TECHOCEAN={};TECHOCEAN.config={ypaJsUrl:"https://s.yimg.com/uv/dm/scripts/syndication.js",prefix:"ypaAdWrapper-",adSlot:["cnews_bf","cnews_3","cnews_1","cnews_2"]};
+(function(){TECHOCEAN.tool={};TT=TECHOCEAN.tool;TT.mobilecheck=function(){var a=!1,b=navigator.userAgent||navigator.vendor||window.opera;if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(b)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(b.substr(0,
+        4)))a=!0;return a};TT.Dom={_reClassNameCache:{},_getClassRegEx:function(a){var b=TT.Dom._reClassNameCache[a];b||(b=new RegExp("(?:^|\\s+)"+a+"(?:\\s+|$)"),TT.Dom._reClassNameCache[a]=b);return b},hasClass:function(a,b){if("undefined"==typeof a||null==a||!RegExp)return!1;var c=new RegExp("(^|\\s)"+b+"(\\s|$)");return"string"==typeof a?c.test(a):"object"==typeof a&&a.className?c.test(a.className):!1},getElementsByClassName:function(a,b,c,e){c=c||document;var d=[];b=c.getElementsByTagName(b||"*");a=
+    TT.Dom._getClassRegEx(a);c=0;for(var f=b.length;c<f;c++)a.test(b[c].className)&&(d[d.length]=b[c],e&&e.call(b[c],b[c]));return d},getAncestorByTagName:function(a,b){for(;a=a.parentNode;)if(a.tagName.toLowerCase()==b)return a;return null},addEvent:function(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent?a.attachEvent("on"+b,c):a["on"+b]=c},handleOnLoad:function(a,b){"undefined"!=typeof a.onload?a.onload=b:a.onreadystatechange=function(){"loaded"!==a.readyState&&"complete"!==a.readyState||
+b()}}};TT.createEl={get:function(a){var b=a.tag||"";if(b){var c=a.html||"",e=a.handleOnLoad||"";a=a.oAttr||"";var b=document.createElement(b),d;for(d in a)b[d]=a[d];c&&(b.innerHTML=c);this.append(b);TT.Dom.handleOnLoad(b,e);return b}},append:function(a){(document.getElementsByTagName("head")[0]||document.body).appendChild(a)},remove:function(a){setTimeout(function(){a.parentNode.removeChild(a);a=null},0)},css:function(a){return a.media||(a.media="all"),this.get({tag:"link",oAttr:{href:a.url,rel:"stylesheet",
+    type:"text/css",media:a.media}})},js:function(a){return this.get({tag:"script",oAttr:{src:a.url,type:"text/javascript"},handleOnLoad:a.handleOnLoad})}};TT.getUrlArgument=function(a,b){a=a.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var c=new RegExp("[\\?&]"+a+"=([^&#]*)");return c.exec(b)?c.exec(b)[1]:""}})();
+(function(){var a=TT.Dom.getElementsByClassName("addtoany_content_top")[0];if(a){var b=document.createElement("div");b.id="ypaAdWrapper-cnews_1";a.parentNode.insertBefore(b,a.nextSibling)}if(a=TT.Dom.getElementsByClassName("sharedaddy")[0])b=document.createElement("div"),b.id="ypaAdWrapper-cnews_3",a.parentNode.insertBefore(b,a)})();
+(function(){var a="\u884c\u52d5\u4e0a\u7db2 \u5149\u7e96 \u5bec\u983b\u8cbb\u7387 \u5bec\u983b \u7121\u7dda\u4e0a\u7db2 4G ADSL \u7db2\u8def\u884c\u92b7 \u7db2\u7ad9\u67b6\u8a2d \u865b\u64ec\u4e3b\u6a5f \u7121\u9650\u4e0a\u7db2 iphone\u7dad\u4fee app\u8a2d\u8a08 \u652f\u4ed8\u5bf6 4g\u624b\u6a5f\u63a8\u85a6".split(" "),b=function(){for(var a=0,b=TECHOCEAN.config.adSlot.length;a<b;a++){var c=document.getElementById(TECHOCEAN.config.prefix+TECHOCEAN.config.adSlot[a]+"-iframe");c&&c.setAttribute("width",
+    "100%")}},c=function(){var c;c=document.referrer.toString();c=TT.getUrlArgument("p",c)||TT.getUrlArgument("q",c);c=0<c.length?decodeURIComponent(c):a[Math.floor(Math.random()*a.length)];TECHOCEAN.AD.ypaConfig.ypaPubParams={query:c};TECHOCEAN.AD.ypaConfig.ypaAdTypeTag=encodeURIComponent(c).replace(/%/g,"_");window.ypaAds.insertMultiAd(TECHOCEAN.AD.ypaConfig);setTimeout(b,10)};TECHOCEAN.AD={defaultQury:"",ypaConfig:{ypaAdConfig:"000000931",ypaAdTypeTag:"",ypaAdSlotInfo:[{ypaAdSlotId:"cnews_bf",ypaAdDivId:"ypaAdWrapper-cnews_bf",
+    ypaAdWidth:"600",ypaAdHeight:"1"},{ypaAdSlotId:"cnews_3",ypaAdDivId:"ypaAdWrapper-cnews_3",ypaAdWidth:"600",ypaAdHeight:"1"},{ypaAdSlotId:"cnews_1",ypaAdDivId:"ypaAdWrapper-cnews_1",ypaAdWidth:"600",ypaAdHeight:"1"},{ypaAdSlotId:"cnews_2",ypaAdDivId:"ypaAdWrapper-cnews_2",ypaAdWidth:"600",ypaAdHeight:"1"}]},init:function(){TT.createEl.js({url:TECHOCEAN.config.ypaJsUrl,handleOnLoad:c})}};TECHOCEAN.ucf={genHtml:function(){var a=document.createElement("div");a.className="adsinstant-ucf-ad";var b=document.createElement("div");
+    b.className="adsinstant-ucf-ad-bd";a.innerHTML='<div class="adsinstant-ucf-ad-hd"><a href="#" class="adsinstant-ucf-ad-close" title="\u95dc\u9589\u5ee3\u544a">x</a></div>';document.getElementsByTagName("body")[0].appendChild(a);a.appendChild(b);return b},init:function(a){var b=a||"ad-333824A379D972BC3A6D442EDB696B3",c=this.genHtml();TT.createEl.js({url:"//agent.aralego.com/sdk",handleOnLoad:function(){var a=TT.Dom.getElementsByClassName("adsinstant-ucf-ad-close")[0];TT.Dom.addEvent(a,"click",function(b){window.event?
+    window.event.returnValue=!1:b.preventDefault?b.preventDefault():b.returnValue=!1;for(b=a.parentNode.parentNode;b.firstChild;)b.removeChild(b.firstChild)});window.ucf.insertAd({ad_unit_id:b,ad_width:300,ad_height:250,auto:!0},c);TT.createEl.css({url:"//static.adsinstant.com/daliulian/ucf.css"})}})}}})();TECHOCEAN.AD.init();
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76233298-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76233298-1');
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=K5fOn1QolK10fn" style="display:none" height="1" width="1" alt="" /></noscript>
+<link href="https://cnews.com.tw/wp-content/themes/cnews-theme/assets/styles/main.css" rel="stylesheet">
+<script src="https://cnews.com.tw/wp-content/themes/cnews-theme/assets/scripts/main.js" async></script>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/cnews-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+    const originalSize = 22; // 原始字體大小
+
+    // 取得文章段落
+    const articleParagraphs = document.querySelectorAll('.theme-article-content article p');
+
+    // 設置按鈕的事件監聽器
+    document.getElementById('a_small').addEventListener('click', function() {
+        changeFontSize(-2);
+    });
+
+    document.getElementById('a_midd').addEventListener('click', function() {
+        setFontSize(originalSize);
+    });
+
+    document.getElementById('a_big').addEventListener('click', function() {
+        changeFontSize(2);
+    });
+
+    function changeFontSize(change) {
+        articleParagraphs.forEach(p => {
+            const currentSize = parseFloat(window.getComputedStyle(p).fontSize);
+            p.style.fontSize = `${currentSize + change}px`;
+        });
+    }
+
+    function setFontSize(size) {
+        articleParagraphs.forEach(p => {
+            p.style.fontSize = `${size}px`;
+        });
+    }
+});
+</script><script type="text/javascript" src="https://cnews.com.tw/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-12-02 18:51:57+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"zh_TW"},"This contact form is placed in the wrong place.":["\u9019\u4efd\u806f\u7d61\u8868\u55ae\u653e\u5728\u932f\u8aa4\u7684\u4f4d\u7f6e\u3002"],"Error:":["\u932f\u8aa4:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+/* ]]> */
+</script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/cnews.com.tw\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LfkCPwiAAAAAESobauric5Jqbz353r7-fou8bDD&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-before">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {
+    "sitekey": "6LfkCPwiAAAAAESobauric5Jqbz353r7-fou8bDD",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+//# sourceURL=wpcf7-recaptcha-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cnews.com.tw/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.7" id="wpcf7-recaptcha-js"></script>
+
+	<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4cf57a39c9fdeff',t:'MTc5MjQwODI4OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

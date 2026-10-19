@@ -1,0 +1,2366 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="medium" content="news">
+    <meta property="og:site_name" content="鉅聞天下">
+    <meta property="og:locale" content="zh_TW" />
+    <meta name="theme-color" content="#e0bc57" />
+    <title>徵召挑戰張善政？　王義川：讓我再想想 - BigMedia鉅聞天下</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/blob/img/favicon2.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/blob/img/logo-small.png">
+    
+    <!-- 資源提示：提升外部資源載入效能 -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+    <link rel="preconnect" href="https://securepubads.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="dns-prefetch" href="https://player.svc.litv.tv">
+    <link rel="dns-prefetch" href="https://cdn.websitepolicies.io">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/css/meanmenu.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/overwrite.css?v=SSyjQ-lowRfJSluBtza54DUyT_HBKR66hrhHHIuzngs">
+    <link rel="stylesheet" href="/css/toast.css">
+    
+    <!-- 響應式搜尋表單樣式 -->
+    <style>
+        /* 手機版搜尋表單 */
+        .mobile-search-form {
+            display: block;
+        }
+        
+        /* 桌面版隱藏手機版搜尋表單 */
+        @media (min-width: 768px) {
+            .mobile-search-form {
+                display: none;
+            }
+        }
+        
+        /* 手機版隱藏桌面版搜尋表單 */
+        @media (max-width: 767px) {
+            .main-navbar .others-options {
+                display: none;
+            }
+        }
+        
+        /* 手機版搜尋按鈕樣式 */
+        .mobile-search-form button:hover {
+            background: #0056b3 !important;
+        }
+        
+        .mobile-search-form input:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+        }
+        
+        /* 確保手機版漢堡選單按鈕顯示 */
+        @media (max-width: 1199px) {
+            .main-responsive-nav .mean-container a.meanmenu-reveal {
+                display: block !important;
+                z-index: 100003 !important;
+                position: fixed !important;
+                right: 10px !important;
+                top: 10px !important;
+            }
+            
+            /* 確保 logo 連結可以點擊 */
+            .main-responsive-nav .logo {
+                z-index: 100001 !important;
+                position: relative !important;
+            }
+            
+            .main-responsive-nav .logo a {
+                position: relative !important;
+                z-index: 100002 !important;
+                pointer-events: auto !important;
+                display: inline-block !important;
+            }
+            
+            .main-responsive-nav .logo img {
+                position: relative !important;
+                z-index: 100002 !important;
+                pointer-events: auto !important;
+            }
+            
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-bar {
+                z-index: 100000 !important;
+                pointer-events: none !important;
+            }
+            
+            /* 確保漢堡選單按鈕可以點擊，即使父元素有 pointer-events: none */
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-bar a.meanmenu-reveal {
+                pointer-events: auto !important;
+                cursor: pointer !important;
+                z-index: 100003 !important;
+                /* 擴大可點擊區域 */
+                padding: 15px !important;
+                min-width: 50px !important;
+                min-height: 50px !important;
+                box-sizing: border-box !important;
+            }
+            
+            /* 確保按鈕內部的 span 元素不會阻擋點擊 */
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-bar a.meanmenu-reveal span {
+                pointer-events: none !important;
+            }
+            
+            /* mean-bar 不遮蓋 logo 區域 */
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-bar::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 200px;
+                height: 100%;
+                pointer-events: none;
+                z-index: -1;
+            }
+            
+            /* 修正子選單展開/收合按鈕（+/-）的位置 */
+            .mean-container .mean-nav ul li a.mean-expand {
+                position: absolute !important;
+                right: 0 !important;
+                top: 0 !important;
+                width: 40px !important;
+                height: 100% !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                text-align: center !important;
+                line-height: 48px !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                font-size: 20px !important;
+                color: #09101f !important;
+            }
+            
+            /* 確保選單項目有足夠的右側空間給展開按鈕 */
+            .mean-container .mean-nav ul li {
+                position: relative !important;
+            }
+            
+            .mean-container .mean-nav ul li a {
+                padding-right: 50px !important;
+            }
+            
+            /* 確保展開的選單可以點擊 */
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-nav {
+                z-index: 100001 !important;
+                pointer-events: auto !important;
+                max-height: calc(100vh - 70px);
+                max-height: calc(100dvh - 70px);
+                overflow-x: hidden !important;
+                overflow-y: auto !important;
+                overscroll-behavior-y: contain;
+                touch-action: pan-y;
+                -webkit-overflow-scrolling: touch;
+                padding-bottom: env(safe-area-inset-bottom);
+            }
+
+            /* 由 mean-nav 統一負責手機選單捲動，避免巢狀捲動容器攔截觸控手勢 */
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-nav .navbar-nav {
+                height: auto !important;
+                max-height: none !important;
+                overflow: visible !important;
+            }
+
+            /* 頁面捲動後導覽列會變成 fixed，將漢堡按鈕與選單面板固定在視窗避免被 sticky 容器裁切 */
+            .navbar-area.is-sticky .main-responsive-nav .main-responsive-menu.mean-container .mean-bar {
+                position: fixed !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+            }
+
+            .navbar-area.is-sticky .main-responsive-nav .main-responsive-menu.mean-container .mean-nav {
+                position: fixed !important;
+                top: 55px !important;
+                left: 0 !important;
+                width: 100% !important;
+                margin-top: 0 !important;
+                max-height: calc(100vh - 55px);
+                max-height: calc(100dvh - 55px);
+            }
+            
+            /* 選單項目可以點擊，但不影響原有 float 佈局 */
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li {
+                z-index: 100002 !important;
+            }
+            
+            .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a {
+                z-index: 100003 !important;
+                pointer-events: auto !important;
+            }
+
+            /* 手機版上方外部連結列：固定單排，避免遮擋漢堡選單 */
+            .languages-list {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                gap: 8px;
+                padding-right: 56px;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+
+            .languages-list a {
+                margin-left: 0 !important;
+                flex: 0 0 auto;
+                line-height: 1.25;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .languages-list {
+                gap: 6px;
+                padding-right: 52px;
+            }
+
+            .languages-list .shopping-link {
+                display: none;
+            }
+        }
+
+        .footer-store-badges {
+            margin-top: 14px;
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .footer-store-badges a {
+            display: inline-flex;
+            align-items: center;
+            transition: transform 0.08s ease, opacity 0.2s ease;
+        }
+
+        .footer-store-badges a:active,
+        .footer-store-badges a:focus-visible {
+            transform: scale(0.98);
+            opacity: 0.9;
+            outline: none;
+        }
+
+        .footer-store-badges img {
+            width: auto;
+            height: auto;
+            display: block;
+        }
+
+        .footer-store-badges .app-store img {
+            height: 40px;
+        }
+
+        .footer-store-badges .google-play img {
+            height: 50px;
+        }
+
+        .footer-store-badges .google-play {
+            margin-top: -3px;
+        }
+    </style>
+    
+    <!-- 頁面專用 Meta Tags -->
+    
+    <!-- 頁面專用 Meta Tags -->
+    <meta id="metaTitle" name="title" content="徵召挑戰張善政？&#x3000;王義川：讓我再想想" />
+    <meta id="metaDescription" name="description" content="(記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。&#xD;&#xA;昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德..." />
+    <meta id="metaKeywords" name="keywords" content="王義川,賴清德,2026,桃園市長" />
+    <meta id="metaImage" name="image" content="https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg" />
+    <meta id="ogTitle" property="og:title" content="徵召挑戰張善政？&#x3000;王義川：讓我再想想" />
+    <meta id="ogDescription" property="og:description" content="(記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。&#xD;&#xA;昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德..." />
+    <meta id="ogImage" property="og:image" content="https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg" />
+    <meta id="ogUrl" property="og:url" content="https://www.bigmedia.com.tw/article/1772088123627" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta id="ogKeywords" property="og:keywords" content="王義川,賴清德,2026,桃園市長" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta id="ogImageAlt" property="og:image:alt" content="徵召挑戰張善政？&#x3000;王義川：讓我再想想" />
+    <link id="imageSrcLink" rel="image_src" type="image/jpeg" href="https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg" />
+    <link id="canonicalLink" rel="canonical" href="https://www.bigmedia.com.tw/article/1772088123627" />
+    <meta id="articleSection" property="article:section" content="政治">
+    <meta id="articlePublishedTime" property="article:published_time" content="2026-02-26T13:56:00&#x2B;08:00">
+    <meta id="articleModifiedTime" property="article:modified_time" content="2026-02-26T14:42:00&#x2B;08:00">
+    <meta id="articleAuthor" property="article:author" content="鉅聞天下｜孫福應">
+    <meta property="article:locale" content="zh_TW" />
+                <meta property="article:tag" content="王義川" data-dynamic-article-tag="true" />
+                <meta property="article:tag" content="賴清德" data-dynamic-article-tag="true" />
+                <meta property="article:tag" content="2026" data-dynamic-article-tag="true" />
+                <meta property="article:tag" content="桃園市長" data-dynamic-article-tag="true" />
+    <meta id="metaSection" name="section" content="政治" />
+    <meta id="metaPubdate" name="pubdate" content="2026-02-26 13:56" />
+    <meta id="metaLastmod" name="lastmod" content="2026-02-26 14:42" />
+    <meta id="metaLastModifiedHttp" http-equiv="last-modified" content="Thu, 26 Feb 2026 06:42:00 GMT" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta id="twitterTitle" name="twitter:title" content="徵召挑戰張善政？&#x3000;王義川：讓我再想想" />
+    <meta id="twitterDescription" name="twitter:description" content="(記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。&#xD;&#xA;昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德..." />
+    <meta id="twitterImage" name="twitter:image" content="https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg" />
+
+    
+    <!-- 頁面專用 CSS -->
+    
+    <style>
+        /* 強制隱藏 Google 自動插入的註解標籤 */
+        .google-anno-skip,
+        .google-anno-sc,
+        [class^="google-anno-"] {
+            display: none !important;
+            visibility: hidden !important;
+            pointer-events: none !important;
+        }
+
+        /* 載入動畫樣式 */
+        .loading-spinner {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .loading-spinner::after {
+            content: '';
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-left: 8px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 廣告區域動畫效果 */
+        #top-banner-row {
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        #top-banner-row.show {
+            opacity: 1;
+        }
+
+        /* 標籤點擊樣式 */
+        .badge.bg-secondary {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .badge.bg-secondary:hover {
+            background-color: #6c757d !important;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .badge.bg-secondary:active {
+            transform: translateY(0);
+        }
+
+        .voice-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .voice-controls {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .voice-controls button {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+        
+        /* 為動態載入的容器設定最小高度，避免 CLS */
+        #related-articles,
+        .related-articles-container,
+        .tag-related-news-container {
+            min-height: 200px;
+        }
+        
+        #latest-news,
+        .latest-news-container {
+            min-height: 300px;
+        }
+
+        /* 相關新聞（標籤）區塊樣式 */
+        .tag-related-news-grid .fullimage {
+            display: block;
+            height: 140px;
+            background-position: center;
+        }
+        
+        /* 移除 min-height，避免空白區域（AdSense 會自己處理高度） */
+        
+        /* 移除所有 :empty 選擇器的隱藏邏輯，完全依賴 JavaScript 處理 */
+        
+        /* 當廣告容器隱藏時，移除 min-height 讓內容往上抬升 */
+        #top-banner-row[style*="display: none"],
+        #top-banner-row:not(:visible) {
+            min-height: 0 !important;
+            height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+        }
+        
+        #top-banner-row[style*="display: none"] #top-banner-ad,
+        #top-banner-row:not(:visible) #top-banner-ad {
+            min-height: 0 !important;
+            height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        #top-banner-row[style*="display: none"] .col-lg-12,
+        #top-banner-row:not(:visible) .col-lg-12 {
+            margin-bottom: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* 移除 :empty 規則，避免在 AdSense 載入前就隱藏 */
+        /* AdSense 廣告在載入前可能是空的，不應該立即隱藏 */
+        
+        /* 確保自營廣告圖片有尺寸，避免 CLS */
+        #top-banner-ad .single-main-news img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* 為 AdSense 廣告容器設定最小高度 */
+        ins.adsbygoogle {
+            min-height: 100px;
+            display: block;
+        }
+
+        /* 連續閱讀文章間距：此頁未載入 site.css，因此放在文章頁樣式中確保生效 */
+        .article-read-block + .article-read-block {
+            margin-top: 96px !important;
+            padding-top: 48px !important;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .article-inline-ad {
+            display: block !important;
+            margin: 48px 0 0 !important;
+        }
+
+        @media (max-width: 767.98px) {
+            .article-sidebar-column,
+            .article-interest-section {
+                display: none !important;
+            }
+
+            .tag-related-news-grid > div:nth-child(n + 3) {
+                display: none !important;
+            }
+        }
+        
+        /* 確保 AI iframe 不會出現 scroll bar */
+        .bigmedia-ai-iframe {
+            overflow: hidden !important;
+            overflow-x: hidden !important;
+            overflow-y: hidden !important;
+            border: none;
+        }
+    </style>
+
+    
+    
+    <!-- JavaScript Files -->
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.meanmenu.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/toast.js"></script>
+    <script src="https://player.svc.litv.tv/v3/ppnio.js"></script>
+    <script>
+        window.ppnio = window.ppnio || [];
+    </script>
+    
+    <!-- 頁面專用結構化資料 -->
+    
+    
+    <!-- NewsArticle 結構化資料（新聞網站必備） -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.bigmedia.com.tw/article/1772088123627"},"headline":"徵召挑戰張善政？\u3000王義川：讓我再想想","image":["https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg"],"datePublished":"2026-02-26T13:56:00+08:00","dateModified":"2026-02-26T14:42:00+08:00","author":{"@type":"Person","name":"孫福應","url":"https://www.bigmedia.com.tw/"},"publisher":{"@type":"Organization","name":"鉅聞天下","logo":{"@type":"ImageObject","url":"https://www.bigmedia.com.tw/blob/img/logo3.png"}},"description":"(記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。\r\n昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德..."}
+    </script>
+
+    <!-- Article 結構化資料（Rich Results 相容補強） -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.bigmedia.com.tw/article/1772088123627"},"headline":"徵召挑戰張善政？\u3000王義川：讓我再想想","image":["https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg"],"datePublished":"2026-02-26T13:56:00+08:00","dateModified":"2026-02-26T14:42:00+08:00","author":{"@type":"Person","name":"孫福應","url":"https://www.bigmedia.com.tw/"},"publisher":{"@type":"Organization","name":"鉅聞天下","logo":{"@type":"ImageObject","url":"https://www.bigmedia.com.tw/blob/img/logo3.png"}},"description":"(記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。\r\n昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德..."}
+    </script>
+
+    <!-- BreadcrumbList 結構化資料 -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://www.bigmedia.com.tw"},{"@type":"ListItem","position":2,"name":"政治","item":"https://www.bigmedia.com.tw/category/政治"},{"@type":"ListItem","position":3,"name":"徵召挑戰張善政？\u3000王義川：讓我再想想","item":"https://www.bigmedia.com.tw/article/1772088123627"}]}
+    </script>
+
+    <!-- Organization 結構化資料 -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Organization","@id":"https://www.bigmedia.com.tw#organization","name":"鉅聞天下","url":"https://www.bigmedia.com.tw","logo":{"@type":"ImageObject","url":"https://www.bigmedia.com.tw/blob/img/logo3.png","width":600,"height":60},"sameAs":["https://www.facebook.com/52%E6%96%B0%E8%81%9E%E8%81%9A%E6%A8%82%E9%83%A8-104018068497854","https://www.instagram.com/h.h.t.fm/","https://twitter.com/FM19930420","https://www.youtube.com/channel/UCRnMESVX4cewaPVEceZA5CA"]}
+    </script>
+    
+        <!-- ImageObject 結構化資料 -->
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"ImageObject","url":"https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg","caption":"王義川(右)是2024年大選爆紅的民進黨不分區立委，他可能被徵召參選桃園市長，他的辦公室主任蔡美華(左)也投入新北市議員初選。翻攝蔡美華臉書","name":"王義川(右)是2024年大選爆紅的民進黨不分區立委，他可能被徵召參選桃園市長，他的辦公室主任蔡美華(左)也投入新北市議員初選。翻攝蔡美華臉書"}
+        </script>
+
+    
+    <!-- 預設 WebSite 結構化資料（如果頁面沒有定義自己的結構化資料） -->
+</head>
+<body>
+    <!-- Top Header Area -->
+    <div b-3ttk0qshax class="top-header-area bg-ffffff">
+        <div b-3ttk0qshax class="container">
+            <div b-3ttk0qshax class="row align-items-center">
+                <!-- Logo -->
+                <div b-3ttk0qshax class="col-lg-5">
+                    <div b-3ttk0qshax class="top-header-logo">
+                        <a b-3ttk0qshax href="/">
+                            <img src="/blob/img/logo3.png" style="width: 200px" alt="鉅聞天下 BigMedia">
+                        </a>
+                        <span b-3ttk0qshax style="font-size:1.5em; margin-left: 16px;color: #f0632d;">立足台灣 放眼天下</span>
+                    </div>
+                </div>
+                <!-- 外部相關 -->
+                <div b-3ttk0qshax class="col-lg-7">
+                    <div b-3ttk0qshax class="languages-list">
+                        <a b-3ttk0qshax href="/app-download.html" class="app-download-link" data-ios-url="https://apps.apple.com/tw/app/%E9%89%85%E8%81%9E%E5%A4%A9%E4%B8%8B/id6758598908" data-android-url="https://play.google.com/store/apps/details?id=tw.com.bigmedia" style="min-height:48px">
+                            <img class="languages-icon" src="/images/app1.png" alt="APP">
+                            APP
+                        </a>
+                        <a b-3ttk0qshax href="/litv" style="min-height:48px">
+                            <img b-3ttk0qshax class="languages-icon" src="https://www.bigmedia.com.tw/blob/img/litv.png" alt="追劇">
+                            追劇
+                        </a>
+                        <a b-3ttk0qshax href="https://www.provoice.tw/" target="_blank" style="min-height:48px">
+                            <img b-3ttk0qshax class="languages-icon" src="https://www.bigmedia.com.tw/blob/img/provoice.png" alt="好好聽文創">
+                            好好聽文創
+                        </a>
+                        <a b-3ttk0qshax href="https://healthy.bigmedia.com.tw/" target="_blank" rel="noopener noreferrer" style="min-height:48px">
+                            <img b-3ttk0qshax class="languages-icon" src="https://healthy.bigmedia.com.tw/images/healthy-times-icon.png" alt="健康時報">
+                            健康時報
+                        </a>
+                        <a b-3ttk0qshax href="https://shop.provoice.tw/" target="_blank" class="shopping-link" style="min-height:48px">
+                            <img b-3ttk0qshax class="languages-icon" src="https://www.bigmedia.com.tw/blob/img/shopping.png" alt="好享買">
+                            好享買
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <div b-3ttk0qshax class="navbar-area">
+        <!-- Mobile Navigation -->
+        <div b-3ttk0qshax class="main-responsive-nav">
+            <div b-3ttk0qshax class="container">
+                <div b-3ttk0qshax class="main-responsive-menu">
+                    <div b-3ttk0qshax class="logo">
+                        <a b-3ttk0qshax href="/">
+                            <img b-3ttk0qshax src="https://www.bigmedia.com.tw/blob/img/logo3.png" alt="BigMedia鉅聞天下">
+                        </a>
+                        <span b-3ttk0qshax style="font-size: 0.8em; margin-left: 12px; color: #f0632d;">立足台灣 放眼天下</span>
+                    </div>
+                </div>
+                
+                <!-- 手機版搜尋表單 -->
+                    <div b-3ttk0qshax class="mobile-search-form" style="padding: 10px 0;">
+                        <form action="/Search/Index" class="search-box" method="post" style="display: flex; gap: 5px;">
+                            <input b-3ttk0qshax type="text" name="Keyword" class="form-control" placeholder="請輸入關鍵字" aria-label="搜尋關鍵字" style="flex: 1; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px;">
+                            <button b-3ttk0qshax type="submit" aria-label="搜尋" style="padding: 8px 12px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                <i b-3ttk0qshax class="bx bx-search"></i>
+                            </button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <div b-3ttk0qshax class="main-navbar">
+            <div b-3ttk0qshax class="container">
+                <nav b-3ttk0qshax class="navbar navbar-expand-md navbar-light">
+                    <a b-3ttk0qshax class="navbar-brand" href="/">
+                        <img src="/blob/img/logo-small.png" alt="BigMedia Logo">
+                    </a>
+                    <div b-3ttk0qshax class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
+                        <!-- 新聞分類選單 -->
+                        <ul b-3ttk0qshax class="navbar-nav" id="category">
+                            <li class='nav-item'><a href="/category/政治" class="nav-link active">政治</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/政治" class="nav-link">政治首頁</a></li><li class='nav-item'><a href="/category/政治/講政事" class="nav-link">講政事</a></li><li class='nav-item'><a href="/category/政治/弊案" class="nav-link">弊案</a></li><li class='nav-item'><a href="/category/政治/大大人物" class="nav-link">大大人物</a></li></ul></li><li class='nav-item'><a href="/category/2026選舉" class="nav-link">2026選舉</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/2026選舉" class="nav-link">2026選舉首頁</a></li></ul></li><li class='nav-item'><a href="/category/鉅聞民調" class="nav-link">鉅聞民調</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/鉅聞民調" class="nav-link">鉅聞民調首頁</a></li></ul></li><li class='nav-item'><a href="/category/評論" class="nav-link">評論</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/評論" class="nav-link">評論首頁</a></li></ul></li><li class='nav-item'><a href="/category/國際" class="nav-link">國際</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/國際" class="nav-link">國際首頁</a></li><li class='nav-item'><a href="/category/國際/國際焦點" class="nav-link">國際焦點</a></li></ul></li><li class='nav-item'><a href="/category/兩岸" class="nav-link">兩岸</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/兩岸" class="nav-link">兩岸首頁</a></li></ul></li><li class='nav-item'><a href="/category/科技" class="nav-link">科技</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/科技" class="nav-link">科技首頁</a></li></ul></li><li class='nav-item'><a href="/category/財經" class="nav-link">財經</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/財經" class="nav-link">財經首頁</a></li><li class='nav-item'><a href="/category/財經/財經焦點" class="nav-link">財經焦點</a></li><li class='nav-item'><a href="/category/財經/房市" class="nav-link">房市</a></li><li class='nav-item'><a href="/category/財經/理財" class="nav-link">理財</a></li><li class='nav-item'><a href="/category/財經/保險" class="nav-link">保險</a></li><li class='nav-item'><a href="/category/財經/產業" class="nav-link">產業</a></li></ul></li><li class='nav-item'><a href="/category/娛樂" class="nav-link">娛樂</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/娛樂" class="nav-link">娛樂首頁</a></li><li class='nav-item'><a href="/category/娛樂/娛樂焦點" class="nav-link">娛樂焦點</a></li><li class='nav-item'><a href="/category/娛樂/流行音樂" class="nav-link">流行音樂</a></li><li class='nav-item'><a href="/category/娛樂/綜藝" class="nav-link">綜藝</a></li><li class='nav-item'><a href="/category/娛樂/戲劇" class="nav-link">戲劇</a></li><li class='nav-item'><a href="/category/娛樂/電影" class="nav-link">電影</a></li></ul></li><li class='nav-item'><a href="/category/好城好事" class="nav-link">好城好事</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/好城好事" class="nav-link">好城好事首頁</a></li></ul></li><li class='nav-item'><a href="/category/生活" class="nav-link">生活</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/生活" class="nav-link">生活首頁</a></li><li class='nav-item'><a href="/category/生活/生活焦點" class="nav-link">生活焦點</a></li><li class='nav-item'><a href="/category/生活/體育" class="nav-link">體育</a></li><li class='nav-item'><a href="/category/生活/藝文" class="nav-link">藝文</a></li></ul></li><li class='nav-item'><a href="https://healthy.bigmedia.com.tw/" class="nav-link" target="_blank" rel="noopener noreferrer">健康</a><ul class='dropdown-menu'><li class='nav-item'><a href="https://healthy.bigmedia.com.tw/" class="nav-link" target="_blank" rel="noopener noreferrer">健康首頁</a></li><li class='nav-item'><a href="https://healthy.bigmedia.com.tw/category/健康快報" class="nav-link" target="_blank" rel="noopener noreferrer">健康快報</a></li><li class='nav-item'><a href="https://healthy.bigmedia.com.tw/category/名醫說醫" class="nav-link" target="_blank" rel="noopener noreferrer">名醫說醫</a></li><li class='nav-item'><a href="https://healthy.bigmedia.com.tw/category/養生飲食" class="nav-link" target="_blank" rel="noopener noreferrer">養生飲食</a></li><li class='nav-item'><a href="https://healthy.bigmedia.com.tw/category/健康講座" class="nav-link" target="_blank" rel="noopener noreferrer">健康講座</a></li></ul></li><li class='nav-item'><a href="/category/名家" class="nav-link">名家</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/名家" class="nav-link">名家首頁</a></li><li class='nav-item'><a href="/category/名家/好好聽Podcast" class="nav-link">好好聽Podcast</a></li><li class='nav-item'><a href="/category/名家/名家" class="nav-link">名家</a></li><li class='nav-item'><a href="/category/名家/企業始於人" class="nav-link">企業始於人</a></li></ul></li><li class='nav-item'><a href="/category/社會" class="nav-link">社會</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/社會" class="nav-link">社會首頁</a></li><li class='nav-item'><a href="/category/社會/社會焦點" class="nav-link">社會焦點</a></li></ul></li><li class='nav-item'><a href="/category/公益" class="nav-link">公益</a><ul class='dropdown-menu'><li class='nav-item'><a href="/category/公益" class="nav-link">公益首頁</a></li><li class='nav-item'><a href="/category/公益/公益" class="nav-link">公益</a></li><li class='nav-item'><a href="/category/公益/永慶房屋" class="nav-link">永慶房屋</a></li><li class='nav-item'><a href="/category/公益/磐石保經" class="nav-link">磐石保經</a></li></ul></li>
+                        </ul>
+                        
+                        <!-- 搜尋功能 -->
+                            <div b-3ttk0qshax class="others-options d-flex align-items-center">
+                                <div b-3ttk0qshax class="option-item">
+                                    <form action="/Search/Index" class="search-box" method="post">
+                                        <input b-3ttk0qshax type="text" name="Keyword" class="form-control" placeholder="請輸入關鍵字" aria-label="搜尋關鍵字">
+                                        <button b-3ttk0qshax type="submit" aria-label="搜尋"><i b-3ttk0qshax class="bx bx-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- Scroll Navigation -->
+        <div b-3ttk0qshax class="container">
+            <div b-3ttk0qshax class="container-scroll">
+                <ul b-3ttk0qshax id="scroll-menu">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    
+
+
+
+
+<section class="news-details-area ptb-50">
+    <div class="container">
+        <!-- Top Banner Advertisement -->
+        <div class="row" id="top-banner-row">
+            <div class="col-lg-12" style="text-align: center; margin-bottom: 50px;">
+                <div id="top-banner-ad">
+                    <div class="loading-spinner">載入廣告中...</div>
+                </div>
+            </div>
+        </div>
+        <div class="article-reader" id="articleReader" data-max-articles="5">
+            
+
+<article class="article-read-block"
+         data-article-id="1772088123627"
+         data-article-url="/article/1772088123627"
+         data-article-title="徵召挑戰張善政？&#x3000;王義川：讓我再想想"
+         data-article-description="(記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。&#xD;&#xA;昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德..."
+         data-article-image="https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg"
+         data-article-category="政治"
+         data-article-published="2026-02-26T13:56:00&#x2B;08:00"
+         data-article-modified="2026-02-26T14:42:00&#x2B;08:00"
+         data-article-author="鉅聞天下｜記者  孫福應"
+         data-article-tags="王義川,賴清德,2026,桃園市長">
+    <div class="row article-read-row">
+        <div class="col-lg-8 col-md-12">
+            <div class="blog-details-desc">
+                <div class="article-image article-content">
+                    <div class="article-header">
+                        <h1>徵召挑戰張善政？&#x3000;王義川：讓我再想想</h1>
+                        <div class="article-meta">
+                            <span>2026-02-26 13:56</span>
+                            <span>　　鉅聞天下｜記者  孫福應</span>
+                        </div>
+                    </div>
+
+                    <div class="voice-controls mb-3">
+                        <button id="btnSpeak-1772088123627" onclick="speakText('1772088123627')" class="btn btn-outline-danger me-2">聽新聞</button>
+                        <button id="btnStop-1772088123627" onclick="stopSpeech('1772088123627')" class="btn btn-outline-danger me-2" style="display: none;">停止朗讀</button>
+                        <button id="btnReset-1772088123627" onclick="resetReading('1772088123627')" class="btn btn-outline-secondary me-2" style="display: none;">重新開始</button>
+                    </div>
+
+                        <img src="https://storage.googleapis.com/bigmedia-files/article/20260226144203_137247b7-8f3f-4852-b8cf-acb375f8e785.jpg" loading="lazy" alt="王義川(右)是2024年大選爆紅的民進黨不分區立委，他可能被徵召參選桃園市長，他的辦公室主任蔡美華(左)也投入新北市議員初選。翻攝蔡美華臉書" width="1200" height="630">
+                            <span>王義川(右)是2024年大選爆紅的民進黨不分區立委，他可能被徵召參選桃園市長，他的辦公室主任蔡美華(左)也投入新北市議員初選。翻攝蔡美華臉書</span>
+                </div>
+
+                <div id="hidContent-1772088123627" style="display: none;" class="hidContent">
+                    (記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。&#xD;&#xA;昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德辦公室，並且將手機拍下的影片交給媒體，畫面曝光後，政論名嘴猜測應該是想徵召他參選桃園市長，但是王義川今日率領多名縣市議員擬參選人召開「幕僚世代 挺進議會！2026台灣正青」記者會後，並不願證實他要被徵召。&#xD;&#xA;王義川表示，他跟總統常常討論時政，昨天跟總統在中央黨部，基本上是聊了全國大部分選區的選情，也詢問他的觀察。對民進黨來說，包括台北、桃園、金門、新竹縣市、花蓮、連江7縣市尚未提名，選對會跟總統也都在做最後的佈局。&#xD;&#xA;王義川說，個人生涯規劃一點都不重要，參與政治者，黨主席和選對會做何決定，身為黨員必須遵守，還有時間，讓大家再討論一下，也讓他再想一下，目前仍在多方徵詢相關人選。&#xD;&#xA;民進黨目前有意參選桃園市長的包括總統府副秘書長何志偉、法務部政次黃世杰等人，一度還傳出桃園可能空降。但昨日賴清德在中常會後單獨接見已經卸下黨職的王義川，才讓可能最後徵召他出馬的機會大增。&#xD;&#xA;王義川曾任林佳龍台中市長時的交通局長，出身台南市佳里區，上次立委選舉時他以「搶救阿川大兵」巡迴台灣各地以機車「貪吃蛇」為黨籍候選人助陣，也希望選民把不分區選票衝高，讓排名第14在安全名單邊緣的他可以進入國會，但最後民進黨只到13席，最後才遞補進入立法院。&amp;nbsp;＊邀請您下載《鉅聞天下新聞網》App，點我下載 App，或 加入Line 好友，每天為您推薦有價值的好新聞。
+                </div>
+
+                <div class="article-content">
+                    <p></p>
+<p>(記者孫福應/綜合報導)民進黨正國會立委王義川，今(26日)被問到有沒有可能成為2026桃園市長人選，以及昨天跟兼任黨主席賴清德見面如果被徵召會答應嗎？王義川回應，「目前看起來什麼可能都有，讓我再想想。」最後還意有所指的說，「我不好意思講」。</p>
+<p>昨日民進黨中央會後，有人看到王義川獨自進入黨主席賴清德辦公室，並且將手機拍下的影片交給媒體，畫面曝光後，政論名嘴猜測應該是想徵召他參選桃園市長，但是王義川今日率領多名縣市議員擬參選人召開「幕僚世代 挺進議會！2026台灣正青」記者會後，並不願證實他要被徵召。</p>
+<p>王義川表示，他跟總統常常討論時政，昨天跟總統在中央黨部，基本上是聊了全國大部分選區的選情，也詢問他的觀察。對民進黨來說，包括台北、桃園、金門、新竹縣市、花蓮、連江7縣市尚未提名，選對會跟總統也都在做最後的佈局。</p>
+<p>王義川說，個人生涯規劃一點都不重要，參與政治者，黨主席和選對會做何決定，身為黨員必須遵守，還有時間，讓大家再討論一下，也讓他再想一下，目前仍在多方徵詢相關人選。</p>
+<p>民進黨目前有意參選桃園市長的包括總統府副秘書長何志偉、法務部政次黃世杰等人，一度還傳出桃園可能空降。但昨日賴清德在中常會後單獨接見已經卸下黨職的王義川，才讓可能最後徵召他出馬的機會大增。</p>
+<p>王義川曾任林佳龍台中市長時的交通局長，出身台南市佳里區，上次立委選舉時他以「搶救阿川大兵」巡迴台灣各地以機車「貪吃蛇」為黨籍候選人助陣，也希望選民把不分區選票衝高，讓排名第14在安全名單邊緣的他可以進入國會，但最後民進黨只到13席，最後才遞補進入立法院。</p><p>&nbsp;</p><p><!--BIGMEDIA_APP_PROMO_FOOTER-->＊邀請您下載《鉅聞天下新聞網》App，<a href="https://reurl.cc/VmygG5" target="_blank" rel="noopener noreferrer" style="color:#007bff;">點我下載 App</a>，或 <a href="https://lin.ee/squRXRO" target="_blank" rel="noopener noreferrer" style="color:#007bff;">加入Line 好友</a>，每天為您推薦有價值的好新聞。</p>
+                </div>
+
+                <iframe src="https://www.bigmedia.com.tw/ai-iframe.html?selector=hidContent-1772088123627"
+                    class="bigmedia-ai-iframe"
+                    style="overflow: hidden !important; width: 100%; height: 165px; border: none; scrolling: no;"
+                    frameborder="0"
+                    allowtransparency="true"
+                    scrolling="no"
+                    id="bigmedia-ai-iframe-1772088123627"
+                    title="AI 內容"></iframe>
+
+                    <div>
+                        <script async src='//www.instagram.com/embed.js'></script>
+                        <hr />
+                        <span>現正直播</span>
+                        <div class="article-live-stream" data-ppn-id="ppn-YmlnbQ==-0"></div>
+                    </div>
+
+                <div class="article-footer">
+                        <div>
+                            <span>標籤:</span>
+                            <span>
+                                    <form method="post" action="/Search/Index" class="d-inline tag-search-form">
+                                        <input type="hidden" name="Keyword" value="王義川" />
+                                        <input type="hidden" name="type" value="tag" />
+                                        <button type="submit" class="badge bg-secondary me-2 text-decoration-none border-0 tag-search-btn" data-label="王義川">王義川</button>
+                                    </form>
+                                    <form method="post" action="/Search/Index" class="d-inline tag-search-form">
+                                        <input type="hidden" name="Keyword" value="賴清德" />
+                                        <input type="hidden" name="type" value="tag" />
+                                        <button type="submit" class="badge bg-secondary me-2 text-decoration-none border-0 tag-search-btn" data-label="賴清德">賴清德</button>
+                                    </form>
+                                    <form method="post" action="/Search/Index" class="d-inline tag-search-form">
+                                        <input type="hidden" name="Keyword" value="2026" />
+                                        <input type="hidden" name="type" value="tag" />
+                                        <button type="submit" class="badge bg-secondary me-2 text-decoration-none border-0 tag-search-btn" data-label="2026">2026</button>
+                                    </form>
+                                    <form method="post" action="/Search/Index" class="d-inline tag-search-form">
+                                        <input type="hidden" name="Keyword" value="桃園市長" />
+                                        <input type="hidden" name="type" value="tag" />
+                                        <button type="submit" class="badge bg-secondary me-2 text-decoration-none border-0 tag-search-btn" data-label="桃園市長">桃園市長</button>
+                                    </form>
+                            </span>
+                        </div>
+                    <p></p>
+
+                    <section class="article-share"
+                             aria-label="分享文章"
+                             data-article-share
+                             data-share-title="徵召挑戰張善政？&#x3000;王義川：讓我再想想"
+                             data-share-url="https://www.bigmedia.com.tw/article/1772088123627">
+                        <span class="article-share-title">分享：</span>
+                        <div class="article-share-actions">
+                            <a class="article-share-button article-share-button--facebook"
+                               href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.bigmedia.com.tw%2Farticle%2F1772088123627"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               data-share-facebook
+                               data-share-popup
+                               aria-label="分享到 Facebook">
+                                <span class="article-share-brand-icon" aria-hidden="true">f</span>
+                            </a>
+                            <a class="article-share-button article-share-button--line"
+                               href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fwww.bigmedia.com.tw%2Farticle%2F1772088123627"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               data-share-popup
+                               aria-label="分享到 LINE">
+                                <span class="article-share-line-icon" aria-hidden="true">LINE</span>
+                            </a>
+                            <a class="article-share-button article-share-button--threads"
+                               href="https://www.threads.net/intent/post?text=%E5%BE%B5%E5%8F%AC%E6%8C%91%E6%88%B0%E5%BC%B5%E5%96%84%E6%94%BF%EF%BC%9F%E3%80%80%E7%8E%8B%E7%BE%A9%E5%B7%9D%EF%BC%9A%E8%AE%93%E6%88%91%E5%86%8D%E6%83%B3%E6%83%B3%20https%3A%2F%2Fwww.bigmedia.com.tw%2Farticle%2F1772088123627"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               data-share-popup
+                               aria-label="分享到 Threads">
+                                <span class="article-share-brand-icon" aria-hidden="true">@</span>
+                            </a>
+                            <a class="article-share-button article-share-button--x"
+                               href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.bigmedia.com.tw%2Farticle%2F1772088123627&amp;text=%E5%BE%B5%E5%8F%AC%E6%8C%91%E6%88%B0%E5%BC%B5%E5%96%84%E6%94%BF%EF%BC%9F%E3%80%80%E7%8E%8B%E7%BE%A9%E5%B7%9D%EF%BC%9A%E8%AE%93%E6%88%91%E5%86%8D%E6%83%B3%E6%83%B3"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               data-share-popup
+                               aria-label="分享到 X">
+                                <span class="article-share-brand-icon article-share-x-icon" aria-hidden="true">X</span>
+                            </a>
+                            <button class="article-share-button article-share-button--copy"
+                                    type="button"
+                                    data-share-copy
+                                    aria-label="複製文章連結">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M9 15a4 4 0 0 0 5.66 0l3.17-3.17a4 4 0 0 0-5.66-5.66l-1.32 1.32" />
+                                    <path d="M15 9a4 4 0 0 0-5.66 0l-3.17 3.17a4 4 0 0 0 5.66 5.66l1.32-1.32" />
+                                </svg>
+                            </button>
+                            <button class="article-share-button article-share-button--native"
+                                    type="button"
+                                    data-share-native
+                                    aria-label="開啟手機分享選單"
+                                    hidden>
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <circle cx="18" cy="5" r="3" />
+                                    <circle cx="6" cy="12" r="3" />
+                                    <circle cx="18" cy="19" r="3" />
+                                    <path d="m8.6 10.5 6.8-4M8.6 13.5l6.8 4" />
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="article-share-status" data-share-status aria-live="polite"></span>
+                    </section>
+
+                </div>
+
+            </div>
+
+            <div class="related-articles mt-5">
+                <h2>相關新聞</h2>
+                <hr />
+                <div id="tag-related-news-1772088123627" class="tag-related-news-container">
+                    <div class="loading-spinner">載入相關新聞中...</div>
+                </div>
+            </div>
+
+            <ins class="adsbygoogle article-inline-ad"
+                style="display: block"
+                data-ad-client="ca-pub-5282581099710426"
+                data-ad-slot="9424423016"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+        </div>
+
+        <div class="col-lg-4 ptb-50 article-sidebar-column">
+            <aside class="widget-area">
+                <section class="widget widget_latest_news_thumb">
+                    <h3 class="widget-title">重磅消息</h3>
+                    <div id="latest-news-1772088123627" class="latest-news-container">
+                        <div class="loading-spinner">載入最新消息中...</div>
+                    </div>
+                </section>
+
+                <ins class="adsbygoogle article-sidebar-ad"
+                    style="display: block"
+                    data-ad-client="ca-pub-5282581099710426"
+                    data-ad-slot="3549295712"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+            </aside>
+        </div>
+    </div>
+</article>
+
+        </div>
+        <div class="article-reader-state" id="articleReaderState" aria-live="polite">
+            <span class="article-reader-loader" hidden>載入下一篇新聞中...</span>
+            <span class="article-reader-complete" hidden>已載入更多新聞。</span>
+            <span class="article-reader-error" hidden>下一篇新聞暫時無法載入，請稍後再試。</span>
+        </div>
+        <div id="articleReaderSentinel" class="article-reader-sentinel" aria-hidden="true"></div>
+        <!-- Footer Advertisement -->
+        <div class="row">
+            <div class="col-lg-12" style="text-align: center">
+                <ins class="adsbygoogle"
+                    style="display: block"
+                    data-ad-format="autorelaxed"
+                    data-ad-client="ca-pub-5282581099710426"
+                    data-ad-slot="2454877915"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    /// <summary>
+    /// 標籤搜尋送出時顯示載入狀態。
+    /// </summary>
+    function bindTagSearchFeedback() {
+        $('.tag-search-form').off('submit.articleTag').on('submit.articleTag', function() {
+            var $btn = $(this).find('.tag-search-btn');
+            if ($btn.length === 0) {
+                return;
+            }
+
+            var label = $btn.data('label') || $btn.text();
+            $btn.data('label', label);
+            $btn.text('搜尋中...').prop('disabled', true).addClass('disabled');
+        });
+    }
+
+    /// <summary>
+    /// 更新單篇文章的社群分享操作提示。
+    /// </summary>
+    function setArticleShareStatus(button, message) {
+        var share = button.closest('[data-article-share]');
+        var status = share ? share.querySelector('[data-share-status]') : null;
+        if (status) {
+            status.textContent = message;
+        }
+    }
+
+    /// <summary>
+    /// 在不支援 Clipboard API 時以隱藏欄位複製連結。
+    /// </summary>
+    function copyTextWithFallback(value) {
+        var textarea = document.createElement('textarea');
+        textarea.value = value;
+        textarea.setAttribute('readonly', '');
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        var copied = document.execCommand('copy');
+        textarea.remove();
+        return copied;
+    }
+
+    /// <summary>
+    /// 複製文章網址並提供完成或失敗提示。
+    /// </summary>
+    async function copyArticleShareUrl(button) {
+        try {
+            var share = button.closest('[data-article-share]');
+            var shareUrl = share ? share.getAttribute('data-share-url') : window.location.href;
+            button.disabled = true;
+            button.setAttribute('aria-busy', 'true');
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(shareUrl);
+            } else if (!copyTextWithFallback(shareUrl)) {
+                throw new Error('瀏覽器未允許複製連結');
+            }
+
+            setArticleShareStatus(button, '連結已複製');
+        } catch (error) {
+            console.error('複製文章連結失敗：', error);
+            setArticleShareStatus(button, '暫時無法複製，請稍後再試');
+        } finally {
+            button.disabled = false;
+            button.removeAttribute('aria-busy');
+        }
+    }
+
+    /// <summary>
+    /// 呼叫手機或瀏覽器原生分享選單。
+    /// </summary>
+    async function openNativeArticleShare(button) {
+        try {
+            var share = button.closest('[data-article-share]');
+            await navigator.share({
+                title: share ? share.getAttribute('data-share-title') : document.title,
+                url: share ? share.getAttribute('data-share-url') : window.location.href
+            });
+            setArticleShareStatus(button, '分享選單已開啟');
+        } catch (error) {
+            if (error && error.name === 'AbortError') {
+                setArticleShareStatus(button, '');
+                return;
+            }
+
+            console.error('開啟原生分享選單失敗：', error);
+            setArticleShareStatus(button, '暫時無法分享，請稍後再試');
+        }
+    }
+
+    /// <summary>
+    /// 判斷目前是否為 iPhone、iPad 或 iPod 瀏覽器。
+    /// </summary>
+    function isAppleMobileDevice() {
+        return /iPad|iPhone|iPod/i.test(navigator.userAgent)
+            || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    }
+
+    /// <summary>
+    /// 初始化目前文章區塊的原生分享按鈕。
+    /// </summary>
+    function initializeArticleShare(scope) {
+        if (!scope) {
+            return;
+        }
+
+        scope.querySelectorAll('[data-share-native]').forEach(function(button) {
+            button.hidden = typeof navigator.share !== 'function';
+        });
+    }
+
+    /// <summary>
+    /// 集中註冊靜態及連續閱讀文章的社群分享操作。
+    /// </summary>
+    function bindArticleShareActions() {
+        if (document.documentElement.getAttribute('data-article-share-bound') === 'true') {
+            return;
+        }
+
+        document.documentElement.setAttribute('data-article-share-bound', 'true');
+        document.addEventListener('click', async function(event) {
+            try {
+                var facebookLink = event.target.closest('[data-share-facebook]');
+                if (facebookLink
+                    && isAppleMobileDevice()
+                    && typeof navigator.share === 'function') {
+                    event.preventDefault();
+                    await openNativeArticleShare(facebookLink);
+                    return;
+                }
+
+                var popupLink = event.target.closest('[data-share-popup]');
+                if (popupLink) {
+                    event.preventDefault();
+                    var popup = window.open(
+                        popupLink.href,
+                        'bigmedia-article-share',
+                        'width=720,height=620,noopener,noreferrer'
+                    );
+                    if (!popup) {
+                        setArticleShareStatus(popupLink, '瀏覽器已封鎖分享視窗');
+                    }
+                    return;
+                }
+
+                var copyButton = event.target.closest('[data-share-copy]');
+                if (copyButton) {
+                    await copyArticleShareUrl(copyButton);
+                    return;
+                }
+
+                var nativeButton = event.target.closest('[data-share-native]');
+                if (nativeButton && typeof navigator.share === 'function') {
+                    await openNativeArticleShare(nativeButton);
+                }
+            } catch (error) {
+                console.error('處理文章分享操作失敗：', error);
+            }
+        });
+    }
+
+    // AJAX 載入功能
+    $(document).ready(function() {
+        const articleId = '1772088123627';
+
+        bindTagSearchFeedback();
+        bindArticleShareActions();
+        initializeArticleReader(articleId);
+
+        // 載入廣告
+        loadAdvertisement(articleId);
+
+        // 載入滾動選單
+        loadScrollMenu();
+
+        // 文章瀏覽次數由連續閱讀的目前文章判斷統一記錄。
+    });
+
+    /// <summary>
+    /// 初始化文章連續閱讀觀察器與首篇文章狀態。
+    /// </summary>
+    /// <param name="initialArticleId">初始文章 ID。</param>
+    function initializeArticleReader(initialArticleId) {
+        var reader = document.getElementById('articleReader');
+        var sentinel = document.getElementById('articleReaderSentinel');
+        var state = document.getElementById('articleReaderState');
+
+        if (!reader || !sentinel || !state) {
+            return;
+        }
+
+        var maxArticles = parseInt(reader.getAttribute('data-max-articles') || '5', 10);
+        var articleCount = reader.querySelectorAll('.article-read-block').length;
+        var currentArticleId = initialArticleId;
+        var nextSourceArticleId = initialArticleId;
+        var activeArticleId = '';
+        var isLoading = false;
+        var hasMore = true;
+        var scrollTicking = false;
+
+        initializeArticleBlock(reader.querySelector('.article-read-block'));
+        updateActiveArticleByScroll();
+
+        function setReaderState(type) {
+            state.querySelectorAll('span').forEach(function(item) {
+                item.hidden = true;
+            });
+
+            var target = state.querySelector('.article-reader-' + type);
+            if (target) {
+                target.hidden = false;
+            }
+        }
+
+        function finishReader() {
+            hasMore = false;
+            setReaderState('complete');
+            if (loadObserver) {
+                loadObserver.disconnect();
+            }
+        }
+
+        function loadNextArticle() {
+            if (isLoading || !hasMore) {
+                return;
+            }
+
+            if (articleCount >= maxArticles) {
+                finishReader();
+                return;
+            }
+
+            isLoading = true;
+            setReaderState('loader');
+
+            $.get('/article/' + encodeURIComponent(nextSourceArticleId) + '/next')
+                .done(function(html, textStatus, xhr) {
+                    if (xhr.status === 204 || !html || !html.trim()) {
+                        finishReader();
+                        return;
+                    }
+
+                    var wrapper = document.createElement('div');
+                    wrapper.innerHTML = html.trim();
+                    var nextBlock = wrapper.querySelector('.article-read-block');
+
+                    if (!nextBlock) {
+                        finishReader();
+                        return;
+                    }
+
+                    reader.appendChild(nextBlock);
+                    articleCount += 1;
+                    nextSourceArticleId = nextBlock.getAttribute('data-article-id') || nextSourceArticleId;
+                    initializeArticleBlock(nextBlock);
+                    updateActiveArticleByScroll();
+
+                    if (articleCount >= maxArticles) {
+                        finishReader();
+                    } else {
+                        state.querySelectorAll('span').forEach(function(item) {
+                            item.hidden = true;
+                        });
+                    }
+                })
+                .fail(function() {
+                    setReaderState('error');
+                })
+                .always(function() {
+                    isLoading = false;
+                });
+        }
+
+        var loadObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    loadNextArticle();
+                }
+            });
+        }, {
+            root: null,
+            rootMargin: '650px 0px',
+            threshold: 0
+        });
+
+        loadObserver.observe(sentinel);
+
+        window.addEventListener('scroll', requestActiveArticleUpdate, { passive: true });
+        window.addEventListener('resize', requestActiveArticleUpdate);
+
+        function requestActiveArticleUpdate() {
+            if (scrollTicking) {
+                return;
+            }
+
+            scrollTicking = true;
+            window.requestAnimationFrame(function() {
+                updateActiveArticleByScroll();
+                scrollTicking = false;
+            });
+        }
+
+        function updateActiveArticleByScroll() {
+            var blocks = Array.from(reader.querySelectorAll('.article-read-block'));
+            if (blocks.length === 0) {
+                return;
+            }
+
+            var marker = Math.min(window.innerHeight * 0.35, 280);
+            var activeBlock = blocks[0];
+            var closestDistance = Number.POSITIVE_INFINITY;
+
+            blocks.forEach(function(block) {
+                var rect = block.getBoundingClientRect();
+
+                if (rect.top <= marker && rect.bottom > marker) {
+                    activeBlock = block;
+                    closestDistance = 0;
+                    return;
+                }
+
+                var distance = Math.abs(rect.top - marker);
+                if (distance < closestDistance) {
+                    closestDistance = distance;
+                    activeBlock = block;
+                }
+            });
+
+            var nextActiveArticleId = activeBlock.getAttribute('data-article-id') || currentArticleId;
+            if (nextActiveArticleId === activeArticleId) {
+                return;
+            }
+
+            activeArticleId = nextActiveArticleId;
+            currentArticleId = nextActiveArticleId;
+            updateArticleHead(activeBlock);
+            recordArticleView(nextActiveArticleId, nextActiveArticleId !== initialArticleId);
+        }
+    }
+
+    /// <summary>
+    /// 初始化單篇文章區塊的表單回饋、廣告與外掛內容。
+    /// </summary>
+    /// <param name="block">文章區塊 DOM。</param>
+    function initializeArticleBlock(block) {
+        if (!block) {
+            return;
+        }
+
+        bindTagSearchFeedback();
+        initializeArticleShare(block);
+        initializeArticleAds(block);
+        initializeArticleAiIframes(block);
+        initializeArticleLiveStream(block);
+        loadTagRelatedNews(block.getAttribute('data-article-id'), block);
+
+        if (!isMobileArticleLayout()) {
+            loadLatestNews(block);
+        }
+    }
+
+    /// <summary>
+    /// 判斷目前是否為手機文章版面，手機版會減少推薦區塊避免閱讀動線過長。
+    /// </summary>
+    /// <returns>是否為手機寬度。</returns>
+    function isMobileArticleLayout() {
+        return window.matchMedia('(max-width: 767.98px)').matches;
+    }
+
+    /// <summary>
+    /// 初始化文章內的 AI 衍伸知識 iframe，支援連續閱讀的多篇文章各自取自己的內容。
+    /// </summary>
+    /// <param name="scope">文章區塊 DOM。</param>
+    function initializeArticleAiIframes(scope) {
+        $(scope).find('iframe.bigmedia-ai-iframe').each(function() {
+            var iframe = this;
+
+            if (iframe.getAttribute('data-ai-initialized') === 'true') {
+                return;
+            }
+
+            iframe.setAttribute('data-ai-initialized', 'true');
+            configureArticleAiIframe(iframe);
+            iframe.addEventListener('load', function() {
+                configureArticleAiIframe(iframe);
+                postArticleUrlToAiIframe(iframe);
+            });
+
+            setTimeout(function() {
+                postArticleUrlToAiIframe(iframe);
+            }, 300);
+        });
+    }
+
+    /// <summary>
+    /// 套用 AI iframe 的無捲軸設定。
+    /// </summary>
+    /// <param name="iframe">AI iframe DOM。</param>
+    function configureArticleAiIframe(iframe) {
+        iframe.style.overflow = 'hidden';
+        iframe.style.setProperty('overflow', 'hidden', 'important');
+        iframe.style.setProperty('overflow-x', 'hidden', 'important');
+        iframe.style.setProperty('overflow-y', 'hidden', 'important');
+        iframe.setAttribute('scrolling', 'no');
+    }
+
+    /// <summary>
+    /// 將該文章自己的網址傳給 AI iframe。
+    /// </summary>
+    /// <param name="iframe">AI iframe DOM。</param>
+    function postArticleUrlToAiIframe(iframe) {
+        if (!iframe.contentWindow) {
+            return;
+        }
+
+        var articleBlock = iframe.closest('.article-read-block');
+        var articleUrl = articleBlock ? articleBlock.getAttribute('data-article-url') : window.location.pathname;
+        var absoluteUrl = new URL(articleUrl || window.location.pathname, window.location.origin).toString();
+
+        iframe.contentWindow.postMessage({
+            type: 'url',
+            url: absoluteUrl
+        }, 'https://www.bigmedia.com.tw');
+    }
+
+    /// <summary>
+    /// 初始化單篇文章底部 AdSense，避免同一廣告重複 push。
+    /// </summary>
+    /// <param name="scope">文章區塊 DOM。</param>
+    function initializeArticleAds(scope) {
+        $(scope).find('ins.adsbygoogle.article-inline-ad, ins.adsbygoogle.article-sidebar-ad').each(function() {
+            if (this.getAttribute('data-ad-initialized') === 'true') {
+                return;
+            }
+
+            try {
+                (window.adsbygoogle = window.adsbygoogle || []).push({});
+                this.setAttribute('data-ad-initialized', 'true');
+            } catch (ex) {
+                console.log('文章內廣告初始化失敗:', ex);
+            }
+        });
+    }
+
+    /// <summary>
+    /// 初始化每篇文章內的直播區塊，使用唯一容器避免重複 DOM id。
+    /// </summary>
+    /// <param name="scope">文章區塊 DOM。</param>
+    function initializeArticleLiveStream(scope) {
+        $(scope).find('.article-live-stream').each(function() {
+            if (this.getAttribute('data-live-initialized') === 'true') {
+                return;
+            }
+
+            var ppnId = this.getAttribute('data-ppn-id');
+            if (!ppnId) {
+                return;
+            }
+
+            this.id = ppnId + '-' + Date.now() + '-' + Math.floor(Math.random() * 1000);
+            this.setAttribute('data-live-initialized', 'true');
+
+            try {
+                if (window.ppnio && typeof window.ppnio.push === 'function') {
+                    window.ppnio.push(this.id);
+                }
+            } catch (ex) {
+                console.log('直播區塊初始化失敗:', ex);
+            }
+        });
+    }
+
+    /// <summary>
+    /// 依目前閱讀文章同步網址、標題與 SEO meta。
+    /// </summary>
+    /// <param name="articleBlock">目前閱讀中的文章區塊。</param>
+    function updateArticleHead(articleBlock) {
+        if (!articleBlock) {
+            return;
+        }
+
+        var url = articleBlock.getAttribute('data-article-url') || window.location.pathname;
+        var absoluteUrl = new URL(url, window.location.origin).toString();
+        var title = articleBlock.getAttribute('data-article-title') || document.title;
+        var description = articleBlock.getAttribute('data-article-description') || '';
+        var image = articleBlock.getAttribute('data-article-image') || '';
+        var category = articleBlock.getAttribute('data-article-category') || '';
+        var published = articleBlock.getAttribute('data-article-published') || '';
+        var modified = articleBlock.getAttribute('data-article-modified') || published;
+        var author = articleBlock.getAttribute('data-article-author') || '鉅聞天下';
+        var tags = (articleBlock.getAttribute('data-article-tags') || '').split(',').map(function(tag) {
+            return tag.trim();
+        }).filter(Boolean);
+
+        if (window.location.pathname !== new URL(absoluteUrl).pathname) {
+            history.replaceState({ articleId: articleBlock.getAttribute('data-article-id') }, title, url);
+        }
+
+        document.title = title + ' - 鉅聞天下';
+        setMetaContent('metaTitle', title);
+        setMetaContent('metaDescription', description);
+        setMetaContent('metaKeywords', tags.join(','));
+        setMetaContent('metaImage', image);
+        setMetaContent('ogTitle', title);
+        setMetaContent('ogDescription', description);
+        setMetaContent('ogImage', image);
+        setMetaContent('ogUrl', absoluteUrl);
+        setMetaContent('ogKeywords', tags.join(','));
+        setMetaContent('ogImageAlt', title);
+        setMetaContent('articleSection', category);
+        setMetaContent('articlePublishedTime', published);
+        setMetaContent('articleModifiedTime', modified);
+        setMetaContent('articleAuthor', author);
+        setMetaContent('metaSection', category);
+        setMetaContent('metaPubdate', formatMetaDate(published));
+        setMetaContent('metaLastmod', formatMetaDate(modified));
+        setMetaContent('twitterTitle', title);
+        setMetaContent('twitterDescription', description);
+        setMetaContent('twitterImage', image);
+        setLinkHref('canonicalLink', absoluteUrl);
+        setLinkHref('imageSrcLink', image);
+
+        var lastModifiedHttp = document.getElementById('metaLastModifiedHttp');
+        if (lastModifiedHttp && modified) {
+            lastModifiedHttp.setAttribute('content', new Date(modified).toUTCString());
+        }
+
+        document.querySelectorAll('meta[property="article:tag"][data-dynamic-article-tag="true"]').forEach(function(item) {
+            item.remove();
+        });
+
+        tags.forEach(function(tag) {
+            var meta = document.createElement('meta');
+            meta.setAttribute('property', 'article:tag');
+            meta.setAttribute('content', tag);
+            meta.setAttribute('data-dynamic-article-tag', 'true');
+            document.head.appendChild(meta);
+        });
+    }
+
+    /// <summary>
+    /// 更新指定 meta 元素的 content 屬性。
+    /// </summary>
+    function setMetaContent(id, value) {
+        var meta = document.getElementById(id);
+        if (meta && value !== undefined && value !== null) {
+            meta.setAttribute('content', value);
+        }
+    }
+
+    /// <summary>
+    /// 更新指定 link 元素的 href 屬性。
+    /// </summary>
+    function setLinkHref(id, value) {
+        var link = document.getElementById(id);
+        if (link && value) {
+            link.setAttribute('href', value);
+        }
+    }
+
+    /// <summary>
+    /// 將 ISO 日期轉成既有 meta 使用的 yyyy-MM-dd HH:mm 格式。
+    /// </summary>
+    function formatMetaDate(value) {
+        if (!value) {
+            return '';
+        }
+
+        var date = new Date(value);
+        if (Number.isNaN(date.getTime())) {
+            return value;
+        }
+
+        var pad = function(number) {
+            return String(number).padStart(2, '0');
+        };
+
+        return date.getFullYear() + '-' + pad(date.getMonth() + 1) + '-' + pad(date.getDate()) + ' ' + pad(date.getHours()) + ':' + pad(date.getMinutes());
+    }
+
+    /// <summary>
+    /// 記錄文章瀏覽次數
+    /// </summary>
+    /// <param name="articleId">文章ID</param>
+    function recordArticleView(articleId, allowReloadRecord) {
+        try {
+            // 使用 Performance Navigation API 檢測是否為重新整理
+            var navigationType = 'navigate';
+            
+            // 優先使用新的 Performance Navigation API
+            if (performance.getEntriesByType && performance.getEntriesByType('navigation').length > 0) {
+                var navEntry = performance.getEntriesByType('navigation')[0];
+                navigationType = navEntry.type;
+            }
+            // 備用方案：使用舊的 performance.navigation API
+            else if (performance.navigation) {
+                var navType = performance.navigation.type;
+                // 0 = TYPE_NAVIGATE, 1 = TYPE_RELOAD, 2 = TYPE_BACK_FORWARD
+                if (navType === 1) {
+                    navigationType = 'reload';
+                } else if (navType === 2) {
+                    navigationType = 'back_forward';
+                }
+            }
+
+            // 如果是重新整理，不記錄瀏覽次數
+            if (navigationType === 'reload' && !allowReloadRecord) {
+                console.log('頁面為重新整理，不記錄瀏覽次數');
+                return;
+            }
+
+            // 使用 SessionStorage 作為備用檢查機制，避免同一頁面多次計數
+            var storageKey = 'viewed_article_' + articleId + '_' + new Date().toDateString();
+            if (sessionStorage.getItem(storageKey)) {
+                console.log('已在本次會話中記錄過，不重複計數');
+                return;
+            }
+
+            // 發送 AJAX 請求記錄瀏覽次數
+            $.ajax({
+                type: 'POST',
+                url: '/Article/RecordArticleView',
+                data: { articleId: articleId },
+                success: function(response) {
+                    if (response.success) {
+                        // 在 SessionStorage 中記錄已瀏覽
+                        sessionStorage.setItem(storageKey, '1');
+                        console.log('瀏覽次數記錄成功');
+                    } else {
+                        console.log('瀏覽次數記錄失敗:', response.error || '未知錯誤');
+                    }
+                },
+                error: function(xhr, status, error) {
+                    // 靜默處理錯誤，不影響頁面顯示
+                    console.log('瀏覽次數記錄請求失敗:', error);
+                }
+            });
+        } catch (ex) {
+            // 靜默處理異常，不影響頁面顯示
+            console.log('記錄瀏覽次數時發生錯誤:', ex);
+        }
+    }
+
+    function loadAdvertisement(articleId) {
+        console.log('開始載入廣告...');
+        $.get('/Article/GetAdvertisement', { articleId: articleId })
+            .done(function(response) {
+                console.log('廣告 API 回應:', response);
+                if (response.success && response.data && response.data.trim() !== '') {
+                    console.log('有廣告內容，顯示廣告區域');
+                    var $adContainer = $('#top-banner-ad');
+                    var $rowContainer = $('#top-banner-row');
+                    
+                    // 插入廣告內容到 DOM
+                    $adContainer.html(response.data);
+                    
+                    // 確保容器可見（移除可能被設定的隱藏樣式）
+                    $adContainer.show();
+                    $rowContainer.show();
+                    var adElement = $adContainer[0];
+                    if (adElement) {
+                        // 移除可能被設定的隱藏樣式
+                        adElement.style.removeProperty('display');
+                        adElement.style.removeProperty('height');
+                        adElement.style.removeProperty('min-height');
+                    }
+                    if ($rowContainer.length > 0) {
+                        var rowElement = $rowContainer[0];
+                        if (rowElement) {
+                            // 移除可能被設定的隱藏樣式
+                            rowElement.style.removeProperty('display');
+                            rowElement.style.removeProperty('height');
+                            rowElement.style.removeProperty('min-height');
+                        }
+                    }
+                    
+                    // 檢查是否有 AdSense 廣告需要初始化
+                    // 當透過 AJAX 動態載入 AdSense 廣告時，需要手動觸發初始化
+                    var $adsbygoogle = $adContainer.find('ins.adsbygoogle');
+                    if ($adsbygoogle.length > 0) {
+                        console.log('發現 AdSense 廣告，開始初始化...', $adsbygoogle.length, '個廣告元素');
+                        
+                        // 執行內嵌的 script 標籤（動態載入的 script 需要手動執行）
+                        $adContainer.find('script').each(function() {
+                            try {
+                                var scriptContent = $(this).html();
+                                if (scriptContent && scriptContent.trim()) {
+                                    // 創建新的 script 元素並執行
+                                    var scriptElement = document.createElement('script');
+                                    scriptElement.textContent = scriptContent;
+                                    document.head.appendChild(scriptElement);
+                                    document.head.removeChild(scriptElement);
+                                }
+                            } catch (e) {
+                                console.error('執行 AdSense script 失敗:', e);
+                            }
+                        });
+                        
+                        // 如果沒有 script 標籤，手動觸發初始化
+                        if ($adContainer.find('script').length === 0) {
+                            // 確保 adsbygoogle 存在
+                            if (typeof window.adsbygoogle === 'undefined') {
+                                window.adsbygoogle = [];
+                            }
+                            // 為每個 AdSense 廣告元素 push 一個對象
+                            $adsbygoogle.each(function() {
+                                (window.adsbygoogle = window.adsbygoogle || []).push({});
+                            });
+                            console.log('AdSense 廣告手動初始化完成');
+                        }
+                    }
+                } else {
+                    // 參考首頁橫幅廣告的處理方式：清空容器讓 CSS :empty 選擇器自動隱藏
+                    hideTopBannerAd();
+                }
+            })
+            .fail(function() {
+                // 參考首頁橫幅廣告的處理方式：清空容器讓 CSS :empty 選擇器自動隱藏
+                hideTopBannerAd();
+            });
+    
+}
+
+/**
+ * 隱藏橫幅廣告容器（參考首頁橫幅廣告的處理方式）
+ */
+function hideTopBannerAd() {
+    var $adContainer = $('#top-banner-ad');
+    var $rowContainer = $('#top-banner-row');
+    
+    if ($adContainer.length === 0) {
+        return;
+    }
+    
+    // 清空容器內容，讓 CSS :empty 選擇器自動隱藏
+    $adContainer.empty();
+    
+    // 強制設定樣式確保隱藏
+    var adElement = $adContainer[0];
+    if (adElement) {
+        adElement.style.setProperty('display', 'none', 'important');
+        adElement.style.setProperty('height', '0', 'important');
+        adElement.style.setProperty('min-height', '0', 'important');
+        adElement.style.setProperty('margin', '0', 'important');
+        adElement.style.setProperty('padding', '0', 'important');
+    }
+    
+    // 隱藏整個 row
+    if ($rowContainer.length > 0) {
+        var rowElement = $rowContainer[0];
+        if (rowElement) {
+            rowElement.style.setProperty('display', 'none', 'important');
+            rowElement.style.setProperty('height', '0', 'important');
+            rowElement.style.setProperty('min-height', '0', 'important');
+            rowElement.style.setProperty('margin', '0', 'important');
+            rowElement.style.setProperty('padding', '0', 'important');
+        }
+        
+        // 移除 col-lg-12 的 margin-bottom
+        $rowContainer.find('.col-lg-12').css('margin-bottom', '0');
+        var colElement = $rowContainer.find('.col-lg-12')[0];
+        if (colElement) {
+            colElement.style.setProperty('margin-bottom', '0', 'important');
+        }
+    }
+}
+
+
+    function loadRelatedArticles(articleId, scope) {
+        var $target = scope ? $(scope).find('.related-articles-container') : $('#related-articles');
+
+        $.get('/Article/GetRelatedArticles', { articleId: articleId })
+            .done(function(response) {
+                if (response.success) {
+                    $target.html(response.data);
+                } else {
+                    $target.html('<p>暫無相關文章</p>');
+                }
+            })
+            .fail(function() {
+                $target.html('<p>載入失敗</p>');
+            });
+    }
+
+    /// <summary>
+    /// 載入相關新聞（依標籤比對）
+    /// </summary>
+    /// <param name="articleId">文章ID</param>
+    function loadTagRelatedNews(articleId, scope) {
+        var $target = scope ? $(scope).find('.tag-related-news-container') : $('#tag-related-news');
+
+        $.get('/Article/GetTagRelatedNews', { articleId: articleId })
+            .done(function(response) {
+                if (response.success && response.data && response.data.trim() !== '') {
+                    $target.html(response.data);
+                } else {
+                    $target.html('<p>暫無相關新聞</p>');
+                }
+            })
+            .fail(function() {
+                $target.html('<p>載入失敗</p>');
+            });
+    }
+
+    function loadLatestNews(scope) {
+        var $target = scope ? $(scope).find('.latest-news-container') : $('#latest-news');
+
+        $.get('/Article/GetLatestNews')
+            .done(function(response) {
+                if (response.success) {
+                    $target.html(response.data);
+                } else {
+                    $target.html('<p>暫無最新消息</p>');
+                }
+            })
+            .fail(function() {
+                $target.html('<p>載入失敗</p>');
+            });
+    }
+
+    function loadScrollMenu() {
+        $.get('/Article/GetScrollMenu')
+            .done(function(response) {
+                if (response.success) {
+                    $('#scroll-menu').html(response.data);
+                }
+            })
+            .fail(function() {
+                // ScrollMenu 載入失敗時保持空白，不顯示錯誤訊息
+            });
+    }
+</script>
+
+    <!-- Back to Top Button -->
+    <div b-3ttk0qshax class="go-top">
+        <i b-3ttk0qshax class="bx bx-up-arrow-alt"></i>
+    </div>
+    
+    <!-- Footer -->
+    <section b-3ttk0qshax class="footer-area pt-100 pb-70">
+        <div b-3ttk0qshax class="container">
+            <div b-3ttk0qshax class="row">
+                <div b-3ttk0qshax class="col-lg-3 col-md-6">
+                    <div b-3ttk0qshax class="single-footer-widget">
+                        <p b-3ttk0qshax>
+                            好好聽文創傳媒股份有限公司<br b-3ttk0qshax>
+                            聯絡信箱：<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ef6f6eadeeeecf1e8f1f7fdfbb0eae9">[email&#160;protected]</a><br b-3ttk0qshax>
+                            公司地址：114 台北市內湖區舊宗路二段 169 號 1 樓<br b-3ttk0qshax>
+                            統一編號:83643205<br b-3ttk0qshax>
+                            版權所有，非經授權，不許轉載本網站內容<br b-3ttk0qshax>
+                            電話:02-7709-9365
+                        </p>
+                        <div b-3ttk0qshax class="footer-store-badges">
+                            <a b-3ttk0qshax class="app-store" href="https://apps.apple.com/tw/app/%E9%89%85%E8%81%9E%E5%A4%A9%E4%B8%8B/id6758598908" target="_blank" rel="noopener" aria-label="前往 App Store 下載">
+                                <img b-3ttk0qshax src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-tw?size=250x83" alt="Download on the App Store" />
+                            </a>
+                            <a b-3ttk0qshax class="google-play" href="https://play.google.com/store/apps/details?id=tw.com.bigmedia" target="_blank" rel="noopener" aria-label="前往 Google Play 下載">
+                                <img b-3ttk0qshax src="https://play.google.com/intl/en_us/badges/static/images/badges/zh-tw_badge_web_generic.png" alt="Get it on Google Play" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div b-3ttk0qshax class="col-lg-3 col-md-6">
+                    <div b-3ttk0qshax class="single-footer-widget">
+                        <h2 b-3ttk0qshax>合作媒體</h2>
+                        <ul b-3ttk0qshax class="useful-links-list footer-links-grid">
+                            <li b-3ttk0qshax><a b-3ttk0qshax href="https://www.ftvnews.com.tw/" target="_blank">民視新聞網</a></li>
+                            <li b-3ttk0qshax><a b-3ttk0qshax href="https://www.prnewswire.com/news-releases/" target="_blank">PR Newswire</a></li>
+                            <li b-3ttk0qshax><a b-3ttk0qshax href="https://news.housefun.com.tw/news" target="_blank">好房網</a></li>
+                            <li b-3ttk0qshax><a b-3ttk0qshax href="https://www.speakupppp.com/" target="_blank">大聲傳媒</a></li>
+                            <li b-3ttk0qshax><a b-3ttk0qshax href="https://www.i-meihua.com/" target="_blank">梅花新聞網</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div b-3ttk0qshax class="col-lg-3 col-md-6">
+                    <div b-3ttk0qshax class="single-footer-widget">
+                        <h2 b-3ttk0qshax>重要連結</h2>
+                        <ul b-3ttk0qshax class="useful-links-list">
+                            <li b-3ttk0qshax><a b-3ttk0qshax href="/about">關於我們</a></li>
+                            <li b-3ttk0qshax><a b-3ttk0qshax href="/privacy">隱私權政策</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div b-3ttk0qshax class="col-lg-3 col-md-6">
+                    <div b-3ttk0qshax class="single-footer-widget">
+                        <h2 b-3ttk0qshax>社群</h2>
+                        <a b-3ttk0qshax href="https://lin.ee/H1gbTMV" target="_blank">
+                            <img b-3ttk0qshax src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" style="height:44px;" border="0">
+                        </a>
+                        <ul b-3ttk0qshax class="social">
+                            <li b-3ttk0qshax>
+                                <a b-3ttk0qshax href="https://www.facebook.com/52%E6%96%B0%E8%81%9E%E8%81%9A%E6%A8%82%E9%83%A8-104018068497854"
+                                   class="facebook" target="_blank"><i b-3ttk0qshax class="bx bxl-facebook"></i></a>
+                            </li>
+                            <li b-3ttk0qshax>
+                                <a b-3ttk0qshax href="https://www.instagram.com/h.h.t.fm/?hl=zh-tw" class="twitter" target="_blank">
+                                    <i b-3ttk0qshax class="bx bxl-instagram"></i>
+                                </a>
+                            </li>
+                            <li b-3ttk0qshax>
+                                <a b-3ttk0qshax href="https://twitter.com/FM19930420" class="linkedin" target="_blank">
+                                    <i b-3ttk0qshax class="bx bxl-twitter"></i>
+                                </a>
+                            </li>
+                            <li b-3ttk0qshax>
+                                <a b-3ttk0qshax href="https://www.youtube.com/channel/UCRnMESVX4cewaPVEceZA5CA" class="linkedin" target="_blank">
+                                    <i b-3ttk0qshax class="bx bxl-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div b-3ttk0qshax class="copyright-area">
+        <div b-3ttk0qshax class="container">
+            <div b-3ttk0qshax class="copyright-area-content">
+                <p b-3ttk0qshax> Copyright © 2022~2026 好好聽文創傳媒股份有限公司 All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <div b-3ttk0qshax class="divaddLine">
+        <div b-3ttk0qshax class="divbox">
+            <a b-3ttk0qshax href="/app-download.html" class="app-download-link" data-ios-url="https://apps.apple.com/tw/app/%E9%89%85%E8%81%9E%E5%A4%A9%E4%B8%8B/id6758598908" data-android-url="https://play.google.com/store/apps/details?id=tw.com.bigmedia">
+                <img src="/images/app2.png" alt="APP 下載" border="0">
+            </a>
+            <a b-3ttk0qshax href="#" class="scroll-top-link" aria-label="回到頁面頂端">
+                <i b-3ttk0qshax class="bx bx-up-arrow-alt"></i>
+            </a>
+        </div>
+    </div>
+    <div b-3ttk0qshax class="modal fade" id="appDownloadModal" tabindex="-1" role="dialog" aria-labelledby="appDownloadModalLabel" aria-hidden="true">
+        <div b-3ttk0qshax class="modal-dialog modal-dialog-centered app-download-modal-dialog" role="document">
+            <div b-3ttk0qshax class="modal-content">
+                <div b-3ttk0qshax class="modal-header">
+                    <h5 b-3ttk0qshax class="modal-title" id="appDownloadModalLabel">APP 下載</h5>
+                    <button b-3ttk0qshax type="button" class="close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
+                        <span b-3ttk0qshax aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div b-3ttk0qshax class="modal-body p-0">
+                    <iframe b-3ttk0qshax class="app-download-iframe" src="/app-download.html" title="APP 下載頁面" style="width: 100%; border: 0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .divaddLine {
+            position: relative; /* 設置容器為相對定位 */
+        }
+
+        .divbox {
+            position: fixed; /* 設置內容為固定定位 */
+            top: 80%; /* 將內容上端置中 */
+            right: 0; /* 設置內容靠右 */
+            transform: translateY(-50%); /* 通過垂直平移使內容垂直置中 */
+            width: 50px; /* 設置內容寬度 */
+            height: auto; /* 設置內容高度 */
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            /*text-align: center;*/ /* 將內容文字水平置中 */
+            /*line-height: 100px;*/ /* 設置內容文字行高使其垂直置中 */
+            z-index: 2147483646;
+        }
+
+        .divbox > a {
+            display: block;
+        }
+
+        .divbox .app-download-link {
+            margin-bottom: 20px;
+        }
+
+        .divbox img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .scroll-top-link {
+            width: 50px;
+            height: 42px;
+            background-color: #f0632d;
+            color: #ffffff;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+        }
+
+        .scroll-top-link:hover {
+            color: #ffffff;
+            opacity: 0.92;
+        }
+
+        .scroll-top-link.is-visible {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .scroll-top-link i {
+            font-size: 26px;
+            line-height: 1;
+        }
+
+        .app-download-link.is-loading {
+            opacity: 0.75;
+            pointer-events: none;
+        }
+
+        #appDownloadModal {
+            z-index: 100600;
+        }
+
+        .modal-backdrop.show {
+            z-index: 100500;
+        }
+
+        .app-download-modal-dialog {
+            width: calc(100% - 24px);
+            max-width: 420px;
+            margin: 1.75rem auto;
+        }
+
+        .app-download-iframe {
+            height: 70vh;
+        }
+    </style>
+
+    <!-- Main JavaScript -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/main.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        $(document).ready(function () {
+            // 判斷目前裝置平台（iOS / Android / Other）
+            function getDevicePlatform() {
+                var userAgent = navigator.userAgent || navigator.vendor || window.opera || '';
+                var isIOS = /iPad|iPhone|iPod/.test(userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+                var isAndroid = /Android/i.test(userAgent);
+
+                if (isIOS) {
+                    return 'ios';
+                }
+
+                if (isAndroid) {
+                    return 'android';
+                }
+
+                return 'other';
+            }
+
+            // 開啟 APP 下載 Modal（同時相容 Bootstrap 4/5）
+            function openAppDownloadModal() {
+                if (window.bootstrap && bootstrap.Modal) {
+                    var appDownloadModalV5 = bootstrap.Modal.getOrCreateInstance(document.getElementById('appDownloadModal'));
+                    appDownloadModalV5.show();
+                    return;
+                }
+
+                if ($.fn.modal) {
+                    $('#appDownloadModal').modal('show');
+                }
+            }
+
+            // 處理 APP 下載點擊事件（iOS/Android 直接導流，其他平台開啟 Modal）
+            $('.app-download-link').on('click', function (e) {
+                e.preventDefault();
+                var appLink = $(this);
+                var devicePlatform = getDevicePlatform();
+
+                if (devicePlatform === 'ios') {
+                    appLink.addClass('is-loading');
+                    window.location.href = appLink.data('ios-url');
+                    return;
+                }
+
+                if (devicePlatform === 'android') {
+                    appLink.addClass('is-loading');
+                    window.location.href = appLink.data('android-url');
+                    return;
+                }
+
+                openAppDownloadModal();
+            });
+
+            // 處理回到頂端按鈕點擊事件（平滑捲動）
+            $('.scroll-top-link').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({ scrollTop: 0 }, 260);
+            });
+
+            // 控制回到頂端按鈕顯示狀態（捲動超過指定高度才顯示）
+            function updateScrollTopButtonVisibility() {
+                var shouldShow = $(window).scrollTop() > 600;
+                $('.scroll-top-link').toggleClass('is-visible', shouldShow);
+            }
+
+            // 監聽捲動事件並初始化按鈕狀態
+            $(window).on('scroll', updateScrollTopButtonVisibility);
+            updateScrollTopButtonVisibility();
+
+            // 停止語音朗讀
+            if (typeof synthesis !== 'undefined' && typeof utterance !== 'undefined') {
+                console.log('停止朗讀！');
+                synthesis.cancel();
+            }
+        });
+    </script>
+    
+    <!-- Google AdSense -->
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/22692401596/Rectangle', [[240, 400], [300, 600], [1, 1]], 'div-gpt-ad-1647012115808-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0RZLDL9ZRV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-0RZLDL9ZRV');
+    </script>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5282581099710426" crossorigin="anonymous"></script>
+    
+    <!-- Cookie Consent -->
+    <script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
+    <script>
+        window.addEventListener("load", function () { 
+            window.wpcc.init({ 
+                "colors": { 
+                    "popup": { 
+                        "background": "#fff0ca", 
+                        "text": "#000000", 
+                        "border": "#e0bc57" 
+                    }, 
+                    "button": { 
+                        "background": "#e0bc57", 
+                        "text": "#ffffff" 
+                    } 
+                }, 
+                "content": { 
+                    "href": "https://www.bigmedia.com.tw/privacy", 
+                    "message": "鉅聞天下使用Cookies來改善您的瀏覽體驗, 請確定您同意及接受我們的私隱政策與使用條款才繼續瀏覽。 ", 
+                    "link": "了解更多", 
+                    "button": "知道了!" 
+                }, 
+                "position": "bottom", 
+                "border": "thin" 
+            }) 
+        });
+    </script>
+    
+    
+    <script>
+        // 全域變數來記錄朗讀狀態
+        let currentPosition = 0;  // 目前朗讀位置
+        let fullContent = '';     // 完整內容
+        let isReading = false;    // 是否正在朗讀
+        let startTime = 0;        // 開始朗讀時間
+        let currentSpeechArticleKey = ''; // 目前朗讀的文章 DOM key
+
+        /**
+         * 依文章 DOM key 取得文章內的唯一元素。
+         */
+        function getArticleScopedElement(prefix, articleKey) {
+            return document.getElementById(`${prefix}-${articleKey}`) || document.getElementById(prefix);
+        }
+
+        function speakText(articleKey) {
+            const contentElement = getArticleScopedElement('hidContent', articleKey);
+            if (!contentElement) {
+                return;
+            }
+
+            const content = contentElement.textContent;
+            if ('speechSynthesis' in window) {
+                if (currentSpeechArticleKey !== articleKey) {
+                    speechSynthesis.cancel();
+                    currentSpeechArticleKey = articleKey;
+                    currentPosition = 0;
+                    fullContent = '';
+                    isReading = false;
+                }
+
+                // 如果是第一次播放，記錄完整內容
+                if (fullContent === '') {
+                    fullContent = content;
+                    currentPosition = 0;
+                }
+
+                // 從目前位置開始播放
+                const remainingContent = fullContent.substring(currentPosition);
+                const utterance = new SpeechSynthesisUtterance(remainingContent);
+                utterance.lang = 'zh-TW';
+
+                // 獲取可用的語音列表
+                const voices = speechSynthesis.getVoices();
+
+                // 優先尋找 Google 國語（臺灣）語音
+                let selectedVoice = voices.find(voice =>
+                    voice.name.includes('Google 國語（臺灣）') ||
+                    voice.name.includes('Google 國語 (臺灣)') ||
+                    voice.name.includes('Google Chinese (Taiwan)') ||
+                    (voice.name.includes('Google') && voice.lang === 'zh-TW')
+                );
+
+                // 如果找不到 Google 臺灣語音，尋找其他高品質中文語音
+                if (!selectedVoice) {
+                    selectedVoice = voices.find(voice =>
+                        voice.name.includes('Google') && (
+                            voice.lang.includes('zh') ||
+                            voice.name.includes('Chinese') ||
+                            voice.name.includes('中文')
+                        )
+                    );
+                }
+
+                // 如果還是找不到，使用任何可用的中文語音
+                if (!selectedVoice) {
+                    selectedVoice = voices.find(voice =>
+                        voice.lang.includes('zh') ||
+                        voice.lang.includes('cmn') ||
+                        voice.name.includes('Chinese') ||
+                        voice.name.includes('中文') ||
+                        voice.name.includes('Mandarin')
+                    );
+                }
+
+                if (selectedVoice) {
+                    utterance.voice = selectedVoice;
+                    console.log('使用語音:', selectedVoice.name, '語言:', selectedVoice.lang);
+                } else {
+                    console.log('未找到合適的中文語音，使用預設語音');
+                }
+
+                // 調整語音參數以獲得更自然的效果
+                utterance.rate = 1.2;    // 語速稍快一點
+                utterance.pitch = 1.0;   // 音調正常
+                utterance.volume = 1.0;  // 音量最大
+
+                // 追蹤朗讀進度
+                startTime = Date.now();
+                let wordsPerMinute = 200; // 估計每分鐘朗讀字數
+
+                // 顯示停止按鈕，隱藏開始按鈕
+                getArticleScopedElement('btnSpeak', articleKey).style.display = 'none';
+                getArticleScopedElement('btnStop', articleKey).style.display = 'inline-block';
+                isReading = true;
+
+                // 朗讀結束時恢復按鈕狀態
+                utterance.onend = function() {
+                    getArticleScopedElement('btnSpeak', articleKey).style.display = 'inline-block';
+                    getArticleScopedElement('btnStop', articleKey).style.display = 'none';
+                    isReading = false;
+                    // 如果完整播放完畢，重置位置
+                    if (currentPosition + remainingContent.length >= fullContent.length) {
+                        resetReading(articleKey);
+                        console.log('朗讀完畢，已重置');
+                    }
+                };
+
+                // 朗讀被中斷時恢復按鈕狀態
+                utterance.onerror = function() {
+                    getArticleScopedElement('btnSpeak', articleKey).style.display = 'inline-block';
+                    getArticleScopedElement('btnStop', articleKey).style.display = 'none';
+                    isReading = false;
+                };
+
+                speechSynthesis.speak(utterance);
+            }
+        }
+
+        // 重置朗讀狀態
+        function resetReading(articleKey) {
+            // 如果正在朗讀，先停止
+            if (isReading) {
+                speechSynthesis.cancel();
+                getArticleScopedElement('btnSpeak', articleKey).style.display = 'inline-block';
+                getArticleScopedElement('btnStop', articleKey).style.display = 'none';
+                isReading = false;
+            }
+
+            currentPosition = 0;
+            fullContent = '';
+            updateButtonText(articleKey);
+            console.log('朗讀狀態已重置');
+        }
+
+        // 更新按鈕文字和顯示狀態
+        function updateButtonText(articleKey) {
+            const btnSpeak = getArticleScopedElement('btnSpeak', articleKey);
+            const btnReset = getArticleScopedElement('btnReset', articleKey);
+
+            if (!btnSpeak || !btnReset) {
+                return;
+            }
+
+            if (currentPosition > 0 && currentPosition < fullContent.length) {
+                const progress = Math.round((currentPosition / fullContent.length) * 100);
+                btnSpeak.textContent = `繼續朗讀 (${progress}%)`;
+                btnReset.style.display = 'inline-block';
+            } else {
+                btnSpeak.textContent = '聽新聞';
+                btnReset.style.display = 'none';
+            }
+        }
+        function stopSpeech(articleKey) {
+            if ('speechSynthesis' in window && isReading) {
+                // 估算目前朗讀位置
+                const elapsedTime = Date.now() - startTime;
+                const estimatedWordsRead = Math.floor((elapsedTime / 1000) * (200 / 60) * 1.2); // 考慮語速1.2
+                const estimatedCharsRead = estimatedWordsRead * 2; // 中文平均每字2個字符
+
+                // 更新目前位置，但不超過剩餘內容長度
+                const remainingContent = fullContent.substring(currentPosition);
+                const newPosition = Math.min(estimatedCharsRead, remainingContent.length);
+                currentPosition += newPosition;
+
+                console.log(`朗讀已停止，估計讀到位置: ${currentPosition}/${fullContent.length}`);
+                console.log(`下次將從此處繼續: "${fullContent.substring(currentPosition, currentPosition + 20)}..."`);
+
+                // 取消朗讀（這會同時取消暫停狀態）
+                speechSynthesis.cancel();
+
+                // 恢復按鈕狀態
+                getArticleScopedElement('btnSpeak', articleKey).style.display = 'inline-block';
+                getArticleScopedElement('btnStop', articleKey).style.display = 'none';
+                isReading = false;
+
+                // 更新按鈕文字以顯示繼續狀態
+                updateButtonText(articleKey);
+            }
+        }
+
+        // 顯示可用語音列表（開發者工具中查看）
+        function showAvailableVoices() {
+            if ('speechSynthesis' in window) {
+                const voices = speechSynthesis.getVoices();
+                console.log('=== 所有可用語音 ===');
+                voices.forEach((voice, index) => {
+                    console.log(`${index}: ${voice.name} (${voice.lang}) - ${voice.localService ? '本地' : '遠程'}`);
+                });
+
+                // 特別標示 Google 臺灣語音
+                const googleTaiwanVoice = voices.find(voice =>
+                    voice.name.includes('Google 國語（臺灣）') ||
+                    voice.name.includes('Google 國語 (臺灣)') ||
+                    voice.name.includes('Google Chinese (Taiwan)') ||
+                    (voice.name.includes('Google') && voice.lang === 'zh-TW')
+                );
+
+                if (googleTaiwanVoice) {
+                    console.log('✅ 找到 Google 臺灣語音:', googleTaiwanVoice.name);
+                } else {
+                    console.log('❌ 未找到 Google 臺灣語音');
+                }
+            }
+        }
+
+        // 頁面載入時顯示可用語音
+        document.addEventListener('DOMContentLoaded', function() {
+            // 等待語音列表載入完成
+            if ('speechSynthesis' in window) {
+                if (speechSynthesis.getVoices().length === 0) {
+                    speechSynthesis.addEventListener('voiceschanged', showAvailableVoices);
+                } else {
+                    showAvailableVoices();
+                }
+            }
+        });
+
+        // 頁面離開時自動停止朗讀
+        window.addEventListener('beforeunload', function() {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                console.log('頁面離開，已自動停止朗讀');
+            }
+        });
+
+        // 頁面卸載時停止朗讀（備用方案）
+        window.addEventListener('unload', function() {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+            }
+        });
+
+        // 頁面隱藏時停止朗讀（例如關閉分頁）
+        window.addEventListener('pagehide', function() {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+                console.log('頁面隱藏，已自動停止朗讀');
+            }
+        });
+
+        // 頁面隱藏時暫停朗讀（例如切換分頁）
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden && isReading && 'speechSynthesis' in window) {
+                speechSynthesis.pause();
+                console.log('頁面隱藏，已暫停朗讀');
+            } else if (!document.hidden && speechSynthesis.paused) {
+                speechSynthesis.resume();
+                console.log('頁面顯示，已恢復朗讀');
+            }
+        });
+
+        // 瀏覽器失去焦點時暫停朗讀
+        window.addEventListener('blur', function() {
+            if (isReading && 'speechSynthesis' in window) {
+                speechSynthesis.pause();
+                console.log('瀏覽器失去焦點，已暫停朗讀');
+            }
+        });
+
+        // 瀏覽器獲得焦點時恢復朗讀
+        window.addEventListener('focus', function() {
+            if (isReading && speechSynthesis.paused && 'speechSynthesis' in window) {
+                speechSynthesis.resume();
+                console.log('瀏覽器獲得焦點，已恢復朗讀');
+            }
+        });
+
+        // AI 衍伸知識 iframe 訊息處理，依 event.source 對應正確的文章 iframe。
+        window.addEventListener('message', function(event) {
+            if (event.origin !== 'https://www.bigmedia.com.tw') {
+                return;
+            }
+
+            const iframe = Array.from(document.querySelectorAll('iframe.bigmedia-ai-iframe'))
+                .find(function(item) {
+                    return item.contentWindow === event.source;
+                });
+
+            if (!iframe) {
+                return;
+            }
+
+            const data = event.data;
+
+            if (data.type === 'resize') {
+                iframe.style.height = data.height + 'px';
+                configureArticleAiIframe(iframe);
+            }
+
+            if (data.type === 'getContent') {
+                let selector = data.selector;
+
+                if (!selector.startsWith('#') && !selector.startsWith('.')) {
+                    selector = '#' + selector;
+                }
+
+                const content = document.querySelector(selector)?.textContent.trim() || '';
+                event.source.postMessage({
+                    type: 'content',
+                    content: content
+                }, event.origin);
+            }
+        });
+    </script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4cf5a4cee0bde6b',t:'MTc5MjQwODM5OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

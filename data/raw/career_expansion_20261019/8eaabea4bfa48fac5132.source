@@ -1,0 +1,781 @@
+
+<!DOCTYPE html>
+<html lang="tw">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>彰化 第四選區恐洗牌 第三選區平靜 - A9 中部新聞 - 20251214 - 中國時報 - 翻爆 - 翻報</title>
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="翻爆 - 翻報" />
+        <meta name="Description" content="　彰化縣議員下屆選舉，第四選區議員凃俊任、劉惠娟有意換跑道參選員林市長，另也有政二代張愉婕、游筑凱表態投入議員選舉，還有回鍋參選及要再進一步的地方代表有意加入戰局，第四選區可能呈現大洗牌局面；相對於第四選區多人有意參選，第三選區則顯得較為平靜。">
+            <meta name="Keywords" content="turnnewsapp,中國時報,工商時報,旺報,中時地方版,工商假日報,周刊王,時報周刊,愛女生">
+    <link rel="icon" type="image/ico" href="/Content/image/full.ico">
+
+    
+    
+    
+
+    <!--stylesheet include menu-->
+    <link href="/Content/css/jquery-ui.1.12.1.css" rel="stylesheet">
+
+    <!--include select -->
+    <link rel="stylesheet" href="/Content/css/megadropdown/style.css">
+
+    <script src="/Content/js/megadropdown/modernizr.js"></script>
+
+    <!--<link rel="stylesheet" type="text/css" media="all" href="~/Content/css/font-awesome.min">  -->
+    <link rel="stylesheet" type="text/css" media="all" href="/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/Content/css/jquery.custom-scrollbar.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/Content/css/style.css?v=20180320">
+    <link rel="stylesheet" type="text/css" media="all" href="/Content/css/style-menu.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/Content/css/popout.css">
+
+    <style>
+        html, body {
+            height: 100%;
+            background: rgb(238, 238, 238);
+        }
+
+        .cd-dropdown {
+            top: 39px !important;
+            left: -30px !important;
+            width: 141px;
+            z-index: -999;
+        }
+
+            .cd-dropdown.dropdown-is-active {
+                z-index: 999;
+            }
+
+        .cd-dropdown-content ul {
+            right: 50px;
+        }
+
+        div.menu figure div span.active {
+            /*background: #efefef;*/
+            background: #f7f7f7;
+            background: -moz-linear-gradient(top, #f7f7f7 0%, #e8e8e8 100%);
+            background: -webkit-linear-gradient(top, #f7f7f7 0%,#e8e8e8 100%);
+            background: linear-gradient(to bottom, #f7f7f7 0%,#e8e8e8 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e8e8e8',GradientType=0 );
+            padding-top: 5px;
+            border: 0px solid #efefef;
+            padding-left: 6px;
+        }
+
+        #ui-datepicker-div {
+            top: 39px !important;
+            /*left: 50% !important;*/
+            height: auto;
+            width: 398.7px !important;
+        }
+
+        .wrapper {
+            overflow: hidden;
+            padding-bottom: 300px;
+        }
+    </style>
+
+
+    <!--第一頁半頁廣告160x600 300x600px-->
+    <!--下方看板廣告728x90 970x90 970x250px-->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21692124366/reader-cm-cover-728970x90-970x250', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1520928580025-0').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-cm-cover-160300x600', [[300, 600], [160, 600]], 'div-gpt-ad-1520928580025-1').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-ct-cover-728970x90-970x250', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1520928580025-2').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-ct-cover-160300x600', [[300, 600], [160, 600]], 'div-gpt-ad-1520928580025-3').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-king-cover-728970x90-970x250', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1520928580025-4').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-king-cover-160300x600', [[300, 600], [160, 600]], 'div-gpt-ad-1520928580025-5').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-wd-cover-728970x90-970x250', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1520928580025-6').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-wd-cover-160300x600', [[300, 600], [160, 600]], 'div-gpt-ad-1520928580025-7').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-ctw-cover-728970x90-970x250', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1520928580025-8').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-ctw-cover-160300x600', [[300, 600], [160, 600]], 'div-gpt-ad-1520928580025-9').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-igirl-cover-728970x90-970x250', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1520928580025-10').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-igirl-cover-160300x600', [[300, 600], [160, 600]], 'div-gpt-ad-1520928580025-11').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    </script>
+
+    
+    <meta property="og:title" content="彰化 第四選區恐洗牌 第三選區平靜 - A9 中部新聞 - 20251214 - 中國時報 - 翻爆 - 翻報" />
+
+        <meta property="og:description" content="　彰化縣議員下屆選舉，第四選區議員凃俊任、劉惠娟有意換跑道參選員林市長，另也有政二代張愉婕、游筑凱表態投入議員選舉，還有回鍋參選及要再進一步的地方代表有意加入戰局，第四選區可能呈現大洗牌局面；相對於第四選區多人有意參選，第三選區則顯得較為平靜。" />
+    <meta property="og:url" content="https://reader.turnnewsapp.com/ctl/20251214/b21aa9/q1rmxziwmjuxmje0x0e5xzq1/share" />
+    <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://pad.chinatimes.com/action/l/20251214/b21aa9/img/99734_130091006.C11.T25C111300907H.jpg" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="/assets/fancybox3/jquery.fancybox.css" rel="stylesheet">
+
+    <style>
+        .papger {
+            width: auto;
+            height: auto;
+        }
+
+        .cd-dropdown {
+            z-index: -999;
+        }
+
+            .cd-dropdown.dropdown-is-active {
+                z-index: 999;
+            }
+
+        .fancybox-content {
+            width: 96% !important;
+            max-width: 96% !important;
+            overflow-y: auto;
+            overflow-x: hidden !important;
+        }
+
+        .date_time_Box {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        body {
+            /* overflow-y: if; */
+            overflow-y: auto; /* fox android chrome can't scroll */
+        }
+
+        a:hover {
+            color: white !important;
+        }
+
+        .poput_pagetitle {
+            margin-top: 25px;
+        }
+
+        .wrapper {
+            overflow: hidden;
+            padding-bottom: 60px;
+        }
+
+        .intro {
+            border-radius: 15px;
+            background-color: lightgray;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+    <style>
+        div.cn {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        div.inner {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+    <style>
+        .pager {
+            margin: 10px 0 16px;
+            border-top: 1px solid rgba(0, 0, 0, 0.065);
+            padding-top: 12px;
+            font-weight: bold;
+        }
+
+            .pager a:first-child {
+                float: left;
+            }
+
+            .pager a {
+                display: inline-block;
+                float: right;
+                text-transform: uppercase;
+            }
+
+            .pager a {
+                display: inline-block;
+                float: right;
+                text-transform: uppercase;
+            }
+
+        a {
+            color: #777;
+        }
+
+        .pager a:hover {
+            color: #b30000 !important;
+            text-decoration: none;
+        }
+
+        .pager a:first-child i {
+            margin-left: 0;
+            margin-right: 0.5em;
+        }
+
+        .pager a i {
+            font-size: 18px;
+            margin-left: 0.5em;
+        }
+
+        /*.fa {
+            display: inline-block;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }*/
+    </style>
+    <!--全版閱讀內文文末、分享文末-->
+
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/21692124366/reader-article-bottom-smartsize', [[300, 250], [468, 60], [336, 280], [728, 90], [320, 50], [300, 100]], 'div-gpt-ad-1521081388878-0').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-article-top-pc', [[728, 90], [300, 250], [330, 280], [300, 100]], 'div-gpt-ad-1538385131946-0').addService(googletag.pubads());
+            googletag.defineSlot('/21692124366/reader-article-top-mobile', [[300, 250], [300, 100], [336, 280]], 'div-gpt-ad-1538385304973-0').addService(googletag.pubads());
+
+            //googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    </script>
+
+
+
+
+
+    <style>
+        .modal-header {
+            padding: 9px 15px;
+            border-bottom: 1px solid #eee;
+            background-color: #990000;
+            -webkit-border-top-left-radius: 5px;
+            -webkit-border-top-right-radius: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+            .modal-header .modal-title {
+                color: white;
+            }
+
+        .modal-body a {
+            color: red;
+        }
+
+        .close {
+            color: #fff;
+            opacity: 1;
+        }
+    </style>
+
+    <script>
+        // 關閉iOS兩指放大功能
+        document.addEventListener('gesturestart', function (e) {
+            e.preventDefault();
+        });
+    </script>
+
+   
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K8784XR');</script>
+    <!-- End Google Tag Manager -->
+
+
+    
+
+</head>
+<body>
+
+    
+
+
+
+
+<div id="wrapper" class="wrapper" style="position:relative;">
+    <!---- markup header---------------->
+    <header class="header htmleaf-header type_5" role="banner">
+        <section class="h_bot_part" style=" width: 100% !important;">
+            <div class="menu_wrap">
+                <div class="container clearfix">
+                    <div class="col-lg-12 clearfix">
+                        <div class="for_pc">
+                            <!--for pc-->
+                            <!--三大icon-->
+                            <div id="hrader-menu" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 top_menu_icon t_align_l t_md_align_1">
+                                <div class="dropdown" style="float: left;">
+                                    <span>
+                                        <img class="menu-open" src="/Content/image/full_11.png" alt="翻爆三報三刊" title="翻爆三報三刊">
+                                        <img class="menu-close" src="/Content/image/full_12.png" alt="翻爆三報三刊" title="翻爆三報三刊" style=" display: none;">
+                                    </span>
+                                </div>
+                                <div class="dropdown dropdown-date col-md-1" style=" float: left">
+                                    <input id="datepicker1" type="text" style="display: none;" />
+                                </div>
+                                <div class="dropdown dropdown-home col-md-1" style="float:left">
+                                    <span><a href="https://turnnewsapp.com/" target="_blank"><img src="/Content/image/full_01.png" alt="翻爆首頁" title="翻爆首頁"></a></span>
+                                </div>
+                                <div class="dropdown dropdown-info col-md-1 hidden" style=" float: left">
+                                    <span><a href="#"><img src="/Content/image/full_03.png" alt="常見問題" title="常見問題"></a></span>
+                                </div>
+                            </div>
+                            <!--/三大icon-->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 t_align_r">
+                                    <!--快速翻頁-->
+                                    <div class="row cd-dropdown-wrapper">
+                                        <a class="cd-dropdown-trigger" href="#" style="text-decoration:none;">快速翻頁&nbsp;&nbsp;&nbsp;<span class="caret"></span></a>
+                                        <nav class="cd-dropdown">
+                                            <h2>快速翻頁</h2>
+                                            <a href="#" class="cd-close">Close</a>
+                                            <ul class="cd-dropdown-content" style="overflow-y: hidden; max-height: 600px;">
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <!--/快速翻頁-->
+                            </div>
+                        </div>
+                        <!--/for_pc end------------------------------------------------------------------>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!---- menu---------------->
+    
+
+
+    <div class="dropdown-content menu wrapper" style="width:100%;">
+        <figure>
+            <a href="/ct">
+                <div>
+                    <span class="face">中國時報</span>
+                    <span class="face ">
+                        <img src="/Content/image/full_04.png" alt="中國時報" title="中國時報">
+                    </span>
+                </div>
+            </a>
+        </figure>
+        <figure>
+            <a href="/ctl">
+                <div>
+                    <span class="face">中時地方版</span>
+                    <span class="face active">
+                        <img src="/Content/image/ctl.png" alt="中時地方版" title="中時地方版">
+                    </span>
+                </div>
+            </a>
+        </figure>
+        
+        <figure>
+            <a href="https://newspaper.ctee.com.tw">
+                <div>
+                    <span class="face">工商時報</span>
+                    <span class="face "><img src="/Content/image/full_05.png" alt="工商時報" title="工商時報"></span>
+                </div>
+            </a>
+        </figure>
+        
+        <figure>
+            <a href="/cn">
+                <div>
+                    <span class="face">旺報</span>
+                    <span class="face ">
+                        <img src="/Content/image/full_06.png" alt="旺報" title="旺報">
+                    </span>
+                </div>
+            </a>
+        </figure>
+        
+        
+        
+        
+        
+    </div>
+
+
+    <!---- markup main---------------->
+    <main>
+
+        
+
+
+
+
+
+
+
+<div class="container">
+    <div class="wrapper_box2 col-lg-12 clearfix">
+        <div class="clearfix">
+            <div class="col-lg-12 col-md-12" style="background:#fff; padding:0px 15px 20px; margin:0 auto;">
+                <section class="clearfix">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
+                                <div class="col-lg-12 cn" style="text-align:center;margin-bottom:10px;margin-left:auto;margin-right:auto">
+                                    <!-- /21692124366/reader-article-top-pc -->
+                                    <div id='div-gpt-ad-1538385131946-0'>
+                                        <script>
+                                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1538385131946-0'); });
+                                        </script>
+                                    </div>
+                                </div>
+
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="poput_pagetitle"><span><a href="/ctl/20251214/b21aa9">中國時報</a></span></div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="poput_txt_dat"><span>20251214</span>・<span>葉靜美／彰化報導</span></div>
+                            </div>
+                        </div>
+                        <div class="popoput_text_box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h1 class="poput_txt_h1" style="margin-top: 0;">彰化 第四選區恐洗牌 第三選區平靜</h1>
+                            <h2 class="poput_txt_h2 p_bottom_15"></h2>
+                        </div>
+                    </div>
+
+                    <!--rightbox-->
+                    <div class="clearfix">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 right_box">
+                                <figure style="width:100% !important;height:auto;">
+                                    <img src="https://pad.chinatimes.com/action/l/20251214/b21aa9/img/99734_130091006.C11.T25C111300907H.jpg" alt="image" class="p_sm_top_10 img-responsive btn-block" title="彰化縣議員下屆選舉，第四選區多人有意參選，可能呈現大洗牌局面，第三選區則顯得較為平靜。（葉靜美攝）" />
+                                    <figcaption class="poput_picbox m_bottom_10">彰化縣議員下屆選舉，第四選區多人有意參選，可能呈現大洗牌局面，第三選區則顯得較為平靜。（葉靜美攝）</figcaption>
+                                </figure>
+
+
+
+
+                            <div class="addthis_inline_share_toolbox"></div>
+                            <div class="clearfix"></div>
+                                        <p class="poput_div poput_txt intro">　彰化縣議員下屆選舉，第四選區議員凃俊任、劉惠娟有意換跑道參選員林市長，另也有政二代張愉婕、游筑凱表態投入議員選舉，還有回鍋參選及要再進一步的地方代表有意加入戰局，第四選區可能呈現大洗牌局面；相對於第四選區多人有意參選，第三選區則顯得較為平靜。</p>
+                                            <p class="poput_div poput_txt">　第三選區範圍包括伸港鄉、線西鄉、和美鎮，此屆選出國民黨籍縣議員林小琪、柯振杯，民進黨周君綾、賴清美、蕭文雄，及無黨籍林宗翰共6人，目前均有意爭取連任，而前任縣議員施嘉華的妻子、國民黨彰化黨代表鍾雅茹將參選縣議員，伸港鄉代表林明鴻也傳出有意轉換跑道。</p>
+                                            <p class="poput_div poput_txt">　第四選區範圍包括大村鄉、員林市、永靖鄉，選出國民黨籍凃俊任、張錦昆、黃正盛、劉惠娟、曹嘉豪，民進黨張欣倩、民眾黨張雪如及無黨籍詹木根共8人，下屆席次將從8席增加到9席，選情變化大，可能呈現大洗牌局面。</p>
+                                            <p class="poput_div poput_txt">　其中，藍營凃俊任、劉惠娟均有意參選員林市長，應會先行協調，協調不成會進入黨內初選，綠營前縣議員陳秋容雖與張欣倩同樣都被點名可能參選員林市長，地方認為兩人的選戰布局，可能要等到綠營縣長人選底定才會明朗化，但陳秋容表示要回鍋選縣議員，張欣倩也說目前沒有選市長的規畫。</p>
+                                            <p class="poput_div poput_txt">　政二代強棒也浮現，曾任4屆縣議員、2屆員林市長的張錦昆，將交棒給女兒張愉婕；另位政二代游筑凱，為已故員林市長游振雄的兒子，現擔任縣府祕書，也將加入第四選區議員選戰。而此屆意外落馬的前縣議員賴澤民傳出有意回鍋參選，員林市代表張詩怡、張詠勝也想更上一層樓，選情激烈。</p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="pager">
+                        <a href="/ctl/20251214/b21aa9/q1rmxziwmjuxmje0x0e5xzm1/share"><i class="fa fa-chevron-left"></i>公益演唱會 觀音長輩嗨翻天</a>
+
+                        <a href="/ctl/20251214/b21aa9/q1rmxziwmjuxmje0x0e5xzu1/share">桃園 交警走入幼兒園 扎根行人安全<i class="fa fa-chevron-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    </main>
+    <!------markup footer -------------->
+    <footer id="footer">
+        <div class="footer_top_part">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="col-lg-12 t_align_l">
+                        <p class=""><span style="float:left;">Copyright © 2026 China Times Group All Rights Reserved. </span><span style="float:right;">Web design by <a href="http://ftdesign.tw/" target="_blank">FT</a>.</span></p><!--.pc_footer-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- /wrapper -->
+
+
+
+
+    
+
+    <!-- modal html -->
+    <div id="alert-txt" class="modal fade">
+        <!-- /.modal-dialog -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">訊息提示</h4>
+                </div>
+                <!-- /.modal-content -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-xs-12 common-data">
+                            <p>內容內容內容</p>
+                            <br /><br />
+                            <button aria-label="Close" data-dismiss="modal" type="button" class="btn btn-gradient btn-danger center-block">關閉</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal -->
+    <script src="/Content/js/jquery_2.1.4.min.js"></script>
+
+    <script>
+        Date.prototype.addDays = function (days) {
+            var dat = new Date(this.valueOf());
+            dat.setDate(dat.getDate() + days);
+            return dat;
+        };
+
+        Date.prototype.yyyymmdd = function () {
+            var mm = this.getMonth() + 1; // getMonth() is zero-based
+            var dd = this.getDate();
+
+            return [this.getFullYear(),
+            (mm > 9 ? '' : '0') + mm,
+            (dd > 9 ? '' : '0') + dd
+            ].join('');
+        };
+
+
+        function showMessageBox(msg) {
+            var $alertDialog = $("#alert-txt");
+            if ($alertDialog) {
+                $alertDialog.find("div.modal-dialog div.modal-content div.common-data p").html(msg);
+                $alertDialog.modal("toggle");
+            }
+            else {
+                alert(msg);
+                console.log(msg);
+            }
+        }
+
+    </script>
+
+    <script>
+        (function ($) {
+            if ($.fn.style) {
+                return;
+            }
+
+            // Escape regex chars with \
+            var escape = function (text) {
+                return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+            };
+
+            // For those who need them (< IE 9), add support for CSS functions
+            var isStyleFuncSupported = !!CSSStyleDeclaration.prototype.getPropertyValue;
+            if (!isStyleFuncSupported) {
+                CSSStyleDeclaration.prototype.getPropertyValue = function (a) {
+                    return this.getAttribute(a);
+                };
+                CSSStyleDeclaration.prototype.setProperty = function (styleName, value, priority) {
+                    this.setAttribute(styleName, value);
+                    var priority = typeof priority != 'undefined' ? priority : '';
+                    if (priority != '') {
+                        // Add priority manually
+                        var rule = new RegExp(escape(styleName) + '\\s*:\\s*' + escape(value) +
+                            '(\\s*;)?', 'gmi');
+                        this.cssText =
+                            this.cssText.replace(rule, styleName + ': ' + value + ' !' + priority + ';');
+                    }
+                };
+                CSSStyleDeclaration.prototype.removeProperty = function (a) {
+                    return this.removeAttribute(a);
+                };
+                CSSStyleDeclaration.prototype.getPropertyPriority = function (styleName) {
+                    var rule = new RegExp(escape(styleName) + '\\s*:\\s*[^\\s]*\\s*!important(\\s*;)?',
+                        'gmi');
+                    return rule.test(this.cssText) ? 'important' : '';
+                }
+            }
+
+            // The style function
+            $.fn.style = function (styleName, value, priority) {
+                // DOM node
+                var node = this.get(0);
+                // Ensure we have a DOM node
+                if (typeof node == 'undefined') {
+                    return this;
+                }
+                // CSSStyleDeclaration
+                var style = this.get(0).style;
+                // Getter/Setter
+                if (typeof styleName != 'undefined') {
+                    if (typeof value != 'undefined') {
+                        // Set style property
+                        priority = typeof priority != 'undefined' ? priority : '';
+                        style.setProperty(styleName, value, priority);
+                        return this;
+                    } else {
+                        // Get style property
+                        return style.getPropertyValue(styleName);
+                    }
+                } else {
+                    // Get CSSStyleDeclaration
+                    return style;
+                }
+            };
+
+            $.fn.preload = function () {
+                this.each(function () {
+                    $('<img/>')[0].src = this;
+                });
+            }
+
+        })(jQuery);
+    </script>
+
+    
+
+    <script src="/Content/js/jquery-ui.1.12.1.min.js"></script>
+    <script src="/Content/js/jquery.ui.datepicker-zh-TW.js"></script>
+    <script src="/Content/js/bootstrap.min.js"></script>
+
+    <!--include select jq-->
+    <script src="/Content/js/megadropdown/jquery.menu-aim.js"></script>
+    <script src="/Content/js/megadropdown/main.js"></script>
+
+    <script>
+
+            
+            var dict = {};
+            
+
+        function available(date) {
+            dmy = date.yyyymmdd();
+            if (dict.hasOwnProperty(dmy)) {
+                return [true, ""];
+            } else {
+                return [false, "", "Unavailable"];
+            }
+        }
+
+        (function ($) {
+            $(".cd-dropdown-content").on("mouseenter mouseleave", function (event) { //挷定滑鼠進入及離開事件
+                if (event.type == "mouseenter") {
+                    $(this).css({ "overflow-y": "scroll" }); //滑鼠進入
+                } else {
+                    $(this).scrollTop(0).css({ "overflow-y": "hidden" }); //滑鼠離開
+                }
+            });
+
+            $('img.menu-open').click(function () {
+                $(this).hide();
+                $('img.menu-close').show();
+                $('.dropdown-content').show(200);
+                setTimeout(function () {
+                    $('figure div').each(function () {
+                        $(this).addClass('active').delay(1000);
+                    });
+                }, 500);
+            });
+
+            $('img.menu-close').click(function () {
+                $(this).hide();
+                $('img.menu-open').show();
+                $('.dropdown-content').hide(200);
+                $('figure div').each(function () {
+                    $(this).removeClass('active');
+                });
+            });
+
+            // 關閉快速翻頁
+            $('body').mouseup(function (e) {
+                var container = $('.cd-dropdown, .cd-dropdown-trigger');
+                if (!container.is(e.target) // if the target of the click isn't the container...
+                    && container.has(e.target).length === 0) // ... nor a descendant of the container
+                {
+                    if ($('.cd-dropdown, .cd-dropdown-trigger').hasClass('dropdown-is-active'))
+                        $('.cd-dropdown, .cd-dropdown-trigger').removeClass('dropdown-is-active');
+                }
+            });
+
+
+            var today = new Date();
+            //----------日曆------------
+            $("#datepicker1").datepicker({
+                showOn: "button",
+                buttonImage: "/Content/image/full_02.png",
+                buttonImageOnly: true,
+                buttonText: "選擇日期",
+                minDate: today.addDays(-60),
+                maxDate: today,
+                ignoreReadonly: true,
+                allowInputToggle: true,
+                onChangeMonthYear: function () {
+                    console.log('onChangeMonthYear');
+                },
+                beforeShow: function () {
+                    console.log('beforeShow');
+                },
+                beforeShowDay: function (date) {
+                    console.log('beforeShowDay');
+                    return available(date);
+                },
+                onSelect: function () {
+                    console.log('onSelect');
+
+                    var dateObject = $(this).datepicker('getDate');
+                    var key = dateObject.yyyymmdd();
+                    var val = dict[key].toLowerCase();
+                    document.location.assign('/ctl/' + val);
+                }
+            });
+
+        })(jQuery);
+    </script>
+
+    
+    <script src="/assets/fancybox3/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a3a0d4bf74480b7"></script>
+    <script>
+        var addthis_share = {
+            url: 'https://reader.turnnewsapp.com/ctl/20251214/b21aa9/q1rmxziwmjuxmje0x0e5xzq1/share',
+            title: "彰化 第四選區恐洗牌 第三選區平靜 #翻爆官網",
+            description: "　彰化縣議員下屆選舉，第四選區議員凃俊任、劉惠娟有意換跑道參選員林市長，另也有政二代張愉婕、游筑凱表態投入議員選舉，還有回鍋參選及要再進一步的地方代表有意加入戰局，第四選區可能呈現大洗牌局面；相對於第四選區多人有意參選，第三選區則顯得較為平靜。",
+            media: "https://pad.chinatimes.com/action/l/20251214/b21aa9/img/99734_130091006.C11.T25C111300907H.jpg"
+       }
+
+
+
+       $(document).ready(function () {
+           //$(".htmleaf-container").hide();
+
+           //menu 偏移
+           var getMarginLeft = $('.clearfix').css("margin-left");
+           var getW = $(window).width();
+           var getMenuDivW = $('.clearfix').outerWidth();
+           var getLeft = getMarginLeft.replace('px', '');
+           var menuLeft = (getW - getMenuDivW) / 2 + 30;
+           //alert(getW+"-"+ getMenuDivW + "/2=" + menuLeft  );
+           $('div.dropdown-content figure').css("margin-left", menuLeft + "px");
+
+       });
+
+    </script>
+
+
+
+
+</body>
+</html>

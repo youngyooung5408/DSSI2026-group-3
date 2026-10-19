@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="zh-TW" prefix="og: https://ogp.me/ns#">
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+			<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">			var um = {"ajax_url":"https:\/\/onews.tw\/wp-admin\/admin-ajax.php","admin_url":"https:\/\/onews.tw\/wp-admin\/","wp_url":"https:\/\/onews.tw","um_url":"https:\/\/onews.tw\/wp-content\/themes\/zfocus\/core\/uc\/","uid":0,"is_admin":0,"redirecturl":"https:\/\/onews.tw\/16834","loadingmessage":"\u6b63\u5728\u8bf7\u6c42\u4e2d\uff0c\u8bf7\u7a0d\u7b49...","paged":1,"cpage":1,"pid":16834,"timthumb":"https:\/\/onews.tw\/wp-content\/themes\/zfocus\/core\/uc\/func\/timthumb.php?src="};		</script>	            <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" id="rb-preload-gfonts" href="https://fonts.googleapis.com/css?family=Oxygen:400,700%7CEncode+Sans+Condensed:400,500,600,700,800%7CRoboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CRoboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap" crossorigin><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:400,700%7CEncode+Sans+Condensed:400,500,600,700,800%7CRoboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CRoboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap"></noscript><link rel="apple-touch-icon" href="https://onews.tw/wp-content/uploads/1690616396267.png"/>
+		            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="msapplication-TileImage" content="https://onews.tw/wp-content/uploads/1690616396267.png"/>
+		
+<!-- Rank Math PRO 的搜尋引擎最佳化 - https://rankmath.com/ -->
+<title>愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續 - 原廣時報</title>
+<meta name="description" content=" "/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://onews.tw/16834/" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續 - 原廣時報" />
+<meta property="og:description" content=" " />
+<meta property="og:url" content="https://onews.tw/16834/" />
+<meta property="og:site_name" content="原廣時報" />
+<meta property="article:section" content="地方" />
+<meta property="article:published_time" content="2026-04-02T00:43:20+08:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續 - 原廣時報" />
+<meta name="twitter:description" content=" " />
+<meta name="twitter:label1" content="撰寫者" />
+<meta name="twitter:data1" content="新聞中心" />
+<meta name="twitter:label2" content="閱讀時間" />
+<meta name="twitter:data2" content="少於一分鐘" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://onews.tw/#person","name":"\u539f\u5ee3\u6642\u5831"},{"@type":"WebSite","@id":"https://onews.tw/#website","url":"https://onews.tw","name":"\u539f\u5ee3\u6642\u5831","publisher":{"@id":"https://onews.tw/#person"},"inLanguage":"zh-TW"},{"@type":"ImageObject","@id":"https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1","url":"https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1","width":"200","height":"200","inLanguage":"zh-TW"},{"@type":"WebPage","@id":"https://onews.tw/16834/#webpage","url":"https://onews.tw/16834/","name":"\u611a\u4eba\u7bc0\u8868\u614b\u300c\u6703\u4e0d\u6703\u602a\u602a\u300d\uff1f \u7b2c\u4e00\u9078\u5340\u7e23\u8b70\u54e1\u674e\u5efa\u667a\u4ea4\u68d2\u3001\u5152\u674e\u54f2\u670d\u52d9\u5ef6\u7e8c - \u539f\u5ee3\u6642\u5831","datePublished":"2026-04-02T00:43:20+08:00","dateModified":"2026-04-02T00:43:20+08:00","isPartOf":{"@id":"https://onews.tw/#website"},"primaryImageOfPage":{"@id":"https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1"},"inLanguage":"zh-TW"},{"@type":"Person","@id":"https://onews.tw/16834/#author","name":"\u65b0\u805e\u4e2d\u5fc3","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/d1cfc5ea2583580551aa9c3301d4fe50f2f4ec35ecf01fbc0431a3e7281c70de?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/d1cfc5ea2583580551aa9c3301d4fe50f2f4ec35ecf01fbc0431a3e7281c70de?s=96&amp;d=mm&amp;r=g","caption":"\u65b0\u805e\u4e2d\u5fc3","inLanguage":"zh-TW"}},{"@type":"BlogPosting","headline":"\u611a\u4eba\u7bc0\u8868\u614b\u300c\u6703\u4e0d\u6703\u602a\u602a\u300d\uff1f \u7b2c\u4e00\u9078\u5340\u7e23\u8b70\u54e1\u674e\u5efa\u667a\u4ea4\u68d2\u3001\u5152\u674e\u54f2\u670d\u52d9\u5ef6\u7e8c - \u539f\u5ee3\u6642\u5831","datePublished":"2026-04-02T00:43:20+08:00","dateModified":"2026-04-02T00:43:20+08:00","articleSection":"\u5730\u65b9","author":{"@id":"https://onews.tw/16834/#author","name":"\u65b0\u805e\u4e2d\u5fc3"},"publisher":{"@id":"https://onews.tw/#person"},"description":"\u00a0","name":"\u611a\u4eba\u7bc0\u8868\u614b\u300c\u6703\u4e0d\u6703\u602a\u602a\u300d\uff1f \u7b2c\u4e00\u9078\u5340\u7e23\u8b70\u54e1\u674e\u5efa\u667a\u4ea4\u68d2\u3001\u5152\u674e\u54f2\u670d\u52d9\u5ef6\u7e8c - \u539f\u5ee3\u6642\u5831","@id":"https://onews.tw/16834/#richSnippet","isPartOf":{"@id":"https://onews.tw/16834/#webpage"},"image":{"@id":"https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1"},"inLanguage":"zh-TW","mainEntityOfPage":{"@id":"https://onews.tw/16834/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO 外掛 -->
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="訂閱《原廣時報》&raquo; 資訊提供" href="https://onews.tw/feed/" />
+<link rel="alternate" type="application/rss+xml" title="訂閱《原廣時報》&raquo; 留言的資訊提供" href="https://onews.tw/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://onews.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fonews.tw%2F16834%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://onews.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fonews.tw%2F16834%2F&#038;format=xml" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","legalName":"\u539f\u5ee3\u6642\u5831","url":"https://onews.tw/","sameAs":["https://www.facebook.com/www.onews.com.tw"]}</script>
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link data-minify="1" rel='stylesheet' id='coderevolution-front-css-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/plugins/rss-feed-post-generator-echo/styles/coderevolution-front.css?ver=1791040121' media='all' />
+<link data-minify="1" rel='stylesheet' id='echo-thumbnail-css-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/plugins/rss-feed-post-generator-echo/styles/echo-thumbnail.css?ver=1791040121' media='all' />
+<link data-minify="1" rel='stylesheet' id='um-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/core/uc/static/um.css?ver=1791040121' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1791040121' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://onews.tw/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.20.2' media='all' />
+<link data-minify="1" rel='stylesheet' id='swiper-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=1791040121' media='all' />
+<link rel='stylesheet' id='elementor-post-17-css' href='https://onews.tw/wp-content/uploads/elementor/css/post-17.css?ver=1711765683' media='all' />
+<link data-minify="1" rel='stylesheet' id='zfocus-frontend-styles-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/core/addons/assets/css/zfocus-frontend.css?ver=1791040121' media='all' />
+<link data-minify="1" rel='stylesheet' id='zfocus-grid-styles-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/core/addons/assets/css/zfocus-grid.css?ver=1791040121' media='all' />
+
+<link data-minify="1" rel='stylesheet' id='zfocus-main-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/assets/css/main.css?ver=1791040121' media='all' />
+<link data-minify="1" rel='stylesheet' id='zfocus-print-css' href='https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/assets/css/print.css?ver=1791040121' media='all' />
+<link rel='stylesheet' id='zfocus-style-css' href='https://onews.tw/wp-content/themes/zfocus/style.css?ver=1.0.0' media='all' />
+<style id="zfocus-style-inline-css">
+@media (max-width: 767px) {body {--cat-fsize : 20px;}}[data-theme="dark"].is-hd-4 {--nav-bg: #191c20;--nav-bg-from: #191c20;--nav-bg-to: #191c20;}[data-theme="dark"].is-hd-5, [data-theme="dark"].is-hd-5:not(.sticky-on) {--nav-bg: #191c20;--nav-bg-from: #191c20;--nav-bg-to: #191c20;}:root {--max-width-wo-sb : 860px;--hyperlink-line-color :var(--g-color);--mbnav-height :42px;}.search-header:before { background-repeat : no-repeat;background-size : cover;background-attachment : scroll;background-position : center center;}[data-theme="dark"] .search-header:before { background-repeat : no-repeat;background-size : cover;background-attachment : scroll;background-position : center center;}.footer-col .widget_nav_menu a > span { font-size:6px; }#amp-mobile-version-switcher { display: none; }
+/*# sourceURL=zfocus-style-inline-css */
+</style>
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://onews.tw/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+
+<script type="text/rocketlazyloadscript" id="jquery-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/core/uc/static/jquery.min.js?ver=8b884240019eadb52e938228e2336342" data-rocket-defer defer></script>
+<script id="asenha-public-js-extra">
+var phpVars = {"externalPermalinksEnabled":"1"};
+//# sourceURL=asenha-public-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="asenha-public-js" data-rocket-src="https://onews.tw/wp-content/cache/min/1/wp-content/plugins/admin-site-enhancements-pro/assets/js/external-permalinks.js?ver=1791040121" data-rocket-defer defer></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=GT-M6386MM" async></script>
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["onews.tw"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-M6386MM", {"googlesitekit_post_type":"post"});
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://onews.tw/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://onews.tw/wp-json/wp/v2/posts/16834" /><link rel='shortlink' href='https://onews.tw/?p=16834' />
+
+<!-- FIFU:jsonld:begin -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ImageObject","@id":"https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1","url":"https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1","contentUrl":"https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1","mainEntityOfPage":"https://onews.tw/16834/"}]}</script>
+<!-- FIFU:jsonld:end -->
+<meta name="generator" content="Site Kit by Google 1.188.0" /><link rel='dns-prefetch' href='https://i0.wp.com/'><link rel='preconnect' href='https://i0.wp.com/' crossorigin><link rel='dns-prefetch' href='https://i1.wp.com/'><link rel='preconnect' href='https://i1.wp.com/' crossorigin><link rel='dns-prefetch' href='https://i2.wp.com/'><link rel='preconnect' href='https://i2.wp.com/' crossorigin><link rel='dns-prefetch' href='https://i3.wp.com/'><link rel='preconnect' href='https://i3.wp.com/' crossorigin>
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense meta tags added by Site Kit -->
+<meta name="generator" content="Elementor 3.20.2; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://onews.tw/#website","url":"https://onews.tw/","name":"\u539f\u5ee3\u6642\u5831","potentialAction":{"@type":"SearchAction","target":"https://onews.tw/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
+<!-- Google AdSense snippet added by Site Kit -->
+<script type="text/rocketlazyloadscript" async crossorigin="anonymous" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2290169307715924&#038;host=ca-host-pub-2644536267352236"></script>
+
+<!-- End Google AdSense snippet added by Site Kit -->
+<script type="text/rocketlazyloadscript" async data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2290169307715924"
+     crossorigin="anonymous"></script><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><link rel="preload" as="image" href="https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1"><link rel="preload" as="image" href="https://i2.wp.com/17news.net/wp-content/uploads/2026/04/e22ed6a7b75de48.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i0.wp.com/17news.net/wp-content/uploads/2026/04/a709f32bc9d7004.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i3.wp.com/17news.net/wp-content/uploads/2026/10/81a8e34c9efe76a.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/d80c40ff1d6a86a.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/5b3b8edc53b1832.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/b6c6b4797266af7.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/84ebc781f724b87.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i3.wp.com/17news.net/wp-content/uploads/2026/10/e127b0b3aba4e72.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/ff60b1d6a8ebee3.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/75327826b58ee4a.webp?fit=1,1&#038;ssl=1"><link rel="preload" as="image" href="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/f482bc1338b68f0.webp?ssl=1"><link rel="preload" as="image" href="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/4464126b9a8a384.webp?ssl=1"><link rel="preload" as="image" href="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/c342b9e18fc700e.webp?ssl=1"><link rel="preload" as="image" href="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/4362c90ba66e77c.webp?ssl=1"><meta name="generator" content="WP Rocket 3.21.0.1" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_images wpr_lazyload_iframes wpr_minify_css wpr_preload_links" /></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body class="wp-singular post-template-default single single-post postid-16834 single-format-standard wp-embed-responsive wp-theme-zfocus elementor-default elementor-kit-17 menu-ani-1 hover-ani-1 is-rm-1 wc-res-list is-hd-2 is-standard-8 is-backtop is-mstick yes-tstick" data-theme="default"><a href="https://onews.tw/cdn-cgi/content?id=kpRamWbmwaBWZ_o9PPXal9pAXzwlv.Td14jz8DIqW58-1792408310.690632-1.2.1.1-.Uon.3Iwp_JfereVDFqhfAQk3nNDZsoJJfX8p8Zs.Y1AcjNELAy7rHap5Dv.lJw9" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+<div data-rocket-location-hash="7e4f4a3adee48df92822953dbaffab3d" class="site-outer">
+	        <header data-rocket-location-hash="31e2a4e30fa41db389d19fb928b121d6" id="site-header" class="header-wrap rb-section header-set-1 header-2 header-wrapper style-shadow has-quick-menu">
+			        <div data-rocket-location-hash="bf588db960b64fe2d3b70204ea757e70" class="reading-indicator"><span id="reading-progress"></span></div>
+		            <div id="navbar-outer" class="navbar-outer">
+                <div id="sticky-holder" class="sticky-holder">
+                    <div class="navbar-wrap">
+                        <div class="rb-container edge-padding">
+                            <div class="navbar-inner">
+                                <div class="navbar-left">
+									        <div class="logo-wrap is-image-logo site-branding">
+            <a href="https://onews.tw/" class="logo" title="原廣時報">
+				<img fetchpriority="high" class="logo-default" data-mode="default" height="401" width="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20401'%3E%3C/svg%3E" data-lazy-srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報" data-lazy-src="https://onews.tw/wp-content/uploads/1690615933125.png"><noscript><img fetchpriority="high" class="logo-default" data-mode="default" height="401" width="1080" src="https://onews.tw/wp-content/uploads/1690615933125.png" srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報"></noscript><img class="logo-dark" data-mode="dark" height="401" width="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20401'%3E%3C/svg%3E" data-lazy-srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報" data-lazy-src="https://onews.tw/wp-content/uploads/1690615933125.png"><noscript><img class="logo-dark" data-mode="dark" height="401" width="1080" src="https://onews.tw/wp-content/uploads/1690615933125.png" srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報"></noscript>            </a>
+        </div>
+		                                </div>
+                                <div class="navbar-center">
+									        <nav id="site-navigation" class="main-menu-wrap" aria-label="main menu"><ul id="menu-%e9%81%b8%e5%96%ae-1" class="main-menu rb-menu large-menu" itemscope itemtype="https://www.schema.org/SiteNavigationElement"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-319"><a href="https://onews.tw/"><span>首頁</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-313"><a href="https://onews.tw/category/indigenous/"><span>原民</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-317"><a href="https://onews.tw/category/life/"><span>生活</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1043"><a href="https://onews.tw/category/local/"><span>地方</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-316"><a href="https://onews.tw/category/iculture/"><span>文化</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-318"><a href="https://onews.tw/category/society/"><span>社論</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-315"><a href="https://onews.tw/category/policing/"><span>政治</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-314"><a href="https://onews.tw/category/activity/"><span>活動</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-746"><a href="https://onews.tw/category/recommend/"><span>綜合</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2128"><a href="https://onews.tw/category/insights/"><span>觀點</span></a></li>
+</ul></nav>
+		        <div id="s-title-sticky" class="s-title-sticky">
+            <div class="s-title-sticky-left">
+                <span class="sticky-title-label">Reading:</span>
+                <span class="h4 sticky-title">愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續</span>
+            </div>
+			        <div class="sticky-share-list">
+            <div class="t-shared-header meta-text">
+                <i class="rbi rbi-share"></i>                    <span class="share-label">Share</span>            </div>
+            <div class="sticky-share-list-items effect-fadeout">            <a class="share-action share-trigger icon-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Facebook" data-gravity=n rel="nofollow"><i class="rbi rbi-facebook"></i></a>
+					
+            <a class="share-action share-trigger icon-line" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Line" data-gravity=n rel="nofollow"><i class="rbi rbi-line"></i></a>
+		        
+		            <a class="share-action live-tooltip icon-copy copy-trigger" href="#" data-copied="Copied!" data-link="https://onews.tw/16834/" rel="nofollow" data-copy="Copy Link" data-gravity=n><i class="rbi rbi-link-o"></i></a>
+		            <a class="share-action icon-print" rel="nofollow" href="javascript:if(window.print)window.print()" data-title="Print" data-gravity=n><i class="rbi rbi-print"></i></a>
+		</div>
+        </div>
+		        </div>
+	                                </div>
+                                <div class="navbar-right">
+									        <div class="wnav-holder w-header-search header-dropdown-outer">
+            <a href="#" data-title="Search" class="icon-holder header-element search-btn search-trigger">
+				<i class="rbi rbi-search wnav-icon"></i>	                        </a>
+			<div class="header-dropdown">
+                    <div class="header-search-form">
+						        <form method="get" action="https://onews.tw/" class="rb-search-form">
+            <div class="search-form-inner">
+				                    <span class="search-icon"><i class="rbi rbi-search"></i></span>
+				                <span class="search-text"><input type="text" class="field" placeholder="輸入關鍵字搜尋" value="" name="s"/></span>
+                <span class="rb-search-submit"><input type="submit" value="Search"/>                        <i class="rbi rbi-cright"></i></span>
+            </div>
+        </form>
+							                    </div>
+                </div>
+			        </div>
+		        <div class="wnav-holder font-resizer">
+            <a href="#" class="font-resizer-trigger" data-title="Resizer"><strong>Aa</strong></a>
+        </div>
+		        <div class="dark-mode-toggle-wrap">
+            <div class="dark-mode-toggle">
+                <span class="dark-mode-slide">
+                    <i class="dark-mode-slide-btn mode-icon-dark" data-title="Switch to Light"><svg class="svg-icon svg-mode-dark" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M507.681,209.011c-1.297-6.991-7.324-12.111-14.433-12.262c-7.104-0.122-13.347,4.711-14.936,11.643
+ c-15.26,66.497-73.643,112.94-141.978,112.94c-80.321,0-145.667-65.346-145.667-145.666c0-68.335,46.443-126.718,112.942-141.976
+ c6.93-1.59,11.791-7.826,11.643-14.934c-0.149-7.108-5.269-13.136-12.259-14.434C287.546,1.454,271.735,0,256,0
+ C187.62,0,123.333,26.629,74.98,74.981C26.628,123.333,0,187.62,0,256s26.628,132.667,74.98,181.019
+ C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.981C485.372,388.667,512,324.38,512,256
+ C512,240.278,510.546,224.469,507.681,209.011z" /></svg></i>
+                    <i class="dark-mode-slide-btn mode-icon-default" data-title="Switch to Dark"><svg class="svg-icon svg-mode-light" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 232.447 232.447"><path fill="currentColor" d="M116.211,194.8c-4.143,0-7.5,3.357-7.5,7.5v22.643c0,4.143,3.357,7.5,7.5,7.5s7.5-3.357,7.5-7.5V202.3
+ C123.711,198.157,120.354,194.8,116.211,194.8z" /><path fill="currentColor" d="M116.211,37.645c4.143,0,7.5-3.357,7.5-7.5V7.505c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v22.641
+ C108.711,34.288,112.068,37.645,116.211,37.645z" /><path fill="currentColor" d="M50.054,171.78l-16.016,16.008c-2.93,2.929-2.931,7.677-0.003,10.606c1.465,1.466,3.385,2.198,5.305,2.198
+ c1.919,0,3.838-0.731,5.302-2.195l16.016-16.008c2.93-2.929,2.931-7.677,0.003-10.606C57.731,168.852,52.982,168.851,50.054,171.78
+ z" /><path fill="currentColor" d="M177.083,62.852c1.919,0,3.838-0.731,5.302-2.195L198.4,44.649c2.93-2.929,2.931-7.677,0.003-10.606
+ c-2.93-2.932-7.679-2.931-10.607-0.003l-16.016,16.008c-2.93,2.929-2.931,7.677-0.003,10.607
+ C173.243,62.12,175.163,62.852,177.083,62.852z" /><path fill="currentColor" d="M37.645,116.224c0-4.143-3.357-7.5-7.5-7.5H7.5c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h22.645
+ C34.287,123.724,37.645,120.366,37.645,116.224z" /><path fill="currentColor" d="M224.947,108.724h-22.652c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h22.652c4.143,0,7.5-3.357,7.5-7.5
+ S229.09,108.724,224.947,108.724z" /><path fill="currentColor" d="M50.052,60.655c1.465,1.465,3.384,2.197,5.304,2.197c1.919,0,3.839-0.732,5.303-2.196c2.93-2.929,2.93-7.678,0.001-10.606
+ L44.652,34.042c-2.93-2.93-7.679-2.929-10.606-0.001c-2.93,2.929-2.93,7.678-0.001,10.606L50.052,60.655z" /><path fill="currentColor" d="M182.395,171.782c-2.93-2.929-7.679-2.93-10.606-0.001c-2.93,2.929-2.93,7.678-0.001,10.607l16.007,16.008
+ c1.465,1.465,3.384,2.197,5.304,2.197c1.919,0,3.839-0.732,5.303-2.196c2.93-2.929,2.93-7.678,0.001-10.607L182.395,171.782z" /><path fill="currentColor" d="M116.22,48.7c-37.232,0-67.523,30.291-67.523,67.523s30.291,67.523,67.523,67.523s67.522-30.291,67.522-67.523
+ S153.452,48.7,116.22,48.7z M116.22,168.747c-28.962,0-52.523-23.561-52.523-52.523S87.258,63.7,116.22,63.7
+ c28.961,0,52.522,23.562,52.522,52.523S145.181,168.747,116.22,168.747z" /></svg></i>
+                </span>
+            </div>
+        </div>
+		                                </div>
+                            </div>
+                        </div>
+                    </div>
+					        <div id="header-mobile" class="header-mobile">
+            <div class="header-mobile-wrap">
+				        <div class="mbnav edge-padding">
+            <div class="navbar-left">
+                <div class="mobile-toggle-wrap">
+					                        <a href="#" class="mobile-menu-trigger">        <span class="burger-icon"><span></span><span></span><span></span></span>
+	</a>
+					                </div>
+				        <div class="logo-wrap mobile-logo-wrap is-image-logo site-branding">
+            <a href="https://onews.tw/" class="logo" title="原廣時報">
+				<img fetchpriority="high" class="logo-default" data-mode="default" height="401" width="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20401'%3E%3C/svg%3E" data-lazy-srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報" data-lazy-src="https://onews.tw/wp-content/uploads/1690615933125.png"><noscript><img fetchpriority="high" class="logo-default" data-mode="default" height="401" width="1080" src="https://onews.tw/wp-content/uploads/1690615933125.png" srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報"></noscript><img class="logo-dark" data-mode="dark" height="401" width="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20401'%3E%3C/svg%3E" data-lazy-srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報" data-lazy-src="https://onews.tw/wp-content/uploads/1690615933125.png"><noscript><img class="logo-dark" data-mode="dark" height="401" width="1080" src="https://onews.tw/wp-content/uploads/1690615933125.png" srcset="https://onews.tw/wp-content/uploads/1690615933125.png 1x,https://onews.tw/wp-content/uploads/1690615933125.png 2x" alt="原廣時報"></noscript>            </a>
+        </div>
+		            </div>
+            <div class="navbar-right">
+						            <a href="#" class="mobile-menu-trigger mobile-search-icon"><i class="rbi rbi-search"></i></a>
+			        <div class="wnav-holder font-resizer">
+            <a href="#" class="font-resizer-trigger" data-title="Resizer"><strong>Aa</strong></a>
+        </div>
+		        <div class="dark-mode-toggle-wrap">
+            <div class="dark-mode-toggle">
+                <span class="dark-mode-slide">
+                    <i class="dark-mode-slide-btn mode-icon-dark" data-title="Switch to Light"><svg class="svg-icon svg-mode-dark" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M507.681,209.011c-1.297-6.991-7.324-12.111-14.433-12.262c-7.104-0.122-13.347,4.711-14.936,11.643
+ c-15.26,66.497-73.643,112.94-141.978,112.94c-80.321,0-145.667-65.346-145.667-145.666c0-68.335,46.443-126.718,112.942-141.976
+ c6.93-1.59,11.791-7.826,11.643-14.934c-0.149-7.108-5.269-13.136-12.259-14.434C287.546,1.454,271.735,0,256,0
+ C187.62,0,123.333,26.629,74.98,74.981C26.628,123.333,0,187.62,0,256s26.628,132.667,74.98,181.019
+ C123.333,485.371,187.62,512,256,512s132.667-26.629,181.02-74.981C485.372,388.667,512,324.38,512,256
+ C512,240.278,510.546,224.469,507.681,209.011z" /></svg></i>
+                    <i class="dark-mode-slide-btn mode-icon-default" data-title="Switch to Dark"><svg class="svg-icon svg-mode-light" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 232.447 232.447"><path fill="currentColor" d="M116.211,194.8c-4.143,0-7.5,3.357-7.5,7.5v22.643c0,4.143,3.357,7.5,7.5,7.5s7.5-3.357,7.5-7.5V202.3
+ C123.711,198.157,120.354,194.8,116.211,194.8z" /><path fill="currentColor" d="M116.211,37.645c4.143,0,7.5-3.357,7.5-7.5V7.505c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v22.641
+ C108.711,34.288,112.068,37.645,116.211,37.645z" /><path fill="currentColor" d="M50.054,171.78l-16.016,16.008c-2.93,2.929-2.931,7.677-0.003,10.606c1.465,1.466,3.385,2.198,5.305,2.198
+ c1.919,0,3.838-0.731,5.302-2.195l16.016-16.008c2.93-2.929,2.931-7.677,0.003-10.606C57.731,168.852,52.982,168.851,50.054,171.78
+ z" /><path fill="currentColor" d="M177.083,62.852c1.919,0,3.838-0.731,5.302-2.195L198.4,44.649c2.93-2.929,2.931-7.677,0.003-10.606
+ c-2.93-2.932-7.679-2.931-10.607-0.003l-16.016,16.008c-2.93,2.929-2.931,7.677-0.003,10.607
+ C173.243,62.12,175.163,62.852,177.083,62.852z" /><path fill="currentColor" d="M37.645,116.224c0-4.143-3.357-7.5-7.5-7.5H7.5c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h22.645
+ C34.287,123.724,37.645,120.366,37.645,116.224z" /><path fill="currentColor" d="M224.947,108.724h-22.652c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h22.652c4.143,0,7.5-3.357,7.5-7.5
+ S229.09,108.724,224.947,108.724z" /><path fill="currentColor" d="M50.052,60.655c1.465,1.465,3.384,2.197,5.304,2.197c1.919,0,3.839-0.732,5.303-2.196c2.93-2.929,2.93-7.678,0.001-10.606
+ L44.652,34.042c-2.93-2.93-7.679-2.929-10.606-0.001c-2.93,2.929-2.93,7.678-0.001,10.606L50.052,60.655z" /><path fill="currentColor" d="M182.395,171.782c-2.93-2.929-7.679-2.93-10.606-0.001c-2.93,2.929-2.93,7.678-0.001,10.607l16.007,16.008
+ c1.465,1.465,3.384,2.197,5.304,2.197c1.919,0,3.839-0.732,5.303-2.196c2.93-2.929,2.93-7.678,0.001-10.607L182.395,171.782z" /><path fill="currentColor" d="M116.22,48.7c-37.232,0-67.523,30.291-67.523,67.523s30.291,67.523,67.523,67.523s67.522-30.291,67.522-67.523
+ S153.452,48.7,116.22,48.7z M116.22,168.747c-28.962,0-52.523-23.561-52.523-52.523S87.258,63.7,116.22,63.7
+ c28.961,0,52.522,23.562,52.522,52.523S145.181,168.747,116.22,168.747z" /></svg></i>
+                </span>
+            </div>
+        </div>
+		            </div>
+        </div>
+	<div class="mobile-qview"><ul id="menu-%e9%81%b8%e5%96%ae-2" class="mobile-qview-inner"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-319"><a href="https://onews.tw/"><span>首頁</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-313"><a href="https://onews.tw/category/indigenous/"><span>原民</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-317"><a href="https://onews.tw/category/life/"><span>生活</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1043"><a href="https://onews.tw/category/local/"><span>地方</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-316"><a href="https://onews.tw/category/iculture/"><span>文化</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-318"><a href="https://onews.tw/category/society/"><span>社論</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-315"><a href="https://onews.tw/category/policing/"><span>政治</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-314"><a href="https://onews.tw/category/activity/"><span>活動</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-746"><a href="https://onews.tw/category/recommend/"><span>綜合</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2128"><a href="https://onews.tw/category/insights/"><span>觀點</span></a></li>
+</ul></div>            </div>
+			        <div class="mobile-collapse">
+            <div class="mobile-collapse-holder">
+                <div class="mobile-collapse-inner">
+					                        <div class="mobile-search-form edge-padding">        <div class="header-search-form">
+			                <span class="h5">搜尋</span>
+			        <form method="get" action="https://onews.tw/" class="rb-search-form">
+            <div class="search-form-inner">
+				                    <span class="search-icon"><i class="rbi rbi-search"></i></span>
+				                <span class="search-text"><input type="text" class="field" placeholder="輸入關鍵字搜尋" value="" name="s"/></span>
+                <span class="rb-search-submit"><input type="submit" value="Search"/>                        <i class="rbi rbi-cright"></i></span>
+            </div>
+        </form>
+	        </div>
+		</div>
+					                    <nav class="mobile-menu-wrap edge-padding">
+						<ul id="mobile-menu" class="mobile-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-319"><a href="https://onews.tw/"><span>首頁</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-313"><a href="https://onews.tw/category/indigenous/"><span>原民</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-317"><a href="https://onews.tw/category/life/"><span>生活</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1043"><a href="https://onews.tw/category/local/"><span>地方</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-316"><a href="https://onews.tw/category/iculture/"><span>文化</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-318"><a href="https://onews.tw/category/society/"><span>社論</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-315"><a href="https://onews.tw/category/policing/"><span>政治</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-314"><a href="https://onews.tw/category/activity/"><span>活動</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-746"><a href="https://onews.tw/category/recommend/"><span>綜合</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2128"><a href="https://onews.tw/category/insights/"><span>觀點</span></a></li>
+</ul>                    </nav>
+                    <div class="mobile-collapse-sections edge-padding">
+						                            <div class="mobile-social-list">
+                                <span class="mobile-social-list-title h6">Follow US</span>
+								<a class="social-link-facebook" data-title="Facebook" href="https://www.facebook.com/www.onews.com.tw" target="_blank" rel="noopener nofollow"><i class="rbi rbi-facebook"></i></a>                            </div>
+						                    </div>
+					                </div>
+            </div>
+        </div>
+	        </div>
+	                </div>
+            </div>
+			        </header>
+		    <div data-rocket-location-hash="8359df42325fa8be33d3c75f855880bd" class="site-wrap">        <div data-rocket-location-hash="e05de1b16f7e91936060895856a64252" class="single-standard-8 is-sidebar-right sticky-sidebar optimal-line-length">
+            <div class="rb-container edge-padding">
+				<article id="post-16834" class="post-16834 post type-post status-publish format-standard has-post-thumbnail category-local">                <div class="grid-container">
+                    <div class="s-ct">
+                        <header class="single-header">
+							            <aside class="breadcrumb-wrap breadcrumb-navxt s-breadcrumb">
+                <div class="breadcrumb-inner" vocab="https://schema.org/" typeof="BreadcrumbList"><!-- Breadcrumb NavXT 7.4.1 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to 原廣時報." href="https://onews.tw" class="home" ><span property="name">原廣時報</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the 地方 分類 archives." href="https://onews.tw/category/local/" class="taxonomy category" ><span property="name">地方</span></a><meta property="position" content="2"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name" class="post post-post current-item">愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續</span><meta property="url" content="https://onews.tw/16834/"><meta property="position" content="3"></span></div>
+            </aside>
+		        <div class="s-cats ecat-bg-2 ecat-size-big">
+			<div class="p-categories"><a class="p-category category-id-3" href="https://onews.tw/category/local/" rel="category">地方</a></div>        </div>
+	            <h1 class="s-title">愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續</h1>
+		        <div class="single-meta none-avatar none-updated">
+			                <div class="smeta-in">
+					                    <div class="smeta-sec">
+						                        <div class="p-meta">
+                            <div class="meta-inner is-meta">
+								<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-04-02T00:43:20+08:00">2026 年 4 月 2 日</time>
+		        </span>
+		                <span class="meta-el meta-category meta-bold">
+					<i class="rbi rbi-archive"></i>                        <a class="category-3" href="https://onews.tw/category/local/">地方</a>
+									</span>
+			                            </div>
+                        </div>
+                    </div>
+                </div>
+			            <div class="smeta-extra">
+				        <div class="t-shared-sec tooltips-n is-color">
+            <div class="t-shared-header is-meta">
+                <i class="rbi rbi-share"></i><span class="share-label">Share</span>
+            </div>
+            <div class="effect-fadeout">            <a class="share-action share-trigger icon-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Facebook" rel="nofollow"><i class="rbi rbi-facebook"></i></a>
+					
+            <a class="share-action share-trigger icon-line" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Line" rel="nofollow"><i class="rbi rbi-line"></i></a>
+		        
+		            <a class="share-action live-tooltip icon-copy copy-trigger" href="#" data-copied="Copied!" data-link="https://onews.tw/16834/" rel="nofollow" data-copy="Copy Link"><i class="rbi rbi-link-o"></i></a>
+		            <a class="share-action icon-print" rel="nofollow" href="javascript:if(window.print)window.print()" data-title="Print"><i class="rbi rbi-print"></i></a>
+		</div>
+        </div>
+		            </div>
+        </div>
+		                        </header>
+                        <div class="s-feat-outer">
+							        <div class="s-feat">
+			            <div class="featured-lightbox-trigger" data-source="https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1" data-caption="" data-attribution="">
+				<img post-id="16834" fifu-featured="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment-zfocus_crop_o1 size-zfocus_crop_o1 wp-post-image" alt="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續" title="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續" title="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續" decoding="async" data-lazy-src="https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1" /><noscript><img post-id="16834" fifu-featured="1" src="https://i1.wp.com/17news.net/wp-content/uploads/2026/04/1e227d186969dc6-3.webp?ssl=1" class="attachment-zfocus_crop_o1 size-zfocus_crop_o1 wp-post-image" alt="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續" title="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續" title="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續" loading="lazy" decoding="async" /></noscript>            </div>
+		        </div>
+		                        </div>
+						        <div class="s-ct-wrap has-lsl">
+            <div class="s-ct-inner">
+				        <div class="l-shared-sec-outer show-mobile">
+            <div class="l-shared-sec">
+                <div class="l-shared-header meta-text">
+                    <i class="rbi rbi-share"></i><span class="share-label">SHARE</span>
+                </div>
+                <div class="l-shared-items effect-fadeout is-color">
+					            <a class="share-action share-trigger icon-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Facebook" data-gravity=w rel="nofollow"><i class="rbi rbi-facebook"></i></a>
+					
+            <a class="share-action share-trigger icon-line" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Line" data-gravity=w rel="nofollow"><i class="rbi rbi-line"></i></a>
+		        
+		            <a class="share-action live-tooltip icon-copy copy-trigger" href="#" data-copied="Copied!" data-link="https://onews.tw/16834/" rel="nofollow" data-copy="Copy Link" data-gravity=w><i class="rbi rbi-link-o"></i></a>
+		            <a class="share-action icon-print" rel="nofollow" href="javascript:if(window.print)window.print()" data-title="Print" data-gravity=w><i class="rbi rbi-print"></i></a>
+		                </div>
+            </div>
+        </div>
+		                <div class="e-ct-outer">
+					<div class="entry-content rbct clearfix" itemprop="articleBody"><p> </p>
+<p>記者賴榮偉/花蓮報導<br />
+在今年的農曆年後、元宵佳節前，台東縣議員李建智的兒子李哲在個人臉書限時動態首度表態「年底，小弟確定參選縣議員，希望兄弟好友們支持相挺，一定讓您找得到、拜托得到，服務至上，以民為尊。」今（4/1）日則再度貼文，愚人節表態「會不會怪怪」？</p>
+<p>李哲說，我沒有很會講話，但是我會認真做事情；如果大家願意給我一個機會，我一定會一步一腳印，認真打拚，讓服務延續，不會讓支持我的人失望。</p>
+<p>李建智在台東議會算數藍營資深議員，一度以民調欲代表國民黨競選台東區域立法委員，近年雖擺脫黨籍束縛，但仍與國民黨籍各階層人士友好，民國94年從里長轉戰議員，首戰即以第2高票當選，連任至今共5屆。</p>
+<p>社會服務在交棒上是有跡可循且井然有序，牽手陳惠敏為現任台東市成功里里長，曾任復國里里長，因台東市里鄰調整，合併為成功里後持續服務，並於113年獲得內政部「特優村里長」表揚。兒子李哲從國中開始參與玄武堂的活動，從搬炮、傳炮開始，直到33歲接下堂主的任務，一同推廣民俗活動；此外，自擔任議員祕書（2屆）起協助服務工作，逐步建立基層人脈。</p>
+<p>對此，李建智不避諱的說，「該讓年輕人出頭了！」，交棒要趁早，否則可能會有遺憾，因此主動的向兒子溝通並提出交棒的想法；在沒有開票之前，都是不可預知的事，爭取民眾認可才是當務之急，將親自帶著跑行程，協助輔選，強調「服務延續」。</p>
+<p>台東縣第一選區為台東市、蘭嶼鄉，長年被視為縣議員一級戰區，不僅席次多、角逐者眾，競爭相對激烈。李哲現年39歲，是7年級的青年代表，符合國民黨黨內積極鼓勵年輕世代投入公共事務與期待未來的後起新秀。<br />
+（圖 李哲/提供)</p>
+</div>            <div class="entry-bottom">
+				<div id="text-4" class="widget entry-widget clearfix widget_text">			<div class="textwidget"><p><a href="https://onews.tw/">首頁</a>| <a href="https://onews.tw/category/life/">生活</a>| <a href="https://onews.tw/category/local/">地方</a>| <a href="https://onews.tw/category/iculture/">文化</a>| <a href="https://onews.tw/category/society/">社會</a>| <a href="https://onews.tw/category/policing/">警政</a>| <a href="https://onews.tw/category/activity/">活動</a></p>
+</div>
+		</div>            </div>
+		                </div>
+            </div>
+			        <div class="e-shared-sec entry-sec">
+            <div class="e-shared-header h4">
+                <i class="rbi rbi-share"></i><span>Share this Article</span>
+            </div>
+            <div class="rbbsl tooltips-n effect-fadeout is-bg">
+				            <a class="share-action share-trigger icon-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Facebook" rel="nofollow"><i class="rbi rbi-facebook"></i><span>Facebook</span></a>
+					
+            <a class="share-action share-trigger icon-line" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fonews.tw%2F16834%2F" data-title="Line" rel="nofollow"><i class="rbi rbi-line"></i><span>Line</span></a>
+		        
+		            <a class="share-action live-tooltip icon-copy copy-trigger" href="#" data-copied="Copied!" data-link="https://onews.tw/16834/" rel="nofollow" data-copy="Copy Link"><i class="rbi rbi-link-o"></i><span>Copy Link</span></a>
+		            <a class="share-action icon-print" rel="nofollow" href="javascript:if(window.print)window.print()" data-title="Print"><i class="rbi rbi-print"></i><span>Print</span></a>
+		            </div>
+        </div>
+		        </div>
+	        <div class="entry-sec entry-pagination e-pagi">
+            <div class="inner">
+				                    <div class="nav-el nav-left">
+                        <a href="https://onews.tw/16836/">
+                            <span class="nav-label is-meta">
+                                <i class="rbi rbi-angle-left"></i><span>Previous Article</span>
+                            </span>
+                            <span class="nav-inner">
+								<img post-id="16836" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail wp-post-image" alt="花蓮火車站旅服中心進駐出口右側 服務前移第一線 打造觀光第一印象" title="花蓮火車站旅服中心進駐出口右側 服務前移第一線 打造觀光第一印象" title="花蓮火車站旅服中心進駐出口右側 服務前移第一線 打造觀光第一印象" decoding="async" data-lazy-src="https://i2.wp.com/17news.net/wp-content/uploads/2026/04/e22ed6a7b75de48.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="16836" fifu-featured="1" width="1" height="1" src="https://i2.wp.com/17news.net/wp-content/uploads/2026/04/e22ed6a7b75de48.webp?fit=1,1&amp;ssl=1" class="attachment-thumbnail size-thumbnail wp-post-image" alt="花蓮火車站旅服中心進駐出口右側 服務前移第一線 打造觀光第一印象" title="花蓮火車站旅服中心進駐出口右側 服務前移第一線 打造觀光第一印象" title="花蓮火車站旅服中心進駐出口右側 服務前移第一線 打造觀光第一印象" decoding="async" /></noscript>                                <span class="h4"><span class="p-url">花蓮火車站旅服中心進駐出口右側 服務前移第一線 打造觀光第一印象</span></span>
+                            </span>
+                        </a>
+                    </div>
+				                    <div class="nav-el nav-right">
+                        <a href="https://onews.tw/16832/">
+                            <span class="nav-label is-meta">
+                                <span>Next Article</span><i class="rbi rbi-angle-right"></i>
+                            </span>
+                            <span class="nav-inner">
+                              <img post-id="16832" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail wp-post-image" alt="花蓮縣政府四月份升旗典禮 副縣長顏新章勉縣府團隊堅守崗位 持續帶動花蓮前行" title="花蓮縣政府四月份升旗典禮 副縣長顏新章勉縣府團隊堅守崗位 持續帶動花蓮前行" title="花蓮縣政府四月份升旗典禮 副縣長顏新章勉縣府團隊堅守崗位 持續帶動花蓮前行" decoding="async" data-lazy-src="https://i0.wp.com/17news.net/wp-content/uploads/2026/04/a709f32bc9d7004.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="16832" fifu-featured="1" width="1" height="1" src="https://i0.wp.com/17news.net/wp-content/uploads/2026/04/a709f32bc9d7004.webp?fit=1,1&amp;ssl=1" class="attachment-thumbnail size-thumbnail wp-post-image" alt="花蓮縣政府四月份升旗典禮 副縣長顏新章勉縣府團隊堅守崗位 持續帶動花蓮前行" title="花蓮縣政府四月份升旗典禮 副縣長顏新章勉縣府團隊堅守崗位 持續帶動花蓮前行" title="花蓮縣政府四月份升旗典禮 副縣長顏新章勉縣府團隊堅守崗位 持續帶動花蓮前行" decoding="async" /></noscript>                             <span class="h4"><span class="p-url">花蓮縣政府四月份升旗典禮 副縣長顏新章勉縣府團隊堅守崗位 持續帶動花蓮前行</span></span>
+                            </span>
+                        </a>
+                    </div>
+				            </div>
+        </div>
+	                    </div>
+					            <div class="sidebar-wrap single-sidebar">
+                <div class="sidebar-inner clearfix">
+					<div id="custom_html-2" class="widget_text widget rb-section w-sidebar clearfix widget_custom_html"><div class="textwidget custom-html-widget"><p><a href="https://www.facebook.com/hualien.concert2026//" target="_blank"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="https://seenews.tw/wp-content/uploads/2026/09/a7060e1a9ea354b.webp" /><noscript><img alt="" src="https://seenews.tw/wp-content/uploads/2026/09/a7060e1a9ea354b.webp" /></noscript></a></p></div></div><div id="search-2" class="widget rb-section w-sidebar clearfix widget_search"><div class="block-h widget-heading heading-layout-7"><div class="heading-inner"><h4 class="heading-title"><span>搜尋</span></h4></div></div><form role="search" method="get" class="search-form" action="https://onews.tw/">
+    <div class="search-form-icon"><i class="rbi rbi-search"></i></div>
+    <label class="search-form-input">
+        <span class="screen-reader-text">Search for:</span>
+        <input type="search" class="search-field" placeholder="輸入關鍵字搜尋" value="" name="s">
+    </label>
+    <div class="search-form-submit">
+        <input type="submit" class="search-submit" value="Search">
+    </div>
+</form></div><div id="widget-ad-image-3" class="widget rb-section w-sidebar clearfix widget-ad-image">				<aside class="advert-wrap advert-image">
+					<div class="ad-wrap ad-image-wrap"><div class="ad-image"><img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20250'%3E%3C/svg%3E" alt="Ad image" width="300" height="250" data-lazy-src="https://tpc.googlesyndication.com/simgad/3208316824214559458"><noscript><img loading="lazy" decoding="async" src="https://tpc.googlesyndication.com/simgad/3208316824214559458" alt="Ad image" width="300" height="250"></noscript></div></div>				</aside>
+			</div><div id="widget-post-2" class="widget rb-section w-sidebar clearfix widget-post"><div class="block-h widget-heading heading-layout-7"><div class="heading-inner"><h4 class="heading-title"><span>最新文章</span></h4></div></div><div class="widget-p-listing">        <div class="p-wrap p-small p-list-small-2" data-pid="20588">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20588/" title="新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來">
+			<img post-id="20588" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來" title="新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來" title="新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來" decoding="async" data-lazy-src="https://i3.wp.com/17news.net/wp-content/uploads/2026/10/81a8e34c9efe76a.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20588" fifu-featured="1" width="1" height="1" src="https://i3.wp.com/17news.net/wp-content/uploads/2026/10/81a8e34c9efe76a.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來" title="新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來" title="新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20588/" rel="bookmark">新竹縣國際科技藝術論壇匯聚韓日臺專家 共探新竹縣美術館新未來</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:26+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-small p-list-small-2" data-pid="20590">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20590/" title="新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD">
+			<img post-id="20590" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD" title="新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD" title="新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD" decoding="async" data-lazy-src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/d80c40ff1d6a86a.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20590" fifu-featured="1" width="1" height="1" src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/d80c40ff1d6a86a.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD" title="新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD" title="新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20590/" rel="bookmark">新竹縣科普博覽會本週末盛大登場！近百展攤從AI科技一路玩到外太空  還可抽IPAD</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:25+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-small p-list-small-2" data-pid="20592">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20592/" title="林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框">
+			<img post-id="20592" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框" title="林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框" title="林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框" decoding="async" data-lazy-src="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/5b3b8edc53b1832.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20592" fifu-featured="1" width="1" height="1" src="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/5b3b8edc53b1832.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框" title="林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框" title="林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20592/" rel="bookmark">林郁婷現身竹縣女孩日！分享奪金之路 勉勵青少女勇敢破框</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:24+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-small p-list-small-2" data-pid="20594">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20594/" title="歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模">
+			<img post-id="20594" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模" title="歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模" title="歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模" decoding="async" data-lazy-src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/b6c6b4797266af7.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20594" fifu-featured="1" width="1" height="1" src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/b6c6b4797266af7.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模" title="歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模" title="歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20594/" rel="bookmark">歡慶敬老重陽節 竹縣府表揚鑽石婚楷模、模範老人與敬老楷模</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:23+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-small p-list-small-2" data-pid="20596">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20596/" title="115年長者活躍老化競賽登場 全國賽竹縣再獲佳績">
+			<img post-id="20596" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="115年長者活躍老化競賽登場 全國賽竹縣再獲佳績" title="115年長者活躍老化競賽登場 全國賽竹縣再獲佳績" title="115年長者活躍老化競賽登場 全國賽竹縣再獲佳績" decoding="async" data-lazy-src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/84ebc781f724b87.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20596" fifu-featured="1" width="1" height="1" src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/84ebc781f724b87.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="115年長者活躍老化競賽登場 全國賽竹縣再獲佳績" title="115年長者活躍老化競賽登場 全國賽竹縣再獲佳績" title="115年長者活躍老化競賽登場 全國賽竹縣再獲佳績" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20596/" rel="bookmark">115年長者活躍老化競賽登場 全國賽竹縣再獲佳績</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:22+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-small p-list-small-2" data-pid="20598">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20598/" title="2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲">
+			<img post-id="20598" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲" title="2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲" title="2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲" decoding="async" data-lazy-src="https://i3.wp.com/17news.net/wp-content/uploads/2026/10/e127b0b3aba4e72.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20598" fifu-featured="1" width="1" height="1" src="https://i3.wp.com/17news.net/wp-content/uploads/2026/10/e127b0b3aba4e72.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲" title="2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲" title="2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20598/" rel="bookmark">2026新竹縣客家新曲獎冠軍出爐！三十而立唱出客家新聲</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:21+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-small p-list-small-2" data-pid="20600">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20600/" title="筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場">
+			<img post-id="20600" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場" title="筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場" title="筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場" decoding="async" data-lazy-src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/ff60b1d6a8ebee3.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20600" fifu-featured="1" width="1" height="1" src="https://i1.wp.com/17news.net/wp-content/uploads/2026/10/ff60b1d6a8ebee3.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場" title="筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場" title="筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20600/" rel="bookmark">筆尖綻放美學與品德！新竹縣長盃全國書法揮毫、硬筆書法比賽六家國小登場</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:20+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-small p-list-small-2" data-pid="20602">
+			            <div class="feat-holder">        <div class="p-featured ratio-v1">
+			        <a class="p-flink" href="https://onews.tw/20602/" title="竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證">
+			<img post-id="20602" fifu-featured="1" width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證" title="竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證" title="竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證" decoding="async" data-lazy-src="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/75327826b58ee4a.webp?fit=1,1&#038;ssl=1" /><noscript><img post-id="20602" fifu-featured="1" width="1" height="1" src="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/75327826b58ee4a.webp?fit=1,1&amp;ssl=1" class="featured-img wp-post-image" alt="竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證" title="竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證" title="竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	</div>
+		        <div class="p-content">
+			<h5 class="entry-title">        <a class="p-url" href="https://onews.tw/20602/" rel="bookmark">竹縣推氣候行動創佳績!考評勇奪優等 新埔南平里、峨眉湖光村雙獲低碳銀級認證</a></h5>            <div class="p-meta">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-date">
+		<i class="rbi rbi-clock"></i>            <time class="date published" datetime="2026-10-19T18:00:19+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	</div></div><div id="tag_cloud-2" class="widget rb-section w-sidebar clearfix widget_tag_cloud"><div class="block-h widget-heading heading-layout-7"><div class="heading-inner"><h4 class="heading-title"><span>標籤</span></h4></div></div><div class="tagcloud"><a href="https://onews.tw/tag/a%e5%8f%b0%e5%8c%97%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-34 tag-link-position-1" style="font-size: 1pt;">A台北新聞</a>
+<a href="https://onews.tw/tag/b%e5%8f%b0%e4%b8%ad%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-19 tag-link-position-2" style="font-size: 1pt;">B台中新聞</a>
+<a href="https://onews.tw/tag/d%e5%8f%b0%e5%8d%97%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-40 tag-link-position-3" style="font-size: 1pt;">D台南新聞</a>
+<a href="https://onews.tw/tag/e%e9%ab%98%e9%9b%84%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-46 tag-link-position-4" style="font-size: 1pt;">E高雄新聞</a>
+<a href="https://onews.tw/tag/g%e5%ae%9c%e8%98%ad%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-51 tag-link-position-5" style="font-size: 1pt;">G宜蘭新聞</a>
+<a href="https://onews.tw/tag/m%e5%8d%97%e6%8a%95%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-37 tag-link-position-6" style="font-size: 1pt;">M南投新聞</a>
+<a href="https://onews.tw/tag/n%e5%bd%b0%e5%8c%96%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-41 tag-link-position-7" style="font-size: 1pt;">N彰化新聞</a>
+<a href="https://onews.tw/tag/o%e6%96%b0%e7%ab%b9%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-35 tag-link-position-8" style="font-size: 1pt;">O新竹新聞</a>
+<a href="https://onews.tw/tag/p%e9%9b%b2%e6%9e%97%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-43 tag-link-position-9" style="font-size: 1pt;">P雲林新聞</a>
+<a href="https://onews.tw/tag/q%e5%98%89%e7%be%a9%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-21 tag-link-position-10" style="font-size: 1pt;">Q嘉義新聞</a>
+<a href="https://onews.tw/tag/t%e5%b1%8f%e6%9d%b1%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-18 tag-link-position-11" style="font-size: 1pt;">T屏東新聞</a>
+<a href="https://onews.tw/tag/u%e8%8a%b1%e8%93%ae%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-25 tag-link-position-12" style="font-size: 1pt;">U花蓮新聞</a>
+<a href="https://onews.tw/tag/v%e5%8f%b0%e6%9d%b1%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-61 tag-link-position-13" style="font-size: 1pt;">V台東新聞</a>
+<a href="https://onews.tw/tag/%e5%81%a5%e5%ba%b7%e9%86%ab%e5%ad%b8/" class="tag-cloud-link tag-link-24 tag-link-position-14" style="font-size: 1pt;">健康醫學</a>
+<a href="https://onews.tw/tag/%e5%85%a9%e5%b2%b8%e8%a9%b1%e9%a1%8c/" class="tag-cloud-link tag-link-49 tag-link-position-15" style="font-size: 1pt;">兩岸話題</a>
+<a href="https://onews.tw/tag/%e5%85%ac%e7%9b%8a%e7%a4%be%e7%a6%8f/" class="tag-cloud-link tag-link-28 tag-link-position-16" style="font-size: 1pt;">公益社福</a>
+<a href="https://onews.tw/tag/%e5%8e%9f%e4%bd%8f%e6%b0%91/" class="tag-cloud-link tag-link-62 tag-link-position-17" style="font-size: 1pt;">原住民</a>
+<a href="https://onews.tw/tag/%e5%8e%9f%e5%bb%a3%e6%99%82%e5%a0%b1/" class="tag-cloud-link tag-link-75 tag-link-position-18" style="font-size: 1pt;">原廣時報</a>
+<a href="https://onews.tw/tag/%e5%8e%9f%e6%b0%91/" class="tag-cloud-link tag-link-54 tag-link-position-19" style="font-size: 1pt;">原民</a>
+<a href="https://onews.tw/tag/%e5%9c%b0%e6%96%b9/" class="tag-cloud-link tag-link-98 tag-link-position-20" style="font-size: 1pt;">地方</a>
+<a href="https://onews.tw/tag/%e5%9c%b0%e6%96%b9%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-22 tag-link-position-21" style="font-size: 1pt;">地方新聞</a>
+<a href="https://onews.tw/tag/%e5%b0%a4%e5%91%bd%e8%98%87%e6%a8%a3/" class="tag-cloud-link tag-link-77 tag-link-position-22" style="font-size: 1pt;">尤命•蘇樣</a>
+<a href="https://onews.tw/tag/%e5%bd%b1%e8%a6%96%e5%a8%9b%e6%a8%82/" class="tag-cloud-link tag-link-47 tag-link-position-23" style="font-size: 1pt;">影視娛樂</a>
+<a href="https://onews.tw/tag/%e6%94%bf%e6%b2%bb%e8%ad%b0%e9%a1%8c/" class="tag-cloud-link tag-link-44 tag-link-position-24" style="font-size: 1pt;">政治議題</a>
+<a href="https://onews.tw/tag/%e6%95%99%e8%82%b2%e5%ad%b8%e8%a1%93/" class="tag-cloud-link tag-link-31 tag-link-position-25" style="font-size: 1pt;">教育學術</a>
+<a href="https://onews.tw/tag/%e6%96%87%e5%8c%96/" class="tag-cloud-link tag-link-99 tag-link-position-26" style="font-size: 1pt;">文化</a>
+<a href="https://onews.tw/tag/%e6%96%87%e5%8c%96%e8%97%9d%e8%a1%93/" class="tag-cloud-link tag-link-23 tag-link-position-27" style="font-size: 1pt;">文化藝術</a>
+<a href="https://onews.tw/tag/%e6%96%b0%e6%b0%91%e5%a4%9a%e5%85%83/" class="tag-cloud-link tag-link-60 tag-link-position-28" style="font-size: 1pt;">新民多元</a>
+<a href="https://onews.tw/tag/%e6%96%b0%e8%81%9e/" class="tag-cloud-link tag-link-63 tag-link-position-29" style="font-size: 1pt;">新聞</a>
+<a href="https://onews.tw/tag/%e6%97%85%e9%81%8a/" class="tag-cloud-link tag-link-100 tag-link-position-30" style="font-size: 1pt;">旅遊</a>
+<a href="https://onews.tw/tag/%e6%97%85%e9%81%8a%e6%99%af%e9%bb%9e/" class="tag-cloud-link tag-link-36 tag-link-position-31" style="font-size: 1pt;">旅遊景點</a>
+<a href="https://onews.tw/tag/%e6%b0%91%e4%bf%97%e5%ae%97%e6%95%99/" class="tag-cloud-link tag-link-50 tag-link-position-32" style="font-size: 1pt;">民俗宗教</a>
+<a href="https://onews.tw/tag/%e6%b0%91%e7%94%9f/" class="tag-cloud-link tag-link-96 tag-link-position-33" style="font-size: 1pt;">民生</a>
+<a href="https://onews.tw/tag/%e6%b0%91%e7%94%9f%e7%94%9f%e6%b4%bb/" class="tag-cloud-link tag-link-20 tag-link-position-34" style="font-size: 1pt;">民生生活</a>
+<a href="https://onews.tw/tag/%e6%b0%91%e8%aa%bf/" class="tag-cloud-link tag-link-69 tag-link-position-35" style="font-size: 1pt;">民調</a>
+<a href="https://onews.tw/tag/%e6%b4%bb%e5%8b%95%e8%b3%87%e8%a8%8a/" class="tag-cloud-link tag-link-33 tag-link-position-36" style="font-size: 1pt;">活動資訊</a>
+<a href="https://onews.tw/tag/%e7%84%a6%e9%bb%9e%e9%a0%ad%e6%a2%9d/" class="tag-cloud-link tag-link-26 tag-link-position-37" style="font-size: 1pt;">焦點頭條</a>
+<a href="https://onews.tw/tag/%e7%94%a2%e6%a5%ad%e8%b2%a1%e7%b6%93/" class="tag-cloud-link tag-link-53 tag-link-position-38" style="font-size: 1pt;">產業財經</a>
+<a href="https://onews.tw/tag/%e7%a4%be%e6%9c%83/" class="tag-cloud-link tag-link-97 tag-link-position-39" style="font-size: 1pt;">社會</a>
+<a href="https://onews.tw/tag/%e7%a4%be%e6%9c%83%e7%b6%9c%e5%90%88/" class="tag-cloud-link tag-link-39 tag-link-position-40" style="font-size: 1pt;">社會綜合</a>
+<a href="https://onews.tw/tag/%e7%ab%8b%e5%a7%94%e9%81%b8%e8%88%89/" class="tag-cloud-link tag-link-74 tag-link-position-41" style="font-size: 1pt;">立委選舉</a>
+<a href="https://onews.tw/tag/%e7%be%8e%e9%a3%9f%e6%97%85%e9%81%8a/" class="tag-cloud-link tag-link-42 tag-link-position-42" style="font-size: 1pt;">美食旅遊</a>
+<a href="https://onews.tw/tag/%e7%be%8e%e9%a3%9f%e7%89%b9%e7%94%a2/" class="tag-cloud-link tag-link-59 tag-link-position-43" style="font-size: 1pt;">美食特產</a>
+<a href="https://onews.tw/tag/%e8%8a%b1%e8%93%ae/" class="tag-cloud-link tag-link-64 tag-link-position-44" style="font-size: 1pt;">花蓮</a>
+<a href="https://onews.tw/tag/%e8%bb%8d%e8%ad%a6%e5%ae%a3%e5%b0%8e/" class="tag-cloud-link tag-link-72 tag-link-position-45" style="font-size: 1pt;">軍警宣導</a></div>
+</div><div id="widget-ad-image-2" class="widget rb-section w-sidebar clearfix widget-ad-image">				<aside class="advert-wrap advert-image">
+					<div class="ad-wrap ad-image-wrap"><div class="ad-image"><img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20600'%3E%3C/svg%3E" alt="Ad image" width="300" height="600" data-lazy-src="https://tpc.googlesyndication.com/simgad/7983254382656376035?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&#038;rs=AOga4qm7KjsF-TccIx8esvY4eqWyhB5pPA"><noscript><img loading="lazy" decoding="async" src="https://tpc.googlesyndication.com/simgad/7983254382656376035?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&#038;rs=AOga4qm7KjsF-TccIx8esvY4eqWyhB5pPA" alt="Ad image" width="300" height="600"></noscript></div></div>				</aside>
+			</div><div id="text-3" class="widget rb-section w-sidebar clearfix widget_text">			<div class="textwidget"><p>原廣時報是一家以原住民觀點出發的媒體，一直以來都在提供高品質、獨立客觀的新聞報導，深受讀者信賴和喜愛，報導領域涵蓋廣泛，包括生活、地方、文化、社會、警政、活動等各個範疇</p>
+</div>
+		</div>                </div>
+            </div>
+		                </div>
+				</article>            <aside class="single-related sfoter-sec">
+				<div class="block-h heading-layout-7"><div class="heading-inner"><h3 class="heading-title"><span>相關文章</span></h3></div></div><div id="uuid_r16834" class="block-wrap block-small block-grid block-grid-small-1 rb-columns rb-col-4 is-gap-10 ecat-bg-1"><div class="block-inner">        <div class="p-wrap p-grid p-grid-small-1" data-pid="20576">
+	            <div class="feat-holder overlay-text">
+				        <div class="p-featured">
+			        <a class="p-flink" href="https://onews.tw/20576/" title="玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采">
+			<img post-id="20576" fifu-featured="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采" title="玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采" title="玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采" decoding="async" data-lazy-src="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/f482bc1338b68f0.webp?ssl=1" /><noscript><img post-id="20576" fifu-featured="1" src="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/f482bc1338b68f0.webp?ssl=1" class="featured-img wp-post-image" alt="玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采" title="玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采" title="玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	<div class="p-categories p-top mobile-hide"><a class="p-category category-id-3" href="https://onews.tw/category/local/" rel="category">地方</a></div>            </div>
+		        <div class="p-content">
+			<h4 class="entry-title">        <a class="p-url" href="https://onews.tw/20576/" rel="bookmark">玉里鎮婦女會舉辦首屆縣長盃愛國歌曲觀摩暨OTOP嘉年華 徐榛蔚鼓勵婦女姐妹持續學習、展現自信風采</a></h4>            <div class="p-meta has-bookmark">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-update">
+		            <time class="date date-updated" title="2026-10-19T03:00:24+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-grid p-grid-small-1" data-pid="20578">
+	            <div class="feat-holder overlay-text">
+				        <div class="p-featured">
+			        <a class="p-flink" href="https://onews.tw/20578/" title="新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻">
+			<img post-id="20578" fifu-featured="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻" title="新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻" title="新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻" decoding="async" data-lazy-src="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/4464126b9a8a384.webp?ssl=1" /><noscript><img post-id="20578" fifu-featured="1" src="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/4464126b9a8a384.webp?ssl=1" class="featured-img wp-post-image" alt="新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻" title="新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻" title="新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	<div class="p-categories p-top mobile-hide"><a class="p-category category-id-3" href="https://onews.tw/category/local/" rel="category">地方</a></div>            </div>
+		        <div class="p-content">
+			<h4 class="entry-title">        <a class="p-url" href="https://onews.tw/20578/" rel="bookmark">新城鄉舉辦115年度榮民楷模表揚暨榮民節慶祝大會 何禮臺感謝榮民長官保家衛國無私奉獻</a></h4>            <div class="p-meta has-bookmark">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-update">
+		            <time class="date date-updated" title="2026-10-19T03:00:23+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-grid p-grid-small-1" data-pid="20580">
+	            <div class="feat-holder overlay-text">
+				        <div class="p-featured">
+			        <a class="p-flink" href="https://onews.tw/20580/" title="花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶">
+			<img post-id="20580" fifu-featured="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶" title="花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶" title="花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶" decoding="async" data-lazy-src="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/c342b9e18fc700e.webp?ssl=1" /><noscript><img post-id="20580" fifu-featured="1" src="https://i2.wp.com/17news.net/wp-content/uploads/2026/10/c342b9e18fc700e.webp?ssl=1" class="featured-img wp-post-image" alt="花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶" title="花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶" title="花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	<div class="p-categories p-top mobile-hide"><a class="p-category category-id-3" href="https://onews.tw/category/local/" rel="category">地方</a></div>            </div>
+		        <div class="p-content">
+			<h4 class="entry-title">        <a class="p-url" href="https://onews.tw/20580/" rel="bookmark">花蓮太平洋溫泉季攜手櫻桃小丸子　串起兩大溫泉鄉的家人記憶</a></h4>            <div class="p-meta has-bookmark">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-update">
+		            <time class="date date-updated" title="2026-10-19T03:00:22+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	        <div class="p-wrap p-grid p-grid-small-1" data-pid="20582">
+	            <div class="feat-holder overlay-text">
+				        <div class="p-featured">
+			        <a class="p-flink" href="https://onews.tw/20582/" title="【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】">
+			<img post-id="20582" fifu-featured="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="featured-img wp-post-image" alt="【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】" title="【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】" title="【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】" decoding="async" data-lazy-src="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/4362c90ba66e77c.webp?ssl=1" /><noscript><img post-id="20582" fifu-featured="1" src="https://i0.wp.com/17news.net/wp-content/uploads/2026/10/4362c90ba66e77c.webp?ssl=1" class="featured-img wp-post-image" alt="【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】" title="【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】" title="【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】" loading="lazy" decoding="async" /></noscript>        </a>
+		        </div>
+	<div class="p-categories p-top mobile-hide"><a class="p-category category-id-3" href="https://onews.tw/category/local/" rel="category">地方</a></div>            </div>
+		        <div class="p-content">
+			<h4 class="entry-title">        <a class="p-url" href="https://onews.tw/20582/" rel="bookmark">【香港油麻地聖保祿堂區朝聖團參訪FJM台灣總部 認識全人反射健康理念】</a></h4>            <div class="p-meta has-bookmark">
+                <div class="meta-inner is-meta">
+					<span class="meta-el meta-update">
+		            <time class="date date-updated" title="2026-10-19T03:00:21+08:00">2026 年 10 月 19 日</time>
+		        </span>
+		                </div>
+				            </div>
+		        </div>
+		        </div>
+	</div></div>            </aside>
+			            </div>
+        </div>
+		</div>
+        <footer data-rocket-location-hash="83f3a9c402b8ee7545d45cb8a2419cb0" class="footer-wrap rb-section left-dot top-border footer-etemplate">
+			<br><p align="center"><font size="1"><a href="https://onews.tw/"><font size="1">首頁</font></a> | <a href="https://onews.tw/customerabout/">關於我們</a> | <a href="https://onews.tw/team/">報社團隊</a> | <a href="https://onews.tw/category/life/">生活</a> | <a href="https://onews.tw/category/local/">地方</a> | <a href="https://onews.tw/category/iculture/">文化</a> | <a href="https://onews.tw/category/society/">社會</a> | <a href="https://onews.tw/category/policing/">警政</a> | <a href="https://onews.tw/category/activity/">活動</a><br>
+原廣時報是一家以原住民觀點出發的媒體，一直以來都在提供高品質、獨立客觀的新聞報導，深受讀者信賴和喜愛<br>
+報導領域涵蓋廣泛，專業的記者團隊遍布各地，經常在第一時間進行報導</font></p><div data-rocket-location-hash="b2ef0a5a01d80099d4a7628a06ad889b" class="footer-inner has-border">        <div class="footer-copyright">
+            <div class="rb-container edge-padding">
+				            <div class="copyright-inner">
+				<div class="copyright"><p>© 本網站由  祖光工作室 維護營運</p>
+</div>            </div>
+		            </div>
+        </div>
+	</div></footer>
+		</div>
+        <script type="text/rocketlazyloadscript">
+            (function () {
+                let currentMode = null;
+                let darkModeID = 'ZhiDarkMode';
+                if (navigator.cookieEnabled) {
+                    currentMode = localStorage.getItem(darkModeID);
+                }
+                if (null === currentMode) {
+                    currentMode = document.body.getAttribute('data-theme');
+                }
+                if ('dark' === currentMode) {
+                    document.body.setAttribute('data-theme', 'dark');
+                    let darkIcons = document.getElementsByClassName('mode-icon-dark');
+                    if (darkIcons.length) {
+                        for (let i = 0; i < darkIcons.length; i++) {
+                            darkIcons[i].classList.add('activated');
+                        }
+                    }
+                } else {
+                    document.body.setAttribute('data-theme', 'default');
+                    let defaultIcons = document.getElementsByClassName('mode-icon-default');
+                    if (defaultIcons.length) {
+                        for (let i = 0; i < defaultIcons.length; i++) {
+                            defaultIcons[i].classList.add('activated');
+                        }
+                    }
+                }
+            })();
+        </script>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/zfocus/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+            <div data-rocket-location-hash="e9d58508ac5dab1307dc358fca55a2d6" id="order" class="popupbox">
+                <form id="alipayment" name="alipayment" action="https://onews.tw/wp-content/themes/zfocus/core/uc/alipay/alipayapi.php" method="post">
+                    <div id="pay">
+                        <div class="part-order">
+                            <ul>
+                                <h3>订单信息<span>（价格单位：金币）</span></h3>
+                                <input type="hidden" name="order_nonce" value="2d84e884fa" >
+                                <input type = "hidden" id="product_id" name="product_id" readonly="" value="16834">
+                                <input type = "hidden" id="order_id" name="order_id" readonly="" value="0">
+                                <li><label for="order_name"><small>*</small>商品名称：</label><input id="order_name" name="order_name" readonly="" value="愚人節表態「會不會怪怪」？ 第一選區縣議員李建智交棒、兒李哲服務延續"></li>
+                                <li><label for="order_price"><small>*</small>商品单价：</label><input id="order_price" readonly="" value="0.00"></li>
+                                <li><label for="order_quantity"><small>*</small>商品数量：</label><input id="order_quantity" name="order_quantity" value="1" maxlength="8" title="请输入购买量" onkeydown="if(event.keyCode==13)return false;"></li>
+                            </ul>
+                            <ul>
+                                <h3>收货信息<span>商店（虚拟商品除邮箱外可不填）</span></h3>
+                                                                <li><label for="receive_name">收货姓名：</label><input id="receive_name" name="order_receive_name" value="" onkeydown="if(event.keyCode==13)return false;"></li>
+                                <li><label for="receive_address">收货地址：</label><input id="receive_address" name="order_receive_address" value="" onkeydown="if(event.keyCode==13)return false;"></li>
+                                <li><label for="receive_zip">收货邮编：</label><input id="receive_zip" name="order_receive_zip" value="" onkeydown="if(event.keyCode==13)return false;"></li>
+                                <li><label for="receive_email">用户邮箱：</label><input id="receive_email" name="order_receive_email" value="" onkeydown="if(event.keyCode==13)return false;"></li>
+                                <li><label for="receive_phone">电话号码：</label><input id="receive_phone" name="order_receive_phone" value="" onkeydown="if(event.keyCode==13)return false;"></li>
+                                <li><label for="receive_mobile">手机号码：</label><input id="receive_mobile" name="order_receive_mobile" value="" onkeydown="if(event.keyCode==13)return false;"></li>
+                                <li><label for="body">留言备注：</label><input name="order_body" value="" onkeydown="if(event.keyCode==13)return false;"></li>
+                            </ul>
+                        </div>
+                        <div class="checkout">
+                                                    <button id="pay-submit" type="submit">立即付款</button>
+                            <div id="total-price">总金额：<strong><i class="rbi rbi-gift"></i>1.00</strong>金币</div>
+                        </div>
+                        <div>
+                        </div>
+                        <span class="close-popup-btn mfp-close"><span class="close-icon"></span></span>
+                    </div>
+                </form>
+            </div>
+        <div data-rocket-location-hash="936eb2406abf039d3cc06d368dcfbc99" id="rb-user-popup-form" class="rb-user-popup-form mfp-animation mfp-hide">
+            <div data-rocket-location-hash="2e19fe4e088dbf1259185a1ac0acdea3" class="logo-popup-outer">
+                <div data-rocket-location-hash="44b5016ef67178dd040071166e0352cf" class="logo-popup">
+                    <div class="login-popup-header">
+						                            <div class="logo-popup-logo">
+								                                    <img decoding="async" data-mode="default" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20401'%3E%3C/svg%3E" alt="" height="401" width="1080" data-lazy-src="https://onews.tw/wp-content/uploads/1690615933125.png"><noscript><img loading="lazy" decoding="async" data-mode="default" src="https://onews.tw/wp-content/uploads/1690615933125.png" alt="" height="401" width="1080"></noscript>
+                                    <img decoding="async" data-mode="dark" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%20401'%3E%3C/svg%3E" alt="" height="401" width="1080" data-lazy-src="https://onews.tw/wp-content/uploads/1690615933125.png"><noscript><img loading="lazy" decoding="async" data-mode="dark" src="https://onews.tw/wp-content/uploads/1690615933125.png" alt="" height="401" width="1080"></noscript>
+								                            </div>
+						                            <span class="logo-popup-heading h3">歡迎回來!</span>
+						                            <p class="logo-popup-description is-meta">登入您的帳戶</p>
+						                    </div>
+					        <div class="user-form">
+			<form name="popup-form" id="popup-form" action="https://onews.tw/wp-login.php" method="post"><p class="login-username">
+				<label for="user_login">使用者名稱或電子郵件地址</label>
+				<input type="text" name="log" id="user_login" autocomplete="username" class="input" value="" size="20" />
+			</p><p class="login-password">
+				<label for="user_pass">密碼</label>
+				<input type="password" name="pwd" id="user_pass" autocomplete="current-password" spellcheck="false" class="input" value="" size="20" />
+			</p><p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> 保持登入</label></p><p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary" value="登入" />
+				<input type="hidden" name="redirect_to" value="https://onews.tw/16834" />
+			</p></form>				 </div>
+        <div class="user-form-footer is-meta">
+			            <a href="https://onews.tw/wp-login.php?action=lostpassword&#038;backup">Lost your password?</a>
+        </div>
+	                </div>
+            </div>
+        </div>
+	<script id="zfocus-js-extra">
+var zfocusCoreParams = {"ajaxurl":"https://onews.tw/wp-admin/admin-ajax.php","darkModeID":"ZhiDarkMode"};
+//# sourceURL=zfocus-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="zfocus-js" data-rocket-src="https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/core/assets/core.js?ver=1791040121" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://onews.tw","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="um-js" data-rocket-src="https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/core/uc/static/um.js?ver=1791040121" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-waypoints-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/assets/js/jquery.waypoints.min.js?ver=3.1.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-isotope-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/assets/js/jquery.isotope.min.js?ver=3.0.6" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="rbswiper-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/assets/js/rbswiper.min.js?ver=6.5.8" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-magnific-popup-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/assets/js/jquery.mp.min.js?ver=1.1.0" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="rb-tipsy-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/assets/js/jquery.tipsy.min.js?ver=1.0" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-uitotop-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/assets/js/jquery.ui.totop.min.js?ver=v1.2" data-rocket-defer defer></script>
+<script id="zfocus-global-js-extra">
+var zfocusParams = {"ajaxurl":"https://onews.tw/wp-admin/admin-ajax.php","twitterName":"\u539f\u5ee3\u6642\u5831","sliderSpeed":"5000","sliderEffect":"slide","sliderFMode":"1"};
+//# sourceURL=zfocus-global-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="zfocus-global-js" data-rocket-src="https://onews.tw/wp-content/cache/min/1/wp-content/themes/zfocus/assets/js/global.js?ver=1791040121" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="qrcode-js" data-rocket-src="https://onews.tw/wp-content/themes/zfocus/assets/js/jquery.qrcode.min.js?ver=8b884240019eadb52e938228e2336342" data-rocket-defer defer></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://onews.tw/wp-includes/js/wp-emoji-release.min.js?ver=8b884240019eadb52e938228e2336342"}}
+</script>
+<script type="text/rocketlazyloadscript" data-rocket-type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://onews.tw/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://onews.tw/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script><script type="text/rocketlazyloadscript">window.addEventListener('DOMContentLoaded', function() {
+ jQuery('.qrcodeHolder').qrcode({
+                width: 150,
+                height: 150,
+                text: jQuery(location).attr('href')
+            }); 
+});</script>
+<script>var rocket_beacon_data = {"ajax_url":"https:\/\/onews.tw\/wp-admin\/admin-ajax.php","nonce":"1ae3548e16","url":"https:\/\/onews.tw\/16834","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true,"preconnect_external_domain":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800,"preconnect_external_domain_elements":["link","script","iframe"],"preconnect_external_domain_exclusions":["static.cloudflareinsights.com","rel=\"profile\"","rel=\"preconnect\"","rel=\"dns-prefetch\"","rel=\"icon\""]}</script><script data-name="wpr-wpr-beacon" src='https://onews.tw/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script><script>(()=>{class RocketElementorPreload{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}t(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this.i(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this.o(t)}catch(t){}})}o(t){const e=JSON.parse(t.dataset.settings),i=e.m||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let o=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this.l(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(o)})}i(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}l(t,e){this.i().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorPreload;requestAnimationFrame(t.t.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorPreload.run)})();</script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4cf5825ccf1f05b',t:'MTc5MjQwODMxMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

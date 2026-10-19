@@ -1,0 +1,647 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant">
+<script src="https://www.dongyin.gov.tw/js/jquery-2.0.3.min.js"></script>
+<head>
+    <meta name="keywords" content="馬祖-連江縣政府,馬祖航空海運交通,觀光旅遊資訊,縣政資訊,馬祖藍眼淚-北海坑道,馬祖神像,芹壁聚落,觀光特產,馬祖酒廠,黑嘴端鳳頭燕鷗,梅花鹿" />
+    <meta name="description" content="馬祖-連江縣政府,縣府簡介-縣長專欄,縣府團隊,縣府組織,業務職掌,海空交通,縣政資訊||新聞櫥窗-公告事項,年度活動,徵求人才,影音新聞專區||施政計畫-各局室年度計畫,縣長政見||便民服務-各局室檔案下載,公開資訊,網路通報,弱勢關懷,電子書||民意交流-首長信箱,民意信箱||細說馬祖-歷史起源,氣候地景,動植物生態,海濱海洋,植物之美,古蹟建築,經濟產業,戰地風光||縣內景緻-鄉鎮特產,景點導覽,餐飲資訊,產業觀光 (卡蹓馬祖),團體與個人住宿,360度景緻展示" />
+    <meta name="COMPANY" content="馬祖-連江縣東引鄉公所" />
+    <meta name="copyright" content="馬祖-連江縣東引鄉公所" />
+    <meta name="RATING" content="general" />
+    <meta name="ROBOTS" content="ALL" />
+    <meta name="ROBOTS" content="index,follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link href="https://www.dongyin.gov.tw/frontcss00/header_footer.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.dongyin.gov.tw/frontcss00/p_in.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://www.dongyin.gov.tw/js/checkdata.js"></script>
+    <script type="text/javascript" src="https://www.dongyin.gov.tw/js/date/js/jscal2.js"></script>
+    <script type="text/javascript" src="https://www.dongyin.gov.tw/js/date/js/lang/en.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.dongyin.gov.tw/js/date/css/jscal2.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.dongyin.gov.tw/js/date/css/steel/steel.css" />  
+    <title>馬祖-連江縣東引鄉公所</title>
+	  <script>
+            var ttop = top.location.href;
+            if (ttop.substr(0, 5) == "http:") { top.location.href = ttop.replace(/http:/, "https:"); }
+        </script>
+    <script>
+        /*
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-88236774-1', 'auto');
+        ga('send', 'pageview');
+        */
+    </script>
+    <script type="text/javascript">
+        function MM_jumpMenu(targ, selObj, restore) { //v3.0
+            eval(targ + ".location='" + selObj.options[selObj.selectedIndex].value + "'");
+            if (restore) selObj.selectedIndex = 0;
+        }
+        var cal = Calendar.setup({
+            onSelect: function (cal) { cal.hide() },
+            showTime: 0
+        });
+    </script>
+    <link href="https://www.dongyin.gov.tw/js/scrollTo/style.css" rel="stylesheet" type="text/css" />
+    <script>
+        $(function () {
+            var winW, winH, docH, scrollTop, _offsetTop, _offsetTop2;
+
+            $goTop = $('#goTop');
+
+            winH = $(window).height();
+
+            //docH = $(document).height();
+
+            $(window).scroll(function () {
+                winW = $(window).width();
+                if (winW <= 766) {
+                    $goTop.hide();
+                    return;
+                }
+
+                if (winW > 1514) {
+                    _offsetTop = parseInt($("#hid_pos").offset().top);
+                } else {
+                    _offsetTop = parseInt($("#hid_pos").offset().top) - 230;
+                }
+
+                scrollTop = $(window).scrollTop() + winH;
+
+                if ((scrollTop > 766 && scrollTop <= 1000) || (scrollTop > 1200 && scrollTop <= 2000)) {
+                    $("#menutop").addClass("MENU_F");
+                }
+
+                if (scrollTop <= 766 || scrollTop <= 1200) {
+                    $("#menutop").removeClass("MENU_F");
+                }
+
+                if (scrollTop > 1300) {
+                    $goTop.fadeIn();
+                } else {
+                    $goTop.fadeOut();
+                }
+
+                if (scrollTop > _offsetTop) {
+                    var _bottom = scrollTop - _offsetTop;
+
+                    $goTop.css({
+                        'position': 'fixed',
+                        'bottom': _bottom
+                    });
+                } else {
+                    $goTop.css({
+                        'bottom': 20
+                    });
+                }
+
+            }); //end scroll
+
+            $goTop.click(function () {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 1000, 'easeOutQuart');
+            }); //end click
+
+            $goTop.keypress(function () {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 1000, 'easeOutQuart');
+            }); //end keypress
+
+            $goTop.hover(function () {
+                $this = $(this);
+                $this.css("opacity", 0.7);
+            },
+        function () {
+            $this.css("opacity", 1);
+        }); //end hover
+        });                                     //end ready
+    </script>
+    <noscript>
+        您的瀏覽器似乎不支援JavaScript語法，此為回最上方的控制，這裡的JavaScript語法並不會影響到內容的陳述!
+    </noscript>
+    <style>
+        .skipnav {
+            text-align: left;
+        }
+
+            .skipnav a {
+                position: absolute;
+                left: -10000px;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+            }
+
+                .skipnav a:focus, .skipnav a:active {
+                    position: static;
+                    left: 0;
+                    width: auto;
+                    height: auto;
+                    overflow: visible;
+                    text-decoration: underline;
+                }
+    </style>
+
+</head>
+<body style="overflow-x:hidden;">
+
+    <div class="skipnav">
+        <a href="#INTER_CON" title="至中央區塊">至中央區塊</a>
+        <a href="#SITEMAP" title="至網站導覽">至網站導覽</a>
+    </div>   
+    <!--手機用leftMENU頭-->
+    <!--MENU_PHONE頭-->
+    <div id="mobmenu" class="LEFT_MENU SHUT">
+        <div class="MENU_PHONE">
+            <ul>
+                <li><h2><a title='連至本所團隊' href='#'  id='pmm1' onclick=mob_open('pmm1','mm1'); onkeypress=mob_open('pmm1','mm1');>本所團隊</a></h2><ul  class='SHUT' id='mm1'><li><h3><a title='連至鄉長介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2499'>鄉長介紹</a></h3></li><li><h3><a title='連至村里介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2500'>村里介紹</a></h3></li><li><h3><a title='連至公所架構' href='https://www.dongyin.gov.tw/Chhtml/content/2501'>公所架構</a></h3></li><li><h3><a title='連至業務申辦' href='https://www.dongyin.gov.tw/Chhtml/content/2502'>業務申辦</a></h3></li><li><h3><a title='連至鄉圖書館' href='https://www.dongyin.gov.tw/Chhtml/content/2503'>鄉圖書館</a></h3></li></ul></li><li><h2><a title='連至便民服務' href='#'  id='pmm2' onclick=mob_open('pmm2','mm2'); onkeypress=mob_open('pmm2','mm2');>便民服務</a></h2><ul  class='SHUT' id='mm2'><li><h3><a title='連至衛生醫療' href='https://www.dongyin.gov.tw/Chhtml/content/2504'>衛生醫療</a></h3></li><li><h3><a title='連至機關電話' href='https://www.dongyin.gov.tw/Chhtml/content/2505'>機關電話</a></h3></li><li><h3><a title='連至旅遊服務' href='https://www.dongyin.gov.tw/Chhtml/content/2506'>旅遊服務</a></h3></li><li><h3><a title='連至表格下載' href='https://www.dongyin.gov.tw/Chhtml/download/2507'>表格下載</a></h3></li><li><h3><a title='開新視窗,連至天氣潮汐' href='https://www.cwb.gov.tw/V8/C/' target='_blank'>天氣潮汐</a></h3></li><li><h3><a title='連至相關連結' href='https://www.dongyin.gov.tw/Chhtml/link/2511'>相關連結</a></h3></li><li><h3><a title='連至債務鐘' href='https://www.dongyin.gov.tw/Chhtml/news/2512'>債務鐘</a></h3></li></ul></li><li><h2><a title='連至東引采風' href='#'  id='pmm3' onclick=mob_open('pmm3','mm3'); onkeypress=mob_open('pmm3','mm3');>東引采風</a></h2><ul  class='SHUT' id='mm3'><li><h3><a title='連至東引采風' href='https://www.dongyin.gov.tw/Chhtml/content/2513'>東引采風</a></h3></li><li><h3><a title='連至風俗民情' href='https://www.dongyin.gov.tw/Chhtml/content/2514'>風俗民情</a></h3></li></ul></li><li><h2><a title='連至觀光指南' href='#'  id='pmm4' onclick=mob_open('pmm4','mm4'); onkeypress=mob_open('pmm4','mm4');>觀光指南</a></h2><ul  class='SHUT' id='mm4'><li><h3><a title='連至交通指南' href='https://www.dongyin.gov.tw/Chhtml/content/274'>交通指南</a></h3></li><li><h3><a title='連至遊程內容' href='https://www.dongyin.gov.tw/Chhtml/content/2515'>遊程內容</a></h3></li><li><h3><a title='連至美食特產' href='https://www.dongyin.gov.tw/Chhtml/content/2519'>美食特產</a></h3></li><li><h3><a title='連至磯釣之樂' href='https://www.dongyin.gov.tw/Chhtml/content/2521'>磯釣之樂</a></h3></li></ul></li><li><h2><a title='連至景點導覽' href='https://www.dongyin.gov.tw/Chhtml/content/2520'  id='pmm5' onclick=mob_open('pmm5','mm5'); onkeypress=mob_open('pmm5','mm5');>景點導覽</a></h2><ul  class='SHUT' id='mm5'><li><h3><a title='連至東引島燈塔' href='https://www.dongyin.gov.tw/Chhtml/content/2548'>東引島燈塔</a></h3></li><li><h3><a title='連至太白天聲' href='https://www.dongyin.gov.tw/Chhtml/content/2549'>太白天聲</a></h3></li><li><h3><a title='連至烈女義坑' href='https://www.dongyin.gov.tw/Chhtml/content/2550'>烈女義坑</a></h3></li><li><h3><a title='連至一線天' href='https://www.dongyin.gov.tw/Chhtml/content/2551'>一線天</a></h3></li><li><h3><a title='連至安東坑道' href='https://www.dongyin.gov.tw/Chhtml/content/2552'>安東坑道</a></h3></li><li><h3><a title='連至國軍文物館' href='https://www.dongyin.gov.tw/Chhtml/content/2553'>國軍文物館</a></h3></li><li><h3><a title='連至東引酒廠' href='https://www.dongyin.gov.tw/Chhtml/content/2554'>東引酒廠</a></h3></li><li><h3><a title='連至燕秀潮音' href='https://www.dongyin.gov.tw/Chhtml/content/2555'>燕秀潮音</a></h3></li><li><h3><a title='連至遊客服務中心' href='https://www.dongyin.gov.tw/Chhtml/content/2556'>遊客服務中心</a></h3></li><li><h3><a title='連至忠誠門' href='https://www.dongyin.gov.tw/Chhtml/content/2557'>忠誠門</a></h3></li><li><h3><a title='連至海現龍闕' href='https://www.dongyin.gov.tw/Chhtml/content/2558'>海現龍闕</a></h3></li><li><h3><a title='連至中柱島' href='https://www.dongyin.gov.tw/Chhtml/content/2559'>中柱島</a></h3></li><li><h3><a title='連至和尚看經' href='https://www.dongyin.gov.tw/Chhtml/content/2560'>和尚看經</a></h3></li><li><h3><a title='連至鱷魚島' href='https://www.dongyin.gov.tw/Chhtml/content/2561'>鱷魚島</a></h3></li><li><h3><a title='連至東澳' href='https://www.dongyin.gov.tw/Chhtml/content/2562'>東澳</a></h3></li><li><h3><a title='連至后澳' href='https://www.dongyin.gov.tw/Chhtml/content/2563'>后澳</a></h3></li><li><h3><a title='連至國之北疆' href='https://www.dongyin.gov.tw/Chhtml/content/2564'>國之北疆</a></h3></li><li><h3><a title='連至三三據點' href='https://www.dongyin.gov.tw/Chhtml/content/2565'>三三據點</a></h3></li><li><h3><a title='連至水下博物館' href='https://www.dongyin.gov.tw/Chhtml/content/3956'>水下博物館</a></h3></li><li><h3><a title='連至劉依祥宅' href='https://www.dongyin.gov.tw/Chhtml/content/3957'>劉依祥宅</a></h3></li></ul></li><li><h2><a title='連至商店名錄' href='#'  id='pmm6' onclick=mob_open('pmm6','mm6'); onkeypress=mob_open('pmm6','mm6');>商店名錄</a></h2><ul  class='SHUT' id='mm6'><li><h3><a title='連至旅館民宿' href='https://www.dongyin.gov.tw/Chhtml/content/2523'>旅館民宿</a></h3></li><li><h3><a title='連至餐飲小吃' href='https://www.dongyin.gov.tw/Chhtml/content/2524'>餐飲小吃</a></h3></li></ul></li><li><h2><a title='連至訪客留言' href='https://www.dongyin.gov.tw/Chhtml/messagelist/2525'  id='pmm7' onclick=mob_open('pmm7','mm7'); onkeypress=mob_open('pmm7','mm7');>訪客留言</a></h2><ul  class='SHUT' id='mm7'></ul></li><li><h2><a title='連至資訊公開' href='#'  id='pmm8' onclick=mob_open('pmm8','mm8'); onkeypress=mob_open('pmm8','mm8');>資訊公開</a></h2><ul  class='SHUT' id='mm8'><li><h3><a title='連至資訊公開' href='https://www.dongyin.gov.tw/Chhtml/news/2508'>資訊公開</a></h3></li><li><h3><a title='連至統計資料專區' href='https://www.dongyin.gov.tw/Chhtml/news/2623'>統計資料專區</a></h3></li></ul></li><li><h2><a title='連至東引鄉志' href='#'  id='pmm9' onclick=mob_open('pmm9','mm9'); onkeypress=mob_open('pmm9','mm9');>東引鄉志</a></h2><ul  class='SHUT' id='mm9'><li><h3><a title='連至序、目錄及凡例' href='https://www.dongyin.gov.tw/Chhtml/news/6102'>序、目錄及凡例</a></h3></li><li><h3><a title='連至歷史篇' href='https://www.dongyin.gov.tw/Chhtml/news/2534'>歷史篇</a></h3></li><li><h3><a title='連至地理氣候篇' href='https://www.dongyin.gov.tw/Chhtml/news/2535'>地理氣候篇</a></h3></li><li><h3><a title='連至人民篇' href='https://www.dongyin.gov.tw/Chhtml/news/2536'>人民篇</a></h3></li><li><h3><a title='連至政事篇' href='https://www.dongyin.gov.tw/Chhtml/news/2537'>政事篇</a></h3></li><li><h3><a title='連至文教篇' href='https://www.dongyin.gov.tw/Chhtml/news/2538'>文教篇</a></h3></li><li><h3><a title='連至軍事篇' href='https://www.dongyin.gov.tw/Chhtml/news/2539'>軍事篇</a></h3></li><li><h3><a title='連至經濟篇' href='https://www.dongyin.gov.tw/Chhtml/news/2540'>經濟篇</a></h3></li><li><h3><a title='連至風俗信仰篇' href='https://www.dongyin.gov.tw/Chhtml/news/2541'>風俗信仰篇</a></h3></li><li><h3><a title='連至名勝古蹟篇' href='https://www.dongyin.gov.tw/Chhtml/news/2542'>名勝古蹟篇</a></h3></li><li><h3><a title='連至東湧燈塔篇' href='https://www.dongyin.gov.tw/Chhtml/news/6100'>東湧燈塔篇</a></h3></li><li><h3><a title='連至人物篇' href='https://www.dongyin.gov.tw/Chhtml/news/2543'>人物篇</a></h3></li><li><h3><a title='連至藝文篇' href='https://www.dongyin.gov.tw/Chhtml/news/2544'>藝文篇</a></h3></li><li><h3><a title='連至大事記' href='https://www.dongyin.gov.tw/Chhtml/news/6101'>大事記</a></h3></li><li><h3><a title='連至附錄' href='https://www.dongyin.gov.tw/Chhtml/news/2545'>附錄</a></h3></li><li><h3><a title='連至參考書目' href='https://www.dongyin.gov.tw/Chhtml/news/2546'>參考書目</a></h3></li></ul></li><li><h2><a title='連至東引鄉代會' href='#'  id='pmm10' onclick=mob_open('pmm10','mm10'); onkeypress=mob_open('pmm10','mm10');>東引鄉代會</a></h2><ul  class='SHUT' id='mm10'><li><h3><a title='連至鄉代會簡介' href='https://www.dongyin.gov.tw/Chhtml/content/2528'>鄉代會簡介</a></h3></li><li><h3><a title='連至鄉民代表介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2529'>鄉民代表介紹</a></h3></li><li><h3><a title='連至議政公告' href='https://www.dongyin.gov.tw/Chhtml/news/2530'>議政公告</a></h3></li><li><h3><a title='連至議事錄' href='https://www.dongyin.gov.tw/Chhtml/news/2531'>議事錄</a></h3></li><li><h3><a title='連至出國考察報告' href='https://www.dongyin.gov.tw/Chhtml/news/2532'>出國考察報告</a></h3></li><li><h3><a title='連至資訊公開' href='https://www.dongyin.gov.tw/Chhtml/news/7145'>資訊公開</a></h3></li></ul></li>
+            </ul>
+        </div>
+        <!--MENU_PHONE-->
+        <!--手機用TBAR頭-->
+        <div class="TBAR_PHONE">
+            <ul>                
+                <li><a href="https://www.matsu.gov.tw/" title="開新視窗,馬祖-連江縣政府" target="_blank">馬祖-連江縣政府</a></li>
+                <li><a href="https://www.dongyin.gov.tw/Chhtml/Index" title="回首頁">回首頁</a></li>
+                <li><a href="https://www.dongyin.gov.tw/Enhtml/Index" title="English">English</a></li>
+                <li><a href="https://www.dongyin.gov.tw/Chhtml/sitemap/2620" title="網站導覽">網站導覽</a></li>
+            </ul>
+        </div>
+        <!--手機TBAR尾-->
+    </div>
+    <!--手機用leftMENU尾-->
+    <!--手機用搜尋區塊-->
+    <div class="P_IN_INPUT SHUT" id='searchid'>   
+        <form action='https://www.dongyin.gov.tw/chhtml/search/2621' id='SEARCH1' method='post' onsubmit="return keysearch1(this);">
+            <input type="hidden" name="sitesearch" value="" />
+            <label for="SER_BOX" class="input-label" style="display:none"></label>
+            <input id="SER_BOX" name="qstr1" type="text" class="data_field" placeholder="全文檢索" accesskey="S" /><span class="icon_clear">x</span>
+            <input id="SER_SUBMIT" type="submit" value="查詢" />
+            <!--a class="SEARCH_go" href="https://www.google.com.tw/advanced_search?hl=zh-TW&as_sitesearch=https://www.dongyin.gov.tw" title="開新視窗,連至google進階搜尋" target="_blank">進階搜尋</!--a-->
+        </form>
+        <script>   
+            function keysearch1() {
+                var errmsg = "";
+                if ($('input[name="qstr1"]').val().trim() == "")
+                { errmsg = "請輸入關鍵字進行查詢!!" }
+
+                if (errmsg != "") {
+                    alert(errmsg);
+                    return false;
+                }
+            }
+        </script>
+    </div>
+    <!--手機用搜尋區塊尾-->
+    <!--動畫區-->
+    <div class="COM">
+        <div id="sea" class="ANIMATION1">
+            <div class="i">
+                <img src="https://www.dongyin.gov.tw/dongimages/icon_sea.png" alt="" />
+            </div>
+            <div class="f">
+                <img src="https://www.dongyin.gov.tw/dongimages/anim/anim_seagull.png" alt="" />
+            </div>
+            <div class="g">
+                <img src="https://www.dongyin.gov.tw/dongimages/anim/anim_seagull02.png" alt="" />
+            </div>
+            <div class="h">
+                <img src="https://www.dongyin.gov.tw/dongimages/anim/anim_seagull03.png" alt="" />
+            </div>
+        </div>
+        <div id="m_sea" class="ANIMATION1">
+            <div class="i">
+                <img src="https://www.dongyin.gov.tw/dongimages/icon_sea.png" alt="動畫海浪" title="動畫海浪" />
+            </div>
+            <div class="f">
+                <img src="https://www.dongyin.gov.tw/dongimages/anim/anim_seagull.png" alt="燕鷗" title="燕鷗" />
+            </div>
+            <div class="g">
+                <img src="https://www.dongyin.gov.tw/dongimages/anim/anim_seagull02.png" alt="燕鷗" title="燕鷗" />
+            </div>
+            <div class="h">
+                <img src="https://www.dongyin.gov.tw/dongimages/anim/anim_seagull03.png" alt="燕鷗" title="燕鷗" />
+            </div>
+        </div>
+        <div class="ANIMATION">
+            <div class="MOUN02"></div>
+            <div class="MOUN02_2"></div>
+            <div class="MATSU"></div>
+            <div class="MOUN01"></div>
+        </div>
+        <!-- 燈塔動畫 -->
+        <script src="https://www.dongyin.gov.tw/js/light/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="https://www.dongyin.gov.tw/js/frontjquery/greensock/src/minified/TweenMax.min.js" type="text/javascript"></script>
+        <script src="https://www.dongyin.gov.tw/js/frontjquery/greensock/src/minified/TimelineMax.min.js" type="text/javascript"></script>
+        <script>
+            $(function () {
+                //海浪
+                var element = $("#sea .i");
+                var element2 = $("#m_sea .i");
+                TweenMax.to(element, 2, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0 }, { x: -20, y: -3 }, { x: 20, y: -3 }, { x: 0, y: 0 }] }, ease: Linear.easeNone });
+                TweenMax.to(element2, 2, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0 }, { x: -20, y: -2 }, { x: 20, y: -2 }, { x: 0, y: 0 }] }, ease: Linear.easeNone });
+
+                //燈塔
+                //var element2 = $("#sea .a img");
+                //TweenMax.to(element2, 2, { rotationX: 0, ease: Back.easeInOut });
+
+                //船
+                /*var ship = $("#sea .b,#sea .c,#sea .d,#sea .e");
+                var ship2 = $("#m_sea .b,#m_sea .c,#m_sea .d,#m_sea .e");
+                TweenMax.to(ship[0], 2, { rotation: -1, bottom: 0, repeat: -1, yoyo: true, ease: Back.easeInOut });
+                TweenMax.to(ship[1], 3, { rotation: -2, bottom: -4, repeat: -1, yoyo: true, ease: Back.easeInOut });
+                TweenMax.to(ship[2], 4, { rotation: 0, bottom: -6, repeat: -1, yoyo: true, ease: Back.easeInOut });
+                TweenMax.to(ship[3], 2, { rotation: 0, bottom: -1, repeat: -1, yoyo: true, ease: Back.easeInOut });
+
+                TweenMax.to(ship2[0], 2, { rotation: -1, bottom: -8, repeat: -1, yoyo: true, ease: Back.easeInOut });
+                TweenMax.to(ship2[1], 3, { rotation: -2, bottom: -9, repeat: -1, yoyo: true, ease: Back.easeInOut });
+                TweenMax.to(ship2[2], 3, { rotation: 0, bottom: -10, repeat: -1, yoyo: true, ease: Back.easeInOut });
+                TweenMax.to(ship2[3], 2, { rotation: 0, bottom: -10, repeat: -1, yoyo: true, ease: Back.easeInOut });
+                */
+                //鳥
+                var bird = $("#sea .f,#sea .g,#sea .h");
+                var bird2 = $("#m_sea .f,#m_sea .g,#m_sea .h");
+                //var t2 = new TimelineMax({ repeat: -1, yoyo: false });
+                TweenMax.to(bird[0], 15, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.5 }, { x: 50, y: -20, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+                TweenMax.to(bird[1], 10, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.5 }, { x: 50, y: -20, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+                TweenMax.to(bird[2], 12, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.8 }, { x: 50, y: -40, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+
+                TweenMax.to(bird2[0], 15, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.5 }, { x: 50, y: -20, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+                TweenMax.to(bird2[1], 10, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.5 }, { x: 50, y: -20, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+                TweenMax.to(bird2[2], 12, { repeat: -1, bezier: { type: "cubic", values: [{ x: 0, y: 0, scaleX: 1 }, { x: -50, y: -40, scaleX: 0.8 }, { x: 50, y: -40, scaleX: 0.3 }, { x: 0, y: 0, scaleX: 1 }] }, ease: Power1.easeInOut });
+
+            });
+        </script>
+        <noscript>
+            您的瀏覽器似乎不支援JavaScript語法，此為燈塔動畫控制，這裡的JavaScript語法並不會影響到內容的陳述!
+        </noscript>
+    </div>
+    <!--動畫區尾-->
+    <!--最上方TBAR頭-->
+    <div class="TBAR">
+        <div class="COM">
+            <div style='text-align:right; width:auto; overflow:hidden; float:right;'>
+                <ul style=" text-align:right;">
+                    <li><a id="accesskeyU" href="#accesskeyU" title="上層選單區" accesskey="U" style="color:#ffffff;font-size:7pt; text-decoration:none;color:black; ">:::</a></li>
+                    <li><a href="https://www.dongyin.gov.tw/Chhtml/sitemap/2620" title="網站導覽">網站導覽</a></li>
+                    <li><a href="https://www.matsu.gov.tw/" title="開新視窗,馬祖-連江縣政府" target="_blank">馬祖-連江縣政府</a></li>
+                    <li><a href="https://www.dongyin.gov.tw/Chhtml/Index" title="回首頁">回首頁</a></li>
+                    <li><a href="https://www.dongyin.gov.tw/Enhtml/Index" title="English">English</a></li>
+                    <li><a href="https://www.matsu.gov.tw/login" title="開新視窗,後台登入" target="_blank">後台登入</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--最上方TBAR尾-->
+    <!--HEADER頭-->
+    <div class="HEADER">
+        <div class="COM">
+            <div class="MENU_BT"><a href="#" onclick="javascript:mob_open('','')" onkeypress="javascript:mob_open('','')">MENU</a></div>
+            <script>
+                function mob_open(obj1, tmpid) {
+
+                    if (obj1 == '') {
+                        $('#mobmenu').toggleClass("SHUT");
+                    }
+                    else {
+                        if ($('#' + obj1).attr("class") == "SELEST") {
+                            $('#' + obj1).removeClass("SELEST");
+                            $('#' + tmpid).addClass("SHUT");
+                        }
+                        else {
+                            //$('#pmm1').slideDown('slow');
+                            $('#' + obj1).addClass("SELEST");
+                            $('#' + tmpid).removeClass("SHUT");
+                        }
+                    }
+
+                }
+
+                function search_open() {
+                    //alert('test');
+                    if ($('#searchid').attr("class") == "P_IN_INPUT SHUT") {
+                        $('#searchid').removeClass("P_IN_INPUT SHUT");
+                        $('#searchid').addClass("P_IN_INPUT");
+
+                    } else {
+                        $('#searchid').removeClass("P_IN_INPUT");
+                        $('#searchid').addClass("P_IN_INPUT SHUT");
+                    }
+                }
+            </script>
+            <noscript>
+                您的瀏覽器似乎不支援JavaScript語法，此為手機版選單控制，這裡的JavaScript語法並不會影響到內容的陳述!
+            </noscript>
+            <div class="SEARCH_BT"><a href="#" onclick="search_open()" onkeypress="search_open()">搜尋</a></div>
+            <h1><a href="https://www.dongyin.gov.tw/Chhtml/Index" title="回首頁" class="LOGO">東引鄉公所</a></h1>
+            <div style=" width:250px;height:auto; overflow:hidden; float:right;margin-top:10px;">              
+                <!--搜尋-->
+                <div class="IN_INPUT">
+                    <form action='https://www.dongyin.gov.tw/chhtml/search/2621' id='SEARCH' method='post' onsubmit="return keysearch();">
+                        <input type="hidden" name="sitesearch" value="" />
+                        <label for="SER_BOX" class="input-label" style="display:none"></label>
+                        <input id="SER_BOX" name="qstr" type="text" class="data_field" placeholder="全文檢索" accesskey="S" /><span class="icon_clear">x</span>
+                        <input id="SER_SUBMIT" alt="查詢" title="查詢" type="submit" value="查詢" />
+                        <!---a class="SEARCH_go" href="https://www.google.com.tw/advanced_search?hl=zh-TW&as_sitesearch=https://www.dongyin.gov.tw" title="開新視窗,連至google進階搜尋" target="_blank">進階搜尋</a-->
+                    </form>
+                </div>
+                <script>
+                    function keysearch(obj1) {
+                        var errmsg = "";
+                        if ($('input[name="qstr"]').val().trim() == "") { errmsg = "請輸入關鍵字進行查詢!!" }
+
+                        if (errmsg != "") {
+                            alert(errmsg);
+                            return false;
+                        }
+                    }
+                </script>
+                <noscript>
+                    您的瀏覽器似乎不支援JavaScript語法，此為關鍵字查詢判斷，這裡的JavaScript語法並不會影響到內容的陳述!
+                </noscript>
+                <!--搜尋-->
+            </div>
+        </div>
+    </div>
+    <!--最上方HEADER尾-->
+    <!--MENU頭-->
+    <div class="MENU" id="menutop">
+        <div class="COM">
+            <ul id="t_menu">
+                <li><h2><a title='連至本所團隊' href='#'  >本所團隊</a></h2><ul  class='SHUT' id='mm1' ><li><h3><a title='連至鄉長介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2499'>鄉長介紹</a></h3></li><li><h3><a title='連至村里介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2500'>村里介紹</a></h3></li><li><h3><a title='連至公所架構' href='https://www.dongyin.gov.tw/Chhtml/content/2501'>公所架構</a></h3></li><li><h3><a title='連至業務申辦' href='https://www.dongyin.gov.tw/Chhtml/content/2502'>業務申辦</a></h3></li><li><h3><a title='連至鄉圖書館' href='https://www.dongyin.gov.tw/Chhtml/content/2503'>鄉圖書館</a></h3></li></ul></li><li><h2><a title='連至便民服務' href='#'  >便民服務</a></h2><ul  class='SHUT' id='mm2' ><li><h3><a title='連至衛生醫療' href='https://www.dongyin.gov.tw/Chhtml/content/2504'>衛生醫療</a></h3></li><li><h3><a title='連至機關電話' href='https://www.dongyin.gov.tw/Chhtml/content/2505'>機關電話</a></h3></li><li><h3><a title='連至旅遊服務' href='https://www.dongyin.gov.tw/Chhtml/content/2506'>旅遊服務</a></h3></li><li><h3><a title='連至表格下載' href='https://www.dongyin.gov.tw/Chhtml/download/2507'>表格下載</a></h3></li><li><h3><a title='開新視窗,連至天氣潮汐' href='https://www.cwb.gov.tw/V8/C/' target='_blank'>天氣潮汐</a></h3></li><li><h3><a title='連至相關連結' href='https://www.dongyin.gov.tw/Chhtml/link/2511'>相關連結</a></h3></li><li><h3><a title='連至債務鐘' href='https://www.dongyin.gov.tw/Chhtml/news/2512'>債務鐘</a></h3></li></ul></li><li><h2><a title='連至東引采風' href='#'  >東引采風</a></h2><ul  class='SHUT' id='mm3' ><li><h3><a title='連至東引采風' href='https://www.dongyin.gov.tw/Chhtml/content/2513'>東引采風</a></h3></li><li><h3><a title='連至風俗民情' href='https://www.dongyin.gov.tw/Chhtml/content/2514'>風俗民情</a></h3></li></ul></li><li><h2><a title='連至觀光指南' href='#'  >觀光指南</a></h2><ul  class='SHUT' id='mm4' ><li><h3><a title='連至交通指南' href='https://www.dongyin.gov.tw/Chhtml/content/274'>交通指南</a></h3></li><li><h3><a title='連至遊程內容' href='https://www.dongyin.gov.tw/Chhtml/content/2515'>遊程內容</a></h3></li><li><h3><a title='連至美食特產' href='https://www.dongyin.gov.tw/Chhtml/content/2519'>美食特產</a></h3></li><li><h3><a title='連至磯釣之樂' href='https://www.dongyin.gov.tw/Chhtml/content/2521'>磯釣之樂</a></h3></li></ul></li><li><h2><a title='連至景點導覽' href='https://www.dongyin.gov.tw/Chhtml/content/2520'  >景點導覽</a></h2><ul  class='SHUT' id='mm5' ><li><h3><a title='連至東引島燈塔' href='https://www.dongyin.gov.tw/Chhtml/content/2548'>東引島燈塔</a></h3></li><li><h3><a title='連至太白天聲' href='https://www.dongyin.gov.tw/Chhtml/content/2549'>太白天聲</a></h3></li><li><h3><a title='連至烈女義坑' href='https://www.dongyin.gov.tw/Chhtml/content/2550'>烈女義坑</a></h3></li><li><h3><a title='連至一線天' href='https://www.dongyin.gov.tw/Chhtml/content/2551'>一線天</a></h3></li><li><h3><a title='連至安東坑道' href='https://www.dongyin.gov.tw/Chhtml/content/2552'>安東坑道</a></h3></li><li><h3><a title='連至國軍文物館' href='https://www.dongyin.gov.tw/Chhtml/content/2553'>國軍文物館</a></h3></li><li><h3><a title='連至東引酒廠' href='https://www.dongyin.gov.tw/Chhtml/content/2554'>東引酒廠</a></h3></li><li><h3><a title='連至燕秀潮音' href='https://www.dongyin.gov.tw/Chhtml/content/2555'>燕秀潮音</a></h3></li><li><h3><a title='連至遊客服務中心' href='https://www.dongyin.gov.tw/Chhtml/content/2556'>遊客服務中心</a></h3></li><li><h3><a title='連至忠誠門' href='https://www.dongyin.gov.tw/Chhtml/content/2557'>忠誠門</a></h3></li><li><h3><a title='連至海現龍闕' href='https://www.dongyin.gov.tw/Chhtml/content/2558'>海現龍闕</a></h3></li><li><h3><a title='連至中柱島' href='https://www.dongyin.gov.tw/Chhtml/content/2559'>中柱島</a></h3></li><li><h3><a title='連至和尚看經' href='https://www.dongyin.gov.tw/Chhtml/content/2560'>和尚看經</a></h3></li><li><h3><a title='連至鱷魚島' href='https://www.dongyin.gov.tw/Chhtml/content/2561'>鱷魚島</a></h3></li><li><h3><a title='連至東澳' href='https://www.dongyin.gov.tw/Chhtml/content/2562'>東澳</a></h3></li><li><h3><a title='連至后澳' href='https://www.dongyin.gov.tw/Chhtml/content/2563'>后澳</a></h3></li><li><h3><a title='連至國之北疆' href='https://www.dongyin.gov.tw/Chhtml/content/2564'>國之北疆</a></h3></li><li><h3><a title='連至三三據點' href='https://www.dongyin.gov.tw/Chhtml/content/2565'>三三據點</a></h3></li><li><h3><a title='連至水下博物館' href='https://www.dongyin.gov.tw/Chhtml/content/3956'>水下博物館</a></h3></li><li><h3><a title='連至劉依祥宅' href='https://www.dongyin.gov.tw/Chhtml/content/3957'>劉依祥宅</a></h3></li></ul></li><li><h2><a title='連至商店名錄' href='#'  >商店名錄</a></h2><ul  class='SHUT' id='mm6' ><li><h3><a title='連至旅館民宿' href='https://www.dongyin.gov.tw/Chhtml/content/2523'>旅館民宿</a></h3></li><li><h3><a title='連至餐飲小吃' href='https://www.dongyin.gov.tw/Chhtml/content/2524'>餐飲小吃</a></h3></li></ul></li><li><h2><a title='連至訪客留言' href='https://www.dongyin.gov.tw/Chhtml/messagelist/2525'  >訪客留言</a></h2><ul  class='SHUT' id='mm7' ></ul></li><li><h2><a title='連至資訊公開' href='#'  >資訊公開</a></h2><ul  class='SHUT' id='mm8' ><li><h3><a title='連至資訊公開' href='https://www.dongyin.gov.tw/Chhtml/news/2508'>資訊公開</a></h3></li><li><h3><a title='連至統計資料專區' href='https://www.dongyin.gov.tw/Chhtml/news/2623'>統計資料專區</a></h3></li></ul></li><li><h2><a title='連至東引鄉志' href='#'  >東引鄉志</a></h2><ul  class='SHUT' id='mm9' ><li><h3><a title='連至序、目錄及凡例' href='https://www.dongyin.gov.tw/Chhtml/news/6102'>序、目錄及凡例</a></h3></li><li><h3><a title='連至歷史篇' href='https://www.dongyin.gov.tw/Chhtml/news/2534'>歷史篇</a></h3></li><li><h3><a title='連至地理氣候篇' href='https://www.dongyin.gov.tw/Chhtml/news/2535'>地理氣候篇</a></h3></li><li><h3><a title='連至人民篇' href='https://www.dongyin.gov.tw/Chhtml/news/2536'>人民篇</a></h3></li><li><h3><a title='連至政事篇' href='https://www.dongyin.gov.tw/Chhtml/news/2537'>政事篇</a></h3></li><li><h3><a title='連至文教篇' href='https://www.dongyin.gov.tw/Chhtml/news/2538'>文教篇</a></h3></li><li><h3><a title='連至軍事篇' href='https://www.dongyin.gov.tw/Chhtml/news/2539'>軍事篇</a></h3></li><li><h3><a title='連至經濟篇' href='https://www.dongyin.gov.tw/Chhtml/news/2540'>經濟篇</a></h3></li><li><h3><a title='連至風俗信仰篇' href='https://www.dongyin.gov.tw/Chhtml/news/2541'>風俗信仰篇</a></h3></li><li><h3><a title='連至名勝古蹟篇' href='https://www.dongyin.gov.tw/Chhtml/news/2542'>名勝古蹟篇</a></h3></li><li><h3><a title='連至東湧燈塔篇' href='https://www.dongyin.gov.tw/Chhtml/news/6100'>東湧燈塔篇</a></h3></li><li><h3><a title='連至人物篇' href='https://www.dongyin.gov.tw/Chhtml/news/2543'>人物篇</a></h3></li><li><h3><a title='連至藝文篇' href='https://www.dongyin.gov.tw/Chhtml/news/2544'>藝文篇</a></h3></li><li><h3><a title='連至大事記' href='https://www.dongyin.gov.tw/Chhtml/news/6101'>大事記</a></h3></li><li><h3><a title='連至附錄' href='https://www.dongyin.gov.tw/Chhtml/news/2545'>附錄</a></h3></li><li><h3><a title='連至參考書目' href='https://www.dongyin.gov.tw/Chhtml/news/2546'>參考書目</a></h3></li></ul></li><li><h2><a title='連至東引鄉代會' href='#'  >東引鄉代會</a></h2><ul  class='SHUT' id='mm10' ><li><h3><a title='連至鄉代會簡介' href='https://www.dongyin.gov.tw/Chhtml/content/2528'>鄉代會簡介</a></h3></li><li><h3><a title='連至鄉民代表介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2529'>鄉民代表介紹</a></h3></li><li><h3><a title='連至議政公告' href='https://www.dongyin.gov.tw/Chhtml/news/2530'>議政公告</a></h3></li><li><h3><a title='連至議事錄' href='https://www.dongyin.gov.tw/Chhtml/news/2531'>議事錄</a></h3></li><li><h3><a title='連至出國考察報告' href='https://www.dongyin.gov.tw/Chhtml/news/2532'>出國考察報告</a></h3></li><li><h3><a title='連至資訊公開' href='https://www.dongyin.gov.tw/Chhtml/news/7145'>資訊公開</a></h3></li></ul></li>
+            </ul>
+        </div>
+    </div>
+    <!--MENU尾-->
+    <!--MENU浮動頭-->
+    <link href="https://www.dongyin.gov.tw/js/t_menu/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.dongyin.gov.tw/js/t_menu/script.js" type="text/javascript"></script>
+    <!--中間區塊-->
+    <div class="INTER_CON" id="INTER_CON" style=" background-image:url(https://www.dongyin.gov.tw/Other/m-20210824121559.png)" tabindex="-1">
+            <a id="accesskeyL" href="#accesskeyL" title="網站服務選單區" accesskey="L" style="color:#ffffff;font-size:7pt; text-decoration:none;color:black; ">:::</a>
+        <!--COM頭-->
+        <div class="IN_COM">
+            <!--左側MENU頭-->
+            <div class="IN_MENU">
+                <ul>
+                    <li><h2><a title='連至鄉長介紹' class='SELEST' href='https://www.dongyin.gov.tw/Chhtml/content/2499' style=font-size:11pt>鄉長介紹</a></h2></li><li><h2><a title='連至村里介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2500' style=font-size:11pt>村里介紹</a></h2></li><li><h2><a title='連至公所架構' href='https://www.dongyin.gov.tw/Chhtml/content/2501' style=font-size:11pt>公所架構</a></h2></li><li><h2><a title='連至業務申辦' href='https://www.dongyin.gov.tw/Chhtml/content/2502' style=font-size:11pt>業務申辦</a></h2></li><li><h2><a title='連至鄉圖書館' href='https://www.dongyin.gov.tw/Chhtml/content/2503' style=font-size:11pt>鄉圖書館</a></h2></li>
+                </ul>
+            </div>
+            <!--左側MENU尾-->
+            <!--麵包頭-->
+            
+<div class="IN_BOX">
+
+<!--右側內容頭-->
+
+<div class="BREADCRUMB">
+    <ul>
+        <li><a id="accesskeyC" href="#accesskeyC" title="網站服務選單區" accesskey="C" style="color:#ffffff;font-size:7pt; text-decoration:none;color:black; ">:::</a></li>
+        <li class="HOME_ICON"><span class="LEFT"><a href="https://www.dongyin.gov.tw/Chhtml/index" title="回首頁"><span style="display:none;">回首頁</span></a></span><span class="ARROW"></span></li>
+            <li><span class="LEFT">本所團隊</span><span class="ARROW"></span></li>
+            <li><span class="LEFT">鄉長介紹</span></li>
+    </ul>
+</div>
+
+<!--麵包尾-->
+<!---MOB 下拉選單------------------------------>
+
+<!---MOB 下拉選單-END----------------------------->
+<!--標題-->
+
+<script>
+    function mailpage() {
+        $("#printmail #pcontent").text('https://www.dongyin.gov.tw/Chhtml/content/2499');
+        printmail.action = "https://www.dongyin.gov.tw/chhtml/mailpage";
+        printmail.submit();
+        printmail.action = "";
+    }
+</script>
+<noscript>導向轉寄程式,您的瀏覽器不支援JavaScript語法,不會影響您閱讀本頁內容</noscript>
+<script>
+    function printpage() {
+        $("#printmail #pcontent").text(($(".FROM").html()));
+        printmail.action = "https://www.dongyin.gov.tw/chhtml/printpage";
+        printmail.target = "_blank";
+        printmail.submit();
+        printmail.action = "";
+        printmail.target = "";
+    }
+</script>
+<noscript>您的瀏覽器不支援JavaScript語法,請按下鍵盤Ctrl+P,即可列印</noscript>
+<script>
+        function setDefault(a) {
+            $(".FON_S,.FON,.FON_B").each(function (index, el) {
+                if (a.attr("class") == $(this).attr("class")) {
+                    $(this).css("background-color", "#3b6fa8");
+                    $(this).css("background-position", "bottom");
+                } else {
+                    $(this).css("background-color", "");
+                    $(this).css("background-position", "");
+                }
+            });
+        }
+        function fontenlarge(a) {
+            setDefault(a);
+            $(".IN_BOX").css('font-size', '120%');
+        }
+        function fontmedium(a) {
+            setDefault(a);
+            $(".IN_BOX").css('font-size', '100%');
+        }
+        function fontensmall(a) {
+            setDefault(a);
+            $(".IN_BOX").css('font-size', '80%');
+        }
+        var fbhtml_url = window.location.toString(); //要分享至fb的location
+</script>
+<noscript>
+    您的瀏覽器似乎不支援JavaScript語法，但沒關係，這裡的JavaScript語法並不會影響到內容的陳述，<br />
+    如需要選擇字級大小，IE6請利用鍵盤按住ALT鍵 + V → X → (G)最大(L)較大(M)中(S)較小(A)小，來選擇適合您的文字大小，而IE7或Firefox
+    瀏覽器則可利用鍵盤 Ctrl + (+)放大 (-)縮小來改變字型大小
+</noscript>
+<form name="printmail" id="printmail" method="post" action="">
+    <input type="hidden" name="id" value="2499">   
+    <input type="hidden" name="sysflag" value="">
+    <input type="hidden" name="pathreturn" value="/Chhtml/content/2499" size="50">
+    <textarea name="pcontent" id="pcontent" hidden></textarea>
+</form>
+
+<div class="T_BAR">
+    <h3>鄉長介紹</h3>
+    <div class="FONSP_BT">
+        <ul>
+                <li><a href="javascript:void(0);" style="cursor:pointer" class="mail" title="轉寄" onclick="mailpage()" onkeypress="mailpage()">轉寄</a></li>
+                <li><a href="javascript:void(0);" style="cursor:pointer" class="PRINT" title="開新視窗,列印" onclick="printpage()" onkeypress="printpage()">列印</a></li>
+                <li><a href="javascript:void(0);" class="shfb" title="開新視窗,分享至facebook" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=' + fbhtml_url); return false;" onkeypress="window.open('http://www.facebook.com/sharer/sharer.php?u=' + fbhtml_url); return false;">facebook</a></li>
+            <li><a href="javascript:void(0);" style="cursor:pointer" class="FON_S" title="變小" onclick="fontensmall($(this))" onkeypress="fontensmall($(this))">小</a></li>
+            <li><a href="javascript:void(0);" style="cursor:pointer" class="FON" title="正常" onclick="fontmedium($(this))" onkeypress="fontmedium($(this))">中</a></li>
+            <li><a href="javascript:void(0);" style="cursor:pointer" class="FON_B" title="變大" onclick="fontenlarge($(this))" onkeypress="fontenlarge($(this))">大</a></li>
+            <script>
+                setDefault($(".FON"));
+            </script>
+            <noscript>
+                您的瀏覽器似乎不支援JavaScript語法，但沒關係，這裡的JavaScript語法並不會影響到內容的陳述，<br />
+                如需要選擇字級大小，IE6請利用鍵盤按住ALT鍵 + V → X → (G)最大(L)較大(M)中(S)較小(A)小，來選擇適合您的文字大小，而IE7或Firefox
+                瀏覽器則可利用鍵盤 Ctrl + (+)放大 (-)縮小來改變字型大小
+            </noscript>
+        </ul>
+    </div>
+
+</div>    <!--標題-->
+    <!--列表表單頭-->
+    <div class="FROM">
+<form action="/Chhtml/content/2499" id="FormAdd" method="post" name="FormAdd"><div width='100%' align='right'>點閱數：163</div><p class='PIN_T05' style='clear: both;'>鄉長介紹</p><p class='PIN_T07' style='margin-top: 15px;'><p>
+	<img src="/attached/image/20240530/20240530163153_8615.jpg" alt="" />
+</p>
+<p>
+	<span> </span> 
+</p>
+<ul>
+	<li class="text">
+		<span>姓名</span> 
+		<p class="table-text">
+			林德建
+		</p>
+	</li>
+	<li class="text">
+		<span>祖籍</span> 
+		<p class="table-text">
+			福建省連江縣
+		</p>
+	</li>
+	<li class="text">
+		<span> 生日</span> 
+		<p class="table-text">
+			民國60年5月4日
+		</p>
+	</li>
+	<li class="text">
+		<span>學歷</span> 
+		<p class="table-text">
+			東引國中小、東山高中
+		</p>
+	</li>
+	<li class="text">
+		<span>電話</span> 
+		<p class="table-text">
+			0836-77205#11<br />
+0933-077515
+		</p>
+	</li>
+	<li class="text">
+		<span>臉書</span> 
+		<p class="table-text">
+			https://www.facebook.com/mjstard
+		</p>
+	</li>
+	<li class="text">
+		<span>學歷</span> 
+		<p class="table-text">
+			東引國中小、東山高中
+		</p>
+	</li>
+	<li class="text">
+		<span>黨籍</span> 
+		<p class="table-text">
+			中國國民黨
+		</p>
+	</li>
+	<li class="text">
+		<span>經歷</span> 
+		<p class="table-text">
+			東引鄉代會第8屆主席<br />
+連江縣議會機要秘書<br />
+馬祖連江航業董事長
+		</p>
+	</li>
+	<li class="text">
+		<span>鄉長政見</span> 
+		<p class="table-text">
+			1.落實福利活化社區：落實各年齡層鄉親福利制度，推動多元社區活動。<br />
+2.宜居島嶼人群匯聚：爭取本鄉住宅區興建，增加鄉內居住空間。<br />
+3.穩定交通便利生活：爭取本鄉對外穩定交通航線，提升鄉親生活機能。<br />
+4.離島醫療強化照護：提升本鄉緊急醫療品質，爭取穩定醫療後援機制。<br />
+5.島嶼品牌推向國際：持續辦理大型活動，導入資源提升本地商家及商圈軟實力。<br />
+6.共享經濟共創東引：爭取東引酒廠共同經營權，提升本鄉第一名產品牌識別。<br />
+7.大型建設持續推進：持續跟進本鄉各項大型工程，並擬定後續維管策略。<br />
+8.健康生活樂活鄉鎮：持續推動室內運動中心、及爭取室內游泳池興建工程。<br />
+9.市容修繕點亮島嶼：爭取市容改善補助機制，持續導入綠美化、公共藝術。<br />
+10.形塑地方創造價值：爭取歷史空間、老舊街區再造及地方有志人士創業補助輔導。
+		</p>
+	</li>
+</ul>
+<p>
+	<br />
+</p>
+<iframe src="https://www.youtube.com/embed/ew6WxEdpxaA" title="馬祖日報2022/12/25影音／東引主席陳子驎&emsp;鄉村長、鄉代就職暨正副主席選舉" width="853" height="480" frameborder="0">
+</iframe></p>            <br>
+</form>
+    </div>
+    <!--列表表單尾-->  
+    <div class="BT02">
+        <ul>
+            <li><a href="#" title="回前頁" onclick="window.history.go(-1);return false;" onkeypress="window.history.go(-1);return false;">回前頁</a></li>
+            <noscript>當script無法執行時可按"alt + &larr;(Backspace)"鍵替代</noscript>
+            <li><a href="/Chhtml/Index" title="回首頁">回首頁</a></li>
+        </ul>
+
+    </div>
+</div>
+            <!--右側內容尾-->
+        </div>
+        <!--COM尾-->
+    </div>
+    <!--中間區塊尾-->
+    <!--SiteMap區塊頭-->
+    <div class="SITEMAP" id="SITEMAP" tabindex="-1">
+        <!--內容區-->
+        <div class="C_BG">
+            <div class="COM">
+                <ul><li><a title='連至本所團隊' href='#' >本所團隊</a><ul id='mm1'><li><a title='連至鄉長介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2499' style=font-size:11pt>鄉長介紹</a></li><li><a title='連至村里介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2500' style=font-size:11pt>村里介紹</a></li><li><a title='連至公所架構' href='https://www.dongyin.gov.tw/Chhtml/content/2501' style=font-size:11pt>公所架構</a></li><li><a title='連至業務申辦' href='https://www.dongyin.gov.tw/Chhtml/content/2502' style=font-size:11pt>業務申辦</a></li><li><a title='連至鄉圖書館' href='https://www.dongyin.gov.tw/Chhtml/content/2503' style=font-size:11pt>鄉圖書館</a></li></ul></li><li><a title='連至便民服務' href='#' >便民服務</a><ul id='mm2'><li><a title='連至衛生醫療' href='https://www.dongyin.gov.tw/Chhtml/content/2504' style=font-size:11pt>衛生醫療</a></li><li><a title='連至機關電話' href='https://www.dongyin.gov.tw/Chhtml/content/2505' style=font-size:11pt>機關電話</a></li><li><a title='連至旅遊服務' href='https://www.dongyin.gov.tw/Chhtml/content/2506' style=font-size:11pt>旅遊服務</a></li><li><a title='連至表格下載' href='https://www.dongyin.gov.tw/Chhtml/download/2507' style=font-size:11pt>表格下載</a></li><li><a title='開新視窗,連至天氣潮汐' href='https://www.cwb.gov.tw/V8/C/' target='_blank' style=font-size:11pt>天氣潮汐</a></li><li><a title='連至相關連結' href='https://www.dongyin.gov.tw/Chhtml/link/2511' style=font-size:11pt>相關連結</a></li><li><a title='連至債務鐘' href='https://www.dongyin.gov.tw/Chhtml/news/2512' style=font-size:11pt>債務鐘</a></li></ul></li><li><a title='連至東引采風' href='#' >東引采風</a><ul id='mm3'><li><a title='連至東引采風' href='https://www.dongyin.gov.tw/Chhtml/content/2513' style=font-size:11pt>東引采風</a></li><li><a title='連至風俗民情' href='https://www.dongyin.gov.tw/Chhtml/content/2514' style=font-size:11pt>風俗民情</a></li></ul></li><li><a title='連至觀光指南' href='#' >觀光指南</a><ul id='mm4'><li><a title='連至交通指南' href='https://www.dongyin.gov.tw/Chhtml/content/274' style=font-size:11pt>交通指南</a></li><li><a title='連至遊程內容' href='https://www.dongyin.gov.tw/Chhtml/content/2515' style=font-size:11pt>遊程內容</a></li><li><a title='連至美食特產' href='https://www.dongyin.gov.tw/Chhtml/content/2519' style=font-size:11pt>美食特產</a></li><li><a title='連至磯釣之樂' href='https://www.dongyin.gov.tw/Chhtml/content/2521' style=font-size:11pt>磯釣之樂</a></li></ul></li><li><a title='連至景點導覽' href='https://www.dongyin.gov.tw/Chhtml/content/2520' >景點導覽</a><ul id='mm5'><li><a title='連至東引島燈塔' href='https://www.dongyin.gov.tw/Chhtml/content/2548' style=font-size:11pt>東引島燈塔</a></li><li><a title='連至太白天聲' href='https://www.dongyin.gov.tw/Chhtml/content/2549' style=font-size:11pt>太白天聲</a></li><li><a title='連至烈女義坑' href='https://www.dongyin.gov.tw/Chhtml/content/2550' style=font-size:11pt>烈女義坑</a></li><li><a title='連至一線天' href='https://www.dongyin.gov.tw/Chhtml/content/2551' style=font-size:11pt>一線天</a></li><li><a title='連至安東坑道' href='https://www.dongyin.gov.tw/Chhtml/content/2552' style=font-size:11pt>安東坑道</a></li><li><a title='連至國軍文物館' href='https://www.dongyin.gov.tw/Chhtml/content/2553' style=font-size:11pt>國軍文物館</a></li><li><a title='連至東引酒廠' href='https://www.dongyin.gov.tw/Chhtml/content/2554' style=font-size:11pt>東引酒廠</a></li><li><a title='連至燕秀潮音' href='https://www.dongyin.gov.tw/Chhtml/content/2555' style=font-size:11pt>燕秀潮音</a></li><li><a title='連至遊客服務中心' href='https://www.dongyin.gov.tw/Chhtml/content/2556' style=font-size:11pt>遊客服務中心</a></li><li><a title='連至忠誠門' href='https://www.dongyin.gov.tw/Chhtml/content/2557' style=font-size:11pt>忠誠門</a></li><li><a title='連至海現龍闕' href='https://www.dongyin.gov.tw/Chhtml/content/2558' style=font-size:11pt>海現龍闕</a></li><li><a title='連至中柱島' href='https://www.dongyin.gov.tw/Chhtml/content/2559' style=font-size:11pt>中柱島</a></li><li><a title='連至和尚看經' href='https://www.dongyin.gov.tw/Chhtml/content/2560' style=font-size:11pt>和尚看經</a></li><li><a title='連至鱷魚島' href='https://www.dongyin.gov.tw/Chhtml/content/2561' style=font-size:11pt>鱷魚島</a></li><li><a title='連至東澳' href='https://www.dongyin.gov.tw/Chhtml/content/2562' style=font-size:11pt>東澳</a></li><li><a title='連至后澳' href='https://www.dongyin.gov.tw/Chhtml/content/2563' style=font-size:11pt>后澳</a></li><li><a title='連至國之北疆' href='https://www.dongyin.gov.tw/Chhtml/content/2564' style=font-size:11pt>國之北疆</a></li><li><a title='連至三三據點' href='https://www.dongyin.gov.tw/Chhtml/content/2565' style=font-size:11pt>三三據點</a></li><li><a title='連至水下博物館' href='https://www.dongyin.gov.tw/Chhtml/content/3956' style=font-size:11pt>水下博物館</a></li><li><a title='連至劉依祥宅' href='https://www.dongyin.gov.tw/Chhtml/content/3957' style=font-size:11pt>劉依祥宅</a></li></ul></li><li><a title='連至商店名錄' href='#' >商店名錄</a><ul id='mm6'><li><a title='連至旅館民宿' href='https://www.dongyin.gov.tw/Chhtml/content/2523' style=font-size:11pt>旅館民宿</a></li><li><a title='連至餐飲小吃' href='https://www.dongyin.gov.tw/Chhtml/content/2524' style=font-size:11pt>餐飲小吃</a></li></ul></li><li><a title='連至訪客留言' href='https://www.dongyin.gov.tw/Chhtml/messagelist/2525' >訪客留言</a><ul id='mm7'></ul></li><li><a title='連至資訊公開' href='#' >資訊公開</a><ul id='mm8'><li><a title='連至資訊公開' href='https://www.dongyin.gov.tw/Chhtml/news/2508' style=font-size:11pt>資訊公開</a></li><li><a title='連至統計資料專區' href='https://www.dongyin.gov.tw/Chhtml/news/2623' style=font-size:11pt>統計資料專區</a></li></ul></li><li><a title='連至東引鄉志' href='#' >東引鄉志</a><ul id='mm9'><li><a title='連至序、目錄及凡例' href='https://www.dongyin.gov.tw/Chhtml/news/6102' style=font-size:11pt>序、目錄及凡例</a></li><li><a title='連至歷史篇' href='https://www.dongyin.gov.tw/Chhtml/news/2534' style=font-size:11pt>歷史篇</a></li><li><a title='連至地理氣候篇' href='https://www.dongyin.gov.tw/Chhtml/news/2535' style=font-size:11pt>地理氣候篇</a></li><li><a title='連至人民篇' href='https://www.dongyin.gov.tw/Chhtml/news/2536' style=font-size:11pt>人民篇</a></li><li><a title='連至政事篇' href='https://www.dongyin.gov.tw/Chhtml/news/2537' style=font-size:11pt>政事篇</a></li><li><a title='連至文教篇' href='https://www.dongyin.gov.tw/Chhtml/news/2538' style=font-size:11pt>文教篇</a></li><li><a title='連至軍事篇' href='https://www.dongyin.gov.tw/Chhtml/news/2539' style=font-size:11pt>軍事篇</a></li><li><a title='連至經濟篇' href='https://www.dongyin.gov.tw/Chhtml/news/2540' style=font-size:11pt>經濟篇</a></li><li><a title='連至風俗信仰篇' href='https://www.dongyin.gov.tw/Chhtml/news/2541' style=font-size:11pt>風俗信仰篇</a></li><li><a title='連至名勝古蹟篇' href='https://www.dongyin.gov.tw/Chhtml/news/2542' style=font-size:11pt>名勝古蹟篇</a></li><li><a title='連至東湧燈塔篇' href='https://www.dongyin.gov.tw/Chhtml/news/6100' style=font-size:11pt>東湧燈塔篇</a></li><li><a title='連至人物篇' href='https://www.dongyin.gov.tw/Chhtml/news/2543' style=font-size:11pt>人物篇</a></li><li><a title='連至藝文篇' href='https://www.dongyin.gov.tw/Chhtml/news/2544' style=font-size:11pt>藝文篇</a></li><li><a title='連至大事記' href='https://www.dongyin.gov.tw/Chhtml/news/6101' style=font-size:11pt>大事記</a></li><li><a title='連至附錄' href='https://www.dongyin.gov.tw/Chhtml/news/2545' style=font-size:11pt>附錄</a></li><li><a title='連至參考書目' href='https://www.dongyin.gov.tw/Chhtml/news/2546' style=font-size:11pt>參考書目</a></li></ul></li><li><a title='連至東引鄉代會' href='#' >東引鄉代會</a><ul id='mm10'><li><a title='連至鄉代會簡介' href='https://www.dongyin.gov.tw/Chhtml/content/2528' style=font-size:11pt>鄉代會簡介</a></li><li><a title='連至鄉民代表介紹' href='https://www.dongyin.gov.tw/Chhtml/content/2529' style=font-size:11pt>鄉民代表介紹</a></li><li><a title='連至議政公告' href='https://www.dongyin.gov.tw/Chhtml/news/2530' style=font-size:11pt>議政公告</a></li><li><a title='連至議事錄' href='https://www.dongyin.gov.tw/Chhtml/news/2531' style=font-size:11pt>議事錄</a></li><li><a title='連至出國考察報告' href='https://www.dongyin.gov.tw/Chhtml/news/2532' style=font-size:11pt>出國考察報告</a></li><li><a title='連至資訊公開' href='https://www.dongyin.gov.tw/Chhtml/news/7145' style=font-size:11pt>資訊公開</a></li></ul></li></ul>
+            </div>
+        </div>
+        <!--內容區-->
+    </div>
+
+    <!--SiteMap區塊尾-->
+    
+<div class="FOOTER">
+    <div class="COM">
+        <div class="LOGO02"><a href="https://www.dongyin.gov.tw/Chhtml/index" title="回首頁">回首頁</a></div>       
+        <div class="INFOR">
+
+            <p class="T05">
+                鄉長信箱：<a href="mailto:dongyin0836@gmail.com" title="開新視窗, 鄉長信箱" style="color:#ffffff">dongyin0836@gmail.com</a>&nbsp;&nbsp;<img src="https://www.dongyin.gov.tw/dongimages/tel.png" alt="tel" title="tel" align='absmiddle' />&nbsp;<a href="tel:083677205" title="電話(0836)76308" style="color:#ffffff">(0836)77205</a>&nbsp;&nbsp;<img src="https://www.dongyin.gov.tw/dongimages/fax.png" alt="fax" align='absmiddle' />&nbsp;<span style="color:#ffffff">(0836)76004</span>
+
+                &nbsp;網頁更新時間：2026-10-19
+                <br />
+                地 址：連江縣(馬祖)東引鄉中柳村121號&nbsp;
+                <a href="https://goo.gl/maps/dPJ7x" title="開新視窗,鄉公所位置圖" target="_blank" style="color:#ffffff">Google map 鄉公所位置圖</a>
+                <br />
+
+                連江縣東引鄉公所 版權所有 Copyright ©2021 dongyin Township Administration,Matsu. All rights reserved
+            </p>
+        </div>
+    </div>
+</div>
+<div id="hid_pos"></div>
+<div id="goTop" tabindex="0">
+    <img src="https://www.dongyin.gov.tw/dongimages/btn_top.png" alt="top" title="top" />
+</div>
+
+</body>
+</html>
+
+
+

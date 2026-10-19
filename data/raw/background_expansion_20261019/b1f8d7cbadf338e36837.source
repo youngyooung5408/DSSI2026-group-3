@@ -1,0 +1,385 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="rights" content="牧迪網頁設計" />
+<meta name="author" content="牧迪網頁設計" />
+<meta name="keywords" content="波新聞, bo6s, Bonews, 衛農勞内,兩岸國際,交通財經,人文休閒,消費旅遊,高雄">
+<meta name="description" content="波新聞秉持傳遞正向訊息、提升正向能量、波動良善之心、
+共同關懷弱勢、讓我們的社會更加祥和與美好。">
+<link rel="shortcut icon" href="favicon.ico?20261019162153">
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script>
+
+
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!--link rel="stylesheet" href="css/swipebox.css"-->
+
+<link rel="stylesheet" href="css/style.css?v=1758598945" >
+<link rel="stylesheet" href="css/bootstrap-edit.css?v=1758128221" > 
+
+     <title>大安文山新氣象｜政治新秀劉品妡勤走市場 接地氣展現服務熱忱 - 波新聞</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="大安文山新氣象｜政治新秀劉品妡勤走市場 接地氣展現服務熱忱">
+    <meta property="og:url" content="https://www.bo6s.com.tw/news_detail.php?NewsID=104737">
+    <meta property="og:description" content="波新聞─范政達／台北市
+
+台北市大安文山區民進黨市議員參選人劉品妡，近日勤於走訪各地傳統市場，與攤商及民眾交流互動，展現年輕世代投身公共服務的熱忱。年僅29歲的劉品妡，雖是首次參選，但她曾任民進黨立委羅美玲辦公室特助、趙怡翔辦公室執行長，嫻熟議會事務，如今接棒趙怡翔參選，責任與壓力皆不小。
+
+劉品妡為宜蘭羅東人，畢業於東吳大學政治學系，並取得英國倫敦大學藝術與文化管理碩士學位。她表示，公共...">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://www.bo6s.com.tw/images/newsimg/small/20251112172227.jpg">
+    <meta property="og:site_name" content="波新聞">
+
+    <!-- Twitter Card Meta Tags (可选) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="大安文山新氣象｜政治新秀劉品妡勤走市場 接地氣展現服務熱忱">
+    <meta name="twitter:description" content="波新聞─范政達／台北市
+
+台北市大安文山區民進黨市議員參選人劉品妡，近日勤於走訪各地傳統市場，與攤商及民眾交流互動，展現年輕世代投身公共服務的熱忱。年僅29歲的劉品妡，雖是首次參選，但她曾任民進黨立委羅美玲辦公室特助、趙怡翔辦公室執行長，嫻熟議會事務，如今接棒趙怡翔參選，責任與壓力皆不小。
+
+劉品妡為宜蘭羅東人，畢業於東吳大學政治學系，並取得英國倫敦大學藝術與文化管理碩士學位。她表示，公共...">
+    <meta name="twitter:image" content="https://www.bo6s.com.tw/images/newsimg/small/20251112172227.jpg">
+</head>
+<body class="navbar_padding">
+    
+<header class="border-bottom fixed-top bg-white shadow-sm">
+    <div class="container py-2 d-flex justify-content-between align-items-start">
+        <!-- 左側 Logo -->
+        <a class="navbar-brand" href="index.php">
+            <img src="../images/logo.png" alt="波新聞" height="50">
+        </a>
+
+        <!-- 右側桌機版 -->
+        <div class="d-none d-lg-flex flex-column align-items-end">
+            <!-- 上行：RSS+日期 + 搜尋 -->
+            <div class="d-flex align-items-center mb-1 small text-muted text-end">
+                                <div>2026/10/19 星期一</div>
+
+                <!-- 搜尋框+會員-->
+                <form class="d-flex ms-3" role="search" action="search.php" method="GET">
+                    <input class="form-control form-control-sm me-2 w-auto" type="search" name="keyword" placeholder="搜尋" aria-label="Search" required>
+                    <button class="btn btn-sm btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+					<!-- 會員圖示 -->
+                <a href="login.php" class="btn btn-secondary btn-sm ms-3" title="登入">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                </form>
+                
+            </div>
+
+            <!-- 下行：nav  -->
+            <div class="d-flex align-items-center">
+                <!-- 桌機 nav -->
+                <nav>
+                    <ul class="navbar-nav d-flex flex-row mb-0">
+                        <li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E4%BA%BA%E6%96%87%E4%BC%91%E9%96%92">人文休閒</a>
+                                  </li><li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E8%A1%9B%E8%BE%B2%E5%8B%9E%E5%85%A7">衛農勞內</a>
+                                  </li><li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E5%85%A9%E5%B2%B8%E5%9C%8B%E9%9A%9B">兩岸國際</a>
+                                  </li><li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E4%BA%A4%E9%80%9A%E8%B2%A1%E7%B6%93">交通財經</a>
+                                  </li><li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E6%B6%88%E8%B2%BB%E6%97%85%E9%81%8A">消費旅遊</a>
+                                  </li><li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E5%B0%88%E9%A1%8C%E5%8D%80">專題區</a>
+                                  </li><li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E5%BD%B1%E9%9F%B3%E5%8D%80">影音區</a>
+                                  </li><li class="nav-item mx-3">
+                                    <a class="nav-link position-relative" href="news_home.php?MidCode=%E6%B4%BB%E5%8B%95%E5%8D%80">活動區</a>
+                                  </li>					<li class="nav-item mx-3">
+						<a class="nav-link position-relative" href="partners.php">合作媒體</a>
+					</li>	
+                    </ul>
+                </nav>
+
+                
+                
+            </div>
+        </div>
+
+        <!-- 手機版漢堡按鈕 -->
+        <button class="btn btn-outline-secondary d-lg-none mt-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- 手機版 Offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="mobileMenuLabel">選單</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- RSS + 日期 -->
+            <div class="small text-muted mb-3 ">
+                2026/10/19 星期一            </div>
+
+            <!-- 搜尋 + 會員圖示 -->
+			<form class="d-flex ms-3 mb-3" role="search" action="search.php" method="GET">
+				<input class="form-control form-control-sm me-2 w-auto" 
+					   type="search" name="keyword" placeholder="搜尋" 
+					   aria-label="Search" required>
+				<button class="btn btn-sm btn-outline-secondary" type="submit">
+					<i class="fas fa-search"></i>
+				</button>
+				<!-- 登入 -->
+				<a href="login.php" class="btn btn-secondary btn-sm ms-2">
+					<i class="fa-solid fa-user"></i>
+				</a>
+			</form>
+             <!-- //搜尋 + 會員圖示 -->  
+            
+
+            <!-- nav 項目 (一行兩個) -->
+            <div class="row g-2">
+                <div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E4%BA%BA%E6%96%87%E4%BC%91%E9%96%92">人文休閒</a>
+                          </div><div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E8%A1%9B%E8%BE%B2%E5%8B%9E%E5%85%A7">衛農勞內</a>
+                          </div><div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E5%85%A9%E5%B2%B8%E5%9C%8B%E9%9A%9B">兩岸國際</a>
+                          </div><div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E4%BA%A4%E9%80%9A%E8%B2%A1%E7%B6%93">交通財經</a>
+                          </div><div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E6%B6%88%E8%B2%BB%E6%97%85%E9%81%8A">消費旅遊</a>
+                          </div><div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E5%B0%88%E9%A1%8C%E5%8D%80">專題區</a>
+                          </div><div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E5%BD%B1%E9%9F%B3%E5%8D%80">影音區</a>
+                          </div><div class="col-6">
+                            <a class="btn btn-outline-secondary w-100" href="news_home.php?MidCode=%E6%B4%BB%E5%8B%95%E5%8D%80">活動區</a>
+                          </div>				<div class="col-6">
+					<a class="btn btn-outline-secondary w-100" href="partners.php">合作媒體</a>
+				</div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+/* 桌機 nav hover 下劃線 */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #252486;
+    transition: width 0.3s;
+}
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+</style>
+<!--=======主要内容 ===================================-->    
+<div class="container my-4">
+    <article class="card shadow-sm px-3 py-4 px-md-5 py-md-5">
+        <div class="news-header">
+            <!-- 新聞標題 -->
+            <h1 class="news-title">大安文山新氣象｜政治新秀劉品妡勤走市場 接地氣展現服務熱忱</h1>
+
+            <!-- 新聞資訊 -->
+            <div class="d-flex flex-wrap justify-content-center text-muted gap-3 pb-2 mb-4 border-bottom">
+                <span><i class="fas fa-tag"></i> 人文休閒</span>
+                <span>
+                    <i class="fas fa-calendar-alt"></i>
+                    <time datetime="2025-11-12T17:22:00">
+                        2025-11-12 17:22                    </time>
+                </span>
+                                <span><i class="fas fa-eye"></i> 瀏覽: 3300</span>
+				
+            </div>
+			<!-- AddToAny BEGIN -->
+			<div class="a2a_kit a2a_kit_size_32 a2a_default_style" style='display: flex; justify-content: right;margin-bottom:2%'>
+			<a class="a2a_button_line"></a>
+			<a class="a2a_button_facebook"></a>	
+			<a class="a2a_button_wechat"></a>
+			<a class="a2a_button_x"></a>	
+			<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+			</div>
+
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+			<!-- AddToAny END -->	
+            <!-- 新聞圖片 -->
+					
+           			<img 
+				src="/images/newsimg/small/20251112172227.jpg" 
+				class="img-fluid rounded my-3"
+				alt="大安文山新氣象｜政治新秀劉品妡勤走市場 接地氣展現服務熱忱"
+				loading="lazy"
+			>
+			
+            <!-- 新聞內容（內文圖片響應式） -->
+   <div class="news-content ">
+    <p>波新聞─范政達／台北市</p>
+
+<p><a href="https://www.facebook.com/liupinhsinn"><strong>台北市大安文山區民進黨市議員參選人劉品妡</strong></a>，近日勤於走訪各地傳統市場，與攤商及民眾交流互動，展現年輕世代投身公共服務的熱忱。年僅29歲的劉品妡，雖是首次參選，但她曾任民進黨立委羅美玲辦公室特助、趙怡翔辦公室執行長，嫻熟議會事務，如今接棒趙怡翔參選，責任與壓力皆不小。</p>
+
+<p><a href="https://linktr.ee/jccatpe"><strong>劉品妡</strong></a>為宜蘭羅東人，畢業於東吳大學政治學系，並取得英國倫敦大學藝術與文化管理碩士學位。她表示，公共服務的核心在於「傾聽民意、解決問題」，即使身為政治新人，也要用行動證明自己能扎實為地方努力。</p>
+
+<p>近期<a href="https://www.facebook.com/liupinhsinn"><strong>劉品妡</strong></a>以「妡工事」為系列主題，連續走訪成功市場、通化市場、安東市場與木新市場，與攤商打招呼、聆聽意見，實地了解市場空間與經營環境現況。她指出，市場是城市生活的縮影，更是地方民情的重要指標，未來若有機會進入議會，將推動市場環境優化、動線改善與友善設施增設，打造「好逛、好吃、好生活」的市場環境。</p>
+
+<p>面對初次參選的挑戰，<a href="https://linktr.ee/jccatpe"><strong>劉品妡</strong></a>坦言壓力不小，但強調自己「不怕艱難、勇於承擔」，希望用行動換取選民信任。她說：「台灣人一直是在逆境中成長的，我也會堅定走在服務的路上。」</p>
+
+<p>黨內人士指出，<a href="https://linktr.ee/jccatpe"><strong>劉品妡</strong></a>雖為新人，但具備良好的學養背景與公共行政經驗，近月來勤走基層、態度謙和，頗獲市場攤商及居民好評，被視為民進黨大安文山區市議員初選的黑馬之一。</p>
+<div class="row g-3 mb-4"><div class="col-12"><img src="images/newsimg/small/104737_1.jpg" class="img-fluid rounded shadow-sm" alt="圖：市民朋友給劉品妡加油、鼓勵，也分享許多寶貴的意見／劉品妡辦公室提供" title="圖：市民朋友給劉品妡加油、鼓勵，也分享許多寶貴的意見／劉品妡辦公室提供"><h6 class="mt-2 mb-2 text-muted">▲圖：市民朋友給劉品妡加油、鼓勵，也分享許多寶貴的意見／劉品妡辦公室提供</h6></div></div><!--yt-->	   
+<!--//yt-->	
+</div>
+
+
+            <!-- 返回按鈕 -->
+            <a href="index.php" class="btn btn-outline-secondary mt-4">
+                <i class="fas fa-arrow-left"></i> 返回上一頁
+            </a>
+        </div>
+    </article>
+
+    <!-- 相關新聞 -->
+        <section class="mt-5">
+        <h2 class="h4 mb-3">相關新聞</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                <a href="news_detail.php?NewsID=117775" class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                                                <img src="images/newsimg/small/20261019144315.jpg" class="card-img-top img-fluid" alt="新竹棒球場50週年交流賽11/1開打　   臺日韓球隊齊聚「竹風再起」" loading="lazy">
+                                                <div class="card-body">
+                            <h3 class="card-title h6">新竹棒球場50週年交流賽11/1開打　   臺日韓球隊齊聚「竹風再起」</h3>
+                            <p class="card-text text-muted mb-0">2026-10-19</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                        <div class="col">
+                <a href="news_detail.php?NewsID=117773" class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                                                <img src="images/newsimg/small/20261019123515.jpg" class="card-img-top img-fluid" alt="昔日「海洋首都」戰友力挺薛兆基　林國慶籲：給為台派奮鬥一生的戰將一個溫暖" loading="lazy">
+                                                <div class="card-body">
+                            <h3 class="card-title h6">昔日「海洋首都」戰友力挺薛兆基　林國慶籲：給為台派奮鬥一生的戰將一個溫暖</h3>
+                            <p class="card-text text-muted mb-0">2026-10-19</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                        <div class="col">
+                <a href="news_detail.php?NewsID=117769" class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                                                <img src="images/newsimg/small/20261019092313.jpg" class="card-img-top img-fluid" alt="臺科大首屆創業黑客松  學生整合水下影像及聲納打造智慧養殖平台奪冠" loading="lazy">
+                                                <div class="card-body">
+                            <h3 class="card-title h6">臺科大首屆創業黑客松  學生整合水下影像及聲納打造智慧養殖平台奪冠</h3>
+                            <p class="card-text text-muted mb-0">2026-10-19</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                    </div>
+    </section>
+    </div>
+
+<!--=======//主要内容 ===================================-->
+<footer class="text-white py-4 mt-5" style="background-color: #006699">
+  <div class="container">
+    <div class="row">
+      <!-- 第一欄 -->
+	   <div class="col-md-3 mb-3 footer-section">
+        <h5 class="fw-bold">聯絡我們</h3>
+        <p><i class="fas fa-phone"></i>&nbsp; 
+          <a href="tel:0939308316" class="text-white">
+            0939308316          </a>
+        </p>
+        <p><i class="fas fa-envelope"></i>&nbsp; 
+          <a href="mailto:ebskh3@yahoo.com.tw" class="text-white">
+            ebskh3@yahoo.com.tw          </a>
+        </p>
+      
+		<div class="d-flex gap-3 social-icons">
+                        <a href="https://www.facebook.com/bo6snews/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        </div>   
+
+      </div>
+	  <!-- 第二欄 -->
+      <div class="col-md-4 mb-3 footer-section">
+                <h5 class="fw-bold">波新聞</h3>
+        <a href="" class="text-white">
+		<div class="qrcode">	
+          <p>波新聞秉持傳遞正向訊息、提升正向能量、波動良善之心、共同關懷弱勢、讓我們的社會更加祥和與美好。</p>
+
+<p>友情鏈接：<a href="https://hot10.tw/" target="_blank">台灣頭條</a></p>		</div>	
+        </a>
+      </div>	
+	   <!-- 第三欄 -->
+      <div class="col-md-5 mb-3 footer-section">
+        <h5 class="fw-bold">美通社</h3>
+		<!-- PR Newswire Widget Code Starts Here -->
+		<div class="pr-news">  
+		<script>var _wsc = document.createElement('script');
+		_wsc.src = "//tools.prnewswire.com/zh-tw/live/17184/widget.js";
+		document.getElementsByTagName('Head')[0].appendChild(_wsc);
+		</script><div id="w17184_widget"></div>
+		 </div>	
+		<!-- PR Newswire Widget Code Ends Here -->
+      </div>		
+    
+
+      
+
+     
+		
+    </div>
+
+    <div class="text-center mt-3 border-top pt-3">
+      <p class="mb-0">Copyright &copy; 2025
+             <a href="admin/admineditconfig.php" class="text-white">
+          波新聞        </a>版權所有 | Design by 
+        <a href="https://mudi.com.tw" class="text-white">Mudi</a>
+		</p>                 
+   <div style="text-align: center; padding: 10px; margin-top: 10px;">本站總訪問量: <strong>60,854,673</strong> 次</div>             
+   
+      
+    </div>
+  </div>
+</footer>
+<!-- 回頂端按鈕 -->
+<a href="#" class="scroll-up"><i class="fa-solid fa-arrow-up"></i></a><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- 載入 jQuery (Bootstrap 5 不含 jQuery，要自己加) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-up').fadeIn();
+        } else {
+            $('.scroll-up').fadeOut();
+        }
+    });
+
+    $('.scroll-up').click(function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, 600);
+    });
+});
+	
+/*手動初始化 carousel，確保左右箭頭有效
+document.addEventListener('DOMContentLoaded', function() {
+    var myCarousel = document.querySelector('#bannerCarousel');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 5000,
+        ride: 'carousel'
+    });
+});	*/
+</script>
+ </body>
+</html>

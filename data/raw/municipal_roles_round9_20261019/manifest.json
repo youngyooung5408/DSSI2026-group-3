@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_name": "莊國輝",
+    "url": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=215",
+    "status": "403",
+    "final_url": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=215",
+    "path": "data/raw/municipal_roles_round9_20261019/6556882ec6ac55681d90.html",
+    "sha256": "027ddae3c619ea334c71cf921f67e0a119822e547f351f40b894d9a37eb12a9e",
+    "retrieval_method": "ordinary_requests_HTTP",
+    "checked_date": "2026-10-19"
+  },
+  {
+    "candidate_name": "宋萬富",
+    "url": "https://penghudaily.blogspot.com/2026/08/blog-post_6298.html",
+    "status": "200",
+    "final_url": "https://penghudaily.blogspot.com/2026/08/blog-post_6298.html",
+    "path": "data/raw/municipal_roles_round9_20261019/82e3fb55c475911e453d.html",
+    "sha256": "ee5eccb74a99bc10078257e62d2a98fc4986eab743c853b7ce5f9debb56ab3e3",
+    "retrieval_method": "ordinary_requests_HTTP",
+    "checked_date": "2026-10-19"
+  },
+  {
+    "candidate_name": "蔡志堅",
+    "url": "https://udn.com/news/story/7324/9246669",
+    "status": "200",
+    "final_url": "https://udn.com/news/story/7324/9246669",
+    "path": "data/raw/municipal_roles_round9_20261019/d56e6a8a8d5ccaf32087.html",
+    "sha256": "e8aa0d5deac638ff4b1be04646df7c2795520e1b2d2c38fe44bca6b5e460be09",
+    "retrieval_method": "ordinary_requests_HTTP",
+    "checked_date": "2026-10-19"
+  }
+]

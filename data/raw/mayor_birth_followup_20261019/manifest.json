@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.cna.com.tw/tag/54498/",
+    "status": "403",
+    "path": "data/raw/mayor_birth_followup_20261019/wen_cna.html",
+    "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "captured_date": "2026-10-19",
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://www.cna.com.tw/tag/54498/"
+  },
+  {
+    "url": "https://www.nownews.com/news/6851218",
+    "status": "403",
+    "path": "data/raw/mayor_birth_followup_20261019/wen_nownews.html",
+    "sha256": "e25c358cf17143a8055b5acf2cf676669b4aac553d128df421d502f01440d8a4",
+    "captured_date": "2026-10-19",
+    "content_type": "text/html",
+    "final_url": "https://www.nownews.com/news/6851218"
+  }
+]

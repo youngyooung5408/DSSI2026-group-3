@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_name": "李振豪",
+    "index_link_id": 59,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/01.txt",
+    "sha256": "53604782ff866b558f1abfd3113c85eb442d0527900666d4b8851c5051bdc630",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/li-zhen-hao",
+    "contains_placeholder": true,
+    "has_substantive_background": false
+  },
+  {
+    "candidate_name": "黃韻涵",
+    "index_link_id": 67,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/02.txt",
+    "sha256": "a4c781c32e4519c4ef10b588df820d7905bb1a46c9d09d51f81fb61932f5a44f",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/huang-yun-han",
+    "contains_placeholder": true,
+    "has_substantive_background": false
+  },
+  {
+    "candidate_name": "陳若翠",
+    "index_link_id": 81,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/03.txt",
+    "sha256": "112f40fd60c335821c9f82e85d1bf523b01653562ead8cad557ab65622767d3b",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/chen-ruo-cui",
+    "contains_placeholder": true,
+    "has_substantive_background": false
+  },
+  {
+    "candidate_name": "童燕珍",
+    "index_link_id": 91,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/04.txt",
+    "sha256": "bc90f2b6672fdfca62b6525175d89f6587b52755bc79edd3b703d8060f293fd7",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/tong-yan-zhen",
+    "contains_placeholder": true,
+    "has_substantive_background": false
+  },
+  {
+    "candidate_name": "黃裕庭",
+    "index_link_id": 95,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/05.txt",
+    "sha256": "410ff727927bf36c12bc505782951ead7cfb91b88b0e1d28e4802249c7f99b26",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/huang-yu-ting",
+    "contains_placeholder": false,
+    "has_substantive_background": true
+  },
+  {
+    "candidate_name": "湯茹婷",
+    "index_link_id": 109,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/06.txt",
+    "sha256": "ac238fc1e68800d9982db5f3490611b9db2504239e8bdf03a6561ae1269f4387",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/tang-ju-ting",
+    "contains_placeholder": false,
+    "has_substantive_background": true
+  },
+  {
+    "candidate_name": "宋紹銘",
+    "index_link_id": 119,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/07.txt",
+    "sha256": "a6968a6f31555c4549d683760deb30c380338543fca2e273c94ba077a89b2dbc",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/song-shao-ming",
+    "contains_placeholder": true,
+    "has_substantive_background": true
+  },
+  {
+    "candidate_name": "葛姵瑩",
+    "index_link_id": 121,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/08.txt",
+    "sha256": "3dc649a66518b36895e1a2a3059808bd39a410b9d99f6d1baec7f07d0ba2c904",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/ge-pei-ying",
+    "contains_placeholder": true,
+    "has_substantive_background": false
+  },
+  {
+    "candidate_name": "陳奕蓁",
+    "index_link_id": 125,
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "path": "data/raw/kmtks_web_20261019/09.txt",
+    "sha256": "148790086000d925b5ec7d43a05a6503ec4fad6f6a63c5ff92b96f45aa9cb453",
+    "checked_date": "2026-10-19",
+    "url": "https://2026.kmtks.org.tw/Council/chen-yi-zhen",
+    "contains_placeholder": true,
+    "has_substantive_background": false
+  }
+]

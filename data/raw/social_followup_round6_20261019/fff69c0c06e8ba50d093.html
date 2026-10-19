@@ -1,0 +1,3433 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>親民黨 劉成謙 新北市 第四選區 (三重、蘆洲)市議員候選人 | 2026 PFP NEXT by 親民黨青年團</title>
+    <meta property="og:image" content="https://youth.pfpnext.com/2026/photo/pfp2026-002.jpg?2"/>
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+
+    <style>
+        * { box-sizing: border-box; }
+        :root {
+            --pfp-orange: #F58220; 
+            --pfp-dark: #231815;
+            --grey-light: #F8F8F8;
+            --grey-border: #E0E0E0;
+        }
+        a { text-decoration: none; }
+        body {
+            font-family: "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            color: var(--pfp-dark);
+            line-height: 1.6;
+        }
+        .nav-bar { padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--grey-border); position: sticky; top: 0; background: white; z-index: 100; }
+        .back-btn { text-decoration: none; color: var(--pfp-dark); font-weight: 900; display: flex; align-items: center; transition: color 0.2s; }
+        .back-btn:hover { color: var(--pfp-orange); }
+        .back-btn::before { content: "←"; margin-right: 8px; }
+        .logo-small img { height: 40px; }
+        .hero-section { display: flex; flex-wrap: wrap; padding: 60px 10%; align-items: center; gap: 50px; background: white; }
+
+        /* Hero 區塊 */
+        .hero-photo {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            aspect-ratio: 1/1;
+            background: var(--pfp-orange);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            box-shadow: 20px 20px 0px var(--grey-light);
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .hero-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .hero-info { flex: 1.5; min-width: 300px; }
+        .hero-info .tag { background: var(--pfp-orange); color: white; padding: 4px 12px; font-weight: bold; display: inline-block; margin-bottom: 15px; }
+        .hero-info h1 { font-size: 4rem; margin: 0; font-weight: 900; line-height: 1; }
+        .hero-info .district { font-size: 1.5rem; font-weight: bold; color: #666; margin-top: 10px; }
+        .hero-info .slogan{ font-size: 1.2rem; color: var(--pfp-orange); font-weight: 900; margin-top: 20px; border-left: 4px solid var(--pfp-orange); padding-left: 15px; }
+        section { padding: 80px 10%; }
+        .section-title { font-size: 2.5rem; font-weight: 900; margin-bottom: 50px; position: relative; }
+        .section-title::after { content: ""; width: 60px; height: 8px; background: var(--pfp-orange); position: absolute; left: 0; bottom: -15px; }
+        .experience-bg { background-color: var(--grey-light); }
+        .exp-grid { display: grid; gap: 20px; }
+        .exp-item { background: white; padding: 25px; display: flex; gap: 20px; border-left: 0px solid var(--pfp-orange); transition: 0.3s; }
+        .exp-item:hover { border-left-width: 10px; padding-left: 15px; }
+        .exp-year { font-weight: 900; color: var(--pfp-orange); min-width: 100px; }
+        .exp-content h3 { margin: 0 0 5px; font-size: 1.2rem; }
+        .exp-content p { margin: 0; color: #666; font-size: 0.95rem; }
+        .platform-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .platform-card { padding: 40px; border: 1px solid var(--grey-border); transition: 0.3s; border-radius: 8px; }
+        .platform-card:hover { background: var(--pfp-dark); color: white; border-color: var(--pfp-dark); }
+        .platform-number { font-size: 3rem; font-weight: 900; color: var(--pfp-orange); margin-bottom: 10px; }
+        .platform-card h3 { font-size: 1.5rem; font-weight: 900; margin-bottom: 15px; }
+
+        /* 政治獻金圓鈕專屬 Hover 顏色 */
+        .hero-social-btn.donation-circle-btn {
+            cursor: pointer;
+            border: none;
+            font-size: 1.2rem;
+        }
+        .hero-social-btn.donation-circle-btn:hover {
+            background-color: var(--pfp-orange);
+            box-shadow: 0 6px 16px rgba(245, 130, 32, 0.3);
+        }
+
+        .hero-social-btn.web-btn:hover {
+            background-color: var(--pfp-orange) !important;
+            color: #ffffff !important;
+            border-color: var(--pfp-orange) !important;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(245, 130, 32, 0.35);
+        }
+        .hero-social-btn.web-btn:hover svg { fill: #ffffff !important; }
+
+        .contact-info-box {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+            opacity: 0;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .contact-info-box.active {
+            max-height: 200px;
+            opacity: 1;
+        }
+        .contact-content-wrapper {
+            background-color: var(--grey-light);
+            border: 1px solid var(--grey-border);
+            border-radius: 12px;
+            padding: 20px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            width:100%;
+        }
+        .contact-text-display {
+            font-size: 0.95rem;
+            color: var(--pfp-dark);
+            font-weight: 500;
+            line-height: 1.6;
+            text-align: left;
+            display: flex;
+            word-break:break-all;
+        }
+        .copy-account-btn {
+            background-color: var(--pfp-dark);
+            color: #ffffff;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            cursor: pointer;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+        .copy-account-btn:hover {
+            background-color: var(--pfp-orange);
+            transform: scale(1.02);
+        }
+        .copy-account-btn.copied {
+            background-color: #06C755 !important;
+        }
+
+        .hero-social-btn.phone-circle-btn {
+            cursor: pointer;
+            border: none;
+            font-size: 1.2rem;
+            background-color: #f0f0f2;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .hero-social-btn.phone-circle-btn:hover {
+            background-color: #007AFF !important;
+            color: #ffffff !important;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 122, 255, 0.3);
+        }
+        .hero-social-btn.address-circle-btn {
+            cursor: pointer;
+            border: none;
+            font-size: 1.2rem;
+        }
+        .hero-social-btn.address-circle-btn:hover {
+            background-color: var(--pfp-orange);
+            box-shadow: 0 6px 16px rgba(245, 130, 32, 0.3);
+        }
+
+        .hero-social-box {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: flex-start; 
+            gap: 15px 12px; 
+            width: 100%;
+            max-width: 100%;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        .hero-social-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            color: var(--pfp-dark);
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid transparent;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            flex-shrink: 0;
+        }
+        .hero-social-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--pfp-dark);
+            transition: fill 0.3s ease;
+        }
+        .hero-social-btn.fb-btn:hover { background-color: #1877F2; color: #ffffff; border-color: #1877F2; transform: translateY(-3px); }
+        .hero-social-btn.fb-btn:hover svg { fill: #ffffff; }
+        .hero-social-btn.line-btn:hover { background-color: #009100; color: #ffffff; border-color: #009100; transform: translateY(-3px); }
+        .hero-social-btn.line-btn:hover svg { fill: #ffffff; }
+        .hero-social-btn.ig-btn:hover { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+        .hero-social-btn.yt-btn:hover { background-color: #FF0000 !important; color: #ffffff !important; border-color: #FF0000 !important; }
+        .hero-social-btn.yt-btn:hover svg { fill: #ffffff !important; }
+
+        .hero-social-btn.threads-btn, .hero-social-btn.tiktok-btn {
+            background-color: #F0F2F5;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            transition: all 0.2s ease;
+            padding: 0 !important;
+        }
+        .hero-social-btn.threads-btn svg, .hero-social-btn.tiktok-btn svg { width: 22px; height: 22px; fill: var(--pfp-dark, #231815); }
+        .hero-social-btn.threads-btn:hover, .hero-social-btn.tiktok-btn:hover { background-color: #000000 !important; transform: translateY(-2px); }
+        .hero-social-btn.threads-btn:hover svg, .hero-social-btn.tiktok-btn:hover svg { fill: #ffffff !important; }
+
+        .feature-tabs-section {
+            padding: 10px 10% 10px;
+            background: #ffffff;
+        }
+        .tabs-nav {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding-bottom: 16px;
+        }
+        .tab-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 14px;
+            background: var(--grey-light);
+            border: 1px solid var(--grey-border);
+            border-radius: 50px;
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--pfp-dark);
+            cursor: pointer;
+            transition: all 0.25s ease;
+            text-decoration: none;
+        }
+        .tab-btn:hover {
+            background: #fff5eb;
+            color: var(--pfp-orange);
+            border-color: var(--pfp-orange);
+            transform: translateY(-2px);
+        }
+        .tab-btn.active {
+            background: var(--pfp-orange);
+            color: #ffffff;
+            border-color: var(--pfp-orange);
+            box-shadow: 0 4px 12px rgba(245, 130, 32, 0.3);
+        }
+        .tab-btn .tab-icon { font-size: 1.15rem; }
+        
+        .story-drawer-box {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, margin-top 0.3s ease;
+            margin-top: 0;
+        }
+        .story-drawer-box.active {
+            max-height: 1200px;
+            opacity: 1;
+            margin-top: 25px;
+        }
+        .story-content-card {
+            background: #fffaf5;
+            border: 1px solid #fed7aa;
+            border-left: 6px solid var(--pfp-orange);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        }
+        .story-content-card h3 {
+            margin: 0 0 15px;
+            font-size: 1.35rem;
+            color: var(--pfp-dark);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .story-body {
+            font-size: 1.02rem;
+            line-height: 1.85;
+            color: #4b5563;
+        }
+
+        /* 🌟 RWD 優化版：政見許願池專屬 CTA 區塊 🌟 */
+        .platform-wish-cta-box {
+            margin-top: 45px;
+            padding: 28px 20px;
+            background: linear-gradient(135deg, #fffaf5 0%, #ffffff 100%);
+            border: 1.5px dashed #fed7aa;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 6px 20px rgba(245, 130, 32, 0.05);
+            max-width: 820px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .platform-wish-cta-desc {
+            display: block !important;
+            font-size: 1.05rem;
+            color: #475569;
+            font-weight: 600;
+            margin-bottom: 18px;
+            line-height: 1.7;
+            letter-spacing: 0.3px;
+        }
+
+        .platform-wish-cta-desc b {
+            color: var(--pfp-orange);
+            font-weight: 800;
+            padding: 0 2px;
+        }
+
+        .btn-platform-wish {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #ff9800 0%, var(--pfp-orange) 100%);
+            color: #ffffff !important;
+            font-size: 1.15rem;
+            font-weight: 800;
+            padding: 14px 38px;
+            border-radius: 50px;
+            box-shadow: 0 6px 18px rgba(245, 130, 32, 0.35);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            letter-spacing: 0.5px;
+            max-width: 100%;
+        }
+
+        .btn-platform-wish:hover {
+            background: linear-gradient(135deg, #ffa726 0%, #e65100 100%);
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 24px rgba(245, 130, 32, 0.5);
+            color: #ffffff !important;
+        }
+
+        .btn-platform-wish .arrow-icon {
+            transition: transform 0.2s ease;
+        }
+        .btn-platform-wish:hover .arrow-icon {
+            transform: translateX(4px);
+        }
+
+        /* 📱 手機版專屬極致 RWD 樣式 */
+        @media (max-width: 768px) {
+            section {
+                padding: 40px 5%;
+            }
+            .feature-tabs-section {
+                padding: 10px 5% 10px;
+            }
+            .hero-section {
+                padding: 40px 5%;
+                gap: 30px;
+            }
+            .hero-info h1 {
+                font-size: 2.8rem;
+            }
+            .platform-wish-cta-box {
+                padding: 22px 14px;
+                margin-top: 30px;
+                border-radius: 14px;
+            }
+            .platform-wish-cta-desc {
+                font-size: 0.95rem;
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+            .btn-platform-wish {
+                width: 100%;
+                font-size: 1.02rem;
+                padding: 12px 15px;
+                box-sizing: border-box;
+            }
+            .contact-content-wrapper {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+            .copy-account-btn {
+                width: 100%;
+                justify-content: center;
+            }
+            .contact-info-box {
+                margin: 0 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <a href="index.php" class="back-btn">返回名單</a>
+        <div class="logo-small"><a href="https://youth.pfpnext.com" target="_blank">PFP Youth</a></div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-photo">
+            <img src="photo/pfp2026-002.jpg?2" alt="劉成謙">
+        </div>
+        <div class="hero-info">
+            <div class="tag">親民黨</div>
+            <h1>劉成謙</h1>
+            <div class="district">新北市 第四選區 (三重、蘆洲) ｜ <span style="display:inline-block;">市議員候選人</span></div>
+            <div class="slogan">8年倡議經驗 交通改革首選。</div>
+
+            <!--政治獻金專戶-->
+
+<!-- ⭕ 透過 flex 讓兩顆大按鈕在同一橫排並排，並維持 RWD 行動端防破版自動換行 -->
+<div class="donation-btn-group" style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
+    
+    <!-- 1. 原本的大圖燈箱按鈕 -->
+    <button type="button" class="donation-btn" onclick="openCashModal()">
+        🪙 政治獻金專戶
+    </button>
+
+    <!-- 2. 🔥 新增：線上捐款按鈕（只有當後台有填 account_link 時才顯示） -->
+            <a href="https://donate.newebpay.com/LIOUCHENGCHIEN/2026" target="_blank" class="donation-btn online-donation-btn" style="text-decoration: none;">
+            💳 線上捐款通道
+        </a>
+        
+</div>
+
+
+
+    <div id="cashModal" class="cash-modal" onclick="closeCashModal(event)">
+        <span class="cash-close" onclick="forceCloseCashModal()">&times;</span>
+        
+        <div class="cash-img-container">
+            <img id="cashImg" src="account/S__103030814.jpg" alt="政治獻金專戶資訊" onclick="event.stopPropagation()">
+        </div>
+
+        <div class="cash-controls" onclick="event.stopPropagation()">
+            <button onclick="zoomCash(0.2)">＋</button>
+            <button onclick="zoomCash(-0.2)">－</button>
+        </div>
+    </div>
+
+
+
+<style>
+/* 政治獻金按鈕樣式 */
+        .donation-btn {
+            background-color: #fff;
+            color: var(--pfp-orange);
+            border: 2px solid var(--pfp-orange);
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: 900;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 10px rgba(245, 130, 32, 0.1);
+        }
+        .donation-btn:hover {
+            background-color: var(--pfp-orange);
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(245, 130, 32, 0.2);
+        }
+
+        /* Lightbox 黑色背景遮罩 */
+        .cash-modal {
+            display: none;
+            position: fixed;
+            z-index: 2000; /* 確保高於導覽列 */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            touch-action: none; /* 停用瀏覽器預設滾動，交由 JS 處理縮放 */
+        }
+
+        /* 圖片容器：允許平移溢出 */
+        .cash-img-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: grab;
+        }
+        .cash-img-container:active { cursor: grabbing; }
+
+        /* 圖片本體：支援硬體加速過渡 */
+        .cash-img-container img {
+            max-width: 90%;
+            max-height: 85%;
+            object-fit: contain;
+            user-select: none;
+            -webkit-user-drag: none;
+            transform: translate(0px, 0px) scale(1);
+            transition: transform 0.1s ease-out;
+        }
+
+        /* 右上角關閉按鈕 */
+        .cash-close {
+            position: absolute;
+            right: 25px;
+            top: 20px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            z-index: 2100;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0,0,0,0.3);
+            border-radius: 50%;
+        }
+        .cash-close:hover { color: var(--pfp-orange); }
+
+        /* 右下角 +/- 縮放按鈕面板 */
+        .cash-controls {
+            position: absolute;
+            left: 25px;
+            bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 2100;
+        }
+        .cash-controls button {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: var(--pfp-dark);
+            border: none;
+            border-radius: 50%;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.1s, background-color 0.2s;
+        }
+        .cash-controls button:not(:disabled):active { transform: scale(0.9); }
+        .cash-controls button:hover { background-color: #fff; color: var(--pfp-orange); }
+
+/* 🔥 新增：線上捐款按鈕的實色大氣外觀 */
+.donation-btn.online-donation-btn {
+    background-color: var(--pfp-orange) !important; /* 滿版親民黨橘色 */
+    color: #ffffff !important; /* 文字純白 */
+    border: 2px solid var(--pfp-orange);
+}
+
+.donation-btn.online-donation-btn:hover {
+    background-color: var(--pfp-dark) !important; /* 移入時沉穩轉深色 */
+    border-color: var(--pfp-dark) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(35, 24, 21, 0.25);
+}
+
+/* 📱 手機端響應式防線 */
+@media (max-width: 480px) {
+    .donation-btn-group {
+        flex-direction: column; /* 手機上空間不足時改為上下疊放 */
+        align-items: stretch !important;
+    }
+    .donation-btn {
+        width: 100%; /* 兩顆大按鈕在手機上都自動滿版更好按 */
+        justify-content: center;
+    }
+}
+
+</style>
+
+<script>
+/* --- 政治獻金 Lightbox 進階互動邏輯 --- */
+let currentScale = 1;
+let currentX = 0;
+let currentY = 0;
+let isDragging = false;
+let startX = 0, startY = 0;
+let initialPinchDistance = null;
+
+const cashModal = document.getElementById('cashModal');
+const cashImg = document.getElementById('cashImg');
+const cashImgContainer = document.querySelector('.cash-img-container');
+
+function openCashModal() {
+    currentScale = 1;
+    currentX = 0;
+    currentY = 0;
+    updateTransform();
+    cashModal.style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // 鎖定底層背景滾動
+    
+    // 綁定手勢與拖曳事件
+    bindCashEvents();
+}
+
+function updateTransform() {
+    // 限制縮放範圍在 0.8 倍到 4 倍之間
+    if (currentScale < 0.8) currentScale = 0.8;
+    if (currentScale > 4) currentScale = 4;
+    cashImg.style.transform = `translate(${currentX}px, ${currentY}px) scale(${currentScale})`;
+}
+
+// 右下角 +/- 按鈕縮放
+function zoomCash(amount) {
+    currentScale += amount;
+    updateTransform();
+}
+
+// 點擊黑色背景關閉
+function closeCashModal(e) {
+    if (e.target === cashModal || e.target === cashImgContainer) {
+        forceCloseCashModal();
+    }
+}
+
+function forceCloseCashModal() {
+    cashModal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // 恢復背景滾動
+    unbindCashEvents();
+}
+
+// 處理拖曳與雙指觸控縮放的核心邏輯
+function handleStart(e) {
+    const touchCount = e.touches ? e.touches.length : 1;
+    if (touchCount === 2) {
+        // 雙指觸控開始
+        initialPinchDistance = Math.hypot(
+            e.touches[0].pageX - e.touches[1].pageX,
+            e.touches[0].pageY - e.touches[1].pageY
+        );
+    } else {
+        // 單指或滑鼠拖曳開始
+        isDragging = true;
+        const pageX = e.touches ? e.touches[0].pageX : e.pageX;
+        const pageY = e.touches ? e.touches[0].pageY : e.pageY;
+        startX = pageX - currentX;
+        startY = pageY - currentY;
+    }
+}
+
+function handleMove(e) {
+    if (e.touches && e.touches.length === 2) {
+        // 雙指動態縮放
+        if (!initialPinchDistance) return;
+        const currentDistance = Math.hypot(
+            e.touches[0].pageX - e.touches[1].pageX,
+            e.touches[0].pageY - e.touches[1].pageY
+        );
+        const factor = currentDistance / initialPinchDistance;
+        currentScale = currentScale * factor;
+        initialPinchDistance = currentDistance;
+        updateTransform();
+    } else if (isDragging) {
+        // 單指或滑鼠動態平移拖曳
+        e.preventDefault();
+        const pageX = e.touches ? e.touches[0].pageX : e.pageX;
+        const pageY = e.touches ? e.touches[0].pageY : e.pageY;
+        currentX = pageX - startX;
+        currentY = pageY - startY;
+        updateTransform();
+    }
+}
+
+function handleEnd() {
+    isDragging = false;
+    initialPinchDistance = null;
+}
+
+function bindCashEvents() {
+    // 滑鼠事件
+    cashImgContainer.addEventListener('mousedown', handleStart);
+    window.addEventListener('mousemove', handleMove);
+    window.addEventListener('mouseup', handleEnd);
+    
+    // 手機觸控事件
+    cashImgContainer.addEventListener('touchstart', handleStart, { passive: false });
+    cashImgContainer.addEventListener('touchmove', handleMove, { passive: false });
+    cashImgContainer.addEventListener('touchend', handleEnd);
+}
+
+function unbindCashEvents() {
+    cashImgContainer.removeEventListener('mousedown', handleStart);
+    window.removeEventListener('mousemove', handleMove);
+    window.removeEventListener('mouseup', handleEnd);
+    
+    cashImgContainer.removeEventListener('touchstart', handleStart);
+    cashImgContainer.removeEventListener('touchmove', handleMove);
+    cashImgContainer.removeEventListener('touchend', handleEnd);
+}
+</script>
+<!--政治獻金專戶-->
+            <!-- ==================== 區塊 B：社群與純文字複製區 (_contact.php) ==================== -->
+    
+    <!-- 1. 純圓形按鈕並排區（Flex 佈局，裡面絕對不塞任何大盒子） -->
+    <div class="hero-social-box">
+
+        <!-- 🌐 官方網站按鈕 (新增) -->
+        
+                    <a href="https://www.facebook.com/LIOUCHENGCHIEN" target="_blank" class="hero-social-btn fb-btn" title="前往 Facebook" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+        
+                    <a href="https://www.instagram.com/liouchengchien2026" target="_blank" class="hero-social-btn ig-btn" title="前往 Instagram" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+        
+        
+                    <a href="https://www.youtube.com/@liouchengchien" target="_blank" class="hero-social-btn yt-btn" title="前往 YouTube 官方頻道" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.508 9.388.508 9.388.508s7.517 0 9.388-.508a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.933-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+            </a>
+        
+         
+
+        
+        <!-- 🪙 政治獻金帳號抽屜按鈕 -->
+                    <button type="button" class="hero-social-btn donation-circle-btn" onclick="toggleDonationBox()" title="顯示政治獻金帳號">
+                🪙
+            </button>
+        
+        <!-- 📞 聯絡電話抽屜按鈕 -->
+        
+        <!-- 📍 服務處地址抽屜按鈕 -->
+                    <button type="button" class="hero-social-btn address-circle-btn" onclick="toggleAddressBox()" title="顯示服務處地址">
+                📍
+            </button>
+        
+    </div>
+       
+	    <!-- 🌟 核心按鈕：小桔 AI 推薦報導 (需經 LINE 身分確認) 🌟 -->
+<div style="margin-top: 15px; margin-bottom: 15px;">
+    <button type="button" class="btn-ai-promo-trigger" onclick="handleAiPromoClick('pfp2026-002')">
+        <span class="ai-spark">✨</span>
+        <span>🍊 小桔 AI 推薦新聞專題</span>
+        <span class="ai-badge-hot">深度好文</span>
+    </button>
+</div>
+
+<!-- 🌟 AI 新聞報導閱讀燈箱 🌟 -->
+<div id="aiPromoModal" class="ai-promo-modal" onclick="closeAiPromoModal(event)">
+    <div class="ai-promo-modal-content" onclick="event.stopPropagation()">
+        <span class="ai-promo-close" onclick="closeAiPromoModalDirect()">&times;</span>
+        
+        <div class="ai-news-header">
+            <span class="ai-news-badge">🍊 小桔 AI 特派報導</span>
+            <span class="ai-news-time" id="aiNewsDate">即時連線</span>
+            
+            <!-- 🌟 真正連線成功綠燈顯示區 🌟 -->
+            <div id="aiLiveStatusBadge" class="ai-live-badge" style="display:none;">
+                <span class="ai-green-dot"></span>
+                <span id="aiLiveModelText">Gemini 3.6 Flash 即時連線出稿</span>
+            </div>
+        </div>
+
+        <h2 class="ai-news-title" id="aiNewsTitle">
+            <div class="ai-skeleton-bar"></div>
+        </h2>
+
+        <div class="ai-news-body" id="aiNewsBody">
+            <p style="text-align:center; padding: 30px 0; color:#c2410c;">
+                ⚡ 小桔 AI 正在彙整候選人政見，撰寫深度新聞專題中，請稍候...
+            </p>
+        </div>
+
+        <div class="ai-news-footer" id="aiNewsFooter" style="display:none;">
+            <button type="button" class="btn-news-copy" onclick="copyAiNewsText()">📋 複製新聞全文</button>
+            <button type="button" class="btn-news-regen" id="btnNewsRegen" onclick="handleAiPromoClick('pfp2026-002', true)">
+                🔄 換個觀點重新生成
+            </button>
+            <a id="btnNewsLine" href="#" target="_blank" class="btn-news-share btn-news-line">💬 轉發 LINE</a>
+            <a id="btnNewsThreads" href="#" target="_blank" class="btn-news-share btn-news-threads">🧵 Threads</a>
+            <a id="btnNewsOpenPage" href="#" target="_blank" class="btn-news-share btn-news-page">🔗 開啟專頁 ↗</a>
+
+            <!-- 🌟 全台報導庫按鈕 -->
+            <a href="https://youth.pfpnext.com/2026/ai-news-list.php" class="btn-news-share btn-news-action btn-list-all" style="background:#475569; color:#ffffff; text-decoration:none;">📰 全台報導庫</a>
+        </div>
+    </div>
+</div>
+
+<style>
+.btn-ai-promo-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    color: #c2410c !important;
+    border: 1.5px solid #fdba74;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-size: 0.98rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 3px 12px rgba(234, 88, 12, 0.12);
+    transition: all 0.25s ease;
+}
+.btn-ai-promo-trigger:hover {
+    background: linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(234, 88, 12, 0.25);
+    border-color: #f97316;
+}
+.ai-badge-hot {
+    background: #ea580c;
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-weight: 800;
+}
+.ai-spark { animation: aiSpin 3s infinite linear; }
+@keyframes aiSpin { 0% { transform: scale(1); } 50% { transform: scale(1.25); } 100% { transform: scale(1); } }
+
+.ai-promo-modal {
+    display: none;
+    position: fixed;
+    z-index: 3500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.ai-promo-modal-content {
+    background: #ffffff;
+    width: 100%;
+    max-width: 680px;
+    max-height: 85vh;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+    padding: 28px 24px;
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.ai-promo-close {
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #94a3b8;
+    cursor: pointer;
+    line-height: 1;
+}
+.ai-promo-close:hover { color: #0f172a; }
+.ai-news-header { 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    margin-bottom: 12px; 
+    flex-wrap: wrap; 
+}
+.ai-news-badge { 
+    background: #fff7ed; 
+    color: #ea580c; 
+    border: 1px solid #fed7aa; 
+    padding: 2px 8px; 
+    border-radius: 12px; 
+    font-size: 0.75rem; 
+    font-weight: 800; 
+}
+.ai-news-time { font-size: 0.75rem; color: #94a3b8; }
+
+/* 🌟 呼吸微光綠燈標籤樣式 */
+.ai-live-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    color: #065f46;
+    padding: 2px 9px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+.ai-green-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #10b981;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    animation: aiPulseGreen 1.8s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+@keyframes aiPulseGreen {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+.ai-news-title { font-size: 1.45rem; font-weight: 900; color: #0f172a; line-height: 1.4; margin-bottom: 16px; }
+.ai-news-body { font-size: 0.98rem; line-height: 1.8; color: #334155; white-space: pre-wrap; margin-bottom: 20px; }
+.ai-news-footer { display: flex; gap: 8px; flex-wrap: wrap; border-top: 1px dashed #e2e8f0; padding-top: 14px; }
+.btn-news-copy { background: #f8fafc; border: 1px solid #cbd5e1; color: #334155; padding: 7px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; cursor: pointer; }
+.btn-news-regen { background: #fff7ed; border: 1px solid #fdba74; color: #c2410c; padding: 7px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+.btn-news-regen:hover { background: #ea580c; color: #ffffff; border-color: #ea580c; }
+.btn-news-share { text-decoration: none !important; font-size: 0.8rem; font-weight: 700; padding: 7px 14px; border-radius: 20px; color: #fff !important; }
+.btn-news-line { background: #06C755; }
+.btn-news-threads { background: #000000; }
+.btn-news-page { background: #ea580c; }
+</style>
+
+<script>
+let currentArticleData = null;
+let currentCandidateIdTarget = null;
+let loginPopupInstance = null;
+
+async function handleAiPromoClick(candidateId, isRegen = false) {
+    currentCandidateIdTarget = candidateId;
+
+    const modal = document.getElementById('aiPromoModal');
+    const titleBox = document.getElementById('aiNewsTitle');
+    const bodyBox = document.getElementById('aiNewsBody');
+    const footer = document.getElementById('aiNewsFooter');
+    const liveBadge = document.getElementById('aiLiveStatusBadge');
+    
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    
+    // 初始隱藏綠燈
+    if (liveBadge) liveBadge.style.display = 'none';
+
+    titleBox.innerText = isRegen ? '正在切換新聞視角重新撰寫...' : '新聞生成中...';
+    bodyBox.innerHTML = '<p style="text-align:center; padding: 30px 0; color:#c2410c;">⚡ 小桔 AI 正在調閱候選人歷練與政見，撰寫深度報導中，請稍候約 3~5 秒...</p>';
+    footer.style.display = 'none';
+
+    try {
+        const res = await fetch('api-candidate-promo.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ candidate_id: candidateId })
+        });
+        const data = await res.json();
+
+        // 🌟 未登入 LINE：獨立彈窗登入，原視窗保留並即時感測
+        if (data.status === 'need_login') {
+            closeAiPromoModalDirect();
+            if (confirm(data.message + '\n\n點擊「確定」將另開小視窗完成 LINE 志工驗證（完成後本頁面將自動接續出稿）！')) {
+                openLineAuthWindow(data.line_login_url, candidateId);
+            }
+            return;
+        }
+
+        if (data.status === 'success') {
+            currentArticleData = data;
+            titleBox.innerText = data.title;
+            bodyBox.innerText = data.content;
+            footer.style.display = 'flex';
+
+            // 🌟 核心：若為真正的 Gemini 呼叫，點亮綠燈！
+            if (liveBadge) {
+                if (data.is_live_ai) {
+                    const modelLabel = document.getElementById('aiLiveModelText');
+                    if (modelLabel && data.model_name) {
+                        modelLabel.innerText = data.model_name + ' 即時連線出稿';
+                    }
+                    liveBadge.style.display = 'inline-flex';
+                } else {
+                    liveBadge.style.display = 'none';
+                }
+            }
+
+            const shareUrl = window.location.origin + '/2026/ai-article.php?id=' + data.article_id;
+            const shareTitle = '【小桔AI特派報導】' + data.title;
+
+            document.getElementById('btnNewsLine').href = 'https://line.me/R/share?text=' + encodeURIComponent(shareTitle + '\n' + shareUrl);
+            document.getElementById('btnNewsThreads').href = 'https://www.threads.net/intent/post?text=' + encodeURIComponent(shareTitle + ' ' + shareUrl);
+            document.getElementById('btnNewsOpenPage').href = shareUrl;
+        } else {
+            bodyBox.innerHTML = '<p style="color:#b91c1c; padding:20px; text-align:center;">⚠️ ' + (data.message || '小桔 AI 暫時無法生成報導，請稍後再試。') + '</p>';
+            footer.style.display = 'flex';
+        }
+    } catch (err) {
+        bodyBox.innerHTML = '<p style="color:#b91c1c; padding:20px; text-align:center;">⚠️ 連線異常，請重新整理後再試！</p>';
+        footer.style.display = 'flex';
+    }
+}
+
+// 開啟 LINE 彈跳小視窗登入
+function openLineAuthWindow(url, candidateId) {
+    const w = 480, h = 650;
+    const left = (window.screen.width - w) / 2;
+    const top = (window.screen.height - h) / 2;
+
+    loginPopupInstance = window.open(
+        url,
+        'LineAuthPopup',
+        'width=' + w + ',height=' + h + ',top=' + top + ',left=' + left + ',status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes'
+    );
+
+    if (loginPopupInstance) {
+        loginPopupInstance.focus();
+    } else {
+        window.open(url, '_blank');
+    }
+
+    // 關閉檢測備援
+    const timer = setInterval(() => {
+        if (!loginPopupInstance || loginPopupInstance.closed) {
+            clearInterval(timer);
+            if (currentCandidateIdTarget) {
+                const targetId = currentCandidateIdTarget;
+                setTimeout(() => { handleAiPromoClick(targetId); }, 500);
+            }
+        }
+    }, 700);
+}
+
+// 監聽彈窗登入成功通知
+window.addEventListener('message', (e) => {
+    if (e.data && e.data.type === 'LINE_LOGIN_SUCCESS') {
+        if (loginPopupInstance && !loginPopupInstance.closed) {
+            loginPopupInstance.close();
+        }
+        if (currentCandidateIdTarget) {
+            const targetId = currentCandidateIdTarget;
+            handleAiPromoClick(targetId);
+        }
+    }
+});
+
+function copyAiNewsText() {
+    if (!currentArticleData) return;
+    const shareUrl = window.location.origin + '/2026/ai-article.php?id=' + currentArticleData.article_id;
+    const fullText = currentArticleData.title + '\n\n' + currentArticleData.content + '\n\n👉 新聞來源：' + shareUrl;
+    
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(fullText).then(() => {
+            alert('✔️ 新聞全文與連結已複製，可直接貼上 LINE 群組或社群！');
+        });
+    } else {
+        prompt('請複製新聞全文：', fullText);
+    }
+}
+
+function closeAiPromoModal(e) {
+    if (e.target === document.getElementById('aiPromoModal')) {
+        closeAiPromoModalDirect();
+    }
+}
+
+function closeAiPromoModalDirect() {
+    document.getElementById('aiPromoModal').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('auto_gen_ai') === '1') {
+        const candId = "pfp2026-002";
+        if (candId) handleAiPromoClick(candId);
+    }
+});
+</script> 
+        </div>
+
+        <!--純文字資訊抽屜區-->
+            <div id="donation-info-box" class="contact-info-box" style="display: none; max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.35s ease, opacity 0.25s ease; width: 100%; margin-top: 0;">
+        <div class="contact-content-wrapper">
+            <div class="contact-text-display">
+                戶名：115年新北市議員擬參選人劉成謙政治獻金專戶<br />
+銀行：(700) 三重中正路郵局<br />
+帳號：2441069-0264309<br />
+劉成謙政治獻金資料表單： https://docs.google.com/forms/d/1-pxhAgpFODgd5CDxwzxPy15ys2upCR2QO1plRAN46R4/viewform?edit_requested=true            </div>
+                        <button type="button" class="copy-account-btn" onclick="copyToClipboard('戶名：115年新北市議員擬參選人劉成謙政治獻金專戶\n銀行：(700) 三重中正路郵局\n帳號：2441069-0264309\n劉成謙政治獻金資料表單： https:\/\/docs.google.com\/forms\/d\/1-pxhAgpFODgd5CDxwzxPy15ys2upCR2QO1plRAN46R4\/viewform?edit_requested=true', this)">
+                <span class="btn-icon">📋</span> <span class="btn-text">複製</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- 引入 RWD 專屬樣式（如果可以，放到全域 CSS 更佳；放這也能直接生效） -->
+    <style>
+        .contact-address-header {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            gap: 15px; 
+            width: 100%;
+        }
+        
+        /* 📱 針對窄螢幕（手機版 480px 以下）的優化防線 */
+        @media (max-width: 480px) {
+            .contact-address-header {
+                flex-direction: column;  /* 轉為上下排 */
+                align-items: flex-start; /* 靠左對齊 */
+                gap: 12px;
+            }
+            .contact-address-header .copy-account-btn {
+                width: 100%;             /* 按鈕滿版，手機更好點擊 */
+                justify-content: center; /* 文字居中 */
+            }
+        }
+    </style>
+
+    <div id="address-info-box" class="contact-info-box" style="display: none; max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.35s ease, opacity 0.25s ease; width: 100%; margin-top: 0;">
+        <div class="contact-content-wrapper" style="flex-direction: column; align-items: stretch; gap: 12px;">
+            
+            <!-- 將原本的行內樣式抽離，改用 contact-address-header 類別控制 -->
+            <div class="contact-address-header">
+                <div class="contact-text-display">
+                    <div style="display:inline-block;font-weight:900;">服務處：</div>
+                    <div style="display:inline-block;">241新北市三重區仁慈街7號</div>
+                </div>
+                                <button type="button" class="copy-account-btn" onclick="copyToClipboard('241新北市三重區仁慈街7號', this)">
+                    <span class="btn-icon">📋</span> <span class="btn-text">複製地址</span>
+                </button>
+            </div>
+            
+            <!-- 地圖保持 100% 滿版即可 -->
+            <div class="map-container" style="width: 100%; height: 250px; border-radius: 8px; overflow: hidden; border: 1px solid var(--grey-border);">
+                <iframe width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=241%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E9%87%8D%E5%8D%80%E4%BB%81%E6%85%88%E8%A1%977%E8%99%9F&t=&z=16&ie=UTF-8&iwloc=B&output=embed">
+                </iframe>
+            </div>
+        </div>
+    </div>
+        <!--純文字資訊抽屜區 end-->
+
+    </header>
+
+    <!-- 參選理念展開 與 提名新聞稿外連頁籤 -->
+    <div class="feature-tabs-section">
+        <div class="tabs-nav">
+                        <!-- 1. 參選理念頁籤 (點擊展開) -->
+            <button type="button" class="tab-btn" id="storyTabBtn" onclick="toggleStoryDrawer()">
+                <span class="tab-icon">📖</span> 參選理念 <span id="storyArrow">▼</span>
+            </button>
+            
+            <!-- 2. 提名新聞稿頁籤 (點擊另開網頁) -->
+                            <a href="https://www.pfp.org.tw/tw/News/ugC_News_Detail.asp?hidNewsCatID=4&amp;hidNewsID=3249" target="_blank" class="tab-btn" rel="noopener noreferrer">
+                    <span class="tab-icon">📰</span> 提名新聞稿 ↗
+                </a>
+                    </div>
+
+        <!-- 參選理念 (story) 展開內容盒 -->
+        <div class="story-drawer-box" id="storyDrawer">
+            <div class="story-content-card">
+                <h3>💡 參選初衷與核心理念</h3>
+                <div class="story-body">
+                    我是劉成謙，自幼生長在三重，求學期間亦曾追尋自己人生理想與目標，直至發覺親民黨的價值符合我對台灣社會的想像，遂而投入其中。2020年起我與一些親民黨的朋友共同參與志工工作，影響了我堅持支持親民黨的決心。<br />
+<br />
+過去幾年我投身於社會倡議的過程，積極希望改變勞工與市民的生活環境，尤其是「交通」尤為重要，這是每一個人參與社會的途徑，我希望能夠讓交通更友善，更具效率與安全；這些與親民黨主張的「務實、民生、效能」價值不謀而合。<br />
+<br />
+如近期淡江大橋的爭議，三重蘆洲，正處新北市大溪北地區轉運至台北市的樞紐，有眾多的聯外橋樑，而這些機車道建設對市井小民的生活實為苛刻，我都看在眼裡。關注親民黨價值，除了在交通上，我也發現新北市對於青年宜居的幫忙仍有許多缺漏的地方。<br />
+<br />
+因此，成謙很感謝親民黨提供這樣的機會來提名我；成謙必然會遵循親民黨的核心價值，積極爭取大台北「共同的未來。」<br />
+<br />
+成謙政策目標：交通改革實踐、更多社會住宅、更多青年補貼、更多在地創業。                </div>
+            </div>
+        </div>
+    </div>
+
+<section class="experience-bg">
+    <h2 class="section-title">主要經歷</h2>
+    <div class="exp-grid">
+                    <div class="exp-item ">
+                                    <div class="exp-year">現任</div>
+                                
+                <div class="exp-content">
+                    <h3>親民黨青年團副團長</h3>
+                                    </div>
+            </div>
+                    <div class="exp-item ">
+                                    <div class="exp-year">現任</div>
+                                
+                <div class="exp-content">
+                    <h3>社團法人台灣機車路權促進會秘書長、創會理事</h3>
+                                    </div>
+            </div>
+                    <div class="exp-item ">
+                                    <div class="exp-year">現任</div>
+                                
+                <div class="exp-content">
+                    <h3>社團法人行人零死亡推動聯盟理事</h3>
+                                    </div>
+            </div>
+                    <div class="exp-item ">
+                                    <div class="exp-year">現任</div>
+                                
+                <div class="exp-content">
+                    <h3>士林高商校友會第10～12屆監事</h3>
+                                    </div>
+            </div>
+                    <div class="exp-item ">
+                                    <div class="exp-year">曾任</div>
+                                
+                <div class="exp-content">
+                    <h3>郭台銘三重連署4站站長</h3>
+                                    </div>
+            </div>
+                    <div class="exp-item ">
+                                    <div class="exp-year">曾任</div>
+                                
+                <div class="exp-content">
+                    <h3>台北大學第3.4屆學生議員、第5屆學生會副會長</h3>
+                                    </div>
+            </div>
+            </div>
+</section>
+
+<style>
+.exp-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.exp-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    text-align: left;
+}
+
+.exp-year {
+    flex-shrink: 0;
+    width: 100px;
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: var(--main-orange, #F58220);
+}
+
+.exp-content {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.exp-content h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.2rem;
+    color: #1A1D20;
+}
+
+.exp-content p {
+    margin: 0;
+    color: #6C757D;
+    line-height: 1.6;
+}
+
+.exp-item.no-year {
+    padding-left: 24px; 
+}
+</style>
+
+    <section>
+        <h2 class="section-title">核心政見</h2>
+        <div class="platform-grid">
+                            <div class="platform-card">
+                    <div class="platform-number">01</div>
+                    <h3>交通改革實踐</h3>
+                    <p><p>推動更友善、安全且具效率的交通環境，確保每位市民參與社會的權利。</p><p>重新檢視並改善三重、蘆洲等大溪北地區聯外橋樑（如淡江大橋及相關機車道）的建設，免除對市井小民苛刻的出行限制。</p></p>
+                </div>
+                            <div class="platform-card">
+                    <div class="platform-number">02</div>
+                    <h3>更多社會住宅</h3>
+                    <p>積極爭取並興建更多社會住宅，縮補新北市對青年宜居政策的缺漏，落實居住正義。</p>
+                </div>
+                            <div class="platform-card">
+                    <div class="platform-number">03</div>
+                    <h3>更多青年補貼</h3>
+                    <p>規劃多元的青年補貼政策，降低年輕世代的生活負擔，打造更實質的青年支持網絡。</p>
+                </div>
+                            <div class="platform-card">
+                    <div class="platform-number">04</div>
+                    <h3>更多在地創業</h3>
+                    <p>推動在地創業扶持計畫，為青年創造更多在地發展的機會與友善環境。</p>
+                </div>
+                    </div>
+
+        <!-- 🌟 RWD 優化後的政見許願池專屬 CTA 區塊 🌟 -->
+        <div class="platform-wish-cta-box">
+            <span class="platform-wish-cta-desc">💡 對在地發展有更多期待？想為 <b>劉成謙</b> 提供市政建言？</span>
+            <a href="https://youth.pfpnext.com/hub/petition-review.php" class="btn-platform-wish" target="_blank" rel="noopener noreferrer">
+                <span>📍 前往政見許願池提案</span>
+                <span class="arrow-icon">&rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    
+<section class="candidate-ai-cloud-section" id="candidateAiCloudSection">
+    <div class="ai-cloud-inner">
+        <div class="ai-cloud-head">
+            <div class="ai-cloud-badge">
+                <span>🍊</span>
+                <span>小桔 AI 即時民意大數據</span>
+            </div>
+            <h3 class="ai-cloud-title">鄉親都在問【劉成謙】什麼？</h3>
+            <p class="ai-cloud-sub">點擊任一熱門民生問題，立即另開視窗觀看小桔 AI 對本候選人政見的專業解析！</p>
+        </div>
+
+        <div class="ai-cloud-flow" id="candAiCloudFlow">
+                                            <a href="https://youth.pfpnext.com/hub/ai/index.php?q=%E4%BA%A4%E9%80%9A%E6%94%B9%E9%9D%A9%E5%AF%A6%E8%B8%90" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="cand-cloud-tag cand-tag-md cand-float-1"
+                   title="點擊另開查看小桔 AI 解答">
+                    <span class="cand-tag-hash">#</span>交通改革實踐                    <span class="cand-tag-arrow">↗</span>
+                </a>
+                                            <a href="https://youth.pfpnext.com/hub/ai/index.php?q=%E6%9B%B4%E5%A4%9A%E7%A4%BE%E6%9C%83%E4%BD%8F%E5%AE%85" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="cand-cloud-tag cand-tag-md cand-float-2"
+                   title="點擊另開查看小桔 AI 解答">
+                    <span class="cand-tag-hash">#</span>更多社會住宅                    <span class="cand-tag-arrow">↗</span>
+                </a>
+                                            <a href="https://youth.pfpnext.com/hub/ai/index.php?q=%E6%9B%B4%E5%A4%9A%E9%9D%92%E5%B9%B4%E8%A3%9C%E8%B2%BC" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="cand-cloud-tag cand-tag-md cand-float-3"
+                   title="點擊另開查看小桔 AI 解答">
+                    <span class="cand-tag-hash">#</span>更多青年補貼                    <span class="cand-tag-arrow">↗</span>
+                </a>
+                                            <a href="https://youth.pfpnext.com/hub/ai/index.php?q=%E6%9B%B4%E5%A4%9A%E5%9C%A8%E5%9C%B0%E5%89%B5%E6%A5%AD" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="cand-cloud-tag cand-tag-md cand-float-4"
+                   title="點擊另開查看小桔 AI 解答">
+                    <span class="cand-tag-hash">#</span>更多在地創業                    <span class="cand-tag-arrow">↗</span>
+                </a>
+                    </div>
+    </div>
+</section>
+
+<style>
+.candidate-ai-cloud-section {
+    padding: 60px 10% 70px;
+    background: linear-gradient(135deg, #1c1917 0%, #292524 100%);
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.ai-cloud-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.ai-cloud-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(245, 130, 32, 0.15);
+    border: 1px solid rgba(245, 130, 32, 0.4);
+    color: #fdba74;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;
+}
+.ai-cloud-title {
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.ai-cloud-sub {
+    font-size: 0.95rem;
+    color: #a8a29e;
+    margin-bottom: 35px;
+    letter-spacing: 0.3px;
+}
+.ai-cloud-flow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px 10px;
+    padding: 10px 0;
+}
+.cand-cloud-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 50px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-decoration: none !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    white-space: nowrap;
+    cursor: pointer;
+}
+.cand-tag-hash {
+    color: #F58220;
+    font-weight: 900;
+    transition: color 0.2s ease;
+}
+.cand-tag-arrow {
+    font-size: 0.72em;
+    opacity: 0.6;
+    margin-left: 2px;
+    transition: transform 0.2s ease;
+}
+.cand-cloud-tag:hover {
+    background: #F58220;
+    color: #ffffff !important;
+    border-color: #F58220;
+    transform: translateY(-3px) scale(1.05) !important;
+    box-shadow: 0 6px 20px rgba(245, 130, 32, 0.5);
+    z-index: 5;
+}
+.cand-cloud-tag:hover .cand-tag-hash { color: #ffffff; }
+.cand-cloud-tag:hover .cand-tag-arrow { transform: translate(2px, -2px); opacity: 1; }
+
+.cand-tag-xs { font-size: 0.82rem; padding: 6px 14px; opacity: 0.85; }
+.cand-tag-sm { font-size: 0.95rem; padding: 7px 16px; opacity: 0.92; }
+.cand-tag-md { font-size: 1.1rem;  padding: 9px 20px; border-color: rgba(245, 130, 32, 0.35); }
+.cand-tag-lg { font-size: 1.25rem; padding: 11px 24px; background: rgba(245, 130, 32, 0.18); border-color: rgba(245, 130, 32, 0.5); }
+.cand-tag-xl { font-size: 1.45rem; padding: 13px 28px; background: rgba(245, 130, 32, 0.28); border-color: #F58220; font-weight: 900; }
+
+.cand-float-1 { animation: candTagFloat1 4.2s ease-in-out infinite; }
+.cand-float-2 { animation: candTagFloat2 5.5s ease-in-out infinite; }
+.cand-float-3 { animation: candTagFloat3 3.8s ease-in-out infinite; }
+.cand-float-4 { animation: candTagFloat4 4.8s ease-in-out infinite; }
+
+@keyframes candTagFloat1 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px) rotate(0.8deg); } }
+@keyframes candTagFloat2 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px) rotate(-1.2deg); } }
+@keyframes candTagFloat3 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px) rotate(0.6deg); } }
+@keyframes candTagFloat4 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px) rotate(-0.6deg); } }
+
+@media (max-width: 768px) {
+    .candidate-ai-cloud-section { padding: 45px 5% 55px; }
+    .ai-cloud-title { font-size: 1.45rem; }
+    .ai-cloud-sub { font-size: 0.84rem; margin-bottom: 25px; }
+    .ai-cloud-flow { gap: 10px 8px; }
+    .cand-tag-xs { font-size: 0.75rem; padding: 5px 12px; }
+    .cand-tag-sm { font-size: 0.85rem; padding: 6px 14px; }
+    .cand-tag-md { font-size: 0.95rem; padding: 7px 16px; }
+    .cand-tag-lg { font-size: 1.05rem; padding: 8px 18px; }
+    .cand-tag-xl { font-size: 1.18rem; padding: 9px 20px; }
+}
+</style>
+
+<script>
+// 🌟 前端動態撈取即時聲量，無縫替換標籤
+document.addEventListener('DOMContentLoaded', async () => {
+    const candName = "\u5289\u6210\u8b19";
+    const container = document.getElementById('candAiCloudFlow');
+    if (!candName || !container) return;
+
+    try {
+        const res = await fetch(`api-candidate-cloud.php?name=${encodeURIComponent(candName)}`);
+        const data = await res.json();
+
+        if (data.status === 'success' && Array.isArray(data.tags) && data.tags.length > 0) {
+            const weights = data.tags.map(t => parseInt(t.hit_count) || 1);
+            const maxW = Math.max(...weights);
+            const minW = Math.min(...weights);
+
+            const sizeClasses  = ['cand-tag-xs', 'cand-tag-sm', 'cand-tag-md', 'cand-tag-lg', 'cand-tag-xl'];
+            const floatClasses = ['cand-float-1', 'cand-float-2', 'cand-float-3', 'cand-float-4'];
+
+            container.innerHTML = '';
+
+            // 打散順序
+            const shuffled = data.tags.sort(() => Math.random() - 0.5);
+
+            shuffled.forEach((item, idx) => {
+                const w = parseInt(item.hit_count) || 1;
+                let sizeIdx = 2;
+                if (maxW > minW) {
+                    sizeIdx = Math.floor(((w - minW) / (maxW - minW)) * 4.99);
+                }
+                sizeIdx = Math.max(0, Math.min(4, sizeIdx));
+
+                const chosenSize  = sizeClasses[sizeIdx];
+                const chosenFloat = floatClasses[idx % floatClasses.length];
+                const chatUrl     = `https://youth.pfpnext.com/hub/ai/index.php?q=${encodeURIComponent(item.question)}`;
+
+                const tagLink = document.createElement('a');
+                tagLink.href = chatUrl;
+                tagLink.target = '_blank';
+                tagLink.rel = 'noopener noreferrer';
+                tagLink.className = `cand-cloud-tag ${chosenSize} ${chosenFloat}`;
+                tagLink.title = `民意熱度：${w}｜點擊查看小桔 AI 解答`;
+                tagLink.innerHTML = `<span class="cand-tag-hash">#</span>${escapeCandHtml(item.question)}<span class="cand-tag-arrow">↗</span>`;
+
+                container.appendChild(tagLink);
+            });
+        }
+    } catch (err) {
+        // 若 API 異常，維持既有的政見標籤展示
+    }
+});
+
+function escapeCandHtml(str) {
+    const entityMap = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+    return String(str).replace(/[&<>"']/g, s => entityMap[s]);
+}
+</script>
+    
+<!-- 移除行內重複的 padding 宣告，改由 CSS 精準調控 -->
+<section class="candidate-yt-playlist-section" style="background: var(--grey-light); padding: 60px 10% 20px 10%;">
+    <h2 class="section-title">相關影音專區</h2>
+    <p style="margin-top: -30px; color: #888; font-size: 0.95rem;">同步更新官方頻道動態</p>
+    <center>
+    <!-- ⭕ 透過專屬 class 控制，徹底落實手機與電腦的視覺分流 -->
+    <div class="playlist-container">
+        <!-- 官方標準響應式內嵌：自動對接 $info['yt_playlist'] -->
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?si=kwXUbqLmLMyuSt3n&amp;list=PLWPysQxcVuVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </center> 
+</section>
+
+<style>
+/* 💻 預設全域：電腦與寬螢幕佈局 */
+.playlist-container {
+    margin-top: 40px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    max-width: 850px;
+    background: #000;
+    border-radius: 12px; /* 電腦版優雅圓角 */
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    transition: all 0.3s ease; /* 縮放時平滑過渡 */
+}
+
+/* 📱 響應式防線：手機與平板行動端（螢幕寬度 768px 以下） */
+@media (max-width: 768px) {
+    /* 🌟 核心修正：消除外層 section 的左右內距，讓影片真正貼緊手機螢幕左右邊緣 */
+    .candidate-yt-playlist-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    /* 手機版文字標題依然保留左右間距，才不會貼邊窒息 */
+    .candidate-yt-playlist-section .section-title,
+    .candidate-yt-playlist-section p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* 🌟 新增校正：強制讓標題下方的橘色底線在手機版也同步向右內縮 5%，精準對齊文字！ */
+    .candidate-yt-playlist-section .section-title::after {
+        left: 5% !important;
+    }
+
+    .playlist-container {
+        margin-top: 20px;     /* 手機端間距稍微收斂，留給文字更多空間 */
+        max-width: 100% !important; /* 強制突破 850px 限制，100% 撐滿手機寬度 */
+        border-radius: 0px !important; /* ❌ 徹底擊碎圓角，四角完全切齊邊緣 */
+        box-shadow: none;     /* 手機滿版時移除陰影，畫面最乾淨大氣 */
+    }
+}
+</style>
+
+
+
+
+<section class="candidate-news-section" style="background: #dddddd;">
+    <h2 class="section-title">相關新聞動態</h2>
+    
+    <div class="news-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 40px;">
+                        
+                <div class="news-card" style="background:#fff; border-radius:8px; overflow:hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    <div class="news-thumb" style="width:100%; aspect-ratio:16/9; overflow:hidden;">
+                        <img src="https://youth.pfpnext.com/wp-content/uploads/2026/09/PXL_20260903_034525839-scaled.jpg" style="width:100%; height:100%; object-fit:cover;">
+                    </div> 
+                    <div style="padding: 20px;">
+                        <span style="font-size:0.85rem; color:#95a5a6;">2026/09/03</span>
+                        <h3 style="font-size:1.1rem; margin: 10px 0; line-height:1.4; height: 3.2em; overflow:hidden;">
+                            宋楚瑜主席陪同親民黨新北市議員參選 聯合登記                        </h3>
+                        <a href="news.php?id=1635" class="read-more" style="color:var(--pfp-orange); font-weight:bold; font-size:0.9rem;">
+                            閱讀全文 →
+                        </a>
+                    </div>
+                </div>
+
+                            
+                <div class="news-card" style="background:#fff; border-radius:8px; overflow:hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    <div class="news-thumb" style="width:100%; aspect-ratio:16/9; overflow:hidden;">
+                        <img src="https://youth.pfpnext.com/wp-content/uploads/2026/09/20260903004670.jpg" style="width:100%; height:100%; object-fit:cover;">
+                    </div> 
+                    <div style="padding: 20px;">
+                        <span style="font-size:0.85rem; color:#95a5a6;">2026/09/03</span>
+                        <h3 style="font-size:1.1rem; margin: 10px 0; line-height:1.4; height: 3.2em; overflow:hidden;">
+                            [中時電子報]宋楚瑜領軍橘營新北4將登記 親民黨搶攻新莊、三蘆及原民席次                        </h3>
+                        <a href="news.php?id=1805" class="read-more" style="color:var(--pfp-orange); font-weight:bold; font-size:0.9rem;">
+                            閱讀全文 →
+                        </a>
+                    </div>
+                </div>
+
+                            
+                <div class="news-card" style="background:#fff; border-radius:8px; overflow:hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    <div class="news-thumb" style="width:100%; aspect-ratio:16/9; overflow:hidden;">
+                        <img src="https://youth.pfpnext.com/wp-content/uploads/2026/09/PXL_20260903_034525839.jpeg.webp" style="width:100%; height:100%; object-fit:cover;">
+                    </div> 
+                    <div style="padding: 20px;">
+                        <span style="font-size:0.85rem; color:#95a5a6;">2026/09/03</span>
+                        <h3 style="font-size:1.1rem; margin: 10px 0; line-height:1.4; height: 3.2em; overflow:hidden;">
+                            [PeoPo公民新聞]宋楚瑜上午陪同親民黨新北市4選將登記參選 橘營劉成謙政見主打交通、消防                        </h3>
+                        <a href="news.php?id=1802" class="read-more" style="color:var(--pfp-orange); font-weight:bold; font-size:0.9rem;">
+                            閱讀全文 →
+                        </a>
+                    </div>
+                </div>
+
+                </div>
+    <center><div style="border-radius:20px;background:#333;padding:10px 20px;margin:20px;display:inline-block;"><a style="color:#fff;" href="https://youth.pfpnext.com/?s=劉成謙" target="_blank">看更多</a></div></center>
+</section>
+    
+<!-- 🌟 相關活動任務左右滑動輪播區塊 (僅在有任務時顯示) 🌟 -->
+<section class="candidate-tasks-section">
+    <div class="tasks-section-header">
+        <div>
+            <span class="tasks-sub-badge">ACTION & VOLUNTEER</span>
+            <h3 class="tasks-main-title">🚩 候選人前線行程與志工任務</h3>
+        </div>
+        <a href="https://youth.pfpnext.com/hub/tasks.php" target="_blank" rel="noopener noreferrer" class="btn-all-tasks-link">
+            查看全部任務 &rarr;
+        </a>
+    </div>
+
+    <!-- 左右滑動任務軌道 -->
+    <div class="tasks-slider-container">
+        <div class="tasks-slider-track">
+                            <div class="task-slide-card">
+                    <div class="task-card-top">
+                        <span class="badge-task-type">掃街拜票</span>
+                        <span class="badge-task-district">📍 新北市三重</span>
+                    </div>
+                    <h4 class="task-card-title">劉成謙輔選志工</h4>
+                    
+                    <div class="task-meta-list">
+                        <div class="meta-item">
+                            <span class="meta-icon">📅</span>
+                            <span>2026-08-19 ~ 2026-11-27</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">⏰</span>
+                            <span>12:00 - 20:00</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">📍</span>
+                            <span class="meta-location">新北市三重區</span>
+                        </div>
+                    </div>
+
+                    <a href="https://youth.pfpnext.com/hub/task-detail.php?id=4" target="_blank" rel="noopener noreferrer" class="btn-task-join">
+                        🤝 立即前往支援
+                    </a>
+                </div>
+                    </div>
+    </div>
+    <div class="slide-scroll-hint">&larr; 左右滑動檢視更多任務 &rarr;</div>
+</section>
+
+<!-- 🌟 任務輪播專屬 CSS 樣式 🌟 -->
+<style>
+.candidate-tasks-section {
+    max-width: 1200px;
+    margin: 40px auto 60px;
+    padding: 0 20px;
+}
+
+.tasks-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tasks-sub-badge {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #f58220;
+    margin-bottom: 4px;
+}
+
+.tasks-main-title {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #1e293b;
+    margin: 0;
+}
+
+.btn-all-tasks-link {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #f58220;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-all-tasks-link:hover {
+    color: #e67215;
+    transform: translateX(3px);
+}
+
+.tasks-slider-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px 4px 20px;
+}
+
+.tasks-slider-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.tasks-slider-container::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+.tasks-slider-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+}
+
+.task-slide-card {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 18px;
+    padding: 22px 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    transition: all 0.25s ease;
+    flex-shrink: 0;
+}
+
+.task-slide-card:hover {
+    transform: translateY(-4px);
+    border-color: #f58220;
+    box-shadow: 0 12px 25px rgba(245, 130, 32, 0.12);
+}
+
+.task-card-top {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.badge-task-type {
+    background: #fff5eb;
+    color: #f58220;
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid #fed7aa;
+}
+
+.badge-task-district {
+    background: #f1f5f9;
+    color: #475569;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.task-card-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.4;
+    margin-bottom: 14px;
+    height: 48px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.task-meta-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 16px;
+    font-size: 0.85rem;
+    color: #475569;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.meta-icon {
+    font-size: 0.95rem;
+    flex-shrink: 0;
+}
+
+.meta-location {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-task-join {
+    display: block;
+    text-align: center;
+    background: linear-gradient(135deg, #f58220 0%, #e67215 100%);
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.92rem;
+    padding: 10px 16px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(245, 130, 32, 0.25);
+    transition: all 0.2s ease;
+}
+
+.btn-task-join:hover {
+    background: #e67215;
+    transform: scale(1.02);
+}
+
+.slide-scroll-hint {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-top: 8px;
+}
+
+@media (max-width: 640px) {
+    .task-slide-card {
+        width: 280px;
+        padding: 18px 16px;
+    }
+    .tasks-main-title {
+        font-size: 1.35rem;
+    }
+}
+</style>    <!-- 🌟 1. 浮動分享按鈕與展開選單 (置於上方) -->
+<div class="floating-share-wrapper">
+    <!-- 展開後的分享選單 -->
+    <div class="share-menu-box" id="share-menu-box">
+        <!-- LINE 分享 -->
+        <a href="javascript:void(0);" onclick="shareToPlatform('line')" class="share-option-btn share-line" title="分享至 LINE">
+            <span class="share-icon">💬</span>
+            <span class="share-label">LINE</span>
+        </a>
+        <!-- Threads 分享 -->
+        <a href="javascript:void(0);" onclick="shareToPlatform('threads')" class="share-option-btn share-threads" title="分享至 Threads">
+            <span class="share-icon">🧵</span>
+            <span class="share-label">Threads</span>
+        </a>
+        <!-- FB 分享 -->
+        <a href="javascript:void(0);" onclick="shareToPlatform('fb')" class="share-option-btn share-fb" title="分享至 Facebook">
+            <span class="share-icon">👍</span>
+            <span class="share-label">Facebook</span>
+        </a>
+    </div>
+
+    <!-- 觸發分享按鈕 -->
+    <button type="button" class="floating-share-btn" id="fab-share-trigger" onclick="toggleShareMenu()" title="分享此頁">
+        <span class="fab-share-icon" id="fab-share-icon">📢</span>
+        <span class="fab-share-text">分享</span>
+    </button>
+</div>
+
+
+<style>
+/* ==================== 浮動分享按鈕 CSS (電腦版：置於上方) ==================== */
+.floating-share-wrapper {
+    position: fixed;
+    bottom: 110px; /* 電腦版位於小桔 (bottom: 50px) 上方 */
+    right: 0px;
+    z-index: 2901;
+}
+
+/* 主按鈕樣式 */
+.floating-share-btn {
+    background: #231815;
+    color: #ffffff !important;
+    padding: 10px 22px;
+    border-radius: 50px 0 0 50px;
+    font-weight: 900;
+    font-size: 0.95rem;
+    border: 2px solid #F58220;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.floating-share-btn:hover {
+    background: #F58220;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(245, 130, 32, 0.5);
+}
+
+.fab-share-icon {
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+/* 展開選單容器 */
+.share-menu-box {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px) scale(0.9);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    pointer-events: none;
+}
+
+.share-menu-box.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+/* 選項按鈕通用樣式 */
+.share-option-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 30px;
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.share-option-btn:hover {
+    transform: translateX(5px) scale(1.05);
+}
+
+/* 品牌色系設定 */
+.share-line { background: #00B900; }
+.share-threads { background: #000000; border: 1px solid #333; }
+.share-fb { background: #1877F2; }
+
+/* ==================== 🌟 小桔 AI 專屬按鈕 CSS (電腦版：置於下方) ==================== */
+.floating-ai-btn {
+    position: fixed;
+    bottom: 50px; /* 電腦版位於下方 */
+    right: 0px;
+    z-index: 2902;
+    background: linear-gradient(135deg, #FF6600 0%, #EA580C 100%);
+    color: #ffffff !important;
+    padding: 10px 22px;
+    border-radius: 50px 0 0 50px;
+    font-weight: 900;
+    font-size: 0.95rem;
+    border: 2px solid #FFEDD5;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 6px 20px rgba(234, 88, 12, 0.45);
+    text-decoration: none !important;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s, transform 0.2s ease;
+    /* 呼吸光暈與上下微幅浮動動畫 */
+    animation: ai-pulse 3s infinite ease-in-out, ai-float 2.6s infinite ease-in-out;
+}
+
+.floating-ai-btn:hover {
+    background: linear-gradient(135deg, #FF8533 0%, #FF6600 100%);
+    box-shadow: 0 10px 25px rgba(234, 88, 12, 0.65);
+    color: #ffffff !important;
+    animation-play-state: paused; /* 滑鼠懸停時暫停浮動方便點擊 */
+    transform: translateY(-3px) scale(1.03);
+}
+
+.fab-ai-icon {
+    font-size: 1.2rem;
+    animation: ai-wiggle 2.5s infinite ease-in-out;
+}
+
+.fab-ai-text {
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.fab-ai-badge {
+    background: #ffffff;
+    color: #EA580C;
+    font-size: 0.68rem;
+    font-weight: 900;
+    padding: 2px 6px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* 微幅上下浮動動畫 */
+@keyframes ai-float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* 呼吸光暈動畫 */
+@keyframes ai-pulse {
+    0%, 100% { box-shadow: 0 6px 20px rgba(234, 88, 12, 0.45); }
+    50% { box-shadow: 0 8px 28px rgba(234, 88, 12, 0.75); }
+}
+
+/* 圖示輕微搖動 */
+@keyframes ai-wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    15% { transform: rotate(-12deg) scale(1.1); }
+    30% { transform: rotate(12deg) scale(1.1); }
+    45% { transform: rotate(0deg); }
+}
+
+/* 📱 響應式優化（螢幕寬度 768px 以下：拉開間距防重疊） */
+@media (max-width: 768px) {
+    /* 🌟 分享按鈕 RWD（拉高至 145px，與小桔完全錯開） */
+    .floating-share-wrapper {
+        bottom: 15px;
+    }
+
+    .floating-share-btn {
+        width: 48px;
+        padding: 12px 0;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 20px 0 0 20px;
+        border-right: none;
+    }
+
+    .fab-share-text {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 0.85rem;
+        letter-spacing: 2px;
+        margin-top: 4px;
+    }
+
+    .share-menu-box {
+        bottom: 0px;
+        right: 55px;
+    }
+
+    /* 🌟 小桔 AI RWD（下方 30px） */
+    .floating-ai-btn {
+        bottom: 130px;
+        width: 48px;
+        padding: 12px 0;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .fab-ai-text {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 0.85rem;
+        letter-spacing: 2px;
+        margin: 4px 0;
+    }
+
+    .fab-ai-badge {
+        font-size: 0.6rem;
+        padding: 1px 4px;
+        border-radius: 6px;
+    }
+}
+</style>
+
+<section class="contact-section">
+    <h2 style="font-size: 2.5rem; font-weight: 900; margin: 0;color:#fff;">支持我們，2026 改變的開始</h2>
+    <p style="margin-top: 15px; opacity: 0.8;">追蹤我們的動態，了解更多政策理念</p>
+    
+    <p style="margin-top: 15px; opacity: 0.8;">
+        <a href="https://youth.pfpnext.com/hub/task-detail.php?id=13" style="color:#fff;" target="_blank"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">加入青年團</div></a>
+        <a href="https://www.pfp.org.tw/TW/Inquiry81/join-us" style="color:#fff;" target="_blank"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">加入親民黨</div></a>
+        <a href="https://youth.pfpnext.com/2026-%e9%81%b8%e8%88%89-%e5%8f%83%e9%81%b8%e8%81%af%e7%b9%ab" style="color:#fff;" target="_blank"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">參選聯繫</div></a>
+    </p>
+
+    <p style="margin-top: 15px; margin-bottom:5px; opacity: 0.8;">
+        <a href="https://youth.pfpnext.com/2026/info.php" style="color:#fff;"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">參選人聯絡名冊</div></a>
+        <a href="https://youth.pfpnext.com/2026/game-list.php" style="color:#fff;"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">互動遊戲特區</div></a>
+    </p>
+
+    <p style="margin-top: 15px; margin-bottom:5px; opacity: 0.8;">
+        <a href="https://line.me/R/ti/p/@394nbipf" style="color:#fff;" target="_blank"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">接收活動通知</div></a>
+        <a href="https://line.me/R/ti/p/@394nbipf" style="color:#fff;" target="_blank"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">系統問題回報</div></a>
+        <a href="https://pfp.gol.idv.tw/search.php" style="color:#fff;" target="_blank"><div style="display:inline-block;padding:10px;border-radius:20px;border:1px solid #fff;">搜尋</div></a>
+    </p>
+
+    <center>
+    <div style="margin-top: 35px; opacity: 1;padding-top:35px; max-width:800px; border-top:1px dashed #aaa;">
+       <a href="https://youth.pfpnext.com/hub/ai/report-list.php" style="color:#fff;" target="_blank">
+        <div style="margin-bottom:15px;border-radius:30px;border:1px solid #FF5809;width:100%;max-width:300px;padding:10px 30px;display:inline-block;background:#FF5809;color:#fff;">小桔 AI 功能報導</div>
+       </a>
+
+       <a href="https://youth.pfpnext.com/" style="color:#FF5809;" target="_blank">
+        <div style="border-radius:30px;border:1px solid #FF5809;width:100%;max-width:300px;padding:10px 30px;display:inline-block;color:#FF5809;">親民黨青年團</div>
+       </a>
+    </div>
+    </center>
+
+    <div class="social-links">
+        <a href="https://www.youtube.com/@%E8%A6%AA%E6%B0%91%E9%BB%A8%E9%9D%92%E5%B9%B4%E5%9C%98" class="social-icon" target="_blank" style="background:#CE0000;">YT</a>
+        <a href="https://www.facebook.com/youth.pfp/" class="social-icon" target="_blank" style="background:#0080FF;">FB</a>
+        <a href="https://www.instagram.com/pfp.youth/" class="social-icon" target="_blank" style="background:#E800E8;">IG</a>
+        <a href="https://line.me/R/ti/p/@394nbipf" class="social-icon" target="_blank" style="background:#009100;">LINE</a>
+        <a href="https://www.threads.com/@pfp.youth" class="social-icon" target="_blank" style="background:#333333;">脆</a>
+    </div>
+    
+    <center>
+    <div id="other-links" style="margin-top: 35px; opacity: 0.8;padding-top:15px; max-width:800px; border-top:1px dashed #aaa;">
+        <a href="https://www.youtube.com/@soong6277" target="_blank"><div>Soong宋楚瑜 YT</div></a>
+        <a href="https://www.facebook.com/PFPTW" target="_blank"><div>親民黨FB</div></a>
+    </div>
+    </center>
+ 
+    <div style="margin-top:50px;">
+        <a href="https://youth.pfpnext.com/2026"><div style="border-radius:30px;background:#FF5809;width:100%;max-width:300px;padding:10px 30px;display:inline-block;color:#fff;">回首頁</div></a>
+    </div>
+ 
+</section> 
+
+<footer>
+    <div class="footer-container">
+        <!-- 1. 版權與 RSS -->
+        <p class="footer-copy">
+            &copy; 2026 <a href="https://youth.pfpnext.com" target="_blank">PFP Youth 親民黨組織部青年團</a> 版權所有 
+                            <span class="footer-feed">(<a href="https://youth.pfpnext.com/2026/feed.php" target="_blank">feed</a>)</span>
+                    </p>
+
+        <!-- 2. 開發夥伴與技術贊助 -->
+        <p class="footer-dev">
+            Powered by <a href="https://www.jumpad.com.tw" target="_blank">傑愛得資訊 (Google Partner)</a> &amp; 
+            <a href="https://youth.pfpnext.com" target="_blank">親民黨青年團</a> &amp; 
+            <span>Google Gemini AI</span> 共同開發<br>
+            本站由 <a href="https://johnytai.com" target="_blank">親民黨網路顧問 &amp; 組織部青年團執行長 劉俊宏 (吉拉)</a> 贊助支持
+        </p>
+
+        <!-- 3. 資安防護與 ISO 27001 稽核員專業背書 -->
+        <div class="footer-security-box">
+            <div class="security-badge">
+                <span class="sec-icon">🛡️</span>
+                <span>本站採用 <b>Cloudflare</b> 全球 CDN 與 WAF 防護機制，強化網站連線安全、惡意流量阻擋與常見網路攻擊防禦。</span>
+            </div>
+        </div>
+
+	<!-- 4. 里程碑時間紀錄 -->
+	<div>《 建立時間 》</div>
+        <p class="footer-timeline">
+            <span>🗳️ <a href="https://youth.pfpnext.com/2026" target="_blank">選舉專區 2026/05/26</a></span>
+  
+            <span>🎮 <a href="https://youth.pfpnext.com/2026/game-list.php" target="_blank">遊戲專區 2026/07/04</a></span>
+  
+            <span>🙋 <a href="https://youth.pfpnext.com/hub" target="_blank">志工平台 2026/08/20</a></span>
+
+            <span>📮 <a href="https://youth.pfpnext.com/hub/party-advice.php" target="_blank">建言箱 2026/09/29</a></span>
+        
+        </p> 
+	<p class="footer-timeline">
+            <span>🍊 <a href="https://youth.pfpnext.com/hub/ai" target="_blank">小桔 AI 政見助理 2026/09/12</a></span>
+	    <span>🍊 <a href="https://youth.pfpnext.com/2026/ai" target="_blank">小桔 AI 選務大腦 2026/09/19</a></span>
+            <span>🍊 <a href="https://youth.pfpnext.com/2026/tv.php" target="_blank">小桔 TV 2026/10/08</a></span> 
+	</p>
+	<p class="footer-timeline">
+	    <span>📑 <a href="https://youth.pfpnext.com/2026/ai-log.php" target="_blank">小桔 AI 系統日誌</a></span>
+	</p>
+
+    </div>
+</footer>
+
+<style>
+/* ==================== Footer 專屬精緻樣式 ==================== */
+footer {
+    padding: 50px 20px 70px;
+    text-align: center;
+    font-size: 0.88rem;
+    color: #64748b;
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    line-height: 1.8;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+footer a {
+    color: #334155;
+    text-decoration: none !important;
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #f58220 !important;
+}
+
+.footer-copy {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #1e293b;
+}
+
+.footer-feed a {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+.footer-dev {
+    color: #475569;
+    font-size: 0.88rem;
+}
+
+/* 🌟 資安防護徽章區塊 🌟 */
+.footer-security-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.security-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    color: #0f172a;
+    font-size: 0.86rem;
+    font-weight: 700;
+}
+
+.security-badge b {
+    color: #ea580c;
+}
+
+.security-subtext {
+    font-size: 0.8rem;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.security-subtext b {
+    color: #166534;
+    background: #dcfce7;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    letter-spacing: 0.3px;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.footer-timeline {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.timeline-sep {
+    color: #cbd5e1;
+}
+
+.mobile-only-br {
+    display: none;
+}
+
+/* 📱 手機窄螢幕 RWD 極致避讓與內縮優化（<= 768px） */
+@media (max-width: 768px) {
+    footer {
+        /* 右側多留 65px 安全距離，避開右側 48px 浮動按鈕 */
+        padding: 40px 65px 80px 20px;
+        font-size: 0.82rem;
+	
+    }
+    .footer-container {
+        width: 100%;
+	text-align:left;
+    }
+    .footer-security-box {
+        width: 100%;
+        padding: 12px 14px;
+    }
+    .mobile-only-br {
+        display: inline;
+    }
+/*
+    .footer-timeline {
+        flex-direction: column;
+        gap: 2px;
+    }
+*/
+    .timeline-sep {
+        display: none;
+    }
+    .footer-timeline span {
+	display:inline-block !important;
+    }
+}
+</style>
+
+<!-- 🌟 小桔 AI 全站智慧導覽 懸浮按鈕 (FAB) 🌟 -->
+<div id="aiGuideFab" class="ai-guide-fab" onclick="toggleGuideChat()" title="喚醒小桔 AI 導覽助手">
+    <span class="guide-fab-icon">🍊</span>
+    <span class="guide-fab-label">問問小桔</span>
+</div>
+
+<!-- 🌟 小桔 AI 智慧對話艙 🌟 -->
+<div id="aiGuideDrawer" class="ai-guide-drawer">
+    <div class="guide-drawer-header">
+        <div class="guide-header-title">
+            <span class="guide-avatar">🍊</span>
+            <div>
+                <h4>小桔 AI 智慧特派導覽員</h4>
+                <p>親民黨 2026 數位競選夥伴 (2.0 版) | (<a href="https://youth.pfpnext.com/2026/ai/" target="_blank">獨立開啟</a>)</p>
+            </div>
+        </div>
+        <button type="button" class="guide-close-btn" onclick="toggleGuideChat()">&times;</button>
+    </div>
+
+    <!-- 訊息對話區 -->
+    <div class="guide-messages" id="guideMessages">
+        <div class="guide-msg guide-msg-bot">
+            <div class="msg-bubble">
+                你好！我是親民黨青年團的數位特派導覽員 <b>小桔 AI (2.0 版)</b> 🍊<br><br>
+                我不僅能為您解答全台候選人的在地政見，還能帶您快速前往各項選務專區。有什麼我可以協助您的嗎？
+            </div>
+        </div>
+
+        <!-- 快捷點擊氣泡 -->
+        <div class="guide-quick-tags" id="guideQuickTags">
+            <button type="button" class="quick-btn" onclick="sendQuickQuery('你是誰？有哪些主要功能？')">🤖 你的五大功能？</button>
+            <button type="button" class="quick-btn" onclick="sendQuickQuery('我想看親民黨 2026 候選人名單與政見')">📋 查看候選人名冊</button>
+            <button type="button" class="quick-btn" onclick="sendQuickQuery('我想看各地志工生成的 AI 新聞報導專題庫')">📰 地方特派新聞庫</button>
+            <button type="button" class="quick-btn" onclick="sendQuickQuery('我要如何合法捐款政治獻金給候選人？')">🪙 政治獻金帳號</button>
+            <button type="button" class="quick-btn" onclick="sendQuickQuery('我想下載競選歌曲跟宣傳廣播音檔')">🎵 下載戰歌與宣傳包</button>
+            <button type="button" class="quick-btn" onclick="sendQuickQuery('我有地方生活痛點想反映給候選人')">📮 提交政見許願池</button>
+            <button type="button" class="quick-btn" onclick="sendQuickQuery('小桔 TV')">📺 小桔 TV</button>
+        </div>
+    </div>
+
+    <!-- 輸入區 -->
+    <div class="guide-input-wrap">
+        <input type="text" id="guideUserInput" class="guide-input" placeholder="問問政見、找頁面、或反映民生痛點..." onkeydown="handleGuideInput(event)">
+        <button type="button" id="guideSendBtn" class="guide-send-btn" onclick="sendGuideMessage()">發送</button>
+    </div>
+</div>
+
+<style>
+/* 浮動按鈕 */
+.ai-guide-fab {
+    position: fixed;
+    bottom: 24px;
+    right: 0;
+    z-index: 4000;
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    color: #ffffff !important;
+    padding: 10px 18px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 4px 18px rgba(234, 88, 12, 0.4);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 800;
+    user-select: none;
+    transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@media(max-width: 600px) {
+  .ai-guide-fab {   
+    bottom: 150px;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 8px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+  }
+
+  .ai-guide-fab .guide-fab-icon {
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  .ai-guide-fab .guide-fab-label {
+    writing-mode: vertical-rl;
+    letter-spacing: 2px;
+    font-size: 0.82rem;
+    line-height: 1.2;
+  }
+}
+
+.ai-guide-fab:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(234, 88, 12, 0.55);
+}
+.guide-fab-icon { font-size: 1.25rem; }
+
+/* 對話艙外殼 (支援 iOS 彈性滿版與安全邊距) */
+.ai-guide-drawer {
+    position: fixed;
+    bottom: 85px;
+    right: 24px;
+    width: 380px;
+    max-width: calc(100vw - 32px);
+    height: 560px;
+    max-height: calc(100vh - 120px);
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(15, 23, 42, 0.25);
+    border: 1px solid #fed7aa;
+    z-index: 4000;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box; /* 🌟 確保邊框與內距不向外擴張 */
+    animation: drawerPop 0.25s ease-out forwards;
+}
+
+@media(max-width: 600px) {
+  .ai-guide-drawer {
+    bottom: 0;
+    right: 0;
+    left: 0;           /* 🌟 左右同時貼齊，取代 100vw 溢位問題 */
+    width: 100%;       /* 🌟 使用 100% 取代 100vw，防止 iOS 水平滾動 */
+    max-width: 100%;
+    height: 85vh;
+    max-height: 85vh;
+    border-radius: 20px 20px 0 0;
+    border-bottom: none;
+  }
+}
+
+/* 🌟 輸入列包覆層：確保填滿且彈性對齊 */
+.guide-input-wrap {
+    padding: 10px 14px;
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom)); /* 支援 iPhone 底部橫條安全區 */
+}
+
+/* 🌟 輸入框：強制 min-width: 0 徹底解決 iOS Safari 寬度撐爆 */
+.guide-input {
+    flex: 1;
+    min-width: 0;             /* 關鍵：強制覆蓋 Safari 原生最小寬度 */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 25px;
+    padding: 9px 14px;
+    font-size: 0.9rem;
+    outline: none;
+    -webkit-appearance: none; /* 移除 iOS 內建陰影與圓角預設值 */
+}
+.guide-input:focus { border-color: #ea580c; }
+
+/* 🌟 發送按鈕：鎖定尺寸，絕不被擠壓、絕不換行 */
+.guide-send-btn {
+    flex-shrink: 0;           /* 關鍵：絕不允許被壓縮 */
+    white-space: nowrap;      /* 確保「發送」兩字不折行 */
+    background: #ea580c;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 9px 18px;
+    font-size: 0.88rem;
+    font-weight: 800;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background 0.15s;
+}
+.guide-send-btn:hover { background: #c2410c; }
+
+@keyframes drawerPop {
+    from { opacity: 0; transform: translateY(16px) scale(0.96); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* 頂部標題 */
+.guide-drawer-header {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fed7aa;
+}
+.guide-header-title { display: flex; align-items: center; gap: 10px; }
+.guide-avatar { font-size: 1.8rem; }
+.guide-header-title h4 { font-size: 0.96rem; font-weight: 800; color: #9a3412; margin: 0; }
+.guide-header-title p { font-size: 0.75rem; color: #c2410c; margin: 0; }
+.guide-close-btn { background: none; border: none; font-size: 1.6rem; color: #94a3b8; cursor: pointer; line-height: 1; }
+.guide-close-btn:hover { color: #0f172a; }
+
+/* 對話串容器 */
+.guide-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #f8fafc;
+}
+.guide-msg { display: flex; max-width: 88%; }
+.guide-msg-bot { align-self: flex-start; }
+.guide-msg-user { align-self: flex-end; }
+
+.msg-bubble {
+    padding: 10px 14px;
+    border-radius: 14px;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    word-break: break-word;
+}
+.guide-msg-bot .msg-bubble {
+    background: #ffffff;
+    color: #1e293b;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+.guide-msg-user .msg-bubble {
+    background: #ea580c;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(234, 88, 12, 0.25);
+}
+
+/* 訊息內的連結按鈕樣式 */
+.msg-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #fff7ed;
+    border: 1px solid #fdba74;
+    color: #ea580c !important;
+    padding: 3px 9px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none !important;
+    font-size: 0.82rem;
+    margin: 4px 2px;
+    transition: all 0.15s;
+}
+.msg-link-btn:hover { background: #ea580c; color: #ffffff !important; }
+
+/* 政策專屬跳轉按鈕 */
+.msg-link-policy {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 5px 12px !important;
+    border-radius: 12px !important;
+    font-weight: 800 !important;
+    box-shadow: 0 2px 6px rgba(234, 88, 12, 0.25);
+}
+.msg-link-policy:hover {
+    background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%) !important;
+    transform: translateY(-1px);
+}
+
+/* 綠燈呼吸微光指示 */
+.ai-live-tag {
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px dashed #f1f5f9;
+    font-size: 0.68rem;
+    color: #059669;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+}
+.ai-live-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #10b981;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    animation: aiDotPulse 1.8s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+@keyframes aiDotPulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 5px rgba(16, 185, 129, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* 快捷按鈕區 */
+.guide-quick-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+}
+.quick-btn {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.quick-btn:hover { border-color: #ea580c; color: #ea580c; background: #fffaf5; }
+
+/* 輸入列 */
+.guide-input-wrap {
+    padding: 12px;
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    gap: 8px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom));
+}
+.guide-input {
+    flex: 1;
+    border: 1px solid #cbd5e1;
+    border-radius: 25px;
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    outline: none;
+}
+.guide-input:focus { border-color: #ea580c; }
+.guide-send-btn {
+    background: #ea580c;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.guide-send-btn:hover { background: #c2410c; }
+</style>
+
+<script>
+var guideChatHistory = [];
+
+// 取得或建立本次階段的唯一識別碼
+function getGuideSessionUuid() {
+    var uuid = sessionStorage.getItem('pfp_ai_guide_uuid');
+    if (!uuid) {
+        uuid = 'G_' + Date.now() + '_' + Math.random().toString(36).substring(2, 9);
+        sessionStorage.setItem('pfp_ai_guide_uuid', uuid);
+    }
+    return uuid;
+}
+
+function toggleGuideChat() {
+    var drawer = document.getElementById('aiGuideDrawer');
+    if (!drawer) return;
+    if (drawer.style.display === 'flex') {
+        drawer.style.display = 'none';
+    } else {
+        drawer.style.display = 'flex';
+        setTimeout(function() {
+            var input = document.getElementById('guideUserInput');
+            if (input) input.focus();
+        }, 150);
+    }
+}
+
+function handleGuideInput(e) {
+    if (e.key === 'Enter') {
+        sendGuideMessage();
+    }
+}
+
+function sendQuickQuery(text) {
+    var input = document.getElementById('guideUserInput');
+    if (input) {
+        input.value = text;
+        sendGuideMessage();
+    }
+}
+
+function sendGuideMessage() {
+    var input = document.getElementById('guideUserInput');
+    var msg = input ? input.value.trim() : '';
+    if (!msg) return;
+
+    input.value = '';
+    appendGuideMessage('user', msg);
+
+    var quickTags = document.getElementById('guideQuickTags');
+    if (quickTags) quickTags.style.display = 'none';
+
+    var loadingId = appendGuideMessage('bot', '🍊 小桔正在翻閱親民黨智庫與站點，請稍候...');
+
+    fetch('/hub/ai/api-guide.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            message: msg,
+            history: guideChatHistory.slice(-6),
+            session_uuid: getGuideSessionUuid(),
+            page_source: window.location.href
+        })
+    })
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+        removeGuideLoading(loadingId);
+        if (data.status === 'success') {
+            appendGuideMessage('bot', data.reply, data.model, data.duration_ms);
+            guideChatHistory.push({ role: 'user', text: msg });
+            guideChatHistory.push({ role: 'model', text: data.reply });
+        } else {
+            appendGuideMessage('bot', '⚠️ ' + (data.message || '連線稍微塞車，請再問一次喔！'));
+        }
+    })
+    .catch(function(err) {
+        removeGuideLoading(loadingId);
+        appendGuideMessage('bot', '⚠️ 網路連線稍微延遲，請重新發送提問！');
+    });
+}
+
+function appendGuideMessage(sender, rawText, modelName, durationMs) {
+    var box = document.getElementById('guideMessages');
+    if (!box) return null;
+    var msgDiv = document.createElement('div');
+    var id = 'gmsg_' + Date.now() + Math.floor(Math.random() * 100);
+    msgDiv.id = id;
+    msgDiv.className = 'guide-msg guide-msg-' + sender;
+
+    var bubble = document.createElement('div');
+    bubble.className = 'msg-bubble';
+
+    if (sender === 'user') {
+        bubble.innerText = rawText;
+    } else {
+        var html = rawText;
+
+        // 🌟 步驟 1：使用 Token 陣列保護已建立的 HTML 標籤，徹底防止二次取代
+        var linksPool = [];
+
+        // 處理 [標題文字](網址)
+        html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s\)]+)\)/g, function(match, label, url) {
+            var token = '___AI_LINK_' + linksPool.length + '___';
+            linksPool.push(buildLinkButton(url, label));
+            return token;
+        });
+
+        // 處理獨立純網址（嚴格排除結尾括號、星號、反引號與標點）
+        html = html.replace(/(https?:\/\/[^\s\)\*\]\<\>`。，！？；：]+)/g, function(url) {
+            var token = '___AI_LINK_' + linksPool.length + '___';
+            linksPool.push(buildLinkButton(url));
+            return token;
+        });
+
+        // 🌟 步驟 2：處理 Markdown 粗體語法 **文字** -> <b>文字</b>
+        html = html.replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+
+        // 🌟 步驟 3：清理被括號包裹的 Token，如 (___AI_LINK_0___)
+        html = html.replace(/\(\s*(___AI_LINK_\d+___)\s*\)/g, '$1');
+
+        // 🌟 步驟 4：將 Token 安全還原為 HTML 標籤
+        html = html.replace(/___AI_LINK_(\d+)___/g, function(match, idx) {
+            return linksPool[idx] || '';
+        });
+
+        // 🌟 步驟 5：將換行字元轉為 <br>
+        html = html.replace(/\n/g, '<br>');
+
+        // 🌟 步驟 6：若有回傳模型資訊，在訊息底部顯示綠燈連線標籤
+        if (modelName) {
+            var costText = durationMs ? (' (' + (durationMs / 1000).toFixed(1) + 's)') : '';
+            html += '<div class="ai-live-tag">'
+                 +  '<span class="ai-live-dot"></span>'
+                 +  modelName + ' 即時運算' + costText
+                 +  '</div>';
+        }
+
+        bubble.innerHTML = html;
+    }
+
+    msgDiv.appendChild(bubble);
+    box.appendChild(msgDiv);
+    box.scrollTop = box.scrollHeight;
+    return id;
+}
+
+// 統一生產按鈕輔助函式
+function buildLinkButton(url, customLabel) {
+    var cleanUrl = url.trim().replace(/[\)\]\*_~`。，！？；：]+$/, '');
+
+    // 判斷是否為政策專屬帶參連結
+    if (cleanUrl.indexOf('/hub/ai/index.php?q=') !== -1 || cleanUrl.indexOf('/hub/ai/?q=') !== -1) {
+        var keyword = '';
+        try {
+            var u = new URL(cleanUrl);
+            keyword = u.searchParams.get('q') || '';
+        } catch(e) {
+            var parts = cleanUrl.split('q=');
+            if (parts.length > 1) keyword = decodeURIComponent(parts[1].split('&')[0]);
+        }
+        var btnLabel = customLabel || (keyword ? '🔍 查閱【' + keyword + '】深度政見 ↗' : '🔍 前往查看深度政見 ↗');
+        return '<a href="' + cleanUrl + '" target="_blank" class="msg-link-btn msg-link-policy">' + btnLabel + '</a>';
+    }
+
+    // 一般頁面導覽按鈕
+    var label = customLabel ? ('🔗 ' + customLabel + ' ↗') : '🔗 前往此頁面 ↗';
+    return '<a href="' + cleanUrl + '" target="_blank" class="msg-link-btn">' + label + '</a>';
+}
+
+function removeGuideLoading(id) {
+    var el = document.getElementById(id);
+    if (el) el.remove();
+}
+</script>
+<style>
+.footer-span {display:inline-block;margin-right:3px;}
+
+@media(max-width:768px){
+  .footer-span {display:block;}
+}
+
+    :root {
+        --pfp-orange: #F58220; 
+        --pfp-dark: #231815;
+    }
+    a {text-decoration:none !important;}
+    
+    .contact-section { 
+        padding: 80px 20px; 
+        text-align: center; 
+        background: var(--pfp-dark); 
+        color: white; 
+        width: 100%;
+    }
+
+    .social-links { 
+        display: flex; 
+        justify-content: center; 
+        gap: 20px; 
+        margin-top: 40px; 
+        margin-bottom: 20px; 
+    }
+
+    .social-icon { 
+        width: 60px; 
+        height: 60px; 
+        border: 2px solid white; 
+        border-radius: 50%; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        text-decoration: none; 
+        color: white; 
+        font-weight: bold; 
+        transition: all 0.3s ease; 
+        font-size: 0.9rem; 
+    }
+
+    .social-icon:hover { 
+        background: var(--pfp-orange); 
+        border-color: var(--pfp-orange); 
+        transform: scale(1.1); 
+    }
+
+    #other-links div {display:inline-block;padding:10px 20px;border-radius:20px;background:#333;margin:20px;}
+    #other-links a {color:#fff;}
+
+    @media (max-width: 768px) {
+        .contact-section h2 { font-size: 1.8rem; }
+        .social-links { gap: 12px; }
+        .social-icon { width: 50px; height: 50px; font-size: 0.8rem; }
+        section { padding: 60px 5%; }
+    }
+</style>
+
+<!-- ==================== 腳本區 (JavaScript) ==================== -->
+<script>
+// 🌟 核心：分享懸浮選單開關與平台跳轉邏輯
+function toggleShareMenu() {
+    const menu = document.getElementById('share-menu-box');
+    const icon = document.getElementById('fab-share-icon');
+    if (!menu) return;
+    
+    menu.classList.toggle('active');
+    if (menu.classList.contains('active')) {
+        if (icon) icon.innerText = '✖️';
+    } else {
+        if (icon) icon.innerText = '📢';
+    }
+}
+
+// 點擊頁面其他空白區域時，自動收合分享選單
+document.addEventListener('click', function(e) {
+    const shareWrapper = document.querySelector('.floating-share-wrapper');
+    const menu = document.getElementById('share-menu-box');
+    const icon = document.getElementById('fab-share-icon');
+    if (shareWrapper && !shareWrapper.contains(e.target) && menu && menu.classList.contains('active')) {
+        menu.classList.remove('active');
+        if (icon) icon.innerText = '📢';
+    }
+});
+
+// 分享到不同平台的觸發函數
+function shareToPlatform(platform) {
+    const currentUrl = encodeURIComponent(window.location.href);
+    const pageTitle = encodeURIComponent(document.title);
+    let targetUrl = '';
+
+    switch(platform) {
+        case 'line':
+            targetUrl = `https://line.me/R/share?text=${pageTitle}%20${currentUrl}`;
+            break;
+        case 'threads':
+            targetUrl = `https://www.threads.net/intent/post?text=${pageTitle}%20${currentUrl}`;
+            break;
+        case 'fb':
+            targetUrl = `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`;
+            break;
+    }
+
+    if (targetUrl) {
+        window.open(targetUrl, '_blank', 'width=600,height=500,scrollbars=yes,resizable=yes');
+    }
+}
+
+(function() {
+    let currentScale = 1; 
+    let currentX = 0; 
+    let currentY = 0;
+    let isDragging = false; 
+    let startX = 0, startY = 0; 
+    let initialPinchDistance = null;
+
+    // 2. 政治獻金抽屜控制
+    window.toggleDonationBox = function() {
+        const box = document.getElementById('donation-info-box');
+        if (!box) return;
+
+        if (box.style.display === 'none' || box.style.maxHeight === '0px') {
+            box.style.display = 'block';
+            setTimeout(() => {
+                box.style.maxHeight = '300px'; 
+                box.style.opacity = '1';
+                box.style.marginTop = '15px';
+            }, 10);
+        } else {
+            box.style.maxHeight = '0px'; 
+            box.style.opacity = '0';
+            box.style.marginTop = '0px';
+            setTimeout(() => { box.style.display = 'none'; }, 350);
+        }
+    };
+
+    // 3. 一鍵複製系統
+    window.copyToClipboard = function(text, buttonElement) {
+        navigator.clipboard.writeText(text).then(function() {
+            const textSpan = buttonElement.querySelector('.btn-text');
+            const iconSpan = buttonElement.querySelector('.btn-icon');
+            
+            buttonElement.classList.add('copied');
+            if(textSpan) textSpan.innerText = '已複製成功！';
+            if(iconSpan) iconSpan.innerText = '✔️';
+            
+            setTimeout(function() {
+                buttonElement.classList.remove('copied');
+                if(textSpan) textSpan.innerText = '複製';
+                if(iconSpan) iconSpan.innerText = '📋';
+            }, 1500);
+        }, function(err) {
+            alert('複製失敗，請手動選取複製：\n' + text);
+        });
+    };
+
+    // 3. 電話抽屜控制
+    window.togglePhoneBox = function() {
+        const box = document.getElementById('phone-info-box');
+        if (!box) return;
+
+        if (box.style.display === 'none' || box.style.maxHeight === '0px') {
+            box.style.display = 'block';
+            setTimeout(() => {
+                box.style.maxHeight = '200px'; 
+                box.style.opacity = '1';
+                box.style.marginTop = '15px';
+            }, 10);
+        } else {
+            box.style.maxHeight = '0px'; 
+            box.style.opacity = '0';
+            box.style.marginTop = '0px';
+            setTimeout(() => { box.style.display = 'none'; }, 350);
+        }
+    };
+
+    // 4. 地址與地圖抽屜控制
+    window.toggleAddressBox = function() {
+        const box = document.getElementById('address-info-box');
+        if (!box) return;
+
+        if (box.style.display === 'none' || box.style.maxHeight === '0px') {
+            box.style.display = 'block';
+            setTimeout(() => {
+                box.style.maxHeight = '450px';
+                box.style.opacity = '1';
+                box.style.marginTop = '15px';
+            }, 10);
+        } else {
+            box.style.maxHeight = '0px'; 
+            box.style.opacity = '0';
+            box.style.marginTop = '0px';
+            setTimeout(() => { box.style.display = 'none'; }, 350);
+        }
+    };
+
+    // 4. Lightbox 燈箱開關與更新
+    window.openCashModal = function() { 
+        const cashModal = document.getElementById('cashModal');
+        if(cashModal) {
+            currentScale = 1; currentX = 0; currentY = 0; 
+            updateTransform(); 
+            cashModal.style.display = 'flex'; 
+            document.body.style.overflow = 'hidden'; 
+            bindCashEvents(); 
+        }
+    };
+
+    window.closeCashModal = function(e) { 
+        const cashModal = document.getElementById('cashModal');
+        const cashImgContainer = document.querySelector('.cash-img-container');
+        if (cashModal && (e.target === cashModal || e.target === cashImgContainer)) { 
+            forceCloseCashModal(); 
+        } 
+    };
+
+    window.forceCloseCashModal = function() { 
+        const cashModal = document.getElementById('cashModal');
+        if(cashModal) {
+            cashModal.style.display = 'none'; 
+            document.body.style.overflow = 'auto'; 
+            unbindCashEvents(); 
+        }
+    };
+
+    window.zoomCash = function(amount) { 
+        currentScale += amount; 
+        updateTransform(); 
+    };
+
+    function updateTransform() { 
+        const cashImg = document.getElementById('cashImg');
+        if (cashImg) {
+            if (currentScale < 0.8) currentScale = 0.8; 
+            if (currentScale > 4) currentScale = 4; 
+            cashImg.style.transform = `translate(${currentX}px, ${currentY}px) scale(${currentScale})`; 
+        }
+    }
+
+    // 5. 手勢拖曳與縮放核心邏輯
+    function handleStart(e) {
+        const touchCount = e.touches ? e.touches.length : 1;
+        if (touchCount === 2) { 
+            initialPinchDistance = Math.hypot(
+                e.touches[0].pageX - e.touches[1].pageX, 
+                e.touches[0].pageY - e.touches[1].pageY
+            ); 
+        } else { 
+            isDragging = true; 
+            const pageX = e.touches ? e.touches[0].pageX : e.pageX; 
+            const pageY = e.touches ? e.touches[0].pageY : e.pageY; 
+            startX = pageX - currentX; 
+            startY = pageY - currentY; 
+        }
+    }
+
+    function handleMove(e) {
+        if (e.touches && e.touches.length === 2) { 
+            if (!initialPinchDistance) return; 
+            const currentDistance = Math.hypot(
+                e.touches[0].pageX - e.touches[1].pageX, 
+                e.touches[0].pageY - e.touches[1].pageY
+            ); 
+            currentScale = currentScale * (currentDistance / initialPinchDistance); 
+            initialPinchDistance = currentDistance; 
+            updateTransform(); 
+        } else if (isDragging) { 
+            e.preventDefault(); 
+            const pageX = e.touches ? e.touches[0].pageX : e.pageX; 
+            const pageY = e.touches ? e.touches[0].pageY : e.pageY; 
+            currentX = pageX - startX; 
+            currentY = pageY - startY; 
+            updateTransform(); 
+        }
+    }
+
+    function handleEnd() { 
+        isDragging = false; 
+        initialPinchDistance = null; 
+    }
+
+    // 6. 安全監聽器綁定與移除機制
+    function bindCashEvents() { 
+        const cashImgContainer = document.querySelector('.cash-img-container');
+        if(cashImgContainer){ 
+            unbindCashEvents();
+            
+            cashImgContainer.addEventListener('mousedown', handleStart); 
+            window.addEventListener('mousemove', handleMove); 
+            window.addEventListener('mouseup', handleEnd); 
+            cashImgContainer.addEventListener('touchstart', handleStart, { passive: false }); 
+            cashImgContainer.addEventListener('touchmove', handleMove, { passive: false }); 
+            cashImgContainer.addEventListener('touchend', handleEnd); 
+        } 
+    }
+
+    function unbindCashEvents() { 
+        const cashImgContainer = document.querySelector('.cash-img-container');
+        if(cashImgContainer){ 
+            cashImgContainer.removeEventListener('mousedown', handleStart); 
+            window.removeEventListener('mousemove', handleMove); 
+            window.removeEventListener('mouseup', handleEnd); 
+            cashImgContainer.removeEventListener('touchstart', handleStart); 
+            cashImgContainer.removeEventListener('touchmove', handleMove); 
+            cashImgContainer.removeEventListener('touchend', handleEnd); 
+        } 
+    }
+})();
+
+// D. 網址參數自動繼承防線 (Demo Mode)
+window.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('demo') === 'true') {
+        document.querySelectorAll('a').forEach(a => {
+            let href = a.getAttribute('href');
+            if (href && !href.startsWith('javascript:') && !href.startsWith('#')) {
+                try {
+                    const url = new URL(href, window.location.href);
+                    url.searchParams.set('demo', 'true');
+                    if (url.origin === window.location.origin) { a.href = url.pathname + url.search; }
+                } catch(e) {}
+            }
+        });
+    }
+});
+
+// E. jumpAD 軌跡追蹤系統
+(function() {
+  var web_name = "PFP-Youth"; 
+  var now = location.href; 
+  var nowstr = encodeURIComponent(now);
+  var ref = document.referrer;
+  var refstr = encodeURIComponent(ref);
+  var pageTitle = encodeURIComponent(document.title);
+  var web_page = encodeURIComponent(window.location.pathname);
+  var img = new Image();
+  img.src = "https://track.jumpad.com.tw/track-system2.php?wp_web=" + web_name + "&wp_page=" + web_page + "&now=" + nowstr + "&ref=" + refstr + "&wp_subject=" + pageTitle; img.style.display = "none"; document.body.appendChild(img);
+})();
+</script>
+
+
+<!-- 🌟 前台全站廣播 Popup 燈箱 UI & 腳本 -->
+<div id="broadcast-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 99999; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box;">
+    <div style="position: relative; max-width: 500px; width: 100%; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); text-align: left; animation: broadcast-zoomIn 0.3s ease;">
+        
+        <!-- 右上角關閉按鈕 -->
+        <button onclick="closeBroadcastPopup()" style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.5); color: #fff; border: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px; font-weight: bold; z-index: 10; display: flex; align-items: center; justify-content: center;">✕</button>
+
+        <!-- 1. 圖片區塊 -->
+        <div id="broadcast-img-wrap" style="display: none;">
+            <a id="broadcast-img-link" href="#" target="_blank" style="display: block; text-decoration: none;">
+                <img id="broadcast-img" src="" alt="廣播圖片" style="width: 100%; height: auto; display: block; max-height: 50vh; object-fit: contain; background: #111;">
+            </a>
+        </div>
+
+        <!-- 2. HTML 文字區塊 -->
+        <div id="broadcast-text-wrap" style="display: none; padding: 25px 20px 15px 20px; max-height: 40vh; overflow-y: auto; color: #333; line-height: 1.6;">
+            <div id="broadcast-text-content"></div>
+            
+            <!-- 如果只有文字且有連結，額外顯示跳轉按鈕 -->
+            <div id="broadcast-btn-wrap" style="display: none; margin-top: 15px; text-align: center;">
+                <a id="broadcast-text-link" href="#" target="_blank" style="display: inline-block; background: #F58220; color: #fff; text-decoration: none; padding: 10px 25px; border-radius: 25px; font-weight: bold; box-shadow: 0 4px 10px rgba(245,130,32,0.3);">前往了解 ➔</a>
+            </div>
+        </div>
+
+        <!-- 3. 底部狀態欄 -->
+        <div style="padding: 12px 20px; background: #231815; color: #fff; display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem;">
+            <label style="cursor: pointer; display: flex; align-items: center; gap: 6px;">
+                <input type="checkbox" id="broadcast-today-disable" onchange="dismissBroadcastToday()"> 今日不再顯示
+            </label>
+            <span style="color: #F58220; font-weight: bold; cursor: pointer;" onclick="closeBroadcastPopup()">關閉公告</span>
+        </div>
+    </div>
+</div>
+
+<style>
+@keyframes broadcast-zoomIn {
+    from { opacity: 0; transform: scale(0.85); }
+    to { opacity: 1; transform: scale(1); }
+}
+/* 廣播文字內的標籤預設樣式 */
+#broadcast-text-content h1, 
+#broadcast-text-content h2, 
+#broadcast-text-content h3 { margin-top: 0; color: #231815; }
+#broadcast-text-content p { margin-bottom: 10px; }
+#broadcast-text-content a { color: #F58220; text-decoration: underline; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 檢查今天是否已點選「今日不再顯示」
+    const dismissDate = localStorage.getItem('broadcast_dismiss_date');
+    const today = new Date().toDateString();
+    if (dismissDate === today) return;
+
+    fetch('/2026/broadcast_setting.json?t=' + new Date().getTime())
+        .then(response => {
+            if (!response.ok) throw new Error('Network error');
+            return response.json();
+        })
+        .then(data => {
+            // 1. 檢查啟用狀態
+            if (data.enabled !== '1') return;
+
+            // 2. 檢查自動下架時間
+            if (data.auto_close_datetime) {
+                const now = new Date();
+                const expireTime = new Date(data.auto_close_datetime);
+                if (now >= expireTime) return;
+            }
+
+            const hasImg = data.image_url && data.image_url.trim() !== '';
+            const hasText = data.content_html && data.content_html.trim() !== '';
+            const hasLink = data.link_url && data.link_url.trim() !== '';
+
+            // 如果既沒有圖也沒有文，就不顯示
+            if (!hasImg && !hasText) return;
+
+            // A. 處理圖片
+            if (hasImg) {
+                document.getElementById('broadcast-img').src = data.image_url;
+                const imgWrap = document.getElementById('broadcast-img-wrap');
+                imgWrap.style.display = 'block';
+                
+                if (hasLink) {
+                    document.getElementById('broadcast-img-link').href = data.link_url;
+                } else {
+                    document.getElementById('broadcast-img-link').removeAttribute('href');
+                }
+            }
+
+            // B. 處理 HTML 文字
+            if (hasText) {
+                document.getElementById('broadcast-text-content').innerHTML = data.content_html;
+                document.getElementById('broadcast-text-wrap').style.display = 'block';
+
+                // 如果只有文字沒有圖片，且有填連結，顯示按鈕
+                if (!hasImg && hasLink) {
+                    document.getElementById('broadcast-text-link').href = data.link_url;
+                    document.getElementById('broadcast-btn-wrap').style.display = 'block';
+                }
+            }
+
+            // 顯示彈窗
+            document.getElementById('broadcast-popup').style.display = 'flex';
+        })
+        .catch(err => console.log('BroadCast status:', err));
+});
+
+function closeBroadcastPopup() {
+    document.getElementById('broadcast-popup').style.display = 'none';
+}
+
+function dismissBroadcastToday() {
+    const chk = document.getElementById('broadcast-today-disable');
+    if (chk && chk.checked) {
+        localStorage.setItem('broadcast_dismiss_date', new Date().toDateString());
+        setTimeout(closeBroadcastPopup, 200);
+    }
+}
+</script>
+<center>
+<div style="border:0px solid #f00;background:#fff;overflow:hidden;">
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLIOUCHENGCHIEN&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+        width="340" 
+        height="500" 
+        scrolling="no" 
+        frameborder="0" 
+        allowfullscreen="true" 
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+        style="border:none;overflow:hidden;width:340px;height:500px;margin-top:-95px;">
+</iframe>
+</div>
+</center>
+
+<style>
+.hero-social-box,.address-info-box,.donation-info-box {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.donation-info-box,.address-info-box,.donation-info-box {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    border: none !important;
+}
+</style>
+
+<script>
+// 控制參選理念抽屜開闔
+function toggleStoryDrawer() {
+    const drawer = document.getElementById('storyDrawer');
+    const btn = document.getElementById('storyTabBtn');
+    const arrow = document.getElementById('storyArrow');
+
+    const isOpen = drawer.classList.contains('active');
+
+    if (isOpen) {
+        drawer.classList.remove('active');
+        btn.classList.remove('active');
+        arrow.textContent = '▼';
+    } else {
+        drawer.classList.add('active');
+        btn.classList.add('active');
+        arrow.textContent = '▲';
+    }
+}
+</script>
+
+</body>
+</html>

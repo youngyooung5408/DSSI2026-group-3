@@ -1,0 +1,1796 @@
+
+<!doctype html>
+<html lang="zh-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"GovernmentOrganization","@id":"https://www.cyscc.gov.tw/#organization","name":"嘉義縣議會全球資訊網","url":"https://www.cyscc.gov.tw/","address":{"@type":"PostalAddress","addressCountry":"TW","addressLocality":"朴子市","addressRegion":"嘉義縣","postalCode":"613","streetAddress":"嘉義縣朴子市祥和一路西段一號"},"contactPoint":{"@type":"ContactPoint","areaServed":"TW","availableLanguage":"zh-Hant","contactType":"general inquiries","telephone":"05-3620076"},"logo":"https://ws.cyscc.gov.tw/001/Upload/1/sites/pagebackimage/index_toplogo.png"},{"@type":"WebSite","@id":"https://www.cyscc.gov.tw/#website","name":"嘉義縣議會全球資訊網","url":"https://www.cyscc.gov.tw/"},{"@type":"NewsArticle","image":{"@type":"ImageObject","url":"https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14152/fdf1884d-fbf9-4d85-af50-0a07a3242f38.jpg","height":800,"width":800},"url":"https://www.cyscc.gov.tw/Parliamentary_Content/315/14152/","dateModified":"2025-04-28T17:01:27.797+08:00","datePublished":"2025-04-28T17:01:27.797+08:00","headline":"戴光宗","publisher":{"@id":"https://www.cyscc.gov.tw/#organization"}}]}
+</script>
+<link rel="canonical" href="https://www.cyscc.gov.tw/Parliamentary_Content/315/14152/" />
+<meta property="og:title" content="戴光宗" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cyscc.gov.tw/Parliamentary_Content/315/14152/" />
+<meta property="og:site_name" content="嘉義縣議會全球資訊網" />
+<meta property="og:image" content="https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14152/fdf1884d-fbf9-4d85-af50-0a07a3242f38.jpg" />
+
+
+
+
+    <!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
+<script src='/Scripts/qrcode.min.js'></script>
+
+<script src='/Scripts/core.min.js'></script>
+<script src='/Scripts/jquery.cookie.js'></script>
+<script src='/Scripts/fancybox/jquery.fancybox.js'></script>
+<link rel='stylesheet' type='text/css' href='/Scripts/fancybox/jquery.fancybox.css'>
+<script src='/Scripts/lightGallery/js/lightgallery-all.min.js'></script>
+<link rel='stylesheet' type='text/css' href='/Scripts/lightGallery/css/lightgallery.min.css'>
+<script src='/Scripts/Chart/chart.js'></script>
+<script src='/Scripts/jquery.mousewheel.min.js'></script>
+<script src='/Scripts/jquery.touchwipe.min.js'></script>
+<script src='/Scripts/airdatepicker/datepicker.min.js'></script>
+<script src='/Scripts/airdatepicker/datepicker.zh-tw.js'></script>
+<script src='/Scripts/airdatepicker/datepicker.en.js'></script>
+<script src='/Scripts/jUtil.js'></script>
+<script src='/Scripts/TMap.js'></script>
+
+<link rel='stylesheet' type='text/css' href='/Scripts/airdatepicker/datepicker.min.css'>
+    <script src='/Scripts/vue.global.prod.min.js'></script>
+
+
+
+
+
+<script src='/StaticHtml/1/Site.js'></script>
+
+<script>
+    let ajax_TOKEN= "CfDJ8MrOE7HhrbFKnELworQDOiKk6KbppldXFuiHXgh62YWlJteJs_u6w8YD48quljBuVwAj15hzWJkagjk07f0ngj6bsN533_XMgSYPSDVHFYxAxFMa38t_PacA_ORevGNnMdYkK2EAxhgXLRH8VCW10Jg";
+    //$(document).ajaxSend(function (e, xhr, options) {
+    //    const verbs = ['GET', 'HEAD', 'OPTIONS', 'TRACE'];
+    //    if (verbs.indexOf(options.type.toUpperCase()) == -1) {
+    //        xhr.setRequestHeader("X-CSRF-TOKEN",ajax_TOKEN );
+    //    }
+    //});
+    XMLHttpRequest.prototype.origOpen = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open   = function () {
+            this.origOpen.apply(this, arguments);
+        const targetURL = arguments[1]; // 取得網址
+        //判斷為 CCMS_SiteAPI 才要加上  CORS policy
+        if (targetURL.toLowerCase().startsWith(CCMS_SiteAPI.toLowerCase())) {
+            this.setRequestHeader("X-CSRF-TOKEN", ajax_TOKEN);
+            this.setRequestHeader("C-Content-Path", CCMS_ContentPath);
+        }
+    };
+</script>
+
+<script>
+    var CM_Data =
+    {
+        SitesS_N: 1,
+        WebArchiveS_N: 315,
+        IsDefault : false,
+        IsSatisFied: false,
+        StaticHtmlFolerName: function() {
+            if (this.IsDefault) {
+                return `/StaticHtml/${this.SitesS_N}/Architecture/`;
+            }
+            else {
+                return `/StaticHtml/${this.SitesS_N}/DetailArchitecture/`;
+            }
+        },
+        WebArchive_Name: '本屆議員',
+        NewsData_Title: '戴光宗'
+    };
+    var CCMS_WWWURL = 'https://www.cyscc.gov.tw/';
+    var CCMS_ContentPath = '';
+    var CCMS_LanguageSN = 1;
+    var CCMS_SitesS_N = '1';
+    var CCMS_WebArchiveS_N = '315';
+    var CCMS_Data_S_N = '14152';
+    var CCMS_SiteAPI = 'https://api.cyscc.gov.tw/1/';
+    var PageExpired_Setting = {
+        StartDate: '2025-04-28 17:01:27',
+        EndDate: '9999-12-31 23:59:59',
+    };
+    //判斷是否下架
+    // 獲取目前時間的 Date 對象
+    var currentDate = new Date();
+
+    // 將開始日期和結束日期轉換為 Date 對象
+    var startDate = new Date(PageExpired_Setting.StartDate);
+    var endDate = new Date(PageExpired_Setting.EndDate);
+
+    // 判斷目前時間是否在指定的時間範圍內
+    if (currentDate >= startDate && currentDate <= endDate) {
+    } else {
+        window.location = '/404.html'
+    }
+</script>
+<script>
+    $(function () {
+        //TODO debug先不開啟鎖右鍵
+        //document.oncontextmenu = new Function("return false");
+    })
+    var ajaxCounter = 0; // 計數器，追蹤 Ajax 請求的數量
+    var loadingTimer; // 計時器，用於隱藏 .area-customize.loading
+    function IsCM_DisableLoading(ajaxOptions) {
+        var _CM_DisableLoading = false;
+        if (typeof (ajaxOptions.CM_DisableLoading) === "undefined") {
+            _CM_DisableLoading = false;
+        } else {
+            _CM_DisableLoading = ajaxOptions.CM_DisableLoading;
+        }
+        return _CM_DisableLoading;
+    }
+    let ajaxStartTime = 0;
+    let ajaxCloseTime = 0;
+    $(document).ajaxSend(function (event, jqXHR, ajaxOptions) {
+        
+
+        if (!IsCM_DisableLoading(ajaxOptions)) {
+
+            ajaxCounter++; // 每次 Ajax 請求開始，計數器加一
+            if (ajaxCounter === 1) {
+                // 如果是第一個 Ajax 請求，顯示 .area-customize.loading
+                $('.area-customize.loading').show();
+                ajaxStartTime = new Date().getTime();
+            }
+        } 
+    });
+
+    $(document).ajaxComplete(function (event, jqXHR, ajaxOptions) {
+        if (!IsCM_DisableLoading(ajaxOptions)) {
+            ajaxCounter--; // 每次 Ajax 請求完成，計數器減一
+            if (ajaxCounter === 0) {
+                // 如果所有 Ajax 請求完成，延遲隱藏 .area-customize.loading
+                clearTimeout(loadingTimer); // 清除計時器
+                ajaxCloseTime = new Date().getTime();
+                setTimeout(function () {
+                    if (ajaxCloseTime > ajaxStartTime) {
+                        $('.area-customize.loading').hide();
+                    }
+                }, 200); // 延遲隱藏一秒
+            }
+        }
+
+        //ex:訊息列表API 需重產linktype
+        $(".group.page-content").attr("data-func", $(".group.page-content").data("funclog"))
+        RefreshRequirejs();
+       
+        let count = 0;
+        let interval = setInterval(() => {
+            if (count < 3) {
+                RefreshRequirejs();
+                count++;
+            } else {
+                clearInterval(interval); 
+            }
+        }, 1000);
+    });
+
+    function RefreshRequirejs() {
+        requirejs(['main'], function (func) {
+            func();
+        });
+    }
+</script>
+
+
+
+    
+<!-- Css 樣式表 -->
+<link rel="stylesheet" href="/Style_1/css/global.css"> <!-- 全域 -->
+<link rel="stylesheet" href="/Style_1/css/cp.css"> <!-- 自訂頁 -->
+<link rel="stylesheet" href="/Style_1/css/print.css" media="print"> <!-- 列印 -->
+    <link rel="stylesheet" href="/Style_1/css/page.css"> <!-- 內頁 -->
+<link href="https://ws.cyscc.gov.tw/001/Upload/1/sites/pagebackimage/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href='/Scripts/froala_editor.pkgd.min.css'>
+
+<!-- Css 結束 -->
+<style>
+    .for_accessibility a {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 99;
+        width: 1px;
+        height: 1px;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #000;
+    }
+
+        .for_accessibility a:focus {
+            width: auto;
+            height: auto;
+            padding: 6px;
+            background-color: #fff;
+        }
+
+    .for_accessibility div {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background-color: transparent;
+        opacity: .1
+    }
+</style>
+
+
+<link rel='stylesheet' type='text/css' href='/StaticHtml/1/Site_Detail.css'>
+
+
+    <script>
+    function Vue_Pager(app, options) {
+        app.component('pager', {
+            props: ['pager'],
+            template: `<div class="area-customize pagination" data-type="0" data-child="1" role="navigation" aria-label="頁面導覽">
+                                                <div class="in">
+                                                    <div class="ct">
+                                                        <div class="in">
+                                                            <div class="pagination-container">
+                                                                <ul class="pagination">
+                                                                    <li data-index="1" class="itemSelect">
+                                                                        <label for="InputPageSize" id="InputPageSizeLabel">每頁</label>
+                                                                        <select id="InputPageSize" name="itemsPerPage" aria-labelledby="itemSelectLabel" v-model.number="InputPageSize" @change="PageSizeGo">
+                                                                            <option value="10">10</option>
+                                                                            <option value="20">20</option>
+                                                                            <option value="50">50</option>
+                                                                            <option value="100">100</option>
+                                                                            <option value="150">150</option>
+                                                                            <option value="200">200</option>
+                                                                            <option value="300">300</option>
+                                                                            <option value="500">500</option>
+                                                                        </select>
+                                                                    </li>
+                                                                    <li data-index="1"><span>筆</span><span>，</span></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="pagination-container">
+                                                                <ul class="pagination">
+                                                                    <li class="PagedList-skipToFirst"><a href="javascript:void(0);" title="前往第一頁" aria-label="前往第一頁"  @click="refreshData(1)">第一頁</a></li>
+                                                                    <li class="PagedList-skipToPrevious"><a href="javascript:void(0);" rel="prev" title="上一頁" aria-label="上一頁" @click="PrevPage">上一頁</a></li>
+                                                                    <li class="pageSelect"><label for="InputGoPage" aria-current="page">目前頁數</label><input id="InputGoPage" type="number" min="1" v-model.number="GoPageNumber"></li>
+                                                                    <li data-index="1"><span>/</span><span>{{PageCount}}</span><span>頁</span></li>
+                                                                    <li class="PageSizeGo"><a class="btn" role="button" href="javascript:void(0);" title="執行" aria-label="執行" @click="GoPage">執行</a></li>
+                                                                    <li class="PagedList-skipToNext"><a href="javascript:void(0)" rel="next" title="前往下一頁" aria-label="前往下一頁" @click="NextPage">下一頁</a></li>
+                                                                    <li class="PagedList-skipToLast"><a href="javascript:void(0)" title="前往最後一頁" aria-label="前往最後一頁" @click="refreshData(PageCount)">最後一頁</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>`,
+            data: function () {
+                return {
+                    Pager: this.pager,
+                    InputPageSize: this.pager.PageSize,
+                    SettingPageCount: 8,
+                    GoPageNumber:1
+                };
+            },
+            computed: {
+                PageCount: function () {
+                    return Math.ceil(this.Pager.DataCount / this.Pager.PageSize);
+                },
+                pagesToShow() {
+                    if (this.PageCount <= this.SettingPageCount) {
+                        return Array.from({ length: this.PageCount }, (_, index) => index + 1);
+                    } else if (this.Pager.PageNumber <= Math.ceil(this.SettingPageCount / 2)) {
+                        return Array.from({ length: this.SettingPageCount }, (_, index) => index + 1);
+                    } else if (this.Pager.PageNumber >= (this.PageCount - (Math.floor(this.SettingPageCount / 2) - 1))) {
+                        return Array.from({ length: this.SettingPageCount }, (_, index) => this.PageCount - (this.SettingPageCount - 1) + index);
+                    } else {
+                        return Array.from({ length: this.SettingPageCount }, (_, index) => this.Pager.PageNumber - Math.ceil(this.SettingPageCount / 2) + index);
+                    }
+                },
+            },
+            methods: {
+                PrevPage: function () {
+                    if(this.Pager.PageNumber-1 < 1){
+                        return;
+                    }
+                    this.refreshData(this.Pager.PageNumber-1);
+                },
+                NextPage:function(){
+                    if(this.Pager.PageNumber + 1 > this.PageCount){
+                        return;
+                    }
+                    this.refreshData(this.Pager.PageNumber+1);
+                },
+                GoPage:function(){
+                    this.scrollToTop();
+                    if(this.GoPageNumber < 1){
+                        this.GoPageNumber = 1;
+                    }
+                    if(this.GoPageNumber > this.PageCount){
+                        this.GoPageNumber = this.PageCount;
+                    }
+                    this.Pager.PageNumber = this.GoPageNumber;
+                    this.$emit('refreshdata');
+                },
+                PageSizeGo: function () {
+                    this.scrollToTop();
+                    this.Pager.PageSize = this.InputPageSize;
+                    this.Pager.PageNumber = 1;
+                    this.GoPageNumber = 1;
+                    this.$emit('refreshdata');
+                },
+                refreshData: function (PageNumber) {
+                    this.scrollToTop();
+                    this.Pager.PageNumber = PageNumber;
+                    this.GoPageNumber = this.Pager.PageNumber;
+                    this.$emit('refreshdata');
+                },
+                scrollToTop : function(smooth = true){
+                      window.scrollTo({
+                        top: 0,
+                        behavior: smooth ? 'smooth' : 'auto'
+                      });
+                }
+            },
+            mounted(){
+                this.GoPageNumber = this.Pager.PageNumber;
+            }
+        });
+    };
+</script>
+
+<script>
+    function Vue_DatePicker(app) {
+        app.directive('datepicker', {
+            init: function (el, option) {
+                var $el = $(el),
+                    Datepicker,
+                    s,
+                    DatepickerOption = {},
+                    datepickerSetting = {};
+
+                try {
+                    DatepickerOption = JSON.parse(JSON.stringify(option));
+                    // 設定onSelect回調函數
+                    DatepickerOption.onSelect = function (formattedDate, date, inst) {
+                        var
+                            event = new Event("input", { bubbles: true });
+                        el.value = inst.$el.val();
+                        el.dispatchEvent(event);
+                    };
+                    datepickerSetting = Object.keys(DatepickerOption).reduce((acc, item) => {
+                        const value = DatepickerOption[item];
+
+                        if (!acc[item]) {
+                            acc[item] = value;
+                        }
+
+                        return acc;
+                    }, {});
+
+                    $el.addClass('Wdate is-date')
+                        .prop('required', DatepickerOption.IsRequired);
+                    $el.val($el.val().replace('T', ' '));
+
+                    Datepicker = $el.datepicker(datepickerSetting).data('datepicker');
+
+                    s = new Date($el.val());
+
+                    if (!isNaN(s)) {
+                        Datepicker.selectDate(s);
+                    }
+
+                } catch (e) {
+                    console.log("datepicker error:" + e);
+                }
+            },
+            destroy: function (el) {
+                try {
+                    $(el).datepicker().data('datepicker').destroy();
+                } catch (e) {
+                    console.log("datepicker error:" + e);
+                }
+            },
+            beforeMount: function (el, binding, vnode) {
+
+            },
+            mounted: function (el, binding, vnode) {
+
+                var $obj = binding.value || {};
+                console.log("SiteJs.DatePickerConfig", SiteJs.DatePickerConfig)
+
+                if (typeof $obj === 'string') {
+                    try {
+                        $obj = JSON.parse(JSON.stringify($obj));
+                    } catch (e) {
+                        $obj = {};
+                        console.error("JSON Parse Error: " + e);
+                    }
+                }
+
+                let option = { ...SiteJs.DatePickerConfig, ...$obj };
+                //$.extend(option, $obj); //如果用extend SiteJs.DatePickerConfig 會被寫掉
+
+
+                binding.dir.init(el, option);
+            },
+            updated: function (el, binding, vnode) {
+                const $el = $(el);
+                $el.trigger("change");
+            },
+            beforeUnmount: function (el, binding) {
+                binding.dir.destroy(el);
+            }
+        });
+    }
+</script>
+<script>
+    function Vue_Search(app) {
+        app.component('search', {
+            props: ['searchconfig', 'pager', 'url', 'showcategorytab','search_showsearch', 'smssn'],
+            template: `<div v-if="search_showsearch" class="area-form page-search" data-index="1" data-type="0" data-func="{'toggleBtn':{'cookie':'true'}}" v-show="(searchconfig_normal && searchconfig_normal.length>0)||(searchconfig_advanced && searchconfig_advanced.length>0)">
+                                <div class="in">
+                                    <div class="hd">
+                                        <div class="in">
+                                            <div>
+                                                <span><a href="#" role="button" title="關閉[頁面搜尋]">頁面搜尋</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ct">
+                                        <div class="in">
+                                            <div class="search-default">
+                                                <div class="fieldset">
+                                                    <searchblock :searchconfig="searchconfig_normal" :url="url" :smssn="smssn" v-show="searchconfig_normal&&searchconfig_normal.length>0" :ui_listcategory="UI_ListCategory" ></searchblock>
+                                                </div>
+                                                <div class="fieldset">
+                                                    <span class="submit"><input type="submit" @click="DoSearch" value="送出"></span>
+                                                </div>
+                                                <div class="fieldset">
+                                                    <span class="btn advanced"><input type="button" @click="ToggleAdvanced" value="進階搜尋" v-show="searchconfig_advanced && searchconfig_advanced.length>0"></span>
+                                                </div>
+                                            </div>
+                                            <div class="search-advanced" style="display:block" v-if="this.IsToggleAdvanced">
+                                                <searchblock :searchconfig="searchconfig_advanced" :url="url" :ui_listcategory="UI_ListCategory" ></searchblock>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <categorytab v-if="showcategorytab" :searchconfig="searchconfig" :ui_listcategory="UI_ListCategory" @dosearch="DoSearch"></categorytab>`
+                            ,
+
+            data: function () {
+                return {
+                    IsToggleAdvanced: false,
+                    UI_ListCategory: []
+                }
+            },
+            methods: {
+                ToggleAdvanced() {
+                    this.IsToggleAdvanced = !this.IsToggleAdvanced;
+                },
+                DoSearch() {
+                    this.pager.PageNumber = 1;
+                    this.refreshData();
+                },
+                Search(listCategory) {
+                    if (this.searchconfig.find(o => o.ColumnID == 'NewWWWDynamiSettingService_Category') == undefined) {
+                        this.searchconfig.push({ ColumnID: 'NewWWWDynamiSettingService_Category' });
+                    }
+                    this.searchconfig.find(o => o.ColumnID == "NewWWWDynamiSettingService_Category").val = JSON.stringify(listCategory);
+                    const filteredList = this.UI_ListCategory.filter(item => listCategory.includes(item.S_N));
+                    filteredList.forEach(item => {
+                        item.UI_Checked = true;
+                    });
+                    this.DoSearch();
+                },
+                refreshData: function (PageNumber) {
+                    if (!PageNumber) { PageNumber = 1 }
+                    this.pager.PageNumber = PageNumber;
+                    this.$emit('refreshdata');
+                },
+                GetUIListCategory(isFirst = false) {
+                    let that = this;
+                    let config_category = this.searchconfig.find(o => o.ColumnID == 'NewWWWDynamiSettingService_Category') || this.showcategorytab;
+                    if (config_category) {
+                        let APIurl = `${this.url}?handler=UIListCategory`;
+                        $.ajax({
+                            url: APIurl, // 將查詢字串附加到 URL 中
+                            type: 'GET',
+                            success: (response) => {
+                                that.UI_ListCategory = response.Data;
+                                config_category.val = [];
+                                if(this.smssn == 63 && isFirst){
+                                    let selected = this.UI_ListCategory.find(o=> o.UI_Checked == true );
+                                    if(selected){
+                                        let temp = [];
+                                        temp.push(selected.S_N);
+                                        this.searchconfig.find(o => o.ColumnID == 'NewWWWDynamiSettingService_Category').val = JSON.stringify(temp);
+                                    }
+                                }
+                                if (getParameterByName('qc')!=null) {
+                                    that.Search(JSON.parse(getParameterByName('qc')));
+                                }
+
+                            },
+                            error: (xhr) => {
+                                console.log(xhr.responseText);
+                            }
+                        });
+                    }
+                },
+
+            },
+            mounted() {
+                this.GetUIListCategory(true);
+            },
+            computed: {
+                searchconfig_normal: function () { return this.searchconfig.filter(o => o.eECM_DynamicSearchColumnType == 1) },
+                searchconfig_advanced: function () { return this.searchconfig.filter(o => o.eECM_DynamicSearchColumnType == 2) },
+            }
+        });
+    };
+
+    function Vue_SearchBlock(app) {
+        app.component('searchblock', {
+            props: ['searchconfig', 'url','ui_listcategory', 'smssn'],
+            template:
+                `<div class="fieldset" v-for="Config in searchconfig" :key="Config.ColumnID">
+                                          <span v-if="Config.ColumnID=='CreateDepartmentS_N'" class="search">
+                                              <label :for="'Search_'+Config.ColumnID">{{Config.ColumnName}}：</label>
+                                              <select :id="'Search_' +Config.ColumnID" v-model="Config.val" :title="Config.ColumnName" class="page-select">
+                                                  <option v-for="oDepartment in UI_ListCreateDepartment" v-bind:value="oDepartment.Value">{{oDepartment.Text}}</option>
+                                              </select>
+                                          </span>
+                                          <div class="cp selecter authorize" v-else-if="Config.ColumnID=='NewWWWDynamiSettingService_Category'">
+                                              <label :for="'Search_'+Config.ColumnID">{{Config.ColumnName}}：</label>
+                                              <template v-if="smssn == 63">
+                                                <select :id="'Search_' +Config.ColumnID" v-on:change="SetCategory(Config,$event)" :title="Config.ColumnName" class="page-select">
+                                                  <option v-for="oOption in ui_listcategory" v-bind:value="oOption.S_N" :selected="oOption.UI_Checked">{{oOption.Name}}</option>
+                                                </select>
+                                              </template>
+                                              <template v-else>
+                                                <div class="items" v-for="(item,i) in UI_ListSelectedCategory">
+                                                    <span class="is-name">{{item.Name}}</span>
+                                                    <span class="is-remove" @click="RemoveCategory(i)">取消</span>
+                                                </div>
+                                                <a class="btn is-square is-info" @click="PopupCategoryUI()">請選擇</a>
+                                              </template>
+                                          </div>
+                                          <span v-else-if="Config.ColumnID=='StartDate'" class="search">
+                                              <label :for="'Search_'+Config.ColumnID">{{Config.ColumnName}}：</label>
+                                              <input type="text" v-datepicker="Getdatepickeroption()" :title="Config.ColumnName" placeholder="" v-model="Config.val" class="dynDateTime" :id="'Search_' +Config.ColumnID">
+                                              ~
+                                              <input type="text" v-datepicker title="結束時間" placeholder="" v-model="Config.val1" class="dynDateTime">
+                                          </span>
+                                          <span v-else-if="Config.ColumnType=='5' || Config.ColumnType=='6'" class="search" >
+                                              <label :for="'Search_'+Config.ColumnID">{{Config.ColumnName}}：</label>
+                                              <input type="text" v-datepicker :title="Config.ColumnName" placeholder="" v-model="Config.val" class="dynDateTime" :id="'Search_' +Config.ColumnID">
+                                          </span>
+                                          <span v-else-if="Config.ColumnType=='4' || Config.ColumnType=='8'|| Config.ColumnType=='9'" class="search" >
+                                              <label :for="'Search_'+Config.ColumnID">{{Config.ColumnName}}：</label>
+                                              <select :id="'Search_' +Config.ColumnID" v-model="Config.val" :title="Config.ColumnName" class="page-select">
+                                                  <option v-for="oOption in Config.Options" v-bind:value="oOption.Value">{{oOption.Text}}</option>
+                                              </select>
+                                          </span>
+                                          <template v-else-if="Config.ColumnType=='10'" >
+                                              <input type="hidden" v-model="Config.val" :title="Config.ColumnName">
+                                              <span class="search" >
+                                                  <label :for="'Search_'+Config.ColumnID+'_0'">{{Config.ColumnName.split('/')[0] || ''}}：</label>
+                                                  <select :id="'Search_' +Config.ColumnID+'_0'" v-on:change="GetMultiData(Config.ColumnID,Config,1)" :title="Config.ColumnName.split('/')[0] || ''" class="page-select">
+                                                    <option v-for="oOption in GetMultiOption(Config,1)" v-bind:value="oOption.Value">{{oOption.Text}}</option>
+                                                  </select>
+                                              </span>
+                                              <span class="search" >
+                                                  <label :for="'Search_'+Config.ColumnID+'_1'">{{Config.ColumnName.split('/')[1] || ''}}：</label>
+                                                  <select :id="'Search_' +Config.ColumnID+'_1'" v-on:change="GetMultiData(Config.ColumnID,Config,2)" :title="Config.ColumnName.split('/')[1] || ''" class="page-select">
+                                                    <option v-for="oOption in GetMultiOption(Config,2)" v-bind:value="oOption.Value">{{oOption.Text}}</option>
+                                                  </select>
+                                              </span>
+                                          </template>
+                                          <span v-else class="search" >
+                                              <label :for="'Search_'+Config.ColumnID">{{Config.ColumnName}}：</label>
+                                              <input :id="'Search_' +Config.ColumnID" type="search" :placeholder="'請輸入'+Config.ColumnName" v-model="Config.val" :title="Config.ColumnName">
+                                          </span>
+                                     </div>
+                                     `,
+            data: function () {
+                return {
+                    UI_ListCreateDepartment: [],
+                };
+            },
+            mounted() {
+                this.GetUIListOptionAll();
+                this.GetUIListDepartment();
+            },
+            methods: {
+                SetCategory: function(Config,e){
+                    let $vue = this;
+                    let tempCategory = [];
+                    let val = $(e.target).val();
+                    tempCategory.push(val);
+                    Config.val = JSON.stringify(tempCategory);
+                    $.each($vue.ui_listcategory,function(i,v){
+                        if(v.S_N == val){
+                            v.UI_Checked = true;
+                        }else{
+                            v.UI_Checked = false;
+                        }
+                    })
+                },
+                GetMultiOption: function(Config, type){
+                    let options = [];
+                    options.push({Value:"",Text:"請選擇"});
+                    if(Config.Options){
+                        let temp = Config.Options.filter(function(item)
+                        { 
+                            if( type == "1"){
+                                return item.Level == type
+                            }else {
+                                if(Config.valArray){
+                                    return item.Level == type && item.Parent == Config.valArray[type-2]
+                                }
+                            }
+                            
+                        });
+                        options.push(...temp);
+                        return options;
+                        
+                    }
+                    else
+                    {
+                        return options;
+                    }
+                },
+                GetMultiData: function(ColumnID,Config,type){
+                    let $root = $(this.$el)[0];
+                    if($root){
+                        let valArr = []
+                        valArr.push($($root.parentElement).find(`#Search_${ColumnID}_0`).val() || '');
+                        if(type == 2){
+                            valArr.push($($root.parentElement).find(`#Search_${ColumnID}_1`).val() || '');
+                        }
+                        else{
+                            $($root.parentElement).find(`#Search_${ColumnID}_1`).val("");
+                        }
+                        let targetVal = valArr.reduce((obj, item) => {
+                            obj.push(`"${item}"`);
+                            return obj;
+                        }, []);
+                        Config.val = targetVal.join(`;`);
+                        Config.valArray = valArr;
+                        console.log(Config.val);
+                    }
+                },
+                Getdatepickeroption () {
+                    option = SiteJs.DatePickerConfig;
+                    return option;
+                },
+
+                GetUIListOptionAll() {
+                    this.searchconfig.forEach(o => {
+                        if (o.ColumnType == 4 || o.ColumnType == 8 || o.ColumnType == 9) {
+                            this.GetUIListOption(o.ColumnID);
+                        }else if(o.ColumnType == 10 ){
+                            this.GetMultiListOption(o.ColumnID);
+                        }
+                    })
+                },
+                RemoveCategory(i) {
+                    let Selected = this.UI_ListSelectedCategory
+                    Selected.splice(i, 1);
+                    let SelectedS_N = Selected.map(o => o.S_N);
+                    this.searchconfig.find(o => o.ColumnID == 'NewWWWDynamiSettingService_Category').val = JSON.stringify(SelectedS_N);
+                    this.ui_listcategory.forEach(o => {
+                        o.UI_Checked = false;
+                        if (SelectedS_N.includes(o.S_N)) {
+                            o.UI_Checked = true;
+                        }
+                    })
+                },
+                GetUIListOption(ColumnID) {
+                    let oColumn = this.searchconfig.find(o => o.ColumnID == ColumnID);
+                    if (oColumn) {
+                        let API_url = `${this.url}?handler=UIListOption`;
+                        $.ajax({
+                            url: API_url, // 將查詢字串附加到 URL 中
+                            type: 'GET',
+                            data: { ColumnID: ColumnID },
+                            success: (response) => {
+                                oColumn.Options = response.Data;
+                                oColumn.val = "";
+                            },
+                            error: (xhr) => {
+                                console.log(xhr.responseText);
+                            }
+                        });
+                    }
+                },
+                GetMultiListOption(ColumnID) {
+                    let oColumn = this.searchconfig.find(o => o.ColumnID == ColumnID);
+                    if (oColumn) {
+                        let API_url = `${this.url}?handler=CategoryListOption`;
+                        $.ajax({
+                            url: API_url, // 將查詢字串附加到 URL 中
+                            type: 'GET',
+                            data: { ColumnID: ColumnID },
+                            success: (response) => {
+                                oColumn.Options = response.Data;
+                                oColumn.val = "";
+                            },
+                            error: (xhr) => {
+                                console.log(xhr.responseText);
+                            }
+                        });
+                    }
+                },
+                GetUIListDepartment() {
+                    let oColumn = this.searchconfig.find(o => o.ColumnID == 'CreateDepartmentS_N');
+                    if (oColumn) {
+                        let API_url = `${this.url}?handler=UIListDepartment`;
+                        $.ajax({
+                            url: API_url, // 將查詢字串附加到 URL 中
+                            type: 'GET',
+                            success: (response) => {
+                                this.UI_ListCreateDepartment = response.Data;
+                                oColumn.val = "-1";
+                            },
+                            error: (xhr) => {
+                                console.log(xhr.responseText);
+                            }
+                        });
+                    }
+                },
+                PopupCategoryUI: function () {
+                    let that = this;
+                    const appInstance_CategoryUI = create_CategoryUI(that.ui_listcategory);
+                    Popup({
+                        width: 'w-l',
+                        height: 'h-l',
+                        headingText: '選擇類別',
+                        contentType: 'html',
+                        contentData: template_CategoryUI,
+                        // 加載後要執行的動作
+                        loadAction: function () {
+                            appInstance_CategoryUI.mount('#CategoryUI')
+                        },
+                        // 關閉後要執行的動作
+                        closeAction: function () {
+                            appInstance_CategoryUI.unmount();
+                        }
+                    })
+                },
+            },
+            computed: {
+                ListSelectedCategory: function () {
+                    let oConfig_Category = this.searchconfig.find(o => o.ColumnID == 'NewWWWDynamiSettingService_Category');
+                    if (oConfig_Category && oConfig_Category.val) {
+                        let value = oConfig_Category.val;
+                        if (value && value != '') {
+                            let list_Selected = JSON.parse(value);
+                            return this.ui_listcategory.filter(o => list_Selected.includes(o.S_N));
+                        }
+                    }
+                    return [];
+                },
+                UI_ListSelectedCategory: function () {
+                    let ListS_N_Selected = this.ListSelectedCategory.map(o => o.S_N);
+                    return this.ListSelectedCategory.filter(o => !ListS_N_Selected.includes(o.ParentS_N))
+                },
+            }
+        });
+    };
+
+    function Vue_CategoryTab(app) {
+        app.component('categorytab', {
+            props: ['ui_listcategory', 'searchconfig'],
+            template: `
+                        <div class="list-text classify" data-type="0" :data-child="ListParentCategory.length" v-if="ListParentCategory.length >1">
+                            <div class="in">
+                                <div class="ct">
+                                    <div class="in">
+                                        <ul data-index="1" data-child="4">
+                                                <li :data-index="i"  v-for="(item,i) in ListParentCategory" :key="item.S_N" :class="{'is-active': item.UI_Checked || item.IsParentChecked }" >
+                                                <span><a href="javascript:void(0)" :title="item.Name" @click="DoSelect(item)" target="_self" class="aspx">{{item.Name}}</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-text classify" data-type="0" data-child="1">
+                            <div class="in">
+                                <div class="ct">
+                                    <div class="in">
+                                        <ul data-index="1" :data-child="ListSubCategory.length">
+                                            <li :data-index="i"  v-for="(item,i) in ListSubCategory" :key="item.S_N"  :class="{'is-active': item.UI_Checked }" >
+                                                        <span><a href="javascript:void(0)" :title="item.Name" @click="DoSelect(item)" target="_self" class="aspx">{{item.Name}}</a></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `,
+
+            data: function () {
+                return {
+                    SelectParentS_N :-1,
+                }
+            },
+            mounted() {
+            },
+            methods: {
+                DoSelect: function (item) {
+                    this.ui_listcategory.forEach(o => o.UI_Checked = false);
+                     this.ui_listcategory.forEach(o => o.IsParentChecked = false);
+                    item.UI_Checked = true;
+                    if (item.ParentS_N === 0) {
+                        this.SelectParentS_N = item.S_N;
+                    }else{
+                       var Parent =  this.ui_listcategory.filter(data => data.S_N === item.ParentS_N)[0];
+                       Parent.IsParentChecked = true;
+                    }
+                    if(this.searchconfig.find(o => o.ColumnID == 'NewWWWDynamiSettingService_Category')==undefined){
+                        this.searchconfig.push({ColumnID:'NewWWWDynamiSettingService_Category'});
+                    }
+                    this.searchconfig.find(o => o.ColumnID == 'NewWWWDynamiSettingService_Category').val = JSON.stringify([item.S_N]);
+                    this.$emit('dosearch');
+                }
+            },
+            computed: {
+                ListParentCategory: function () { return this.ui_listcategory.filter(item => item.ParentS_N === 0); },
+                ListSubCategory: function () {
+                    if (this.SelectParentS_N==0) {
+                        return [];
+                    }
+                    return this.ui_listcategory.filter(item => item.ParentS_N === this.SelectParentS_N);
+                }
+            }
+        });
+    };
+</script>
+<script>
+    function Vue_categoryitem(app) {
+        app.component('categoryitem', {
+            props: ['parentcategory', 'listallcategory', 'selectcategorytop', 'i'],
+            template:
+                `<div v-bind:class="['item',{'is-parent':isParent},{'is-active':IsOpen}]">
+                                            <div class="item-name" :tabindex="(i+1)" v-if="parentcategory" >
+                                                <input type="checkbox" :name="'UI_Category_'+parentcategory.S_N" :id="'UI_Category_'+parentcategory.S_N" v-model="parentcategory.UI_Checked" :disabled="provideCategory && provideCategory.UI_Checked">
+                                                <label :for="'UI_Category_'+parentcategory.S_N">{{parentcategory.Name}}</label>
+                                                    <a href="#" class="extend" title="展開" @click="Toggle()" v-if="isParent">展開</a>
+                                            </div>
+                                            <div class="cata-list">
+                                                <div class="item" v-for="(item,subi) in UI_ListSubCategory" :key="item.S_N">
+                                                    <categoryitem :parentcategory="item" :listallcategory="listallcategory" :selectcategorytop="selectcategorytop" :i="subi"></categoryitem>
+                                                </div>
+                                            </div>
+                                        </div>`,
+            data: function () {
+                return {
+                    IsOpen: false,
+                };
+            },
+            provide() {
+                return {
+                    provideCategory: this.parentcategory
+                };
+            },
+            inject: ["provideCategory"],
+            watch: {
+                "provideCategory.UI_Checked": {
+                    handler(val) {
+                        this.parentcategory.UI_Checked = val;
+                    },
+                }
+            },
+            computed: {
+                UI_ListSubCategory() {
+                    let a = this.listallcategory.filter(o => o.ParentS_N == this.parentcategory.S_N)
+                    a.forEach(o => {
+                        o.Top = this.selectcategorytop
+                    });
+                    return a;
+                },
+                isParent() {
+                    return this.UI_ListSubCategory && this.UI_ListSubCategory.length > 0;
+                }
+            },
+            methods: {
+                Toggle() {
+                    this.IsOpen = !this.IsOpen;
+                },
+            }
+        })
+    };
+
+    function Vue_category(app) {
+
+        app.component('category', {
+            template: `
+                                <div class="ct">
+                                    <div class="in">
+                                        <div data-index="1" class="group-list search-filter">
+                                            <div class="in">
+                                                <div class="ct">
+                                                    <div class="in">
+                                                        <div class="selected-area">
+                                                            <div class="selected-info">
+                                                                已選擇:
+                                                                <span class="count">{{ListSelectedCategory.length}}</span>/<span class="max">{{ui_listcategory.length}}</span>
+                                                                <a title="清除已選項目" @click="ClearAll()">清除全部</a>
+                                                            </div>
+                                                            <div class="g-chips" data-child="4">
+                                                                <ul>
+                                                                    <li v-for="(item,i) in UI_ListSelectedCategory" :key="item.S_N">
+                                                                        <a title="移除" @click="Remove(item.S_N)"><span>{{item.Name}}</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <!-- 頁籤區 -->
+                                                        <ul data-index="1" data-child="2">
+                                                            <li data-index="1">
+                                                                <div class="list-text tab" data-type="0" data-child="1">
+                                                                    <div class="in">
+                                                                        <div class="ct">
+                                                                            <div class="in">
+                                                                                <ul data-index="1" data-child="UI_ListCategory_Top.length">
+                                                                                    <li data-index="1" v-bind:class="[{ 'is-active': Search_Category_Top == item.S_N  }]" v-for="(item,i) in UI_ListCategory_Top" :key="item.S_N" :data-length="GetCount(item.S_N)" @click="ToggleTop(item.S_N)">
+                                                                                        <span>
+                                                                                            <a :title="item.Name">{{item.Name}}</a>
+                                                                                        </span>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <!--第一層內的東西-->
+                                                            <li data-index="2" class="is-toggle" style="" data-filter="true">
+                                                                <div class="area-form filter">
+                                                                    <div class="in">
+                                                                        <div class="ct">
+                                                                            <div class="in">
+                                                                                <div class="cata-list">
+                                                                                    <categoryitem :parentcategory="UI_Category_Top" :listallcategory="ui_listcategory" :selectcategorytop="Search_Category_Top" :i="0" :key="Search_Category_Top"></categoryitem>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ft">
+                                    <div class="in">
+                                        <input type="button" class="btn is-premary" value="確定" @click="Save"/>
+                                    </div>
+                                </div>`,
+            props: ['ui_listcategory'],
+            data: function () {
+                return {
+                    Search_Category_Top: -1
+                };
+            },
+            computed: {
+                ListSelectedCategory: function () {
+                   return this.ui_listcategory.filter(o => o.UI_Checked);
+                },
+                UI_ListSelectedCategory: function () {
+                    let ListS_N_Selected = this.ListSelectedCategory.map(o => o.S_N);
+                    return this.ListSelectedCategory.filter(o => !ListS_N_Selected.includes(o.ParentS_N))
+                },
+                UI_ListCategory_Top: function () {
+                    //頁籤的選項
+                    return this.ui_listcategory.filter(o => o.ParentS_N == 0)
+                },
+                UI_Category_Top() {
+                    //目前點選的頁籤
+                    return this.ui_listcategory.find(o => o.S_N == this.Search_Category_Top)
+                },
+            },
+            methods: {
+                GetCount(S_N) {
+                    return this.ListSelectedCategory.filter(o => o.S_N == S_N || (o.Top && o.Top == S_N)).length;
+                },
+                ToggleTop(S_N) {
+                    this.Search_Category_Top = S_N;
+                },
+                Remove(S_N) {
+                    let x = this.UI_ListSelectedCategory.find(o => o.S_N == S_N);
+                    x.UI_Checked = false;
+                },
+                ClearAll() {
+                    this.ui_listcategory.forEach(o => o.UI_Checked = false);
+                },
+                Save: function () {
+                    let _NewWWWDynamiSettingService_Category = this.ListSelectedCategory.map((item, i) => {
+                        return item.S_N
+                    })
+                    vm.$data.Search_Configs.find(o => o.ColumnID == "NewWWWDynamiSettingService_Category").val = JSON.stringify(_NewWWWDynamiSettingService_Category);
+                    app.unmount();
+                    $("#CategoryUI").closest(".area-customize.popuper").remove();
+                }
+            }
+        });
+    };
+
+
+
+    let template_CategoryUI = `
+                        <div id="CategoryUI" class="frame-with-btn">
+                            <category :ui_listcategory="UI_ListCategory"></category>
+                        </div>
+                        `;
+
+    const create_CategoryUI = (ui_listcategory) => {
+        const app_CategoryUI = Vue.createApp({
+            name: 'PopupCategoryUI',
+            data() {
+                return {
+                    UI_ListCategory:ui_listcategory
+                }
+            }
+        })
+
+        Vue_categoryitem(app_CategoryUI);
+        Vue_category(app_CategoryUI);
+        return app_CategoryUI;
+    };
+
+
+
+</script>
+
+
+<script>
+    const CaptchaComponent = {
+        template: `
+                <div class="captcha">
+                    <div class="input">
+                        <input type="text" placeholder="驗證碼" v-model="ValidCode" required>
+                        <div class="img" alt="驗證碼">
+                            <img :src="imgCaptcha" alt="">
+                        </div>
+                        <input type="hidden" v-model="EncryptCaptchaString">
+                    </div>
+                    <span class="reload">
+                        <a href="javascript:void(0);" role="button" title="重新產生" v-on:click="changeEncryptCaptchaString"></a>
+                    </span>
+                    <span class="play">
+                        <a href="javascript:void(0);" role="button" title="語音撥放" v-on:click="CaptchaAudio"></a>
+                    </span>
+                </div>`,
+        data() {
+            return {
+                ValidCode: this.validCode,
+                EncryptCaptchaString: this.encryptCaptchaString,
+                imgCaptcha: ''
+            };
+        },
+        methods: {
+            CaptchaAudio() {
+                let that = this;
+                let url = `${CCMS_SiteAPI}CommonAPI?handler=CaptchaAudio&EncryptCaptchaString=${that.EncryptCaptchaString}&t=${new Date().getTime()}`;
+                var audioElement = document.createElement('audio');
+                audioElement.setAttribute('src', url);
+                audioElement.play();
+            },
+            changeEncryptCaptchaString() {
+                let that = this;
+                let url = `${CCMS_SiteAPI}CommonAPI?handler=Captcha`;
+                $.ajax({
+                    url: url, // 將查詢字串附加到 URL 中
+                    type: 'GET',
+                    CM_DisableLoading: true,
+                    success: (response) => {
+                        that.EncryptCaptchaString = response.EncryptCaptchaString;
+                        that.imgCaptcha = response.bmp;
+                        that.ValidCode = "";
+                    },
+                    error: (xhr) => {
+                        console.log(xhr.responseText);
+                    }
+                });
+            }
+        },
+        mounted() {
+            this.changeEncryptCaptchaString();
+        },
+    };
+</script>
+
+
+<script>
+    function getParameterByName(name) {
+        var getUrlString = location.href;
+        var url = new URL(getUrlString);
+        return url.searchParams.get(name);
+    }
+
+
+
+
+    function uuid() { //產生唯一值
+        var d = Date.now();
+        if (typeof performance !== 'undefined' && typeof performance.now === 'function') {
+            d += performance.now(); //use high-precision timer if available
+        }
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            var r = (d + Math.random() * 16) % 16 | 0;
+            d = Math.floor(d / 16);
+            return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+    }
+
+    function ctSet() { //內容的預設範本
+        return {
+            index: 0, //第幾個 popup
+            id: uuid(),
+            uuid: 'id' + uuid(false),
+            width: 'w-l',
+            height: 'h-l',
+            headingText: '',
+            contentType: 'html',
+            contentData: '',
+            // 加載後要執行的動作
+            loadAction: function () { },
+            // 關閉後要執行的動作
+            closeAction: function () { },
+        }
+    }
+
+    function Popup(opt) {
+
+        var $set = ctSet();
+        $.extend($set, opt);
+
+        let {
+            contentType,
+            headingText,
+            contentData,
+            height,
+            width,
+        } = opt;
+
+        console.log("opt", opt);
+        if (contentType == 'iframe') {
+            contentData = `<div class="iframe">
+                            <iframe src="${contentData}" frameborder="0"></iframe>
+                       </div>`;
+        }
+        else {
+            contentData = `<div class="html">
+                             ${contentData}
+                           </div>`;
+        }
+
+        let template = `<div class="area-customize popuper" style="display:none" id="${$set.id}">
+                            <div class="in ${width} ${height}">
+                                <div class="hd">
+                                    <div class="in">${headingText}</div>
+                                </div>
+                                <div class="ct">
+                                    <div class="in">
+                                        ${contentData}
+                                    </div>
+                                </div>
+                                <div class="ft">
+                                    <div class="in">
+                                            <a href="javascript:;" class="close-btn" title="關閉" tabindex="1">關閉</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+
+        let $popuper = $(template);
+        $(".group.sys-root>.in>.ct>.in").append($popuper);
+
+        $(`#${$set.id} .close-btn`).on("click", function () {
+            if (typeof (closeAction) == "function") {
+                opt.closeAction();
+            }
+            $(`#${$set.id}`).remove();
+        });
+
+        $popuper.show();
+        opt.loadAction();
+        $(`#${$set.id} .close-btn`).focus();
+    }
+
+    function PopupClose() {
+        $(".area-customize.popuper .close-btn").click();
+    }
+
+    let CMUtility = function () {
+        this.GetPagerQueryString = function (oPager) {
+            return `&PageSize=${oPager.PageSize}&PageNumber=${oPager.PageNumber}`
+        };
+    }
+    let _CMUtility = new CMUtility();
+    _CMUtility.AfterClickOk = function () {
+
+    }
+    _CMUtility.Alert = function (obj = {}) {
+        let title = '訊息';
+        let message = '';
+        let layoutClass = 'area-customize alert';
+        let BtnOk = true;
+        let status = 'status ';
+        if (typeof obj.title != 'undefined' && obj.title) {
+            title = obj.title;
+        }
+        if (typeof obj.message != 'undefined') {
+            message = obj.message;
+        }
+        if (typeof obj.status != 'undefined') {
+            status += obj.status;
+        } else {
+            status += 'is-nomal';
+        }
+        if (typeof obj.BtnOk != 'undefined') {
+            BtnOk = obj.BtnOk;
+        }
+        _CMUtility.AfterClickOk = function () {
+
+        }
+        if(typeof obj.action != 'undefined'){
+            _CMUtility.AfterClickOk = obj.action;
+        }
+        let html = `<div class="${layoutClass}">
+                            <div class="in">
+                                <div class="ct">
+                                    <div class="in">
+                                        <div class="${status}">
+                                            <div class="title">
+                                                ${title}
+                                            </div>
+                                            <div class="p">
+                                                ${message}
+                                            </div>
+                                            <div class="btn-list">`;
+        if (BtnOk == true){
+            html += `                           <a href="javascript:PopupClose()" class="btn is-premary" title="OK" tabindex="2">OK</a>`;
+        }
+        html += `                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>`;
+        Popup({
+            width: 'w-s',
+            height: 'h-m',
+            headingText: title,
+            contentType: 'html',
+            contentData: html,
+            // 加載後要執行的動作
+            loadAction: function () {
+
+            }
+        })
+    }
+    function ClickOk() {
+        PopupClose();
+        _CMUtility.AfterClickOk();
+    }
+    _CMUtility.WebArchive_Header = function () {
+        if (CM_Data.WebArchiveS_N != 0) {
+            let Node = SiteJs.Menu.Data.find(x => x.S_N === CM_Data.WebArchiveS_N);
+            if (Node) {
+                return Node.Name;
+            }
+        } else {
+            return CM_Data.WebArchive_Name;
+        }
+        return '';
+    }
+</script>
+
+    <!-- Jason TODO -->
+<title>
+        &#x5609;&#x7FA9;&#x7E23;&#x8B70;&#x6703;&#x5168;&#x7403;&#x8CC7;&#x8A0A;&#x7DB2;-&#x672C;&#x5C46;&#x8B70;&#x54E1;-&#x6234;&#x5149;&#x5B97;
+</title>
+
+
+</head>
+
+
+
+
+<body data-js="false" data-admin="false" data-lang="&#x7E41;&#x9AD4;&#x4E2D;&#x6587;">
+    <script>
+        function getCookie(name) {
+          const value = `; ${document.cookie}`;
+          const parts = value.split(`; ${name}=`);
+          if (parts.length === 2) {
+            return parts.pop().split(';').shift();
+          }
+          return null; // 如果 cookie 不存在，返回 null
+        }
+        function FirstSetFontSize(){
+            const prefix = 'font-size-';
+            let fontSizeValue = getCookie(prefix);
+            if(!fontSizeValue) fontSizeValue = 'medium';
+            var bodyClassList = document.body.className.split(/\s+/);
+            for (var i = 0; i < bodyClassList.length; i++) {
+                if (bodyClassList[i].startsWith(prefix)) {
+                    $('body').removeClass(bodyClassList[i]);
+                }
+            }
+            $('body').addClass(prefix+fontSizeValue);
+        }
+        FirstSetFontSize();
+    </script>
+    <div class="for_accessibility">
+        <a href="#base-content" class="" title="跳到主要內容區塊">跳到主要內容區塊</a>  
+        <div>
+            <nav><span style="font-size:0em">跳到主要內容區塊</span></nav>
+        </div>
+        <script>
+            var $a = $('.for_accessibility a');
+            $a.on('click', function (evt) {
+                var $href = $($(this).attr('href')),
+                    $target = $href.find('a').eq(0).get(0);
+                setTimeout(function () { try { $target.focus(); } catch (e) { } }, 0);
+            });
+        </script>
+    </div>
+    <script> document.body.setAttribute("data-js", "true");</script>
+   
+    <template id="RenderBodyTemplate">
+        <!-- sys-root 拖曳根節點 -->
+            <div class="group page-content " id="CCMS_Content" data-index="2" data-type="3" data-child="3" data-func="{'linkType':{'domains':['https://ws.cyscc.gov.tw']}}">
+                <div class="in">
+                            <div class="ct">
+                                <div class="in">
+                                    
+<div class="group page-content " id="CCMS_Content" data-index="2" data-type="3" data-child="3"
+data-funclog="{'linkType':{'domains':['https://2024Cyscc-ws.hamastar.com.tw']}}">
+    <div class="in">
+        <div class="ct">
+            <div class="in">
+                <!-- 本屆議員內頁客製 開始 -->
+                <div class="member-page">
+                    <div class="member-info">
+                        <div class="member-img">
+                            <h3 class="member-name">戴光宗</h3>
+                            <img src="https://ws.cyscc.gov.tw/001/Upload/1/relpic/236/14152/fdf1884d-fbf9-4d85-af50-0a07a3242f38.jpg" alt="635560520578590885.jpg" class="img">
+                        </div>
+                        <div class="member-Introduction">
+                            <div class="member-title">
+                                <span>
+                                    簡介
+                                </span>
+                            </div>
+                            <div class="member-cv">
+                                <div class="essay">
+                                    <div class="caption">
+                                        <span>
+                                            屆別
+                                        </span>
+                                    </div>
+                                    <div class="p">
+                                        <span>第19屆</span>
+                                    </div>
+                                </div>
+                                <div class="essay">
+                                    <div class="caption">
+                                        <span>
+                                            選區
+                                        </span>
+                                    </div>
+                                    <div class="p">
+                                        <span>第一選區</span>
+                                    </div>
+                                </div>
+                                <div class="essay">
+                                    <div class="caption">
+                                        <span>
+                                            黨籍
+                                        </span>
+                                    </div>
+                                    <div class="p">
+                                        <span>民主進步黨</span>
+                                    </div>
+                                </div>
+                                <div class="essay">
+                                    <div class="caption">
+                                        <span>
+                                            聯絡電話
+                                        </span>
+                                    </div>
+                                    <div class="p">
+                                        <span>05-371-4809</span>
+                                    </div>
+                                </div>
+                                <div class="essay">
+                                    <div class="caption">
+                                        <span>
+                                            聯絡地址
+                                        </span>
+                                    </div>
+                                    <div class="p">
+                                        <span>嘉義縣太保市梅埔里梅子厝33之6號</span>
+                                    </div>
+                                </div>
+                                <div class="essay">
+                                    <div class="caption">
+                                        <span>
+                                            電子郵件
+                                        </span>
+                                    </div>
+                                    <div class="p">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-links">
+                                <div class="essay">
+                                    <div class="caption">
+                                        <span>
+                                            社群媒體
+                                        </span>
+                                    </div>
+                                    <div class="link">
+<ul>
+<li class="fb">
+<a href="#" title="[另開新視窗]FB_Desc" class="fb" target="_blank" rel="noreferrer noopener"><label style='display:none'>FB</label></a>
+</li>
+<li class="line">
+<a href="#" title="[另開新視窗]LINE_Desc" class="line" target="_blank" rel="noreferrer noopener"><label style='display:none'>Line</label></a>
+</li>
+<li class="ig">
+<a href="#" title="[另開新視窗]IG_Desc" class="ig" target="_blank" rel="noreferrer noopener"><label style='display:none'>IG</label></a>
+</li>
+<ul>
+</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-box" data-title="學歷">
+                        <div class="essay">
+                            <div class="caption">
+                                <span>
+                                    學歷
+                                </span>
+                            </div>
+                            <div class="p">
+                                <span><p><span style="font-size: 1rem;">1.太保國小畢業。&nbsp;</span></p><p><span style="font-size: 1rem;">2.太保國中畢業。&nbsp;</span></p><p><span style="font-size: 1rem;">3.萬能工商畢業。</span></p></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-box" data-title="經歷">
+                        <div class="essay">
+                            <div class="caption">
+                                <span>
+                                    經歷
+                                </span>
+                            </div>
+                            <div class="p">
+                                <span>
+                                    <p><span style="font-size: 1rem;">1.嘉義縣議會第18屆議員&nbsp;</span></p><p><span style="font-size: 1rem;">2.太保市民代表會5、6屆代表&nbsp;</span></p><p><span style="font-size: 1rem;">3.太保分駐所警友會榮譽站長&nbsp;</span></p><p><span style="font-size: 1rem;">4.太保義消顧問&nbsp;</span></p><p><span style="font-size: 1rem;">5.太保國中、小顧問&nbsp;</span></p><p><span style="font-size: 1rem;">6.大崙國小顧問&nbsp;</span></p><p><span style="font-size: 1rem;">7.太保婦宣顧問&nbsp;</span></p><p><span style="font-size: 1rem;">8.太保體育會監事&nbsp;</span></p><p><span style="font-size: 1rem;">9.多彩半島休閒農場副執行長&nbsp;</span></p><p><span style="font-size: 1rem;">10.七星宮慈恩堂顧問</span></p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-box" data-title="政見">
+                        <div class="essay">
+                            <div class="caption">
+                                <span>
+                                    政見
+                                </span>
+                            </div>
+                            <div class="p">
+                                <span>
+                                    <p><span style="font-size: 1rem;">一、工業經濟:推動馬稠後產業園區第二期建設，創造提升地方經濟與就業機會。&nbsp;</span></p><p><span style="font-size: 1rem;">二、農業經濟:推動縣府對漁、養、牧、種的創業與技術輔導，推動農業六級產業化結合觀光旅遊。&nbsp;</span></p><p><span style="font-size: 1rem;">三、教育福利:推動縣府專款全額補助低收入戶學費。&nbsp;</span></p><p><span style="font-size: 1rem;">四、老人、幼托福利:推動關護老人專案，幼托守護專案。&nbsp;</span></p><p><span style="font-size: 1rem;">五、回嘉創業:推動創業貸款低息或免息，鼓勵在地子弟回嘉創業。&nbsp;</span></p><p><span style="font-size: 1rem;">六、百人計畫:推動縣府專款專案引進工業、農業專業人才落戶到嘉。&nbsp;</span></p><p><span style="font-size: 1rem;">七、各類體育:推動體育人才開發與培訓計畫。</span></p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-box" data-title="個人資訊">
+                        <div class="essay">
+                            <div class="caption">
+                                <span>
+                                    個人資訊
+                                </span>
+                            </div>
+                            <div class="p">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="member-box" data-title="相關提案">
+                            <ul class="tab" id="buttonlist"><li class="is-active"><a href="javascript:void(0);" onclick="ShowBox(this);" data-target="#box1">相關提案</a></li><li class=""><a href="javascript:void(0);" onclick="ShowBox(this);" data-target="#box2">新聞資料</a></li></ul>
+                            <div class="essay" id="box1">
+                                <div class="caption">
+                                </div>
+                                <div class="p">
+                                    <span id="New_114"></span>
+                                </div>
+                            </div>
+                            <div class="essay" id="box2" style="display:none">
+                                <div class="caption">
+                                </div>
+                                <div class="p">
+                                    <span id ="New_004"></span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!-- 本屆議員內頁客製 結束 -->
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    
+    $(document).ready(function (){
+        GetNews004();
+        GetNews114();
+    });
+    
+    function GetNews004() {
+        // JSON 資料的來源 URL
+        var dataUrl = `${CCMS_SiteAPI}News/4?handler=News&Content=戴光宗&CreateDepartmentS_N=-1&PageSize=8&PageNumber=1`;
+
+        // 發送 AJAX 請求以獲取 JSON 資料
+        $.ajax({
+            url: dataUrl,
+            type: "GET",
+            dataType: "json",
+            success: function (response) {
+                // 確保資料存在並正確
+                if (response && response.Data) {
+                    var htmlContent = "";
+                    // 遍歷 JSON 資料並生成 HTML
+                    htmlContent +=`<ul class="list">`;
+                    response.Data.forEach(function (item) {
+                        htmlContent += `<li><a class="div" href="${item["Path"]}" target="${item["A_TargetAttr"].target}"><i class="y-m">${item["上版日期"]}</i> ${item["主題"]}</a></li>`;
+                    });
+                    htmlContent +=`</ul>`;
+
+                    // 將生成的 HTML 插入到 id="New_004" 的元素中
+                    $("#New_004").html(htmlContent);
+                } else {
+                    console.error("無法獲取有效的資料！");
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error("請求失敗:", status, error);
+            }
+        });
+    }
+    function GetNews114() {
+        // JSON 資料的來源 URL
+        var dataUrl = `${CCMS_SiteAPI}News/114?handler=News_for114&NewWWWDynamiSettingService_Category=%5B%22-1%22%5D&Q_Keyword=戴光宗&PageSize=8&PageNumber=1`;
+
+        // 發送 AJAX 請求以獲取 JSON 資料
+        $.ajax({
+            url: dataUrl,
+            type: "GET",
+            dataType: "json",
+            success: function (response) {
+                // 確保資料存在並正確
+                if (response && response.Data) {
+                    var htmlContent = "";
+                    // 遍歷 JSON 資料並生成 HTML
+                    htmlContent +=`<ul class="list">`;
+                    response.Data.forEach(function (item) {
+                        var date = new Date(item["日期"]);
+                        var formattedDate = date.getFullYear() + "-" + String(date.getMonth() + 1).padStart(2, '0') + "-" + String(date.getDate()).padStart(2, '0');
+                        htmlContent += `<li><a class="div" href="${item["Path"]}" target="${item["A_TargetAttr"].target}"><i class="y-m">${formattedDate}</i> ${item["案由"]}</a></li>`;
+                    });
+                    htmlContent +=`</ul>`;
+
+                    // 將生成的 HTML 插入到 id="New_004" 的元素中
+                    $("#New_114").html(htmlContent);
+                } else {
+                    console.error("無法獲取有效的資料！");
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error("請求失敗:", status, error);
+            }
+        });
+    }
+    function ShowBox(obj) {
+        $("#box1").hide();
+        $("#box2").hide();
+        $("#buttonlist *").removeClass();
+        $(obj).addClass("is-active");
+        $($(obj).data("target")).show();
+    }
+
+</script>
+
+
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        <script>
+$(function () {
+    //2023/8/10 birdshiu 新增，要給首頁的某部份 div 動畫用
+    var $set = {
+        debug: false,
+        activeClass: 'run-animate',
+        originalClass: 'ready-animate'
+    }
+
+    var $body = $('html,body'),
+        $window = $(window),
+        $window_h = $window.height(),
+        $targets = $('.' + $set.originalClass);
+
+    var $window_t = $window.scrollTop();
+
+    $window.on('scroll', function (evt) {
+
+        $window_t = $window.scrollTop();
+        $window_h = $window.height();
+
+        $targets.each(function (i, n) {
+            var $this = $(this),
+                $this_o = $this.offset(),
+                $this_t = $this_o.top;
+
+            if ($window_t + ($window_h * 0.90) > $this_t) {
+                $this.addClass($set.activeClass);
+                $this.removeClass($set.originalClass);
+
+                $targets = $('.' + $set.originalClass);
+            }
+        });
+
+    }).scroll();
+});
+</script>
+
+    </template>
+    <div data-replace="sys-root" style="display:none">--------------- sys-root-------------</div>
+    <script>
+        $(document).ready(function () {
+            if(getParameterByName('preview')=='1'){
+                var style = document.createElement('style');
+                style.textContent = `* {
+                    pointer-events: none;
+                }
+                .skiptranslate{
+                    display:none;
+                }`;
+                document.head.appendChild(style);
+                //等待參數後再載入sys-root.html
+                window.addEventListener('message', (event) => {
+                    Object.keys(event.data).forEach(key=>{
+                        //替換內容後載入sys-root.html
+                        let htmlContent = htmlDecode(event.data[key]);
+                        document.getElementById(key).innerHTML = htmlContent;
+                        LoadSysroot();
+                    });
+                });
+            }else{
+                //直接載入sys-root.html
+                LoadSysroot();
+            }
+        });
+        function htmlDecode(input) {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(input, 'text/html');
+          return doc.documentElement.textContent;
+        }
+        function LoadSysroot(){
+            var url = CM_Data.StaticHtmlFolerName() + 'sys-root.html';
+            var targetDiv = $('[data-replace="sys-root"]');
+            if (getParameterByName('j') == '1') {
+                $('template').each(function () {
+                    var targetDiv = $('body');
+                    const RenderBodyTemplate = $(this).html();
+                    console.log(RenderBodyTemplate);
+                    targetDiv.append(RenderBodyTemplate);
+                });
+            } else {
+                $.ajax({
+                    url: url,
+                    type: 'get',
+                    CM_DisableLoading: true,
+                    success: function (data) {
+                        targetDiv.replaceWith(data);
+                    }
+                });
+            }
+        }
+    </script>
+    <!-- sys-root 結束 -->
+    <script src="/Style_1/js/require.js"></script>
+    <script>
+        requirejs.config({
+            baseUrl: window.location.origin + '/Style_1'+'/js'
+        });
+        requirejs(['main'], function(func){ //執行主程式
+            func();
+        });
+    </script>
+            <template id="RenderPageFooter">
+                
+<div class="group page-footer"  data-index="0"   data-type="3" >
+    <div class="in">
+        
+            <div class="ct">
+                <div class="in">
+                    
+    
+<div class="area-editor system-info"  data-index="0"   data-type="0" >
+    <div class="in">
+        
+            <div class="ct">
+                <div class="in">
+                    
+      <p></p>
+
+                </div>
+            </div>
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    <div class="list-text jump-tool" data-index="3" data-type="0" data-child="1">
+        <div class="in">
+            <div class="ct">
+                <div class="in">
+                    <ul data-index="1" data-child="2">
+                        <li data-index="2" class="to-top">
+                            <span>
+                                <a href="javascript:ScrollToTop();" title="回最上面" target="_self">回最上面</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+            </template>
+</body>
+</html>
+
+<!--73B441ED753BD26F3A000317DC19B729CF82BE6EABDF46EE09D5209986B3FD141965B20717F7CA6DE6F4639B7DC3FEA96ACEAF73A8050619F5CE5B7A962B98B7-->

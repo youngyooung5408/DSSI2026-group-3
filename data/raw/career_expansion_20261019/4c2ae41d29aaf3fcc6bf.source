@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body>
+<form id='submit_form' name='submit_form' action='https://pchome.megatime.com.tw/news/cat1/20260901/78824576002506236001.html' method='post'>
+<input type='hidden' name='is_check' value='1' />
+</form>
+<script type="text/javascript">
+document.getElementById('submit_form').submit();
+</script>
+</body>
+</html>

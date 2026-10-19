@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_name": "林慧欣",
+    "requested_reference": "https://newtalk.tw/news/view/2026-02-10/1019657",
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "url": "https://newtalk.tw/news/view/2026-02-10/1019657",
+    "path": "data/raw/identity_followup_20261019/web_01.txt",
+    "sha256": "5311e75d0896fbc18e58a6d9465e94fab7d6c99cfe7e0460fc6c81bda040576b",
+    "checked_date": "2026-10-19"
+  },
+  {
+    "candidate_name": "鄭東元",
+    "requested_reference": "https://hoomedia.com.tw/2026/09/04/165433/",
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "url": "https://hoomedia.com.tw/2026/09/04/165433/",
+    "path": "data/raw/identity_followup_20261019/web_02.txt",
+    "sha256": "999edfa5ba3be1c901aaf8ca935218c11c0e302105e19b5f0e196f328549637a",
+    "checked_date": "2026-10-19"
+  },
+  {
+    "candidate_name": "童燕珍",
+    "requested_reference": "https://www.cna.com.tw/news/aloc/202604220132.aspx",
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "url": "https://www.cna.com.tw/news/aloc/202604220132.aspx",
+    "path": "data/raw/identity_followup_20261019/web_03.txt",
+    "sha256": "8c3ca40774032c94b68e800f052a2246e7d040c82915a998373a4876e01dd2ff",
+    "checked_date": "2026-10-19"
+  },
+  {
+    "candidate_name": "李柏融",
+    "requested_reference": "turn111search8",
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "url": "",
+    "path": "data/raw/identity_followup_20261019/web_04.txt",
+    "sha256": "914d34c2ac8722210d5d39be59648c1bb414d752632d097184b961eaef816a8d",
+    "checked_date": "2026-10-19"
+  },
+  {
+    "candidate_name": "柳淑芳",
+    "requested_reference": "turn110search2",
+    "retrieval_method": "web_tool_extraction_not_original_HTTP",
+    "url": "",
+    "path": "data/raw/identity_followup_20261019/web_05.txt",
+    "sha256": "dbbfca46230c29e4ef8b8f5c813ef017a7d2da82ca668f850da706f639c4709e",
+    "checked_date": "2026-10-19"
+  }
+]

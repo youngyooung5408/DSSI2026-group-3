@@ -1,0 +1,162 @@
+{
+  "new_profile_people": 16,
+  "new_profile_names": [
+    "蕭夙玲",
+    "劉成謙",
+    "張柏詠",
+    "何元楷",
+    "吳建智咖啡哥",
+    "林啟明",
+    "陳泓維",
+    "徐慈檉",
+    "白丞堯",
+    "謝秉舟",
+    "鄒約翰",
+    "潘炩禕",
+    "陳傑麟",
+    "林德建",
+    "鄭素禎",
+    "黃舒琳"
+  ],
+  "remaining_profile_gaps": 733,
+  "official_additional_birth_date_people": 4,
+  "new_history_birth_sex_links": [
+    {
+      "candidate_name": "陳泓維",
+      "source_file": "data/raw/cec_all_offices/095_elcand.csv",
+      "source_row": 256,
+      "source_year": 2020,
+      "birth_date": "1987-05-08",
+      "sex": "男",
+      "education_raw": "高中(職)"
+    },
+    {
+      "candidate_name": "林啟明",
+      "source_file": "data/raw/cec_all_offices/068_elcand.csv",
+      "source_row": 3,
+      "source_year": 2014,
+      "birth_date": "1962-05-19",
+      "sex": "男",
+      "education_raw": "專科"
+    },
+    {
+      "candidate_name": "吳建智咖啡哥",
+      "source_file": "data/raw/cec_all_offices/116_elcand.csv",
+      "source_row": 6,
+      "source_year": 2024,
+      "birth_date": "1982-05-12",
+      "sex": "男",
+      "education_raw": "高中(職)"
+    }
+  ],
+  "council_history_birth_dates": 692,
+  "council_history_sex": 692,
+  "council_nonfirst_any": 702,
+  "council_nonfirst_council": 695,
+  "new_nonfirst_any": [
+    "陳泓維",
+    "陳傑麟",
+    "林啟明",
+    "吳建智咖啡哥",
+    "林德建"
+  ],
+  "social_people": 87,
+  "social_candidate_platform_pairs": 201,
+  "social_by_platform": {
+    "Facebook": 81,
+    "Instagram": 72,
+    "Threads": 48
+  },
+  "mayor_current_positive": [
+    "蔣萬安",
+    "張善政",
+    "鍾東錦",
+    "許淑華",
+    "周春米",
+    "王忠銘",
+    "謝國樑",
+    "高虹安"
+  ],
+  "mayor_birth_dates": 59,
+  "mayor_missing_birth_dates": 22,
+  "career_lead_rows": 1162,
+  "career_lead_people": 524,
+  "outputs": {
+    "data/processed/snapshots/pre_identity_round7_20261019/candidate_master_current.csv": {
+      "rows": 1583,
+      "columns": 34,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "863118696723c57e4188dea85a3a344658641e3f12692a8c87862e7a1ee1bd12"
+    },
+    "data/processed/snapshots/pre_identity_round7_20261019/candidate_fields_current.csv": {
+      "rows": 31660,
+      "columns": 11,
+      "key": [
+        "candidate_key",
+        "field"
+      ],
+      "sha256": "7344f7328301b184d7f2c89473c0c0532e1d07e9e3f64a739df6f3c528c60350"
+    },
+    "data/processed/snapshots/pre_identity_round7_20261019/council_background_20261019.csv": {
+      "rows": 1502,
+      "columns": 48,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "5313bcddabc8f33f824be67bf86d04d78b0000a24541133f0e0857d9a1319513"
+    },
+    "data/processed/candidate_social_account_evidence_current.csv": {
+      "rows": 233,
+      "columns": 14,
+      "key": [],
+      "sha256": "857fe75ffabd52448467286da5230b33fcbe4eed4d29cb3d1edac761baa9b301"
+    },
+    "data/processed/meta_candidate_account_worklist_current.csv": {
+      "rows": 4749,
+      "columns": 13,
+      "key": [
+        "candidate_key",
+        "platform"
+      ],
+      "sha256": "af310f7c2e79a57e8050176e98c344b23eccaf93b3e76dc55afee60e3ca6f032"
+    },
+    "data/processed/candidate_profiles_round6_20261019.csv": {
+      "rows": 18,
+      "columns": 11,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "ba06416a3b1263324b0ae72f30b2d94793de0afd8c724004c75fa59c687985b3"
+    },
+    "data/processed/candidate_background_evidence_round6_20261019.csv": {
+      "rows": 49,
+      "columns": 9,
+      "key": [],
+      "sha256": "297a4d086b0e39cebce97814ffde91dd528370c7d7602ad48690108e9a086c6b"
+    },
+    "data/processed/mayor_head_comparison_round6_20261019.csv": {
+      "rows": 81,
+      "columns": 17,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "66ec6d7c79ab97becc516ace9eba2e227be1ef138fd8c0d8fc602f3baeb036e4"
+    },
+    "data/processed/candidates_2026_enriched_round6_20261019.csv": {
+      "rows": 81,
+      "columns": 61,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "e0864634ab220e1dd9298a3a6b487c90246b834a678542fad6c7798698c93fb8"
+    },
+    "data/processed/council_career_source_worklist_round6_20261019.csv": {
+      "rows": 1162,
+      "columns": 19,
+      "key": [],
+      "sha256": "171f8bfcfa268720d1d36c9928092ecc80e04457a6709172823e31c213717620"
+    }
+  }
+}

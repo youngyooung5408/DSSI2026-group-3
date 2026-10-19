@@ -1,0 +1,66 @@
+{
+  "new_complete_official_birthdays": [
+    "黃裕庭",
+    "陳傑麟"
+  ],
+  "new_2022_council_identity_links": [
+    "陳泓維",
+    "陳傑麟"
+  ],
+  "historical_2022_birth_dates": 703,
+  "birth_official_union": 707,
+  "sex_explicit_source_union": 707,
+  "remaining_profile_gaps": 730,
+  "pending_identity": 151,
+  "nonfirst_any": 712,
+  "nonfirst_council": 705,
+  "outputs": {
+    "data/processed/snapshots/pre_municipal_round9_20261019/candidate_master_current.csv": {
+      "rows": 1583,
+      "columns": 34,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "4fba9288b89aa417734ea686b09ccad5eed147b47162265c799319bd025fa926"
+    },
+    "data/processed/snapshots/pre_municipal_round9_20261019/candidate_fields_current.csv": {
+      "rows": 31660,
+      "columns": 11,
+      "key": [
+        "candidate_key",
+        "field"
+      ],
+      "sha256": "80d9ccb7ea2cb1e5adfd3488f0b3d16581b067311d9e230f3daee37cf7b059ad"
+    },
+    "data/processed/snapshots/pre_municipal_round9_20261019/council_background_20261019.csv": {
+      "rows": 1502,
+      "columns": 50,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "d6542846ba72ae53b3ce5780f62daa99199ccd28faadaf3bf15bfe6b19106737"
+    },
+    "data/processed/council_history_pending_identity_current.csv": {
+      "rows": 151,
+      "columns": 18,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "0e96766f01de00a4a06674ff550c4dc1cd57361e4f9b5c07c7328cce3f740f29"
+    },
+    "data/processed/council_identity_review_round8_20261019.csv": {
+      "rows": 3,
+      "columns": 12,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "bb6679db0d1e7e23713b45267999cea2b2a4139c45a953f9854799ee7ee89b29"
+    },
+    "data/processed/candidate_evidence_round8_20261019.csv": {
+      "rows": 13,
+      "columns": 9,
+      "key": [],
+      "sha256": "94058c0bb7bf32312bcfc1e02a87d628a52f44d529b402348b30f74d3ed1302d"
+    }
+  }
+}

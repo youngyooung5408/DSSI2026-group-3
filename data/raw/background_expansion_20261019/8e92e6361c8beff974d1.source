@@ -1,0 +1,691 @@
+<!doctype html>
+<html>
+<head>
+    <base href="https://election.ltn.com.tw/2020/"/>
+    <meta charset="utf-8">
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="google-site-verification" content="sPp7Kk7Tqa6LK-wWblS9Fby069Wpy4DNTaMyjKHxveU" />
+    <meta property="fb:app_id" content="140490219413038">
+    <meta name='ltn:device' content='P' />
+    <link rel="apple-touch-icon" href="https://news.ltn.com.tw/assets/images/all/ltn.png">
+    <link rel="apple-touch-icon-precomposed" href="https://news.ltn.com.tw/assets/images/all/ltn.png">
+    <link rel="shortcut icon" href="https://news.ltn.com.tw/assets/images/all/favicon.ico">
+    <title>7號 張銘祐 - 2020 決戰總統立委選舉</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="7號 張銘祐 - 2020 決戰總統立委選舉" />
+<meta name="title" itemprop="headline" content="7號 張銘祐 - 2020 決戰總統立委選舉" />
+<meta name="keywords" content="自由時報,自由電子報,自由時報電子報,libertytimes,ltn,2020,選舉" />
+<meta name="news_keywords" itemprop="keywords" content="自由時報,自由電子報,自由時報電子報,libertytimes,ltn,2020,選舉" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/250_ltn.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由電子報 2020 決戰總統立委選舉" />
+<meta property="og:description" itemprop="description" content="自由電子報 2020 決戰總統立委選舉" />
+<meta property="og:url" itemprop="url" content="https://election.ltn.com.tw/2020/legislator/candidates/NewTaipei/560" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/250_ltn.png" />
+    <link href='https://election.ltn.com.tw/2020/assets/desktop/css/reset.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://election.ltn.com.tw/2020/assets/desktop/css/swiper-3.4.2.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sarpanch' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://election.ltn.com.tw/2020/assets/desktop/css/p_style.css?20200107">
+    <script src='https://election.ltn.com.tw/2020/assets/desktop/js/jquery-1.10.2.min.js'></script>
+    <script src='https://election.ltn.com.tw/2020/assets/desktop/js/all.js'></script>
+    <script src='https://election.ltn.com.tw/2020/assets/desktop/js/jquery.countdown.js'></script>
+    <script src="https://election.ltn.com.tw/2020/assets/desktop/js/swiper-3.4.2.min.js"></script>
+    <script src='https://election.ltn.com.tw/2020/assets/desktop/js/p_all.js'></script>
+    <script src="https://pv.ltn.com.tw/c.js?20190808"></script>
+    <script src="https://cache.ltn.com.tw/js/getTargetTime.js"></script>
+    <script src='https://election.ltn.com.tw/2020/assets/desktop/js/sidebar_space.js'></script>
+    <script>
+        var base_url = 'https://election.ltn.com.tw/2020/';
+        var newsServer = 'election.ltn.com.tw';
+        var pvServer = 'pv.ltn.com.tw';
+    </script>
+    <script>
+        var web_url = 'https://election.ltn.com.tw/2020/m/legislator/candidates/NewTaipei/560';
+        if (!cookies_m.isPC()) {
+            ltncookies_news('ltn_referrer', document.referrer, 30);
+            location.href = web_url + window.location.hash;
+        }
+        var electionAjaxUrl = 'https://election.ltn.com.tw/2020/vote_ajax/'.replace('https://', location.protocol + '//');
+        var g_check_final = false;
+    </script>
+    <script src="https://cache.ltn.com.tw/js/photoResize.js"></script>
+    
+<script>
+// GA pageview
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-31404335-1', 'auto');
+ga('send', 'pageview');
+
+$(document).ready(function(){
+
+    // GA event
+    ch_ga_event();
+
+    // Big Data
+    try {
+        var domain = location.hostname; // election.ltn.com.tw
+
+        var a_type = '';
+        var a_group = '';
+        var a_no = '';
+
+        getScrNews(domain, a_type, a_group, a_no);
+
+    } catch(e) {
+
+    }
+
+});
+
+function ch_ga_event()
+{
+    var base_root_org = $('base').attr('href') || 'https://election.ltn.com.tw/2020/';
+
+    $(document.body).on('click.ga', '.boxInput', function() {
+        var deviceDesc = $("meta[name='ltn:device']").attr('content') || 'U';
+        var _pageDesc = $('.page-name').attr('data-desc');
+        var pageDesc = deviceDesc + ':' + _pageDesc;
+
+        var obj = $(this);
+        var objDesc = obj.attr('data-desc');
+
+        var par = obj.parents('.boxTitle');
+        var boxDesc = par.attr('data-desc');
+
+        var category = pageDesc;
+        var action = boxDesc;
+        var label = objDesc || ''; /*使用自定義說明*/
+
+        ga_send_event(category,action,label);
+
+    });
+
+    $('.boxTitle').on('click.count', 'a', function(e) {
+        if (e.button != 0) {return;}
+        if (getinfo($(this), false)) e.preventDefault();
+    }).on('mouseup.count', 'a', function(e) {
+        if (e.button != 1) {return;}
+        getinfo($(this), true);
+        e.preventDefault();
+    });
+
+    function getinfo(obj, SendOnly) {
+        var deviceDesc = $("meta[name='ltn:device']").attr('content') || 'U';
+        var _pageDesc = $('.page-name').attr('data-desc');
+        var pageDesc = deviceDesc + ':' + _pageDesc;
+
+        var objText = obj.text();
+        var objDesc = obj.attr('data-desc');
+
+        var par = obj.parents('.boxTitle');
+        /*取區塊說明*/
+        var boxDesc = par.attr('data-desc');
+        /*是否用連結文字*/
+        var useText = par.hasClass('boxText');
+
+        var category = pageDesc;
+        var action = boxDesc;
+        var label = objDesc || ''; /*使用自定義說明*/
+        if(useText && label == ''){
+            label = objText || ''; /*使用連結文字*/
+        }
+
+        if(label == ''){
+            /*記錄該區塊第幾則*/
+            var idx = $('a', par).index(obj);
+            label = '第' + idx + '則';
+        }
+
+        var target = obj.attr('target');
+        var href = '';
+        var _href = obj.attr('href');
+
+        if (_href) {
+            href = check_url(_href);
+        }
+
+        var send_type = 'send';
+
+        if (!target && href != '') {
+            send_type = 'redirect';
+        }
+
+        if (SendOnly) send_type = 'send';
+
+        if (send_type == 'send') {
+            ga_send_event(category,action,label);
+            return false;
+        } else {
+            send2ga2page(category,action,label,href);
+            return true;
+        }
+    }
+
+    function check_url(_url) {
+        if ((/^http:/).test(_url)) {
+            return _url;
+        } else if((/^https:/).test(_url)) {
+            return _url;
+        } else if((/^javascript/).test(_url)) {
+            return '';
+        } else if((/^#/).test(_url)) {
+            return '';
+        } else {
+            var base_root = $('base').attr('href') || base_root_org;
+            return base_root + _url;
+        }
+    }
+
+    /*GA事件追蹤:頁面不轉換*/
+    function ga_send_event(category, title, label) {
+        ga_send_event_callback(category, title, label, function(){});
+    }
+
+    /*GA事件追蹤:頁面轉換*/
+    function ga_send_event_callback(category, title, label, fn_callback) {
+        //return fn_callback();
+        ga('send', 'event', category, title, label, {'hitCallback':
+            function() {
+                fn_callback();
+            }
+        });
+    }
+
+    /*GA事件追蹤:連結點擊*/
+    function send2ga2page(category, title, label, url) {
+        var redirectTriggered = false;
+
+        ga_send_event_callback(category, title, label, function() {
+            redirectTriggered = true;
+            document.location = url;
+        });
+
+        setTimeout(function() {
+            if (!redirectTriggered) {
+                document.location = url;
+            }
+        }, 1500);
+    }
+};
+
+</script>
+    <script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+            '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+
+<script type='text/javascript'>
+    googletag.cmd.push(function() {
+        var dfp = {"K1":{"slot":"\/21202031\/99-election-sub-K1","size":"[[970, 90], [970, 160], [970, 250], [1260, 90], [1260, 160], [1260, 250]]","id":"ad-K1","class":"","collapse":1},"BD1":{"slot":"\/21202031\/99-election-sub-BD1","size":"['fluid', [1, 1], [300, 250], [300, 600]]","id":"ad-BD1","class":"suggest_down","collapse":1},"BD2":{"slot":"\/21202031\/99-election-sub-BD2","size":"['fluid', [1, 1], [300, 250], [300, 600]]","id":"ad-BD2","class":"","collapse":1}};
+        for (var key in dfp) {
+            // 蓋台廣告由cache_ads_h1.php控制(各專題蓋台由fullpage_ad.js控制)
+            if (key === 'H1') { continue; }
+            if (dfp.hasOwnProperty(key)) {
+                var ad = dfp[key];
+                var adSize = eval(ad['size']);
+                var bodyWidth = $('body').width();
+                // 移除太寬的size
+                ad['size'] = [];
+                for (var i in adSize) {
+                    if (adSize[i][0] > bodyWidth) { continue; }
+                    ad['size'].push(adSize[i]);
+                }
+                googletag.defineSlot(
+                    ad['slot'],
+                    ad['size'],
+                    ad['id']
+                ).addService(googletag.pubads()).setCollapseEmptyDiv(true, true);
+            }
+        }
+
+        googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+            // google回傳的廣告標籤(ex:ad-B1)
+            var slotElementId = event.slot.getSlotElementId();
+
+            // === 無廣告時要做的事 ===
+            if (event.isEmpty) {
+                // 記錄沒有廣告
+                console.log('沒有'+slotElementId);
+
+                // 沒有廣告時執行
+                // do something
+
+                return;
+            }
+
+            // === 有廣告時要做的事 ===
+            // 置底浮水印廣告，調整畫面不要蓋住footer
+            if (slotElementId == 'ad-I1-bottom') {
+                // 廣告的高度
+                var ad_height = event.size[1];
+                var $adI1Bottom = $('#ad-I1-bottom');
+                // 調整廣告位置與footer墊底高度
+                $adI1Bottom.css('height', ad_height + 'px');
+                $('.door-bottom-space').show().css('height', ad_height + 'px');
+
+                // 顯示關閉按鈕並綁定關閉事件
+                if (ad_height > 50) {
+                    // 調整Top按鈕高度
+                    $('#topr').css('bottom', ad_height + 'px');
+                    // 監聽關閉按鈕
+                    $adI1Bottom.prepend('<i class="close"></i>');
+                    $adI1Bottom.find('.close').click(function () {
+                        $adI1Bottom.fadeOut(100);
+                        $('.door-bottom-space').fadeOut(100);
+                    });
+                }
+                return;
+            }
+
+            // 有IR1時顯示「請繼續往下閱讀...」
+            if (slotElementId == 'ad-IR1') {
+                // 顯示「請繼續往下閱讀...」(class="before_ir"在cache中寫的)
+                $('p.before_ir').fadeIn(200);
+                $('p.after_ir').fadeIn(200);
+            }
+        });
+        googletag.enableServices();
+    });
+</script>
+</head>
+<body class="scrolltop ">
+    <span class="top-hide">
+        <div id="topr" class="topr boxTitle" data-desc="TOP">TOP</div>
+    </span>
+
+    <h1>
+    <div class="h1box boxTitle boxText" data-desc="置頂選單">
+        <a class="logo" data-desc="自由時報logo" href="https://www.ltn.com.tw"></a>
+        <div class="wh_scroll">
+            <a href="https://election.ltn.com.tw/2020/" class="election_p" data-desc="選舉專區logo"></a>
+        </div>
+        <ul class="nav">
+            <li class="m_01 "><a href="https://election.ltn.com.tw/2020/" ><span></span>選舉首頁</a></li>
+            <li class="m_02 "><a href="president/vote" ><span></span>總統逐鹿</a></li>
+            <li class="m_03 now"><a href="legislator/vote/Taipei" ><span></span>立委爭鋒</a></li>
+            <li class=""><a href="overview/news" ><span></span>即時選情</a></li>
+            <li class="m_07 "><a href="video" ><span></span>影音直擊</a></li>
+            <li class="m_04 "><a href="party"><span></span>政黨爭鳴</a></li>
+            <li class="m_06 "><a href="talk/news" ><span></span>選情評論</a></li>
+            <li class="m_08  pcloseli"><a href="javascript:void(0)"><span></span>大選民調</a></li>
+            <li class=""><a href="graph" ><span></span>圖表總覽</a></li>
+            <span class="clear"></span>
+        </ul>
+    </div>
+</h1>
+<!-- 資訊選擇地區 -->
+<div class="area_b">
+    <div class="wrap boxTitle boxText" data-desc="地區選單">
+        <span class="arrow"></span>
+        <div class="area_box">
+                            <span class="area_01">
+                    <div class="area_t">全國<span></span></div>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/news/Sum" class="0 ">綜合新聞</a>
+                                    </span>
+                                <span class="area_02">
+                    <div class="area_t">北區<span></span></div>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Keelung" class="0 ">基隆市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Taipei" class="0 ">台北市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/NewTaipei" class="0 on_area">新北市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Taoyuan" class="0 ">桃園市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/HsinchuCity" class="0 ">新竹市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/HsinchuCounty" class="0 ">新竹縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Miaoli" class="0 ">苗栗縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Hualien" class="0 ">花蓮縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Yilan" class="0 ">宜蘭縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Jinmen" class="0 ">金門縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/LianJiang" class="0 ">連江縣</a>
+                                    </span>
+                                <span class="area_03">
+                    <div class="area_t">中區<span></span></div>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Taichung" class="0 ">台中市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/ChanghuaCounty" class="0 ">彰化縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Nantou" class="0 ">南投縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Yunlin" class="0 ">雲林縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/ChiayiCity" class="0 ">嘉義市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/ChiayiCounty" class="0 ">嘉義縣</a>
+                                    </span>
+                                <span class="area_04">
+                    <div class="area_t">南區<span></span></div>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Tainan" class="0 ">台南市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Kaohsiung" class="0 ">高雄市</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Pingtung" class="0 ">屏東縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Taitung" class="0 ">台東縣</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Penghu" class="0 ">澎湖縣</a>
+                                    </span>
+                                <span class="area_05">
+                    <div class="area_t">其他<span></span></div>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Pingpu" class="0 ">平地原住民</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/Gaoshan" class="0 ">山地原住民</a>
+                                            <a href="https://election.ltn.com.tw/2020/legislator/vote/All" class="0 ">全國不分區</a>
+                                    </span>
+                        </div>
+    </div>
+</div>
+
+<!-- 宣傳口號 -->
+<div class="visual">
+    <div class="wrap">
+        <div class="hand"></div>
+        <div class="slogan"><div class="slogan_d"></div><div class="slogan_w"></div></div>
+    </div>
+</div>
+
+    <div id="main">
+        <!-- 內容開始 -->
+        <div id="rightmain">
+            <span class="page-name" data-desc="新北市"></span>
+
+<div class="con_wrap01">
+    <div class="content">
+        <div class="unit_wrap">
+            <div class="c_box">
+                        <!-- /21202031/99-election-sub-K1 -->
+    <div id="ad-K1"
+         class="boxTitle ad "
+         data-desc="廣告ad-K1"
+         style="text-align: center; display:none;">
+        <script>
+            googletag.cmd.push(function() { googletag.display('ad-K1'); });
+        </script>
+    </div>
+                <!-- 麵包屑 -->
+                <div class="breadcrumbs boxTitle boxText" data-desc="麵包屑">
+    <a href="https://election.ltn.com.tw/2020/">首頁</a> ›
+    <span style="cursor: pointer;" onclick='location.href="legislator/candidates/NewTaipei#649"'>新北市</span>
+</div>
+                <!-- 次標題 -->
+                <h2>立委．新北市<span></span></h2>
+                <!-- 次選單 -->
+                    <div class="unit_menu boxTitle boxText" data-desc="次選單">
+        <a href="https://election.ltn.com.tw/2020/legislator/news/NewTaipei">
+            <span></span>
+            新聞總覽
+        </a>
+            <a href="https://election.ltn.com.tw/2020/legislator/candidates/NewTaipei#649" class="on">
+                <span></span>
+                候選人
+            </a>
+                    <a href="https://election.ltn.com.tw/2020/legislator/vote/NewTaipei" class="unit_03">
+                <span></span>
+                即時開票
+            </a>
+                <a href="https://election.ltn.com.tw/2020/graph/legislator" class="graphAfter">
+            <span></span>
+            選情統計
+        </a>
+    </div>
+<script>
+    var checkFinalTicker;
+    var finalSignalEvent = false;
+    $(function () {
+        checkElectionStatus();
+    });
+
+    function checkElectionStatus() {
+        if (g_check_final) {
+            console.log('選舉開完票囉!');
+            $(document).trigger('isFinal');
+            finalSignalEvent = true;
+            return;
+        }
+
+        var ticker = 15000;
+
+        var countTime = getCountDown('2020/01/11 20:00:00');
+
+        console.log(Math.round(countTime / 1000) + '秒');
+        // setTimeout 上限約為24天
+        if (countTime > 86400000) {
+            return;
+        }
+        if (countTime > 0) {
+            checkFinalTicker = setTimeout(checkElectionStatus, countTime);
+            return;
+        }
+
+        $.ajax({
+            url: electionAjaxUrl + 'cec_catchTime.txt',
+            type: 'POST',
+            dataType: 'JSON',
+            success: function (d) {
+                var d = (typeof d['data'] === 'undefined') ? d : d['data'];
+
+                if (d['CT_Final'] === '1' || g_check_final) {
+                    // 發送事件到document讓監聽的圖表開始畫圖
+                    if(!finalSignalEvent) {
+                        console.log('選舉開完票囉!');
+                        $(document).trigger('isFinal');
+                        finalSignalEvent = true;
+                    }
+                    // 儲存變數
+                    g_check_final = true;
+                }
+
+                // 皆已開票結束終止檢查
+                if (g_check_final) { return; }
+
+                // 繼續檢查final狀態
+                console.log('開票中');
+                checkFinalTicker = setTimeout(checkElectionStatus, ticker);
+            },
+            error: function (e) {
+                console.log('開票error');
+                checkFinalTicker = setTimeout(checkElectionStatus, ticker);
+            }
+        })
+        .fail(function() {
+            console.log( "開票fail" );
+        });
+    }
+</script>
+<script>
+    var $elector ='legislator';
+    var $area = 'NewTaipei';
+    $(document).on('isFinal', function (e) {
+        if ($elector == 'legislator') {
+            $(".graphAfter").attr("href",$elector + "/graph/" + $area);
+        }
+    });
+</script>
+                <!-- 內文 -->
+                <div class="left_b">
+                    <div class="p_detail boxTitle boxText" data-desc="介紹">
+                        <!-- 候選人介紹 -->
+<div class="p_detail_box">
+    <h6>
+                7號 張銘祐                <span>
+            新北市第11選舉區：新店區、深坑區、石碇區、坪林區、烏來區
+        </span>
+    </h6>
+    <div class="ph">
+        <ul>
+                        <li>性別：男</li>
+                            <li>出生日 : 1984年7月17日（37歲）</li>
+                                        <li>出生地 : 南投縣</li>
+                        <li>政黨 :
+                                    <a href="https://election.ltn.com.tw/2020/party/1">
+                        民主進步黨                        <img src="https://election.ltn.com.tw/2020/assets/common/images/politicalParty/t1_m.png">
+                    </a>
+                            </li>
+            <li>是否現任：否</li>
+            <div class="btn_group">
+                                    <a href="https://news.ltn.com.tw/topic/張銘祐" target="_blank" class="btn_news"><span></span>相關新聞</a>
+                                    <a href="https://www.facebook.com/mingyu19840717/" target="_blank" class="btn_fb"><span></span>粉絲專頁</a>
+                            </div>
+        </ul>
+                <div class="photo listS_h">
+            <img src="https://img.ltn.com.tw/Upload/elect/2020/candidate/1/560.jpg">
+        </div>
+    </div>
+    <div class="ul_box">
+                    <ul>
+                <h4>學歷</h4>
+                <li>
+                    南投縣立漳和國小</li><li>南投縣立南投國中</li><li>南投縣立南投高商</li><li>私立中洲科技大學                </li>
+            </ul>
+                            <ul>
+                <h4>經歷</h4>
+                <li>
+                    議員助理</li><li>立委秘書</li><li>台湾加入联合國大联盟策劃北社主任、理事</li><li>公投護台湾联盟執行總幹事</li><li>公投教育基金会執行長</li><li>民視文教基金会執行長</li><li>政論節目製作人、來賓</li><li>國立台北教育大學台湾文化研究所肄業                </li>
+            </ul>
+            </div>
+            <span class="small_w">* 黨徽如顯示"其"表示無黨徽資料<br>* 以上資料請以中央選舉委員會公布為準</span>
+    </div>
+<style>
+.p_detail_box .photo{
+    width: 400px;
+    height: 400px;
+    float: right;
+    overflow: hidden;
+}
+.p_detail_box .photo img{
+    width: 100%;
+}
+</style>
+<script>
+    resizePhoto('.photo');
+</script>
+                                            </div>
+                </div>
+
+                <!--熱門新聞-->
+                <aside>
+    <div id="right_blake">
+        <div class="right_b" id="right">
+                    <!-- /21202031/99-election-sub-BD1 -->
+    <div id="ad-BD1"
+         class="boxTitle ad suggest_down"
+         data-desc="廣告ad-BD1"
+         style="text-align: center; display:none;">
+        <script>
+            googletag.cmd.push(function() { googletag.display('ad-BD1'); });
+        </script>
+    </div>
+                            <div class="hotnews_h boxTitle" data-desc="熱門新聞">
+                    <h2>熱門新聞<span></span></h2>
+                    <ul>
+                                                <li>
+                            <a href="https://election.ltn.com.tw/2020/news/overview/breakingnews/3036968" data-desc="P:0:2020不分區立委各黨席次出爐！吳敦義、黃國昌都沒上">2020不分區立委各黨席次出爐！吳敦義、黃國昌都沒上                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://election.ltn.com.tw/2020/news/overview/breakingnews/3037041" data-desc="P:1:11萬韓粉社團臥底全現身！「原來大家都自己人」">11萬韓粉社團臥底全現身！「原來大家都自己人」                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://election.ltn.com.tw/2020/news/overview/breakingnews/3036991" data-desc="P:2:2020區域、原民立委開票結束  79席當選名單揭曉！">2020區域、原民立委開票結束  79席當選名單揭曉！                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://election.ltn.com.tw/2020/news/overview/breakingnews/3038082" data-desc="P:3:命理師落漆！ 2020台灣總統大選預言失敗攏底加">命理師落漆！ 2020台灣總統大選預言失敗攏底加                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://election.ltn.com.tw/2020/news/overview/breakingnews/3039295" data-desc="P:4:「王委員，對不起」嗆小燈泡媽韓粉到案！派出所前鞠躬">「王委員，對不起」嗆小燈泡媽韓粉到案！派出所前鞠躬                            </a>
+                        </li>
+                                            </ul>
+                </div>
+            
+            <!-- FB粉絲團 -->
+            <div class="home_fb boxTitle" data-desc="粉絲團">
+    <div class="fb-page" data-href="https://www.facebook.com/m.ltn.tw" data-width="300" data-height="400"
+        data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+        data-show-facepile="true" data-show-posts="true">
+    </div>
+</div>
+                    <!-- /21202031/99-election-sub-BD2 -->
+    <div id="ad-BD2"
+         class="boxTitle ad "
+         data-desc="廣告ad-BD2"
+         style="text-align: center; display:none;">
+        <script>
+            googletag.cmd.push(function() { googletag.display('ad-BD2'); });
+        </script>
+    </div>
+        </div>
+    </div>
+</aside>
+                <span class="clear"></span>
+            </div>
+        </div>
+
+        <!-- FB SDK -->
+        <!--FB-->
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+    </div>
+</div>
+        </div>
+    </div>
+
+    <div class="footer boxTitle" data-desc="底部選單">
+    <div class="content">
+        <div class="web"><span class="pc" onclick="cookies_m.write('PC');location.reload();">電腦版</span> / <span class="mobile" onclick="cookies_m.write('m');location.reload();">手機版</span></div>
+        <a href="https://www.ltn.com.tw" class="logo_f boxTitle" data-desc="電子報">
+            <img src="assets/desktop/images/logo_foot.png" alt="自由時報" title="自由時報" border="0">
+        </a>
+        <div class="copyright">
+            <span>版權所有 不得轉載</span><span> © 2026 The Liberty Times. All Rights Reserved.</span>
+        </div>
+    </div>
+</div>
+
+        <img src="https://election.ltn.com.tw/2020/assets/common/images/politicalParty/t6_m.png?0110" class="hidden">
+</body>
+</html>
+<script>
+    var bannerOff = getCountDown('2020/01/11 16:00:00');
+    var bannerOn = getCountDown('2020/01/13 00:00:00');
+
+    // 選舉當天過12點就將banner收掉
+    if (bannerOff < 0) {
+        changeBannerHeight(60);
+    }
+    // 選舉過後，將banner展開
+    if (bannerOn < 0) {
+        changeBannerHeight(300);
+    }
+
+    function changeBannerHeight(height) {
+        $('.visual').height(height);
+    }
+</script>

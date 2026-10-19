@@ -1,0 +1,53 @@
+{
+  "new_government_person_or_role_entries": 10,
+  "new_complete_official_birthdays": 9,
+  "new_explicit_sex_people": 10,
+  "historical_2022_council_people": 703,
+  "official_birth_support_people": 716,
+  "explicit_sex_support_people": 717,
+  "remaining_person_entry_gaps": 720,
+  "nonfirst_any": 721,
+  "nonfirst_council": 705,
+  "pending_identity_unchanged": 151,
+  "outputs": {
+    "data/processed/candidate_master_current.csv": {
+      "rows": 1583,
+      "columns": 34,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "960d538e9af2c15430f4c25f20c523f0e752f2fa16b5492f00b6f9d8c4e65dd4"
+    },
+    "data/processed/candidate_fields_current.csv": {
+      "rows": 31660,
+      "columns": 11,
+      "key": [
+        "candidate_key",
+        "field"
+      ],
+      "sha256": "3d0a35feebd892772286c646ae7b3b0c3bf8e1a0d7f2d0b74c7825f253b9fe46"
+    },
+    "data/processed/council_background_20261019.csv": {
+      "rows": 1502,
+      "columns": 50,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "1f2af881749b1c5e06620d85a3a36261c08c9e84d64805eb6159e11ff9013fdd"
+    },
+    "data/processed/municipal_roles_review_round9_20261019.csv": {
+      "rows": 10,
+      "columns": 18,
+      "key": [
+        "candidate_key"
+      ],
+      "sha256": "142bf3e8e4a55c7369274cf35c9526edb2fc86c4daf68adb0b231a3c98d49234"
+    },
+    "data/processed/candidate_evidence_round9_20261019.csv": {
+      "rows": 61,
+      "columns": 9,
+      "key": [],
+      "sha256": "3ea1d9b42882bb092b2983904d35c9deebb1c967ba51102b2be388e9fe5b01d7"
+    }
+  }
+}
