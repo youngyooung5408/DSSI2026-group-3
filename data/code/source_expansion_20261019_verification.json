@@ -1,0 +1,79 @@
+{
+  "retrieved_urls": 290,
+  "http_200": 265,
+  "saved_pdf_documents": 171,
+  "education_lead_people": 341,
+  "education_leads": 343,
+  "source_name_found_people": 252,
+  "page_records": 171,
+  "new_background_profile_people": 22,
+  "new_education_people": 21,
+  "new_experience_people": 20,
+  "no_profile_after_expansion": 763,
+  "mayors_with_discovery_links": 62,
+  "mayor_link_records": 85,
+  "source_specific_social_links": 9,
+  "parse_errors": {
+    "https://eebulletin.cec.gov.tw/111/14%E5%B1%8F%E6%9D%B1%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/%E7%AC%AC1%E9%81%B8%E5%8D%801.pdf": "PdfiumError: Failed to load document (PDFium: Data format error).",
+    "https://eebulletin.cec.gov.tw/111/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E5%8D%80%E5%9F%9F%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf": "PdfiumError: Failed to load document (PDFium: Data format error).",
+    "https://eebulletin.cec.gov.tw/111/11%E5%8D%97%E6%8A%95%E7%B8%A3/03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7/%E5%8D%97%E6%8A%95%E7%B8%A3%E6%B0%B4%E9%87%8C%E9%84%89%E9%84%89%E9%95%B7.%E4%BB%A3%E8%A1%A8%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E5%8F%8A%E6%9D%91%E9%95%B7%E9%81%B8%E8%88%89.pdf": "PdfiumError: Failed to load document (PDFium: Data format error)."
+  },
+  "outputs": {
+    "data/processed/snapshots/source_extraction_20261019/council_education_source_leads_20261019.csv": {
+      "rows": 343,
+      "sha256": "04018bfac5d9de495886f7624b12d4d2070d9149a09013fac9d88e6436471fb9"
+    },
+    "data/processed/snapshots/source_extraction_20261019/candidate_background_source_pages_20261019.csv": {
+      "rows": 171,
+      "sha256": "1ea2f5c05afca12b60c3454dac7541c3b5d71e84ee77588dd4b252083a17ac37"
+    },
+    "data/processed/candidate_web_profiles_expansion_20261019.csv": {
+      "rows": 22,
+      "sha256": "c69ffe833f34a6b7ad19c7ab5271f4269307ef10d68c676eaf8af97fc48a1cc3"
+    },
+    "data/processed/candidate_background_evidence_expansion_20261019.csv": {
+      "rows": 64,
+      "sha256": "a517f37ecdc76d525dcfbb457bfa87b3d68704cb24ddd2486c2d9055895e61d6"
+    },
+    "data/processed/mayor_channel_discovery_leads_20261019.csv": {
+      "rows": 85,
+      "sha256": "73370b240df6289566f11ca678dbaf4ef0ed1dd695c5e578231e67ea5ef0e053"
+    },
+    "data/processed/council_social_links_expansion_20261019.csv": {
+      "rows": 9,
+      "sha256": "e752e42b983ba0d4be7f18669f89347513d830c84ea4f794bfa7641bfc55c514"
+    },
+    "data/processed/snapshots/pre_government_round4_20261019/candidate_master_current.csv": {
+      "rows": 1583,
+      "sha256": "bc3a9a7ef0aad7b2ac792581295b653e116dc630d20164fb4def968bf51d52a5"
+    },
+    "data/processed/snapshots/pre_government_round4_20261019/candidate_fields_current.csv": {
+      "rows": 31660,
+      "sha256": "df2314986ed5eed973dc35d6d7c6f556d99ea55a2809f86fd5f1045313ec6894"
+    },
+    "data/processed/snapshots/pre_government_round4_20261019/council_background_20261019.csv": {
+      "rows": 1502,
+      "sha256": "e64466d2e9f59bf9e2344fc7491b7ae585c00d26351b3b8d161cc468a5757430"
+    },
+    "data/processed/snapshots/pre_bulletin_round5_20261019/candidate_social_account_evidence_current.csv": {
+      "rows": 188,
+      "sha256": "9178c49adc786db50c9865c2d98ec11747cab0a8cf692dd53c14c3033630649a"
+    },
+    "data/processed/snapshots/pre_bulletin_round5_20261019/meta_candidate_account_worklist_current.csv": {
+      "rows": 4749,
+      "sha256": "665fd1c45bbb06a312aaa28d9868ba20d3a7361c77fb411801c37158684a23ec"
+    },
+    "data/processed/social_unresolved_links_20261019.csv": {
+      "rows": 47,
+      "sha256": "5a077fad4ad8128d08d580d41b72ffc69819193c4e281a38196ff5ac286dcb82"
+    }
+  },
+  "social_candidates_with_source_links": 63,
+  "social_candidate_platform_pairs": 158,
+  "social_by_platform": {
+    "Facebook": 59,
+    "Instagram": 56,
+    "Threads": 43
+  },
+  "social_hub_pages_read": 7
+}

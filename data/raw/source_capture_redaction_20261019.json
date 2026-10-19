@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-19",
+  "scope": "7 tracked third-party website captures containing 4 distinct Google-key values; no key values are recorded here",
+  "alerts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "history_status": "Commit 2a5838e still contains originals. No Git history was rewritten; no alerts closed; no credentials revoked or tested.",
+  "files": [
+    {
+      "path": "data/raw/career_expansion_20261019/2b0861c3a2c5f49e357e.source",
+      "original_sha256": "21c94a45b04097f0e85ec59ef90ac45e792fa0139cd9fb84f6356ae67a5cb706",
+      "published_redacted_sha256": "9da1ff1992430a759190a73cb8450ddfc9ac20e1463e9aae29eb4a3c8fac65bd",
+      "replacements": 1,
+      "transformation": "Replace Google API key values embedded in third-party map code only; retain all other bytes",
+      "original_storage": "Private backup outside Git repository, under the current user home; not published",
+      "source_url": "https://www.tncc.gov.tw/page.asp?mainid=55B7F0C4-B7D8-417E-BC4E-23B21F52CA2D"
+    },
+    {
+      "path": "data/raw/career_expansion_20261019/52d517f2cd091856f373.source",
+      "original_sha256": "86dfaf97305037cee593bb8ba11d5e7c42840ecf3905eb82b1da777a56f662a6",
+      "published_redacted_sha256": "3385e40ba0bbe55a1ff6438be2368ec25e1b1f39d49c4b4518dc3916d13a7230",
+      "replacements": 2,
+      "transformation": "Replace Google API key values embedded in third-party map code only; retain all other bytes",
+      "original_storage": "Private backup outside Git repository, under the current user home; not published",
+      "source_url": "https://john.oen.tw/"
+    },
+    {
+      "path": "data/raw/career_expansion_20261019/671b49e24de612101dbc.source",
+      "original_sha256": "f1fb7c88b2f036e62010b9911e1b431438b228778288d80b84ec27f8c20feabe",
+      "published_redacted_sha256": "513e1b05510c3bfad66b6c81d3d0db4f1a962eb529f44d046764d7731f89a013",
+      "replacements": 2,
+      "transformation": "Replace Google API key values embedded in third-party map code only; retain all other bytes",
+      "original_storage": "Private backup outside Git repository, under the current user home; not published",
+      "source_url": "https://ryung.oen.tw/"
+    },
+    {
+      "path": "data/raw/career_expansion_20261019/8b170c870f2170688117.source",
+      "original_sha256": "64771cde41c726954f4b595e8a89e50ab3bdc1e25fc3d9a89e46e55a97a11d79",
+      "published_redacted_sha256": "11638f3b53a72b5bf02e1d0603df78dfc25203ca1ac991bcc41c2d00da96cb51",
+      "replacements": 2,
+      "transformation": "Replace Google API key values embedded in third-party map code only; retain all other bytes",
+      "original_storage": "Private backup outside Git repository, under the current user home; not published",
+      "source_url": "https://teamho666.oen.tw/"
+    },
+    {
+      "path": "data/raw/career_expansion_20261019/92d7983fa58a330e792d.source",
+      "original_sha256": "181c9d1d5809b86c70b77c862cb104805a376b7a2d63e64729f1082208292ba1",
+      "published_redacted_sha256": "c449936cf05a6ee8c47f66e129e0a9982db0028159c6296da64fcf11f0aca45f",
+      "replacements": 1,
+      "transformation": "Replace Google API key values embedded in third-party map code only; retain all other bytes",
+      "original_storage": "Private backup outside Git repository, under the current user home; not published",
+      "source_url": "https://news.cts.com.tw/cts/politics/202511/202511292539034.html"
+    },
+    {
+      "path": "data/raw/career_expansion_20261019/f0ccfe475c8a37b154f6.source",
+      "original_sha256": "caa0c2bc045292f402d987ad4378c1a3028537ed26aa1644416a777f1584059f",
+      "published_redacted_sha256": "cdbb8fe941687db5571ba91d97cdeb55bcdf883a150bc53d1a147f5be91f57d6",
+      "replacements": 1,
+      "transformation": "Replace Google API key values embedded in third-party map code only; retain all other bytes",
+      "original_storage": "Private backup outside Git repository, under the current user home; not published",
+      "source_url": "https://news.cts.com.tw/cts/local/202601/202601192554290.html"
+    },
+    {
+      "path": "data/raw/mayor_incumbency_20261019/073b4b373ff6173a4278.html",
+      "original_sha256": "65a4d478e49528cb4117583cc499924675ce47c2457575f4c66cffd1842d24b1",
+      "published_redacted_sha256": "8c76981f0eb952ebea93e09e89eb0feb2b35e5130ac918535271ae5966a16eef",
+      "replacements": 1,
+      "transformation": "Replace Google API key values embedded in third-party map code only; retain all other bytes",
+      "original_storage": "Private backup outside Git repository, under the current user home; not published",
+      "source_url": "https://www.kcg.gov.tw/cp.aspx?n=59C096A5BBC7AFB1"
+    }
+  ],
+  "validation": "All private backups matched original byte SHA; each replacement removes only the key value; published files rechecked by scanner."
+}

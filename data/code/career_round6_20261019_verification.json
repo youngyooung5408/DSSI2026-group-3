@@ -105,13 +105,13 @@
       "key": [
         "candidate_key"
       ],
-      "sha256": "5313bcddabc8f33f824be67bf86d04d78b0000a24541133f0e0857d9a1319513"
+      "sha256": "06bbbaf105fa5c1a1286776ddad67f6bf642f3b2961ffa0fd66775126f2680dc"
     },
     "data/processed/candidate_social_account_evidence_current.csv": {
       "rows": 233,
       "columns": 14,
       "key": [],
-      "sha256": "857fe75ffabd52448467286da5230b33fcbe4eed4d29cb3d1edac761baa9b301"
+      "sha256": "7b53408d0db28ec76e50571f94307aa71591d299a6cd8dab8c03e6f3dce07666"
     },
     "data/processed/meta_candidate_account_worklist_current.csv": {
       "rows": 4749,
@@ -128,13 +128,13 @@
       "key": [
         "candidate_key"
       ],
-      "sha256": "ba06416a3b1263324b0ae72f30b2d94793de0afd8c724004c75fa59c687985b3"
+      "sha256": "c794b2e934bff27d295a6bda4c5ed6010fff511f357c520f0bebb1b08449cfe8"
     },
     "data/processed/candidate_background_evidence_round6_20261019.csv": {
       "rows": 49,
       "columns": 9,
       "key": [],
-      "sha256": "297a4d086b0e39cebce97814ffde91dd528370c7d7602ad48690108e9a086c6b"
+      "sha256": "71269c828d18be5d1f8a2ec5385c43adfdf95a33ed1de9659d8776503355b70f"
     },
     "data/processed/mayor_head_comparison_round6_20261019.csv": {
       "rows": 81,
@@ -156,7 +156,7 @@
       "rows": 1162,
       "columns": 19,
       "key": [],
-      "sha256": "171f8bfcfa268720d1d36c9928092ecc80e04457a6709172823e31c213717620"
+      "sha256": "7f467321214ecb4c640dd66e951ac16ea9663b4072f075213cebb530263a542e"
     }
   }
 }

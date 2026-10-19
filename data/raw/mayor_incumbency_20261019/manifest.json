@@ -241,9 +241,13 @@
     "content_type": "text/html; charset=utf-8",
     "final_url": "https://www.kcg.gov.tw/cp.aspx?n=59C096A5BBC7AFB1",
     "path": "data/raw/mayor_incumbency_20261019/073b4b373ff6173a4278.html",
-    "sha256": "65a4d478e49528cb4117583cc499924675ce47c2457575f4c66cffd1842d24b1",
+    "sha256": "8c76981f0eb952ebea93e09e89eb0feb2b35e5130ac918535271ae5966a16eef",
     "return_code": 0,
-    "captured_date": "2026-10-19"
+    "captured_date": "2026-10-19",
+    "original_response_sha256": "65a4d478e49528cb4117583cc499924675ce47c2457575f4c66cffd1842d24b1",
+    "stored_representation": "public_redacted_capture; original bytes retained privately outside Git",
+    "redaction_date": "2026-10-19",
+    "redacted_google_key_occurrences": 1
   },
   {
     "county_city": "新竹縣",

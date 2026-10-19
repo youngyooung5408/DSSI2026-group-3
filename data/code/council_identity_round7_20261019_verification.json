@@ -57,7 +57,7 @@
       "key": [
         "candidate_key"
       ],
-      "sha256": "f4b9055e53c7d8476f34389e4d810e26569c394c5e4916c50230b31fef7db2da"
+      "sha256": "47ad3b02ee159bd1a6e7aa9114750ee6bde8d4c4380eacac24b41f116deba410"
     },
     "data/processed/snapshots/pre_cross_office_round8_20261019/council_history_pending_identity_current.csv": {
       "rows": 153,
@@ -73,7 +73,7 @@
       "key": [
         "candidate_key"
       ],
-      "sha256": "624ab491f27dc8dd87bdb823f919960e7118b9b591a9c41ee63246df5f4b5be5"
+      "sha256": "f4b8ad31a920ae66d9d90d1bd9d44947efd986d4d7bd600a75d7a3c5fd2d06ee"
     },
     "data/processed/party_profile_review_round7_20261019.csv": {
       "rows": 9,
@@ -87,7 +87,7 @@
       "rows": 70,
       "columns": 9,
       "key": [],
-      "sha256": "a9a07816dc0f97566966a2d0214806a2138f7b6b3d9022f4bbdc614f9f4bf303"
+      "sha256": "1e0b32a203cd32b0a01c8ca800f0611c7aa93f9f20cac4e8712d9d492ec2afe4"
     }
   }
 }

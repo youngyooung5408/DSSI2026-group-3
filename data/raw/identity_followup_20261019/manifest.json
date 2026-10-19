@@ -35,7 +35,7 @@
     "status": "404",
     "content_type": "text/html",
     "final_url": "https://tw.news.yahoo.com/%E9%AB%98%E9%9B%84%E5%8D%81%E5%A4%A7%E5%82%B3%E8%AA%AA-%E8%88%89%E7%89%8C%E5%A7%8A-%E5%B0%87%E5%85%AB%E5%BA%A6%E5%8F%83%E9%81%B8-%E6%9F%B3%E6%B7%91%E8%8A%B3-%E8%AD%B7%E5%8F%B0%E7%81%A3%E6%AD%A4%E7%94%9F%E7%84%A1%E6%82%94-013959931.html",
-    "path": "data/raw/identity_followup_20261019/a898038ddbed35271eaf.html",
+    "path": "data/raw/identity_followup_20261019/64fbcee5c646c495e8a3.html",
     "sha256": "17ea8d8c4f070d0b6fd4c08935fcaae7553667f43acfdd8cb587a090d867e581",
     "checked_date": "2026-10-19"
   },
@@ -55,7 +55,7 @@
     "status": "403",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://www.cna.com.tw/news/aloc/202604220132.aspx",
-    "path": "data/raw/identity_followup_20261019/4e383d63bf8f41b03895.html",
+    "path": "data/raw/mayor_birth_followup_20261019/wen_cna.html",
     "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
     "checked_date": "2026-10-19"
   },
@@ -65,7 +65,7 @@
     "status": "403",
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://news.pchome.com.tw/living/cna/20260422/index-17768349953142118009.html",
-    "path": "data/raw/identity_followup_20261019/0d72576b6c0368207f77.html",
+    "path": "data/raw/mayor_birth_followup_20261019/wen_cna.html",
     "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
     "checked_date": "2026-10-19"
   },

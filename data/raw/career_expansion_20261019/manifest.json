@@ -204,9 +204,13 @@
     "final_url": "https://john.oen.tw/",
     "return_code": 0,
     "path": "data/raw/career_expansion_20261019/52d517f2cd091856f373.source",
-    "sha256": "86dfaf97305037cee593bb8ba11d5e7c42840ecf3905eb82b1da777a56f662a6",
+    "sha256": "3385e40ba0bbe55a1ff6438be2368ec25e1b1f39d49c4b4518dc3916d13a7230",
     "error": "",
-    "captured_date": "2026-10-19"
+    "captured_date": "2026-10-19",
+    "original_response_sha256": "86dfaf97305037cee593bb8ba11d5e7c42840ecf3905eb82b1da777a56f662a6",
+    "stored_representation": "public_redacted_capture; original bytes retained privately outside Git",
+    "redaction_date": "2026-10-19",
+    "redacted_google_key_occurrences": 2
   },
   {
     "url": "https://life.tw/article/319%E4%BD%8D%E9%95%B7%E8%BC%A9%E9%BD%8A%E8%81%9A-%E8%87%AA%E7%94%B1%E6%99%BA%E5%9C%A8-%E5%98%89%E5%B9%B4%E8%8F%AF-%E5%9F%94%E5%9F%BA%E6%B7%B1%E8%80%95%E5%A4%B1%E6%99%BA%E5%8F%8B%E5%96%84%E7%A4%BE%E5%8D%80-3146544",
@@ -303,9 +307,13 @@
     "final_url": "https://news.cts.com.tw/cts/local/202601/202601192554290.html",
     "return_code": 0,
     "path": "data/raw/career_expansion_20261019/f0ccfe475c8a37b154f6.source",
-    "sha256": "caa0c2bc045292f402d987ad4378c1a3028537ed26aa1644416a777f1584059f",
+    "sha256": "cdbb8fe941687db5571ba91d97cdeb55bcdf883a150bc53d1a147f5be91f57d6",
     "error": "",
-    "captured_date": "2026-10-19"
+    "captured_date": "2026-10-19",
+    "original_response_sha256": "caa0c2bc045292f402d987ad4378c1a3028537ed26aa1644416a777f1584059f",
+    "stored_representation": "public_redacted_capture; original bytes retained privately outside Git",
+    "redaction_date": "2026-10-19",
+    "redacted_google_key_occurrences": 1
   },
   {
     "url": "https://news.cts.com.tw/cts/politics/202511/202511292539034.html",
@@ -314,9 +322,13 @@
     "final_url": "https://news.cts.com.tw/cts/politics/202511/202511292539034.html",
     "return_code": 0,
     "path": "data/raw/career_expansion_20261019/92d7983fa58a330e792d.source",
-    "sha256": "181c9d1d5809b86c70b77c862cb104805a376b7a2d63e64729f1082208292ba1",
+    "sha256": "c449936cf05a6ee8c47f66e129e0a9982db0028159c6296da64fcf11f0aca45f",
     "error": "",
-    "captured_date": "2026-10-19"
+    "captured_date": "2026-10-19",
+    "original_response_sha256": "181c9d1d5809b86c70b77c862cb104805a376b7a2d63e64729f1082208292ba1",
+    "stored_representation": "public_redacted_capture; original bytes retained privately outside Git",
+    "redaction_date": "2026-10-19",
+    "redacted_google_key_occurrences": 1
   },
   {
     "url": "https://news.ltn.com.tw/news/politics/breakingnews/5412876",
@@ -732,9 +744,13 @@
     "final_url": "https://ryung.oen.tw/",
     "return_code": 0,
     "path": "data/raw/career_expansion_20261019/671b49e24de612101dbc.source",
-    "sha256": "f1fb7c88b2f036e62010b9911e1b431438b228778288d80b84ec27f8c20feabe",
+    "sha256": "513e1b05510c3bfad66b6c81d3d0db4f1a962eb529f44d046764d7731f89a013",
     "error": "",
-    "captured_date": "2026-10-19"
+    "captured_date": "2026-10-19",
+    "original_response_sha256": "f1fb7c88b2f036e62010b9911e1b431438b228778288d80b84ec27f8c20feabe",
+    "stored_representation": "public_redacted_capture; original bytes retained privately outside Git",
+    "redaction_date": "2026-10-19",
+    "redacted_google_key_occurrences": 2
   },
   {
     "url": "https://sab.tainan.gov.tw/News_Content_table.aspx?n=21460&s=5189923",
@@ -798,9 +814,13 @@
     "final_url": "https://teamho666.oen.tw/",
     "return_code": 0,
     "path": "data/raw/career_expansion_20261019/8b170c870f2170688117.source",
-    "sha256": "64771cde41c726954f4b595e8a89e50ab3bdc1e25fc3d9a89e46e55a97a11d79",
+    "sha256": "11638f3b53a72b5bf02e1d0603df78dfc25203ca1ac991bcc41c2d00da96cb51",
     "error": "",
-    "captured_date": "2026-10-19"
+    "captured_date": "2026-10-19",
+    "original_response_sha256": "64771cde41c726954f4b595e8a89e50ab3bdc1e25fc3d9a89e46e55a97a11d79",
+    "stored_representation": "public_redacted_capture; original bytes retained privately outside Git",
+    "redaction_date": "2026-10-19",
+    "redacted_google_key_occurrences": 2
   },
   {
     "url": "https://truemii.chinatimes.com/content/20260423002887-265007",
@@ -1942,9 +1962,13 @@
     "final_url": "https://www.tncc.gov.tw/page.asp?mainid=55B7F0C4-B7D8-417E-BC4E-23B21F52CA2D",
     "return_code": 0,
     "path": "data/raw/career_expansion_20261019/2b0861c3a2c5f49e357e.source",
-    "sha256": "21c94a45b04097f0e85ec59ef90ac45e792fa0139cd9fb84f6356ae67a5cb706",
+    "sha256": "9da1ff1992430a759190a73cb8450ddfc9ac20e1463e9aae29eb4a3c8fac65bd",
     "error": "",
-    "captured_date": "2026-10-19"
+    "captured_date": "2026-10-19",
+    "original_response_sha256": "21c94a45b04097f0e85ec59ef90ac45e792fa0139cd9fb84f6356ae67a5cb706",
+    "stored_representation": "public_redacted_capture; original bytes retained privately outside Git",
+    "redaction_date": "2026-10-19",
+    "redacted_google_key_occurrences": 1
   },
   {
     "url": "https://www.tpp.org.tw/2026election/candidatedetail.php?cid=161",
@@ -2040,7 +2064,7 @@
     "content_type": "text/html; charset=UTF-8",
     "final_url": "https://youth.pfpnext.com/2026/candidate-detail.php?id=pfp2026-002",
     "return_code": 0,
-    "path": "data/raw/career_expansion_20261019/fff69c0c06e8ba50d093.source",
+    "path": "data/raw/social_followup_round6_20261019/fff69c0c06e8ba50d093.html",
     "sha256": "9079d0f4f0094d3e4bda4d2e2a6aae8f4346b6484131b0ee2f962c8b2db1ae19",
     "error": "",
     "captured_date": "2026-10-19"

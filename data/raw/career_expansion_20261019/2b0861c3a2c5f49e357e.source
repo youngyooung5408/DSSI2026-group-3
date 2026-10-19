@@ -146,7 +146,7 @@
 				return null;
 			}
 		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvO-kugczdw8v2EmO6MNN_TFqNitXVgZk" type="text/javascript"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=[REDACTED_THIRD_PARTY_GOOGLE_API_KEY]" type="text/javascript"></script>
 	<!--
 	<script type="text/javascript">
 		var div = document.createElement('div');

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Installation is a separate student-run step: git config core.hooksPath .githooks
+exec python3 data/code/check_source_credentials.py --staged

@@ -1,0 +1,891 @@
+<!doctype html>
+<html lang="zh-Hant">
+    <head>
+                    <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-55HDR9CSS2"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-55HDR9CSS2');
+            </script>
+                <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="robots" content="index, follow, max-image-preview:large">
+                <meta name="theme-color" content="#db6a41">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+                    <link rel="canonical" href="https://puma.taipei">
+                            <meta name="description" content="沈伯洋宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。">
+                        <meta property="og:type" content="website">
+                    <meta property="og:url" content="https://puma.taipei">
+                <meta property="og:locale" content="zh_TW">
+        <meta property="og:site_name" content="沈伯洋台北市長競選官方網站">
+        <meta property="og:title" content="沈伯洋｜台北市長候選人">
+                    <meta property="og:description" content="沈伯洋宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。">
+                <meta property="og:image" content="https://puma.taipei/images/og-default-20261013.webp">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="沈伯洋｜台北市長候選人">
+                    <meta name="twitter:description" content="沈伯洋宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。">
+                <meta name="twitter:image" content="https://puma.taipei/images/og-default-20261013.webp">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        >
+        <title>沈伯洋｜台北市長候選人</title>
+        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ProfilePage","@id":"https://puma.taipei/#profilepage","url":"https://puma.taipei/","name":"沈伯洋｜台北市長候選人","description":"沈伯洋宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。","inLanguage":"zh-Hant","isPartOf":{"@id":"https://puma.taipei/#website"},"mainEntity":{"@id":"https://puma.taipei/#puma-shen"}},{"@type":"Person","@id":"https://puma.taipei/#puma-shen","name":"沈伯洋","alternateName":"Puma Shen","jobTitle":["立法委員","台北市長候選人"],"description":"土生土長的台北人、收養家庭的爸爸，宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。","url":"https://puma.taipei/","image":{"@type":"ImageObject","url":"https://puma.taipei/images/og-default-20261013.webp","width":1200,"height":630},"nationality":"TW","sameAs":["https://facebook.com/1087764201093899","https://www.threads.com/@pumashen","https://www.youtube.com/@PumaShen","https://www.instagram.com/pumashen/"],"alumniOf":[{"@type":"EducationalOrganization","name":"國立臺灣大學"},{"@type":"EducationalOrganization","name":"University of Pennsylvania"},{"@type":"EducationalOrganization","name":"University of California"}]},{"@type":"WebSite","@id":"https://puma.taipei/#website","url":"https://puma.taipei/","name":"沈伯洋｜台北市長候選人","description":"沈伯洋宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。","inLanguage":"zh-Hant","publisher":{"@id":"https://puma.taipei/#puma-shen"}}]}</script>
+        <link rel="preload" as="style" href="https://puma.taipei/build/assets/app-Cib5z-ZP.css" /><link rel="preload" as="style" href="https://puma.taipei/build/assets/puma-DTtrvu-G.css" /><link rel="preload" as="style" href="https://puma.taipei/build/assets/puma-CSvobdiw.css" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/puma-DU9oNAqj.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/preload-helper-BgbkXLIy.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/gsap-D_956-p2.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/photoswipe.esm-S6UVvKwj.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/run-hug-mode-Dv_YP_OO.js" /><link rel="stylesheet" href="https://puma.taipei/build/assets/app-Cib5z-ZP.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://puma.taipei/build/assets/puma-DTtrvu-G.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://puma.taipei/build/assets/puma-CSvobdiw.css" data-navigate-track="reload" /><script type="module" src="https://puma.taipei/build/assets/puma-DU9oNAqj.js" data-navigate-track="reload"></script>    </head>
+    <body>
+        
+                    <header
+		class="site-header"
+		data-site-menu-variant="mega"
+		x-data="siteHeaderMenu"
+		x-on:mouseenter="cancelClose()"
+		x-on:mouseleave="armClose()"
+		x-on:focusout="closeGroupsOnFocusOut($event)"
+		x-on:keydown.escape.window="closeGroupsOnEscape()"
+		x-on:resize.window="closeMenuOnWiden()"
+	>
+		<nav
+			class="site-nav site-shell"
+			x-bind:class="{ 'site-nav-open': menuOpen, 'site-nav-visible': menuVisible, 'site-nav-closing': menuClosing }"
+			aria-label="主要選單"
+			x-on:mouseover="closeGroupsForPointer($event)"
+		>
+			<a class="site-brand" href="/" aria-label="回到沈伯洋台北市長競選官方網站首頁"  aria-current="page" >
+				<img src="/images/brand/candidate-lockup.webp" alt="你的市長 沈伯洋" width="1400" height="215" />
+			</a>
+			<button
+				class="site-menu-toggle"
+				type="button"
+				aria-expanded="false"
+				x-bind:aria-expanded="menuOpen ? 'true' : 'false'"
+				aria-controls="site-menu"
+				aria-label="切換主選單"
+				x-on:click="toggleMenu()"
+			>
+				<span></span><span></span><span></span>
+			</button>
+			<div class="site-menu" id="site-menu" x-bind:inert="!isDropdown() && !menuVisible" x-on:click="closeMenuOnLink($event)">
+				<details class="site-menu-group" data-site-menu-group="about"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  aria-controls="site-menu-panel-about">關於伯洋</summary>
+					<div class="site-menu-panel" id="site-menu-panel-about">
+						<section class="site-menu-category" aria-labelledby="site-menu-about-profile">
+							<h2 id="site-menu-about-profile">個人經歷</h2>
+							<a href="/declaration" >參選聲明</a>
+							<a href="/experience" >學經歷與國際交流</a>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-about-media">
+							<h2 id="site-menu-about-media">伯洋足跡</h2>
+							<a href="/schedule" >最新行程</a>
+							
+															<a href="https://gotcha.puma.taipei" target="_blank" rel="noopener noreferrer" aria-label="前往「捕捉野生沈伯洋」，另開新分頁">捕捉野生沈伯洋</a>
+													</section>
+					</div>
+				</details>
+				<details class="site-menu-group" data-site-menu-group="policy"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  aria-controls="site-menu-panel-policy">政策願景</summary>
+					<div class="site-menu-panel site-menu-panel--policy" id="site-menu-panel-policy">
+						<section class="site-menu-category site-menu-category--planning" aria-labelledby="site-menu-policy-future">
+							<h2 id="site-menu-policy-future">前瞻規劃</h2>
+							<div class="site-menu-link-grid site-menu-link-grid--policy-columns">
+								<a href="/heart" >HEART 政策生態系</a>
+																<a href="/heart/quiz/1" >伯洋分類帽</a>
+								<a href="/policies" >政策專區</a>
+							</div>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-policy-civic">
+							<h2 id="site-menu-policy-civic">市民意見</h2>
+							<a href="/taipeispeaksup" >市長，你給我聽好了</a>
+															<a href="/observatory" >台北民意觀察室</a>
+													</section>
+					</div>
+				</details>
+				<details class="site-menu-group" data-site-menu-group="currents"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  aria-controls="site-menu-panel-currents">洋流來襲</summary>
+					<div class="site-menu-panel site-menu-panel--currents" id="site-menu-panel-currents">
+						<section class="site-menu-category site-menu-category--activities" aria-labelledby="site-menu-currents-activities">
+							<h2 id="site-menu-currents-activities">洋流活動</h2>
+							<div class="site-menu-link-grid site-menu-link-grid--activity-columns">
+																	<a href="/songs" >競選歌曲</a>
+																<a href="https://storemap.puma.taipei/" target="_blank" rel="noopener noreferrer" aria-label="洋流好店，另開新分頁">洋流好店</a>
+								<a href="/taipei-current" >台北大洋流</a>
+																	<a href="/hackathon" >市政 debug松</a>
+															</div>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-currents-fundraising">
+							<h2 id="site-menu-currents-fundraising">募款專區</h2>
+							<a href="/merch" data-site-run-hug-pat-trigger >洋流小物</a>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-currents-downloads">
+							<h2 id="site-menu-currents-downloads">下載專區</h2>
+							<a href="/documents" >文宣下載</a>
+														<a href="/soon-daily" >順報</a>
+						</section>
+					</div>
+				</details>
+				<details class="site-menu-group" data-site-menu-group="fact-checks"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  aria-controls="site-menu-panel-fact-checks">闢謠專區</summary>
+					<div class="site-menu-panel" id="site-menu-panel-fact-checks">
+						<section class="site-menu-category" aria-labelledby="site-menu-fact-checks-video">
+							<h2 id="site-menu-fact-checks-video">影音專區</h2>
+							<a href="/videos" >每日受訪</a>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-fact-checks-text">
+							<h2 id="site-menu-fact-checks-text">文字專區</h2>
+							<a href="/fact-checks" >闢謠專區</a>
+						</section>
+					</div>
+				</details>
+			</div>
+							<section
+    class="home-announcement"
+    data-home-announcement
+    data-home-announcement-source="/api/header-announcements"
+    hidden
+    x-bind:data-announcement-id="activeAnnouncement.id"
+    x-data="homeAnnouncement('\/api\/header-announcements')"
+    x-on:mouseenter="pauseForPointer()"
+    x-on:mouseleave="resumeForPointer()"
+    x-on:focusin="pauseForFocus()"
+    x-on:focusout="resumeAfterFocusLeaves($event)"
+    aria-label="網站公告"
+>
+    <div class="home-announcement__ticker" x-cloak>
+        <div class="home-announcement__viewport" data-home-announcement-viewport role="group" aria-label="公告跑馬燈">
+            <div class="home-announcement__track" data-home-announcement-track>
+                <div class="home-announcement__group" data-home-announcement-group>
+                    <template x-for="(announcement, index) in announcements" x-bind:key="announcement.id">
+                        <button
+                            class="home-announcement__item"
+                            type="button"
+                            data-home-announcement-open
+                            data-home-announcement-title
+                            x-on:click="openAnnouncement(index)"
+                            x-bind:aria-label="'查看公告：' + announcement.title"
+                        >
+                            <span class="home-announcement__title" x-text="announcement.title"></span>
+                            <svg class="home-announcement__detail-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8" />
+                                <path d="M12 11v5m0-8h.01" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" />
+                            </svg>
+                        </button>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <dialog
+        class="home-announcement__dialog"
+        data-home-announcement-dialog
+        x-ref="dialog"
+        x-on:click.self="closeDialog()"
+        x-on:close="handleDialogClose()"
+        aria-labelledby="home-announcement-dialog-title"
+    >
+        <div class="home-announcement__dialog-card">
+            <button class="home-announcement__close" type="button" x-on:click="closeDialog()" aria-label="關閉公告">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" />
+                </svg>
+            </button>
+            <p class="home-announcement__dialog-label">公告</p>
+            <h2 id="home-announcement-dialog-title" class="home-announcement__dialog-title" x-text="activeAnnouncement.title"></h2>
+            <div class="home-announcement__dialog-image-wrap" x-show="activeAnnouncement.isPreview">
+                <div class="home-announcement__preview-image" role="img" aria-label="公告圖片預覽">
+                    <span>公告圖片預覽</span>
+                </div>
+                <p class="home-announcement__preview-note">本機版位樣板・不會公開</p>
+            </div>
+            <img
+                class="home-announcement__dialog-image"
+                x-show="!activeAnnouncement.isPreview"
+                x-bind:src="activeAnnouncement.imageUrl"
+                x-bind:alt="activeAnnouncement.alt"
+                x-bind:title="activeAnnouncement.title"
+                decoding="async"
+            >
+            <a
+                class="home-announcement__dialog-link"
+                x-show="activeAnnouncement.linkUrl"
+                x-bind:href="activeAnnouncement.linkUrl"
+            >前往相關資訊</a>
+        </div>
+    </dialog>
+</section>
+					</nav>
+	</header>
+                        <main class="page-shell"><section class="hero-visual home-hero" data-home-hero aria-label="沈伯洋台北市長候選人主視覺">
+		<picture class="home-hero__picture">
+			<source media="(max-width: 639px)" srcset="/images/brand/home-hero-mobile.webp" />
+			<img
+				class="campaign-banner home-hero__base"
+				src="/images/brand/home-hero-base.webp"
+				alt="沈伯洋台北市長候選人主視覺，SOON 順，台北順起來"
+				width="1440"
+				height="720"
+			/>
+		</picture>
+		<div class="home-hero__wordmark" data-home-hero-wordmark aria-hidden="true">
+			<img
+				class="home-hero__layer home-hero__layer--soon"
+				data-home-hero-layer="soon"
+				src="/images/brand/home-hero-soon.webp"
+				alt=""
+				width="433"
+				height="116"
+			/>
+			<img
+				class="home-hero__layer home-hero__layer--shun"
+				data-home-hero-layer="shun"
+				src="/images/brand/home-hero-shun.webp"
+				alt=""
+				width="467"
+				height="450"
+			/>
+			<img
+				class="home-hero__layer home-hero__layer--taipei"
+				data-home-hero-layer="taipei"
+				src="/images/brand/home-hero-taipei.webp"
+				alt=""
+				width="112"
+				height="591"
+			/>
+		</div>
+		<section
+    class="home-hero-video"
+    data-home-hero-video
+    x-data="homeHeroVideo"
+    x-bind:data-state="expanded ? 'expanded' : 'mini'"
+    x-on:keydown.escape.window="collapse()"
+    aria-label="競選宣傳影片"
+>
+    <div class="home-hero-video__shade" aria-hidden="true"></div>
+    <div class="home-hero-video__panel">
+        <iframe
+            id="home-hero-video-frame"
+            class="home-hero-video__frame"
+            x-ref="frame"
+            title="競選宣傳影片"
+            src="https://www.youtube-nocookie.com/embed/Wa3n3KuT028?enablejsapi=1&autoplay=1&mute=1&playsinline=1&rel=0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            loading="eager"
+            width="1280"
+            height="720"
+        >
+        </iframe>
+        <button
+            class="home-hero-video__toggle"
+            data-home-hero-video-toggle
+            type="button"
+            x-ref="toggle"
+            x-on:click="toggle()"
+            x-bind:aria-expanded="expanded ? 'true' : 'false'"
+            aria-controls="home-hero-video-frame"
+            title="展開或縮小競選宣傳影片"
+        >
+            <span class="home-hero-video__toggle-label" x-text="expanded ? '縮小' : '展開'">縮小</span>
+            <span class="sr-only">競選宣傳影片</span>
+        </button>
+    </div>
+</section>
+		<nav class="social-links hero-social-links" aria-label="社群平台">
+			<a
+				class="hero-social-links__link hero-social-links__link--line"
+				href="https://join.puma.taipei/line/UkfBBgZ2"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="LINE"
+			>
+				<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+					<path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.63V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314" />
+				</svg>
+				<span class="sr-only">LINE</span>
+			</a>
+			<a
+				class="hero-social-links__link hero-social-links__link--facebook"
+				href="https://facebook.com/1087764201093899"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Facebook"
+			>
+				<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+					<path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+				</svg>
+				<span class="sr-only">Facebook</span>
+			</a>
+			<a
+				class="hero-social-links__link hero-social-links__link--threads"
+				href="https://www.threads.com/@pumashen"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Threads"
+			>
+				<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+					<path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z" />
+				</svg>
+				<span class="sr-only">Threads</span>
+			</a>
+			<a
+				class="hero-social-links__link hero-social-links__link--youtube"
+				href="https://www.youtube.com/@PumaShen"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="YouTube"
+			>
+				<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+					<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+				</svg>
+				<span class="sr-only">YouTube</span>
+			</a>
+			<a
+				class="hero-social-links__link hero-social-links__link--instagram"
+				href="https://www.instagram.com/pumashen/"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Instagram"
+			>
+				<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+					<path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+				</svg>
+				<span class="sr-only">Instagram</span>
+			</a>
+		</nav>
+	</section>
+	<div class="home-content-flow">
+		
+		<div class="home-cta-row" role="group" aria-label="快速入口">
+			<a href="https://puma.taipei/heart" class="heart-cta-button" aria-label="HEART 政策生態系">
+    <span class="heart-cta-button__mark">HEART</span>
+    <span class="heart-cta-button__label">政策生態系</span>
+</a>
+			<a
+    href="https://storemap.puma.taipei/"
+    class="store-map-button"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="洋流好店（另開新分頁）"
+>
+    洋流好店
+</a>
+			
+							<a
+    href="https://gotcha.puma.taipei"
+    class="gotcha-button"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="捕捉野生沈伯洋（另開新分頁）"
+>
+    捕捉野生沈伯洋
+</a>
+						<a
+    href="https://puma.taipei/soon-daily"
+    class="shunbao-button"
+    aria-label="前往《順報》線上閱讀"
+>
+    閱讀《順報》
+</a>
+							<a
+    href="https://puma.taipei/hackathon"
+    class="hackathon-button"
+    aria-label="前往市政 debug松活動頁"
+>
+    市政 debug松
+</a>
+					</div>
+		<a
+	class="home-current-banner"
+	href="/taipei-current"
+	aria-label="前往台北大洋流航線地圖"
+>
+	<img
+		src="/images/home-taipei-current-banner.webp"
+		alt="台北大洋流，航向新未來"
+		width="2153"
+		height="648"
+		loading="lazy"
+		decoding="async"
+	>
+	<span class="home-current-banner__button">登船口</span>
+</a>
+		
+		<div class="home-launch-banner home-launch-banner--home">
+			<picture>
+				<source
+					media="(max-width: 639px)"
+					srcset="/images/home-taipei-speaks-up-banner-m.webp"
+					width="1140"
+					height="648"
+				/>
+				<img
+					src="/images/home-taipei-speaks-up-banner.webp"
+					alt=""
+					width="2153"
+					height="648"
+					loading="lazy"
+					decoding="async"
+				>
+			</picture>
+			<div class="home-launch-banner__actions" role="group" aria-label="市民參與">
+				<a
+					class="home-launch-banner__button"
+					href="https://puma.taipei/taipeispeaksup"
+					aria-label="前往「市長，你給我聽好了」介紹頁"
+				>
+					<span class="home-launch-banner__button-surface" aria-hidden="true">
+						<img src="/images/home-participation-button-bg.svg" alt="">
+					</span>
+					<span class="home-launch-banner__button-label">我要加入發言</span>
+				</a>
+				
+									<a
+						class="home-launch-banner__button"
+						href="https://puma.taipei/observatory"
+						aria-label="前往台北民意觀察室"
+					>
+						<span class="home-launch-banner__button-surface" aria-hidden="true">
+							<img src="/images/home-participation-button-bg.svg" alt="">
+						</span>
+						<span class="home-launch-banner__button-label">台北民意觀察室</span>
+					</a>
+							</div>
+		</div>
+		<a
+			class="home-merch-banner"
+			href="https://puma.oen.tw/"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="前往購買 2026 洋流好物競選小物"
+		>
+			<img
+				src="/images/merch/banner.webp"
+				alt="2026 洋流好物競選小物，前往購買"
+				width="1920"
+				height="370"
+				loading="lazy"
+				decoding="async"
+			>
+		</a>
+
+		<section class="fact-check-page">
+			<div class="editorial-page-container">
+				<section class="news-section" aria-labelledby="news-fact-checks-title">
+                <header class="editorial-page-header">
+                    <p class="editorial-page-eyebrow">
+                        <span></span>
+                        FACT CHECK
+                    </p>
+                    <h2 id="news-fact-checks-title">闢謠專區</h2>
+                </header>
+
+                                    <ul class="fact-check-list">
+                                                    <li>
+    <a class="fact-check-list-card" href="https://puma.taipei/fact-checks/1500cny">
+        <span class="kicker">
+            NO.&nbsp;24
+        </span>
+                <h2>【闢謠】沈伯洋承諾持續發放1,500元重陽禮金，網傳說法不實</h2>
+                    <p>沈伯洋已明確承諾，上任後將持續發放重陽禮金，並希望進一步深化重陽敬老精神，讓重陽節更具意義。</p>
+                    </a>
+</li>
+                                                    <li>
+    <a class="fact-check-list-card" href="https://puma.taipei/fact-checks/fact-check-23">
+        <span class="kicker">
+            NO.&nbsp;23
+        </span>
+                <h2>【闢謠】沈伯洋駁斥安排社子島居民下跪說法</h2>
+                    <p>沈伯洋駁斥相關指控，表示不會也不可能在任何地點、任何場合安排民眾下跪。</p>
+                    </a>
+</li>
+                                                    <li>
+    <a class="fact-check-list-card" href="https://puma.taipei/fact-checks/fact-check-22">
+        <span class="kicker">
+            NO.&nbsp;22
+        </span>
+                <h2>【闢謠】網傳「沈伯洋主張廢除死刑」</h2>
+                    <p>沈伯洋從未提出廢除死刑的修法主張，過去更曾擔任《死刑肯定論》一書的審定。</p>
+                    </a>
+</li>
+                                            </ul>
+                
+                <p class="section-more">
+                    <a class="section-more-link" href="https://puma.taipei/fact-checks">顯示更多</a>
+                </p>
+            </section>
+
+            <section class="news-section" aria-labelledby="news-videos-title">
+                <header class="editorial-page-header">
+                    <p class="editorial-page-eyebrow">
+                        <span></span>
+                        DAILY INTERVIEW
+                    </p>
+                    <h2 id="news-videos-title">每日受訪</h2>
+                </header>
+
+                                    <ul class="videos-grid">
+                                                    <li class="video-card">
+    <a
+        class="video-card-thumb"
+        href="https://puma.taipei/videos/9LqqJyheX5funOhE9i5mL"
+        aria-label="前往影片頁：1016受訪"
+    >
+        <img
+            src="https://i.ytimg.com/vi/pNzV2U_7M6g/hqdefault.jpg"
+            alt="1016受訪 YouTube 縮圖"
+            loading="lazy"
+            decoding="async"
+        >
+        <span class="video-card-play" aria-hidden="true">觀看影片</span>
+    </a>
+    <div class="video-card-body">
+        <h2 class="video-card-title">
+            <a href="https://puma.taipei/videos/9LqqJyheX5funOhE9i5mL">1016受訪</a>
+        </h2>
+                    <div class="video-tags">
+                                    <a href="https://puma.taipei/video/tag/%E5%8F%97%E8%A8%AA">#受訪</a>
+                                    <a href="https://puma.taipei/video/tag/%E9%83%BD%E6%9B%B4">#都更</a>
+                                    <a href="https://puma.taipei/video/tag/%E8%A9%95%E8%AB%967599">#評論7599</a>
+                            </div>
+            </div>
+</li>
+                                                    <li class="video-card">
+    <a
+        class="video-card-thumb"
+        href="https://puma.taipei/videos/I4f5cw2fPJJKkr9-sTdpu"
+        aria-label="前往影片頁：1015受訪-1"
+    >
+        <img
+            src="https://i.ytimg.com/vi/gU-dJb7eYOw/hqdefault.jpg"
+            alt="1015受訪-1 YouTube 縮圖"
+            loading="lazy"
+            decoding="async"
+        >
+        <span class="video-card-play" aria-hidden="true">觀看影片</span>
+    </a>
+    <div class="video-card-body">
+        <h2 class="video-card-title">
+            <a href="https://puma.taipei/videos/I4f5cw2fPJJKkr9-sTdpu">1015受訪-1</a>
+        </h2>
+                    <div class="video-tags">
+                                    <a href="https://puma.taipei/video/tag/%E5%8F%97%E8%A8%AA">#受訪</a>
+                                    <a href="https://puma.taipei/video/tag/%E7%94%9F%E6%85%8B%E4%B8%B2%E8%81%AF">#生態串聯</a>
+                                    <a href="https://puma.taipei/video/tag/%E6%9D%BE%E6%A9%9F%E9%81%B7%E7%A7%BB">#松機遷移</a>
+                                    <a href="https://puma.taipei/video/tag/%E5%B8%82%E9%95%B7%E8%BE%AF%E8%AB%96">#市長辯論</a>
+                                    <a href="https://puma.taipei/video/tag/%E7%AB%8B%E5%A7%94%E5%B7%A5%E4%BD%9C%E5%9B%9E%E6%87%89">#立委工作回應</a>
+                                    <a href="https://puma.taipei/video/tag/%E6%B4%8B%E6%B5%81">#洋流</a>
+                                    <a href="https://puma.taipei/video/tag/%E5%90%8C%E5%BF%97%E8%AD%B0%E9%A1%8C">#同志議題</a>
+                                    <a href="https://puma.taipei/video/tag/%E5%9F%8E%E5%B8%82%E8%A1%8C%E9%8A%B7">#城市行銷</a>
+                            </div>
+            </div>
+</li>
+                                                    <li class="video-card">
+    <a
+        class="video-card-thumb"
+        href="https://puma.taipei/videos/8VCuQbPIbgLS83ryQQcND"
+        aria-label="前往影片頁：1015受訪"
+    >
+        <img
+            src="https://i.ytimg.com/vi/ua1T-GY0Adc/hqdefault.jpg"
+            alt="1015受訪 YouTube 縮圖"
+            loading="lazy"
+            decoding="async"
+        >
+        <span class="video-card-play" aria-hidden="true">觀看影片</span>
+    </a>
+    <div class="video-card-body">
+        <h2 class="video-card-title">
+            <a href="https://puma.taipei/videos/8VCuQbPIbgLS83ryQQcND">1015受訪</a>
+        </h2>
+                    <div class="video-tags">
+                                    <a href="https://puma.taipei/video/tag/%E5%8F%97%E8%A8%AA">#受訪</a>
+                                    <a href="https://puma.taipei/video/tag/%E9%87%8C%E9%95%B7%E5%80%99%E9%81%B8%E4%BA%BA%E5%BA%A7%E8%AB%87">#里長候選人座談</a>
+                                    <a href="https://puma.taipei/video/tag/%E6%8F%90%E5%8D%87%E9%87%8C%E9%95%B7%E5%AE%9A%E4%BD%8D">#提升里長定位</a>
+                                    <a href="https://puma.taipei/video/tag/%E7%99%BB%E5%B1%B1">#登山</a>
+                                    <a href="https://puma.taipei/video/tag/%E7%AB%8B%E5%A7%94%E5%B7%A5%E4%BD%9C%E5%9B%9E%E6%87%89">#立委工作回應</a>
+                                    <a href="https://puma.taipei/video/tag/%E6%9D%BE%E5%B1%B1%E6%A9%9F%E5%A0%B4">#松山機場</a>
+                                    <a href="https://puma.taipei/video/tag/%E8%90%AC%E5%AE%89%E8%A3%9C%E8%AA%B2">#萬安補課</a>
+                            </div>
+            </div>
+</li>
+                                            </ul>
+                
+                <p class="section-more">
+                    <a class="section-more-link" href="https://puma.taipei/videos">顯示更多</a>
+                </p>
+            </section>
+
+                            <section class="news-section" aria-labelledby="news-itineraries-title">
+                    <header class="editorial-page-header">
+                        <p class="editorial-page-eyebrow">
+                            <span></span>
+                            SCHEDULE
+                        </p>
+                        <h2 id="news-itineraries-title">最新行程</h2>
+                    </header>
+
+                                            <ul class="policies-grid">
+                                                            <li class="policy-card itinerary-card">
+    <div class="policy-card-thumb">
+                    <img
+                src="https://media.puma.taipei/files/289/conversions/YLI3oN5yu0YhZ42PmKXcH50RYIgil35Dyu3Bx3XS-medium.webp"
+                alt="台北大洋流・松山 × 信義車掃"
+                loading="lazy"
+                decoding="async"
+            >
+            </div>
+    <div class="policy-card-body">
+        <p class="itinerary-card-date">
+            <time datetime="2026-10-18T20:38:08+08:00">2026-10-18</time>
+        </p>
+                    <h2 class="policy-card-title">台北大洋流・松山 × 信義車掃</h2>
+                        
+    </div>
+</li>
+                                                            <li class="policy-card itinerary-card">
+    <div class="policy-card-thumb">
+                    <img
+                src="https://media.puma.taipei/files/288/conversions/KV9aAYtWvHBVal94QcolutohbtNsomiL4cX2CB7J-medium.webp"
+                alt="林延鳳議員聯合競總成立大會"
+                loading="lazy"
+                decoding="async"
+            >
+            </div>
+    <div class="policy-card-body">
+        <p class="itinerary-card-date">
+            <time datetime="2026-10-18T20:37:33+08:00">2026-10-18</time>
+        </p>
+                    <h2 class="policy-card-title">林延鳳議員聯合競總成立大會</h2>
+                        
+    </div>
+</li>
+                                                            <li class="policy-card itinerary-card">
+    <div class="policy-card-thumb">
+                    <img
+                src="https://media.puma.taipei/files/287/conversions/17KZL5mtxL38vbUUd8U42KPVa7BFKvFStMG7O8xc-medium.webp"
+                alt="陳慈慧議員聯合競總成立大會"
+                loading="lazy"
+                decoding="async"
+            >
+            </div>
+    <div class="policy-card-body">
+        <p class="itinerary-card-date">
+            <time datetime="2026-10-17T20:36:57+08:00">2026-10-17</time>
+        </p>
+                    <h2 class="policy-card-title">陳慈慧議員聯合競總成立大會</h2>
+                        
+    </div>
+</li>
+                                                            <li class="policy-card itinerary-card">
+    <div class="policy-card-thumb">
+                    <img
+                src="https://media.puma.taipei/files/286/conversions/6fIpNZbrNN5nTDDoh1JiH60GvBZFSUtwhXsUgWlb-medium.webp"
+                alt="王閔生議員聯合競總成立大會"
+                loading="lazy"
+                decoding="async"
+            >
+            </div>
+    <div class="policy-card-body">
+        <p class="itinerary-card-date">
+            <time datetime="2026-10-17T20:36:31+08:00">2026-10-17</time>
+        </p>
+                    <h2 class="policy-card-title">王閔生議員聯合競總成立大會</h2>
+                        
+    </div>
+</li>
+                                                    </ul>
+                    
+                    <p class="section-more">
+                        <a class="section-more-link" href="https://puma.taipei/schedule">顯示更多</a>
+                    </p>
+                </section>
+            			</div>
+		</section>
+	</div></main>
+        <div
+            class="site-run-hug"
+            data-site-run-hug
+                        aria-hidden="true"
+            role="presentation"
+        >
+            <div class="site-run-hug__sprite">
+                <img
+                    class="site-run-hug__image site-run-hug__image--run"
+                    src="/images/run-hug/sprite-run.png"
+                    alt=""
+                    aria-hidden="true"
+                    width="1774"
+                    height="887"
+                />
+                <img
+                    class="site-run-hug__image site-run-hug__image--pat"
+                    src="/images/run-hug/sprite-head-pat.webp"
+                    alt=""
+                    aria-hidden="true"
+                    width="2172"
+                    height="724"
+                />
+            </div>
+        </div>
+        <a href="https://puma.oen.tw/" target="_blank" rel="noopener noreferrer" class="donation-button" data-site-run-hug-pat-trigger aria-label="贊助我們">
+    贊助我們
+</a>
+        <a
+    href="https://join.puma.taipei/line/UkfBBgZ2"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="line-button"
+    aria-label="加入官方 LINE"
+>
+    <svg class="line-button__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+        <path d="M12 3C6.48 3 2 6.69 2 11.23c0 4.07 3.55 7.48 8.35 8.12.33.07.77.22.88.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.01.88.55 1.09-.46 5.86-3.45 8-5.91 1.48-1.62 2-3.27 2-5.04C22 6.69 17.52 3 12 3ZM8.13 13.62H6.14a.53.53 0 0 1-.53-.53V9.11a.53.53 0 0 1 1.05 0v3.45h1.47a.53.53 0 0 1 0 1.06Zm2.07-.53a.53.53 0 0 1-1.06 0V9.11a.53.53 0 0 1 1.06 0v3.98Zm4.79 0a.53.53 0 0 1-.36.5.55.55 0 0 1-.17.03.52.52 0 0 1-.43-.21l-2.04-2.78v2.46a.53.53 0 0 1-1.05 0V9.11a.53.53 0 0 1 .36-.5.52.52 0 0 1 .6.18l2.04 2.78V9.11a.53.53 0 0 1 1.05 0v3.98Zm3.2-2.52a.53.53 0 0 1 0 1.06h-1.47v.94h1.47a.53.53 0 0 1 0 1.05h-1.99a.53.53 0 0 1-.53-.53V9.11a.53.53 0 0 1 .53-.53h1.99a.53.53 0 0 1 0 1.06h-1.47v.93h1.47Z"/>
+    </svg>
+    <span>加入 LINE</span>
+</a>
+                    <footer class="site-footer" aria-label="網站頁尾">
+	<div class="site-footer-inner site-shell">
+		<div class="footer-primary">
+			<a class="footer-brand" href="/" aria-label="回到沈伯洋台北市長競選官方網站首頁">
+				<img src="/images/brand/future-soon-lockup.webp" alt="FUTURE SOON 台北順起來" width="1000" height="283" />
+			</a>
+			<div class="footer-follow">
+				<p>追蹤沈伯洋</p>
+				<nav class="social-links footer-social-links" aria-label="社群平台">
+	<a href="https://facebook.com/1087764201093899" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+		</svg>
+		<span class="sr-only">Facebook</span>
+	</a>
+	<a href="https://www.threads.com/@pumashen" target="_blank" rel="noopener noreferrer" aria-label="Threads">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z" />
+		</svg>
+		<span class="sr-only">Threads</span>
+	</a>
+	<a href="https://www.youtube.com/@PumaShen" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+		</svg>
+		<span class="sr-only">YouTube</span>
+	</a>
+	<a href="https://www.instagram.com/pumashen/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+		</svg>
+		<span class="sr-only">Instagram</span>
+	</a>
+</nav>
+				<address class="footer-contact" aria-label="競選總部聯絡資訊">
+					<p class="footer-contact__name">沈伯洋台北市長競選總部</p>
+					<p>週一至週日 10:00 - 20:00</p>
+					<p class="footer-contact__address"><a
+						class="footer-contact__address-link"
+						href="https://www.google.com/maps/search/?api=1&amp;query=%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%8C%97%E5%B9%B3%E6%9D%B1%E8%B7%AF30-1%E8%99%9F1%E6%A8%93"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="在新分頁開啟 Google 地圖：臺北市中正區北平東路30-1號1樓"
+					>
+						<svg class="footer-contact__address-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+							<path d="M20 10c0 5-8 12-8 12s-8-7-8-12a8 8 0 1 1 16 0Z" />
+							<circle cx="12" cy="10" r="2.5" />
+						</svg>
+						臺北市中正區北平東路30-1號1樓
+					</a></p>
+				</address>
+			</div>
+		</div>
+
+		<nav class="footer-navigation" aria-label="頁尾主要導覽">
+			<section class="footer-navigation__group" aria-labelledby="footer-navigation-about">
+				<h2 id="footer-navigation-about">關於伯洋</h2>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-about-profile">
+					<h3 id="footer-navigation-about-profile">個人經歷</h3>
+					<ul>
+						<li><a href="/declaration">參選聲明</a></li>
+						<li><a href="/experience">學經歷與國際交流</a></li>
+					</ul>
+				</section>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-about-media">
+					<h3 id="footer-navigation-about-media">影音行程</h3>
+					<ul>
+						<li><a href="/videos">每日受訪</a></li>
+						<li><a href="/schedule">最新行程</a></li>
+													<li><a href="https://gotcha.puma.taipei" target="_blank" rel="noopener noreferrer" aria-label="前往「捕捉野生沈伯洋」，另開新分頁">捕捉野生沈伯洋</a></li>
+											</ul>
+				</section>
+			</section>
+
+			<section class="footer-navigation__group" aria-labelledby="footer-navigation-policy">
+				<h2 id="footer-navigation-policy">政策願景</h2>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-policy-planning">
+					<h3 id="footer-navigation-policy-planning">前瞻規劃</h3>
+					<ul>
+						<li><a href="/heart">HEART 政策生態系</a></li>
+												<li><a href="/heart/quiz/1">伯洋分類帽</a></li>
+						<li><a href="/policies">政策專區</a></li>
+					</ul>
+				</section>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-policy-civic">
+					<h3 id="footer-navigation-policy-civic">市民意見</h3>
+					<ul>
+						<li><a href="/taipeispeaksup">市長，你給我聽好了</a></li>
+													<li><a href="/observatory">台北民意觀察室</a></li>
+											</ul>
+				</section>
+			</section>
+
+			<section class="footer-navigation__group" aria-labelledby="footer-navigation-currents">
+				<h2 id="footer-navigation-currents">洋流來襲</h2>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-currents-activities">
+					<h3 id="footer-navigation-currents-activities">洋流活動</h3>
+					<ul>
+													<li><a href="/songs">競選歌曲</a></li>
+												<li><a href="https://storemap.puma.taipei/" target="_blank" rel="noopener noreferrer" aria-label="洋流好店，另開新分頁">洋流好店</a></li>
+						<li><a href="/taipei-current">台北大洋流</a></li>
+													<li><a href="/hackathon">市政 debug松</a></li>
+											</ul>
+				</section>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-currents-fundraising">
+					<h3 id="footer-navigation-currents-fundraising">募款專區</h3>
+					<ul>
+						<li><a href="/merch">洋流小物</a></li>
+					</ul>
+				</section>
+			</section>
+
+			<section class="footer-navigation__group footer-navigation__group--fact-checks" aria-labelledby="footer-navigation-downloads footer-navigation-fact-checks">
+				<section class="footer-navigation__category footer-navigation__category--downloads" aria-labelledby="footer-navigation-downloads">
+					<h3 id="footer-navigation-downloads">下載專區</h3>
+					<ul>
+						<li><a href="/documents">文宣下載</a></li>
+												<li><a href="/soon-daily">順報</a></li>
+					</ul>
+				</section>
+				<h2 id="footer-navigation-fact-checks"><a href="/fact-checks">闢謠專區</a></h2>
+			</section>
+		</nav>
+	</div>
+</footer>
+            </body>
+</html>
