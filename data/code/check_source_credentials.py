@@ -13,6 +13,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 PATTERNS = {
+    'Tencent WeChat App ID': rb'(?<![A-Za-z0-9])wx[0-9a-f]{16}(?![A-Za-z0-9])',
     'Google API key': rb'AIza[0-9A-Za-z_-]{35}',
     'AWS access key ID': rb'(?:AKIA|ASIA)[A-Z0-9]{16}',
     'GitHub token': rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,})',
