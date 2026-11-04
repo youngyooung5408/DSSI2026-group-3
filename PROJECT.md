@@ -26,13 +26,14 @@
 
 AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM／DE／DA，也不從 Git 作者、電腦帳號、檔名、範本示例或檔案提供者推定作者或責任；保留有依據的既有作者，不自動改成本次提供檔案的學生。等待回答時可先進行不依賴歸屬的檢查或討論。保留下列既有欄位，按已確認名單一人一列；尚無名單時保持空表，不先填入 3 或 4 位假成員。`Role` 記錄學生提供的角色與實際工作，確認姓名與工作不需額外要求學號或 GitHub 帳號。
 
-目前對話的學生：張睿庠／RUEI-HSIANG, CHANG（B12303030；本次AGENTS.md與個人設定提供）。
+目前對話的學生：楊喬茵（2026-11-04 對話中本人提供；學號待確認）。先前對話學生：張睿庠／RUEI-HSIANG, CHANG（B12303030）。
 
 | Name | Student ID | GitHub Account | Role |
 | --- | --- | --- | --- |
 | RUEI-HSIANG, CHANG | B12303030 | youngyooung5408 | 待確認 |
 | | B12303061 |  | 待確認 |
 | | B12303131 |  | 待確認 |
+| 楊喬茵 | 待確認（未確認是否為上列學號之一） |  | 角色待確認；2026-11-04 負責臺北市、高雄市議員G1–G6缺值人工核對 |
 
 ## Student Preferences
 
@@ -40,6 +41,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 - Tool / artifact format: Python／Jupyter Notebook（學生 2026-10-17 明確指定）
 - Report language: 繁體中文（台灣用語，zh-TW；教師預設，學生明確指定其他語言時優先沿用）
+- 2026-11-04（楊喬茵）：G1可用新聞「現年XX歲」推算出生年，但須加註「由報導年齡推算±1」旗標；臺北市、高雄市議員缺值先人工核對。
 - Other explicit preferences: 2026-10-17：研究範圍外人口、所得、就業與身高獨立資料移到相鄰 archive 保留；首次參選同時保存首次縣市長與首次任何民選公職兩欄。
 
 ## AI Agent Context
@@ -51,6 +53,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 | Student | AI tool / client | Model | Agent entrypoint | Source |
 | --- | --- | --- | --- | --- |
 | 張睿庠 | Codex（IDE專案環境） | OpenAI／GPT家族；完整型號未確認 | AGENTS.md | 本次執行環境與使用者提供的個人設定；不代表全組預設 |
+| 楊喬茵 | Claude Code（VS Code擴充套件） | Claude Opus 5.5（claude-opus-5-5） | CLAUDE.md（匯入AGENTS.md） | 2026-11-04 目前執行環境 |
 
 ## Data and Current Focus
 
@@ -73,12 +76,17 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 | G1–G6 candidates_g1_g6_current.csv | collection / evidence | [資料](data/processed/candidates_g1_g6_current.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；1583×36；缺值與來源限制見說明 | d8695b306bd7eadbf0de5c8bb2f368c717d23d4ef7ae55cf3cf4b8fa1afbb59c |
 | G1–G6 candidate_g5_audit_20261103.csv | collection / evidence | [資料](data/processed/candidate_g5_audit_20261103.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；1583×13；缺值與來源限制見說明 | 6c361541ab417083bd0313225a6a382e0a94d4ad228fcba157bd23dee914e430 |
 | G1–G6 candidate_g6_family_evidence_20261103.csv | collection / evidence | [資料](data/processed/candidate_g6_family_evidence_20261103.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；156×19；缺值與來源限制見說明 | 04ecb38375192e2e83a16c7004e8af8c752b6658bb345de02c26f1b931dd8784 |
+| 縣市首長 G1–G5 缺口補查 mayor_g1_g6_gap_review_20261104.csv | preparation / evidence（未併入主表） | [資料](data/processed/mayor_g1_g6_gap_review_20261104.csv) | [處理筆記本 README](data/code/mayor_gaps_20261104.ipynb) | [處理](data/code/mayor_gaps_20261104.ipynb) | 2026-11-04；nbconvert 全新 kernel 執行；重讀與 schema、鍵唯一；35×15；23 人／35 格，補上 34 格（來源規則 11、G5 素人標準 7、G5 查無歷屆紀錄 6、楊喬茵確認 10；check_method 皆為手動查核；查無或未公開學歷者歸「大學以下」，魏造文另標【學歷未公開】）、仍未知 1（G1 魏造文，標註【年齡未公開】）；G5 採楊喬茵 2026-11-04 修訂標準（自稱／報導「政治素人」或「並無政治經歷」記為首次；擬參選人不算登記參選；中選會 1994–2024 歷屆候選人檔查無本人記為首次）；原文全文閱讀並逐筆核對 | b5de33d2ae913e41e8f3f4ecb08855b4066e146deb05c64ed3ab77809ee562ca |
+| 縣市首長仍未知缺口手動查核連結 mayor_manual_check_links_20261104.csv | worklist（手動查核用） | [資料](data/processed/mayor_manual_check_links_20261104.csv) | [處理筆記本 README](data/code/mayor_gaps_20261104.ipynb) | [處理](data/code/mayor_gaps_20261104.ipynb) | 2026-11-04；同上；3×7；只剩魏造文 G1，3 個連結均已存原始檔 | 713b93f785be9f1644cbd09b0e1b142f722e14159a2bcf4642a9167a0e61aa61 |
+| 縣市首長歷屆候選人姓名比對 mayor_cec_name_scan_20261104.csv | preparation / G5 evidence | [資料](data/processed/mayor_cec_name_scan_20261104.csv) | [處理筆記本 README](data/code/mayor_gaps_20261104.ipynb) | [處理](data/code/mayor_gaps_20261104.ipynb) | 2026-11-04；同上；14×15；以中央社生日排除同名者 | 01a6500b0858dd1034429468d6421958a39d97c9b08cbe1f9a6627aaad0e6570 |
+| 縣市首長補查網頁原始檔 mayor_gaps_20261104/manifest.json | raw / source capture | [manifest](data/raw/mayor_gaps_20261104/manifest.json) | 網址清單：[sources](data/code/mayor_gaps_sources_20261104.json) | [下載程式](data/code/collect_mayor_gaps_20261104.py) | 2026-11-04；79 頁全部成功；每檔記錄原始與 LF 版 SHA-256，筆記本逐檔重算；本列 SHA-256 為 LF 版 | dec5a014e47465223da65b9eee0b145cfd9aab32c6dadcef218e983486eba7c5 |
 | G1–G6 candidate_g1_g6_field_evidence_20261103.csv | collection / evidence | [資料](data/processed/candidate_g1_g6_field_evidence_20261103.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；9498×7；缺值與來源限制見說明 | 3da3926cf1e03bb3bed3b48b3ce12562bc74f63d8c039deec8080f4f904f6b77 |
 | G1–G6 candidate_g1_g6_source_conflicts_20261103.csv | collection / evidence | [資料](data/processed/candidate_g1_g6_source_conflicts_20261103.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；2×7；缺值與來源限制見說明 | 7a99670f267f32c7f07544a8bc644aecd70b0787c689a739eaa89696ff72a08d |
 | G1–G6 candidate_g1_g6_identity_pending_20261103.csv | collection / evidence | [資料](data/processed/candidate_g1_g6_identity_pending_20261103.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；121×6；缺值與來源限制見說明 | 7cc0306385e10866543e1c8dae803e6daec7ac60026936a40984311e2dcc75c6 |
 | G1–G6 candidate_g1_g6_remaining_worklist_20261103.csv | collection / evidence | [資料](data/processed/candidate_g1_g6_remaining_worklist_20261103.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；3669×7；缺值與來源限制見說明 | 927ce54e2ca4d8d53cba4bbf4b668d109ae88f107b046c10839962b856107724 |
 | G1–G6 candidate_g5_first_time_lead_review_20261104.csv | collection / evidence | [資料](data/processed/candidate_g5_first_time_lead_review_20261104.csv) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 2026-11-04；clean kernel；重讀、schema、key、語意；42×10；缺值與來源限制見說明 | 69471d1da0425922543fd40dd09ca63cc4bd92722cd5d8aba7f29866d8afc0b0 |
 | G1–G6 verification | verification metadata | [資料](data/processed/candidate_g1_g6_verification_20261103.json) | [說明](data/processed/g1_g6_20261103_documentation.ipynb) | [處理](data/code/g1_g6_20261103.ipynb) | 輸出指紋／列欄數核對 | 4ee227b612b2fafc4e09d876e3e945c16e9ca708cdb9b0886f4dc3ef8252c145 |
+| 北市／高市議員缺值人工核對工作單 manual_check_worklist_taipei_kaohsiung_20261104.csv | collection worklist（非分析輸入） | [資料](data/processed/manual_check_worklist_taipei_kaohsiung_20261104.csv) | 見處理筆記本README與回填說明 | [處理](data/code/manual_check_worklist_20261104.ipynb) | 2026-11-04；clean kernel；輸入綁定candidates_g1_g6_current.csv實際SHA 790407…（與上方舊登錄值不同）；重讀schema、列數＝兩市議員G1/G3/G5/G6空值383格、(candidate_key, field)唯一、回填欄全空；175人（G1–G5須補79人） | fc88c9a7d26702c27d7ec1b1fd64d6e2d1129a1c1cc2fd0aa9339b45b00c69bc |
 | pre G1–G6 candidate_master_current.csv | immutable upstream snapshot | [快照](data/processed/snapshots/pre_g1_g6_20261103/candidate_master_current.csv) | [說明](data/code/g1_g6_20261103.ipynb) | not applicable (snapshot of prior output) | SHA-256固定、原表byte copy | f4806b229118b4f67383e4ed081144bffc0b81404600ffce646df6017c23eea4 |
 | pre G1–G6 candidate_fields_current.csv | immutable upstream snapshot | [快照](data/processed/snapshots/pre_g1_g6_20261103/candidate_fields_current.csv) | [說明](data/code/g1_g6_20261103.ipynb) | not applicable (snapshot of prior output) | SHA-256固定、原表byte copy | 74ef1f3a77d24f73a5f3682682b18c97ca55843e7879ada7c1cc86b57dd0730c |
 | pre G1–G6 council_background_20261019.csv | immutable upstream snapshot | [快照](data/processed/snapshots/pre_g1_g6_20261103/council_background_20261019.csv) | [說明](data/code/g1_g6_20261103.ipynb) | not applicable (snapshot of prior output) | SHA-256固定、原表byte copy | 32aebc40e4579333fa6f4d9476a763e1974537f6349f82f49396a88f7c58b33b |
@@ -2009,6 +2017,8 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
+| 楊喬茵（AI協助） | [縣市首長G1–G5缺口補查](data/code/mayor_gaps_20261104.ipynb)：23人／35格補上34格（皆手動查核；未併入主表），G5判定標準修訂，79頁原始來源保存 | 待提交 |
+| 楊喬茵（AI協助） | [臺北市、高雄市議員G1–G6缺值人工核對工作單](data/code/manual_check_worklist_20261104.ipynb)：383格／175人，含核對規則、既有線索與回填欄；人工核對尚未開始 | 待提交 |
 | RUEI-HSIANG, CHANG（AI協助） | [G1–G6補查與G5／三親等配偶核對](report/g1_g6_audit_20261104.md)：1,583人稽核、35首次來源、43新增非首次、93政治家族正值；原始保存、處理與文件筆記本驗證 | 待提交（貢獻紀錄未完成） |
 | 張睿庠（AI協助） | [第三方網頁快照金鑰清理](report/source_capture_security_20261019.md)、來源指紋／文件維護與提交前掃描器；原始版本私存，遠端舊歷史未清除 | 待提交（貢獻紀錄未完成） |
 | 張睿庠（AI協助） | [第九輪10人政府人物／角色名錄與9人跨公職生日核對](report/municipal_roles_round9_20261019.md)、申報級別／來源分層及版本文件 | 待提交（貢獻紀錄未完成） |

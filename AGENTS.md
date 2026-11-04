@@ -129,6 +129,10 @@ below together with the research conventions in this file.
   not the operating system root. Generated files must use portable paths.
 - Write substantive findings only from actual outputs. Label unexecuted drafts
   and student-supplied results honestly inside the artifact.
+- When coding variables from news, web articles, or other text sources, read
+  each source's full text before deciding; keyword hits or snippets near a
+  person's name are only for locating articles. Follow `FINDING-RULES.md` →
+  `網路資料與新聞須讀完全文`.
 - Do not turn a finding request into a weekly progress report or finalize any
   management record. The optional manager-led weekly workflow stays separate.
 

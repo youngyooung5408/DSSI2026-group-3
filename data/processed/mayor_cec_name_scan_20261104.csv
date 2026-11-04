@@ -1,0 +1,15 @@
+﻿candidate_key,candidate_name,cec_name,election_context,geo_code,sex_code,birth_raw,birth_year,birth_date,education_cec,elected_marker,cna_birth,identity_status,source_file,source_row
+2026-C2-032,魏平政,魏平政,2005鄉鎮市長,01|007|01|017|0000,1,058,1969,,,,1969年6月,birth_year_matches_cna,data/raw/cec_all_offices/038_elcand.csv,313
+2026-C2-063,李文良,李文良,2006直轄市議員(區域),02|000|04|000|0000,1,048,1959,,,*,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/039_elcand.csv,150
+2026-C2-063,李文良,李文良,20101127-五都市長議員及里長/里長,04|000|01|036|0736,1,0500624,1961,1961-06-24,高中,,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/057_elcand.csv,5477
+2026-C2-081,王義成,王義成,20101127-五都市長議員及里長/里長,04|000|01|037|0746,1,0431112,1954,1954-11-12,其他,*,1960年6月28日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/057_elcand.csv,5495
+2026-C2-063,李文良,李文良,2014-103年地方公職人員選舉/村里長,67|000|01|290|0009,1,0500624,1961,1961-06-24,高中,*,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/065_elcand.csv,5888
+2026-C2-081,王義成,王義成,2014-103年地方公職人員選舉/村里長,67|000|01|300|0002,1,0431112,1954,1954-11-12,其他,*,1960年6月28日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/065_elcand.csv,5907
+2026-C2-063,李文良,李文良,2014-103年地方公職人員選舉/村里長,10|017|01|020|0013,1,0380910,1949,1949-09-10,其他,*,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/065_elcand.csv,13664
+2026-C2-063,李文良,李文良,2018-107年地方公職人員選舉/直轄市村里長,67|000|00|290|0009,1,0500624,1961,1961-06-24,高中,*,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/085_elcand.csv,5766
+2026-C2-055,王志偉,王志偉,2018-107年地方公職人員選舉/直轄市村里長,64|000|00|160|0006,1,0700921,1981,1981-09-21,高中,,1960年10月,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/085_elcand.csv,7414
+2026-C2-063,李文良,李文良,2018-107年地方公職人員選舉/縣市村里長,10|017|00|020|0013,1,0380910,1949,1949-09-10,高中(職)以下,*,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/090_elcand.csv,6256
+2026-C2-063,李文良,李文良,2022-111年地方公職人員選舉/V1,10|017|00|020|0013,1,0380910,1949,1949-09-10,高中(職)以下,,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/112_elcand.csv,6012
+2026-C2-063,李文良,李文良,2022-111年地方公職人員選舉/V1,67|000|00|290|0009,1,0500624,1961,1961-06-24,高中(職)以下,,1971年11月06日,rejected_namesake_birth_year_differs,data/raw/cec_all_offices/112_elcand.csv,12605
+2026-C1-016,蕭燐洪,蕭燐洪,2024總統立委/區域立委,67|000|05|000|0000,1,0320214,1943,1943-02-14,其他,,1943年2月14日,birth_year_matches_cna,data/raw/cec_all_offices/114_elcand.csv,38
+2026-C1-019,張靜,張靜,3屆立委/區域,03|015|01|000|0000,1,045,1956,,,,1956年5月27日,birth_year_matches_cna,data/raw/cec_all_offices/118_elcand.csv,258
