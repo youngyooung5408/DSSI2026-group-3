@@ -2020,7 +2020,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
-| 楊喬茵（AI協助） | [臺北市、高雄市議員G1／G3／G5缺口補查](data/code/council_tk_gaps_20261104.ipynb)：79人／208格補上137格（皆手動查核；未併入主表），新聞全文閱讀、中選會歷屆紀錄身分核對，370頁原始來源保存 | 待提交 |
+| 楊喬茵（AI協助） | [臺北市、高雄市議員G1／G3／G5缺口補查](data/code/council_tk_gaps_20261104.ipynb)：79人／208格補上137格（皆手動查核；未併入主表），新聞全文閱讀、中選會歷屆紀錄身分核對，370頁原始來源保存 | [`cc732a1`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/cc732a10a445bb5b2d70f91a397488b79b90c54e)（已推送並核對） |
 | 楊喬茵（AI協助） | [縣市首長G1–G5缺口補查](data/code/mayor_gaps_20261104.ipynb)：23人／35格補上34格（皆手動查核；未併入主表），G5判定標準修訂，79頁原始來源保存 | [`9195b3a`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/9195b3ab307873ec4f6bd5ba424ba3ff1da5be25)（已推送並核對） |
 | 楊喬茵（AI協助） | [臺北市、高雄市議員G1–G6缺值人工核對工作單](data/code/manual_check_worklist_20261104.ipynb)：383格／175人，含核對規則、既有線索與回填欄；人工核對尚未開始 | [`9195b3a`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/9195b3ab307873ec4f6bd5ba424ba3ff1da5be25)（已推送並核對） |
 | RUEI-HSIANG, CHANG（AI協助） | [G1–G6補查與G5／三親等配偶核對](report/g1_g6_audit_20261104.md)：1,583人稽核、35首次來源、43新增非首次、93政治家族正值；原始保存、處理與文件筆記本驗證 | 待提交（貢獻紀錄未完成） |
