@@ -1,0 +1,3370 @@
+[
+  {
+    "candidate_key": "2026-C1-001",
+    "candidate_name": "郭璽",
+    "title": "郭璽 (政治人物)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_rel_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95359474"
+  },
+  {
+    "candidate_key": "2026-C1-003",
+    "candidate_name": "蕭文乾",
+    "title": "蕭文乾",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95353201"
+  },
+  {
+    "candidate_key": "2026-C1-004",
+    "candidate_name": "唐新民",
+    "title": "唐新民",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95300868"
+  },
+  {
+    "candidate_key": "2026-C1-005",
+    "candidate_name": "蔣萬安",
+    "title": "蔣萬安",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95380479"
+  },
+  {
+    "candidate_key": "2026-C1-007",
+    "candidate_name": "蘇巧慧",
+    "title": "蘇巧慧",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95200477"
+  },
+  {
+    "candidate_key": "2026-C1-008",
+    "candidate_name": "李四川",
+    "title": "李四川",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95200308"
+  },
+  {
+    "candidate_key": "2026-C1-010",
+    "candidate_name": "張善政",
+    "title": "張善政",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95302528"
+  },
+  {
+    "candidate_key": "2026-C1-011",
+    "candidate_name": "黃世杰",
+    "title": "黃世杰 (政治人物)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95302445"
+  },
+  {
+    "candidate_key": "2026-C1-012",
+    "candidate_name": "何欣純",
+    "title": "何欣純",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95300266"
+  },
+  {
+    "candidate_key": "2026-C1-013",
+    "candidate_name": "江啟臣",
+    "title": "江啟臣",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95353415"
+  },
+  {
+    "candidate_key": "2026-C1-015",
+    "candidate_name": "謝龍介",
+    "title": "謝龍介",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95351752"
+  },
+  {
+    "candidate_key": "2026-C1-017",
+    "candidate_name": "葉人文",
+    "title": "葉人文",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95310185"
+  },
+  {
+    "candidate_key": "2026-C1-018",
+    "candidate_name": "陳亭妃",
+    "title": "陳亭妃",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95302703"
+  },
+  {
+    "candidate_key": "2026-C1-020",
+    "candidate_name": "賴瑞隆",
+    "title": "賴瑞隆",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95295152"
+  },
+  {
+    "candidate_key": "2026-C1-022",
+    "candidate_name": "柯志恩",
+    "title": "柯志恩",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95366911"
+  },
+  {
+    "candidate_key": "2026-C2-024",
+    "candidate_name": "鄭朝方",
+    "title": "鄭朝方",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95371196"
+  },
+  {
+    "candidate_key": "2026-C2-026",
+    "candidate_name": "徐欣瑩",
+    "title": "徐欣瑩",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95279493"
+  },
+  {
+    "candidate_key": "2026-C2-027",
+    "candidate_name": "陳品安",
+    "title": "陳品安",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95327073"
+  },
+  {
+    "candidate_key": "2026-C2-028",
+    "candidate_name": "鍾東錦",
+    "title": "鍾東錦",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95327102"
+  },
+  {
+    "candidate_key": "2026-C2-030",
+    "candidate_name": "陳素月",
+    "title": "陳素月",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95137624"
+  },
+  {
+    "candidate_key": "2026-C2-031",
+    "candidate_name": "邱建富",
+    "title": "邱建富",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94645390"
+  },
+  {
+    "candidate_key": "2026-C2-032",
+    "candidate_name": "魏平政",
+    "title": "魏平政",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94969501"
+  },
+  {
+    "candidate_key": "2026-C2-033",
+    "candidate_name": "温世政",
+    "title": "温世政",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95166051"
+  },
+  {
+    "candidate_key": "2026-C2-034",
+    "candidate_name": "許淑華",
+    "title": "許淑華 (1975年)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95215411"
+  },
+  {
+    "candidate_key": "2026-C2-035",
+    "candidate_name": "吳炳輝",
+    "title": "吳炳輝",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94488228"
+  },
+  {
+    "candidate_key": "2026-C2-036",
+    "candidate_name": "張嘉郡",
+    "title": "張嘉郡",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95376920"
+  },
+  {
+    "candidate_key": "2026-C2-037",
+    "candidate_name": "劉建國",
+    "title": "劉建國 (台灣政治人物)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95376961"
+  },
+  {
+    "candidate_key": "2026-C2-040",
+    "candidate_name": "蔡易餘",
+    "title": "蔡易餘",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94483319"
+  },
+  {
+    "candidate_key": "2026-C2-041",
+    "candidate_name": "蘇清泉",
+    "title": "蘇清泉",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95279936"
+  },
+  {
+    "candidate_key": "2026-C2-042",
+    "candidate_name": "周春米",
+    "title": "周春米",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94659620"
+  },
+  {
+    "candidate_key": "2026-C2-044",
+    "candidate_name": "吳宗憲",
+    "title": "吳宗憲 (1971年)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95176867"
+  },
+  {
+    "candidate_key": "2026-C2-046",
+    "candidate_name": "林國漳",
+    "title": "林國漳",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95377004"
+  },
+  {
+    "candidate_key": "2026-C2-049",
+    "candidate_name": "張峻",
+    "title": "張峻 (臺灣政治人物)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95220052"
+  },
+  {
+    "candidate_key": "2026-C2-050",
+    "candidate_name": "魏嘉賢",
+    "title": "魏嘉賢",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95168594"
+  },
+  {
+    "candidate_key": "2026-C2-052",
+    "candidate_name": "陳瑩",
+    "title": "陳瑩 (政治人物)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94203688"
+  },
+  {
+    "candidate_key": "2026-C2-053",
+    "candidate_name": "吳秀華",
+    "title": "吳秀華",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95278389"
+  },
+  {
+    "candidate_key": "2026-C2-056",
+    "candidate_name": "吳淑瑾",
+    "title": "吳淑瑾",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95366873"
+  },
+  {
+    "candidate_key": "2026-C2-057",
+    "candidate_name": "陳振中",
+    "title": "陳振中 (澎湖)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95242564"
+  },
+  {
+    "candidate_key": "2026-C2-058",
+    "candidate_name": "周倪安",
+    "title": "周倪安",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94509485"
+  },
+  {
+    "candidate_key": "2026-C2-061",
+    "candidate_name": "葉竹林",
+    "title": "葉竹林",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95319550"
+  },
+  {
+    "candidate_key": "2026-C2-065",
+    "candidate_name": "陳玉珍",
+    "title": "陳玉珍 (政治人物)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95217819"
+  },
+  {
+    "candidate_key": "2026-C2-067",
+    "candidate_name": "梁文韜",
+    "title": "梁文韜 (教授)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95236744"
+  },
+  {
+    "candidate_key": "2026-C2-069",
+    "candidate_name": "王忠銘",
+    "title": "王忠銘 (中華民國)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_rel_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94193168"
+  },
+  {
+    "candidate_key": "2026-C2-073",
+    "candidate_name": "童子瑋",
+    "title": "童子瑋",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95278233"
+  },
+  {
+    "candidate_key": "2026-C2-075",
+    "candidate_name": "莊競程",
+    "title": "莊競程",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95348443"
+  },
+  {
+    "candidate_key": "2026-C2-076",
+    "candidate_name": "何志勇",
+    "title": "何志勇 (1980年)",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95098215"
+  },
+  {
+    "candidate_key": "2026-C2-077",
+    "candidate_name": "黃宏成台灣阿成世界偉人財神總統",
+    "title": "黃宏成台灣阿成世界偉人財神總統",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94153376"
+  },
+  {
+    "candidate_key": "2026-C2-079",
+    "candidate_name": "張啓楷",
+    "title": "張啓楷",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95329530"
+  },
+  {
+    "candidate_key": "2026-C2-080",
+    "candidate_name": "王美惠",
+    "title": "王美惠",
+    "identity_method": "2026_mayoral_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92525865"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|李文",
+    "candidate_name": "李文",
+    "title": "李文 (1964年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93169248"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|鍾佩玲",
+    "candidate_name": "鍾佩玲",
+    "title": "鍾佩玲",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548172"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳賢蔚",
+    "candidate_name": "陳賢蔚",
+    "title": "陳賢蔚",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94022441"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林世宗",
+    "candidate_name": "林世宗",
+    "title": "林世宗",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95182301"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|黃瀞瑩",
+    "candidate_name": "黃瀞瑩",
+    "title": "黃瀞瑩",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92959851"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳慈慧",
+    "candidate_name": "陳慈慧",
+    "title": "陳慈慧",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93455114"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳重文",
+    "candidate_name": "陳重文",
+    "title": "陳重文",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93248788"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳怡潔",
+    "candidate_name": "陳怡潔",
+    "title": "陳怡潔",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92970454"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林杏兒",
+    "candidate_name": "林杏兒",
+    "title": "林杏兒",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92518100"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|張斯綱",
+    "candidate_name": "張斯綱",
+    "title": "張斯綱",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92517985"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|賴苡任",
+    "candidate_name": "賴苡任",
+    "title": "賴苡任",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95331868"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|汪志冰",
+    "candidate_name": "汪志冰",
+    "title": "汪志冰",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95383775"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林延鳳",
+    "candidate_name": "林延鳳",
+    "title": "林延鳳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92624589"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|侯漢廷",
+    "candidate_name": "侯漢廷",
+    "title": "侯漢廷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95387024"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|吳欣岱",
+    "candidate_name": "吳欣岱",
+    "title": "吳欣岱",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95172666"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|李明賢",
+    "candidate_name": "李明賢",
+    "title": "李明賢",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92926722"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳冠安",
+    "candidate_name": "陳冠安",
+    "title": "陳冠安",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94291497"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|高嘉瑜",
+    "candidate_name": "高嘉瑜",
+    "title": "高嘉瑜",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95382921"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|游淑慧",
+    "candidate_name": "游淑慧",
+    "title": "游淑慧",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95090992"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|何孟樺",
+    "candidate_name": "何孟樺",
+    "title": "何孟樺",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94751498"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳宥丞",
+    "candidate_name": "陳宥丞",
+    "title": "陳宥丞",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92340237"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|闕枚莎",
+    "candidate_name": "闕枚莎",
+    "title": "闕枚莎",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94101942"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳又新",
+    "candidate_name": "陳又新",
+    "title": "陳又新",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95212910"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|吳世正",
+    "candidate_name": "吳世正",
+    "title": "吳世正",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94471053"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|詹為元",
+    "candidate_name": "詹為元",
+    "title": "詹為元",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92088474"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|張文潔",
+    "candidate_name": "張文潔",
+    "title": "張文潔",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95340844"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|李明璇",
+    "candidate_name": "李明璇",
+    "title": "李明璇",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94168066"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|秦慧珠",
+    "candidate_name": "秦慧珠",
+    "title": "秦慧珠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95274121"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|洪健益",
+    "candidate_name": "洪健益",
+    "title": "洪健益",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95279492"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|戴錫欽",
+    "candidate_name": "戴錫欽",
+    "title": "戴錫欽",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94576388"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|許甫",
+    "candidate_name": "許甫",
+    "title": "許甫",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95244172"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|許淑華",
+    "candidate_name": "許淑華",
+    "title": "許淑華 (1973年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94022708"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|林柏勛",
+    "candidate_name": "林柏勛",
+    "title": "林柏勛",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95309778"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|朱政騏",
+    "candidate_name": "朱政騏",
+    "title": "朱政騏",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94533701"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|顏若芳",
+    "candidate_name": "顏若芳",
+    "title": "顏若芳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95367155"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|陳炳甫",
+    "candidate_name": "陳炳甫",
+    "title": "陳炳甫",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95148097"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|柳采葳",
+    "candidate_name": "柳采葳",
+    "title": "柳采葳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93793605"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|林亮君",
+    "candidate_name": "林亮君",
+    "title": "林亮君",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95256168"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|葉林傳",
+    "candidate_name": "葉林傳",
+    "title": "葉林傳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92387130"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|林珍羽",
+    "candidate_name": "林珍羽",
+    "title": "林珍羽",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93630372"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|陳怡君",
+    "candidate_name": "陳怡君",
+    "title": "陳怡君 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95300623"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|張銘祐",
+    "candidate_name": "張銘祐",
+    "title": "張銘祐",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93591123"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|吳志剛",
+    "candidate_name": "吳志剛",
+    "title": "吳志剛 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92163897"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|鍾小平",
+    "candidate_name": "鍾小平",
+    "title": "鍾小平",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95090901"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|洪婉臻",
+    "candidate_name": "洪婉臻",
+    "title": "洪婉臻",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95348800"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|吳怡萱",
+    "candidate_name": "吳怡萱",
+    "title": "吳怡萱",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95212726"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|劉耀仁",
+    "candidate_name": "劉耀仁",
+    "title": "劉耀仁",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94207903"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|張延廷",
+    "candidate_name": "張延廷",
+    "title": "張延廷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95083008"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|徐立信",
+    "candidate_name": "徐立信",
+    "title": "徐立信",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95204155"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|馬郁雯",
+    "candidate_name": "馬郁雯",
+    "title": "馬郁雯",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95321855"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|郭昭巖",
+    "candidate_name": "郭昭巖",
+    "title": "郭昭巖",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92545374"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|陳峙穎",
+    "candidate_name": "陳峙穎",
+    "title": "陳峙穎",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95279504"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|簡舒培",
+    "candidate_name": "簡舒培",
+    "title": "簡舒培",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94979711"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|楊植斗",
+    "candidate_name": "楊植斗",
+    "title": "楊植斗",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94754511"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|陳聖文",
+    "candidate_name": "陳聖文",
+    "title": "陳聖文",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95364209"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|耿葳",
+    "candidate_name": "耿葳",
+    "title": "耿葳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92598271"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|徐弘庭",
+    "candidate_name": "徐弘庭",
+    "title": "徐弘庭",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91259774"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|苗博雅",
+    "candidate_name": "苗博雅",
+    "title": "苗博雅",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95339608"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|陳錦祥",
+    "candidate_name": "陳錦祥",
+    "title": "陳錦祥",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94317925"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|李柏毅",
+    "candidate_name": "李柏毅",
+    "title": "李柏毅 (臺北市)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95133662"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|鍾沛君",
+    "candidate_name": "鍾沛君",
+    "title": "鍾沛君",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92636321"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|張志豪",
+    "candidate_name": "張志豪",
+    "title": "張志豪 (1972年4月)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92377724"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|曾獻瑩",
+    "candidate_name": "曾獻瑩",
+    "title": "曾獻瑩",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95348991"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|王欣儀",
+    "candidate_name": "王欣儀",
+    "title": "王欣儀",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=89073227"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|王閔生",
+    "candidate_name": "王閔生",
+    "title": "王閔生",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92099057"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第7選舉區|李芳儒",
+    "candidate_name": "李芳儒",
+    "title": "李芳儒",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94472660"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第7選舉區|林筱薇IcyangTamana",
+    "candidate_name": "林筱薇IcyangTamana",
+    "title": "林筱薇",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95341796"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第1選舉區|鄭宇恩",
+    "candidate_name": "鄭宇恩",
+    "title": "鄭宇恩",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92697174"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第2選舉區|蔡淑君",
+    "candidate_name": "蔡淑君",
+    "title": "蔡淑君",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94176937"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第2選舉區|李宇翔",
+    "candidate_name": "李宇翔",
+    "title": "李宇翔",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92460864"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第3選舉區|翁震州",
+    "candidate_name": "翁震州",
+    "title": "翁震州",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92178916"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第3選舉區|林秉宥",
+    "candidate_name": "林秉宥",
+    "title": "林秉宥",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93539677"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第3選舉區|蔣根煌",
+    "candidate_name": "蔣根煌",
+    "title": "蔣根煌",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95104511"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第3選舉區|陳世軒",
+    "candidate_name": "陳世軒",
+    "title": "陳世軒",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95352650"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第3選舉區|甘崇緯",
+    "candidate_name": "甘崇緯",
+    "title": "甘崇緯",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95371966"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第3選舉區|陳茂嘉",
+    "candidate_name": "陳茂嘉",
+    "title": "陳茂嘉",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92215947"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|李翁月娥",
+    "candidate_name": "李翁月娥",
+    "title": "李翁月娥",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92697167"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|黃桂蘭",
+    "candidate_name": "黃桂蘭",
+    "title": "黃桂蘭 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93107222"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|彭佳芸",
+    "candidate_name": "彭佳芸",
+    "title": "彭佳芸",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92758278"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|陳彥廷",
+    "candidate_name": "陳彥廷",
+    "title": "陳彥廷 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94074503"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|王威元",
+    "candidate_name": "王威元",
+    "title": "王威元",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94091586"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|李余典",
+    "candidate_name": "李余典",
+    "title": "李余典",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92758279"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|李倩萍",
+    "candidate_name": "李倩萍",
+    "title": "李倩萍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92461386"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|顏蔚慈",
+    "candidate_name": "顏蔚慈",
+    "title": "顏蔚慈",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92834122"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|邱婷蔚",
+    "candidate_name": "邱婷蔚",
+    "title": "邱婷蔚",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92519701"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第4選舉區|劉成謙",
+    "candidate_name": "劉成謙",
+    "title": "劉成謙",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94205370"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|李昆穎",
+    "candidate_name": "李昆穎",
+    "title": "李昆穎",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95360691"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|劉美芳",
+    "candidate_name": "劉美芳",
+    "title": "劉美芳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94654004"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|戴瑋姗",
+    "candidate_name": "戴瑋姗",
+    "title": "戴瑋姍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94836526"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|黃淑君",
+    "candidate_name": "黃淑君",
+    "title": "黃淑君",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93679900"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|鄧凱勛",
+    "candidate_name": "鄧凱勛",
+    "title": "鄧凱勛",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92606555"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|山田摩衣",
+    "candidate_name": "山田摩衣",
+    "title": "山田摩衣",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95330702"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|林國春",
+    "candidate_name": "林國春",
+    "title": "林國春",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92611169"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|曾煥嘉",
+    "candidate_name": "曾煥嘉",
+    "title": "曾煥嘉",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92479427"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|林子宇",
+    "candidate_name": "林子宇",
+    "title": "林子宇",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93724791"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第6選舉區|張維倩",
+    "candidate_name": "張維倩",
+    "title": "張維倩",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94191729"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第6選舉區|張志豪",
+    "candidate_name": "張志豪",
+    "title": "張志豪 (1981年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92138944"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第6選舉區|金瑞龍",
+    "candidate_name": "金瑞龍",
+    "title": "金瑞龍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95328578"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第6選舉區|陳怡君",
+    "candidate_name": "陳怡君",
+    "title": "陳怡君 (台灣民眾黨)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95382926"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第6選舉區|邱烽堯",
+    "candidate_name": "邱烽堯",
+    "title": "邱烽堯",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94186999"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第6選舉區|游輝宂",
+    "candidate_name": "游輝宂",
+    "title": "游輝宂",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92758276"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第6選舉區|陳錦錠",
+    "candidate_name": "陳錦錠",
+    "title": "陳錦錠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93651744"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第7選舉區|羅文崇",
+    "candidate_name": "羅文崇",
+    "title": "羅文崇",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92132329"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第7選舉區|陳鴻源",
+    "candidate_name": "陳鴻源",
+    "title": "陳鴻源",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92752324"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第7選舉區|蘇昭龍",
+    "candidate_name": "蘇昭龍",
+    "title": "蘇昭龍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93891913"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|高乃芸",
+    "candidate_name": "高乃芸",
+    "title": "高乃芸",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94703043"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|廖宜琨",
+    "candidate_name": "廖宜琨",
+    "title": "廖宜琨",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548231"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|卓冠廷",
+    "candidate_name": "卓冠廷",
+    "title": "卓冠廷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94271615"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|彭一書",
+    "candidate_name": "彭一書",
+    "title": "彭一書",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92164067"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|呂家愷",
+    "candidate_name": "呂家愷",
+    "title": "呂家愷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94505796"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|蘇泓欽",
+    "candidate_name": "蘇泓欽",
+    "title": "蘇泓欽",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92758281"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|黃永昌",
+    "candidate_name": "黃永昌",
+    "title": "黃永昌",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94950677"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|林金結",
+    "candidate_name": "林金結",
+    "title": "林金結",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95057459"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第8選舉區|洪佳君",
+    "candidate_name": "洪佳君",
+    "title": "洪佳君",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95228229"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第9選舉區|張佑輔",
+    "candidate_name": "張佑輔",
+    "title": "張佑輔",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91628336"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第9選舉區|陳乃瑜",
+    "candidate_name": "陳乃瑜",
+    "title": "陳乃瑜",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95296265"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第9選舉區|陳儀君",
+    "candidate_name": "陳儀君",
+    "title": "陳儀君",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94546791"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第10選舉區|林裔綺",
+    "candidate_name": "林裔綺",
+    "title": "林裔綺",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95083558"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第11選舉區|張錦豪",
+    "candidate_name": "張錦豪",
+    "title": "張錦豪",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92100996"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第11選舉區|陳竹音",
+    "candidate_name": "陳竹音",
+    "title": "陳竹音",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94273151"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第11選舉區|何元楷",
+    "candidate_name": "何元楷",
+    "title": "何元楷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94094929"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第12選舉區|楊春妹",
+    "candidate_name": "楊春妹",
+    "title": "楊春妹",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94642907"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|詹江村",
+    "candidate_name": "詹江村",
+    "title": "詹江村",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94119052"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|徐千晴",
+    "candidate_name": "徐千晴",
+    "title": "徐千晴",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95212727"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|凌濤",
+    "candidate_name": "凌濤",
+    "title": "凌濤",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94172827"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|于北辰",
+    "candidate_name": "于北辰",
+    "title": "于北辰 (1968年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94261467"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|余信憲",
+    "candidate_name": "余信憲",
+    "title": "余信憲",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94192460"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|林政賢",
+    "candidate_name": "林政賢",
+    "title": "林政賢 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94253204"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|黃瓊慧",
+    "candidate_name": "黃瓊慧",
+    "title": "黃瓊慧",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93499897"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|佀廣洋",
+    "candidate_name": "佀廣洋",
+    "title": "佀廣洋",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95386416"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第1選舉區|王妃天崩開局穿越整頓霸凌者佀廣洋",
+    "candidate_name": "王妃天崩開局穿越整頓霸凌者佀廣洋",
+    "title": "王妃天崩開局穿越整頓霸凌者佀廣洋",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95327446"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第2選舉區|陳雅倫",
+    "candidate_name": "陳雅倫",
+    "title": "陳雅倫 (台灣)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93724779"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第2選舉區|周曉芸",
+    "candidate_name": "周曉芸",
+    "title": "周曉芸",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94517786"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第2選舉區|李宗豪",
+    "candidate_name": "李宗豪",
+    "title": "李宗豪",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93499864"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第2選舉區|陳泓維",
+    "candidate_name": "陳泓維",
+    "title": "陳泓維",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94140131"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第2選舉區|江冠妤",
+    "candidate_name": "江冠妤",
+    "title": "江冠妤",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92884689"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第2選舉區|高華駿",
+    "candidate_name": "高華駿",
+    "title": "高華駿",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93057823"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第3選舉區|許家睿",
+    "candidate_name": "許家睿",
+    "title": "許家睿",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94671741"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第3選舉區|朱珍瑤",
+    "candidate_name": "朱珍瑤",
+    "title": "朱珍瑤",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95055175"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第3選舉區|楊朝偉",
+    "candidate_name": "楊朝偉",
+    "title": "楊朝偉",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93240714"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第4選舉區|劉勝全",
+    "candidate_name": "劉勝全",
+    "title": "劉勝全",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94533684"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第4選舉區|張桂綿",
+    "candidate_name": "張桂綿",
+    "title": "張桂綿",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93240692"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第7選舉區|毛嘉慶",
+    "candidate_name": "毛嘉慶",
+    "title": "毛嘉慶",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93771633"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第7選舉區|彭俊豪",
+    "candidate_name": "彭俊豪",
+    "title": "彭俊豪",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548240"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第7選舉區|劉安祺",
+    "candidate_name": "劉安祺",
+    "title": "劉安祺 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94203940"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第7選舉區|梁為超",
+    "candidate_name": "梁為超",
+    "title": "梁為超",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93685114"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第7選舉區|邱奕勝",
+    "candidate_name": "邱奕勝",
+    "title": "邱奕勝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93297171"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第7選舉區|魏筠",
+    "candidate_name": "魏筠",
+    "title": "魏筠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94162726"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第7選舉區|謝美英",
+    "candidate_name": "謝美英",
+    "title": "謝美英",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93297261"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第8選舉區|劉仁照",
+    "candidate_name": "劉仁照",
+    "title": "劉仁照",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93297250"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第8選舉區|舒翠玲",
+    "candidate_name": "舒翠玲",
+    "title": "舒翠玲",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93297178"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第8選舉區|黃敬平",
+    "candidate_name": "黃敬平",
+    "title": "黃敬平",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93242552"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第8選舉區|羅文欽",
+    "candidate_name": "羅文欽",
+    "title": "羅文欽",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=90672280"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第13選舉區|楊進福",
+    "candidate_name": "楊進福",
+    "title": "楊進福",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94186717"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第1選舉區|施志昌",
+    "candidate_name": "施志昌",
+    "title": "施志昌",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94436909"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第1選舉區|李文傑",
+    "candidate_name": "李文傑",
+    "title": "李文傑 (1976年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93576496"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第2選舉區|王立任",
+    "candidate_name": "王立任",
+    "title": "王立任",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93576489"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第2選舉區|顏莉敏",
+    "candidate_name": "顏莉敏",
+    "title": "顏莉敏",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92936285"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第2選舉區|楊典忠",
+    "candidate_name": "楊典忠",
+    "title": "楊典忠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93576469"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第2選舉區|張清照",
+    "candidate_name": "張清照",
+    "title": "張清照",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92936413"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第3選舉區|曾威",
+    "candidate_name": "曾威",
+    "title": "曾威 (台灣)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92654875"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第3選舉區|張家銨",
+    "candidate_name": "張家銨",
+    "title": "張家銨",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548241"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第3選舉區|林孟令",
+    "candidate_name": "林孟令",
+    "title": "林孟令",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93576484"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第3選舉區|吳瓊華",
+    "candidate_name": "吳瓊華",
+    "title": "吳瓊華",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92302633"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第3選舉區|林汝洲",
+    "candidate_name": "林汝洲",
+    "title": "林汝洲",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94202348"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第4選舉區|邱愛珊",
+    "candidate_name": "邱愛珊",
+    "title": "邱愛珊",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92285570"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第4選舉區|謝志忠",
+    "candidate_name": "謝志忠",
+    "title": "謝志忠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92335506"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第5選舉區|蕭隆澤",
+    "candidate_name": "蕭隆澤",
+    "title": "蕭隆澤",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92804476"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第5選舉區|賴朝國",
+    "candidate_name": "賴朝國",
+    "title": "賴朝國",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92302708"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第5選舉區|周永鴻",
+    "candidate_name": "周永鴻",
+    "title": "周永鴻",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94519467"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第5選舉區|徐瑄灃",
+    "candidate_name": "徐瑄灃",
+    "title": "徐瑄灃",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93953893"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第6選舉區|林祈烽",
+    "candidate_name": "林祈烽",
+    "title": "林祈烽",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93504030"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第6選舉區|黃馨慧",
+    "candidate_name": "黃馨慧",
+    "title": "黃馨慧",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93114765"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第7選舉區|劉士州",
+    "candidate_name": "劉士州",
+    "title": "劉士州",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95308084"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第7選舉區|張耀中",
+    "candidate_name": "張耀中",
+    "title": "張耀中",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92654992"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第7選舉區|朱暖英",
+    "candidate_name": "朱暖英",
+    "title": "朱暖英",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=83843934"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第7選舉區|何文海",
+    "candidate_name": "何文海",
+    "title": "何文海",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94204830"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第7選舉區|吳佩芸",
+    "candidate_name": "吳佩芸",
+    "title": "吳佩芸",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94471675"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第9選舉區|陳文政",
+    "candidate_name": "陳文政",
+    "title": "陳文政 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93576492"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第9選舉區|陳政顯",
+    "candidate_name": "陳政顯",
+    "title": "陳政顯",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92322426"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第9選舉區|陳俞融",
+    "candidate_name": "陳俞融",
+    "title": "陳俞融",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92860702"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第10選舉區|張彥彤",
+    "candidate_name": "張彥彤",
+    "title": "張彥彤",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92654984"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第10選舉區|黃守達",
+    "candidate_name": "黃守達",
+    "title": "黃守達",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548721"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第10選舉區|江肇國",
+    "candidate_name": "江肇國",
+    "title": "江肇國",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93549041"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第11選舉區|楊寶楨",
+    "candidate_name": "楊寶楨",
+    "title": "楊寶楨",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95385549"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第11選舉區|陳雅惠",
+    "candidate_name": "陳雅惠",
+    "title": "陳雅惠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95390734"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第11選舉區|林霈涵",
+    "candidate_name": "林霈涵",
+    "title": "林霈涵",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95218415"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第11選舉區|李中",
+    "candidate_name": "李中",
+    "title": "李中 (1959年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93851940"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第11選舉區|何翊綾",
+    "candidate_name": "何翊綾",
+    "title": "何翊綾",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94012529"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第12選舉區|黃佳恬",
+    "candidate_name": "黃佳恬",
+    "title": "黃佳恬",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93510117"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第12選舉區|賴義鍠",
+    "candidate_name": "賴義鍠",
+    "title": "賴義鍠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92655050"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第12選舉區|蔡耀頡",
+    "candidate_name": "蔡耀頡",
+    "title": "蔡耀頡",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94902805"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第13選舉區|江和樹",
+    "candidate_name": "江和樹",
+    "title": "江和樹",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94354224"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第13選舉區|張芬郁",
+    "candidate_name": "張芬郁",
+    "title": "張芬郁",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94914676"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第13選舉區|林德宇",
+    "candidate_name": "林德宇",
+    "title": "林德宇",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548687"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第13選舉區|林碧秀",
+    "candidate_name": "林碧秀",
+    "title": "林碧秀",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94915086"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第13選舉區|鄒明諺",
+    "candidate_name": "鄒明諺",
+    "title": "鄒明諺",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92658161"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第15選舉區|吳建德",
+    "candidate_name": "吳建德",
+    "title": "吳建德",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92285541"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺中市第17選舉區|朱元宏",
+    "candidate_name": "朱元宏",
+    "title": "朱元宏",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94497531"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第1選舉區|李宗翰",
+    "candidate_name": "李宗翰",
+    "title": "李宗翰 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94987621"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第1選舉區|蔡育輝",
+    "candidate_name": "蔡育輝",
+    "title": "蔡育輝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92352276"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第2選舉區|陳昆和",
+    "candidate_name": "陳昆和",
+    "title": "陳昆和",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93656577"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第5選舉區|余柷青",
+    "candidate_name": "余柷青",
+    "title": "余柷青",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95231040"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第5選舉區|林志展",
+    "candidate_name": "林志展",
+    "title": "林志展",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93877050"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第6選舉區|郭信良",
+    "candidate_name": "郭信良",
+    "title": "郭信良",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93837898"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第7選舉區|林燕祝",
+    "candidate_name": "林燕祝",
+    "title": "林燕祝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94372487"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第7選舉區|陳秋萍",
+    "candidate_name": "陳秋萍",
+    "title": "陳秋萍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95230526"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第7選舉區|朱正軒",
+    "candidate_name": "朱正軒",
+    "title": "朱正軒",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95322065"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第7選舉區|吳依潔",
+    "candidate_name": "吳依潔",
+    "title": "吳依潔 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95232219"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第8選舉區|江明宗",
+    "candidate_name": "江明宗",
+    "title": "江明宗",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95221042"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第8選舉區|邱莉莉",
+    "candidate_name": "邱莉莉",
+    "title": "邱莉莉",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95229659"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第8選舉區|童小芸",
+    "candidate_name": "童小芸",
+    "title": "童小芸",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92058048"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第9選舉區|林依婷",
+    "candidate_name": "林依婷",
+    "title": "林依婷 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93655692"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第9選舉區|呂維胤",
+    "candidate_name": "呂維胤",
+    "title": "呂維胤",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91723026"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第9選舉區|李伯利",
+    "candidate_name": "李伯利",
+    "title": "李伯利",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94692411"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第10選舉區|蔡筱薇",
+    "candidate_name": "蔡筱薇",
+    "title": "蔡筱薇",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93196081"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第10選舉區|陳金鐘",
+    "candidate_name": "陳金鐘",
+    "title": "陳壽彝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94658370"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第10選舉區|王家貞",
+    "candidate_name": "王家貞",
+    "title": "王家貞",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94647252"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第10選舉區|李宗霖",
+    "candidate_name": "李宗霖",
+    "title": "李宗霖 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94630283"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第11選舉區|吳禹寰",
+    "candidate_name": "吳禹寰",
+    "title": "吳禹寰",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94488898"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第1選舉區|林慧欣",
+    "candidate_name": "林慧欣",
+    "title": "林慧欣",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94199332"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|方信淵",
+    "candidate_name": "方信淵",
+    "title": "方信淵",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92096654"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|尹立",
+    "candidate_name": "尹立",
+    "title": "尹立",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95296822"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|黃文志",
+    "candidate_name": "黃文志",
+    "title": "黃文志 (台灣)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91764367"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|李雅芬",
+    "candidate_name": "李雅芬",
+    "title": "李雅芬",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94902562"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|柳淑芳",
+    "candidate_name": "柳淑芳",
+    "title": "柳淑芳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95298097"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|李眉蓁",
+    "candidate_name": "李眉蓁",
+    "title": "李眉蓁",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92170191"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|白喬茵",
+    "candidate_name": "白喬茵",
+    "title": "白喬茵",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92142181"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|邱俊憲",
+    "candidate_name": "邱俊憲",
+    "title": "邱俊憲",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93198225"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|張勝富",
+    "candidate_name": "張勝富",
+    "title": "張勝富",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95221458"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|江瑞鴻",
+    "candidate_name": "江瑞鴻",
+    "title": "江瑞鴻",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91535003"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|陳若翠",
+    "candidate_name": "陳若翠",
+    "title": "陳若翠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93903605"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|吳利成",
+    "candidate_name": "吳利成",
+    "title": "吳利成",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92268561"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第6選舉區|簡煥宗",
+    "candidate_name": "簡煥宗",
+    "title": "簡煥宗",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91764290"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第6選舉區|陳美雅",
+    "candidate_name": "陳美雅",
+    "title": "陳美雅",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94603416"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第6選舉區|李喬如",
+    "candidate_name": "李喬如",
+    "title": "李喬如",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92719083"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第6選舉區|蔡金晏",
+    "candidate_name": "蔡金晏",
+    "title": "蔡金晏",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94369783"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|鄭孟洳",
+    "candidate_name": "鄭孟洳",
+    "title": "鄭孟洳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93875413"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|黃柏霖",
+    "candidate_name": "黃柏霖",
+    "title": "黃柏霖",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94990660"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|曾俊傑",
+    "candidate_name": "曾俊傑",
+    "title": "曾俊傑",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93875480"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|何權峰",
+    "candidate_name": "何權峰",
+    "title": "何權峰",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94011308"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|張博洋",
+    "candidate_name": "張博洋",
+    "title": "張博洋",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93875378"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|康裕成",
+    "candidate_name": "康裕成",
+    "title": "康裕成",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95359109"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃文益",
+    "candidate_name": "黃文益",
+    "title": "黃文益",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93075732"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|郭建盟",
+    "candidate_name": "郭建盟",
+    "title": "郭建盟",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94159288"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|湯詠瑜",
+    "candidate_name": "湯詠瑜",
+    "title": "湯詠瑜",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93758221"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|許采蓁",
+    "candidate_name": "許采蓁",
+    "title": "許采蓁",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95385436"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|林智鴻",
+    "candidate_name": "林智鴻",
+    "title": "林智鴻",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548211"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|鄭安秝",
+    "candidate_name": "鄭安秝",
+    "title": "鄭安秝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=88282644"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|李雅靜",
+    "candidate_name": "李雅靜",
+    "title": "李雅靜",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94958559"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|陳慧文",
+    "candidate_name": "陳慧文",
+    "title": "陳慧文",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93258280"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|鍾易仲",
+    "candidate_name": "鍾易仲",
+    "title": "鍾易仲",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92107524"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|鄭光峰",
+    "candidate_name": "鄭光峰",
+    "title": "鄭光峰",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93548091"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|陳麗娜",
+    "candidate_name": "陳麗娜",
+    "title": "陳麗娜 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94369891"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|黃敬雅",
+    "candidate_name": "黃敬雅",
+    "title": "黃敬雅",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93105955"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第11選舉區|洪村銘",
+    "candidate_name": "洪村銘",
+    "title": "洪村銘",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92197658"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第2選舉區|歐陽霆",
+    "candidate_name": "歐陽霆",
+    "title": "歐陽霆",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92196444"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第2選舉區|朱健銘",
+    "candidate_name": "朱健銘",
+    "title": "朱健銘",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91423204"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第2選舉區|林碩彥",
+    "candidate_name": "林碩彥",
+    "title": "林碩彥",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93166684"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第2選舉區|邱靖雅",
+    "candidate_name": "邱靖雅",
+    "title": "邱靖雅",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94122233"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第3選舉區|余筱菁",
+    "candidate_name": "余筱菁",
+    "title": "余筱菁",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94422831"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第3選舉區|羅美文",
+    "candidate_name": "羅美文",
+    "title": "羅美文",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93712884"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第6選舉區|呂宛庭",
+    "candidate_name": "呂宛庭",
+    "title": "呂宛庭",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=87674239"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第1選舉區|徐筱菁",
+    "candidate_name": "徐筱菁",
+    "title": "徐筱菁",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91887302"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第1選舉區|許櫻萍",
+    "candidate_name": "許櫻萍",
+    "title": "許櫻萍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91946002"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第2選舉區|羅貴星",
+    "candidate_name": "羅貴星",
+    "title": "羅貴星",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92196204"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第3選舉區|杜文卿",
+    "candidate_name": "杜文卿",
+    "title": "杜文卿",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91197134"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第4選舉區|李文斌",
+    "candidate_name": "李文斌",
+    "title": "李文斌",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92281749"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第5選舉區|陳詩弦",
+    "candidate_name": "陳詩弦",
+    "title": "陳詩弦",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92750115"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第5選舉區|陳光軒",
+    "candidate_name": "陳光軒",
+    "title": "陳光軒",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93651740"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第5選舉區|蕭詠萱",
+    "candidate_name": "蕭詠萱",
+    "title": "蕭詠萱",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94035432"
+  },
+  {
+    "candidate_key": "2026|縣市議員|苗栗縣第5選舉區|鄭聚然",
+    "candidate_name": "鄭聚然",
+    "title": "鄭聚然",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92532768"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第1選舉區|許原龍",
+    "candidate_name": "許原龍",
+    "title": "許原龍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92554003"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第1選舉區|林世賢",
+    "candidate_name": "林世賢",
+    "title": "林世賢 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94197702"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第1選舉區|楊子賢",
+    "candidate_name": "楊子賢",
+    "title": "楊子賢",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94468983"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第1選舉區|温芝樺",
+    "candidate_name": "温芝樺",
+    "title": "温芝樺",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95335858"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第1選舉區|吳韋達",
+    "candidate_name": "吳韋達",
+    "title": "吳韋達",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94490823"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第1選舉區|李成濟",
+    "candidate_name": "李成濟",
+    "title": "李成濟",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94928143"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第2選舉區|許志宏",
+    "candidate_name": "許志宏",
+    "title": "許志宏",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92320020"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第2選舉區|蔣煙燈",
+    "candidate_name": "蔣煙燈",
+    "title": "蔣煙燈",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93142850"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第3選舉區|蕭文雄",
+    "candidate_name": "蕭文雄",
+    "title": "蕭文雄",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92470213"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第4選舉區|張欣倩",
+    "candidate_name": "張欣倩",
+    "title": "張欣倩",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93206774"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第4選舉區|張雪如",
+    "candidate_name": "張雪如",
+    "title": "張雪如",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94749781"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第4選舉區|劉惠娟",
+    "candidate_name": "劉惠娟",
+    "title": "劉惠娟",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94205180"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第4選舉區|曹嘉豪",
+    "candidate_name": "曹嘉豪",
+    "title": "曹嘉豪",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94370360"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第5選舉區|劉珊伶",
+    "candidate_name": "劉珊伶",
+    "title": "劉珊伶",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94207317"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第6選舉區|詹琬惠",
+    "candidate_name": "詹琬惠",
+    "title": "詹琬惠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94468982"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第6選舉區|鄭俊雄",
+    "candidate_name": "鄭俊雄",
+    "title": "鄭俊雄",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94928144"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第7選舉區|江熊一楓",
+    "candidate_name": "江熊一楓",
+    "title": "江熊一楓",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94928173"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第7選舉區|謝典霖",
+    "candidate_name": "謝典霖",
+    "title": "謝典霖",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94994629"
+  },
+  {
+    "candidate_key": "2026|縣市議員|彰化縣第8選舉區|洪子超",
+    "candidate_name": "洪子超",
+    "title": "洪子超",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92532778"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第1選舉區|林憶如",
+    "candidate_name": "林憶如",
+    "title": "林憶如",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92064254"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第1選舉區|賴燕雪",
+    "candidate_name": "賴燕雪",
+    "title": "賴燕雪",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93341940"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第1選舉區|宋懷琳",
+    "candidate_name": "宋懷琳",
+    "title": "宋懷琳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92064219"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第1選舉區|簡千翔",
+    "candidate_name": "簡千翔",
+    "title": "簡千翔",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92757839"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第1選舉區|史雪燕",
+    "candidate_name": "史雪燕",
+    "title": "史雪燕",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94062668"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第2選舉區|蔡銘軒",
+    "candidate_name": "蔡銘軒",
+    "title": "蔡銘軒",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92064028"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第3選舉區|蕭志全",
+    "candidate_name": "蕭志全",
+    "title": "蕭志全",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93925701"
+  },
+  {
+    "candidate_key": "2026|縣市議員|南投縣第4選舉區|陳玉鈴",
+    "candidate_name": "陳玉鈴",
+    "title": "陳玉鈴",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92746335"
+  },
+  {
+    "candidate_key": "2026|縣市議員|雲林縣第1選舉區|廖郁賢",
+    "candidate_name": "廖郁賢",
+    "title": "廖郁賢",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95222912"
+  },
+  {
+    "candidate_key": "2026|縣市議員|雲林縣第3選舉區|陳乙辰",
+    "candidate_name": "陳乙辰",
+    "title": "陳乙辰",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92732074"
+  },
+  {
+    "candidate_key": "2026|縣市議員|雲林縣第3選舉區|蔡明水",
+    "candidate_name": "蔡明水",
+    "title": "蔡明水",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92320036"
+  },
+  {
+    "candidate_key": "2026|縣市議員|雲林縣第5選舉區|林宜豊",
+    "candidate_name": "林宜豊",
+    "title": "林宜豊",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93614424"
+  },
+  {
+    "candidate_key": "2026|縣市議員|雲林縣第6選舉區|蔡孟真",
+    "candidate_name": "蔡孟真",
+    "title": "蔡孟真",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95343056"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義縣第1選舉區|黃榮利",
+    "candidate_name": "黃榮利",
+    "title": "黃榮利",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91338411"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義縣第1選舉區|詹琬蓁",
+    "candidate_name": "詹琬蓁",
+    "title": "詹琬蓁",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92306424"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義縣第1選舉區|黃惠汝",
+    "candidate_name": "黃惠汝",
+    "title": "黃惠汝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93330804"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義縣第2選舉區|黃啟豪",
+    "candidate_name": "黃啟豪",
+    "title": "黃啟豪",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93101445"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義縣第4選舉區|蔡政宜",
+    "candidate_name": "蔡政宜",
+    "title": "蔡政宜",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92523412"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義縣第6選舉區|張明達",
+    "candidate_name": "張明達",
+    "title": "張明達",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91512140"
+  },
+  {
+    "candidate_key": "2026|縣市議員|屏東縣第1選舉區|蔣月惠",
+    "candidate_name": "蔣月惠",
+    "title": "蔣月惠",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95367365"
+  },
+  {
+    "candidate_key": "2026|縣市議員|屏東縣第1選舉區|黃明賢",
+    "candidate_name": "黃明賢",
+    "title": "黃明賢",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92306416"
+  },
+  {
+    "candidate_key": "2026|縣市議員|屏東縣第1選舉區|李清聖",
+    "candidate_name": "李清聖",
+    "title": "李清聖",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92624651"
+  },
+  {
+    "candidate_key": "2026|縣市議員|屏東縣第1選舉區|李世斌",
+    "candidate_name": "李世斌",
+    "title": "李世斌",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92804609"
+  },
+  {
+    "candidate_key": "2026|縣市議員|屏東縣第2選舉區|盧文瑞",
+    "candidate_name": "盧文瑞",
+    "title": "盧文瑞",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92820480"
+  },
+  {
+    "candidate_key": "2026|縣市議員|屏東縣第2選舉區|葉明博",
+    "candidate_name": "葉明博",
+    "title": "葉明博",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92624645"
+  },
+  {
+    "candidate_key": "2026|縣市議員|屏東縣第12選舉區|莊景星",
+    "candidate_name": "莊景星",
+    "title": "莊景星",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91715450"
+  },
+  {
+    "candidate_key": "2026|縣市議員|宜蘭縣第1選舉區|劉仲書",
+    "candidate_name": "劉仲書",
+    "title": "劉仲書",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94209806"
+  },
+  {
+    "candidate_key": "2026|縣市議員|宜蘭縣第1選舉區|黃定和",
+    "candidate_name": "黃定和",
+    "title": "黃定和",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94428220"
+  },
+  {
+    "candidate_key": "2026|縣市議員|宜蘭縣第1選舉區|張勝德",
+    "candidate_name": "張勝德",
+    "title": "張勝德",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92758263"
+  },
+  {
+    "candidate_key": "2026|縣市議員|宜蘭縣第3選舉區|李淑芬",
+    "candidate_name": "李淑芬",
+    "title": "李淑芬 (1957年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92196440"
+  },
+  {
+    "candidate_key": "2026|縣市議員|宜蘭縣第6選舉區|薛呈懿",
+    "candidate_name": "薛呈懿",
+    "title": "薛呈懿",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92624637"
+  },
+  {
+    "candidate_key": "2026|縣市議員|花蓮縣第1選舉區|傅國淵",
+    "candidate_name": "傅國淵",
+    "title": "傅國淵",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95358483"
+  },
+  {
+    "candidate_key": "2026|縣市議員|臺東縣第1選舉區|陳允萍",
+    "candidate_name": "陳允萍",
+    "title": "陳允萍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92733463"
+  },
+  {
+    "candidate_key": "2026|縣市議員|臺東縣第1選舉區|黃治維",
+    "candidate_name": "黃治維",
+    "title": "黃治維",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94385746"
+  },
+  {
+    "candidate_key": "2026|縣市議員|臺東縣第4選舉區|陳宏宗",
+    "candidate_name": "陳宏宗",
+    "title": "陳宏宗 (政治人物)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93677257"
+  },
+  {
+    "candidate_key": "2026|縣市議員|臺東縣第7選舉區|林琮翰",
+    "candidate_name": "林琮翰",
+    "title": "林琮翰",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=87674629"
+  },
+  {
+    "candidate_key": "2026|縣市議員|臺東縣第7選舉區|巫化‧巴阿立佑司",
+    "candidate_name": "巫化‧巴阿立佑司",
+    "title": "巫化·巴阿立佑司",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95349711"
+  },
+  {
+    "candidate_key": "2026|縣市議員|臺東縣第14選舉區|章正輝Lemaljiz‧Kusaza",
+    "candidate_name": "章正輝Lemaljiz‧Kusaza",
+    "title": "章正輝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91987007"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第1選舉區|蘇育德",
+    "candidate_name": "蘇育德",
+    "title": "蘇育德",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95351878"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第1選舉區|呂黃春金",
+    "candidate_name": "呂黃春金",
+    "title": "呂黃春金",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95319543"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第1選舉區|藍凱元",
+    "candidate_name": "藍凱元",
+    "title": "藍凱元",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95319534"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第1選舉區|呂光宇",
+    "candidate_name": "呂光宇",
+    "title": "呂光宇",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94505299"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第1選舉區|陳海山",
+    "candidate_name": "陳海山",
+    "title": "陳海山 (1950年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95242638"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第3選舉區|宋昀芝",
+    "candidate_name": "宋昀芝",
+    "title": "宋昀芝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95242366"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第5選舉區|陳佩真",
+    "candidate_name": "陳佩真",
+    "title": "陳佩真",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95123439"
+  },
+  {
+    "candidate_key": "2026|縣市議員|金門縣第1選舉區|董森堡",
+    "candidate_name": "董森堡",
+    "title": "董森堡",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95117588"
+  },
+  {
+    "candidate_key": "2026|縣市議員|金門縣第1選舉區|蔡其雍",
+    "candidate_name": "蔡其雍",
+    "title": "蔡其雍",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93651746"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第1選舉區|呂美玲",
+    "candidate_name": "呂美玲",
+    "title": "呂美玲",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95128364"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第3選舉區|鄭文婷",
+    "candidate_name": "鄭文婷",
+    "title": "鄭文婷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92562708"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第4選舉區|施偉政",
+    "candidate_name": "施偉政",
+    "title": "施偉政",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93330864"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第4選舉區|宋瑋莉",
+    "candidate_name": "宋瑋莉",
+    "title": "宋瑋莉",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95176452"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第5選舉區|張之豪",
+    "candidate_name": "張之豪",
+    "title": "張之豪",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94374746"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第5選舉區|吳驊珈",
+    "candidate_name": "吳驊珈",
+    "title": "吳驊珈",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92131312"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第7選舉區|楊秀玉",
+    "candidate_name": "楊秀玉",
+    "title": "楊秀玉",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95341412"
+  },
+  {
+    "candidate_key": "2026|縣市議員|基隆市第7選舉區|張耿輝",
+    "candidate_name": "張耿輝",
+    "title": "張耿輝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92386269"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第1選舉區|劉崇顯",
+    "candidate_name": "劉崇顯",
+    "title": "劉崇顯",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94204318"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第1選舉區|李國璋",
+    "candidate_name": "李國璋",
+    "title": "李國璋 (臺灣)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=90021219"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第1選舉區|宋品瑩",
+    "candidate_name": "宋品瑩",
+    "title": "宋品瑩",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95173957"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第1選舉區|鄭宏輝",
+    "candidate_name": "鄭宏輝",
+    "title": "鄭宏輝",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93374900"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第1選舉區|蔡惠婷",
+    "candidate_name": "蔡惠婷",
+    "title": "蔡惠婷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94188281"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第1選舉區|錢康明",
+    "candidate_name": "錢康明",
+    "title": "錢康明",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92298876"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第2選舉區|施乃如",
+    "candidate_name": "施乃如",
+    "title": "施乃如",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92376749"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第2選舉區|許修睿",
+    "candidate_name": "許修睿",
+    "title": "許修睿",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92555160"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第2選舉區|田雅芳",
+    "candidate_name": "田雅芳",
+    "title": "田雅芳",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91809163"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第3選舉區|施淑婷",
+    "candidate_name": "施淑婷",
+    "title": "施淑婷",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93603799"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第3選舉區|陳建名",
+    "candidate_name": "陳建名",
+    "title": "陳建名",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92739995"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第4選舉區|鄭慶欽",
+    "candidate_name": "鄭慶欽",
+    "title": "鄭慶欽",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92562421"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第4選舉區|林彥甫",
+    "candidate_name": "林彥甫",
+    "title": "林彥甫",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91809886"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第4選舉區|許竹見",
+    "candidate_name": "許竹見",
+    "title": "許竹見",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=93487014"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第5選舉區|吳國寶",
+    "candidate_name": "吳國寶",
+    "title": "吳國寶 (1970年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94472815"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第5選舉區|葉國文",
+    "candidate_name": "葉國文",
+    "title": "葉國文",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91830159"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第5選舉區|陳啓源",
+    "candidate_name": "陳啓源",
+    "title": "陳啟源",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=92734716"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第5選舉區|廖子齊",
+    "candidate_name": "廖子齊",
+    "title": "廖子齊",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91811499"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第5選舉區|林盈徹",
+    "candidate_name": "林盈徹",
+    "title": "林盈徹",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91809636"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義市第1選舉區|凌子楚",
+    "candidate_name": "凌子楚",
+    "title": "凌子楚",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95306147"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義市第1選舉區|黃露慧",
+    "candidate_name": "黃露慧",
+    "title": "黃露慧",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95309948"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義市第1選舉區|顏翎熹",
+    "candidate_name": "顏翎熹",
+    "title": "顏翎熹",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95316650"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義市第1選舉區|陳家平",
+    "candidate_name": "陳家平",
+    "title": "陳家平",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95324224"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義市第1選舉區|傅大偉",
+    "candidate_name": "傅大偉",
+    "title": "傅大偉",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=94046279"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義市第2選舉區|王浩",
+    "candidate_name": "王浩",
+    "title": "王浩 (1990年)",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=95352394"
+  },
+  {
+    "candidate_key": "2026|縣市議員|嘉義市第2選舉區|張秀華",
+    "candidate_name": "張秀華",
+    "title": "張秀華",
+    "identity_method": "2026_election_table_person_link",
+    "source_file": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "source_url": "https://zh.wikipedia.org/w/index.php?oldid=91829939"
+  }
+]

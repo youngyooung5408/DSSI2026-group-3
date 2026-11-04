@@ -1,0 +1,46 @@
+{
+  "council_candidates": 1502,
+  "previously_populated": 717,
+  "newly_populated": 785,
+  "populated": 1502,
+  "current_source_conflict_unresolved": 1,
+  "source_discrepancy_cases": 6,
+  "source_tiers": {
+    "secondary_2026_explicit_sex": 781,
+    "prior_record_retained": 717,
+    "official_2022_historical_current_conflict": 1,
+    "media_2026_registration_explicit_sex": 3
+  },
+  "outputs": {
+    "data/processed/candidate_fields_current.csv": {
+      "rows": 31660,
+      "columns": 11,
+      "sha256": "74ef1f3a77d24f73a5f3682682b18c97ca55843e7879ada7c1cc86b57dd0730c"
+    },
+    "data/processed/candidate_master_current.csv": {
+      "rows": 1583,
+      "columns": 34,
+      "sha256": "f4806b229118b4f67383e4ed081144bffc0b81404600ffce646df6017c23eea4"
+    },
+    "data/processed/council_background_20261019.csv": {
+      "rows": 1502,
+      "columns": 53,
+      "sha256": "32aebc40e4579333fa6f4d9476a763e1974537f6349f82f49396a88f7c58b33b"
+    },
+    "data/processed/council_sex_current.csv": {
+      "rows": 1502,
+      "columns": 18,
+      "sha256": "21518248cbedff13985bd7775e705b1dbee59abc343cc950a30da7f5cc68b0f8"
+    },
+    "data/processed/council_sex_source_observations_20261103.csv": {
+      "rows": 2992,
+      "columns": 12,
+      "sha256": "44b6cab74fceaa3801e30f9e964c30a48ba2625ea5a08e138db7964d745e1f0a"
+    },
+    "data/processed/council_sex_conflicts_20261103.csv": {
+      "rows": 6,
+      "columns": 8,
+      "sha256": "d193d3adbd8c9458827899e24d790b9a7476e1abf794f79edf35649e7f81c223"
+    }
+  }
+}

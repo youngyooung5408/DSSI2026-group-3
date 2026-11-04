@@ -1,0 +1,58 @@
+[
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_kmt_api.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=parse&page=2026年地方公職人員選舉中國國民黨提名結果列表&prop=text&format=json",
+    "status": 200,
+    "bytes": 1014127,
+    "sha256": "30f2b72b2d2fc5e3a0d985b7b17c1a1a4f6b9f766b2907916058eeb2724c43e5",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_old_api.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&titles=2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表&rvprop=ids%7Ctimestamp%7Ccontent&rvstart=2026-10-15T23:59:59Z&rvlimit=1&format=json",
+    "status": 200,
+    "bytes": 336183,
+    "sha256": "e3378f13fc6fa193fe102145b7a0c07a78ffb45ac979f06be13015ae45cc6f83",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_2026_tainan.html",
+    "url": "https://zh.wikipedia.org/api/rest_v1/page/html/2026年臺南市議員選舉",
+    "status": 404,
+    "bytes": 503,
+    "sha256": "615c1203b6775d4061888533685aff32073cd013d0dfb80f058af4d39eb98999",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_2026_chiayi.html",
+    "url": "https://zh.wikipedia.org/api/rest_v1/page/html/2026年嘉義縣議員選舉",
+    "status": 404,
+    "bytes": 503,
+    "sha256": "2d73898b81984497ed6155ddfc7862df3c01d8924690e8f9c27c0f790c07ed9a",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_2026_taoyuan.html",
+    "url": "https://zh.wikipedia.org/api/rest_v1/page/html/2026年桃園市議員選舉",
+    "status": 404,
+    "bytes": 503,
+    "sha256": "1919dff050caf688c46ed401b709a08aeceec8ff2699f1ea24496bbf8ab12322",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_2026_old_mirror.html",
+    "url": "https://zh.everybodywiki.com/2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表",
+    "status": 403,
+    "bytes": 6477,
+    "sha256": "b4a0b6c89fce94b9e3be9f08b3a7138d4d20ee83ed7d370443e78314ce775291",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/zhong_bulletin.pdf",
+    "url": "https://eebulletin.cec.gov.tw/111/12雲林縣/03鄉鎮市長/西螺鎮長選舉公報.pdf",
+    "status": 200,
+    "bytes": 2592736,
+    "sha256": "fa97a45e5814397060bb19508356cd69aa9b6477ddf840ae0496b1c720c30b84",
+    "captured_date": "2026-11-03"
+  }
+]

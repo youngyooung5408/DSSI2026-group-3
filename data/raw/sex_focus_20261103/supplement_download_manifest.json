@@ -1,0 +1,74 @@
+[
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_kmt_nomination.html",
+    "url": "https://zh.wikipedia.org/zh-tw/2026年地方公職人員選舉中國國民黨提名結果列表",
+    "status": 403,
+    "bytes": 126,
+    "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/wiki_revisions.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&titles=2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表&rvprop=ids|timestamp&rvstart=2026-10-15T23:59:59Z&rvlimit=1&format=json",
+    "status": 403,
+    "bytes": 126,
+    "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/shao_tvbs.html",
+    "url": "https://news.tvbs.com.tw/local/2786693",
+    "status": 200,
+    "bytes": 247022,
+    "sha256": "842bd47ef4212ed5f88db7b8544402dd7910876eed832b98e818aaf96f745e50",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/zhong_votetw.html",
+    "url": "https://votetw.com/data/candidate/鍾任明",
+    "status": 403,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/zheng_readr.html",
+    "url": "https://whoareyou.readr.tw/person/22453",
+    "status": 200,
+    "bytes": 711924,
+    "sha256": "1d8e4711800b637279a1e802dee3e270a00ce3c4b7b8925f1724bae95c29bb1f",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/you_votetw.html",
+    "url": "https://www.votetw.com/data/candidate/游智彬",
+    "status": 403,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/he_udn.html",
+    "url": "https://udn.com/vote2026/story/7321/9832363",
+    "status": 200,
+    "bytes": 65947,
+    "sha256": "a741bb80f8a0c1b6c85cae4ba950d99740b82b0a4f11e08e368cdaba88d5b156",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/cao_ftv.html",
+    "url": "https://www.ftvnews.com.tw/news/detail/2026A13W0541",
+    "status": 403,
+    "bytes": 5513,
+    "sha256": "b64201c752b36235a28061085f129537f0b384b09010b899b7a2b8641930483d",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/ye_olc.html",
+    "url": "https://elections.olc.tw/candidates/index/dadfe427-ff3b-4fff-86b4-9bdb7df4530b",
+    "status": 200,
+    "bytes": 23548,
+    "sha256": "e765a61c0884190ade20ee605928d146951ba3f40a7e1d8516bc9f78183e2f7f",
+    "captured_date": "2026-11-03"
+  }
+]

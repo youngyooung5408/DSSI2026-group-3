@@ -1,0 +1,7 @@
+﻿candidate_key,candidate_name,issue,source_a,value_a,source_b,value_b,resolution
+2026|縣市議員|雲林縣第1選舉區|張光儀,張光儀,official_2022_vs_secondary_2026_unresolved,data/raw/cec_all_offices/106_elcand.csv:388,男,https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表#雲林縣第一選舉區（斗六市、莿桐鄉、林內鄉）,女,僅收錄2022官方申報值；2026衝突未裁定，exclude_from_unqualified_2026_analysis=1
+2026|縣市議員|嘉義縣第2選舉區|魏彰儀,魏彰儀,wiki_revision_disagreement,https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表#嘉義縣第二選舉區（民雄鄉、新港鄉）,男,https://zh.wikipedia.org/w/index.php?oldid=94459742#嘉義縣第二選舉區（民雄鄉、新港鄉）,女,保留既有值或最新明載值；歷史版本差異另列，不視為獨立查證
+2026|縣市議員|澎湖縣第4選舉區|李家萱,李家萱,wiki_revision_disagreement,https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表#澎湖縣第四選舉區（西嶼鄉）,女,https://zh.wikipedia.org/w/index.php?oldid=94459742#澎湖縣第四選舉區（西嶼鄉）,男,保留既有值或最新明載值；歷史版本差異另列，不視為獨立查證
+2026|縣市議員|金門縣第1選舉區|陳泱瑚,陳泱瑚,secondary_name_and_sex_disagree_with_prior_official,https://db.cec.gov.tw/ | data/raw/cec_all_offices/106_elcand.csv:23,男,https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表#金門縣第一選舉區（金城鎮、金寧鄉、烏坵鄉）,女,保留既有官方歷史值；維基同號次姓名及性別均不同，不覆寫；需當屆官方複核
+2026|縣市議員|基隆市第1選舉區|王珍玨,王珍玨,wiki_revision_disagreement,https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表#基隆市第一選舉區（中正區）,女,https://zh.wikipedia.org/w/index.php?oldid=94459742#基隆市第一選舉區（中正區）,男,保留既有值或最新明載值；歷史版本差異另列，不視為獨立查證
+2026|縣市議員|基隆市第2選舉區|陳宜,陳宜,wiki_revision_disagreement,https://zh.wikipedia.org/zh-tw/2026年中華民國直轄市議員及縣市議員選舉選舉區投票結果列表#基隆市第二選舉區（信義區）,女,https://zh.wikipedia.org/w/index.php?oldid=94459742#基隆市第二選舉區（信義區）,男,保留既有值或最新明載值；歷史版本差異另列，不視為獨立查證

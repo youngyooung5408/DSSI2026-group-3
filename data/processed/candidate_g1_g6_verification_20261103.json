@@ -1,0 +1,70 @@
+{
+  "candidates": 1583,
+  "g5_first_time_reported": 35,
+  "coverage": {
+    "G1": 857,
+    "G2": 1582,
+    "G3": 858,
+    "G4": 1583,
+    "G5": 856,
+    "G6": 93
+  },
+  "g5_prior_nonfirst": 778,
+  "g5_new_nonfirst": 43,
+  "g5_audit_status": {
+    "official_historical_record_located_identity_supported": 775,
+    "official_profile_saved_text_rechecked": 1,
+    "official_bulletin_saved_text_rechecked": 2,
+    "official_profile_rechecked_this_run": 1,
+    "explicit_first_time_report_not_exhaustive_archive_proof": 35,
+    "unknown_no_lifetime_first_claim": 727,
+    "government_or_candidate_profile_text_rechecked": 4,
+    "secondary_prior_elected_office_located": 25,
+    "candidate_declared_prior_election_text_rechecked": 3,
+    "official_historical_row_rechecked": 10
+  },
+  "family_rows": 156,
+  "source_conflicts": 2,
+  "outputs": {
+    "data/processed/candidates_g1_g6_current.csv": {
+      "rows": 1583,
+      "columns": 36,
+      "sha256": "d8695b306bd7eadbf0de5c8bb2f368c717d23d4ef7ae55cf3cf4b8fa1afbb59c"
+    },
+    "data/processed/candidate_g5_audit_20261103.csv": {
+      "rows": 1583,
+      "columns": 13,
+      "sha256": "6c361541ab417083bd0313225a6a382e0a94d4ad228fcba157bd23dee914e430"
+    },
+    "data/processed/candidate_g6_family_evidence_20261103.csv": {
+      "rows": 156,
+      "columns": 19,
+      "sha256": "04ecb38375192e2e83a16c7004e8af8c752b6658bb345de02c26f1b931dd8784"
+    },
+    "data/processed/candidate_g1_g6_field_evidence_20261103.csv": {
+      "rows": 9498,
+      "columns": 7,
+      "sha256": "3da3926cf1e03bb3bed3b48b3ce12562bc74f63d8c039deec8080f4f904f6b77"
+    },
+    "data/processed/candidate_g1_g6_source_conflicts_20261103.csv": {
+      "rows": 2,
+      "columns": 7,
+      "sha256": "7a99670f267f32c7f07544a8bc644aecd70b0787c689a739eaa89696ff72a08d"
+    },
+    "data/processed/candidate_g1_g6_identity_pending_20261103.csv": {
+      "rows": 121,
+      "columns": 6,
+      "sha256": "7cc0306385e10866543e1c8dae803e6daec7ac60026936a40984311e2dcc75c6"
+    },
+    "data/processed/candidate_g1_g6_remaining_worklist_20261103.csv": {
+      "rows": 3669,
+      "columns": 7,
+      "sha256": "927ce54e2ca4d8d53cba4bbf4b668d109ae88f107b046c10839962b856107724"
+    },
+    "data/processed/candidate_g5_first_time_lead_review_20261104.csv": {
+      "rows": 42,
+      "columns": 10,
+      "sha256": "69471d1da0425922543fd40dd09ca63cc4bd92722cd5d8aba7f29866d8afc0b0"
+    }
+  }
+}

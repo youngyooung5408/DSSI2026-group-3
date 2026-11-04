@@ -1,0 +1,546 @@
+[
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_00.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E4%BA%8E%E5%8C%97%E8%BE%B0+%281968%E5%B9%B4%29%7C%E4%BD%80%E5%BB%A3%E6%B4%8B%7C%E4%BD%95%E5%85%83%E6%A5%B7%7C%E4%BD%95%E5%AD%9F%E6%A8%BA%7C%E4%BD%95%E5%BF%97%E5%8B%87%7C%E4%BD%95%E6%96%87%E6%B5%B7%7C%E4%BD%95%E6%AC%8A%E5%B3%B0%7C%E4%BD%95%E6%AC%A3%E7%B4%94%7C%E4%BD%95%E6%B7%91%E8%90%8D%7C%E4%BD%95%E7%BF%8A%E7%B6%BE%7C%E4%BD%99%E4%BF%A1%E6%86%B2%7C%E4%BD%99%E6%9F%B7%E9%9D%92%7C%E4%BD%99%E7%AD%B1%E8%8F%81%7C%E4%BE%AF%E6%BC%A2%E5%BB%B7%7C%E5%82%85%E5%9C%8B%E6%B7%B5%7C%E5%82%85%E5%A4%A7%E5%81%89%7C%E5%87%8C%E5%AD%90%E6%A5%9A%7C%E5%87%8C%E6%BF%A4%7C%E5%8A%89%E4%BB%81%E7%85%A7%7C%E5%8A%89%E4%BB%B2%E6%9B%B8%7C%E5%8A%89%E5%8B%9D%E5%85%A8%7C%E5%8A%89%E5%93%81%E5%A6%A1%7C%E5%8A%89%E5%A3%AB%E5%B7%9E%7C%E5%8A%89%E5%AE%89%E7%A5%BA+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E5%8A%89%E5%B4%87%E9%A1%AF%7C%E5%8A%89%E5%BB%BA%E5%9C%8B%7C%E5%8A%89%E5%BF%A0%E7%BE%A9%7C%E5%8A%89%E6%83%A0%E5%A8%9F%7C%E5%8A%89%E6%88%90%E8%AC%99%7C%E5%8A%89%E7%87%A6%E8%BC%9D%7C%E5%8A%89%E7%8F%8A%E4%BC%B6%7C%E5%8A%89%E7%BE%8E%E8%8A%B3%7C%E5%8A%89%E8%80%80%E4%BB%81%7C%E5%8A%89%E8%87%B4%E5%A6%A4%7C%E5%8D%93%E5%86%A0%E5%BB%B7%7C%E5%8F%B2%E9%9B%AA%E7%87%95%7C%E5%90%B3%E4%B8%96%E6%AD%A3%7C%E5%90%B3%E4%BD%A9%E7%8F%8A%7C%E5%90%B3%E4%BD%A9%E8%8A%B8%7C%E5%90%B3%E4%BE%9D%E6%BD%94+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 392623,
+    "sha256": "727737ff31ca60667027fe805918306a9e2c6d43483faae04b2bbfff242c9d5f",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_01.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E5%90%B3%E5%88%A9%E6%88%90%7C%E5%90%B3%E5%93%81%E5%8F%A1%7C%E5%90%B3%E5%9C%8B%E5%AF%B6+%281970%E5%B9%B4%29%7C%E5%90%B3%E5%AE%97%E6%86%B2%7C%E5%90%B3%E5%BB%BA%E5%BE%B7%7C%E5%90%B3%E5%BF%97%E5%89%9B+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E5%90%B3%E6%80%A1%E8%90%B1%7C%E5%90%B3%E6%94%BF%E5%82%91%7C%E5%90%B3%E6%96%87%E5%87%B1%7C%E5%90%B3%E6%AC%A3%E5%B2%B1%7C%E5%90%B3%E6%B7%91%E7%91%BE%7C%E5%90%B3%E7%82%B3%E8%BC%9D%7C%E5%90%B3%E7%93%8A%E8%8F%AF%7C%E5%90%B3%E7%A6%B9%E5%AF%B0%7C%E5%90%B3%E7%A7%80%E8%8F%AF%7C%E5%90%B3%E9%9F%8B%E9%81%94%7C%E5%90%B3%E9%A9%8A%E7%8F%88%7C%E5%91%82%E5%85%89%E5%AE%87%7C%E5%91%82%E5%AE%9B%E5%BA%AD%7C%E5%91%82%E5%AE%B6%E6%84%B7%7C%E5%91%82%E6%9E%97%E5%B0%8F%E9%B3%B3%7C%E5%91%82%E7%B6%AD%E8%83%A4%7C%E5%91%82%E7%BE%8E%E7%8E%B2%7C%E5%91%82%E9%BB%83%E6%98%A5%E9%87%91%7C%E5%91%A8%E5%80%AA%E5%AE%89%7C%E5%91%A8%E5%AD%90%E5%82%91%7C%E5%91%A8%E6%98%A5%E7%B1%B3%7C%E5%91%A8%E6%9B%89%E8%8A%B8%7C%E5%91%A8%E6%B0%B8%E9%B4%BB%7C%E5%94%90%E6%96%B0%E6%B0%91%7C%E5%A4%8F%E6%99%A8%E6%A6%AE%7C%E5%AE%8B%E5%93%81%E7%91%A9%7C%E5%AE%8B%E6%87%B7%E7%90%B3%7C%E5%AE%8B%E6%98%80%E8%8A%9D%7C%E5%AE%8B%E7%91%8B%E8%8E%89%7C%E5%B0%B9%E7%AB%8B%7C%E5%B1%B1%E7%94%B0%E6%91%A9%E8%A1%A3%7C%E5%B7%AB%E5%8C%96%C2%B7%E5%B7%B4%E9%98%BF%E7%AB%8B%E4%BD%91%E5%8F%B8%7C%E5%BA%B7%E8%A3%95%E6%88%90%7C%E5%BB%96%E5%AD%90%E9%BD%8A&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 496055,
+    "sha256": "22686aa09f85c2d1e237678393ea48fd900f00f563fa5b2196f3674318134803",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_02.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E5%BB%96%E5%AE%9C%E7%90%A8%7C%E5%BB%96%E9%83%81%E8%B3%A2%7C%E5%BC%B5%E4%B9%8B%E8%B1%AA%7C%E5%BC%B5%E4%BB%B2%E6%96%B9%7C%E5%BC%B5%E4%BD%91%E8%BC%94%7C%E5%BC%B5%E5%8B%9D%E5%AF%8C%7C%E5%BC%B5%E5%8B%9D%E5%BE%B7%7C%E5%BC%B5%E5%8D%9A%E6%B4%8B%7C%E5%BC%B5%E5%95%93%E6%A5%B7%7C%E5%BC%B5%E5%96%84%E6%94%BF%7C%E5%BC%B5%E5%98%89%E9%83%A1%7C%E5%BC%B5%E5%9C%8B%E5%A8%81%7C%E5%BC%B5%E5%AE%B6%E7%91%8B%7C%E5%BC%B5%E5%AE%B6%E9%8A%A8%7C%E5%BC%B5%E5%B3%BB%7C%E5%BC%B5%E5%BB%96%E4%B9%83%E7%B6%B8%7C%E5%BC%B5%E5%BB%B6%E5%BB%B7%7C%E5%BC%B5%E5%BD%A5%E5%BD%A4%7C%E5%BC%B5%E5%BF%97%E8%B1%AA+%281981%E5%B9%B4%29%7C%E5%BC%B5%E5%BF%97%E8%B1%AA+%28%E5%8F%B0%E7%81%A3%E6%B0%91%E7%9C%BE%E9%BB%A8%29%7C%E5%BC%B5%E6%83%A0%E9%9B%85%7C%E5%BC%B5%E6%96%87%E5%BD%AC%7C%E5%BC%B5%E6%96%87%E6%BD%94%7C%E5%BC%B5%E6%96%AF%E7%B6%B1%7C%E5%BC%B5%E6%98%8E%E9%81%94%7C%E5%BC%B5%E6%A1%82%E7%B6%BF%7C%E5%BC%B5%E6%AC%A3%E5%80%A9%7C%E5%BC%B5%E6%B0%B8%E5%BE%B7%7C%E5%BC%B5%E6%B8%85%E7%85%A7%7C%E5%BC%B5%E6%BC%A2%E5%BF%A0%7C%E5%BC%B5%E7%81%AB%E6%9C%A8%7C%E5%BC%B5%E7%A7%80%E8%8F%AF%7C%E5%BC%B5%E7%B6%AD%E5%80%A9%7C%E5%BC%B5%E8%80%80%E4%B8%AD%7C%E5%BC%B5%E8%80%BF%E8%BC%9D%7C%E5%BC%B5%E8%8A%AC%E9%83%81%7C%E5%BC%B5%E9%8A%98%E7%A5%90%7C%E5%BC%B5%E9%8C%A6%E8%B1%AA%7C%E5%BC%B5%E9%9B%AA%E5%A6%82%7C%E5%BC%B5%E9%9D%9C&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 369214,
+    "sha256": "3e33998eb046c583fad17c6275b27a525897a666c04f2c1db119d91d4f5ce912",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_03.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E5%BD%AD%E4%B8%80%E6%9B%B8%7C%E5%BD%AD%E4%BD%B3%E8%8A%B8%7C%E5%BD%AD%E4%BF%8A%E8%B1%AA%7C%E5%BD%AD%E5%BB%BA%E8%8F%AF%7C%E5%BE%90%E5%8D%83%E6%99%B4%7C%E5%BE%90%E5%BC%98%E5%BA%AD%7C%E5%BE%90%E6%AC%A3%E7%91%A9%7C%E5%BE%90%E7%91%84%E7%81%83%7C%E5%BE%90%E7%AB%8B%E4%BF%A1%7C%E5%BE%90%E7%AD%B1%E8%8F%81%7C%E6%88%B4%E7%91%8B%E5%A7%8D%7C%E6%88%B4%E9%8C%AB%E6%AC%BD%7C%E6%96%B9%E4%BF%A1%E6%B7%B5%7C%E6%96%BD%E4%B9%83%E5%A6%82%7C%E6%96%BD%E5%81%89%E6%94%BF%7C%E6%96%BD%E5%BF%97%E6%98%8C%7C%E6%96%BD%E6%B7%91%E5%A9%B7%7C%E6%9B%B9%E5%98%89%E8%B1%AA%7C%E6%9B%B9%E7%88%BE%E5%85%83%7C%E6%9B%BE%E4%BF%8A%E5%82%91%7C%E6%9B%BE%E5%A8%81+%28%E5%8F%B0%E7%81%A3%29%7C%E6%9B%BE%E7%85%A5%E5%98%89%7C%E6%9B%BE%E7%8D%BB%E7%91%A9%7C%E6%9C%B1%E5%81%A5%E9%8A%98%7C%E6%9C%B1%E5%85%83%E5%AE%8F%7C%E6%9C%B1%E5%AE%9A%E7%91%80%7C%E6%9C%B1%E6%94%BF%E9%A8%8F%7C%E6%9C%B1%E6%9A%96%E8%8B%B1%7C%E6%9C%B1%E6%AD%A3%E8%BB%92%7C%E6%9C%B1%E7%8F%8D%E7%91%A4%7C%E6%9D%8E%E4%B8%96%E6%96%8C%7C%E6%9D%8E%E4%B8%AD+%28%E8%AD%B0%E5%93%A1%29%7C%E6%9D%8E%E4%BC%AF%E5%88%A9%7C%E6%9D%8E%E4%BD%99%E5%85%B8%7C%E6%9D%8E%E4%BD%B3%E8%93%89%7C%E6%9D%8E%E4%BD%B3%E8%B1%AA%7C%E6%9D%8E%E5%80%A9%E8%90%8D%7C%E6%9D%8E%E5%90%B3%E7%A9%8E%E6%99%BA%7C%E6%9D%8E%E5%93%B2%7C%E6%9D%8E%E5%96%AC%E5%A6%82&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 344196,
+    "sha256": "3d8f3370b761da0e79de1a83f57a3daf5e9062595aeabc2f84dcabea5d195fa8",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_04.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E6%9D%8E%E5%9B%9B%E5%B7%9D%7C%E6%9D%8E%E5%9C%8B%E7%92%8B+%28%E8%87%BA%E7%81%A3%29%7C%E6%9D%8E%E5%AE%87%E7%BF%94%7C%E6%9D%8E%E5%AE%97%E7%BF%B0+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E6%9D%8E%E5%AE%97%E8%B1%AA%7C%E6%9D%8E%E5%AE%97%E9%9C%96+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E6%9D%8E%E5%BF%A0%E7%A5%A5%7C%E6%9D%8E%E6%88%90%E6%BF%9F%7C%E6%9D%8E%E6%96%87+%281964%E5%B9%B4%29%7C%E6%9D%8E%E6%96%87%E4%BF%8A%7C%E6%9D%8E%E6%96%87%E5%82%91+%28%E5%8F%B0%E4%B8%AD%29%7C%E6%9D%8E%E6%96%87%E6%96%8C%7C%E6%9D%8E%E6%96%87%E8%89%AF%7C%E6%9D%8E%E6%98%86%E7%A9%8E%7C%E6%9D%8E%E6%98%8E%E7%92%87%7C%E6%9D%8E%E6%98%8E%E8%B3%A2%7C%E6%9D%8E%E6%9F%8F%E6%AF%85+%28%E8%87%BA%E5%8C%97%E5%B8%82%29%7C%E6%9D%8E%E6%B7%91%E8%8A%AC+%281957%E5%B9%B4%29%7C%E6%9D%8E%E6%B8%85%E8%81%96%7C%E6%9D%8E%E7%9C%89%E8%93%81%7C%E6%9D%8E%E7%BF%81%E6%9C%88%E5%A8%A5%7C%E6%9D%8E%E8%8A%B3%E5%84%92%7C%E6%9D%8E%E9%9B%85%E8%8A%AC%7C%E6%9D%8E%E9%9B%85%E9%9D%9C%7C%E6%9D%8E%E9%B4%BB%E5%BF%97%7C%E6%9D%9C%E6%96%87%E5%8D%BF%7C%E6%9E%97%E4%B8%96%E5%AE%97%7C%E6%9E%97%E4%B8%96%E8%B3%A2+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E6%9E%97%E4%BA%AE%E5%90%9B%7C%E6%9E%97%E4%BD%B3%E7%91%9C%7C%E6%9E%97%E4%BE%9D%E5%A9%B7+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E6%9E%97%E5%9C%8B%E6%98%A5%7C%E6%9E%97%E5%9C%8B%E6%BC%B3%7C%E6%9E%97%E5%A5%95%E8%BE%B0%7C%E6%9E%97%E5%AD%90%E5%AE%87%7C%E6%9E%97%E5%AD%9F%E4%BB%A4%7C%E6%9E%97%E5%AE%9C%E8%B1%8A%7C%E6%9E%97%E5%BB%B6%E9%B3%B3%7C%E6%9E%97%E5%BD%A5%E7%94%AB%7C%E6%9E%97%E5%BE%B7%E5%AE%87&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 371999,
+    "sha256": "755601e15a1bc0c70f15b72170f075be89c5c9ecc4dc5046ba92f4eaf2a444c4",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_05.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E6%9E%97%E5%BF%97%E5%B1%95%7C%E6%9E%97%E5%BF%97%E6%88%90%7C%E6%9E%97%E6%85%A7%E6%AC%A3%7C%E6%9E%97%E6%86%B6%E5%A6%82%7C%E6%9E%97%E6%94%BF%E8%B3%A2+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E6%9E%97%E6%96%BC%E5%87%B1%7C%E6%9E%97%E6%98%8E%E5%BE%B7%7C%E6%9E%97%E6%99%BA%E9%B4%BB%7C%E6%9E%97%E6%9D%8F%E5%85%92%7C%E6%9E%97%E6%9F%8F%E5%8B%9B%7C%E6%9E%97%E6%B1%9D%E6%B4%B2%7C%E6%9E%97%E7%87%95%E7%A5%9D%7C%E6%9E%97%E7%8F%8D%E7%BE%BD%7C%E6%9E%97%E7%90%AE%E7%BF%B0%7C%E6%9E%97%E7%9B%88%E5%BE%B9%7C%E6%9E%97%E7%A2%A7%E7%A7%80%7C%E6%9E%97%E7%A2%A9%E5%BD%A5%7C%E6%9E%97%E7%A5%88%E7%83%BD%7C%E6%9E%97%E7%A7%89%E5%AE%A5%7C%E6%9E%97%E7%AD%B1%E8%96%87%7C%E6%9E%97%E8%8C%82%E6%9D%BE%7C%E6%9E%97%E8%A3%94%E7%B6%BA%7C%E6%9E%97%E9%87%91%E7%B5%90%7C%E6%9E%97%E9%9C%88%E6%B6%B5%7C%E6%9F%AF%E5%BF%97%E6%81%A9%7C%E6%9F%B3%E6%B7%91%E8%8A%B3%7C%E6%9F%B3%E9%87%87%E8%91%B3%7C%E6%A2%81%E6%96%87%E9%9F%9C%7C%E6%A2%81%E7%82%BA%E8%B6%85%7C%E6%A5%8A%E5%85%B8%E5%BF%A0%7C%E6%A5%8A%E5%AD%90%E8%B3%A2%7C%E6%A5%8A%E5%AF%B6%E6%A5%A8%7C%E6%A5%8A%E6%98%A5%E5%A6%B9%7C%E6%A5%8A%E6%9C%9D%E5%81%89%7C%E6%A5%8A%E6%A4%8D%E6%96%97%7C%E6%A5%8A%E6%B8%85%E9%A0%86%7C%E6%A5%8A%E7%A7%80%E7%8E%89%7C%E6%A5%8A%E9%80%B2%E7%A6%8F%7C%E6%A5%8A%E9%89%AF%E5%A9%B7%7C%E6%AD%90%E9%99%BD%E9%9C%86&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 301485,
+    "sha256": "a391aac1ba3915dc086c6928b37a927203abc36498f2e5b0324f5d909a5ba848",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_06.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E6%AF%9B%E5%98%89%E6%85%B6%7C%E6%B1%9F%E5%86%A0%E5%A6%A4%7C%E6%B1%9F%E5%92%8C%E6%A8%B9%7C%E6%B1%9F%E5%95%9F%E8%87%A3%7C%E6%B1%9F%E6%98%8E%E5%AE%97%7C%E6%B1%9F%E7%86%8A%E4%B8%80%E6%A5%93%7C%E6%B1%9F%E7%91%9E%E9%B4%BB%7C%E6%B1%9F%E8%82%87%E5%9C%8B%7C%E6%B1%AA%E5%BF%97%E5%86%B0%7C%E6%B2%88%E4%BC%AF%E6%B4%8B%7C%E6%B2%88%E5%BF%97%E5%BC%98%7C%E6%B4%AA%E4%BD%B3%E5%90%9B%7C%E6%B4%AA%E5%81%A5%E7%9B%8A%7C%E6%B4%AA%E5%92%8C%E6%88%90%7C%E6%B4%AA%E5%A9%89%E8%87%BB%7C%E6%B4%AA%E5%AD%90%E8%B6%85%7C%E6%B4%AA%E5%BF%97%E5%82%91%7C%E6%B4%AA%E6%96%B9%E9%9A%86%7C%E6%B4%AA%E6%9D%91%E9%8A%98%7C%E6%B4%AA%E9%BA%97%E8%8F%AF%7C%E6%B8%A9%E4%B8%96%E6%94%BF%7C%E6%B8%B8%E6%B7%91%E6%85%A7%7C%E6%B8%B8%E6%B7%91%E8%B2%9E%7C%E6%B8%B8%E8%BC%9D%E5%AE%82%7C%E6%B9%AF%E8%A9%A0%E7%91%9C%7C%E6%BA%AB%E4%BF%8A%E5%8B%87%7C%E6%BA%AB%E8%8A%9D%E6%A8%BA%7C%E7%8E%8B%E5%9C%8B%E5%BF%A0%7C%E7%8E%8B%E5%A6%83%E5%A4%A9%E5%B4%A9%E9%96%8B%E5%B1%80%E7%A9%BF%E8%B6%8A%E6%95%B4%E9%A0%93%E9%9C%B8%E5%87%8C%E8%80%85%E4%BD%80%E5%BB%A3%E6%B4%8B%7C%E7%8E%8B%E5%A8%81%E5%85%83%7C%E7%8E%8B%E5%AD%9D%E7%B6%AD%7C%E7%8E%8B%E5%AE%B6%E8%B2%9E%7C%E7%8E%8B%E5%BF%97%E5%81%89%7C%E7%8E%8B%E5%BF%A0%E9%8A%98%7C%E7%8E%8B%E6%98%A5%E6%A2%85%7C%E7%8E%8B%E6%AC%A3%E5%84%80%7C%E7%8E%8B%E6%B5%A9+%28%E5%98%89%E7%BE%A9%E5%B8%82%E8%AD%B0%E5%93%A1%29%7C%E7%8E%8B%E7%AB%8B%E4%BB%BB%7C%E7%8E%8B%E7%BE%8E%E6%83%A0%7C%E7%8E%8B%E7%BE%A9%E6%88%90&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 322668,
+    "sha256": "d8a1a9e5fe030c90893fd552b19d0ff0734b1aa36a7b2283f1b01da39af2e9eb",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_07.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E7%8E%8B%E8%82%87%E6%B0%91%7C%E7%8E%8B%E9%96%94%E7%94%9F%7C%E7%94%98%E5%B4%87%E7%B7%AF%7C%E7%94%B0%E9%9B%85%E8%8A%B3%7C%E7%99%BD%E5%96%AC%E8%8C%B5%7C%E7%9B%A7%E6%96%87%E7%91%9E%7C%E7%A7%A6%E6%85%A7%E7%8F%A0%7C%E7%AB%A0%E6%AD%A3%E8%BC%9D%7C%E7%AB%A5%E5%AD%90%E7%91%8B%7C%E7%AB%A5%E5%B0%8F%E8%8A%B8%7C%E7%B0%A1%E5%8D%83%E7%BF%94%7C%E7%B0%A1%E7%85%A5%E5%AE%97%7C%E7%B0%A1%E8%88%92%E5%9F%B9%7C%E7%BE%85%E4%BD%A9%E7%A7%A6%7C%E7%BE%85%E5%A3%AB%E6%B4%8B%7C%E7%BE%85%E6%96%87%E5%B4%87%7C%E7%BE%85%E6%96%87%E6%AC%BD%7C%E7%BE%85%E7%BE%8E%E6%96%87%7C%E7%BE%85%E8%B2%B4%E6%98%9F%7C%E7%BF%81%E8%81%B0%E8%B3%A2%7C%E7%BF%81%E9%9C%87%E5%B7%9E%7C%E8%80%BF%E8%91%B3%7C%E8%88%92%E7%BF%A0%E7%8E%B2%7C%E8%8B%97%E5%8D%9A%E9%9B%85%7C%E8%8E%8A%E6%99%AF%E6%98%9F%7C%E8%8E%8A%E7%AB%B6%E7%A8%8B%7C%E8%91%89%E4%BA%BA%E6%96%87%7C%E8%91%89%E5%9C%8B%E6%96%87%7C%E8%91%89%E6%98%8E%E5%8D%9A%7C%E8%91%89%E6%9E%97%E5%82%B3%7C%E8%91%89%E7%AB%B9%E6%9E%97%7C%E8%91%A3%E6%A3%AE%E5%A0%A1%7C%E8%94%A1%E5%85%B6%E9%9B%8D%7C%E8%94%A1%E5%AD%9F%E7%9C%9F%7C%E8%94%A1%E6%83%A0%E5%A9%B7%7C%E8%94%A1%E6%94%BF%E5%AE%9C%7C%E8%94%A1%E6%98%8E%E6%B0%B4%7C%E8%94%A1%E6%98%93%E9%A4%98%7C%E8%94%A1%E6%B7%91%E5%90%9B%7C%E8%94%A1%E7%AD%B1%E8%96%87&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 389287,
+    "sha256": "ad2677fb41f5439dd31134000e904539060ef90113634fd473479eadc88ed260",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_08.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E8%94%A1%E8%80%80%E9%A0%A1%7C%E8%94%A1%E8%82%B2%E8%BC%9D%7C%E8%94%A1%E9%87%91%E6%99%8F%7C%E8%94%A1%E9%8A%98%E8%BB%92%7C%E8%94%A3%E6%9C%88%E6%83%A0%7C%E8%94%A3%E6%A0%B9%E7%85%8C%7C%E8%94%A3%E7%85%99%E7%87%88%7C%E8%94%A3%E8%90%AC%E5%AE%89%7C%E8%95%AD%E5%BF%97%E5%85%A8%7C%E8%95%AD%E6%96%87%E4%B9%BE%7C%E8%95%AD%E6%96%87%E9%9B%84%7C%E8%95%AD%E7%87%90%E6%B4%AA%7C%E8%95%AD%E8%A9%A0%E8%90%B1%7C%E8%95%AD%E9%9A%86%E6%BE%A4%7C%E8%96%9B%E5%91%88%E6%87%BF%7C%E8%97%8D%E5%87%B1%E5%85%83%7C%E8%98%87%E5%B7%A7%E6%85%A7%7C%E8%98%87%E6%98%AD%E9%BE%8D%7C%E8%98%87%E6%B3%93%E6%AC%BD%7C%E8%98%87%E6%B8%85%E6%B3%89%7C%E8%98%87%E8%82%B2%E5%BE%B7%7C%E8%98%87%E8%BC%9D%E6%B9%9F%7C%E8%A8%B1%E4%BF%AE%E7%9D%BF%7C%E8%A8%B1%E5%8E%9F%E9%BE%8D%7C%E8%A8%B1%E5%AE%B6%E7%9D%BF%7C%E8%A8%B1%E5%BF%97%E5%AE%8F%7C%E8%A8%B1%E6%99%BA%E5%AF%8C%7C%E8%A8%B1%E6%9C%88%E9%87%8C%7C%E8%A8%B1%E6%AB%BB%E8%90%8D%7C%E8%A8%B1%E6%B7%91%E8%8F%AF%7C%E8%A8%B1%E6%B7%91%E8%8F%AF+%28%E5%8F%B0%E5%8C%97%E5%B8%82%29%7C%E8%A8%B1%E7%8E%89%E4%BB%99%7C%E8%A8%B1%E7%94%AB%7C%E8%A8%B1%E7%AB%B9%E8%A6%8B%7C%E8%A8%B1%E9%87%87%E8%93%81%7C%E8%A9%B9%E6%B1%9F%E6%9D%91%7C%E8%A9%B9%E7%82%BA%E5%85%83%7C%E8%A9%B9%E7%90%AC%E6%83%A0%7C%E8%A9%B9%E7%90%AC%E8%93%81%7C%E8%AC%9D%E5%85%B8%E6%9E%97&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 402422,
+    "sha256": "a387971f21c6b9934e7ccd3d425cd5e931290592d71bdcc220d82f608ef40c9d",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_09.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E8%AC%9D%E5%9C%8B%E6%A8%91%7C%E8%AC%9D%E5%BF%97%E5%BF%A0%7C%E8%AC%9D%E7%A7%89%E8%88%9F%7C%E8%AC%9D%E7%BE%8E%E8%8B%B1%7C%E8%AC%9D%E9%BE%8D%E4%BB%8B%7C%E8%B3%B4%E6%9C%9D%E5%9C%8B%7C%E8%B3%B4%E7%87%95%E9%9B%AA%7C%E8%B3%B4%E7%91%9E%E9%9A%86%7C%E8%B3%B4%E7%BE%A9%E9%8D%A0%7C%E8%B3%B4%E8%8B%A1%E4%BB%BB%7C%E9%82%B1%E4%BF%8A%E6%86%B2%7C%E9%82%B1%E5%A5%95%E5%8B%9D%7C%E9%82%B1%E5%A9%B7%E8%94%9A%7C%E9%82%B1%E5%BB%BA%E5%AF%8C%7C%E9%82%B1%E6%84%9B%E7%8F%8A%7C%E9%82%B1%E6%96%BC%E7%8F%8A%7C%E9%82%B1%E6%96%BC%E8%BB%92%7C%E9%82%B1%E7%83%BD%E5%A0%AF%7C%E9%82%B1%E8%8E%89%E8%8E%89%7C%E9%82%B1%E9%9D%96%E9%9B%85%7C%E9%83%AD%E4%BD%A9%E7%91%84%7C%E9%83%AD%E4%BF%A1%E8%89%AF%7C%E9%83%AD%E5%BB%BA%E7%9B%9F%7C%E9%83%AD%E6%98%AD%E5%B7%96%7C%E9%83%AD%E7%92%BD%7C%E9%84%92%E6%98%8E%E8%AB%BA%7C%E9%84%A7%E5%87%B1%E5%8B%9B%7C%E9%84%AD%E4%BD%B3%E6%AC%A3%7C%E9%84%AD%E4%BF%8A%E9%9B%84%7C%E9%84%AD%E5%85%89%E5%B3%B0%7C%E9%84%AD%E5%AD%9F%E6%B4%B3%7C%E9%84%AD%E5%AE%87%E6%81%A9%7C%E9%84%AD%E5%AE%89%E7%A7%9D%7C%E9%84%AD%E5%AE%8F%E8%BC%9D%7C%E9%84%AD%E5%BF%97%E5%81%89%7C%E9%84%AD%E6%85%B6%E6%AC%BD%7C%E9%84%AD%E6%96%87%E5%A9%B7%7C%E9%84%AD%E6%9C%9D%E6%96%B9%7C%E9%84%AD%E6%B8%85%E7%99%BC%7C%E9%84%AD%E8%81%9A%E7%84%B6&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 364816,
+    "sha256": "4c6acf415c7b445546e1bd3202690166fa141671033a07e9f454ad7076e8dc54",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_10.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E9%87%91%E7%91%9E%E9%BE%8D%7C%E9%8C%A2%E5%BA%B7%E6%98%8E%7C%E9%8D%BE%E4%BD%A9%E7%8E%B2%7C%E9%8D%BE%E5%B0%8F%E5%B9%B3%7C%E9%8D%BE%E6%98%93%E4%BB%B2%7C%E9%8D%BE%E6%9D%B1%E9%8C%A6%7C%E9%8D%BE%E6%B2%9B%E5%90%9B%7C%E9%97%95%E6%9E%9A%E8%8E%8E%7C%E9%99%B3%E4%B8%96%E8%BB%92%7C%E9%99%B3%E4%B9%83%E7%91%9C%7C%E9%99%B3%E4%B9%99%E8%BE%B0%7C%E9%99%B3%E4%BA%AD%E5%A6%83%7C%E9%99%B3%E4%BD%A9%E7%9C%9F%7C%E9%99%B3%E4%BF%9E%E8%9E%8D%7C%E9%99%B3%E5%81%89%E5%82%91%7C%E9%99%B3%E5%84%80%E5%90%9B%7C%E9%99%B3%E5%85%81%E8%90%8D%7C%E9%99%B3%E5%85%89%E8%BB%92%7C%E9%99%B3%E5%86%A0%E5%AE%87+%28%E6%B6%88%E6%AD%A7%E7%BE%A9%29%7C%E9%99%B3%E5%86%A0%E5%AE%89%7C%E9%99%B3%E5%8F%88%E6%96%B0%7C%E9%99%B3%E5%93%81%E5%AE%89%7C%E9%99%B3%E5%95%93%E6%BA%90%7C%E9%99%B3%E5%AE%8F%E5%AE%97+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%99%B3%E5%AE%8F%E6%AF%85%7C%E9%99%B3%E5%AE%A5%E4%B8%9E%7C%E9%99%B3%E5%AE%B6%E5%B9%B3%7C%E9%99%B3%E5%B3%99%E7%A9%8E%7C%E9%99%B3%E5%BB%BA%E5%90%8D%7C%E9%99%B3%E5%BD%A5%E5%BB%B7+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%99%B3%E5%BF%97%E6%96%8C%7C%E9%99%B3%E6%80%A1%E5%90%9B+%28%E5%8F%B0%E7%81%A3%E6%B0%91%E7%9C%BE%E9%BB%A8%29%7C%E9%99%B3%E6%80%A1%E5%90%9B+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%99%B3%E6%80%A1%E6%BD%94%7C%E9%99%B3%E6%84%B7%E7%92%9C%7C%E9%99%B3%E6%85%88%E6%85%A7%7C%E9%99%B3%E6%85%A7%E6%96%87%7C%E9%99%B3%E6%8C%AF%E4%B8%AD%7C%E9%99%B3%E6%8F%9A%7C%E9%99%B3%E6%94%BF%E9%A1%AF&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 350373,
+    "sha256": "8adc1d91f156c222cc73015b01c16bd31d993430bdba1b50a49781663b4df664",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_11.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E9%99%B3%E6%96%87%E6%94%BF+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%99%B3%E6%98%86%E5%92%8C%7C%E9%99%B3%E6%98%8E%E7%BE%A9%7C%E9%99%B3%E6%B3%93%E7%B6%AD%7C%E9%99%B3%E6%B5%B7%E5%B1%B1+%281950%E5%B9%B4%29%7C%E9%99%B3%E6%B7%91%E8%8F%AF%7C%E9%99%B3%E7%82%B3%E7%94%AB%7C%E9%99%B3%E7%8E%89%E7%8F%8D%7C%E9%99%B3%E7%8E%89%E9%88%B4%7C%E9%99%B3%E7%91%A9%7C%E9%99%B3%E7%9B%A1%E5%B7%9D%7C%E9%99%B3%E7%A2%A7%E7%8E%89%7C%E9%99%B3%E7%A7%8B%E8%90%8D%7C%E9%99%B3%E7%AB%B9%E9%9F%B3%7C%E9%99%B3%E7%B4%A0%E6%9C%88%7C%E9%99%B3%E7%BE%8E%E9%9B%85%7C%E9%99%B3%E8%81%96%E6%96%87%7C%E9%99%B3%E8%8B%A5%E7%BF%A0%7C%E9%99%B3%E8%8C%82%E5%98%89%7C%E9%99%B3%E8%A9%A9%E5%BC%A6%7C%E9%99%B3%E8%B3%A2%E8%94%9A%7C%E9%99%B3%E9%87%8D%E5%98%89%7C%E9%99%B3%E9%87%8D%E6%96%87%7C%E9%99%B3%E9%87%91%E9%90%98%7C%E9%99%B3%E9%8C%A6%E7%A5%A5%7C%E9%99%B3%E9%8C%A6%E9%8C%A0%7C%E9%99%B3%E9%9B%85%E5%80%AB+%28%E5%8F%B0%E7%81%A3%29%7C%E9%99%B3%E9%9B%85%E6%83%A0%7C%E9%99%B3%E9%B3%B3%E6%A2%85%7C%E9%99%B3%E9%B4%BB%E6%BA%90%7C%E9%99%B3%E9%BA%97%E5%A8%9C+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%9B%B2%E7%BF%94%7C%E9%A1%8F%E7%BF%8E%E7%86%B9%7C%E9%A1%8F%E8%8B%A5%E8%8A%B3%7C%E9%A1%8F%E8%8E%89%E6%95%8F%7C%E9%A1%8F%E8%94%9A%E6%85%88%7C%E9%A6%AC%E9%83%81%E9%9B%AF%7C%E9%AB%98%E4%B9%83%E8%8A%B8%7C%E9%AB%98%E5%98%89%E7%91%9C%7C%E9%AB%98%E8%8F%AF%E9%A7%BF&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 285230,
+    "sha256": "2d1d0093e80a8b49b74481e3382f06dc44d49daf1a3af30f0155e0c5e94e5bb8",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_12.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E9%AB%98%E8%99%B9%E5%AE%89%7C%E9%AD%8F%E5%98%89%E8%B3%A2%7C%E9%AD%8F%E5%B9%B3%E6%94%BF%7C%E9%AD%8F%E7%AD%A0%7C%E9%AD%8F%E9%80%A0%E6%96%87%7C%E9%BB%83%E4%B8%96%E5%9C%98%7C%E9%BB%83%E4%B8%96%E6%9D%B0%7C%E9%BB%83%E4%BD%B3%E6%81%AC%7C%E9%BB%83%E5%95%9F%E5%BD%AC%7C%E9%BB%83%E5%95%9F%E8%B1%AA%7C%E9%BB%83%E5%AD%90%E5%A0%AF%7C%E9%BB%83%E5%AE%88%E9%81%94%7C%E9%BB%83%E5%AE%8F%E6%88%90%E5%8F%B0%E7%81%A3%E9%98%BF%E6%88%90%E4%B8%96%E7%95%8C%E5%81%89%E4%BA%BA%E8%B2%A1%E7%A5%9E%E7%B8%BD%E7%B5%B1%7C%E9%BB%83%E5%AE%9A%E5%92%8C%7C%E9%BB%83%E6%83%A0%E6%B1%9D%7C%E9%BB%83%E6%95%AC%E5%B9%B3%7C%E9%BB%83%E6%95%AC%E9%9B%85%7C%E9%BB%83%E6%96%87%E5%BF%97+%28%E5%8F%B0%E7%81%A3%29%7C%E9%BB%83%E6%96%87%E6%94%BF%7C%E9%BB%83%E6%96%87%E7%9B%8A%7C%E9%BB%83%E6%98%8E%E8%B3%A2%7C%E9%BB%83%E6%9F%8F%E9%9C%96%7C%E9%BB%83%E6%A1%82%E8%98%AD+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%BB%83%E6%A6%AE%E5%88%A9%7C%E9%BB%83%E6%B0%B8%E6%98%8C%7C%E9%BB%83%E6%B2%BB%E7%B6%AD%7C%E9%BB%83%E6%B7%91%E5%90%9B%7C%E9%BB%83%E7%80%9E%E7%91%A9%7C%E9%BB%83%E7%8E%89%E5%A6%82%7C%E9%BB%83%E7%93%8A%E6%85%A7%7C%E9%BB%83%E9%9C%B2%E6%85%A7%7C%E9%BB%83%E9%9F%BB%E6%B6%B5%7C%E9%BB%83%E9%A6%A8%E6%85%A7&format=json&formatversion=2",
+    "status": 429,
+    "bytes": 274,
+    "sha256": "67bf8f07b0f1d3846b0e9f02ca7014fe12230c8cb9a454973660e4f75ae5e60a",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/cna_mayors.html",
+    "url": "https://www.cna.com.tw/news/aipl/202610275002.aspx",
+    "status": 200,
+    "bytes": 187873,
+    "sha256": "fcd36b0a268615a7432afd5fc62d5aa384474a9316a8d20c3cacd3b5931fa100",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/ltn_mayors.html",
+    "url": "https://election.ltn.com.tw/2026/candidate",
+    "status": 200,
+    "bytes": 101482,
+    "sha256": "fed45ce07c92cc1ddb5b9b22cd77fabfa28c5b06402f82c74d6deec2e9b4f232",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/hong_registration.html",
+    "url": "https://www.kingtop.com.tw/detail.php?id=53488&type=gallery",
+    "status": 200,
+    "bytes": 70864,
+    "sha256": "44d7af81953a2dddb1b9207124caece7b27fb3090d0439278ed7b7c86fa8cfad",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/chiang_family.html",
+    "url": "https://www.cna.com.tw/news/aipl/201711010159.aspx",
+    "status": 200,
+    "bytes": 120998,
+    "sha256": "4f67b65d2a6369d677f8deb34f658a8bd1d510f96a0ca05ee5076be06c97df1f",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/ko_family.html",
+    "url": "https://news.tvbs.com.tw/politics/1871102",
+    "status": 200,
+    "bytes": 252685,
+    "sha256": "538b3c57bfaabecf47b20ccaeaf8958b3519ebfcb69f43a37f02f82933416b88",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_12_retry.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E9%AB%98%E8%99%B9%E5%AE%89%7C%E9%AD%8F%E5%98%89%E8%B3%A2%7C%E9%AD%8F%E5%B9%B3%E6%94%BF%7C%E9%AD%8F%E7%AD%A0%7C%E9%AD%8F%E9%80%A0%E6%96%87%7C%E9%BB%83%E4%B8%96%E5%9C%98%7C%E9%BB%83%E4%B8%96%E6%9D%B0%7C%E9%BB%83%E4%BD%B3%E6%81%AC%7C%E9%BB%83%E5%95%9F%E5%BD%AC%7C%E9%BB%83%E5%95%9F%E8%B1%AA%7C%E9%BB%83%E5%AD%90%E5%A0%AF%7C%E9%BB%83%E5%AE%88%E9%81%94%7C%E9%BB%83%E5%AE%8F%E6%88%90%E5%8F%B0%E7%81%A3%E9%98%BF%E6%88%90%E4%B8%96%E7%95%8C%E5%81%89%E4%BA%BA%E8%B2%A1%E7%A5%9E%E7%B8%BD%E7%B5%B1%7C%E9%BB%83%E5%AE%9A%E5%92%8C%7C%E9%BB%83%E6%83%A0%E6%B1%9D%7C%E9%BB%83%E6%95%AC%E5%B9%B3%7C%E9%BB%83%E6%95%AC%E9%9B%85%7C%E9%BB%83%E6%96%87%E5%BF%97+%28%E5%8F%B0%E7%81%A3%29%7C%E9%BB%83%E6%96%87%E6%94%BF%7C%E9%BB%83%E6%96%87%E7%9B%8A%7C%E9%BB%83%E6%98%8E%E8%B3%A2%7C%E9%BB%83%E6%9F%8F%E9%9C%96%7C%E9%BB%83%E6%A1%82%E8%98%AD+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%BB%83%E6%A6%AE%E5%88%A9%7C%E9%BB%83%E6%B0%B8%E6%98%8C%7C%E9%BB%83%E6%B2%BB%E7%B6%AD%7C%E9%BB%83%E6%B7%91%E5%90%9B%7C%E9%BB%83%E7%80%9E%E7%91%A9%7C%E9%BB%83%E7%8E%89%E5%A6%82%7C%E9%BB%83%E7%93%8A%E6%85%A7%7C%E9%BB%83%E9%9C%B2%E6%85%A7%7C%E9%BB%83%E9%9F%BB%E6%B6%B5%7C%E9%BB%83%E9%A6%A8%E6%85%A7&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 312548,
+    "sha256": "b28a665094ee255ddd432780819a606af7c41987df73c069bb09f806f7515cf5",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_rel_00.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E4%BD%80%E5%90%8C%E4%BC%BC%7C%E4%BD%95%E5%BF%97%E5%81%89%7C%E4%BD%95%E6%95%8F%E8%AA%A0%7C%E4%BD%95%E6%95%8F%E8%B1%AA%7C%E4%BD%95%E6%98%A5%E6%9C%A8%7C%E5%8A%89%E7%82%B3%E5%81%89%7C%E5%8A%89%E7%9B%9B%E8%89%AF%7C%E5%8A%89%E9%8C%A6%E6%98%8C%7C%E5%8A%89%E9%90%B5%E9%8C%9A%7C%E5%8E%B2%E8%80%BF%E6%A1%82%E8%8A%B3%7C%E5%90%B3%E4%BC%AF%E9%9B%84%7C%E5%90%B3%E5%81%A5%E4%BF%9D%7C%E5%90%B3%E5%BF%97%E6%8F%9A+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E5%90%B3%E8%89%AF%E6%B7%BB%7C%E5%90%B3%E9%A1%AF%E6%A3%AE%7C%E5%AE%8B%E5%9C%8B%E9%80%B2%7C%E5%BB%96%E6%9C%AC%E7%85%99%7C%E5%BC%B5%E5%BB%96%E8%B2%B4%E5%B0%88%7C%E5%BC%B5%E6%85%B6%E5%BF%A0%7C%E5%BC%B5%E6%99%BA%E5%80%AB%7C%E5%BC%B5%E6%A6%AE%E5%91%B3%7C%E5%BC%B5%E6%B6%B5%E9%9B%85%7C%E5%BC%B5%E6%B8%85%E5%A0%82%7C%E5%BC%B5%E6%BA%AB%E9%B7%B9%7C%E5%BC%B5%E7%91%9E%E5%B1%B1%7C%E5%BC%B5%E8%8C%82%E6%A5%A0%7C%E5%BC%B5%E9%8E%94%E9%BA%92%7C%E5%BC%B5%E9%BA%97%E5%96%84%7C%E5%BD%AD%E6%B7%BB%E5%AF%8C%7C%E5%BE%90%E4%B8%96%E5%8B%B3&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 439044,
+    "sha256": "20ca0556d1f69ca70ad2835462d445af15e3b7ad43be00ce973fb67956161ecb",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_rel_01.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E6%96%BD%E4%B8%96%E6%98%8E%7C%E6%9B%B9%E6%98%8E%E6%AD%A3%7C%E6%9B%BE%E6%9C%9D%E6%A6%AE%7C%E6%9B%BE%E8%94%A1%E7%BE%8E%E4%BD%90%7C%E6%9D%8E%E4%BB%81%E4%BA%BA%7C%E6%9D%8E%E6%95%96%7C%E6%9D%8E%E6%97%BB%E8%94%9A%7C%E6%9D%8E%E6%A6%AE%E9%B4%BB%7C%E6%9D%8E%E9%8A%80%E4%BE%86%7C%E6%9E%97%E4%BC%AF%E5%AF%A6%7C%E6%9E%97%E4%BC%AF%E8%B1%90%7C%E6%9E%97%E5%9C%8B%E6%88%90%7C%E6%9E%97%E5%A3%AB%E5%82%91+%28%E5%95%86%E4%BA%BA%29%7C%E6%9E%97%E5%A3%AB%E6%98%8C%7C%E6%9E%97%E5%BC%B5%E4%B9%85%E7%BE%8E%7C%E6%9E%97%E6%96%87%E7%94%B0%7C%E6%9E%97%E6%98%B6%E4%BD%90%7C%E6%9E%97%E6%B0%B8%E6%B3%B0%7C%E6%9F%AF%E6%96%87%E7%A6%8F%7C%E6%A5%8A%E9%9D%92%E7%9F%97%7C%E6%B1%9F%E6%98%A5%E7%94%B7%7C%E6%B1%9F%E6%98%AD%E5%84%80%7C%E6%B4%AA%E6%85%88%E5%BA%B8%7C%E6%B8%B8%E7%A5%A5%E8%80%80%7C%E6%B9%AF%E9%87%91%E5%85%A8%7C%E6%BA%AB%E5%9C%8B%E9%8A%98%7C%E7%8E%8B%E5%B0%9A%E5%8B%A4%7C%E7%8E%8B%E5%BF%A0%E9%8A%98+%28%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%29%7C%E7%8E%8B%E7%A7%8B%E5%86%AC%7C%E7%9B%A7%E5%A4%A9%E9%BA%9F&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 383173,
+    "sha256": "091348edaa1d102d1a969bfecb03eef80096c1ed15a73ffb1d1bdf5e96e83848",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_rel_02.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E7%9F%B3%E8%88%AB%E4%BA%98%7C%E7%AB%A5%E6%B0%B8%7C%E7%B0%A1%E8%82%87%E6%A3%9F%7C%E8%80%BF%E7%B9%BC%E6%96%87%7C%E8%90%AC%E7%BE%8E%E7%8E%B2%7C%E8%91%89%E6%98%8E%E8%B2%A1%7C%E8%94%A1%E5%95%9F%E8%8A%B3%7C%E8%94%A1%E6%B0%B8%E5%B8%B8%7C%E8%94%A3%E5%AD%9D%E5%9A%B4%7C%E8%95%AD%E7%BE%8E%E7%90%B4%7C%E8%96%9B%E5%87%8C%7C%E8%98%87%E4%B8%BB%E6%A6%AE%7C%E8%98%87%E6%9C%89%E4%BB%81%7C%E8%98%87%E8%B2%9E%E6%98%8C%7C%E8%A8%B1%E5%B4%91%E6%BA%90%7C%E8%AC%9D%E4%BF%AE%E5%B9%B3%7C%E8%AC%9D%E5%85%8B%E6%B4%8B%7C%E8%AC%9D%E6%B8%85%E9%9B%B2%7C%E8%AC%9D%E8%A1%A3%E9%B3%AF%7C%E8%AC%9D%E8%A8%80%E4%BF%A1%7C%E8%B0%A2%E6%96%B0%E9%9A%86%7C%E8%B3%B4%E6%B8%85%E5%BE%B7%7C%E8%B3%B4%E7%BE%8E%E6%83%A0%7C%E9%82%B1%E7%B4%A0%E8%B2%9E%7C%E9%82%B1%E9%80%A3%E8%BC%9D%7C%E9%83%AD%E7%92%BD+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%83%AD%E9%87%91%E7%99%BC%7C%E9%84%AD%E6%96%B0%E5%8A%A9%7C%E9%84%AD%E6%B0%B8%E9%87%91%7C%E9%84%AD%E6%B1%9D%E8%8A%AC&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 617847,
+    "sha256": "445cfa9e08bbd2d44939935b52f84560370fbbcf9b4ebcf8c4faad73fd0e5530",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_rel_03.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E9%8D%BE%E7%B4%B9%E5%92%8C%7C%E9%99%88%E6%89%AC+%281914%E5%B9%B4%29%7C%E9%99%88%E6%89%AC+%281963%E5%B9%B4%29%7C%E9%99%B3%E5%85%89%E5%BE%A9%7C%E9%99%B3%E5%8B%9D%E5%AE%8F%7C%E9%99%B3%E5%98%89%E4%BC%B6%7C%E9%99%B3%E5%BF%97%E8%AC%80%7C%E9%99%B3%E6%80%A1%E7%8F%8D%7C%E9%99%B3%E6%94%BF%E5%BF%A0%7C%E9%99%B3%E6%99%BA%E8%8F%A1%7C%E9%99%B3%E6%9D%B0+%28%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%29%7C%E9%99%B3%E7%8E%89%E6%A2%85+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%99%B3%E7%8E%89%E7%8F%8D+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%99%B3%E7%A2%A7%E5%B3%B0%7C%E9%99%B3%E9%87%8D%E5%85%89+%281913-1998%29%7C%E9%A1%8F%E5%AF%AC%E6%81%92%7C%E9%A1%8F%E6%B8%85%E6%A8%99%7C%E9%AB%98%E6%9B%B0%E5%BC%B7%7C%E9%AB%98%E8%8F%AF%E5%AE%8F%7C%E9%BB%83%E5%BF%97%E9%9B%84&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 241339,
+    "sha256": "c96cf739d580b9209f2a7a60e564fe5d74a0fe2163f289193d6becd7eb9d64c9",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/chiang_ly_2016.html",
+    "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=1902",
+    "status": 200,
+    "bytes": 161744,
+    "sha256": "c1f627818b68227023362960c7855d5a6d18289750d813334b907a68b85c1378",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/kinship_mohw.html",
+    "url": "https://dep.mohw.gov.tw/DOPs/cp-1160-6411-105.html",
+    "status": 200,
+    "bytes": 24296,
+    "sha256": "97fbdef9cf7a5451521d2908a9280c13157267965be59d3922996d9b10e58b8d",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/ho_family_news.html",
+    "url": "https://www.knews.com.tw/news/7888AEFF180E33CB34889F5584F660D3",
+    "status": 200,
+    "bytes": 228452,
+    "sha256": "7b76d4d08bb7224e0bf72c47e5f7e2a142c970896b4b3122d708d7ef86de4ffd",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/chou_family_news.html",
+    "url": "https://news.tvbs.com.tw/politics/1837298",
+    "status": 200,
+    "bytes": 248064,
+    "sha256": "8237ee0ed114b29e383a87cd64ac969a463c0b55edbe4662cc9a1ac8797f5988",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wei_prior_election.html",
+    "url": "https://www.mirrormedia.mg/story/20260417inv002",
+    "status": 200,
+    "bytes": 128782,
+    "sha256": "f55e9f1667d62c16e8c7eae68d9f4380ed473a5d5b2fc01e9efb176acc26260d",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_mayor_election_links.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=parse&page=2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89&prop=text&format=json",
+    "status": 200,
+    "bytes": 531315,
+    "sha256": "ea50553bd3025f0bd8a6eb68c6651de0d91bb13b1b4d467b5008c0986751bf8f",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/wiki_batch_mayor_aliases.json",
+    "url": "https://zh.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&redirects=1&titles=%E4%BD%95%E5%BF%97%E5%8B%87+%281980%E5%B9%B4%29%7C%E5%8A%89%E5%BB%BA%E5%9C%8B+%28%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E5%90%B3%E5%AE%97%E6%86%B2+%281971%E5%B9%B4%29%7C%E5%A4%A7%E7%BD%B7%E5%85%8D%E6%8A%95%E7%A5%A8%E5%88%97%E8%A1%A8%7C%E5%BC%B5%E5%B3%BB+%28%E8%87%BA%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E6%A2%81%E6%96%87%E9%9F%9C+%28%E6%95%99%E6%8E%88%29%7C%E8%A8%B1%E6%B7%91%E8%8F%AF+%281975%E5%B9%B4%29%7C%E8%AC%9D%E5%9C%8B%E6%A8%91%E7%BD%B7%E5%85%8D%E6%A1%88%7C%E9%99%B3%E6%8C%AF%E4%B8%AD+%28%E6%BE%8E%E6%B9%96%29%7C%E9%99%B3%E7%8E%89%E7%8F%8D+%28%E9%87%91%E9%96%80%29%7C%E9%99%B3%E7%91%A9+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29%7C%E9%BB%83%E4%B8%96%E6%9D%B0+%28%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9%29&format=json&formatversion=2",
+    "status": 200,
+    "bytes": 366539,
+    "sha256": "fa1466cadacd35ed801a720385516919ed1b2106d40688e910d4221bed823d61",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_3da14f328d28.html",
+    "url": "https://blog.udn.com/fude/192576802",
+    "status": 403,
+    "bytes": 384,
+    "sha256": "5c1abb97d8fe76d8f2125d4de6bdfcee980913ea38c0967c885ff7b01132cac5",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_2edc0e40df37.html",
+    "url": "https://money.udn.com/money/story/5635/9306964",
+    "status": 200,
+    "bytes": 252147,
+    "sha256": "03762198b6d7ac29df15fe93638e6eb3ade2c7ffc674d9fb6905933861d76b8f",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_549e3652d7c4.html",
+    "url": "https://n.yam.com/Article/20260903250763",
+    "status": 200,
+    "bytes": 42204,
+    "sha256": "7f00a2818d95bcd98d9db66816457a8319f0eb3b4394e6de7fceb5f1330cee2b",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_e90bdc25de7d.html",
+    "url": "https://news.nextapple.com/politics/20260401/AEA4DE7B87150E5B70B5EBA809116B16",
+    "status": 200,
+    "bytes": 121140,
+    "sha256": "e2a913d82c8849cee5c76d7b480af8afa1c380a380605263733fe54f205d646f",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_f0d67d34c94c.html",
+    "url": "https://news.tvbs.com.tw/politics/4009743",
+    "status": 200,
+    "bytes": 238641,
+    "sha256": "61bbfede05e25d29a2dde16c1357f0e17430442701459e57c5af04e854588bf4",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_83791d2524e5.html",
+    "url": "https://news.tvbs.com.tw/politics/4035464",
+    "status": 200,
+    "bytes": 252081,
+    "sha256": "070aa9cbb63d10fc29de0b680551fb7fd3675581eb021f1e97372df8c0610376",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_929ef81f93f7.html",
+    "url": "https://newtalk.tw/news/view/2026-08-31/1056771",
+    "status": 200,
+    "bytes": 188248,
+    "sha256": "42a1d236a948d54b7a99cb4e81b8bff0d26d91721940b745724a0c5063ad25fe",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_5dbcc4ab7ee3.html",
+    "url": "https://newtalk.tw/news/view/2026-09-02/1057224",
+    "status": 200,
+    "bytes": 198968,
+    "sha256": "38fe3ea3122ba4c6e14600b20a82b32c31b1dad9911f27953b9db32a2cf11c8b",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_70699a479d5e.html",
+    "url": "https://org-today.line-apps.com/tw/v3/article/EXrN3VY",
+    "status": 200,
+    "bytes": 261904,
+    "sha256": "43ce9d945f0297c353d01b7659d0c647f5decfcfbd0ad6ba5fc3a90ef9defb9c",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_9bb371fb1ff2.html",
+    "url": "https://taiwanreports.com/archives/967894",
+    "status": 200,
+    "bytes": 96273,
+    "sha256": "7951511ce677952d3d617a6993e920014a2ffd074edfdd27aa4ce9250c283a0e",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_56603dab5d40.html",
+    "url": "https://tw.news.yahoo.com/%E4%B8%AD%E5%B8%828%E4%BD%8D%E6%B0%91%E9%80%B2%E9%BB%A8%E8%8B%B1%E7%B3%BB%E8%AD%B0%E5%93%A1%E8%88%87%E8%AD%B0%E5%93%A1%E5%8F%83%E9%81%B8%E4%BA%BA%E5%AE%8C%E6%88%90%E7%99%BB%E8%A8%98%E5%8F%83%E9%81%B8%E8%AD%B0%E5%93%A1-081925837.html",
+    "status": 200,
+    "bytes": 682300,
+    "sha256": "25c84cf03c6b4d7cb72b39ff9d310cb9c67b01a681fe63ac77444c818d7e5947",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_573443ee7d75.html",
+    "url": "https://tw.news.yahoo.com/%E5%98%89%E5%B8%82%E8%A5%BF%E5%8D%80%E8%AD%B0%E5%93%A121%E6%90%B613-%E9%81%B8%E6%88%B0%E7%99%BD%E7%86%B1%E5%8C%96-201000383.html",
+    "status": 200,
+    "bytes": 686554,
+    "sha256": "4a5e7c1efdaae3e5b7a4035d5693480d0b8f81f9b636c32db2578a90ae13ad50",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_3e73e7f5aaa9.html",
+    "url": "https://tw.news.yahoo.com/%E5%A4%9A%E4%BA%BA%E4%BA%A4%E6%A3%92-%E5%98%89%E7%B8%A3%E7%AC%AC%E5%9B%9B%E9%81%B8%E5%8D%80%E5%A4%A7%E6%8F%9B%E8%A1%80-201000310.html",
+    "status": 200,
+    "bytes": 682688,
+    "sha256": "f019a29bf704d80a4bdb24d743583ea3cdb35ee002b5277356c61df7bfe69d4f",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_faf2beccd7d0.html",
+    "url": "https://tw.news.yahoo.com/%E5%A4%9A%E4%BD%8D%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E5%93%A1%E5%8F%83%E9%81%B8%E4%BA%BA%E7%AB%B6%E7%B8%BD%E6%88%90%E7%AB%8B-%E7%B8%A3%E9%95%B7%E5%8F%83%E9%81%B8%E4%BA%BA%E8%B6%95%E5%A0%B4-064713083.html",
+    "status": 200,
+    "bytes": 689392,
+    "sha256": "7a9c247ae0ea0c32e7b2ce26d01fec35e5e95477aeca8c5ff54c54c5a03a7f3e",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_adc8912bcdc9.html",
+    "url": "https://tw.news.yahoo.com/%E5%A4%9C%E5%B8%82%E5%9B%A1%E4%BB%94%E6%9E%97%E5%A3%AB%E5%87%B1%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AB%B6%E7%B8%BD%E6%88%90%E7%AB%8B-%E5%A4%A7%E5%92%96%E9%BD%8A%E5%8A%9B%E6%8C%BA-%E6%9C%80%E6%9C%89%E7%B6%93%E9%A9%97%E7%9A%84%E6%96%B0%E4%BA%BA-074432464.html",
+    "status": 200,
+    "bytes": 690567,
+    "sha256": "9f72c7e0c19119b4a9e3f91ded61e103110bacf15ab7dc9d6eb673c10bda5010",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_eddf7fdde4a7.html",
+    "url": "https://tw.news.yahoo.com/%E6%B0%91%E9%80%B2%E9%BB%A8%E5%90%B3%E6%98%87%E7%BF%B0%E9%81%8E%E5%88%9D%E9%81%B8-%E5%9C%9F%E6%A8%B9%E4%B8%89%E9%B6%AF%E6%96%B0%E4%BA%BA%E5%87%BA%E7%B7%9A%E6%8B%9A%E8%AD%B0%E6%9C%83-050930476.html",
+    "status": 200,
+    "bytes": 682970,
+    "sha256": "57ccddc4a8d36fe2c0de0364b5849cde4d809c7459661450ebdf37b003a0df9c",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_74a70d103e93.html",
+    "url": "https://tw.news.yahoo.com/%E6%B1%9F%E5%95%9F%E8%87%A3-%E8%A8%B1%E8%82%B2%E7%92%BF%E8%81%AF%E5%90%88%E7%AB%B6%E7%B8%BD%E6%88%90%E7%AB%8B-%E5%8F%B0%E4%B8%AD%E8%97%8D%E7%87%9F%E7%AB%8B%E5%A7%94%E5%85%A8%E5%93%A1%E5%88%B0%E9%BD%8A%E6%94%AF%E6%8C%81188-061129942.html",
+    "status": 200,
+    "bytes": 686756,
+    "sha256": "0534b3a078e4a5c5a1bfb0e0642e04869ca67282e175023635809eeebb3c7643",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_5906b0303b3d.html",
+    "url": "https://udn.com/news/amp/story/124652/9283631",
+    "status": 200,
+    "bytes": 51030,
+    "sha256": "b7cbe9d77b0b781c6e9ff73baa880579299cdefc34ac462989eb01f15a0b97df",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_129a7a058bbb.html",
+    "url": "https://udn.com/news/amp/story/124652/9736377?from=udnamp-relatednews_ch2artbottom",
+    "status": 200,
+    "bytes": 52715,
+    "sha256": "a810722e7d7fdb4fe907b201d04f70267bc9c55f9c584c0847c22e5ee6997d88",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_b66a6d5d2162.html",
+    "url": "https://udn.com/news/story/124652/9465031?from=udn_ch2_menu_v2_main_index",
+    "status": 200,
+    "bytes": 192813,
+    "sha256": "318e9dcc5e7c6e70fe9801b2f66c3c9f6972225237a38f2eba6ec359671f4be4",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_b0d55f6e3968.html",
+    "url": "https://udn.com/news/story/124652/9597395",
+    "status": 200,
+    "bytes": 187975,
+    "sha256": "f23ec9e3dc2f536593bc1e4b702febe9a1624a29bb2fb1bf547eaac017084653",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_7acc36bc1a9f.html",
+    "url": "https://udn.com/news/story/124652/9730479",
+    "status": 200,
+    "bytes": 198655,
+    "sha256": "728e16815da35002f6cc94fd994544edff2ac8a459d356d1c3b2550f849fa864",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_a003adc29fc4.html",
+    "url": "https://udn.com/news/story/7327/9565466",
+    "status": 200,
+    "bytes": 188489,
+    "sha256": "ef88896c0f6d739e6170c7c932511583956501641938c0f5bfc31e296d5961a9",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_fb479b4d2815.html",
+    "url": "https://udn.com/vote2026/story/124652/9521613",
+    "status": 200,
+    "bytes": 66215,
+    "sha256": "bd51a7758301d6126372f5355949b897ca434f80f02a659dbaad38976865c6c7",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_f51ca3802511.html",
+    "url": "https://udn.com/vote2026/story/124652/9550834",
+    "status": 200,
+    "bytes": 67969,
+    "sha256": "f80bd87e16d5ea1f4a2973bd763f25c25d9a349ff105ea1dc932e2012f84563c",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_8099e6fbb6fb.html",
+    "url": "https://udn.com/vote2026/story/124652/9734975",
+    "status": 200,
+    "bytes": 67289,
+    "sha256": "f33f1404d84eb6d05006f0e24b9d93aba8880e980b4c6937b06378bacea21f93",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_eb9f5a1be1a3.html",
+    "url": "https://video.udn.com/news/1318889",
+    "status": 200,
+    "bytes": 43146,
+    "sha256": "3bb41317ac27886fb535f47c1ac7fbf60eab07f7887166a6afbc71d430e9a282",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_127742c6e4da.html",
+    "url": "https://www.2241626.com/20260227/13402.html",
+    "status": 200,
+    "bytes": 1239840,
+    "sha256": "01f9541598d2abee04ed7750eff08ff593781513364b4c3022697af649eb4c73",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_5d9f5a6b21eb.html",
+    "url": "https://www.beigan.gov.tw/Chhtml/Detail/2219?mcid=113322",
+    "status": 200,
+    "bytes": 60790,
+    "sha256": "2c4cd4c022fd467515cb2e67adf6913072fa4b6bfd5991eb8b3e63a476529639",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_b1f8d7cbadf3.html",
+    "url": "https://www.bo6s.com.tw/news_detail.php?NewsID=104737",
+    "status": 200,
+    "bytes": 21262,
+    "sha256": "c4eff0cd65c0812f11ac27a775dbf86cedf7d28296fbcc2f005c50bdf8e2617b",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_e857413d942c.html",
+    "url": "https://www.cna.com.tw/news/aloc/202609190043.aspx",
+    "status": 200,
+    "bytes": 139005,
+    "sha256": "edb69406903fc03b8e266c01dde5cff8da5735eeca8a4e0226279643059a8353",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_31a6fd8ee03f.html",
+    "url": "https://www.ftvnews.com.tw/news/detail/2026908N07M1",
+    "status": 403,
+    "bytes": 5513,
+    "sha256": "27eef13bc8d7b09134a0874fe19c15d1a6f877ec8b2e28bc8796629479ab17d6",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_4b8f1ea0dd27.html",
+    "url": "https://www.kingtop.com.tw/detail.php?id=53405&keyword=2026&type=search",
+    "status": 200,
+    "bytes": 73991,
+    "sha256": "517c20d3558646f8c55a17ae894604e4e23ebd77b5286f38bc30b86fa87ad08f",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_0acb3c8db17c.html",
+    "url": "https://www.lishin.taipei/",
+    "status": 200,
+    "bytes": 373799,
+    "sha256": "b1009c83c4150d5543e00f1632521a40a40bd081a33b348c6106584db4763172",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_d1d48715956b.html",
+    "url": "https://www.mirrormedia.mg/story/amp/20260903edi057",
+    "status": 200,
+    "bytes": 57908,
+    "sha256": "2207d9b6ccc3d97726a69ba85c6c3ffd9c3509be1eaa836c6c962f78199d2aa0",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_e44be8955853.html",
+    "url": "https://www.nownews.com/news/6788001",
+    "status": 200,
+    "bytes": 104860,
+    "sha256": "e90ac16c548999ea5e70213713c32500df1e6f20a2f420b9792ec5bd89073f44",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_92972e882837.html",
+    "url": "https://www.taisounds.com/news/content/70/236723",
+    "status": 200,
+    "bytes": 50841,
+    "sha256": "78c31a7e59118f8f9e524ac6e1eae02df5c27aa5da332250309c4dac2b6c8b11",
+    "captured_date": "2026-11-04"
+  },
+  {
+    "path": "data/raw/g1_g6_20261103/first_time_7406e4a77877.html",
+    "url": "https://www.taiwanradio.com.tw/ec99/rwd1638/product.asp?prodid=113-115-663",
+    "status": 200,
+    "bytes": 48262,
+    "sha256": "a28ad60d0d99b5a10a6bd1607dec0748f99d061daf60ceec62f5676c21f1f6f5",
+    "captured_date": "2026-11-04"
+  }
+]

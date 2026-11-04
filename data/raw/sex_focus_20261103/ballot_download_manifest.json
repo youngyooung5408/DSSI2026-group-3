@@ -1,0 +1,58 @@
+[
+  {
+    "path": "data/raw/sex_focus_20261103/nantou_ballot.html",
+    "url": "https://news.pchome.com.tw/public/taiwanhot/20261027/index-79308834915760221016.html",
+    "status": 200,
+    "bytes": 157091,
+    "sha256": "4ff16dda2f730cf189bb6556950a3984c6c006fae0d1fe16d90760d787e44ea9",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/pingtung_ballot.html",
+    "url": "https://udn.com/vote2026/story/7327/9840381",
+    "status": 200,
+    "bytes": 70214,
+    "sha256": "e5e850f323c61c0e6ddb3a6f48e8e50e872508155589377d42ed2fa637fb4083",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/kinmen_ballot.html",
+    "url": "https://n.yam.com/Article/20261023139419",
+    "status": 200,
+    "bytes": 39166,
+    "sha256": "df240be0b12a9832126430055105b73bda976f199942e00ce73e32f175b19e72",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/tainan_ballot.html",
+    "url": "https://msntw.com/40964/",
+    "status": 200,
+    "bytes": 103084,
+    "sha256": "5dbdef50b17563307dba4a37ef8059425eb855db0f7bf84e84e7116a25da7049",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/chiayi_registration_sex.html",
+    "url": "https://www.tcpttw.com/other/other_local/2026/09/04/307178/",
+    "status": 200,
+    "bytes": 168546,
+    "sha256": "b3013c300ee03871d47af933e600c825071971e5fcb169346041aedddce5fd42",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/hualien_jiang_ballot.html",
+    "url": "https://www.hsnews.com.tw/political-news/hua-lian-xian-yi-yuan-chou-qian-jiang-yue-chen-chou-zhong12hao-yi-shi-cong-zheng-pan-xing-fu-han-chu-12wan-fen-cheng-xin-12wan-fen-nu-li.html",
+    "status": 403,
+    "bytes": 5947,
+    "sha256": "e1db4398ddff790bfe62f82fd94102821fcfb298f83ceffc0eaea26e7ad587f5",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/yunlin_ballot.html",
+    "url": "https://legislator-background.pages.dev/elections/",
+    "status": 200,
+    "bytes": 609422,
+    "sha256": "abadd57c287455a8b0c259b76923d66f3bd29fc9f812693ac84744807d7e8480",
+    "captured_date": "2026-11-03"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第1選舉區|吳仁祥",
+    "candidate_name": "吳仁祥",
+    "source_file": "data/raw/cec_all_offices/103_elcand.csv",
+    "source_locator": "CSV row 3148",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "吳仁祥"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第1選舉區|莊國輝",
+    "candidate_name": "莊國輝",
+    "source_file": "data/raw/cec_all_offices/103_elcand.csv",
+    "source_locator": "CSV row 3152",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "莊國輝"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第3選舉區|宋萬富",
+    "candidate_name": "宋萬富",
+    "source_file": "data/raw/cec_all_offices/101_elcand.csv",
+    "source_locator": "CSV row 481",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "宋萬富"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第4選舉區|李家萱",
+    "candidate_name": "李家萱",
+    "source_file": "data/raw/cec_all_offices/103_elcand.csv",
+    "source_locator": "CSV row 3202",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "李家萱"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹市第5選舉區|蔡志堅",
+    "candidate_name": "蔡志堅",
+    "source_file": "data/raw/cec_all_offices/112_elcand.csv",
+    "source_locator": "CSV row 6425",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "蔡志堅"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|宜蘭縣第9選舉區|曾茂照",
+    "candidate_name": "曾茂照",
+    "source_file": "data/raw/cec_all_offices/103_elcand.csv",
+    "source_locator": "CSV row 291",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "曾茂照"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|宜蘭縣第10選舉區|黃士駿",
+    "candidate_name": "黃士駿",
+    "source_file": "data/raw/cec_all_offices/103_elcand.csv",
+    "source_locator": "CSV row 157",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "黃士駿"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|花蓮縣第4選舉區|吳新文",
+    "candidate_name": "吳新文",
+    "source_file": "data/raw/cec_all_offices/103_elcand.csv",
+    "source_locator": "CSV row 3014",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "吳新文"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|澎湖縣第2選舉區|李麗美",
+    "candidate_name": "李麗美",
+    "source_file": "data/raw/cec_all_offices/103_elcand.csv",
+    "source_locator": "CSV row 3167",
+    "evidence": "2022其他民選公職候選名冊；沿用已核對的政府職務／地區身分連結",
+    "assert_tokens": [
+      "李麗美"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃裕庭",
+    "candidate_name": "黃裕庭",
+    "source_file": "data/raw/cec_all_offices/112_elcand.csv",
+    "source_locator": "CSV row 8012",
+    "evidence": "2022仁政里里長候選名冊；此前由當屆人物頁與地域支持身分連結",
+    "assert_tokens": [
+      "黃裕庭"
+    ],
+    "source_tier": "official_historical_row_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第13選舉區|林啟明",
+    "candidate_name": "林啟明",
+    "source_file": "data/raw/social_followup_round6_20261019/dd2a14a1b62b3140824a.html",
+    "source_locator": "人物頁過往民選職務／參選段落",
+    "evidence": "有過往民選公職參選／任職原文：2018 新北市烏來區區民代表候選人",
+    "assert_tokens": [
+      "林啟明",
+      "2018"
+    ],
+    "source_tier": "government_or_candidate_profile_text_rechecked",
+    "prior_year": "2018"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|新北市第12選舉區|吳建智咖啡哥",
+    "candidate_name": "吳建智咖啡哥",
+    "source_file": "data/raw/social_followup_round6_20261019/ce6069c72177c68a288f.html",
+    "source_locator": "人物頁過往民選職務／參選段落",
+    "evidence": "有過往民選公職參選／任職原文：2024 平地原住民立法委員候選人",
+    "assert_tokens": [
+      "吳建智",
+      "2024"
+    ],
+    "source_tier": "government_or_candidate_profile_text_rechecked",
+    "prior_year": "2024"
+  },
+  {
+    "candidate_key": "2026|縣市議員|連江縣第4選舉區|林德建",
+    "candidate_name": "林德建",
+    "source_file": "data/raw/career_expansion_20261019/0f6cb8fb7434f0306954.source",
+    "source_locator": "人物頁過往民選職務／參選段落",
+    "evidence": "有過往民選公職參選／任職原文：東引鄉代會第8屆主席",
+    "assert_tokens": [
+      "林德建",
+      "第8屆"
+    ],
+    "source_tier": "government_or_candidate_profile_text_rechecked",
+    "prior_year": ""
+  },
+  {
+    "candidate_key": "2026-C2-029",
+    "candidate_name": "陳重嘉",
+    "source_file": "data/raw/sex_verification/chen_zhongjia_retry.html",
+    "source_locator": "人物頁過往民選職務／參選段落",
+    "evidence": "官方頁明載第17、18、19屆縣議員；非首次任何民選公職；不推定首次縣市長",
+    "assert_tokens": [
+      "陳重嘉",
+      "第17"
+    ],
+    "source_tier": "government_or_candidate_profile_text_rechecked",
+    "prior_year": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|謝閔弘",
+    "candidate_name": "謝閔弘",
+    "source_file": "data/raw/round3_20261019/50b22ce8b7a3e6fd7409.source",
+    "source_locator": ".cv-biocard 經歷",
+    "evidence": "2022 臺北市北投區裕民里里長候選人",
+    "assert_tokens": [
+      "謝閔弘",
+      "2022"
+    ],
+    "source_tier": "candidate_declared_prior_election_text_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|縣市議員|新竹縣第9選舉區|林裙靜",
+    "candidate_name": "林裙靜",
+    "source_file": "data/raw/round3_20261019/8440879f441d5ceebbad.source",
+    "source_locator": ".cv-biocard 經歷",
+    "evidence": "2022 竹東鎮第四選區鎮民代表參選人",
+    "assert_tokens": [
+      "林裙靜",
+      "2022"
+    ],
+    "source_tier": "candidate_declared_prior_election_text_rechecked",
+    "prior_year": "2022"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|于仙玲",
+    "candidate_name": "于仙玲",
+    "source_file": "data/raw/round3_20261019/6d70f296f13d0d4fc261.source",
+    "source_locator": ".cv-biocard 經歷",
+    "evidence": "2018、2022年小民參政歐巴桑聯盟黨前鎮小港區市議員候選人",
+    "assert_tokens": [
+      "于仙玲",
+      "2022"
+    ],
+    "source_tier": "candidate_declared_prior_election_text_rechecked",
+    "prior_year": "2018"
+  },
+  {
+    "candidate_key": "2026-C1-002",
+    "candidate_name": "沈伯洋",
+    "source_file": "data/raw/candidate_profiles_20261017/46775.html",
+    "source_locator": "立法院第11屆人物頁",
+    "evidence": "第11屆不分區立法委員（2024），屬曾參選任何民選公職；並非首次選臺北市長變數",
+    "assert_tokens": [
+      "沈伯洋",
+      "第11屆"
+    ],
+    "source_tier": "official_profile_saved_text_rechecked",
+    "prior_year": "2024"
+  },
+  {
+    "candidate_key": "2026-C1-003",
+    "candidate_name": "蕭文乾",
+    "source_file": "data/raw/cec_2024_party_list_bulletin.pages.json",
+    "source_locator": "PDF page 9; preserved text extraction",
+    "evidence": "2024不分區立委選舉公報候選人；非僅開政治獻金專戶",
+    "assert_tokens": [
+      "蕭文乾"
+    ],
+    "source_tier": "official_bulletin_saved_text_rechecked",
+    "prior_year": "2024"
+  },
+  {
+    "candidate_key": "2026-C1-019",
+    "candidate_name": "張靜",
+    "source_file": "data/raw/cec_2024_party_list_bulletin.pages.json",
+    "source_locator": "PDF page 11; preserved text extraction",
+    "evidence": "2024不分區立委選舉公報候選人；非僅開政治獻金專戶",
+    "assert_tokens": [
+      "張靜"
+    ],
+    "source_tier": "official_bulletin_saved_text_rechecked",
+    "prior_year": "2024"
+  }
+]

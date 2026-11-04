@@ -1,0 +1,8 @@
+{
+  "path": "data/raw/sex_focus_20261103/wiki_old_rendered.json",
+  "url": "https://zh.wikipedia.org/w/api.php?action=parse&oldid=94459742&prop=text&format=json",
+  "status": 200,
+  "bytes": 2313948,
+  "sha256": "5c0ec3bad89c9473ef54a4fae2b85397cf8f2bbda8037a9438b83cde732450f9",
+  "captured_date": "2026-11-03"
+}

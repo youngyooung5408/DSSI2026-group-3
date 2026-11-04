@@ -1,0 +1,18 @@
+[
+  {
+    "path": "data/raw/sex_focus_20261103/zhang_official_sex_2022.pdf",
+    "url": "https://web.cec.gov.tw/api/file/8b641363-544d-4b7c-9624-d762d1871ea0.pdf",
+    "status": 200,
+    "bytes": 92445,
+    "sha256": "1c81334ec60bd537b3e452267d15107289be39b37711ab02f4a13dd2f29d4b97",
+    "captured_date": "2026-11-03"
+  },
+  {
+    "path": "data/raw/sex_focus_20261103/wang_media.html",
+    "url": "https://www.tcpttw.com/other/other_industrial/2026/09/06/307503/",
+    "status": 200,
+    "bytes": 168457,
+    "sha256": "c91bca0604c2c76a90c497c89d16f67d4348a84381591cd453bd4bb3a6ad15d0",
+    "captured_date": "2026-11-03"
+  }
+]
