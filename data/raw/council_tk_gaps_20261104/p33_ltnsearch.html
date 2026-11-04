@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155817';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>馬郁雯 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="馬郁雯 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="馬郁雯 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="馬郁雯" />
+<meta name="news_keywords" itemprop="keywords" content="馬郁雯" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:58:17--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="馬郁雯" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=馬郁雯&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 353 項結果 (搜尋時間：0.169 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "馬郁雯", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625200" data-desc="P:0:勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B" class="ph" title="勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B">
+                <img class="lazy_imgs" alt="勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B" title="勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/phpDd74Kd.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625200">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625200" class="tit" data-desc="T:0:勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B" title="勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B">勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625200" class="immtag chan">政治</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625200" class="http" data-desc="T:0:勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B" title="勇者「New Mayor」沈伯洋車掃抵達龍山寺 支持者嗆蔣萬安辯論問A答B">https://news.ltn.com.tw/news/politics/breakingnews/5625200</a>
+                <p>民進黨籍台北市長候選人沈伯洋下午結束辯論、同志大遊行、大安森林公園萬聖節活動後，今晚再接再厲，以勇者欣梅爾（New Mayor）裝扮登上「台北大洋流」號，車掃中正、萬華，下午5點半從中正區和平西路一段的古亭南福宮出發，晚間7點53分抵達終點站龍山寺，大約6時許，人潮從龍山寺門口蔓延至鄰近艋舺公園，眾</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5622691" data-desc="P:1:立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營" class="ph" title="立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營">
+                <img class="lazy_imgs" alt="立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營" title="立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/29/5622691_3_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5622691">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5622691" class="tit" data-desc="T:1:立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營" title="立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營">立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5622691" class="immtag chan">政治</i>
+                <span class="time">6天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5622691" class="http" data-desc="T:1:立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營" title="立法院旁發放「戒慎恐懼」飄帶 林俊憲： 選舉最後關鍵要步步為營">https://news.ltn.com.tw/news/politics/breakingnews/5622691</a>
+                <p>民進黨立委、「戒慎恐懼會長」林俊憲今（29）日準備800多份「戒慎恐懼」飄帶及貼紙，於台北濟南教會前發放。林俊憲表示，選舉進入最後關鍵，大家更要步步為營，尤其台北市長蔣萬安團隊正在改變選舉策略，試圖激發出台北市的藍營鐵票及同情票，民進黨支持者更要「戒慎恐懼」，並且去投票。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5622275" data-desc="P:2:被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉" class="ph" title="被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉">
+                <img class="lazy_imgs" alt="被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉" title="被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/29/phpMDBj0g.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5622275">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5622275" class="tit" data-desc="T:2:被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉" title="被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉">被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5622275" class="immtag chan">政治</i>
+                <span class="time">6天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5622275" class="http" data-desc="T:2:被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉" title="被登上「萬安除三害」海報 苗博雅批：恐鼓動暴力介入選舉">https://news.ltn.com.tw/news/politics/breakingnews/5622275</a>
+                <p>台北市長選戰進入白熱化階段，近日網路上流傳1張仿效電影《周處除三害》構圖的競選海報，將台北市長蔣萬安塑造成持槍「除害英雄」，將槍口指向民進黨台北市長候選人沈伯洋、台北市議員簡舒培及苗博雅。苗博雅昨日（28日）晚間表示，這不會是他首次遇到抹黑威脅，也不會是最後一次，並指控國民黨早已習慣「做賊喊抓賊」，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5621112" data-desc="P:3:仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味" class="ph" title="仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味">
+                <img class="lazy_imgs" alt="仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味" title="仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/28/phpxcHrZR.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5621112">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5621112" class="tit" data-desc="T:3:仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味" title="仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味">仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5621112" class="immtag chan">政治</i>
+                <span class="time">2026/10/28</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5621112" class="http" data-desc="T:3:仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味" title="仿《周處除三害》蔣萬安拿槍指人！朱宥勳酸：濃醇香蔣家味">https://news.ltn.com.tw/news/politics/breakingnews/5621112</a>
+                <p>距離九合一選舉投票倒數32天，台北市選戰選情白熱化。對此，作家朱宥勳轉發一張疑藍營支持者仿效電影《周處除三害》海報構圖製出蔣萬安文宣圖，他嘆揶揄地說「這張圖倒是充滿蔣家風味，復刻得濃醇香」。朱宥勳今日於臉書發文指出，看到這則藍營支持者做的文宣，他的腦內自動開始播放台詞：「你拿槍指著我？你拿槍指著我？</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://ent.ltn.com.tw/news/breakingnews/5620880" data-desc="P:4:馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" class="ph" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍">
+                <img class="lazy_imgs" alt="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/10/28/php1kELFw.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ent.ltn.com.tw/news/breakingnews/5620880">
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5620880" class="tit" data-desc="T:4:馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍">馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍</a>
+                <i href="https://ent.ltn.com.tw/news/breakingnews/5620880" class="immtag chan2">娛樂</i>
+                <span class="time">2026/10/28</span>
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5620880" class="http" data-desc="T:4:馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍">https://ent.ltn.com.tw/news/breakingnews/5620880</a>
+                <p>台北市選舉委員會27日上午舉行市議員候選人號次抽籤，曾闖入民進黨中央黨部砸雞蛋、代表「左翼聯盟」參選大安文山區市議員的前民眾黨林口區黨部副主任李道翔，在抽籤過程中不僅對選務人員咆哮，更在民進黨中正萬華區候選人馬郁雯步向抽籤台時突然伸腳企圖將其絆倒。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1776274" data-desc="P:5:戴幸運物、拿看板 北市議員抽籤出奇招" class="ph" title="戴幸運物、拿看板 北市議員抽籤出奇招">
+                <img class="lazy_imgs" alt="戴幸運物、拿看板 北市議員抽籤出奇招" title="戴幸運物、拿看板 北市議員抽籤出奇招" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/28/135.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1776274">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776274" class="tit" data-desc="T:5:戴幸運物、拿看板 北市議員抽籤出奇招" title="戴幸運物、拿看板 北市議員抽籤出奇招">戴幸運物、拿看板 北市議員抽籤出奇招</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1776274" class="immtag chan">政治</i>
+                <span class="time">2026/10/28</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776274" class="http" data-desc="T:5:戴幸運物、拿看板 北市議員抽籤出奇招" title="戴幸運物、拿看板 北市議員抽籤出奇招">https://news.ltn.com.tw/news/politics/paper/1776274</a>
+                <p>九合一大選倒數，本屆台北市長登記參選共六位候選人；市議員則有九十八人登記，一人不合格，核准共九十七位。昨進行號次抽籤，整體抽籤狀況大多順利，期間部分候選人爆發衝突口角，其中無黨籍候選人譚傳紹在抽籤時高舉手拿板大聲抗議，並與國民黨籍議員王欣儀爆發口角，而左翼聯盟議員候選人李道翔更企圖絆倒民進黨籍議員候</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" data-desc="P:6:險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" class="ph" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告">
+                <img class="lazy_imgs" alt="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/phpoIFqs2.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5620313">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" class="tit" data-desc="T:6:險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告">險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" class="http" data-desc="T:6:險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告">https://news.ltn.com.tw/news/politics/breakingnews/5620313</a>
+                <p>台北市選舉委員會今（27）日上午舉行市議員候選人號次抽籤，曾闖入民進黨中央黨部砸雞蛋、代表「左翼聯盟」參選大安文山區市議員的前民眾黨林口區黨部副主任李道翔，在抽籤過程中不僅對選務人員咆哮，更在民進黨中正萬華區候選人馬郁雯步向抽籤台時突然伸腳企圖將其絆倒，隨後又在電梯口圍堵社民黨市議員候選人苗博雅並高</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" data-desc="P:7:台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" class="ph" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅">
+                <img class="lazy_imgs" alt="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619958_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619958">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" class="tit" data-desc="T:7:台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅">台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" class="http" data-desc="T:7:台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅">https://news.ltn.com.tw/news/politics/breakingnews/5619958</a>
+                <p>民眾黨林口黨部前副主任李道翔，去年曾在大罷免期間闖民進黨中央黨部砸雞蛋，本屆他代表左翼聯盟參選台北市第六選區（大安、文山）市議員，今（27）日李道翔在台北市選舉委員會抽籤時，再度出現攻擊情況，李道翔不僅在自己抽籤完公然嗆聲，更在台北市第五選區（中正、萬華）民進黨候選人馬郁雯走去抽籤時，伸腳意圖絆倒她</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://ent.ltn.com.tw/news/breakingnews/5605591" data-desc="P:8:（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車" class="ph" title="（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車">
+                <img class="lazy_imgs" alt="（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車" title="（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/10/14/phpxBnOYC.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ent.ltn.com.tw/news/breakingnews/5605591">
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5605591" class="tit" data-desc="T:8:（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車" title="（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車">（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車</a>
+                <i href="https://ent.ltn.com.tw/news/breakingnews/5605591" class="immtag chan2">娛樂</i>
+                <span class="time">2026/10/14</span>
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5605591" class="http" data-desc="T:8:（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車" title="（影音）天下第一絕拜票！ 馬郁雯戴安全帽追垃圾車">https://ent.ltn.com.tw/news/breakingnews/5605591</a>
+                <p>三立新聞台前主播、昔有「揭弊女神」封號的民進黨台北市議員參選人馬郁雯，一早透露昨晚追垃圾車，有了驚人大亮點。話說馬郁雯和三立新聞台談話節目《新台派上線》主持人李正皓感情穩定，2人自交往以來總被關心何時結婚，馬郁雯近日也首度鬆口2人婚姻大事時間表，她告訴《自由娛樂頻道》：「可能大家真的很想成全我們！再</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598456" data-desc="P:9:沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉" class="ph" title="沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉">
+                <img class="lazy_imgs" alt="沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉" title="沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/07/phpa1WRIl.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5598456">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598456" class="tit" data-desc="T:9:沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉" title="沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉">沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5598456" class="immtag chan">政治</i>
+                <span class="time">2026/10/07</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598456" class="http" data-desc="T:9:沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉" title="沈伯洋遭跟監！林楚茵：蔣萬安助紂為虐 徐巧芯、王鴻薇應道歉">https://news.ltn.com.tw/news/politics/breakingnews/5598456</a>
+                <p>民進黨台北市長參選人沈伯洋遭跟監一案，北檢查出大愛徵信社涉嫌接受香港籍人士委託並起訴4名業者；然今年5月，國民黨立委王鴻薇等人卻批評沈伯洋為了政治操作而公然說謊。民進黨立委林楚茵痛批，中國跨境鎮壓，現在檢察官已經把人起訴了，蔣萬安是不是該站出來聲援台北市民沈伯洋？而去年忙著嘲笑沈伯洋的徐巧芯、王鴻薇</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598313" data-desc="P:10:沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車" class="ph" title="沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車">
+                <img class="lazy_imgs" alt="沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車" title="沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/07/5598313_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5598313">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598313" class="tit" data-desc="T:10:沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車" title="沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車">沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5598313" class="immtag chan">政治</i>
+                <span class="time">2026/10/07</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598313" class="http" data-desc="T:10:沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車" title="沈伯洋遭跟監案起訴 馬郁雯批藍營酸自導自演翻車">https://news.ltn.com.tw/news/politics/breakingnews/5598313</a>
+                <p>中國香港人士鞠覺賢、林慶前年9月間委託台灣徵信負責人鄭永津跟監立委沈伯洋，台北地檢署今（7）日偵結，依違反個人資料保護法將鄭等人起訴，並對中國香港籍主嫌發布通緝。民進黨籍台北市議員第5選區（中正、萬華）參選人馬郁雯指出，當時國民黨政治人物酸沈伯洋自導自演，如今證實沈伯洋被監控就是國安問題，藍委翻車翻</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://ent.ltn.com.tw/news/breakingnews/5595598" data-desc="P:11:（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表" class="ph" title="（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表">
+                <img class="lazy_imgs" alt="（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表" title="（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/10/05/phpAVXUaR.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ent.ltn.com.tw/news/breakingnews/5595598">
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5595598" class="tit" data-desc="T:11:（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表" title="（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表">（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表</a>
+                <i href="https://ent.ltn.com.tw/news/breakingnews/5595598" class="immtag chan2">娛樂</i>
+                <span class="time">2026/10/05</span>
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5595598" class="http" data-desc="T:11:（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表" title="（獨家）選上北市議員就嫁李正皓   馬郁雯鬆口給時間表">https://ent.ltn.com.tw/news/breakingnews/5595598</a>
+                <p>三立新聞台前主播、昔有「揭弊女神」封號的民進黨台北市議員參選人馬郁雯，和三立新聞台談話節目《新台派上線》主持人李正皓感情穩定，2人自交往以來總被關心何時結婚，對此，馬郁雯向《自由娛樂頻道》鬆口時間表。話說李正皓3日無奈點名維基百科：「是怎樣！太離譜了啦！」因維基百科簡介馬郁雯，赫然發現「配偶欄」大剌</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://ent.ltn.com.tw/news/breakingnews/5594755" data-desc="P:12:馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜" class="ph" title="馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜">
+                <img class="lazy_imgs" alt="馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜" title="馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/10/04/phpVTrTNa.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ent.ltn.com.tw/news/breakingnews/5594755">
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5594755" class="tit" data-desc="T:12:馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜" title="馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜">馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜</a>
+                <i href="https://ent.ltn.com.tw/news/breakingnews/5594755" class="immtag chan2">娛樂</i>
+                <span class="time">2026/10/04</span>
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5594755" class="http" data-desc="T:12:馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜" title="馬郁雯配偶曝光   李正皓嗆：維基百科是怎樣，太離譜">https://ent.ltn.com.tw/news/breakingnews/5594755</a>
+                <p>今年6月，三立新聞台談話節目《新台派上線》主持人李正皓和前主播女友、民進黨台北市議員參選人馬郁雯在歐洲度假，李正皓鬆口「沒意外的話，幾年後我身邊的人不只是芋圓，還會有小小芋圓」，暗示一定娶她，馬郁雯也說選上就嫁，2人好事應該近了。爆笑的是，李正皓3日晚間在臉書發文無奈說：「維基百科是怎樣！太離譜了啦</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5591224" data-desc="P:13:同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安" class="ph" title="同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安">
+                <img class="lazy_imgs" alt="同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安" title="同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/30/5591224_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5591224">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5591224" class="tit" data-desc="T:13:同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安" title="同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安">同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5591224" class="immtag chan">政治</i>
+                <span class="time">2026/09/30</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5591224" class="http" data-desc="T:13:同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安" title="同場若遇柯文哲、蔣萬安聊什麼？沈伯洋喊話蔣市長：會想談食安">https://news.ltn.com.tw/news/politics/breakingnews/5591224</a>
+                <p>民進黨台北市長參選人沈伯洋今（30日）與立委吳沛憶、中正萬華市議員劉耀仁、洪婉臻與議員參選人張銘祐、賴俊翰及馬郁雯出席南門市場平安宴。由於前北市長柯文哲與現任市長蔣萬安稍晚也會到場，沈伯洋被問到若遇到兩位市長是否會討論市政議題，沈笑回，遇到柯市長的時候再說；至於蔣市長，會想談最近食安問題，「保護市民</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1772709" data-desc="P:14:茄芷袋、紙膠帶 北市議員選將應援小物有趣" class="ph" title="茄芷袋、紙膠帶 北市議員選將應援小物有趣">
+                <img class="lazy_imgs" alt="茄芷袋、紙膠帶 北市議員選將應援小物有趣" title="茄芷袋、紙膠帶 北市議員選將應援小物有趣" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/09/30/123.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1772709">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1772709" class="tit" data-desc="T:14:茄芷袋、紙膠帶 北市議員選將應援小物有趣" title="茄芷袋、紙膠帶 北市議員選將應援小物有趣">茄芷袋、紙膠帶 北市議員選將應援小物有趣</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1772709" class="immtag chan">政治</i>
+                <span class="time">2026/09/30</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1772709" class="http" data-desc="T:14:茄芷袋、紙膠帶 北市議員選將應援小物有趣" title="茄芷袋、紙膠帶 北市議員選將應援小物有趣">https://news.ltn.com.tw/news/politics/paper/1772709</a>
+                <p>年底九合一選戰倒數五十九天，台北市議員及議員參選人推出各項競選小物，回饋捐款支持的民眾。小物設計除連結參選人背景、選區特色或綽號，也考量實用性與美感，推出特色茄芷袋、杯子及紙膠帶，甚至也有擋泥板跟印有參選人照片的應援毛巾等。民進黨議員顏若芳把台灣味融入日常生活，推出具有台灣特色的茄芷袋、零錢包以及「</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587943" data-desc="P:15:兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來" class="ph" title="兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來">
+                <img class="lazy_imgs" alt="兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來" title="兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/27/5587943_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5587943">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587943" class="tit" data-desc="T:15:兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來" title="兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來">兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5587943" class="immtag chan">政治</i>
+                <span class="time">2026/09/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587943" class="http" data-desc="T:15:兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來" title="兒少團體邀上街撿菸蒂 沈伯洋籲多聽小孩講：沒票卻是城市未來">https://news.ltn.com.tw/news/politics/breakingnews/5587943</a>
+                <p>兒少環保團體「不落蒂聯盟」與「衣衣不捨小隊」今（27）日在萬華和平青草園發起「台北兒少公民行動」，聚焦「菸蒂治理」與「快時尚衣物減量」，並且贈送受邀出席的台北市長參選人沈伯洋以二手衣製作的3個禮物，包括讓他可與女兒「小麻糬」一起玩的桌遊，還有紓壓的藥草槌及海廢料打造的戰鼓，為沈加油打氣。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587631" data-desc="P:16:仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政" class="ph" title="仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政">
+                <img class="lazy_imgs" alt="仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政" title="仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/27/php6lDlZj.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5587631">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587631" class="tit" data-desc="T:16:仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政" title="仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政">仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5587631" class="immtag chan">政治</i>
+                <span class="time">2026/09/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587631" class="http" data-desc="T:16:仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政" title="仿鍘美藝術節演《貍貓換太子》？ 沈伯洋「不贊成」：選戰應聚焦市政">https://news.ltn.com.tw/news/politics/breakingnews/5587631</a>
+                <p>民間日前籌辦「鍘美藝術節」引發熱烈迴響，近期網路傳出有人欲如法炮製，規劃在台北市上演《貍貓換太子》，引發不少台派網友憂心升高仇恨動員反傷選情。對此，民進黨台北市議員參選人馬郁雯今（27）日轉述台北市長參選人沈伯洋的最新表態，沈伯洋嚴正強調「我非常不贊成」，重申選戰主軸應檢驗市政與施政能力，個人的過去</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587476" data-desc="P:17:鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻" class="ph" title="鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻">
+                <img class="lazy_imgs" alt="鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻" title="鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/27/phpkx5Sse.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5587476">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587476" class="tit" data-desc="T:17:鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻" title="鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻">鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5587476" class="immtag chan">政治</i>
+                <span class="time">2026/09/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5587476" class="http" data-desc="T:17:鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻" title="鍘美成功後網傳北市將演「貍貓換太子」 黃智賢、李正皓齊發聲勸阻">https://news.ltn.com.tw/news/politics/breakingnews/5587476</a>
+                <p>替前總統陳水扁女兒遭婚變抱不平、民間自發籌辦的「鍘美藝術節」日前落幕，引起熱烈迴響，也讓經典劇目《鍘美案》翻紅。不過近期網路瘋傳有人想複製「鍘美藝術節」方式，在台北市上演「貍貓換太子」，但許多台派網友都認為此舉可能拉高仇恨、波及民進黨台北市長參選人沈伯洋。名嘴黃智賢對此發文表示，此時刻不適合上演「貍</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575110" data-desc="P:18:蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人" class="ph" title="蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人">
+                <img class="lazy_imgs" alt="蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人" title="蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/15/phpSsgqQR.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5575110">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575110" class="tit" data-desc="T:18:蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人" title="蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人">蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5575110" class="immtag chan">政治</i>
+                <span class="time">2026/09/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575110" class="http" data-desc="T:18:蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人" title="蔣萬安稱在兒虐會議待1小時  她當場拆穿謊言：只待10分鐘就閃人">https://news.ltn.com.tw/news/politics/breakingnews/5575110</a>
+                <p>上月台北市鬧得沸沸揚揚的10歲女童遭猥褻未即時安置案，本月初召開檢討會議，民進黨議員許淑華週一（14日）質詢市長蔣萬安時，詢問他待了多久，蔣回應稱待了約有1小時，秒遭砲轟公然說謊，許淑華直指他只待了10分鐘就走人，蔣萬安不敢否認，但狡辯稱自己有先聽過社工，和相關工作人員報告，消息一出讓大批網友直呼太</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1770761" data-desc="P:19:蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的" class="ph" title="蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的">
+                <img class="lazy_imgs" alt="蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的" title="蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1770761">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1770761" class="tit" data-desc="T:19:蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的" title="蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的">蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1770761" class="immtag chan">政治</i>
+                <span class="time">2026/09/15</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1770761" class="http" data-desc="T:19:蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的" title="蔣萬安稱兒赴美依法依規 綠議員︰辦法是蔣市府訂的">https://news.ltn.com.tw/news/politics/paper/1770761</a>
+                <p>台北市長蔣萬安的長子取得國際交換學生資格爭議延燒，市議員簡舒培、陳賢蔚及市議員參選人馬郁雯、陳又新昨指，蔣稱依法、依規處理，然辦法是蔣市府訂的，蔣任內弱勢保障名額縮減、優勢家庭名額增加，又是計畫指導單位國際事務委員會主委，對制度公平負有責任。蔣回應，孩子靠自己的努力追求夢想，不會因為父母是誰受到特別</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=馬郁雯&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=馬郁雯&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=馬郁雯&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=馬郁雯&start_time=20041201&end_time=20261104&sort=date&type=all&page=5" class="p_num" data-desc="5" title="第5頁">5</a><a href="https://search.ltn.com.tw/list?keyword=馬郁雯&start_time=20041201&end_time=20261104&sort=date&type=all&page=6" class="p_num" data-desc="6" title="第6頁">6</a><a href="https://search.ltn.com.tw/list?keyword=馬郁雯&start_time=20041201&end_time=20261104&sort=date&type=all&page=7" class="p_num" data-desc="7" title="第7頁">7</a><a href="https://search.ltn.com.tw/list?keyword=馬郁雯&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

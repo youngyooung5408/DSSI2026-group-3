@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155747';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>林柏勛 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="林柏勛 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="林柏勛 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="林柏勛" />
+<meta name="news_keywords" itemprop="keywords" content="林柏勛" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:57:47--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="林柏勛" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林柏勛&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 48 項結果 (搜尋時間：0.151 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "林柏勛", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5617496" data-desc="P:0:颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？" class="ph" title="颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？">
+                <img class="lazy_imgs" alt="颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？" title="颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/24/phpMFAol5.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5617496">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5617496" class="tit" data-desc="T:0:颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？" title="颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？">颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5617496" class="immtag chan">政治</i>
+                <span class="time">2026/10/24</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5617496" class="http" data-desc="T:0:颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？" title="颱風吹倒北市受保護白千層！林柏勛曝根部遭水泥封死：是天災還是人禍？">https://news.ltn.com.tw/news/politics/breakingnews/5617496</a>
+                <p>薔琵颱風昨晚來襲，全台多處傳出零星災情，台北市議員候選人林柏勛指出，國父紀念館中有一顆屬於受保護樹木的白千層不敵這次颱風倒下，但往樹的根部看，可以看見根部已經被水泥限制住了，無法讓大樹正常發展，讓他質疑「這是否是單純的天災？還是人禍？」林柏勛在Threads發文表示，受到薔琵影響，位於國父紀念館的受</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5517429" data-desc="P:1:嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華" class="ph" title="嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華">
+                <img class="lazy_imgs" alt="嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華" title="嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/07/25/phpU227l3.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5517429">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5517429" class="tit" data-desc="T:1:嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華" title="嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華">嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5517429" class="immtag chan">政治</i>
+                <span class="time">2026/07/25</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5517429" class="http" data-desc="T:1:嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華" title="嗆網友還羞辱蘇巧慧外貌！被起底是北市公園處新聞聯絡人劉玉華">https://news.ltn.com.tw/news/politics/breakingnews/5517429</a>
+                <p>鼠患、淹水到砍樹，台北市近日種種市政爭議在社群上掀起討論。有網友發現，有一帳號時常在相關討論下留言嗆聲，甚至多次嘲諷沈伯洋、蘇巧慧、陳其邁等綠營政治人物，查詢後發現，該帳號主人其實是台北市政府工務局公園處新聞聯絡人劉玉華。對此，她本人親自在網友貼文下方留言稱：「收集各方輿情是她的責任，謝謝網友指教。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5303581" data-desc="P:2:格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽" class="ph" title="格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽">
+                <img class="lazy_imgs" alt="格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽" title="格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/01/08/5303581_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5303581">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5303581" class="tit" data-desc="T:2:格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽" title="格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽">格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5303581" class="immtag chan3">體育</i>
+                <span class="time">2026/01/08</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5303581" class="http" data-desc="T:2:格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽" title="格鬥》卡巴迪美女國手轉戰擂台 林郁芬角逐AMMA亞錦賽">https://sports.ltn.com.tw/news/breakingnews/5303581</a>
+                <p>台灣格鬥代表隊已赴中國四川，為明起一連3天的AMMA亞洲格鬥錦標賽調整準備，昔日卡巴迪美女國手「布布」林郁芬轉戰擂台，此次角逐60公斤傳統組，全力爭取今年名古屋亞運參賽積分。林郁芬自國中接觸跆拳道，2009年全中運鍍銀，目前黑帶3段。就讀國體大期間，她發展第二專長卡巴迪，先後入選2014年仁川亞運、</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5241677" data-desc="P:3:北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻" class="ph" title="北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻">
+                <img class="lazy_imgs" alt="北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻" title="北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/11/11/phpl8PXQ0.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5241677">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5241677" class="tit" data-desc="T:3:北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻" title="北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻">北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5241677" class="immtag chan">生活</i>
+                <span class="time">2025/11/11</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5241677" class="http" data-desc="T:3:北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻" title="北市公館圓環7-9時禁左轉新策惹怨！Google地圖變「公館長條橢圓環」網笑翻">https://news.ltn.com.tw/news/life/breakingnews/5241677</a>
+                <p>台北市公館圓環周邊再度引發交通爭議，市府自8日起將羅斯福路新店往公館方向內側第二車道，改為「時段性可變車道」，早上7點至9點禁止左轉上福和橋。市府原規劃替代路線是汽車須先右轉基隆路行駛約450公尺，在台科大校門前迴轉後再直行上橋；機車則可選擇待轉方式。然而實際執行後，通勤族抱怨連連，網友更戲稱這條繞</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1722074" data-desc="P:4:公館圓環爭議 民團促改善標線 交工處︰成效有限" class="ph" title="公館圓環爭議 民團促改善標線 交工處︰成效有限">
+                <img class="lazy_imgs" alt="公館圓環爭議 民團促改善標線 交工處︰成效有限" title="公館圓環爭議 民團促改善標線 交工處︰成效有限" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2025/08/29/143.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1722074">
+                <a href="https://news.ltn.com.tw/news/life/paper/1722074" class="tit" data-desc="T:4:公館圓環爭議 民團促改善標線 交工處︰成效有限" title="公館圓環爭議 民團促改善標線 交工處︰成效有限">公館圓環爭議 民團促改善標線 交工處︰成效有限</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1722074" class="immtag chan">生活</i>
+                <span class="time">2025/08/29</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1722074" class="http" data-desc="T:4:公館圓環爭議 民團促改善標線 交工處︰成效有限" title="公館圓環爭議 民團促改善標線 交工處︰成效有限">https://news.ltn.com.tw/news/life/paper/1722074</a>
+                <p>居民憂填平地下道將造成交通壅塞 市府評估不至於大塞台北市政府交通局廿七日宣布，九月十三日將拆除公館圓環，並填平地下公車專用道。不過民團、在地居民、學生等團體昨集結現場抗議，認為拆除期間以及填平地下道後公車行駛地面將造成交通壅塞，主張可透過改善標線方式改善安全問題。但市府交通管制工程處認為，標線對於改</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5159220" data-desc="P:5:「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策" class="ph" title="「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策">
+                <img class="lazy_imgs" alt="「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策" title="「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/08/28/php451UnG.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5159220">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5159220" class="tit" data-desc="T:5:「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策" title="「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策">「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5159220" class="immtag chan">生活</i>
+                <span class="time">2025/08/28</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5159220" class="http" data-desc="T:5:「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策" title="「蔣」不聽！北市民抗議突襲拆公館圓環  苗博雅：天兵政策">https://news.ltn.com.tw/news/life/breakingnews/5159220</a>
+                <p>台北市政府交通局昨（27）日突然宣布，9月13日將拆除公館圓環，並填平地下公車專用道。此舉引發在地居民、學生不滿，今上午集結於公館圓環舉辦記者會，痛斥「蔣不聽！抗議北市府強拆圓環」。社民黨台北市議員苗博雅表示，蔣萬安拆公館圓環就是「天兵政策」，竟沒有任何居民願意為市府背書；民眾黨議員張志豪批蔣市府不</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1708568" data-desc="P:6:自由日日Shoot》民團提3訴求 促駕照全面回訓" class="ph" title="自由日日Shoot》民團提3訴求 促駕照全面回訓">
+                <img class="lazy_imgs" alt="自由日日Shoot》民團提3訴求 促駕照全面回訓" title="自由日日Shoot》民團提3訴求 促駕照全面回訓" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2025/05/26/152.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1708568">
+                <a href="https://news.ltn.com.tw/news/life/paper/1708568" class="tit" data-desc="T:6:自由日日Shoot》民團提3訴求 促駕照全面回訓" title="自由日日Shoot》民團提3訴求 促駕照全面回訓">自由日日Shoot》民團提3訴求 促駕照全面回訓</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1708568" class="immtag chan">生活</i>
+                <span class="time">2025/05/26</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1708568" class="http" data-desc="T:6:自由日日Shoot》民團提3訴求 促駕照全面回訓" title="自由日日Shoot》民團提3訴求 促駕照全面回訓">https://news.ltn.com.tw/news/life/paper/1708568</a>
+                <p>交通部︰安全是共同目標 蒐集各界意見 納施政參考新北三峽重大車禍震驚社會，加上後續接連發生高齡駕駛事故，引起討論。路權團體昨辦「保護下一代」遊行，號召群眾上街，從立法院走至交通部遞交陳情書，訴求交通工程改革，駕照全面回訓。交通部表示，持續蒐集意見，納入施政參考。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/focus/breakingnews/5054448" data-desc="P:7:《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving" class="ph" title="《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving">
+                <img class="lazy_imgs" alt="《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving" title="《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/05/25/phpmkSyjx.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/focus/breakingnews/5054448">
+                <a href="https://news.ltn.com.tw/news/focus/breakingnews/5054448" class="tit" data-desc="T:7:《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving" title="《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving">《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving</a>
+                <i href="https://news.ltn.com.tw/news/focus/breakingnews/5054448" class="immtag chan">焦點</i>
+                <span class="time">2025/05/26</span>
+                <a href="https://news.ltn.com.tw/news/focus/breakingnews/5054448" class="http" data-desc="T:7:《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving" title="《TAIPEI TIMES》 Ministry to increase penalties for unlicensed driving">https://news.ltn.com.tw/news/focus/breakingnews/5054448</a>
+                <p>ROAD OUTRAGE:The move comes amid protests from civic groups following two crashes involving elderly drivers, one without a valid license, that left th</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5054051" data-desc="P:8:改革交通保護下一代！民團冒雨上街 要求駕照全面回訓" class="ph" title="改革交通保護下一代！民團冒雨上街 要求駕照全面回訓">
+                <img class="lazy_imgs" alt="改革交通保護下一代！民團冒雨上街 要求駕照全面回訓" title="改革交通保護下一代！民團冒雨上街 要求駕照全面回訓" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/05/25/5054051_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5054051">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5054051" class="tit" data-desc="T:8:改革交通保護下一代！民團冒雨上街 要求駕照全面回訓" title="改革交通保護下一代！民團冒雨上街 要求駕照全面回訓">改革交通保護下一代！民團冒雨上街 要求駕照全面回訓</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5054051" class="immtag chan">生活</i>
+                <span class="time">2025/05/25</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5054051" class="http" data-desc="T:8:改革交通保護下一代！民團冒雨上街 要求駕照全面回訓" title="改革交通保護下一代！民團冒雨上街 要求駕照全面回訓">https://news.ltn.com.tw/news/life/breakingnews/5054051</a>
+                <p>新北市三峽區北大國小校外重大車禍釀3死12傷，引起社會關注。「行人零死亡推動聯盟」及「下一代人本交通促進會」今（25）日舉辦「保護下一代」遊行，號召群眾上街，從立法院走至交通部遞交陳情書，訴求交通工程改革，駕照全面回訓。交通部表示，會持續蒐集各界意見，納入未來施政參考。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1704230" data-desc="P:9:汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商" class="ph" title="汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商">
+                <img class="lazy_imgs" alt="汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商" title="汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2025/04/30/37.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1704230">
+                <a href="https://news.ltn.com.tw/news/life/paper/1704230" class="tit" data-desc="T:9:汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商" title="汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商">汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1704230" class="immtag chan">生活</i>
+                <span class="time">2025/04/30</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1704230" class="http" data-desc="T:9:汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商" title="汽車路考擬增「指差確認」 民團反對／路權團體質疑「假交流真推鍋」 公路局：尚未公告 持續研商">https://news.ltn.com.tw/news/life/paper/1704230</a>
+                <p>為提升交通安全，公路局研議小客車路考增加「指差確認」一項，路權團體昨天召開記者會批小客車駕駛在無人的行穿線前急停、做指差，不但會降低車流效率、難以取締，也可能會導致後車反應不及，事故暴增。對此公路局回應，小型車考照新增指差確認僅為內部研議中項目，尚未公告、將依據交通實務等持續研商，滾動式檢討修正。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5026693" data-desc="P:10:路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正" class="ph" title="路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正">
+                <img class="lazy_imgs" alt="路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正" title="路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/04/29/5026693_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5026693">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5026693" class="tit" data-desc="T:10:路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正" title="路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正">路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5026693" class="immtag chan">生活</i>
+                <span class="time">2025/04/29</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5026693" class="http" data-desc="T:10:路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正" title="路權團體反對汽車考照增「行穿線前指差確認」 公路局：滾動檢討修正">https://news.ltn.com.tw/news/life/breakingnews/5026693</a>
+                <p>公路局原研擬6月2日起汽車路考新增行人穿越道前未減速禮讓及未確實指差確認。路權團體今偕立委林月琴召開記者會，強調與公路局交流會議對此意見不同，勿將民團當成為錯誤政策的背書工具；公路局表示，考量外界意見分歧，後續將依據交通實務等持續研商，滾動式檢討修正。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4871977" data-desc="P:11:日本京都府前副知事山下晃正 受聘為竹北市政顧問" class="ph" title="日本京都府前副知事山下晃正 受聘為竹北市政顧問">
+                <img class="lazy_imgs" alt="日本京都府前副知事山下晃正 受聘為竹北市政顧問" title="日本京都府前副知事山下晃正 受聘為竹北市政顧問" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2024/11/22/4871977_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4871977">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4871977" class="tit" data-desc="T:11:日本京都府前副知事山下晃正 受聘為竹北市政顧問" title="日本京都府前副知事山下晃正 受聘為竹北市政顧問">日本京都府前副知事山下晃正 受聘為竹北市政顧問</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4871977" class="immtag chan">政治</i>
+                <span class="time">2024/11/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4871977" class="http" data-desc="T:11:日本京都府前副知事山下晃正 受聘為竹北市政顧問" title="日本京都府前副知事山下晃正 受聘為竹北市政顧問">https://news.ltn.com.tw/news/politics/breakingnews/4871977</a>
+                <p>新竹縣竹北市公所今天宣布成立「竹北超越竹北專業顧問團隊」，作為輔助市政推進的動力，共有12人，其中包含日本京都府前副知事、現任京都府顧問及京都藝術科技園區村長山下晃正在內，今天市長鄭朝方親自頒發顧問證書給山下晃正。市公所表示，竹北市政顧問11名本國籍的分別是：陽明交大退休榮譽教授林健正、中醫大新竹附</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/4736632" data-desc="P:12:行人盟辦青年培力工作坊 盼學員成全台交通改革種子" class="ph" title="行人盟辦青年培力工作坊 盼學員成全台交通改革種子">
+                <img class="lazy_imgs" alt="行人盟辦青年培力工作坊 盼學員成全台交通改革種子" title="行人盟辦青年培力工作坊 盼學員成全台交通改革種子" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2024/07/14/4736632_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/4736632">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/4736632" class="tit" data-desc="T:12:行人盟辦青年培力工作坊 盼學員成全台交通改革種子" title="行人盟辦青年培力工作坊 盼學員成全台交通改革種子">行人盟辦青年培力工作坊 盼學員成全台交通改革種子</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/4736632" class="immtag chan">生活</i>
+                <span class="time">2024/07/14</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/4736632" class="http" data-desc="T:12:行人盟辦青年培力工作坊 盼學員成全台交通改革種子" title="行人盟辦青年培力工作坊 盼學員成全台交通改革種子">https://news.ltn.com.tw/news/life/breakingnews/4736632</a>
+                <p>行人零死亡推動聯盟昨舉辦交通改革青年培力工作坊，邀請標線改造台灣路主編劉冠頡、交通專欄作家林柏勛、台灣交通安全協會副理事長林志學、摩托車環球冒險家火花羅等人擔任講師。來自全台各地60、70名學員現場實作「畫馬路」，找出台灣道路設計問題。課程開始前，民進黨立委洪申翰、時代力量主席王婉諭、內政部國土管理</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4663709" data-desc="P:13:點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者" class="ph" title="點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者">
+                <img class="lazy_imgs" alt="點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者" title="點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2024/05/06/4663709_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4663709">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4663709" class="tit" data-desc="T:13:點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者" title="點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者">點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4663709" class="immtag chan">政治</i>
+                <span class="time">2024/05/06</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4663709" class="http" data-desc="T:13:點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者" title="點名尚堃通運砂石車涉2事故釀2死 王婉諭：應盤點高風險業者">https://news.ltn.com.tw/news/politics/breakingnews/4663709</a>
+                <p>時代力量黨主席王婉諭今（6）日召開記者會，揭露4月6日新北市八里區砂石車失控釀1死、4月25日台北市內湖三軍總醫院施工砂石車撞死1女性，釀禍車輛皆屬尚堃通運，業者不僅違規多達133筆，更是傾倒廢棄土慣犯，呼籲政府應跨部會盤點高風險業者，事先稽查或輔導，補全交通安全網。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4589796" data-desc="P:14:想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗" class="ph" title="想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗">
+                <img class="lazy_imgs" alt="想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗" title="想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2024/02/26/4589796_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4589796">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4589796" class="tit" data-desc="T:14:想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗" title="想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗">想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4589796" class="immtag chan">政治</i>
+                <span class="time">2024/02/26</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4589796" class="http" data-desc="T:14:想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗" title="想邀黃國昌一起來 王婉諭：時力啟動「二次創黨」檢討失敗">https://news.ltn.com.tw/news/politics/breakingnews/4589796</a>
+                <p>時代力量決策委員會今（26）日舉行改選後首場會議，由9名委員共同推舉前立委王婉諭繼續接任黨主席，並宣布將啟動「二次創黨」，運用科學方法分析，徹底檢討過去8年「時代力量到底為什麼失敗」，同時也將廣泛邀請創黨以來曾參與時力「深刻」的人，民眾黨立委黃國昌也是對象之一。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4575013" data-desc="P:15:時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果" class="ph" title="時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果">
+                <img class="lazy_imgs" alt="時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果" title="時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2024/02/07/4575013_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4575013">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4575013" class="tit" data-desc="T:15:時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果" title="時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果">時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4575013" class="immtag chan">政治</i>
+                <span class="time">2024/02/07</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4575013" class="http" data-desc="T:15:時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果" title="時力決策委員改選王婉諭、周偉航等20人參選 2/19公布結果">https://news.ltn.com.tw/news/politics/breakingnews/4575013</a>
+                <p>時代力量「第四屆決策委員臨時改選」，候選人號次今（7）日抽籤，共有20人登記參選，預計選出9名決策委員，候選人包含代理主席王婉諭、媒體人周偉航、2024不分區立委候選人林依瑩、王寶萱，以及新竹市議員林彥甫、廖子齊、蔡惠婷等人，前立委邱顯智並未參選。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/focus/breakingnews/4545997" data-desc="P:16:《TAIPEI TIMES》 Gogoro under fire for battery issues" class="ph" title="《TAIPEI TIMES》 Gogoro under fire for battery issues">
+                <img class="lazy_imgs" alt="《TAIPEI TIMES》 Gogoro under fire for battery issues" title="《TAIPEI TIMES》 Gogoro under fire for battery issues" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2024/01/08/php15pni4.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/focus/breakingnews/4545997">
+                <a href="https://news.ltn.com.tw/news/focus/breakingnews/4545997" class="tit" data-desc="T:16:《TAIPEI TIMES》 Gogoro under fire for battery issues" title="《TAIPEI TIMES》 Gogoro under fire for battery issues">《TAIPEI TIMES》 Gogoro under fire for battery issues</a>
+                <i href="https://news.ltn.com.tw/news/focus/breakingnews/4545997" class="immtag chan">焦點</i>
+                <span class="time">2024/01/09</span>
+                <a href="https://news.ltn.com.tw/news/focus/breakingnews/4545997" class="http" data-desc="T:16:《TAIPEI TIMES》 Gogoro under fire for battery issues" title="《TAIPEI TIMES》 Gogoro under fire for battery issues">https://news.ltn.com.tw/news/focus/breakingnews/4545997</a>
+                <p>ABNORMALITIES: After more than 500 battery failures were reported by riders, two ministries and a Cabinet panel met with Gogoro to review its remedy p</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4529841" data-desc="P:17:時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活" class="ph" title="時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活">
+                <img class="lazy_imgs" alt="時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活" title="時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2023/12/23/4529841_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4529841">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4529841" class="tit" data-desc="T:17:時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活" title="時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活">時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4529841" class="immtag chan">政治</i>
+                <span class="time">2023/12/23</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4529841" class="http" data-desc="T:17:時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活" title="時力不分區選將掃街 批吳欣盈 「Johnnie Walker」說悖離民眾生活">https://news.ltn.com.tw/news/politics/breakingnews/4529841</a>
+                <p>時代力量不分區立委候選人王寶萱、陳昱安、余佳蒨與交通零死亡願景召集人林柏勛，今早於台北雙連市場展開掃街拜票活動。面對民眾黨副總統候選人吳欣盈昨日在政見發表會上稱大家都愛喝「Johnnie Walker」，陳昱安狠批，講出這種悖離民眾生活經驗的話，讓大財團領導台灣能為基層人民謀福利嗎？時力也在現場呼籲</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4511704" data-desc="P:18:解決大新竹塞車 王婉諭聯手邱顯智公布交通政見" class="ph" title="解決大新竹塞車 王婉諭聯手邱顯智公布交通政見">
+                <img class="lazy_imgs" alt="解決大新竹塞車 王婉諭聯手邱顯智公布交通政見" title="解決大新竹塞車 王婉諭聯手邱顯智公布交通政見" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2023/12/05/4511704_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4511704">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4511704" class="tit" data-desc="T:18:解決大新竹塞車 王婉諭聯手邱顯智公布交通政見" title="解決大新竹塞車 王婉諭聯手邱顯智公布交通政見">解決大新竹塞車 王婉諭聯手邱顯智公布交通政見</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4511704" class="immtag chan">政治</i>
+                <span class="time">2023/12/05</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4511704" class="http" data-desc="T:18:解決大新竹塞車 王婉諭聯手邱顯智公布交通政見" title="解決大新竹塞車 王婉諭聯手邱顯智公布交通政見">https://news.ltn.com.tw/news/politics/breakingnews/4511704</a>
+                <p>拚連任的時代力量立委王婉諭今（5）日與立委邱顯智及「行行好研究學會」發起人林柏勛等人共同公布交通政見，王婉諭說，包括五楊高架延伸工程、台68線延伸工程、台1線替代道路以及大新竹輕軌建設，不僅要加快腳步進行，施工期間涉及土地徵收、交通黑暗期等問題需要持續監督、協調，懇請大家支持問政專業、監督有力的兩席</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4479536" data-desc="P:19:諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見" class="ph" title="諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見">
+                <img class="lazy_imgs" alt="諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見" title="諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2023/11/04/4479536_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4479536">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4479536" class="tit" data-desc="T:19:諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見" title="諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見">諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4479536" class="immtag chan">政治</i>
+                <span class="time">2023/11/04</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4479536" class="http" data-desc="T:19:諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見" title="諷藍白急討論「火車」王婉諭：時力拒政治口水 力推交通政見">https://news.ltn.com.tw/news/politics/breakingnews/4479536</a>
+                <p>時代力量在今（4）日舉辦「交通安全 力來守護」2024時代力量政見發表會，由黨主席王婉諭、秘書長李兆立、不分區立委參選人陳昱安、零死亡願景召集人林柏勛，發表行人安全交通議題調查報告與四大交通政見，並邀請交通YouTuber企鵝交通手札、交通YouTuber貓頭鷹交通書與談，展現時代力量投入交通改革的</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=林柏勛&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=林柏勛&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=林柏勛&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

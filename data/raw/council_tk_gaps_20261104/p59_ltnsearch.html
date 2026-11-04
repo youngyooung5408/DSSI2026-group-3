@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155913';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>林彥 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="林彥 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="林彥 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="林彥" />
+<meta name="news_keywords" itemprop="keywords" content="林彥" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:59:13--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="林彥" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林彥&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 4946 項結果 (搜尋時間：0.059 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "林彥", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627712" data-desc="P:0:時力偕無黨議員選將提出3支箭 要改善大新竹交通" class="ph" title="時力偕無黨議員選將提出3支箭 要改善大新竹交通">
+                <img class="lazy_imgs" alt="時力偕無黨議員選將提出3支箭 要改善大新竹交通" title="時力偕無黨議員選將提出3支箭 要改善大新竹交通" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/03/5627712_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5627712">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627712" class="tit" data-desc="T:0:時力偕無黨議員選將提出3支箭 要改善大新竹交通" title="時力偕無黨議員選將提出3支箭 要改善大新竹交通">時力偕無黨議員選將提出3支箭 要改善大新竹交通</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5627712" class="immtag chan">政治</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627712" class="http" data-desc="T:0:時力偕無黨議員選將提出3支箭 要改善大新竹交通" title="時力偕無黨議員選將提出3支箭 要改善大新竹交通">https://news.ltn.com.tw/news/politics/breakingnews/5627712</a>
+                <p>台灣前進陣線時代力量新竹縣、市議員候選人張育慈、李雅芬、林彥甫、蔡惠婷以及無黨籍竹縣議員候選人林裙靜，今天共同提出大新竹交通解決方案3支箭：公車有得搭、搭車不塞車、機車騎得安全，要求新竹市長高虹安、新竹縣長楊文科1個月內共同提出竹科通勤改善的優先路線、執行分工與試辦期程，半年內啟動、1年後公開成果，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5627435" data-desc="P:1:假裝潢真詐財 行員機警報警成功阻攔匯款" class="ph" title="假裝潢真詐財 行員機警報警成功阻攔匯款">
+                <img class="lazy_imgs" alt="假裝潢真詐財 行員機警報警成功阻攔匯款" title="假裝潢真詐財 行員機警報警成功阻攔匯款" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/03/5627435_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5627435">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5627435" class="tit" data-desc="T:1:假裝潢真詐財 行員機警報警成功阻攔匯款" title="假裝潢真詐財 行員機警報警成功阻攔匯款">假裝潢真詐財 行員機警報警成功阻攔匯款</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5627435" class="immtag chan">社會</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5627435" class="http" data-desc="T:1:假裝潢真詐財 行員機警報警成功阻攔匯款" title="假裝潢真詐財 行員機警報警成功阻攔匯款">https://news.ltn.com.tw/news/society/breakingnews/5627435</a>
+                <p>馬公警分局光明派出所員警陳囷嗌、廖家豪，昨（2）日接獲第一銀行澎湖分行通報，1名婦人欲匯款150萬元，疑似遭詐騙。員警立即趕赴現場查證，發現婦人對匯款用途先稱裝潢費、後改稱家具費，且收款對象為個人帳戶，情況可疑。經警方進一步查證，發現對方雖自稱裝潢公司設計師，對話內容卻涉及股票投資網站，疑為假投資詐</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/paper/1776921" data-desc="P:2:TPBL》獅末節驚險擒王 旅美新人沒掉隊" class="ph" title="TPBL》獅末節驚險擒王 旅美新人沒掉隊">
+                <img class="lazy_imgs" alt="TPBL》獅末節驚險擒王 旅美新人沒掉隊" title="TPBL》獅末節驚險擒王 旅美新人沒掉隊" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/11/02/phpIOXhDw.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/paper/1776921">
+                <a href="https://sports.ltn.com.tw/news/paper/1776921" class="tit" data-desc="T:2:TPBL》獅末節驚險擒王 旅美新人沒掉隊" title="TPBL》獅末節驚險擒王 旅美新人沒掉隊">TPBL》獅末節驚險擒王 旅美新人沒掉隊</a>
+                <i href="https://sports.ltn.com.tw/news/paper/1776921" class="immtag chan3">體育</i>
+                <span class="time">2天前</span>
+                <a href="https://sports.ltn.com.tw/news/paper/1776921" class="http" data-desc="T:2:TPBL》獅末節驚險擒王 旅美新人沒掉隊" title="TPBL》獅末節驚險擒王 旅美新人沒掉隊">https://sports.ltn.com.tw/news/paper/1776921</a>
+                <p>TPBL新竹攻城獅昨踢館新莊體育館，靠德魯攻下18分，隊長盧冠軒挹注本土最佳17分，以95：93逆轉新北國王，收下本季首勝，國王開季2連勝後苦吞2連敗。下半場防守致勝盧冠軒拿17分攻城獅昨打完前兩節陷入46：53落後，易籃後重整旗鼓，德魯與盧冠軒輪流輸出，率隊打出26：15攻勢反超，第四節最多領先1</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5625943" data-desc="P:3:TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？" class="ph" title="TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？">
+                <img class="lazy_imgs" alt="TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？" title="TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/11/01/phpKOViVu.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5625943">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5625943" class="tit" data-desc="T:3:TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？" title="TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？">TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5625943" class="immtag chan3">體育</i>
+                <span class="time">2天前</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5625943" class="http" data-desc="T:3:TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？" title="TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？">https://sports.ltn.com.tw/news/breakingnews/5625943</a>
+                <p>新北國王今在主場第三節進攻當機，單節僅拿下15分，終場以93：95不敵新竹攻城獅，總教練洪志善賽後也對最後的吹判頗有微詞。國王一哥林書緯今因腳踝傷勢高掛免戰牌，頂替先發的林彥廷此役手感火燙，上半場三分球9投5中獨攬15分，加上昨天休兵的沃許本拿下12分，帶著53：46優勢進入下半場。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5625884" data-desc="P:4:TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝" class="ph" title="TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝">
+                <img class="lazy_imgs" alt="TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝" title="TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/11/01/phpUndZ5b.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5625884">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5625884" class="tit" data-desc="T:4:TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝" title="TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝">TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5625884" class="immtag chan3">體育</i>
+                <span class="time">2天前</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5625884" class="http" data-desc="T:4:TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝" title="TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝">https://sports.ltn.com.tw/news/breakingnews/5625884</a>
+                <p>新竹攻城獅今踢館新莊體育館，靠德魯攻下18分，隊長盧冠軒挹注17分，以95：93逆轉新北國王，收下本季首勝，國王吞下2連敗。國王一哥林書緯今因腳踝傷勢高掛免戰牌，頂替先發的林彥廷此役手感火燙，上半場三分球9投5中獨攬15分，加上昨天休兵的沃許本拿下12分，帶著53：46優勢進入下半場，攻城獅前兩節就</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5624899" data-desc="P:5:苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽" class="ph" title="苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽">
+                <img class="lazy_imgs" alt="苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽" title="苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/5624899_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5624899">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5624899" class="tit" data-desc="T:5:苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽" title="苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽">苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5624899" class="immtag chan">生活</i>
+                <span class="time">4天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5624899" class="http" data-desc="T:5:苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽" title="苗栗陶藝術節登場  國際陶藝競賽吸引16國參賽">https://news.ltn.com.tw/news/life/breakingnews/5624899</a>
+                <p>「2026苗栗陶藝術節」今（31）日在公館鄉苗栗陶瓷農創園區登場，同時進行「苗栗國際陶瓷競賽展」頒獎典禮，其中創作組金獎由26歲的許湘甯奪得，獲獎金25萬元；今、明兩天活動安排陶日慢遊市集、親子彩繪陶競賽及體驗、客庄小旅行等活動，亦有國內外優秀陶藝創作展，讓遊客感受陶藝創新與文化傳承的魅力，與客庄文</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5621753" data-desc="P:6:新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架" class="ph" title="新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架">
+                <img class="lazy_imgs" alt="新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架" title="新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/28/5621753_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5621753">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5621753" class="tit" data-desc="T:6:新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架" title="新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架">新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5621753" class="immtag chan">政治</i>
+                <span class="time">6天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5621753" class="http" data-desc="T:6:新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架" title="新竹市立棒球場變超「莊嚴」 林彥甫：3千萬開幕活動趕鴨子上架">https://news.ltn.com.tw/news/politics/breakingnews/5621753</a>
+                <p>新竹市高虹安市府11月1日舉辦市立棒球場50週年交流賽開幕活動，市議員林彥甫今天發文說，沒想到新竹棒球場變得如此「莊嚴」，不知遠道而來的選手和球迷作何感想。追了好幾天的開幕活動交通管制，今天終於出爐。但實際去現場看，相關道路牌面都還沒有上，廠商只忙著「佈置」門面。距離活動只剩下不到4天，顯然就如同他</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620059" data-desc="P:7:看這裡！ 新竹市長與議員候選人號次出爐" class="ph" title="看這裡！ 新竹市長與議員候選人號次出爐">
+                <img class="lazy_imgs" alt="看這裡！ 新竹市長與議員候選人號次出爐" title="看這裡！ 新竹市長與議員候選人號次出爐" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5620059_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5620059">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620059" class="tit" data-desc="T:7:看這裡！ 新竹市長與議員候選人號次出爐" title="看這裡！ 新竹市長與議員候選人號次出爐">看這裡！ 新竹市長與議員候選人號次出爐</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5620059" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620059" class="http" data-desc="T:7:看這裡！ 新竹市長與議員候選人號次出爐" title="看這裡！ 新竹市長與議員候選人號次出爐">https://news.ltn.com.tw/news/politics/breakingnews/5620059</a>
+                <p>新竹市選舉委員會上午舉行市長及議員選舉候選人號次抽籤，市長選舉候選人號次如下：1號高虹安、2號何志勇、3號莊競程。市議員部份第1選舉區：1號劉詳樽、2號曾翰揚、3號鄭宏輝、4號許登淇、5號劉彥伶、6號鍾淑英、7號宋品瑩、8號錢康明、9號樊一嶢、10號陳珍裕、11號劉崇顯、12號陳清智、13號鄭美娟、</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" data-desc="P:8:高市議員101選將抽幸運號碼   完整名單一次看" class="ph" title="高市議員101選將抽幸運號碼   完整名單一次看">
+                <img class="lazy_imgs" alt="高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619984_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619984">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="tit" data-desc="T:8:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">高市議員101選將抽幸運號碼   完整名單一次看</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="http" data-desc="T:8:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">https://news.ltn.com.tw/news/politics/breakingnews/5619984</a>
+                <p>高雄市議員選舉號次抽籤今完成，15選區101位候選人陸續抽出專屬幸運號碼，有效時間今起33天。1選區5搶3，1李振豪（國民黨）、2林義迪（國民黨）、3林慧欣（民進黨）、4鍾炳光、5 林富寶（民進黨）。2選區5搶3，1李柏融、2李亞築 （國民黨）、3黃明太（民進黨）、4陳琳潔（民進黨）、5鄭東元。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5619701" data-desc="P:9:苗栗三義木雕博物館父子雙個展 展現兩代藝術創作" class="ph" title="苗栗三義木雕博物館父子雙個展 展現兩代藝術創作">
+                <img class="lazy_imgs" alt="苗栗三義木雕博物館父子雙個展 展現兩代藝術創作" title="苗栗三義木雕博物館父子雙個展 展現兩代藝術創作" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619701_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5619701">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5619701" class="tit" data-desc="T:9:苗栗三義木雕博物館父子雙個展 展現兩代藝術創作" title="苗栗三義木雕博物館父子雙個展 展現兩代藝術創作">苗栗三義木雕博物館父子雙個展 展現兩代藝術創作</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5619701" class="immtag chan">生活</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5619701" class="http" data-desc="T:9:苗栗三義木雕博物館父子雙個展 展現兩代藝術創作" title="苗栗三義木雕博物館父子雙個展 展現兩代藝術創作">https://news.ltn.com.tw/news/life/breakingnews/5619701</a>
+                <p>苗栗縣三義木雕博物館即日起至明年1月24日，在一館地下一樓推出「靈光之餘．飛翔心軌—黃瑞元、黃文木雕雙個展」，展出父子藝術家共44件木雕作品，呈現傳統雕刻技藝與當代藝術思維的交融，展現兩代創作者不同的生命體悟與藝術風格。黃瑞元1957年出生於苗栗縣銅鑼鄉，年輕時赴三義拜師學藝，奠定傳統木雕基礎，後曾</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/paper/1776019" data-desc="P:10:TPBL》李愷諺逆轉三分彈 國王打贏新北內戰" class="ph" title="TPBL》李愷諺逆轉三分彈 國王打贏新北內戰">
+                <img class="lazy_imgs" alt="TPBL》李愷諺逆轉三分彈 國王打贏新北內戰" title="TPBL》李愷諺逆轉三分彈 國王打贏新北內戰" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/26/phpyfCf2c.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/paper/1776019">
+                <a href="https://sports.ltn.com.tw/news/paper/1776019" class="tit" data-desc="T:10:TPBL》李愷諺逆轉三分彈 國王打贏新北內戰" title="TPBL》李愷諺逆轉三分彈 國王打贏新北內戰">TPBL》李愷諺逆轉三分彈 國王打贏新北內戰</a>
+                <i href="https://sports.ltn.com.tw/news/paper/1776019" class="immtag chan3">體育</i>
+                <span class="time">2026/10/26</span>
+                <a href="https://sports.ltn.com.tw/news/paper/1776019" class="http" data-desc="T:10:TPBL》李愷諺逆轉三分彈 國王打贏新北內戰" title="TPBL》李愷諺逆轉三分彈 國王打贏新北內戰">https://sports.ltn.com.tw/news/paper/1776019</a>
+                <p>新北國王昨靠林書緯貢獻全隊最高18分，李愷諺末節關鍵三分彈，以89：81力退中信特攻，開季收下2連勝。國王上週在客場鏖戰至延長賽力退衛冕軍夢想家，昨前兩節打完陷入42：48落後，不過易籃後找回節奏，單節僅讓對手拿下14分，李愷諺決勝節倒數2分39秒飆進逆轉三分彈，接著林書緯也在外線開火，沃許本最後2</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5618444" data-desc="P:11:TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝" class="ph" title="TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝">
+                <img class="lazy_imgs" alt="TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝" title="TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/25/phpbgNqPp.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5618444">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5618444" class="tit" data-desc="T:11:TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝" title="TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝">TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5618444" class="immtag chan3">體育</i>
+                <span class="time">2026/10/25</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5618444" class="http" data-desc="T:11:TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝" title="TPBL》林書緯18分、李愷諺關鍵三分彈 國王逆轉特攻收下2連勝">https://sports.ltn.com.tw/news/breakingnews/5618444</a>
+                <p>新北國王今靠李愷諺末節逆轉三分彈，以89：81力退新北中信特攻，收下2連勝，續居聯盟龍頭。特攻原定昨舉行開幕戰對決戰神，不過首戰因颱風攪局延至今天，今上半場靠法拉帝獨攬10分，加上謝亞軒3顆三分球，帶著48：42領先進入下半場。易籃後，特攻陷入得分荒，單節僅拿下14分，讓國王打完前三節取得67：62</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5617332" data-desc="P:12:新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人" class="ph" title="新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人">
+                <img class="lazy_imgs" alt="新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人" title="新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/24/5617332_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5617332">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5617332" class="tit" data-desc="T:12:新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人" title="新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人">新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5617332" class="immtag chan3">體育</i>
+                <span class="time">2026/10/24</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5617332" class="http" data-desc="T:12:新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人" title="新竹通棒球場開幕賽免費索票5000張15分鐘索完 挨批大當機根本在整人">https://sports.ltn.com.tw/news/breakingnews/5617332</a>
+                <p>新竹市立棒球場11月1日舉辦開幕活動，今天中午12點起開放「新竹通」APP免費索票5000張，結果15分鐘內全數索完。市議員林彥甫批「新竹通」APP系統大當機且顯示停等時間需96分鐘，沒想到再進系統就顯示已全部索完，痛批市府規劃不周延，網路抱怨罵聲連連，且免費索票未採實名制及限制市民才能索取，也讓開</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5612575" data-desc="P:13:詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播" class="ph" title="詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播">
+                <img class="lazy_imgs" alt="詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播" title="詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/20/phpV1R49u.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5612575">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5612575" class="tit" data-desc="T:13:詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播" title="詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播">詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5612575" class="immtag chan3">體育</i>
+                <span class="time">2026/10/21</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5612575" class="http" data-desc="T:13:詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播" title="詹皇領軍七六人開幕戰首秀 味全龍力拚橫掃中信兄弟 今日賽事預告與轉播">https://sports.ltn.com.tw/news/breakingnews/5612575</a>
+                <p>大家早安，自由體育為您獻上今日精彩賽事預告與轉播！NBA開幕戰今天開打，七六人今夏補進詹姆斯、J.布朗，與恩比德、馬克西組成豪華陣容，被視為本季奪冠熱門，將在開幕戰對上去年冠軍尼克，精彩戰況值得期待。馬刺明天將在主場對上吉爾吉斯亞歷山大領軍的雷霆，預計推出溫班亞瑪搭配福克斯、瓦瑟爾、哈波和瓦賽爾的「</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5613005" data-desc="P:14:屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見" class="ph" title="屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見">
+                <img class="lazy_imgs" alt="屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見" title="屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/20/5613005_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5613005">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5613005" class="tit" data-desc="T:14:屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見" title="屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見">屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5613005" class="immtag chan">社會</i>
+                <span class="time">2026/10/21</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5613005" class="http" data-desc="T:14:屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見" title="屏東4惡煞聚眾圍毆雜貨店老闆成傷 今晚遭檢方聲押禁見">https://news.ltn.com.tw/news/society/breakingnews/5613005</a>
+                <p>屏東市和生市場旁日前發生聚眾傷人案，被害的雜貨店老闆不只一次遭人毆打，屏檢昨指揮警方發動搜索4處，拘提梁姓等4名嫌犯到案，查扣作案衣物、行動電話等證物，4人兩度更換車牌犯案，相當狡猾，檢察官訊後認為其犯嫌重大，有逃亡、串證、滅證之虞，今（20）日晚間向法院聲請羈押禁見。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5612647" data-desc="P:15:亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小" class="ph" title="亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小">
+                <img class="lazy_imgs" alt="亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小" title="亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/20/phpwZ4Dt3.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5612647">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5612647" class="tit" data-desc="T:15:亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小" title="亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小">亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5612647" class="immtag chan3">體育</i>
+                <span class="time">2026/10/20</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5612647" class="http" data-desc="T:15:亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小" title="亞帕運》程銘志錯失金牌自認發揮不理想 林駿梃摘銀要把獎牌獻給妻小">https://sports.ltn.com.tw/news/breakingnews/5612647</a>
+                <p>「四朝元老」程銘志今天在名古屋亞帕運桌球C4-5級男單金牌戰力拚4局，以1：3惜敗世界排名第4的中國21歲新星彭正陽，收下銀牌；至於在C10級登場的林駿梃，金牌戰面對地主日本好手舟山真弘苦戰3局，以0：3吞敗同獲銀牌，但也創下個人在亞帕運男單的最佳成績。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5610733" data-desc="P:16:力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播" class="ph" title="力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播">
+                <img class="lazy_imgs" alt="力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播" title="力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/18/phpmE1thM.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5610733">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5610733" class="tit" data-desc="T:16:力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播" title="力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播">力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5610733" class="immtag chan3">體育</i>
+                <span class="time">2026/10/19</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5610733" class="http" data-desc="T:16:力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播" title="力拚世界大賽！美聯冠軍賽G5天王山之戰 今日賽事預告與轉播">https://sports.ltn.com.tw/news/breakingnews/5610733</a>
+                <p>大家早安，自由體育為您獻上今日精彩賽事預告與轉播！美聯冠軍賽第5戰，光芒派出王牌拉斯穆森（Drew Rasmussen）先發，守護者則選擇推出新星左投梅西克（Parker Messick），今天贏球的一方將取得聽牌優勢，誰能拿下天王山之戰呢？</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5609824" data-desc="P:17:TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家" class="ph" title="TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家">
+                <img class="lazy_imgs" alt="TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家" title="TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/17/5609824_2.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5609824">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5609824" class="tit" data-desc="T:17:TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家" title="TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家">TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5609824" class="immtag chan3">體育</i>
+                <span class="time">2026/10/17</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5609824" class="http" data-desc="T:17:TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家" title="TPBL》不再是衛冕軍就放開來打！李愷諺：現在有壓力的是夢想家">https://sports.ltn.com.tw/news/breakingnews/5609824</a>
+                <p>TPBL第三季今天點燃戰火，新北國王今靠新洋將肯刀爾33分、13籃板領軍，在延長賽以113：106擊退衛冕軍福爾摩沙夢想家，新賽季開出紅盤，後衛李愷諺從板凳出發挹注17分，他提到，國王不再是衛冕軍，現在的壓力在夢想家身上，「我們也更放開來打。」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/paper/1774831" data-desc="P:18:TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲" class="ph" title="TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲">
+                <img class="lazy_imgs" alt="TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲" title="TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/10/17/phpV4YO70.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/paper/1774831">
+                <a href="https://sports.ltn.com.tw/news/paper/1774831" class="tit" data-desc="T:18:TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲" title="TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲">TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲</a>
+                <i href="https://sports.ltn.com.tw/news/paper/1774831" class="immtag chan3">體育</i>
+                <span class="time">2026/10/17</span>
+                <a href="https://sports.ltn.com.tw/news/paper/1774831" class="http" data-desc="T:18:TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲" title="TPBL》冠軍旗壯聲勢 夢想家今上演擒王大戲">https://sports.ltn.com.tw/news/paper/1774831</a>
+                <p>TPBL第三季今天點燃戰火，尋求衛冕的福爾摩沙夢想家下午5點在主場洲際迷你蛋迎戰新北國王，賽前也會在球場掛上隊史首面冠軍旗幟，讓現場球迷一起見證冠軍榮耀。奪冠班底土洋磨合準備好了夢想家上季總冠軍賽從1：3落後演出大逆轉，拿到成軍9年以來首座冠軍，今夏也與歸化長人高柏鎧、張宗憲、馬建豪等主力完成續約，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609000" data-desc="P:19:藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感" class="ph" title="藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感">
+                <img class="lazy_imgs" alt="藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感" title="藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/16/5609000_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5609000">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609000" class="tit" data-desc="T:19:藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感" title="藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感">藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5609000" class="immtag chan">政治</i>
+                <span class="time">2026/10/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609000" class="http" data-desc="T:19:藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感" title="藍白硬通過65歲免健保費 林彥甫批：加劇世代相對剝奪感">https://news.ltn.com.tw/news/politics/breakingnews/5609000</a>
+                <p>藍白在立法院聯手三讀通過《老人福利法》修正案，65歲以上長者免健保費，由中央買單，每年預算預估高達近400億。新竹市議員林彥甫認為，補助就是另類發現金，卻是用「年齡」來區分，加劇世代間的相對剝奪感，也讓年輕世代更倍感無力。《老人福利法》修正案號稱有排富門檻，實際上卻讓83％長輩享有免繳健保費優惠。林</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=林彥&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=林彥&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=林彥&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=林彥&start_time=20041201&end_time=20261104&sort=date&type=all&page=5" class="p_num" data-desc="5" title="第5頁">5</a><a href="https://search.ltn.com.tw/list?keyword=林彥&start_time=20041201&end_time=20261104&sort=date&type=all&page=6" class="p_num" data-desc="6" title="第6頁">6</a><a href="https://search.ltn.com.tw/list?keyword=林彥&start_time=20041201&end_time=20261104&sort=date&type=all&page=7" class="p_num" data-desc="7" title="第7頁">7</a><a href="https://search.ltn.com.tw/list?keyword=林彥&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

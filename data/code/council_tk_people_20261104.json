@@ -1,0 +1,634 @@
+[
+ {
+  "pid": "p01",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|謝閔弘",
+  "name": "謝閔弘",
+  "search_name": "謝閔弘",
+  "district": "臺北市第1選舉區",
+  "party": "時代力量"
+ },
+ {
+  "pid": "p02",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|李文",
+  "name": "李文",
+  "search_name": "李文",
+  "district": "臺北市第1選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p03",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳彥廷",
+  "name": "陳彥廷",
+  "search_name": "陳彥廷",
+  "district": "臺北市第1選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p04",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|紀建漢",
+  "name": "紀建漢",
+  "search_name": "紀建漢",
+  "district": "臺北市第1選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p05",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林揚庭",
+  "name": "林揚庭",
+  "search_name": "林揚庭",
+  "district": "臺北市第1選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p06",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|賴苡任",
+  "name": "賴苡任",
+  "search_name": "賴苡任",
+  "district": "臺北市第1選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p07",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|劉致妤",
+  "name": "劉致妤",
+  "search_name": "劉致妤",
+  "district": "臺北市第1選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p08",
+  "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林聖峰",
+  "name": "林聖峰",
+  "search_name": "林聖峰",
+  "district": "臺北市第1選舉區",
+  "party": "天宙和平統一家庭黨"
+ },
+ {
+  "pid": "p09",
+  "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳冠安",
+  "name": "陳冠安",
+  "search_name": "陳冠安",
+  "district": "臺北市第2選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p10",
+  "candidate_key": "2026|直轄市議員|臺北市第2選舉區|高嘉瑜",
+  "name": "高嘉瑜",
+  "search_name": "高嘉瑜",
+  "district": "臺北市第2選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p11",
+  "candidate_key": "2026|直轄市議員|臺北市第2選舉區|何恕懷",
+  "name": "何恕懷",
+  "search_name": "何恕懷",
+  "district": "臺北市第2選舉區",
+  "party": "新黨"
+ },
+ {
+  "pid": "p12",
+  "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳又新",
+  "name": "陳又新",
+  "search_name": "陳又新",
+  "district": "臺北市第2選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p13",
+  "candidate_key": "2026|直轄市議員|臺北市第2選舉區|黃啟彬",
+  "name": "黃啟彬",
+  "search_name": "黃啟彬",
+  "district": "臺北市第2選舉區",
+  "party": "永久和平自然法"
+ },
+ {
+  "pid": "p14",
+  "candidate_key": "2026|直轄市議員|臺北市第3選舉區|鄧樂強",
+  "name": "鄧樂強",
+  "search_name": "鄧樂強",
+  "district": "臺北市第3選舉區",
+  "party": "台灣基進"
+ },
+ {
+  "pid": "p15",
+  "candidate_key": "2026|直轄市議員|臺北市第3選舉區|郭凡",
+  "name": "郭凡",
+  "search_name": "郭凡",
+  "district": "臺北市第3選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p16",
+  "candidate_key": "2026|直轄市議員|臺北市第3選舉區|李明璇",
+  "name": "李明璇",
+  "search_name": "李明璇",
+  "district": "臺北市第3選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p17",
+  "candidate_key": "2026|直轄市議員|臺北市第3選舉區|許甫",
+  "name": "許甫",
+  "search_name": "許甫",
+  "district": "臺北市第3選舉區",
+  "party": "台灣民眾黨"
+ },
+ {
+  "pid": "p18",
+  "candidate_key": "2026|直轄市議員|臺北市第3選舉區|左曉明",
+  "name": "左曉明",
+  "search_name": "左曉明",
+  "district": "臺北市第3選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p19",
+  "candidate_key": "2026|直轄市議員|臺北市第3選舉區|林柏勛",
+  "name": "林柏勛",
+  "search_name": "林柏勛",
+  "district": "臺北市第3選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p20",
+  "candidate_key": "2026|直轄市議員|臺北市第3選舉區|許原榮",
+  "name": "許原榮",
+  "search_name": "許原榮",
+  "district": "臺北市第3選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p21",
+  "candidate_key": "2026|直轄市議員|臺北市第4選舉區|朱政騏",
+  "name": "朱政騏",
+  "search_name": "朱政騏",
+  "district": "臺北市第4選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p22",
+  "candidate_key": "2026|直轄市議員|臺北市第4選舉區|賴俊翰",
+  "name": "賴俊翰",
+  "search_name": "賴俊翰",
+  "district": "臺北市第4選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p23",
+  "candidate_key": "2026|直轄市議員|臺北市第4選舉區|熊羿",
+  "name": "熊羿",
+  "search_name": "熊羿",
+  "district": "臺北市第4選舉區",
+  "party": "勞動黨"
+ },
+ {
+  "pid": "p24",
+  "candidate_key": "2026|直轄市議員|臺北市第4選舉區|李易儒",
+  "name": "李易儒",
+  "search_name": "李易儒",
+  "district": "臺北市第4選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p25",
+  "candidate_key": "2026|直轄市議員|臺北市第4選舉區|林子揚",
+  "name": "林子揚",
+  "search_name": "林子揚",
+  "district": "臺北市第4選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p26",
+  "candidate_key": "2026|直轄市議員|臺北市第4選舉區|黃麗香",
+  "name": "黃麗香",
+  "search_name": "黃麗香",
+  "district": "臺北市第4選舉區",
+  "party": "台聯黨"
+ },
+ {
+  "pid": "p27",
+  "candidate_key": "2026|直轄市議員|臺北市第4選舉區|李惠暄",
+  "name": "李惠暄",
+  "search_name": "李惠暄",
+  "district": "臺北市第4選舉區",
+  "party": "小民參政歐巴桑聯盟"
+ },
+ {
+  "pid": "p28",
+  "candidate_key": "2026|直轄市議員|臺北市第5選舉區|張銘祐",
+  "name": "張銘祐",
+  "search_name": "張銘祐",
+  "district": "臺北市第5選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p29",
+  "candidate_key": "2026|直轄市議員|臺北市第5選舉區|陳力新",
+  "name": "陳力新",
+  "search_name": "陳力新",
+  "district": "臺北市第5選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p30",
+  "candidate_key": "2026|直轄市議員|臺北市第5選舉區|王振庭",
+  "name": "王振庭",
+  "search_name": "王振庭",
+  "district": "臺北市第5選舉區",
+  "party": "台灣綠黨"
+ },
+ {
+  "pid": "p31",
+  "candidate_key": "2026|直轄市議員|臺北市第5選舉區|應佳妤",
+  "name": "應佳妤",
+  "search_name": "應佳妤",
+  "district": "臺北市第5選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p32",
+  "candidate_key": "2026|直轄市議員|臺北市第5選舉區|張延廷",
+  "name": "張延廷",
+  "search_name": "張延廷",
+  "district": "臺北市第5選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p33",
+  "candidate_key": "2026|直轄市議員|臺北市第5選舉區|馬郁雯",
+  "name": "馬郁雯",
+  "search_name": "馬郁雯",
+  "district": "臺北市第5選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p34",
+  "candidate_key": "2026|直轄市議員|臺北市第5選舉區|譚傳紹",
+  "name": "譚傳紹",
+  "search_name": "譚傳紹",
+  "district": "臺北市第5選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p35",
+  "candidate_key": "2026|直轄市議員|臺北市第6選舉區|李道翔",
+  "name": "李道翔",
+  "search_name": "李道翔",
+  "district": "臺北市第6選舉區",
+  "party": "左翼聯盟"
+ },
+ {
+  "pid": "p36",
+  "candidate_key": "2026|直轄市議員|臺北市第6選舉區|陳峙穎",
+  "name": "陳峙穎",
+  "search_name": "陳峙穎",
+  "district": "臺北市第6選舉區",
+  "party": "時代力量"
+ },
+ {
+  "pid": "p37",
+  "candidate_key": "2026|直轄市議員|臺北市第6選舉區|李奇峯",
+  "name": "李奇峯",
+  "search_name": "李奇峯",
+  "district": "臺北市第6選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p38",
+  "candidate_key": "2026|直轄市議員|臺北市第6選舉區|游智彬",
+  "name": "游智彬",
+  "search_name": "游智彬",
+  "district": "臺北市第6選舉區",
+  "party": "新黨"
+ },
+ {
+  "pid": "p39",
+  "candidate_key": "2026|直轄市議員|臺北市第6選舉區|劉品妡",
+  "name": "劉品妡",
+  "search_name": "劉品妡",
+  "district": "臺北市第6選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p40",
+  "candidate_key": "2026|直轄市議員|臺北市第6選舉區|張維學",
+  "name": "張維學",
+  "search_name": "張維學",
+  "district": "臺北市第6選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p41",
+  "candidate_key": "2026|直轄市議員|臺北市第7選舉區|林筱薇IcyangTamana",
+  "name": "林筱薇IcyangTamana",
+  "search_name": "林筱薇",
+  "district": "臺北市第7選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p42",
+  "candidate_key": "2026|直轄市議員|臺北市第8選舉區|林家豪",
+  "name": "林家豪",
+  "search_name": "林家豪",
+  "district": "臺北市第8選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p43",
+  "candidate_key": "2026|直轄市議員|臺北市第8選舉區|李傅鈺婷",
+  "name": "李傅鈺婷",
+  "search_name": "李傅鈺婷",
+  "district": "臺北市第8選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p44",
+  "candidate_key": "2026|直轄市議員|臺北市第8選舉區|孔垂崢HaisulIslituan",
+  "name": "孔垂崢HaisulIslituan",
+  "search_name": "孔垂崢",
+  "district": "臺北市第8選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p45",
+  "candidate_key": "2026|直轄市議員|高雄市第1選舉區|鍾炳光",
+  "name": "鍾炳光",
+  "search_name": "鍾炳光",
+  "district": "高雄市第1選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p46",
+  "candidate_key": "2026|直轄市議員|高雄市第1選舉區|李振豪",
+  "name": "李振豪",
+  "search_name": "李振豪",
+  "district": "高雄市第1選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p47",
+  "candidate_key": "2026|直轄市議員|高雄市第2選舉區|李柏融",
+  "name": "李柏融",
+  "search_name": "李柏融",
+  "district": "高雄市第2選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p48",
+  "candidate_key": "2026|直轄市議員|高雄市第2選舉區|陳琳潔",
+  "name": "陳琳潔",
+  "search_name": "陳琳潔",
+  "district": "高雄市第2選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p49",
+  "candidate_key": "2026|直轄市議員|高雄市第3選舉區|張騏晟",
+  "name": "張騏晟",
+  "search_name": "張騏晟",
+  "district": "高雄市第3選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p50",
+  "candidate_key": "2026|直轄市議員|高雄市第3選舉區|蔡秉璁",
+  "name": "蔡秉璁",
+  "search_name": "蔡秉璁",
+  "district": "高雄市第3選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p51",
+  "candidate_key": "2026|直轄市議員|高雄市第3選舉區|黃韻涵",
+  "name": "黃韻涵",
+  "search_name": "黃韻涵",
+  "district": "高雄市第3選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p52",
+  "candidate_key": "2026|直轄市議員|高雄市第3選舉區|蔣黃女",
+  "name": "蔣黃女",
+  "search_name": "蔣黃女",
+  "district": "高雄市第3選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p53",
+  "candidate_key": "2026|直轄市議員|高雄市第4選舉區|陳冠宇",
+  "name": "陳冠宇",
+  "search_name": "陳冠宇",
+  "district": "高雄市第4選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p54",
+  "candidate_key": "2026|直轄市議員|高雄市第4選舉區|尹立",
+  "name": "尹立",
+  "search_name": "尹立",
+  "district": "高雄市第4選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p55",
+  "candidate_key": "2026|直轄市議員|高雄市第4選舉區|張以理",
+  "name": "張以理",
+  "search_name": "張以理",
+  "district": "高雄市第4選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p56",
+  "candidate_key": "2026|直轄市議員|高雄市第4選舉區|薛兆基",
+  "name": "薛兆基",
+  "search_name": "薛兆基",
+  "district": "高雄市第4選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p57",
+  "candidate_key": "2026|直轄市議員|高雄市第7選舉區|黃淑美",
+  "name": "黃淑美",
+  "search_name": "黃淑美",
+  "district": "高雄市第7選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p58",
+  "candidate_key": "2026|直轄市議員|高雄市第7選舉區|余聖明",
+  "name": "余聖明",
+  "search_name": "余聖明",
+  "district": "高雄市第7選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p59",
+  "candidate_key": "2026|直轄市議員|高雄市第7選舉區|林彥",
+  "name": "林彥",
+  "search_name": "林彥",
+  "district": "高雄市第7選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p60",
+  "candidate_key": "2026|直轄市議員|高雄市第8選舉區|陳雅敏",
+  "name": "陳雅敏",
+  "search_name": "陳雅敏",
+  "district": "高雄市第8選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p61",
+  "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃舜杰",
+  "name": "黃舜杰",
+  "search_name": "黃舜杰",
+  "district": "高雄市第8選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p62",
+  "candidate_key": "2026|直轄市議員|高雄市第8選舉區|鄒約翰",
+  "name": "鄒約翰",
+  "search_name": "鄒約翰",
+  "district": "高雄市第8選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p63",
+  "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃鈺婷",
+  "name": "黃鈺婷",
+  "search_name": "黃鈺婷",
+  "district": "高雄市第8選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p64",
+  "candidate_key": "2026|直轄市議員|高雄市第9選舉區|鄧巧佩",
+  "name": "鄧巧佩",
+  "search_name": "鄧巧佩",
+  "district": "高雄市第9選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p65",
+  "candidate_key": "2026|直轄市議員|高雄市第10選舉區|李政憲",
+  "name": "李政憲",
+  "search_name": "李政憲",
+  "district": "高雄市第10選舉區",
+  "party": "司法改革黨"
+ },
+ {
+  "pid": "p66",
+  "candidate_key": "2026|直轄市議員|高雄市第10選舉區|劉仙娥",
+  "name": "劉仙娥",
+  "search_name": "劉仙娥",
+  "district": "高雄市第10選舉區",
+  "party": "勞動黨"
+ },
+ {
+  "pid": "p67",
+  "candidate_key": "2026|直轄市議員|高雄市第10選舉區|吳昱鋒",
+  "name": "吳昱鋒",
+  "search_name": "吳昱鋒",
+  "district": "高雄市第10選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p68",
+  "candidate_key": "2026|直轄市議員|高雄市第10選舉區|李紘毅",
+  "name": "李紘毅",
+  "search_name": "李紘毅",
+  "district": "高雄市第10選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p69",
+  "candidate_key": "2026|直轄市議員|高雄市第10選舉區|于仙玲",
+  "name": "于仙玲",
+  "search_name": "于仙玲",
+  "district": "高雄市第10選舉區",
+  "party": "小民參政歐巴桑聯盟"
+ },
+ {
+  "pid": "p70",
+  "candidate_key": "2026|直轄市議員|高雄市第10選舉區|張藝璉",
+  "name": "張藝璉",
+  "search_name": "張藝璉",
+  "district": "高雄市第10選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p71",
+  "candidate_key": "2026|直轄市議員|高雄市第11選舉區|張耀中",
+  "name": "張耀中",
+  "search_name": "張耀中",
+  "district": "高雄市第11選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p72",
+  "candidate_key": "2026|直轄市議員|高雄市第12選舉區|巫振興",
+  "name": "巫振興",
+  "search_name": "巫振興",
+  "district": "高雄市第12選舉區",
+  "party": "民主進步黨"
+ },
+ {
+  "pid": "p73",
+  "candidate_key": "2026|直轄市議員|高雄市第12選舉區|宋紹銘",
+  "name": "宋紹銘",
+  "search_name": "宋紹銘",
+  "district": "高雄市第12選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p74",
+  "candidate_key": "2026|直轄市議員|高雄市第13選舉區|葛姵瑩",
+  "name": "葛姵瑩",
+  "search_name": "葛姵瑩",
+  "district": "高雄市第13選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p75",
+  "candidate_key": "2026|直轄市議員|高雄市第14選舉區|林錫閔",
+  "name": "林錫閔",
+  "search_name": "林錫閔",
+  "district": "高雄市第14選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p76",
+  "candidate_key": "2026|直轄市議員|高雄市第14選舉區|洪英雄Salizan．binkinuan",
+  "name": "洪英雄Salizan．binkinuan",
+  "search_name": "洪英雄",
+  "district": "高雄市第14選舉區",
+  "party": "中國國民黨"
+ },
+ {
+  "pid": "p77",
+  "candidate_key": "2026|直轄市議員|高雄市第14選舉區|高忠德Takiludun．Anu",
+  "name": "高忠德Takiludun．Anu",
+  "search_name": "高忠德",
+  "district": "高雄市第14選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p78",
+  "candidate_key": "2026|直轄市議員|高雄市第15選舉區|金禾雅",
+  "name": "金禾雅",
+  "search_name": "金禾雅",
+  "district": "高雄市第15選舉區",
+  "party": "無"
+ },
+ {
+  "pid": "p79",
+  "candidate_key": "2026|直轄市議員|高雄市第15選舉區|陳奕蓁",
+  "name": "陳奕蓁",
+  "search_name": "陳奕蓁",
+  "district": "高雄市第15選舉區",
+  "party": "中國國民黨"
+ }
+]

@@ -1,0 +1,209 @@
+﻿candidate_key,pid,candidate_name,county_city,electoral_district,field,current_value,proposed_value,decision,decision_basis,check_method,evidence_excerpt,source_url,source_file,cec_record,note,checked_date
+2026|直轄市議員|臺北市第1選舉區|謝閔弘,p01,謝閔弘,臺北市,臺北市第1選舉區,G1,,30,accepted,cec_record_identity_confirmed,手動查核,曾於2022年參選北投區裕民里里長,https://political.tw/people/謝閔弘/,data/raw/council_tk_gaps_20261104/p01_politicaltw.html,data/raw/cec_all_offices/112_elcand.csv:7417,中選會 2022 北投區裕民里紀錄出生 1996-07-16；political.tw 載明其 2022 參選裕民里長。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|謝閔弘,p01,謝閔弘,臺北市,臺北市第1選舉區,G3,,大學以下,accepted,source_rule,手動查核,謝閔弘就讀國立臺灣師範大學東亞學系,https://political.tw/people/謝閔弘/,data/raw/council_tk_gaps_20261104/p01_politicaltw.html,data/raw/cec_all_offices/112_elcand.csv:7417,中選會 2022 學歷高中(職)；目前就讀大學不算完成。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|李文,p02,李文,臺北市,臺北市第1選舉區,G3,,大學以下,accepted,user_rule_no_education_lowest,手動查核,,,,data/raw/cec_all_offices/095_elcand.csv:391,中選會 2020 學歷欄為「其他」，依楊喬茵「查無學歷歸最低」決定。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|李文,p02,李文,臺北市,臺北市第1選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,李敖女兒李文宣布參選士林北投議員,https://political.tw/people/李文/,data/raw/council_tk_gaps_20261104/p02_politicaltw.html,data/raw/cec_all_offices/095_elcand.csv:391,中選會 2020 臺北市立委候選人李文（女，1964-09-22），與主表 G1=62（1964 年生）一致；political.tw 另載其 2022 宣布參選市長。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|陳彥廷,p03,陳彥廷,臺北市,臺北市第1選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|陳彥廷,p03,陳彥廷,臺北市,臺北市第1選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|陳彥廷,p03,陳彥廷,臺北市,臺北市第1選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,歷屆檔僅有屏東縣潮州鎮里長同名者（另一縣市）；political.tw 同名頁為新北民眾黨參選人，亦非本人。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|紀建漢,p04,紀建漢,臺北市,臺北市第1選舉區,G1,,44,accepted,cec_record_identity_confirmed,手動查核,中央社報導列紀建漢為臺北市士林區後港里里長 ｜ 後港里長候選人紀建漢,https://political.tw/people/紀建漢/ ｜ https://news.ltn.com.tw/news/local/paper/441727,data/raw/council_tk_gaps_20261104/p04_politicaltw.html ｜ data/raw/council_tk_gaps_20261104/ltn_441727.html,data/raw/cec_all_offices/112_elcand.csv:7318,出生 1982-01-16,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|紀建漢,p04,紀建漢,臺北市,臺北市第1選舉區,G3,,大學,accepted,cec_record_identity_confirmed,手動查核,中央社報導列紀建漢為臺北市士林區後港里里長 ｜ 後港里長候選人紀建漢,https://political.tw/people/紀建漢/ ｜ https://news.ltn.com.tw/news/local/paper/441727,data/raw/council_tk_gaps_20261104/p04_politicaltw.html ｜ data/raw/council_tk_gaps_20261104/ltn_441727.html,data/raw/cec_all_offices/112_elcand.csv:7318,2014／2018／2022 學歷皆為大學,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|紀建漢,p04,紀建漢,臺北市,臺北市第1選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,中央社報導列紀建漢為臺北市士林區後港里里長 ｜ 後港里長候選人紀建漢,https://political.tw/people/紀建漢/ ｜ https://news.ltn.com.tw/news/local/paper/441727,data/raw/council_tk_gaps_20261104/p04_politicaltw.html ｜ data/raw/council_tk_gaps_20261104/ltn_441727.html,data/raw/cec_all_offices/112_elcand.csv:7318,2014、2018、2022 當選士林區後港里長,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|林揚庭,p05,林揚庭,臺北市,臺北市第1選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|林揚庭,p05,林揚庭,臺北市,臺北市第1選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|林揚庭,p05,林揚庭,臺北市,臺北市第1選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|賴苡任,p06,賴苡任,臺北市,臺北市第1選舉區,G1,,37,accepted,source_rule,手動查核,1989年4月10日,https://zh.wikipedia.org/zh-tw/賴苡任,data/raw/council_tk_gaps_20261104/p06_wiki.html,,維基百科出生 1989-04-10。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|劉致妤,p07,劉致妤,臺北市,臺北市第1選舉區,G1,,48,accepted,source_rule,手動查核,1978年10月10日 ｜ 47歲劉致妤,https://zh.wikipedia.org/zh-tw/劉致妤 ｜ https://ent.ltn.com.tw/news/breakingnews/5564523,data/raw/council_tk_gaps_20261104/p07_wiki.html ｜ data/raw/council_tk_gaps_20261104/ltn_5564523.html,,維基百科出生 1978-10-10；2026-09 報導 47 歲（生日前）一致。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|劉致妤,p07,劉致妤,臺北市,臺北市第1選舉區,G3,,大學以下,accepted,source_rule,手動查核,育達商職畢業 ｜ 決定重返校園攻讀社工相關課程,https://zh.wikipedia.org/zh-tw/劉致妤 ｜ https://ent.ltn.com.tw/news/breakingnews/5564523,data/raw/council_tk_gaps_20261104/p07_wiki.html ｜ data/raw/council_tk_gaps_20261104/ltn_5564523.html,,最高已完成為商職；攻讀中不算完成。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|劉致妤,p07,劉致妤,臺北市,臺北市第1選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,決定從幕後助理走向第一線,https://ent.ltn.com.tw/news/breakingnews/5564523,data/raw/council_tk_gaps_20261104/ltn_5564523.html,,2021 年曾參選新黨黨代表（黨內選舉，非公職）。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|林聖峰,p08,林聖峰,臺北市,臺北市第1選舉區,G1,,48,accepted,cec_record_same_district_name_match,手動查核,,,,data/raw/cec_all_offices/112_elcand.csv:7405,出生 1978-03-15；文林里位於本選區（士林北投），歷屆檔僅此一人同名。身分未經新聞獨立佐證，待確認。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|林聖峰,p08,林聖峰,臺北市,臺北市第1選舉區,G3,,研究所,accepted,cec_record_same_district_name_match,手動查核,,,,data/raw/cec_all_offices/112_elcand.csv:7405,學歷碩士；文林里位於本選區（士林北投），歷屆檔僅此一人同名。身分未經新聞獨立佐證，待確認。,2026-11-04
+2026|直轄市議員|臺北市第1選舉區|林聖峰,p08,林聖峰,臺北市,臺北市第1選舉區,G5,,0,accepted,cec_record_same_district_name_match,手動查核,,,,data/raw/cec_all_offices/112_elcand.csv:7405,2014、2022 參選北投區文林里長；文林里位於本選區（士林北投），歷屆檔僅此一人同名。身分未經新聞獨立佐證，待確認。,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|陳冠安,p09,陳冠安,臺北市,臺北市第2選舉區,G1,,36,accepted,source_rule,手動查核,1990年8月19日,https://zh.wikipedia.org/zh-tw/陳冠安,data/raw/council_tk_gaps_20261104/p09_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|陳冠安,p09,陳冠安,臺北市,臺北市第2選舉區,G3,,研究所,accepted,source_rule,手動查核,國立臺灣大學 政研所碩士,https://zh.wikipedia.org/zh-tw/陳冠安,data/raw/council_tk_gaps_20261104/p09_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|陳冠安,p09,陳冠安,臺北市,臺北市第2選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,五席裡面之中唯一的新人陳冠安,https://news.ltn.com.tw/news/politics/breakingnews/5559131,data/raw/council_tk_gaps_20261104/ltn_5559131.html,,,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|高嘉瑜,p10,高嘉瑜,臺北市,臺北市第2選舉區,G3,,研究所,accepted,cec_record_identity_confirmed,手動查核,國立臺灣大學國家發展研究所,https://zh.wikipedia.org/zh-tw/高嘉瑜,data/raw/council_tk_gaps_20261104/p10_wiki.html,data/raw/cec_all_offices/114_elcand.csv:196,中選會 2010–2024 學歷皆為碩士。,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|何恕懷,p11,何恕懷,臺北市,臺北市第2選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|何恕懷,p11,何恕懷,臺北市,臺北市第2選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|何恕懷,p11,何恕懷,臺北市,臺北市第2選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|陳又新,p12,陳又新,臺北市,臺北市第2選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,,,,data/raw/cec_all_offices/079_elcand.csv:35,中選會 2018 臺北市第2選區議員候選人陳又新，出生 1982-05-24，與主表 G1=44 一致且同選區。,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|黃啟彬,p13,黃啟彬,臺北市,臺北市第2選舉區,G1,,53,accepted,cec_record_identity_confirmed,手動查核,不要任何政黨在國會過半,https://political.tw/people/黃啟彬/,data/raw/council_tk_gaps_20261104/p13_politicaltw.html,data/raw/cec_all_offices/114_elcand.csv:214,出生 1973-02-11；2024 臺北市第4選區（內湖南港）立委候選人，與本選區相同；political.tw 載其 2024-01 立委選舉主張。,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|黃啟彬,p13,黃啟彬,臺北市,臺北市第2選舉區,G3,,大學以下,accepted,cec_record_identity_confirmed,手動查核,不要任何政黨在國會過半,https://political.tw/people/黃啟彬/,data/raw/council_tk_gaps_20261104/p13_politicaltw.html,data/raw/cec_all_offices/114_elcand.csv:214,學歷專科；2024 臺北市第4選區（內湖南港）立委候選人，與本選區相同；political.tw 載其 2024-01 立委選舉主張。,2026-11-04
+2026|直轄市議員|臺北市第2選舉區|黃啟彬,p13,黃啟彬,臺北市,臺北市第2選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,不要任何政黨在國會過半,https://political.tw/people/黃啟彬/,data/raw/council_tk_gaps_20261104/p13_politicaltw.html,data/raw/cec_all_offices/114_elcand.csv:214,2008、2024 參選立委；2024 臺北市第4選區（內湖南港）立委候選人，與本選區相同；political.tw 載其 2024-01 立委選舉主張。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|鄧樂強,p14,鄧樂強,臺北市,臺北市第3選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|鄧樂強,p14,鄧樂強,臺北市,臺北市第3選舉區,G3,,研究所,accepted,listed_education_assumed_completed,手動查核,鄧樂強是台大法律系畢業的空軍退役上校,https://news.ltn.com.tw/news/politics/breakingnews/5384345,data/raw/council_tk_gaps_20261104/ltn_5384345.html,,台大法律系明載畢業；候選人頁另列「國立銘傳大學企業管理研究所」未寫畢業，依列名視為完成。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|鄧樂強,p14,鄧樂強,臺北市,臺北市第3選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|郭凡,p15,郭凡,臺北市,臺北市第3選舉區,G1,,26,accepted,age_from_report,手動查核,26歲新人郭凡,https://news.ltn.com.tw/news/politics/breakingnews/5606134,data/raw/council_tk_gaps_20261104/ltn_5606134.html,,報導 26 歲（網友另稱 2000 年生）。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|郭凡,p15,郭凡,臺北市,臺北市第3選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|郭凡,p15,郭凡,臺北市,臺北市第3選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,尤其郭凡是新人,https://news.ltn.com.tw/news/politics/breakingnews/5602783,data/raw/council_tk_gaps_20261104/ltn_5602783.html,,,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|李明璇,p16,李明璇,臺北市,臺北市第3選舉區,G1,,33,accepted,source_rule,手動查核,1993年3月30日,https://zh.wikipedia.org/zh-tw/李明璇,data/raw/council_tk_gaps_20261104/p16_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|李明璇,p16,李明璇,臺北市,臺北市第3選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,1993年3月30日,https://zh.wikipedia.org/zh-tw/李明璇,data/raw/council_tk_gaps_20261104/p16_wiki.html,data/raw/cec_all_offices/114_elcand.csv:125,中選會 2024 高雄市立委候選人李明璇出生 1993-03-30，與維基百科完全一致。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|許甫,p17,許甫,臺北市,臺北市第3選舉區,G3,,大學,accepted,source_rule,手動查核,畢業於 國立政治大學 新聞學系,https://zh.wikipedia.org/zh-tw/許甫,data/raw/council_tk_gaps_20261104/p17_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|左曉明,p18,左曉明,臺北市,臺北市第3選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|左曉明,p18,左曉明,臺北市,臺北市第3選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|左曉明,p18,左曉明,臺北市,臺北市第3選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|林柏勛,p19,林柏勛,臺北市,臺北市第3選舉區,G1,,43,accepted,source_rule,手動查核,1983年11月15日,https://zh.wikipedia.org/zh-tw/林柏勛,data/raw/council_tk_gaps_20261104/p19_wiki.html,data/raw/cec_all_offices/107_elcand.csv:43,,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|林柏勛,p19,林柏勛,臺北市,臺北市第3選舉區,G3,,研究所,accepted,source_rule,手動查核,政治大學 東亞研究所碩士,https://zh.wikipedia.org/zh-tw/林柏勛,data/raw/council_tk_gaps_20261104/p19_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|林柏勛,p19,林柏勛,臺北市,臺北市第3選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,2022年曾代表時代力量參與臺北市第三選舉區議員選舉,https://zh.wikipedia.org/zh-tw/林柏勛,data/raw/council_tk_gaps_20261104/p19_wiki.html,data/raw/cec_all_offices/107_elcand.csv:43,2018、2022 參選臺北市第3選區議員。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|許原榮,p20,許原榮,臺北市,臺北市第3選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|許原榮,p20,許原榮,臺北市,臺北市第3選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第3選舉區|許原榮,p20,許原榮,臺北市,臺北市第3選舉區,G5,,1,accepted,source_rule,手動查核,許原榮出來選舉，是大姑娘進洞房，是第一次,https://news.ltn.com.tw/news/politics/breakingnews/5398484,data/raw/council_tk_gaps_20261104/ltn_5398484.html,,韓國瑜掃街時稱其第一次選舉。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|朱政騏,p21,朱政騏,臺北市,臺北市第4選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,朱政騏以新人之姿搶下提名席次,https://news.ltn.com.tw/news/politics/breakingnews/5461701,data/raw/council_tk_gaps_20261104/ltn_5461701.html,,,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|賴俊翰,p22,賴俊翰,臺北市,臺北市第4選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|賴俊翰,p22,賴俊翰,臺北市,臺北市第4選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|賴俊翰,p22,賴俊翰,臺北市,臺北市第4選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|熊羿,p23,熊羿,臺北市,臺北市第4選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|熊羿,p23,熊羿,臺北市,臺北市第4選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|熊羿,p23,熊羿,臺北市,臺北市第4選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|李易儒,p24,李易儒,臺北市,臺北市第4選舉區,G1,,47,accepted,cec_record_identity_confirmed,手動查核,中央社報導列李易儒為臺北市大安區車層里里長,https://political.tw/people/李易儒/,data/raw/council_tk_gaps_20261104/p24_politicaltw.html,data/raw/cec_all_offices/112_elcand.csv:6837,出生 1979-08-18。注意：自由時報另有同名的慈濟疫苗詐騙案通緝犯，與本候選人無關。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|李易儒,p24,李易儒,臺北市,臺北市第4選舉區,G3,,研究所,accepted,cec_record_identity_confirmed,手動查核,中央社報導列李易儒為臺北市大安區車層里里長,https://political.tw/people/李易儒/,data/raw/council_tk_gaps_20261104/p24_politicaltw.html,data/raw/cec_all_offices/112_elcand.csv:6837,學歷碩士。注意：自由時報另有同名的慈濟疫苗詐騙案通緝犯，與本候選人無關。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|李易儒,p24,李易儒,臺北市,臺北市第4選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,中央社報導列李易儒為臺北市大安區車層里里長,https://political.tw/people/李易儒/,data/raw/council_tk_gaps_20261104/p24_politicaltw.html,data/raw/cec_all_offices/112_elcand.csv:6837,2022 當選大安區車層里長。注意：自由時報另有同名的慈濟疫苗詐騙案通緝犯，與本候選人無關。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|林子揚,p25,林子揚,臺北市,臺北市第4選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|林子揚,p25,林子揚,臺北市,臺北市第4選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|林子揚,p25,林子揚,臺北市,臺北市第4選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|黃麗香,p26,黃麗香,臺北市,臺北市第4選舉區,G1,,66,accepted,cec_record_identity_confirmed,手動查核,自己多年來，深耕於中山大同,https://political.tw/people/黃麗香/,data/raw/council_tk_gaps_20261104/p26_politicaltw.html,data/raw/cec_all_offices/079_elcand.csv:68,出生 1960-07-21；同選區（中山大同）。其他同名者在臺東、臺南，非本人。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|黃麗香,p26,黃麗香,臺北市,臺北市第4選舉區,G3,,研究所,accepted,cec_record_identity_confirmed,手動查核,自己多年來，深耕於中山大同,https://political.tw/people/黃麗香/,data/raw/council_tk_gaps_20261104/p26_politicaltw.html,data/raw/cec_all_offices/079_elcand.csv:68,學歷碩士；同選區（中山大同）。其他同名者在臺東、臺南，非本人。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|黃麗香,p26,黃麗香,臺北市,臺北市第4選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,自己多年來，深耕於中山大同,https://political.tw/people/黃麗香/,data/raw/council_tk_gaps_20261104/p26_politicaltw.html,data/raw/cec_all_offices/079_elcand.csv:68,2018 參選臺北市第4選區議員；同選區（中山大同）。其他同名者在臺東、臺南，非本人。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|李惠暄,p27,李惠暄,臺北市,臺北市第4選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第4選舉區|李惠暄,p27,李惠暄,臺北市,臺北市第4選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|張銘祐,p28,張銘祐,臺北市,臺北市第5選舉區,G3,,研究所,accepted,listed_education_assumed_completed,手動查核,台北海洋科技大學 海洋休閒觀光管理研究所,https://zh.wikipedia.org/zh-tw/張銘祐,data/raw/council_tk_gaps_20261104/p28_wiki.html,,維基學歷欄只對北教大註明肄業，台北海洋科大研究所未註明肄業，視為完成。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|張銘祐,p28,張銘祐,臺北市,臺北市第5選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,1984年7月17日,https://zh.wikipedia.org/zh-tw/張銘祐,data/raw/council_tk_gaps_20261104/p28_wiki.html,data/raw/cec_all_offices/095_elcand.csv:381,中選會 2020 新北市立委候選人張銘祐出生 1984-07-17，與維基百科一致。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|陳力新,p29,陳力新,臺北市,臺北市第5選舉區,G1,,48,accepted,age_from_report,手動查核,四十八歲在地傳產業者陳力新,https://news.ltn.com.tw/news/politics/paper/1777175,data/raw/council_tk_gaps_20261104/ltn_1777175.html,,,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|陳力新,p29,陳力新,臺北市,臺北市第5選舉區,G5,,1,accepted,G5_reported_novice_rule_20261104,手動查核,以身作則鼓勵素人參政,https://news.ltn.com.tw/news/politics/paper/1777175,data/raw/council_tk_gaps_20261104/ltn_1777175.html,,以素人參政自居。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|王振庭,p30,王振庭,臺北市,臺北市第5選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|王振庭,p30,王振庭,臺北市,臺北市第5選舉區,G3,,大學,accepted,listed_education_assumed_completed,手動查核,,,,,主表 education_raw「東海大學社會工作學系」，未註明畢業或肄業。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|王振庭,p30,王振庭,臺北市,臺北市第5選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|應佳妤,p31,應佳妤,臺北市,臺北市第5選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|應佳妤,p31,應佳妤,臺北市,臺北市第5選舉區,G5,,1,accepted,source_rule,手動查核,這是她首度以候選人身分站到大眾面前,https://news.ltn.com.tw/news/politics/breakingnews/5555652,data/raw/council_tk_gaps_20261104/ltn_5555652.html,,,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|張延廷,p32,張延廷,臺北市,臺北市第5選舉區,G1,,66,accepted,source_rule,手動查核,1960年4月,https://zh.wikipedia.org/zh-tw/張延廷,data/raw/council_tk_gaps_20261104/p32_wiki.html,,維基百科出生 1960 年 4 月。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|張延廷,p32,張延廷,臺北市,臺北市第5選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|馬郁雯,p33,馬郁雯,臺北市,臺北市第5選舉區,G3,,大學,accepted,listed_education_assumed_completed,手動查核,長榮大學 大眾傳播學系,https://zh.wikipedia.org/zh-tw/馬郁雯,data/raw/council_tk_gaps_20261104/p33_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|馬郁雯,p33,馬郁雯,臺北市,臺北市第5選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|譚傳紹,p34,譚傳紹,臺北市,臺北市第5選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|譚傳紹,p34,譚傳紹,臺北市,臺北市第5選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第5選舉區|譚傳紹,p34,譚傳紹,臺北市,臺北市第5選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|李道翔,p35,李道翔,臺北市,臺北市第6選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|李道翔,p35,李道翔,臺北市,臺北市第6選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|李道翔,p35,李道翔,臺北市,臺北市第6選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|陳峙穎,p36,陳峙穎,臺北市,臺北市第6選舉區,G3,,大學,accepted,source_rule,手動查核,並畢業於 輔仁大學 經濟學系,https://zh.wikipedia.org/zh-tw/陳峙穎,data/raw/council_tk_gaps_20261104/p36_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|李奇峯,p37,李奇峯,臺北市,臺北市第6選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|李奇峯,p37,李奇峯,臺北市,臺北市第6選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|李奇峯,p37,李奇峯,臺北市,臺北市第6選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|游智彬,p38,游智彬,臺北市,臺北市第6選舉區,G1,,43,accepted,source_rule,手動查核,1983年12月23日,https://zh.wikipedia.org/zh-tw/游智彬,data/raw/council_tk_gaps_20261104/p38_wiki.html,data/raw/cec_all_offices/114_elcand.csv:99,,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|游智彬,p38,游智彬,臺北市,臺北市第6選舉區,G3,,研究所,accepted,source_rule,手動查核,淡江大學 中國大陸研究所法學碩士,https://zh.wikipedia.org/zh-tw/游智彬,data/raw/council_tk_gaps_20261104/p38_wiki.html,,,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|游智彬,p38,游智彬,臺北市,臺北市第6選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,2022年參選桃園市議員落選,https://zh.wikipedia.org/zh-tw/游智彬,data/raw/council_tk_gaps_20261104/p38_wiki.html,data/raw/cec_all_offices/114_elcand.csv:99,2022 桃園市議員、2024 桃園市立委候選人。注意：中選會已以設籍未滿 10 年不予登記 2026 參選。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|劉品妡,p39,劉品妡,臺北市,臺北市第6選舉區,G1,,30,accepted,source_rule,手動查核,劉品妡 （1996年—）,https://zh.wikipedia.org/zh-tw/劉品妡,data/raw/council_tk_gaps_20261104/p39_wiki.html,,維基百科 1996 年生。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|劉品妡,p39,劉品妡,臺北市,臺北市第6選舉區,G3,,大學,accepted,source_rule,手動查核,劉品妡畢業於 東吳大學 政治學系,https://zh.wikipedia.org/zh-tw/劉品妡,data/raw/council_tk_gaps_20261104/p39_wiki.html,,倫敦國王學院碩士為「攻讀」，未載完成。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|張維學,p40,張維學,臺北市,臺北市第6選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|張維學,p40,張維學,臺北市,臺北市第6選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第6選舉區|張維學,p40,張維學,臺北市,臺北市第6選舉區,G5,,,still_unknown,,,,,,,中選會 2024 臺北市第8選區立委候選人張維學（1949 年生）與本選區重疊，但無法確認是否同一人。,2026-11-04
+2026|直轄市議員|臺北市第7選舉區|林筱薇IcyangTamana,p41,林筱薇IcyangTamana,臺北市,臺北市第7選舉區,G3,,大學以下,accepted,source_rule,手動查核,服裝設計 學系（肄業）,https://zh.wikipedia.org/zh-tw/林筱薇,data/raw/council_tk_gaps_20261104/p41_wiki.html,,大學肄業；最高已完成為高中。,2026-11-04
+2026|直轄市議員|臺北市第7選舉區|林筱薇IcyangTamana,p41,林筱薇IcyangTamana,臺北市,臺北市第7選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|林家豪,p42,林家豪,臺北市,臺北市第8選舉區,G1,,43,accepted,cec_record_identity_confirmed,手動查核,民眾黨 新北市山地原住民市議員參選人 林家豪 ｜ 有限責任新北市原住民電腦資訊勞動合作社理事主席,https://newtalk.tw/news/view/2022-04-16/740515 ｜ https://political.tw/people/林家豪/,data/raw/council_tk_gaps_20261104/newtalk_740515_lin_jia_hao.html ｜ data/raw/council_tk_gaps_20261104/p42_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:13,出生 1983-07-31。,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|林家豪,p42,林家豪,臺北市,臺北市第8選舉區,G3,,研究所,accepted,cec_record_identity_confirmed,手動查核,民眾黨 新北市山地原住民市議員參選人 林家豪 ｜ 有限責任新北市原住民電腦資訊勞動合作社理事主席,https://newtalk.tw/news/view/2022-04-16/740515 ｜ https://political.tw/people/林家豪/,data/raw/council_tk_gaps_20261104/newtalk_740515_lin_jia_hao.html ｜ data/raw/council_tk_gaps_20261104/p42_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:13,學歷碩士。,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|林家豪,p42,林家豪,臺北市,臺北市第8選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,民眾黨 新北市山地原住民市議員參選人 林家豪 ｜ 有限責任新北市原住民電腦資訊勞動合作社理事主席,https://newtalk.tw/news/view/2022-04-16/740515 ｜ https://political.tw/people/林家豪/,data/raw/council_tk_gaps_20261104/newtalk_740515_lin_jia_hao.html ｜ data/raw/council_tk_gaps_20261104/p42_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:13,2022 以民眾黨參選新北市山地原住民議員。,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|李傅鈺婷,p43,李傅鈺婷,臺北市,臺北市第8選舉區,G1,,,still_unknown,,,,,,,中時搜尋結果摘要稱「李傅中武27歲女兒」，但未取得原文頁，未採用；已讀 ETtoday、自由時報徵召報導全文，均無年齡。,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|李傅鈺婷,p43,李傅鈺婷,臺北市,臺北市第8選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|李傅鈺婷,p43,李傅鈺婷,臺北市,臺北市第8選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|孔垂崢HaisulIslituan,p44,孔垂崢HaisulIslituan,臺北市,臺北市第8選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|孔垂崢HaisulIslituan,p44,孔垂崢HaisulIslituan,臺北市,臺北市第8選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|臺北市第8選舉區|孔垂崢HaisulIslituan,p44,孔垂崢HaisulIslituan,臺北市,臺北市第8選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第1選舉區|鍾炳光,p45,鍾炳光,高雄市,高雄市第1選舉區,G1,,63,accepted,age_from_report,手動查核,鍾炳光是警界出身，今年63歲,https://udn.com/news/story/7327/9366552,data/raw/council_tk_gaps_20261104/udn_9366552_zhong_bing_guang.html,,,2026-11-04
+2026|直轄市議員|高雄市第1選舉區|鍾炳光,p45,鍾炳光,高雄市,高雄市第1選舉區,G3,,大學以下,accepted,source_rule,手動查核,警專第一期畢業,https://udn.com/news/story/7327/9366552,data/raw/council_tk_gaps_20261104/udn_9366552_zhong_bing_guang.html,,所載最高學歷為警專（專科）。,2026-11-04
+2026|直轄市議員|高雄市第1選舉區|鍾炳光,p45,鍾炳光,高雄市,高雄市第1選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,自已已擔任公職41年,https://udn.com/news/story/7327/9366552,data/raw/council_tk_gaps_20261104/udn_9366552_zhong_bing_guang.html,,歷屆檔 2010 同名里長候選人 1952 年生，與今年 63 歲不符，非本人；公職為警察與區長（非民選）。,2026-11-04
+2026|直轄市議員|高雄市第1選舉區|李振豪,p46,李振豪,高雄市,高雄市第1選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第1選舉區|李振豪,p46,李振豪,高雄市,高雄市第1選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第1選舉區|李振豪,p46,李振豪,高雄市,高雄市第1選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,國民黨高雄市旗美地區最年輕市議員參選人李振豪,https://news.ltn.com.tw/news/politics/breakingnews/5440841,data/raw/council_tk_gaps_20261104/ltn_5440841.html,,歷屆檔同名者在苗栗縣、1961 年生，非本人；新聞中竹聯幫同名者亦非本人。,2026-11-04
+2026|直轄市議員|高雄市第2選舉區|李柏融,p47,李柏融,高雄市,高雄市第2選舉區,G1,,77,accepted,cec_record_identity_confirmed,手動查核,李柏融（70歲）過去是高雄縣茄萣鄉鄉民代表,https://news.ltn.com.tw/news/society/breakingnews/3045545,data/raw/council_tk_gaps_20261104/ltn_3045545.html,data/raw/cec_all_offices/107_elcand.csv:120,出生 1949-11-02；同選區（茄萣等）。,2026-11-04
+2026|直轄市議員|高雄市第2選舉區|李柏融,p47,李柏融,高雄市,高雄市第2選舉區,G3,,大學以下,accepted,cec_record_identity_confirmed,手動查核,李柏融（70歲）過去是高雄縣茄萣鄉鄉民代表,https://news.ltn.com.tw/news/society/breakingnews/3045545,data/raw/council_tk_gaps_20261104/ltn_3045545.html,data/raw/cec_all_offices/107_elcand.csv:120,學歷高中(職)；同選區（茄萣等）。,2026-11-04
+2026|直轄市議員|高雄市第2選舉區|李柏融,p47,李柏融,高雄市,高雄市第2選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,李柏融（70歲）過去是高雄縣茄萣鄉鄉民代表,https://news.ltn.com.tw/news/society/breakingnews/3045545,data/raw/council_tk_gaps_20261104/ltn_3045545.html,data/raw/cec_all_offices/107_elcand.csv:120,曾任茄萣鄉民代表，2018／2022 參選議員、2020 參選立委；同選區（茄萣等）。,2026-11-04
+2026|直轄市議員|高雄市第2選舉區|陳琳潔,p48,陳琳潔,高雄市,高雄市第2選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第2選舉區|陳琳潔,p48,陳琳潔,高雄市,高雄市第2選舉區,G3,,研究所,accepted,source_rule,手動查核,琳潔是英國倫敦大學公共行政碩士畢業,https://news.ltn.com.tw/news/politics/breakingnews/5334889,data/raw/council_tk_gaps_20261104/ltn_5334889.html,,,2026-11-04
+2026|直轄市議員|高雄市第2選舉區|陳琳潔,p48,陳琳潔,高雄市,高雄市第2選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|張騏晟,p49,張騏晟,高雄市,高雄市第3選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|張騏晟,p49,張騏晟,高雄市,高雄市第3選舉區,G3,,研究所,accepted,source_rule,手動查核,擁有高雄科技大學水產科技產業博士學位,https://news.ltn.com.tw/news/politics/breakingnews/5518335,data/raw/council_tk_gaps_20261104/ltn_5518335.html,,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|張騏晟,p49,張騏晟,高雄市,高雄市第3選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|蔡秉璁,p50,蔡秉璁,高雄市,高雄市第3選舉區,G1,,35,accepted,source_rule,手動查核,蔡秉璁80年次,https://news.ltn.com.tw/news/politics/breakingnews/5518335,data/raw/council_tk_gaps_20261104/ltn_5518335.html,,民國 80 年 = 1991。,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|蔡秉璁,p50,蔡秉璁,高雄市,高雄市第3選舉區,G3,,研究所,accepted,source_rule,手動查核,再取得清華大學社會所碩士學位,https://news.ltn.com.tw/news/politics/breakingnews/5518335,data/raw/council_tk_gaps_20261104/ltn_5518335.html,,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|黃韻涵,p51,黃韻涵,高雄市,高雄市第3選舉區,G1,,42,accepted,source_rule,手動查核,1984年1月4日,https://zh.wikipedia.org/zh-tw/黃韻涵,data/raw/council_tk_gaps_20261104/p51_wiki.html,data/raw/cec_all_offices/095_elcand.csv:48,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|黃韻涵,p51,黃韻涵,高雄市,高雄市第3選舉區,G3,,研究所,accepted,source_rule,手動查核,義守大學管理碩士,https://news.ltn.com.tw/news/politics/breakingnews/5472000,data/raw/council_tk_gaps_20261104/ltn_5472000.html,,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|黃韻涵,p51,黃韻涵,高雄市,高雄市第3選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,2016年、2020年，兩度代表中國國民黨參選,https://zh.wikipedia.org/zh-tw/黃韻涵,data/raw/council_tk_gaps_20261104/p51_wiki.html,data/raw/cec_all_offices/095_elcand.csv:48,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|蔣黃女,p52,蔣黃女,高雄市,高雄市第3選舉區,G1,,83,accepted,age_from_report,手動查核,83歲阿嬤蔣黃女今天登記參選,https://news.ltn.com.tw/news/politics/breakingnews/5563312,data/raw/council_tk_gaps_20261104/ltn_5563312.html,,,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|蔣黃女,p52,蔣黃女,高雄市,高雄市第3選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第3選舉區|蔣黃女,p52,蔣黃女,高雄市,高雄市第3選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|陳冠宇,p53,陳冠宇,高雄市,高雄市第4選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|陳冠宇,p53,陳冠宇,高雄市,高雄市第4選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|陳冠宇,p53,陳冠宇,高雄市,高雄市第4選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,歷屆檔同名者在新竹縣、彰化縣，非本人。,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|尹立,p54,尹立,高雄市,高雄市第4選舉區,G5,,1,accepted,source_rule,手動查核,直言自己是第一次投入選舉的新人,https://news.ltn.com.tw/news/politics/breakingnews/5594781,data/raw/council_tk_gaps_20261104/ltn_5594781.html,,,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|張以理,p55,張以理,高雄市,高雄市第4選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|張以理,p55,張以理,高雄市,高雄市第4選舉區,G3,,研究所,accepted,listed_education_assumed_completed,手動查核,,,,,主表 education_raw 列「大同大學工業設計研究所」，未註明畢業或肄業。,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|張以理,p55,張以理,高雄市,高雄市第4選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|薛兆基,p56,薛兆基,高雄市,高雄市第4選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|薛兆基,p56,薛兆基,高雄市,高雄市第4選舉區,G3,,大學,accepted,listed_education_assumed_completed,手動查核,,,,,主表 education_raw 列「中興大學」，未註明畢業或肄業。,2026-11-04
+2026|直轄市議員|高雄市第4選舉區|薛兆基,p56,薛兆基,高雄市,高雄市第4選舉區,G5,,0,accepted,source_rule,手動查核,時隔20餘年再次投入選戰,https://news.ltn.com.tw/news/politics/breakingnews/5466087,data/raw/council_tk_gaps_20261104/ltn_5466087.html,,本人稱再次投入選戰，即曾參選；歷屆檔未見其名（可能為較早或補選）。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|黃淑美,p57,黃淑美,高雄市,高雄市第7選舉區,G1,,67,accepted,cec_record_identity_confirmed,手動查核,曾任4屆議員的黃淑美,https://news.ltn.com.tw/news/politics/breakingnews/5236417,data/raw/council_tk_gaps_20261104/ltn_5236417.html,data/raw/cec_all_offices/079_elcand.csv:642,出生 1959-01-28；同選區（三民）。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|黃淑美,p57,黃淑美,高雄市,高雄市第7選舉區,G3,,研究所,accepted,cec_record_identity_confirmed,手動查核,曾任4屆議員的黃淑美,https://news.ltn.com.tw/news/politics/breakingnews/5236417,data/raw/council_tk_gaps_20261104/ltn_5236417.html,data/raw/cec_all_offices/079_elcand.csv:642,學歷碩士；同選區（三民）。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|黃淑美,p57,黃淑美,高雄市,高雄市第7選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,曾任4屆議員的黃淑美,https://news.ltn.com.tw/news/politics/breakingnews/5236417,data/raw/council_tk_gaps_20261104/ltn_5236417.html,data/raw/cec_all_offices/079_elcand.csv:642,曾任 4 屆議員；同選區（三民）。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|余聖明,p58,余聖明,高雄市,高雄市第7選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|余聖明,p58,余聖明,高雄市,高雄市第7選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|余聖明,p58,余聖明,高雄市,高雄市第7選舉區,G5,,,still_unknown,,,,,,,中選會 2018 高雄市第11選區議員候選人余聖明（1972 年生）與本人選區不同，無法確認是否同一人。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|林彥,p59,林彥,高雄市,高雄市第7選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第7選舉區|林彥,p59,林彥,高雄市,高雄市第7選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|陳雅敏,p60,陳雅敏,高雄市,高雄市第8選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|陳雅敏,p60,陳雅敏,高雄市,高雄市第8選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|陳雅敏,p60,陳雅敏,高雄市,高雄市第8選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|黃舜杰,p61,黃舜杰,高雄市,高雄市第8選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|黃舜杰,p61,黃舜杰,高雄市,高雄市第8選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|黃舜杰,p61,黃舜杰,高雄市,高雄市第8選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|鄒約翰,p62,鄒約翰,高雄市,高雄市第8選舉區,G1,,68,accepted,cec_record_identity_confirmed,手動查核,今年68歲的鄒約翰是退役軍官，曾參與第5屆高雄區域立委選舉,https://news.ltn.com.tw/news/politics/breakingnews/5562721,data/raw/council_tk_gaps_20261104/ltn_5562721.html,data/raw/cec_all_offices/124_elcand.csv:99,中選會出生民國 47 年 = 1958，與報導 68 歲一致。,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|鄒約翰,p62,鄒約翰,高雄市,高雄市第8選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|鄒約翰,p62,鄒約翰,高雄市,高雄市第8選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,曾參與第5屆高雄區域立委選舉,https://news.ltn.com.tw/news/politics/breakingnews/5562721,data/raw/council_tk_gaps_20261104/ltn_5562721.html,data/raw/cec_all_offices/124_elcand.csv:99,,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|黃鈺婷,p63,黃鈺婷,高雄市,高雄市第8選舉區,G1,,55,accepted,age_from_report,手動查核,黃鈺婷今年55歲,https://news.ltn.com.tw/news/politics/breakingnews/5563213,data/raw/council_tk_gaps_20261104/ltn_5563213.html,,維基百科同名頁為啦啦隊員，非本人。,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|黃鈺婷,p63,黃鈺婷,高雄市,高雄市第8選舉區,G3,,研究所,accepted,source_rule,手動查核,日本東京農業大學博士,https://news.ltn.com.tw/news/politics/breakingnews/5563213,data/raw/council_tk_gaps_20261104/ltn_5563213.html,,,2026-11-04
+2026|直轄市議員|高雄市第8選舉區|黃鈺婷,p63,黃鈺婷,高雄市,高雄市第8選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第9選舉區|鄧巧佩,p64,鄧巧佩,高雄市,高雄市第9選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第9選舉區|鄧巧佩,p64,鄧巧佩,高雄市,高雄市第9選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第9選舉區|鄧巧佩,p64,鄧巧佩,高雄市,高雄市第9選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|李政憲,p65,李政憲,高雄市,高雄市第10選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|李政憲,p65,李政憲,高雄市,高雄市第10選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|李政憲,p65,李政憲,高雄市,高雄市第10選舉區,G5,,,still_unknown,,,,,,,中選會 2014 高雄市議員、2024 高雄市立委有同名者（1956 年生），報導未提其參選史，無法確認。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|劉仙娥,p66,劉仙娥,高雄市,高雄市第10選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|劉仙娥,p66,劉仙娥,高雄市,高雄市第10選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|劉仙娥,p66,劉仙娥,高雄市,高雄市第10選舉區,G5,,,still_unknown,,,,,,,中選會 2020 高雄市第6選區立委有同名女性（1974 年生），無法確認是否同一人。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|吳昱鋒,p67,吳昱鋒,高雄市,高雄市第10選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|吳昱鋒,p67,吳昱鋒,高雄市,高雄市第10選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|吳昱鋒,p67,吳昱鋒,高雄市,高雄市第10選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|李紘毅,p68,李紘毅,高雄市,高雄市第10選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|李紘毅,p68,李紘毅,高雄市,高雄市第10選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|李紘毅,p68,李紘毅,高雄市,高雄市第10選舉區,G5,,0,accepted,source_rule,手動查核,李紘毅是現任高雄市小港區港明里的里長,https://news.ltn.com.tw/news/politics/breakingnews/5435219,data/raw/council_tk_gaps_20261104/ltn_5435219.html,,現任民選里長。歷屆檔港明里長名為李文正（1956 年生），可能為改名，未確認，故不採其出生年與學歷。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|于仙玲,p69,于仙玲,高雄市,高雄市第10選舉區,G1,,41,accepted,cec_record_identity_confirmed,手動查核,這是她繼2018、2022之後，第三度登記參選前鎮小港市議員,https://news.ltn.com.tw/news/politics/breakingnews/5561741,data/raw/council_tk_gaps_20261104/ltn_5561741.html,data/raw/cec_all_offices/107_elcand.csv:211,中選會 2018／2022 同選區紀錄出生 1985-11-18。,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|于仙玲,p69,于仙玲,高雄市,高雄市第10選舉區,G3,,大學,accepted,source_rule,手動查核,她介紹自己畢業於成大護理系,https://news.ltn.com.tw/news/politics/breakingnews/5387236,data/raw/council_tk_gaps_20261104/ltn_5387236.html,,,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|張藝璉,p70,張藝璉,高雄市,高雄市第10選舉區,G1,,38,accepted,age_from_report,手動查核,張藝璉今年38歲,https://news.ltn.com.tw/news/politics/breakingnews/5562721,data/raw/council_tk_gaps_20261104/ltn_5562721.html,,,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|張藝璉,p70,張藝璉,高雄市,高雄市第10選舉區,G3,,研究所,accepted,source_rule,手動查核,中央大學法政所碩士,https://news.ltn.com.tw/news/politics/breakingnews/5562721,data/raw/council_tk_gaps_20261104/ltn_5562721.html,,,2026-11-04
+2026|直轄市議員|高雄市第10選舉區|張藝璉,p70,張藝璉,高雄市,高雄市第10選舉區,G5,,1,accepted,G5_reported_novice_rule_20261104,手動查核,第五屆高市議員選舉有多位「素人」登記,https://news.ltn.com.tw/news/politics/breakingnews/5562721,data/raw/council_tk_gaps_20261104/ltn_5562721.html,,報導以素人介紹，本人稱「至少要嘗試一次」。,2026-11-04
+2026|直轄市議員|高雄市第11選舉區|張耀中,p71,張耀中,高雄市,高雄市第11選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第11選舉區|張耀中,p71,張耀中,高雄市,高雄市第11選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第11選舉區|張耀中,p71,張耀中,高雄市,高雄市第11選舉區,G5,,1,accepted,source_rule,手動查核,這是他第一次參選,https://news.ltn.com.tw/news/politics/breakingnews/5610319,data/raw/council_tk_gaps_20261104/ltn_5610319.html,,維基百科／political.tw 同名者為前臺中市議員，非本人。,2026-11-04
+2026|直轄市議員|高雄市第12選舉區|巫振興,p72,巫振興,高雄市,高雄市第12選舉區,G1,,55,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/巫振興/,data/raw/council_tk_gaps_20261104/p72_politicaltw.html,data/raw/cec_all_offices/109_elcand.csv:4,political.tw 載其為 2022 同選區議員候選人。,2026-11-04
+2026|直轄市議員|高雄市第12選舉區|巫振興,p72,巫振興,高雄市,高雄市第12選舉區,G3,,大學,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/巫振興/,data/raw/council_tk_gaps_20261104/p72_politicaltw.html,data/raw/cec_all_offices/109_elcand.csv:4,,2026-11-04
+2026|直轄市議員|高雄市第12選舉區|巫振興,p72,巫振興,高雄市,高雄市第12選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/巫振興/,data/raw/council_tk_gaps_20261104/p72_politicaltw.html,data/raw/cec_all_offices/109_elcand.csv:4,,2026-11-04
+2026|直轄市議員|高雄市第12選舉區|宋紹銘,p73,宋紹銘,高雄市,高雄市第12選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第12選舉區|宋紹銘,p73,宋紹銘,高雄市,高雄市第12選舉區,G3,,大學,accepted,listed_education_assumed_completed,手動查核,,,,,主表 education_raw 列「正修科技大學-休閒運動與管理學系」，未註明畢業或肄業。,2026-11-04
+2026|直轄市議員|高雄市第12選舉區|宋紹銘,p73,宋紹銘,高雄市,高雄市第12選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第13選舉區|葛姵瑩,p74,葛姵瑩,高雄市,高雄市第13選舉區,G1,,59,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/葛姵瑩/,data/raw/council_tk_gaps_20261104/p74_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:4,political.tw 載其為 2022 同選區議員候選人。,2026-11-04
+2026|直轄市議員|高雄市第13選舉區|葛姵瑩,p74,葛姵瑩,高雄市,高雄市第13選舉區,G3,,大學,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/葛姵瑩/,data/raw/council_tk_gaps_20261104/p74_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:4,,2026-11-04
+2026|直轄市議員|高雄市第13選舉區|葛姵瑩,p74,葛姵瑩,高雄市,高雄市第13選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/葛姵瑩/,data/raw/council_tk_gaps_20261104/p74_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:4,,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|林錫閔,p75,林錫閔,高雄市,高雄市第14選舉區,G1,,62,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/林錫閔/,data/raw/council_tk_gaps_20261104/p75_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:8,political.tw 載其為 2022 同選區議員候選人。,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|林錫閔,p75,林錫閔,高雄市,高雄市第14選舉區,G3,,研究所,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/林錫閔/,data/raw/council_tk_gaps_20261104/p75_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:8,,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|林錫閔,p75,林錫閔,高雄市,高雄市第14選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,2022年高雄市第1,https://political.tw/people/林錫閔/,data/raw/council_tk_gaps_20261104/p75_politicaltw.html,data/raw/cec_all_offices/111_elcand.csv:8,,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|洪英雄Salizan．binkinuan,p76,洪英雄Salizan．binkinuan,高雄市,高雄市第14選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|洪英雄Salizan．binkinuan,p76,洪英雄Salizan．binkinuan,高雄市,高雄市第14選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|洪英雄Salizan．binkinuan,p76,洪英雄Salizan．binkinuan,高雄市,高雄市第14選舉區,G5,,1,accepted,G5_no_prior_cec_record_rule_20261104,手動查核,,,,,,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|高忠德Takiludun．Anu,p77,高忠德Takiludun．Anu,高雄市,高雄市第14選舉區,G1,,54,accepted,cec_record_identity_confirmed,手動查核,高雄市議員高忠德,https://news.ltn.com.tw/news/life/breakingnews/5130274,data/raw/council_tk_gaps_20261104/ltn_5130274.html,data/raw/cec_all_offices/111_elcand.csv:6,出生 1972-02-18（歷屆檔姓名含族名 Takiludun．Anu）。,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|高忠德Takiludun．Anu,p77,高忠德Takiludun．Anu,高雄市,高雄市第14選舉區,G3,,大學以下,accepted,cec_record_identity_confirmed,手動查核,高雄市議員高忠德,https://news.ltn.com.tw/news/life/breakingnews/5130274,data/raw/council_tk_gaps_20261104/ltn_5130274.html,data/raw/cec_all_offices/111_elcand.csv:6,學歷高中(職)以下（歷屆檔姓名含族名 Takiludun．Anu）。,2026-11-04
+2026|直轄市議員|高雄市第14選舉區|高忠德Takiludun．Anu,p77,高忠德Takiludun．Anu,高雄市,高雄市第14選舉區,G5,,0,accepted,cec_record_identity_confirmed,手動查核,高雄市議員高忠德,https://news.ltn.com.tw/news/life/breakingnews/5130274,data/raw/council_tk_gaps_20261104/ltn_5130274.html,data/raw/cec_all_offices/111_elcand.csv:6,2022 當選高雄市第14選區議員（歷屆檔姓名含族名 Takiludun．Anu）。,2026-11-04
+2026|直轄市議員|高雄市第15選舉區|金禾雅,p78,金禾雅,高雄市,高雄市第15選舉區,G1,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第15選舉區|金禾雅,p78,金禾雅,高雄市,高雄市第15選舉區,G3,,,still_unknown,,,,,,,全文閱讀後仍未找到可用資料。,2026-11-04
+2026|直轄市議員|高雄市第15選舉區|陳奕蓁,p79,陳奕蓁,高雄市,高雄市第15選舉區,G1,,55,accepted,cec_record_same_district_name_match,手動查核,居住茂林區,https://political.tw/people/陳奕蓁/,data/raw/council_tk_gaps_20261104/p79_politicaltw.html,data/raw/cec_all_offices/105_elcand.csv:10,出生 1971-05-13；茂林區屬本選區（山地原住民南區），歷屆檔僅此一人同名。,2026-11-04
+2026|直轄市議員|高雄市第15選舉區|陳奕蓁,p79,陳奕蓁,高雄市,高雄市第15選舉區,G3,,研究所,accepted,cec_record_same_district_name_match,手動查核,居住茂林區,https://political.tw/people/陳奕蓁/,data/raw/council_tk_gaps_20261104/p79_politicaltw.html,data/raw/cec_all_offices/105_elcand.csv:10,2022 學歷碩士；茂林區屬本選區（山地原住民南區），歷屆檔僅此一人同名。,2026-11-04
+2026|直轄市議員|高雄市第15選舉區|陳奕蓁,p79,陳奕蓁,高雄市,高雄市第15選舉區,G5,,0,accepted,cec_record_same_district_name_match,手動查核,居住茂林區,https://political.tw/people/陳奕蓁/,data/raw/council_tk_gaps_20261104/p79_politicaltw.html,data/raw/cec_all_offices/105_elcand.csv:10,2014–2022 當選茂林區民代表；茂林區屬本選區（山地原住民南區），歷屆檔僅此一人同名。,2026-11-04

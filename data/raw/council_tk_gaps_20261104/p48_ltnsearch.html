@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155848';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>陳琳潔 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="陳琳潔 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="陳琳潔 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="陳琳潔" />
+<meta name="news_keywords" itemprop="keywords" content="陳琳潔" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:58:48--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="陳琳潔" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳琳潔&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 23 項結果 (搜尋時間：0.059 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "陳琳潔", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" data-desc="P:0:高市議員101選將抽幸運號碼   完整名單一次看" class="ph" title="高市議員101選將抽幸運號碼   完整名單一次看">
+                <img class="lazy_imgs" alt="高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619984_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619984">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="tit" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">高市議員101選將抽幸運號碼   完整名單一次看</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="http" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">https://news.ltn.com.tw/news/politics/breakingnews/5619984</a>
+                <p>高雄市議員選舉號次抽籤今完成，15選區101位候選人陸續抽出專屬幸運號碼，有效時間今起33天。1選區5搶3，1李振豪（國民黨）、2林義迪（國民黨）、3林慧欣（民進黨）、4鍾炳光、5 林富寶（民進黨）。2選區5搶3，1李柏融、2李亞築 （國民黨）、3黃明太（民進黨）、4陳琳潔（民進黨）、5鄭東元。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5617517" data-desc="P:1:「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會" class="ph" title="「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會">
+                <img class="lazy_imgs" alt="「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會" title="「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/24/5617517_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5617517">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5617517" class="tit" data-desc="T:1:「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會" title="「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會">「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5617517" class="immtag chan">政治</i>
+                <span class="time">2026/10/24</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5617517" class="http" data-desc="T:1:「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會" title="「台美雙會計師」陳琳潔選高市議員 賴瑞隆：讓人才進議會">https://news.ltn.com.tw/news/politics/breakingnews/5617517</a>
+                <p>高市九合一選戰中，唯一具「台美雙會計師」資格的民進黨籍市議員候選人陳琳潔競選總部今成立，市長候選人賴瑞隆專程到場站台，喊話鄉親讓好人才進議會。賴瑞隆介紹陳琳潔是英國倫敦大學公共行政碩士，也是台、美雙會計師，無論在哪裡都能有好發展，但她卻選擇回到家鄉，推動兒童程式和AI教育，未來更要帶著會計師的專業與</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5582161" data-desc="P:2:高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市" class="ph" title="高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市">
+                <img class="lazy_imgs" alt="高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市" title="高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/22/5582161_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5582161">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5582161" class="tit" data-desc="T:2:高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市" title="高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市">高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5582161" class="immtag chan">政治</i>
+                <span class="time">2026/09/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5582161" class="http" data-desc="T:2:高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市" title="高雄市議長康裕成率跨世代女力隊   開箱「喔熊輕軌」漫遊城市">https://news.ltn.com.tw/news/politics/breakingnews/5582161</a>
+                <p>高雄輕軌沉浸式車廂「喔熊觀光號」掀起搭乘熱，高市議長康裕成號召跨世代女性議員及參選人，親自開箱沉浸式車廂，感受輕軌成圓後、為市民日常帶來的便利與美好。同行成員包括現任議員陳慧文、黃秋媖、鄭孟洳、湯詠瑜，及女性參選人鄧巧佩、黃敬雅、陳琳潔，眾人利用即時動態追車、刷卡登車，實地開箱「喔熊觀光號」。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" data-desc="P:3:選前68天  高雄綠營「七隆珠」集結左營創意拜票" class="ph" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票">
+                <img class="lazy_imgs" alt="選前68天  高雄綠營「七隆珠」集結左營創意拜票" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/21/5580760_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5580760">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" class="tit" data-desc="T:3:選前68天  高雄綠營「七隆珠」集結左營創意拜票" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票">選前68天  高雄綠營「七隆珠」集結左營創意拜票</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" class="immtag chan">政治</i>
+                <span class="time">2026/09/21</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" class="http" data-desc="T:3:選前68天  高雄綠營「七隆珠」集結左營創意拜票" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票">https://news.ltn.com.tw/news/politics/breakingnews/5580760</a>
+                <p>距離投票日倒數68天。民進黨高雄市長候選人賴瑞隆與7名市議員候選人，一大早集結在左營路口拜票，7選將各持一顆「龍珠」、打造「七隆珠」集結召喚「神隆」的趣味畫面，以創意爭取更多民意。7選將分別為三民區張博洋、左楠區尹立、前鎮小港區黃敬雅、大岡山區蔡秉璁、鳳山區蘇致榮、大旗山區林慧欣、以及大路竹區陳琳潔</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5565459" data-desc="P:4:大換血！本屆高市議會11人下屆不選了" class="ph" title="大換血！本屆高市議會11人下屆不選了">
+                <img class="lazy_imgs" alt="大換血！本屆高市議會11人下屆不選了" title="大換血！本屆高市議會11人下屆不選了" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/07/5565459_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5565459">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5565459" class="tit" data-desc="T:4:大換血！本屆高市議會11人下屆不選了" title="大換血！本屆高市議會11人下屆不選了">大換血！本屆高市議會11人下屆不選了</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5565459" class="immtag chan">政治</i>
+                <span class="time">2026/09/07</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5565459" class="http" data-desc="T:4:大換血！本屆高市議會11人下屆不選了" title="大換血！本屆高市議會11人下屆不選了">https://news.ltn.com.tw/news/politics/breakingnews/5565459</a>
+                <p>第四屆高市議會任期將至，卻因各種因素、多達11人不連任下屆議員，還沒投票就預告大換血。高市議員共有65席，分屬11個一般選區、4個原住民區，下屆議員選舉登記到9月4日截止，共有101人登記參選，11月28日投票。但在投票前，本屆議會就因為不同原因，多達11位議員陸續宣布不連任。一選區無黨籍朱信強，疑</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5556794" data-desc="P:5:年底選舉8/31起登記  高雄議員第2、6選區可能同額" class="ph" title="年底選舉8/31起登記  高雄議員第2、6選區可能同額">
+                <img class="lazy_imgs" alt="年底選舉8/31起登記  高雄議員第2、6選區可能同額" title="年底選舉8/31起登記  高雄議員第2、6選區可能同額" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/08/30/5556794_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5556794">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5556794" class="tit" data-desc="T:5:年底選舉8/31起登記  高雄議員第2、6選區可能同額" title="年底選舉8/31起登記  高雄議員第2、6選區可能同額">年底選舉8/31起登記  高雄議員第2、6選區可能同額</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5556794" class="immtag chan">政治</i>
+                <span class="time">2026/08/30</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5556794" class="http" data-desc="T:5:年底選舉8/31起登記  高雄議員第2、6選區可能同額" title="年底選舉8/31起登記  高雄議員第2、6選區可能同額">https://news.ltn.com.tw/news/politics/breakingnews/5556794</a>
+                <p>年底選舉8月31日到9月4日登記，高雄11個議員一般選區中，二選區與六選區至今沒出現明確挑戰者、同額選舉機會高。二選區範圍涵蓋路竹、阿蓮、田寮、湖內、茄萣等5區，目前3席議員綠2藍1，分別為民進黨陳明澤、黃明太，國民黨李亞築，其中陳明澤已宣告本屆任期結束後，將交棒女兒陳琳潔。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/paper/1764958" data-desc="P:6:高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案" class="ph" title="高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案">
+                <img class="lazy_imgs" alt="高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案" title="高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/08/01/155.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/paper/1764958">
+                <a href="https://news.ltn.com.tw/news/society/paper/1764958" class="tit" data-desc="T:6:高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案" title="高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案">高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案</a>
+                <i href="https://news.ltn.com.tw/news/society/paper/1764958" class="immtag chan">社會</i>
+                <span class="time">2026/08/01</span>
+                <a href="https://news.ltn.com.tw/news/society/paper/1764958" class="http" data-desc="T:6:高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案" title="高市6連霸議員 聲押／陳明澤涉光電場廢土清運弊案">https://news.ltn.com.tw/news/society/paper/1764958</a>
+                <p>高雄市六連霸民進黨籍市議員陳明澤，被控在北高雄太陽能光電案場中，向開發商強索廢土清運處理利潤，揚言「不從就發動民眾抗爭」；橋頭地檢署前天兵分多路搜索陳明澤住處、服務處等多處，帶回被告與證人共八人訊問，檢察官複訊後認定陳男與疑似「白手套」的營造業者莊嘉祥，涉違反貪污治罪條例情節重大，有串、滅證之虞，向</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5523863" data-desc="P:7:高雄綠營老將陳明澤曾涉賭  今年交棒女兒" class="ph" title="高雄綠營老將陳明澤曾涉賭  今年交棒女兒">
+                <img class="lazy_imgs" alt="高雄綠營老將陳明澤曾涉賭  今年交棒女兒" title="高雄綠營老將陳明澤曾涉賭  今年交棒女兒" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/07/31/5523863_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5523863">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5523863" class="tit" data-desc="T:7:高雄綠營老將陳明澤曾涉賭  今年交棒女兒" title="高雄綠營老將陳明澤曾涉賭  今年交棒女兒">高雄綠營老將陳明澤曾涉賭  今年交棒女兒</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5523863" class="immtag chan">政治</i>
+                <span class="time">2026/07/31</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5523863" class="http" data-desc="T:7:高雄綠營老將陳明澤曾涉賭  今年交棒女兒" title="高雄綠營老將陳明澤曾涉賭  今年交棒女兒">https://news.ltn.com.tw/news/politics/breakingnews/5523863</a>
+                <p>民進黨籍高雄市議員曾因319槍擊案知名度大增，又發生服務處涉賭醜聞，年底大選已決定交棒女兒，如今疑涉廢土弊案又遭搜索約談並聲押。63歲陳明澤早年以投資證券發跡，並投入地方公共事務、參選高雄縣議員，2004年總統大選的319槍擊案，意外讓陳明澤成為全國知名人物，當時總統陳水扁拜票車隊抵達高雄湖內，中午</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5494581" data-desc="P:8:二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位" class="ph" title="二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位">
+                <img class="lazy_imgs" alt="二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位" title="二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/07/05/5494581_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5494581">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5494581" class="tit" data-desc="T:8:二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位" title="二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位">二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5494581" class="immtag chan">生活</i>
+                <span class="time">2026/07/05</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5494581" class="http" data-desc="T:8:二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位" title="二仁溪溢堤癱瘓抽水站  民代促擴建5台抽水機、3億元一次到位">https://news.ltn.com.tw/news/life/breakingnews/5494581</a>
+                <p>0625豪大雨二仁溪流域最大時雨量達105mm，二仁溪水位暴漲溢過堤防，造成月世界抽水站遭洪水淹沒停擺，月世界慘淹成「水世界」，高市水利局提出新建護岸及改建抽水站解決對策，但立委賴瑞隆等民代認為，抽水站量能提升至3台9cms、經費1.8億元太少，建議提高到5台15cms、3億元預算一次到位。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5450485" data-desc="P:9:民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡" class="ph" title="民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡">
+                <img class="lazy_imgs" alt="民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡" title="民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/05/26/5450485_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5450485">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5450485" class="tit" data-desc="T:9:民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡" title="民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡">民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5450485" class="immtag chan">政治</i>
+                <span class="time">2026/05/26</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5450485" class="http" data-desc="T:9:民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡" title="民進黨高市黨職改選公告 黃捷接主委、完整名單看這裡">https://news.ltn.com.tw/news/politics/breakingnews/5450485</a>
+                <p>民進黨高市黨部今公告2026黨職改選名單，包括下屆主任委員黃捷、全國黨代表、高雄市黨員代表、原住民族高雄市黨員代表。第9屆黨部主委黃捷；第22屆全國黨代表當選名單：黃綉貞、呂志材、陳琳潔、李壯展、張朝統、洪佩琪、謝瑋原、洪美雅、李峻松、翁瑞珠、游智鈞、李宗頴、蘇致榮、龍斗光、鄭裕達、陳幸敏、李馥、吳</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5440677" data-desc="P:10:高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的" class="ph" title="高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的">
+                <img class="lazy_imgs" alt="高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的" title="高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/05/18/5440677_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5440677">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5440677" class="tit" data-desc="T:10:高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的" title="高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的">高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5440677" class="immtag chan">政治</i>
+                <span class="time">2026/05/18</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5440677" class="http" data-desc="T:10:高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的" title="高市議員肯定南部科技S廊帶  陳其邁：沒提嘉義、翁縣長會抗議的">https://news.ltn.com.tw/news/politics/breakingnews/5440677</a>
+                <p>高市議員陳明澤今質詢時對南部科技S廊帶計畫表示肯定，喊話未來國家還是需要陳其邁；對此，陳其邁打趣提醒，議員的S廊帶沒畫到嘉義縣，翁縣長會抗議的，嘉義縣將是未來先進封裝最大聚落。今年底卸任後將交棒女兒陳琳潔的民進黨高市資深議員陳明澤，今總質詢時提到他當初大力贊成縣市合併，就是看到原高雄市與原高縣應該要</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5413906" data-desc="P:11:綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位" class="ph" title="綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位">
+                <img class="lazy_imgs" alt="綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位" title="綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/23/5413906_6_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5413906">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5413906" class="tit" data-desc="T:11:綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位" title="綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位">綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5413906" class="immtag chan">政治</i>
+                <span class="time">2026/04/23</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5413906" class="http" data-desc="T:11:綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位" title="綠營議員參選人定裝照曝光！ 賴瑞隆：高雄隊就定位">https://news.ltn.com.tw/news/politics/breakingnews/5413906</a>
+                <p>民進黨高雄市長參選人賴瑞隆昨、今連續兩天，與黨籍市議員參選人拍攝形象定裝照；賴瑞隆宣告「高雄隊就定位」，強調團隊秉持共同目標，團結一致守護高雄。賴瑞隆表示，這次拍攝象徵一支「團結、專業、協同打拚」的高雄隊正式成軍，無論是現任議員或新秀，皆在過程中發揮創意與個人特色，展現拚戰精神與活力。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1743498" data-desc="P:12:民進黨高市議員初選42人登記 6區超額" class="ph" title="民進黨高市議員初選42人登記 6區超額">
+                <img class="lazy_imgs" alt="民進黨高市議員初選42人登記 6區超額" title="民進黨高市議員初選42人登記 6區超額" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1743498">
+                <a href="https://news.ltn.com.tw/news/life/paper/1743498" class="tit" data-desc="T:12:民進黨高市議員初選42人登記 6區超額" title="民進黨高市議員初選42人登記 6區超額">民進黨高市議員初選42人登記 6區超額</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1743498" class="immtag chan">生活</i>
+                <span class="time">2026/02/11</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1743498" class="http" data-desc="T:12:民進黨高市議員初選42人登記 6區超額" title="民進黨高市議員初選42人登記 6區超額">https://news.ltn.com.tw/news/life/paper/1743498</a>
+                <p>民進黨高市議員黨內初選登記昨截止，五天共四十二人報名，將提名卅四人；十一選區中有六區超額，會啟動協調機制後再做民調。一區（提兩席），林富寶（現任）、林慧欣（新）；二區（提兩席），黃明太（現）、陳琳潔（新）；三區（提三席），黃秋媖（現）、林志誠（現）、蔡秉璁（新）、蔣宛庭（新）。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5339419" data-desc="P:13:民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露" class="ph" title="民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露">
+                <img class="lazy_imgs" alt="民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露" title="民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/10/phpt3FWat.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5339419">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5339419" class="tit" data-desc="T:13:民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露" title="民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露">民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5339419" class="immtag chan">政治</i>
+                <span class="time">2026/02/10</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5339419" class="http" data-desc="T:13:民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露" title="民進黨六都議員登記截止 24區超額廝殺 提名競逐全揭露">https://news.ltn.com.tw/news/politics/breakingnews/5339419</a>
+                <p>民進黨六都議員提名登記於今（10）日正式劃下句點。根據各地黨部最終統計，六都共計有213人爭奪183席提名名額。其中計有台北4個、新北3個、桃園4個、台中3個、台南4個、高雄6個，共24個選區呈現超額廝殺。後續將於2月13日前進行溝通協調，若協調未果，則預計在3月2日至4月10日透過民調決戰勝負，必</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5339186" data-desc="P:14:民進黨高市議員黨內初選登記截止 5天共42人報名" class="ph" title="民進黨高市議員黨內初選登記截止 5天共42人報名">
+                <img class="lazy_imgs" alt="民進黨高市議員黨內初選登記截止 5天共42人報名" title="民進黨高市議員黨內初選登記截止 5天共42人報名" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/10/5339186_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5339186">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5339186" class="tit" data-desc="T:14:民進黨高市議員黨內初選登記截止 5天共42人報名" title="民進黨高市議員黨內初選登記截止 5天共42人報名">民進黨高市議員黨內初選登記截止 5天共42人報名</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5339186" class="immtag chan">政治</i>
+                <span class="time">2026/02/10</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5339186" class="http" data-desc="T:14:民進黨高市議員黨內初選登記截止 5天共42人報名" title="民進黨高市議員黨內初選登記截止 5天共42人報名">https://news.ltn.com.tw/news/politics/breakingnews/5339186</a>
+                <p>民進黨高市議員黨內初選登記今下午5點截止。市黨部統計5天共有42人報名，預計提名34人，11選區中有6個選區超額，會先啟動協調機制後再做民調。第一選區（旗山等9區、提名2席），林富寶（現任）、林慧欣（新人）。第二選區（路竹等5區、提名2席），黃明太（現任）、陳琳潔（新人、議員陳明澤女兒）</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5335326" data-desc="P:15:民進黨高雄市議員初選 已25人登記" class="ph" title="民進黨高雄市議員初選 已25人登記">
+                <img class="lazy_imgs" alt="民進黨高雄市議員初選 已25人登記" title="民進黨高雄市議員初選 已25人登記" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/06/5335326_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5335326">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5335326" class="tit" data-desc="T:15:民進黨高雄市議員初選 已25人登記" title="民進黨高雄市議員初選 已25人登記">民進黨高雄市議員初選 已25人登記</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5335326" class="immtag chan">政治</i>
+                <span class="time">2026/02/06</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5335326" class="http" data-desc="T:15:民進黨高雄市議員初選 已25人登記" title="民進黨高雄市議員初選 已25人登記">https://news.ltn.com.tw/news/politics/breakingnews/5335326</a>
+                <p>民進黨高雄市議員黨內初選登記前兩天合計只有6人，今天一口氣增加19位，25人都是現任或已表態者，另有人私下委託領表、但還沒登記。民進黨高雄市黨部彙整各選區登記情況：一選區（大旗山提名兩席）林富寶；二選區（路竹等5區提兩席）陳琳潔；三選區（岡山等6區提3席）黃秋媖、蔡秉璁、林志誠；四選區（左營楠梓提4</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5334889" data-desc="P:16:民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記" class="ph" title="民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記">
+                <img class="lazy_imgs" alt="民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記" title="民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/06/5334889_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5334889">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5334889" class="tit" data-desc="T:16:民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記" title="民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記">民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5334889" class="immtag chan">政治</i>
+                <span class="time">2026/02/06</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5334889" class="http" data-desc="T:16:民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記" title="民進黨高市議員初選首見「交棒」 陳明澤陪女兒陳琳潔登記">https://news.ltn.com.tw/news/politics/breakingnews/5334889</a>
+                <p>民進黨高市6連霸議員陳明澤交棒女兒陳琳潔參選第二選區議員，今上午陪她到市黨部完成登記，這也是民進黨高市議員黨內初選第一例「交棒」，可能也是唯一。陳琳潔擁有台灣、美國雙會計師資格，長期投入公共事務，她期盼以年輕世代的力量，承擔守護民主、服務鄉親的責任，延續父親多年來為民服務的精神。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5331746" data-desc="P:17:綠高雄議員初選今起登記 前鎮小港區6搶3最激烈" class="ph" title="綠高雄議員初選今起登記 前鎮小港區6搶3最激烈">
+                <img class="lazy_imgs" alt="綠高雄議員初選今起登記 前鎮小港區6搶3最激烈" title="綠高雄議員初選今起登記 前鎮小港區6搶3最激烈" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/04/5331746_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5331746">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5331746" class="tit" data-desc="T:17:綠高雄議員初選今起登記 前鎮小港區6搶3最激烈" title="綠高雄議員初選今起登記 前鎮小港區6搶3最激烈">綠高雄議員初選今起登記 前鎮小港區6搶3最激烈</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5331746" class="immtag chan">政治</i>
+                <span class="time">2026/02/04</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5331746" class="http" data-desc="T:17:綠高雄議員初選今起登記 前鎮小港區6搶3最激烈" title="綠高雄議員初選今起登記 前鎮小港區6搶3最激烈">https://news.ltn.com.tw/news/politics/breakingnews/5331746</a>
+                <p>民進黨高市議員黨內初選今開始領表、登記，至2/10截止；綠營根據目前表態情況，估算11個選區裡有7區需民調，其中以前鎮小港區6搶3最激烈。表態人數超過提名人數的選區分別為三選區（岡山等六區）4搶3、四選區（左營楠梓）6搶4、六選區（旗鼓鹽）3搶2、七選區（三民）4搶3、九選區（鳳山）6搶5、十選區（</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5224608" data-desc="P:18:抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試" class="ph" title="抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試">
+                <img class="lazy_imgs" alt="抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試" title="抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/10/27/5224608_3_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5224608">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5224608" class="tit" data-desc="T:18:抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試" title="抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試">抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5224608" class="immtag chan">政治</i>
+                <span class="time">2025/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5224608" class="http" data-desc="T:18:抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試" title="抬轎變坐轎！下屆高市議員選戰已17名「前助理」躍躍欲試">https://news.ltn.com.tw/news/politics/breakingnews/5224608</a>
+                <p>從抬轎變坐轎!陸續表態擬投入下屆高市議員選戰的「前助理們」累積已17位，是新人當中最大族群；地方人士指出，如何善用其歷練與人脈，是助理能否更上層樓的關鍵因素之一。高市議員共有11個一般選區與4個原住民區（包括平地與山地），目前在7個一般選區與1個原住民區，共出現17位前助理表態參選下屆議員。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5148870" data-desc="P:19:高市議員選戰「新」新人輩出  人生「初」選累計已8位" class="ph" title="高市議員選戰「新」新人輩出  人生「初」選累計已8位">
+                <img class="lazy_imgs" alt="高市議員選戰「新」新人輩出  人生「初」選累計已8位" title="高市議員選戰「新」新人輩出  人生「初」選累計已8位" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/08/19/5148870_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5148870">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5148870" class="tit" data-desc="T:19:高市議員選戰「新」新人輩出  人生「初」選累計已8位" title="高市議員選戰「新」新人輩出  人生「初」選累計已8位">高市議員選戰「新」新人輩出  人生「初」選累計已8位</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5148870" class="immtag chan">政治</i>
+                <span class="time">2025/08/19</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5148870" class="http" data-desc="T:19:高市議員選戰「新」新人輩出  人生「初」選累計已8位" title="高市議員選戰「新」新人輩出  人生「初」選累計已8位">https://news.ltn.com.tw/news/politics/breakingnews/5148870</a>
+                <p>2026高市議員選戰明年此刻將進行號次抽籤。除爭取連任的議員，各選區陸續有新人表態，其中從無參選經驗的「新」新人累計已有8位，將啟動各自踏進政治路上的人生「初」選。關注選情的地方人士指出，若廣義解讀選舉新人，就是現任以外的參選者，但其中有回鍋參選的前議員，有的是二度（甚至更多）參選者，也有里長想更上</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=陳琳潔&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=陳琳潔&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

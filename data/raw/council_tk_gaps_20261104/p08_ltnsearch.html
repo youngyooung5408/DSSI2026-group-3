@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155725';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>林聖峰 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="林聖峰 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="林聖峰 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="林聖峰" />
+<meta name="news_keywords" itemprop="keywords" content="林聖峰" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:57:25--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="林聖峰" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=林聖峰&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 37 項結果 (搜尋時間：0.043 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "林聖峰", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://talk.ltn.com.tw/article/breakingnews/5432220" data-desc="P:0:檔案蒔光》潮起潮落五十年：臺中港的築夢與重生" class="ph" title="檔案蒔光》潮起潮落五十年：臺中港的築夢與重生">
+                <img class="lazy_imgs" alt="檔案蒔光》潮起潮落五十年：臺中港的築夢與重生" title="檔案蒔光》潮起潮落五十年：臺中港的築夢與重生" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/talk/page/400S/2026/05/10/phpCWEC4p.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://talk.ltn.com.tw/article/breakingnews/5432220">
+                <a href="https://talk.ltn.com.tw/article/breakingnews/5432220" class="tit" data-desc="T:0:檔案蒔光》潮起潮落五十年：臺中港的築夢與重生" title="檔案蒔光》潮起潮落五十年：臺中港的築夢與重生">檔案蒔光》潮起潮落五十年：臺中港的築夢與重生</a>
+                <i href="https://talk.ltn.com.tw/article/breakingnews/5432220" class="immtag chan1">評論</i>
+                <span class="time">2026/05/16</span>
+                <a href="https://talk.ltn.com.tw/article/breakingnews/5432220" class="http" data-desc="T:0:檔案蒔光》潮起潮落五十年：臺中港的築夢與重生" title="檔案蒔光》潮起潮落五十年：臺中港的築夢與重生">https://talk.ltn.com.tw/article/breakingnews/5432220</a>
+                <p>臺中港位於臺灣西部，座落在大甲溪與大肚溪之間。清代乾隆末年，隨著鹿港逐漸淤塞，梧棲慢慢取而代之，成為臺灣西部的重要港口，稻米、樟腦等熱銷物資皆由此進出。進入日治時代，梧棲港被重新命名為「新高港」，由於中部的玉山海拔高於日本富士山，日人將其稱為「新高山」，山下的港口便順勢得名。1930年代，新高港展開</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5321760" data-desc="P:1:屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象" class="ph" title="屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象">
+                <img class="lazy_imgs" alt="屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象" title="屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/01/25/5321760_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5321760">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5321760" class="tit" data-desc="T:1:屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象" title="屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象">屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5321760" class="immtag chan">社會</i>
+                <span class="time">2026/01/25</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5321760" class="http" data-desc="T:1:屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象" title="屏東新園龍港大橋女墜溪 警消尋獲已無生命徵象">https://news.ltn.com.tw/news/society/breakingnews/5321760</a>
+                <p>橫跨屏東新園鄉及崁頂鄉龍港大橋，今天下午約4時許發生民眾墜橋事件，屏東縣消防局獲報，派遣6車2艇1無人機及11警消前往救援，最後雖於水域找到該名女子，但該名女子已無生命徵象。屏東縣消防局於今天下午4時01分獲報，指龍港大橋疑似發生墜橋輕生案件，由於前些日子上游急降雨，水流略湍急，消防局派遣新園、崁頂</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://art.ltn.com.tw/article/paper/1686689" data-desc="P:2:【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相" class="ph" title="【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相">
+                <img class="lazy_imgs" alt="【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相" title="【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/art/page/400S/2025/01/11/49.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://art.ltn.com.tw/article/paper/1686689">
+                <a href="https://art.ltn.com.tw/article/paper/1686689" class="tit" data-desc="T:2:【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相" title="【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相">【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相</a>
+                <i href="https://art.ltn.com.tw/article/paper/1686689" class="immtag chan7">藝文</i>
+                <span class="time">2025/01/11</span>
+                <a href="https://art.ltn.com.tw/article/paper/1686689" class="http" data-desc="T:2:【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相" title="【藝術文化】We Are Home廣慈社宅 18件公共藝術亮相">https://art.ltn.com.tw/article/paper/1686689</a>
+                <p>由台北市政府都市發展局主辦、禾磊藝術策展的「We Are Home：廣慈社宅公共藝術計畫成果展」，聚焦人際關係與環境美學，以18件裝置藝術及聲鏡劇場《遷徙博物館》，企圖凝聚居民的歸屬感，即日起至2月10日在廣慈社會住宅公共區域展出。主辦單位表示，室內外18件裝置藝術包含台灣、日本及荷蘭藝術家的作品，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://art.ltn.com.tw/article/paper/1631119" data-desc="P:3:【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美" class="ph" title="【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美">
+                <img class="lazy_imgs" alt="【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美" title="【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/art/page/400S/2024/02/18/10.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://art.ltn.com.tw/article/paper/1631119">
+                <a href="https://art.ltn.com.tw/article/paper/1631119" class="tit" data-desc="T:3:【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美" title="【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美">【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美</a>
+                <i href="https://art.ltn.com.tw/article/paper/1631119" class="immtag chan7">藝文</i>
+                <span class="time">2024/02/18</span>
+                <a href="https://art.ltn.com.tw/article/paper/1631119" class="http" data-desc="T:3:【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美" title="【藝週末．藝週歷史建築修復】重新打開史博館 驚豔歷史建築之美">https://art.ltn.com.tw/article/paper/1631119</a>
+                <p>文．攝影／記者凌美雪創立於1955年的史博館，最初以1916年台灣勸業共進會的「迎賓館」歷史建築為館舍基地，自1958年起逐年改建，增建兩翼宮牆樣式的國家畫廊，1975年改建成現有鋼筋水泥的宮殿樣式建築，2007年經台北市政府登錄為歷史建築，後由行政院核定「國立歷史博物館升級發展計畫」於2019年開</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://art.ltn.com.tw/article/paper/1595473" data-desc="P:4:【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限" class="ph" title="【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限">
+                <img class="lazy_imgs" alt="【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限" title="【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/art/page/400S/2023/07/24/13.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://art.ltn.com.tw/article/paper/1595473">
+                <a href="https://art.ltn.com.tw/article/paper/1595473" class="tit" data-desc="T:4:【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限" title="【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限">【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限</a>
+                <i href="https://art.ltn.com.tw/article/paper/1595473" class="immtag chan7">藝文</i>
+                <span class="time">2023/07/24</span>
+                <a href="https://art.ltn.com.tw/article/paper/1595473" class="http" data-desc="T:4:【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限" title="【藝術文化】「泰國台灣當代建築展」曼谷開展 演繹大地無限">https://art.ltn.com.tw/article/paper/1595473</a>
+                <p>2023「大地無限：泰國台灣當代建築展」於即日起至8月6日展開，在文化部的支持下，由駐泰國代表處文化組與泰國暹羅皇家建築師協會共同主辦，邀集8組台灣與泰國的建築師團隊，以「大地無限」為主題，呈現台灣與泰國相對應的當代建築樣貌。台灣參展的嶼山工房林聖峰、代表Behet Bondzio Lin Arch</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://art.ltn.com.tw/article/paper/1573863" data-desc="P:5:【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館" class="ph" title="【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館">
+                <img class="lazy_imgs" alt="【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館" title="【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/art/page/400S/2023/03/25/45.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://art.ltn.com.tw/article/paper/1573863">
+                <a href="https://art.ltn.com.tw/article/paper/1573863" class="tit" data-desc="T:5:【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館" title="【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館">【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館</a>
+                <i href="https://art.ltn.com.tw/article/paper/1573863" class="immtag chan7">藝文</i>
+                <span class="time">2023/03/25</span>
+                <a href="https://art.ltn.com.tw/article/paper/1573863" class="http" data-desc="T:5:【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館" title="【藝週末．藝週推薦展覽】黃聲遠超出建築 從宜蘭田中央到台北當代館">https://art.ltn.com.tw/article/paper/1573863</a>
+                <p>文．攝影／記者凌美雪身為跟常人並無二異的建築師，能為環境和公眾做些什麼？田中央工作群嘗試創造一種能跟地方生活和環境相融合的建築實踐，並開放連接不同技藝者加入他們的創作生活。多次為黃聲遠與田中央策展的建築評論家王俊雄，將黃聲遠定位為藝術家之一，與蔡明亮、陳逸恩、聶永真、江國梁、林聖峰、姚仲涵等6位來自</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://art.ltn.com.tw/article/paper/1566354" data-desc="P:6:【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像" class="ph" title="【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像">
+                <img class="lazy_imgs" alt="【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像" title="【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/art/page/400S/2023/02/11/49.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://art.ltn.com.tw/article/paper/1566354">
+                <a href="https://art.ltn.com.tw/article/paper/1566354" class="tit" data-desc="T:6:【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像" title="【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像">【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像</a>
+                <i href="https://art.ltn.com.tw/article/paper/1566354" class="immtag chan7">藝文</i>
+                <span class="time">2023/02/11</span>
+                <a href="https://art.ltn.com.tw/article/paper/1566354" class="http" data-desc="T:6:【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像" title="【藝術文化】田中央+七位藝術家聯展 超出建築的藝術想像">https://art.ltn.com.tw/article/paper/1566354</a>
+                <p>由建築設計轉化、延伸為藝術展演，「超出建築——田中央+七位藝術家」聯展今（11）日登場。做為台北當代藝術館2023年首檔主題大展，策展人王俊雄邀請不同領域藝術家，以橫跨電影、設計、聲音及表演藝術的創作語彙，交疊構築一個深入感受田中央建築的場域，予人「超出建築」的藝術想像。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/3965201" data-desc="P:7:雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦" class="ph" title="雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦">
+                <img class="lazy_imgs" alt="雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦" title="雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2022/06/19/3965201_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/3965201">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3965201" class="tit" data-desc="T:7:雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦" title="雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦">雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/3965201" class="immtag chan">生活</i>
+                <span class="time">2022/06/19</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3965201" class="http" data-desc="T:7:雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦" title="雙語實驗班及加拿大安大略省雙聯文憑 高市中正高中開辦">https://news.ltn.com.tw/news/life/breakingnews/3965201</a>
+                <p>高雄市中正高中提升學生國際競爭力，將開辦第一屆雙語實驗班及加拿大安大略省雙聯文憑，高中畢業即同時取得台灣、加拿大高中文憑，提升學子後進入國內外頂尖大學競爭力。中正高中校長陸炳杉說，學校經2年籌劃，第一屆人文、科學雙語實驗班及加拿大安大略省雙聯文憑，將於111學年開辦，讓中正高中學生高中畢業同時，也取</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1489578" data-desc="P:8:新竹州圖簽書會 林智堅：合併升格 生活會更好" class="ph" title="新竹州圖簽書會 林智堅：合併升格 生活會更好">
+                <img class="lazy_imgs" alt="新竹州圖簽書會 林智堅：合併升格 生活會更好" title="新竹州圖簽書會 林智堅：合併升格 生活會更好" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2021/12/12/139.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1489578">
+                <a href="https://news.ltn.com.tw/news/life/paper/1489578" class="tit" data-desc="T:8:新竹州圖簽書會 林智堅：合併升格 生活會更好" title="新竹州圖簽書會 林智堅：合併升格 生活會更好">新竹州圖簽書會 林智堅：合併升格 生活會更好</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1489578" class="immtag chan">生活</i>
+                <span class="time">2021/12/12</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1489578" class="http" data-desc="T:8:新竹州圖簽書會 林智堅：合併升格 生活會更好" title="新竹州圖簽書會 林智堅：合併升格 生活會更好">https://news.ltn.com.tw/news/life/paper/1489578</a>
+                <p>強調新竹縣、市本就是大家庭 聚在一起有更大能量、能做更多事情新竹市政府與市長林智堅推出市政專書《新竹跳級生》，昨天在新竹州圖書館舉辦「新竹市跳級生，建築寫成詩」展覽，林智堅除分享上任七年累積的新竹經驗，也舉辦第五場簽書會。他說，大新竹升格，「聚在一起有更大能量、能做更多事情，縣、市民生活會更好」。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1471472" data-desc="P:9:竹市新建漁產直銷中心 明年底完工" class="ph" title="竹市新建漁產直銷中心 明年底完工">
+                <img class="lazy_imgs" alt="竹市新建漁產直銷中心 明年底完工" title="竹市新建漁產直銷中心 明年底完工" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2021/09/08/112.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1471472">
+                <a href="https://news.ltn.com.tw/news/life/paper/1471472" class="tit" data-desc="T:9:竹市新建漁產直銷中心 明年底完工" title="竹市新建漁產直銷中心 明年底完工">竹市新建漁產直銷中心 明年底完工</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1471472" class="immtag chan">生活</i>
+                <span class="time">2021/09/08</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1471472" class="http" data-desc="T:9:竹市新建漁產直銷中心 明年底完工" title="竹市新建漁產直銷中心 明年底完工">https://news.ltn.com.tw/news/life/paper/1471472</a>
+                <p>2億元打造臨海雙波浪購物區 生鮮攤區挑高採光 用餐享無敵海景已使用25年的新竹市漁產直銷中心正進行新建工程，市長林智堅表示，將打造臨海雙波浪購物區，有88攤生鮮食品攤位與15間海鮮餐廳，2樓用餐可享無敵海景，室內挑高設計提供舒適的購物空間。預計明年底完工，現有直銷中心會等完工後再拆除，以減少對攤商的</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/3662506" data-desc="P:10:新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區" class="ph" title="新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區">
+                <img class="lazy_imgs" alt="新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區" title="新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2021/09/06/3662506_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/3662506">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3662506" class="tit" data-desc="T:10:新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區" title="新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區">新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/3662506" class="immtag chan">生活</i>
+                <span class="time">2021/09/06</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3662506" class="http" data-desc="T:10:新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區" title="新竹漁港漁產新直銷中心明年底完工 打造臨海雙波浪購物區">https://news.ltn.com.tw/news/life/breakingnews/3662506</a>
+                <p>新竹市長林智堅今天表示，位在新地標波光市集旁的、已使用25年的漁產直銷中心已進行新建工程，由剛完工的波光市集同個設計師林聖峰和與建築師蘇富源推出兩層樓的波浪建築，要打造臨海雙波浪購物區，預計明年底完工，屆時會有88攤生鮮食品攤位與15間海鮮餐廳，2樓用餐可享無敵海景，室內挑高設計也提供舒適的購物空間</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://playing.ltn.com.tw/article/24174" data-desc="P:11:波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運" class="ph" title="波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運">
+                <img class="lazy_imgs" alt="波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運" title="波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/playing/page/2020/11/02/201102-24174-0-5M4y6.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://playing.ltn.com.tw/article/24174">
+                <a href="https://playing.ltn.com.tw/article/24174" class="tit" data-desc="T:11:波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運" title="波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運">波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運</a>
+                <i href="https://playing.ltn.com.tw/article/24174" class="immtag chan8">玩咖</i>
+                <span class="time">2021/08/09</span>
+                <a href="https://playing.ltn.com.tw/article/24174" class="http" data-desc="T:11:波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運" title="波浪屋頂、黃金沙灘色打造新地標！新竹漁港「波光市集」10日試營運">https://playing.ltn.com.tw/article/24174</a>
+                <p>南寮最美地標！新竹市長林智堅宣布，新竹漁港直銷中心戶外攤位整建完工，最新命名「波光市集」出爐，是全國首處以海浪理念設計的海岸建築，主打「黃金沙灘色系」，波浪狀屋頂融入海港，夜晚還有光環境營造，讓絕美地標映照海景。市府指出，8月10日起試營運，部分攤商將先進駐，營業時將以防疫優先，遵循指揮中心指引落實實聯制、社交距離、限外帶、禁止邊走邊吃等防疫措施。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1465668" data-desc="P:12:新竹漁港「波光市集」 光環境拚商機" class="ph" title="新竹漁港「波光市集」 光環境拚商機">
+                <img class="lazy_imgs" alt="新竹漁港「波光市集」 光環境拚商機" title="新竹漁港「波光市集」 光環境拚商機" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2021/08/09/101.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1465668">
+                <a href="https://news.ltn.com.tw/news/life/paper/1465668" class="tit" data-desc="T:12:新竹漁港「波光市集」 光環境拚商機" title="新竹漁港「波光市集」 光環境拚商機">新竹漁港「波光市集」 光環境拚商機</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1465668" class="immtag chan">生活</i>
+                <span class="time">2021/08/09</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1465668" class="http" data-desc="T:12:新竹漁港「波光市集」 光環境拚商機" title="新竹漁港「波光市集」 光環境拚商機">https://news.ltn.com.tw/news/life/paper/1465668</a>
+                <p>戶外攤位整建完工 波浪狀屋頂融入海港 全國首見 林智堅：南寮海岸最美地標南寮最美地標！新竹市長林智堅宣布，新竹漁港直銷中心戶外攤位整建完工，最新命名「波光市集」出爐，是全國首處以海浪理念設計的海岸建築，主打「黃金沙灘色系」，波浪狀屋頂融入海港，夜晚還有光環境營造，讓絕美地標映照海景。市府指出，8月1</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/3631503" data-desc="P:13:南寮最美地標！新竹漁港「波光市集」 8/10起試營運" class="ph" title="南寮最美地標！新竹漁港「波光市集」 8/10起試營運">
+                <img class="lazy_imgs" alt="南寮最美地標！新竹漁港「波光市集」 8/10起試營運" title="南寮最美地標！新竹漁港「波光市集」 8/10起試營運" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2021/08/08/3631503_6_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/3631503">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3631503" class="tit" data-desc="T:13:南寮最美地標！新竹漁港「波光市集」 8/10起試營運" title="南寮最美地標！新竹漁港「波光市集」 8/10起試營運">南寮最美地標！新竹漁港「波光市集」 8/10起試營運</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/3631503" class="immtag chan">生活</i>
+                <span class="time">2021/08/08</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3631503" class="http" data-desc="T:13:南寮最美地標！新竹漁港「波光市集」 8/10起試營運" title="南寮最美地標！新竹漁港「波光市集」 8/10起試營運">https://news.ltn.com.tw/news/life/breakingnews/3631503</a>
+                <p>南寮最美地標！新竹市長林智堅宣布，新竹漁港直銷中心戶外攤商整建完工，最新命名「波光市集」出爐，是全國首處以海浪理念設計的海岸建築，主打「黃金沙灘色系」，波浪狀屋頂融入海港，夜晚還有光環境營造，讓絕美地標映照海景。市府指出，8月10日起試營運，部分攤商將先進駐，營業時將以防疫優先，遵循指揮中心指引落實</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/3607470" data-desc="P:14:2021年國家卓越建設獎 竹市多個項目獲獎" class="ph" title="2021年國家卓越建設獎 竹市多個項目獲獎">
+                <img class="lazy_imgs" alt="2021年國家卓越建設獎 竹市多個項目獲獎" title="2021年國家卓越建設獎 竹市多個項目獲獎" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2021/07/18/3607470_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/3607470">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3607470" class="tit" data-desc="T:14:2021年國家卓越建設獎 竹市多個項目獲獎" title="2021年國家卓越建設獎 竹市多個項目獲獎">2021年國家卓越建設獎 竹市多個項目獲獎</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/3607470" class="immtag chan">生活</i>
+                <span class="time">2021/07/18</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3607470" class="http" data-desc="T:14:2021年國家卓越建設獎 竹市多個項目獲獎" title="2021年國家卓越建設獎 竹市多個項目獲獎">https://news.ltn.com.tw/news/life/breakingnews/3607470</a>
+                <p>新竹市府表示，已改造完成啟用快2年的市立動物園、關埔國小一期新建工程近期又奪下2021年國家卓越建設獎綜合成就獎，此兩項建設已連續多年獲國家卓越建設獎項肯定，包括規劃設計、環境文化、施工品質等獎項肯定，市長林智堅表示，市立動物園和關埔國小都是竹市公共建設美學的代表，不僅顛覆傳統，打造動物的家，更以沒</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1446878" data-desc="P:15:竹市漁港「海波浪」大棚架 6月完工" class="ph" title="竹市漁港「海波浪」大棚架 6月完工">
+                <img class="lazy_imgs" alt="竹市漁港「海波浪」大棚架 6月完工" title="竹市漁港「海波浪」大棚架 6月完工" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2021/05/05/108.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1446878">
+                <a href="https://news.ltn.com.tw/news/life/paper/1446878" class="tit" data-desc="T:15:竹市漁港「海波浪」大棚架 6月完工" title="竹市漁港「海波浪」大棚架 6月完工">竹市漁港「海波浪」大棚架 6月完工</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1446878" class="immtag chan">生活</i>
+                <span class="time">2021/05/05</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1446878" class="http" data-desc="T:15:竹市漁港「海波浪」大棚架 6月完工" title="竹市漁港「海波浪」大棚架 6月完工">https://news.ltn.com.tw/news/life/paper/1446878</a>
+                <p>新竹市府投入1.3億打造「海波浪狀」大棚架，做為新竹漁港直銷中心戶外攤商使用，新竹市長林智堅昨天視察並開箱大棚架亮點。大棚架跳脫一般線條簡單的清水模設計，採用國內少有的彎曲造型，可抵禦強風更有利排水，並結合漁港意象，用混凝土材質打造屋頂，檜木集成材打造牆面，兼具設計感與實用性，預計6月完工。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/3520279" data-desc="P:16:新竹漁港再添網美地標 海波浪狀大棚架堅開箱 " class="ph" title="新竹漁港再添網美地標 海波浪狀大棚架堅開箱 ">
+                <img class="lazy_imgs" alt="新竹漁港再添網美地標 海波浪狀大棚架堅開箱 " title="新竹漁港再添網美地標 海波浪狀大棚架堅開箱 " src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2021/05/04/3520279_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/3520279">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3520279" class="tit" data-desc="T:16:新竹漁港再添網美地標 海波浪狀大棚架堅開箱 " title="新竹漁港再添網美地標 海波浪狀大棚架堅開箱 ">新竹漁港再添網美地標 海波浪狀大棚架堅開箱 </a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/3520279" class="immtag chan">生活</i>
+                <span class="time">2021/05/04</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/3520279" class="http" data-desc="T:16:新竹漁港再添網美地標 海波浪狀大棚架堅開箱 " title="新竹漁港再添網美地標 海波浪狀大棚架堅開箱 ">https://news.ltn.com.tw/news/life/breakingnews/3520279</a>
+                <p>新竹市府投入1.3億打造「海波浪狀」大棚架，做為新竹漁港直銷中心戶外攤商使用，新竹市長林智堅今天前往視察，並與設計師林聖峰、建築師曾泊銘共同開箱大棚架亮點。林聖峰說，大棚架跳脫一般線條簡單的清水模設計，採用國內少有的彎曲造型，可抵禦強風更有利排水，並結合漁港自然風光意象，以混凝土材質打造屋頂，檜木集</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://talk.ltn.com.tw/article/paper/1438413" data-desc="P:17:自由廣場》政治冷漠與平庸之惡" class="ph" title="自由廣場》政治冷漠與平庸之惡">
+                <img class="lazy_imgs" alt="自由廣場》政治冷漠與平庸之惡" title="自由廣場》政治冷漠與平庸之惡" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://talk.ltn.com.tw/article/paper/1438413">
+                <a href="https://talk.ltn.com.tw/article/paper/1438413" class="tit" data-desc="T:17:自由廣場》政治冷漠與平庸之惡" title="自由廣場》政治冷漠與平庸之惡">自由廣場》政治冷漠與平庸之惡</a>
+                <i href="https://talk.ltn.com.tw/article/paper/1438413" class="immtag chan1">評論</i>
+                <span class="time">2021/03/21</span>
+                <a href="https://talk.ltn.com.tw/article/paper/1438413" class="http" data-desc="T:17:自由廣場》政治冷漠與平庸之惡" title="自由廣場》政治冷漠與平庸之惡">https://talk.ltn.com.tw/article/paper/1438413</a>
+                <p>很多人說政治是黑暗的，骯髒的，也常聽到「政治不要進入校園」之類的宣導，彷彿只要少了政治，不碰政治，生活就能平安和諧，但是生活中真可以不接觸政治嗎？政治看似複雜，它的概念卻非常簡單，三個人以上一起生活，就是政治。生活中的一切都和政治息息相關：出門走在政府鋪的馬路上要遵守交通規則；買東西使用政府發行的貨</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/3415654" data-desc="P:18:無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係" class="ph" title="無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係">
+                <img class="lazy_imgs" alt="無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係" title="無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2021/01/19/php1jIwUy.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/3415654">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/3415654" class="tit" data-desc="T:18:無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係" title="無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係">無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/3415654" class="immtag chan">社會</i>
+                <span class="time">2021/01/19</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/3415654" class="http" data-desc="T:18:無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係" title="無預警斷電老婦卡電梯 屏縣府稱與治水工程無直接關係">https://news.ltn.com.tw/news/society/breakingnews/3415654</a>
+                <p>屏東縣東港鎮昨天傳出有老婦因為無預警斷電，導致卡在3到4樓間烏漆墨黑的電梯車廂內約1個小時，所幸消防人員到場，隔空和電梯廠商聯絡，終於打開電梯門，將劉姓老婦救出生天。縣府解釋，是民間工程拉斷電線，與治水工程無直接關係。由於附近有數處工程正在施作，屏縣府不老橋治水工程也遭人點名，不過，負責治水工程的廠</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/2941263" data-desc="P:19:東港漁港驚傳男子疑失足落水 獲救意識模糊" class="ph" title="東港漁港驚傳男子疑失足落水 獲救意識模糊">
+                <img class="lazy_imgs" alt="東港漁港驚傳男子疑失足落水 獲救意識模糊" title="東港漁港驚傳男子疑失足落水 獲救意識模糊" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2019/10/09/2941263_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/2941263">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/2941263" class="tit" data-desc="T:19:東港漁港驚傳男子疑失足落水 獲救意識模糊" title="東港漁港驚傳男子疑失足落水 獲救意識模糊">東港漁港驚傳男子疑失足落水 獲救意識模糊</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/2941263" class="immtag chan">社會</i>
+                <span class="time">2019/10/09</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/2941263" class="http" data-desc="T:19:東港漁港驚傳男子疑失足落水 獲救意識模糊" title="東港漁港驚傳男子疑失足落水 獲救意識模糊">https://news.ltn.com.tw/news/society/breakingnews/2941263</a>
+                <p>東港漁港今天早上傳出有男子落海，大批警消出動前往救援將改名男子救起，不過該名男子意識模糊，緊急送輔英治療。今天早上9時許，東港漁港在豐漁橋附近的港岸，傳出有男子路失足落水，消防局獲報，由東港分隊分隊長林聖峰出動5車1艇10人前往搜索。9時30分帶隊官回報，指現場已救起1名男性溺者，其意識模糊，將溺者</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=林聖峰&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=林聖峰&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

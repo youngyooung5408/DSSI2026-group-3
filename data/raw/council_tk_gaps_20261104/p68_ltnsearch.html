@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155932';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>李紘毅 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="李紘毅 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="李紘毅 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="李紘毅" />
+<meta name="news_keywords" itemprop="keywords" content="李紘毅" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:59:32--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="李紘毅" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李紘毅&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 9 項結果 (搜尋時間：0.134 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "李紘毅", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" data-desc="P:0:高市議員101選將抽幸運號碼   完整名單一次看" class="ph" title="高市議員101選將抽幸運號碼   完整名單一次看">
+                <img class="lazy_imgs" alt="高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619984_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619984">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="tit" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">高市議員101選將抽幸運號碼   完整名單一次看</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="http" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">https://news.ltn.com.tw/news/politics/breakingnews/5619984</a>
+                <p>高雄市議員選舉號次抽籤今完成，15選區101位候選人陸續抽出專屬幸運號碼，有效時間今起33天。1選區5搶3，1李振豪（國民黨）、2林義迪（國民黨）、3林慧欣（民進黨）、4鍾炳光、5 林富寶（民進黨）。2選區5搶3，1李柏融、2李亞築 （國民黨）、3黃明太（民進黨）、4陳琳潔（民進黨）、5鄭東元。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://talk.ltn.com.tw/article/breakingnews/5456982" data-desc="P:1:自由開講》歧視性選舉看板 正在撕裂台灣的多元價值" class="ph" title="自由開講》歧視性選舉看板 正在撕裂台灣的多元價值">
+                <img class="lazy_imgs" alt="自由開講》歧視性選舉看板 正在撕裂台灣的多元價值" title="自由開講》歧視性選舉看板 正在撕裂台灣的多元價值" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/talk/page/400S/2026/06/01/phpyUeRn2.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://talk.ltn.com.tw/article/breakingnews/5456982">
+                <a href="https://talk.ltn.com.tw/article/breakingnews/5456982" class="tit" data-desc="T:1:自由開講》歧視性選舉看板 正在撕裂台灣的多元價值" title="自由開講》歧視性選舉看板 正在撕裂台灣的多元價值">自由開講》歧視性選舉看板 正在撕裂台灣的多元價值</a>
+                <i href="https://talk.ltn.com.tw/article/breakingnews/5456982" class="immtag chan1">評論</i>
+                <span class="time">2026/06/04</span>
+                <a href="https://talk.ltn.com.tw/article/breakingnews/5456982" class="http" data-desc="T:1:自由開講》歧視性選舉看板 正在撕裂台灣的多元價值" title="自由開講》歧視性選舉看板 正在撕裂台灣的多元價值">https://talk.ltn.com.tw/article/breakingnews/5456982</a>
+                <p>近日高雄市前鎮、小港地區出現一面引發高度爭議的競選看板，民眾黨籍里長李紘毅以「反對開放印度移工」為主題，將印度國旗、宗教文化符號與禁止標誌結合，甚至還冒用民進黨黨徽，迅速在社群平台引爆批評。這不只是一次單純的選舉文宣失誤，而是台灣近年來逐漸浮現的「恐懼政治」縮影。當政治人物不再透過政策論述爭取支持，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5436034" data-desc="P:2:李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板" class="ph" title="李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板">
+                <img class="lazy_imgs" alt="李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板" title="李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/05/13/5436034_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5436034">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5436034" class="tit" data-desc="T:2:李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板" title="李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板">李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5436034" class="immtag chan">政治</i>
+                <span class="time">2026/05/13</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5436034" class="http" data-desc="T:2:李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板" title="李紘毅冒用黨徽還搞歧視 民進黨最嚴厲譴責：立即撤下看板">https://news.ltn.com.tw/news/politics/breakingnews/5436034</a>
+                <p>高雄市議員參選人李紘毅選舉看板印有民進黨徽，內容被質疑看板中的印度圖樣是「明目張膽、直接的種族歧視式宣傳」。對此，民進黨今（13日）強調，除未經授權擅自使用民進黨黨徽之外，內容更涉及歧視不同國籍人士意象，對此表達最嚴厲譴責，並要求應立即撤下此看板。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5435219" data-desc="P:3:高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改" class="ph" title="高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改">
+                <img class="lazy_imgs" alt="高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改" title="高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/05/13/5435219_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5435219">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5435219" class="tit" data-desc="T:3:高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改" title="高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改">高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5435219" class="immtag chan">政治</i>
+                <span class="time">2026/05/13</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5435219" class="http" data-desc="T:3:高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改" title="高雄選舉看板疑「直接種族歧視式宣傳」 李紘毅：不撤不更改">https://news.ltn.com.tw/news/politics/breakingnews/5435219</a>
+                <p>臉書粉專孟買春秋PO出一張高市議員參選人李紘毅選舉看板，質疑看板中的印度圖樣是「明目張膽、直接的種族歧視式宣傳」！李紘毅澄清看板訴求是反對印度移工政策、絕無種族歧視，強調不會更改或撤下。李紘毅是現任高雄市小港區港明里的里長，他以無黨籍身分，有意挑戰下屆的高雄市議員。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5435146" data-desc="P:4:搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸" class="ph" title="搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸">
+                <img class="lazy_imgs" alt="搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸" title="搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/05/13/phpQlbCmg.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5435146">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5435146" class="tit" data-desc="T:4:搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸" title="搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸">搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5435146" class="immtag chan">政治</i>
+                <span class="time">2026/05/13</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5435146" class="http" data-desc="T:4:搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸" title="搞種族歧視還冒用黨徽？高雄民眾黨競選看板惹怒印度人 全網氣炸">https://news.ltn.com.tw/news/politics/breakingnews/5435146</a>
+                <p>高雄市小港區港明里里長李紘毅有意參選高雄市議員，近日因競選看板內容涉嫌明目張膽地種族歧視，極具爭議，引發外界強烈砲轟，不僅被在台印度人發文抗議，更因冒用民進黨黨徽，疑似掛羊頭賣狗肉負面宣傳，被網友痛批行為卑劣。有意挑戰下屆的高雄市第十選區（前鎮區、小港區）議員的李紘毅，其競選看板近日在社群平台引發炎</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5351502" data-desc="P:5:民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面" class="ph" title="民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面">
+                <img class="lazy_imgs" alt="民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面" title="民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/25/5351502_3_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5351502">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5351502" class="tit" data-desc="T:5:民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面" title="民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面">民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5351502" class="immtag chan">政治</i>
+                <span class="time">2026/02/25</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5351502" class="http" data-desc="T:5:民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面" title="民眾黨力拚高雄議員破蛋 徐尚賢、林于凱4強棒浮出檯面">https://news.ltn.com.tw/news/politics/breakingnews/5351502</a>
+                <p>民眾黨力拚2026高雄議員選舉破蛋，透過精準提名，鎖定左楠、三民、鳳山、前鎮小港等4個選區，將推出強棒人選。第4選區（左營、楠梓）浮出檯面的是民眾黨前市黨部主委莊貽量，2020年曾代表民眾黨爭取高雄第3選區立委，得票率5.17%；2022年再戰左楠議員也不幸落敗，2023年則列不分區第20名，累積豐</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4216196" data-desc="P:6:競爭激烈！高雄市2里今重選里長 投票率都超過45％" class="ph" title="競爭激烈！高雄市2里今重選里長 投票率都超過45％">
+                <img class="lazy_imgs" alt="競爭激烈！高雄市2里今重選里長 投票率都超過45％" title="競爭激烈！高雄市2里今重選里長 投票率都超過45％" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2023/02/19/4216196_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4216196">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4216196" class="tit" data-desc="T:6:競爭激烈！高雄市2里今重選里長 投票率都超過45％" title="競爭激烈！高雄市2里今重選里長 投票率都超過45％">競爭激烈！高雄市2里今重選里長 投票率都超過45％</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4216196" class="immtag chan">政治</i>
+                <span class="time">2023/02/19</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4216196" class="http" data-desc="T:6:競爭激烈！高雄市2里今重選里長 投票率都超過45％" title="競爭激烈！高雄市2里今重選里長 投票率都超過45％">https://news.ltn.com.tw/news/politics/breakingnews/4216196</a>
+                <p>高雄市小港區港明里與燕巢區南燕里因為里長當選人在就職前去世，今天（19日）重行選舉，由於競爭激烈，兩里的投票率均超過45％。傍晚開票結果，港明里由李紘毅以545票當選；南燕里由繼承父親遺志參選的龔映羽以916票當選。高雄市選委會表示，小港區港明里長當選人李文正，於去年11月28日逝世；燕巢區南燕里長</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1566943" data-desc="P:7:2里長就職前過世 19日重新投票" class="ph" title="2里長就職前過世 19日重新投票">
+                <img class="lazy_imgs" alt="2里長就職前過世 19日重新投票" title="2里長就職前過世 19日重新投票" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1566943">
+                <a href="https://news.ltn.com.tw/news/life/paper/1566943" class="tit" data-desc="T:7:2里長就職前過世 19日重新投票" title="2里長就職前過世 19日重新投票">2里長就職前過世 19日重新投票</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1566943" class="immtag chan">生活</i>
+                <span class="time">2023/02/14</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1566943" class="http" data-desc="T:7:2里長就職前過世 19日重新投票" title="2里長就職前過世 19日重新投票">https://news.ltn.com.tw/news/life/paper/1566943</a>
+                <p>高市小港區港明里與燕巢區南燕里，因為里長當選人在就職前逝世，依法須重行選舉；港明里有六人登記、競爭激烈，南燕里也有三人登記，今天起到二月十八日為競選活動期間，二月十九日投票。小港港明里、燕巢南燕里將重選高市選委會說明，小港區港明里長當選人李文正於去年十一月廿八日逝世，燕巢區南燕里長當選人龔榮源於去年</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4209552" data-desc="P:8:里長當選人就職前過世 高市港明里、南燕里2/19重行選舉" class="ph" title="里長當選人就職前過世 高市港明里、南燕里2/19重行選舉">
+                <img class="lazy_imgs" alt="里長當選人就職前過世 高市港明里、南燕里2/19重行選舉" title="里長當選人就職前過世 高市港明里、南燕里2/19重行選舉" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2023/02/13/4209552_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4209552">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4209552" class="tit" data-desc="T:8:里長當選人就職前過世 高市港明里、南燕里2/19重行選舉" title="里長當選人就職前過世 高市港明里、南燕里2/19重行選舉">里長當選人就職前過世 高市港明里、南燕里2/19重行選舉</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4209552" class="immtag chan">政治</i>
+                <span class="time">2023/02/13</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4209552" class="http" data-desc="T:8:里長當選人就職前過世 高市港明里、南燕里2/19重行選舉" title="里長當選人就職前過世 高市港明里、南燕里2/19重行選舉">https://news.ltn.com.tw/news/politics/breakingnews/4209552</a>
+                <p>　高市小港區港明里、燕巢區南燕里，分別因為里長當選人在就職前逝世，依法須進行重行選舉；港明里有6人登記參選、南燕里有3人登記，2月14到2月18日為競選活動期間，2月19日投票。高市選委會說明，小港區港明里長當選人李文正於111年11月28日逝世，燕巢區南燕里長當選人龔榮源於111年12月19日逝世</p>
+            </div>
+        </li>
+
+            </ul>
+
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

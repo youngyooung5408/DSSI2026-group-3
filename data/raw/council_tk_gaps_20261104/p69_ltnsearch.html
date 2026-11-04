@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155933';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>于仙玲 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="于仙玲 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="于仙玲 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="于仙玲" />
+<meta name="news_keywords" itemprop="keywords" content="于仙玲" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:59:33--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="于仙玲" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=于仙玲&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 22 項結果 (搜尋時間：0.126 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "于仙玲", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" data-desc="P:0:高市議員101選將抽幸運號碼   完整名單一次看" class="ph" title="高市議員101選將抽幸運號碼   完整名單一次看">
+                <img class="lazy_imgs" alt="高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619984_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619984">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="tit" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">高市議員101選將抽幸運號碼   完整名單一次看</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="http" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">https://news.ltn.com.tw/news/politics/breakingnews/5619984</a>
+                <p>高雄市議員選舉號次抽籤今完成，15選區101位候選人陸續抽出專屬幸運號碼，有效時間今起33天。1選區5搶3，1李振豪（國民黨）、2林義迪（國民黨）、3林慧欣（民進黨）、4鍾炳光、5 林富寶（民進黨）。2選區5搶3，1李柏融、2李亞築 （國民黨）、3黃明太（民進黨）、4陳琳潔（民進黨）、5鄭東元。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5573787" data-desc="P:1:湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」" class="ph" title="湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」">
+                <img class="lazy_imgs" alt="湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」" title="湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/14/5573787_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5573787">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5573787" class="tit" data-desc="T:1:湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」" title="湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」">湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5573787" class="immtag chan">政治</i>
+                <span class="time">2026/09/14</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5573787" class="http" data-desc="T:1:湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」" title="湯茹婷單膝跪地接受曾麗燕披彩帶 她批「曾說過的改革、清廉還算不算數？」">https://news.ltn.com.tw/news/politics/breakingnews/5573787</a>
+                <p>4年前掛時代力量參選高雄市議員第10選區（前鎮、小港）落選的湯茹婷，此次在國民黨籍前議長曾麗燕無法參選後，獲國民黨報准參選，日前更單膝跪地接受曾麗燕披掛競選彩帶，象徵傳承；對此，代表「台灣前進陣線」參選的于仙玲今（14）日質疑，湯茹婷怎麼看待曾麗燕的貪污判決？那些曾經說過的改革、清廉，現在還算不算數</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561741" data-desc="P:2:台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港" class="ph" title="台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港">
+                <img class="lazy_imgs" alt="台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港" title="台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/03/5561741_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5561741">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561741" class="tit" data-desc="T:2:台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港" title="台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港">台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5561741" class="immtag chan">政治</i>
+                <span class="time">2026/09/03</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561741" class="http" data-desc="T:2:台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港" title="台灣前進雙將參選高市議員   薛兆基拚左楠、于仙玲戰鎮港">https://news.ltn.com.tw/news/politics/breakingnews/5561741</a>
+                <p>台灣前進推薦兩人登記參選下屆高市議員，于仙玲三度出征前鎮小港、薛兆基則挑戰左營楠梓。「台灣前進」由台灣基進、時代力量、台灣綠黨、小民參政歐巴桑聯盟共同組成，台灣基進黨主席王興煥、小民參政歐巴桑聯盟總召林詩涵，今到場為兩人站台祝福，肯定兩人是深耕地方多年的在地工作者。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5540928" data-desc="P:3:「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先" class="ph" title="「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先">
+                <img class="lazy_imgs" alt="「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先" title="「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/08/15/5540928_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5540928">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5540928" class="tit" data-desc="T:3:「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先" title="「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先">「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5540928" class="immtag chan">政治</i>
+                <span class="time">2026/08/15</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5540928" class="http" data-desc="T:3:「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先" title="「台灣前進陣線」南高屏募款餐會 宣示真正的第三勢力只能台灣優先">https://news.ltn.com.tw/news/politics/breakingnews/5540928</a>
+                <p>由台灣基進、時代力量、台灣綠黨、小民參政歐巴桑聯盟共同組成的「台灣前進陣線」，今（15）日在高雄晶綺盛宴台鋁館舉行南高屏聯合募款餐會，4黨共同宣示「真正的第三勢力，只能台灣優先」，現場湧入爆滿支持者。多位南台灣賢達今天到場力挺，包括台灣文學館前館長鄭邦鎮、曾任高雄市衛生局長與南社社長的韓明榮醫師，及</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5501409" data-desc="P:4:選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」" class="ph" title="選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」">
+                <img class="lazy_imgs" alt="選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」" title="選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/07/11/5501409_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5501409">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5501409" class="tit" data-desc="T:4:選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」" title="選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」">選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5501409" class="immtag chan">政治</i>
+                <span class="time">2026/07/11</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5501409" class="http" data-desc="T:4:選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」" title="選舉放一邊！「台灣前進」網站化身「巴威颱風戰情室」">https://news.ltn.com.tw/news/politics/breakingnews/5501409</a>
+                <p>中度颱風巴威進逼，剛上線的「台灣前進」選舉網站，立刻化身為「巴威颱風戰情室」，整合各項颱風動態、災情地圖、即時影像、風雨預報、交通資訊、水情及各項緊急服務資訊。台灣前進陣線是台灣數個小黨組成的政黨聯盟，由時代力量、小民參政歐巴桑聯盟、台灣基進、台灣綠黨結合無黨籍人士組成，目前已陸續提名各縣市議員參選</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5472530" data-desc="P:5:岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億" class="ph" title="岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億">
+                <img class="lazy_imgs" alt="岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億" title="岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/06/15/5472530_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5472530">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5472530" class="tit" data-desc="T:5:岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億" title="岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億">岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5472530" class="immtag chan">生活</i>
+                <span class="time">2026/06/15</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5472530" class="http" data-desc="T:5:岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億" title="岡山大火燒出累犯業者的「營運成本」台灣前進陣線揭罰133.6萬、得標逾3.2億">https://news.ltn.com.tw/news/life/breakingnews/5472530</a>
+                <p>高雄岡山本洲工業區綠大實業廠房日前發生大火，台灣前進陣線今（15）日召開記者會指出，綠大自2008年至今已累積15次環保違規、裁罰133.6萬元，卻持續承攬超過3.2億元的政府標案，凸顯政府採購制度的根本漏洞。時代力量高雄黨部主任王憶恆表示，綠大背後所屬的郭氏家族事業，還包括圓立環保、郡大實業等多家</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5471592" data-desc="P:6:跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權" class="ph" title="跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權">
+                <img class="lazy_imgs" alt="跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權" title="跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/06/14/5471592_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5471592">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5471592" class="tit" data-desc="T:6:跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權" title="跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權">跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5471592" class="immtag chan">政治</i>
+                <span class="time">2026/06/14</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5471592" class="http" data-desc="T:6:跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權" title="跨黨派聯合造勢「台灣前進陣線」強調團結抗中固主權">https://news.ltn.com.tw/news/politics/breakingnews/5471592</a>
+                <p>基進黨昨在高雄舉辦《台灣前進陣線，前進南高屏》聯合造勢，基進黨主席王興煥指出，唯有本土政黨持續團結合作，才能逐步取代親中勢力，鞏固台灣民主與主權。台南永康區市議員參選人吳依潔、高雄無黨籍議員參選人薛兆基、小民參政歐巴桑聯盟議員參選人于仙玲及屏東縣屏東市民代表參選人游子昂等人聯合造勢，吳依潔強調，地方</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5471583" data-desc="P:7:「台灣前進陣線」前進南高屏  推薦4位參選人" class="ph" title="「台灣前進陣線」前進南高屏  推薦4位參選人">
+                <img class="lazy_imgs" alt="「台灣前進陣線」前進南高屏  推薦4位參選人" title="「台灣前進陣線」前進南高屏  推薦4位參選人" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/06/14/5471583_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5471583">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5471583" class="tit" data-desc="T:7:「台灣前進陣線」前進南高屏  推薦4位參選人" title="「台灣前進陣線」前進南高屏  推薦4位參選人">「台灣前進陣線」前進南高屏  推薦4位參選人</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5471583" class="immtag chan">政治</i>
+                <span class="time">2026/06/14</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5471583" class="http" data-desc="T:7:「台灣前進陣線」前進南高屏  推薦4位參選人" title="「台灣前進陣線」前進南高屏  推薦4位參選人">https://news.ltn.com.tw/news/politics/breakingnews/5471583</a>
+                <p>「台灣前進陣線」昨（13）日晚間於高雄左營舉辦第一場南部客廳會，推薦無黨籍高雄市左營、楠梓市議員參選人薛兆基、小民參政歐巴桑聯盟高雄市前鎮小港市議員參選人于仙玲、台灣基進台南市永康區市議員參選人吳依潔，及屏東市民代表參選人游子昂，共同宣示攜手深耕地方、推動改革。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5433922" data-desc="P:8:時代力量：「三班護病比不能再拖」最遲明年護理師節前施行" class="ph" title="時代力量：「三班護病比不能再拖」最遲明年護理師節前施行">
+                <img class="lazy_imgs" alt="時代力量：「三班護病比不能再拖」最遲明年護理師節前施行" title="時代力量：「三班護病比不能再拖」最遲明年護理師節前施行" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/05/12/5433922_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5433922">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5433922" class="tit" data-desc="T:8:時代力量：「三班護病比不能再拖」最遲明年護理師節前施行" title="時代力量：「三班護病比不能再拖」最遲明年護理師節前施行">時代力量：「三班護病比不能再拖」最遲明年護理師節前施行</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5433922" class="immtag chan">政治</i>
+                <span class="time">2026/05/12</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5433922" class="http" data-desc="T:8:時代力量：「三班護病比不能再拖」最遲明年護理師節前施行" title="時代力量：「三班護病比不能再拖」最遲明年護理師節前施行">https://news.ltn.com.tw/news/politics/breakingnews/5433922</a>
+                <p>立法院院會8日闖關《醫療法》修正草案，將三班護病比正式入法，不過，衛福部長石崇良稱要設置2年緩衝期，預計2028年5月1日才會實施。時代力量今（12）日召開記者會，要求衛福部停止「以拖待變」，最遲應於明年護理師節前正式施行，並同步研議急診、加護病房等特殊單位的護病比規範。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5387236" data-desc="P:9:台灣前進陣線首位高市議員參選人  于仙玲三度參選" class="ph" title="台灣前進陣線首位高市議員參選人  于仙玲三度參選">
+                <img class="lazy_imgs" alt="台灣前進陣線首位高市議員參選人  于仙玲三度參選" title="台灣前進陣線首位高市議員參選人  于仙玲三度參選" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/30/5387236_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5387236">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5387236" class="tit" data-desc="T:9:台灣前進陣線首位高市議員參選人  于仙玲三度參選" title="台灣前進陣線首位高市議員參選人  于仙玲三度參選">台灣前進陣線首位高市議員參選人  于仙玲三度參選</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5387236" class="immtag chan">政治</i>
+                <span class="time">2026/03/30</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5387236" class="http" data-desc="T:9:台灣前進陣線首位高市議員參選人  于仙玲三度參選" title="台灣前進陣線首位高市議員參選人  于仙玲三度參選">https://news.ltn.com.tw/news/politics/breakingnews/5387236</a>
+                <p>台灣前進陣線今公布第三波議員提名，高雄出現第一位參選人、第三度參選的小民參政歐巴桑聯盟于仙玲，她喊話要打破長期壟斷地方的傳統派系與金權政治，邀鄉親一起翻轉前鎮小港。于仙玲說，很多人問她「選兩次沒上，為什麼還要再站出來？」，身為小港在地 33年的居民，她發現這8年多來，呼吸的空氣依然沉重、孩子走的路依</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5387199" data-desc="P:10:「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光" class="ph" title="「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光">
+                <img class="lazy_imgs" alt="「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光" title="「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/30/5387199_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5387199">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5387199" class="tit" data-desc="T:10:「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光" title="「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光">「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5387199" class="immtag chan">政治</i>
+                <span class="time">2026/03/30</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5387199" class="http" data-desc="T:10:「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光" title="「台灣前進陣線」乘勝追擊「改變」第三勢力 第3波參選人曝光">https://news.ltn.com.tw/news/politics/breakingnews/5387199</a>
+                <p>前台北市長柯文哲涉京華城弊案日前一審宣判有罪，無緣2028總統大選，而這項重大案件不只牽動年底九合一選戰「藍白合」，也左右著藍綠之外的第三勢力板版圖。為此，由小黨組成的「台灣前進陣線」今（30）宣布最新一波地方議員參選人，集結社工、教育、護理及部落培力專業，力求在議會中能守護弱勢，匯聚起改變體制的力</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5071898" data-desc="P:11:高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲" class="ph" title="高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲">
+                <img class="lazy_imgs" alt="高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲" title="高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/06/11/5071898_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5071898">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5071898" class="tit" data-desc="T:11:高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲" title="高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲">高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5071898" class="immtag chan">生活</i>
+                <span class="time">2025/06/11</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5071898" class="http" data-desc="T:11:高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲" title="高雄同志大遊行首度移師鳳山 主題「豪彩投」呼應選舉為性平發聲">https://news.ltn.com.tw/news/life/breakingnews/5071898</a>
+                <p>高雄同志大遊行11月29日首度移師鳳山，攜手民政局串聯岡山等6區，推出「彩虹公民去哪裡」等系列行動，6月14日旗津區打頭陣，今年主題「豪彩投」呼應明年地方選舉，作為亞洲第一個實現婚姻平權國家，台灣同志運動邁向深層性別平權實踐，號召民眾「豪彩投」選擇未來，為性別平權發聲。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4610043" data-desc="P:12:「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員" class="ph" title="「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員">
+                <img class="lazy_imgs" alt="「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員" title="「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2024/03/16/4610043_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4610043">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4610043" class="tit" data-desc="T:12:「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員" title="「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員">「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4610043" class="immtag chan">政治</i>
+                <span class="time">2024/03/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4610043" class="http" data-desc="T:12:「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員" title="「歐巴桑聯盟」政黨票衝第5名 2026拚選上3席議員">https://news.ltn.com.tw/news/politics/breakingnews/4610043</a>
+                <p>冷門小黨「小民參政歐巴桑聯盟」在2024選舉政黨票驚奇奪名第五名，今天（16日）下午舉行高雄場見面會，短期目標是2026年至少在全台選上3席地方議員。2024政黨票得票數排行前三名為民進黨、國民黨、民眾黨，第四是時代力量，讓外界訝異的是，「小民參政歐巴桑聯盟」搶下第五，得票數是12萬8613票，得票</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/4096874" data-desc="P:13:高雄市各項選舉侯選人抽籤號次看這裡" class="ph" title="高雄市各項選舉侯選人抽籤號次看這裡">
+                <img class="lazy_imgs" alt="高雄市各項選舉侯選人抽籤號次看這裡" title="高雄市各項選舉侯選人抽籤號次看這裡" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2022/10/21/phpNic9N8.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/4096874">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4096874" class="tit" data-desc="T:13:高雄市各項選舉侯選人抽籤號次看這裡" title="高雄市各項選舉侯選人抽籤號次看這裡">高雄市各項選舉侯選人抽籤號次看這裡</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/4096874" class="immtag chan">政治</i>
+                <span class="time">2022/10/21</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/4096874" class="http" data-desc="T:13:高雄市各項選舉侯選人抽籤號次看這裡" title="高雄市各項選舉侯選人抽籤號次看這裡">https://news.ltn.com.tw/news/politics/breakingnews/4096874</a>
+                <p>年底大選今天抽籤，高雄市長、市議員等候選人號次抽籤結果如下：高雄市長選舉：1號鄭宇翔（無）、2號曾尹儷（無）、3號柯志恩（國）、4號陳其邁（民）高市議員選舉：第1選舉區（旗山等9區）1號朱信強（無盟）、2號林義迪（國）、3號林慧欣（民）、4號林富寶（民）。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/3990909" data-desc="P:14:退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框" class="ph" title="退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框">
+                <img class="lazy_imgs" alt="退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框" title="退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2022/07/13/3990909_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/3990909">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/3990909" class="tit" data-desc="T:14:退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框" title="退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框">退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/3990909" class="immtag chan">政治</i>
+                <span class="time">2022/07/13</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/3990909" class="http" data-desc="T:14:退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框" title="退出國民黨後宣布參選高市議員 朱挺玗；若有機會願與柯志恩同框">https://news.ltn.com.tw/news/politics/breakingnews/3990909</a>
+                <p>今年3月宣布退出國民黨的前高市議長之女、前議員朱挺玗，今鬆口表態將參選高市前鎮、小港區議員，她同時肯定國民黨提名柯志恩參選高雄市長，表示將來若有機會，願意與柯志恩同框。前鎮、小港為高雄市第十選區，應選8席議員、含2席婦女保障，目前國民黨有曾麗燕議長、陳麗娜、蔡武宏等3席、民進黨是鄭光峰、陳致中、林宛</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/3909969" data-desc="P:15:新興政黨搶攻9合1大選 「小歐盟」推出第1波選將" class="ph" title="新興政黨搶攻9合1大選 「小歐盟」推出第1波選將">
+                <img class="lazy_imgs" alt="新興政黨搶攻9合1大選 「小歐盟」推出第1波選將" title="新興政黨搶攻9合1大選 「小歐盟」推出第1波選將" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2022/04/29/3909969_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/3909969">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/3909969" class="tit" data-desc="T:15:新興政黨搶攻9合1大選 「小歐盟」推出第1波選將" title="新興政黨搶攻9合1大選 「小歐盟」推出第1波選將">新興政黨搶攻9合1大選 「小歐盟」推出第1波選將</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/3909969" class="immtag chan">政治</i>
+                <span class="time">2022/04/29</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/3909969" class="http" data-desc="T:15:新興政黨搶攻9合1大選 「小歐盟」推出第1波選將" title="新興政黨搶攻9合1大選 「小歐盟」推出第1波選將">https://news.ltn.com.tw/news/politics/breakingnews/3909969</a>
+                <p>新興政黨搶攻今年九合一大選！小民參政歐巴桑聯盟政黨（小歐盟）今召開記者會公布第一波選區地圖及所推出候選人，總計分別搶攻北中南7縣市15個選區議員席位，期盼能透過參政，進一步照顧更多兒童的福祉。今天記者會透過行動劇展現小民生活中所遇到的事件困難，包括推娃娃車出門搭乘公共運輸過程中可能出現的種種不友善情</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/local/paper/1248358" data-desc="P:16:立誓護老樹 陳其邁韓國瑜簽同意書" class="ph" title="立誓護老樹 陳其邁韓國瑜簽同意書">
+                <img class="lazy_imgs" alt="立誓護老樹 陳其邁韓國瑜簽同意書" title="立誓護老樹 陳其邁韓國瑜簽同意書" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2018/11/21/197.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/local/paper/1248358">
+                <a href="https://news.ltn.com.tw/news/local/paper/1248358" class="tit" data-desc="T:16:立誓護老樹 陳其邁韓國瑜簽同意書" title="立誓護老樹 陳其邁韓國瑜簽同意書">立誓護老樹 陳其邁韓國瑜簽同意書</a>
+                <i href="https://news.ltn.com.tw/news/local/paper/1248358" class="immtag chan">地方</i>
+                <span class="time">2018/11/21</span>
+                <a href="https://news.ltn.com.tw/news/local/paper/1248358" class="http" data-desc="T:16:立誓護老樹 陳其邁韓國瑜簽同意書" title="立誓護老樹 陳其邁韓國瑜簽同意書">https://news.ltn.com.tw/news/local/paper/1248358</a>
+                <p>再過三天就投票，高雄市長陣營、市議員候選人於土地公前立誓護老樹。「高雄市樹木保護施政承諾書」簽署儀式，昨天於鳳山體育園區鳳邑福德堂前舉行，時代力量市議員候選人黃捷、台聯黨市議員候選人黃淑美、基進黨代表、韓國瑜競選總部發言人侯亞寧、親民黨市議員候選人吳益政、歐巴桑聯盟候選人于仙玲出席簽署儀式、另外，民</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/2618883" data-desc="P:17:陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹" class="ph" title="陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹">
+                <img class="lazy_imgs" alt="陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹" title="陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2018/11/20/2618883_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/2618883">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/2618883" class="tit" data-desc="T:17:陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹" title="陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹">陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/2618883" class="immtag chan">政治</i>
+                <span class="time">2018/11/20</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/2618883" class="http" data-desc="T:17:陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹" title="陳其邁、韓國瑜陣營廟前誓約 護鳳山百棵老樹">https://news.ltn.com.tw/news/politics/breakingnews/2618883</a>
+                <p>再過3天就投票，高雄市長陣營、市議員候選人於土地公前立誓護老樹。「高雄市樹木保護施政承諾書」簽署儀式今天（20日）於鳳山體育園區鳳邑福德堂前舉行，時代力量參選人黃捷、台聯黨黃淑美、基進黨代表、韓國瑜市長候選人發言人侯亞寧、親民黨市議員候選人吳益政、歐巴桑聯盟候選人于仙玲及陳信瑜 、邱于軒也派人參與宣</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/local/paper/1247828" data-desc="P:18:歐巴桑要翻轉政治 親子單車掃街" class="ph" title="歐巴桑要翻轉政治 親子單車掃街">
+                <img class="lazy_imgs" alt="歐巴桑要翻轉政治 親子單車掃街" title="歐巴桑要翻轉政治 親子單車掃街" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2018/11/19/157.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/local/paper/1247828">
+                <a href="https://news.ltn.com.tw/news/local/paper/1247828" class="tit" data-desc="T:18:歐巴桑要翻轉政治 親子單車掃街" title="歐巴桑要翻轉政治 親子單車掃街">歐巴桑要翻轉政治 親子單車掃街</a>
+                <i href="https://news.ltn.com.tw/news/local/paper/1247828" class="immtag chan">地方</i>
+                <span class="time">2018/11/19</span>
+                <a href="https://news.ltn.com.tw/news/local/paper/1247828" class="http" data-desc="T:18:歐巴桑要翻轉政治 親子單車掃街" title="歐巴桑要翻轉政治 親子單車掃街">https://news.ltn.com.tw/news/local/paper/1247828</a>
+                <p>高雄三位無黨籍「歐巴桑聯盟」市議員候選人，正打一場不一樣的選戰，不搞悲情搶救，不做拉關係包裝，包括于仙玲（十選區）、江敏榕（六選區）、沈玉玲（四選區），她們堅持不做塑膠文宣、不掛大扛棒（公共看板除外）、不塑造政治明星、不為曝光矛盾了理念，歐巴桑們要用乾淨、環保選舉翻轉政治。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/2616972" data-desc="P:19:3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治" class="ph" title="3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治">
+                <img class="lazy_imgs" alt="3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治" title="3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2018/11/18/2616972_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/2616972">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/2616972" class="tit" data-desc="T:19:3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治" title="3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治">3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/2616972" class="immtag chan">政治</i>
+                <span class="time">2018/11/18</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/2616972" class="http" data-desc="T:19:3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治" title="3位「歐巴桑聯盟」高市議員候選人很另類！從生活出發翻轉政治">https://news.ltn.com.tw/news/politics/breakingnews/2616972</a>
+                <p>高雄三位無黨籍年輕「歐巴桑」聯盟市議員候選人，正打ㄧ場不ㄧ樣的選戰，不搞悲情搶救，不做拉關係包裝，包括于仙玲（十選區）、江敏榕（六選區）、沈玉玲（四選區）她們堅持不做塑膠文宣、不掛大扛棒（公共看板除外）、不塑造政治明星、不為曝光矛盾了理念，歐巴桑們要用乾淨、環保選舉翻轉政治。</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=于仙玲&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=于仙玲&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

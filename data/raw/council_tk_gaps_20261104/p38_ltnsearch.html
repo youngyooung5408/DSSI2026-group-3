@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155827';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>游智彬 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="游智彬 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="游智彬 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="游智彬" />
+<meta name="news_keywords" itemprop="keywords" content="游智彬" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:58:27--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="游智彬" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=游智彬&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 252 項結果 (搜尋時間：0.08 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "游智彬", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5629001" data-desc="P:0:游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去" class="ph" title="游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去">
+                <img class="lazy_imgs" alt="游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去" title="游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/04/5629001_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5629001">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5629001" class="tit" data-desc="T:0:游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去" title="游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去">游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5629001" class="immtag chan">政治</i>
+                <span class="time">2小時前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5629001" class="http" data-desc="T:0:游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去" title="游智彬開宣傳車踢館民進黨中央黨部  占用車道4警「引導」離去">https://news.ltn.com.tw/news/politics/breakingnews/5629001</a>
+                <p>先前出生於中國福建的新黨副秘書長游智彬，因在台設籍未滿10年，不符參選資格，遭中央選舉委員會不予受理登記。游智彬今（4）日趁民進黨召開中常會之際，駕駛宣傳車前往民進黨中央黨部樓下喊話。不過，宣傳車一度行駛於馬路中央，險象環生，也影響其他車輛通行，迫使部分駕駛繞道。最後，游智彬在4名警察引導下，駕車離</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5623138" data-desc="P:1:國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實" class="ph" title="國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實">
+                <img class="lazy_imgs" alt="國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實" title="國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/29/5623138_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5623138">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5623138" class="tit" data-desc="T:1:國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實" title="國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實">國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5623138" class="immtag chan">政治</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5623138" class="http" data-desc="T:1:國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實" title="國台辦稱台灣漁產品輸中年增35.5％   梁文傑打臉曝1事實">https://news.ltn.com.tw/news/politics/breakingnews/5623138</a>
+                <p>中國國台辦昨日宣傳「國共十項措施」落實成效，稱23日在廈門舉辦的台灣漁產品輸入儀式前，已經有350噸台灣石斑魚等漁產品運抵，今年前三季中國自台灣進口的漁產品年增35.5%。陸委會發言人梁文傑今天強調，石斑魚並沒有特別增加情況，福建、廣東和海南島當地產量已經非常大，台灣石斑魚若要銷到那邊，也會面臨當地</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5615426" data-desc="P:2:游智彬「設籍未滿10年」不得參選  聲請假處分被駁" class="ph" title="游智彬「設籍未滿10年」不得參選  聲請假處分被駁">
+                <img class="lazy_imgs" alt="游智彬「設籍未滿10年」不得參選  聲請假處分被駁" title="游智彬「設籍未滿10年」不得參選  聲請假處分被駁" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/22/phpjDvocg.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5615426">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5615426" class="tit" data-desc="T:2:游智彬「設籍未滿10年」不得參選  聲請假處分被駁" title="游智彬「設籍未滿10年」不得參選  聲請假處分被駁">游智彬「設籍未滿10年」不得參選  聲請假處分被駁</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5615426" class="immtag chan">社會</i>
+                <span class="time">2026/10/22</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5615426" class="http" data-desc="T:2:游智彬「設籍未滿10年」不得參選  聲請假處分被駁" title="游智彬「設籍未滿10年」不得參選  聲請假處分被駁">https://news.ltn.com.tw/news/society/breakingnews/5615426</a>
+                <p>出生於中國福建的新黨副秘書長游智彬，原先登記參選台北市第六選區台北市議員，卻因「在台灣設有戶籍尚未滿10年」被中央選舉委員會不予以登記；游智彬不服，向台北高等行政法院聲請假處分。台北高等行政法院認為，若准予其聲請，不管未來其是否會順利當選，皆會有害於社會公益，裁定駁回。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5615442" data-desc="P:3:中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士" class="ph" title="中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士">
+                <img class="lazy_imgs" alt="中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士" title="中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/22/phpnEfskm.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5615442">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5615442" class="tit" data-desc="T:3:中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士" title="中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士">中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5615442" class="immtag chan">政治</i>
+                <span class="time">2026/10/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5615442" class="http" data-desc="T:3:中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士" title="中配二代賴汶佑參選村長被撤銷資格  梁文傑：認定是原中國籍人士">https://news.ltn.com.tw/news/politics/breakingnews/5615442</a>
+                <p>花蓮縣富里鄉學田村爆發村長參選資格爭議！前村長、中配鄧萬華去年因擁有中國籍遭內政部解職，中配二代、26歲兒子賴汶佑今年接棒參選，原已通過地方選委會資格審查，21日突然接獲資格撤銷公文。陸委會發言人梁文傑今日強調，有在中國設籍，來台就必須以中國大陸人士的身分辦理相關程序，我們認定他就是原籍中國人士。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1774883" data-desc="P:4:中選會審查 游智彬等10人不能參選" class="ph" title="中選會審查 游智彬等10人不能參選">
+                <img class="lazy_imgs" alt="中選會審查 游智彬等10人不能參選" title="中選會審查 游智彬等10人不能參選" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/17/125.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1774883">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1774883" class="tit" data-desc="T:4:中選會審查 游智彬等10人不能參選" title="中選會審查 游智彬等10人不能參選">中選會審查 游智彬等10人不能參選</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1774883" class="immtag chan">政治</i>
+                <span class="time">2026/10/17</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1774883" class="http" data-desc="T:4:中選會審查 游智彬等10人不能參選" title="中選會審查 游智彬等10人不能參選">https://news.ltn.com.tw/news/politics/paper/1774883</a>
+                <p>九合一候選人資格審查出爐 10月23日辦理號次抽籤中選會昨審查通過一一五年縣市首長、議員候選人資格。其中，直轄市長候選人共廿三人登記，縣（市）長候選人五八人登記，均符合規定；直轄市議員候選人部分，六〇五人符合規定，台北市游智彬等五人不符；縣（市）議員候選人部分，八八七人符合規定，金門縣石永城等五人不</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608688" data-desc="P:5:名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多" class="ph" title="名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多">
+                <img class="lazy_imgs" alt="名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多" title="名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/16/phpo66ZGA.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5608688">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608688" class="tit" data-desc="T:5:名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多" title="名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多">名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5608688" class="immtag chan">政治</i>
+                <span class="time">2026/10/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608688" class="http" data-desc="T:5:名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多" title="名單曝光！IORG：70名候選人3年內赴中交流  國民黨、台北市最多">https://news.ltn.com.tw/news/politics/breakingnews/5608688</a>
+                <p>2026九合一選戰在即，台灣資訊環境研究中心（IORG）今日發布第146期週報，整理出有70名候選人於近3年內涉及中共「兩岸交流」，其中身分以縣市議員最多、地區以台北市最多、黨籍以中國國民黨最多，民主進步黨涉事程度為0。IORG今日發布週報指出，2026年九合一選舉所有候選人之中，至少70人涉及中共</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608729" data-desc="P:6:在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲" class="ph" title="在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲">
+                <img class="lazy_imgs" alt="在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲" title="在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/16/php7x7qGd.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5608729">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608729" class="tit" data-desc="T:6:在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲" title="在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲">在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5608729" class="immtag chan">政治</i>
+                <span class="time">2026/10/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608729" class="http" data-desc="T:6:在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲" title="在台設籍未滿10年不符參選資格！北市議員參選人游智彬發聲">https://news.ltn.com.tw/news/politics/breakingnews/5608729</a>
+                <p>中選會今（16日）審查通過115年縣市首長、議員候選人資格，其中，台北市議員參選人僅第6選舉區游智彬不符規定，不得登記為候選人。對此，游智彬痛批遭民進黨突襲閹割參政權，還質疑賴清德政府因懼怕他進入議會強力監督，眼見其民調穩定維持在安全名單內，在選前透過行政函釋擴大解釋法律。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608512" data-desc="P:7:游智彬不能參選了！中選會審查候選人資格 10人不符規定" class="ph" title="游智彬不能參選了！中選會審查候選人資格 10人不符規定">
+                <img class="lazy_imgs" alt="游智彬不能參選了！中選會審查候選人資格 10人不符規定" title="游智彬不能參選了！中選會審查候選人資格 10人不符規定" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/16/5608512_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5608512">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608512" class="tit" data-desc="T:7:游智彬不能參選了！中選會審查候選人資格 10人不符規定" title="游智彬不能參選了！中選會審查候選人資格 10人不符規定">游智彬不能參選了！中選會審查候選人資格 10人不符規定</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5608512" class="immtag chan">政治</i>
+                <span class="time">2026/10/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5608512" class="http" data-desc="T:7:游智彬不能參選了！中選會審查候選人資格 10人不符規定" title="游智彬不能參選了！中選會審查候選人資格 10人不符規定">https://news.ltn.com.tw/news/politics/breakingnews/5608512</a>
+                <p>中選會今（16）日審查通過115年縣市首長、議員候選人資格。其中，直轄市長候選人共23人登記，縣（市）長候選人58人登記，均符合規定；直轄市議員候選人部分，605人符合規定，5人不符合規定；縣（市）議員候選人部分，887人符合規定，5人不符合規定。各縣市選委會將於10月23日辦理候選人姓名號次抽籤。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5582876" data-desc="P:8:游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼" class="ph" title="游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼">
+                <img class="lazy_imgs" alt="游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼" title="游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/22/5582876_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5582876">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5582876" class="tit" data-desc="T:8:游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼" title="游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼">游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5582876" class="immtag chan">政治</i>
+                <span class="time">2026/09/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5582876" class="http" data-desc="T:8:游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼" title="游智彬找彭文正站台  陳峙穎批：「通緝犯挺前科犯」荒謬戲碼">https://news.ltn.com.tw/news/politics/breakingnews/5582876</a>
+                <p>新黨台北市大安文山議員參選人游智彬近期發布競選總部成立海報，並邀請彭文正站台力挺，時代力量大安文山區議員參選人陳峙穎今（22日）批評，這根本是一場「通緝犯挺前科犯」的荒謬戲碼。陳峙穎直言，台北市議會裡面具備前科背景的政治人物已經夠多了，大安文山的選民絕對值得更好、更乾淨的選擇。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5579396" data-desc="P:9:景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇" class="ph" title="景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇">
+                <img class="lazy_imgs" alt="景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇" title="景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/19/phpBknwMF.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5579396">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5579396" class="tit" data-desc="T:9:景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇" title="景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇">景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5579396" class="immtag chan">政治</i>
+                <span class="time">2026/09/19</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5579396" class="http" data-desc="T:9:景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇" title="景美鬧場還不夠 游智彬下週要告沈伯洋恐嚇">https://news.ltn.com.tw/news/politics/breakingnews/5579396</a>
+                <p>民進黨台北市長參選人沈伯洋昨（18）日晚間到景美夜市掃街，吸引大批人潮排隊合照，卻有3人合照時拿出預藏的「佯瘤」手板，擺明來嗆聲；這3人也被起底，隸屬新黨籍台北市議員參選人游智彬團隊。沒想到，游智彬今天指控，當時團隊遭沈伯洋恐嚇，他下週一會到北檢提告。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5579336" data-desc="P:10:洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆" class="ph" title="洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆">
+                <img class="lazy_imgs" alt="洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆" title="洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/19/5579336_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5579336">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5579336" class="tit" data-desc="T:10:洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆" title="洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆">洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5579336" class="immtag chan">政治</i>
+                <span class="time">2026/09/19</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5579336" class="http" data-desc="T:10:洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆" title="洋流合照被「佯瘤」亂入 沈伯洋暖回「受災戶」被讚爆">https://news.ltn.com.tw/news/politics/breakingnews/5579336</a>
+                <p>民進黨台北市長參選人沈伯洋昨（18）日晚間前往景美夜市掃街，吸引大批民眾排隊合照，不過卻有三位民眾合照時拿出預藏的「佯瘤」手板，擺明來嗆聲，也導致一旁的「真粉絲」同框尷尬畫面。當中的一位媽媽在社群分享同行的女兒因為拍照被鬧場非常生氣，沈伯洋今（19）日親自暖回，再三道歉後更承諾下次遇到一定拍好拍滿，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5578949" data-desc="P:11:掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍" class="ph" title="掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍">
+                <img class="lazy_imgs" alt="掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍" title="掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/19/phpuaQ5ov.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5578949">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5578949" class="tit" data-desc="T:11:掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍" title="掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍">掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5578949" class="immtag chan">政治</i>
+                <span class="time">2026/09/19</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5578949" class="http" data-desc="T:11:掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍" title="掃街遭嗆聲「佯瘤」 沈伯洋大器回應：排隊辛苦了、盼幫受影響民眾重拍">https://news.ltn.com.tw/news/politics/breakingnews/5578949</a>
+                <p>民進黨台北市長參選人沈伯洋昨（18）日晚間前往景美夜市掃街，吸引大批民眾排隊合照，不過卻有三位民眾合照時拿出預藏的「佯瘤」手板，擺明來嗆聲；三人也被起底隸屬於新黨籍北市議員參選人游智彬團隊。沈伯洋今上午大器回應，表達意見都不是壞事，也感謝鬧場的人還這麼有毅力排這麼久；不過，對於同批其他民眾很不好意思</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5578912" data-desc="P:12:沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉" class="ph" title="沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉">
+                <img class="lazy_imgs" alt="沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉" title="沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/19/phpYKMFMd.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5578912">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5578912" class="tit" data-desc="T:12:沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉" title="沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉">沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5578912" class="immtag chan">政治</i>
+                <span class="time">2026/09/19</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5578912" class="http" data-desc="T:12:沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉" title="沈伯洋景美造勢遭「佯瘤」鬧場 網諷：證明對方在急囉">https://news.ltn.com.tw/news/politics/breakingnews/5578912</a>
+                <p>民進黨台北市長參選人沈伯洋，18日晚間至文山區景美夜市掃街造勢，人潮盛況空前，但在大批民眾排隊等待合照期間，也有3名新黨支持者鬧場亂入，只見他們在排隊輪到合照時舉牌「佯瘤」，似乎想藉此挑釁。不過沈伯洋對此大器回應，尊重民主表達意見的權力，只要不要造謠，不要散播不實事情，「我覺得都沒有什麼關係。」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575645" data-desc="P:13:北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上" class="ph" title="北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上">
+                <img class="lazy_imgs" alt="北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上" title="北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/16/phpOKGZRF.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5575645">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575645" class="tit" data-desc="T:13:北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上" title="北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上">北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5575645" class="immtag chan">政治</i>
+                <span class="time">2026/09/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575645" class="http" data-desc="T:13:北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上" title="北一女師區桂芝又來了！市場掃街喊「別以為你不是中國人」被炎上">https://news.ltn.com.tw/news/politics/breakingnews/5575645</a>
+                <p>北一女退休教師區桂芝，過去不斷發表親中言論引發爭議。近日她現身木柵傳統市場，陪新黨台北市議員參選人游智彬掃街拜票，她手持麥克風喊話「別以為你不是中國人」，影片經親藍媒體報導後下方湧入大量留言痛批。區桂芝13日替游智彬站台發聲，她在木柵市場入口拿起麥克風喊話「各位台灣人，不要以為你不是中國人」，接著她</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5560782" data-desc="P:14:侯漢廷率新黨選將聯合登記 目標成立北市議會黨團" class="ph" title="侯漢廷率新黨選將聯合登記 目標成立北市議會黨團">
+                <img class="lazy_imgs" alt="侯漢廷率新黨選將聯合登記 目標成立北市議會黨團" title="侯漢廷率新黨選將聯合登記 目標成立北市議會黨團" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/02/5560782_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5560782">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5560782" class="tit" data-desc="T:14:侯漢廷率新黨選將聯合登記 目標成立北市議會黨團" title="侯漢廷率新黨選將聯合登記 目標成立北市議會黨團">侯漢廷率新黨選將聯合登記 目標成立北市議會黨團</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5560782" class="immtag chan">政治</i>
+                <span class="time">2026/09/02</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5560782" class="http" data-desc="T:14:侯漢廷率新黨選將聯合登記 目標成立北市議會黨團" title="侯漢廷率新黨選將聯合登記 目標成立北市議會黨團">https://news.ltn.com.tw/news/politics/breakingnews/5560782</a>
+                <p>新黨由北市議員侯漢廷領頭，與議員參選人游智彬、何恕懷前往台北市選委會聯合登記。侯漢廷說，期許在現有的北市議員基礎上，尋求版圖擴張、成立黨團；希望本屆新黨提名的台北市議員能夠全壘打，讓「新黨多一席，民進黨掉一席」。侯漢廷表示，新黨與個人在過去堅持打擊民進黨惡政、理性問政，堅守小市民代言人的角色，但是自</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5551719" data-desc="P:15:游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年" class="ph" title="游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年">
+                <img class="lazy_imgs" alt="游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年" title="游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/08/25/5551719_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5551719">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5551719" class="tit" data-desc="T:15:游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年" title="游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年">游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5551719" class="immtag chan">政治</i>
+                <span class="time">2026/08/25</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5551719" class="http" data-desc="T:15:游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年" title="游智彬今「蛋洗」張志豪選舉看板！律師：恐觸3罪 最重判5年">https://news.ltn.com.tw/news/politics/breakingnews/5551719</a>
+                <p>新黨副秘書長游智彬今天前往民進黨參選人張志豪競選服務處，以擴音器表達訴求後突朝服務處看板丟擲雞蛋等行為，遭警方依毀損罪現行犯當場逮捕送辦。曾任檢察官的律師陳玦竹指出，游智彬突然「蛋洗」張志豪競選看板的舉動已非單純表達訴求，而是跨越法律紅線，恐同時涉犯「刑法」及「公職人員選舉罷免法」等多項罪名。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5551411" data-desc="P:16:替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕" class="ph" title="替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕">
+                <img class="lazy_imgs" alt="替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕" title="替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/08/25/5551411_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5551411">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5551411" class="tit" data-desc="T:16:替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕" title="替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕">替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5551411" class="immtag chan">政治</i>
+                <span class="time">2026/08/25</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5551411" class="http" data-desc="T:16:替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕" title="替李四川討公道？游智彬赴張志豪服務處丟雞蛋 被依現行犯逮捕">https://news.ltn.com.tw/news/politics/breakingnews/5551411</a>
+                <p>新黨副秘書長、台北市議員參選人游智彬今天上午10時許，前往民進黨新北市議員參選人張志豪位於中和的競選服務處抗議，並朝服務處看板丟擲雞蛋，在場維安的中和分局警方依現行犯將他逮捕，將依毀損、妨害名譽罪及違反選罷法罪嫌送辦。據了解，游智彬發布採訪通知，揚言今早10時赴張志豪競選服務處，替李四川「上千萬」被</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5543431" data-desc="P:17:拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發" class="ph" title="拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發">
+                <img class="lazy_imgs" alt="拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發" title="拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/08/18/5543431_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5543431">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5543431" class="tit" data-desc="T:17:拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發" title="拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發">拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5543431" class="immtag chan">政治</i>
+                <span class="time">2026/08/18</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5543431" class="http" data-desc="T:17:拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發" title="拍板普發現金1萬元！游智彬轟賴總統「中共同路人」 今又赴北檢告發">https://news.ltn.com.tw/news/politics/breakingnews/5543431</a>
+                <p>政府拍板普發現金每人1萬元，台北市大安文山區議員參選人游智彬繼上月13日後，時隔逾一個月再赴台北地檢署，今則告發總統賴清德「先窮台、再統一」，指其政策危害台灣、形同「中共同路人」；另質疑民進黨選前百餘日改變立場，利用國家預算爭取選票，涉嫌違反公職人員選舉罷免法。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5519673" data-desc="P:18:被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了" class="ph" title="被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了">
+                <img class="lazy_imgs" alt="被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了" title="被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/07/27/phpRq8L5m.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5519673">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5519673" class="tit" data-desc="T:18:被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了" title="被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了">被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5519673" class="immtag chan">政治</i>
+                <span class="time">2026/07/28</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5519673" class="http" data-desc="T:18:被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了" title="被蔣萬安酸「索資佛地魔」 新黨游智彬發起罷免簡舒培 本人回應了">https://news.ltn.com.tw/news/politics/breakingnews/5519673</a>
+                <p>台北市政府與市議員簡舒培近期因「議員索資」互槓，台北市長蔣萬安還嗆簡舒培是「索資佛地魔」。而今年要代表新黨參選台北市議員的游智彬，近日發起罷免簡舒培連署，簡舒培本人27日做出了回應。簡舒培監督市政被蔣萬安市府指控大量索資造成公務員困擾，游智彬以此為由，24日發起「剪輸賠行動」，要罷免掉簡舒培，網友看</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5503306" data-desc="P:19:告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法" class="ph" title="告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法">
+                <img class="lazy_imgs" alt="告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法" title="告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/07/13/5503306_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5503306">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5503306" class="tit" data-desc="T:19:告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法" title="告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法">告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5503306" class="immtag chan">政治</i>
+                <span class="time">2026/07/13</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5503306" class="http" data-desc="T:19:告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法" title="告上癮？游智彬再赴北檢 遞狀告發沈伯洋涉違國安法、反滲透法">https://news.ltn.com.tw/news/politics/breakingnews/5503306</a>
+                <p>台北市議員參選人大安文山區候選人游智彬，繼上月25日暴雨天赴台北地檢署控告政論名嘴李正皓涉嫌「意圖使人不當選罪」及加重誹謗罪後，時隔18日後，今上午再赴北檢遞交刑事告發狀，要求檢方調查沈伯洋是否涉及違反國家安全法、反滲透法等情事。游智彬過去曾被移民署查獲同時具有中國及台灣身分後，移民署依法通知其提出</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=游智彬&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=游智彬&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=游智彬&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=游智彬&start_time=20041201&end_time=20261104&sort=date&type=all&page=5" class="p_num" data-desc="5" title="第5頁">5</a><a href="https://search.ltn.com.tw/list?keyword=游智彬&start_time=20041201&end_time=20261104&sort=date&type=all&page=6" class="p_num" data-desc="6" title="第6頁">6</a><a href="https://search.ltn.com.tw/list?keyword=游智彬&start_time=20041201&end_time=20261104&sort=date&type=all&page=7" class="p_num" data-desc="7" title="第7頁">7</a><a href="https://search.ltn.com.tw/list?keyword=游智彬&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

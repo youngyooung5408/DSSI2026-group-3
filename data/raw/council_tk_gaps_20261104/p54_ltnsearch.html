@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155902';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>尹立 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="尹立 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="尹立 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="尹立" />
+<meta name="news_keywords" itemprop="keywords" content="尹立" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:59:02--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="尹立" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=尹立&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 983 項結果 (搜尋時間：0.085 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "尹立", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627351" data-desc="P:0:柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」" class="ph" title="柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」">
+                <img class="lazy_imgs" alt="柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」" title="柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/03/5627351_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5627351">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627351" class="tit" data-desc="T:0:柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」" title="柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」">柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5627351" class="immtag chan">政治</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627351" class="http" data-desc="T:0:柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」" title="柯志恩上電台受訪還當特派DJ 中間出現「賴瑞隆的聲音」">https://news.ltn.com.tw/news/politics/breakingnews/5627351</a>
+                <p>國民黨高雄市長候選人柯志恩今上午接受港都983、好事聯播網專訪，除闡述個人政見、還擔任臨時DJ連線交通播放歌曲，但節目進行到一半突然出現「賴瑞隆的聲音」，讓兩人辯論會後出現另類「同台」。柯志恩今上午在節目中談到過往接送孩子上學經驗，提到自己若擔任市長會推「喘息券」幫助家長，他並再次提到對高雄交通的想</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627020" data-desc="P:1:尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場" class="ph" title="尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場">
+                <img class="lazy_imgs" alt="尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場" title="尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/02/5627020_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5627020">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627020" class="tit" data-desc="T:1:尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場" title="尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場">尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5627020" class="immtag chan">政治</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627020" class="http" data-desc="T:1:尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場" title="尹立批柯文哲「昔唱衰高雄今南下搶票」 把高雄當成轉移司法焦點的表演場">https://news.ltn.com.tw/news/politics/breakingnews/5627020</a>
+                <p>民眾黨創黨主席柯文哲昨（1）日在高雄為柯志恩站台時，砲轟雲豹捐了300萬給賴瑞隆個人的政治獻金帳戶，比照他辦理，「賴就先直接收押禁見！」；對此，民進黨高雄市議員候選人尹立今（2）日反批柯文哲「拿餿水硬比清湯，不要把高雄當成你轉移司法焦點的表演場!」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" data-desc="P:2:高市議員101選將抽幸運號碼   完整名單一次看" class="ph" title="高市議員101選將抽幸運號碼   完整名單一次看">
+                <img class="lazy_imgs" alt="高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619984_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619984">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="tit" data-desc="T:2:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">高市議員101選將抽幸運號碼   完整名單一次看</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="http" data-desc="T:2:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">https://news.ltn.com.tw/news/politics/breakingnews/5619984</a>
+                <p>高雄市議員選舉號次抽籤今完成，15選區101位候選人陸續抽出專屬幸運號碼，有效時間今起33天。1選區5搶3，1李振豪（國民黨）、2林義迪（國民黨）、3林慧欣（民進黨）、4鍾炳光、5 林富寶（民進黨）。2選區5搶3，1李柏融、2李亞築 （國民黨）、3黃明太（民進黨）、4陳琳潔（民進黨）、5鄭東元。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1775065" data-desc="P:3:柯志恩找韓國瑜站台 綠諷請鬼拿藥單" class="ph" title="柯志恩找韓國瑜站台 綠諷請鬼拿藥單">
+                <img class="lazy_imgs" alt="柯志恩找韓國瑜站台 綠諷請鬼拿藥單" title="柯志恩找韓國瑜站台 綠諷請鬼拿藥單" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/19/56.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1775065">
+                <a href="https://news.ltn.com.tw/news/life/paper/1775065" class="tit" data-desc="T:3:柯志恩找韓國瑜站台 綠諷請鬼拿藥單" title="柯志恩找韓國瑜站台 綠諷請鬼拿藥單">柯志恩找韓國瑜站台 綠諷請鬼拿藥單</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1775065" class="immtag chan">生活</i>
+                <span class="time">2026/10/19</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1775065" class="http" data-desc="T:3:柯志恩找韓國瑜站台 綠諷請鬼拿藥單" title="柯志恩找韓國瑜站台 綠諷請鬼拿藥單">https://news.ltn.com.tw/news/life/paper/1775065</a>
+                <p>韓又提愛情摩天輪 賴瑞隆：韓要柯蓋「萬里長城」 我不太懂立法院長韓國瑜前天晚上為國民黨高雄市長候選人柯志恩站台時，喊出「愛情摩天輪」、「蓋萬里長城」，民進黨高雄市長候選人賴瑞隆酸說「聽不懂」，當年發動罷韓的尹立批評讓韓站台是「請鬼拿藥單」。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5610304" data-desc="P:4:柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？" class="ph" title="柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？">
+                <img class="lazy_imgs" alt="柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？" title="柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/18/5610304_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5610304">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5610304" class="tit" data-desc="T:4:柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？" title="柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？">柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5610304" class="immtag chan">政治</i>
+                <span class="time">2026/10/18</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5610304" class="http" data-desc="T:4:柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？" title="柯志恩找韓國瑜站台  尹立：94萬人的答案還不夠清楚？">https://news.ltn.com.tw/news/politics/breakingnews/5610304</a>
+                <p>國民黨高雄市長候選人柯志恩邀請立法院長韓國瑜站台。罷韓四君子之一、高市左楠區議員候選人尹立想問94萬人的答案還不夠清楚？抨擊柯志恩是請鬼拿藥單。尹立說，身為當年推動罷免韓國瑜的一份子，看到韓國瑜再次站在柯志恩身邊、滔滔不絕大談「愛情摩天輪」與「婚紗一條街」，他只覺得非常荒謬。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609430" data-desc="P:5:柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」" class="ph" title="柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」">
+                <img class="lazy_imgs" alt="柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」" title="柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/17/5609430_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5609430">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609430" class="tit" data-desc="T:5:柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」" title="柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」">柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5609430" class="immtag chan">政治</i>
+                <span class="time">2026/10/17</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5609430" class="http" data-desc="T:5:柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」" title="柯志恩今晚邀韓國瑜站台  綠選將批「怎麼還敢回來？」">https://news.ltn.com.tw/news/politics/breakingnews/5609430</a>
+                <p>國民黨高雄市長候選人柯志恩今（17）日晚邀請立法院長韓國瑜重返高雄站台，引發曾參與罷韓行動的市議員及議員候選人反彈，包括三民區市議員張博洋、左營楠梓市議員候選人尹立、大岡山區市議員候選人蔡秉璁及前鎮小港市議員候選人黃敬雅，今齊聚中油高雄煉油廠舊址，質疑韓國瑜「怎麼還敢回來？」四人強調，高雄人當年已透</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1774730" data-desc="P:6:柯志恩找韓國瑜助講 綠營︰喚醒仇恨值" class="ph" title="柯志恩找韓國瑜助講 綠營︰喚醒仇恨值">
+                <img class="lazy_imgs" alt="柯志恩找韓國瑜助講 綠營︰喚醒仇恨值" title="柯志恩找韓國瑜助講 綠營︰喚醒仇恨值" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1774730">
+                <a href="https://news.ltn.com.tw/news/life/paper/1774730" class="tit" data-desc="T:6:柯志恩找韓國瑜助講 綠營︰喚醒仇恨值" title="柯志恩找韓國瑜助講 綠營︰喚醒仇恨值">柯志恩找韓國瑜助講 綠營︰喚醒仇恨值</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1774730" class="immtag chan">生活</i>
+                <span class="time">2026/10/16</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1774730" class="http" data-desc="T:6:柯志恩找韓國瑜助講 綠營︰喚醒仇恨值" title="柯志恩找韓國瑜助講 綠營︰喚醒仇恨值">https://news.ltn.com.tw/news/life/paper/1774730</a>
+                <p>週六藍綠互尬 尹立︰反映藍營集體焦慮 張博洋︰就是韓讓高雄建設停擺立法院長韓國瑜本週六（十七日）將重回高雄，為國民黨市長參選人柯志恩站台助講；市長陳其邁表示，歡迎他回來走走看看；綠營則認為將「喚醒中間選民與年輕選民的仇恨值」。賴瑞隆競總成立 蔡英文、蕭美琴相挺</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606824" data-desc="P:7:韓國瑜週末到高雄為柯志恩站台 陳其邁說話了" class="ph" title="韓國瑜週末到高雄為柯志恩站台 陳其邁說話了">
+                <img class="lazy_imgs" alt="韓國瑜週末到高雄為柯志恩站台 陳其邁說話了" title="韓國瑜週末到高雄為柯志恩站台 陳其邁說話了" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/15/5606824_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5606824">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606824" class="tit" data-desc="T:7:韓國瑜週末到高雄為柯志恩站台 陳其邁說話了" title="韓國瑜週末到高雄為柯志恩站台 陳其邁說話了">韓國瑜週末到高雄為柯志恩站台 陳其邁說話了</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5606824" class="immtag chan">政治</i>
+                <span class="time">2026/10/15</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606824" class="http" data-desc="T:7:韓國瑜週末到高雄為柯志恩站台 陳其邁說話了" title="韓國瑜週末到高雄為柯志恩站台 陳其邁說話了">https://news.ltn.com.tw/news/politics/breakingnews/5606824</a>
+                <p>「辣個男人」回來了!立法院長韓國瑜本週六（17日）將重回高雄，為國民黨市長參選人柯志恩站台助講；對此，高雄市長陳其邁今（15）日受訪說，歡迎他回來走走看看；市議員張博洋則認為「柯志恩愛的不是韓國瑜，而是韓國瑜的票!」民進黨高雄市長參選人賴瑞隆本週六舉辦競選總部成立大會，邀請前總統蔡英文出席。國民黨市</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606780" data-desc="P:8:柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？" class="ph" title="柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？">
+                <img class="lazy_imgs" alt="柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？" title="柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/15/5606780_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5606780">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606780" class="tit" data-desc="T:8:柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？" title="柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？">柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5606780" class="immtag chan">政治</i>
+                <span class="time">2026/10/15</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606780" class="http" data-desc="T:8:柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？" title="柯志恩出席青年論壇被問「遵從黨意」 尹立批難道高雄發展要排在「黨意」之後？">https://news.ltn.com.tw/news/politics/breakingnews/5606780</a>
+                <p>國民黨高雄市長參選人柯志恩昨（14日）晚到中山大學社會科學院，出席由學生團體舉辦的「2026市長候選人青年論壇」，學生提問當高雄的利益與國民黨中央的立場衝突時，會如何選擇？柯回應說，政黨政治當回到大會按鈕表決時，必須回歸到政黨，這是身為黨團一分子有點無奈、又沒有辦法的地方；對此，民進黨議員參選人尹立</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606490" data-desc="P:9:韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層" class="ph" title="韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層">
+                <img class="lazy_imgs" alt="韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層" title="韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/14/5606490_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5606490">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606490" class="tit" data-desc="T:9:韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層" title="韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層">韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5606490" class="immtag chan">政治</i>
+                <span class="time">2026/10/14</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5606490" class="http" data-desc="T:9:韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層" title="韓國瑜將到高雄站台 尹立：恐把柯志恩鎖死在同溫層">https://news.ltn.com.tw/news/politics/breakingnews/5606490</a>
+                <p>國民黨高雄市長參選人柯志恩10/17將直搗對手、民進黨高雄市長參選人賴瑞隆的本命區小港，還請出立法院長韓國瑜助陣；罷韓四君子之一、民進黨左楠區市議員參選人尹立分析，請出韓國瑜對柯陣營是場雙刃劍式的豪賭，可能把柯志恩鎖死在藍營同溫層。針對韓國瑜首次在柯志恩主場站台，尹立分析這背後，精準地折射出藍營在高</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5604989" data-desc="P:10:柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線" class="ph" title="柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線">
+                <img class="lazy_imgs" alt="柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線" title="柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/13/5604989_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5604989">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5604989" class="tit" data-desc="T:10:柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線" title="柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線">柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5604989" class="immtag chan">政治</i>
+                <span class="time">2026/10/13</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5604989" class="http" data-desc="T:10:柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線" title="柯志恩再與鄭麗文同台 綠營小雞砲轟擁抱紅統路線">https://news.ltn.com.tw/news/politics/breakingnews/5604989</a>
+                <p>繼國慶日到左營果貿社區升旗後，國民黨主席鄭麗文今（13）日下午再度南下高雄，參加柯志恩在林皇宮舉行的婦女後援會成立大會；綠營4位議員及議員參選人則在林皇宮外舉牌抗議，砲轟柯志恩把親中色彩最濃厚的鄭麗文找回來，是「因為民調急了，所以回頭要擁抱紅統勢力嗎？」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5602005" data-desc="P:11:參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡" class="ph" title="參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡">
+                <img class="lazy_imgs" alt="參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡" title="參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/10/5602005_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5602005">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5602005" class="tit" data-desc="T:11:參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡" title="參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡">參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5602005" class="immtag chan">政治</i>
+                <span class="time">2026/10/10</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5602005" class="http" data-desc="T:11:參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡" title="參加高雄眷村嘉年華 賴瑞隆：讓眷村留在高雄生活裡">https://news.ltn.com.tw/news/politics/breakingnews/5602005</a>
+                <p>民進黨高雄市長參選人賴瑞隆今到左營海軍眷村、參加高雄眷村家嘉年華活動，他看見老眷舍成為書店、藝廊、民宿，感覺熟悉的巷弄又有了熱鬧的日常，強調會持續爭取資源，讓老房子住進新故事，讓眷村的燈重新亮起，讓眷村留在生活裡。賴瑞隆說，左營楠梓市議員參選人尹立，在文化局長任內把「以住代護」升級為「全民修屋」，提</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5601480" data-desc="P:12:柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶" class="ph" title="柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶">
+                <img class="lazy_imgs" alt="柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶" title="柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/10/5601480_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5601480">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5601480" class="tit" data-desc="T:12:柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶" title="柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶">柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5601480" class="immtag chan">政治</i>
+                <span class="time">2026/10/10</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5601480" class="http" data-desc="T:12:柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶" title="柯志恩嗆賴瑞隆是新潮流乖寶寶 尹立：柯志恩是傅崐萁的乖寶寶">https://news.ltn.com.tw/news/politics/breakingnews/5601480</a>
+                <p>國民黨高雄市長參選人柯志恩嗆民進黨高雄市長參選人賴瑞隆是新潮流乖寶寶！賴瑞隆反嗆柯志恩平常不敢跟傅崐萁爭取關於高雄的權益，選舉時才來貼標籤是沒用的，民進黨高市議員參選人尹立則認為，柯志恩就是傅崐萁的乖寶寶。針對柯志恩批評，賴瑞隆說明，這20幾年來全力爭取高雄建設、全力爭取高雄的權益，那高雄的權益、人</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5594781" data-desc="P:13:知名度高不代表選票  尹立吐選情「真的不穩」" class="ph" title="知名度高不代表選票  尹立吐選情「真的不穩」">
+                <img class="lazy_imgs" alt="知名度高不代表選票  尹立吐選情「真的不穩」" title="知名度高不代表選票  尹立吐選情「真的不穩」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/04/5594781_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5594781">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5594781" class="tit" data-desc="T:13:知名度高不代表選票  尹立吐選情「真的不穩」" title="知名度高不代表選票  尹立吐選情「真的不穩」">知名度高不代表選票  尹立吐選情「真的不穩」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5594781" class="immtag chan">政治</i>
+                <span class="time">2026/10/04</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5594781" class="http" data-desc="T:13:知名度高不代表選票  尹立吐選情「真的不穩」" title="知名度高不代表選票  尹立吐選情「真的不穩」">https://news.ltn.com.tw/news/politics/breakingnews/5594781</a>
+                <p>民進黨高雄左營、楠梓市議員參選人尹立昨（3）日傍晚舉行競總成立大會，市長參選人賴瑞隆、教育部長鄭英耀、立委邱議瑩、許智傑、李昆澤、李柏毅均到場力挺。他首度公開談及參選1年多來的選情壓力，直言自己是第一次投入選舉的新人，喊話「我真的不穩」，呼籲勿因過去參與罷韓累積的全國知名度，就認為選情安全，盼在最後</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5589641" data-desc="P:14:高雄鳳山議員選舉10搶8 參選人拜票各出奇招" class="ph" title="高雄鳳山議員選舉10搶8 參選人拜票各出奇招">
+                <img class="lazy_imgs" alt="高雄鳳山議員選舉10搶8 參選人拜票各出奇招" title="高雄鳳山議員選舉10搶8 參選人拜票各出奇招" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/29/5589641_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5589641">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5589641" class="tit" data-desc="T:14:高雄鳳山議員選舉10搶8 參選人拜票各出奇招" title="高雄鳳山議員選舉10搶8 參選人拜票各出奇招">高雄鳳山議員選舉10搶8 參選人拜票各出奇招</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5589641" class="immtag chan">政治</i>
+                <span class="time">2026/09/29</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5589641" class="http" data-desc="T:14:高雄鳳山議員選舉10搶8 參選人拜票各出奇招" title="高雄鳳山議員選舉10搶8 參選人拜票各出奇招">https://news.ltn.com.tw/news/politics/breakingnews/5589641</a>
+                <p>高市選戰最大票倉以鳳山區29.6萬餘人最多，議員選舉10人爭搶8席，參選人拜票各出奇招，有人以小黃單車追大黃垃圾車路線，深入基層爭取支持，多名里長響應；也有人跨區聯手拉抬聲勢，用創意拉近與選民距離。根據市府統計到8月底，高雄人口數270.7萬餘人，其中選民231.3萬餘人，以鳳山區人口數35.1萬餘</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" data-desc="P:15:選前68天  高雄綠營「七隆珠」集結左營創意拜票" class="ph" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票">
+                <img class="lazy_imgs" alt="選前68天  高雄綠營「七隆珠」集結左營創意拜票" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/21/5580760_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5580760">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" class="tit" data-desc="T:15:選前68天  高雄綠營「七隆珠」集結左營創意拜票" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票">選前68天  高雄綠營「七隆珠」集結左營創意拜票</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" class="immtag chan">政治</i>
+                <span class="time">2026/09/21</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5580760" class="http" data-desc="T:15:選前68天  高雄綠營「七隆珠」集結左營創意拜票" title="選前68天  高雄綠營「七隆珠」集結左營創意拜票">https://news.ltn.com.tw/news/politics/breakingnews/5580760</a>
+                <p>距離投票日倒數68天。民進黨高雄市長候選人賴瑞隆與7名市議員候選人，一大早集結在左營路口拜票，7選將各持一顆「龍珠」、打造「七隆珠」集結召喚「神隆」的趣味畫面，以創意爭取更多民意。7選將分別為三民區張博洋、左楠區尹立、前鎮小港區黃敬雅、大岡山區蔡秉璁、鳳山區蘇致榮、大旗山區林慧欣、以及大路竹區陳琳潔</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5577982" data-desc="P:16:高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書" class="ph" title="高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書">
+                <img class="lazy_imgs" alt="高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書" title="高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/18/5577982_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5577982">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5577982" class="tit" data-desc="T:16:高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書" title="高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書">高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5577982" class="immtag chan">政治</i>
+                <span class="time">2026/09/18</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5577982" class="http" data-desc="T:16:高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書" title="高雄明藍綠拚場！尹立批柯志恩連被罷免的執政團隊都找來背書">https://news.ltn.com.tw/news/politics/breakingnews/5577982</a>
+                <p>大場面來了！北、高兩市長參選人明天（19）齊聚高雄造勢，國民黨柯志恩找來台北市長蔣萬安、新北市長參選人李四川站台；對此，民進黨高雄市議員參選人尹立認為，柯志恩連被罷免的執政團隊都敢找來背書，找一個「曾經被高雄淘汰的副市長」站在身邊，「是告訴大家妳打算帶領高雄重蹈覆轍嗎？」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575473" data-desc="P:17:與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招" class="ph" title="與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招">
+                <img class="lazy_imgs" alt="與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招" title="與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/16/5575473_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5575473">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575473" class="tit" data-desc="T:17:與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招" title="與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招">與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5575473" class="immtag chan">政治</i>
+                <span class="time">2026/09/16</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5575473" class="http" data-desc="T:17:與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招" title="與設計師聯名競選看板第二趴   尹立邀插畫家Macaca出招">https://news.ltn.com.tw/news/politics/breakingnews/5575473</a>
+                <p>民進黨高市左營、楠梓議員候選人尹立推出第二面「設計師聯名競選看板」，邀請插畫創作者Macaca合作，Macaca不只是聯名設計師，也是尹立任教時的學生。尹立表示，Macaca從學生時期便展現鮮明的創作風格，近年持續投入插畫與角色設計，累積許多作品；過去他推動駁二發展初期曾舉辦公仔比賽徵選「工人漁婦」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5574088" data-desc="P:18:高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見" class="ph" title="高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見">
+                <img class="lazy_imgs" alt="高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見" title="高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/15/5574088_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5574088">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5574088" class="tit" data-desc="T:18:高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見" title="高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見">高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5574088" class="immtag chan">政治</i>
+                <span class="time">2026/09/15</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5574088" class="http" data-desc="T:18:高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見" title="高雄綠營南方問政聯盟集結路口宣講   主打五大交通政見">https://news.ltn.com.tw/news/politics/breakingnews/5574088</a>
+                <p>民進黨南方問政聯盟成員今晨於高雄博愛、大順路口聯合拜票，同時宣講五大交通政策，向市民展現持續推動高雄交通改革的決心。聯盟成員包括現任市議員邱俊憲、張博洋、何權峰、黃文志、簡煥宗，及左營楠梓市議員參選人尹立等人，訴求五大交通監督政策的第一項為「智慧號誌導入，AI讓道路更暢通」，盼透過科技整合即時交通資</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5573372" data-desc="P:19:新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立" class="ph" title="新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立">
+                <img class="lazy_imgs" alt="新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立" title="新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/14/5573372_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5573372">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5573372" class="tit" data-desc="T:19:新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立" title="新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立">新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5573372" class="immtag chan">政治</i>
+                <span class="time">2026/09/14</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5573372" class="http" data-desc="T:19:新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立" title="新「崛」江還是新「堀」江？ 柯志恩競辦槓上尹立">https://news.ltn.com.tw/news/politics/breakingnews/5573372</a>
+                <p>高雄前文化局長尹立今（14）日於臉書發文，批評國民黨高雄市長參選人柯志恩的臉書貼文，使用「新崛江」是打錯字；對此，柯志恩競辦回應說，「崛江」與「堀江」在高雄地方使用上早已相當普遍，兩種寫法長期並存，就連前高雄市長陳菊、甚至尹立本人過去發文時，都曾使用過「崛」字。</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=尹立&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=尹立&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=尹立&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=尹立&start_time=20041201&end_time=20261104&sort=date&type=all&page=5" class="p_num" data-desc="5" title="第5頁">5</a><a href="https://search.ltn.com.tw/list?keyword=尹立&start_time=20041201&end_time=20261104&sort=date&type=all&page=6" class="p_num" data-desc="6" title="第6頁">6</a><a href="https://search.ltn.com.tw/list?keyword=尹立&start_time=20041201&end_time=20261104&sort=date&type=all&page=7" class="p_num" data-desc="7" title="第7頁">7</a><a href="https://search.ltn.com.tw/list?keyword=尹立&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155749';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>許原榮 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="許原榮 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="許原榮 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="許原榮" />
+<meta name="news_keywords" itemprop="keywords" content="許原榮" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:57:49--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="許原榮" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=許原榮&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 40 項結果 (搜尋時間：0.112 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "許原榮", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5624094" data-desc="P:0:團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答" class="ph" title="團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答">
+                <img class="lazy_imgs" alt="團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答" title="團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/30/phpHEjb3y.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5624094">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5624094" class="tit" data-desc="T:0:團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答" title="團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答">團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5624094" class="immtag chan">政治</i>
+                <span class="time">4天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5624094" class="http" data-desc="T:0:團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答" title="團隊攝影架拐子弄哭女記者！石舫亘握手致意 面對蔣萬安身體情況這樣回答">https://news.ltn.com.tw/news/politics/breakingnews/5624094</a>
+                <p>九合一大選倒數28天，台北市長蔣萬安掛病號，今（30）日由夫人石舫亘代打，上午前往成功市場掃街拜票，下午在永春市場向民眾懇託，現場早早就聚集大批支持者，石舫亘開始拜票後，更將市場入口塞得水洩不通。不過上午蔣萬安競選辦公室外包廠商的攝影，對在場女記者「架拐子」，讓女記者當場落淚。下午掃市場時，石舫亘向</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619037" data-desc="P:1:韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識" class="ph" title="韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識">
+                <img class="lazy_imgs" alt="韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識" title="韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/26/5619037_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619037">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619037" class="tit" data-desc="T:1:韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識" title="韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識">韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619037" class="immtag chan">政治</i>
+                <span class="time">2026/10/26</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619037" class="http" data-desc="T:1:韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識" title="韓國瑜扯台灣民主「腎虛」要吃地黃丸！郭昱晴：該補的是藍白憲政常識">https://news.ltn.com.tw/news/politics/breakingnews/5619037</a>
+                <p>九合一選舉倒數，立法院長韓國瑜昨出席前立院辦公室主任、松信議員候選人許原榮競選總部成立大會，韓致詞時痛批，執政黨搞大罷免、行政院不副署已讓台灣民主「腎虛」，需要「六味地黃丸」讓更多正派政治人物當選。民進黨立委郭昱晴今表示，韓院長的幽默感大家很熟悉，但把憲政分權和公民權比喻成「腎虛」，這種說法也低估了</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5610543" data-desc="P:2:松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？" class="ph" title="松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？">
+                <img class="lazy_imgs" alt="松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？" title="松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/18/5610543_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5610543">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5610543" class="tit" data-desc="T:2:松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？" title="松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？">松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5610543" class="immtag chan">政治</i>
+                <span class="time">2026/10/18</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5610543" class="http" data-desc="T:2:松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？" title="松山後援會支持者擠爆！蔣萬安喊話選民：選善良還是造謠？">https://news.ltn.com.tw/news/politics/breakingnews/5610543</a>
+                <p>九合一大選，台北選戰備受關注，台北市長蔣萬安今（18）日下午參與松山區後援會成立大會，國民黨藍營現任議員、議員候選人，以及立委王鴻薇、徐巧芯皆到場力挺，蔣萬安進場前就受到支持者熱烈歡迎，現場會場不少年長支持者力挺，甚至坐在台階上也要一睹蔣萬安的風采，蔣萬安直到走上台仍有支持者吶喊「蔣萬安我愛你！」氣</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1752034" data-desc="P:3:北市藍營松信選區初選出爐 加權制度挨批" class="ph" title="北市藍營松信選區初選出爐 加權制度挨批">
+                <img class="lazy_imgs" alt="北市藍營松信選區初選出爐 加權制度挨批" title="北市藍營松信選區初選出爐 加權制度挨批" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/04/23/93.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1752034">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1752034" class="tit" data-desc="T:3:北市藍營松信選區初選出爐 加權制度挨批" title="北市藍營松信選區初選出爐 加權制度挨批">北市藍營松信選區初選出爐 加權制度挨批</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1752034" class="immtag chan">政治</i>
+                <span class="time">2026/04/23</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1752034" class="http" data-desc="T:3:北市藍營松信選區初選出爐 加權制度挨批" title="北市藍營松信選區初選出爐 加權制度挨批">https://news.ltn.com.tw/news/politics/paper/1752034</a>
+                <p>李明璇、許原榮出線 滿志剛不滿「制度不允許深耕」 楊智伃落選哭了國民黨台北市議員初選第三選區（松山、信義）昨上午公布結果，由前黨發言人李明璇、立法院長韓國瑜辦公室主任許原榮出線，國民黨該區由這兩位新人與現任議長戴錫欽、議員秦慧珠、詹為元披掛出征。而前國民黨黨主席朱立倫子弟兵楊智伃落選，淚灑當場。上屆</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412061" data-desc="P:4:楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆" class="ph" title="楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆">
+                <img class="lazy_imgs" alt="楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆" title="楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/22/phphJmQdR.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5412061">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412061" class="tit" data-desc="T:4:楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆" title="楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆">楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5412061" class="immtag chan">政治</i>
+                <span class="time">2026/04/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412061" class="http" data-desc="T:4:楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆" title="楊智伃初選落淚 ！「君悅冤家」黃士修揭內幕狠酸：業力引爆">https://news.ltn.com.tw/news/politics/breakingnews/5412061</a>
+                <p>國民黨台北市議員松信區初選民調今（22）日揭曉，由李明璇、許原榮出線，而前國民黨發言人楊智伃遺憾落敗，甚至在受訪時難掩失落流下眼淚。曾與楊智伃因「君悅搶麥事件」互控性騷的前郭辦發言人黃士修，隨即發文直指這場結果「沒有爆冷門」。黃士修今天在Threads發文表示，松信區沒有爆冷門，還原未加權數據，前兩</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412028" data-desc="P:5:曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公" class="ph" title="曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公">
+                <img class="lazy_imgs" alt="曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公" title="曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/22/phpEec5aQ.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5412028">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412028" class="tit" data-desc="T:5:曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公" title="曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公">曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5412028" class="immtag chan">政治</i>
+                <span class="time">2026/04/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412028" class="http" data-desc="T:5:曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公" title="曾送核廢水被一口乾！楊智伃輸初選哭了 陳聖文送暖：感到不公">https://news.ltn.com.tw/news/politics/breakingnews/5412028</a>
+                <p>國民黨台北市議員第三選區（松山、信義）初選民調今（22）日揭曉，由李明璇、許原榮出線，前國民黨發言人楊智伃遺憾落敗，甚至在受訪時難掩失落流下眼淚。對此，民進黨台北市議員參選人陳聖文卻意外發文力挺，回憶起楊智伃當年「一口乾掉核廢水」的勇氣。陳聖文今日在Threads發文表示，這次松山信義區國民黨初選結</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412037" data-desc="P:6:稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕" class="ph" title="稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕">
+                <img class="lazy_imgs" alt="稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕" title="稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/22/5412037_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5412037">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412037" class="tit" data-desc="T:6:稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕" title="稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕">稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5412037" class="immtag chan">政治</i>
+                <span class="time">2026/04/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5412037" class="http" data-desc="T:6:稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕" title="稱國民黨初選加權需檢討 滿志剛：制度不允許我深耕">https://news.ltn.com.tw/news/politics/breakingnews/5412037</a>
+                <p>國民黨台北市議員初選第三選區（松山、信義）今（22日）上午公布結果，由前黨發言人李明璇、立法院長韓國瑜辦公室主任許原榮出線，上屆與本屆都於初選階段出局的資深藍營幕僚滿志剛說，是時候檢討國民黨加權制度，不是他不夠強，而是現行制度不允許他在松山信義深耕。國民黨台北市黨部主委戴錫欽說，選前各項意見都有向組</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5411907" data-desc="P:7:國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱" class="ph" title="國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱">
+                <img class="lazy_imgs" alt="國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱" title="國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/22/php1awsGD.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5411907">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5411907" class="tit" data-desc="T:7:國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱" title="國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱">國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5411907" class="immtag chan">政治</i>
+                <span class="time">2026/04/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5411907" class="http" data-desc="T:7:國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱" title="國民黨松山信義議員初選出爐！楊智伃落馬淚崩 李明璇給抱抱">https://news.ltn.com.tw/news/politics/breakingnews/5411907</a>
+                <p>國民黨台北市議員初選第三選區（松山、信義）今（22日）上午公布結果，由前黨發言人李明璇、立法院長韓國瑜辦公室主任許原榮出線，國民黨該區由這兩位新人與現任議長戴錫欽、議員秦慧珠、詹為元競選。而前國民黨黨主席朱立倫子弟兵楊智伃則落選，淚灑現場；過去與楊頗有「瑜亮情節」的李明璇，也上前給予楊一個大大的擁抱</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5401062" data-desc="P:8:4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好" class="ph" title="4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好">
+                <img class="lazy_imgs" alt="4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好" title="4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/12/5401062_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5401062">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5401062" class="tit" data-desc="T:8:4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好" title="4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好">4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5401062" class="immtag chan">政治</i>
+                <span class="time">2026/04/12</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5401062" class="http" data-desc="T:8:4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好" title="4名藍白市議員擬參選人同時搶草埔市場支持 許甫：平常心看待就好">https://news.ltn.com.tw/news/politics/breakingnews/5401062</a>
+                <p>台北市議員第三選區（松山信義）選戰競爭；民眾黨擬參選人許甫今（12）早與新竹市副市長邱臣遠共同掃松山草埔市場，國民黨擬參選人楊智伃也於半小時後，在同一市場爭取支持。此外，現場還有國民黨擬參選人滿志剛與李明璇競選團隊成員發放競選小物。許甫受訪表示，大家都知道松山、信義選區幾乎是台北市非常有指標性的一級</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1750268" data-desc="P:9:「韓家軍」分裂？ 韓國瑜陪許原榮掃街" class="ph" title="「韓家軍」分裂？ 韓國瑜陪許原榮掃街">
+                <img class="lazy_imgs" alt="「韓家軍」分裂？ 韓國瑜陪許原榮掃街" title="「韓家軍」分裂？ 韓國瑜陪許原榮掃街" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1750268">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1750268" class="tit" data-desc="T:9:「韓家軍」分裂？ 韓國瑜陪許原榮掃街" title="「韓家軍」分裂？ 韓國瑜陪許原榮掃街">「韓家軍」分裂？ 韓國瑜陪許原榮掃街</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1750268" class="immtag chan">政治</i>
+                <span class="time">2026/04/10</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1750268" class="http" data-desc="T:9:「韓家軍」分裂？ 韓國瑜陪許原榮掃街" title="「韓家軍」分裂？ 韓國瑜陪許原榮掃街">https://news.ltn.com.tw/news/politics/paper/1750268</a>
+                <p>國民黨台北市議員第三選區（松山信義）初選新人五搶二，擬參選人、立法院長韓國瑜辦公室主任許原榮昨由韓國瑜陪同掃街，引起外界質疑「韓家軍」分裂；過去力挺韓國瑜被視為「韓家軍」的擬參選人李明璇說，「現在該自己發光」。昨也在附近掃街的擬參選人楊智伃則說，年輕世代參選，要讓選民知道具備有獨立作戰的能力。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1750267" data-desc="P:10:國民黨北市議員39人登記 將提名33席" class="ph" title="國民黨北市議員39人登記 將提名33席">
+                <img class="lazy_imgs" alt="國民黨北市議員39人登記 將提名33席" title="國民黨北市議員39人登記 將提名33席" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1750267">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1750267" class="tit" data-desc="T:10:國民黨北市議員39人登記 將提名33席" title="國民黨北市議員39人登記 將提名33席">國民黨北市議員39人登記 將提名33席</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1750267" class="immtag chan">政治</i>
+                <span class="time">2026/04/10</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1750267" class="http" data-desc="T:10:國民黨北市議員39人登記 將提名33席" title="國民黨北市議員39人登記 將提名33席">https://news.ltn.com.tw/news/politics/paper/1750267</a>
+                <p>國民黨台北市議員參選登記昨截止，將提名卅三席，共有卅九人登記。現任議員包括陳重文、應曉薇及山地原住民議員李傅中武未登記外，共廿五名現任議員尋求連任，十四名新人爭取出線。因國民黨保障現任參選，新人初選以中正萬華選區三搶一最為激烈。各選區登記情形如下：</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398706" data-desc="P:11:韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光" class="ph" title="韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光">
+                <img class="lazy_imgs" alt="韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光" title="韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/09/5398706_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5398706">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398706" class="tit" data-desc="T:11:韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光" title="韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光">韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5398706" class="immtag chan">政治</i>
+                <span class="time">2026/04/09</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398706" class="http" data-desc="T:11:韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光" title="韓國瑜沒幫忙站台 台北松信區議員擬參選人李明璇：自己發光">https://news.ltn.com.tw/news/politics/breakingnews/5398706</a>
+                <p>國民黨台北市議員第三選區（松山信義）新人初選白熱化，立法院長韓國瑜今天（9日）陪辦公室主任、擬參選人許原榮掃票。外界質疑，這是否代表「韓家軍」分裂？同選區擬參選人李明璇回應，韓國瑜其實已經借給她很多的光了，「所以現在我該自己發光。」李明璇說，她跟韓國瑜很早就有默契，在初選階段不會特別為她催票。她認為</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398538" data-desc="P:12:韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力" class="ph" title="韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力">
+                <img class="lazy_imgs" alt="韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力" title="韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/09/5398538_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5398538">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398538" class="tit" data-desc="T:12:韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力" title="韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力">韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5398538" class="immtag chan">政治</i>
+                <span class="time">2026/04/09</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398538" class="http" data-desc="T:12:韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力" title="韓國瑜替對手許原榮站台 楊智伃：年輕世代獨立作戰展現承擔力">https://news.ltn.com.tw/news/politics/breakingnews/5398538</a>
+                <p>國民黨台北市議員初選提名將於19日展開電話民調，第三選區（松山信義）擬參選人許原榮今（9日）與立法院長韓國瑜於忠孝東路與松山路口合體催票，角逐提名的擬參選人楊智伃在半小時後，也在相同地點開始掃街。楊智伃受訪表示，關於未來是否邀請立法院長韓國瑜或前主席朱立倫一起站台，稍作保密，不過她也透露，將有縣市等</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398484" data-desc="P:13:韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票" class="ph" title="韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票">
+                <img class="lazy_imgs" alt="韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票" title="韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/09/5398484_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5398484">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398484" class="tit" data-desc="T:13:韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票" title="韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票">韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5398484" class="immtag chan">政治</i>
+                <span class="time">2026/04/09</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5398484" class="http" data-desc="T:13:韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票" title="韓國瑜首度替小雞站台掃街 陪許原榮在北市松信催票">https://news.ltn.com.tw/news/politics/breakingnews/5398484</a>
+                <p>國民黨台北市議員第三選區（松山信義）競爭激烈，擬參選人許原榮今（9）日與立法院長韓國瑜一起掃街，這也是韓國瑜在這次選戰首次替「小雞」催票。許原榮表示，請院長來催票是計畫一部份，很感謝院長能夠藉助他的一些影響跟推薦，讓他能夠再進一步地推薦給所有的選民。韓國瑜站在選舉車上高喊，「許原榮出來選舉，是大姑娘</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5386260" data-desc="P:14:接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手" class="ph" title="接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手">
+                <img class="lazy_imgs" alt="接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手" title="接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/29/5386260_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5386260">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5386260" class="tit" data-desc="T:14:接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手" title="接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手">接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5386260" class="immtag chan">政治</i>
+                <span class="time">2026/03/29</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5386260" class="http" data-desc="T:14:接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手" title="接棒趙少康、費鴻泰地方建設 許原榮：自己是即戰力 當選後隨時上手">https://news.ltn.com.tw/news/politics/breakingnews/5386260</a>
+                <p>國民黨台北市議員第三選區（松山信義）擬參選人許原榮今（29）日與前中廣董事長趙少康、前立委費鴻泰合體至吳興市場掃街拜票。許原榮過去曾任費鴻泰辦公室主任，在地方經營時間長，期望投入選舉也是希望將這些經驗轉化為服務，也說自己是「即戰力」，當選後可隨時上手，不用學習時間。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5386214" data-desc="P:15:許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」" class="ph" title="許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」">
+                <img class="lazy_imgs" alt="許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」" title="許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/29/5386214_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5386214">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5386214" class="tit" data-desc="T:15:許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」" title="許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」">許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5386214" class="immtag chan">政治</i>
+                <span class="time">2026/03/29</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5386214" class="http" data-desc="T:15:許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」" title="許原榮認擔任助理期間曾酒駕受罰  強調「以此為戒 絕不再犯」">https://news.ltn.com.tw/news/politics/breakingnews/5386214</a>
+                <p>國民黨台北市議員第三選區（松山信義）擬參選人許原榮今（29）日與前中廣董事長趙少康、前立委費鴻泰合體至吳興市場掃街拜票。許原榮為立法院長韓國瑜辦公室主任，也曾任前立委費鴻泰辦公室主任。今被媒體問及過往酒駕事件，許原榮承認，擔任助理時確實有違法違規受罰。不過他也說，現在以此為戒，決不再犯。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1748400" data-desc="P:16:國民黨北市議員初選 陳重文不顧黨規登記" class="ph" title="國民黨北市議員初選 陳重文不顧黨規登記">
+                <img class="lazy_imgs" alt="國民黨北市議員初選 陳重文不顧黨規登記" title="國民黨北市議員初選 陳重文不顧黨規登記" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/03/26/142.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1748400">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1748400" class="tit" data-desc="T:16:國民黨北市議員初選 陳重文不顧黨規登記" title="國民黨北市議員初選 陳重文不顧黨規登記">國民黨北市議員初選 陳重文不顧黨規登記</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1748400" class="immtag chan">政治</i>
+                <span class="time">2026/03/26</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1748400" class="http" data-desc="T:16:國民黨北市議員初選 陳重文不顧黨規登記" title="國民黨北市議員初選 陳重文不顧黨規登記">https://news.ltn.com.tw/news/politics/paper/1748400</a>
+                <p>同選區爭取提名 李明璇誤用楊智伃的麥克風 雙方志工口角國民黨台北市議員登記參選第一梯次昨截止，涉入台智光案、農會賄選案而被判有罪的現任議員陳重文，昨也到場登記。針對媒體詢問是否脫黨參選？陳重文強調，基層的期盼一定會重視，爭取連任是最大目標。此外，昨日也發生插曲，同樣爭取松山信義區議員提名的國民黨前發</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5381927" data-desc="P:17:代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的" class="ph" title="代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的">
+                <img class="lazy_imgs" alt="代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的" title="代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/25/5381927_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5381927">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5381927" class="tit" data-desc="T:17:代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的" title="代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的">代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5381927" class="immtag chan">政治</i>
+                <span class="time">2026/03/25</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5381927" class="http" data-desc="T:17:代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的" title="代表「韓家軍」力挺許原榮 王淺秋：韓院長交代的">https://news.ltn.com.tw/news/politics/breakingnews/5381927</a>
+                <p>國民黨台北市議員首波登記今（25日）截止，今上午松信區擬參選人許原榮在前立委費鴻泰、媒體人王淺秋陪同下至北市黨部登記。王淺秋強調，今天她來就是代表「韓家軍」力挺，立法院長韓國瑜也有特別交代她。許原榮表示，松信是他生活成長地方，過去在費鴻泰以及韓國瑜身邊學習，擴展了視野，20多年來積累了許多經驗，也讓</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5381460" data-desc="P:18:「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望" class="ph" title="「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望">
+                <img class="lazy_imgs" alt="「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望" title="「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/24/5381460_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5381460">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5381460" class="tit" data-desc="T:18:「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望" title="「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望">「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5381460" class="immtag chan">政治</i>
+                <span class="time">2026/03/24</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5381460" class="http" data-desc="T:18:「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望" title="「芯費大戰2.0」未上演 松信陳暉沒領表：下次出擊一定不負眾望">https://news.ltn.com.tw/news/politics/breakingnews/5381460</a>
+                <p>國民黨台北市議員第三選區（松山信義）初選領表今天截止，先前傳出立委徐巧芯辦公室主任陳暉、前立委費鴻泰辦公室主任許原榮，若同時參加初選，可能上演「芯費大戰2.0」。陳暉今晚表示，他發現自己離準備好仍有差距，也從在準備初選大展身手的夥伴身上發現自身不足之處，「我最終沒有完成領表登記」，但會好好精進，允諾</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1748088" data-desc="P:19:國民黨台北市議員初選 首日15人領表7人登記" class="ph" title="國民黨台北市議員初選 首日15人領表7人登記">
+                <img class="lazy_imgs" alt="國民黨台北市議員初選 首日15人領表7人登記" title="國民黨台北市議員初選 首日15人領表7人登記" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/03/24/84.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1748088">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1748088" class="tit" data-desc="T:19:國民黨台北市議員初選 首日15人領表7人登記" title="國民黨台北市議員初選 首日15人領表7人登記">國民黨台北市議員初選 首日15人領表7人登記</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1748088" class="immtag chan">政治</i>
+                <span class="time">2026/03/24</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1748088" class="http" data-desc="T:19:國民黨台北市議員初選 首日15人領表7人登記" title="國民黨台北市議員初選 首日15人領表7人登記">https://news.ltn.com.tw/news/politics/paper/1748088</a>
+                <p>國民黨台北市黨部昨（廿三）起辦理議員初選分階段領表登記作業，首日共有十五人領表，七人完成登記，包括第一選區（北投、士林）汪志冰、張斯綱；第二選區（內湖、南港）游淑慧、李明賢；第三選區（松山、信義）詹為元 、戴錫欽 、李煥中。國民黨初選分兩梯次領表登記，第一梯次辦理第一、二、三選區的領表至今天止，明天</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=許原榮&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=許原榮&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155757';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>李易儒 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="李易儒 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="李易儒 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="李易儒" />
+<meta name="news_keywords" itemprop="keywords" content="李易儒" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:57:57--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="李易儒" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李易儒&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 85 項結果 (搜尋時間：0.103 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "李易儒", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5624988" data-desc="P:0:蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票" class="ph" title="蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票">
+                <img class="lazy_imgs" alt="蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票" title="蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/5624988_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5624988">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5624988" class="tit" data-desc="T:0:蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票" title="蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票">蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5624988" class="immtag chan">政治</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5624988" class="http" data-desc="T:0:蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票" title="蔣萬安辯論會後趕場站台議員競總成立 石舫亘首赴迪化商圈拜票">https://news.ltn.com.tw/news/politics/breakingnews/5624988</a>
+                <p>台北市長蔣萬安今（31日）身體不適後首露面，與太太石舫亘分進合擊。蔣萬安出席電視辯論會後，趕場出席市議員候選人李傅鈺、柳采葳競選總部成立活動，以及同志大遊行；石舫亘則到迪化商圈掃街，立委王鴻薇、台北市議會副議長葉林傳、議員陳炳甫、議員候選人李易儒也陪同拜票。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5624297" data-desc="P:1:涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己" class="ph" title="涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己">
+                <img class="lazy_imgs" alt="涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己" title="涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/30/5624297_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5624297">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5624297" class="tit" data-desc="T:1:涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己" title="涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己">涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5624297" class="immtag chan">社會</i>
+                <span class="time">4天前</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5624297" class="http" data-desc="T:1:涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己" title="涉詐慈濟10.6億！陳昱瑄喊司法信仰崩  檢轟：只想到自己">https://news.ltn.com.tw/news/society/breakingnews/5624297</a>
+                <p>律師陳昱瑄（羈押中）涉嫌與李易儒（通緝中）誆稱有管道採購BNT疫苗，詐取慈濟基金會10.6億元，台中地院今開庭訊問，陳昱瑄大吐監所超收、律見困難等苦水，感嘆半輩子法律信仰逐漸崩潰，公訴檢察官聽不下去，當庭反轟她只想到自己，更犀利反問：「民眾心中的恐懼，難道會亞於她嗎？」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5623942" data-desc="P:2:陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保" class="ph" title="陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保">
+                <img class="lazy_imgs" alt="陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保" title="陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/30/5623942_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5623942">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5623942" class="tit" data-desc="T:2:陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保" title="陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保">陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5623942" class="immtag chan">社會</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5623942" class="http" data-desc="T:2:陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保" title="陳昱瑄涉詐10.6億 律師稱「慈濟不覺得被騙」盼交保">https://news.ltn.com.tw/news/society/breakingnews/5623942</a>
+                <p>律師陳昱瑄涉嫌和男子李易儒共謀，趁2021年疫情嚴重時誆有管道購買BNT疫苗，詐取慈濟10.6億元佣金，羈押中陳女今出庭否認詐欺，主張無串證之虞，陳的辯護律師則說「慈濟都不覺得自己有被詐騙」，陳被訴詐欺部分有高度無罪可能，願提出500萬元內保釋金交保。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5622047" data-desc="P:3:女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保" class="ph" title="女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保">
+                <img class="lazy_imgs" alt="女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保" title="女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/28/5622047_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5622047">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5622047" class="tit" data-desc="T:3:女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保" title="女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保">女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5622047" class="immtag chan">社會</i>
+                <span class="time">6天前</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5622047" class="http" data-desc="T:3:女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保" title="女律師陳昱瑄狠詐慈濟10.6億 「爸爸」共犯李世宗喊冤盼交保">https://news.ltn.com.tw/news/society/breakingnews/5622047</a>
+                <p>曾任彰化律師公會理事長的律師陳昱瑄與疫苗掮客李易儒，2021年新冠肺炎疫情期間，趁慈濟基金會急欲採購500萬劑BNT疫苗，誆稱握有採購管道，詐取高達3000萬美元（約新台幣10.6億元）佣金，並涉嫌洗錢、將贓款化整為零購買黃金藏匿於台中豪宅，檢方8月將陳昱瑄、李世宗等17人依詐欺、業務侵占等罪嫌起訴</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1774638" data-desc="P:4:蔣萬安終於受訪 19日趙少康、28日王偉忠" class="ph" title="蔣萬安終於受訪 19日趙少康、28日王偉忠">
+                <img class="lazy_imgs" alt="蔣萬安終於受訪 19日趙少康、28日王偉忠" title="蔣萬安終於受訪 19日趙少康、28日王偉忠" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/15/127.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1774638">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1774638" class="tit" data-desc="T:4:蔣萬安終於受訪 19日趙少康、28日王偉忠" title="蔣萬安終於受訪 19日趙少康、28日王偉忠">蔣萬安終於受訪 19日趙少康、28日王偉忠</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1774638" class="immtag chan">政治</i>
+                <span class="time">2026/10/15</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1774638" class="http" data-desc="T:4:蔣萬安終於受訪 19日趙少康、28日王偉忠" title="蔣萬安終於受訪 19日趙少康、28日王偉忠">https://news.ltn.com.tw/news/politics/paper/1774638</a>
+                <p>台北市長蔣萬安最近開始透過電視、廣播、網路等不同型態的節目曝光，趙少康證實他十九日將接受《少康戰情室》訪問，王偉忠的專訪時間敲定在廿八日；此外，日前被同黨議員秦慧珠說，一次都沒去過松山及信義區的市場，昨一早也在未公布行程情況下，偕同當地議員參選人到大同區太平市場掃街，陸續也將安排與其他選區議員到公園</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5605913" data-desc="P:5:秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場" class="ph" title="秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場">
+                <img class="lazy_imgs" alt="秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場" title="秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/14/5605913_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5605913">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5605913" class="tit" data-desc="T:5:秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場" title="秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場">秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5605913" class="immtag chan">政治</i>
+                <span class="time">2026/10/14</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5605913" class="http" data-desc="T:5:秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場" title="秦慧珠才說沒逛過松信市場 蔣萬安今晨「低調」掃大同區市場">https://news.ltn.com.tw/news/politics/breakingnews/5605913</a>
+                <p>國民黨台北市議員秦慧珠日前在節目上提到，台北市長蔣萬安一次都沒有去過她選區松山及信義區的市場，民進黨籍台北市長參選人沈伯洋已經去了兩次，引發支持者焦慮，她也緩頰說，蔣萬安有很多秘密的行程可以去，不一定要天天上菜市場。蔣萬安今（14）早去掃大同區太平市場的行程，就被媒體質疑是秘密行程；蔣萬安回應說，平</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5589360" data-desc="P:6:詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房" class="ph" title="詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房">
+                <img class="lazy_imgs" alt="詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房" title="詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/29/5589360_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5589360">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5589360" class="tit" data-desc="T:6:詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房" title="詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房">詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5589360" class="immtag chan">社會</i>
+                <span class="time">2026/09/29</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5589360" class="http" data-desc="T:6:詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房" title="詐慈濟10.6億！陳昱瑄帳房坦承逃漏稅   驚爆沒財務專長管數億庫房">https://news.ltn.com.tw/news/society/breakingnews/5589360</a>
+                <p>曾任彰化律師公會理事長的律師陳昱瑄與疫苗掮客李易儒，2021年新冠肺炎疫情期間，趁慈濟基金會急欲採購500萬劑BNT疫苗，誆稱握有採購管道，詐取高達3000萬美元（約新台幣10.6億元）佣金，並涉嫌洗錢、將贓款化整為零購買黃金藏匿於台中豪宅，檢調偵辦後上月將陳女等17人依詐欺、業務侵占等罪嫌起訴，台</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5589224" data-desc="P:7:詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道" class="ph" title="詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道">
+                <img class="lazy_imgs" alt="詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道" title="詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/29/5589224_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5589224">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5589224" class="tit" data-desc="T:7:詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道" title="詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道">詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5589224" class="immtag chan">社會</i>
+                <span class="time">2026/09/29</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5589224" class="http" data-desc="T:7:詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道" title="詐騙慈濟10.6億！陳昱瑄助理開庭驚喊：我也是看新聞才知道">https://news.ltn.com.tw/news/society/breakingnews/5589224</a>
+                <p>曾任彰化律師公會理事長的律師陳昱瑄與疫苗掮客李易儒，2021年新冠肺炎疫情期間，趁慈濟基金會急欲採購500萬劑BNT疫苗，誆稱握有採購管道，詐取高達3000萬美元（約新台幣10.6億元）佣金，並涉嫌洗錢、將贓款化整為零購買黃金藏匿於台中豪宅，檢調偵辦後上月將陳女等17人依詐欺、業務侵占等罪嫌起訴，台</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://talk.ltn.com.tw/article/breakingnews/5574715" data-desc="P:8:自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」" class="ph" title="自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」">
+                <img class="lazy_imgs" alt="自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」" title="自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/talk/page/400S/2026/09/15/phpSBDRkK.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://talk.ltn.com.tw/article/breakingnews/5574715">
+                <a href="https://talk.ltn.com.tw/article/breakingnews/5574715" class="tit" data-desc="T:8:自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」" title="自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」">自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」</a>
+                <i href="https://talk.ltn.com.tw/article/breakingnews/5574715" class="immtag chan1">評論</i>
+                <span class="time">2026/09/27</span>
+                <a href="https://talk.ltn.com.tw/article/breakingnews/5574715" class="http" data-desc="T:8:自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」" title="自由開講》從國會共諜案 看洗錢防制神兵「金融天眼」">https://talk.ltn.com.tw/article/breakingnews/5574715</a>
+                <p>日前，無黨籍立委高金素梅的前國會辦公室主任張俊傑，因涉嫌違反《國家安全法》、涉入跨國及兩岸洗錢在台發展組織案，於棄保潛逃後再度引發關注。隨著一名助理陳俊瑋遭到拘提，並在偵訊下主動供出張俊傑落跑前交付的「隨身碟」，這起隱藏在國會殿堂內超過十年的共諜網，終於露出了冰山一角。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5581913" data-desc="P:9:買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪" class="ph" title="買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪">
+                <img class="lazy_imgs" alt="買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪" title="買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/22/5581913_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5581913">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5581913" class="tit" data-desc="T:9:買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪" title="買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪">買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5581913" class="immtag chan">社會</i>
+                <span class="time">2026/09/22</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5581913" class="http" data-desc="T:9:買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪" title="買疫苗詐騙慈濟10.6億！ 李世宗、太太、媳婦出庭全不認罪">https://news.ltn.com.tw/news/society/breakingnews/5581913</a>
+                <p>曾任彰化律師公會理事長的律師陳昱瑄與疫苗掮客李易儒，2021年新冠肺炎疫情期間，趁慈濟基金會急欲採購500萬劑BNT疫苗，誆稱握有採購管道，詐取高達3000萬美元（約新台幣10.6億元）佣金，並涉嫌洗錢、將贓款化整為零購買黃金藏匿於台中豪宅，檢方上月將陳昱瑄、李世宗等17人依詐欺、業務侵占等罪嫌起訴</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5581685" data-desc="P:10:詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？" class="ph" title="詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？">
+                <img class="lazy_imgs" alt="詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？" title="詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/21/5581685_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5581685">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5581685" class="tit" data-desc="T:10:詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？" title="詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？">詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5581685" class="immtag chan">社會</i>
+                <span class="time">2026/09/22</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5581685" class="http" data-desc="T:10:詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？" title="詐騙慈濟10.6億！陳昱瑄首開庭不認罪 律師反問：慈濟容易受騙嗎？">https://news.ltn.com.tw/news/society/breakingnews/5581685</a>
+                <p>曾任彰化律師公會理事長的律師陳昱瑄與疫苗掮客李易儒，2021年新冠肺炎疫情期間，趁慈濟基金會急欲採購500萬劑BNT疫苗，誆稱握有採購管道，詐取高達3000萬美元（約新台幣10.6億元）佣金，並涉嫌洗錢、將贓款化整為零購買黃金藏匿於台中豪宅，檢調偵辦後查扣超過價值10億元的現金、黃金，上月將陳女等1</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5564323" data-desc="P:11:狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光" class="ph" title="狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光">
+                <img class="lazy_imgs" alt="狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光" title="狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/05/5564323_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5564323">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5564323" class="tit" data-desc="T:11:狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光" title="狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光">狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5564323" class="immtag chan">社會</i>
+                <span class="time">2026/09/05</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5564323" class="http" data-desc="T:11:狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光" title="狠詐慈濟10.6億「掮客」跑了！李易儒潛逃香港被通緝 正面照曝光">https://news.ltn.com.tw/news/society/breakingnews/5564323</a>
+                <p>慈濟基金會10.6億元BNT疫苗詐騙案關鍵人物、被神鬼女律師陳昱瑄稱為「大哥」的李易儒，在案發後潛逃出境被台中地檢署通緝，最新公開資料顯示，他可能早在2025年8月就已潛逃香港，調查局除正式將他列為外逃追緝對象，其正面通緝照片也曝光。　李易儒是這起10.6億元疫苗詐騙案中關鍵角色，檢方追查發現，李易</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://ec.ltn.com.tw/article/breakingnews/5563084" data-desc="P:12:董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了" class="ph" title="董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了">
+                <img class="lazy_imgs" alt="董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了" title="董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/business/page/400S/2026/09/04/5563084_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ec.ltn.com.tw/article/breakingnews/5563084">
+                <a href="https://ec.ltn.com.tw/article/breakingnews/5563084" class="tit" data-desc="T:12:董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了" title="董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了">董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了</a>
+                <i href="https://ec.ltn.com.tw/article/breakingnews/5563084" class="immtag chan">財經</i>
+                <span class="time">2026/09/04</span>
+                <a href="https://ec.ltn.com.tw/article/breakingnews/5563084" class="http" data-desc="T:12:董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了" title="董座捲陳昱瑄詐騙！正達重訊稱「嚴重」與事實不符 中檢回應了">https://ec.ltn.com.tw/article/breakingnews/5563084</a>
+                <p>上市公司正達光電董事長許庭禎捲入5400萬元詐騙案，遭依三人以上共同詐欺取財等罪嫌追加起訴，正達公司發布重訊反駁，稱起訴內容「嚴重與事實不符」；台中地檢署今天回應，指正達重訊法律用語有誤，許庭禎對提供境外公司、交付帳戶等客觀行為並不否認，僅辯稱誤信李易儒，相關刑責仍由法院認定。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/paper/1769337" data-desc="P:13:神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬" class="ph" title="神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬">
+                <img class="lazy_imgs" alt="神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬" title="神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/09/04/129.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/paper/1769337">
+                <a href="https://news.ltn.com.tw/news/society/paper/1769337" class="tit" data-desc="T:13:神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬" title="神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬">神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬</a>
+                <i href="https://news.ltn.com.tw/news/society/paper/1769337" class="immtag chan">社會</i>
+                <span class="time">2026/09/04</span>
+                <a href="https://news.ltn.com.tw/news/society/paper/1769337" class="http" data-desc="T:13:神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬" title="神鬼女律師不只詐慈濟10億 零成本騙走投資公司5400萬">https://news.ltn.com.tw/news/society/paper/1769337</a>
+                <p>又與李易儒聯手犯案台中地檢署偵辦慈濟BNT疫苗十點六億元詐騙案，又查出曾任彰化律師公會理事長的女律師陳昱瑄，涉與同案被告李易儒等人，誆稱有特殊管道可借款二億元，誘騙投資公司交付股票、本票，再藉質押取得資金，未實際出資卻收取五千四百萬元利息，近日將陳女等五人依詐欺、洗錢、組織犯罪等追加起訴；李易儒通緝</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5562029" data-desc="P:14:狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢" class="ph" title="狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢">
+                <img class="lazy_imgs" alt="狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢" title="狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/03/5562029_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5562029">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5562029" class="tit" data-desc="T:14:狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢" title="狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢">狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5562029" class="immtag chan">社會</i>
+                <span class="time">2026/09/03</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5562029" class="http" data-desc="T:14:狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢" title="狠詐慈濟10.6億還不夠！律師陳昱瑄集團再騙5400萬 正達光電董座也捲入洗錢">https://news.ltn.com.tw/news/society/breakingnews/5562029</a>
+                <p>前彰化律師公會理事長陳昱瑄涉嫌詐騙慈濟10.6億元購買BNT疫苗案，檢方追查金流時再挖出另一樁「無本生意」，她與李易儒等人利用尤姓男子急借2億元機會，佯稱有管道可低利借款，3年騙走5400萬元利息，正達國際光電董座許庭禎也涉提供公司及帳戶協助轉款洗錢，台中地檢近日偵結，起訴陳女及許男等5人。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5561672" data-desc="P:15:不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬" class="ph" title="不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬">
+                <img class="lazy_imgs" alt="不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬" title="不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/03/5561672_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5561672">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5561672" class="tit" data-desc="T:15:不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬" title="不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬">不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5561672" class="immtag chan">社會</i>
+                <span class="time">2026/09/03</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5561672" class="http" data-desc="T:15:不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬" title="不只詐慈濟10.6億！女律師誆可借2億 0成本騙走投資公司5400萬">https://news.ltn.com.tw/news/society/breakingnews/5561672</a>
+                <p>台中地檢署偵辦慈濟BNT疫苗10.6億元詐騙案時，意外查出另一樁「空手套白狼」案，曾任彰化律師公會理事長的女律師陳昱瑄涉嫌與李易儒等人，誆稱有特殊管道可借款2億元，誘騙投資公司交付股票、本票，再藉質押取得資金，未實際出資卻收取5400萬元利息，檢方近日偵結，將陳女等5人依詐欺等罪起訴。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" data-desc="P:16:北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" class="ph" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長">
+                <img class="lazy_imgs" alt="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/02/5561200_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5561200">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" class="tit" data-desc="T:16:北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長">北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" class="immtag chan">政治</i>
+                <span class="time">2026/09/02</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" class="http" data-desc="T:16:北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長">https://news.ltn.com.tw/news/politics/breakingnews/5561200</a>
+                <p>九合一大選年底登場，8月31日至9月4日開放公職人員選舉參選人登記參選，台北市至今（2）已有58名議員候選人登記，其中29名現任議員登記拚連任；3名市長候選人登記，包含台灣麻將最大黨郭璽、民進黨沈伯洋與臺灣SoR無法黨蕭文乾。登記候選人名單如下（按照登記時間排序）：</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5550943" data-desc="P:17:慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！" class="ph" title="慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！">
+                <img class="lazy_imgs" alt="慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！" title="慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/08/24/phpObzLX2.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5550943">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5550943" class="tit" data-desc="T:17:慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！" title="慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！">慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5550943" class="immtag chan">社會</i>
+                <span class="time">2026/08/25</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5550943" class="http" data-desc="T:17:慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！" title="慈濟遭詐10.6億至今不內部調查 沈榮欽：看來是想腐敗到底！">https://news.ltn.com.tw/news/society/breakingnews/5550943</a>
+                <p>慈濟遭疫苗掮客詐騙10.6億一案本月初曝光後引發軒然大波，慈濟高層到現在仍「一切風平浪靜」，也沒有要啟動內部調查的跡象，加拿大約克大學副教授沈榮欽搖頭表示，這正好說明慈濟高層已經喪失自我更新的能力，打算腐敗到底！曾任彰化律師公會理事長的律師陳昱瑄與掮客李易儒共謀，2021年疫情大流行期間，向慈濟基金</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/paper/1766424" data-desc="P:18:詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清" class="ph" title="詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清">
+                <img class="lazy_imgs" alt="詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清" title="詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/08/13/71.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/paper/1766424">
+                <a href="https://news.ltn.com.tw/news/society/paper/1766424" class="tit" data-desc="T:18:詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清" title="詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清">詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清</a>
+                <i href="https://news.ltn.com.tw/news/society/paper/1766424" class="immtag chan">社會</i>
+                <span class="time">2026/08/13</span>
+                <a href="https://news.ltn.com.tw/news/society/paper/1766424" class="http" data-desc="T:18:詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清" title="詐慈濟10.6億》陳昱瑄札記 現神秘代號 少東9百萬美金、TC黃百萬⋯待釐清">https://news.ltn.com.tw/news/society/paper/1766424</a>
+                <p>曾任彰化律師公會理事長的律師陳昱瑄，涉與疫苗掮客李易儒於二〇二一年新冠肺炎疫情期間，趁慈濟基金會急欲採購五百萬劑BNT疫苗，誆稱握有採購管道，詐取高達三千萬美元佣金，全案於上週起訴。檢方偵辦時，在陳昱瑄手寫札記發現有「少東」、「TC黃」、「DPP」等代號，以DPP來說，陳女供稱是一名李姓男子，不過清</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/paper/1766425" data-desc="P:19:查扣市值7.5億158.8公斤黃金 重兵押送入庫" class="ph" title="查扣市值7.5億158.8公斤黃金 重兵押送入庫">
+                <img class="lazy_imgs" alt="查扣市值7.5億158.8公斤黃金 重兵押送入庫" title="查扣市值7.5億158.8公斤黃金 重兵押送入庫" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/08/13/72.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/paper/1766425">
+                <a href="https://news.ltn.com.tw/news/society/paper/1766425" class="tit" data-desc="T:19:查扣市值7.5億158.8公斤黃金 重兵押送入庫" title="查扣市值7.5億158.8公斤黃金 重兵押送入庫">查扣市值7.5億158.8公斤黃金 重兵押送入庫</a>
+                <i href="https://news.ltn.com.tw/news/society/paper/1766425" class="immtag chan">社會</i>
+                <span class="time">2026/08/13</span>
+                <a href="https://news.ltn.com.tw/news/society/paper/1766425" class="http" data-desc="T:19:查扣市值7.5億158.8公斤黃金 重兵押送入庫" title="查扣市值7.5億158.8公斤黃金 重兵押送入庫">https://news.ltn.com.tw/news/society/paper/1766425</a>
+                <p>律師陳昱瑄與疫苗掮客李易儒，二〇二一年趁慈濟基金會欲採購五百萬劑BNT疫苗，向該基金會詐取三千萬美元（台幣十億六千萬元），檢調偵辦時，搜索查扣超過十億元的現金、黃金、不動產和名車等，其中起獲的黃金重達一五八．八公斤，昨天派出重兵將昨日牌價市值約七點五一億元的這批黃金，押送進入台中地檢署贓物庫。</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=李易儒&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=李易儒&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=李易儒&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=李易儒&start_time=20041201&end_time=20261104&sort=date&type=all&page=5" class="p_num" data-desc="5" title="第5頁">5</a><a href="https://search.ltn.com.tw/list?keyword=李易儒&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

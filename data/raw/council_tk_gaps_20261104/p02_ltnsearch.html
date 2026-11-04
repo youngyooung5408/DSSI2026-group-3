@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155712';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>李文 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="李文 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="李文 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="李文" />
+<meta name="news_keywords" itemprop="keywords" content="李文" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:57:12--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="李文" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李文&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 10000 項結果 (搜尋時間：0.099 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "李文", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5628704" data-desc="P:0:高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校" class="ph" title="高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校">
+                <img class="lazy_imgs" alt="高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校" title="高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/04/5628704_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5628704">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5628704" class="tit" data-desc="T:0:高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校" title="高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校">高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5628704" class="immtag chan">生活</i>
+                <span class="time">5小時前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5628704" class="http" data-desc="T:0:高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校" title="高雄路竹一甲國中辦學翻轉   新生3年增逾8成成總量管制學校">https://news.ltn.com.tw/news/life/breakingnews/5628704</a>
+                <p>高雄市路竹區一甲國中辦學績效亮眼，吸引社區優秀學子回流就讀，新生3年增逾8成，今年獲入學獎學金人數也倍增，因招生踴躍，一甲國中成為總量管制學校。北高雄地區因地理位置較鄰近台南生活圈，不少民眾前往台南工作、就學，尤其許多成績優異的國小畢業生，選擇跨區台南就讀國中，面對少子化及家長對教育品質日益重視的挑</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5626868" data-desc="P:1:中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島" class="ph" title="中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島">
+                <img class="lazy_imgs" alt="中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島" title="中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/02/5626868_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5626868">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5626868" class="tit" data-desc="T:1:中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島" title="中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島">中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5626868" class="immtag chan">生活</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5626868" class="http" data-desc="T:1:中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島" title="中興大學攜手澎湖科大 簽署合作備忘錄推動綠色循環島">https://news.ltn.com.tw/news/life/breakingnews/5626868</a>
+                <p>國立中興大學校長詹富智率領15位同仁、並偕同前校長蕭介夫等人到訪國立澎湖科技大學，2校除簽署合作協議外，並共同舉辦「綠色循環島農林漁牧永續共識營」，透過2校師長分享研究成果、交流農林漁牧產業發展與島嶼永續經營的實務經驗，凝聚跨校合作共識。此次合作由澎科大校長李文熙與中興大學校長詹富智共同推動舉辦「綠</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5626495" data-desc="P:2:陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生" class="ph" title="陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生">
+                <img class="lazy_imgs" alt="陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生" title="陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/02/5626495_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5626495">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5626495" class="tit" data-desc="T:2:陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生" title="陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生">陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5626495" class="immtag chan">生活</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5626495" class="http" data-desc="T:2:陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生" title="陽明交大苗栗校區動土！鎖定核心醫療產業 拚117學年招生">https://news.ltn.com.tw/news/life/breakingnews/5626495</a>
+                <p>苗栗縣政府攜手國立陽明交通大學，於後龍鎮新建苗栗校區「篤行學院」，工程今（2）日上午辦理動土，將設置進修推廣學院、產學聯合研究中心及相關教學研究機構，尤其將著重於核心醫療產業之研發，打造教育與經濟同步發展雙贏，目標117學年度起開始招生。此工程基地為原新港高中預定地（後龍鎮龍富段土地），面積約3.3</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://ent.ltn.com.tw/news/breakingnews/5626279" data-desc="P:3:黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」" class="ph" title="黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」">
+                <img class="lazy_imgs" alt="黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」" title="黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/11/02/phpPPY7qI.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ent.ltn.com.tw/news/breakingnews/5626279">
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5626279" class="tit" data-desc="T:3:黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」" title="黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」">黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」</a>
+                <i href="https://ent.ltn.com.tw/news/breakingnews/5626279" class="immtag chan2">娛樂</i>
+                <span class="time">2天前</span>
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5626279" class="http" data-desc="T:3:黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」" title="黃星樺主持台北市長辯論憋笑爆紅 再發聲「全力以赴」">https://ent.ltn.com.tw/news/breakingnews/5626279</a>
+                <p>TVBS-N主播黃星樺上個月31日主持台北市長選舉辯論會中，民進黨台北市長候選人沈伯洋直接大方邀請對手、台北市長蔣萬安加LINE，再約下一場辯論，她被發現憋笑，今（2）日上午，黃星樺也再發聲。稍早黃星樺在臉書曬出3張新照，在新一週的上班第一天開心說：「11月還有許多挑戰，全力以赴.....」曝光照片</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://ent.ltn.com.tw/news/breakingnews/5626175" data-desc="P:4:主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒" class="ph" title="主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒">
+                <img class="lazy_imgs" alt="主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒" title="主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/11/02/php2F9odE.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ent.ltn.com.tw/news/breakingnews/5626175">
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5626175" class="tit" data-desc="T:4:主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒" title="主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒">主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒</a>
+                <i href="https://ent.ltn.com.tw/news/breakingnews/5626175" class="immtag chan2">娛樂</i>
+                <span class="time">2天前</span>
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5626175" class="http" data-desc="T:4:主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒" title="主持台北市長辯論竊笑  主播黃星樺：沒憋住請見諒">https://ent.ltn.com.tw/news/breakingnews/5626175</a>
+                <p>台北市長選舉辯論會上個月31日舉行，由TVBS-N主播黃星樺、三立新聞台主播李文儀，分別代表電視台擔任主持人。過程中，民進黨台北市長候選人沈伯洋直接大方邀請對手蔣萬安加LINE，再約下一場辯論，直接聽到其中有位主持人吸氣、疑似笑聲，對此，黃星樺發聲要大家見諒。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1776855" data-desc="P:5:西螺大橋下 寵物公園啟用" class="ph" title="西螺大橋下 寵物公園啟用">
+                <img class="lazy_imgs" alt="西螺大橋下 寵物公園啟用" title="西螺大橋下 寵物公園啟用" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/11/02/86.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1776855">
+                <a href="https://news.ltn.com.tw/news/life/paper/1776855" class="tit" data-desc="T:5:西螺大橋下 寵物公園啟用" title="西螺大橋下 寵物公園啟用">西螺大橋下 寵物公園啟用</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1776855" class="immtag chan">生活</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1776855" class="http" data-desc="T:5:西螺大橋下 寵物公園啟用" title="西螺大橋下 寵物公園啟用">https://news.ltn.com.tw/news/life/paper/1776855</a>
+                <p>西螺大橋下打造蝴蝶公園，公所斥資約四百萬元，在東側高灘地打造鎮內首座寵物公園，西螺鎮長廖秋萍表示，進入園區前應遵守各項規定。（圖文：記者李文德）</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1776858" data-desc="P:6:賴清德為劉建國站台 籲挺有「台灣心」候選人" class="ph" title="賴清德為劉建國站台 籲挺有「台灣心」候選人">
+                <img class="lazy_imgs" alt="賴清德為劉建國站台 籲挺有「台灣心」候選人" title="賴清德為劉建國站台 籲挺有「台灣心」候選人" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/11/02/90.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1776858">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776858" class="tit" data-desc="T:6:賴清德為劉建國站台 籲挺有「台灣心」候選人" title="賴清德為劉建國站台 籲挺有「台灣心」候選人">賴清德為劉建國站台 籲挺有「台灣心」候選人</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1776858" class="immtag chan">政治</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776858" class="http" data-desc="T:6:賴清德為劉建國站台 籲挺有「台灣心」候選人" title="賴清德為劉建國站台 籲挺有「台灣心」候選人">https://news.ltn.com.tw/news/politics/paper/1776858</a>
+                <p>抨擊藍營張嘉郡 「有中國夢的人 不應該做民主聖地縣長」民進黨雲林縣長候選人劉建國昨在北港舉辦聯合競選總部成立大會，邀請綠營大咖等助講，現場湧入五千名支持者。總統賴清德出席為劉建國站台、並以三大理由呼籲鄉親力挺外，更抨擊國民黨候選人張嘉郡「一個有中國夢的人，不應該做民主聖地縣長」。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625972" data-desc="P:7:宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏" class="ph" title="宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏">
+                <img class="lazy_imgs" alt="宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏" title="宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/01/5625972_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625972">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625972" class="tit" data-desc="T:7:宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏" title="宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏">宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625972" class="immtag chan">政治</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625972" class="http" data-desc="T:7:宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏" title="宗教團體後援會聚集上千人 張嘉郡要結合宮廟民俗與經濟雙贏">https://news.ltn.com.tw/news/politics/breakingnews/5625972</a>
+                <p>國民黨雲林縣長候選人張嘉郡今（1）日成立宗教團體後援會，由四湖三條崙海清宮主委蘇金志擔任總會長，現場聚集上千名宗教界代表與信眾。張嘉郡表示，未來將延續健全產權與合法化輔導，面對高齡化社會，更將深化「高齡友善廟埕」建置。成立大會上，台西五條港安西府主委林清標、西螺吳厝朝興宮主委廖承洋，以及斗六新興宮主</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625937" data-desc="P:8:雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦" class="ph" title="雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦">
+                <img class="lazy_imgs" alt="雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦" title="雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/01/5625937_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625937">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625937" class="tit" data-desc="T:8:雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦" title="雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦">雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625937" class="immtag chan">政治</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625937" class="http" data-desc="T:8:雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦" title="雲林縣長選舉》翁章梁：劉建國出身貧困 深刻體會弱勢疾苦">https://news.ltn.com.tw/news/politics/breakingnews/5625937</a>
+                <p>民進黨雲林縣長候選人劉建國今（1）日在北港鎮舉辦聯合競選總部成立大會，現場湧入5000名支持者高喊「當選」。嘉義縣長翁章梁更是壓軸助講，更安排「神秘儀式」為劉助選。劉表示，誓言將過去落後的福利與建設全面彌補回來。劉建國說，北港媽祖香火鼎盛，每年吸引逾千萬觀光人潮，但地方不能只靠進香人流，更需要優質產</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625882" data-desc="P:9:賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」" class="ph" title="賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」">
+                <img class="lazy_imgs" alt="賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」" title="賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/01/5625882_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625882">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625882" class="tit" data-desc="T:9:賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」" title="賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」">賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625882" class="immtag chan">政治</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625882" class="http" data-desc="T:9:賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」" title="賴清德雲林力挺劉建國！砲轟張嘉郡「有中國夢不應當民主聖地縣長」">https://news.ltn.com.tw/news/politics/breakingnews/5625882</a>
+                <p>九合一選戰倒數，民進黨雲林縣長候選人劉建國今（1）日舉辦北港聯合競選總部大會，擔任競選團隊主任委員的賴清德總統更到場力挺。賴清德更拋出三大理由力挺劉建國，更強調民主是人民作主，雲林的主人是雲林縣民，絕對不是張家，更抨擊「一個有中國夢的人，不應該做民主聖地的縣長」，應支持有台灣心、有本土情的人擔任縣長</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625806" data-desc="P:10:劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他" class="ph" title="劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他">
+                <img class="lazy_imgs" alt="劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他" title="劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/01/5625806_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625806">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625806" class="tit" data-desc="T:10:劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他" title="劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他">劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625806" class="immtag chan">政治</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625806" class="http" data-desc="T:10:劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他" title="劉建國北港競總湧5000人！ 鍾佳濱讚「績優股」：雲林翻轉靠他">https://news.ltn.com.tw/news/politics/breakingnews/5625806</a>
+                <p>九合一選戰倒數，民進黨雲林縣長候選人劉建國成立北港聯合競選總部，交通部長陳世凱、勞動部長洪申翰等中央部會首長到場助講。鍾佳濱更將劉建國譽為「績優股」，呼籲鄉親把握支持。大會今天下午約3點正式開始，陸續邀請交通部長陳世凱、勞動部長洪申翰、立委鍾佳濱、前縣長蘇治芬等人陸續為他助講，會場湧入5000位支持</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5625652" data-desc="P:11:雲林西螺有寵物公園了！ 大、小型犬分區活動" class="ph" title="雲林西螺有寵物公園了！ 大、小型犬分區活動">
+                <img class="lazy_imgs" alt="雲林西螺有寵物公園了！ 大、小型犬分區活動" title="雲林西螺有寵物公園了！ 大、小型犬分區活動" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/01/5625652_3_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5625652">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625652" class="tit" data-desc="T:11:雲林西螺有寵物公園了！ 大、小型犬分區活動" title="雲林西螺有寵物公園了！ 大、小型犬分區活動">雲林西螺有寵物公園了！ 大、小型犬分區活動</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5625652" class="immtag chan">生活</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625652" class="http" data-desc="T:11:雲林西螺有寵物公園了！ 大、小型犬分區活動" title="雲林西螺有寵物公園了！ 大、小型犬分區活動">https://news.ltn.com.tw/news/life/breakingnews/5625652</a>
+                <p>雲林西螺鎮公所將西螺大橋下打造佔地廣大的蝴蝶公園，每個月都可以吸引數千名遊客造訪，因應飼養寵物家庭增加，公所斥資約400萬元，在東側高灘地打造鎮內首座寵物公園，分為大小型犬兩區。公所表示，希望讓毛孩有安全奔跑場地，也讓飼主有更多與寵物互動機會。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5625592" data-desc="P:12:歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用" class="ph" title="歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用">
+                <img class="lazy_imgs" alt="歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用" title="歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/01/5625592_3_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5625592">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625592" class="tit" data-desc="T:12:歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用" title="歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用">歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5625592" class="immtag chan">生活</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625592" class="http" data-desc="T:12:歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用" title="歷經17次流標、等了8年！ 雲林崙背鄉新衛生所完工啟用">https://news.ltn.com.tw/news/life/breakingnews/5625592</a>
+                <p>原雲林縣崙背鄉衛生所建築物老舊，加上坐落於市場間，鄉公所無償撥用土地且經國民健康署經費補助給雲林縣衛生局，斥資7200多萬元新建，經過將近4年工程，今（1）日舉辦揭牌啟用典禮。衛生局表示，未來該所將發揮預防保健、醫療及長照等全方位照護功能。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5625502" data-desc="P:13:古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界" class="ph" title="古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界">
+                <img class="lazy_imgs" alt="古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界" title="古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/01/5625502_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5625502">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625502" class="tit" data-desc="T:13:古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界" title="古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界">古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5625502" class="immtag chan">生活</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625502" class="http" data-desc="T:13:古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界" title="古坑咖啡不只拚品質！雲林國際論壇聚焦產製銷 助攻品牌走向世界">https://news.ltn.com.tw/news/life/breakingnews/5625502</a>
+                <p>雲林縣古坑鄉被譽為台灣咖啡原鄉，縣府在古坑劍湖山度假大飯店舉辦「2026臺灣國際咖啡論壇」以「從產地到杯中的極致溢價」為主軸，邀集國內外咖啡產業專家及品牌代表齊聚交流，從咖啡「產、製、銷」3大面向，探討產區發展、市場合作等。縣府表示，盼國際交流對話，展現台灣咖啡的產地實力與品牌價值。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1776757" data-desc="P:14:雲林首座防災公園啟用 可收容600人" class="ph" title="雲林首座防災公園啟用 可收容600人">
+                <img class="lazy_imgs" alt="雲林首座防災公園啟用 可收容600人" title="雲林首座防災公園啟用 可收容600人" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/11/01/118.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1776757">
+                <a href="https://news.ltn.com.tw/news/life/paper/1776757" class="tit" data-desc="T:14:雲林首座防災公園啟用 可收容600人" title="雲林首座防災公園啟用 可收容600人">雲林首座防災公園啟用 可收容600人</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1776757" class="immtag chan">生活</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1776757" class="http" data-desc="T:14:雲林首座防災公園啟用 可收容600人" title="雲林首座防災公園啟用 可收容600人">https://news.ltn.com.tw/news/life/paper/1776757</a>
+                <p>推動縣內防災韌性，雲林縣政府去年在石龜國小成立防災教育科技中心，並向日本取經，利用校園空地打造防災教育公園，昨正式揭牌啟用。校長黃致傑表示，建築物若因天災倒塌，公園將肩負收容之責，最多可收容六百位民眾，提供至少三天水源、電力資源。石龜國小作示範點 可供3天水電</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/paper/1776752" data-desc="P:15:聯結車國道爆胎 5車連撞2死" class="ph" title="聯結車國道爆胎 5車連撞2死">
+                <img class="lazy_imgs" alt="聯結車國道爆胎 5車連撞2死" title="聯結車國道爆胎 5車連撞2死" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/11/01/112.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/paper/1776752">
+                <a href="https://news.ltn.com.tw/news/society/paper/1776752" class="tit" data-desc="T:15:聯結車國道爆胎 5車連撞2死" title="聯結車國道爆胎 5車連撞2死">聯結車國道爆胎 5車連撞2死</a>
+                <i href="https://news.ltn.com.tw/news/society/paper/1776752" class="immtag chan">社會</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/society/paper/1776752" class="http" data-desc="T:15:聯結車國道爆胎 5車連撞2死" title="聯結車國道爆胎 5車連撞2死">https://news.ltn.com.tw/news/society/paper/1776752</a>
+                <p>國道一號南向嘉義民雄段昨凌晨兩點多發生一起驚險連環車禍事故，一輛營業全聯結車疑因爆胎失控打滑，猛烈撞擊內側護欄後，橫停內線車道，造成後方四輛轎車閃避不及連環追撞。整起車禍共造成兩名轎車駕駛頭部重創死亡，全聯結車翁姓駕駛及一名轎車乘客吳姓少女受傷，交通受影響長達五個小時，確切肇事責任由警方調查釐清中。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1776759" data-desc="P:16:斗六西市場拜票 劉建國 ：納文化聚落" class="ph" title="斗六西市場拜票 劉建國 ：納文化聚落">
+                <img class="lazy_imgs" alt="斗六西市場拜票 劉建國 ：納文化聚落" title="斗六西市場拜票 劉建國 ：納文化聚落" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/11/01/119.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1776759">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776759" class="tit" data-desc="T:16:斗六西市場拜票 劉建國 ：納文化聚落" title="斗六西市場拜票 劉建國 ：納文化聚落">斗六西市場拜票 劉建國 ：納文化聚落</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1776759" class="immtag chan">政治</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776759" class="http" data-desc="T:16:斗六西市場拜票 劉建國 ：納文化聚落" title="斗六西市場拜票 劉建國 ：納文化聚落">https://news.ltn.com.tw/news/politics/paper/1776759</a>
+                <p>民進黨雲林縣長候選人劉建國昨與黨公職候選人到斗六西市場掃街拜票，除向攤商與民眾問好外，更了解市場經營環境與地方需求。劉建國認為，斗六西市場承載著當地人生活記憶，更是地方文化重要所在，應兼顧文化保存與在地生活。劉建國指出，曾與山線社區大學共同提出「雲林溪文化聚落保存計畫」，將西市場、雲中街警察宿舍群、</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625098" data-desc="P:17:「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」" class="ph" title="「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」">
+                <img class="lazy_imgs" alt="「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」" title="「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/5625098_4_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625098">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625098" class="tit" data-desc="T:17:「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」" title="「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」">「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625098" class="immtag chan">政治</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625098" class="http" data-desc="T:17:「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」" title="「西螺女婿」韓國瑜陪張嘉郡掃街 唱西螺七劍「不小心透露年紀」">https://news.ltn.com.tw/news/politics/breakingnews/5625098</a>
+                <p>國民黨雲林縣長候選人張嘉郡今（31）日下午邀請立法院長韓國瑜到西螺鎮車掃拜票，韓國瑜力薦張嘉郡一心一意為雲林縣打拚，呼籲大家支持，更是在掃街前與西螺鎮長候選人蕭德恕合唱1972年連續劇《西螺七劍》歌曲，引起台下選民歡呼，但也有選民笑虧「不小心透露年紀」。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625038" data-desc="P:18:民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程" class="ph" title="民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程">
+                <img class="lazy_imgs" alt="民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程" title="民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/5625038_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625038">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625038" class="tit" data-desc="T:18:民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程" title="民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程">民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625038" class="immtag chan">政治</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625038" class="http" data-desc="T:18:民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程" title="民眾黨議員、候選人現身同志遊行 林珍羽：公務員必須上性別課程">https://news.ltn.com.tw/news/politics/breakingnews/5625038</a>
+                <p>第24屆台灣同志遊行今（31）日下午2點從台北市府廣場前出發。民眾黨台北市議員林珍羽談及北市同志酒吧遭搜索案，表示她過去4年即強調「公務人員必須上性別課程」，從公務部門落實平權，才能消弭對立；議員陳宥丞則痛批，每年此時就會有人拿政黨顏色來炒作對立，指控誰是來蹭、誰是真正關心，但消弭對立才是政黨責任，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://health.ltn.com.tw/article/breakingnews/5625018" data-desc="P:19:台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康" class="ph" title="台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康">
+                <img class="lazy_imgs" alt="台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康" title="台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/health/page/400S/2026/10/31/5625018_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://health.ltn.com.tw/article/breakingnews/5625018">
+                <a href="https://health.ltn.com.tw/article/breakingnews/5625018" class="tit" data-desc="T:19:台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康" title="台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康">台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康</a>
+                <i href="https://health.ltn.com.tw/article/breakingnews/5625018" class="immtag chan7">健康</i>
+                <span class="time">3天前</span>
+                <a href="https://health.ltn.com.tw/article/breakingnews/5625018" class="http" data-desc="T:19:台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康" title="台中榮總團隊送愛到後龍 六大專科義診守護鄉親健康">https://health.ltn.com.tw/article/breakingnews/5625018</a>
+                <p>台中榮民總醫院10月31日在苗栗縣後龍鎮溪洲社區活動中心舉辦「榮情厚意．愛在後龍」義診活動，由台中榮民總醫院院長傅雲慶率領逾50名醫護及行政團隊，提供六大專科診療服務，並將心電圖及心臟超音波等專業儀器運抵現場即時判讀，讓海線鄉親免去舟車勞頓，在社區即可享有醫學中心等級的醫療照護。</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=李文&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=李文&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=李文&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=李文&start_time=20041201&end_time=20261104&sort=date&type=all&page=5" class="p_num" data-desc="5" title="第5頁">5</a><a href="https://search.ltn.com.tw/list?keyword=李文&start_time=20041201&end_time=20261104&sort=date&type=all&page=6" class="p_num" data-desc="6" title="第6頁">6</a><a href="https://search.ltn.com.tw/list?keyword=李文&start_time=20041201&end_time=20261104&sort=date&type=all&page=7" class="p_num" data-desc="7" title="第7頁">7</a><a href="https://search.ltn.com.tw/list?keyword=李文&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

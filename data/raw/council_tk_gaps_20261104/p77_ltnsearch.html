@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155951';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>高忠德 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="高忠德 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="高忠德 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="高忠德" />
+<meta name="news_keywords" itemprop="keywords" content="高忠德" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:59:51--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="高忠德" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=高忠德&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 75 項結果 (搜尋時間：0.13 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "高忠德", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" data-desc="P:0:高市議員101選將抽幸運號碼   完整名單一次看" class="ph" title="高市議員101選將抽幸運號碼   完整名單一次看">
+                <img class="lazy_imgs" alt="高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619984_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619984">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="tit" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">高市議員101選將抽幸運號碼   完整名單一次看</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619984" class="http" data-desc="T:0:高市議員101選將抽幸運號碼   完整名單一次看" title="高市議員101選將抽幸運號碼   完整名單一次看">https://news.ltn.com.tw/news/politics/breakingnews/5619984</a>
+                <p>高雄市議員選舉號次抽籤今完成，15選區101位候選人陸續抽出專屬幸運號碼，有效時間今起33天。1選區5搶3，1李振豪（國民黨）、2林義迪（國民黨）、3林慧欣（民進黨）、4鍾炳光、5 林富寶（民進黨）。2選區5搶3，1李柏融、2李亞築 （國民黨）、3黃明太（民進黨）、4陳琳潔（民進黨）、5鄭東元。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598112" data-desc="P:1:高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質" class="ph" title="高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質">
+                <img class="lazy_imgs" alt="高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質" title="高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/07/5598112_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5598112">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598112" class="tit" data-desc="T:1:高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質" title="高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質">高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5598112" class="immtag chan">政治</i>
+                <span class="time">2026/10/07</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5598112" class="http" data-desc="T:1:高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質" title="高雄公督盟公布議員評鑑  第七會期藍綠11人獲問政優質">https://news.ltn.com.tw/news/politics/breakingnews/5598112</a>
+                <p>高市公民監督公僕聯盟今發布高市議會第七會期評鑑結果，選出11位問政優質議員，對議會第七會期整體表現指出可圈可點。11位問政優質議員分別為白喬茵、李雅慧、邱俊憲、林智鴻、高忠德、陳美雅、陳慧文、郭建盟、湯詠瑜、黃秋媖、劉德林。公督盟表示，11位優質議員不論總質詢、業務部門質詢、委員會議、法案審查等，都</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5575769" data-desc="P:2:「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」" class="ph" title="「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」">
+                <img class="lazy_imgs" alt="「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」" title="「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/16/5575769_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5575769">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5575769" class="tit" data-desc="T:2:「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」" title="「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」">「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5575769" class="immtag chan">生活</i>
+                <span class="time">2026/09/16</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5575769" class="http" data-desc="T:2:「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」" title="「牛奶會」挺高雄原鄉學童每週3瓶鮮奶  康裕成：感謝企業「阿莎力」">https://news.ltn.com.tw/news/life/breakingnews/5575769</a>
+                <p>統一企業社會福利慈善事業基金會自114學年度第二學期停止贊助高雄原鄉國小學童常溫牛乳，議長康裕成攜手陳幸富、范織欽及高忠德等議員，號召民間企業成立的「牛奶會」補足缺口，康裕成感謝民間企業「阿莎力」贊助，強調原鄉學童健康不能因企業停止贊助而中斷。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5450170" data-desc="P:3:高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將" class="ph" title="高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將">
+                <img class="lazy_imgs" alt="高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將" title="高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/05/26/5450170_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5450170">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5450170" class="tit" data-desc="T:3:高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將" title="高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將">高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5450170" class="immtag chan">生活</i>
+                <span class="time">2026/05/26</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5450170" class="http" data-desc="T:3:高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將" title="高雄柔道隊全國賽奪佳績  議長康裕成偕原民議員慰勉原民小將">https://news.ltn.com.tw/news/life/breakingnews/5450170</a>
+                <p>高市柔道隊在年度全國柔道錦標賽與全國中等學校運動會成績亮眼，高雄市議長康裕成今偕同高忠德、陳幸富、范織欽等議員，邀原民選手到議會餐敘，為選手的優異表現喝采。本屆全國柔道錦標賽，高雄原民學子繳出令人驚豔成績，桃源國中柔道隊一路過關斬將，勇奪國中女子組團體賽金牌，海青商工則以穩健技術實力與高度團隊默契，</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5407065" data-desc="P:4:原住民禁伐補償金翻倍 高雄現爭地糾紛" class="ph" title="原住民禁伐補償金翻倍 高雄現爭地糾紛">
+                <img class="lazy_imgs" alt="原住民禁伐補償金翻倍 高雄現爭地糾紛" title="原住民禁伐補償金翻倍 高雄現爭地糾紛" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/17/5407065_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5407065">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5407065" class="tit" data-desc="T:4:原住民禁伐補償金翻倍 高雄現爭地糾紛" title="原住民禁伐補償金翻倍 高雄現爭地糾紛">原住民禁伐補償金翻倍 高雄現爭地糾紛</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5407065" class="immtag chan">生活</i>
+                <span class="time">2026/04/17</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5407065" class="http" data-desc="T:4:原住民禁伐補償金翻倍 高雄現爭地糾紛" title="原住民禁伐補償金翻倍 高雄現爭地糾紛">https://news.ltn.com.tw/news/life/breakingnews/5407065</a>
+                <p>原住民禁伐補償金從去年起，由原本的每年每公頃3萬元提高至6萬元，衍生不少爭地糾紛!高雄市民住民議員高忠德今（17）日在臉書貼出一張山區線條圖，質疑「這是什麼東西」，外界看了一頭霧水；市府則表示，看畫的圖應該是土地有爭議，分不清楚是誰的，將提供給公所認定。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5403701" data-desc="P:5:高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職" class="ph" title="高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職">
+                <img class="lazy_imgs" alt="高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職" title="高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/04/14/5403701_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5403701">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5403701" class="tit" data-desc="T:5:高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職" title="高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職">高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5403701" class="immtag chan">政治</i>
+                <span class="time">2026/04/14</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5403701" class="http" data-desc="T:5:高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職" title="高雄823紀念館陣亡將士無法識別原民？高市原民議員怒嗆國防部失職">https://news.ltn.com.tw/news/politics/breakingnews/5403701</a>
+                <p>高市原民議員高忠德建議823台海戰役紀念館陳列資料應納入參戰的原民戰士，高市兵役處長謝健成答詢轉述軍方回復有589位陣亡將士姓名、但無法識別身分！高忠德認為軍方對此不重視，怒嗆國防部失職、解散算了。職業軍人退伍的高忠德表示，他很關注軍隊情況，也注意到高雄在2003成立823台海戰役紀念館，該戰役陣亡</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5350818" data-desc="P:6:高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光" class="ph" title="高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光">
+                <img class="lazy_imgs" alt="高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光" title="高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/25/5350818_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5350818">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5350818" class="tit" data-desc="T:6:高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光" title="高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光">高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5350818" class="immtag chan">生活</i>
+                <span class="time">2026/02/25</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5350818" class="http" data-desc="T:6:高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光" title="高雄原鄉學童訪美傳唱布農天籟 康裕成：讓世界看見台灣的光">https://news.ltn.com.tw/news/life/breakingnews/5350818</a>
+                <p>高雄桃源區建山國小師生，春節期間遠赴美國拜訪姊妹校「北維州實驗中文學校（NVAECS）」，並在異鄉傳遞布農族天籟美聲；議長康裕成深受感動，形容建山孩子讓世界看見台灣的光。　高市議會說明，建山國小訪問團除與姊妹校交流，也走訪白宮、華盛頓紀念碑、Steven F. Udvar-Hazy Center及國</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5332147" data-desc="P:7:王定宇、黃捷助陣  高雄湧言會17人戰隊成軍" class="ph" title="王定宇、黃捷助陣  高雄湧言會17人戰隊成軍">
+                <img class="lazy_imgs" alt="王定宇、黃捷助陣  高雄湧言會17人戰隊成軍" title="王定宇、黃捷助陣  高雄湧言會17人戰隊成軍" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/02/04/5332147_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5332147">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5332147" class="tit" data-desc="T:7:王定宇、黃捷助陣  高雄湧言會17人戰隊成軍" title="王定宇、黃捷助陣  高雄湧言會17人戰隊成軍">王定宇、黃捷助陣  高雄湧言會17人戰隊成軍</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5332147" class="immtag chan">政治</i>
+                <span class="time">2026/02/04</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5332147" class="http" data-desc="T:7:王定宇、黃捷助陣  高雄湧言會17人戰隊成軍" title="王定宇、黃捷助陣  高雄湧言會17人戰隊成軍">https://news.ltn.com.tw/news/politics/breakingnews/5332147</a>
+                <p>民進黨六都直轄市議員初選登記今（4日）起跑，高雄湧言會選登記首日，由派系召集人立委王定宇、黃捷領軍，率12位現任議員及5位參選人，組成「17人團結戰隊」，聯手力拚「初選全數過關、議會席次過半!」。高雄湧言會今天在民進黨市黨部前，舉行「高雄尚湧 強棒出擊」市議員初選登記聯合記者會，由派系召集人王定宇立</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5322099" data-desc="P:8:凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用" class="ph" title="凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用">
+                <img class="lazy_imgs" alt="凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用" title="凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/01/26/5322099_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5322099">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5322099" class="tit" data-desc="T:8:凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用" title="凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用">凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5322099" class="immtag chan">生活</i>
+                <span class="time">2026/01/26</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5322099" class="http" data-desc="T:8:凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用" title="凱米颱風重創校舍 高雄桃源國中廁所、球場完工啟用">https://news.ltn.com.tw/news/life/breakingnews/5322099</a>
+                <p>2024年強颱凱米重創高雄市桃源區，大量土石流灌入桃源國中校園，校舍、柔道場與綜合球場遭嚴重毀損，歷經1年半的重建，近日包括老舊廁所、組合屋汛期臨時多功能安置處與綜合球場整修完工啟用，這座南橫山區的「最高學府」以布農族儀式迎接重生的喜悅。桃源國中1月23日舉辦布農族傳統立柱儀式為校內建物祝禱，校長陳</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5150556" data-desc="P:9:高雄海洋局攜手各界 送「高雄海味」援助原鄉" class="ph" title="高雄海洋局攜手各界 送「高雄海味」援助原鄉">
+                <img class="lazy_imgs" alt="高雄海洋局攜手各界 送「高雄海味」援助原鄉" title="高雄海洋局攜手各界 送「高雄海味」援助原鄉" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/08/20/php1YfYWR.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5150556">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5150556" class="tit" data-desc="T:9:高雄海洋局攜手各界 送「高雄海味」援助原鄉" title="高雄海洋局攜手各界 送「高雄海味」援助原鄉">高雄海洋局攜手各界 送「高雄海味」援助原鄉</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5150556" class="immtag chan">生活</i>
+                <span class="time">2025/08/20</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5150556" class="http" data-desc="T:9:高雄海洋局攜手各界 送「高雄海味」援助原鄉" title="高雄海洋局攜手各界 送「高雄海味」援助原鄉">https://news.ltn.com.tw/news/life/breakingnews/5150556</a>
+                <p>今年7、8月接連的颱風、豪雨侵襲高雄市山區，影響原鄉部落日常生活，高市海洋局結合高雄區漁會、水產加工業者及鳳山天公廟資源，將3060份「高雄海味」送進那瑪夏、桃源、茂林等原鄉部落，由各區公所代表接收，提供居民支持與溫暖。高市海洋局表示，丹娜絲颱風豪雨侵襲高雄市山區，造成多處道路坍方、交通中斷；8月1</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5144879" data-desc="P:10:保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠" class="ph" title="保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠">
+                <img class="lazy_imgs" alt="保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠" title="保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/08/15/5144879_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5144879">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5144879" class="tit" data-desc="T:10:保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠" title="保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠">保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5144879" class="immtag chan">社會</i>
+                <span class="time">2025/08/15</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5144879" class="http" data-desc="T:10:保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠" title="保險業者認定「明知危險而為之」南橫墜谷勇父救妻小喪命意外險不賠">https://news.ltn.com.tw/news/society/breakingnews/5144879</a>
+                <p>高雄李家五口上月30日返家途中墜谷，搜救行程已告終止，但只找到疑似李父的殘骸及大女兒遺體，家屬透露，李父墜谷後因三度跑回現場救妻小，竟被保險公司認定救家人的行為屬「明知危險而為之」，不符合意外險理賠要件，只願意賠償壽險部分，金額差距達4、500萬元，目前仍在跟保險公司協商中。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5136728" data-desc="P:11:關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金" class="ph" title="關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金">
+                <img class="lazy_imgs" alt="關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金" title="關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/08/08/5136728_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5136728">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5136728" class="tit" data-desc="T:11:關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金" title="關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金">關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5136728" class="immtag chan">生活</i>
+                <span class="time">2025/08/08</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5136728" class="http" data-desc="T:11:關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金" title="關懷0728墜谷罹難家庭 民進黨高市黨部贈慰問金">https://news.ltn.com.tw/news/life/breakingnews/5136728</a>
+                <p>0728豪雨導致一家5口駕車途經桃源區時墜落山谷，罹難者已證實為高市議員高忠德的外孫姪女一家；民進黨高市黨部主委黃文益今代表黨部表示關懷，並致贈5萬元慰問金委由高忠德代收並轉交家屬。黃文益表示，跟高忠德議員不只是同事，更是夥伴與家人，市黨部今以實際行動，向其家屬表示慰問，也希望這筆微薄的慰問金，能為</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5131621" data-desc="P:12:高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山" class="ph" title="高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山">
+                <img class="lazy_imgs" alt="高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山" title="高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/08/04/5131621_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5131621">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5131621" class="tit" data-desc="T:12:高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山" title="高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山">高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5131621" class="immtag chan">生活</i>
+                <span class="time">2025/08/04</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5131621" class="http" data-desc="T:12:高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山" title="高雄原區傳嬰孩缺牛奶尿布 高市議會緊急募集物資今急送上山">https://news.ltn.com.tw/news/life/breakingnews/5131621</a>
+                <p>高雄山區遭連日暴雨襲擊，多處道路中斷、溪水暴漲，還傳出災區嬰幼兒沒有牛奶跟尿布！民進黨籍高市議長康裕成得知後相當憂心，立即聯繫原鄉議員並火速籌募相關物資，今天緊急裝箱送上山區。康裕成表示，在接獲災情後即主動致電原鄉議員高忠德、陳幸富與范織欽，請他們提供最急迫的前線資訊，「3位原鄉議員深知族人所需，所</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5130274" data-desc="P:13:南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做" class="ph" title="南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做">
+                <img class="lazy_imgs" alt="南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做" title="南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/08/02/phpwUIlYn.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5130274">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5130274" class="tit" data-desc="T:13:南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做" title="南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做">南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5130274" class="immtag chan">生活</i>
+                <span class="time">2025/08/02</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5130274" class="http" data-desc="T:13:南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做" title="南橫逢大雨必斷! 高忠德直指疏濬是無效「假工程」建議這樣做">https://news.ltn.com.tw/news/life/breakingnews/5130274</a>
+                <p>劉晉仁／核稿編輯南橫公路每逢颱風、豪雨即中斷成常態！高雄市議員高忠德在臉書發文，呼籲行政院與交通部正視問題，並強烈建議立即展開南橫西段搶修工程，讓居民恢復正常通行。他直指，僅靠疏濬作業是無效的「假工程」，唯有提升路基、根本改造，才是保護人民的根本之道。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5128119" data-desc="P:14:高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸..." class="ph" title="高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸...">
+                <img class="lazy_imgs" alt="高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸..." title="高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸..." src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/07/31/phpWE6OzC.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5128119">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5128119" class="tit" data-desc="T:14:高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸..." title="高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸...">高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸...</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5128119" class="immtag chan">社會</i>
+                <span class="time">2025/08/01</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5128119" class="http" data-desc="T:14:高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸..." title="高雄一家5口南橫墜谷! 14歲次子崩潰說出「1句話」惹鼻酸...">https://news.ltn.com.tw/news/society/breakingnews/5128119</a>
+                <p>劉晉仁／核稿編輯高雄山區近日豪雨釀災，當地李姓男子前天（7月30日）晚開車載4名家人回桃源區住處時，行經台20線南橫公路81.1公里草水部落一帶，道路突然坍方，連人帶車墜落山谷，目前僅找到17歲女兒遺體和部分尚未能辨識身分的遺骸。而當天因車子坐不下，留在家裡的14歲李家次子因此逃過一劫，但得知發生意</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1718307" data-desc="P:15:豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊" class="ph" title="豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊">
+                <img class="lazy_imgs" alt="豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊" title="豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2025/08/01/32.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1718307">
+                <a href="https://news.ltn.com.tw/news/life/paper/1718307" class="tit" data-desc="T:15:豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊" title="豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊">豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1718307" class="immtag chan">生活</i>
+                <span class="time">2025/08/01</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1718307" class="http" data-desc="T:15:豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊" title="豪雨帶娃看診 一家5口南橫墜谷 回高雄桃源遇難 找到長女遺體及1屍塊">https://news.ltn.com.tw/news/life/paper/1718307</a>
+                <p>連日豪大雨重創高雄山區，桃源區廿四小時累積雨量破一○三七毫米，直逼莫拉克颱風單日的一三○一毫米雨量，家住高雄市桃源區的李姓一家五口前天帶未滿週歲的女兒下山求診，回程途中行經南橫公路八十一．一公里時，因路面塌陷加上視線不佳，連人帶車墜入一百五十公尺深的山谷。李男曾自行脫困求援，但又轉身去救妻兒，跟著失</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5127181" data-desc="P:16:帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒" class="ph" title="帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒">
+                <img class="lazy_imgs" alt="帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒" title="帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/07/31/5127181_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5127181">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5127181" class="tit" data-desc="T:16:帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒" title="帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒">帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5127181" class="immtag chan">社會</i>
+                <span class="time">2025/07/31</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5127181" class="http" data-desc="T:16:帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒" title="帶滿月女兒回診冒雨外出  南橫一家五口墜谷獨留14歲兒">https://news.ltn.com.tw/news/society/breakingnews/5127181</a>
+                <p>李姓一家五口昨晚傳出開車回桃源住處時，行經台20線81.1公里桃源區草水部落一帶時，連人帶車掉入10多公尺深的谷地，據了解，李男和妻子是為了帶剛滿月的小女兒回診才冒雨外出，車上還載著3歲兒子、1歲女兒及吳女和前夫所生的17歲女兒，但李男的14歲二兒子沒跟著出門躲過一劫，目前還在山上由親友照料中。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5127455" data-desc="P:17:帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫" class="ph" title="帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫">
+                <img class="lazy_imgs" alt="帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫" title="帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/07/31/5127455_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5127455">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5127455" class="tit" data-desc="T:17:帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫" title="帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫">帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5127455" class="immtag chan">社會</i>
+                <span class="time">2025/07/31</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5127455" class="http" data-desc="T:17:帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫" title="帶新生兒回診一家五口南橫墜谷  高市議員高忠德證實外孫姪女遇劫">https://news.ltn.com.tw/news/society/breakingnews/5127455</a>
+                <p>高雄一家五口連人帶車墜落150米（約50層樓）深的山谷，目前已找到17歲少女的遺體和一截指頭（待辨別身分）。高雄市議員高忠德證實，遇難者是他吳姓外孫姪女，吳女家境清寒，全家只剩14歲的兒子躲過此劫，希望外界伸出援手，幫忙少年完成學業、安度難關。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5065986" data-desc="P:18:目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定" class="ph" title="目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定">
+                <img class="lazy_imgs" alt="目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定" title="目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/06/05/5065986_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5065986">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5065986" class="tit" data-desc="T:18:目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定" title="目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定">目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5065986" class="immtag chan">政治</i>
+                <span class="time">2025/06/05</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5065986" class="http" data-desc="T:18:目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定" title="目標單獨過半！綠營下屆高市議員選舉 黃文益:這3區提名年底底定">https://news.ltn.com.tw/news/politics/breakingnews/5065986</a>
+                <p>民進黨高市黨部主委黃文益今天（5日）舉辦就任週年茶會，談到下屆高雄市議員選舉策略，他表示下屆議員提名席次會過半，前鎮、小港、三民選區提名策略今年底底定。面對2026年選戰，黃文益強調為強化基層力量，市黨部將於7、8月啟動「里長海選」計畫，希望有志從政的青年，可以從基層里長選舉開始，從下而上擴大民進黨</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5063936" data-desc="P:19:高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升" class="ph" title="高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升">
+                <img class="lazy_imgs" alt="高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升" title="高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/06/04/5063936_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5063936">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5063936" class="tit" data-desc="T:19:高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升" title="高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升">高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5063936" class="immtag chan">政治</i>
+                <span class="time">2025/06/04</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5063936" class="http" data-desc="T:19:高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升" title="高市議會、議員最新評鑑出爐 公督盟:清點減少、效率提升">https://news.ltn.com.tw/news/politics/breakingnews/5063936</a>
+                <p>高市公民監督公僕聯盟今發布高市議會第四屆第4會期議員評鑑，除選出10位問政優質議員，也提到開會期間沒陷入藍綠惡鬥、清點次數（流會）情況減少，整體議事效率有提升。10位問政優質議員按姓氏筆畫排列分別為白喬茵、林智鴻、邱于軒、高忠德、張漢忠、黃香菽、陳麗娜、陳美雅、湯詠瑜、鄭孟洳；公督盟評論上述10位各</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=高忠德&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=高忠德&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=高忠德&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=高忠德&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

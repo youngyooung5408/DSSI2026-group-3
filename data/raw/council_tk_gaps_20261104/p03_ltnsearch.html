@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155714';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>陳彥廷 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="陳彥廷 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="陳彥廷 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="陳彥廷" />
+<meta name="news_keywords" itemprop="keywords" content="陳彥廷" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:57:14--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="陳彥廷" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=陳彥廷&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 10000 項結果 (搜尋時間：0.092 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "陳彥廷", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5628458" data-desc="P:0:睽違10年！屏東大鵬灣蚵殼島 重生營業" class="ph" title="睽違10年！屏東大鵬灣蚵殼島 重生營業">
+                <img class="lazy_imgs" alt="睽違10年！屏東大鵬灣蚵殼島 重生營業" title="睽違10年！屏東大鵬灣蚵殼島 重生營業" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/03/5628458_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5628458">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5628458" class="tit" data-desc="T:0:睽違10年！屏東大鵬灣蚵殼島 重生營業" title="睽違10年！屏東大鵬灣蚵殼島 重生營業">睽違10年！屏東大鵬灣蚵殼島 重生營業</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5628458" class="immtag chan">生活</i>
+                <span class="time">16小時前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5628458" class="http" data-desc="T:0:睽違10年！屏東大鵬灣蚵殼島 重生營業" title="睽違10年！屏東大鵬灣蚵殼島 重生營業">https://news.ltn.com.tw/news/life/breakingnews/5628458</a>
+                <p>在十年前因為「莫蘭蒂颱風」而受創深重的大鵬灣蚵殼島，在閉關長達10年後，近期終於重新開幕，不過，這次島上禁明火，營業項目將與以往的熱炒店有別，但業者預計會提供熱食及簡餐，大鵬灣國家風景區管理處（簡稱鵬管處）指出，原定暑假前即可營運，但因為內部裝潢等加上接連暴雨影響，因此直到10月中後才開始試營運，遊</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5628425" data-desc="P:1:屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫" class="ph" title="屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫">
+                <img class="lazy_imgs" alt="屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫" title="屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/03/5628425_3_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5628425">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5628425" class="tit" data-desc="T:1:屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫" title="屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫">屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5628425" class="immtag chan">社會</i>
+                <span class="time">17小時前</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5628425" class="http" data-desc="T:1:屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫" title="屏科大校園車禍連連！機車車頭近全掉、轎車鈑金凹 駕駛雙雙送醫">https://news.ltn.com.tw/news/society/breakingnews/5628425</a>
+                <p>國立屏東科技大學因校園內部道路車禍事故頻傳，這個學期雖然已進駐新的YouBike公共自行車措施，但近期開約2個月，事故仍不斷發生，今天下午就傳又傳出在校方行政大樓前的信義路發生事故，且還是左轉汽車撞上直行機車，機車騎士池男多處擦傷，駕車的劉女雖無明顯外傷，但也因身體不適是雙雙送醫。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5628388" data-desc="P:2:戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐" class="ph" title="戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐">
+                <img class="lazy_imgs" alt="戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐" title="戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/03/5628388_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5628388">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5628388" class="tit" data-desc="T:2:戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐" title="戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐">戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5628388" class="immtag chan">社會</i>
+                <span class="time">18小時前</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5628388" class="http" data-desc="T:2:戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐" title="戀上「加薩軍醫」！七旬婦典當代步機車救情郎 當鋪機警阻詐">https://news.ltn.com.tw/news/society/breakingnews/5628388</a>
+                <p>屏東縣潮州鎮1名7旬婦人仍抱有愛情憧憬，面對「加薩軍醫」的熱情攻勢淪陷，畢生血汗錢險被無情詐團騙走，所幸她上門的當鋪機警發現不對勁，立刻叫來警察，成功阻詐。潮州警分局指出，日前接獲潮州鎮大同路某當鋪業者報案，指稱有婦人疑遭詐騙。經派員警到場查處，該名70歲婦人透過網路結識自稱為加薩軍醫的網友，對方以</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://sports.ltn.com.tw/news/breakingnews/5627985" data-desc="P:3:甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天" class="ph" title="甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天">
+                <img class="lazy_imgs" alt="甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天" title="甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/sports/page/400S/2026/11/03/5627985_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://sports.ltn.com.tw/news/breakingnews/5627985">
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5627985" class="tit" data-desc="T:3:甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天" title="甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天">甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天</a>
+                <i href="https://sports.ltn.com.tw/news/breakingnews/5627985" class="immtag chan3">體育</i>
+                <span class="time">1天前</span>
+                <a href="https://sports.ltn.com.tw/news/breakingnews/5627985" class="http" data-desc="T:3:甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天" title="甲組成棒四強賽6日決戰蘭陽平原 羅東棒球場連打3天">https://sports.ltn.com.tw/news/breakingnews/5627985</a>
+                <p>宜蘭縣政府今天宣布，甲組成棒四強錦標賽戰火將於蘭陽平原引爆，11月6日至8日在羅東棒球場登場，合庫、台電、全越運動與新北凱撒四大勁旅，會展開3天共6場賽事，並於6日傍晚舉行盛大開幕式。宜蘭縣代理縣長林茂盛說，參賽四強中藏有許多在棒壇發光的「宜蘭囝仔」，無論教練或選手皆為基層孕育的菁英，呼籲鄉親「自己</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5627424" data-desc="P:4:終於被「入侵」？大鵬灣驚見巨大綠鬣蜥" class="ph" title="終於被「入侵」？大鵬灣驚見巨大綠鬣蜥">
+                <img class="lazy_imgs" alt="終於被「入侵」？大鵬灣驚見巨大綠鬣蜥" title="終於被「入侵」？大鵬灣驚見巨大綠鬣蜥" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/03/5627424_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5627424">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5627424" class="tit" data-desc="T:4:終於被「入侵」？大鵬灣驚見巨大綠鬣蜥" title="終於被「入侵」？大鵬灣驚見巨大綠鬣蜥">終於被「入侵」？大鵬灣驚見巨大綠鬣蜥</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5627424" class="immtag chan">生活</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5627424" class="http" data-desc="T:4:終於被「入侵」？大鵬灣驚見巨大綠鬣蜥" title="終於被「入侵」？大鵬灣驚見巨大綠鬣蜥">https://news.ltn.com.tw/news/life/breakingnews/5627424</a>
+                <p>綠鬣蜥肆虐南台灣，但多以東港附近目擊率較高，同為水域旁的大鵬灣一直以來目擊率較低，不過，當地經營水上遊憩的業者發現，在環灣道路上的棕櫚樹發現1隻巨大綠鬣蜥，業者是直說「慘了，異形入侵大鵬灣」。綠鬣蜥泛濫，整個南台灣幾乎處處可見，不過同為水域的大鵬灣，近年目擊數量相對少，前天卻在人群出沒的水上遊憩區旁</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1777028" data-desc="P:5:屏東薔琵災害救助 增列香蕉、辣椒、冬瓜" class="ph" title="屏東薔琵災害救助 增列香蕉、辣椒、冬瓜">
+                <img class="lazy_imgs" alt="屏東薔琵災害救助 增列香蕉、辣椒、冬瓜" title="屏東薔琵災害救助 增列香蕉、辣椒、冬瓜" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1777028">
+                <a href="https://news.ltn.com.tw/news/life/paper/1777028" class="tit" data-desc="T:5:屏東薔琵災害救助 增列香蕉、辣椒、冬瓜" title="屏東薔琵災害救助 增列香蕉、辣椒、冬瓜">屏東薔琵災害救助 增列香蕉、辣椒、冬瓜</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1777028" class="immtag chan">生活</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1777028" class="http" data-desc="T:5:屏東薔琵災害救助 增列香蕉、辣椒、冬瓜" title="屏東薔琵災害救助 增列香蕉、辣椒、冬瓜">https://news.ltn.com.tw/news/life/paper/1777028</a>
+                <p>薔琵颱風夾帶鹽霧侵襲恆春半島，造成多項農作物受損，立法院經濟委員會昨天前往考察，增列香蕉、辣椒、冬瓜等三作物為天然災害救助品項，與會地方農會代表建議增設「田間微氣象站」，讓保險公司能推出更多的農業保單，減輕農民損失。針對薔琵颱風鹽害農損，農業部公告包括芒果、洋蔥苗圃、大豆、荔枝及胡（芝）麻後，再增列</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5627172" data-desc="P:6:恆春半島鹽霧損傷 芒果保險、救助金額不同惹議" class="ph" title="恆春半島鹽霧損傷 芒果保險、救助金額不同惹議">
+                <img class="lazy_imgs" alt="恆春半島鹽霧損傷 芒果保險、救助金額不同惹議" title="恆春半島鹽霧損傷 芒果保險、救助金額不同惹議" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/02/5627172_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5627172">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5627172" class="tit" data-desc="T:6:恆春半島鹽霧損傷 芒果保險、救助金額不同惹議" title="恆春半島鹽霧損傷 芒果保險、救助金額不同惹議">恆春半島鹽霧損傷 芒果保險、救助金額不同惹議</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5627172" class="immtag chan">生活</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5627172" class="http" data-desc="T:6:恆春半島鹽霧損傷 芒果保險、救助金額不同惹議" title="恆春半島鹽霧損傷 芒果保險、救助金額不同惹議">https://news.ltn.com.tw/news/life/breakingnews/5627172</a>
+                <p>薔琵颱風雖僅掠過北台灣，但恆春半島吹起乾燥強陣風且夾帶鹽霧侵襲，多項農作物出現葉片焦黃、枯萎等情形。立法院經濟委員會今天前往考察，農業單位除再列入香蕉、辣椒、冬瓜3品項受天然災害外，與會農會還建議，應要增設「田間微氣象站」，且芒果的保險理賠金額與天然現金救助不同，立委鍾佳濱強調，政府應將預算重點挹注</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627184" data-desc="P:7:拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛" class="ph" title="拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛">
+                <img class="lazy_imgs" alt="拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛" title="拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/02/5627184_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5627184">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627184" class="tit" data-desc="T:7:拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛" title="拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛">拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5627184" class="immtag chan">政治</i>
+                <span class="time">1天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5627184" class="http" data-desc="T:7:拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛" title="拚場出奇招！屏東東港候選人競總「爬」滿旗子 省錢又吸睛">https://news.ltn.com.tw/news/politics/breakingnews/5627184</a>
+                <p>隨選舉接近，候選人吸引鄉親關注的手法越來越推陳出新，屏東縣東港鎮鎮長今年有3人拚搶，其中1名候選人陳春朝競選總部還沒成立卻先用「奇招」，他將總部的3層樓全部插滿旗幟，不僅節省大型看板經費，還引來民眾側目討論，有人說「巧思」，但也有人認為秋冬海邊風大，難保不會砸落。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5626306" data-desc="P:8:琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點" class="ph" title="琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點">
+                <img class="lazy_imgs" alt="琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點" title="琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/11/02/5626306_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5626306">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5626306" class="tit" data-desc="T:8:琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點" title="琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點">琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5626306" class="immtag chan">生活</i>
+                <span class="time">2天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5626306" class="http" data-desc="T:8:琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點" title="琉球公船擱淺運安會要查了！本週協調民船投入 黃昏班次開不開成焦點">https://news.ltn.com.tw/news/life/breakingnews/5626306</a>
+                <p>屏東琉球鄉公所公船「琉興號」日前宣稱為漂流木及遭長浪擊打而擱淺，造成船底殼破裂，螺槳傳動系統是受損嚴重，由於公船為小琉球人往返的重要交通工具，運安會也定調將介入調查。10月22日，小琉球公營交通船「琉興號」在大福漁港發生擱淺，造成船體破裂疑似進水、螺旋槳傳動系統受損，復航之日遙遙無期，不過，當時船上</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625237" data-desc="P:9:洋流外溢到琉球！李佳旗取得飄帶發送秒殺" class="ph" title="洋流外溢到琉球！李佳旗取得飄帶發送秒殺">
+                <img class="lazy_imgs" alt="洋流外溢到琉球！李佳旗取得飄帶發送秒殺" title="洋流外溢到琉球！李佳旗取得飄帶發送秒殺" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/5625237_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5625237">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625237" class="tit" data-desc="T:9:洋流外溢到琉球！李佳旗取得飄帶發送秒殺" title="洋流外溢到琉球！李佳旗取得飄帶發送秒殺">洋流外溢到琉球！李佳旗取得飄帶發送秒殺</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5625237" class="immtag chan">政治</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5625237" class="http" data-desc="T:9:洋流外溢到琉球！李佳旗取得飄帶發送秒殺" title="洋流外溢到琉球！李佳旗取得飄帶發送秒殺">https://news.ltn.com.tw/news/politics/breakingnews/5625237</a>
+                <p>台北大洋流1日的第三彈，民進黨北市長候選人沈伯洋晚間在台北大進場，吸引夾道人群歡迎，而國境之南的屏東，洋流浪潮也正式湧向離島小琉球，當地鄉代表候選人李佳旗透過友人取得正版洋流飄帶放送，洋流也正式漂洋過海變洋「琉」。沈伯洋所帶起的「洋流」席捲全台，但離島相對沒有這麼活躍，更遑論以往投票皆偏藍屬性的小琉</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5625045" data-desc="P:10:打對折！小琉球民宿推「返鄉投票」專用房" class="ph" title="打對折！小琉球民宿推「返鄉投票」專用房">
+                <img class="lazy_imgs" alt="打對折！小琉球民宿推「返鄉投票」專用房" title="打對折！小琉球民宿推「返鄉投票」專用房" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/5625045_4_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5625045">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625045" class="tit" data-desc="T:10:打對折！小琉球民宿推「返鄉投票」專用房" title="打對折！小琉球民宿推「返鄉投票」專用房">打對折！小琉球民宿推「返鄉投票」專用房</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5625045" class="immtag chan">生活</i>
+                <span class="time">3天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5625045" class="http" data-desc="T:10:打對折！小琉球民宿推「返鄉投票」專用房" title="打對折！小琉球民宿推「返鄉投票」專用房">https://news.ltn.com.tw/news/life/breakingnews/5625045</a>
+                <p>琉球鄉公營交通船「琉興號」10月24日颱風前夕擱淺，船身毀損，復航日無定期，唯一能確定的就是11月28投票日不可能復航，11月27日沒有夜班船。小琉球有旅宿業者推出「在地人返鄉投票」便宜住宿，比以往週末均價打對折，宣傳不到一天，就有約10組人訂房，業者說，希望能在投票日讓旅外鄉親能在減少壓力下回鄉投</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5624744" data-desc="P:11:小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果" class="ph" title="小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果">
+                <img class="lazy_imgs" alt="小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果" title="小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/31/5624744_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5624744">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5624744" class="tit" data-desc="T:11:小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果" title="小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果">小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5624744" class="immtag chan">生活</i>
+                <span class="time">4天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5624744" class="http" data-desc="T:11:小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果" title="小琉球漁船半沉被諷「遊客打卡點」 出動浮胎拖移未果">https://news.ltn.com.tw/news/life/breakingnews/5624744</a>
+                <p>屏東縣小琉球在薔琵颱風期間出現災害，1艘漁船因為斷纜漂流後撞上堤岸半沉在港內，由於經過多日皆無動靜，鄉民譏嘲「是要給遊客打卡？」不過，昨天疑似船主請來相關團隊，希望以浮胎打氣後把船撐起再拖運至修船廠維護，不過到了傍晚仍在嘗試，今天上午再被目擊又有更多套著白色表布的浮胎出現在船的周圍，居民見狀，議論紛</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1776614" data-desc="P:12:慈惠醫專到林園費時 將協調公車延駛" class="ph" title="慈惠醫專到林園費時 將協調公車延駛">
+                <img class="lazy_imgs" alt="慈惠醫專到林園費時 將協調公車延駛" title="慈惠醫專到林園費時 將協調公車延駛" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/31/88.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1776614">
+                <a href="https://news.ltn.com.tw/news/life/paper/1776614" class="tit" data-desc="T:12:慈惠醫專到林園費時 將協調公車延駛" title="慈惠醫專到林園費時 將協調公車延駛">慈惠醫專到林園費時 將協調公車延駛</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1776614" class="immtag chan">生活</i>
+                <span class="time">4天前</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1776614" class="http" data-desc="T:12:慈惠醫專到林園費時 將協調公車延駛" title="慈惠醫專到林園費時 將協調公車延駛">https://news.ltn.com.tw/news/life/paper/1776614</a>
+                <p>位於屏東縣南州鄉的慈惠醫專，學生雖然可以利用南州火車站通勤，但在往返南高雄的林園，大眾運輸卻形同「真空」，有學生一天得花四個小時、四百元通勤費上下學，曠日費時外，車資對學生而言更是沉重，昨天除了校園外的YouBike站點，未來學生通勤的模式更多元，徐富癸更指出，目前已協調屏縣府及屏東客運，現有的五二</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5624167" data-desc="P:13:南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛" class="ph" title="南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛">
+                <img class="lazy_imgs" alt="南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛" title="南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/30/5624167_3_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5624167">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5624167" class="tit" data-desc="T:13:南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛" title="南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛">南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5624167" class="immtag chan">生活</i>
+                <span class="time">4天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5624167" class="http" data-desc="T:13:南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛" title="南州慈惠醫專生繞半個南高雄上下學 YouBike啟用+520公車延駛">https://news.ltn.com.tw/news/life/breakingnews/5624167</a>
+                <p>位於屏東縣南州鄉的慈惠醫專，學生雖然可以利用南州火車站通勤，但往返南高雄林園，大眾運輸卻形同「真空」，有學生1天得花4個小時、400元通勤費，曠日費時，川資沉重。YouBike站點今天啟用，學生通勤模式更多元。立委徐富癸說，已協調屏東縣政府及屏東客運，520線公車延駛到南州慈惠醫專。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5623651" data-desc="P:14:颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？" class="ph" title="颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？">
+                <img class="lazy_imgs" alt="颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？" title="颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/30/5623651_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5623651">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623651" class="tit" data-desc="T:14:颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？" title="颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？">颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5623651" class="immtag chan">生活</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623651" class="http" data-desc="T:14:颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？" title="颱風過境小琉球漁船半沉卡港近一週 居民酸：留給遊客打卡？">https://news.ltn.com.tw/news/life/breakingnews/5623651</a>
+                <p>薔琵颱風雖從東北角掠過，但也為屏東帶來災情，小琉球當天因外海巨浪，導致一艘漁船繫繩斷裂後漂流到安檢所前方的執檢區後半沉沒，不過，颱風過去已近一週，該艘船仍卡在該處，由於週末即將到來，有居民譏嘲，「週末要開放遊客打卡嗎？」該漁船原為枋寮港籍，有業者買下將船移至小琉球白沙港停泊，推測是要申請娛樂漁船執照</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5623408" data-desc="P:15:不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速" class="ph" title="不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速">
+                <img class="lazy_imgs" alt="不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速" title="不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/30/5623408_2_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5623408">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623408" class="tit" data-desc="T:15:不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速" title="不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速">不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5623408" class="immtag chan">生活</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623408" class="http" data-desc="T:15:不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速" title="不要選舉才在講！考察屏南快速公路進度  民代吐苦水一致要求加速">https://news.ltn.com.tw/news/life/breakingnews/5623408</a>
+                <p>立院交通委員會國民黨籍召委邱若華昨天辦理屏東交通建設考察但未到場，同黨立委蘇清泉及民進黨立委徐富癸到場追蹤進度，由於在屏東楓港舉行，到場的國民黨縣議員盧玟欣、無黨籍車城鄉長陳政雄及民進黨枋山鄉長羅金良到場皆聚焦屏南快速公路議題。3人除要求加速，盧玟欣更直指「不要總是給外界選舉快到才說明」的印象，羅金</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1776496" data-desc="P:16:南廻打通最後一哩路 雙流至丹路拓寬動土" class="ph" title="南廻打通最後一哩路 雙流至丹路拓寬動土">
+                <img class="lazy_imgs" alt="南廻打通最後一哩路 雙流至丹路拓寬動土" title="南廻打通最後一哩路 雙流至丹路拓寬動土" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/30/94.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1776496">
+                <a href="https://news.ltn.com.tw/news/life/paper/1776496" class="tit" data-desc="T:16:南廻打通最後一哩路 雙流至丹路拓寬動土" title="南廻打通最後一哩路 雙流至丹路拓寬動土">南廻打通最後一哩路 雙流至丹路拓寬動土</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1776496" class="immtag chan">生活</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1776496" class="http" data-desc="T:16:南廻打通最後一哩路 雙流至丹路拓寬動土" title="南廻打通最後一哩路 雙流至丹路拓寬動土">https://news.ltn.com.tw/news/life/paper/1776496</a>
+                <p>為提升南迴公路行車安全與區域運輸韌性，「台九線雙流至丹路拓寬改善工程」昨舉行動土典禮，為南迴公路全線雙向雙線打通「最後一哩路」，與會的立委、屏縣府及地方代表都表達屏南快應儘速興建銜接，解決南台灣交通瓶頸。屏東到台東縮短30分鐘車程二〇一九年底南迴改（草埔森永隧道）通車及二〇二一年丹路外環道新建工程、</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/paper/1776495" data-desc="P:17:《薔琵釀鹽害》恆春半島5農作損害 符合天災救助" class="ph" title="《薔琵釀鹽害》恆春半島5農作損害 符合天災救助">
+                <img class="lazy_imgs" alt="《薔琵釀鹽害》恆春半島5農作損害 符合天災救助" title="《薔琵釀鹽害》恆春半島5農作損害 符合天災救助" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/30/93.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/paper/1776495">
+                <a href="https://news.ltn.com.tw/news/life/paper/1776495" class="tit" data-desc="T:17:《薔琵釀鹽害》恆春半島5農作損害 符合天災救助" title="《薔琵釀鹽害》恆春半島5農作損害 符合天災救助">《薔琵釀鹽害》恆春半島5農作損害 符合天災救助</a>
+                <i href="https://news.ltn.com.tw/news/life/paper/1776495" class="immtag chan">生活</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/life/paper/1776495" class="http" data-desc="T:17:《薔琵釀鹽害》恆春半島5農作損害 符合天災救助" title="《薔琵釀鹽害》恆春半島5農作損害 符合天災救助">https://news.ltn.com.tw/news/life/paper/1776495</a>
+                <p>洋蔥苗、胡麻、黑豆、大豆及芒果 葉片褐化、植株乾枯薔琵颱風對恆春半島農作物造成嚴重鹽害，立委徐富癸接獲陳情後，昨天會同農業部相關單位進行災損現勘，認為屏南地區的洋蔥苗、胡麻、黑豆、大豆及芒果受損程度已達天然災害救助標準，請農民儘速提報，加速災損認定及救助作業。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5623312" data-desc="P:18:中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭" class="ph" title="中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭">
+                <img class="lazy_imgs" alt="中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭" title="中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/29/5623312_4_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5623312">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623312" class="tit" data-desc="T:18:中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭" title="中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭">中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5623312" class="immtag chan">生活</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623312" class="http" data-desc="T:18:中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭" title="中央山脈擋不住！薔琵10級陣風挾「鹽霧」 恆春作物枯農民哭">https://news.ltn.com.tw/news/life/breakingnews/5623312</a>
+                <p>十月颱薔琵雖僅掠過北台灣，但中央山脈背風面的屏東恆春半島，卻吹風強陣風，且還造成鹽霧造成農作物嚴重鹽害，立委徐富癸接獲陳情後，今天安排農業部相關單位進行災損現勘，罕見的災情也讓農民是大吐苦水，農業單位認為5種作物已確實遭到鹽害，預計將發出公告，屆時請農民儘速提報，加速災損認定及救助作業。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/life/breakingnews/5623240" data-desc="P:19:收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工" class="ph" title="收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工">
+                <img class="lazy_imgs" alt="收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工" title="收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/29/5623240_8_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/life/breakingnews/5623240">
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623240" class="tit" data-desc="T:19:收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工" title="收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工">收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工</a>
+                <i href="https://news.ltn.com.tw/news/life/breakingnews/5623240" class="immtag chan">生活</i>
+                <span class="time">5天前</span>
+                <a href="https://news.ltn.com.tw/news/life/breakingnews/5623240" class="http" data-desc="T:19:收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工" title="收假出南迴改隧道不再卡卡！雙流到丹路拓寬 估2031年底完工">https://news.ltn.com.tw/news/life/breakingnews/5623240</a>
+                <p>台9線南迴公路是南台灣唯一東西向戰略通行要道，為提升行車安全與區域運輸韌性，公路局今天舉行「台9線雙流至丹路拓寬改善工程」動土祈福典禮，為南迴全線雙向雙線打通「最後一哩路」。南迴公路是台東、屏東間唯一幹道，2019年底南迴改（草埔森永隧道）通車、2021年丹路外環道新建工程、2023年草埔雙流拓寬等</p>
+            </div>
+        </li>
+
+            </ul>
+
+<div style="text-align:center">
+    <div class="pagination boxTitle" data-desc="分頁">
+                <a class="active" data-desc="1" title="第1頁">1</a><a href="https://search.ltn.com.tw/list?keyword=陳彥廷&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_num" data-desc="2" title="第2頁">2</a><a href="https://search.ltn.com.tw/list?keyword=陳彥廷&start_time=20041201&end_time=20261104&sort=date&type=all&page=3" class="p_num" data-desc="3" title="第3頁">3</a><a href="https://search.ltn.com.tw/list?keyword=陳彥廷&start_time=20041201&end_time=20261104&sort=date&type=all&page=4" class="p_num" data-desc="4" title="第4頁">4</a><a href="https://search.ltn.com.tw/list?keyword=陳彥廷&start_time=20041201&end_time=20261104&sort=date&type=all&page=5" class="p_num" data-desc="5" title="第5頁">5</a><a href="https://search.ltn.com.tw/list?keyword=陳彥廷&start_time=20041201&end_time=20261104&sort=date&type=all&page=6" class="p_num" data-desc="6" title="第6頁">6</a><a href="https://search.ltn.com.tw/list?keyword=陳彥廷&start_time=20041201&end_time=20261104&sort=date&type=all&page=7" class="p_num" data-desc="7" title="第7頁">7</a><a href="https://search.ltn.com.tw/list?keyword=陳彥廷&start_time=20041201&end_time=20261104&sort=date&type=all&page=2" class="p_next" data-desc="下一頁" title="下一頁"><b>〉</b></a>    </div>
+</div>
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>

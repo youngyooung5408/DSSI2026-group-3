@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    let cdnDate = '20261104155821';
+    var pvDomain = 'pv.ltn.com.tw';
+    var pvServer = 'pv.ltn.com.tw';
+    var interstitialSlot;
+    var staticSlot = false;
+</script>
+<script src="https://cache.ltn.com.tw/js/c.js"></script>
+    <title>李道翔 - 全域查詢 - 自由時報電子報</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta property="og:site_name" name="application-name" content="自由時報電子報" />
+<meta name="author" itemprop="author" content="自由時報電子報" />
+<meta name="dcterms.rightsHolder" content="自由時報電子報" />
+<meta name="copyright" content="自由時報電子報" />
+<meta property="og:title" itemprop="name" content="李道翔 - 全域查詢 - 自由時報電子報" />
+<meta name="title" itemprop="headline" content="李道翔 - 全域查詢 - 自由時報電子報" />
+<meta name="keywords" content="李道翔" />
+<meta name="news_keywords" itemprop="keywords" content="李道翔" />
+<meta property="og:image" itemprop="image" content="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:section" name="section" itemprop="articleSection" content="LTN" />
+<meta name="description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:description" itemprop="description" content="自由時報的搜尋機制，協助讀者以關鍵字迅速找到相關新聞和文章。搜尋結果會按時間或相關性排序，並可依新聞分類篩選，精確定位所需資料。有助於讀者快速找到最新或特定主題的新聞報導。" />
+<meta property="og:url" itemprop="url" content="https://search.ltn.com.tw/list" />
+<meta property="fb:app_id" content="140490219413038" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@ltntw" />
+<meta property="twitter:creator" content="@ltntw" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="robots" content="max-image-preview:large" />
+<link rel="shortcut icon" type="image/x-icon" sizes="192x192" href="https://www.ltn.com.tw/assets/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.ltn.com.tw/assets/images/ltn.png" />
+<link rel="image_src" type="image/png" href="https://www.ltn.com.tw/assets/images/1200_LTN.png" />
+    <meta name="ltn:device" content="R" />
+    <script src="https://cache.ltn.com.tw/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cache.ltn.com.tw/js/jquery-ui.min.js"></script>
+
+    <!--[if !IE]><!-->
+    <script>
+        if (/*@cc_on!@*/false) { document.documentElement.className += ' ie' + document.documentMode; }
+        if (/*@cc_on!@*/true) { document.documentElement.className += ' ie' + document.documentMode; }
+    </script>
+    <!--<![endif]-->
+    <link rel="stylesheet" href="assets/css/style_search.css?202402">
+    <link rel="stylesheet" href="assets/css/month.css?202402">
+    <script src="https://cache.ltn.com.tw/js/lazyload.min.js"></script>
+    <script src="assets/js/common/all.js"></script>
+    <script src="assets/js/common/gaEvent.js"></script>
+    <script src="assets/js/search.js?202402"></script>
+    <script>
+        // 圖片緩存
+        $(document).ready(function(){
+                lazyImg = $('img.lazy_imgs');
+                lazyload(lazyImg);
+        });
+    </script>
+    <script>
+    let searchServer = 'search.ltn.com.tw';
+    $(function(){
+        try {
+            getScrNews(searchServer, '', '', '');
+        }catch(e) {
+
+        }
+    });
+</script>
+    <!-- DV360 Floodlight Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9530821"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'DC-9530821');
+</script>
+<!-- Floodlight Tag -->
+
+<!-- Google Tag Manager -->
+<script async>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P98PP75');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98PP75"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Analytics PageView -->
+<script async>
+    (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31404335-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+</script>
+<!-- Google Analytics PageView -->
+    <!--更新時間:2026/11/04 15:58:21--><script>
+let checkDevice = cookies_m.isPC() ? 'pc' : 'm';
+</script>
+    <script data-cfasync="false" src="https://cache.ltn.com.tw/js/adpushup.min.js"></script>
+<script src="https://cache.ltn.com.tw/js/cache_all.min.js"></script>
+<script>
+//fetch hotNews data
+
+/**
+ * 戳機器學習api
+ * @param array categoryAndType 分類跟文章類別[0]分類 [1]文章類別
+ * @param int limit 出幾則
+ * @param string section 渲染的位置/區塊
+ */
+function fetchHotNews(categoryAndType, limit, section) {
+    let requestData = {
+        "category": categoryAndType[0],
+        "article_type": categoryAndType[1] ? categoryAndType[1] : "",
+        "limit": limit,
+        "rh_guid": "guid string",
+        "utm_source": hotNewsSource,
+        "utm_medium": section
+    };
+
+    return fetchNews(hotNewsUrl, requestData, 'recommendations');
+};
+
+/**
+ * 取機器學習的相關新聞
+ * @param string ltc_no 新聞編號
+ * @param string ltc_group 新聞分類
+ * @param int limit 出幾則
+ * @param string utmSource 來源
+ */
+function fetchRelatedNews(ltc_no, ltc_group, limit, utmSource='')
+{
+    let requestData = {
+        "ltc_no": ltc_no,
+        "ltc_group": ltc_group,
+        "limit": limit,
+        "utm_source": utmSource,
+        "utm_medium": "relatedNews"
+    };
+    return fetchNews(relatedNewsUrl, requestData, 'related_news');
+}
+
+// 相關新聞與熱門新聞共用fetch
+function fetchNews(url, requestData, resultKey) {
+    let urlWithGET = new URL(url);
+    urlWithGET.search = new URLSearchParams(requestData).toString();
+    return fetch(urlWithGET, {
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('response error: ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && data[resultKey]) {
+                return data[resultKey];
+            } else {
+                return [];
+            }
+        })
+        .catch(error => {
+            console.error('fetch error:', error);
+            return [];
+        });
+}
+
+/**
+ * 檢查originalMoreNews是否有ad並塞入FetchRelatedNews
+ * data fetch回來的
+ * originalMoreNews 原始的
+ */
+function insertAdToFetchRelatedNews(data, originalMoreNews)
+{
+    var hasAd = originalMoreNews.some(function(news) {
+        return news.buy;
+    });
+
+    if (hasAd) {
+        var adNews = originalMoreNews.filter(function(news) {
+            return news.buy;
+        });
+        for (var i = 0; i < adNews.length; i++) {
+            insertAdAtPosition(data, adNews[i], (3 + i * 3));
+        }
+    }
+    return data;
+}
+
+/**
+ * 在指定位置塞入廣告
+ * data 整包資料
+ * adNews 新聞
+ * position 寫入位置
+ */
+function insertAdAtPosition(data, adNews, position)
+{
+    (data.length >= position) ? data.splice(position - 1, 0, adNews) : data.push(adNews);
+    return data;
+}
+
+//if no data remove dom
+function removeHotnewsDOM(sectionClass) {
+    const elements = document.querySelectorAll('.' + sectionClass);
+    elements.forEach(element => {
+        element.remove();
+    });
+}
+</script>
+    <!--    AdSense    -->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+    <!-- other head elements from your page -->
+    <script type="text/javascript" charset="utf-8">
+        (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+                arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+    </script>
+</head>
+<body id="ec">
+    <script>
+    // —— 1. 通用的 空閒 任務調度器 ——
+    (function(global){
+        // 存放所有待執行的任務
+        const idleQueue = [];
+        let scheduled = false;
+
+        // 核心：在本次空閒時間內執行隊列中的任務
+        function flushIdleTasks(deadline) {
+            scheduled = false;
+            // 只要還有空閒時間或已超時，且隊列不空，就繼續執行
+            while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && idleQueue.length) {
+                const task = idleQueue.shift();
+                try { task(); }
+                catch(e){ console.error('空閒任務執行錯誤', e); }
+            }
+            // 如果還有任務未執行，安排下一輪
+            if (idleQueue.length) scheduleFlush();
+        }
+
+        // 暴露到全局：用於添加新任務
+        global.scheduleIdleTask = function(fn, options) {
+            idleQueue.push(fn);
+            if (!scheduled) {
+                scheduled = true;
+                if ('requestIdleCallback' in global) {
+                    requestIdleCallback(flushIdleTasks, options);
+                } else {
+                    // fallback：在下一個畫面更新後或 50ms 後執行
+                    setTimeout(() => {
+                        // 構造一個模擬的 deadline 物件
+                        flushIdleTasks({ timeRemaining: () => 0, didTimeout: true });
+                    }, options && options.timeout || 50);
+                }
+            }
+        };
+
+        function scheduleFlush() {
+            if ('requestIdleCallback' in global) {
+                requestIdleCallback(flushIdleTasks);
+            } else {
+                setTimeout(() => flushIdleTasks({ timeRemaining: () => 0, didTimeout: true }), 50);
+            }
+        }
+    })(window);
+</script>
+    <link rel="stylesheet" href="https://cache.ltn.com.tw/css/rwd_head_tail.css?202511" />
+
+<!-- Header 開始 -->
+<div class="ltnheader boxTitle boxText" data-desc="置頂選單">
+    <div class="channel">
+		        <a title="自由時報" href="https://www.ltn.com.tw" data-desc="自由時報" class="logo">
+			<img src="https://cache.ltn.com.tw/images/ltn_logo.png" alt="自由時報" title="自由時報">
+		</a>
+		
+        <!-- Header 選單 -->
+        		<ul>
+			<li><a title="即時" href="https://news.ltn.com.tw/list/breakingnews" data-desc="即時">即時</a></li>
+			<li><a title="熱門" href="https://news.ltn.com.tw/list/breakingnews/popular" data-desc="熱門">熱門</a></li>
+			<li><a title="政治" href="https://news.ltn.com.tw/list/breakingnews/politics" data-desc="政治">政治</a></li>
+			<li class="li_rich"><a title="財富自由" href="https://stock.ltn.com.tw" data-desc="財富自由" target="_blank">財富自由</a></li>
+			<li><a title="軍武" href="https://def.ltn.com.tw" data-desc="軍武">軍武</a></li>
+			<li><a title="社會" href="https://news.ltn.com.tw/list/breakingnews/society" data-desc="社會">社會</a></li>
+			<li><a title="生活" href="https://news.ltn.com.tw/list/breakingnews/life" data-desc="生活">生活</a></li>
+			<li><a title="健康" href="https://health.ltn.com.tw" data-desc="健康">健康</a></li>
+			<li><a title="國際" href="https://news.ltn.com.tw/list/breakingnews/world" data-desc="國際">國際</a></li>
+			<li><a title="地方" href="https://news.ltn.com.tw/list/breakingnews/local" data-desc="地方">地方</a></li>
+			<li><a title="AI科技" href="https://ai.ltn.com.tw" data-desc="AI科技">AI科技</a></li>
+			<li><a title="影音" href="https://videos.ltn.com.tw" data-desc="影音">影音</a></li>
+			<li><a title="財經" href="https://ec.ltn.com.tw" data-desc="財經">財經</a></li>
+			<li><a title="娛樂" href="https://ent.ltn.com.tw" data-desc="娛樂">娛樂</a></li>
+			<li><a title="汽車" href="https://auto.ltn.com.tw" data-desc="汽車">汽車</a></li>
+			<li><a title="時尚" href="https://istyle.ltn.com.tw" data-desc="時尚">時尚</a></li>
+			<li><a title="體育" href="https://sports.ltn.com.tw" data-desc="體育">體育</a></li>
+			<li><a title="3C" href="https://3c.ltn.com.tw" data-desc="3C">3 C</a></li>
+			<li><a title="評論" href="https://talk.ltn.com.tw" data-desc="評論">評論</a></li>
+			<li><a title="藝文" href="https://art.ltn.com.tw" data-desc="藝文">藝文</a></li>
+			<li><a title="玩咖" href="https://playing.ltn.com.tw" data-desc="玩咖">玩咖</a></li>
+			<li><a title="食譜" href="https://food.ltn.com.tw" data-desc="食譜">食譜</a></li>
+			<li><a title="地產" href="https://estate.ltn.com.tw" data-desc="地產">地產</a></li>
+			<li><a title="求職" href="https://ltn_jobs.yes123.com.tw/index.asp" data-desc="求職" target="_blank">求職</a></li>
+		</ul>
+    </div>
+</div>
+        <div class="menuS boxTitle" data-desc="全域搜尋">
+        <div class="headerbox">
+                        <form id="search">
+                <b>搜尋</b>
+                <input id="keyword_search" name="keyword" value="李道翔" maxlength="70" type="text">
+                <input class="send boxInput" data-desc="查詢" value="查詢" type="submit">
+            </form>
+        </div>
+    </div>
+    
+        <section class="Searchnews">
+        <div class="search_cond boxTitle" data-desc="搜尋條件">
+            <a title="頻道" data-desc="頻道"><span class="item tag-type">全部</span>新聞 ▼</a>
+            <a title="時間" data-desc="時間"><span class="item tag-time">不限時間</span> ▼</a>
+                    </div>
+
+         <div class="searchbox"><span>進階查詢<b></b></span>
+        <div class="Sterm type boxTitle" data-desc="分類查詢"><b>分類查詢</b>
+            <ul>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=all" data-desc="全部" data-type="all" title="全部">全部</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=health" data-desc="健康" data-type="health" title="健康">健康</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=business" data-desc="財經" data-type="business" title="財經">財經</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=entertainment" data-desc="娛樂" data-type="entertainment" title="娛樂">娛樂</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=auto" data-desc="汽車" data-type="auto" title="汽車">汽車</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=style" data-desc="時尚" data-type="style" title="時尚">時尚</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=sports" data-desc="體育" data-type="sports" title="體育">體育</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=3c" data-desc="3C" data-type="3c" title="3C">3C</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=talk" data-desc="評論" data-type="talk" title="評論">評論</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=playing" data-desc="玩咖" data-type="playing" title="玩咖">玩咖</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=food" data-desc="食譜" data-type="food" title="食譜">食譜</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=estate" data-desc="地產" data-type="estate" title="地產">地產</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=art" data-desc="藝文" data-type="art" title="藝文">藝文</a>
+                </li>
+                            <li>
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&sort=date&start_time=20041201&end_time=20261104&type=def" data-desc="軍武" data-type="def" title="軍武">軍武</a>
+                </li>
+                        </ul>
+        </div>
+
+        <div class="Sterm time boxTitle" data-desc="查詢區間"><b>查詢區間</b>
+            <ul>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&type=all&sort=date" data-desc="不限時間" data-type="20041201" title="不限時間">不限時間</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&type=all&sort=date&start_time=20261103&end_time=20261104" data-desc="過去24小時" data-type="20261103" title="過去24小時">過去24小時</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&type=all&sort=date&start_time=20261028&end_time=20261104" data-desc="過去1星期" data-type="20261028" title="過去1星期">過去1星期</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&type=all&sort=date&start_time=20261004&end_time=20261104" data-desc="過去1個月" data-type="20261004" title="過去1個月">過去1個月</a>
+                </li>
+                            <li class="fix">
+                    <a href="https://search.ltn.com.tw/list?keyword=李道翔&type=all&sort=date&start_time=20260804&end_time=20261104" data-desc="過去3個月" data-type="20260804" title="過去3個月">過去3個月</a>
+                </li>
+                        <li><a id="search_btn" data-desc="自訂查詢區間">自訂查詢區間</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 自訂查詢區間 -->
+    <div class="search_hid"><span>自訂查詢區間<b></b></span>
+        <form class="self_option" action="javascript:void(0);" data-desc="自訂查詢區間">
+            <div class="range">
+                <span>開始日期</span>
+                <input class="datepicker" id="start_time_datepicker" name='search_start_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='start_time'>
+            </div>
+            <i> ~ </i>
+            <div class="range">
+                <span>結束日期</span>
+                <input class="datepicker" id="end_time_datepicker" name='search_end_time' placeholder="" onfocus="blur();">
+                <input type='hidden' class='send_search_input' id='end_time' >
+            </div>
+            <button type="button" id='self_option_btn' data-desc="Search">查詢</button>
+        </form>
+    </div>
+        <div class="search_mask"></div>
+        <div class="mark">約有 21 項結果 (搜尋時間：0.194 秒) </div>
+<div class="page-name" data-desc="列表頁">
+<div id="afscontainer1"></div>
+<script type="text/javascript" charset="utf-8">
+    var pageOptions = {
+        "pubId": "partner-pub-2766208854826292", // 請確認這是正確的客戶 ID！
+        "query": "李道翔", // 請務必在這裡插入正確的查詢！
+        "styleId": "9032353111",
+    };
+    var adblock1 = {
+        "container": "afscontainer1"
+    };
+    _googCsa('ads', pageOptions, adblock1);
+</script>
+    <ul class="list boxTitle" data-desc="列表">
+                <li>
+            <a href="https://ent.ltn.com.tw/news/breakingnews/5620880" data-desc="P:0:馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" class="ph" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍">
+                <img class="lazy_imgs" alt="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/ent/page/400S/2026/10/28/php1kELFw.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://ent.ltn.com.tw/news/breakingnews/5620880">
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5620880" class="tit" data-desc="T:0:馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍">馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍</a>
+                <i href="https://ent.ltn.com.tw/news/breakingnews/5620880" class="immtag chan2">娛樂</i>
+                <span class="time">2026/10/28</span>
+                <a href="https://ent.ltn.com.tw/news/breakingnews/5620880" class="http" data-desc="T:0:馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍" title="馬郁雯遭民眾黨前主任伸腳絆倒 嚴厲譴責零容忍">https://ent.ltn.com.tw/news/breakingnews/5620880</a>
+                <p>台北市選舉委員會27日上午舉行市議員候選人號次抽籤，曾闖入民進黨中央黨部砸雞蛋、代表「左翼聯盟」參選大安文山區市議員的前民眾黨林口區黨部副主任李道翔，在抽籤過程中不僅對選務人員咆哮，更在民進黨中正萬華區候選人馬郁雯步向抽籤台時突然伸腳企圖將其絆倒。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1776274" data-desc="P:1:戴幸運物、拿看板 北市議員抽籤出奇招" class="ph" title="戴幸運物、拿看板 北市議員抽籤出奇招">
+                <img class="lazy_imgs" alt="戴幸運物、拿看板 北市議員抽籤出奇招" title="戴幸運物、拿看板 北市議員抽籤出奇招" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2026/10/28/135.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1776274">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776274" class="tit" data-desc="T:1:戴幸運物、拿看板 北市議員抽籤出奇招" title="戴幸運物、拿看板 北市議員抽籤出奇招">戴幸運物、拿看板 北市議員抽籤出奇招</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1776274" class="immtag chan">政治</i>
+                <span class="time">2026/10/28</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1776274" class="http" data-desc="T:1:戴幸運物、拿看板 北市議員抽籤出奇招" title="戴幸運物、拿看板 北市議員抽籤出奇招">https://news.ltn.com.tw/news/politics/paper/1776274</a>
+                <p>九合一大選倒數，本屆台北市長登記參選共六位候選人；市議員則有九十八人登記，一人不合格，核准共九十七位。昨進行號次抽籤，整體抽籤狀況大多順利，期間部分候選人爆發衝突口角，其中無黨籍候選人譚傳紹在抽籤時高舉手拿板大聲抗議，並與國民黨籍議員王欣儀爆發口角，而左翼聯盟議員候選人李道翔更企圖絆倒民進黨籍議員候</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" data-desc="P:2:險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" class="ph" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告">
+                <img class="lazy_imgs" alt="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/phpoIFqs2.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5620313">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" class="tit" data-desc="T:2:險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告">險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5620313" class="http" data-desc="T:2:險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告" title="險遭前民眾黨主任伸腳絆倒！ 馬郁雯揭統戰爭議、公布影片喊告">https://news.ltn.com.tw/news/politics/breakingnews/5620313</a>
+                <p>台北市選舉委員會今（27）日上午舉行市議員候選人號次抽籤，曾闖入民進黨中央黨部砸雞蛋、代表「左翼聯盟」參選大安文山區市議員的前民眾黨林口區黨部副主任李道翔，在抽籤過程中不僅對選務人員咆哮，更在民進黨中正萬華區候選人馬郁雯步向抽籤台時突然伸腳企圖將其絆倒，隨後又在電梯口圍堵社民黨市議員候選人苗博雅並高</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" data-desc="P:3:台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" class="ph" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅">
+                <img class="lazy_imgs" alt="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/10/27/5619958_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5619958">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" class="tit" data-desc="T:3:台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅">台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" class="immtag chan">政治</i>
+                <span class="time">2026/10/27</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5619958" class="http" data-desc="T:3:台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅" title="台北市選委會抽籤爆衝突！前民眾黨主任出腳意圖絆倒馬郁雯、堵電梯粗暴開砲苗博雅">https://news.ltn.com.tw/news/politics/breakingnews/5619958</a>
+                <p>民眾黨林口黨部前副主任李道翔，去年曾在大罷免期間闖民進黨中央黨部砸雞蛋，本屆他代表左翼聯盟參選台北市第六選區（大安、文山）市議員，今（27）日李道翔在台北市選舉委員會抽籤時，再度出現攻擊情況，李道翔不僅在自己抽籤完公然嗆聲，更在台北市第五選區（中正、萬華）民進黨候選人馬郁雯走去抽籤時，伸腳意圖絆倒她</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" data-desc="P:4:北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" class="ph" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長">
+                <img class="lazy_imgs" alt="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/09/02/5561200_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5561200">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" class="tit" data-desc="T:4:北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長">北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" class="immtag chan">政治</i>
+                <span class="time">2026/09/02</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5561200" class="http" data-desc="T:4:北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長" title="北市議員參選登記累計58人！29名現任議員拚連任、3人登記選市長">https://news.ltn.com.tw/news/politics/breakingnews/5561200</a>
+                <p>九合一大選年底登場，8月31日至9月4日開放公職人員選舉參選人登記參選，台北市至今（2）已有58名議員候選人登記，其中29名現任議員登記拚連任；3名市長候選人登記，包含台灣麻將最大黨郭璽、民進黨沈伯洋與臺灣SoR無法黨蕭文乾。登記候選人名單如下（按照登記時間排序）：</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5525474" data-desc="P:5:小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞" class="ph" title="小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞">
+                <img class="lazy_imgs" alt="小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞" title="小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/08/01/phpe9plon.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5525474">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5525474" class="tit" data-desc="T:5:小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞" title="小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞">小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5525474" class="immtag chan">社會</i>
+                <span class="time">2026/08/01</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5525474" class="http" data-desc="T:5:小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞" title="小草侵入民進黨中央黨部砸雞蛋判拘役  上訴認罪仍不予緩刑定讞">https://news.ltn.com.tw/news/society/breakingnews/5525474</a>
+                <p>民眾黨林口黨部前副主任李道翔，去年與友人洪慧治持雞蛋闖入民進黨中央黨部10樓砸雞蛋，並自錄影片刊登於臉書粉絲專頁，台北地院將李男判處拘役50日、洪男40日，得易科罰金；僅洪男上訴，他改口認罪，請求輕判並予緩刑，高等法院雖酌減改判拘役35日，但認為洪男犯罪手段激烈，迄今未道歉或賠償，不予宣告緩刑，全案</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5373974" data-desc="P:6:不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000" class="ph" title="不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000">
+                <img class="lazy_imgs" alt="不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000" title="不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/18/5373974_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5373974">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5373974" class="tit" data-desc="T:6:不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000" title="不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000">不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5373974" class="immtag chan">社會</i>
+                <span class="time">2026/03/18</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5373974" class="http" data-desc="T:6:不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000" title="不滿陳情未果蛋砸健保署大門 男辯「增添色彩」被罰1萬2000">https://news.ltn.com.tw/news/society/breakingnews/5373974</a>
+                <p>梁姓男子因為不滿父親住院的健保給付遲遲未有進展，於去（2025）年9月30日前往健保署陳情未果，隨後便購買雞蛋返回對著健保署大門丟擲。梁男認為，自己並無造成標誌汙損，稱自己是在幫健保署「增添色彩和創意」。台北地方法院認為，無論梁男出發點為何，均應循正當法律途徑表達訴求，認其行為已達滋擾公共場所安寧秩</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5368032" data-desc="P:7:四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」" class="ph" title="四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」">
+                <img class="lazy_imgs" alt="四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」" title="四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/12/phpKAEkAa.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5368032">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5368032" class="tit" data-desc="T:7:四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」" title="四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」">四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5368032" class="immtag chan">政治</i>
+                <span class="time">2026/03/12</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5368032" class="http" data-desc="T:7:四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」" title="四叉貓曝小草群組對話 李道翔分享闖民進黨部「砸蛋攻略」">https://news.ltn.com.tw/news/politics/breakingnews/5368032</a>
+                <p>民眾黨林口黨部前副主任李道翔，去年非法闖入民進黨中央黨部砸雞蛋，還自錄影片PO到臉書粉專，綠營提告，北檢依侵入建築物罪起訴，今（4日）北院判李男拘役50日。對此，網紅四叉貓PO出李道翔在小草群組分享去民進黨黨部扔雞蛋的攻略。民眾黨林口黨部前副主任李道翔，去年7月20日與友人洪慧治參加民眾黨集會活動後</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5359191" data-desc="P:8:闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！" class="ph" title="闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！">
+                <img class="lazy_imgs" alt="闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！" title="闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/04/phptcNxYg.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5359191">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5359191" class="tit" data-desc="T:8:闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！" title="闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！">闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5359191" class="immtag chan">政治</i>
+                <span class="time">2026/03/04</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5359191" class="http" data-desc="T:8:闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！" title="闖綠營中央黨部砸蛋  民眾黨前幹部被判刑  四叉貓酸：有前科選議員穩了！">https://news.ltn.com.tw/news/politics/breakingnews/5359191</a>
+                <p>民眾黨林口黨部前副主任李道翔，去年非法闖入民進黨中央黨部砸雞蛋，還自錄影片PO到臉書粉專，綠營提告，北檢依侵入建築物罪起訴，今（4日）北院判李男拘役50日。對此，當初起底砸蛋男就是李道翔的網紅「四叉貓」劉宇，翻到李道翔宣布投入白營北市議員黨內初選的貼文，狠酸「現在李道翔有前科了，選議員是不是穩了？」</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/society/breakingnews/5358242" data-desc="P:9:侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役" class="ph" title="侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役">
+                <img class="lazy_imgs" alt="侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役" title="侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/03/04/phpRrto5u.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/society/breakingnews/5358242">
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5358242" class="tit" data-desc="T:9:侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役" title="侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役">侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役</a>
+                <i href="https://news.ltn.com.tw/news/society/breakingnews/5358242" class="immtag chan">社會</i>
+                <span class="time">2026/03/04</span>
+                <a href="https://news.ltn.com.tw/news/society/breakingnews/5358242" class="http" data-desc="T:9:侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役" title="侵入民進黨中央黨部砸蛋辯「誤認是公共場所」 民眾黨前幹部判拘役">https://news.ltn.com.tw/news/society/breakingnews/5358242</a>
+                <p>民眾黨林口黨部前副主任李道翔，去年7月20日與友人洪慧治參加民眾黨集會活動後，持雞蛋非法闖入民進黨中央黨部砸雞蛋，並自錄影片刊登於臉書粉絲專頁，民進黨中央黨部提告，台北地檢署去年10月依侵入建築物罪起訴2人；台北地院審理，2人辯稱「誤認」中央黨部是公共場所，但被法官打臉，認定有侵入犯意，將李判拘役5</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5313921" data-desc="P:10:北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大" class="ph" title="北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大">
+                <img class="lazy_imgs" alt="北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大" title="北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2026/01/18/5313921_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5313921">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5313921" class="tit" data-desc="T:10:北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大" title="北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大">北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5313921" class="immtag chan">政治</i>
+                <span class="time">2026/01/18</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5313921" class="http" data-desc="T:10:北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大" title="北市議員松信選區9缺3  新人搶進、藍白合綠營壓力大">https://news.ltn.com.tw/news/politics/breakingnews/5313921</a>
+                <p>頂著國民黨最美發言人稱號的李明璇，投入台北市議員松山、信義選區，民進黨也有「漂亮寶貝」前議員呂瀅瀅捲土重來，加上現任民進黨籍美女議員許淑華、媽媽美女張文潔，還有國民黨的資深美魔女秦慧珠，松信區的議員選戰，女力來勢洶洶。秦慧珠說，本屆9席，當選的6女將攻佔前6名，競爭始終激烈；許淑華表示，選民結構藍大</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1726610" data-desc="P:11:蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴" class="ph" title="蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴">
+                <img class="lazy_imgs" alt="蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴" title="蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://news.ltn.com.tw/assets/images/default.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1726610">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1726610" class="tit" data-desc="T:11:蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴" title="蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴">蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1726610" class="immtag chan">政治</i>
+                <span class="time">2025/10/03</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1726610" class="http" data-desc="T:11:蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴" title="蛋洗民進黨中央黨部 民眾黨前黨工涉侵入建物罪起訴">https://news.ltn.com.tw/news/politics/paper/1726610</a>
+                <p>曾擔任民眾黨林口黨部副主任的李道翔與友人洪慧治今年七月二十日參加民眾黨舉辦的集會活動時，持雞蛋非法闖入民進黨中央黨部砸雞蛋，並將影片PO在自己的臉書粉絲專頁。民進黨對李、洪二人提出告訴，台北地檢署昨偵結，認定李、洪二人涉犯侵入建築物罪，提起公訴。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5198197" data-desc="P:12:民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉" class="ph" title="民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉">
+                <img class="lazy_imgs" alt="民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉" title="民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/10/02/5198197_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5198197">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5198197" class="tit" data-desc="T:12:民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉" title="民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉">民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5198197" class="immtag chan">政治</i>
+                <span class="time">2025/10/02</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5198197" class="http" data-desc="T:12:民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉" title="民眾黨前幹部非法入侵砸蛋被起訴 民進黨：黃國昌應公開道歉">https://news.ltn.com.tw/news/politics/breakingnews/5198197</a>
+                <p>曾擔任民眾黨林口黨部副主任的李道翔與友人洪慧治，今年7月20日參加民眾黨活動時，非法闖入民進黨中央黨部砸雞蛋；台北地檢署今（2日）認定2人涉犯侵入建築物罪，提起公訴。對此，民進黨發言人韓瑩呼籲，民眾黨主席黃國昌領導下屢現暴力脫序行為，黃責無旁貸，應對此公開道歉。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5197888" data-desc="P:13:蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴" class="ph" title="蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴">
+                <img class="lazy_imgs" alt="蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴" title="蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/10/02/5197888_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5197888">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5197888" class="tit" data-desc="T:13:蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴" title="蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴">蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5197888" class="immtag chan">政治</i>
+                <span class="time">2025/10/02</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5197888" class="http" data-desc="T:13:蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴" title="蛋洗民進黨中央黨部！ 民眾黨前黨部副主任侵入建築物被起訴">https://news.ltn.com.tw/news/politics/breakingnews/5197888</a>
+                <p>曾於去年擔任民眾黨林口黨部副主任的李道翔與友人洪慧治今年7月20日參加民眾黨舉辦的集會活動時，持雞蛋非法闖入民進黨中央黨部砸雞蛋，並將影片放置在自己的臉書粉絲專頁。民進黨中央黨部發現後，則對李、洪二人提出告訴。台北地檢署今日偵結，認定李、洪二人涉犯侵入建築物罪，提起公訴。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5175676" data-desc="P:14:百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來" class="ph" title="百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來">
+                <img class="lazy_imgs" alt="百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來" title="百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/09/12/phpQXxFTg.png" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5175676">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5175676" class="tit" data-desc="T:14:百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來" title="百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來">百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5175676" class="immtag chan">政治</i>
+                <span class="time">2025/09/12</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5175676" class="http" data-desc="T:14:百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來" title="百靈果節目邀「不禮貌鄉民團」遭灌爆！ 好友呱吉痛心：不想再往來">https://news.ltn.com.tw/news/politics/breakingnews/5175676</a>
+                <p>陳皇寺／核稿編輯Podcast《百靈果》昨日在社群媒體宣布，將邀請知名「小草」粉專「不禮貌鄉民團」線上直播。消息一出引起不少粉絲不滿，和《百靈果》主持人凱莉交好的網紅呱吉，也痛心地在下方留言「OK, fine」甚至表示「以後不會再想往來」。</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5116625" data-desc="P:15:影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖" class="ph" title="影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖">
+                <img class="lazy_imgs" alt="影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖" title="影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/07/22/php6Uh6cT.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5116625">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5116625" class="tit" data-desc="T:15:影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖" title="影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖">影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5116625" class="immtag chan">政治</i>
+                <span class="time">2025/07/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5116625" class="http" data-desc="T:15:影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖" title="影射民進黨部丟雞蛋是自導自演！ 白粉專大翻車被網友朝聖">https://news.ltn.com.tw/news/politics/breakingnews/5116625</a>
+                <p>李欣潔／核稿編輯民眾黨昨號召支持者在民進黨中央黨部前集結反罷免，活動結束後民進黨中央黨部遭2名男子闖入丟雞蛋砸招牌，引外界譴責。不過，超過20萬人追蹤的臉書粉專「不禮貌鄉民團」卻質疑民進黨不敢公布拍到正臉的監視器畫面、抓到人後沒有媒體敢公布正臉照片，甚至還帶風向影射民進黨「自導自演」。不過，後來查出</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5116036" data-desc="P:16:小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房" class="ph" title="小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房">
+                <img class="lazy_imgs" alt="小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房" title="小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/07/22/phpiHqTY5.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5116036">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5116036" class="tit" data-desc="T:16:小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房" title="小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房">小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5116036" class="immtag chan">政治</i>
+                <span class="time">2025/07/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5116036" class="http" data-desc="T:16:小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房" title="小草蛋洗民進黨中央 四叉貓起底：叫李承龍大哥、影射館長拿黑金開健身房">https://news.ltn.com.tw/news/politics/breakingnews/5116036</a>
+                <p>黃其豪／核稿編輯民眾黨前天在民進黨中央黨部外舉行活動，一名李姓前黨工竟潛入民進黨部所在的樓層並用雞蛋砸黨部招牌。網紅四叉貓昨深夜發文指出，犯案的李道翔當天是先開車進入地下室，再搭電梯直達民進黨部，藉此避開1樓的警方，且犯案當時民眾黨主席黃國昌都還在致詞。四叉貓也起底，李道翔過去曾在PTT發文聲稱，「</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/paper/1717120" data-desc="P:17:蛋洗民進黨中央招牌 民眾黨前黨工落網" class="ph" title="蛋洗民進黨中央招牌 民眾黨前黨工落網">
+                <img class="lazy_imgs" alt="蛋洗民進黨中央招牌 民眾黨前黨工落網" title="蛋洗民進黨中央招牌 民眾黨前黨工落網" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/250/2025/07/22/143.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/paper/1717120">
+                <a href="https://news.ltn.com.tw/news/politics/paper/1717120" class="tit" data-desc="T:17:蛋洗民進黨中央招牌 民眾黨前黨工落網" title="蛋洗民進黨中央招牌 民眾黨前黨工落網">蛋洗民進黨中央招牌 民眾黨前黨工落網</a>
+                <i href="https://news.ltn.com.tw/news/politics/paper/1717120" class="immtag chan">政治</i>
+                <span class="time">2025/07/22</span>
+                <a href="https://news.ltn.com.tw/news/politics/paper/1717120" class="http" data-desc="T:17:蛋洗民進黨中央招牌 民眾黨前黨工落網" title="蛋洗民進黨中央招牌 民眾黨前黨工落網">https://news.ltn.com.tw/news/politics/paper/1717120</a>
+                <p>民眾黨前天在民進黨中央黨部外舉行「民主起義，反罷要贏！台灣要贏！」活動，民眾黨林口黨部前副主任李道翔潛入民進黨中央黨部所在的「華山商務大樓」十樓，拿出雞蛋丟擲黨部招牌，洪姓男子則在旁錄影，兩人深夜均被警方逮獲。李聲稱不滿時事才丟雞蛋洩憤，洪則說是李找他幫忙錄影；警方除依毀損等罪送辦，也釐清幕後有無「</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5115485" data-desc="P:18:「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯" class="ph" title="「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯">
+                <img class="lazy_imgs" alt="「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯" title="「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/07/21/phplXcojn.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5115485">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5115485" class="tit" data-desc="T:18:「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯" title="「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯">「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5115485" class="immtag chan">政治</i>
+                <span class="time">2025/07/21</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5115485" class="http" data-desc="T:18:「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯" title="「丟雞蛋小草」粉專自PO犯案影片 大批網友灌爆：蛋草犯">https://news.ltn.com.tw/news/politics/breakingnews/5115485</a>
+                <p>郭顏慧／核稿編輯民眾黨昨（20）日台北市北平東路舉辦「720民主起義」反罷免造勢活動，活動地點就在民進黨中央黨部所在的華山大樓前。活動結束後，兩名男小草搭乘電梯至10樓民進黨黨部門口，朝外牆黨徽丟擲雞蛋、錄影片。對此，網紅「四叉貓」也曝光丟雞蛋小草的真實身分，是民眾黨新北市黨部林口區李姓副主任，該名</p>
+            </div>
+        </li>
+
+                <li>
+            <a href="https://news.ltn.com.tw/news/politics/breakingnews/5115561" data-desc="P:19:丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調" class="ph" title="丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調">
+                <img class="lazy_imgs" alt="丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調" title="丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調" src="https://news.ltn.com.tw/assets/images/default.png" data-src="https://img.ltn.com.tw/Upload/news/300/2025/07/21/5115561_1_1.jpg" onerror="setDefault(this)">
+            </a>
+            <div class="cont" href="https://news.ltn.com.tw/news/politics/breakingnews/5115561">
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5115561" class="tit" data-desc="T:19:丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調" title="丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調">丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調</a>
+                <i href="https://news.ltn.com.tw/news/politics/breakingnews/5115561" class="immtag chan">政治</i>
+                <span class="time">2025/07/21</span>
+                <a href="https://news.ltn.com.tw/news/politics/breakingnews/5115561" class="http" data-desc="T:19:丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調" title="丟雞蛋小草已無黨職！ 民眾黨：尊重警方辦案步調">https://news.ltn.com.tw/news/politics/breakingnews/5115561</a>
+                <p>民眾黨昨在民進黨中央外舉辦反罷集會，有兩名小草潛入民進黨中央黨部丟雞蛋、錄影片，遭警方帶回，其中丟雞蛋的男子真實身份是2024年上任的民眾黨林口黨部副主任李道翔。據悉，李已卸任副主任一職，至於是否仍為民眾黨員，民眾黨說，尊重警方的辦案步調．當事人也要為自己的行為負責。</p>
+            </div>
+        </li>
+
+            </ul>
+
+</div>
+<script>
+    function setDefault(img)
+    {
+        $(img).attr('src', 'https://news.ltn.com.tw/assets/images/default.png');
+    }
+</script>
+    </section>
+    <footer class="boxTitle" data-desc="頁尾">
+    <a data-desc="自由時報電子報" href="https://www.ltn.com.tw/" title="自由時報電子報">
+        <img title="自由時報電子報" alt="自由時報電子報" src="https://cache.ltn.com.tw/images/logo_foot.png">
+    </a>
+    <span>版權所有 不得轉載 <i>&copy; 2026 The Liberty Times. All Rights Reserved.</i></span>
+</footer>
+    <script>
+    let webPushOrigin = 'https://www.ltn.com.tw';
+    let webPushFile = webPushOrigin + '/webNotificationCheck';
+    let webPushNotification = webPushOrigin + '/webNotification';
+
+    // 監聽檢查回應
+    window.addEventListener('message',function(e) {
+        if (e.origin == webPushOrigin) {
+            if (e.data == 'isOK') {
+                let checkIframe = document.getElementById('checkIframe');
+                checkIframe.contentWindow.postMessage('getPermission', webPushOrigin);
+            } else if (e.data == 'granted') {
+                $("#checkIframe").remove();
+                console.log(e.data);
+            } else if (e.data == 'denied' || e.data == 'default') { //default or denied
+                $("#checkIframe").remove();
+                console.log(e.data);
+                softConfirm();
+            }
+        }
+    },false);
+
+    $(function() {
+        let webPush = getCookie("softPush");
+        if (webPush === undefined || webPush < 1) {
+            if (userAgent.indexOf('Chrome') >= 0 || userAgent.indexOf('Firefox') >= 0 || userAgent.indexOf('Edge/') >= 0) {
+                initFcm();
+            } else if (userAgent.indexOf('Safari') >= 0) {
+            }
+        }
+    });
+
+    //檢查notification
+    function initFcm()
+    {
+        console.log('check notification');
+        if ('Notification' in window) {
+            checkFcm();
+        }
+    }
+
+    //檢查notification permission
+    function checkFcm()
+    {
+        console.log('checkFcm');
+        let checkIframe = document.createElement('iframe');
+        checkIframe.setAttribute('id', 'checkIframe');
+        checkIframe.setAttribute('src', webPushFile);
+        checkIframe.setAttribute('allow', 'payment');
+        document.body.appendChild(checkIframe);
+    }
+
+    //觸發軟詢問
+    function softConfirm()
+    {
+        let softPushNotificaton = document.createElement('div');
+        softPushNotificaton.setAttribute('class', 'softPush_notification');
+
+        let softPushNotificationImg = document.createElement('img');
+        softPushNotificationImg.setAttribute('src', 'https://news.ltn.com.tw/assets/images/all/ltn.png');
+        softPushNotificationImg.setAttribute('alt', '自由時報');
+        softPushNotificaton.appendChild(softPushNotificationImg);
+
+        let softPushNotificationSpan = document.createElement('span');
+        softPushNotificationSpan.setAttribute('class', 'softPush_word');
+        let softPushNotificationText = document.createTextNode('感謝您的訂閱 自由時報電子報隨時提供您最即時、熱門的新聞訊息。');
+        softPushNotificationSpan.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationSpan);
+
+        let softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_confirm');
+        softPushNotificationText = document.createTextNode('訂閱');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        softPushNotificationButton = document.createElement('button');
+        softPushNotificationButton.setAttribute('class', 'softPush_refuse');
+        softPushNotificationText = document.createTextNode('暫時不要');
+        softPushNotificationButton.appendChild(softPushNotificationText);
+        softPushNotificaton.appendChild(softPushNotificationButton);
+
+        document.body.appendChild(softPushNotificaton);
+    }
+
+    //設定軟詢問時間
+    function setSoftPushCookie(extension = 0)
+    {
+        let st = "";
+        let expires = new Date();
+        //延展時間
+        extension = (extension == 0) ? 7 * 24 * 60 * 60 * 1000 : extension;
+        expires.setTime(expires.getTime() + extension);
+        let ti = getCookie("softPush");
+        if (ti === undefined) ti = 0;
+        st = "softPush=" + (Number(ti)+1) +"; domain=ltn.com.tw;expires=" + expires.toGMTString() +"; path=/";
+        document.cookie = st;
+    }
+
+    $(document).on("click",".softPush_confirm",function() {
+        window.open(webPushNotification);
+        getScrNews('www.webPush.ask', 'ask', '', '1');
+        $(".softPush_notification").remove();
+    });
+
+    $(document).on("click",".softPush_refuse",function(){
+        $(".softPush_notification").remove();
+        getScrNews('www.webPush.ask', 'ask', '', '0');
+        setSoftPushCookie();
+    });
+</script>
+<style>
+    /******************** 瀏覽器推播通知 ********************/
+    .softPush_notification { width: 400px; height: 170px; padding: 20px; border-radius: 10px; position: fixed; left: 50%; margin-left: -200px; top: 28%;  background: #fbfbfb; box-shadow: 0px 0px 30px 6px rgb(0 0 0 / 40%); z-index:  300; text-align: justify;}
+    .softPush_notification img { width: 80px; height: auto; float: left; margin-right: 10px; }
+    .softPush_notification span.softPush_word { margin-bottom: 10px; font-size: 18px; line-height: 30px; font-family: 'Noto Sans TC', "微軟正黑體";}
+    .softPush_notification button { border-radius: 5px; padding: 5px 8px; letter-spacing: 1px; cursor: pointer; border: 0px; font-size: 16px;}
+    .softPush_notification button.softPush_confirm { position: absolute; right: 25px; bottom: 20px; background: #daa01c; color: #fff; transition: .2s linear;}
+    .softPush_notification button.softPush_refuse { position: absolute; right: 80px; bottom: 20px; color: #8e8e8e; transition: .2s linear;}
+    .softPush_notification button.softPush_confirm:hover { background: #c58901; }
+    .softPush_notification button.softPush_refuse:hover { background: #dedede; }
+
+    @media screen and (max-width:500px) {
+        /* 瀏覽器推播通知 */
+        .softPush_notification {
+            width: 280px;
+            height: 140px;
+            padding: 16px;
+            margin-left: -140px;
+        }
+
+        .softPush_notification img {
+            width: 60px;
+        }
+
+        .softPush_notification span.softPush_word {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .softPush_notification button {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm,
+        .softPush_notification button.softPush_refuse {
+            bottom: 12px;
+        }
+
+        .softPush_notification button.softPush_confirm {
+            right: 16px;
+        }
+    }
+</style>
+<script src="https://cache.ltn.com.tw/js/initAviviD.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    initAviviD();
+});
+</script>
+</body>
+</html>
