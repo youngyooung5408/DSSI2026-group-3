@@ -32,7 +32,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 | --- | --- | --- | --- |
 | RUEI-HSIANG, CHANG | B12303030 | youngyooung5408 | 待確認 |
 | 楊喬茵 | B12303061 | b12303061-arch | 角色待確認；2026-11-04 負責縣市首長G1–G5缺口補查、臺北市與高雄市議員G1–G6缺值人工核對 |
-| | B12303131 |  | 待確認 |
+| 許以琳 | B12303131 |  | Data analyst（proposal 所列）；2026-11-05 起補臺北市議員G1–G5缺值，2026-11-08 合併縣市長與臺北、高雄議員G1–G6分析檔 |
 
 ## Student Preferences
 
@@ -53,6 +53,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 | --- | --- | --- | --- | --- |
 | 張睿庠 | Codex（IDE專案環境） | OpenAI／GPT家族；完整型號未確認 | AGENTS.md | 本次執行環境與使用者提供的個人設定；不代表全組預設 |
 | 楊喬茵 | Claude Code（VS Code擴充套件） | Claude Opus 5.5（claude-opus-5-5） | CLAUDE.md（匯入AGENTS.md） | 2026-11-04 目前執行環境 |
+| 許以琳 | Claude Code（VS Code擴充套件） | Claude Opus 5.5（claude-opus-5-5） | CLAUDE.md（匯入AGENTS.md） | 2026-11-08 目前執行環境 |
 
 ## Data and Current Focus
 
@@ -2020,6 +2021,8 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
+| 許以琳（AI協助） | [縣市長＋臺北、高雄議員G1–G6合併分析檔](data/code/merge_scope_g1_g6_20261108.ipynb)：套用11/04審查補值與本人人工補值（臺北議員年齡10人、學歷6人、G5 1人、G6 1人），排除9位資料不足者並保留理由；分析樣本271人，另產出高雄議員21人／37格待補清單 | [`57e164f`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/57e164fe6b798f1f73300af57e34f1c3a8413ab3)（已推送並核對） |
+| 許以琳 | 臺北市議員何恕懷學歷（G3）人工查核，回填於人工核對工作單 | [`c800beb`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/c800beb13865fc8e481b2beea19143a075848225)（已推送並核對） |
 | 楊喬茵（AI協助） | [臺北市、高雄市議員G1／G3／G5缺口補查](data/code/council_tk_gaps_20261104.ipynb)：79人／208格補上137格（皆手動查核；未併入主表），新聞全文閱讀、中選會歷屆紀錄身分核對，370頁原始來源保存 | [`cc732a1`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/cc732a10a445bb5b2d70f91a397488b79b90c54e)（已推送並核對） |
 | 楊喬茵（AI協助） | [縣市首長G1–G5缺口補查](data/code/mayor_gaps_20261104.ipynb)：23人／35格補上34格（皆手動查核；未併入主表），G5判定標準修訂，79頁原始來源保存 | [`9195b3a`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/9195b3ab307873ec4f6bd5ba424ba3ff1da5be25)（已推送並核對） |
 | 楊喬茵（AI協助） | [臺北市、高雄市議員G1–G6缺值人工核對工作單](data/code/manual_check_worklist_20261104.ipynb)：383格／175人，含核對規則、既有線索與回填欄；人工核對尚未開始 | [`9195b3a`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/9195b3ab307873ec4f6bd5ba424ba3ff1da5be25)（已推送並核對） |
