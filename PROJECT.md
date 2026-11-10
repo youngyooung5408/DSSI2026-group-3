@@ -10,8 +10,8 @@
 | --- | --- |
 | Remote repository | https://github.com/youngyooung5408/DSSI2026-group-3 （學生本次確認的目標網址） |
 | Target branch | main |
-| Setup status | 本機repository位於data-science-course；學生已切至main並完成與origin/main快取03d69ba的rebase，本機研究提交現為5f80536。Mapbox來源清理待學生amend；AI未執行Git寫入。 |
-| Last push verification | 2026-11-10學生提供GitHub GH013 Push Protection拒絕紀錄：提交5f80536中的兩份來源HTML含Mapbox配置token。研究提交尚未發布成功；本輪已本地清理，待amend與push後另行確認遠端main包含新SHA。 |
+| Setup status | 本機repository位於data-science-course，分支main；學生完成rebase、來源配置token清理與amend後，研究提交為43fa665。本輪提交技能修訂仍為本地未提交；AI未執行Git寫入。 |
+| Last push verification | 2026-11-10以唯讀git ls-remote實際回讀遠端main=43fa6656aef9218dd8d65ad4dff71f1a026e49f7，與本機main tip相同，確認研究與Mapbox清理版本已發布。本輪新增技能修訂不包含在該commit，仍待學生提交。 |
 
 ## Research Question
 
@@ -2909,6 +2909,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
+| RUEI-HSIANG, CHANG（AI協助） | [提交技能補強](skills/prepare-work-record/SKILL.md)及[錯誤恢復參考](skills/prepare-work-record/references/git-submission-recovery.md)：加入分支／遠端與rebase狀態、預定檔／staged／未推送歷史掃描、hook啟用及失敗停止檢查；補齊GH013、來源token清理與AppleDouble診斷。raw與維護文件技能同步銜接；三份SKILL驗證與相對連結檢查通過，保留學生操作Git規則 | 待提交（本輪僅修訂本地技能與專案紀錄，未stage／commit／push） |
 | RUEI-HSIANG, CHANG（AI協助） | [Mapbox推送保護修正](<attachments/meetings/work record/2026-11-10-131448.md>)：清理兩份林延鳳來源HTML的配置token，原bytes私存Git外；擴充掃描器涵蓋Mapbox公／私token，更新下載與輸入manifest、固定SHA及raw／processed文件；三份Notebook重驗，所有處理後CSV bytes不變 | 待提交（5f80536遭推送保護拒絕；本輪清理待學生amend及推送） |
 | 許以琳（AI協助） | [縣市長＋臺北、高雄議員G1–G6合併分析檔](data/code/merge_scope_g1_g6_20261108.ipynb)：套用11/04審查補值與本人人工補值（臺北議員年齡10人、學歷6人、G5 1人、G6 1人），排除9位資料不足者並保留理由；分析樣本271人，另產出高雄議員21人／37格待補清單 | [`57e164f`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/57e164fe6b798f1f73300af57e34f1c3a8413ab3)（已推送並核對） |
 | 許以琳 | 臺北市議員何恕懷學歷（G3）人工查核，回填於人工核對工作單 | [`c800beb`](https://github.com/youngyooung5408/DSSI2026-group-3/commit/c800beb13865fc8e481b2beea19143a075848225)（已推送並核對） |
