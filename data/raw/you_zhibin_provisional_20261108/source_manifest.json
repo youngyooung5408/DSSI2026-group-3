@@ -1,0 +1,46 @@
+[
+  {
+    "path": "data/raw/you_zhibin_provisional_20261108/court_20261106_fulltext.txt",
+    "source_url": "https://www.judicial.gov.tw/tw/cp-1888-1645308-4e8cf-1.html",
+    "title": "最高行政法院115年度抗字第273號新聞稿",
+    "access_date": "2026-11-08",
+    "capture_method": "HTTP200 HTML main-body extraction; source HTML retained outside repo in task temp directory",
+    "full_main_body_read": true,
+    "selector": ".cp",
+    "note": "官方程序狀態；申請登記、10/16資格不符、11/6暫時救濟抗告駁回；非本案終局判決。",
+    "sha256": "7c0377ed5e67966b3c2c23237c9822f27325eb84641a483ac298a46fcec640f9"
+  },
+  {
+    "path": "data/raw/you_zhibin_provisional_20261108/family_mirror_fulltext.txt",
+    "source_url": "https://www.mirrormedia.mg/external/setn_1627531",
+    "title": "三立報導之鏡週刊轉載",
+    "access_date": "2026-11-08",
+    "capture_method": "HTTP200 HTML main-body extraction; source HTML retained outside repo in task temp directory",
+    "full_main_body_read": true,
+    "selector": "article",
+    "note": "全文明載外叔公游日正曾任鄉長／立委；四親等，超出已確認三親等範圍。不是戶籍認證。",
+    "sha256": "c4febfeb8180ab084bf5d004b0faf0f2fbce3da15e0188353a6805ba173260a2"
+  },
+  {
+    "path": "data/raw/you_zhibin_provisional_20261108/family_observer_fulltext.txt",
+    "source_url": "https://www.observer-taipei.com/book2021/item/3118-2023-12-01-05-51-37",
+    "title": "觀察雜誌2023年12月人物報導",
+    "access_date": "2026-11-08",
+    "capture_method": "HTTP200 HTML main-body extraction; source HTML retained outside repo in task temp directory",
+    "full_main_body_read": true,
+    "selector": ".itemFullText",
+    "note": "立場鮮明次級人物報導；全文將外公職涯描述為軍人轉業公務員、鹽場辦公室副主任，無可採政治任命證據。",
+    "sha256": "0693acac19cfc935760450d55a27baa0956f7752e1f9d7cfe36da4b9b8a14e8e"
+  },
+  {
+    "path": "data/raw/you_zhibin_provisional_20261108/kinship_law_fulltext.txt",
+    "source_url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=968",
+    "title": "民法第968條親等計算",
+    "access_date": "2026-11-08",
+    "capture_method": "HTTP200 HTML main-body extraction; source HTML retained outside repo in task temp directory",
+    "full_main_body_read": true,
+    "selector": ".law-article",
+    "note": "沿現行G6親等計算；候選人→母親→外祖父→共同上一代→外叔公，四親等。",
+    "sha256": "76cba03314e23af641b31dec3f1e9380dcd2e8270a9da702231cd821bb46a3de"
+  }
+]

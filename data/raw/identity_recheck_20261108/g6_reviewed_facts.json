@@ -1,0 +1,46 @@
+[
+  {
+    "candidate_name": "謝國樑",
+    "relative_name": "謝修平",
+    "relationship": "父親",
+    "degree": 1,
+    "relative_public_office": "省議員／基隆市議會議長（報導記載）",
+    "url": "https://www.nownews.com/news/5935408",
+    "file": "g6_hsieh.html",
+    "access": "網頁閱讀工具已讀全文；直接HTTP403檔僅存失敗回應",
+    "basis": "專訪明確記載父子關係及父親曾任公職"
+  },
+  {
+    "candidate_name": "黃世杰",
+    "relative_name": "黃金德",
+    "relationship": "父親",
+    "degree": 1,
+    "relative_public_office": "桃園縣議會副議長",
+    "url": "https://www.businesstoday.com.tw/article/category/154769/post/202001150048/",
+    "file": "g6_huang.html",
+    "access": "HTTP200全文已讀並保存",
+    "basis": "專訪同時記載父子關係及前副議長職務"
+  },
+  {
+    "candidate_name": "陳瑩",
+    "relative_name": "陳建年",
+    "relationship": "父親",
+    "degree": 1,
+    "relative_public_office": "原住民族委員會主任委員（非民選）",
+    "url": "https://www.fountmedia.io/article/369021",
+    "file": "g6_chen.html",
+    "access": "HTTP200全文已讀並保存",
+    "basis": "訪談報導同時記載父女關係及原民會主委職務；依既有G6保留公職種類"
+  },
+  {
+    "candidate_name": "吳秀華",
+    "relative_name": "吳俊立",
+    "relationship": "哥哥",
+    "degree": 2,
+    "relative_public_office": "臺東縣長",
+    "url": "https://www.cna.com.tw/news/asoc/202610200122.aspx",
+    "file": "g6_wu.html",
+    "access": "網頁閱讀工具已讀全文；直接HTTP403檔僅存失敗回應",
+    "basis": "中央社同時記載兄妹關係及前縣長職務；只使用親屬公職事實，不編碼案件指控"
+  }
+]

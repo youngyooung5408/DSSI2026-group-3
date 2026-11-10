@@ -1,0 +1,138 @@
+{
+  "executed_date": "2026-11-08",
+  "analysis_features": [
+    "G5_first_time_any_elected_office",
+    "G6_political_family"
+  ],
+  "distance": "equal-weight symmetric categorical Gower = Hamming",
+  "linkage": "average",
+  "primary_cut_distance": 0,
+  "primary_k": {
+    "all": 4,
+    "mayor": 3,
+    "council": 4
+  },
+  "input_bindings": {
+    "all": {
+      "path": "data/processed/taipei_kaohsiung_yu_provisional_all_20261108.csv",
+      "sha256": "35e3b85e407d4eb91e5c96043d06a407d21e070a5920032b26f74e916f883cbe",
+      "rows": 210
+    },
+    "mayor": {
+      "path": "data/processed/taipei_kaohsiung_yu_provisional_mayor_20261108.csv",
+      "sha256": "d8c448a6be69af7e6a291a376d0de31157c0267f7f41809a2a722599d3cbad65",
+      "rows": 11
+    },
+    "council": {
+      "path": "data/processed/taipei_kaohsiung_yu_provisional_council_20261108.csv",
+      "sha256": "a182db22545ca308286970e49c954d3a903af3afc7d6cd4a735c53d7cd8c41bf",
+      "rows": 199
+    }
+  },
+  "sample": [
+    {
+      "pool": "all",
+      "input_n": 210,
+      "included_n": 210,
+      "excluded_n": 0,
+      "G5_missing_n": 0,
+      "G6_missing_n": 0
+    },
+    {
+      "pool": "mayor",
+      "input_n": 11,
+      "included_n": 11,
+      "excluded_n": 0,
+      "G5_missing_n": 0,
+      "G6_missing_n": 0
+    },
+    {
+      "pool": "council",
+      "input_n": 199,
+      "included_n": 199,
+      "excluded_n": 0,
+      "G5_missing_n": 0,
+      "G6_missing_n": 0
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "saved_csv_count": 11,
+  "saved_csv_readback": true,
+  "unique_candidate_keys": true,
+  "three_pool_partition": true,
+  "cross_pool_profile_ids_agree": true,
+  "primary_order_invariance_100_permutations": true,
+  "bootstrap_replicates": 500,
+  "seed": 20261108,
+  "mayor_minimum_size_guideline_passed": false,
+  "G6_zero_means": "recorded search found no qualifying political relative",
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0",
+    "matplotlib": "3.11.0"
+  },
+  "baseline_bindings": {
+    "data/processed/tk_g5_g6_all_assignments_20261108.csv": "f54b623ccced6a8d5b8fd5cbd264379f9d4c2be6451a2f05c88ed4772ad7309b",
+    "data/processed/tk_g5_g6_mayor_assignments_20261108.csv": "1645b06697ea9d18c212e2712f882c8aba3ec5a83cf6d7df5ca5d57b1bcea8ee",
+    "data/processed/tk_g5_g6_council_assignments_20261108.csv": "efa5c7af2d23a4565791a29612793af6863c5ceb71190529b91da34d4f93fd1a",
+    "data/processed/tk_g5_g6_profiles_20261108.csv": "0077eda8bd3ea98313ed9add9c88a481bee966bce2ede6efd0ca3879b97dd75a",
+    "data/processed/tk_g5_g6_alternative_assignments_20261108.csv": "33a2a83f62b49af55e79c77fd6dc027802f801a22ded166c222f7f1b424c6d70"
+  },
+  "eligibility_disputed_provisionally_included_key": "2026|直轄市議員|臺北市第6選舉區|游智彬",
+  "official_eligibility_approval_claimed": false,
+  "inclusion_sensitivity": [
+    {
+      "pool": "all",
+      "before_n": 209,
+      "after_n": 210,
+      "common_n": 209,
+      "primary_changed_n": 0,
+      "primary_common_ARI": 1.0,
+      "before_k": 4,
+      "after_k": 4,
+      "max_absolute_percent_change_pp": 0.2301207564365484,
+      "new_provisional_n": 1,
+      "k2_common_ARI": 1.0,
+      "k3_common_ARI": 1.0
+    },
+    {
+      "pool": "mayor",
+      "before_n": 11,
+      "after_n": 11,
+      "common_n": 11,
+      "primary_changed_n": 0,
+      "primary_common_ARI": 1.0,
+      "before_k": 3,
+      "after_k": 3,
+      "max_absolute_percent_change_pp": 0.0,
+      "new_provisional_n": 0,
+      "k2_common_ARI": 1.0,
+      "k3_common_ARI": 1.0
+    },
+    {
+      "pool": "council",
+      "before_n": 198,
+      "after_n": 199,
+      "common_n": 198,
+      "primary_changed_n": 0,
+      "primary_common_ARI": 1.0,
+      "before_k": 4,
+      "after_k": 4,
+      "max_absolute_percent_change_pp": 0.24364245469772783,
+      "new_provisional_n": 1,
+      "k2_common_ARI": 1.0,
+      "k3_common_ARI": 1.0
+    }
+  ],
+  "election_results_impact_assessed": false,
+  "limitations": [
+    "Only two binary features; primary clusters exactly equal observed cross-tabulation profiles.",
+    "Primary silhouette 1 is mechanical with replicated profiles, not external validation.",
+    "Mayor N=11; cannot obtain 2 or more clusters each with at least 8 members.",
+    "G6 coding may reflect unequal public information; retained provenance includes inferred and secondary-source cases.",
+    "Includes one eligibility-disputed registrant provisionally for research; does not certify official eligibility or election effects."
+  ]
+}

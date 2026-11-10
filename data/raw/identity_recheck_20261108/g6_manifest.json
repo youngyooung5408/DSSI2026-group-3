@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "g6_hsieh",
+    "url": "https://www.nownews.com/news/5935408",
+    "status": 403,
+    "path": "data-science-course/data/raw/identity_recheck_20261108/g6_hsieh.html",
+    "sha256": "27895eba249cfa42aaad4d1ad9214501d15f278114fa73f168c507729ae66fb5",
+    "usable": false
+  },
+  {
+    "source_id": "g6_huang",
+    "url": "https://www.businesstoday.com.tw/article/category/154769/post/202001150048/",
+    "status": 200,
+    "path": "data-science-course/data/raw/identity_recheck_20261108/g6_huang.html",
+    "sha256": "7212c76b2d0029ccebbf5025f14c2dfc6480de72a38bde3a2e22adbcc9667c22",
+    "usable": true
+  },
+  {
+    "source_id": "g6_chen",
+    "url": "https://www.fountmedia.io/article/369021",
+    "status": 200,
+    "path": "data-science-course/data/raw/identity_recheck_20261108/g6_chen.html",
+    "sha256": "23501da9b9642ddb9c4d06e2aa6c7b68d36d99aba000e336df195ba0a06175e9",
+    "usable": true
+  },
+  {
+    "source_id": "g6_wu",
+    "url": "https://www.cna.com.tw/news/asoc/202610200122.aspx",
+    "status": 403,
+    "path": "data-science-course/data/raw/identity_recheck_20261108/g6_wu.html",
+    "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "usable": false
+  }
+]

@@ -85,6 +85,13 @@ it does not authorize repairs. Use [data-processing](../data-processing/SKILL.md
 only when the user's task includes the required data changes. Do not regenerate
 missing upstream code just to fill a provenance field.
 
+For authorized cleanup of credentials embedded in captured web sources, follow
+the [raw-source redaction procedure](../raw-data-documentation/SKILL.md#web-captures-and-embedded-credentials):
+keep exact originals privately outside Git, label sanitized repository copies,
+and update their provenance and fixed fingerprints. Verify the substantive
+evidence and prepared values remain intact. A preservation rule is not a reason
+to publish a detected credential or retain a stale checksum after cleanup.
+
 ## Synchronize the current data index
 
 Update the affected `PROJECT.md` → `Data Artifacts` rows in place using the shared

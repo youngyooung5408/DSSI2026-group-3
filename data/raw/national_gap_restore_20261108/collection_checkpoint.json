@@ -1,0 +1,17 @@
+{
+  "collection_started": "2026-11-08",
+  "collection_checkpoint": "2026-11-09",
+  "date_precision": "工具回應只保存工作日期；跨午夜部分批次沿用11/08常數，確切UTC時刻未保留，不偽造精確時間。",
+  "search_batches": 699,
+  "queries": 2792,
+  "core_G6_queries": 2442,
+  "G5_followup_queries": 346,
+  "alias_queries": 4,
+  "source_count": 2250,
+  "captured_text_count": 2090,
+  "failed_count": 160,
+  "decision_cells": 279,
+  "producer": "Codex web搜尋工具與Python requests全文採集；人工逐來源判讀另存reviewed_adjudications；原始外部採集無可獨立重跑的web工具Notebook。",
+  "no_automatic_zero_fill": true,
+  "clustering_rerun": false
+}

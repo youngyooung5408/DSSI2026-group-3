@@ -1,0 +1,84 @@
+[
+  {
+    "candidate_name": "曹爾元",
+    "county_city": "連江縣",
+    "variable": "G6_political_family",
+    "reason": "胞弟曹爾凱黨職／選過未當選本身不算，但縣府顧問是否政治任命及與曹氏公職人物親等尚未核實。不可因一般父母職業直接關為0。",
+    "source_ids": [
+      "43a89eb4826c254331ed",
+      "c0d557b9e422c84c1c7d"
+    ]
+  },
+  {
+    "candidate_name": "蔡美華",
+    "county_city": "新北市",
+    "variable": "G6_political_family",
+    "reason": "8cffec59ecb3104db0b3為臺中大里霧峰參選人，缺新北當屆學校／生日或職涯連結；不得合併。",
+    "source_ids": [
+      "8cffec59ecb3104db0b3"
+    ]
+  },
+  {
+    "candidate_name": "林明義",
+    "county_city": "桃園市",
+    "variable": "G5_first_time_any_elected_office",
+    "reason": "3de564dbcb4d6b839b5c為已故雲林立委，不能合併桃園本屆參選人。",
+    "source_ids": [
+      "3de564dbcb4d6b839b5c"
+    ]
+  },
+  {
+    "candidate_name": "李雅芬",
+    "county_city": "新竹縣",
+    "variable": "G5_first_time_any_elected_office",
+    "reason": "fe4dfad5e64d85effb7d為高雄市議員，不得無身分連結合併新竹縣同名人。",
+    "source_ids": [
+      "fe4dfad5e64d85effb7d"
+    ]
+  },
+  {
+    "candidate_name": "鄧凱勛",
+    "county_city": "新北市",
+    "variable": "G6_political_family",
+    "reason": "78d7e00e44ea34e4e5cd為31歲臺北港湖青年，現有新北同名身分連結不足。",
+    "source_ids": [
+      "78d7e00e44ea34e4e5cd"
+    ]
+  },
+  {
+    "candidate_name": "張嘉玲",
+    "county_city": "新北市",
+    "variable": "G6_political_family",
+    "reason": "配偶朱財慶總統秘書已知，需確認任命性質是否本研究政治任命；不將普通常任文官推為政治公職。",
+    "source_ids": [
+      "fee1c307a92cae27c5bd"
+    ]
+  },
+  {
+    "candidate_name": "顏蔚慈",
+    "county_city": "新北市",
+    "variable": "G6_political_family",
+    "reason": "已知配偶王安邦，需全文核實其政治任命公職。",
+    "source_ids": [
+      "d76aa8c5228c8976698d"
+    ]
+  },
+  {
+    "candidate_name": "陳竹音",
+    "county_city": "新北市",
+    "variable": "source_review",
+    "reason": "9998a9242ad44b002f6d只擷取到中評網3頁中的第1頁，不用此來源聲稱全文已讀；改採12894111e6c3071ab5a2完整人物頁。",
+    "source_ids": [
+      "9998a9242ad44b002f6d"
+    ]
+  },
+  {
+    "candidate_name": "楊悟空",
+    "county_city": "花蓮縣",
+    "variable": "G5_first_time_any_elected_office",
+    "reason": "50c535335b36adc34f24為AI摘要且聲稱政治世家，需原始具名來源及親等，不以AI摘要作核實依據。",
+    "source_ids": [
+      "50c535335b36adc34f24"
+    ]
+  }
+]

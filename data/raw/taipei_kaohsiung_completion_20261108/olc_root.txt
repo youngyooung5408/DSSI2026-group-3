@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />        <title>Errors選舉黃頁</title><link href="/favicon.ico" type="image/x-icon" rel="icon"/><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/><meta name="description" content="選舉黃頁提供了各種發生在中華民國的選舉資訊，主要聚焦在各種候選人"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="stylesheet" type="text/css" href="/css/jquery-ui.css"/><link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/><link rel="stylesheet" type="text/css" href="/css/animate.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.6.4/ol.css" type="text/css"><link rel="stylesheet" type="text/css" href="/css/default.css"/><script type="text/javascript" src="/js/jquery.js"></script>        <script>
+            var base_url = 'https://elections.olc.tw/';
+        </script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-5571465503362954",
+        enable_page_level_ads: true
+        });
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-static-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="/" class="navbar-brand">選舉黃頁</a>                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/areas" class="">行政區</a></li>
+                            <li><a href="/elections" class="">選舉區</a></li>
+                            <li><a href="/candidates" class="">候選人</a></li>
+                            <li><a href="/tags" class="">分類</a></li>
+                            <li><a href="/bulletins" class="">選舉公報</a></li>
+                        </ul>
+                        <form action="#" class="navbar-form navbar-right">
+                            <div class="input-group">
+                                <input name="data[Candidate][keyword]" placeholder="候選人姓名搜尋" class="form-control" type="text" id="CandidateKeyword"/><input name="data[Election][keyword]" placeholder="選舉區搜尋" class="form-control" style="display: none" type="text" id="ElectionKeyword"/>                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">候選人搜尋 <span class="caret"></span></button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li data-type="Candidate" data-desp="候選人搜尋"><a href="#">候選人</a></li>
+                                        <li data-type="Election" data-desp="選舉區搜尋"><a href="#">選舉區</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                            </div>
+            <div class="row">
+                <div class="btn-group">
+                                    </div>
+                            </div>
+            <h2>Not Found</h2>
+<p class="error">
+	<strong>Error: </strong>
+	The requested address <strong>'/api/elections/view/f29183a0-c2ce-4267-9a6e-09bf113e49ea?url=api%2Felections%2Fview%2Ff29183a0-c2ce-4267-9a6e-09bf113e49ea'</strong> was not found on this server.</p>
+            <div class="clearfix"></div>
+            <div class="row">
+                <div class="col-md-12" style="text-align:center">
+                                        <ins class="adsbygoogle"
+                         style="display:inline-block;width:80%;height:90px;margin-top:1.5em;"
+                         data-ad-client="ca-pub-5571465503362954"
+                         data-ad-slot="6710298420"
+                         data-ad-format="auto"></ins>
+                                        <hr>
+                    <div id="fb-root"></div>
+                    <script>
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id))
+                                return;
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=1393405437614114&version=v2.3";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                    </script>
+                </div>
+                <div class="col-md-6" style="text-align:center">
+                    <div class="fb-page" data-href="https://www.facebook.com/k.olc.tw" data-width="500" data-hide-cover="true" data-show-facepile="true" data-show-posts="false" data-colorscheme="dark"></div>
+                </div>
+                <p class="hidden-md hidden-lg">&nbsp;</p>
+                <div class="col-md-6" style="text-align:center">
+                    <div class="fb-page" data-href="https://www.facebook.com/g0v.tw" data-width="500" data-hide-cover="true" data-show-facepile="true" data-show-posts="false" data-colorscheme="dark"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="navbar-bottom navbar navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li>
+                            <a href="https://medium.com/%E6%B1%9F%E6%98%8E%E5%AE%97-kiang" target="_blank">江明宗</a>                        </li>
+                        <li>
+                            <a href="/pages/about">關於選舉黃頁</a>                        </li>
+                        <li>
+                            <a href="/pages/notice">免責聲明</a>                        </li>
+                        <li><a href="/members/login">登入</a></li>                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="/js/jquery-ui.js"></script><script type="text/javascript" src="/js/bootstrap.min.js"></script><script type="text/javascript" src="/js/olc.js"></script>        <script>
+            $(function () {
+                $('.navbar-form .dropdown-menu li').on('click', function (e) {
+                    $('.navbar-form .form-control').hide();
+                    var type = $(this).data('type'),
+                        desp = $(this).data('desp');
+
+                    $('#' + type + 'Keyword').show();
+                    $('.navbar-form .dropdown-toggle').html(desp + '&nbsp;<span class="caret"></span>');
+                });
+
+                $('a.dialogControl').on('click', function (e) {
+                    dialogFull(this);
+                    e.preventDefault();
+                });
+                $('#CandidateKeyword').autocomplete({
+                    source: '/candidates/s/',
+                    select: function (event, ui) {
+                        location.href = '/candidates/view/' + ui.item.id;
+                    },
+                    messages: {
+                        noResults: '',
+                        results: function () {
+                        }
+                    }
+                });
+                $('#ElectionKeyword').autocomplete({
+                    source: '/elections/s/',
+                    select: function (event, ui) {
+                        if (ui.item.rght - ui.item.lft === 1) {
+                            location.href = '/candidates/index/' + ui.item.id;
+                        } else {
+                            location.href = '/elections/index/' + ui.item.id;
+                        }
+
+                    },
+                    messages: {
+                        noResults: '',
+                        results: function () {
+                        }
+                    }
+                });
+            });
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W62L9V737K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W62L9V737K');
+</script>
+            </body>
+</html>

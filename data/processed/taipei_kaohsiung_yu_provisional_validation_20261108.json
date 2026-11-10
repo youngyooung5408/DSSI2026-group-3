@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-08",
+  "input_bindings": {
+    "data/processed/taipei_kaohsiung_all_20261108.csv": "90959d176ac9cb34dcd264c52df9e2690ba70b0fc7cd483f58fac320c41d5899",
+    "data/processed/taipei_kaohsiung_mayor_20261108.csv": "3b35f16286a7ea5d842d73f018ab4de5dc0900e4dd0bd1958da3c9ca9d4066e8",
+    "data/processed/taipei_kaohsiung_council_20261108.csv": "6f4791a6347009636b91fb0bb97e47a77ac684fa7ac3c81e875d5f3b175ee644",
+    "data/processed/taipei_kaohsiung_eligibility_audit_20261108.csv": "9f3868462b2f61d5c6ad7e16ff915516f1bb9ad950fb0a8b2d7775bc4ee8e830",
+    "data/processed/clustering_all_20261108.csv": "2a70db4a868a80b35934d0437196cc8f189d27c6625e7a67b0bb6e753c0305bc",
+    "data/raw/you_zhibin_provisional_20261108/court_20261106_fulltext.txt": "7c0377ed5e67966b3c2c23237c9822f27325eb84641a483ac298a46fcec640f9",
+    "data/raw/you_zhibin_provisional_20261108/family_mirror_fulltext.txt": "c4febfeb8180ab084bf5d004b0faf0f2fbce3da15e0188353a6805ba173260a2",
+    "data/raw/you_zhibin_provisional_20261108/family_observer_fulltext.txt": "0693acac19cfc935760450d55a27baa0956f7752e1f9d7cfe36da4b9b8a14e8e",
+    "data/raw/you_zhibin_provisional_20261108/kinship_law_fulltext.txt": "76cba03314e23af641b31dec3f1e9380dcd2e8270a9da702231cd821bb46a3de",
+    "data/raw/you_zhibin_provisional_20261108/user_inclusion_decision.json": "2c200f01586e9e9c9cc885841dca8aea62198242710609a6cdd3526503f6084f",
+    "data/raw/you_zhibin_provisional_20261108/G6_search_and_coding.json": "baf49b670061b8cd8454718c452bd658be7f1da60b1b29b896351589a54302ea",
+    "data/raw/you_zhibin_provisional_20261108/source_manifest.json": "410622864ebc202fbaf1044388a66102f4d74378e824369efd0d135d6859b75a"
+  },
+  "newly_included_key": "2026|直轄市議員|臺北市第6選舉區|游智彬",
+  "pools": {
+    "all": 210,
+    "mayor": 11,
+    "council": 199
+  },
+  "original_209_rows_all_cells_unchanged": true,
+  "baseline_eligibility_exclusion_preserved": true,
+  "official_approval_claimed": false,
+  "research_provisional_inclusion": true,
+  "G5_G6_missing": 0,
+  "G5": "0",
+  "G6": "0",
+  "G6_search_record": "data/raw/you_zhibin_provisional_20261108/G6_search_and_coding.json",
+  "three_pool_partition": true,
+  "saved_csv_count": 4,
+  "csv_readback": true,
+  "input_hashes_unchanged": true,
+  "limitation": "G6=0 means no qualifying spouse/within-three-degree political relative found in recorded search; four-degree political kin excluded by existing rule. Research inclusion does not certify eligibility or predict election outcomes."
+}

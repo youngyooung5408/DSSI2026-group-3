@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "olc_profile",
+    "url": "https://elections.olc.tw/candidates/view/170e52ed-5049-4e58-b5b9-46064686c4b6",
+    "http_status": 200,
+    "path": "data/raw/wei_zaowen_20261108/olc_profile.html",
+    "sha256": "c939caad45422d1d2ea327a84bda4e71eab38a2d0d1e28bad91f560985857c99",
+    "retrieved_date": "2026-11-08",
+    "full_text_reviewed": true,
+    "review_scope": "人物頁"
+  },
+  {
+    "source_id": "olc_api",
+    "url": "https://elections.olc.tw/api/candidates/view/170e52ed-5049-4e58-b5b9-46064686c4b6",
+    "http_status": 200,
+    "path": "data/raw/wei_zaowen_20261108/olc_api.json",
+    "sha256": "96aa4df09ab6954f417991170d616bff8fd2f9dc7cdbb2fc2f844664c27cc2a8",
+    "retrieved_date": "2026-11-08",
+    "full_text_reviewed": true,
+    "review_scope": "結構化本人紀錄"
+  },
+  {
+    "source_id": "udn_interview",
+    "url": "https://udn.com/news/amp/story/124652/9839561",
+    "http_status": 200,
+    "path": "data/raw/wei_zaowen_20261108/udn_interview.html",
+    "sha256": "ec24d9055b5b927124a4cc1b11d970ad2f6776e3de2d0f214edaa5c4516304a2",
+    "retrieved_date": "2026-11-08",
+    "full_text_reviewed": true,
+    "review_scope": "完整正文"
+  },
+  {
+    "source_id": "cdn_report",
+    "url": "https://www.cdnspg.com/articles/79886",
+    "http_status": 200,
+    "path": "data/raw/wei_zaowen_20261108/cdn_report.html",
+    "sha256": "a749eaf9957726aec62d7fcb68d993da1077da7271f484763832ab0c793a1208",
+    "retrieved_date": "2026-11-08",
+    "full_text_reviewed": true,
+    "review_scope": "完整正文"
+  },
+  {
+    "source_id": "ebc_interview",
+    "url": "https://news.ebc.net.tw/news/politics/577689",
+    "http_status": 200,
+    "path": "data/raw/wei_zaowen_20261108/ebc_interview.html",
+    "sha256": "c5b717e218146954e385eca907caf3ca61451448be4c4ab59eed8834309ddccf",
+    "retrieved_date": "2026-11-08",
+    "full_text_reviewed": true,
+    "review_scope": "完整正文"
+  },
+  {
+    "source_id": "ltn_candidates",
+    "url": "https://election.ltn.com.tw/2026/candidate",
+    "http_status": 200,
+    "path": "data/raw/wei_zaowen_20261108/ltn_candidates.html",
+    "sha256": "43a4cf9fa642af205c38f80b8ed524df2eeed6ddc8727a2823eef0fbdd69cf1a",
+    "retrieved_date": "2026-11-08",
+    "full_text_reviewed": false,
+    "review_scope": "魏造文本人區塊"
+  },
+  {
+    "source_id": "blindvote_bio",
+    "url": "https://blindvote.app/bio/keelung",
+    "http_status": 200,
+    "path": "data/raw/wei_zaowen_20261108/blindvote_bio.html",
+    "sha256": "cfe03d80adcdead67c8834317693e1635842d7d37d6deb21feb40eb007fd0522",
+    "retrieved_date": "2026-11-08",
+    "full_text_reviewed": false,
+    "review_scope": "人物頁"
+  }
+]

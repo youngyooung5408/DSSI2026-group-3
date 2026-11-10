@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-08",
+  "candidate_key": "2026|直轄市議員|臺北市第6選舉區|游智彬",
+  "candidate_name": "游智彬",
+  "queries": [
+    "游智彬 父親 母親 外公 政治 家族",
+    "游智彬 妻子 太太 親戚 議員 立委",
+    "游智彬 政二代 政治世家 家人",
+    "游智彬 外公 許",
+    "\"游智彬\" \"游日正\"",
+    "\"游智彬\" \"游亞慶\" 鹽場",
+    "\"游智彬\" \"親戚\" 議員 立委 家族",
+    "\"游智彬\" \"叔公\"",
+    "\"游智彬\" \"侄孫\"",
+    "\"游智彬\" \"外祖父\" \"立委\""
+  ],
+  "full_text_sources": [
+    {
+      "path": "data/raw/you_zhibin_provisional_20261108/family_mirror_fulltext.txt",
+      "source_url": "https://www.mirrormedia.mg/external/setn_1627531",
+      "title": "三立報導之鏡週刊轉載",
+      "access_date": "2026-11-08",
+      "capture_method": "HTTP200 HTML main-body extraction; source HTML retained outside repo in task temp directory",
+      "full_main_body_read": true,
+      "selector": "article",
+      "note": "全文明載外叔公游日正曾任鄉長／立委；四親等，超出已確認三親等範圍。不是戶籍認證。",
+      "sha256": "c4febfeb8180ab084bf5d004b0faf0f2fbce3da15e0188353a6805ba173260a2"
+    },
+    {
+      "path": "data/raw/you_zhibin_provisional_20261108/family_observer_fulltext.txt",
+      "source_url": "https://www.observer-taipei.com/book2021/item/3118-2023-12-01-05-51-37",
+      "title": "觀察雜誌2023年12月人物報導",
+      "access_date": "2026-11-08",
+      "capture_method": "HTTP200 HTML main-body extraction; source HTML retained outside repo in task temp directory",
+      "full_main_body_read": true,
+      "selector": ".itemFullText",
+      "note": "立場鮮明次級人物報導；全文將外公職涯描述為軍人轉業公務員、鹽場辦公室副主任，無可採政治任命證據。",
+      "sha256": "0693acac19cfc935760450d55a27baa0956f7752e1f9d7cfe36da4b9b8a14e8e"
+    },
+    {
+      "path": "data/raw/you_zhibin_provisional_20261108/kinship_law_fulltext.txt",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0000001&flno=968",
+      "title": "民法第968條親等計算",
+      "access_date": "2026-11-08",
+      "capture_method": "HTTP200 HTML main-body extraction; source HTML retained outside repo in task temp directory",
+      "full_main_body_read": true,
+      "selector": ".law-article",
+      "note": "沿現行G6親等計算；候選人→母親→外祖父→共同上一代→外叔公，四親等。",
+      "sha256": "76cba03314e23af641b31dec3f1e9380dcd2e8270a9da702231cd821bb46a3de"
+    }
+  ],
+  "G6_value": "0",
+  "G6_label": "已搜尋；未發現配偶或三親等內符合範圍的公職親屬",
+  "excluded_leads": [
+    {
+      "relative": "外叔公游日正",
+      "public_office": "報導明載曾任龍潭鄉長與立委",
+      "kinship_degree": 4,
+      "reason": "四親等超出本研究三親等範圍；關係採次級報導，非戶籍認證。"
+    },
+    {
+      "relative": "外公游亞慶",
+      "occupation": "報導記載軍人轉業公務員，漳浦鹽場辦公室副主任離休",
+      "reason": "一般軍職／常任文官按先前學生規則排除；未找到其擔任符合範圍之政治任命公職的可採記載。"
+    }
+  ],
+  "coding_rule": "沿學生先前決定：完成記錄搜尋而未發現符合定義者編0；不把未搜尋者整批填0。",
+  "evidence_tier": "recorded_search_negative_with_out_of_scope_relative_leads",
+  "limitations": "0是本次搜尋與既定親等／職務範圍下的結果，不等於沒有任何政治人物親戚。未宣稱查遍全部網路、未採社群留言作親屬證明。",
+  "evidence": "三立／鏡週刊全文記載外叔公游日正；按民法968旁系計數為四親等，超出三親等。觀察雜誌全文記外公軍人轉業公務員、鹽場辦公室副主任，依既定一般軍文職排除；本輪其他記錄搜尋未找到配偶或三親等內符合公職親屬。"
+}

@@ -1,0 +1,3693 @@
+[
+  {
+    "candidate_key": "2026-C1-001",
+    "candidate_name": "郭璽",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"郭璽\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_00.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"郭璽\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_00.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "配偶黃瓊慧不與桃園同名議員直接合併；未查得可核實公職親屬。"
+  },
+  {
+    "candidate_key": "2026-C1-002",
+    "candidate_name": "沈伯洋",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"沈伯洋\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_00.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026-C1-003",
+    "candidate_name": "蕭文乾",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"蕭文乾\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_00.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"蕭文乾\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_00.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "父親蕭燐洪參選，不等於曾任公職；未查得符合範圍任職事實。"
+  },
+  {
+    "candidate_key": "2026-C1-004",
+    "candidate_name": "唐新民",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"唐新民\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_00.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"唐新民\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_00.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "父親唐煥章／外祖父聶鐵民商會等線索未找到符合範圍公職；未以職稱相似推定。"
+  },
+  {
+    "candidate_key": "2026-C1-019",
+    "candidate_name": "張靜",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張靜\" 高雄市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_01.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張靜\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_00.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"張靜\" 高雄市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_0.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026-C1-020",
+    "candidate_name": "賴瑞隆",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"賴瑞隆\" 高雄市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_01.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"賴瑞隆\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_01.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026-C1-021",
+    "candidate_name": "王肇民",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"王肇民\" 高雄市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_01.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"王肇民\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_01.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"王肇民\" 高雄市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_0.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026-C1-023",
+    "candidate_name": "洪方隆",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"洪方隆\" 高雄市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_01.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"洪方隆\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_01.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"洪方隆\" 高雄市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_0.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|謝閔弘",
+    "candidate_name": "謝閔弘",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"謝閔弘\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_02.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"謝閔弘\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_01.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|李文",
+    "candidate_name": "李文",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李文\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_02.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳彥廷",
+    "candidate_name": "陳彥廷",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳彥廷\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_02.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳彥廷\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_02.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|紀建漢",
+    "candidate_name": "紀建漢",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"紀建漢\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒)",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_02.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳賢蔚",
+    "candidate_name": "陳賢蔚",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳賢蔚\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_03.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳賢蔚\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_02.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林世宗",
+    "candidate_name": "林世宗",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林世宗\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_03.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林世宗\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_02.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "配偶陳郁美未證明是同名前議員；排除未核同名親屬連結。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|黃瀞瑩",
+    "candidate_name": "黃瀞瑩",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃瀞瑩\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_03.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃瀞瑩\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_02.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林揚庭",
+    "candidate_name": "林揚庭",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"林揚庭\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_03.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林揚庭\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_0.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|陳重文",
+    "candidate_name": "陳重文",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳重文\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_04.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳重文\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_03.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林杏兒",
+    "candidate_name": "林杏兒",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林杏兒\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_04.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林杏兒\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_03.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|張斯綱",
+    "candidate_name": "張斯綱",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張斯綱\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_04.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張斯綱\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_03.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|賴苡任",
+    "candidate_name": "賴苡任",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"賴苡任\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_04.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"賴苡任\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_03.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|汪志冰",
+    "candidate_name": "汪志冰",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"汪志冰\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_05.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"汪志冰\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_04.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|劉致妤",
+    "candidate_name": "劉致妤",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"劉致妤\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_05.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"劉致妤\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_04.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "藝人父兄不是公職；母親參選線索未找到曾任符合範圍公職事實。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林延鳳",
+    "candidate_name": "林延鳳",
+    "county_city": "臺北市",
+    "status": "pending_scope_or_relation",
+    "queries": [
+      {
+        "query": "\"林延鳳\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_05.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林延鳳\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_04.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林聖峰",
+    "candidate_name": "林聖峰",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林聖峰\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_05.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林聖峰\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_04.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|吳欣岱",
+    "candidate_name": "吳欣岱",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"吳欣岱\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_06.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"吳欣岱\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_05.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|李明賢",
+    "candidate_name": "李明賢",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李明賢\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_06.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李明賢\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_05.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳冠安",
+    "candidate_name": "陳冠安",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳冠安\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_06.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳冠安\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_05.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|高嘉瑜",
+    "candidate_name": "高嘉瑜",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"高嘉瑜\" 臺北市 (政治世家 OR 政治家族 OR 父親 OR 母親 OR 配偶 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_06.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"高嘉瑜\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_05.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|王孝維",
+    "candidate_name": "王孝維",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"王孝維\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_07.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"王孝維\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_06.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"王孝維\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_1.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|游淑慧",
+    "candidate_name": "游淑慧",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"游淑慧\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_07.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"游淑慧\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_06.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "政治導師、乾爹等稱呼未構成可核實三親等血姻親。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|何孟樺",
+    "candidate_name": "何孟樺",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"何孟樺\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_07.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"何孟樺\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_06.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳宥丞",
+    "candidate_name": "陳宥丞",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳宥丞\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_07.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳宥丞\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_06.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|何恕懷",
+    "candidate_name": "何恕懷",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"何恕懷\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_08.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"何恕懷\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_07.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"何恕懷\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_1.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|陳又新",
+    "candidate_name": "陳又新",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳又新\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_08.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳又新\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_07.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|吳世正",
+    "candidate_name": "吳世正",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"吳世正\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_08.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"吳世正\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_07.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第2選舉區|黃啟彬",
+    "candidate_name": "黃啟彬",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃啟彬\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_08.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃啟彬\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_07.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|鄧樂強",
+    "candidate_name": "鄧樂強",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"鄧樂強\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_09.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"鄧樂強\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_08.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"鄧樂強\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_1.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|詹為元",
+    "candidate_name": "詹為元",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"詹為元\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_09.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"詹為元\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_08.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|郭凡",
+    "candidate_name": "郭凡",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"郭凡\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_09.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"郭凡\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_08.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "父親記者、演藝親屬不是可採公職。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|李明璇",
+    "candidate_name": "李明璇",
+    "county_city": "臺北市",
+    "status": "pending_scope_or_relation",
+    "queries": [
+      {
+        "query": "\"李明璇\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_09.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李明璇\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_08.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|秦慧珠",
+    "candidate_name": "秦慧珠",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"秦慧珠\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_10.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"秦慧珠\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_09.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|洪健益",
+    "candidate_name": "洪健益",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"洪健益\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_10.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"洪健益\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_09.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|戴錫欽",
+    "candidate_name": "戴錫欽",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"戴錫欽\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_10.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"戴錫欽\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_09.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|許甫",
+    "candidate_name": "許甫",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"許甫\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_10.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|左曉明",
+    "candidate_name": "左曉明",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"左曉明\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_11.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"左曉明\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_09.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"左曉明\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_1.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|許淑華",
+    "candidate_name": "許淑華",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"許淑華\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_11.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"許淑華\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_10.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "採臺北民進黨許淑華，排除南投國民黨同名縣長。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|林柏勛",
+    "candidate_name": "林柏勛",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林柏勛\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_11.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林柏勛\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_10.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第3選舉區|許原榮",
+    "candidate_name": "許原榮",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"許原榮\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_11.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"許原榮\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_10.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|朱政騏",
+    "candidate_name": "朱政騏",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"朱政騏\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_12.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"朱政騏\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_10.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|顏若芳",
+    "candidate_name": "顏若芳",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"顏若芳\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_12.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"顏若芳\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_11.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|賴俊翰",
+    "candidate_name": "賴俊翰",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"賴俊翰\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_12.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"賴俊翰\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_2.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|熊羿",
+    "candidate_name": "熊羿",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"熊羿\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_12.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"熊羿\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_11.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|李易儒",
+    "candidate_name": "李易儒",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李易儒\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_13.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李易儒\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_11.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|林子揚",
+    "candidate_name": "林子揚",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"林子揚\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_13.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|柳采葳",
+    "candidate_name": "柳采葳",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"柳采葳\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_13.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"柳采葳\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_11.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|葉林傳",
+    "candidate_name": "葉林傳",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"葉林傳\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_13.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"葉林傳\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_12.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|黃麗香",
+    "candidate_name": "黃麗香",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃麗香\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_14.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃麗香\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_12.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"黃麗香\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_2.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|陳怡君",
+    "candidate_name": "陳怡君",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"陳怡君\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_14.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第4選舉區|李惠暄",
+    "candidate_name": "李惠暄",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李惠暄\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_14.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|張銘祐",
+    "candidate_name": "張銘祐",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張銘祐\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_14.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張銘祐\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_12.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|鍾小平",
+    "candidate_name": "鍾小平",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"鍾小平\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_15.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"鍾小平\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_12.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|陳力新",
+    "candidate_name": "陳力新",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳力新\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_15.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳力新\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_13.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|王振庭",
+    "candidate_name": "王振庭",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"王振庭\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_15.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"王振庭\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_13.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|洪婉臻",
+    "candidate_name": "洪婉臻",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"洪婉臻\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_15.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"洪婉臻\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_13.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|吳怡萱",
+    "candidate_name": "吳怡萱",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"吳怡萱\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_16.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"吳怡萱\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_13.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|應佳妤",
+    "candidate_name": "應佳妤",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"應佳妤\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_16.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|劉耀仁",
+    "candidate_name": "劉耀仁",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"劉耀仁\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_16.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"劉耀仁\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_14.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|張延廷",
+    "candidate_name": "張延廷",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張延廷\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_16.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張延廷\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_14.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|徐立信",
+    "candidate_name": "徐立信",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"徐立信\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_17.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"徐立信\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_14.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|馬郁雯",
+    "candidate_name": "馬郁雯",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"馬郁雯\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_17.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"馬郁雯\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_14.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第5選舉區|譚傳紹",
+    "candidate_name": "譚傳紹",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"譚傳紹\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_17.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"譚傳紹\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_15.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"譚傳紹\" 臺北市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_2.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|李道翔",
+    "candidate_name": "李道翔",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李道翔\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_17.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李道翔\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_15.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|陳峙穎",
+    "candidate_name": "陳峙穎",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳峙穎\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_18.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳峙穎\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_15.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|李奇峯",
+    "candidate_name": "李奇峯",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李奇峯\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_18.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李奇峯\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_15.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|簡舒培",
+    "candidate_name": "簡舒培",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"簡舒培\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_18.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"簡舒培\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_16.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|楊植斗",
+    "candidate_name": "楊植斗",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"楊植斗\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_18.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|陳聖文",
+    "candidate_name": "陳聖文",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳聖文\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_19.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳聖文\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_16.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|徐弘庭",
+    "candidate_name": "徐弘庭",
+    "county_city": "臺北市",
+    "status": "pending_scope_or_relation",
+    "queries": [
+      {
+        "query": "\"徐弘庭\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_19.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"徐弘庭\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_16.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|苗博雅",
+    "candidate_name": "苗博雅",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"苗博雅\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_19.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"苗博雅\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_16.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|陳錦祥",
+    "candidate_name": "陳錦祥",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳錦祥\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_19.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳錦祥\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_17.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|李柏毅",
+    "candidate_name": "李柏毅",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李柏毅\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_20.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|劉品妡",
+    "candidate_name": "劉品妡",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"劉品妡\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_20.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"劉品妡\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_17.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|張志豪",
+    "candidate_name": "張志豪",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張志豪\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_20.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張志豪\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_17.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "採臺北民眾黨機師，排除新北民進黨同名議員與香港運動員。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|曾獻瑩",
+    "candidate_name": "曾獻瑩",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"曾獻瑩\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_20.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"曾獻瑩\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_17.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|王欣儀",
+    "candidate_name": "王欣儀",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"王欣儀\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_21.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"王欣儀\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_18.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|王閔生",
+    "candidate_name": "王閔生",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"王閔生\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_21.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"王閔生\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_18.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第6選舉區|張維學",
+    "candidate_name": "張維學",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張維學\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_21.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張維學\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_18.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第7選舉區|林筱薇IcyangTamana",
+    "candidate_name": "林筱薇IcyangTamana",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林筱薇\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_21.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林筱薇\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_18.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第8選舉區|林家豪",
+    "candidate_name": "林家豪",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林家豪\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_22.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林家豪\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_19.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第8選舉區|李傅鈺婷",
+    "candidate_name": "李傅鈺婷",
+    "county_city": "臺北市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李傅鈺婷\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_22.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺北市第8選舉區|孔垂崢HaisulIslituan",
+    "candidate_name": "孔垂崢HaisulIslituan",
+    "county_city": "臺北市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"孔垂崢\" 臺北市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_22.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"孔垂崢\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_19.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第1選舉區|林富寶",
+    "candidate_name": "林富寶",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林富寶\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_22.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林富寶\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_19.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第1選舉區|林義迪",
+    "candidate_name": "林義迪",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林義迪\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_23.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林義迪\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_19.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第1選舉區|鍾炳光",
+    "candidate_name": "鍾炳光",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"鍾炳光\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_23.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"鍾炳光\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_20.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第2選舉區|李柏融",
+    "candidate_name": "李柏融",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李柏融\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_23.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李柏融\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_20.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第2選舉區|黃明太",
+    "candidate_name": "黃明太",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃明太\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_23.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃明太\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_20.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第2選舉區|鄭東元",
+    "candidate_name": "鄭東元",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"鄭東元\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_24.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"鄭東元\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_20.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第2選舉區|陳琳潔",
+    "candidate_name": "陳琳潔",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"陳琳潔\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_24.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第2選舉區|李亞築",
+    "candidate_name": "李亞築",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李亞築\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_24.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|張騏晟",
+    "candidate_name": "張騏晟",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"張騏晟\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_24.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|林志誠",
+    "candidate_name": "林志誠",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林志誠\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_25.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林志誠\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_21.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|方信淵",
+    "candidate_name": "方信淵",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"方信淵\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_25.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"方信淵\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_21.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|宋立彬",
+    "candidate_name": "宋立彬",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"宋立彬\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_25.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|蔡秉璁",
+    "candidate_name": "蔡秉璁",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"蔡秉璁\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_25.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"蔡秉璁\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_21.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|黃秋媖",
+    "candidate_name": "黃秋媖",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"黃秋媖\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_26.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|黃韻涵",
+    "candidate_name": "黃韻涵",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"黃韻涵\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_26.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第3選舉區|蔣黃女",
+    "candidate_name": "蔣黃女",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"蔣黃女\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_26.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"蔣黃女\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_21.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|陳冠宇",
+    "candidate_name": "陳冠宇",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"陳冠宇\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_26.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳冠宇\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_22.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|尹立",
+    "candidate_name": "尹立",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"尹立\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_27.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"尹立\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_22.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|陳麗珍",
+    "candidate_name": "陳麗珍",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳麗珍\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_27.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳麗珍\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_22.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|李雅慧",
+    "candidate_name": "李雅慧",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李雅慧\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_27.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李雅慧\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_22.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|張以理",
+    "candidate_name": "張以理",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張以理\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_27.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張以理\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_23.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|黃文志",
+    "candidate_name": "黃文志",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"黃文志\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_28.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|李雅芬",
+    "candidate_name": "李雅芬",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李雅芬\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_28.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|陳玫娟",
+    "candidate_name": "陳玫娟",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"陳玫娟\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_28.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|薛兆基",
+    "candidate_name": "薛兆基",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"薛兆基\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_28.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"薛兆基\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_23.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|柳淑芳",
+    "candidate_name": "柳淑芳",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"柳淑芳\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_29.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"柳淑芳\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_23.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|李眉蓁",
+    "candidate_name": "李眉蓁",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李眉蓁\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_29.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第4選舉區|白喬茵",
+    "candidate_name": "白喬茵",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"白喬茵\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_29.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"白喬茵\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_23.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|邱俊憲",
+    "candidate_name": "邱俊憲",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"邱俊憲\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_29.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"邱俊憲\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_24.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|黃飛鳳",
+    "candidate_name": "黃飛鳳",
+    "county_city": "高雄市",
+    "status": "pending_scope_or_relation",
+    "queries": [
+      {
+        "query": "\"黃飛鳳\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_30.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃飛鳳\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_24.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|張勝富",
+    "candidate_name": "張勝富",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張勝富\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_30.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張勝富\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_24.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|江瑞鴻",
+    "candidate_name": "江瑞鴻",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"江瑞鴻\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_30.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"江瑞鴻\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_24.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|陳若翠",
+    "candidate_name": "陳若翠",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳若翠\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_30.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳若翠\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_25.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|吳利成",
+    "candidate_name": "吳利成",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"吳利成\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_31.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"吳利成\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_25.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第5選舉區|陳惠君",
+    "candidate_name": "陳惠君",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳惠君\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_31.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳惠君\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_25.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第6選舉區|簡煥宗",
+    "candidate_name": "簡煥宗",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"簡煥宗\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_31.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"簡煥宗\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_25.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第6選舉區|李喬如",
+    "candidate_name": "李喬如",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李喬如\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_31.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李喬如\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_26.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|黃淑美",
+    "candidate_name": "黃淑美",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃淑美\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_32.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃淑美\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_26.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|曾俊傑",
+    "candidate_name": "曾俊傑",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"曾俊傑\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_32.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|何權峰",
+    "candidate_name": "何權峰",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"何權峰\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_32.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|張博洋",
+    "candidate_name": "張博洋",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張博洋\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_32.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張博洋\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_26.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|康裕成",
+    "candidate_name": "康裕成",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"康裕成\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_33.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"康裕成\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_26.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|余聖明",
+    "candidate_name": "余聖明",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"余聖明\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_33.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"余聖明\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_27.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"余聖明\" 高雄市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_2.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|林彥",
+    "candidate_name": "林彥",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"林彥\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_33.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|童燕珍",
+    "candidate_name": "童燕珍",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"童燕珍\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_33.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"童燕珍\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_27.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|黃香菽",
+    "candidate_name": "黃香菽",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"黃香菽\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_34.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第7選舉區|林于凱",
+    "candidate_name": "林于凱",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林于凱\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_34.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林于凱\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_27.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃文益",
+    "candidate_name": "黃文益",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃文益\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_34.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃文益\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_27.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|郭建盟",
+    "candidate_name": "郭建盟",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"郭建盟\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_34.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"郭建盟\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_28.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|陳雅敏",
+    "candidate_name": "陳雅敏",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳雅敏\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_35.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳雅敏\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_28.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃舜杰",
+    "candidate_name": "黃舜杰",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃舜杰\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_35.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃舜杰\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_28.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|鄒約翰",
+    "candidate_name": "鄒約翰",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"鄒約翰\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_35.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"鄒約翰\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_28.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃裕庭",
+    "candidate_name": "黃裕庭",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃裕庭\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_35.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃裕庭\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_29.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "男性黃裕庭，不與女性黃鈺婷合併；政治友人不等於親屬。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第8選舉區|黃鈺婷",
+    "candidate_name": "黃鈺婷",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"黃鈺婷\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_36.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|林智鴻",
+    "candidate_name": "林智鴻",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林智鴻\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_36.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林智鴻\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_29.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|蘇致榮",
+    "candidate_name": "蘇致榮",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"蘇致榮\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_36.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|李雅靜",
+    "candidate_name": "李雅靜",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李雅靜\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_36.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李雅靜\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_29.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|劉德林",
+    "candidate_name": "劉德林",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"劉德林\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_37.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"劉德林\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_29.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|陳慧文",
+    "candidate_name": "陳慧文",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳慧文\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_37.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳慧文\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_30.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|張漢忠",
+    "candidate_name": "張漢忠",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"張漢忠\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_37.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|鄧巧佩",
+    "candidate_name": "鄧巧佩",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"鄧巧佩\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_37.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"鄧巧佩\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_30.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第9選舉區|徐尚賢",
+    "candidate_name": "徐尚賢",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"徐尚賢\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_38.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"徐尚賢\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_30.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|鄭光峰",
+    "candidate_name": "鄭光峰",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"鄭光峰\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_38.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"鄭光峰\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_30.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|李政憲",
+    "candidate_name": "李政憲",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李政憲\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_38.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李政憲\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_31.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|劉仙娥",
+    "candidate_name": "劉仙娥",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"劉仙娥\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_38.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"劉仙娥\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_31.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|吳昱鋒",
+    "candidate_name": "吳昱鋒",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"吳昱鋒\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_39.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|吳銘賜",
+    "candidate_name": "吳銘賜",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"吳銘賜\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_39.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|李順進",
+    "candidate_name": "李順進",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李順進\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_39.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李順進\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_31.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|黃敬雅",
+    "candidate_name": "黃敬雅",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃敬雅\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_39.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃敬雅\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_31.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "配偶立委助理，不直接當作已任公職。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|李紘毅",
+    "candidate_name": "李紘毅",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"李紘毅\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_40.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"李紘毅\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_32.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"李紘毅\" 高雄市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_3.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": "2023港明里重選李紘毅與已逝前任李文正不同人，未發現兩人親屬關係，不因接任或同姓直接編家族。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|蔡武宏",
+    "candidate_name": "蔡武宏",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"蔡武宏\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_40.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|于仙玲",
+    "candidate_name": "于仙玲",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"于仙玲\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_40.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"于仙玲\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_32.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|湯茹婷",
+    "candidate_name": "湯茹婷",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"湯茹婷\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_40.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"湯茹婷\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_32.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第10選舉區|張藝璉",
+    "candidate_name": "張藝璉",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"張藝璉\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_41.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張藝璉\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_32.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第11選舉區|張耀中",
+    "candidate_name": "張耀中",
+    "county_city": "高雄市",
+    "status": "pending_scope_or_relation",
+    "queries": [
+      {
+        "query": "\"張耀中\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_41.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"張耀中\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_33.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第11選舉區|李雨庭",
+    "candidate_name": "李雨庭",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"李雨庭\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_41.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第11選舉區|王耀裕",
+    "candidate_name": "王耀裕",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"王耀裕\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_41.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"王耀裕\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_33.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第11選舉區|黃天煌",
+    "candidate_name": "黃天煌",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"黃天煌\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_42.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"黃天煌\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_33.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第11選舉區|洪村銘",
+    "candidate_name": "洪村銘",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"洪村銘\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_42.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第11選舉區|邱于軒",
+    "candidate_name": "邱于軒",
+    "county_city": "高雄市",
+    "status": "positive_full_text",
+    "queries": [
+      {
+        "query": "\"邱于軒\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_42.json",
+        "pass_type": "family_first"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第12選舉區|巫振興",
+    "candidate_name": "巫振興",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"巫振興\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_42.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"巫振興\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_33.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第12選舉區|宋紹銘",
+    "candidate_name": "宋紹銘",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"宋紹銘\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_43.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"宋紹銘\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_34.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第12選舉區|王義雄",
+    "candidate_name": "王義雄",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"王義雄\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_43.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"王義雄\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_34.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第13選舉區|陳幸富",
+    "candidate_name": "陳幸富",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳幸富\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_43.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳幸富\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_34.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第13選舉區|葛姵瑩",
+    "candidate_name": "葛姵瑩",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"葛姵瑩\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_43.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"葛姵瑩\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_34.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第14選舉區|林錫閔",
+    "candidate_name": "林錫閔",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"林錫閔\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_44.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"林錫閔\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_35.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第14選舉區|洪英雄Salizan．binkinuan",
+    "candidate_name": "洪英雄Salizan．binkinuan",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"洪英雄\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_44.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"洪英雄\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_35.json",
+        "pass_type": "family_second"
+      },
+      {
+        "query": "\"洪英雄\" 高雄市 政治世家 家人",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_3.json",
+        "pass_type": "family_targeted"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第14選舉區|高忠德Takiludun．Anu",
+    "candidate_name": "高忠德Takiludun．Anu",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"高忠德\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_44.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"高忠德\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_35.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第15選舉區|金禾雅",
+    "candidate_name": "金禾雅",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"金禾雅\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_44.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"金禾雅\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_35.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  },
+  {
+    "candidate_key": "2026|直轄市議員|高雄市第15選舉區|陳奕蓁",
+    "candidate_name": "陳奕蓁",
+    "county_city": "高雄市",
+    "status": "searched_no_qualifying_evidence",
+    "queries": [
+      {
+        "query": "\"陳奕蓁\" 高雄市 (政治世家 OR 父親 OR 母親 OR 丈夫 OR 妻子 OR 哥哥 OR 姊姊 OR 叔叔 OR 姑姑 OR 兒子 OR 女兒) -site:reddit.com -site:dcard.tw",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_45.json",
+        "pass_type": "family_first"
+      },
+      {
+        "query": "\"陳奕蓁\" 政二代 政治世家",
+        "capture": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_36.json",
+        "pass_type": "family_second"
+      }
+    ],
+    "checked_date": "2026-11-08",
+    "limitation": "有限查詢未發現，不是證明沒有；搜尋摘要僅定位，未從摘要直接編正值。",
+    "note": ""
+  }
+]

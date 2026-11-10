@@ -52,7 +52,8 @@ Follow [the shared discussion rule](../../FINDING-RULES.md#不確定的資訊先
 2. Establish the source, observation unit, received date, sample period, and relevant
    variable meanings. Ask about ambiguities that affect interpretation. For a requested
    draft, mark unavailable metadata as pending instead of inventing it.
-3. Preserve the original bytes under `data/raw/`. If the student supplied a file
+3. Preserve the original bytes under `data/raw/`, subject to the web-capture
+   credential procedure below. If the student supplied a file
    elsewhere, copy it only within the authorized data-documentation task, verify
    the copy, and retain the original name unless it conflicts with another source.
 4. Start from the selected formal template. Preserve its field and section order:
@@ -74,6 +75,30 @@ Follow [the shared discussion rule](../../FINDING-RULES.md#不確定的資訊先
    producer `not applicable (source)`, actual hash, and the checks that ran. Use
    the shared data-handoff rules; document next processing needs without silently
    starting a cleaning or modeling task the student did not request.
+
+## Web captures and embedded credentials
+
+When a web capture is intended for Git/publication, inspect the full saved bytes,
+including HTML script configuration and JSON, for credential patterns. Article
+text extraction alone does not check embedded configuration. Do not print, test,
+or use detected tokens, or assume that third-party/public-token prefixes will
+necessarily pass the destination's push protection.
+
+For authorized capture preparation or credential cleanup, keep the exact original
+privately outside the repository and record its checksum. Redact only the token
+bytes in the repository copy, label that copy as sanitized, and verify the rest
+of the content is unchanged. Do not stage the private original or place a backup
+inside Git. Keep original-capture and sanitized-copy hashes explicitly distinct.
+If redaction affects substantive evidence or preservation rights are unresolved,
+retain the publication step as pending and clarify that specific issue.
+
+Update affected download/input manifests, fixed notebook hashes and data-index
+rows through [data-documentation maintenance](../maintain-data-documentation/SKILL.md).
+Re-run the affected checks and verify prepared research values are unchanged when
+only configuration tokens were removed. Record scanner coverage and unreadable
+content; zero matches is limited evidence, not a guarantee of GitHub acceptance.
+For a blocked commit, use the submission skill's
+[history-repair guidance](../prepare-work-record/references/git-submission-recovery.md#repair-an-unpublished-credential-bearing-commit).
 
 ## Writing and coding rules
 

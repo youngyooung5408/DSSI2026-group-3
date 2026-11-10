@@ -1,0 +1,22 @@
+[
+  {
+    "id": "deng_scope_www",
+    "url": "https://www.statebuilding.tw/news/16769/",
+    "status": 522,
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_scope_www.txt",
+    "sha256": "4ccb7f1611c7ef36dc2fface857cd5a6a11a12c980b1b5d6d50615105d09e34a",
+    "length": 7277,
+    "content_type": "text/html; charset=UTF-8",
+    "preview": "statebuilding.tw | 522: Connection timed out Connection timed out Error code 522 Visit cloudflare.com for more information. 2026-11-08 09:24:02 UTC You Browser Working Kaohsiung City Cloudflare Workin"
+  },
+  {
+    "id": "deng_scope_api",
+    "url": "https://statebuilding.tw/wp-json/wp/v2/posts/16769",
+    "status": 404,
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_scope_api.txt",
+    "sha256": "a450cad3ce91611a5dd65bdd1ad271e4cb2a9eaf9fbcece6ea17fb7fa99cb194",
+    "length": 27810,
+    "content_type": "text/html; charset=utf-8",
+    "preview": "頁面不存在 | 台灣基進 關於基進 關於基進 主席的話 政策綱領 基進的故事 大事紀 組織架構 聲明與新聞稿 聲明與新聞稿 前進陣線專區 政策研究與刊物 政策研究 刊物出版 基進影音 參選人專區 活動訊息 募款專區 捐款 黨費繳交 聯絡我們 搜尋 關於基進 主席的話 政策綱領 基進的故事 大事紀 組織架構 聲明與新聞稿 前進陣線專區 政策研究與刊物 刊物出版 基進影音 參選人專區 活動訊息 募款專"
+  }
+]

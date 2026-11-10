@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-08",
+  "updates": [
+    {
+      "candidate_key": "2026|直轄市議員|臺北市第8選舉區|李傅鈺婷",
+      "candidate_name": "李傅鈺婷",
+      "county_city": "臺北市",
+      "variable": "G1_age_2026_minus_birth_year",
+      "value": "27",
+      "evidence": "2026年6月13日時報新聞／富聯網全文明載27歲；父女關係、臺北山地原住民選區與當屆徵召身分相符。依已確認規則採報導年齡，估計出生年1999±1，不補造完整生日。",
+      "evidence_tier": "reported_age_proxy_pm1",
+      "source_url": "https://ww2.money-link.com.tw/RealtimeNews/NewsContent.aspx?PU=0050&SN=6206628001",
+      "source_file": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lifuyuting_age_full.json",
+      "reading_status": "full_body_read",
+      "download_status": "web_tool_text_capture",
+      "capture_note": "全文149–161行已讀；不以文章標題或搜尋摘要單獨採值。",
+      "checked_date": "2026-11-08",
+      "estimated_birth_year": "1999",
+      "age_uncertainty_flag": "reported_age_birth_year_pm1"
+    }
+  ]
+}

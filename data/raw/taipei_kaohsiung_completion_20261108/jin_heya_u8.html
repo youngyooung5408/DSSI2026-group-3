@@ -1,0 +1,2425 @@
+
+<!DOCTYPE html>
+<html class="" data-bs-theme="light" lang="zh-tw">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>&#x9AD8;&#x96C4;&#x5E02;&#x539F;&#x4F4F;&#x6C11;&#x65CF;&#x90E8;&#x843D;&#x5927;&#x5B78;-&#x8B1B;&#x5E2B;&#x7C21;&#x4ECB;</title>
+    <meta content="width=device-width, initial-scale=1.0,  shrink-to-fit=no, maximum-scale=1.0, user-scalable=0;"
+          name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="透過部落大學之課程與教學，以及和高等教育機構、相關社教機構與成教機構進行策略聯盟，希望藉此能創新部落產業經營管道與模式，提升其產值與改善部落之生活水準">
+    <meta name="keywords" content="&#x9AD8;&#x96C4;&#x5E02;&#x539F;&#x4F4F;&#x6C11;&#x65CF;&#x90E8;&#x843D;&#x5927;&#x5B78;,部落大學,原住民,課程,族語樂園,活動花絮" />
+    <meta charset="UTF-8" content="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" csrf-param="_csrf_token" method-param="_method" name="csrf-token">
+    <!-- icon -->
+    <link rel="stylesheet" type="text/css" href="/css/cdn/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/cdn/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/cdn/releases.css">
+    <link rel="stylesheet" href="/css/cdn/swiper.min.css" />
+    <link rel="stylesheet" href="/css/cdn/toastr.min.css" />
+    <!-- icon End -->
+    <link href="/img/logo/&#x9AD8;&#x96C4;&#x5E02;&#x539F;&#x4F4F;&#x6C11;&#x65CF;logo.svg" rel="shortcut icon"><!-- Google Font -->
+    <link href="https://fonts.gstatic.com/" rel="preconnect">
+    <link href="/css/css2.css?v=7Qml4MZT-MlOE4rvB-vr0SfsPIDRZaikAi0rcYrOj2M" rel="stylesheet"><!-- Plugins CSS -->
+    <link href="/css/few-style.css?v=CPA06pRXqsft1QcEYbL9p5CydVeBZs9c17Ll51BAPEw" rel="stylesheet"><!-- 各大 CSS -->
+    <link href="/css/tiny-slider.css?v=_FQi-krLwaC0tgJa8AAlCH2ePyo-mcYO_pcVbkCZZxA" rel="stylesheet"><!-- 輪播 CSS -->
+    <link href="/css/style.css?v=t54nZeuYSUhc05d7aXq2fsFtbzvBHAbsJZxY4W71ybA" id="style-switch" rel="stylesheet" type="text/css">
+    <!-- 全局 -->
+    <link href="/css/purpose.css?v=2s2PkyOxqgBecWf5cI9mdZYcHSi8D770UmOEFSfzMIk" rel="stylesheet" type="text/css"><!-- 開頭底圖 CSS -->
+    <link href="/css/glightbox.css?v=AQV_1d68NMZ8CDO8XxPLbQz7fAUR80VIYUupL1zyMhQ" rel="stylesheet"><!-- poto CSS -->
+    <script src="/js/cdn/jquery3.7.1.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    <script type="text/javascript" nonce="SFMsTnsaDVO0vLk5olTftQ==">
+        var onloadCallback = function () {
+            let location_host = window.location.protocol + "//" + window.location.host;
+            var sitekey = "";
+            if (location_host == "https://localhost:7188" || location_host == "http://172.16.10.11") {
+                sitekey = '6LfFfDwpAAAAAN2XUsL7kYoYvEqlIyivEy1iwsH6';
+            } else {
+                sitekey = '6LdNBVEpAAAAAC0wtOn_8COZB9eElS7doe9jiRxj'
+            }
+            grecaptcha.render('dvCaptcha', {
+                'sitekey': sitekey,
+                'callback': function (response) {
+                    let url = `/master/Login/AjaxMethod`;
+                    fetch(url, {
+                        method: 'POST',
+                        body: JSON.stringify({
+                            response: response
+                        }),
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                            'RequestVerificationToken': $('meta[name="csrf-token"]').attr('content'),
+                            'Content-Type': 'application/json; charset=utf-8'
+                        }
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data) {
+                            $("#loginModal #hfCaptcha").val(true);
+                            $("#loginModal #rfvCaptcha").hide();
+                        } else {
+                            $("#loginModal #hfCaptcha").val(false);
+                            $("#loginModal #rfvCaptcha").show();
+                            $("#loginModal #rfvCaptcha").html("驗證失敗");
+                        }
+                    })
+                    .catch(err => {
+                        // 不知名錯誤給過他吧 QQ
+                        $("#loginModal #hfCaptcha").val(true);
+                    });
+                },
+                'expired-callback': function (response) {
+                    $("#loginModal #hfCaptcha").val(false);
+                }
+            });
+
+            grecaptcha.render('dvCaptcha2', {
+                'sitekey': sitekey,
+                'callback': function (response) {
+                    let url = `/master/Login/AjaxMethod?response=${response}`;
+                    fetch(url, {
+                        method: 'POST',
+                        body: JSON.stringify({
+                        }),
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                            'RequestVerificationToken': $('meta[name="csrf-token"]').attr('content'),
+                            'Content-Type': 'application/json; charset=utf-8'
+                        }
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data) {
+                            $("#loginModal2 #hfCaptcha").val(true);
+                            $("#loginModal2 #rfvCaptcha").hide();
+                        } else {
+                            $("#loginModal2 #hfCaptcha").val(false);
+                            $("#loginModal2 #rfvCaptcha").show();
+                            $("#loginModal2 #rfvCaptcha").html("驗證失敗");
+                        }
+                    })
+                    .catch(err => {
+                        // 不知名錯誤給過他吧 QQ
+                        $("#loginModal2 #hfCaptcha").val(true);
+                    });
+                },
+                'expired-callback': function (response) {
+                    $("#loginModal2 #hfCaptcha").val(false);
+                }
+            });
+        };
+    </script>
+    <link href="/css/all.css?v=C-c_0SBKqYDWrR4nMdbbo2EsrBYzQM7HCnw48O22rLQ" rel="stylesheet"><!-- Plugins CSS -->
+        
+    </head>
+
+    <body>
+        <noscript b-c8l59infjx>您的瀏覽器不支援JavaScript功能，若本網站功能無法正常使用，請開啟瀏覽器JavaScript狀態</noscript>
+        <div id="skiptocontent">
+	<a b-cc24bo3soz="" href="#maincontent" id="startBrick" class="visually-hidden-focusable" title="跳到中央內容區塊"
+	   tabindex="1">跳到中央內容區塊</a>
+</div>
+<header class="navbar-light navbar-sticky header-static header-few">
+	<a href="#M" title="上方選單區" id="AU" class="acc" accesskey="M" name="M" tabindex="2">:::</a>
+	<div class="navbar-top small">
+		<div class="container">
+			<div class="d-md-flex justify-content-between align-items-center my-2">
+				<!-- 左頂欄 -->
+				<ul class="nav">
+					<li class="nav-item d-none d-sm-inline-block">
+						<a class="nav-link ps-0" title="前往網站導覽" aria-label="網站導覽" href="/kaohsiung/Guide">網站導覽</a>
+					</li>
+					<!-- 導航搜索 -->
+					<li class="nav-item">
+						<div class="nav-item dropdown dropdown-toggle-icon-none nav-search me-2">
+							<a accesskey="S" aria-expanded="false" class="nav-link dropdown-toggle search-top show"
+								   data-bs-toggle="dropdown" href="#S" id="navSearch" role="button" title="搜索"><i
+								class="fas fa-search px-2"></i>搜索</a>
+								<div aria-labelledby="navSearch" class="dropdown-menu dropdown-menu-end shadow rounded p-2">
+									<div class="input-group">
+										<input aria-label="Search" class="form-control border-success" name="search"
+											   placeholder="請輸入搜索內容" title="請輸入搜索內容" aria-label="搜索內容" type="search"
+											   id="searchEnter">
+										<label for="searchEnter" class="btn btn-search m-0 px-0" type="checked"
+											   id="searchSubmit"><i class="fas fa-search px-2 fs-5"></i></label>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item d-none d-sm-inline-block">
+							<!-- 字體大小輔助功能 START -->
+							<div aria-label="font size changer" class="btn-group me-3" role="group">
+								<input class="btn-check" id="font-sm" name="fntradio" type="radio" title="小"
+									   aria-label="字體小">
+								<label class="btn btn-xs btn-outline-primary mb-0" for="font-sm">A-</label>
+								<input checked class="btn-check" id="font-default" name="fntradio" type="radio" title="中"
+									   aria-label="字體中">
+								<label class="btn btn-xs btn-outline-primary mb-0" for="font-default">A</label>
+								<input class="btn-check" id="font-lg" name="fntradio" type="radio" title="大"
+									   aria-label="字體大">
+								<label class="btn btn-xs btn-outline-primary mb-0" for="font-lg">A+</label>
+							</div>
+						</li>
+					</ul>
+					<!-- 右頂欄 -->
+					<ul class="nav few d-flex align-items-center">
+							<li class="nav-item display-flex fs-6">
+								<a class="nav-link px-2" id="loginModalBtn2" data-bs-toggle="modal" href="#loginModal2"
+									   title="前往註冊彈跳視窗">
+									<span class="d-none d-sm-inline-block">註冊 |</span>
+								</a>
+								<a class="nav-link px-0" id="loginModalBtn" data-bs-toggle="modal" href="#loginModal"
+									   title="前往登入彈跳視窗">
+									<i class="fas fa-user-circle px-1"></i>
+									<span class="d-none d-sm-inline-block">登入</span>
+								</a>
+							</li>
+						<li class="nav-item d-none d-sm-inline-block ps-3">
+							<a class="nav-link btn btn-sm btn-yellow btn-icon rounded-pill" role="button" title="前往部落大學資訊服務網" href="/"><span
+								class="btn-inner--text">部落大學資訊服務網</span></a>
+							</li>
+						</ul>
+					</div>
+					<!-- Divider -->
+					<div class="border-bottom border-2 border-primary opacity-1"></div>
+				</div>
+			</div>
+			<!-- Logo Nav START -->
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<!-- Logo START -->
+					<a class="navbar-brand" title="資訊服務網" href="/kaohsiung">
+						<img alt="logo" class="navbar-brand-item light-mode-item" src="/img/logo/&#x9AD8;&#x96C4;&#x5E02;&#x539F;&#x4F4F;&#x6C11;&#x65CF;&#xFF08;&#x767D;&#xFF09;.svg">
+						<img alt="logo" class="navbar-brand-item dark-mode-item" src="/img/few-logo-light.svg">
+						</a>
+						<!-- Logo END -->
+						<div class="nav flex-nowrap align-items-center">
+							<!-- 響應式導航欄切換器 -->
+							<button aria-controls="navbarCollapse" aria-expanded="false" class="navbar-toggler ms-auto"
+									data-bs-target="#navbarCollapse" data-bs-toggle="collapse" type="button" value="text"
+									aria-label="選單">
+								<span class="text-body h6 d-none d-sm-inline-block" type="button">選單</span>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<!-- Main navbar START -->
+							<div class="collapse navbar-collapse" id="navbarCollapse">
+								<ul class="navbar-nav navbar-nav-scroll mx-auto">
+									<!-- Nav item 0 Demos -->
+									<li class="nav-item go-back">
+										<a class="nav-link" title="部落大學資訊服務網" href="/">部落大學資訊服務網</a>
+									</li>
+									<!-- Nav item 1 Demos -->
+									<li class="nav-item">
+										<a class="nav-link" title="關於部大" href="/kaohsiung/About">關於部大</a>
+									</li>
+									<!-- Nav item 2 Pages -->
+									<li class="nav-item dropdown">
+										<a class="nav-link" title="最新消息" href="/kaohsiung/News">最新消息</a>
+									</li>
+									<!-- Nav item 3 link -->
+									<li class="nav-item">
+										<a class="nav-link" title="開課資訊" href="/kaohsiung/Course">開課資訊</a>
+									</li>
+									<!-- Nav item 4 link -->
+									<li class="nav-item">
+										<a class="nav-link" title="活動花絮" href="/kaohsiung/Tidbits/Photo?url=kaohsiung">活動花絮</a>
+									</li>
+									<!-- Nav item 5 link-->
+									<li class="nav-item">
+										<a class="nav-link" title="聯絡資訊" href="/kaohsiung/Liaison">聯絡資訊</a>
+									</li>
+									<!-- Nav item 6 Pages -->
+									<li class="nav-item dropdown">
+										<a href="#" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+											   data-bs-toggle="dropdown" id="pagesMenu" role="button" title="其他連結" aria-label="其他連結"><i
+											class="fa-solid fa-align-right"></i></a>
+											<ul aria-labelledby="pagesMenu" class="dropdown-menu">
+												<li>
+													<a class="dropdown-item" title="相關連結" href="/kaohsiung/Link">相關連結</a>
+												</li>
+												<li>
+													<a class="dropdown-item" title="下載專區" href="/kaohsiung/Download">下載專區</a>
+												</li>
+												<li>
+													<a class="dropdown-item" title="數位教材" href="/kaohsiung/Digital/Video">數位教材</a>
+												</li>
+												<li>
+													<a class="dropdown-item" title="意見信箱" href="/kaohsiung/EmailBox">意見信箱</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<!-- Main navbar END -->
+							</div><!-- Nav right END -->
+						</div>
+					</nav><!-- Logo Nav END -->
+				</header>
+				<div class="" id="sticky-space height0"></div>
+				<!-- =======================Header END -->
+				<script nonce="SFMsTnsaDVO0vLk5olTftQ==">
+					let searchSubmit = document.getElementById("searchSubmit");
+					searchSubmit.addEventListener('click', function (e) {
+						e.preventDefault();
+						e.stopPropagation();
+						let search = document.querySelector('input[name="search"]');
+						if (search.value.length != 0) {
+							window.location.href = `/kaohsiung/Search/Index?search=${search.value}`;
+						}
+					});
+					let searchEnter = document.getElementById("searchEnter");
+					searchEnter.addEventListener('keyup', function (e) {
+						e.preventDefault();
+						if (e.key === 'Enter') {
+							let search = document.querySelector('input[name="search"]');
+							if (search.value.length != 0) {
+								window.location.href = `/kaohsiung/Search/Index?search=${search.value}`;
+							}
+						}
+					})
+				</script>
+        <main b-c8l59infjx>
+                <!-- =======================TITLE -->
+<section class="few slice slice-xl bg-gradient-dark mt-n10 mb-6">
+	<!-- SVG背景 -->
+	<div class="bg-absolute-cover bg-size--contain">
+		<div class="shape bd-biocl"></div>
+		<div class="shape bkpoto4"></div>
+	</div>
+	<!-- 內容 -->
+	<a b-r9o0zfksi6="" href="#C" title="中央內容區塊" id="indexBlock" class="acc" accesskey="C" name="C" tabindex="3">:::</a>
+	<!-- 整網快速鍵 -->
+	<div class="container py-5 position-relative zindex-100">
+		<h3 class="main-title mb-30 px-lg-30 animated text-center">
+			<span class="highlight">&#x8B1B;<span class="title-small">&#x5E2B;&#x7C21;&#x4ECB;</span></span>
+		</h3>
+	</div>
+	<!-- SVG 形狀 -->
+	<div class="shape-container bottom-0" data-shape-position="bottom">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			 preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 1000 300" xml:space="preserve"
+			 class="ie-shape-wave-1 fill-section-secondary enbackground">
+			<path d="M 1 233 C 34 250 91 288 249 288 C 435 286 842 226 1000 257 L 1000 300.559 L -0.002 300.559 部落大學前台.zip"></path>
+		</svg>
+	</div>
+</section>
+<!-- =======================NAIYON-->
+                <nav b-c8l59infjx class="nav few flex-column nav-dots rounded shadow hover-shadow-lg d-none d-lg-flex" id="nav-sections">
+                    <a class="nav-link text-just" data-toggle="tooltip" data-placement="left" title="開課資訊" href="/kaohsiung/Course">開課資訊</a>
+                </nav>
+            <nav b-c8l59infjx class="nav few flex-column nav-community rounded shadow hover-shadow-lg d-lg-flex" id="nav-sections">
+                <ul b-c8l59infjx class="nav d-flex align-items-center">
+                    <li b-c8l59infjx class="nav-item d-none d-sm-inline-block">
+                        <a b-c8l59infjx href="#" class="nav-link px-2 me-2" id="facebook" role="button" title="前往facebook[另開新視窗]" target="_blank">
+                            <img src="/img/facebook.png" alt="facebook_img"><span b-c8l59infjx class="d-none">facebook</span>
+                        </a>
+                    </li>
+                    <li b-c8l59infjx class="nav-item d-none d-sm-inline-block">
+                        <a b-c8l59infjx href="#" class="nav-link px-2 me-2" id="instagram" role="button" title="前往instagram[另開新視窗]" target="_blank">
+                            <img src="/img/instagram.png" alt="instagram_img"><span b-c8l59infjx class="d-none">instagram</span>
+                        </a>
+                    </li>
+                    <li b-c8l59infjx class="nav-item d-none d-sm-inline-block">
+                        <a b-c8l59infjx href="#" class="nav-link px-2 me-2" id="line" role="button" title="前往line[另開新視窗]" target="_blank">
+                            <img src="/img/line.png" alt="line_img"><span b-c8l59infjx class="d-none">line</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+<section id="maincontent" class="few lecturer top-pen pt-0 pb-0 card-grid">
+    <div class="container lecturer-syado">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card syado mt-n4">
+                    <div class="card-body p-0">
+                        <div class="card-img">
+                            <img class="rounded" src="/Upload/Profile/teacher638622695274062583.jpg" alt="&#x91D1;&#x79BE;&#x96C5;">
+                        </div>
+                        <div class="card-info">
+                            <div class="py-4 mb-0 text-center">&#x91D1;&#x79BE;&#x96C5;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="input-box mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">姓名</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <p class="mb-0">&#x91D1;&#x79BE;&#x96C5;</p>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">族別</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <p class="mb-0">&#x9B6F;&#x51F1;&#x65CF;</p>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">學歷</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <textarea class="textarea_height mb-0" title="學歷" aria-label="學歷">義守大學傳播與設計原住民學院
+正修科技大學 碩士班 （在學）</textarea>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">考試</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <textarea class="textarea_height mb-0" title="考試" aria-label="考試"></textarea>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">經歷</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <textarea class="textarea_height mb-0" title="經歷" aria-label="經歷">勒樂芬音樂工作室歌手
+2017「活力‧E起舞動」-總決賽(大學/專組)-義守大學 特優
+第九屆全國大專院校原住民族音樂大賽 冠軍 
+2016 I-WANT 星勢力流行音樂創作大賽 冠軍
+109年原創流行音樂大獎 貳獎 現場表演獎
+●2020-2022高雄豐潮豐年節演出嘉賓
+●2020、2022高雄市議會食物銀行公益活動演出
+勒樂芬舞蹈教室 老師
+高山青環保勞動合作社 專案經理
+（公益彩券補助計畫舊貨獵人－再生環保公益產業扶植計畫）
+107-108林園cemedas 文化健康站 健康體適能、健康操老師老師
+110年鳳山中正國小文化班講師
+109-112年度鎮港園社區大學講師
+111-112年度鳳山社區大學講師
+高雄市議員范織欽服務團隊「御范團青年軍 團長」
+111年鳳山vuvu 文健站 健康操老師
+112年度汾陽教會藝術營肢體音樂課程講師
+112年度高雄市原住民族事務委員會南島文化節諮詢委員</textarea>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">榮譽</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <textarea class="textarea_height mb-0" title="榮譽" aria-label="榮譽"></textarea>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">專長</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <textarea class="textarea_height mb-0" title="專長" aria-label="專長"></textarea>
+                                </div>
+                            </div>
+                            <div class="row box">
+                                <div class="col-lg-1 tr-2">
+                                    <i class="fa-solid fa-circle"></i>
+                                </div>
+                                <div class="col-lg-2 tr-1">
+                                    <div class="course-title mt-2 mt-md-0 mb-0">授課紀錄</div>
+                                </div>
+                                <div class="col-lg-9 tr-3">
+                                    <div class="table-responsive course-selection news">
+                                            <div class="teacher_div">&#x539F;&#x97F3;&#x91CD;&#x73FE;&#xFF0E;&#x79BE;&#x4F60;&#x5171;&#x821E;(&#x4E8C;)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SVG icon -->
+<div class="footer-icon4 justify-content-start">
+	<img src="/img/icon-y.svg" alt="">
+</div>
+<div class="footer-icon5 justify-content-start">
+	<img src="/img/icon-b1.svg" alt="">
+</div>
+<div class="footer-icon6 justify-content-start">
+	<img src="/img/icon-r.svg" alt="">
+</div>
+<div class="footer-icon9 justify-content-start">
+	<img src="/img/icon-b.svg" alt="">
+</div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <!-- =======================BOTTOM -->
+            <div class="col-12 text-center">
+                <a class="btn btn-dark mb-0 mx-2 w-150" title="回前頁" href="/kaohsiung/Course/Page/7080?url=kaohsiung">回前頁</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        </main>
+        <!-- =======================Footer START -->
+<footer class="few bg-dark bg-gradient-dark">
+	<a href="#Z" title="頁尾網站資訊" id="indexBlock" class="acc" accesskey="Z" name="Z">:::</a><!-- 整網快速鍵 -->
+	<!-- SVG 形狀 -->
+	<div class="shape-container" data-shape-style="curve" data-shape-position="bottom">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"
+			 class="injected-svg svg-inject fill-section-secondary transform180">
+			<path d="M 0 0 c 0 0 200 50 500 50 s 500 -50 500 -50 v 101 h -1000 v -100 z"></path>
+		</svg>
+	</div>
+	<!-- 內容 -->
+	<div class="footer footer-dark pt-10" id="footer">
+		<div class="container position-relative zindex-100">
+			<div class="row pt-md mb-5">
+				<div class="col-lg-4 text-center form-floating mb-5 mb-lg-0">
+					<a title="前往部落大學資訊服務網" href="/kaohsiung">
+						<img src="/img/logo/&#x9AD8;&#x96C4;&#x5E02;&#x539F;&#x4F4F;&#x6C11;&#x65CF;.svg" alt="Footer logo" class="height35">
+					</a>
+					<div class="footer-cypher bottom-0">
+						<p class="font-size-13 text-secondary m-0">網站瀏覽人次：<span id="reading"></span></p>
+						<p class="font-size-13 text-secondary m-0">會員登入次數：<span id="loginTime"></span></p>
+					</div>
+				</div>
+				<div class="col-lg-8 col-6 col-sm-3 ml-lg-auto mb-5 mb-lg-0">
+					<ul class="nav text-center text-sm-end mt-3 mt-md-0">
+						<li class="nav-item"><a class="nav-link top" title="關於部大" href="/kaohsiung/About">關於部大</a></li>
+							<li class="nav-item"><a class="nav-link" title="最新消息" href="/kaohsiung/News">最新消息</a></li>
+								<li class="nav-item"><a class="nav-link" title="開課資訊" href="/kaohsiung/Course">開課資訊</a></li>
+									<li class="nav-item"><a class="nav-link" title="活動花絮" href="/kaohsiung/Tidbits/Photo?url=kaohsiung">活動花絮</a></li>
+										<li class="nav-item"><a class="nav-link" title="聯絡資訊" href="/kaohsiung/Liaison">聯絡資訊</a></li>
+											<li class="nav-item"><a class="nav-link" title="網站導覽" href="/kaohsiung/Guide">網站導覽</a></li>
+											</ul>
+											<div class="information mt-4">
+												<div class="row">
+													<div class="col-lg-6">
+														<p><span id="telphone"></span></p>
+														<p class="mt-3"><span id="facsimile"></span></p>
+													</div>
+													<div class="col-lg-6">
+														<p><span id="email"></span></p>
+														<p class="mt-3"><span id="time"></span></p>
+													</div>
+													<div class="col-lg-12 mt-3">
+														<p><span id="address"></span></p>
+													</div>
+												</div>
+												<p class="mt-3">本網站建議最佳解析度為1024*768以上，最佳瀏覽器支援IE 11以上、Chrome等版本，IE11以下版本可能造成部分版面錯置，敬請見諒。</p>
+											</div>
+										</div>
+									</div>
+									<!-- Divider -->
+									<div class="border-bottom border-2 border-primary opacity-1"></div>
+									<div class="row align-items-center justify-content-md-between py-3">
+										<div class="col-md-6">
+											<div class="copyright text-sm font-weight-bold text-center text-md-left">
+												<img class="w-90 px-2" src="/img/natives-logo.png" alt="Aboriginal badge">版權所有 © 2023 <a class="font-weight-bold" target="_blank" title="原住民族部落大學[另開新視窗]" href="/">原住民族部落大學</a>. All rights reserved.
+												</div>
+											</div>
+											<div class="col-md-6">
+												<a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20240126093324"
+													   target="_blank" title="無障礙標章連結[另開新視窗]" aria-label="無障礙標章連結[另開新視窗]">
+													<img class="float-end w-90" src="/img/cc.png" alt="通過AA檢測等級無障礙網頁檢測">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- SVG icon -->
+								<div class="footer-icon1 justify-content-start">
+									<img src="/img/icon-y.svg" alt="">
+									</div>
+									<div class="footer-icon2 justify-content-start">
+										<img src="/img/icon-b1.svg" alt="">
+										</div>
+										<div class="footer-icon3 justify-content-start">
+											<img src="/img/icon-r.svg" alt="">
+											</div>
+										</footer>
+										<!-- =======================Footer END -->
+										<!-- Back to top -->
+										<div class="back-top">
+											<p class="ptop active"><a class="active_this" href="#startBrick" id="back-to-top" title="回頂部" aria-label="回頂部"><i
+												class="fas fa-chevron-up"></i></a></p>
+											</div>
+
+											<script nonce="SFMsTnsaDVO0vLk5olTftQ==">
+												function getWebSite(website) {
+													let url = `/${website}/Home/GetHomeWebSite`;
+													fetch(url, {
+														method: 'GET',
+														headers: {
+															'Content-Type': 'application/json; charset=utf-8'
+														}
+													})
+														.then(res => res.json())
+														.then(data => {
+															let footer = document.getElementById('footer');
+															footer.querySelector('#reading').innerText = data.reading;
+															footer.querySelector('#loginTime').innerText = data.loginTime;
+
+															if (data.telphone != null) {
+																footer.querySelector('#telphone').innerText = "電話：" + data.telphone;
+															}
+															if (data.facsimile != null) {
+																footer.querySelector('#facsimile').innerText = "傳真：" + data.facsimile;
+															}
+															if (data.time != null) {
+																footer.querySelector('#time').innerText = "服務時間：" + data.time;
+															}
+															if (data.email != null) {
+																footer.querySelector('#email').innerText = "意見信箱：" + data.email;
+															}
+															if (data.address != null) {
+																footer.querySelector('#address').innerText = "地址：" + data.address;
+															}
+
+															if (data.facebook != null) {
+																document.getElementById('facebook').href = data.facebook;
+															} else {
+																document.getElementById('facebook').style.display = "none";
+															}
+															if (data.instagram != null) {
+																document.getElementById('instagram').href = data.instagram;
+															} else {
+																document.getElementById('instagram').style.display = "none";
+															}
+															if (data.line != null) {
+																document.getElementById('line').href = "https://line.me/ti/p/" + data.line;
+															} else {
+																document.getElementById('line').style.display = "none";
+															}
+														})
+														.catch(err => console.log(err));
+												}
+												getWebSite("kaohsiung");
+											</script>
+
+        
+<!-- 跳出ＢＯＸ 會員登入 -->
+<div class="modal fade login" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down tap_1">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="login-page">
+					<div class="form">
+						<!-- 註冊頁 -->
+						<form class="register-form" action="/kaohsiung/Register/Create" method="post">
+							<div class="modal-header">
+								<a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" role="button"></a>
+							</div>
+							<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">註冊</h3>
+							<div class="">
+								<div class="division">
+									<div class="line l"></div>
+									<span>使用社群帳號</span>
+									<div class="line r"></div>
+								</div>
+								<div class="social">
+									<a href="#" class="circle facebook display_none" title="使用facebook帳號">
+										<i class="fab fa-facebook-f"><span class="d-none">facebook</span></i>
+									</a>
+									<a href="#" class="circle instagram display_none" title="使用instagram帳號">
+										<i class="fab fa-instagram"><span class="d-none">instagram</span></i>
+									</a>
+									<a href="#" class="circle line" title="使用line帳號">
+										<?xml version="1.0" ?><svg class="bi bi-line" fill="currentColor" height="22"
+											viewBox="0 0 16 16" width="22" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z" />
+										</svg>
+										<span class="d-none">line</span>
+									</a>
+									<a href="#" class="circle google" title="使用google帳號">
+										<i class="fab fa-google"><span class="d-none">google</span></i>
+									</a>
+								</div>
+								<div class="division">
+									<div class="line l"></div>
+									<span>或使用帳號密碼</span>
+									<div class="line r"></div>
+								</div>
+								<div class="form">
+									<div class="row mb-3">
+										<div class="col">
+											<label class="form-control-label" data-end for="UserName">&#x5E33;&#x865F;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-user"></i></span>
+												</div>
+												<input type="text" class="form-control" placeholder="帳號" title="帳號欄位(必填)" aria-label="帳號欄位" autocomplete="off" data-val="true" data-val-length="&#x5E33;&#x865F; &#x6B04;&#x4F4D;&#x5B57;&#x6578;&#x81F3;&#x591A;100&#x500B;&#x5B57;" data-val-length-max="100" data-val-required="&#x5E33;&#x865F; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="UserName" maxlength="100" name="UserName" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label class="form-control-label" data-end for="Identification">&#x8EAB;&#x5206;&#x8B49;&#x865F;/&#x5C45;&#x7559;&#x8B49;&#x865F;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-stamp"></i></span>
+												</div>
+												<input type="text" class="form-control" placeholder="身分證號/居留證號" title="身分證號欄位(必填)" aria-label="身分證欄位" autocomplete="off" data-val="true" data-val-length="&#x8EAB;&#x5206;&#x8B49;&#x865F;/&#x5C45;&#x7559;&#x8B49;&#x865F; &#x6B04;&#x4F4D;&#x683C;&#x5F0F;&#x9577;&#x5EA6;&#x932F;&#x8AA4;" data-val-length-max="10" data-val-length-min="10" data-val-required="&#x8EAB;&#x5206;&#x8B49;&#x865F;/&#x5C45;&#x7559;&#x8B49;&#x865F; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="Identification" maxlength="10" name="Identification" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Identification" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3">
+										<label class="form-control-label" for="Name">&#x59D3;&#x540D;<span class="necessary px-2"><i class="fas fa-asterisk">必填</i></span><span class="hint px-2">(請依證件姓名填寫)</span></label>
+										<div class="input-group input-group-merge box mt-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="far fa-user"></i></span>
+											</div>
+											<input type="text" class="form-control" placeholder="姓名" title="姓名欄位(必填)" aria-label="姓名欄位" autocomplete="off" data-val="true" data-val-length="&#x59D3;&#x540D; &#x6B04;&#x4F4D;&#x5B57;&#x6578;&#x81F3;&#x591A;100&#x500B;&#x5B57;" data-val-length-max="100" data-val-required="&#x59D3;&#x540D; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="Name" maxlength="100" name="Name" value="" />
+										</div>
+										<div>
+											<span class="err_message field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label class="form-control-label mt-2" for="Password">&#x5BC6;&#x78BC;<span class="necessary px-2"><i class="fas fa-asterisk">必填</i></span><span class="hint px-2">（ 8碼(含)以上，英文＋數字 ）</span></label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-lock"></i></span>
+												</div>
+												<input type="password" class="form-control" placeholder="Password" title="Password欄位(必填)" aria-label="Password欄位" autocomplete="off" data-val-required="密碼 欄位為必填" data-val="true" data-val-regex="&#x5BC6;&#x78BC; &#x6B04;&#x4F4D;&#x9577;&#x5EA6;8&#x78BC;(&#x542B;)&#x4EE5;&#x4E0A;&#xFF0C;&#x4E14;&#x9700;&#x5305;&#x542B;&#x82F1;&#x6587;&#x3001;&#x6578;&#x5B57;" data-val-regex-pattern="^(?=.*\d)(?=.*[a-zA-Z]).{8,}$" id="Password" name="Password" />
+												<span class="input-group-text passwordEye" data-value="1" data-place="Password"><i class="fas fa-eye-slash"></i></span>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label class="form-control-label mt-2" for="ConfirmPassword">&#x78BA;&#x8A8D;&#x5BC6;&#x78BC;<span class="necessary px-2"><i
+														class="fas fa-asterisk">必填</i></span><span
+													class="hint px-2">（ 8碼(含)以上，英文＋數字 ）</span></label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-lock"></i></span>
+												</div>
+												<input type="password" class="form-control" placeholder="Password" title="確認Password欄位(必填)" aria-label="確認Password欄位" autocomplete="off" data-val="true" data-val-equalto="&#x5BC6;&#x78BC;&#x548C;&#x78BA;&#x8A8D;&#x5BC6;&#x78BC;&#x4E0D;&#x76F8;&#x7B26;&#x3002;" data-val-equalto-other="*.Password" id="ConfirmPassword" name="ConfirmPassword" />
+												<span class="input-group-text passwordEye" data-value="1" data-place="Password"><i class="fas fa-eye-slash"></i></span>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3">
+										<label class="form-control-label" data-end for="Email">&#x96FB;&#x5B50;&#x4FE1;&#x7BB1;</label>
+										<div class="input-group input-group-merge box mt-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+											</div>
+											<input type="email" class="form-control" placeholder="E-mail address" title="E-mail 欄位(必填)" aria-label="Email欄位" autocomplete="off" data-val="true" data-val-email="&#x96FB;&#x5B50;&#x4FE1;&#x7BB1; &#x6B04;&#x4F4D;&#x683C;&#x5F0F;&#x70BA;&#x96FB;&#x5B50;&#x90F5;&#x4EF6;&#x683C;&#x5F0F;&#xFF0C;&#x8F38;&#x5165;&#x932F;&#x8AA4;" data-val-required="&#x96FB;&#x5B50;&#x4FE1;&#x7BB1; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="Email" name="Email" value="" />
+										</div>
+										<div>
+											<span class="err_message field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label class="form-control-label mt-2" for="TelNumber">&#x96FB;&#x8A71;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-phone-alt"></i></span>
+												</div>
+												<input type="text" class="form-control" placeholder="xx-xxxx-xxxx" title="電話" aria-label="電話欄位" autocomplete="off" id="TelNumber" name="TelNumber" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="TelNumber" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label class="form-control-label mt-2" data-end for="PhoneNumber">&#x624B;&#x6A5F;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-mobile-alt"></i></span>
+												</div>
+												<input type="text" class="form-control" placeholder="09xx-xxx-xxx" title="手機欄位(必填)" aria-label="手機欄位" autocomplete="off" data-val="true" data-val-regex="&#x624B;&#x6A5F;&#x683C;&#x5F0F;&#x932F;&#x8AA4;&#xFF0C;&#x4F8B;: 0912-345-678" data-val-regex-pattern="^\d{4}-\d{3}-\d{3}$" data-val-required="&#x624B;&#x6A5F; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="PhoneNumber" name="PhoneNumber" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label class="form-control-label mt-2" for="City">郵遞區號</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"></span>
+												</div>
+												<select class="form-select cityList" title="縣市" aria-label="郵遞區號欄位" id="City" name="City"></select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label class="form-control-label mt-2 opacity" for="District">&#x9109;&#x93AE;&#x5E02;&#x5340;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"></span>
+												</div>
+												<select class="form-select districtList" title="鄉鎮" aria-label="鄉鎮市區欄位" id="District" name="District"></select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="District" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3">
+										<label class="form-control-label" for="Address">&#x5730;&#x5740;</label>
+										<div class="input-group input-group-merge box mt-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i
+														class="fas fa-map-marker-alt"></i></span>
+											</div>
+											<input type="text" class="form-control" placeholder="請輸入地址" title="請輸入地址" aria-label="地址欄位" autocomplete="off" id="Address" name="Address" value="" />
+										</div>
+										<div>
+											<span class="err_message field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+										</div>
+									</div>
+									<div class="row mb-3 rwd-800">
+										<div class="col">
+											<label class="form-control-label mt-2" data-end for="Birthday">&#x751F;&#x65E5;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-calendar-day"></i></span>
+												</div>
+												<input type="text" name="Birthday" class="form-date datepickerBirthday" placeholder="0000 - 00 - 00"
+													title="生日欄位(必填)" aria-label="生日欄位" data-val-required="生日 欄位為必填" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Birthday" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="Gender" class="form-control-label mt-2" data-end>&#x6027;&#x5225;</label>
+											<div class="input-group input-group-merge box average mt-1">
+												<div class="row">
+														<div class="col">
+															<input class="form-check-input" type="radio" id="Gender&#x7537;&#x6027;" name="Gender" value="0" title="性別欄位(必填)" aria-label="性別欄位">
+															<label class="form-check-label" for="Gender&#x7537;&#x6027;">
+																	<i class="fas fa-mars"></i>
+&#x7537;&#x6027;
+															</label>
+														</div>
+														<div class="col">
+															<input class="form-check-input" type="radio" id="Gender&#x5973;&#x6027;" name="Gender" value="1" title="性別欄位(必填)" aria-label="性別欄位">
+															<label class="form-check-label" for="Gender&#x5973;&#x6027;">
+																	<i class="fas fa-venus"></i>
+&#x5973;&#x6027;
+															</label>
+														</div>
+														<div class="col">
+															<input class="form-check-input" type="radio" id="Gender&#x5176;&#x4ED6;" name="Gender" value="2" title="性別欄位(必填)" aria-label="性別欄位">
+															<label class="form-check-label" for="Gender&#x5176;&#x4ED6;">
+																	<i class="fas fa-venus-mars"></i>
+&#x5176;&#x4ED6;
+															</label>
+														</div>
+												</div>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Gender" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label class="form-control-label mt-2" for="School">&#x5B78;&#x6821;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-school"></i></span>
+												</div>
+												<input type="text" class="form-control" placeholder="請輸入" title="學校" aria-label="學校欄位" autocomplete="off" id="School" name="School" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="School" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label class="form-control-label mt-2" data-end for="Education">&#x5B78;&#x6B77;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-graduation-cap"></i></span>
+												</div>
+												<select class="form-select" title="學歷欄位(必填)" aria-label="學歷" autocomplete="off" data-val="true" data-val-required="&#x5B78;&#x6B77; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="Education" name="Education">
+													<option selected disabled>請選擇...</option>
+												<option value="0">&#x570B;&#x5C0F;</option>
+<option value="1">&#x570B;&#x4E2D;</option>
+<option value="2">&#x9AD8;&#x4E2D;/&#x8077;</option>
+<option value="3">&#x5927;&#x5B78;/&#x5C08;</option>
+<option value="4">&#x78A9;&#x58EB;</option>
+<option value="5">&#x535A;&#x58EB;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Education" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label class="form-control-label mt-2" data-end for="Ethnic">&#x65CF;&#x5225;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-atom"></i></span>
+												</div>
+												<select class="form-select" title="族別欄位(必填)" aria-label="族別" autocomplete="off" data-val="true" data-val-required="&#x65CF;&#x5225; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="Ethnic" name="Ethnic">
+													<option selected disabled>請選擇...</option>
+												<option value="0">&#x963F;&#x7F8E;&#x65CF;</option>
+<option value="1">&#x6CF0;&#x96C5;&#x65CF;</option>
+<option value="2">&#x6392;&#x7063;&#x65CF;</option>
+<option value="3">&#x5E03;&#x8FB2;&#x65CF;</option>
+<option value="4">&#x5351;&#x5357;&#x65CF;</option>
+<option value="5">&#x9B6F;&#x51F1;&#x65CF;</option>
+<option value="6">&#x9112;&#x65CF;</option>
+<option value="7">&#x8CFD;&#x590F;&#x65CF;</option>
+<option value="8">&#x96C5;&#x7F8E;&#x65CF;(&#x9054;&#x609F;&#x65CF;)</option>
+<option value="9">&#x90B5;&#x65CF;</option>
+<option value="10">&#x5676;&#x746A;&#x862D;&#x65CF;</option>
+<option value="11">&#x592A;&#x9B6F;&#x95A3;&#x65CF;</option>
+<option value="12">&#x6492;&#x5947;&#x840A;&#x96C5;&#x65CF;</option>
+<option value="13">&#x8CFD;&#x5FB7;&#x514B;&#x65CF;</option>
+<option value="14">&#x62C9;&#x963F;&#x9B6F;&#x54C7;&#x65CF;</option>
+<option value="15">&#x5361;&#x90A3;&#x5361;&#x90A3;&#x5BCC;&#x65CF;</option>
+<option value="16">&#x5E73;&#x57D4;&#x65CF;&#x7FA4;</option>
+<option value="17">&#x5176;&#x4ED6;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Ethnic" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label class="form-control-label mt-2" data-end for="University">&#x53C3;&#x8A13;&#x90E8;&#x5927;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-splotch"></i></span>
+												</div>
+												<select class="form-select" title="參訓部大欄位(必填)" aria-label="參訓部大" autocomplete="off" data-val="true" data-val-required="&#x53C3;&#x8A13;&#x90E8;&#x5927; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="University" name="University">
+													<option selected disabled>請選擇...</option>
+															<option value="1">&#x81FA;&#x5317;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="2">&#x65B0;&#x5317;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="3">&#x6843;&#x5712;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="4">&#x65B0;&#x7AF9;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="5">&#x82D7;&#x6817;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="6">&#x81FA;&#x4E2D;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="7">&#x5357;&#x6295;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="8">&#x5609;&#x7FA9;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="9">&#x81FA;&#x5357;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="10">&#x9AD8;&#x96C4;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="11">&#x5C4F;&#x6771;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="12">&#x57FA;&#x9686;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="13">&#x5B9C;&#x862D;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="14">&#x82B1;&#x84EE;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="15">&#x81FA;&#x6771;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+												</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="University" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label class="form-control-label mt-2" data-end for="JobTitle">&#x8077;&#x696D;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-user-tie"></i></span>
+												</div>
+												<select class="form-select" title="職業欄位(必填)" aria-label="職業" autocomplete="off" data-val="true" data-val-required="&#x8077;&#x696D; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" id="JobTitle" name="JobTitle">
+													<option selected disabled>請選擇...</option>
+												<option value="0">&#x91D1;&#x878D;/&#x4FDD;&#x96AA;</option>
+<option value="1">&#x623F;&#x5730;&#x7522;</option>
+<option value="2">&#x653F;&#x5E9C;&#x6A5F;&#x95DC;</option>
+<option value="3">&#x8ECD;&#x8B66;</option>
+<option value="4">&#x6559;&#x80B2;/&#x7814;&#x7A76;</option>
+<option value="5">&#x7D93;&#x5546;</option>
+<option value="6">&#x5EFA;&#x7BC9;/&#x71DF;&#x9020;</option>
+<option value="7">&#x88FD;&#x9020;/&#x4F9B;&#x61C9;&#x5546;</option>
+<option value="8">&#x8CC7;&#x8A0A;</option>
+<option value="9">&#x670D;&#x52D9;</option>
+<option value="10">&#x91AB;&#x7642;</option>
+<option value="11">&#x6CD5;&#x5F8B;&#x76F8;&#x95DC;&#x884C;&#x696D;</option>
+<option value="12">&#x6D41;&#x901A;/&#x96F6;&#x552E;</option>
+<option value="13">&#x4EA4;&#x901A;/&#x904B;&#x8F38;/&#x65C5;&#x904A;</option>
+<option value="14">&#x5A1B;&#x6A02;/&#x51FA;&#x7248;</option>
+<option value="15">&#x50B3;&#x64AD;/&#x516C;&#x5171;&#x95DC;&#x4FC2;/&#x5EE3;&#x544A;/&#x884C;&#x92B7;</option>
+<option value="16">&#x85DD;&#x8853;</option>
+<option value="17">&#x8FB2;&#x6F01;&#x7267;</option>
+<option value="18">&#x5B78;&#x751F;</option>
+<option value="19">&#x5BB6;&#x7BA1;</option>
+<option value="20">&#x5F85;&#x696D;&#x4E2D;</option>
+<option value="21">&#x5176;&#x4ED6;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="JobTitle" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label class="form-control-label mt-2" for="Industry">&#x8077;&#x7A31;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-user-tag"></i></span>
+												</div>
+												<select class="form-select" title="職稱" aria-label="職稱" autocomplete="off" id="Industry" name="Industry">
+													<option selected value="">請選擇...</option>
+												<option value="0">&#x79D8;&#x66F8;&#x3001;&#x884C;&#x653F;&#x52A9;&#x7406;</option>
+<option value="1">&#x696D;&#x52D9;&#x4EBA;&#x54E1;&#x3001;&#x4EF2;&#x4ECB;&#x4EBA;&#x54E1;</option>
+<option value="2">&#x5DE5;&#x7A0B;&#x5E2B;</option>
+<option value="3">&#x6280;&#x8853;&#x4EBA;&#x54E1;</option>
+<option value="4">&#x7814;&#x7A76;&#x4EBA;&#x54E1;</option>
+<option value="5">&#x7BA1;&#x7406;&#x968E;&#x5C64;</option>
+<option value="6">&#x6559;&#x8077;&#x4EBA;&#x54E1;</option>
+<option value="7">&#x5C08;&#x6848;&#x3001;&#x7522;&#x54C1;&#x7D93;&#x7406;</option>
+<option value="8">&#x57F7;&#x884C;&#x5C08;&#x54E1;</option>
+<option value="9">&#x670D;&#x52D9;&#x4EBA;&#x54E1;</option>
+<option value="10">&#x5C08;&#x696D;&#x4EBA;&#x58EB;</option>
+<option value="11">&#x81EA;&#x71DF;&#x5546;</option>
+<option value="12">&#x5275;&#x610F;&#x5DE5;&#x4F5C;&#x8005;</option>
+<option value="13">&#x5176;&#x4ED6;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Industry" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-default btn-login h-40 mt-3 w-300 register-submit" title="註冊" aria-label="按下註冊">註冊</button>
+							<div class="forgot mt-3">
+								<p class="message">有帳號密碼？<a href="#" class="signIn" title="來此登入">來此登入</a></p>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+						<!-- 登入頁 -->
+						<form class="login-form" action="/kaohsiung/Login/Login" method="post">
+							<div class="row">
+								<div class="col left-box">
+									<div class="logo-icon">
+										<img src="/img/loin-2.png" alt="loin-2">
+									</div>
+									<div class="forgot">
+										<span>
+											<p class="message">還有沒帳號或密碼？<a href="#" class="text-link-emphasis createAccount" title="來此註冊">來此註冊</a></p>
+										</span>
+									</div>
+								</div>
+								<div class="col">
+									<div class="modal-header">
+										<button type="button" class="btn-close" data-bs-dismiss="modal"
+											aria-label="Close"></button>
+									</div>
+									<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">登入</h3>
+									<div class="modal-box">
+										<div class="content">
+											<div class="division">
+												<div class="line l"></div>
+												<span>使用社群帳號</span>
+												<div class="line r"></div>
+											</div>
+											<div class="social">
+												<a href="#" class="circle facebook display_none" title="使用facebook帳號">
+													<i class="fab fa-facebook-f"><span
+															class="d-none">facebook</span></i>
+												</a>
+												<a href="#" class="circle instagram display_none" title="使用instagram帳號">
+													<i class="fab fa-instagram"><span
+															class="d-none">instagram</span></i>
+												</a>
+												<a href="#" class="circle line" title="使用line帳號">
+													<?xml version="1.0" ?><svg class="bi bi-line" fill="currentColor"
+														height="22" viewBox="0 0 16 16" width="22"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z" />
+													</svg>
+													<span class="d-none">line</span>
+												</a>
+												<a href="#" class="circle google" title="使用google帳號">
+													<i class="fab fa-google"><span class="d-none">google</span></i>
+												</a>
+											</div>
+											<div class="division">
+												<div class="line l"></div>
+												<span id="textcheck">或使用帳號密碼</span>
+												<div class="line r"></div>
+											</div>
+											<div class="form">
+												<label for="user01" class="form-control-label">&#x5E33;&#x865F;</label>
+												<div class="input-group input-group-merge box mt-1">
+													<div class="input-group-prepend">
+														<span class="input-group-text"><i
+																class="fas fa-user"></i></span>
+													</div>
+													<input type="text" id="user01" name="UserName" class="form-control"
+														placeholder="帳號" title="帳號欄位(必填)" aria-label="帳號欄位" autocomplete="off" />
+												</div>
+												<div>
+													<span class="text-danger UserName"></span>
+												</div>
+												<label for="password01" class="form-control-label mt-2">&#x5BC6;&#x78BC;<span class="necessary px-2"><i
+															class="fas fa-asterisk">必填</i></span><span
+														class="hint px-2">（ 8碼(含)以上，英文＋數字 ）</span></label>
+												<div class="input-group input-group-merge box mt-1">
+													<div class="input-group-prepend">
+														<span class="input-group-text"><i
+																class="fas fa-lock"></i></span>
+													</div>
+													<input type="password" id="password01" name="Password" class="form-control"
+														placeholder="Password"  title="密碼欄位(必填)" aria-label="密碼欄位" autocomplete="off" />
+													<span class="input-group-text passwordEye" data-value="1" data-place="Password"><i class="fas fa-eye-slash"></i></span>
+												</div>
+												<div>
+													<span class="text-danger Password"></span>
+												</div>
+												<div class="mt-3">
+													<div class="row">
+														<div class="col">
+															<input type="checkbox" class="form-check-input" id="exampleCheck4" name="RememberUser" title="Remember" aria-label="Remember">
+															<label for="exampleCheck4" class="form-check-label">記住帳密</label>
+														</div>
+													</div>
+												</div>
+												<div class="mt-3">
+													<div class="row">
+														<div class="col">
+			
+															<div id="dvCaptcha"></div>
+															<input type="hidden" id="hfCaptcha" name="RememberMe" title="機器人" aria-label="按下我不是機器人" />
+															<span id="rfvCaptcha" class="text-danger RememberMe">我不是機器人</span>
+														</div>
+													</div>
+												</div>
+												<button
+													class="btn btn-default btn-login h-40 mt-3 login-submit" title="登入" aria-label="按下登入">登入</button>
+												<div class="mt-2 mb-3">
+													<div class="row">
+														<div class="col">
+															<a href="#" class="reoverUser" title="忘記帳號">忘記帳號</a>
+														</div>
+														<div class="col text-end">
+															<a href="#" class="reoverPassword" title="忘記密碼">忘記密碼</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+						<!-- 忘記密碼頁 -->
+						<form class="reset-form" action="/kaohsiung/Login/ResetPassword" method="post">
+							<div class="modal-header">
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">忘記密碼</h3>
+							<div class="form">
+								<div class="mb-3">
+									<label for="user02" class="form-control-label">帳號</label>
+									<div class="input-group input-group-merge box mt-1">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-user"></i></span>
+										</div>
+										<input type="text" id="user02" name="UserName" class="form-control" placeholder="帳號" title="帳號欄位(必填)" aria-label="帳號欄位" autocomplete="off" required/>
+									</div>
+									<div>
+										<span class="text-danger UserName"></span>
+									</div>
+								</div>
+								<div class="mb-3">
+									<label for="email02" class="form-control-label">電子信箱<span class="necessary px-2"><i class="fas fa-asterisk">必填</i></span></label>
+									<div class="input-group input-group-merge box mt-1">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+										</div>
+										<input type="text" id="email02" name="Email" class="form-control" placeholder="請輸入電子信箱" title="電子信箱欄位(必填)" aria-label="電子信箱欄位" autocomplete="off" required/>
+									</div>
+									<div>
+										<span class="text-danger Email"></span>
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-default btn-login h-40 mt-3 reset-submit" aria-label="傳送重設密碼說明">傳送重設密碼說明至以上信箱</button>
+							<div class="mt-2 mb-3">
+								<div class="row">
+									<div class="col">
+										<p class="message"><a href="#" class="backToLogin" title="會員登入">會員登入</a></p>
+									</div>
+									<div class="col text-end">
+										<p class="message"><a href="#" class="backToAccount" title="新用戶註冊">新用戶註冊</a></p>
+									</div>
+								</div>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+						<!-- 忘記帳號頁 -->
+						<form class="resetuser-form" action="/kaohsiung/Login/ResetAccount" method="post">
+							<div class="modal-header">
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">忘記帳號</h3>
+							<div class="form">
+								<div class="mb-3">
+									<label for="email03" class="form-control-label">電子信箱<span class="necessary px-2"><i class="fas fa-asterisk">必填</i></span></label>
+									<div class="input-group input-group-merge box mt-1">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+										</div>
+										<input type="text" id="email03" name="Email" class="form-control" placeholder="請輸入電子信箱" title="請輸入電子信箱" aria-label="電子信箱欄位" autocomplete="off" required/>
+									</div>
+									<div>
+										<span class="text-danger Email"></span>
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-default btn-login h-40 mt-3 resetuser-submit" aria-label="傳送帳號至信箱">傳送帳號至以上信箱</button>
+							<div class="mt-2 mb-3">
+								<div class="row">
+									<div class="col">
+										<p class="message"><a href="#" class="backLogin" title="會員登入">會員登入</a></p>
+									</div>
+									<div class="col text-end">
+										<p class="message"><a href="#" class="backAccount" title="新用戶註冊">新用戶註冊</a></p>
+									</div>
+								</div>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+        
+<!-- 跳出ＢＯＸ 會員註冊 -->
+<div class="modal fade login register" id="loginModal2" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down tap_1">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="login-page">
+					<div class="form">
+						<!-- 註冊頁 -->
+						<form class="register-form" action="/kaohsiung/Register/Create" method="post">
+							<div class="modal-header">
+								<a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" role="button"></a>
+							</div>
+							<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">註冊</h3>
+							<div class="">
+								<div class="division">
+									<div class="line l"></div>
+									<span>使用社群帳號</span>
+									<div class="line r"></div>
+								</div>
+								<div class="social">
+									<a href="#" class="circle facebook display_none" title="使用facebook帳號">
+										<i class="fab fa-facebook-f"><span class="d-none">facebook</span></i>
+									</a>
+									<a href="#" class="circle instagram display_none" title="使用instagram帳號">
+										<i class="fab fa-instagram"><span class="d-none">instagram</span></i>
+									</a>
+									<a href="#" class="circle line" title="使用line帳號">
+										<?xml version="1.0" ?><svg class="bi bi-line" fill="currentColor" height="22"
+											viewBox="0 0 16 16" width="22" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z" />
+										</svg>
+										<span class="d-none">line</span>
+									</a>
+									<a href="#" class="circle google" title="使用google帳號">
+										<i class="fab fa-google"><span class="d-none">google</span></i>
+									</a>
+								</div>
+								<div class="division">
+									<div class="line l"></div>
+									<span id="textcheck">或使用帳號密碼</span>
+									<div class="line r"></div>
+								</div>
+								<div class="form">
+									<div class="row mb-3">
+										<div class="col">
+											<label for="UserName2" class="form-control-label"
+												data-end>&#x5E33;&#x865F;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-user"></i></span>
+												</div>
+												<input type="text" id="UserName2" class="form-control" placeholder="帳號" title="帳號欄位(必填)" aria-label="帳號欄位" autocomplete="off" data-val="true" data-val-length="&#x5E33;&#x865F; &#x6B04;&#x4F4D;&#x5B57;&#x6578;&#x81F3;&#x591A;100&#x500B;&#x5B57;" data-val-length-max="100" data-val-required="&#x5E33;&#x865F; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" maxlength="100" name="UserName" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="Identification2" class="form-control-label"
+												data-end>&#x8EAB;&#x5206;&#x8B49;&#x865F;/&#x5C45;&#x7559;&#x8B49;&#x865F;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-stamp"></i></span>
+												</div>
+												<input type="text" id="Identification2" class="form-control" placeholder="身分證號/居留證號" title="身分證號欄位(必填)" aria-label="身分證號欄位" autocomplete="off" data-val="true" data-val-length="&#x8EAB;&#x5206;&#x8B49;&#x865F;/&#x5C45;&#x7559;&#x8B49;&#x865F; &#x6B04;&#x4F4D;&#x683C;&#x5F0F;&#x9577;&#x5EA6;&#x932F;&#x8AA4;" data-val-length-max="10" data-val-length-min="10" data-val-required="&#x8EAB;&#x5206;&#x8B49;&#x865F;/&#x5C45;&#x7559;&#x8B49;&#x865F; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" maxlength="10" name="Identification" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Identification" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3">
+										<label for="Name2" class="form-control-label">&#x59D3;&#x540D;<span class="necessary px-2"><i class="fas fa-asterisk">必填</i></span><span class="hint px-2">(請依證件姓名填寫)</span></label>
+										<div class="input-group input-group-merge box mt-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="far fa-user"></i></span>
+											</div>
+											<input type="text" id="Name2" class="form-control" placeholder="姓名" title="姓名欄位(必填)" aria-label="姓名欄位" autocomplete="off" data-val="true" data-val-length="&#x59D3;&#x540D; &#x6B04;&#x4F4D;&#x5B57;&#x6578;&#x81F3;&#x591A;100&#x500B;&#x5B57;" data-val-length-max="100" data-val-required="&#x59D3;&#x540D; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" maxlength="100" name="Name" value="" />
+										</div>
+										<div>
+											<span class="err_message field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label for="Password2"
+												class="form-control-label mt-2">&#x5BC6;&#x78BC;<span class="necessary px-2"><i
+														class="fas fa-asterisk">必填</i></span><span
+													class="hint px-2">（ 8碼(含)以上，英文＋數字 ）</span></label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-lock"></i></span>
+												</div>
+												<input type="password" id="Password2" class="form-control" placeholder="Password" autocomplete="off" title="Password欄位(必填)" aria-label="密碼欄位" data-val-required="密碼 欄位為必填" data-val="true" data-val-regex="&#x5BC6;&#x78BC; &#x6B04;&#x4F4D;&#x9577;&#x5EA6;8&#x78BC;(&#x542B;)&#x4EE5;&#x4E0A;&#xFF0C;&#x4E14;&#x9700;&#x5305;&#x542B;&#x82F1;&#x6587;&#x3001;&#x6578;&#x5B57;" data-val-regex-pattern="^(?=.*\d)(?=.*[a-zA-Z]).{8,}$" name="Password" />
+												<span class="input-group-text passwordEye" data-value="1" data-place="Password"><i class="fas fa-eye-slash"></i></span>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="ConfirmPassword2"
+												class="form-control-label mt-2">&#x78BA;&#x8A8D;&#x5BC6;&#x78BC;<span class="necessary px-2"><i
+														class="fas fa-asterisk">必填</i></span><span
+													class="hint px-2">（ 8碼(含)以上，英文＋數字 ）</span></label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-lock"></i></span>
+												</div>
+												<input type="password" id="ConfirmPassword2" class="form-control" placeholder="Password" title="確認Password欄位(必填)" aria-label="確認密碼欄位" autocomplete="off" data-val="true" data-val-equalto="&#x5BC6;&#x78BC;&#x548C;&#x78BA;&#x8A8D;&#x5BC6;&#x78BC;&#x4E0D;&#x76F8;&#x7B26;&#x3002;" data-val-equalto-other="*.Password" name="ConfirmPassword" />
+												<span class="input-group-text passwordEye" data-value="1" data-place="Password"><i class="fas fa-eye-slash"></i></span>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3">
+										<label for="Email2" class="form-control-label"
+											data-end>&#x96FB;&#x5B50;&#x4FE1;&#x7BB1;</label>
+										<div class="input-group input-group-merge box mt-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+											</div>
+											<input type="email" id="Email2" class="form-control" placeholder="E-mail address" title="E-mail 欄位(必填)" aria-label="Email欄位" autocomplete="off" data-val="true" data-val-email="&#x96FB;&#x5B50;&#x4FE1;&#x7BB1; &#x6B04;&#x4F4D;&#x683C;&#x5F0F;&#x70BA;&#x96FB;&#x5B50;&#x90F5;&#x4EF6;&#x683C;&#x5F0F;&#xFF0C;&#x8F38;&#x5165;&#x932F;&#x8AA4;" data-val-required="&#x96FB;&#x5B50;&#x4FE1;&#x7BB1; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" name="Email" value="" />
+										</div>
+										<div>
+											<span class="err_message field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label for="TelNumber2"
+												class="form-control-label mt-2">&#x96FB;&#x8A71;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-phone-alt"></i></span>
+												</div>
+												<input type="tel" id="TelNumber2" class="form-control" placeholder="xx-xxxx-xxxx" title="電話" aria-label="電話欄位" autocomplete="off" name="TelNumber" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="TelNumber" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="PhoneNumber2" class="form-control-label mt-2"
+												data-end>&#x624B;&#x6A5F;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-mobile-alt"></i></span>
+												</div>
+												<input type="text" id="PhoneNumber2" class="form-control" placeholder="09xx-xxx-xxx" title="手機欄位(必填)" aria-label="手機欄位" autocomplete="off" data-val="true" data-val-regex="&#x624B;&#x6A5F;&#x683C;&#x5F0F;&#x932F;&#x8AA4;&#xFF0C;&#x4F8B;: 0912-345-678" data-val-regex-pattern="^\d{4}-\d{3}-\d{3}$" data-val-required="&#x624B;&#x6A5F; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" name="PhoneNumber" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label for="City2" class="form-control-label mt-2">郵遞區號</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"></span>
+												</div>
+												<select class="form-select cityList" id="City2" title="縣市" aria-label="縣市欄位" name="City"></select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="District2"
+												class="form-control-label mt-2 opacity">&#x9109;&#x93AE;&#x5E02;&#x5340;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"></span>
+												</div>
+												<select class="form-select districtList" id="District2" title="鄉鎮" aria-label="鄉鎮市區欄位" name="District"></select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="District" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="mb-3">
+										<label for="Address2" class="form-control-label">&#x5730;&#x5740;</label>
+										<div class="input-group input-group-merge box mt-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text"><i
+														class="fas fa-map-marker-alt"></i></span>
+											</div>
+											<input type="text" id="Address2" class="form-control" placeholder="請輸入地址" title="請輸入地址" aria-label="地址欄位" autocomplete="off" name="Address" value="" />
+										</div>
+										<div>
+											<span class="err_message field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+										</div>
+									</div>
+									<div class="row mb-3 rwd-800">
+										<div class="col">
+											<label for="Birthday2" class="form-control-label mt-2"
+												data-end>&#x751F;&#x65E5;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-calendar-day"></i></span>
+												</div>
+												<input type="text" name="Birthday" placeholder="0000 - 00 - 00" class="form-date datepickerBirthday" data-val-required="生日 欄位為必填" title="生日欄位(必填)" aria-label="生日欄位" id="Birthday2"/>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Birthday" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label id="Gender2" class="form-control-label mt-2" data-end>&#x6027;&#x5225;</label>
+											<div class="input-group input-group-merge box average mt-1">
+												<div class="row">
+														<div class="col">
+															<input class="form-check-input" type="radio" name="Gender" id="Gender2&#x7537;&#x6027;" value="0" title="性別欄位(必填)" aria-label="性別欄位">
+															<label class="form-check-label" for="Gender2&#x7537;&#x6027;">
+																	<i class="fas fa-mars"></i>
+&#x7537;&#x6027;
+															</label>
+														</div>
+														<div class="col">
+															<input class="form-check-input" type="radio" name="Gender" id="Gender2&#x5973;&#x6027;" value="1" title="性別欄位(必填)" aria-label="性別欄位">
+															<label class="form-check-label" for="Gender2&#x5973;&#x6027;">
+																	<i class="fas fa-venus"></i>
+&#x5973;&#x6027;
+															</label>
+														</div>
+														<div class="col">
+															<input class="form-check-input" type="radio" name="Gender" id="Gender2&#x5176;&#x4ED6;" value="2" title="性別欄位(必填)" aria-label="性別欄位">
+															<label class="form-check-label" for="Gender2&#x5176;&#x4ED6;">
+																	<i class="fas fa-venus-mars"></i>
+&#x5176;&#x4ED6;
+															</label>
+														</div>
+												</div>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Gender" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label for="School2"
+												class="form-control-label mt-2">&#x5B78;&#x6821;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-school"></i></span>
+												</div>
+												<input type="text" id="School2" class="form-control" placeholder="請輸入" title="學校" aria-label="學校欄位" autocomplete="off" name="School" value="" />
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="School" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="Education2" class="form-control-label mt-2"
+												data-end>&#x5B78;&#x6B77;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-graduation-cap"></i></span>
+												</div>
+												<select id="Education2" class="form-select" title="學歷欄位(必填)" aria-label="學歷" autocomplete="off" data-val="true" data-val-required="&#x5B78;&#x6B77; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" name="Education">
+													<option selected disabled>請選擇...</option>
+												<option value="0">&#x570B;&#x5C0F;</option>
+<option value="1">&#x570B;&#x4E2D;</option>
+<option value="2">&#x9AD8;&#x4E2D;/&#x8077;</option>
+<option value="3">&#x5927;&#x5B78;/&#x5C08;</option>
+<option value="4">&#x78A9;&#x58EB;</option>
+<option value="5">&#x535A;&#x58EB;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Education" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label for="Ethnic2" class="form-control-label mt-2"
+												data-end>&#x65CF;&#x5225;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-atom"></i></span>
+												</div>
+												<select id="Ethnic2" class="form-select" title="族別欄位(必填)" aria-label="族別" autocomplete="off" data-val="true" data-val-required="&#x65CF;&#x5225; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" name="Ethnic">
+													<option selected disabled>請選擇...</option>
+												<option value="0">&#x963F;&#x7F8E;&#x65CF;</option>
+<option value="1">&#x6CF0;&#x96C5;&#x65CF;</option>
+<option value="2">&#x6392;&#x7063;&#x65CF;</option>
+<option value="3">&#x5E03;&#x8FB2;&#x65CF;</option>
+<option value="4">&#x5351;&#x5357;&#x65CF;</option>
+<option value="5">&#x9B6F;&#x51F1;&#x65CF;</option>
+<option value="6">&#x9112;&#x65CF;</option>
+<option value="7">&#x8CFD;&#x590F;&#x65CF;</option>
+<option value="8">&#x96C5;&#x7F8E;&#x65CF;(&#x9054;&#x609F;&#x65CF;)</option>
+<option value="9">&#x90B5;&#x65CF;</option>
+<option value="10">&#x5676;&#x746A;&#x862D;&#x65CF;</option>
+<option value="11">&#x592A;&#x9B6F;&#x95A3;&#x65CF;</option>
+<option value="12">&#x6492;&#x5947;&#x840A;&#x96C5;&#x65CF;</option>
+<option value="13">&#x8CFD;&#x5FB7;&#x514B;&#x65CF;</option>
+<option value="14">&#x62C9;&#x963F;&#x9B6F;&#x54C7;&#x65CF;</option>
+<option value="15">&#x5361;&#x90A3;&#x5361;&#x90A3;&#x5BCC;&#x65CF;</option>
+<option value="16">&#x5E73;&#x57D4;&#x65CF;&#x7FA4;</option>
+<option value="17">&#x5176;&#x4ED6;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Ethnic" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="University2" class="form-control-label mt-2"
+												data-end>&#x53C3;&#x8A13;&#x90E8;&#x5927;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-splotch"></i></span>
+												</div>
+												<select id="University2" class="form-select" title="參訓部大欄位(必填)" aria-label="參訓部大" autocomplete="off" data-val="true" data-val-required="&#x53C3;&#x8A13;&#x90E8;&#x5927; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" name="University">
+													<option selected disabled>請選擇...</option>
+															<option value="1">&#x81FA;&#x5317;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="2">&#x65B0;&#x5317;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="3">&#x6843;&#x5712;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="4">&#x65B0;&#x7AF9;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="5">&#x82D7;&#x6817;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="6">&#x81FA;&#x4E2D;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="7">&#x5357;&#x6295;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="8">&#x5609;&#x7FA9;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="9">&#x81FA;&#x5357;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="10">&#x9AD8;&#x96C4;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="11">&#x5C4F;&#x6771;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="12">&#x57FA;&#x9686;&#x5E02;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="13">&#x5B9C;&#x862D;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="14">&#x82B1;&#x84EE;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+															<option value="15">&#x81FA;&#x6771;&#x7E23;&#x90E8;&#x843D;&#x5927;&#x5B78;</option>
+												</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="University" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<label for="JobTitle2" class="form-control-label mt-2"
+												data-end>&#x8077;&#x696D;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-user-tie"></i></span>
+												</div>
+												<select id="JobTitle2" class="form-select" title="職業欄位(必填)" aria-label="職業" autocomplete="off" data-val="true" data-val-required="&#x8077;&#x696D; &#x6B04;&#x4F4D;&#x70BA;&#x5FC5;&#x586B;" name="JobTitle">
+													<option selected disabled>請選擇...</option>
+												<option value="0">&#x91D1;&#x878D;/&#x4FDD;&#x96AA;</option>
+<option value="1">&#x623F;&#x5730;&#x7522;</option>
+<option value="2">&#x653F;&#x5E9C;&#x6A5F;&#x95DC;</option>
+<option value="3">&#x8ECD;&#x8B66;</option>
+<option value="4">&#x6559;&#x80B2;/&#x7814;&#x7A76;</option>
+<option value="5">&#x7D93;&#x5546;</option>
+<option value="6">&#x5EFA;&#x7BC9;/&#x71DF;&#x9020;</option>
+<option value="7">&#x88FD;&#x9020;/&#x4F9B;&#x61C9;&#x5546;</option>
+<option value="8">&#x8CC7;&#x8A0A;</option>
+<option value="9">&#x670D;&#x52D9;</option>
+<option value="10">&#x91AB;&#x7642;</option>
+<option value="11">&#x6CD5;&#x5F8B;&#x76F8;&#x95DC;&#x884C;&#x696D;</option>
+<option value="12">&#x6D41;&#x901A;/&#x96F6;&#x552E;</option>
+<option value="13">&#x4EA4;&#x901A;/&#x904B;&#x8F38;/&#x65C5;&#x904A;</option>
+<option value="14">&#x5A1B;&#x6A02;/&#x51FA;&#x7248;</option>
+<option value="15">&#x50B3;&#x64AD;/&#x516C;&#x5171;&#x95DC;&#x4FC2;/&#x5EE3;&#x544A;/&#x884C;&#x92B7;</option>
+<option value="16">&#x85DD;&#x8853;</option>
+<option value="17">&#x8FB2;&#x6F01;&#x7267;</option>
+<option value="18">&#x5B78;&#x751F;</option>
+<option value="19">&#x5BB6;&#x7BA1;</option>
+<option value="20">&#x5F85;&#x696D;&#x4E2D;</option>
+<option value="21">&#x5176;&#x4ED6;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="JobTitle" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+										<div class="col">
+											<label for="Industry2"
+												class="form-control-label mt-2">&#x8077;&#x7A31;</label>
+											<div class="input-group input-group-merge box mt-1">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i
+															class="fas fa-user-tag"></i></span>
+												</div>
+												<select id="Industry2" class="form-select" title="職稱" aria-label="職稱" autocomplete="off" name="Industry">
+													<option selected value="">請選擇...</option>
+												<option value="0">&#x79D8;&#x66F8;&#x3001;&#x884C;&#x653F;&#x52A9;&#x7406;</option>
+<option value="1">&#x696D;&#x52D9;&#x4EBA;&#x54E1;&#x3001;&#x4EF2;&#x4ECB;&#x4EBA;&#x54E1;</option>
+<option value="2">&#x5DE5;&#x7A0B;&#x5E2B;</option>
+<option value="3">&#x6280;&#x8853;&#x4EBA;&#x54E1;</option>
+<option value="4">&#x7814;&#x7A76;&#x4EBA;&#x54E1;</option>
+<option value="5">&#x7BA1;&#x7406;&#x968E;&#x5C64;</option>
+<option value="6">&#x6559;&#x8077;&#x4EBA;&#x54E1;</option>
+<option value="7">&#x5C08;&#x6848;&#x3001;&#x7522;&#x54C1;&#x7D93;&#x7406;</option>
+<option value="8">&#x57F7;&#x884C;&#x5C08;&#x54E1;</option>
+<option value="9">&#x670D;&#x52D9;&#x4EBA;&#x54E1;</option>
+<option value="10">&#x5C08;&#x696D;&#x4EBA;&#x58EB;</option>
+<option value="11">&#x81EA;&#x71DF;&#x5546;</option>
+<option value="12">&#x5275;&#x610F;&#x5DE5;&#x4F5C;&#x8005;</option>
+<option value="13">&#x5176;&#x4ED6;</option>
+</select>
+											</div>
+											<div>
+												<span class="err_message field-validation-valid" data-valmsg-for="Industry" data-valmsg-replace="true"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-default btn-login h-40 mt-3 w-300 register-submit" title="註冊" aria-label="按下註冊">註冊</button>
+							<div class="forgot mt-3">
+								<p class="message">有帳號密碼？<a href="#" class="signIn" title="來此登入">來此登入</a></p>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+						<!-- 登入頁 -->
+						<form class="login-form" action="/kaohsiung/Login/Login" method="post">
+							<div class="row">
+								<div class="col left-box">
+									<div class="logo-icon">
+										<img src="/img/loin-2.png" alt="loin-2">
+									</div>
+									<div class="forgot">
+										<span>
+											<p class="message">還有沒帳號或密碼？<a href="#" class="text-link-emphasis createAccount" title="來此註冊">來此註冊</a></p>
+										</span>
+									</div>
+								</div>
+								<div class="col">
+									<div class="modal-header">
+										<button type="button" class="btn-close" data-bs-dismiss="modal"
+											aria-label="Close"></button>
+									</div>
+									<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">登入</h3>
+									<div class="modal-box">
+										<div class="content">
+											<div class="division">
+												<div class="line l"></div>
+												<span>使用社群帳號</span>
+												<div class="line r"></div>
+											</div>
+											<div class="social">
+												<a href="#" class="circle facebook display_none" title="使用facebook帳號">
+													<i class="fab fa-facebook-f"><span
+															class="d-none">facebook</span></i>
+												</a>
+												<a href="#" class="circle instagram display_none" title="使用instagram帳號">
+													<i class="fab fa-instagram"><span
+															class="d-none">instagram</span></i>
+												</a>
+												<a href="#" class="circle line" title="使用line帳號">
+													<?xml version="1.0" ?><svg class="bi bi-line" fill="currentColor"
+														height="22" viewBox="0 0 16 16" width="22"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z" />
+													</svg>
+													<span class="d-none">line</span>
+												</a>
+												<a href="#" class="circle google" title="使用google帳號">
+													<i class="fab fa-google"><span class="d-none">google</span></i>
+												</a>
+											</div>
+											<div class="division">
+												<div class="line l"></div>
+												<span>或使用帳號密碼</span>
+												<div class="line r"></div>
+											</div>
+											<div class="form">
+												<label for="user01" class="form-control-label">&#x5E33;&#x865F;</label>
+												<div class="input-group input-group-merge box mt-1">
+													<div class="input-group-prepend">
+														<span class="input-group-text"><i
+																class="fas fa-user"></i></span>
+													</div>
+													<input type="text" id="user01" name="UserName" class="form-control"
+														placeholder="帳號" title="帳號欄位(必填)" aria-label="帳號欄位" autocomplete="off" />
+												</div>
+												<div>
+													<span class="text-danger UserName"></span>
+												</div>
+												<label for="password01" class="form-control-label mt-2">&#x5BC6;&#x78BC;<span class="necessary px-2"><i
+															class="fas fa-asterisk">必填</i></span><span
+														class="hint px-2">（ 8碼(含)以上，英文＋數字 ）</span></label>
+												<div class="input-group input-group-merge box mt-1">
+													<div class="input-group-prepend">
+														<span class="input-group-text"><i
+																class="fas fa-lock"></i></span>
+													</div>
+													<input type="password" id="password01" name="Password" class="form-control"
+														placeholder="Password" title="密碼欄位(必填)" aria-label="密碼欄位" autocomplete="off" />
+													<span class="input-group-text passwordEye" data-value="1" data-place="Password"><i class="fas fa-eye-slash"></i></span>
+												</div>
+												<div>
+													<span class="text-danger Password"></span>
+												</div>
+												<div class="mt-3">
+													<div class="row">
+														<div class="col">
+															<input type="checkbox" class="form-check-input"
+																name="RememberUser" title="Remember" id="exampleCheck4" aria-label="Remember">
+															<label class="form-check-label" for="exampleCheck4">記住帳密</label>
+														</div>
+													</div>
+												</div>
+												<div class="mt-3">
+													<div class="row">
+														<div class="col">
+															<div id="dvCaptcha2"></div>
+															<input type="hidden" id="hfCaptcha" name="RememberMe" title="機器人" aria-label="按下我不是機器人" />
+															<span id="rfvCaptcha" class="text-danger RememberMe">我不是機器人</span>
+														</div>
+													</div>
+												</div>
+												<button
+													class="btn btn-default btn-login h-40 mt-3 login-submit" title="登入" aria-label="按下登入">登入</button>
+												<div class="mt-2 mb-3">
+													<div class="row">
+														<div class="col">
+															<a href="#" class="reoverUser" title="忘記帳號">忘記帳號</a>
+														</div>
+														<div class="col text-end">
+															<a href="#" class="reoverPassword" title="忘記密碼">忘記密碼</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+						<!-- 忘記密碼頁 -->
+						<form class="reset-form" action="/kaohsiung/Login/ResetPassword" method="post">
+							<div class="modal-header">
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">忘記密碼</h3>
+							<div class="form">
+								<div class="mb-3">
+									<label for="user02" class="form-control-label">帳號</label>
+									<div class="input-group input-group-merge box mt-1">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-user"></i></span>
+										</div>
+										<input type="text" id="user02" name="UserName" class="form-control" placeholder="帳號" title="帳號" aria-label="帳號欄位" autocomplete="off" required/>
+									</div>
+									<div>
+										<span class="text-danger UserName"></span>
+									</div>
+								</div>
+								<div class="mb-3">
+									<label for="email02" class="form-control-label">電子信箱<span class="necessary px-2"><i class="fas fa-asterisk">必填</i></span></label>
+									<div class="input-group input-group-merge box mt-1">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+										</div>
+										<input type="text" id="email02" name="Email" class="form-control" placeholder="請輸入電子信箱" title="電子信箱欄位(必填)" aria-label="電子信箱欄位" autocomplete="off" required/>
+									</div>
+									<div>
+										<span class="text-danger Email"></span>
+									</div>
+
+									
+								</div>
+							</div>
+							<button class="btn btn-default btn-login h-40 mt-3 reset-submit" aria-label="傳送重設密碼說明">傳送重設密碼說明至以上信箱</button>
+							<div class="mt-2 mb-3">
+								<div class="row">
+									<div class="col">
+										<p class="message"><a href="#" class="backToLogin" title="會員登入">會員登入</a></p>
+									</div>
+									<div class="col text-end">
+										<p class="message"><a href="#" class="backToAccount" title="新用戶註冊">新用戶註冊</a></p>
+									</div>
+								</div>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+						<!-- 忘記帳號頁 -->
+						<form class="resetuser-form" action="/kaohsiung/Login/ResetAccount" method="post">
+							<div class="modal-header">
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<h3 class="modal-title text-center mb-3 mt-n4" id="exampleModalToggleLabel">忘記帳號</h3>
+							<div class="form">
+								<div class="mb-3">
+									<label for="email03" class="form-control-label">電子信箱<span class="necessary px-2"><i class="fas fa-asterisk">必填</i></span></label>
+									<div class="input-group input-group-merge box mt-1">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+										</div>
+										<input type="text" id="email03" name="Email" class="form-control" placeholder="請輸入電子信箱" title="電子信箱欄位(必填)" aria-label="電子信箱欄位" autocomplete="off" required/>
+									</div>
+									<div>
+										<span class="text-danger Email"></span>
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-default btn-login h-40 mt-3 resetuser-submit" aria-label="傳送帳號至信箱">傳送帳號至以上信箱</button>
+							<div class="mt-2 mb-3">
+								<div class="row">
+									<div class="col">
+										<p class="message"><a href="#" class="backLogin" title="會員登入">會員登入</a></p>
+									</div>
+									<div class="col text-end">
+										<p class="message"><a href="#" class="backAccount" title="新用戶註冊">新用戶註冊</a></p>
+									</div>
+								</div>
+							</div>
+						<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AtC1HZ00yxFirGH7EM2ufN21SFzPUIqAKxLYH4vYlXlSK8jWnzyTOiu94w72Ic9cIB4W1I-fnA4q-MExaOR7YOXbuxBYJLrzNaxKXd1FuRGCrBZ6lGi4itlQnZVcEKRi9HcdaSVAQh-mPj7Ib0szfU" /></form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+        
+<!-- 跳出ＢＯＸ 進階選項 -->
+<div class="modal fade" id="exampleModalToggle" data-bs-backdrop="static" data-bs-keyboard="false"
+	 aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down tap_1">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalToggleLabel">進階搜索</h5>
+				<a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" role="button"></a>
+			</div>
+			<div class="modal-body sheet-menu">
+				<div class="form-group focused mb-3">
+					<div class="row">
+						<div class="col">
+							<label for="semester_year" class="form-control-label">年度</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-merge">
+									<div class="input-group-prepend height100">
+										<span class="input-group-text"><i class="fas fa-clipboard-list"></i></span>
+									</div>
+								</div>
+								<select id="semester_year" class="form-select" name="year" title="年度" aria-label="年度選單">
+									<option value="0">請選擇年度</option>
+										<option value="115">115
+										</option>
+										<option value="114">114
+										</option>
+										<option value="113">113
+										</option>
+										<option value="112">112
+										</option>
+										<option value="111">111
+										</option>
+										<option value="110">110
+										</option>
+										<option value="109">109
+										</option>
+										<option value="108">108
+										</option>
+										<option value="107">107
+										</option>
+										<option value="106">106
+										</option>
+								</select>
+							</div>
+						</div>
+						<div class="col">
+							<label for="semester" class="form-control-label">學期</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-merge">
+									<div class="input-group-prepend height100">
+										<span class="input-group-text"><i class="fas fa-location-arrow"></i></span>
+									</div>
+								</div>
+								<select id="semester" name="semester" class="form-select" title="學期" aria-label="學期選單">
+									<option value="0">請選擇學期</option>
+									<option value="01">上學期
+									</option>
+									<option value="02">下學期
+									</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group focused mb-3">
+					<div class="row">
+						<div class="col">
+							<label for="class-applytime-start" class="form-control-label">報名日期(起)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-day"></i></span>
+								</div>
+								<input type="text" id="class-applytime-start" name="ApplyStartDate"
+									   placeholder="0000 - 00 - 00" title="報名日期(起)" aria-label="報名日期(起)欄位" autocomplete="off">
+							</div>
+						</div>
+						<div class="col">
+							<label for="class-applytime-end" class="form-control-label">報名日期(訖)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-week"></i></span>
+								</div>
+								<input type="text" id="class-applytime-end" name="ApplyEndDate"
+									   placeholder="0000 - 00 - 00" title="報名日期(訖)" aria-label="報名日期(訖)欄位" autocomplete="off">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group focused mb-3">
+					<div class="row">
+						<div class="col">
+							<label for="class-time-start" class="form-control-label">上課日期(起)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-day"></i></span>
+								</div>
+								<input type="text" id="class-time-start" name="startDate" placeholder="0000 - 00 - 00" title="上課時間(起)" aria-label="上課時間(起)欄位"
+									   autocomplete="off">
+							</div>
+						</div>
+						<div class="col">
+							<label for="class-time-edn" class="form-control-label">上課日期(訖)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-week"></i></span>
+								</div>
+								<input type="text" id="class-time-end" name="endDate" placeholder="0000 - 00 - 00" title="上課時間(訖)" aria-label="上課時間(起)欄位" autocomplete="off">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group focused">
+					<label class="form-control-label pb-2">課程狀況</label>
+					<div class="row">
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck0)" value="0"
+									   title="HOT" aria-label="HOT&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck0)">HOT</label>
+							</div>
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck1)" value="1"
+									   title="&#x5EF6;&#x7E8C;&#x6027;&#x8AB2;&#x7A0B;" aria-label="&#x5EF6;&#x7E8C;&#x6027;&#x8AB2;&#x7A0B;&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck1)">&#x5EF6;&#x7E8C;&#x6027;&#x8AB2;&#x7A0B;</label>
+							</div>
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck2)" value="2"
+									   title="&#x65CF;&#x8A9E;&#x6388;&#x8AB2;" aria-label="&#x65CF;&#x8A9E;&#x6388;&#x8AB2;&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck2)">&#x65CF;&#x8A9E;&#x6388;&#x8AB2;</label>
+							</div>
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck3)" value="3"
+									   title="&#x7DDA;&#x4E0A;&#x8AB2;&#x7A0B;" aria-label="&#x7DDA;&#x4E0A;&#x8AB2;&#x7A0B;&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck3)">&#x7DDA;&#x4E0A;&#x8AB2;&#x7A0B;</label>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer justify-center mb-3">
+				<a href="#" class="btn btn-sm btn-danger mb-0 w-150 h-40" id="courseSearchModel" title="搜索">搜索</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script nonce="SFMsTnsaDVO0vLk5olTftQ==">
+	let courseSearchModel = document.getElementById('courseSearchModel');
+	courseSearchModel.addEventListener('click', function (e) {
+		e.preventDefault();
+		let url2 = "";
+		if ("kaohsiung" != "") {
+			url2 = "kaohsiung";
+		}
+
+		let url = `/kaohsiung/Course/Index?url=${url2}`;
+
+		let year = document.querySelector('#exampleModalToggle select[name="year"]');
+		if (year.value != 0) {
+			url = url + `&year=${year.value}`;
+		}
+
+		let semester = document.querySelector('#exampleModalToggle select[name="semester"]');
+		if (semester.value != 0) {
+			url = url + `&semester=${semester.value}`;
+		}
+
+		let startDate = document.querySelector('#exampleModalToggle input[name="startDate"]');
+		if (startDate.value.length != 0) {
+			url = url + `&startDate=${startDate.value}`;
+		}
+
+		let endDate = document.querySelector('#exampleModalToggle input[name="endDate"]');
+		if (endDate.value.length != 0) {
+			url = url + `&endDate=${endDate.value}`;
+		}
+
+		let applyStartDate = document.querySelector('#exampleModalToggle input[name="ApplyStartDate"]');
+		if (applyStartDate.value.length != 0) {
+			url = url + `&applyStartDate=${applyStartDate.value}`;
+		}
+
+		let applyEndDate = document.querySelector('#exampleModalToggle input[name="ApplyEndDate"]');
+		if (applyEndDate.value.length != 0) {
+			url = url + `&applyEndDate=${applyEndDate.value}`;
+		}
+
+		let courseLabel = document.querySelectorAll('#exampleModalToggle input[name="courseLabel"]:checked');
+		if (courseLabel.length != 0) {
+			let label = [];
+			courseLabel.forEach(item => {
+				label.push(item.value);
+			})
+			labelstr = label.toString();
+			url = url + `&courseLabel=${labelstr}`;
+		}
+
+		window.location.href = url;
+	})
+
+</script>
+        
+<!-- 跳出ＢＯＸ 進階選項 -->
+<div class="modal fade" id="exampleModalToggle2" data-bs-backdrop="static" data-bs-keyboard="false"
+	 aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down tap_1">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalToggle2Label">進階搜索</h5>
+				<a type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" role="button"></a>
+			</div>
+			<div class="modal-body sheet-menu">
+				<div class="form-group focused mb-3">
+					<div class="row">
+						<div class="col">
+							<label for="semester_year" class="form-control-label">年度</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-merge">
+									<div class="input-group-prepend height100">
+										<span class="input-group-text"><i class="fas fa-clipboard-list"></i></span>
+									</div>
+								</div>
+								<select id="semester_year" class="form-select" name="year" title="年度" aria-label="年度選單">
+									<option value="0">請選擇年度</option>
+										<option value="115">115
+										</option>
+										<option value="114">114
+										</option>
+										<option value="113">113
+										</option>
+										<option value="112">112
+										</option>
+										<option value="111">111
+										</option>
+										<option value="110">110
+										</option>
+										<option value="109">109
+										</option>
+										<option value="108">108
+										</option>
+										<option value="107">107
+										</option>
+										<option value="106">106
+										</option>
+								</select>
+							</div>
+						</div>
+						<div class="col">
+							<label for="semester" class="form-control-label">學期</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-merge">
+									<div class="input-group-prepend height100">
+										<span class="input-group-text"><i class="fas fa-location-arrow"></i></span>
+									</div>
+								</div>
+								<select id="semester" name="semester" class="form-select" title="學期" aria-label="學期選單">
+									<option value="0">請選擇學期</option>
+									<option value="01">上學期
+									</option>
+									<option value="02">下學期
+									</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group focused mb-3">
+					<div class="row">
+						<div class="col">
+							<label for="class-applytime-start" class="form-control-label">報名日期(起)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-day"></i></span>
+								</div>
+								<input type="text" id="class-applytime-start" name="ApplyStartDate"
+									   placeholder="0000 - 00 - 00" title="報名日期(起)" aria-label="報名日期(起)欄位" autocomplete="off">
+							</div>
+						</div>
+						<div class="col">
+							<label for="class-applytime-end" class="form-control-label">報名日期(訖)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-week"></i></span>
+								</div>
+								<input type="text" id="class-applytime-end" name="ApplyEndDate"
+									   placeholder="0000 - 00 - 00" title="報名日期(訖)" aria-label="報名日期(訖)欄位" autocomplete="off">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group focused mb-3">
+					<div class="row">
+						<div class="col">
+							<label for="class-time-start" class="form-control-label">上課日期(起)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-day"></i></span>
+								</div>
+								<input type="text" id="class-time-start" name="startDate" placeholder="0000 - 00 - 00" title="上課時間(起)" aria-label="上課時間(起)欄位"
+									   autocomplete="off">
+							</div>
+						</div>
+						<div class="col">
+							<label for="class-time-edn" class="form-control-label">上課日期(訖)</label>
+							<div class="input-group input-group-merge box mt-1">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-calendar-week"></i></span>
+								</div>
+								<input type="text" id="class-time-end" name="endDate" placeholder="0000 - 00 - 00" title="上課時間(訖)" aria-label="上課時間(起)欄位" autocomplete="off">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group focused">
+					<label class="form-control-label pb-2">課程狀況</label>
+					<div class="row">
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck0)" value="0"
+									   title="HOT" aria-label="HOT&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck0)">HOT</label>
+							</div>
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck1)" value="1"
+									   title="&#x5EF6;&#x7E8C;&#x6027;&#x8AB2;&#x7A0B;" aria-label="&#x5EF6;&#x7E8C;&#x6027;&#x8AB2;&#x7A0B;&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck1)">&#x5EF6;&#x7E8C;&#x6027;&#x8AB2;&#x7A0B;</label>
+							</div>
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck2)" value="2"
+									   title="&#x65CF;&#x8A9E;&#x6388;&#x8AB2;" aria-label="&#x65CF;&#x8A9E;&#x6388;&#x8AB2;&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck2)">&#x65CF;&#x8A9E;&#x6388;&#x8AB2;</label>
+							</div>
+							<div class="col">
+								<input type="checkbox" class="form-check-input" name="courseLabel"
+									   id="exampleCheck3)" value="3"
+									   title="&#x7DDA;&#x4E0A;&#x8AB2;&#x7A0B;" aria-label="&#x7DDA;&#x4E0A;&#x8AB2;&#x7A0B;&#x6B04;&#x4F4D;">
+								<label class="form-check-label" for="exampleCheck3)">&#x7DDA;&#x4E0A;&#x8AB2;&#x7A0B;</label>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer justify-center mb-3">
+				<a href="#" class="btn btn-sm btn-danger mb-0 w-150 h-40" id="courseSearchModel2" title="搜索">搜索</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script nonce="SFMsTnsaDVO0vLk5olTftQ==">
+	let courseSearchModel2 = document.getElementById('courseSearchModel2');
+	courseSearchModel2.addEventListener('click', function (e) {
+		e.preventDefault();
+		let url2 = "";
+		if ("kaohsiung" != "") {
+			url2 = "kaohsiung";
+		}
+
+		let url = `/kaohsiung/Situation/Index?url=${url2}`;
+		let year = document.querySelector('#exampleModalToggle2 select[name="year"]');
+		if (year.value != 0) {
+			url = url + `&year=${year.value}`;
+		}
+
+		let semester = document.querySelector('#exampleModalToggle2 select[name="semester"]');
+		if (semester.value != 0) {
+			url = url + `&semester=${semester.value}`;
+		}
+
+		let startDate = document.querySelector('#exampleModalToggle2 input[name="startDate"]');
+		if (startDate.value.length != 0) {
+			url = url + `&startDate=${startDate.value}`;
+		}
+
+		let endDate = document.querySelector('#exampleModalToggle2 input[name="endDate"]');
+		if (endDate.value.length != 0) {
+			url = url + `&endDate=${endDate.value}`;
+		}
+
+		let applyStartDate = document.querySelector('#exampleModalToggle input[name="ApplyStartDate"]');
+		if (applyStartDate.value.length != 0) {
+			url = url + `&applyStartDate=${applyStartDate.value}`;
+		}
+
+		let applyEndDate = document.querySelector('#exampleModalToggle input[name="ApplyEndDate"]');
+		if (applyEndDate.value.length != 0) {
+			url = url + `&applyEndDate=${applyEndDate.value}`;
+		}
+
+		let courseLabel = document.querySelectorAll('#exampleModalToggle2 input[name="courseLabel"]:checked');
+		if (courseLabel.length != 0) {
+			let label = [];
+			courseLabel.forEach(item => {
+				label.push(item.value);
+			})
+			labelstr = label.toString();
+			url = url + `&courseLabel=${labelstr}`;
+		}
+
+		window.location.href = url;
+	})
+
+</script>
+        <!-- 跳出 取消原因  -->
+<div class="modal fade" id="reasonCancellation" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalToggleLabel">取消原因</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body sheet-menu pt-0 pb-0">
+				<div class="form-group focused">
+					<div class="row">
+						<div class="col">
+							<input type="hidden" name="fromId" value="">
+							<input type="hidden" name="formURL" value="">
+							<textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="5" placeholder="請輸入..." aria-label="取消原因"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer justify-center mb-3">
+				<a id="sumibt_del_apply_btn" class="btn btn-sm btn-danger mb-0 w-150 h-40">送出</a>
+			</div>
+		</div>
+	</div>
+</div>
+        <!-- Bootstrap JS -->
+        <script src="/js/bootstrap.bundle.min.js?v=odN94GOcv_f3bsvQbhCiEbjlhev0aQ5zF_Z16GDaIAU"></script>
+        <!-- 供應商 -->
+        <script src="/js/cdn/jquery.validate.min.js"></script>
+        <script src="/js/cdn/jquery.validate.unobtrusive.min.js"></script>
+        <script src="/js/toastr.js?v=QB4LfmhGprordDJ_yxRcd4RFACILY_TyjipaUmrcO4w"></script>
+        <script src="/js/sticky.min.js?v=9f205VaXRuer0K27u56J1WjDTv3-8OCwBPXdLesUJiI"></script><!-- 閱覽文字大小切換 -->
+        <!-- 相片 功能 -->
+        <script src="/js/glightbox.js?v=B5G7xlsuNWqyxJomqDGo_wfO-uQ4yipcHToSgnfbbJk"></script>
+        <!-- 會員登入 -->
+        <script src="/js/login.js?v=1ZA5LpK2FVFMequYGelbCortL6iOTAAVSzGP-oWRp7Q"></script>
+        <!-- 日期 功能 -->
+        <script src="/js/cdn/jquery-ui.min.js"></script>
+        <script src="/js/date.js?v=FKJGOEU9tzt2GItgclKGh_LjQBuzgw2kZ8WUxoppmKQ"></script>
+        <!-- 輪播 -->
+        <script src="/js/tiny-slider.js?v=_a43Lay42DFdcYfRhB1tBF9KvtFZU27rreNaTcW9Aeo"></script>
+        <script src="/js/cdn/swiper.min.js"></script>
+        <!-- 模板函數 功能 -->
+        <script src="/js/functions.js?v=vvfxROSNciEAvD9iPpmWmf5K0U3qMBbRsv8N9ss4Tck"></script><!-- 閱覽文字大小切換 -->
+        <!-- 模板函數 功能 -->
+        <script src="/js/style.js?v=r6P3eVqu-HTYYHgbJXt64kN6LGsZS2LRL1_EyYP29Tg"></script>
+
+        <script src="https://apis.google.com/js/api:client.js"></script>
+        <script src="/js/all.js?v=JQSWBP8f6RrHsT2fGcScm_19eEPa4Q_WF-kjmGzDGBY"></script>
+        <script src="/js/ajax.js?v=bRlQP_wc2G7-5O9MZtM0vXhTU-RRYTODYk4piLmBxIE"></script>
+        <script nonce="SFMsTnsaDVO0vLk5olTftQ==">
+            if ("" != "") {
+                let json = "";
+                var register = JSON.parse(json.replace(/&quot;/g, '"'));
+                let registerFrom = document.querySelector("#loginModal2 .register-form");
+                let RegisterModal = new bootstrap.Modal(document.getElementById('loginModal2'), {
+                    backdrop: 'static',
+                    keyboard: false
+                });
+
+                if (register.response == "facebook") {
+                    if (register.status == false) {
+                        registerFrom.querySelector('input[name="Name"]').value = decode(register.name);
+                        registerFrom.querySelector('input[name="Email"]').value = register.email;
+
+                        let input = document.createElement('input');
+                        input.name = "FB_ID";
+                        input.value = register.id;
+                        input.type = 'hidden';
+                        registerFrom.appendChild(input);
+                        RegisterModal.show();
+                        toastr.success("Facebook 授權資料已帶入，請完成註冊內容");
+                    } else {
+                        toastr.error("此 Facebook 會員已註冊，請進行登入");
+                        LoginModal.show();
+                    }
+                } else if (register.response == "instagram") {
+                    if (register.status == false) {
+                        registerFrom.querySelector('input[name="Name"]').value = decode(register.username);
+
+                        let input = document.createElement('input');
+                        input.name = "IG_ID";
+                        input.value = register.id;
+                        input.type = 'hidden';
+                        registerFrom.appendChild(input);
+                        RegisterModal.show();
+                        toastr.success("Instagram 授權資料已帶入，請完成註冊內容");
+                    } else {
+                        toastr.error("此 Instagram 會員已註冊，請進行登入");
+                        LoginModal.show();
+                    }
+                } else if (register.response == "line") {
+                    if (register.status == false) {
+                        registerFrom.querySelector('input[name="Name"]').value = decode(register.DisplayName);
+
+                        let input = document.createElement('input');
+                        input.name = "LINE_ID";
+                        input.value = register.UserId;
+                        input.type = 'hidden';
+                        registerFrom.appendChild(input);
+                        RegisterModal.show();
+                        toastr.success("Line 授權資料已帶入，請完成註冊內容");
+                    } else {
+                        toastr.error("此 Line 會員已註冊，請進行登入");
+                        LoginModal.show();
+                    }
+                } else if (register.response == "google") {
+                    if (register.status == false) {
+                        registerFrom.querySelector('input[name="Name"]').value = decode(register.name);
+                        registerFrom.querySelector('input[name="Email"]').value = register.email;
+
+                        let input = document.createElement('input');
+                        input.name = "GOOGLE_ID";
+                        input.value = register.id;
+                        input.type = 'hidden';
+                        registerFrom.appendChild(input);
+                        RegisterModal.show();
+                        toastr.success("Google 授權資料已帶入，請完成註冊內容");
+                    } else {
+                        toastr.error("此 Google 會員已註冊，請進行登入");
+                        LoginModal.show();
+                    }
+                }
+            }
+
+            if ("" != "") {
+                let json = "";
+                var login = JSON.parse(json.replace(/&quot;/g, '"'));
+                if (login.status == false) {
+                    toastr.error(decode(login.massage));
+                } else {
+                    toastr.success("登入成功");
+                }
+            }
+
+            if ("" != "") {
+                let json = "";
+                var remark = JSON.parse(json.replace(/&quot;/g, '"'));
+                toastr.success(remark);
+            }
+
+            function decode(str) {
+                str = unescape(str.replace(/\\u/g, "%u"));
+                str = str.replace(/&#(x)?(\w+);/g, function ($, $1, $2) {
+                    return String.fromCharCode(parseInt($2, $1 ? 16 : 10));
+                });
+
+                return str;
+            }
+        </script>
+        
+    </body>
+</html>

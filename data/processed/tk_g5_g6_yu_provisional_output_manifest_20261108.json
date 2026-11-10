@@ -1,0 +1,234 @@
+[
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_all_assignments_20261108.csv",
+    "rows": 210,
+    "columns": [
+      "candidate_key",
+      "candidate_name",
+      "county_city",
+      "office_type",
+      "electoral_district",
+      "G5_first_time_any_elected_office",
+      "G6_political_family",
+      "G5_label",
+      "G6_label",
+      "G5_audit_status",
+      "G5_source",
+      "G6_evidence_tier",
+      "G6_source",
+      "G6_review_note_tk_20261108",
+      "eligibility_status_20261108",
+      "eligibility_source_20261108",
+      "research_inclusion_status_20261108",
+      "official_eligibility_note_20261108",
+      "eligibility_provisional_flag_20261108",
+      "provisional_inclusion_source_20261108",
+      "clustering_pool",
+      "cluster_profile_id",
+      "cluster_profile_label",
+      "primary_k",
+      "primary_silhouette"
+    ],
+    "sha256": "9b0fa7bd148d847dc3a8a778a435bc4ea90f0204a57ccd9dd46dfd3e44d7212f",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_mayor_assignments_20261108.csv",
+    "rows": 11,
+    "columns": [
+      "candidate_key",
+      "candidate_name",
+      "county_city",
+      "office_type",
+      "electoral_district",
+      "G5_first_time_any_elected_office",
+      "G6_political_family",
+      "G5_label",
+      "G6_label",
+      "G5_audit_status",
+      "G5_source",
+      "G6_evidence_tier",
+      "G6_source",
+      "G6_review_note_tk_20261108",
+      "eligibility_status_20261108",
+      "eligibility_source_20261108",
+      "research_inclusion_status_20261108",
+      "official_eligibility_note_20261108",
+      "eligibility_provisional_flag_20261108",
+      "provisional_inclusion_source_20261108",
+      "clustering_pool",
+      "cluster_profile_id",
+      "cluster_profile_label",
+      "primary_k",
+      "primary_silhouette"
+    ],
+    "sha256": "66d7078c4869382b4a760c1ee1c95647e227da23300a567b957b0ea7b3ac848d",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_council_assignments_20261108.csv",
+    "rows": 199,
+    "columns": [
+      "candidate_key",
+      "candidate_name",
+      "county_city",
+      "office_type",
+      "electoral_district",
+      "G5_first_time_any_elected_office",
+      "G6_political_family",
+      "G5_label",
+      "G6_label",
+      "G5_audit_status",
+      "G5_source",
+      "G6_evidence_tier",
+      "G6_source",
+      "G6_review_note_tk_20261108",
+      "eligibility_status_20261108",
+      "eligibility_source_20261108",
+      "research_inclusion_status_20261108",
+      "official_eligibility_note_20261108",
+      "eligibility_provisional_flag_20261108",
+      "provisional_inclusion_source_20261108",
+      "clustering_pool",
+      "cluster_profile_id",
+      "cluster_profile_label",
+      "primary_k",
+      "primary_silhouette"
+    ],
+    "sha256": "bb89d2ef289d63b9d1115f6eeacae062b0cbd312ad0fde24038d6647fd5bcf61",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_profiles_20261108.csv",
+    "rows": 12,
+    "columns": [
+      "pool",
+      "profile_id",
+      "profile_label",
+      "G5",
+      "G6",
+      "n",
+      "pool_n",
+      "percent",
+      "observed"
+    ],
+    "sha256": "2890006e1552e9c58bd080100a9acbdf34e4f60ef7fbafe1e2bc29060b3d677b",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_k_diagnostics_20261108.csv",
+    "rows": 8,
+    "columns": [
+      "pool",
+      "pool_n",
+      "requested_k",
+      "actual_k",
+      "silhouette_mean",
+      "min_cluster_n",
+      "max_cluster_n",
+      "all_clusters_n_ge_8",
+      "is_primary",
+      "cluster_sizes",
+      "cluster_profiles"
+    ],
+    "sha256": "09bcf905cc1ba081c7721d8f43d1ad489b9fbb282306f14981aac0663221f7e9",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_alternative_assignments_20261108.csv",
+    "rows": 1249,
+    "columns": [
+      "pool",
+      "candidate_key",
+      "k",
+      "cluster_id",
+      "cluster_profiles"
+    ],
+    "sha256": "8bc865dffc7f1576bdcc1c91710e50d8f1569f3e1018ef56f2573e802c6f6ab3",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_exclusions_20261108.csv",
+    "rows": 0,
+    "columns": [
+      "pool",
+      "candidate_key",
+      "candidate_name",
+      "missing_fields",
+      "reason"
+    ],
+    "sha256": "23616373798de0eea548a35cb49f64ae4ddbbf0ce2ae59e8a4bcd71f730c4f1a",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_order_sensitivity_20261108.csv",
+    "rows": 8,
+    "columns": [
+      "pool",
+      "k",
+      "permutations",
+      "seed",
+      "ARI_min",
+      "ARI_mean",
+      "same_partition_fraction",
+      "primary_profile_cut"
+    ],
+    "sha256": "22c510e649aa342dea0d31322358ef87447f7f4d1cf0c1d60db927284bd81207",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_bootstrap_20261108.csv",
+    "rows": 11,
+    "columns": [
+      "pool",
+      "profile_id",
+      "original_n",
+      "pool_n",
+      "B",
+      "seed",
+      "jaccard_full_universe_mean",
+      "jaccard_common_support_mean_when_present",
+      "absent_n",
+      "absent_fraction"
+    ],
+    "sha256": "43e260043c19ea60ebee57d01892d5501748e604b43fbc0195353425db685248",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_inclusion_sensitivity_20261108.csv",
+    "rows": 3,
+    "columns": [
+      "pool",
+      "before_n",
+      "after_n",
+      "common_n",
+      "primary_changed_n",
+      "primary_common_ARI",
+      "before_k",
+      "after_k",
+      "max_absolute_percent_change_pp",
+      "new_provisional_n",
+      "k2_common_ARI",
+      "k3_common_ARI"
+    ],
+    "sha256": "a99b1991a56dfd915a868bd142b202f173915503c8fb9aedbf2f0f778d329c46",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  },
+  {
+    "path": "data/processed/tk_g5_g6_yu_provisional_profile_sensitivity_20261108.csv",
+    "rows": 12,
+    "columns": [
+      "pool",
+      "profile_id",
+      "before_n",
+      "after_n",
+      "before_pool_n",
+      "after_pool_n",
+      "before_percent",
+      "after_percent",
+      "percent_change_pp"
+    ],
+    "sha256": "a32636443e8968a34fa5b7ff80ca286357af51b1b7b75cb8337a4284400cb591",
+    "verification": "saved CSV reopened; exact schema, row order and serialized cell equality"
+  }
+]

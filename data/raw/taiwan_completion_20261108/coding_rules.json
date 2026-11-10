@@ -1,0 +1,13 @@
+{
+  "author": "RUEI-HSIANG, CHANG / 張睿庠 (B12303030), AI-assisted",
+  "as_of": "2026-11-08",
+  "scope": "nationwide mayor and county/city council, G5/G6 only, combined/mayor/council pools",
+  "G5": "Yang revised rule; no normalized full-name or Chinese-alias match in available historical CEC archive may code 1; retain inference flag; ambiguous name match stays unknown unless independent identity supported",
+  "G6": "spouse or within three degrees blood/in-law; relative held elected/politically appointed public office; ordinary military/career civil service, party/campaign jobs and losing candidacy alone excluded; completed targeted search nonfinding may code 0; unsearched stays missing",
+  "missing_policy": "Exclude candidate if G5 or G6 missing; age/education missing not exclusion",
+  "eligibility": "Use existing 2026-10-16 qualification snapshot; nine non-approved councillors excluded; user-authorized Yu Chih-pin provisional exception retained and flagged; no claim new certification or judicial merits decision",
+  "bounded_research_scope": "All 49 remaining mayor G6 cases; 14 councillors from seven previously zero-complete counties plus four additional relationships read in same articles; archive screen all 636 G5 unknown. Not an exhaustive nationwide G6 search.",
+  "identity": "Never merge solely by name; birth date, school and career/geography anchors used for three positive historical matches",
+  "family_adjudication_note": "曹爾元 kinship/appointment unresolved, retained missing; no silent 0",
+  "clustering": "two equal-weight symmetric categorical Gower = Hamming; average linkage; distance zero cut preserves observed profiles; K2..4 alternatives; 100 order permutations and 500 bootstrap, seed20261108"
+}

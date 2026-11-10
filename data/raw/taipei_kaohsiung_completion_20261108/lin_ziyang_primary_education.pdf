@@ -1,0 +1,779 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="zh-tw" class="no-js" xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_PageHead"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	新文化基金會
+</title>
+<!--uc:eZHeadMeta-->
+<!-- Viewport -->
+<meta name='viewport' content='width=device-width, initial-scale=1' />
+<!-- for Google -->
+<meta id="ctl00_eZHeadMeta1_description" name="description" content="為了推廣新文化，基金會創辦人謝長廷先生一度經辦《台灣新文化》雜誌，剖析、批判臺灣現實文化的各種面向，並鼓吹建立海洋新文化，重塑臺灣人的文化性格。其後，並延續《台灣新文化》雜誌的創辦理念，汲取各方經驗，創辦「新文化基金會」，冀望以基金會的形式，支持推動新文化，幾十年來成效卓著。"></meta>
+<meta id="ctl00_eZHeadMeta1_keywords" name="keywords" content="新文化基金會, 謝長廷,台灣新文化,新文化研習營,新文化會訊,財團法人新文化基金會"></meta>
+<meta id="ctl00_eZHeadMeta1_author" name="author" content="新文化基金會"></meta>
+<meta id="ctl00_eZHeadMeta1_copyright" name="copyright" content="Copyrights © 新文化基金會 All Rights Reserved"></meta>
+
+<meta name="application-name" content="" />
+
+
+
+
+
+
+
+
+
+<!-- 關閉Skype工具列 -->
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+
+<meta name="format-detection" content="telephone=no">
+
+ 
+
+<!--uc:eZHeadPageRes-->
+    <link href="/js/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/js/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="/js/slick/slick.min.css" rel="stylesheet" />
+    
+    <link href="/css/bootstrap-col10.min.css" rel="stylesheet">
+    
+    <link href="/css/base.min.css" rel="stylesheet">
+    <link href="/css/base_rwd.min.css" rel="stylesheet">
+    
+    <link href="/Templates/C106148EZW/css/style.css" rel="stylesheet">
+
+    
+    
+        
+        <link href="/Templates/C106148EZW/css/style_rwd.css" rel="stylesheet">
+    
+
+    <link href="/ext/framesets/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap-datetimepicker-master/build/js/moment.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="/js/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        setPageBodyClass("lang", "TW");
+        setPageBodyClass("kind", "");
+        setPageBodyClass("num", "");
+
+        //check ie
+        if ($.browser.msie && $.browser.version <= "8.0") {
+            $('body').addClass('is_oldie');
+            // please upgrade your browser
+        }
+        if (Modernizr.touch) {
+            $("body").addClass("is_touch");
+        }
+        //for editor
+        $(".editor table.scroll").wrap("<div class='table-responsive'></div>");
+        
+        $(".editor iframe[src*='youtube']").each(function (e) {
+            if (!$(this).hasClass("embed-responsive-item")) {
+                var w = ($(this).attr("width")) ? $(this).attr("width") : "",
+                    u = (w && w.search(/px|%/) == -1) ? "px" : "";
+                $(this)
+                    .removeAttr("height")
+                    .removeAttr("width")
+                    .addClass("embed-responsive-item")
+                    .attr("allowfullscreen", "1")
+                    .wrap("<div class='youtube_wrap' style='max-width:" + w + u + ";margin:auto;'><div class='embed-responsive embed-responsive-16by9' style='width:100%;'></div></div>");
+            }
+        });
+
+        $(window).scroll(function (e) {
+            var win_h = $(window).scrollTop();
+            var win_w = $(window).width();
+            var page_w = $(".main_content > .container").width();
+            var floating_offset_top = $(".header").height() + $(".main_top").height();
+            if (win_h > floating_offset_top) {
+                $("#floating").addClass("fixed");
+            } else {
+                $("#floating").removeClass("fixed");
+            }
+            (win_h > 10) ? $("body").addClass("is_scroll") : $("body").removeClass("is_scroll");
+
+        });
+
+        $('.btn-floating').click(function (e) {
+            e.preventDefault();
+            $('#floating').toggleClass("open");
+        });
+
+        if ($(window).width() < 975 && $('.side1 .collapse').hasClass('in')) {
+            $('#side1collapse').collapse('hide');
+        }
+        //gotop Animate
+        $(".gotop a[href=#]").click(function (e) {
+            $("html,body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+    });
+    //datetimepicker
+    var datefield = document.createElement("input");
+    datefield.setAttribute("type", "date");
+    if (datefield.type != "date") {
+        $(function ($) { //on document.ready
+            $('input[type=date]').datetimepicker({ format: 'YYYY/MM/DD' });
+        });
+    }
+
+    // setPageBodyClass
+    function setPageBodyClass(para, value) {
+        (value) ? $("body").addClass(para + "_" + value) : "";
+    }
+</script>
+
+
+
+
+
+
+<!--uc:eZHeadFinal-->
+<script src="/js/selectivizr-1.0.2/selectivizr-min.js"></script>
+<script src="/js/html5shiv-3.7.2.min.js"></script>
+<script src="/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87688341-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-87688341-14');
+</script>
+
+<script type="text/javascript">
+(function(d,s,id){var z=d.createElement(s);z.type="text/javascript";z.id=id;z.async=true;z.src="//static.zotabox.com/c/c/cca37718a2ef33e1cc53e715b3199c7b/widgets.js";var sz=d.getElementsByTagName(s)[0];sz.parentNode.insertBefore(z,sz)}(document,"script","zb-embed-code"));
+</script>
+
+<link rel="shortcut icon" href="http://www.ncf1991.com.tw/upload/web/web/logos.png" />
+
+
+<!--uc:eZThemeCustom-->
+<style>
+    /*首頁背景*/
+    body.home {
+        
+        background-repeat:no-repeat;
+    }
+    /*內頁背景*/
+    body {
+        
+        background-repeat:no-repeat;
+    }
+    /*首頁標題區塊背景*/
+    body.home .header{
+        
+        background-repeat:no-repeat;
+    }  
+     /*標題區塊背景*/
+    .header {
+       
+       background-repeat:no-repeat;
+    }    
+     /*LOGO*/
+    .header .navbar .navbar-header .navbar-brand, #logo {
+         
+    }
+    .header .wrp-deco.avatar {
+         
+        
+         
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        //以class設定.wrp-deco.avatar的z-index   
+        //選項為:不指定, 在前面, 在後面
+        var avatar_class = ""; /**程式要帶入節慶主題是預設、前或後**/
+        $(".header .wrp-deco.avatar").addClass(avatar_class);
+    });
+</script>
+
+
+
+</head>
+<body id="ctl00_PageBody" class="home">
+    <form name="aspnetForm" method="post" action="./index.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPBegaSDRzSUFBQUFBQUFFQU8xWjYzTVQxeFdIeFFJYmtycGtpcHRPcDdCUlcxdWVrYlFQYVNYNUlWTWVTWnBPeXpBSlNXYVN5WGhXdTFmU210V3V1cnV5YkNkaGJCcXdDU2JZQVF3SkprQWdRQkphS09GcEtNejAvK2dudkN2NVE2ZC9RbnJ1cmw2MlpDUGtMLzFRZTd4YTNYdnUrWjNmdWZlZWMrNzFqMnRiWFMxZDRYQ1FaZWdJMHlxMkVYRjROQkZyN2VjNmVHNkU5elppYTlNK05HUzRYdXROSVlNbkZUNkZvaDJERXNxbVZjM29JQVZWTVpCaVJEdXlrbWdrb3lJYWxBVGtzNzk0U1VtUkRJbVhmYnJBeXlqS2RKQlVud2lhUWVlR3dqalhWK3R5QitmbTV3NWJuMTB6SDE2eVptNWFNK1BtNU14L0hrMmE1K2NXeHFldDJiK1lSKzdrSDErWm41dkxYeiszY09xZStmQ2VlV2dpZC9MOC9QMVJjKzVLN3U0SjZIMDYrcWw1L0dadXJLemg2ZWpSaGJPeitlOG1zYW9qTTlaWFUwOUh4NndqRDh5SnkvbnhPWkRNSFg5czNyamlDT2UrL01TYytpUjM3VzhMNTc0MnA2Wmh5UHo5S3d1UFRwaFREOHlIYzdudmoxcDM3bG0zajFhYXR6Qit6THc0N2FnQzIwQ0QwMldOWHJVdVBIbzZldEE4ZE5kOFBPbW9NaC9lemMxTnJtQWtOc0NtbVpzNmJENjVBNk9zdjk4eWo4K0FWZGJNQStDNDhPMXBtOGdkbSt4a1NVUEpTMDlIajJHQnc2UFc3Tm41aDkrVTJySG1mM3h0UGpxT2RaNjhZVTJPWVZjZlBiWEkxUThlbThmR3pBZTM1eDhmdGlhbXJGTVQ1ckVUK2VuVHdFSWtYREJmMjlhNjFHcElMMW1hRWU4U1l0N1NXKzdDeWR5VHozUGo1OHROTURSLzdWTnYvdFpGYy9hTTljTXBjRisxY3BIWTRBQy9WS3V2eGVrTDdsTFR3NXFVU0JvNitjOXZ5V3BKY29jc2syODZBbThpSFdtRFNNU2E3ZFVPS3RhNC91WHFmY1huSTErWDFSZ3ZrMjlKQmlMMzhRblNrekQ0aEg5QTd5U2hUMVVUTWlKM0tMdzhiRWlDVHZwOGZTOXU3TlVGVFVvYkpLOFBLd0twYTBMVW5UU010TjVOVWRsczFwK3dCNEdTRksvd0NhVDVCVFZGWWFYVWdMNWRFcU52Ny9CRndxRklKQkJrZkV6UTNkZExPZnJLbXVHTkpMT1NJcXBadjhnYi9CLzVZYVNSMGVxbWp6NGkzLytnQjB2SE00cGdTS3BDWWlCUDU0Y2xHWDg2b3ljOXZKYklwR0RYNlowZjIrSzJWTWVBM3VFbEZaUWxkL01HOG5SMlFsZTVFL1pwWEVxQVFNZGlnenV3V0lYTlpYOFl3MmtVZFJzUU02Z0JmcEIzV3QwZzRpbGE1eEc5dWxjU096OGM1RFZ5SkNyNkJRMEI5S3N5d3NaNTlNNmVFWDl0TGRBQnJwTkUrTFRkSGpXMERJSXZ0dmNwU2pkNG1CLy9pR3J3TVhYSTlyaUFmd1UrRUE0ekVaNUY4VUFBTVlMQUJWQ1k0V0lCcHF0TENNY29DRmNKWk9ndzNlNGViSk9PallLV2drWDZ6bUZZRW5zZzhvRnQ3OU1mOU9nai9qU3ZRYzhlVlVSK1NZRjFaZXhFY1ZWRG5oR3ZQdEw1c1VkVUJkdlRYbmZCY3E5N0pPWkRxUmdTZlFJTWNuZFcrMCtXbFAya2h1U29XMDlDYkJVeUJpbUIrOTFrVWtOeFozRVYxcFlpeE1GeUJoUDBHMWtxazVaVlhxU3lLR2IveVdwQzFmMXBKZUV1eDF1WElQTzY3bXBLcWluVVJ0Z3gvaWV3cysxUS9GWW10aGRXS0lLQVg5Z1ROYmVjblFzMjliL3lob0ZTdTlTTVloRE5iVC9GS2NOUmg1K3RiVTB3bXVyVjA3eEMyb2d3aFpJaEkxK0tseFIzMzhMcFdXdm1VVWs1MEFmQnZxMmI5dkNEVWdKV3dOdWE3TnA2Z0VxRE5SVE1ZTWFnWUttaklaanI5TkQyL2ZBZURZdGlDYTBTazEwV3MweWxtRVlLc050Y3JtMHJZb1U0QUNNYUJDdjZyUXkyTWpGR0ZPMmN1eFNyZlZrczgrQVAxcEVuOVpJSllJQ201NXF0SmZHNlhxUmdRTVJKb3lHay9QY3o1cVh4TXRJdmlrZ2E3R3NaVldBQnh2b2FHTjVsTWZKak4zSjNMbG9UMCtib2REVUFMa2Q0d1ZnTXNPRzU1aU0vZHNzNjgxbmRYbklXbDcwQjM1RjBLU2FqSk1iQnUzVmJFL0VqL0xTV1Y0U0QzZlFuWHBKQjgyOEJVRGJVN2owb0syUmtJd1BoQWZZanhIcUlyYjlMNEU0Y0dlejVCbVhyRXhVcW1sL2pCUlJUMWYyZ3hsT1pydUtGZGp0b0ttWEZ2S0pUVmE2QUFqSGV1b1hZQ0dGS0dzR2VrMXRzQjBvSzBweEFBUlRXdGEwdlJnY2NnSFJqV0VhdW5oZ3Y3RTlvMkZ5ZmxBTDNkR2MwMmROUkRHRXhYZ0VWRkVzellicUxDVEloam1hQ3RIOGduWUI4NHhTbzhNRDZtdC9BbzNIQStQV0JaNCtHQWV0NDJVRGw0QUVtYm5ndWExZ29rMWtvbG10WnM2MTVPU3NXalFMQkZsUU9LYzlsQXN2U0lTYkVjSUZnb0t0K0UxaU83cUk1SnNRR09ZN0JLYUZnd290NEJPRjZRWmRFeEpCSlNSU1JBallSeFZQQTBuWFk2c2h2TGxUdFVQVkRVWi95TWF3dFdWb2E1UVBFZW9mZittU3B6bXBkRXZ5ZHhGU1FjQWk0VjhwdXpqWVNDL1hvR3RlL20zdEZhYkM0RWUzZWZrajZ1TkNvN2toTGdtMXpTdlJ4VUdwSnFZUlRzTzFEcWJRTWlVZW5kakhnMzJEazFmZmVwZXhwMENtY0txblNjT3h5bkU5N0tWRHU1T3NxRkJ3SGlqRGgyb2JZQWFOR0lseGVxVDJDZGZjdFYvUmJaMjRzT1JlQlp1dy9LT2V0THc1YVIwWWg4Y0VKWmlXTXJLcUp0ZTNGQlVpUkV0dUE1L0Q0bFYxWFVNN1FidElPRVU3UjUrTmxLYUYwa3dNWjNaRGl3ejN1dnY4ZkUvK1hqNG0xNXpabUtMN2luc3pJeFZhY0ZUWGMxZ0lsYjE4di84ejZkcVY2ME4wSHF5Si85WkoxOXJaNStjdGVpb2RsQmxweGJaMlI3US9Ic09VK2F5MTZLTVJoajdZck1UM2RVNVJ6Y2pGa3RDMXIyd1ZEcHVsKzlON3ZZWjN2Y2lKaVAxN3ovWkEzZFJpdEcvMDBIU2dsd2hmYVhvNlg4amdCaWZkWGhjb0FpMU5RNjJjZFFrb21GV1hDQWJHdHVTRFo3SHIzQU1XbjAvM09LWUhhTGVtdzU0WjNaUXdZa0J6YUhwZGd1MENRRHpHUVpCZ1dnanlOVXdOS3RHdXFhdXlXdEdnaGR0cEE3ZGxvS0VpM0o2UEJDQzBXb3U4YTErYnlRZjM2OVZESW1qMWZpckFic1dxS1lTaWFMUnpHMTFSVTMzVlFZUnVnQXZtS1pRSUJsdU5XU1lXcnBrSjNVVFJUUVlXb253cmRDSlV3RFhTQzRXQndsVlNDTmFpRUYxTlpWejhWcG1FcVVFNEZWa2tsVUlNS3Q1aEtVOTFVUWwyVlZONnBrMG9BeXFnZ3gzSmgycjkzeitzTk0yRnJNQWtzM2lxdStwbEVHbUhDUUpVYjRvTHNLcGt3Tlpnd2krZGtmZjFNd3MvUGhHTndDUkdHWFFaTS9yQzNjU2IwVWlhY0hiNENGVXcyMU0yRWEyQjFPZVYyMFA3RDVYYWpUTGl1YWlaTG8xZHovWE5DTjh5RXdRZVBWVEdKMUdDeUpIaTExTStFYVp4SkVONVd4U1JjZzhtUzJMV3hmaVpzdzB3ZzM0ZFh4NlFxelhOMjdLcmNKNXZxWnhKb21FbVE0WmpWTWFuSzhseFY3Q0phdHhCMWxteE4rRHBaSkRaWG5JN1p3dWxZSkg1ZVByWTNFUVMrQVNsOUoxeEVqSEhPc2ZpU3hiLzRqZ2hPTTBaMnRYZUR4R0kwdG96bXFZbld3SFhYTHdIaXBaVnZnTVV5N0NhYTllRXFqWTVFSXFDNTFVQnlkMFZUMGVTbDRsRFhkMkh4T0QvVVhkRlVMR0dLNG02bHh0MFd2bElwMzIrQmxzN0NSZGl6aFl0MVJWSC9iK0JFWms2ZU51OGZOQzlmTmFjbXpXT2oxczFwT0MzbXYzbVN2M2VEWWJyeVg1d0hoSjNWLzlLeGI4aFNmRnJmL3Vkb1BWcUtWeGJsdXhDRUU2cnQ1bVpZZEpGSUtNalZ2bXg4T1gvNlhQNjdDN203dHhZdWpPV3YvVFYvYmNJOGROMDhmaDhzKzVsakV4cUJOYXNiaGFPU25SWWNpUDhDdVJyTTB0OGRBQUE9ZAl0SyFpRL81HRJt7yWjPD9tTaMG" />
+
+
+<script src="/ScriptResource.axd?d=XuJbaMt55jexIospND6DXiix2Kld8HhAqE0xYEXcka5ao4gPnWplxqHinJQ1iI7LW5QBggB94hqdGWYG01cXpykMrUL5j_dvLcqIQBBIkGL9E1TQWDP6XzKHjCUqiFGlNTOhcg2&amp;t=23c9c237" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAlglPz82awf9aKCzd7qjMADuGB1nf7ugUUPECcOA/J+kapPU2dN5AlccPda7OkwB4zciQYzSO26PdbXX4ZFwRfZ46CHhstThmWCGIar2g5MY4BTm4l8czHBv4fYqHddDJYurlmlxD3vDzukN8SE91Kh1AUrHZtlG/MMLi8C281z/SSF1NNK8lbWPaZn2qwO+/UOaVLaSZT0USBdL2sUlvfT9hRfSg==" />
+        
+    <div class="page_wrapper">
+        <div class="header">
+
+            <div class="wrp-deco top"></div>
+            <div class="header_top">
+                
+
+            </div><!-- /.header_top -->
+            
+            <!-- ↓導覽列↓ -->
+            <div class="navbar" role="navigation">
+                
+
+
+
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        //yamm3樣式一 liclass: minwidth 讓主選單li 變為static  
+        $('.navbar-nav li.minwidth').parents(".dropdown_submenu").addClass("pos_static");
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $('ul.dropdown-menu ul.dropdown-menu').parent().addClass('dropdown_submenu');
+        //滑動模式
+        
+        $(function () {
+            ($(window).width() > 750) ? ho_visable() : removerhover();
+            $(window).resize(function (e) { ($(window).width() > 750) ? ho_visable() : removerhover(); });
+        });
+        //點選模式
+        
+    });
+
+    //滑動模式 
+    function ho_visable() {
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $('.dropdown_submenu .dropdown-toggle').removeAttr("data-toggle");
+        $(".dropdown_submenu").hover(
+            function () { $(this).addClass("open"); },
+            function () { $(this).removeClass("open"); }
+        );
+    }
+    //手機版移除滑動
+    function removerhover() {
+        $(".dropdown_submenu").off("hover");
+        $('.dropdown_submenu .dropdown-toggle').attr("data-toggle", "dropdown");
+        $('.hover_r_sider').children('ul').removeClass("dropdown-menu sub-menu");
+    }
+    //點選模式 取消a連結轉為按鈕
+    function trigger() {
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $(".dropdown-menu > li.hover_r_sider > a.trigger").attr("data-toggle", "dropdown");
+        $('a.trigger').parent('li.hover_r_sider').find('ul').hide();
+    }
+    //恢復a連結 全部顯示
+    function triggeroff() {
+        $('.hover_r_sider').children('ul').removeClass("dropdown-menu sub-menu");
+        $('li.hover_r_sider a.trigger').parent('li.hover_r_sider').find('ul').show();
+        $(".dropdown-menu > li.hover_r_sider > a.trigger").attr("data-toggle", "");
+    }
+</script>
+
+
+<div class="container">
+    <div class="navbar-header">
+        <a id="logo" class="navbar-brand" href="/index.aspx">
+            新文化基金會</a><!-- 網站名稱 or LOGO -->
+
+
+        <button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+
+        </button>
+
+    </div>
+    <!-- /.navbar-header -->
+
+
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            
+                    <li id="ctl00_nav_01_Repeater1_ctl00_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl00_menu" href="page/about/index.aspx?kind=7"><span class="title-main">關於新文化</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl00$page_num" id="ctl00_nav_01_Repeater1_ctl00_page_num" value="7" />
+                        
+                        
+                    </li>
+                
+                    <li id="ctl00_nav_01_Repeater1_ctl01_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl01_menu" href="page/about/index.aspx?kind=65"><span class="title-main">新文化創辦人</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl01$page_num" id="ctl00_nav_01_Repeater1_ctl01_page_num" value="65" />
+                        
+                        
+                    </li>
+                
+                    <li id="ctl00_nav_01_Repeater1_ctl02_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl02_menu" href="page/about/index.aspx?kind=1"><span class="title-main">新文化基金會</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl02$page_num" id="ctl00_nav_01_Repeater1_ctl02_page_num" value="1" />
+                        
+                        
+                    </li>
+                
+                    <li id="ctl00_nav_01_Repeater1_ctl03_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl03_menu" href="page/about/index.aspx?kind=31"><span class="title-main">傳承</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl03$page_num" id="ctl00_nav_01_Repeater1_ctl03_page_num" value="31" />
+                        
+                        
+                    </li>
+                
+                    <li id="ctl00_nav_01_Repeater1_ctl04_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl04_menu" href="page/about/index.aspx?kind=43"><span class="title-main">新文化會訊</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl04$page_num" id="ctl00_nav_01_Repeater1_ctl04_page_num" value="43" />
+                        
+                        
+                    </li>
+                
+                    <li id="ctl00_nav_01_Repeater1_ctl05_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl05_menu" href="page/article/index.aspx"><span class="title-main">新文化論壇</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl05$page_num" id="ctl00_nav_01_Repeater1_ctl05_page_num" value="108" />
+                        
+                        
+                    </li>
+                
+                    <li id="ctl00_nav_01_Repeater1_ctl06_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl06_menu" href="page/contact/index.aspx"><span class="title-main">聯絡我們</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl06$page_num" id="ctl00_nav_01_Repeater1_ctl06_page_num" value="0" />
+                        
+                        
+                    </li>
+                
+                    <li id="ctl00_nav_01_Repeater1_ctl07_li" class="dropdown_submenu">
+                        <a id="ctl00_nav_01_Repeater1_ctl07_menu" href="page/about/index.aspx?kind=45"><span class="title-main">聲明</span></a>
+                        <input type="hidden" name="ctl00$nav_01$Repeater1$ctl07$page_num" id="ctl00_nav_01_Repeater1_ctl07_page_num" value="45" />
+                        
+                        
+                    </li>
+                
+        </ul>
+
+
+        <!-- Small button group -->
+        
+
+        <ul class="sub-nav list-inline">
+            
+            <li id="ctl00_nav_01_b3" class="b3">
+                <a id="ctl00_nav_01_Facebook" href="https://www.facebook.com/newculturefans/" target="_blank">Facebook</a></li>
+            <li class="b4"><a href="https://line.me/R/ti/p/%40cxw3533z" target="_blank">line</a></li>
+        </ul>
+    </div>
+    <!-- /.nav-collapse -->
+</div>
+<!-- /.container -->
+
+            </div><!-- /.navbar -->
+            <!-- ↑導覽列↑ -->
+
+            <!-- ↓Banner↓ -->
+            <div id="ctl00_banner" class="banner">
+                
+    
+<!--uc:banner-->
+<!-- bxslider -->
+<script type="text/javascript" src="/js/bxslider-4-master/jquery.bxslider.min.js"></script>
+<link href="/js/bxslider-4-master/jquery.bxslider.min.css" rel="stylesheet">
+<script>
+    $(document).ready(function () {
+        $('.banner .bxslider').bxSlider({
+            mode: 'horizontal',  //切換的模式：'horizontal'(左右切換), 'vertical'(上下切換), 'fade'(淡入淡出)
+            speed: 2000, //切換的速度
+            auto: true,  //是否自動播放
+            pause: 8000,  //每張圖停留的時間
+            controls: true,
+            pager: true
+            
+        });
+    });
+</script>
+             
+<div class="container-fuild">
+    <div class="wrp_frame border-LT"></div>
+    <div class="wrp_frame border-CT"></div>
+    <div class="wrp_frame border-RT"></div>
+    <div class="wrp_frame border-LM"></div>
+    <div class="wrp_frame border-RM"></div>
+    <div class="wrp_frame border-LB"></div>
+    <div class="wrp_frame border-CB"></div>
+    <div class="wrp_frame border-RB"></div>
+    <div class="row">
+        <ul class="bxslider">
+            
+                    <li id="ctl00_banner_holder_banner_bannerRepeater_ctl00_bannerLi" style="background-image:url(&#39;/upload/banner/201709141650140.jpg&#39;);"><a id="ctl00_banner_holder_banner_bannerRepeater_ctl00_bannerA"><img id="ctl00_banner_holder_banner_bannerRepeater_ctl00_bannerImg" alt="" src="upload/banner/201709141650140.jpg" border="0" /></a></li>
+                
+                    <li id="ctl00_banner_holder_banner_bannerRepeater_ctl01_bannerLi" style="background-image:url(&#39;/upload/banner/201709221027420.jpg&#39;);"><a id="ctl00_banner_holder_banner_bannerRepeater_ctl01_bannerA"><img id="ctl00_banner_holder_banner_bannerRepeater_ctl01_bannerImg" alt="" src="upload/banner/201709221027420.jpg" border="0" /></a></li>
+                
+                    <li id="ctl00_banner_holder_banner_bannerRepeater_ctl02_bannerLi" style="background-image:url(&#39;/upload/banner/202206161534390.jpg&#39;);"><a id="ctl00_banner_holder_banner_bannerRepeater_ctl02_bannerA"><img id="ctl00_banner_holder_banner_bannerRepeater_ctl02_bannerImg" alt="" src="upload/banner/202509051624551.png" border="0" /></a></li>
+                    
+        </ul>
+    </div>
+</div>
+
+            </div><!-- /.banner -->
+            <!-- ↑Banner↑ -->
+    
+            <div class="header_ex">
+                
+
+            </div><!-- /.header_ex -->
+
+            <div class="wrp-deco bottom"></div>
+            <div class="wrp-deco avatar"></div>
+        </div><!-- /.header -->
+
+        <div class="main">
+
+            <div class="main_top">
+                
+
+            </div><!-- /.main_top -->
+            
+            <div class="main_content">
+                <div class="container">
+                    <div class="row">
+                        <div id="ctl00_side1" class="side1 hidden">
+                            <div class="wrp-deco top"></div>
+                            <button type="button" class="btn side-toggle collapsed" data-toggle="collapse" data-target="#side1collapse" aria-expanded="false" aria-controls="side1collapse">
+                                <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 次選單
+                                <span class="toggle-icon">
+                                    <span class="glyphicon glyphicon-chevron-down"></span>
+                                    <span class="glyphicon glyphicon-chevron-up"></span>
+                                </span>
+                            </button>
+                            <div class="collapse in" id="side1collapse">
+                                
+        	                    
+
+                                
+
+<!--uc:wid_cat_about-->
+<div class="wid wid-about">
+    <h3>
+        
+        <button type="button" class="btn side-toggle">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </button>
+    </h3>
+    <ul class="nav">
+           
+
+
+    </ul>
+    
+</div>
+                            </div><!-- /.collapse -->
+                            <div class="wrp-deco bottom"></div>                    
+                        </div><!-- /.side1 -->
+                        
+                        <div id="ctl00_content" class="content col-sm-12">
+                            
+
+                            <div id="ctl00_eZHomeContent">
+                                
+
+
+
+<!--uc:eZHomeContent-->
+    <div class="row">
+        <div class="container">
+            
+<!-- uc:page_unit -->
+<div class="wid wid-page_unit">
+    
+    
+    <div class="page_unit editor"><div class="about_box">
+<div class="about_pic col-md-5"><img src="Templates/C106148EZW/images/home/about_pic.jpg" /></div>
+
+<div class="about_main col-md-7">
+<div class="about_title">關於新文化</div>
+
+<div class="about_title2">「新文化基金會」是謝長廷先生於1991年時所創立</div>
+
+<div class="about_word">
+<div class="about_icon col-md-2"><img src="Templates/C106148EZW/images/home/about_icon.jpg" /></div>
+
+<div class="col-md-10" style="text-align: justify;">為了推廣新文化，基金會創辦人謝長廷先生一度經辦《台灣新文化》雜誌，剖析、批判臺灣現實文化的各種面向，並鼓吹建立海洋新文化，重塑臺灣人的文化性格。其後，並延續《台灣新文化》雜誌的創辦理念，汲取各方經驗，創辦「新文化基金會」，冀望以基金會的形式，支持推動新文化，幾十年來成效卓著。</div>
+
+<div class="btn-box">
+<ul class="pager">
+	<li><a href="http://www.ncf1991.com.tw/page/about/index.aspx?kind=7">了解更多</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="about_line">&nbsp;</div>
+</div><!-- /.page_unit -->
+</div><!-- /.wid-page_unit -->
+
+
+
+        </div>
+        <div class="container">
+            
+<!--uc:eZmod_home_news_list_003-->
+<div class="wid wid-home-news list-box" id="ctl00_eZHomeContent_home_news_list_003">
+    <h2>最新消息</h2>
+    <div class="slick">
+        
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl00_itemLink" href="page/news/show.aspx?num=173">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl00_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202611021224500.jpeg&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第66期</div>
+                            <small class="date">2026/11/02</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl01_itemLink" href="page/news/show.aspx?num=172">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl01_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202609021332550.jpeg&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第65期</div>
+                            <small class="date">2026/09/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl02_itemLink" href="page/news/show.aspx?num=170">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl02_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202607060947440.jpeg&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第64期</div>
+                            <small class="date">2026/07/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl03_itemLink" href="page/news/show.aspx?num=171">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl03_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202607060950130.jpeg&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第63期</div>
+                            <small class="date">2026/05/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl04_itemLink" href="page/news/show.aspx?num=169">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl04_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202603161452570.PNG&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第62期</div>
+                            <small class="date">2026/03/02</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl05_itemLink" href="page/news/show.aspx?num=168">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl05_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202601091654270.PNG&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第61期</div>
+                            <small class="date">2026/01/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl06_itemLink" href="page/news/show.aspx?num=167">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl06_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202511061717070.JPG&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第60期</div>
+                            <small class="date">2025/11/03</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl07_itemLink" href="page/news/show.aspx?num=159">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl07_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202509051405140.png&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第59期</div>
+                            <small class="date">2025/09/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl08_itemLink" href="page/news/show.aspx?num=160">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl08_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202509051410220.png&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第58期</div>
+                            <small class="date">2025/07/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl09_itemLink" href="page/news/show.aspx?num=161">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl09_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202509051414250.png&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第57期</div>
+                            <small class="date">2025/05/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl10_itemLink" href="page/news/show.aspx?num=162">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl10_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202509051426170.png&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第56期</div>
+                            <small class="date">2025/03/03</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="list_item">
+                    <a id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl11_itemLink" href="page/news/show.aspx?num=163">
+                        <div class="pic"><img id="ctl00_eZHomeContent_home_news_list_003_NewsRepeater_ctl11_pic" class="img-responsive center-block" src="app_script/DisplayCut.ashx?file=202509051441510.png&amp;rootDir=upload/news/&amp;w=640&amp;h=480" border="0" /></div>
+                        <div class="info">
+                            <div class="title">新文化第55期</div>
+                            <small class="date">2025/01/01</small>
+                            <p class="desc"></p>
+                        </div>
+                    </a>
+                </div>
+                
+    </div><!-- /.slick -->
+    <div class="btn_group">
+        <a href="/page/news/index.aspx">了解更多</a>
+    </div>
+</div><!-- /.wid-home-news -->
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#ctl00_eZHomeContent_home_news_list_003 .slick").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            slidesToScroll: 1,
+            slidesToShow: 3,
+            responsive: [
+              {breakpoint: 1200,settings: {slidesToShow: 3}},
+              {breakpoint: 992,settings: {slidesToShow: 3}},
+              {breakpoint: 768,settings: {slidesToShow: 2}},
+              {breakpoint: 480,settings: {slidesToShow: 1}}
+            ]
+        });
+    });
+</script>
+        </div>
+
+    </div> 
+                            </div>
+                        </div><!-- /.content -->
+
+                        <div id="ctl00_side2" class="side2 hidden">
+                            <div class="wrp-deco top"></div>
+                            
+                            
+        	                
+
+                            <div class="wrp-deco bottom"></div>
+                        </div><!-- /.side2 -->
+                    </div><!-- /.row -->
+                    <div id="floating">
+                                              
+                    </div><!-- /#floating -->
+                    <div class="clearfix"><!--計算.main的背景高度用--></div>
+                </div><!-- /.container -->
+            </div><!-- /.main_content -->
+
+            <div class="main_ex">
+                
+
+                <div class="gotop"><a href="#"><span class="txt-en">TOP</span><span class="txt-tw"></span></a></div>
+            </div><!-- /.main_ex -->
+            
+        </div><!-- /.main -->
+        
+        <div class="footer">
+            <div class="wrp-deco top"></div>
+            
+            <div class="footer_top">
+                <!-- footer_top的固定內容 -->
+                
+<!--uc:sitemap-->
+<div class="sitemap">
+    <ul class="list-inline">
+        
+                <li id="ctl00_sitemap_Repeater1_ctl00_li" class="b1"><a id="ctl00_sitemap_Repeater1_ctl00_menu" href="page/about/index.aspx?kind=1"><span class="txt-tw">新文化基金會</span></a></li>
+            
+                <li>|</li>
+            
+                <li id="ctl00_sitemap_Repeater1_ctl02_li" class="b2"><a id="ctl00_sitemap_Repeater1_ctl02_menu" href="page/contact/index.aspx"><span class="txt-tw">聯絡我們</span></a></li>
+                   
+    </ul>
+</div>
+
+                
+
+            </div><!-- /.footer_top -->
+            
+            <div class="footer_content">
+                
+<!--uc:footer-->
+<div class="container">
+    <div class="copyright">Copyright &copy; <b>新文化基金會</b> All Rights Reserved.</div><!-- /.copyright -->
+
+    <div class="siteinfo">
+        
+        <ul class="list-inline">
+            <li id="ctl00_footer_01_com_tel_li" class="tel"><label>電話</label><a id="ctl00_footer_01_com_tel" href="tel:02-25500888">02-25500888</a></li>
+            <li id="ctl00_footer_01_com_fax_li" class="fax"><label>傳真</label><a id="ctl00_footer_01_com_fax" href="fax:02-25501999">02-25501999</a></li>
+            <li id="ctl00_footer_01_com_mail_li" class="mail"><label>Mail</label><a id="ctl00_footer_01_com_mail" href="mailto:newculturefoundation2017@gmail.com">newculturefoundation2017@gmail.com</a></li>
+            <li id="ctl00_footer_01_com_address_li" class="add"><label>地址</label><a id="ctl00_footer_01_com_address" href="https://www.google.com/maps?q=臺北市大同區民生西路119號">臺北市大同區民生西路119號</a></li>
+            
+        </ul>           
+    </div><!-- /.siteinfo -->   
+    <div class="visitors">
+    <span>瀏覽人數 :00388645</span>
+    <div class="visitors-a">
+
+    </div>
+    </div>
+    
+<!--uc:eZPowered-->
+<div class="powered">
+    <a href="https://www.eztrust.com.tw" target="_blank">網頁設計 : 藝誠網頁設計公司</a>
+</div>
+
+
+
+
+</div><!-- /.container -->
+
+
+
+
+
+
+            </div><!-- /.footer_content -->
+
+            <div class="wrp-deco bottom"></div>
+        </div><!-- /.footer -->
+    </div><!-- /.page_wrapper -->
+    </form>
+</body>
+</html>

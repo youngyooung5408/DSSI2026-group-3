@@ -15,6 +15,9 @@ ROOT = Path(__file__).resolve().parents[2]
 PATTERNS = {
     'Tencent WeChat App ID': rb'(?<![A-Za-z0-9])wx[0-9a-f]{16}(?![A-Za-z0-9])',
     'Google API key': rb'AIza[0-9A-Za-z_-]{35}',
+    # Public Mapbox tokens are also removed from downloaded source snapshots:
+    # they are unnecessary for the research evidence and may trigger push protection.
+    'Mapbox access token': rb'(?<![A-Za-z0-9_-])(?:sk|pk)\.[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}(?![A-Za-z0-9_-])',
     'AWS access key ID': rb'(?:AKIA|ASIA)[A-Z0-9]{16}',
     'GitHub token': rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,})',
     'OpenAI-style key': rb'sk-(?:proj-|svcacct-)?[A-Za-z0-9_-]{40,}',

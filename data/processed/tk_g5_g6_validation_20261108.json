@@ -1,0 +1,84 @@
+{
+  "executed_date": "2026-11-08",
+  "analysis_features": [
+    "G5_first_time_any_elected_office",
+    "G6_political_family"
+  ],
+  "distance": "equal-weight symmetric categorical Gower = Hamming",
+  "linkage": "average",
+  "primary_cut_distance": 0,
+  "primary_k": {
+    "all": 4,
+    "mayor": 3,
+    "council": 4
+  },
+  "input_bindings": {
+    "all": {
+      "path": "data/processed/taipei_kaohsiung_all_20261108.csv",
+      "sha256": "90959d176ac9cb34dcd264c52df9e2690ba70b0fc7cd483f58fac320c41d5899",
+      "rows": 209
+    },
+    "mayor": {
+      "path": "data/processed/taipei_kaohsiung_mayor_20261108.csv",
+      "sha256": "3b35f16286a7ea5d842d73f018ab4de5dc0900e4dd0bd1958da3c9ca9d4066e8",
+      "rows": 11
+    },
+    "council": {
+      "path": "data/processed/taipei_kaohsiung_council_20261108.csv",
+      "sha256": "6f4791a6347009636b91fb0bb97e47a77ac684fa7ac3c81e875d5f3b175ee644",
+      "rows": 198
+    }
+  },
+  "sample": [
+    {
+      "pool": "all",
+      "input_n": 209,
+      "included_n": 209,
+      "excluded_n": 0,
+      "G5_missing_n": 0,
+      "G6_missing_n": 0
+    },
+    {
+      "pool": "mayor",
+      "input_n": 11,
+      "included_n": 11,
+      "excluded_n": 0,
+      "G5_missing_n": 0,
+      "G6_missing_n": 0
+    },
+    {
+      "pool": "council",
+      "input_n": 198,
+      "included_n": 198,
+      "excluded_n": 0,
+      "G5_missing_n": 0,
+      "G6_missing_n": 0
+    }
+  ],
+  "input_hashes_unchanged": true,
+  "saved_csv_count": 9,
+  "saved_csv_readback": true,
+  "unique_candidate_keys": true,
+  "three_pool_partition": true,
+  "cross_pool_profile_ids_agree": true,
+  "primary_order_invariance_100_permutations": true,
+  "bootstrap_replicates": 500,
+  "seed": 20261108,
+  "mayor_minimum_size_guideline_passed": false,
+  "G6_zero_means": "recorded search found no qualifying political relative",
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0",
+    "matplotlib": "3.11.0"
+  },
+  "limitations": [
+    "Only two binary features; primary clusters exactly equal observed cross-tabulation profiles.",
+    "Primary silhouette 1 is mechanical with replicated profiles, not external validation.",
+    "Mayor N=11; cannot obtain 2 or more clusters each with at least 8 members.",
+    "G6 coding may reflect unequal public information; retained provenance includes inferred and secondary-source cases.",
+    "Current sample is the 2026-11-08 qualification-review snapshot, not a future finalized roster."
+  ]
+}

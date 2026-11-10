@@ -1,6 +1,6 @@
 ---
 name: prepare-work-record
-description: Inspect intended repository changes and prepare a dated work-trace Markdown record when a student asks to commit, push, submit changes to GitHub, or obtain shell commands for submission. Leave staging, commits, and pushes to the student.
+description: Check submission readiness, inspect intended repository changes, and prepare a dated work-trace Markdown record when a student asks to commit, push, submit to GitHub, or obtain submission commands. Diagnose rejected submissions while leaving Git mutations to the student.
 ---
 
 # Prepare a Work Record Before Submission
@@ -30,6 +30,43 @@ student-operated Git rules in `AGENTS.md`; do not execute Git mutations.
   Distinguish observed changes from reported intent. A saved output is not proof
   that this session executed it; report only checks actually performed, and label
   previous or student-reported results with their source.
+
+## Submission readiness
+
+Before handing off commit or push commands:
+
+- Establish the current branch, target branch, upstream, staged scope, and any
+  active merge/rebase or unresolved paths. When an operation is paused, complete
+  its recovery workflow before proposing another pull, branch switch, or push.
+- For a push, compare the intended local tip with the remote target. Label cached
+  tracking refs as cached; use an available read-only remote lookup when needed.
+  A remote-tip lookup alone does not provide missing commit objects. If upstream
+  commits need integrating, provide student-run synchronization and conflict
+  checkpoints before the push. This need not prevent a local commit. Never fetch
+  or rewrite history yourself merely to perform the check.
+- Scan the explicit intended files, including untracked additions and downloaded
+  HTML/JSON configuration, for credential patterns before recommending a commit.
+  Inspect the repository scanner's actual scope and coverage. Its default tracked
+  working-tree scan may omit untracked files; an empty staged scan is not evidence
+  that a nonempty submission was checked. Report unreadable or unsupported content
+  and known detector limits. Zero matches does not guarantee GitHub acceptance.
+- Inspect whether the expected hook is executable and active in this clone,
+  including `core.hooksPath` and the effective hook directory. A checked-in hook
+  file alone does not activate it. Do not install hooks or change Git configuration
+  silently. If inactive, include a manual staged scan in the student's handoff.
+- Require a scan of the actual staged snapshot after the student stages changes
+  and before committing. For a push of existing commits, scan the unpublished
+  commits being sent, not just the working tree or latest snapshot. A later
+  deletion does not remove a token from an earlier unpublished commit.
+- Make handoff commands stop on a failed scan, conflict, or rejected operation.
+  Use separate checkpoints or success-conditional commands rather than a block
+  that keeps committing/pushing after an earlier failure. Recheck state after a
+  rebase or amend because commit IDs and the pending range can change.
+
+For hook/scanner scope details, synchronization checkpoints, or any rejected Git
+operation, read [submission checks and recovery](references/git-submission-recovery.md).
+Keep checks proportional to the actual submission; do not require unrelated
+research reruns, install a new service, or change repository rules as a preflight.
 
 ## Write the record
 
@@ -75,7 +112,9 @@ needed; create a new timestamped record for a genuinely new submission scope.
   command that assumes a target. Never run the mutation commands yourself.
 - For an already committed change, explain that the record requires a separate
   student commit; reference the earlier artifact commit, not the record's future
-  hash. Do not amend existing history just to include the record.
+  hash. Do not amend existing history just to include the record. This does not
+  preclude student-run repair of an unpublished commit rejected for a credential;
+  use the linked recovery guidance and verify its publication status first.
 - When the student later reports completion, inspect available evidence
   read-only and update the same record's status if requested. Apply `AGENTS.md`
   push-verification rules; a clean worktree or cached remote-tracking ref alone
