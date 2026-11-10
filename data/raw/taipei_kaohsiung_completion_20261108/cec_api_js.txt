@@ -1,0 +1,1 @@
+import{a as o}from"./CDsQS30V.js";const r=t=>{const{$route:e,baseURL:a}=o();return $fetch(`api/${e.params.webRoute}/article/${t}`,{method:"GET",baseURL:a})},s=t=>{const{baseURL:e}=o();return $fetch(`api/${t.webRoute}/article/list`,{method:"GET",baseURL:e,params:t})};export{s as a,r as g};

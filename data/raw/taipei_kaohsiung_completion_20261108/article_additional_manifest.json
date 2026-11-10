@@ -1,0 +1,110 @@
+[
+  {
+    "id": "liwen_edu",
+    "url": "https://news.tvbs.com.tw/life/383087",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/liwen_edu_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/liwen_edu_u8_text.txt",
+    "sha256": "519b7bdd2e7fc4902792daa9e063340090b93ef1040edc61a87d8ea94a4d729f",
+    "characters": 1271
+  },
+  {
+    "id": "liwen_identity",
+    "url": "https://news.nextapple.com/politics/20260901/3CBA848E1A10794256B48E00032905EE",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/liwen_identity_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/liwen_identity_u8_text.txt",
+    "sha256": "55a096311c5340b36b6820386a47c862350227d58ec4dc52431bb78a5bbfcfa9",
+    "characters": 87
+  },
+  {
+    "id": "lai_family",
+    "url": "https://health.ftvnews.com.tw/news/detail/2026308L08M1",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lai_family_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lai_family_u8_text.txt",
+    "sha256": "feade912d40410a117e8da4a5c3b80661547f24ecaf92eb413d338ffc95c258c",
+    "characters": 1175
+  },
+  {
+    "id": "lai_correction",
+    "url": "https://www.shotnews.tw/news/b95c13450b124",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lai_correction_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lai_correction_u8_text.txt",
+    "sha256": "ca726bec6085d57205ff29801007d350118e7cdfcf165fef7f776ed917fe61de",
+    "characters": 2379
+  },
+  {
+    "id": "lai_self",
+    "url": "https://www.villanews.tw/political-news/newsinfo/lai-jun-han-yi-yuan-hou-xuan-ren",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lai_self_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lai_self_u8_text.txt",
+    "sha256": "3933b791c86c278c1a962aa55f4c5ab2a0666d91ce74fa59724fd0a3d00c39ed",
+    "characters": 1056
+  },
+  {
+    "id": "chen_meijuan",
+    "url": "https://www.idn.com.tw/news/news_content.aspx?artid=20061204abcd005&catdid=0&catid=5&catsid=6",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/chen_meijuan_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/chen_meijuan_u8_text.txt",
+    "sha256": "ee957afa521b401be22b8b65df832b0f3039e889c30778bc3d086e625fc06c79",
+    "characters": 702
+  },
+  {
+    "id": "lin_yangting",
+    "url": "https://www.ftnn.com.tw/news/593793",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lin_yangting_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lin_yangting_u8_text.txt",
+    "sha256": "35b73b48beda3f27fa0b59e02be66d10f7392247f28ef1f1aad62a53bd83cc1d",
+    "characters": 2843
+  },
+  {
+    "id": "xue_birth",
+    "url": "https://www.tainantimes.com/archives/82209",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/xue_birth_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/xue_birth_u8_text.txt",
+    "sha256": "a58f7ce35c0e3e80a0debeb6f625bd05a2d570197b9a6d4062e9e40ca898096c",
+    "characters": 28
+  },
+  {
+    "id": "deng_qiaopei_birth",
+    "url": "https://www.cmmedia.com.tw/home/articles/21943",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/deng_qiaopei_birth_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/deng_qiaopei_birth_u8_text.txt",
+    "sha256": "d637294e07c1005936103bce2f031477c436f3d4aad574b3d67f13a1eed70036",
+    "characters": 2125
+  },
+  {
+    "id": "zhang_yili_age",
+    "url": "https://market.ltn.com.tw/article/18687",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/zhang_yili_age_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/zhang_yili_age_u8_text.txt",
+    "sha256": "69051952dd97b7ef14f9e23c44b01cf43f1a0486832d9f9cd6c9e1d488efb209",
+    "characters": 1792
+  },
+  {
+    "id": "chen_linjie_self",
+    "url": "https://0jjj.oen.tw/",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_self_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_self_u8_text.txt",
+    "sha256": "ff80f9dffd9b6605661145af9118c9be828dfb3e0466c497266f6d46e39609fb",
+    "characters": 690
+  },
+  {
+    "id": "deng_leqiang_2",
+    "url": "https://statebuilding.tw/news/16769/?task=profile",
+    "status": 404,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/deng_leqiang_2_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/deng_leqiang_2_u8_text.txt",
+    "sha256": "c72a07b84116c4dcf49e72c48628ead7dd3a19c83c35595695d4e8c2692f04d9",
+    "characters": 31
+  }
+]

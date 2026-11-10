@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-08",
+  "processing_notebook": "data/code/complete_taipei_kaohsiung_20261108.ipynb",
+  "input_manifest_sha256": "eea59bf660497751639f93514f09b6b8c5a5e9c1f2d4a32150f1604f2432f7c6",
+  "input_files_verified": 666,
+  "registered": 210,
+  "retained": 209,
+  "mayor": 11,
+  "council": 198,
+  "changed_cells": 229,
+  "family_searched": 181,
+  "family_new_positive": 39,
+  "family_new_search_negative": 142,
+  "family_pending": 0,
+  "new_education_policy_fallback": 15,
+  "remaining_cells": 21,
+  "remaining_candidates": 21,
+  "clustering_started": false,
+  "checks": [
+    "literal input SHA pins",
+    "historical row and identity anchors",
+    "unique candidate and candidate-variable keys",
+    "eligibility exclusion retained in audit",
+    "three-pool partition",
+    "allowed values",
+    "change-audit reconciliation",
+    "search-negative requires completed recorded searches",
+    "pending family cases stay missing",
+    "CSV readback equals intended values",
+    "original input hashes unchanged"
+  ],
+  "limitations": [
+    "G6=0 means no qualifying evidence found in recorded searches, not proof of absence.",
+    "15 education fallback values are user policy, not observed attainment.",
+    "New reported ages retain ±1 inferred birth-year uncertainty.",
+    "Crowdsourced/AI birthday leads remain outside adopted values.",
+    "Final candidate announcement still needs recheck as of future publication; no future results used."
+  ]
+}

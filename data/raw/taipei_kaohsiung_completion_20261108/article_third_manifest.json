@@ -1,0 +1,56 @@
+[
+  {
+    "id": "li_huixuan_primary",
+    "url": "https://newtalk.tw/news/view/2026-08-15/1053519",
+    "status": 403,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/li_huixuan_primary_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/li_huixuan_primary_u8_text.txt",
+    "sha256": "0a0415c54f826f83410b4722117a18e3a3d1f2895ad36bf51d5321bb96574ac5",
+    "characters": 754
+  },
+  {
+    "id": "lin_ziyang_nccu",
+    "url": "https://www.nccu.edu.tw/p/405-1000-18641%2Cc87.php?Lang=zh-tw",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_nccu_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_nccu_u8_text.txt",
+    "sha256": "0e263b94f68726f594c21b90ed7a724514111e8470e6c69d31eec93f1ca61b2a",
+    "characters": 1503
+  },
+  {
+    "id": "lin_ziyang_family",
+    "url": "https://www.ftnn.com.tw/news/585832",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_family_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_family_u8_text.txt",
+    "sha256": "95580bf1373e9de0cb38304569d0ab183e633834bf3a2764a67255ae09578f8f",
+    "characters": 2557
+  },
+  {
+    "id": "liwen_current_edu",
+    "url": "https://tw.news.yahoo.com/李敖之女參戰士林北投議員-李文-選上就放棄美國籍-060200807.html",
+    "status": 404,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/liwen_current_edu_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/liwen_current_edu_u8_text.txt",
+    "sha256": "17ea8d8c4f070d0b6fd4c08935fcaae7553667f43acfdd8cb587a090d867e581",
+    "characters": 112
+  },
+  {
+    "id": "he_shuhuai_education",
+    "url": "https://www.wailaike.net/topic/228453",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/he_shuhuai_education_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/he_shuhuai_education_u8_text.txt",
+    "sha256": "b68c777d8b7f98191df1628084788449a42ce4239ec54de12b71c2ecb767d4c9",
+    "characters": 1951
+  },
+  {
+    "id": "chen_guanyu_current",
+    "url": "https://more-news.tw/709136/",
+    "status": 200,
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/chen_guanyu_current_u8.html",
+    "text_path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/chen_guanyu_current_u8_text.txt",
+    "sha256": "6c3598b031fe32298369740685eb79fbfda54d28daa7664cb43311a256d1579e",
+    "characters": 541
+  }
+]

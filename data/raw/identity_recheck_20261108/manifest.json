@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "lin_campaign",
+    "url": "https://fongba.mystrikingly.com/",
+    "status": 403,
+    "path": "data/raw/identity_recheck_20261108/lin_campaign.html",
+    "sha256": "49491740371f299ea945eca8b12c07f7ed173bdcad63867a1228bfdce183bb34",
+    "checked_date": "2026-11-08",
+    "usable": false
+  },
+  {
+    "source_id": "chen_moi",
+    "url": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0008&_PARENT_ID=ER11112EJ00012&_TYP=REP&n=576",
+    "status": 200,
+    "path": "data/raw/identity_recheck_20261108/chen_moi.html",
+    "sha256": "528c252ef587198531def9debed27dc609ea18d96de43096ff6a9d401628a2ca",
+    "checked_date": "2026-11-08",
+    "usable": true
+  },
+  {
+    "source_id": "chen_udn",
+    "url": "https://udn.com/news/amp/story/124652/9677004",
+    "status": 200,
+    "path": "data/raw/identity_recheck_20261108/chen_udn.html",
+    "sha256": "c26cbc54c331a72bfd12691a9e159545fdd679c26a4a0a60b8444ffdb298557d",
+    "checked_date": "2026-11-08",
+    "usable": true
+  },
+  {
+    "source_id": "chen_maolin",
+    "url": "https://maolin.kcg.gov.tw/Content_List.aspx?n=C3C49B33DFD2B556",
+    "status": 200,
+    "path": "data/raw/identity_recheck_20261108/chen_maolin.html",
+    "sha256": "d000e734e3f8143122c75a7786bb085e917c4e8c12dbbd27e62fec6e567c7b1f",
+    "checked_date": "2026-11-08",
+    "usable": true
+  },
+  {
+    "source_id": "lin_bulletin",
+    "url": "https://eebulletin.cec.gov.tw/103/02臺北市/村里長/北投區文林里里長.pdf",
+    "status": 200,
+    "path": "data/raw/identity_recheck_20261108/lin_bulletin.pdf",
+    "sha256": "315fc8e03910f7a6c3fcde973e2539e06949e55bf6419ecdcfca27781cc091fc",
+    "checked_date": "2026-11-08",
+    "usable": true
+  },
+  {
+    "source_id": "chen_bulletin",
+    "url": "https://eebulletin.cec.gov.tw/103/07高雄市/原住民區民代表/高雄市茂林區區民代表.pdf",
+    "status": 200,
+    "path": "data/raw/identity_recheck_20261108/chen_bulletin.pdf",
+    "sha256": "34b52e9ad66d128a4f64205206d9ae05b3ab52928830330d1048814400c591d9",
+    "checked_date": "2026-11-08",
+    "usable": true
+  }
+]

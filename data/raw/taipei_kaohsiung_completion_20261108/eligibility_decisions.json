@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-08",
+  "as_of": "2026-10-16 CEC qualification review",
+  "source": {
+    "source_url": "https://web.cec.gov.tw/central/article/65212",
+    "source_file": "data/raw/taipei_kaohsiung_completion_20261108/cec_eligibility.json",
+    "download_status": "web_tool_text_capture",
+    "reading_status": "full_body_read",
+    "capture_note": "中選會2026-10-16資格審定公告API原文；不是尚未公告的11/17議員最終名單。"
+  },
+  "excluded": [
+    {
+      "candidate_key": "2026|直轄市議員|臺北市第6選舉區|游智彬",
+      "candidate_name": "游智彬",
+      "reason": "中選會資格審定不符合登記規定"
+    }
+  ],
+  "note": "210筆登記，剔除1筆資格不符，保留210筆資格稽核；209筆可保留研究樣本。11/17議員最終公告尚未到，屆時仍須對照。"
+}

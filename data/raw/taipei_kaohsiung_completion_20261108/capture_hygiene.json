@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "scope": "all non-AppleDouble files in this capture folder",
+  "redacted_files": [
+    {
+      "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_self_u8.html",
+      "patterns": [
+        "Google API key"
+      ],
+      "count": 10,
+      "sanitized_sha256": "bd321fde98c13e1ee3ed6384b43097211df8cef17a23728ab0d72c0ebdfd1ba2"
+    },
+    {
+      "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yunhan.html",
+      "patterns": [
+        "Google API key"
+      ],
+      "count": 1,
+      "sanitized_sha256": "cb526aca9bc3946350956267ac30a919454b4077ece33d05d4f6a2504c4887e8"
+    },
+    {
+      "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yunhan_u8.html",
+      "patterns": [
+        "Google API key"
+      ],
+      "count": 1,
+      "sanitized_sha256": "94935e3feb6ab287cb60a9fcbb0cd40fc0869badafb52a05d50e84b3624ad092"
+    },
+    {
+      "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng.html",
+      "patterns": [
+        "Google API key",
+        "Mapbox access token"
+      ],
+      "count": 4,
+      "sanitized_sha256": "bfd5694ef76a0b6c9d6920bd092f162096929ed7b9a5bc4630ac808607647954"
+    },
+    {
+      "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng_u8.html",
+      "patterns": [
+        "Google API key",
+        "Mapbox access token"
+      ],
+      "count": 4,
+      "sanitized_sha256": "85ca0154d4ad92922cf42240bbe0c20077aec1f157afc6a3d24bea8efcfc6a2f"
+    }
+  ],
+  "originals": "Private local backup outside repository, only if redactions needed; no credential values logged",
+  "limitations": "Pattern scan only, not credential validation or revocation",
+  "security_followup_20261110": {
+    "reported_detector": "GitHub Push Protection: Mapbox Secret Access Token",
+    "blocked_commit": "5f805365f30f07b55a651d55f6c9485c2e03a500",
+    "observed_token_prefix_type": "Mapbox public-token prefix; literal value never logged",
+    "changes": [
+      {
+        "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng.html",
+        "original_sha256": "d1e030b14f1bfbfce5512697be980f9c50609c70602d1904b2f4f6b9e7fce5e3",
+        "sanitized_sha256": "bfd5694ef76a0b6c9d6920bd092f162096929ed7b9a5bc4630ac808607647954",
+        "redaction_n": 1,
+        "bytes": 471435
+      },
+      {
+        "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng_u8.html",
+        "original_sha256": "26f1d35abc95fa3a5f5d5ba9ad65a0ec3363dad64b465c4abf2b2f69e3130f82",
+        "sanitized_sha256": "85ca0154d4ad92922cf42240bbe0c20077aec1f157afc6a3d24bea8efcfc6a2f",
+        "redaction_n": 1,
+        "bytes": 471435
+      }
+    ],
+    "private_originals": "Exact pre-cleanup bytes preserved outside repository. No token values or private backups committed.",
+    "data_effect": "Token bytes only; saved article text and candidate coding unchanged.",
+    "scanner_change": "Detect both public and secret Mapbox access-token prefixes.",
+    "scope_note": "No bypass, revocation, token validity test or credential use performed."
+  }
+}

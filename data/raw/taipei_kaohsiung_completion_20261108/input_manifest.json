@@ -1,0 +1,3998 @@
+[
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/age_followup_updates_20261108.json",
+    "sha256": "5c3605e726418f1a884c8079c64baf9f088a8566fefc8ff4fd867eb6b42f252d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1114
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/article_additional_manifest.json",
+    "sha256": "581e970db988379845f392ed0f25736d78cd286256bf25684ebec02cf6b209c1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5270
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/article_final_manifest.json",
+    "sha256": "985e8cc16bd9d9f0e46d4d4df2090e984c0f0daf36a771a57f690d71e3482e07",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5458
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/article_manifest.json",
+    "sha256": "2d2e6b58046a3f8967c2fe71a2f7789e37f06e898f19bbe4fb58ce0865c26232",
+    "role": "raw_capture_or_review_record",
+    "bytes": 15681
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/article_third_manifest.json",
+    "sha256": "638337ed064280cf5c4166c0c3ba06c8a8f08b43a5a1857558d5b98cb1b91c19",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2740
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/article_u8_manifest.json",
+    "sha256": "965fbcd2fdcca68bea5c86e0686565a35aea973c80a7217f02559445aa251863",
+    "role": "raw_capture_or_review_record",
+    "bytes": 20001
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/article_wrap_manifest.json",
+    "sha256": "0ed3d7dd20513cea1c677cf49fd2c04eb0b25b1118bb7a2b6755f1adfe684974",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2405
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cai_wuhong.html",
+    "sha256": "f7bc3647ffb4fc566d3b64f70a8909c37bab97e47a5361566a1b5fb216ff7415",
+    "role": "raw_capture_or_review_record",
+    "bytes": 198895
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cai_wuhong_text.txt",
+    "sha256": "08e88ae7f42303c7a311155913fee57a3fb2792a72d9146ce6851e0cc2a10fa5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3055
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cai_wuhong_u8.html",
+    "sha256": "f7bc3647ffb4fc566d3b64f70a8909c37bab97e47a5361566a1b5fb216ff7415",
+    "role": "raw_capture_or_review_record",
+    "bytes": 198895
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cai_wuhong_u8_text.txt",
+    "sha256": "08e88ae7f42303c7a311155913fee57a3fb2792a72d9146ce6851e0cc2a10fa5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3055
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/capture_hygiene.json",
+    "sha256": "6cfcb94ffe9dc85da8f0d5ae444c9841d042745ba393ebddf7fd4a57085a33a1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3056
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/capture_review_notes.json",
+    "sha256": "73f8f768b49bcaaa5bd3c74f393a1aceae74d337cfa20e9fad6152e300bd9bbb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1336
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_api_js.txt",
+    "sha256": "96844d2d962f7dcc9db7a6afcd6ce1077ea341f3bbf7609dc801514ef865b9ac",
+    "role": "raw_capture_or_review_record",
+    "bytes": 290
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_article.txt",
+    "sha256": "a359f0b6c3c50176a985fdeabb226d6966c4a7cf2dd8f726a5e0fbdec8262843",
+    "role": "raw_capture_or_review_record",
+    "bytes": 486145
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_article_js.txt",
+    "sha256": "88376bab7547c049cb0baa5145f40e4172d7e7df54105d2024062a7510cff87c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 8272
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_config_js.txt",
+    "sha256": "0ef2a0b0d28304694f3424592a0a2a6866ecd008a4f966ecee056bf65b1becb4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 31782
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_eligibility.json",
+    "sha256": "342c46119447371eb571b6cc22ea59b5b28453f75a64bd556d95b70f263ef920",
+    "role": "raw_capture_or_review_record",
+    "bytes": 26842
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_js.txt",
+    "sha256": "fd7d22796af4065f7e767b19b3f5e2f140b4a4fbee3d3aa810fadcd570caab2d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 141998
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_kaohsiung_candidate_list.pdf",
+    "sha256": "28a9bf7edeb4b2f45a0b3ca473d59c930fcf8cba575c8879fb33397815116090",
+    "role": "raw_capture_or_review_record",
+    "bytes": 409781
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/cec_kaohsiung_candidate_list_text.txt",
+    "sha256": "402d7f5c627428e4df4a25b3651a01faf12ab234a38a31c44043f7885890a5ec",
+    "role": "raw_capture_or_review_record",
+    "bytes": 38319
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_guanyu_current_u8.html",
+    "sha256": "6c3598b031fe32298369740685eb79fbfda54d28daa7664cb43311a256d1579e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 87670
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_guanyu_current_u8_text.txt",
+    "sha256": "d5472a92b5dd7775885118f0b629c79a5bde6c915a62341b54b565862856ed48",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1515
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_huijun.html",
+    "sha256": "0d24c98db98d3b4a87b9626a026e7d72c99754ab6bd88211a17bc372350b7d89",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_huijun_text.txt",
+    "sha256": "0d24c98db98d3b4a87b9626a026e7d72c99754ab6bd88211a17bc372350b7d89",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_linjie.html",
+    "sha256": "e122841b2b069cae932c9480ed3cbc2b08a4d704af5f55b4e5334e6933f57eff",
+    "role": "raw_capture_or_review_record",
+    "bytes": 80130
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_self_u8.html",
+    "sha256": "bd321fde98c13e1ee3ed6384b43097211df8cef17a23728ab0d72c0ebdfd1ba2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 102923
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_self_u8_text.txt",
+    "sha256": "c2827408bc5a8d5decebcac67bc86afea8a8e99b223b53a3c08f8212de04822f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1493
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_text.txt",
+    "sha256": "74edfee900ad081d5103335640cbc9c4da3601320d468f7e9e1330406f59bdaa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1863
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_u8.html",
+    "sha256": "e122841b2b069cae932c9480ed3cbc2b08a4d704af5f55b4e5334e6933f57eff",
+    "role": "raw_capture_or_review_record",
+    "bytes": 80130
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_linjie_u8_text.txt",
+    "sha256": "74edfee900ad081d5103335640cbc9c4da3601320d468f7e9e1330406f59bdaa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1863
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_meijuan_u8.html",
+    "sha256": "ee957afa521b401be22b8b65df832b0f3039e889c30778bc3d086e625fc06c79",
+    "role": "raw_capture_or_review_record",
+    "bytes": 9409
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_meijuan_u8_text.txt",
+    "sha256": "b674e23ab765303a99150e30fa1540dc34d8fa1780d1a4075922f66609d00e67",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1907
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_yijun.html",
+    "sha256": "f9d7ddddca0887c9deaed2deb80abbe3bdc14feeee0bee76bc648a37f9fb6538",
+    "role": "raw_capture_or_review_record",
+    "bytes": 205874
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_yijun_text.txt",
+    "sha256": "f9b2e0e2881da5a5dda7ab8479037414fefd91f381ce45be69bfa4e2dcd186b9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5734
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_yijun_u8.html",
+    "sha256": "f9d7ddddca0887c9deaed2deb80abbe3bdc14feeee0bee76bc648a37f9fb6538",
+    "role": "raw_capture_or_review_record",
+    "bytes": 205874
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/chen_yijun_u8_text.txt",
+    "sha256": "f9b2e0e2881da5a5dda7ab8479037414fefd91f381ce45be69bfa4e2dcd186b9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5734
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/demographic_history_matches.json",
+    "sha256": "e484a10ab3a70b1f47827d6397c3df2a5fe8e2b13a59a28e38488301dd1d1d37",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4736
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/demographic_queue.json",
+    "sha256": "26330dfb7ee031e5a35799e703bdef9f7c1611a0d2be22a9800d5351425bef38",
+    "role": "raw_capture_or_review_record",
+    "bytes": 12106
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_leqiang_2_u8.html",
+    "sha256": "c72a07b84116c4dcf49e72c48628ead7dd3a19c83c35595695d4e8c2692f04d9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 27810
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_leqiang_2_u8_text.txt",
+    "sha256": "2afc87d749ad6af689645f171b794531981cabffe1f9654b51f8525745fe6bd1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 81
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_leqiang_u8.html",
+    "sha256": "aab6281e295c49a6ff19680b96e25f2c5596e4881fb1234bb6019cd45ea5b537",
+    "role": "raw_capture_or_review_record",
+    "bytes": 27810
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_leqiang_u8_text.txt",
+    "sha256": "2afc87d749ad6af689645f171b794531981cabffe1f9654b51f8525745fe6bd1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 81
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_qiaopei_birth_u8.html",
+    "sha256": "d637294e07c1005936103bce2f031477c436f3d4aad574b3d67f13a1eed70036",
+    "role": "raw_capture_or_review_record",
+    "bytes": 19182
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_qiaopei_birth_u8_text.txt",
+    "sha256": "a9b7767004b5f94023d698342e28fab1667e3d5a5b9b0468cc352b69dee34201",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6191
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_scope_api.txt",
+    "sha256": "a450cad3ce91611a5dd65bdd1ad271e4cb2a9eaf9fbcece6ea17fb7fa99cb194",
+    "role": "raw_capture_or_review_record",
+    "bytes": 27810
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/deng_scope_www.txt",
+    "sha256": "4ccb7f1611c7ef36dc2fface857cd5a6a11a12c980b1b5d6d50615105d09e34a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 7277
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/education_assistants.html",
+    "sha256": "b072148c05591c8afd8c814cc9caeda90a93f110e93cd03e1ae146e5b17e719d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 146603
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/education_assistants_text.txt",
+    "sha256": "77c8bdcd2c2b877ead65e7abc52b05e839862f31501c7533c69ad63f54f94722",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5557
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/education_assistants_u8.html",
+    "sha256": "b072148c05591c8afd8c814cc9caeda90a93f110e93cd03e1ae146e5b17e719d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 146603
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/education_assistants_u8_text.txt",
+    "sha256": "77c8bdcd2c2b877ead65e7abc52b05e839862f31501c7533c69ad63f54f94722",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5557
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/eligibility_decisions.json",
+    "sha256": "e2b4a92133afa37fe824ffd35f2b125841037b2e74228b9ff2174f0319dca9ad",
+    "role": "raw_capture_or_review_record",
+    "bytes": 836
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/family_search_decisions.json",
+    "sha256": "c2c1f06b2d56c99ba23cca43eab1607c0928b14e10e4dac33a93b8ab8259a3f4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 166258
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/full_web_positive.txt",
+    "sha256": "5386857310b5a0b71dae7538b2f00d60668f8fc223593e9f08062f58c112eb2d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22176
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/g5_history_scan.json",
+    "sha256": "26166ce8a70bcfb5f78f59404576c1f3aa33fdaf4c21079abc69d1fa37dc0c4a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2753
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/g6_followup_updates_20261108.json",
+    "sha256": "837df526c6e11e611b190c622e7c03be59962d361e6d9997a4356497bc70d607",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5509
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/g6_low_result_followup_queue.json",
+    "sha256": "3299c81a41c4a236548429f68c029c5b477d9ca2e995df2a00044f718838bf87",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3012
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/g6_scope_decision_20261108.json",
+    "sha256": "561986bf80247eef0404bedf4d01514bea608f06e201c6a404eb7a237c72c38e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1662
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families.html",
+    "sha256": "af8925cd3c9e9ab5a8eb8b735a8413178b5dd799a2721aa038825cfe67554309",
+    "role": "raw_capture_or_review_record",
+    "bytes": 211642
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families2.html",
+    "sha256": "d8f47cde97d4caff33903e0fc15154a9f88af40e57174ad47113e7988a6b724b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families2_text.txt",
+    "sha256": "8aa09bd1960eaf9917c185503e7abe21de20922d1bfddfcb5386e836ec7b9505",
+    "role": "raw_capture_or_review_record",
+    "bytes": 758
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families2b_u8.html",
+    "sha256": "ceeb9297db59f65155aa583eb8859297251910d6c95be7a4ba38cdf6d8281776",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families2b_u8_text.txt",
+    "sha256": "0d2705384c8051491db2b8d5c3c0fa9b8576cf702e97ac3331ae0705394a1a42",
+    "role": "raw_capture_or_review_record",
+    "bytes": 758
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families_text.txt",
+    "sha256": "ba9e539acd87a89b5831fa2bf5c596f7e88e837af246e7ee37600d5518c6eaab",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4211
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families_u8.html",
+    "sha256": "480e122297e46dda7025b1528db9335bc5f529f24e6dd218392c1c621d39a50b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 190208
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/gao_families_u8_text.txt",
+    "sha256": "32c212b27c59f41fbd3bd102eef293fda50abb10d79cfb956acd79741837773a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1898
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/guo_xi.html",
+    "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 126
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/guo_xi_text.txt",
+    "sha256": "d70b0db34b725f08e756cd65035e8838f0f2e4ea38cedea70e9e7d0cc60effeb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 125
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/guofan_bachelor_u8.html",
+    "sha256": "b894728dc0d624de861327a147134f1eb3734f5460119de163cd04d8a86c1d6a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 89992
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/guofan_bachelor_u8_text.txt",
+    "sha256": "4847debc73fcbf81c584c9efe0ab51a9d94388f490eb5d464bedb1ed747c2722",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2880
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/guofan_edu_u8.html",
+    "sha256": "a89f8204d8dc2d0f6423647935b9157c9423c3a72e2d671718705aa1dd2d564d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 40188
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/guofan_edu_u8_text.txt",
+    "sha256": "a934e061da0e7e62755b80cc69db198a6f103c5514a3a80a5bd4bff653f90761",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6241
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/he_shuhuai_education_u8.html",
+    "sha256": "b68c777d8b7f98191df1628084788449a42ce4239ec54de12b71c2ecb767d4c9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 50218
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/he_shuhuai_education_u8_text.txt",
+    "sha256": "6d0cf3fac9f64f23268e5d4fbe0a9e691e0447fcab3cedf0fb1e7823e5069896",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5207
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/hong_education_nknu.pdf",
+    "sha256": "b5202c62ddeecb1c7a0e98c405f51901171fc598cb934e2a3d84f98f00f28721",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4534205
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/hong_education_nknu_text.txt",
+    "sha256": "61843026076c2d627bdbf27fca00e702f14ec4ebcc68253c9e8b9a915a521384",
+    "role": "raw_capture_or_review_record",
+    "bytes": 33488
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_feifeng.html",
+    "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 126
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_feifeng2_u8.html",
+    "sha256": "b322f620d2e5bec919a207f6f2dee1dd86e0cc307aee4703cf2cac1d25952df4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 186430
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_feifeng2_u8_text.txt",
+    "sha256": "84bc46edc8bb0c5275bc1aaaa9b18b1187b8d0bc9d9805961e2e5086e651df1c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2271
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_feifeng_text.txt",
+    "sha256": "d70b0db34b725f08e756cd65035e8838f0f2e4ea38cedea70e9e7d0cc60effeb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 125
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_qiuying.html",
+    "sha256": "94cfa921680e21ab609e07d2c86008c7d2ea4db8e39f37dbcec84395648c0baa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 152453
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_qiuying_text.txt",
+    "sha256": "782fe1db801f4400df704de5a410101933c1db3b6c33137da00cb510d8de8442",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3215
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_qiuying_u8.html",
+    "sha256": "ebf5f8646b6c1a58bd237e9694d062e59d42854a5a662b70a15364b7b8e66ffd",
+    "role": "raw_capture_or_review_record",
+    "bytes": 152453
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_qiuying_u8_text.txt",
+    "sha256": "782fe1db801f4400df704de5a410101933c1db3b6c33137da00cb510d8de8442",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3215
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yunhan.html",
+    "sha256": "cb526aca9bc3946350956267ac30a919454b4077ece33d05d4f6a2504c4887e8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 174862
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yunhan_text.txt",
+    "sha256": "9b3603099d89177a8fa9c425d3ee678cd64a4255907eb6bf6567b68c9baec9e1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3197
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yunhan_u8.html",
+    "sha256": "94935e3feb6ab287cb60a9fcbb0cd40fc0869badafb52a05d50e84b3624ad092",
+    "role": "raw_capture_or_review_record",
+    "bytes": 154410
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yunhan_u8_text.txt",
+    "sha256": "d56128460abf97025ad3ad3b5f5e6d3718e58060f886188355a33c2c34393719",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1454
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yuting.html",
+    "sha256": "c6697037e0c652f9f06eae4b7c1053d71710f91a4c83d663ba6ade9115cde57a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 213943
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yuting_text.txt",
+    "sha256": "df19199b10433e69cf42c61eb16a2478e4789264faababc1cb1d8e97928e6570",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3884
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yuting_u8.html",
+    "sha256": "a76b073af7e3af7ae02eb14ada1caa65354765b262a38d74d70b215a119ab5c3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 191045
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/huang_yuting_u8_text.txt",
+    "sha256": "8b5a206a8c9349c4be56fe3188547a970f577d43d874dc20f8b475bf8504f1ef",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1775
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ipdb_lin_ziyang.html",
+    "sha256": "31f4c0ed8ec2ae853c51141231288505b3cceff638e9dab78f11455fdfe2d6d1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 87400
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ipdb_zhang.html",
+    "sha256": "ebfd184cbdca714c9137941451b40d3f7550140669f49dca4adaee883cf5c8d6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 80893
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ji_family.html",
+    "sha256": "1613fac85b4842638880ce6a25394d8b4767d76e2582c983b84bfffe4a2cbe23",
+    "role": "raw_capture_or_review_record",
+    "bytes": 81044
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ji_family_text.txt",
+    "sha256": "bae81c2e554e78cc303b446a3b58639a4d724f09864a6017b24de2f934bb76c8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4437
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ji_family_u8.html",
+    "sha256": "1613fac85b4842638880ce6a25394d8b4767d76e2582c983b84bfffe4a2cbe23",
+    "role": "raw_capture_or_review_record",
+    "bytes": 81044
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ji_family_u8_text.txt",
+    "sha256": "bae81c2e554e78cc303b446a3b58639a4d724f09864a6017b24de2f934bb76c8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4437
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/jin_heya_u8.html",
+    "sha256": "518551ed4c123148eed2530733f94c30326b5d3135a0e5ae7b5ae6dbc2f41609",
+    "role": "raw_capture_or_review_record",
+    "bytes": 137432
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/jin_heya_u8_text.txt",
+    "sha256": "087d60008eb63f319a7c44db6adacd830377b695d26c24ff2a56b8cb3df9e47c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1224
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_hong_yingxiong.html",
+    "sha256": "aee8fe30d67175738d64425685a4409d1e583a9db485b3947a47b32adc2cdd93",
+    "role": "raw_capture_or_review_record",
+    "bytes": 14053
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_hong_yingxiong_text.txt",
+    "sha256": "a6242a329884eb5e6a3533bba275b34b77e319874e259af326676c1a131e0ea1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1158
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_kaohsiung.html",
+    "sha256": "a3b7c46427db8efe52a36580fb783e706bf9c7eae93dc345f22dee05fc44ff94",
+    "role": "raw_capture_or_review_record",
+    "bytes": 91303
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_kaohsiung_text.txt",
+    "sha256": "dee1a5d0ad06de58b2622400b50c59135263c0135eec464b17eaf58071dbb1e2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6561
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_li_zhenhao.html",
+    "sha256": "dbe13984139ca90391cad5aab5abddf855c7952578a4388bbc173d9f870850d5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 13838
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_li_zhenhao_text.txt",
+    "sha256": "18bf4bdaca2430fc555d777f77c9158ab8f73595ce2ce3f9ed5c7f5fc337b10b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1167
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_song_shaoming.html",
+    "sha256": "3931f9c4a4f879bf3b316f52b2ff17929a9ff1ff67018a3efc1be7611455c609",
+    "role": "raw_capture_or_review_record",
+    "bytes": 14743
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/kmt_song_shaoming_text.txt",
+    "sha256": "94ec2b8618621c3ec1f019221245a58f0bc3fe9af16d8bba8042cc47c5260d0d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1702
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_correction_u8.html",
+    "sha256": "ca726bec6085d57205ff29801007d350118e7cdfcf165fef7f776ed917fe61de",
+    "role": "raw_capture_or_review_record",
+    "bytes": 120639
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_correction_u8_text.txt",
+    "sha256": "54feaf34397e598ca82f8b4eff296e07fd1cfcdbfa5a65726683567c40b43159",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5343
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_education_verified.html",
+    "sha256": "f01b836f164f1c23ae635b191dd8f0b8c6a54c52cd341e31ab4ca38252a8ae07",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_education_verified_text.txt",
+    "sha256": "28c1db467a51260676023e08d1181de7f0ba5465adc68850c92f43db0e1d8254",
+    "role": "raw_capture_or_review_record",
+    "bytes": 758
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_family_u8.html",
+    "sha256": "feade912d40410a117e8da4a5c3b80661547f24ecaf92eb413d338ffc95c258c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 130742
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_family_u8_text.txt",
+    "sha256": "19c94651a84fb33d8c42c8e7e702b81804ad7852ea35e516fe35c07ce1b45918",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3371
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_self_u8.html",
+    "sha256": "3933b791c86c278c1a962aa55f4c5ab2a0666d91ce74fa59724fd0a3d00c39ed",
+    "role": "raw_capture_or_review_record",
+    "bytes": 37162
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_self_u8_text.txt",
+    "sha256": "fe8c84e802b6b4b0cbcad0ca09669025e73778040d5823a20b02d1226a9e9867",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2827
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_boyi.html",
+    "sha256": "7543ec2081526cce07bffe652f62f3af76d147621eb162b856903142fc4d3826",
+    "role": "raw_capture_or_review_record",
+    "bytes": 193348
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_boyi_text.txt",
+    "sha256": "783b3e22e4164aa33547d0ed7e3a20c545908c2ae071c9f8bb5ca581e863eabd",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3129
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_boyi_u8.html",
+    "sha256": "7543ec2081526cce07bffe652f62f3af76d147621eb162b856903142fc4d3826",
+    "role": "raw_capture_or_review_record",
+    "bytes": 193348
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_boyi_u8_text.txt",
+    "sha256": "783b3e22e4164aa33547d0ed7e3a20c545908c2ae071c9f8bb5ca581e863eabd",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3129
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_fuyuting.html",
+    "sha256": "abffe0b62463c24bb7ce98b5f4a1927a11d93445869ffd57c8622ef19260d29a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 214213
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_fuyuting_text.txt",
+    "sha256": "f8969e896f2d78baf1a09654eca243f1fddb28012ee7379a3d5fb03d02a6dc49",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6635
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_fuyuting_u8.html",
+    "sha256": "351ee4f13be180009528e2234648a112a9f985e760aeb7fb60566fe966eed778",
+    "role": "raw_capture_or_review_record",
+    "bytes": 190596
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_fuyuting_u8_text.txt",
+    "sha256": "adacd5036aa0c72dc8b8a53d0119fde0a82b52ed20f95ecb56081a93c1042624",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2987
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_hongyi_2023_byelection.pdf",
+    "sha256": "1acce85bc259c843be9fc392e9eb37516a89ecec66ed1c999ca4f467669e7337",
+    "role": "raw_capture_or_review_record",
+    "bytes": 10101838
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_hongyi_2023_byelection_text.txt",
+    "sha256": "ae74f8ff1da8a7915d2dbdb9ccaaeb21be8d996ab081d7400f1e0b37c02e3d37",
+    "role": "raw_capture_or_review_record",
+    "bytes": 40562
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_hongyi_source.json",
+    "sha256": "f2c17b8b28b877723aa214c36fa727d9598382a76d67f2aeb4022d44ee7cbbf0",
+    "role": "raw_capture_or_review_record",
+    "bytes": 273
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_huixuan.html",
+    "sha256": "17ea8d8c4f070d0b6fd4c08935fcaae7553667f43acfdd8cb587a090d867e581",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1616
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_huixuan2_u8.html",
+    "sha256": "17ea8d8c4f070d0b6fd4c08935fcaae7553667f43acfdd8cb587a090d867e581",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1616
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_huixuan2_u8_text.txt",
+    "sha256": "71910c8c6be42ce84cdc7ce139d54f7badbf55bad42ba21812a43a0f124a7277",
+    "role": "raw_capture_or_review_record",
+    "bytes": 112
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_huixuan_primary_u8.html",
+    "sha256": "0a0415c54f826f83410b4722117a18e3a3d1f2895ad36bf51d5321bb96574ac5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_huixuan_primary_u8_text.txt",
+    "sha256": "1c2cbef92a0cc7b65d8834ddf91ad0f1164b7987e42d90a13be56575b47bb95e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 758
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_huixuan_text.txt",
+    "sha256": "71910c8c6be42ce84cdc7ce139d54f7badbf55bad42ba21812a43a0f124a7277",
+    "role": "raw_capture_or_review_record",
+    "bytes": 112
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_meizhen.html",
+    "sha256": "d24e465d7979437793f289363a37286fddda0a5de0d3cb907387f6ea10545884",
+    "role": "raw_capture_or_review_record",
+    "bytes": 32956
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_meizhen_text.txt",
+    "sha256": "ea734f1d6aa05b7f8032d8c443efb0fd6dfb28d0f9c75ad8e8115fec20c36930",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2183
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_meizhen_u8.html",
+    "sha256": "488ca3406d0b2535ea11df1eb37458c72f69a9033c22ea8cb6e3c2099139e0ec",
+    "role": "raw_capture_or_review_record",
+    "bytes": 32907
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_meizhen_u8_text.txt",
+    "sha256": "c7bf335c5c0b91b7679f0ffa473b046f05544582b0e7e3334a5cd3d369b61249",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2158
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan.html",
+    "sha256": "ec87d934aecc54ee827e587231a192fdce5034ae9f51b0740cb45f19cca8ab58",
+    "role": "raw_capture_or_review_record",
+    "bytes": 134294
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan_family.html",
+    "sha256": "0d7a07225cef53a04ac0b8f034ca62d59feba3033f1c138a7663c2752b201ca4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan_family_text.txt",
+    "sha256": "6a357552f36ae51277b966233fc98c6b7955b16810442b1c1416a1addd330f12",
+    "role": "raw_capture_or_review_record",
+    "bytes": 758
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan_text.txt",
+    "sha256": "f7307d0dc34816810ece78a2e72070193073da72cc5075c968faa6575530b12c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5444
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan_u8.html",
+    "sha256": "ec87d934aecc54ee827e587231a192fdce5034ae9f51b0740cb45f19cca8ab58",
+    "role": "raw_capture_or_review_record",
+    "bytes": 134294
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan_u8_text.txt",
+    "sha256": "f7307d0dc34816810ece78a2e72070193073da72cc5075c968faa6575530b12c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5444
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yafen.html",
+    "sha256": "3d37c6266f91742f203997060f51e0ead66dbb9b08de08573807ced57bb35b2b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 47791
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yafen_text.txt",
+    "sha256": "135a31ae83437685ee8ab7c30d3eb7d41edded290075ad2304bace4ac49b7012",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4117
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yafen_u8.html",
+    "sha256": "3d37c6266f91742f203997060f51e0ead66dbb9b08de08573807ced57bb35b2b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 47791
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yafen_u8_text.txt",
+    "sha256": "135a31ae83437685ee8ab7c30d3eb7d41edded290075ad2304bace4ac49b7012",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4117
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yuting.html",
+    "sha256": "8a3d4b48d79417020db10c9fd090529df9a3ae49f114080e1ca4f6ea6a8e1f2a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 54087
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yuting_text.txt",
+    "sha256": "35310ee7f81cdf7c47cfcc6686121bf1b66ed0352dbb797cd421c1b4831f8f6a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4046
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yuting_u8.html",
+    "sha256": "8a3d4b48d79417020db10c9fd090529df9a3ae49f114080e1ca4f6ea6a8e1f2a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 54087
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_yuting_u8_text.txt",
+    "sha256": "35310ee7f81cdf7c47cfcc6686121bf1b66ed0352dbb797cd421c1b4831f8f6a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4046
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_zhenhao_master.html",
+    "sha256": "761288342455c0a105d7753d8ab0b396a017f34fde0ad67f07509ffa0eea93be",
+    "role": "raw_capture_or_review_record",
+    "bytes": 161908
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_zhenhao_master_text.txt",
+    "sha256": "379b496f3f4265dbbd1334c46878f098fdb13aede6f46444f18ae179822dff6d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 105
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_zhenhao_u8.html",
+    "sha256": "ed021af555e3ed6b242e91366c882c535d329cf377328d10db4ddc7184dea305",
+    "role": "raw_capture_or_review_record",
+    "bytes": 190307
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_zhenhao_u8_text.txt",
+    "sha256": "611d8ea21d2316fa6ce562dc8a2e05b7cf9c9cf206a6e32c9d4bf7a6c6eb2cbe",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2067
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_shizong.html",
+    "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 126
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_shizong_text.txt",
+    "sha256": "d70b0db34b725f08e756cd65035e8838f0f2e4ea38cedea70e9e7d0cc60effeb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 125
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yan_u8.html",
+    "sha256": "03fc9f7b16fd3a3aacd24cacdefa56544435d27e6044037239df94a28cb992ba",
+    "role": "raw_capture_or_review_record",
+    "bytes": 220003
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yan_u8_text.txt",
+    "sha256": "61f5d1c55f55ac67dd722cf5d96e8bc9ab5def4f332f4c89163b0cd95e096a5f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2588
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng.html",
+    "sha256": "bfd5694ef76a0b6c9d6920bd092f162096929ed7b9a5bc4630ac808607647954",
+    "role": "raw_capture_or_review_record",
+    "bytes": 471435
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng_text.txt",
+    "sha256": "4e6510ce722e09256901ed43fff93d83cd86fae50a3735e34364ad6ad9e1b97a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 36849
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng_u8.html",
+    "sha256": "85ca0154d4ad92922cf42240bbe0c20077aec1f157afc6a3d24bea8efcfc6a2f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 471435
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yanfeng_u8_text.txt",
+    "sha256": "4e6510ce722e09256901ed43fff93d83cd86fae50a3735e34364ad6ad9e1b97a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 36849
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yangting_u8.html",
+    "sha256": "35b73b48beda3f27fa0b59e02be66d10f7392247f28ef1f1aad62a53bd83cc1d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 39961
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_yangting_u8_text.txt",
+    "sha256": "b094307df1eb233ae120fdc6432a8a80fc2d8a940b24c2777033ee39193ecd43",
+    "role": "raw_capture_or_review_record",
+    "bytes": 7621
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_family_u8.html",
+    "sha256": "95580bf1373e9de0cb38304569d0ab183e633834bf3a2764a67255ae09578f8f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 39039
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_family_u8_text.txt",
+    "sha256": "4f584b73b32ae4b5f4d2578b6ba89311c045c58e8dd1c1854ff169f025b2ae3a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6695
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_nccu_u8.html",
+    "sha256": "0e263b94f68726f594c21b90ed7a724514111e8470e6c69d31eec93f1ca61b2a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 53334
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_nccu_u8_text.txt",
+    "sha256": "aab0e3d9e8f1f3c5ad15e5d3861dbe27de708ce2b64e895b8b10d377005863d8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4341
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_primary_education.pdf",
+    "sha256": "e3b46906b6b1ba7bca0c4c8f62954a319b0eb28ac7d6fcd4536f8ae384e5e426",
+    "role": "raw_capture_or_review_record",
+    "bytes": 40413
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_u8.html",
+    "sha256": "31271daf608efcdab215452a010af90878ca9c10645b08222803ea2917f2955e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5912
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lin_ziyang_u8_text.txt",
+    "sha256": "6df87aa32ad0d94d1858e17d71046556d95e1fe9bd57110288f129d3cc08d34c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 80
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liu_mother_u8.html",
+    "sha256": "2e2e4e488aa871e78d48862714cc847a05216f35066b4634b1fe4e59b9e11c15",
+    "role": "raw_capture_or_review_record",
+    "bytes": 146259
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liu_mother_u8_text.txt",
+    "sha256": "79397f65078cd2038d3a5e9be54f9f48af0617fe8e68047bf563f51e847496b9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5825
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liu_zhiyi.html",
+    "sha256": "9f3bf601d0f9102425bd74ac4634d38800a8b7567c21ed0ca0b9b0ffe5d2ac07",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5513
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liu_zhiyi_text.txt",
+    "sha256": "05f8bdf19ca64ec98ac31c13061fb810966197580390f0688c67e092c21b5a3f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 58
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liwen_current_edu_u8.html",
+    "sha256": "17ea8d8c4f070d0b6fd4c08935fcaae7553667f43acfdd8cb587a090d867e581",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1616
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liwen_current_edu_u8_text.txt",
+    "sha256": "71910c8c6be42ce84cdc7ce139d54f7badbf55bad42ba21812a43a0f124a7277",
+    "role": "raw_capture_or_review_record",
+    "bytes": 112
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liwen_edu_u8.html",
+    "sha256": "519b7bdd2e7fc4902792daa9e063340090b93ef1040edc61a87d8ea94a4d729f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 199137
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liwen_edu_u8_text.txt",
+    "sha256": "d1178821d8c063ebc9efbdf02e38bd918784fdb6b8f5c2c97b5920540611d3ba",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3545
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liwen_identity_u8.html",
+    "sha256": "55a096311c5340b36b6820386a47c862350227d58ec4dc52431bb78a5bbfcfa9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 121028
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/liwen_identity_u8_text.txt",
+    "sha256": "ac772807f4f4a3375bca103bc7dbc71c55bb8bb6e5095f29a225b667299fefd1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 253
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_all_districts.json",
+    "sha256": "d1302f97460b93991468a8cd08238746b811b0d80d6403e6a56aa06da1bbf092",
+    "role": "raw_capture_or_review_record",
+    "bytes": 196519
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_028dd651-8012-480f-9591-1322ea2f90f2.json",
+    "sha256": "06e9fa47d81a9a2c0fd58ac384bf8b32f52dd7e63cfd47de89106e2a7c355fbc",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3919
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_14902932-769a-4a97-a7ba-846ed7f8d14f.json",
+    "sha256": "3d2e51a010fd3a447b6f275aeccfd93ce36c1fbb807029edb6ef663fe44c3747",
+    "role": "raw_capture_or_review_record",
+    "bytes": 8395
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_20814660-7bf5-44d4-b81c-f6834187028e.json",
+    "sha256": "4c7b3bd02a38656db74d983e437d40ab1554af5524dc6ef178823de09f515218",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2617
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_31f3aff1-8eb8-4053-acf1-8c9791580cf7.json",
+    "sha256": "6c36dd9de501ce50cbc22c2a047f4a1cf88cc9d747c28f31bd72a448d9f6a30b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 7762
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_34913ef7-db50-4aa9-a05d-0ed91519a8ef.json",
+    "sha256": "b852c90b2d18cd1303125da433416229c5990d605230212b6fe148422bfc74d3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1288
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_410fcece-c4de-4a78-8c5e-4ff31d90c81c.json",
+    "sha256": "21cedefa4a1e4ac7d3cb14598c62fc522fd8a9cd534ca29be5f71271cea553b6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3234
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_4af8c2e9-4374-4d92-86c0-1336e64f3f1f.json",
+    "sha256": "aa44f5484bd93a712d4324a7158c4f2cfefe4d5d9f9f750f7ae856ef64badda6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 9006
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_5141d8f3-b51e-4d52-a6b6-af70a7761a78.json",
+    "sha256": "91f39706f6e082ef0e49bf87ce723ee231c28abc697c9f59b69d767ce8b2e7bd",
+    "role": "raw_capture_or_review_record",
+    "bytes": 9063
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_547e8d47-084a-4864-b912-8bc89b00a931.json",
+    "sha256": "81dac9ddbe90a4ecfcd027310f9f097c5d73eeb2804e7bc2159431a0371f193b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5088
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_558cedb4-545e-4b4d-a32e-bfc3428053c4.json",
+    "sha256": "c34e7151a2cbb0151eafdc9cb7deba3c0fc010bccef2ddb1f2fdb687c7379961",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1285
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_5887d923-8a4b-4f7e-ae82-fc6c29c8f312.json",
+    "sha256": "50620b88ae3ff7eb9bc1b180f2c488e8bdbece163dd8ab3e7ca112a2232baba8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 11672
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_5c49a47e-60e0-4138-a1ed-97e66628f039.json",
+    "sha256": "9c9201690235e037a63b469ea1d9173ff2a8e4b46cc5eb8048b1cf6d6bf3110c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 7643
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_62599414-2e4e-43f0-98bb-f634c82cffce.json",
+    "sha256": "85a02e7707b80372b085b5fcf1eaf5f1e842649fdc7f1d607e2266fd8db2d5d7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1856
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_63602dd6-cada-44c5-bfd4-c7d8c625b3fc.json",
+    "sha256": "59dd98c13724efd9e412f2b423a0a55dcc98b2cdfa7c11f7dbabe87cc9bb839a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 8286
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_8315b668-6108-4871-b6da-643a72de5083.json",
+    "sha256": "0916c1b4b49d0a0d4c7faa1297837cab04beeb2b13b3c80704469bf19e7fdd9a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6512
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_88abbbdc-d326-42e8-88a1-38cce5d9dbf8.json",
+    "sha256": "2296958d46f0a6567f20f2563ee2c9a9dd9d4fc073bf384dfd1c2c235fea3041",
+    "role": "raw_capture_or_review_record",
+    "bytes": 8472
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_897c70fe-2693-47a0-93ba-593b31391498.json",
+    "sha256": "183a5d34088ae1dda2859e7cd5f06ace8077d2bd7a452f6a802cab82ac719270",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1935
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_989d92b6-e18c-4d75-93d4-a87dec8524e3.json",
+    "sha256": "ecacbc22ee94502b4bbb8aeea35c05a0d1cb1f111e6b1dd85f6dac9994a44792",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4557
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_9fdba450-ef46-4e59-985a-e93ddb10bc6c.json",
+    "sha256": "9ef8dc990ffd1fcb956a103c31e35b861897681caa533e4d6825a5d7567ae69b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1279
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_b8550506-be7b-40c2-8357-ba2414034a0d.json",
+    "sha256": "aaf8772e6d52e3cb355007df0bd6695549fdb4d347659255fe619f29e7e6f011",
+    "role": "raw_capture_or_review_record",
+    "bytes": 12899
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_d0a81836-064f-4410-aa6f-4977c053e39e.json",
+    "sha256": "23a332eb4eaf9ab1835d493f631dac0faf9d190297f6e922ea438ca1c893d06f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1949
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_e272c985-7ede-4ece-a3cb-7c295c71fd54.json",
+    "sha256": "3af3a055f3e31240c1b792baa1b777ba6505cb8f5fff2fd767ea562dfb0a99fa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3218
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_fb6397d3-723b-4435-aaa8-7f803d46c61c.json",
+    "sha256": "1e7755589c0c67337bf335c68326d7d74cf3b8423b35c21226391fb6b2154b10",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5634
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_council.txt",
+    "sha256": "2296958d46f0a6567f20f2563ee2c9a9dd9d4fc073bf384dfd1c2c235fea3041",
+    "role": "raw_capture_or_review_record",
+    "bytes": 8472
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_districts_bbee93d0-b413-4521-84a1-83b8a2f0176b.json",
+    "sha256": "8bfb8a0368c4e8a2ecda95d284d9b24e04dacb3e1d438fab241cf7a04e13cffe",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1497
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_districts_f30de578-eab7-4b33-a813-5763ff37a5db.json",
+    "sha256": "5addd249e539058bd751666247e72be3e24e4a88cc25718d4b45419f50b61712",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2806
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_manifest.json",
+    "sha256": "577cc1d6ce8e32dbf13acdef6aaeb84a63e91da4e90e18ffea323dfe43066d4c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3482
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_root.txt",
+    "sha256": "4b6f95177ebb0d409a12fb2c4ad1f9faa34ccae2b85cb0f7e2cc57a78f8c581c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 9721
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_tree_0.txt",
+    "sha256": "410949cf640fd37a085a8558d9278db53d77fef5642449d0e47c34730977c95c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 12305
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_tree_1.txt",
+    "sha256": "8bfb8a0368c4e8a2ecda95d284d9b24e04dacb3e1d438fab241cf7a04e13cffe",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1497
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_tree_2.txt",
+    "sha256": "c48240b7c9e55173fdf6be727988ad220176fccd8a396dab475726cbb88c97c4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1027
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/olc_zhang.json",
+    "sha256": "1a3f4d1c973cbf082edd36b21e79b123b055333b611c924d79bd4a55d27881a3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3006
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/qiu_yuxuan.html",
+    "sha256": "193833eae7ea399b1db24788080c0e44dafc7ed2a1b15bb9e09a96b2f13bdcf6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 32988
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/qiu_yuxuan_text.txt",
+    "sha256": "40c8b38c4bf303db1e3243aba6bef4ac80707a47976c5058b1095b6f65cdaaad",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2441
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/qiu_yuxuan_u8.html",
+    "sha256": "f909486ef076762ae7e82a2871693a4dd30b40a009691ed5cfbb5b5d154c429c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 33073
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/qiu_yuxuan_u8_text.txt",
+    "sha256": "574c09db90010eb536d94eb4f8d7536287ab798bca4823e8d4aa5afd6ce193bf",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2497
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/reviewed_facts.json",
+    "sha256": "29b3c1e8c5eb388f8e352d575b94464b515d80b087644aeaf05227a1336096f3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 187217
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/scope_age_access_manifest.json",
+    "sha256": "fa1a7e62c7b29d1e05b1c753594f7624cc4c84256c1c3de7ae4b0616432fe557",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1456
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/age_followup0.json",
+    "sha256": "bb531c5f0bf7fb8b15c0f54dbd3b6e25c0453ac709e481f160618266efef3b99",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21326
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/age_followup1.json",
+    "sha256": "f607d8ffb3b93644036778247e3bd53a5b5f559b0452a4904833b4ab8f32d8aa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22517
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/age_followup2.json",
+    "sha256": "f0d5dbc1c707cb19340d805a034e1d09e941ceb6aa75e3a7e8148470a3efdb50",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22736
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/age_followup3.json",
+    "sha256": "f26d8689e11a24f72163abe3c0eed003a9b0a325a9a413597e524cb05cbf8fa6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22229
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_00.json",
+    "sha256": "9409560b654b2443435fa1208931e8fc338efda8f01fad955518d6bf75b4fdce",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24332
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_01.json",
+    "sha256": "5aaad8f7f76b925f63a977ab911c098b9a7636a3bb5658e1ba31f62cd653c609",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24460
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_02.json",
+    "sha256": "3c4fd0f43a09564832edb1a1f4e2319dc07c10402ba968b5d2a2e142b920ffd4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23674
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_03.json",
+    "sha256": "2946673fda7441f92a77cd16acab2113e49b65fdb4b15255f32a850e54b81be1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18979
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_04.json",
+    "sha256": "423f5363f66bdb926a9c27b117ba806f31bdfd69e22daf675ed79e22553c1df9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 19217
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_05.json",
+    "sha256": "bbd63da667f421bfd80e3488ee375a3f93ce95da31d347e3c99ef1b7a1328e68",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18620
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_06.json",
+    "sha256": "318e3173ff1251d3428bff2d88dad8f69c6ad7fd4bfe6fafe8e73bd404638a7d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18603
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_07.json",
+    "sha256": "d0fe9fcb88c2fbcf64b63843c531ee55303e2143effec8023d5c3568ee173463",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18331
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_08.json",
+    "sha256": "efa4fa0aef64f31f4d0693f3b74608b6be72e8f948f6df6adb637701ec75e0ea",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18094
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_09.json",
+    "sha256": "17bfa6b29e33c4b4c9cefee916ea167d3f6f8c8fd78db67eace43c65ff40050e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18233
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_10.json",
+    "sha256": "9d54e1aa0d1b26303ac3d267a91eb590a2f711a021055c97a3b22222de63cf3b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18747
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_11.json",
+    "sha256": "73e09774d2d4eef0361af8a800bcdad4a212eb49027606522b336c253ecba676",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22508
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_12.json",
+    "sha256": "df932cf261e64f484a66afcc55b3f2dc16cb7700e67640a9a67c2fc056fdb2fe",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23112
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_13.json",
+    "sha256": "f1caffc534f39367e38b3f77bf507c529b6ca2bace6e96e889ff24d9989763f3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23960
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_14.json",
+    "sha256": "1be661eac21c4c567e9d39bd82f6b73afc833b78adb7f823fdbcd087f591fdad",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21739
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_15.json",
+    "sha256": "0dcdf37068221f7400b544e998e629172a9485ea9e520e7fb4bd3a8d509309a1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23583
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_16.json",
+    "sha256": "1b673937c832add33a10e8ce3e30e75ca90daee65971d4e434bd0ad2a1a96e6c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24742
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_17.json",
+    "sha256": "73d8bfd744cb6296d91b07d966e1bb0279405a66a922609b776d9552730bc6a7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23238
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_18.json",
+    "sha256": "62f3d686fa39ab3e9f65e82f8a14c728e9f580d4463acdc9a98f2a976575735a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24574
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_19.json",
+    "sha256": "a511a46a4e4dd607dab1c6b570b14970746c7f5b0c444453e34ff32a2dbc9ebb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 26758
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_20.json",
+    "sha256": "8b006dc6ce00ef71c54af53fe34e277fdc8a71999352b6fe9025cf42c0fd2adf",
+    "role": "raw_capture_or_review_record",
+    "bytes": 25166
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_21.json",
+    "sha256": "676fe048f3d6da029a30bbc376acd4ea9b91d4827b16aec138161ce13c8e27ae",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24818
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_22.json",
+    "sha256": "837cceba0eae519570b9762f7cd7bb655c8d3ba0d52fad27ebb7fbd0377c7469",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23447
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_23.json",
+    "sha256": "7ab2ee405624d0287afc6317316b384f9b56c5af083f263303da611057a65642",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22594
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_24.json",
+    "sha256": "44460e36332edd7584b3a71bf4975c4de65d5240957a39d65c1e2aed59136848",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21634
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_25.json",
+    "sha256": "d6c8a53821dc992a9964fed67bdefe09595dfa610293b9a14c0516fcc233a3fe",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21305
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_26.json",
+    "sha256": "2ea6b97c460c9ce6ae349a8753065101937af5817c5e399f2f57530152d7fe97",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23585
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_27.json",
+    "sha256": "517eb46122657c49f77122a5a823efe15eb5325f95e6b5e960588e5abd7af45a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24148
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_28.json",
+    "sha256": "08fb36c8be55c0efd20a8834d9b65f2f647b87c7362eb9eac89a16e4a6a78847",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23421
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_29.json",
+    "sha256": "6b6582454f561e4e73ca0836d7ba11a09b4d8f003c5d9180909c3bf70f81767c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21440
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_30.json",
+    "sha256": "cd372b0bd1fcf4b5da99364b2ac01753d289ed3e34ae825a9675e63b99c7dab6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23895
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_31.json",
+    "sha256": "816ad62659df4c448a0e6e791e0c1b68be95f19494c6ff40332633234b6a5cfd",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24104
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_32.json",
+    "sha256": "87a7aac7b633d58b446896e1d2157be3f191b3f118e039989921e28a5084cf82",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24589
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_33.json",
+    "sha256": "4f4a01c8e644b029e0855e561588002bd8d6424881fb5c7fbbf57366db492002",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23936
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_34.json",
+    "sha256": "934fdda6fdbc2ed7185e73d6dcb426d02f8c0a8475c10fe018088d10fc94964b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 25321
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_35.json",
+    "sha256": "dce233f013508c5a3a4bc9e8f2b92b6aa5e191ca56d863516e043ab77f17be75",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24255
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_36.json",
+    "sha256": "679ab5120453f1d1373b34492d3b563e1a74956ff58d42e1f842019bf143c05e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24570
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_37.json",
+    "sha256": "7bada9a49e49407449fb5af4c2bdadc1088ce4d7a99f812224b26502085d8fcd",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23788
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_38.json",
+    "sha256": "fd71312fd762e55b28b5fa07898506845e6c43935d80f3c66999edaa55af0e70",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23009
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_39.json",
+    "sha256": "375d7111401266f4ce6cd676e1deb54faad420f856b210d778d6c32ae48e8c5c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23763
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_40.json",
+    "sha256": "a38a6b3e7205d299a9d00f28768f6c22d68d5128d4e10c1e215db72d1e7938f8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24147
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_41.json",
+    "sha256": "ddeba23b141d881824710b7c464e0c1bc0cfb4296f8e7007b943f1d46c8e9026",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22899
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_42.json",
+    "sha256": "013ca297fccaaddf3c172ce0423b26dbb0e2d596c72f636d2d78a37506dab40a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22846
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_43.json",
+    "sha256": "3ddf07efd4706e6f8869591c02d29491f8b41dca6f73e6c31caec9994b0cfff1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18454
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_44.json",
+    "sha256": "1be03d07bab694da13d1ffd79fe9c62778334e886f60dd4cf4de2b8aa6789a49",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22929
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/batch_45.json",
+    "sha256": "07cd3e5034061a5455e5b6ca290c605e0a32f6ee7260069e96f4a5cdd0e34bea",
+    "role": "raw_capture_or_review_record",
+    "bytes": 16479
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_0.json",
+    "sha256": "b30faaae0bd0140e913cba74dc20581d782c6ff9074986c47b6bfc7c97d06c67",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24978
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_1.json",
+    "sha256": "8b4b58c23838d088ddb258672b19a61883be6fac027aa15ae739961e8a325dd8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23958
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_2.json",
+    "sha256": "77f87a4a43f27b8bebb40f4a761b348b44347188f681a8e0e45183af73fb67d8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24549
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_3.json",
+    "sha256": "d2257321d5ad278490cef376c114aaf110dbc69189122adfa596cb1da1b22c2d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23696
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_4.json",
+    "sha256": "17bbd25c8fc7a77356ebd84f6bb359efee1f8a155f92f0bfe06387f8cce9c845",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23692
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_5.json",
+    "sha256": "8667c513c297eb27b7b37b0913a90c544603de9dff696493363cdeabbf5f5b6b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24381
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_6.json",
+    "sha256": "904f0ffb16055bff5436065266e5d3a804b9749b0bde97c4c449833fa49a027b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 20507
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_7.json",
+    "sha256": "87ff68bf953320ce82ef6c5d4e1049a706550bf474a86a121197432c962ca4c3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23990
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_8.json",
+    "sha256": "b93868453f171c4f493d1316c3a1d4946877c356126ab04311eb162ecd7942fa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22763
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/demographic_9.json",
+    "sha256": "ae0004ba2487cdff491563ec93b139d8560e86fcd414214238689131460ca67e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24058
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/education_followup0.json",
+    "sha256": "4c6d43cead1ea436aae3cf94796c598ec52cad425c9959f5dfb7cc313eba53a9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23948
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/education_followup1.json",
+    "sha256": "c9cd8ea4e2a24a85b502f7afd9d16b837ca41825979ec36b48de2b2fd23e9929",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24678
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/education_followup2.json",
+    "sha256": "254333e1f6e084bdaced81bf075e7d90c4fadb8f9e82fb02f704d31933c9028c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24073
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_followup1.json",
+    "sha256": "767b4902bb900e758288d8ee46eadb24a162504cc745cf0799c289ec320e6801",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23485
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_followup2.json",
+    "sha256": "839b5bdfbd96f4d3f92cc8c8673f966cd5672ec12624b5076b6ec1a3a4e04638",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23489
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_followup3.json",
+    "sha256": "2897d346714643b361d2d7d8f5e4ddfafa98a2db1c2b6ceceb0a385f06b4bbb9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21725
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_followup4.json",
+    "sha256": "7ce40f306f65903736a912701b3373334abaa896c34029e61da8bfa50170242a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22263
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_followup5.json",
+    "sha256": "8b4619b921a330160a30e790e8bde1c14806b48a5a8d9f5a0363fb4b4116734a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24414
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_00.json",
+    "sha256": "95c4e5328c2f812c2879be5b82eeece65135945c3006ff7ef5beb97b9309a2f9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24163
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_01.json",
+    "sha256": "a24b81dfbef4754c1167b0a958392be338729fd47443f0bf113565926942de4e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24109
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_02.json",
+    "sha256": "1176e3b1870f80bb421a9aa9fe3e129cfd566a6c9cebd977e81a4bd9fe5943c0",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21469
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_03.json",
+    "sha256": "28530de003df675b0f8856e62603cae371624dc74eb021ba897aba110a0f605c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 19009
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_04.json",
+    "sha256": "ac66bb550177920af75c9f1dd6845238251c1aac565039e713311d868e14d679",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23809
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_05.json",
+    "sha256": "c81fa638ca942b9395af84a884d70cec63efd3ea0c7025361b11737dad622d01",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23671
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_06.json",
+    "sha256": "300734db53c6ecf24a2c21c8ce6dd6438fbc3a4b1699d22576f726ce7d10ba32",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18794
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_07.json",
+    "sha256": "39d106d7934c871ce2dc52093c321d406527f25fa4da879eb48ab6a8027320b6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22014
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_08.json",
+    "sha256": "97301f94e01989127555b6fd83d8f98c8379aaf94cba1673eed1502051b44e81",
+    "role": "raw_capture_or_review_record",
+    "bytes": 25086
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_09.json",
+    "sha256": "276e3810e7cb4c8f998e74c5898cf7954daa72818bfe9d10426df6268ab0b87f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24205
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_10.json",
+    "sha256": "c8b795392e62d01b696d399c74ebfb09dd93fb72377b0a5249131adc32dee8b0",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21853
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_11.json",
+    "sha256": "310da45c5ed5194cc74e5f77496a81d75e26c0bc14c21cfe11ef483edcf4b0c2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23803
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_12.json",
+    "sha256": "f54bd38c385d423ccbb917651b21036d29bb663438f32912d4a356409fcfe947",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24392
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_13.json",
+    "sha256": "a6d3f856f5af2973e1d85ee795473716a8d0d60bb2ee503218d4bbf6e8f95d2b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24708
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_14.json",
+    "sha256": "d32f784faec6cbd484a847c6b1a03485e124f1d898c47fb461c85a62ed674149",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24716
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_15.json",
+    "sha256": "62928b244bb0ec48f2679390f63ed2a2ac2c852517a07e00d09d506c74fbe9a9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23830
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_16.json",
+    "sha256": "c436cd4eb581dd71c548f1ea5ad5a06e0a4bb2c8e6393a5672bfe74bb5b6467f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 25865
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_17.json",
+    "sha256": "2e2df38986d0def4e68b17f2d555c084aaaa9151112c993bd4533de680b63a8e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 25471
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_18.json",
+    "sha256": "0d614730a6703aae161a2625fa241986c882d18bad42510a2e27e43e86087586",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24577
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_19.json",
+    "sha256": "4b86192764366f1f91537d65313853ac7165c3d944317a17ed1e401313c52993",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22592
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_20.json",
+    "sha256": "acb6778eb7270a2b89e1cda24041732c377f2a7442707cea92b4253f03631f0c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22684
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_21.json",
+    "sha256": "1ff4b5c4765fb78b5c87952c7b2a22485bad4b5ad4d82b70680119fee423e62b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24260
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_22.json",
+    "sha256": "8260393546d6bec7905f49f0d6c221355770d481961aabb8126ad8e7f21416a4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 25050
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_23.json",
+    "sha256": "b465c36053db2ad79900f8a15960f7d0fefe5f37ee099aa9c1ec44c8ef0fdf6d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23266
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_24.json",
+    "sha256": "a0d5768f8024b4a93e4bddc44e60dbb4d60f920205c38cb4fb288491d3fb6fea",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22585
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_25.json",
+    "sha256": "b8b89db920927598172ca7fa17566964a6ba197954f441474b8b883c787c0135",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22398
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_26.json",
+    "sha256": "b65cc8999fffae6f59f566baed1c595fccdaea406b3c88b53abf93e79a6ab5fc",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24554
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_27.json",
+    "sha256": "7e2ab1df225141a0bba7e512cfe927190d163c381ab0e50fefe30ec05fa18f06",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24318
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_28.json",
+    "sha256": "76460aebca191924b16a16fbd49268f3469736969006db94522b573f78eaba0c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24932
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_29.json",
+    "sha256": "d07f1367f3f1216a6de0a7834ab29cd475135a380114ca18c3db24fff23ce28e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23045
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_30.json",
+    "sha256": "283c3c7f448a98e8401241beca161e48475f57fbc68d2cfe4c418b313e2001c6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22604
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_31.json",
+    "sha256": "ebb88aea3cd05ac92f366b62823db6e66a7e48aae2bcaae2ece2dd33443f5b2c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23973
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_32.json",
+    "sha256": "abc0a22e908b6bf906096455d86edb30c48e492c2d9a467236fdb28b6d06e454",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24160
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_33.json",
+    "sha256": "38db6aa2be2a3f0c8017f175afe7c36c5796719394d80a5afa72acc1dbc49002",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24005
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_34.json",
+    "sha256": "40d46d4204e52af0d979440ce7c1aabed4754b92644d86aed274cd458ceff8f7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22602
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_35.json",
+    "sha256": "07f2ca056c28e4a88b5734a5ac03229ffcd32ddc3949c4ad5bc25a799befb67b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23113
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/family_second_36.json",
+    "sha256": "3e74a394c1aac3c508c4b335ce90b3e09130355e5bbd32d1ef6b11af97ab7976",
+    "role": "raw_capture_or_review_record",
+    "bytes": 12475
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_0.json",
+    "sha256": "668065d01b457e03897868414ad6d66841a96ceb29ab19c5c40b78f1193b33e3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24625
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_1.json",
+    "sha256": "7be1e9d6e3648cb11722b4164b57471a66b991f6994e5d2b7b39f454196f75c2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 18851
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_2.json",
+    "sha256": "893977c77a97f14f72cad4fd6c83e3cb26dcb45170b84b71548888776b0d1c90",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21790
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/g6_low_3.json",
+    "sha256": "dd34251bca21a9ae889218f6366b884acfe08173b78a892b86b2ff8f8d0b4b82",
+    "role": "raw_capture_or_review_record",
+    "bytes": 15385
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_deng_cached_full.json",
+    "sha256": "31a89556e841854b429906076298d6127cb0964a4fc70e2ab1c542f72c59fa0d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 232
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_huang_family_final.json",
+    "sha256": "a41a39c00e1fd7df378d9bb8498642306d81ba1e7e59e84d287e893d79d35e16",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24375
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_huang_family_full_only.json",
+    "sha256": "76d8dbf40da7fd085cfceea2301b176364741ab5d12509894d627e998142a468",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4881
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_huang_family_named.json",
+    "sha256": "034feefa4c225420219cd8abee2052eb753c179dec57a0b8252f47a23f377d3e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 20996
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_huang_sisterinlaw_leads.json",
+    "sha256": "2d5511ab52877b07ba2ecf58a4ac3c69d4b0d0ba203feb960f24609ef0634534",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21165
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lai_original.json",
+    "sha256": "ee3f4d89c67232234807039894e823103cb200093dc96a6d9d3ef315186854b1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2855
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lastage1.json",
+    "sha256": "cf5962113ec59cfc0f4254bb784f29f2333ed87befa50062ee275d6deaa61778",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24163
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lastage2.json",
+    "sha256": "7a7838157f1c7ea3dbf11d117c7e73a8f0b331650d7cab4061dd81b5da224fe3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23787
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lastage3.json",
+    "sha256": "c9565bb57cc6b3bf6be4e011a960a9f848f995dda3bc6845955aa8244bd2b124",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lastage4.json",
+    "sha256": "e0eba89efade53e5ca65db63506b5bfbbca5e511cfd2be03fcfb04ffbf91b476",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22137
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lastage5.json",
+    "sha256": "5dd2fd7373f2b43ecfd3723627e8735aa505eaa0ba4a0ac285cd3549cd19ebb7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22705
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_li_zhenhao_full.json",
+    "sha256": "2182619f89c13334907bd6de43d50bed1c5904d399c9926bf2775065c63d9158",
+    "role": "raw_capture_or_review_record",
+    "bytes": 14719
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_li_zhenhao_primary.json",
+    "sha256": "e237ecde591457b240da05d84f39291b228630bdf90643d038400c9447af88c3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 368
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_lifuyuting_age_full.json",
+    "sha256": "0af0b7307c19051611d4a81205381cce56a1f58c52172efedba436accc2d9563",
+    "role": "raw_capture_or_review_record",
+    "bytes": 11382
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_scope_age_followup2.json",
+    "sha256": "fa119e85f612b7b029ce02cf23bf29299a8d92dcec7be5b38d80477009ce5af5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22520
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_scope_age_full3.json",
+    "sha256": "60814ce1f7dd88f09d61c59e65479baf28097f754d1c33b33bfac9d31e619086",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23965
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_scope_age_source_check.json",
+    "sha256": "12fc7589280f85d75794bc2e9a3356d27253ef8a88f17efb2c2d2bf4bb4defb7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22678
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_scope_family_followup.json",
+    "sha256": "22999cbe1d1101d2ca1aa0e05c65dbce53b4aa8127da79b7a771e37343eed4f3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 24269
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_scope_family_followup2.json",
+    "sha256": "e3fdabedba053b7895760f5a33316fc5f4a12e64e620d11740fed516ef4500ef",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23163
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_wrapfull1.json",
+    "sha256": "e45205923326756a78f0d2dca3c6bbf822e05f15cdc64fd6a1a2846b6139c92f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 16048
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_wrapfull2.json",
+    "sha256": "2b8f4090a3169ddb8f77b4b8d1575194bb699acbe9fc0bba5cfe404a775a7121",
+    "role": "raw_capture_or_review_record",
+    "bytes": 20952
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_wrapsearch1.json",
+    "sha256": "1f55d17de9439b958498408c94bb2c01d812480f00ce9ec14f7d501d106ecea1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23451
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_wrapsearch2.json",
+    "sha256": "ce4158f34b22f6db9602026c12853b11d1dd47724f1bdd6d6501d1230bbe9b66",
+    "role": "raw_capture_or_review_record",
+    "bytes": 20821
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_wrapsearch3.json",
+    "sha256": "6265a27211939dae61d1abbe83dc88e69873f823c894459cd871c3c448823fa3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23092
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_wrapsearch4.json",
+    "sha256": "092d6bbf7cb42a27bf0d250cb172cdc48fdb475b1655e8c0d7de2443974b1bf1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22311
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_wrapsearch5.json",
+    "sha256": "a359741353e61bebe1e9fb2b2d9f03f4c3b6e89fe708f1a4dda53a1f6fd7e98e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22263
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_zhang_family_full_1108.json",
+    "sha256": "bc73b2188de3a349dd2734fba3d97da86e338f5f4e714647ef003e1e93d90ebf",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22997
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_zhang_family_full_only.json",
+    "sha256": "3e7f4c9422edd2810f3f50ba391584c7c7b30ede1eaa417d533c77e9da31d387",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4842
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_zhang_fullarticle.json",
+    "sha256": "1eb4400e524e90ce3248da24e202cbeac8dc609f6036bf7789b2cfff9e5c0790",
+    "role": "raw_capture_or_review_record",
+    "bytes": 7894
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_zhang_fullsearch.json",
+    "sha256": "579163a28be63e1a3377680b154614e1fd76467d861e54c003b53d64c33f0ef7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 23603
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/searches/tk_zhang_interviewsearch.json",
+    "sha256": "ee40f926b0a144fc46d00999dda84ebcf7615784d38fec81bed28e3d360c79ec",
+    "role": "raw_capture_or_review_record",
+    "bytes": 22777
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_ancestor_u8.html",
+    "sha256": "cb847db8b91c745efd0b766cc979d2bb4e0ed2dd393b08fcc9df1ec17c5c24dc",
+    "role": "raw_capture_or_review_record",
+    "bytes": 121748
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_ancestor_u8_text.txt",
+    "sha256": "ecc3a9bd5149f46ea02be9cd421b108461501924561b876b7fcf058d78d64bd1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3452
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family.html",
+    "sha256": "5eb62521ac127921aa062e43dd4207b4598641ef67adc711e420a673facc45f2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 74867
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family2.html",
+    "sha256": "2628680662d71736ba2060a57b9dc4c87582fb72aad44717e76270c560b49fb4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 141806
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family2_text.txt",
+    "sha256": "15681dab33041afb154fbc40f2919a355506000cdb0a83f8220d58e7084b1ca9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3344
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family2_u8.html",
+    "sha256": "617b70a9b80073f707f609f777a670e0402583d470f7e6d7305b3705a2df1f5f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 141478
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family2_u8_text.txt",
+    "sha256": "15681dab33041afb154fbc40f2919a355506000cdb0a83f8220d58e7084b1ca9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3344
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family_text.txt",
+    "sha256": "54b0e1f350e0990b2504e2f8a2f9711a8d8f63ef426767d03921250b4e9e96ce",
+    "role": "raw_capture_or_review_record",
+    "bytes": 12189
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family_u8.html",
+    "sha256": "edeb7f7182d28079d42edc631e77596b68503e61337f0ff20ac2f95622d2fd55",
+    "role": "raw_capture_or_review_record",
+    "bytes": 74867
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/shen_family_u8_text.txt",
+    "sha256": "54b0e1f350e0990b2504e2f8a2f9711a8d8f63ef426767d03921250b4e9e96ce",
+    "role": "raw_capture_or_review_record",
+    "bytes": 12189
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/song_libin.html",
+    "sha256": "8b71b1f8449683b5e93e34d1e6b252d149657d150f2c1c50036065d26bdcad22",
+    "role": "raw_capture_or_review_record",
+    "bytes": 88868
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/song_libin_text.txt",
+    "sha256": "a3a896802426d07f36944f21841c080d10765dedd857dd66490d6c0a0f06a398",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3604
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/song_libin_u8.html",
+    "sha256": "8b71b1f8449683b5e93e34d1e6b252d149657d150f2c1c50036065d26bdcad22",
+    "role": "raw_capture_or_review_record",
+    "bytes": 88868
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/song_libin_u8_text.txt",
+    "sha256": "a3a896802426d07f36944f21841c080d10765dedd857dd66490d6c0a0f06a398",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3604
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/source_registry.json",
+    "sha256": "3b683bd7041e88812e32ad6ac6e8a1d05f05e91f6a01557dc288c36e221a7833",
+    "role": "raw_capture_or_review_record",
+    "bytes": 30980
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/su_zhirong.html",
+    "sha256": "12f8d044f985486be9f0c9f22c5324f56be9c37ee69cbaa422782bf0ac5388d0",
+    "role": "raw_capture_or_review_record",
+    "bytes": 142546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/su_zhirong_text.txt",
+    "sha256": "0cb1df5fa26b63d3edc6c6c4599b64a8214aff9a34836029cb7d74e230c989a5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3734
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/su_zhirong_u8.html",
+    "sha256": "12f8d044f985486be9f0c9f22c5324f56be9c37ee69cbaa422782bf0ac5388d0",
+    "role": "raw_capture_or_review_record",
+    "bytes": 142546
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/su_zhirong_u8_text.txt",
+    "sha256": "0cb1df5fa26b63d3edc6c6c4599b64a8214aff9a34836029cb7d74e230c989a5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3734
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/tang_xinmin.html",
+    "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 126
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/tang_xinmin_text.txt",
+    "sha256": "d70b0db34b725f08e756cd65035e8838f0f2e4ea38cedea70e9e7d0cc60effeb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 125
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/unverified_leads.json",
+    "sha256": "b8e6df6fb2c952b722200fd3e334a2870efc4bfc7e61a578db9f5bd13fe11907",
+    "role": "raw_capture_or_review_record",
+    "bytes": 28674
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/wang_zhenting_u8.html",
+    "sha256": "fb62212afb5117cbab05236ed2266929cd0642bd4641013862be7d60d4e5f631",
+    "role": "raw_capture_or_review_record",
+    "bytes": 79674
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/wang_zhenting_u8_text.txt",
+    "sha256": "71f03e5f368b06954ef68b34ed492e36432dfa640163959e863d927784204c39",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5267
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/web_read_sources.txt",
+    "sha256": "bac6958fd0f09ca68eb60b14c15f710e297109cd3b37d8718f3e2e6c2beed41e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 21817
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/wu_yufeng.html",
+    "sha256": "9cdc8acfe8a0d77360676a12bf60507d92fdb4c9e7e1f05d62966c06e9b2e54f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 213479
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/wu_yufeng_text.txt",
+    "sha256": "fd28dfefc8f1a294a9c246335ad063ce55d5f3939a7cc99acb11b97727d79cb5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5958
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/wu_yufeng_u8.html",
+    "sha256": "8f7feeb699fa2236da3f9e3ed393a1ed885722413c2741d43018e6ebc85f3a0d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 190104
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/wu_yufeng_u8_text.txt",
+    "sha256": "54f8edbf6ce14aef816900b17c52f3853d2a5aca8e8b066fea79476f34710617",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2703
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xiao_wenqian.html",
+    "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 126
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xiao_wenqian_text.txt",
+    "sha256": "d70b0db34b725f08e756cd65035e8838f0f2e4ea38cedea70e9e7d0cc60effeb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 125
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_fu.html",
+    "sha256": "de8613240fde1ccf4c70ad2b727fe0923d4753f6e1f600785f4f05443a2e825a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 5335
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_fu2_u8.html",
+    "sha256": "41faa765a3fac7150a31fd079f796ac6af9a47b83b995b49270e5b8af4df6af4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 238416
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_fu2_u8_text.txt",
+    "sha256": "1c477f49d5dcc5d78362f6171928b305f6635fe371f983e9e041e729f1f672d3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 8669
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_fu_text.txt",
+    "sha256": "05f8bdf19ca64ec98ac31c13061fb810966197580390f0688c67e092c21b5a3f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 58
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_hongting_family.html",
+    "sha256": "6f17c465f443db6aa005d65a24ad56e5729785255e3b8baf939186e968cb239f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 145070
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_hongting_family_text.txt",
+    "sha256": "200e6f2924913ac765d1637c4a26e2c3f2d2a6582ce026accd3feeb31148896a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 10883
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_yuanrong_edu_u8.html",
+    "sha256": "36b943dfc1331009731d3783fe3066b271874fb64790f0143490570e0665ddf7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3937
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_yuanrong_edu_u8_text.txt",
+    "sha256": "3139e2b96530d4909b3f8cd9b890dcfe148a16e75e77089d9546c3a21ee681bc",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2124
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_yuanrong_verified.html",
+    "sha256": "f7cd475d7891b5fd86c48113ed58a4c72ada0b9eab4465f9bb86cf661a94aa12",
+    "role": "raw_capture_or_review_record",
+    "bytes": 51133
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_yuanrong_verified_text.txt",
+    "sha256": "87285cfd2846da74dcd764896fbb6ff3d7bd2b24438d29e787b24bcaed8ffec5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2925
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_birth_u8.html",
+    "sha256": "a58f7ce35c0e3e80a0debeb6f625bd05a2d570197b9a6d4062e9e40ca898096c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 210475
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_birth_u8_text.txt",
+    "sha256": "5c00be3afc27fa10a88f36dd43d11815207f47d2a4418baac6849d8f871a2f68",
+    "role": "raw_capture_or_review_record",
+    "bytes": 84
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_birth_verified.html",
+    "sha256": "1cd4f97633ed443502aa6c35354f2322d22e41938d8edcbd29e4562e0ab03b17",
+    "role": "raw_capture_or_review_record",
+    "bytes": 148112
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_birth_verified_text.txt",
+    "sha256": "3c05db6ad872c2b64d2dfb18a3015cac10e60b2e53d055d18faa57a973ccf1db",
+    "role": "raw_capture_or_review_record",
+    "bytes": 235
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_web_full.txt",
+    "sha256": "cbb28511e21bae1df528d26f27799e7e1bf6883886ff9adc5070a65c38521fbf",
+    "role": "raw_capture_or_review_record",
+    "bytes": 301
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_zhaoji_u8.html",
+    "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 134
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_zhaoji_u8_text.txt",
+    "sha256": "5f884ca3515ccaaa844c3f9a84aac8b7132ddff39bf07cd90450e960e6406630",
+    "role": "raw_capture_or_review_record",
+    "bytes": 17
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou.html",
+    "sha256": "89183e4f8e660f1114370e69a3f924e2ce3a6f93de89a11c6c61de00aaf38178",
+    "role": "raw_capture_or_review_record",
+    "bytes": 37346
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou2_u8.html",
+    "sha256": "c96795a7ccceb9db8d8f8801a20832dc9beb087b33eba03023f99a888ce50177",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4131
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou2_u8_text.txt",
+    "sha256": "0dc17057c5eea2922c9d2592c1243d831bb762657bf2ce52abdfcb57e264a291",
+    "role": "raw_capture_or_review_record",
+    "bytes": 648
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou3_u8.html",
+    "sha256": "582f3264f091c2206c162988de3da5345abbf4bcc9239827e0aa65d9eef40b54",
+    "role": "raw_capture_or_review_record",
+    "bytes": 46003
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou3_u8_text.txt",
+    "sha256": "3bf29da7f5c8bd22921b33482c40ed7f80a2598abbe00725b30031e6e4d58559",
+    "role": "raw_capture_or_review_record",
+    "bytes": 9329
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou_text.txt",
+    "sha256": "146416d527c8bba98edb84c234e3a2b581f8e91f2051404f0df31bc01b109055",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1659
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou_u8.html",
+    "sha256": "0446aad43755fe4d6b5845de6b7f6975407a0d081682234510a47a58c1149385",
+    "role": "raw_capture_or_review_record",
+    "bytes": 37346
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/yang_zhidou_u8_text.txt",
+    "sha256": "8bd67cad3622fcf625d21267cee10a8cc22dc104b47f94adfd5e505ddaad575c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1659
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ying_jiayu.html",
+    "sha256": "b8600364110299c1e3d2d6baa29a49b7da3f6e7d1d86487fb2d038ee3288f440",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6754
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ying_jiayu_text.txt",
+    "sha256": "075737ef4f0b81a47ecdfd313345c2bbd6b6dbd0986a4fed63ee8367a5bdb438",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2922
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ying_jiayu_u8.html",
+    "sha256": "cb1034444512df5301d47e39151e5e9d02f25b3da8ae7098cf2fd1fe06de67b5",
+    "role": "raw_capture_or_review_record",
+    "bytes": 6754
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ying_jiayu_u8_text.txt",
+    "sha256": "075737ef4f0b81a47ecdfd313345c2bbd6b6dbd0986a4fed63ee8367a5bdb438",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2922
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ying_primary_u8.html",
+    "sha256": "be5336d30d6332137912fc58290f3dc9f8bccbb1e72c7fa171dcf19fe6ee5f7b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 113177
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/ying_primary_u8_text.txt",
+    "sha256": "8ce42a11358009c590c3893d5f515798d5366f3f3b9499ca55285fa4ad00b037",
+    "role": "raw_capture_or_review_record",
+    "bytes": 12070
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_hanzhong.html",
+    "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 134
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_hanzhong2_u8.html",
+    "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 134
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_hanzhong2_u8_text.txt",
+    "sha256": "5f884ca3515ccaaa844c3f9a84aac8b7132ddff39bf07cd90450e960e6406630",
+    "role": "raw_capture_or_review_record",
+    "bytes": 17
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_hanzhong_text.txt",
+    "sha256": "5f884ca3515ccaaa844c3f9a84aac8b7132ddff39bf07cd90450e960e6406630",
+    "role": "raw_capture_or_review_record",
+    "bytes": 17
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_qisheng.html",
+    "sha256": "c5d48adb62af0c0d9fce0bda47a23c7de52418cc965e9b05740100a44ed0ddc7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 279415
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_qisheng_text.txt",
+    "sha256": "831281f2b8165809d88363260084737b2f1c001bd640ccb3dc071725f0cae468",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2138
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_qisheng_u8.html",
+    "sha256": "cf243e6ec7176fef8de4fe024e663252a25d2d6486e7548f3120a301bf8b71d6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 279427
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_qisheng_u8_text.txt",
+    "sha256": "831281f2b8165809d88363260084737b2f1c001bd640ccb3dc071725f0cae468",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2138
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_yili_age_u8.html",
+    "sha256": "69051952dd97b7ef14f9e23c44b01cf43f1a0486832d9f9cd6c9e1d488efb209",
+    "role": "raw_capture_or_review_record",
+    "bytes": 75780
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhang_yili_age_u8_text.txt",
+    "sha256": "bbff57efecb6b627f5ca9f27a2293c0b01dbd29f3ab18fcf7d95c5006db1b046",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4852
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_correct_林彥.html",
+    "sha256": "3b8941cb749c6953b55fb760c94b39cd95d57bc8ea66ce5b2202f0cee2afdbaa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 99408
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_correct_林彥_text.txt",
+    "sha256": "19164d42286f727c9bbfe1d8905c4483250d9bf72becefe34a01a6a9fe3b3e3b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1703
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_correct_陳冠宇.html",
+    "sha256": "287c02edacffe1844b1d4845e69ad257cc4230ce0cbed28a5fca0524450fbdd4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 133576
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_correct_陳冠宇_text.txt",
+    "sha256": "044a0180345959b9d5b9e6a3706bf4c6a1ab558c297cbc25c5ee74ce8785baef",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3160
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_profile_links.json",
+    "sha256": "9d831fe682ad0490627a050b51d1d31d95a671309a01c26b7ff9181ef1412317",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3467
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_profiles.json",
+    "sha256": "d24a6e65f0b4a3b52350a8b9dce487fee45db30726885f41300654657e4a7fbd",
+    "role": "raw_capture_or_review_record",
+    "bytes": 96011
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_何恕懷.html",
+    "sha256": "3a379483103250f72f2b180a49df010b142525784357bee54f23ce5bdfdf7de3",
+    "role": "raw_capture_or_review_record",
+    "bytes": 107407
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_何恕懷_text.txt",
+    "sha256": "0ab92db1c42a5516671d83c08afc644c8049c4b6ba0208e954dc238fc2347593",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1919
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_余聖明.html",
+    "sha256": "4f7ddca9f4e5f2e5fd58402b3a37663cde4b18240613ba409261d2c0f7b96d70",
+    "role": "raw_capture_or_review_record",
+    "bytes": 99212
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_余聖明_text.txt",
+    "sha256": "93a18d3cc112f3fc3a65a0275ce4c8a47ea3a2825184902b7fd37c65b4ae9bd8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1673
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_劉仙娥.html",
+    "sha256": "0d0503ff1431c85839cb6425a1fcd6b7c9e90b210a804e737133764375a34335",
+    "role": "raw_capture_or_review_record",
+    "bytes": 105068
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_劉仙娥_text.txt",
+    "sha256": "2e203af06c6707687cee5e97680d0a8f2d4e1652fd6f905fa3d09d22510ac3e6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1971
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_台北市.html",
+    "sha256": "04c5c3b0e23c6742741449a45716116843281df13bcf606f45a74b65c27415b2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 901626
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_孔垂崢.html",
+    "sha256": "ba57c4e1338891f226656a22da59562e0341d6451ff3158e2cd81c86f64c06e9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 69147
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_孔垂崢_text.txt",
+    "sha256": "17bee9ff3cbb0114bdeb8c1a8e72d63fe6db4bade457831b0af100e7f6d3489b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1186
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_宋紹銘.html",
+    "sha256": "303e593f80db82f3940cc828e3227b3121ab16c40aa67e752106808ceab78668",
+    "role": "raw_capture_or_review_record",
+    "bytes": 68511
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_宋紹銘_text.txt",
+    "sha256": "51f6852005b9088858f26007a5ceb6a32e37e7ebd94500073d142f8e4f2261d6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 921
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_左曉明.html",
+    "sha256": "e57081ee809292c829c3112f3a7ffa6e40281cd2dcd6fa7e376492f557a998b2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 102572
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_左曉明_text.txt",
+    "sha256": "6e7518efcea2c3e900f6a28df3306c5e249f0e01e89d4124c73b2bf4cafa5bd9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1815
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張以理.html",
+    "sha256": "93a031aa58277f40ac80b2db45644b817159060bb3e9ad29b89f62b84c29369d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 147561
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張以理_text.txt",
+    "sha256": "4d9894841293942567f447d70de00d00b1cb701d67c41596858206654fa6bd49",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4165
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張維學.html",
+    "sha256": "1a74c4e08e9bf861b3a45826ef1ec018d1df7ff4624706088c50fd71dc701179",
+    "role": "raw_capture_or_review_record",
+    "bytes": 125807
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張維學_text.txt",
+    "sha256": "7f0ad1352e8123f442c66e05cd2f90a85d7e78720ea5d5d733efdf8d8bfbb772",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2841
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張耀中.html",
+    "sha256": "5d78f815de1f1d529a4b9fb2c7f02d281eb0a83f69d3b4f12d6c30c880f8ce6c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 103130
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張耀中_text.txt",
+    "sha256": "c84edbdd75d39a69143058f7ce3b0c259e13a15c23afa910167bad4e6c175039",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2312
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張騏晟.html",
+    "sha256": "7bd4bb610c6d686b1c53252de7eb0fd77c9da5e9cb3e78f4442abdb60c2dd129",
+    "role": "raw_capture_or_review_record",
+    "bytes": 95575
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_張騏晟_text.txt",
+    "sha256": "a8ec85277c3e55737cb5211fc3ccfa23622c6b2d46f2be47a59723f862809632",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1735
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_應佳妤.html",
+    "sha256": "844dee6ba601cc1192418608e754b052e85aa25e179e340ae8b78ee1ec97ec06",
+    "role": "raw_capture_or_review_record",
+    "bytes": 109962
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_應佳妤_text.txt",
+    "sha256": "78adc01326b446c99926bb946e600c079a862a147ce01d869deeca3685a4bc0f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2482
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李傅鈺婷.html",
+    "sha256": "008aa60f993d2b4cc4da94498206361bdd2ed318bd966e01c73b909ce8778832",
+    "role": "raw_capture_or_review_record",
+    "bytes": 68327
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李傅鈺婷_text.txt",
+    "sha256": "67379a0b989f7d0408b113d15e7bff37e1f121aeb15763b0d7fd17b335cf404a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 930
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李奇峯.html",
+    "sha256": "ec98c4a792ec19dee75717fe58af156a2cc8b03cd8474b4be8dc66b98428e58b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 122893
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李奇峯_text.txt",
+    "sha256": "32f6425bab551e1744f2d6d7674c68080c5853ec1dc92f85a8f7450e01a13806",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2441
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李惠暄.html",
+    "sha256": "96485cfc2d8f722695bf6f9191f8f2a6e8fb2fddf6a1eda313005643366f2971",
+    "role": "raw_capture_or_review_record",
+    "bytes": 139876
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李惠暄_text.txt",
+    "sha256": "3fd56499bd1556955be6342882f1b45bab378e3746c314997fea86be585bef1f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3211
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李振豪.html",
+    "sha256": "7553b4c2e1691c2a95170cbae26a3caa7b7276ef74040cdcf8296cb49bc926b1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 88132
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李振豪_text.txt",
+    "sha256": "b8a49dd9e3811b0c867fb1ffb768201bc8eb85b0eaf10c27da63df3aab5ba081",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2225
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李政憲.html",
+    "sha256": "247899a1fe28327570a9c24eb0e9818570e3771e735faf59a748f44e0d224a88",
+    "role": "raw_capture_or_review_record",
+    "bytes": 131045
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李政憲_text.txt",
+    "sha256": "3f60de9599f52171dbfe0f9e5a2830877248f0a1f1a870e1279af1f055398449",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3082
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李紘毅.html",
+    "sha256": "867119c2aa8ae5b4fafc31021d1a7e10b6da8498abfefcc1ea37d95c54a1dc7c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 104505
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李紘毅_text.txt",
+    "sha256": "a3f9d22b2b2c276872e16376ece1f706d429814fad2b3d677db30bdb8db7360b",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1765
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李道翔.html",
+    "sha256": "dab9ed1307832770d3be6344e5a1b11f294b4a9b88e962e39e47f34ec057fb96",
+    "role": "raw_capture_or_review_record",
+    "bytes": 121921
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_李道翔_text.txt",
+    "sha256": "4ec072313c422b7f93bc09f6eab2216d2dc1dab0e1338067bda857c444a916e6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2291
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_林子揚.html",
+    "sha256": "ebb3e2d3570c9b3abf2930092f67b34879533a9234fb07f71d06e2d33d51e0de",
+    "role": "raw_capture_or_review_record",
+    "bytes": 105259
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_林子揚_text.txt",
+    "sha256": "e2f0c957afbe2a45917ce28a41b3360495fb1325561a208f98f15c5dd08c5c1a",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1895
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_林彥.html",
+    "sha256": "8d9b3d92ec9cbddaf762195516bd1af3cee20f2311af8ce3ce1593ce3e9b3795",
+    "role": "raw_capture_or_review_record",
+    "bytes": 68753
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_林彥_text.txt",
+    "sha256": "19f753cf641ee53207e5e2138da1196b39d574bf577d330989098c4c0d11cee7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 987
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_林揚庭.html",
+    "sha256": "48523a9a2c6f78c054125e6e5e6805a740d6b5085880124cc7dc3dc48f691ff4",
+    "role": "raw_capture_or_review_record",
+    "bytes": 126883
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_林揚庭_text.txt",
+    "sha256": "56b47c761f92a1716748de6c2558d7baf4134ff12237c9fca35205efccc59e9c",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2464
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_洪英雄.html",
+    "sha256": "842097964ce4d09a677612a2828ecbf67fa8fd04e67f7b206360afb2d86b4861",
+    "role": "raw_capture_or_review_record",
+    "bytes": 68096
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_洪英雄_text.txt",
+    "sha256": "2fdd03cb2063625d62e89bc0473834c1fe7b286184222e20aef904572b183bb7",
+    "role": "raw_capture_or_review_record",
+    "bytes": 956
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_熊羿.html",
+    "sha256": "c5780be6f5a2f4ea135d59624a665104d4de52ea195e71c2fc7bae9e512af8e2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 104482
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_熊羿_text.txt",
+    "sha256": "5ad97b14eb82b13442d4e7bfaeaa6f4802f3ffc1ba8115361fc2f68744592ffa",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1823
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_王振庭.html",
+    "sha256": "87429d1bacb27a8e97d1ad9f706b3fb90efc0677ef89c5d0fc654871b5cedead",
+    "role": "raw_capture_or_review_record",
+    "bytes": 145855
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_王振庭_text.txt",
+    "sha256": "fccd2b985c036309bef88fbe63d9f9d859d690c7611ec6fa294a0e50bc702ef8",
+    "role": "raw_capture_or_review_record",
+    "bytes": 4395
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_蔣黃女.html",
+    "sha256": "f361a5a2d88e358b7aeeb9268589d0f8d10956ba09ac2a903fbf5b890f286918",
+    "role": "raw_capture_or_review_record",
+    "bytes": 116891
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_蔣黃女_text.txt",
+    "sha256": "1e15dfe7c7d9a6008f21bc9261d443bea1af4a9692a91f3000f31fafa46e2e73",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2917
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_薛兆基.html",
+    "sha256": "951b85bcd11062eb7883122013a329b1e8cb67745179648976de13b8a0ee3121",
+    "role": "raw_capture_or_review_record",
+    "bytes": 139448
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_薛兆基_text.txt",
+    "sha256": "e2fe84e34089bec0aa8c47d3162e27d129a7a829631233f141c445bf21e414f1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 3522
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_許原榮.html",
+    "sha256": "d9c903cc0d2fb2fdefce17153ad052503fe3b39f0872d598c3c67e984772ac2e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 102273
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_許原榮_text.txt",
+    "sha256": "c5cd3c6235034fdef9776b0301a3173bc8eded2c184dca08a0a9d8179d143301",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1713
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_譚傳紹.html",
+    "sha256": "41cd642663420dfcb8335ecb77275249d92dae98e8b8714ea72d6b94345374bc",
+    "role": "raw_capture_or_review_record",
+    "bytes": 107435
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_譚傳紹_text.txt",
+    "sha256": "22f554109cff68208d1c75086e0de1d512b860ac9b5f8245727f0041b90be7f1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1791
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_賴俊翰.html",
+    "sha256": "72655cc023a7fa8c3ae73960bcf598d8cea0816609acbe00ba2125e310116213",
+    "role": "raw_capture_or_review_record",
+    "bytes": 106388
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_賴俊翰_text.txt",
+    "sha256": "f4befaf744d6694e81d57968e593cbe3a25b7badf1bc663e600e74ef9643fc52",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2242
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_郭凡.html",
+    "sha256": "ed79e9796ff92c7b84126802e2f973df7fec483eed8007e62b6fdd42a5f949f0",
+    "role": "raw_capture_or_review_record",
+    "bytes": 103975
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_郭凡_text.txt",
+    "sha256": "c1ed087808a5246beac5ef7517a2cb0fa52506fe48d85de161cb796da725d877",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2328
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_鄒約翰.html",
+    "sha256": "602abc0bf881d7dbb6a4d7a20dc3e04aca52ff640c7947eae230af378f81bcc2",
+    "role": "raw_capture_or_review_record",
+    "bytes": 90429
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_鄒約翰_text.txt",
+    "sha256": "adcbf58b366a6d224c1b12a7922918476a5e5fc514c69e9ad2581033a26e5e7f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1670
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_鄧巧佩.html",
+    "sha256": "0fc197ec8d567269c2cb9ce4046b670083163f4035dab43996e9f444192df3c1",
+    "role": "raw_capture_or_review_record",
+    "bytes": 123024
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_鄧巧佩_text.txt",
+    "sha256": "0f4bd32d8c1ca03d1cd8aaf84bb0d25fa5b77a18ba5399a9d4c5209c15cf589d",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2639
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_鄧樂強.html",
+    "sha256": "7c6ab4e5e4e45f8d63017281e6dcbb54568f63ee941baa8e72d14a606dc27ce6",
+    "role": "raw_capture_or_review_record",
+    "bytes": 104419
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_鄧樂強_text.txt",
+    "sha256": "ffaa80145e2d4583c667e373c2852be7b434e7e58c56fc1d5a8cbd09d7db9d6f",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2127
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_金禾雅.html",
+    "sha256": "c0ee0e11b572b4f5548dafd35f75de01d71fecf472e3bd4b750b9d4cb7935c55",
+    "role": "raw_capture_or_review_record",
+    "bytes": 69715
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_金禾雅_text.txt",
+    "sha256": "81456bde6dc3bd89f8313e614de68dda5096e23257300a4549fba6cac894c30e",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1753
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳冠宇.html",
+    "sha256": "7fddab887fd064d5ad339bcf687bcc6a1cf07f6a090a2201908bb08173ff7809",
+    "role": "raw_capture_or_review_record",
+    "bytes": 65741
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳冠宇_text.txt",
+    "sha256": "e24730b74d9297f8da852cff94c8f0ad1fe3ff51f69f698c20434a0177179837",
+    "role": "raw_capture_or_review_record",
+    "bytes": 894
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳彥廷.html",
+    "sha256": "11c1fddb9e4b9a1203dd8231a15e27ee9bd15f1ad9c5ac5285d7a1eee898bbea",
+    "role": "raw_capture_or_review_record",
+    "bytes": 127530
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳彥廷_text.txt",
+    "sha256": "c379f3d602b6b69e20b93b1657611f34054ee0082d8d766d67535398689ff520",
+    "role": "raw_capture_or_review_record",
+    "bytes": 2673
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳琳潔.html",
+    "sha256": "ef1f5abb5ea420b24d324e48be100449f050a9764afab79394712a607dfc75ab",
+    "role": "raw_capture_or_review_record",
+    "bytes": 78323
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳琳潔_text.txt",
+    "sha256": "c5f554a245ddac6a64add9a7986e70c65074de165b1b1cc6645756581c2b9afb",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1521
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳雅敏.html",
+    "sha256": "6051344434b1c6e323ff0a49323a1e79cc5f198a2a0e371e7ddbb3bb657feada",
+    "role": "raw_capture_or_review_record",
+    "bytes": 91380
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_陳雅敏_text.txt",
+    "sha256": "ecab2da2dc7799c8f548b1acf901a271df7782f63ddb82c98e5499cfe9d63d75",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1952
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_高雄市.html",
+    "sha256": "cee3d1c9f17505a2cdafb484373c0713d7c89c8c75ba68f545eeb3af260137c9",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1370353
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_黃舜杰.html",
+    "sha256": "0ab437fd355dd075ff895e378c9dab0adf7c9991b634a81f52e2b3cd8afbadaf",
+    "role": "raw_capture_or_review_record",
+    "bytes": 89886
+  },
+  {
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/zhengjian_黃舜杰_text.txt",
+    "sha256": "b68ae2986001a5a58c75b42d7675c83fd71af2c2496511e436e8db0cfdebe441",
+    "role": "raw_capture_or_review_record",
+    "bytes": 1495
+  },
+  {
+    "path": "data/processed/clustering_all_20261108.csv",
+    "sha256": "2a70db4a868a80b35934d0437196cc8f189d27c6625e7a67b0bb6e753c0305bc",
+    "role": "upstream_processed",
+    "bytes": 1581566
+  },
+  {
+    "path": "data/raw/council_tk_gaps_20261104/ltn_5435219.html",
+    "sha256": "59403bd379459676a73581d90e1b83a2233a474365a411bcdc09299b3d21462e",
+    "role": "historical_cec_raw",
+    "bytes": 236820
+  },
+  {
+    "path": "data/raw/cec_all_offices/001_elcand.csv",
+    "sha256": "2764ddf6b8f61cb555c5709193390f4b5b26bf1332ffb438807fdfc1e5db4749",
+    "role": "historical_cec_raw",
+    "bytes": 9220
+  },
+  {
+    "path": "data/raw/cec_all_offices/002_elcand.csv",
+    "sha256": "5702405ef4e685307917aef7f0f4f49f55c193e4f726572ff086b0c963ec37fd",
+    "role": "historical_cec_raw",
+    "bytes": 277
+  },
+  {
+    "path": "data/raw/cec_all_offices/003_elcand.csv",
+    "sha256": "550ea4b3d760f5e3a1434e449fa227287354de3acb3f7bd5fe722e7203f0fe8b",
+    "role": "historical_cec_raw",
+    "bytes": 110
+  },
+  {
+    "path": "data/raw/cec_all_offices/004_elcand.csv",
+    "sha256": "fc3e5beff78046d809ff114d7957425b8e1cabe8ad274277220942a748561d08",
+    "role": "historical_cec_raw",
+    "bytes": 167
+  },
+  {
+    "path": "data/raw/cec_all_offices/005_elcand.csv",
+    "sha256": "292aac41ce691af45aa4f18c9f4d1706478aef74938019cc284cb08fe9e8a47d",
+    "role": "historical_cec_raw",
+    "bytes": 274
+  },
+  {
+    "path": "data/raw/cec_all_offices/006_elcand.csv",
+    "sha256": "eefba4b4270160168254a1c17206c920e7bc8bc296b97e771b34f75c41d34cdf",
+    "role": "historical_cec_raw",
+    "bytes": 14549
+  },
+  {
+    "path": "data/raw/cec_all_offices/007_elcand.csv",
+    "sha256": "74961fabcef5da14949a5e697851d981899c45490347ab495b8e645fe9436888",
+    "role": "historical_cec_raw",
+    "bytes": 714
+  },
+  {
+    "path": "data/raw/cec_all_offices/008_elcand.csv",
+    "sha256": "2ea6d51f06a98ca5cea32442cf2c10804303381f6cba9fbd3a8761a4df09bf61",
+    "role": "historical_cec_raw",
+    "bytes": 496
+  },
+  {
+    "path": "data/raw/cec_all_offices/009_elcand.csv",
+    "sha256": "3f38836b9424acfa53a08a59fd14bb58b8f88c96c12f0e9c268b75f29e11accf",
+    "role": "historical_cec_raw",
+    "bytes": 22877
+  },
+  {
+    "path": "data/raw/cec_all_offices/010_elcand.csv",
+    "sha256": "75c1ede9ec23da1f6e36b215f10c74c9ef41a218c368aa670237d6f86cbd00ca",
+    "role": "historical_cec_raw",
+    "bytes": 276
+  },
+  {
+    "path": "data/raw/cec_all_offices/011_elcand.csv",
+    "sha256": "6dc512f5e2db8a599b39215d0fa5ff5e1348cb6fb1564120801ad053d67c2205",
+    "role": "historical_cec_raw",
+    "bytes": 386
+  },
+  {
+    "path": "data/raw/cec_all_offices/012_elcand.csv",
+    "sha256": "f1f734fbfe62731a9b6b1c5e0ae5232b233b0e99b043f10bf539f40f30e8c7ce",
+    "role": "historical_cec_raw",
+    "bytes": 4420
+  },
+  {
+    "path": "data/raw/cec_all_offices/013_elcand.csv",
+    "sha256": "71dd780ec37f35486a643422bd60bdce2e6a5c701d2f697d071f3cf59cefb548",
+    "role": "historical_cec_raw",
+    "bytes": 11440
+  },
+  {
+    "path": "data/raw/cec_all_offices/014_elcand.csv",
+    "sha256": "c2a2a02f66e5469c9c87366b91266b674f75a4e53af81572d975205a94e15404",
+    "role": "historical_cec_raw",
+    "bytes": 549
+  },
+  {
+    "path": "data/raw/cec_all_offices/015_elcand.csv",
+    "sha256": "55de4083b27eac8ac3b71de401aa75d26ce699ad3ffe8f5d3baed5bcb162bd18",
+    "role": "historical_cec_raw",
+    "bytes": 422
+  },
+  {
+    "path": "data/raw/cec_all_offices/016_elcand.csv",
+    "sha256": "9ba72a0618c2d97f1099294931ef70d1da4c21da57358cbf11aea89a2bea094e",
+    "role": "historical_cec_raw",
+    "bytes": 98844
+  },
+  {
+    "path": "data/raw/cec_all_offices/017_elcand.csv",
+    "sha256": "8b2c4b0858e0d77f4af87c01c9302ab6dd8674750b11594f940afdf80932645c",
+    "role": "historical_cec_raw",
+    "bytes": 4435
+  },
+  {
+    "path": "data/raw/cec_all_offices/018_elcand.csv",
+    "sha256": "a73463fe791fffa51f23d60ffbd824460b9d2ccb47243160e2de9f8765c348af",
+    "role": "historical_cec_raw",
+    "bytes": 3824
+  },
+  {
+    "path": "data/raw/cec_all_offices/019_elcand.csv",
+    "sha256": "890ef67998d1f1255c6290325c5f93fdff59992596eebc3281348a40a2949713",
+    "role": "historical_cec_raw",
+    "bytes": 45768
+  },
+  {
+    "path": "data/raw/cec_all_offices/020_elcand.csv",
+    "sha256": "560327dd033356d1a0bc19ddc8d6f46096cda54a7c0c473a5d8eb4af638124c6",
+    "role": "historical_cec_raw",
+    "bytes": 588
+  },
+  {
+    "path": "data/raw/cec_all_offices/021_elcand.csv",
+    "sha256": "4496e2cec118ac7d49f335b15e297e069d50842c33b8a552e5200d7bb5c997d3",
+    "role": "historical_cec_raw",
+    "bytes": 4874
+  },
+  {
+    "path": "data/raw/cec_all_offices/022_elcand.csv",
+    "sha256": "25e2c17c5cbe365ffd2199062b8bbb9958233acffa64176fa957552533cf6061",
+    "role": "historical_cec_raw",
+    "bytes": 12078
+  },
+  {
+    "path": "data/raw/cec_all_offices/023_elcand.csv",
+    "sha256": "f64fc668009c70479fb212e15ae3b5bcd79adef7c971b40948be158b22c07c95",
+    "role": "historical_cec_raw",
+    "bytes": 661
+  },
+  {
+    "path": "data/raw/cec_all_offices/024_elcand.csv",
+    "sha256": "9640b438860c2b1eefe4856ca683882214300e837fc4161cc64979b50353d503",
+    "role": "historical_cec_raw",
+    "bytes": 388
+  },
+  {
+    "path": "data/raw/cec_all_offices/025_elcand.csv",
+    "sha256": "9b45e7ab9d873f3d10cf402ce2aacde84b9fbcaa2653c711be1a3f6457b93d06",
+    "role": "historical_cec_raw",
+    "bytes": 104733
+  },
+  {
+    "path": "data/raw/cec_all_offices/026_elcand.csv",
+    "sha256": "088f0bf3173f472617a741b84172fd0f83f80353663b3d834474dad906edf8bf",
+    "role": "historical_cec_raw",
+    "bytes": 4696
+  },
+  {
+    "path": "data/raw/cec_all_offices/027_elcand.csv",
+    "sha256": "e80bfa5672edf7743bf9b5057de352459507775a9e63f0d913dfa0c84c6e4644",
+    "role": "historical_cec_raw",
+    "bytes": 3711
+  },
+  {
+    "path": "data/raw/cec_all_offices/028_elcand.csv",
+    "sha256": "f717951a3e1f0c78782faaf87b3ddf14e30686eb600b2c00ff67221133a10e1e",
+    "role": "historical_cec_raw",
+    "bytes": 48850
+  },
+  {
+    "path": "data/raw/cec_all_offices/029_elcand.csv",
+    "sha256": "f52b420dc30544dbc0e0a92f05e35aecfcfa69db353217c0e77db849b027ca3b",
+    "role": "historical_cec_raw",
+    "bytes": 233
+  },
+  {
+    "path": "data/raw/cec_all_offices/030_elcand.csv",
+    "sha256": "171f03b6981baa58f9b5e54d20497abf269d6930ea77f8940f6b789ccabebc8c",
+    "role": "historical_cec_raw",
+    "bytes": 20494
+  },
+  {
+    "path": "data/raw/cec_all_offices/031_elcand.csv",
+    "sha256": "69f56af65830665ccce77027f46286235e89c24538ce801c5729c4cebc79c962",
+    "role": "historical_cec_raw",
+    "bytes": 502
+  },
+  {
+    "path": "data/raw/cec_all_offices/032_elcand.csv",
+    "sha256": "ee67944009136c3b4094946b8cd6390c0219a94890ddff0b0316ba1935c20bdf",
+    "role": "historical_cec_raw",
+    "bytes": 495
+  },
+  {
+    "path": "data/raw/cec_all_offices/033_elcand.csv",
+    "sha256": "dbccb8d3f68bb634542329005505c5deb70961abc8bedf2dcd480ebb468b785e",
+    "role": "historical_cec_raw",
+    "bytes": 720
+  },
+  {
+    "path": "data/raw/cec_all_offices/034_elcand.csv",
+    "sha256": "4594c987641b51c72dba6df0f55d2dfdcde9b114c731ee1c61dafdc454e3e131",
+    "role": "historical_cec_raw",
+    "bytes": 85387
+  },
+  {
+    "path": "data/raw/cec_all_offices/035_elcand.csv",
+    "sha256": "ff851091b9b8b932928c69106792ec6e336cb6b4fe6e03ac2c632b3799b49bb0",
+    "role": "historical_cec_raw",
+    "bytes": 3658
+  },
+  {
+    "path": "data/raw/cec_all_offices/036_elcand.csv",
+    "sha256": "184855950d9b2e82cac3b9db67a5d673f1cd6c9472eebd85a68d0a8d828ea085",
+    "role": "historical_cec_raw",
+    "bytes": 3617
+  },
+  {
+    "path": "data/raw/cec_all_offices/037_elcand.csv",
+    "sha256": "b2ff91466062e0cd5cc83ef2c14398a7cf70606ff0d2b5021658c1582cd0f283",
+    "role": "historical_cec_raw",
+    "bytes": 4209
+  },
+  {
+    "path": "data/raw/cec_all_offices/038_elcand.csv",
+    "sha256": "a85756470c4802aad184c783164882513eae7d4fd64d3f322270359bcb4e1cca",
+    "role": "historical_cec_raw",
+    "bytes": 43703
+  },
+  {
+    "path": "data/raw/cec_all_offices/039_elcand.csv",
+    "sha256": "fab5a7736fd819fc3e5ab2b1b3c03b50aea9078e4a6d925fbc111f8587166360",
+    "role": "historical_cec_raw",
+    "bytes": 9531
+  },
+  {
+    "path": "data/raw/cec_all_offices/040_elcand.csv",
+    "sha256": "cc58e3116eec1f1ee05a871236c6bf3c4c22036a6fc710bb76566181a251ad5d",
+    "role": "historical_cec_raw",
+    "bytes": 337
+  },
+  {
+    "path": "data/raw/cec_all_offices/041_elcand.csv",
+    "sha256": "5a3da6cde191123226b087f7a267958e5ea026c6f909b35724d89437cbca8e8a",
+    "role": "historical_cec_raw",
+    "bytes": 603
+  },
+  {
+    "path": "data/raw/cec_all_offices/042_elcand.csv",
+    "sha256": "cfb7e53f12cb9a6c619da7ddf37b719197cdc12fb9faac5654687eb737f4ad9a",
+    "role": "historical_cec_raw",
+    "bytes": 477
+  },
+  {
+    "path": "data/raw/cec_all_offices/044_elcand.csv",
+    "sha256": "893508afa60f8c48b11e5f1faa0288938b15aed959d9d5ee513610fd2e9ef714",
+    "role": "historical_cec_raw",
+    "bytes": 1172
+  },
+  {
+    "path": "data/raw/cec_all_offices/045_elcand.csv",
+    "sha256": "3f6070174c0af1fbcfcc498e9b3d7aadd19f8f1f0304a138cb15c77c17d9fe18",
+    "role": "historical_cec_raw",
+    "bytes": 25612
+  },
+  {
+    "path": "data/raw/cec_all_offices/046_elcand.csv",
+    "sha256": "d261f98e5ba7d48d40791243e0cb1a059948bf4c9d526239f6a961883154276d",
+    "role": "historical_cec_raw",
+    "bytes": 847
+  },
+  {
+    "path": "data/raw/cec_all_offices/047_elcand.csv",
+    "sha256": "f102bd4034423fd5efef8ff61fc4e3a25fd0e9cad5884137cca7ee39b4729e50",
+    "role": "historical_cec_raw",
+    "bytes": 581
+  },
+  {
+    "path": "data/raw/cec_all_offices/048_elcand.csv",
+    "sha256": "bb49c983f6a907644e9dee24d07f31999cfeb928afd260b1a771a33c5cb45ff0",
+    "role": "historical_cec_raw",
+    "bytes": 93268
+  },
+  {
+    "path": "data/raw/cec_all_offices/049_elcand.csv",
+    "sha256": "3d7fd1093e000513a714e85813e1b8bd210cab1805716545a22d0ac8565e712d",
+    "role": "historical_cec_raw",
+    "bytes": 5934
+  },
+  {
+    "path": "data/raw/cec_all_offices/050_elcand.csv",
+    "sha256": "9c7a62d00eb31738a7c911fae24515cafa3b276ed130acee2b35413ac31b11ed",
+    "role": "historical_cec_raw",
+    "bytes": 4723
+  },
+  {
+    "path": "data/raw/cec_all_offices/051_elcand.csv",
+    "sha256": "f8399ea6258b49cf9a6a50ad5a4ddd12df6d392d2924b15062c881031875fabb",
+    "role": "historical_cec_raw",
+    "bytes": 5968
+  },
+  {
+    "path": "data/raw/cec_all_offices/052_elcand.csv",
+    "sha256": "8ba7d3834f0eb40d8029a5d9a5593362cc6ac2b2230bc227dfe7d7ce7febabed",
+    "role": "historical_cec_raw",
+    "bytes": 51759
+  },
+  {
+    "path": "data/raw/cec_all_offices/053_elcand.csv",
+    "sha256": "c1d2c2dfbe9ed247a702c792216e87629fd70cb1003e9365c9a12fd78869678c",
+    "role": "historical_cec_raw",
+    "bytes": 65632
+  },
+  {
+    "path": "data/raw/cec_all_offices/054_elcand.csv",
+    "sha256": "ccd1d1d141793a1e66baddd5b685afb307fa850b9492f21f7b488d68254a9bf0",
+    "role": "historical_cec_raw",
+    "bytes": 2846
+  },
+  {
+    "path": "data/raw/cec_all_offices/055_elcand.csv",
+    "sha256": "53c9e89bbcf06e0dd1f243ea3b7850e189fd5941cca696d5a1c6a62ad522bf07",
+    "role": "historical_cec_raw",
+    "bytes": 1533
+  },
+  {
+    "path": "data/raw/cec_all_offices/056_elcand.csv",
+    "sha256": "f97cb30409c231893769910c04808f0fc4a671523754ff070152c6896ad13475",
+    "role": "historical_cec_raw",
+    "bytes": 2943
+  },
+  {
+    "path": "data/raw/cec_all_offices/057_elcand.csv",
+    "sha256": "6b5df8fce499ea17edfa1b8a41d9f0bee14b9330153271584eca58b3202221cd",
+    "role": "historical_cec_raw",
+    "bytes": 799261
+  },
+  {
+    "path": "data/raw/cec_all_offices/058_elcand.csv",
+    "sha256": "e951abb7561e975349ce8c4db53e7963c3e8396a9035cb5a2b62a9e3f0fc8e9d",
+    "role": "historical_cec_raw",
+    "bytes": 463476
+  },
+  {
+    "path": "data/raw/cec_all_offices/059_elcand.csv",
+    "sha256": "6597b9e25f92d98a5676cd9d9375e03e68e6e7e3ad5b5743be273418e83d3764",
+    "role": "historical_cec_raw",
+    "bytes": 220664
+  },
+  {
+    "path": "data/raw/cec_all_offices/060_elcand.csv",
+    "sha256": "f6082d1c8404ff9814084b8549a904d743db1b2e9cc0026829725b362d2e0009",
+    "role": "historical_cec_raw",
+    "bytes": 1109
+  },
+  {
+    "path": "data/raw/cec_all_offices/061_elcand.csv",
+    "sha256": "a5b4397fa6b79bbfb862de08c45450af16f9e378e67e334ee6027751bf11beab",
+    "role": "historical_cec_raw",
+    "bytes": 29363
+  },
+  {
+    "path": "data/raw/cec_all_offices/062_elcand.csv",
+    "sha256": "4526b321bcef1c97cbb00b81361e0d1844f696f7f168deafc2f2b80bc3d6ee93",
+    "role": "historical_cec_raw",
+    "bytes": 705
+  },
+  {
+    "path": "data/raw/cec_all_offices/063_elcand.csv",
+    "sha256": "45046f6ca71dac344a868438732f9dd025feed4178396b507acfca7930be7c5b",
+    "role": "historical_cec_raw",
+    "bytes": 1155
+  },
+  {
+    "path": "data/raw/cec_all_offices/064_elcand.csv",
+    "sha256": "485fa45e7bebea9abc91876b0bf838680811fc188995daa207728c5a3cbc507f",
+    "role": "historical_cec_raw",
+    "bytes": 651
+  },
+  {
+    "path": "data/raw/cec_all_offices/065_elcand.csv",
+    "sha256": "7cfc58ad616434f463624444f72d8639cd66991dbbac83e62e1cb7d268bb33b9",
+    "role": "historical_cec_raw",
+    "bytes": 1564304
+  },
+  {
+    "path": "data/raw/cec_all_offices/066_elcand.csv",
+    "sha256": "37ebfffea990842cc7081c4877337e1d20f537826cac35b8676b4e2b474db64c",
+    "role": "historical_cec_raw",
+    "bytes": 70577
+  },
+  {
+    "path": "data/raw/cec_all_offices/067_elcand.csv",
+    "sha256": "863f73704d2cb68eaf2a2b3777ac44626e9dd004b1c5cf2f2fccc10783c2d1c3",
+    "role": "historical_cec_raw",
+    "bytes": 10518
+  },
+  {
+    "path": "data/raw/cec_all_offices/068_elcand.csv",
+    "sha256": "47ee3b569c7bd6d2d0e989d087457a10dc4a7c2657df51c9c1c97a6436f96720",
+    "role": "historical_cec_raw",
+    "bytes": 2262
+  },
+  {
+    "path": "data/raw/cec_all_offices/069_elcand.csv",
+    "sha256": "4bf69b5fea7b387da0292adce9056a05e28881ec97b20ea06a0de4bd29a46b02",
+    "role": "historical_cec_raw",
+    "bytes": 2470
+  },
+  {
+    "path": "data/raw/cec_all_offices/070_elcand.csv",
+    "sha256": "dd8b3508799aaffe0280e3132bfca43b99dd10e7c692e5881603cd195d357e76",
+    "role": "historical_cec_raw",
+    "bytes": 2194
+  },
+  {
+    "path": "data/raw/cec_all_offices/071_elcand.csv",
+    "sha256": "da6101ad468513e9f8a5ac0fed59785db55ab0ff5c65251bc50766f8d57e529f",
+    "role": "historical_cec_raw",
+    "bytes": 3037
+  },
+  {
+    "path": "data/raw/cec_all_offices/072_elcand.csv",
+    "sha256": "4a30a07701a3546dfe57f9a70004283ec218e5a9c15f0af607c7ab150ef7b44f",
+    "role": "historical_cec_raw",
+    "bytes": 88809
+  },
+  {
+    "path": "data/raw/cec_all_offices/073_elcand.csv",
+    "sha256": "3d5391d0276093fb4721778d84b8d36c4569457d1d865ee14d45805939d9e5bd",
+    "role": "historical_cec_raw",
+    "bytes": 6516
+  },
+  {
+    "path": "data/raw/cec_all_offices/074_elcand.csv",
+    "sha256": "f1b81bff7840cf355e52fc4fe44b26b4b61982461ad5a7d7b3f0fa3a1f400633",
+    "role": "historical_cec_raw",
+    "bytes": 7107
+  },
+  {
+    "path": "data/raw/cec_all_offices/075_elcand.csv",
+    "sha256": "7c64985f22060d58bc8e3a6b1d47387912395f93b74f8ed62c255876e00dceca",
+    "role": "historical_cec_raw",
+    "bytes": 5692
+  },
+  {
+    "path": "data/raw/cec_all_offices/076_elcand.csv",
+    "sha256": "1ed725a37f8e4be6753de668f350564adc6c736dde6227d3981bde9e8a650a18",
+    "role": "historical_cec_raw",
+    "bytes": 344669
+  },
+  {
+    "path": "data/raw/cec_all_offices/077_elcand.csv",
+    "sha256": "b0d6577d167933232ee6bcf047be70ec4a8dc5bd23464de80a5630c0add91723",
+    "role": "historical_cec_raw",
+    "bytes": 13343
+  },
+  {
+    "path": "data/raw/cec_all_offices/078_elcand.csv",
+    "sha256": "94aebc6579696623d73a6ab832ff5647b62f41ff0cb6372da846056eed2195da",
+    "role": "historical_cec_raw",
+    "bytes": 52120
+  },
+  {
+    "path": "data/raw/cec_all_offices/079_elcand.csv",
+    "sha256": "ef85e65d98a562fe2a8516fd9a85433a462efc79cdc14e1bd1c39aa88358684f",
+    "role": "historical_cec_raw",
+    "bytes": 76707
+  },
+  {
+    "path": "data/raw/cec_all_offices/080_elcand.csv",
+    "sha256": "19cfbfb2e639ff2e5310856ec64e7933b6d4ff483dc09bd73092075ba12db6e7",
+    "role": "historical_cec_raw",
+    "bytes": 11293
+  },
+  {
+    "path": "data/raw/cec_all_offices/081_elcand.csv",
+    "sha256": "d28d646a38daadb2e6313c0331bb43835a6922dc7105581f901492d2faba5185",
+    "role": "historical_cec_raw",
+    "bytes": 2147
+  },
+  {
+    "path": "data/raw/cec_all_offices/082_elcand.csv",
+    "sha256": "7e5ddab78ddda85708e922dcdededa33f6640d8b42d872e0b090772bd619edbd",
+    "role": "historical_cec_raw",
+    "bytes": 3458
+  },
+  {
+    "path": "data/raw/cec_all_offices/083_elcand.csv",
+    "sha256": "9d5989aa30e6753e54722d42a979d195d8bcac9cf399cf05424b7001860be9e7",
+    "role": "historical_cec_raw",
+    "bytes": 2757
+  },
+  {
+    "path": "data/raw/cec_all_offices/084_elcand.csv",
+    "sha256": "3c7ddf71eaf43613cbd673ebeeb49396cbfcf242ee058a582dd0036a0d06b08a",
+    "role": "historical_cec_raw",
+    "bytes": 2854
+  },
+  {
+    "path": "data/raw/cec_all_offices/085_elcand.csv",
+    "sha256": "77bd5248cea96f698a88982a1c81229399e2dacbd3c33c41a5662e35bd6789db",
+    "role": "historical_cec_raw",
+    "bytes": 909736
+  },
+  {
+    "path": "data/raw/cec_all_offices/086_elcand.csv",
+    "sha256": "16951fe545070e2c7df1e5d7e6922b4ff4513acbdc718675d02b41ce636b723e",
+    "role": "historical_cec_raw",
+    "bytes": 97533
+  },
+  {
+    "path": "data/raw/cec_all_offices/087_elcand.csv",
+    "sha256": "58616de64001f72a3f16be830a15aceb42cecdc63b239ce234c13c3ba408e307",
+    "role": "historical_cec_raw",
+    "bytes": 7796
+  },
+  {
+    "path": "data/raw/cec_all_offices/088_elcand.csv",
+    "sha256": "3ff2e471a8a9c69465913366787a530c95c7fcc70e66d548e9205c35afd7b28a",
+    "role": "historical_cec_raw",
+    "bytes": 7557
+  },
+  {
+    "path": "data/raw/cec_all_offices/089_elcand.csv",
+    "sha256": "5c1db9c542df96eec65715e571614fe0027e9ddeb69c696b155b4c39cb44327d",
+    "role": "historical_cec_raw",
+    "bytes": 6851
+  },
+  {
+    "path": "data/raw/cec_all_offices/090_elcand.csv",
+    "sha256": "2f1f08a0960a8ca71f80c4b62d9e80ff63bd6a7546e98e49f38827957284363a",
+    "role": "historical_cec_raw",
+    "bytes": 805458
+  },
+  {
+    "path": "data/raw/cec_all_offices/091_elcand.csv",
+    "sha256": "230fc9f6eb24c0b7c5a09fcf1d974b2b59b107cd64faae459537232cc0053247",
+    "role": "historical_cec_raw",
+    "bytes": 373836
+  },
+  {
+    "path": "data/raw/cec_all_offices/092_elcand.csv",
+    "sha256": "bb886c2c4d024bab5b5c19d078f0c6a463e2a2d3a030d44851d2eed30355fc69",
+    "role": "historical_cec_raw",
+    "bytes": 15031
+  },
+  {
+    "path": "data/raw/cec_all_offices/093_elcand.csv",
+    "sha256": "bacbbc87b4e8b146c79296efc23a0332434c9de806ca660b2e060ec5c0193236",
+    "role": "historical_cec_raw",
+    "bytes": 58598
+  },
+  {
+    "path": "data/raw/cec_all_offices/094_elcand.csv",
+    "sha256": "46f77d94376cc4f684cbbd5b87930de51e2a38c500d1bdbd0e5bfbd2af70377b",
+    "role": "historical_cec_raw",
+    "bytes": 1606
+  },
+  {
+    "path": "data/raw/cec_all_offices/095_elcand.csv",
+    "sha256": "2106bc9400f7d64784595799d2404496186cffaa56d82b14554d172d781f1b60",
+    "role": "historical_cec_raw",
+    "bytes": 42448
+  },
+  {
+    "path": "data/raw/cec_all_offices/096_elcand.csv",
+    "sha256": "3a0a8cc10dab27459efb2caad684a18d7bb9284aded22b9cc462448251d26d30",
+    "role": "historical_cec_raw",
+    "bytes": 1241
+  },
+  {
+    "path": "data/raw/cec_all_offices/097_elcand.csv",
+    "sha256": "a32beb9840e838ecf9feb9d997885a94c9eab1156e84c86583b02bef27ead483",
+    "role": "historical_cec_raw",
+    "bytes": 1138
+  },
+  {
+    "path": "data/raw/cec_all_offices/098_elcand.csv",
+    "sha256": "9aea0862f86338ff1aa1ced7c23c245b6a8922e0351faa97662da83e7e26d876",
+    "role": "historical_cec_raw",
+    "bytes": 610
+  },
+  {
+    "path": "data/raw/cec_all_offices/099_elcand.csv",
+    "sha256": "455d0336b926ef6d5c0352b408102e559bbb046f7293f10bd4dac8e9d5a100a4",
+    "role": "historical_cec_raw",
+    "bytes": 4231
+  },
+  {
+    "path": "data/raw/cec_all_offices/100_elcand.csv",
+    "sha256": "2f9db45b93a54fa1dac4959eb5a0f2232ee2e82b8c32ca4e9f747e8b1e852de3",
+    "role": "historical_cec_raw",
+    "bytes": 2125
+  },
+  {
+    "path": "data/raw/cec_all_offices/101_elcand.csv",
+    "sha256": "35853ac9d8a7eee4e9882bc04148462876110dcdb3cf0cdc11af0908e1c800f0",
+    "role": "historical_cec_raw",
+    "bytes": 35502
+  },
+  {
+    "path": "data/raw/cec_all_offices/102_elcand.csv",
+    "sha256": "de11edb2baa6893f1a951aafd11b38f1e9b301853498db4927d118a933f01203",
+    "role": "historical_cec_raw",
+    "bytes": 1505
+  },
+  {
+    "path": "data/raw/cec_all_offices/103_elcand.csv",
+    "sha256": "46773806f1b6ef6389e632be7c10ea59bcb5c3afff3ad2715787974eafe494f0",
+    "role": "historical_cec_raw",
+    "bytes": 244990
+  },
+  {
+    "path": "data/raw/cec_all_offices/104_elcand.csv",
+    "sha256": "f7ed94b2556b5cdc78ab07ddb7a10d37fea538bbb8804d2f21e04db5dcdb9d03",
+    "role": "historical_cec_raw",
+    "bytes": 10228
+  },
+  {
+    "path": "data/raw/cec_all_offices/105_elcand.csv",
+    "sha256": "0b4ab7af1068906c1579eaedcc81bf022c096953a768ba2a848412bded4f8408",
+    "role": "historical_cec_raw",
+    "bytes": 7140
+  },
+  {
+    "path": "data/raw/cec_all_offices/106_elcand.csv",
+    "sha256": "424fe34e9450796a3a2235ea75f0ff245104a6fa2f586a6bdd269c0e14ba6104",
+    "role": "historical_cec_raw",
+    "bytes": 60829
+  },
+  {
+    "path": "data/raw/cec_all_offices/107_elcand.csv",
+    "sha256": "af38d1e0ca691d9e353fcfb3e154f0cbe1f178d6e796ce7441ef7cb52d02f1b9",
+    "role": "historical_cec_raw",
+    "bytes": 48472
+  },
+  {
+    "path": "data/raw/cec_all_offices/108_elcand.csv",
+    "sha256": "42cedd03d0943b4340eb69f85747c988be042eeb0321418a932c2d92d6340517",
+    "role": "historical_cec_raw",
+    "bytes": 3470
+  },
+  {
+    "path": "data/raw/cec_all_offices/109_elcand.csv",
+    "sha256": "d5dc7b0ad7c5bb2b9457e1169c8afbf9c04383bbd7dd3eb771cb73062165c93e",
+    "role": "historical_cec_raw",
+    "bytes": 2064
+  },
+  {
+    "path": "data/raw/cec_all_offices/110_elcand.csv",
+    "sha256": "b323d6713df428b57161e3b1b6799ebf25d679ef9948e8fe4fbb3fa0d7cfbc73",
+    "role": "historical_cec_raw",
+    "bytes": 3730
+  },
+  {
+    "path": "data/raw/cec_all_offices/111_elcand.csv",
+    "sha256": "231579c3e82e80876f97ca48c9dba024f83691dd0e93f48c06cdc7875fe68a3e",
+    "role": "historical_cec_raw",
+    "bytes": 2250
+  },
+  {
+    "path": "data/raw/cec_all_offices/112_elcand.csv",
+    "sha256": "f355705254d5ca457d4fe130b77983b769602126b10713e7c968889d2d52530c",
+    "role": "historical_cec_raw",
+    "bytes": 1069779
+  },
+  {
+    "path": "data/raw/cec_all_offices/113_elcand.csv",
+    "sha256": "80a314a18d41670d0c223578f09f78fe5d059e30d268998a13c6b238cb49a514",
+    "role": "historical_cec_raw",
+    "bytes": 1376
+  },
+  {
+    "path": "data/raw/cec_all_offices/114_elcand.csv",
+    "sha256": "c12d44a515ba13fb86f76c1c6f1e5eca379a0e5579a2e3aa0965ec42dc9cb480",
+    "role": "historical_cec_raw",
+    "bytes": 31868
+  },
+  {
+    "path": "data/raw/cec_all_offices/115_elcand.csv",
+    "sha256": "7ccc174f387c5b2ab97b004efa29e7218bdf7e4b6b94f896b1009d662cdc168e",
+    "role": "historical_cec_raw",
+    "bytes": 1115
+  },
+  {
+    "path": "data/raw/cec_all_offices/116_elcand.csv",
+    "sha256": "cf9a675fd5d26c6a6f2961f3c0654699c0fe7905c81a2e68d26d9f3cd852ee3d",
+    "role": "historical_cec_raw",
+    "bytes": 970
+  },
+  {
+    "path": "data/raw/cec_all_offices/117_elcand.csv",
+    "sha256": "30fca9aebe98d9694158a579bd1528ae224954c7abd525a90c0cfa1f56d7dac4",
+    "role": "historical_cec_raw",
+    "bytes": 618
+  },
+  {
+    "path": "data/raw/cec_all_offices/118_elcand.csv",
+    "sha256": "8ab02878de8f5736a6b1a17cc3b86914a02576729bb9d066c3822fbdd0c705b9",
+    "role": "historical_cec_raw",
+    "bytes": 17471
+  },
+  {
+    "path": "data/raw/cec_all_offices/119_elcand.csv",
+    "sha256": "b72ab7eb710e0c5fe26b8ab8da3e559bb709eb8573f278585f2e3cfd20fbc338",
+    "role": "historical_cec_raw",
+    "bytes": 503
+  },
+  {
+    "path": "data/raw/cec_all_offices/120_elcand.csv",
+    "sha256": "8544571218af28d2e81aac4f819fd12de54ce97673ee04a154aaeacd047fb325",
+    "role": "historical_cec_raw",
+    "bytes": 492
+  },
+  {
+    "path": "data/raw/cec_all_offices/121_elcand.csv",
+    "sha256": "fe5249d37eb558883e86d6c21675d6d7ca57d842abad8b8cc70e7b89062cc84b",
+    "role": "historical_cec_raw",
+    "bytes": 21289
+  },
+  {
+    "path": "data/raw/cec_all_offices/122_elcand.csv",
+    "sha256": "b600da9c873307c5cc3f4578cd2ea2ad827f98ec189fdefb4127df4128d13f47",
+    "role": "historical_cec_raw",
+    "bytes": 528
+  },
+  {
+    "path": "data/raw/cec_all_offices/123_elcand.csv",
+    "sha256": "935dfb441cea4c4edb03b1132f66e0adb9ff9b3494197a0a440a0d28bd0ea059",
+    "role": "historical_cec_raw",
+    "bytes": 338
+  },
+  {
+    "path": "data/raw/cec_all_offices/124_elcand.csv",
+    "sha256": "88d30abf8a42f264bc9c45fcb68590eb1059e762ca79fe6d8becf2f0fc122ffd",
+    "role": "historical_cec_raw",
+    "bytes": 24179
+  },
+  {
+    "path": "data/raw/cec_all_offices/125_elcand.csv",
+    "sha256": "c1e3dcc2d841fa29906c252c5459d66efe9aad409c3b62645c1094ca1e172a17",
+    "role": "historical_cec_raw",
+    "bytes": 675
+  },
+  {
+    "path": "data/raw/cec_all_offices/126_elcand.csv",
+    "sha256": "e7cbef8aea0ce8505b2996f7fe4abd9cbcb40fe46a6eb5737eb93251e5a6e09a",
+    "role": "historical_cec_raw",
+    "bytes": 498
+  },
+  {
+    "path": "data/raw/cec_all_offices/127_elcand.csv",
+    "sha256": "9b3716e9c34cf09efa9fb4c914b4bc64f58f9d941c2994fdab1a666f3fd8d56f",
+    "role": "historical_cec_raw",
+    "bytes": 441
+  },
+  {
+    "path": "data/raw/cec_all_offices/128_elcand.csv",
+    "sha256": "23a5616421e3c7f747b0f14b3364f246e711bd602c15bf935da5dc9299110cd0",
+    "role": "historical_cec_raw",
+    "bytes": 119
+  },
+  {
+    "path": "data/raw/cec_all_offices/129_elcand.csv",
+    "sha256": "c40be0b605c49815c876d36e895cc7217f3f4afce5214bbea86e958b3e324d5b",
+    "role": "historical_cec_raw",
+    "bytes": 118
+  },
+  {
+    "path": "data/raw/cec_all_offices/130_elcand.csv",
+    "sha256": "6948d73241237141d9b0c623cafb6c1c075f7dc42518cacfb34a63ccbf807ad8",
+    "role": "historical_cec_raw",
+    "bytes": 118
+  },
+  {
+    "path": "data/raw/cec_all_offices/131_elcand.csv",
+    "sha256": "3784eea03ec23846de265e4224e1e10f1268b6dc028a5a85f78e3fca2db07af6",
+    "role": "historical_cec_raw",
+    "bytes": 178
+  },
+  {
+    "path": "data/raw/cec_all_offices/132_elcand.csv",
+    "sha256": "b312876365a5f506c9dbe0f30b496c6c4de6144722deda40dfa237e9395f03c1",
+    "role": "historical_cec_raw",
+    "bytes": 238
+  },
+  {
+    "path": "data/raw/cec_all_offices/133_elcand.csv",
+    "sha256": "be911d7b2da117210ff93126704a243eb1b9585458b5126671000a09926fb67d",
+    "role": "historical_cec_raw",
+    "bytes": 158
+  },
+  {
+    "path": "data/raw/cec_all_offices/134_elcand.csv",
+    "sha256": "f5ba4e5f439b3a1f35fd7c26a87c3c506371d2a72bfd2a0665e8dfdb5ef0f097",
+    "role": "historical_cec_raw",
+    "bytes": 105
+  },
+  {
+    "path": "data/raw/cec_all_offices/135_elcand.csv",
+    "sha256": "607bba9fa5bc63fa770c46df38cb0bdf6592b56f005900dc987441f24bc9f95d",
+    "role": "historical_cec_raw",
+    "bytes": 219
+  },
+  {
+    "path": "data/raw/cec_all_offices/136_elcand.csv",
+    "sha256": "969c3b4c2098e29c6f71147b429b408677e3e5edb1659db36aa997ffe353321b",
+    "role": "historical_cec_raw",
+    "bytes": 211
+  },
+  {
+    "path": "data/raw/cec_all_offices/137_elcand.csv",
+    "sha256": "e46df8386b32ffd95f2b6e2a07dcae97f629716d16aafed373a73100811cf7ee",
+    "role": "historical_cec_raw",
+    "bytes": 158
+  },
+  {
+    "path": "data/raw/cec_all_offices/138_elcand.csv",
+    "sha256": "144de9aa8a87ea1f5f84887eefa66f607d77358b4b032b04e50b87f210e934be",
+    "role": "historical_cec_raw",
+    "bytes": 118
+  },
+  {
+    "path": "data/raw/cec_all_offices/139_elcand.csv",
+    "sha256": "e1f4e8c7c747a9595e418596d2cdf59af21a2c2de06ccbc2b9d7c2649dabab9e",
+    "role": "historical_cec_raw",
+    "bytes": 177
+  },
+  {
+    "path": "data/raw/cec_all_offices/140_elcand.csv",
+    "sha256": "f7e513b91a7b9500a5b0e59a28c712b7468c748eae98974bef08d8341866ef8b",
+    "role": "historical_cec_raw",
+    "bytes": 417
+  },
+  {
+    "path": "data/raw/cec_all_offices/141_elcand.csv",
+    "sha256": "d8b62b2aded021fd138fcb31ae649087fdb0af31a65df5a17985e1731273adf9",
+    "role": "historical_cec_raw",
+    "bytes": 178
+  },
+  {
+    "path": "data/raw/cec_all_offices/142_elcand.csv",
+    "sha256": "8db9afd996425b4c228336fb7d31419e3f4485491baf4b0079c5318829ba0584",
+    "role": "historical_cec_raw",
+    "bytes": 118
+  },
+  {
+    "path": "data/raw/cec_all_offices/143_elcand.csv",
+    "sha256": "2dbe7f684c473c856e47a1d297e16fe66d915b9e1f8c793522a883841b174e42",
+    "role": "historical_cec_raw",
+    "bytes": 178
+  },
+  {
+    "path": "data/raw/cec_all_offices/144_elcand.csv",
+    "sha256": "0e4046f8a985ab658093b51de670029c9aa30ea46e4db74ad7a24561fbe2b0d0",
+    "role": "historical_cec_raw",
+    "bytes": 178
+  },
+  {
+    "path": "data/raw/cec_all_offices/145_elcand.csv",
+    "sha256": "920094d86b146937af0c789bc0d4fbefbaa7abcc0d4843b8bd22d687336360fd",
+    "role": "historical_cec_raw",
+    "bytes": 177
+  },
+  {
+    "path": "data/raw/cec_all_offices/146_elcand.csv",
+    "sha256": "4339be63297f0c70eea687fcb2b9121e4938629d6eeb2939887892a487005935",
+    "role": "historical_cec_raw",
+    "bytes": 118
+  }
+]

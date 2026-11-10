@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-08",
+  "issues": [
+    "初批部分HTML以錯誤字元編碼抽取，後續_u8版本或瀏覽工具全文為採納依據，初批不當正文證據。",
+    "zhengjian_陳冠宇.html為1951年生里長同名者，zhengjian_林彥.html曾抓到林彥甫；均排除，由correct頁另外存錄且僅列未核線索。",
+    "cec_kaohsiung_candidate_list.pdf實為六都登記名單22頁，只有姓名黨籍等，非生日學歷公報，不以檔名判內容。",
+    "lin_ziyang_primary_education.pdf是HTTP200錯誤HTML，非PDF；不採。政大官方頁另有碩士證據。",
+    "xue_birth_u8_text.txt為無關新聞；xue_birth_verified.html抽取未取得正文，採瀏覽工具全文記錄，不採錯頁。",
+    "li_zhenhao_master.html直連回傳另一篇新聞，瀏覽工具同URL讀到完整李振豪報導，採另存工具記錄，不誤稱直連HTML正確。",
+    "HTTP403/404、cookie同意頁、頁殼及無關正文均不視為成功來源。原下載manifest的SHA指下載當時原bytes；若公開捕捉有憑證樣式清理，以capture_hygiene與input_manifest的保留版SHA為準。",
+    "研究資料截至2026-11-08，不採11/8以後公告或選舉結果。",
+    "一般軍職／文官三例另待範圍決定，不自動當政治公職，也不自動歸無政治家族。"
+  ]
+}

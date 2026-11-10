@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/410fcece-c4de-4a78-8c5e-4ff31d90c81c",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_410fcece-c4de-4a78-8c5e-4ff31d90c81c.json",
+    "status": 200,
+    "sha256": "21cedefa4a1e4ac7d3cb14598c62fc522fd8a9cd534ca29be5f71271cea553b6"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/20814660-7bf5-44d4-b81c-f6834187028e",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_20814660-7bf5-44d4-b81c-f6834187028e.json",
+    "status": 200,
+    "sha256": "4c7b3bd02a38656db74d983e437d40ab1554af5524dc6ef178823de09f515218"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/028dd651-8012-480f-9591-1322ea2f90f2",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_028dd651-8012-480f-9591-1322ea2f90f2.json",
+    "status": 200,
+    "sha256": "06e9fa47d81a9a2c0fd58ac384bf8b32f52dd7e63cfd47de89106e2a7c355fbc"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/558cedb4-545e-4b4d-a32e-bfc3428053c4",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_558cedb4-545e-4b4d-a32e-bfc3428053c4.json",
+    "status": 200,
+    "sha256": "c34e7151a2cbb0151eafdc9cb7deba3c0fc010bccef2ddb1f2fdb687c7379961"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/31f3aff1-8eb8-4053-acf1-8c9791580cf7",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_31f3aff1-8eb8-4053-acf1-8c9791580cf7.json",
+    "status": 200,
+    "sha256": "6c36dd9de501ce50cbc22c2a047f4a1cf88cc9d747c28f31bd72a448d9f6a30b"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/5c49a47e-60e0-4138-a1ed-97e66628f039",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_5c49a47e-60e0-4138-a1ed-97e66628f039.json",
+    "status": 200,
+    "sha256": "9c9201690235e037a63b469ea1d9173ff2a8e4b46cc5eb8048b1cf6d6bf3110c"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/63602dd6-cada-44c5-bfd4-c7d8c625b3fc",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_63602dd6-cada-44c5-bfd4-c7d8c625b3fc.json",
+    "status": 200,
+    "sha256": "59dd98c13724efd9e412f2b423a0a55dcc98b2cdfa7c11f7dbabe87cc9bb839a"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/547e8d47-084a-4864-b912-8bc89b00a931",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_547e8d47-084a-4864-b912-8bc89b00a931.json",
+    "status": 200,
+    "sha256": "81dac9ddbe90a4ecfcd027310f9f097c5d73eeb2804e7bc2159431a0371f193b"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/8315b668-6108-4871-b6da-643a72de5083",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_8315b668-6108-4871-b6da-643a72de5083.json",
+    "status": 200,
+    "sha256": "0916c1b4b49d0a0d4c7faa1297837cab04beeb2b13b3c80704469bf19e7fdd9a"
+  },
+  {
+    "url": "https://elections.olc.tw/api/elections/candidates/62599414-2e4e-43f0-98bb-f634c82cffce",
+    "path": "data-science-course/data/raw/taipei_kaohsiung_completion_20261108/olc_candidates_62599414-2e4e-43f0-98bb-f634c82cffce.json",
+    "status": 200,
+    "sha256": "85a02e7707b80372b085b5fcf1eaf5f1e842649fdc7f1d607e2266fd8db2d5d7"
+  }
+]

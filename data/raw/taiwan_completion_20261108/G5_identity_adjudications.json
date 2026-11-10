@@ -1,0 +1,50 @@
+[
+  {
+    "candidate_key": "2026|直轄市議員|新北市第5選舉區|鄧凱勛",
+    "candidate_name": "鄧凱勛",
+    "value": "0",
+    "identity_anchors": [
+      "exact_birth_date",
+      "same_school_biography",
+      "documented_cross_county_career_or_prior_office"
+    ],
+    "source": {
+      "url": "https://zh.wikipedia.org/wiki/鄧凱勛",
+      "path": "data/raw/taiwan_completion_20261108/supplement_article_14.txt",
+      "sha256": "595f4b3d6480dc226e7497da20e9c4abe9b9d443d0572bd654781e876b20d634"
+    },
+    "note": "1994-11-04及臺大／中興學歷一致；全文連結2022臺中何福里長與2026板橋議員。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|桃園市第2選舉區|周曉芸",
+    "candidate_name": "周曉芸",
+    "value": "0",
+    "identity_anchors": [
+      "exact_birth_date",
+      "same_school_biography",
+      "documented_cross_county_career_or_prior_office"
+    ],
+    "source": {
+      "url": "https://zh.wikipedia.org/wiki/周曉芸",
+      "path": "data/raw/taiwan_completion_20261108/supplement_article_15.txt",
+      "sha256": "48646a2236ad233fee372ea6df3686959e6dd5b484d5e9317703d3f3c0dba269"
+    },
+    "note": "1976-03-08及經國護理／金大在學學歷一致；全文明列2022金門議員與2026桃園龜山，跨縣不可當成不同人。"
+  },
+  {
+    "candidate_key": "2026|直轄市議員|臺南市第8選舉區|童小芸",
+    "candidate_name": "童小芸",
+    "value": "0",
+    "identity_anchors": [
+      "exact_birth_date",
+      "same_school_biography",
+      "documented_cross_county_career_or_prior_office"
+    ],
+    "source": {
+      "url": "https://zh.wikipedia.org/wiki/童小芸",
+      "path": "data/raw/taiwan_completion_20261108/supplement_article_16.txt",
+      "sha256": "0ec83114a1a764275ffa816213ab242edb53238e384aa03077fb925383660a85"
+    },
+    "note": "1971-07-21及長榮EMBA一致；全文2020臺南立委、2022議員與2026第8選區連結。"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "lai_education_verified",
+    "url": "https://newtalk.tw/news/view/2025-10-07/997573",
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/lai_education_verified.html",
+    "text_path": "data/raw/taipei_kaohsiung_completion_20261108/lai_education_verified_text.txt",
+    "status": 403,
+    "sha256": "f01b836f164f1c23ae635b191dd8f0b8c6a54c52cd341e31ab4ca38252a8ae07",
+    "characters": 754
+  },
+  {
+    "id": "xue_birth_verified",
+    "url": "https://taipeipost.org/319257/",
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xue_birth_verified.html",
+    "text_path": "data/raw/taipei_kaohsiung_completion_20261108/xue_birth_verified_text.txt",
+    "status": 200,
+    "sha256": "1cd4f97633ed443502aa6c35354f2322d22e41938d8edcbd29e4562e0ab03b17",
+    "characters": 235
+  },
+  {
+    "id": "xu_yuanrong_verified",
+    "url": "https://udn.com/news/amp/story/124652/9367767",
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_yuanrong_verified.html",
+    "text_path": "data/raw/taipei_kaohsiung_completion_20261108/xu_yuanrong_verified_text.txt",
+    "status": 200,
+    "sha256": "f7cd475d7891b5fd86c48113ed58a4c72ada0b9eab4465f9bb86cf661a94aa12",
+    "characters": 1027
+  },
+  {
+    "id": "li_zhenhao_master",
+    "url": "https://bigtimes.net/archives/125687",
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_zhenhao_master.html",
+    "text_path": "data/raw/taipei_kaohsiung_completion_20261108/li_zhenhao_master_text.txt",
+    "status": 200,
+    "sha256": "761288342455c0a105d7753d8ab0b396a017f34fde0ad67f07509ffa0eea93be",
+    "characters": 37
+  },
+  {
+    "id": "xu_hongting_family",
+    "url": "https://www.gvm.com.tw/article/29909",
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/xu_hongting_family.html",
+    "text_path": "data/raw/taipei_kaohsiung_completion_20261108/xu_hongting_family_text.txt",
+    "status": 200,
+    "sha256": "6f17c465f443db6aa005d65a24ad56e5729785255e3b8baf939186e968cb239f",
+    "characters": 3769
+  },
+  {
+    "id": "li_mingxuan_family",
+    "url": "https://newtalk.tw/news/view/2023-08-18/884612",
+    "path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan_family.html",
+    "text_path": "data/raw/taipei_kaohsiung_completion_20261108/li_mingxuan_family_text.txt",
+    "status": 403,
+    "sha256": "0d7a07225cef53a04ac0b8f034ca62d59feba3033f1c138a7663c2752b201ca4",
+    "characters": 754
+  }
+]

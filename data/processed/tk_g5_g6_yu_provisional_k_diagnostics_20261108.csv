@@ -1,0 +1,9 @@
+﻿pool,pool_n,requested_k,actual_k,silhouette_mean,min_cluster_n,max_cluster_n,all_clusters_n_ge_8,is_primary,cluster_sizes,cluster_profiles
+all,210,2,2,0.704964412979,50,160,True,False,160|50,P00+P01|P10+P11
+all,210,3,3,0.897959183673,50,109,True,False,109|51|50,P00|P01|P10+P11
+all,210,4,4,1,15,109,True,True,109|51|35|15,P00|P01|P10|P11
+mayor,11,2,2,0.693181818182,2,9,False,False,9|2,P00+P01|P10
+mayor,11,3,3,1,2,6,False,True,6|3|2,P00|P01|P10
+council,199,2,2,0.70403575212,48,151,True,False,151|48,P00+P01|P10+P11
+council,199,3,3,0.894151609109,48,103,True,False,103|48|48,P00|P01|P10+P11
+council,199,4,4,1,15,103,True,True,103|48|33|15,P00|P01|P10|P11

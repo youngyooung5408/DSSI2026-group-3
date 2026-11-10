@@ -1,0 +1,688 @@
+[
+  {
+    "candidate_key": "2026-C1-008",
+    "candidate_name": "李四川",
+    "county_city": "新北市",
+    "search_kind": "family",
+    "query": "\"李四川\" 新北市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C1-010",
+    "candidate_name": "張善政",
+    "county_city": "桃園市",
+    "search_kind": "family",
+    "query": "\"張善政\" 桃園市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C1-014",
+    "candidate_name": "洪麗華",
+    "county_city": "臺中市",
+    "search_kind": "family",
+    "query": "\"洪麗華\" 臺中市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C1-015",
+    "candidate_name": "謝龍介",
+    "county_city": "臺南市",
+    "search_kind": "family",
+    "query": "\"謝龍介\" 臺南市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C1-016",
+    "candidate_name": "蕭燐洪",
+    "county_city": "臺南市",
+    "search_kind": "family",
+    "query": "\"蕭燐洪\" 臺南市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C1-017",
+    "candidate_name": "葉人文",
+    "county_city": "臺南市",
+    "search_kind": "family",
+    "query": "\"葉人文\" 臺南市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-025",
+    "candidate_name": "朱定瑀",
+    "county_city": "新竹縣",
+    "search_kind": "family",
+    "query": "\"朱定瑀\" 新竹縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-027",
+    "candidate_name": "陳品安",
+    "county_city": "苗栗縣",
+    "search_kind": "family",
+    "query": "\"陳品安\" 苗栗縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-028",
+    "candidate_name": "鍾東錦",
+    "county_city": "苗栗縣",
+    "search_kind": "family",
+    "query": "\"鍾東錦\" 苗栗縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-029",
+    "candidate_name": "陳重嘉",
+    "county_city": "彰化縣",
+    "search_kind": "family",
+    "query": "\"陳重嘉\" 彰化縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-030",
+    "candidate_name": "陳素月",
+    "county_city": "彰化縣",
+    "search_kind": "family",
+    "query": "\"陳素月\" 彰化縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-031",
+    "candidate_name": "邱建富",
+    "county_city": "彰化縣",
+    "search_kind": "family",
+    "query": "\"邱建富\" 彰化縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-033",
+    "candidate_name": "温世政",
+    "county_city": "南投縣",
+    "search_kind": "family",
+    "query": "\"温世政\" 南投縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-034",
+    "candidate_name": "許淑華",
+    "county_city": "南投縣",
+    "search_kind": "family",
+    "query": "\"許淑華\" 南投縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-035",
+    "candidate_name": "吳炳輝",
+    "county_city": "雲林縣",
+    "search_kind": "family",
+    "query": "\"吳炳輝\" 雲林縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-037",
+    "candidate_name": "劉建國",
+    "county_city": "雲林縣",
+    "search_kind": "family",
+    "query": "\"劉建國\" 雲林縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-038",
+    "candidate_name": "林佳瑜",
+    "county_city": "雲林縣",
+    "search_kind": "family",
+    "query": "\"林佳瑜\" 雲林縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-039",
+    "candidate_name": "吳品叡",
+    "county_city": "嘉義縣",
+    "search_kind": "family",
+    "query": "\"吳品叡\" 嘉義縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-041",
+    "candidate_name": "蘇清泉",
+    "county_city": "屏東縣",
+    "search_kind": "family",
+    "query": "\"蘇清泉\" 屏東縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-043",
+    "candidate_name": "陳宏毅",
+    "county_city": "宜蘭縣",
+    "search_kind": "family",
+    "query": "\"陳宏毅\" 宜蘭縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-044",
+    "candidate_name": "吳宗憲",
+    "county_city": "宜蘭縣",
+    "search_kind": "family",
+    "query": "\"吳宗憲\" 宜蘭縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-045",
+    "candidate_name": "劉燦輝",
+    "county_city": "宜蘭縣",
+    "search_kind": "family",
+    "query": "\"劉燦輝\" 宜蘭縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-046",
+    "candidate_name": "林國漳",
+    "county_city": "宜蘭縣",
+    "search_kind": "family",
+    "query": "\"林國漳\" 宜蘭縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-047",
+    "candidate_name": "楊鉯婷",
+    "county_city": "宜蘭縣",
+    "search_kind": "family",
+    "query": "\"楊鉯婷\" 宜蘭縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-048",
+    "candidate_name": "游淑貞",
+    "county_city": "花蓮縣",
+    "search_kind": "family",
+    "query": "\"游淑貞\" 花蓮縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-049",
+    "candidate_name": "張峻",
+    "county_city": "花蓮縣",
+    "search_kind": "family",
+    "query": "\"張峻\" 花蓮縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-051",
+    "candidate_name": "羅佩秦",
+    "county_city": "花蓮縣",
+    "search_kind": "family",
+    "query": "\"羅佩秦\" 花蓮縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-054",
+    "candidate_name": "李吳穎智",
+    "county_city": "臺東縣",
+    "search_kind": "family",
+    "query": "\"李吳穎智\" 臺東縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-055",
+    "candidate_name": "王志偉",
+    "county_city": "臺東縣",
+    "search_kind": "family",
+    "query": "\"王志偉\" 臺東縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-057",
+    "candidate_name": "陳振中",
+    "county_city": "澎湖縣",
+    "search_kind": "family",
+    "query": "\"陳振中\" 澎湖縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-058",
+    "candidate_name": "周倪安",
+    "county_city": "澎湖縣",
+    "search_kind": "family",
+    "query": "\"周倪安\" 澎湖縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-059",
+    "candidate_name": "許智富",
+    "county_city": "澎湖縣",
+    "search_kind": "family",
+    "query": "\"許智富\" 澎湖縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-060",
+    "candidate_name": "陳盡川",
+    "county_city": "澎湖縣",
+    "search_kind": "family",
+    "query": "\"陳盡川\" 澎湖縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-061",
+    "candidate_name": "葉竹林",
+    "county_city": "澎湖縣",
+    "search_kind": "family",
+    "query": "\"葉竹林\" 澎湖縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-062",
+    "candidate_name": "洪和成",
+    "county_city": "金門縣",
+    "search_kind": "family",
+    "query": "\"洪和成\" 金門縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-063",
+    "candidate_name": "李文良",
+    "county_city": "金門縣",
+    "search_kind": "family",
+    "query": "\"李文良\" 金門縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-064",
+    "candidate_name": "黃世團",
+    "county_city": "金門縣",
+    "search_kind": "family",
+    "query": "\"黃世團\" 金門縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-066",
+    "candidate_name": "張國威",
+    "county_city": "金門縣",
+    "search_kind": "family",
+    "query": "\"張國威\" 金門縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-067",
+    "candidate_name": "梁文韜",
+    "county_city": "金門縣",
+    "search_kind": "family",
+    "query": "\"梁文韜\" 金門縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-068",
+    "candidate_name": "張火木",
+    "county_city": "金門縣",
+    "search_kind": "family",
+    "query": "\"張火木\" 金門縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-069",
+    "candidate_name": "王忠銘",
+    "county_city": "連江縣",
+    "search_kind": "family",
+    "query": "\"王忠銘\" 連江縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-070",
+    "candidate_name": "曹爾元",
+    "county_city": "連江縣",
+    "search_kind": "family",
+    "query": "\"曹爾元\" 連江縣 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-074",
+    "candidate_name": "高虹安",
+    "county_city": "新竹市",
+    "search_kind": "family",
+    "query": "\"高虹安\" 新竹市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-076",
+    "candidate_name": "何志勇",
+    "county_city": "新竹市",
+    "search_kind": "family",
+    "query": "\"何志勇\" 新竹市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-077",
+    "candidate_name": "黃宏成台灣阿成世界偉人財神總統",
+    "county_city": "嘉義市",
+    "search_kind": "family",
+    "query": "\"黃宏成台灣阿成世界偉人財神總統\" 嘉義市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-078",
+    "candidate_name": "陳愷璜",
+    "county_city": "嘉義市",
+    "search_kind": "family",
+    "query": "\"陳愷璜\" 嘉義市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-079",
+    "candidate_name": "張啓楷",
+    "county_city": "嘉義市",
+    "search_kind": "family",
+    "query": "\"張啓楷\" 嘉義市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-080",
+    "candidate_name": "王美惠",
+    "county_city": "嘉義市",
+    "search_kind": "family",
+    "query": "\"王美惠\" 嘉義市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C2-081",
+    "candidate_name": "王義成",
+    "county_city": "嘉義市",
+    "search_kind": "family",
+    "query": "\"王義成\" 嘉義市 父親 母親 妻子 家庭"
+  },
+  {
+    "candidate_key": "2026-C1-008",
+    "candidate_name": "李四川",
+    "county_city": "新北市",
+    "search_kind": "political_family",
+    "query": "\"李四川\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C1-010",
+    "candidate_name": "張善政",
+    "county_city": "桃園市",
+    "search_kind": "political_family",
+    "query": "\"張善政\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C1-014",
+    "candidate_name": "洪麗華",
+    "county_city": "臺中市",
+    "search_kind": "political_family",
+    "query": "\"洪麗華\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C1-015",
+    "candidate_name": "謝龍介",
+    "county_city": "臺南市",
+    "search_kind": "political_family",
+    "query": "\"謝龍介\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C1-016",
+    "candidate_name": "蕭燐洪",
+    "county_city": "臺南市",
+    "search_kind": "political_family",
+    "query": "\"蕭燐洪\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C1-017",
+    "candidate_name": "葉人文",
+    "county_city": "臺南市",
+    "search_kind": "political_family",
+    "query": "\"葉人文\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-025",
+    "candidate_name": "朱定瑀",
+    "county_city": "新竹縣",
+    "search_kind": "political_family",
+    "query": "\"朱定瑀\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-027",
+    "candidate_name": "陳品安",
+    "county_city": "苗栗縣",
+    "search_kind": "political_family",
+    "query": "\"陳品安\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-028",
+    "candidate_name": "鍾東錦",
+    "county_city": "苗栗縣",
+    "search_kind": "political_family",
+    "query": "\"鍾東錦\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-029",
+    "candidate_name": "陳重嘉",
+    "county_city": "彰化縣",
+    "search_kind": "political_family",
+    "query": "\"陳重嘉\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-030",
+    "candidate_name": "陳素月",
+    "county_city": "彰化縣",
+    "search_kind": "political_family",
+    "query": "\"陳素月\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-031",
+    "candidate_name": "邱建富",
+    "county_city": "彰化縣",
+    "search_kind": "political_family",
+    "query": "\"邱建富\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-033",
+    "candidate_name": "温世政",
+    "county_city": "南投縣",
+    "search_kind": "political_family",
+    "query": "\"温世政\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-034",
+    "candidate_name": "許淑華",
+    "county_city": "南投縣",
+    "search_kind": "political_family",
+    "query": "\"許淑華\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-035",
+    "candidate_name": "吳炳輝",
+    "county_city": "雲林縣",
+    "search_kind": "political_family",
+    "query": "\"吳炳輝\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-037",
+    "candidate_name": "劉建國",
+    "county_city": "雲林縣",
+    "search_kind": "political_family",
+    "query": "\"劉建國\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-038",
+    "candidate_name": "林佳瑜",
+    "county_city": "雲林縣",
+    "search_kind": "political_family",
+    "query": "\"林佳瑜\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-039",
+    "candidate_name": "吳品叡",
+    "county_city": "嘉義縣",
+    "search_kind": "political_family",
+    "query": "\"吳品叡\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-041",
+    "candidate_name": "蘇清泉",
+    "county_city": "屏東縣",
+    "search_kind": "political_family",
+    "query": "\"蘇清泉\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-043",
+    "candidate_name": "陳宏毅",
+    "county_city": "宜蘭縣",
+    "search_kind": "political_family",
+    "query": "\"陳宏毅\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-044",
+    "candidate_name": "吳宗憲",
+    "county_city": "宜蘭縣",
+    "search_kind": "political_family",
+    "query": "\"吳宗憲\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-045",
+    "candidate_name": "劉燦輝",
+    "county_city": "宜蘭縣",
+    "search_kind": "political_family",
+    "query": "\"劉燦輝\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-046",
+    "candidate_name": "林國漳",
+    "county_city": "宜蘭縣",
+    "search_kind": "political_family",
+    "query": "\"林國漳\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-047",
+    "candidate_name": "楊鉯婷",
+    "county_city": "宜蘭縣",
+    "search_kind": "political_family",
+    "query": "\"楊鉯婷\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-048",
+    "candidate_name": "游淑貞",
+    "county_city": "花蓮縣",
+    "search_kind": "political_family",
+    "query": "\"游淑貞\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-049",
+    "candidate_name": "張峻",
+    "county_city": "花蓮縣",
+    "search_kind": "political_family",
+    "query": "\"張峻\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-051",
+    "candidate_name": "羅佩秦",
+    "county_city": "花蓮縣",
+    "search_kind": "political_family",
+    "query": "\"羅佩秦\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-054",
+    "candidate_name": "李吳穎智",
+    "county_city": "臺東縣",
+    "search_kind": "political_family",
+    "query": "\"李吳穎智\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-055",
+    "candidate_name": "王志偉",
+    "county_city": "臺東縣",
+    "search_kind": "political_family",
+    "query": "\"王志偉\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-057",
+    "candidate_name": "陳振中",
+    "county_city": "澎湖縣",
+    "search_kind": "political_family",
+    "query": "\"陳振中\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-058",
+    "candidate_name": "周倪安",
+    "county_city": "澎湖縣",
+    "search_kind": "political_family",
+    "query": "\"周倪安\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-059",
+    "candidate_name": "許智富",
+    "county_city": "澎湖縣",
+    "search_kind": "political_family",
+    "query": "\"許智富\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-060",
+    "candidate_name": "陳盡川",
+    "county_city": "澎湖縣",
+    "search_kind": "political_family",
+    "query": "\"陳盡川\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-061",
+    "candidate_name": "葉竹林",
+    "county_city": "澎湖縣",
+    "search_kind": "political_family",
+    "query": "\"葉竹林\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-062",
+    "candidate_name": "洪和成",
+    "county_city": "金門縣",
+    "search_kind": "political_family",
+    "query": "\"洪和成\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-063",
+    "candidate_name": "李文良",
+    "county_city": "金門縣",
+    "search_kind": "political_family",
+    "query": "\"李文良\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-064",
+    "candidate_name": "黃世團",
+    "county_city": "金門縣",
+    "search_kind": "political_family",
+    "query": "\"黃世團\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-066",
+    "candidate_name": "張國威",
+    "county_city": "金門縣",
+    "search_kind": "political_family",
+    "query": "\"張國威\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-067",
+    "candidate_name": "梁文韜",
+    "county_city": "金門縣",
+    "search_kind": "political_family",
+    "query": "\"梁文韜\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-068",
+    "candidate_name": "張火木",
+    "county_city": "金門縣",
+    "search_kind": "political_family",
+    "query": "\"張火木\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-069",
+    "candidate_name": "王忠銘",
+    "county_city": "連江縣",
+    "search_kind": "political_family",
+    "query": "\"王忠銘\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-070",
+    "candidate_name": "曹爾元",
+    "county_city": "連江縣",
+    "search_kind": "political_family",
+    "query": "\"曹爾元\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-074",
+    "candidate_name": "高虹安",
+    "county_city": "新竹市",
+    "search_kind": "political_family",
+    "query": "\"高虹安\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-076",
+    "candidate_name": "何志勇",
+    "county_city": "新竹市",
+    "search_kind": "political_family",
+    "query": "\"何志勇\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-077",
+    "candidate_name": "黃宏成台灣阿成世界偉人財神總統",
+    "county_city": "嘉義市",
+    "search_kind": "political_family",
+    "query": "\"黃宏成台灣阿成世界偉人財神總統\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-078",
+    "candidate_name": "陳愷璜",
+    "county_city": "嘉義市",
+    "search_kind": "political_family",
+    "query": "\"陳愷璜\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-079",
+    "candidate_name": "張啓楷",
+    "county_city": "嘉義市",
+    "search_kind": "political_family",
+    "query": "\"張啓楷\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-080",
+    "candidate_name": "王美惠",
+    "county_city": "嘉義市",
+    "search_kind": "political_family",
+    "query": "\"王美惠\" 政二代 政治家族 親屬"
+  },
+  {
+    "candidate_key": "2026-C2-081",
+    "candidate_name": "王義成",
+    "county_city": "嘉義市",
+    "search_kind": "political_family",
+    "query": "\"王義成\" 政二代 政治家族 親屬"
+  }
+]

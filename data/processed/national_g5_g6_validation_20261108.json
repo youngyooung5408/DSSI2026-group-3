@@ -1,0 +1,98 @@
+{
+  "executed_date": "2026-11-08",
+  "analysis_features": [
+    "G5_first_time_any_elected_office",
+    "G6_political_family"
+  ],
+  "distance": "equal-weight symmetric categorical Gower = Hamming",
+  "linkage": "average",
+  "primary_cut_distance": 0,
+  "primary_k": {
+    "all": 4,
+    "mayor": 4,
+    "council": 4
+  },
+  "input_bindings": {
+    "all": {
+      "path": "data/processed/national_g5_g6_all_20261108.csv",
+      "sha256": "961a7c075044cc66fba259fad930b0c0963935d5c8da6f754a93e8fdbd808632",
+      "rows": 1574
+    },
+    "mayor": {
+      "path": "data/processed/national_g5_g6_mayor_20261108.csv",
+      "sha256": "35afbe575357c6dd6d434e0f868b7c8d7d514644b22a186270d71463de2565cd",
+      "rows": 81
+    },
+    "council": {
+      "path": "data/processed/national_g5_g6_council_20261108.csv",
+      "sha256": "93da1f97dcc4722d84974a266e86ef144e6925dc27e67a8a16acd883d8a7bef8",
+      "rows": 1493
+    }
+  },
+  "extra_bindings": {
+    "data/processed/national_g5_g6_coverage_20261108.csv": "32b951e0b3483ae8e7fc6e73c7ab0e293de8053d6c351c6340e2a0755a4fa9c8",
+    "data/processed/national_g5_g6_roster_20261108.csv": "b3e063993ee0c26d9513cc175ebfb03837dce90397f11585303d459512c7b944",
+    "data/processed/national_g5_g6_preparation_validation_20261108.json": "90273c17cd0c51b3d31d63436f155ae8552417583885f08ca8473e28f8481b88"
+  },
+  "sample": [
+    {
+      "pool": "all",
+      "input_n": 1574,
+      "included_n": 351,
+      "excluded_n": 1223,
+      "G5_missing_n": 346,
+      "G6_missing_n": 1221
+    },
+    {
+      "pool": "mayor",
+      "input_n": 81,
+      "included_n": 80,
+      "excluded_n": 1,
+      "G5_missing_n": 0,
+      "G6_missing_n": 1
+    },
+    {
+      "pool": "council",
+      "input_n": 1493,
+      "included_n": 271,
+      "excluded_n": 1222,
+      "G5_missing_n": 346,
+      "G6_missing_n": 1220
+    }
+  ],
+  "saved_csv_count": 12,
+  "saved_csv_readback": true,
+  "unique_candidate_keys": true,
+  "three_pool_partition": true,
+  "cross_pool_profile_ids_agree": true,
+  "primary_order_invariance_100_permutations": true,
+  "bootstrap_replicates": 500,
+  "seed": 20261108,
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0",
+    "matplotlib": "3.11.0"
+  },
+  "mayor_minimum_size_guideline_passed": false,
+  "national_scope_counties_each_pool": 22,
+  "research_roster_n": 1574,
+  "complete_case_n": 351,
+  "excluded_missing_n": 1223,
+  "G6_zero_means": "recorded targeted search found no qualifying relative; not proof of absence",
+  "G5_archive_inference_in_analysis_n": 8,
+  "Yu_provisionally_included": true,
+  "official_eligibility_approval_claimed": false,
+  "all_nationwide_G6_searched": false,
+  "election_results_impact_assessed": false,
+  "limitations": [
+    "Only two binary features: observed profiles; replicated groups mechanically have silhouette 1, singleton 0.",
+    "Nationwide roster scope does not imply complete coverage or representativeness.",
+    "Councillor analysis is dominated by Taipei/Kaohsiung; selection on available G5/G6 evidence.",
+    "G6 negative searches have unequal visibility and do not prove family absence.",
+    "Archive nonmatches are inferred first candidacy, not complete lifetime evidence.",
+    "Yu is included by explicit research decision, not certified eligible."
+  ]
+}

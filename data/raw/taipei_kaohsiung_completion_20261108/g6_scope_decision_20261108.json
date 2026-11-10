@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-08",
+  "source": "user_chat_reply",
+  "question": "Should relatives who held ordinary military or civil-service jobs count as political family?",
+  "answer_verbatim": "no i do not think these counts",
+  "rule": "Exclude ordinary military and civil-service jobs from G6; retain elected and appointed political offices under the existing rule.",
+  "cases": [
+    {
+      "candidate_key": "2026|直轄市議員|臺北市第1選舉區|林延鳳",
+      "candidate_name": "林延鳳",
+      "excluded_relative_role": "外公士官長",
+      "new_G6": "0",
+      "reason": "已完成兩輪公職親屬搜尋；本例一般軍職或常任文官依使用者明確決定排除，未查得其他符合範圍政治公職親屬。"
+    },
+    {
+      "candidate_key": "2026|直轄市議員|臺北市第3選舉區|李明璇",
+      "candidate_name": "李明璇",
+      "excluded_relative_role": "父親陸軍少將",
+      "new_G6": "0",
+      "reason": "已完成兩輪公職親屬搜尋；本例一般軍職或常任文官依使用者明確決定排除，未查得其他符合範圍政治公職親屬。"
+    },
+    {
+      "candidate_key": "2026|直轄市議員|臺北市第6選舉區|徐弘庭",
+      "candidate_name": "徐弘庭",
+      "excluded_relative_role": "父親臺鐵中階公務員",
+      "new_G6": "0",
+      "reason": "已完成兩輪公職親屬搜尋；本例一般軍職或常任文官依使用者明確決定排除，未查得其他符合範圍政治公職親屬。"
+    }
+  ],
+  "limit": "0仍表示指定搜尋未發現符合範圍者，不是證明無任何親屬；不將本人職涯或一般黨職擴張成政治家族。"
+}

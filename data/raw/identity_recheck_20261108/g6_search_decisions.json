@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_name": "蘇輝湟",
+    "queries": [
+      "\"蘇輝湟\" 家族 父親 配偶",
+      "\"蘇輝湟\" 政治家族 父母 兄弟 妻子"
+    ],
+    "decision": "0",
+    "status": "none_found_online_screen",
+    "checked_date": "2026-11-08",
+    "reviewed_urls": [
+      "https://whoareyou.readr.tw/person/44342"
+    ],
+    "limitations": "搜尋結果未發現符合三親等／配偶且有公職的親屬；READr人物頁全文未列親屬。Yahoo相關新聞404，列存取失敗，不當作已讀全文。依使用者明確規則編0，並非已證明無親屬。"
+  },
+  {
+    "candidate_name": "林志成",
+    "queries": [
+      "\"林志成\" 台北市長 家族 父親 配偶",
+      "\"林志成\" \"健美\" 政治家族 父母 妻子"
+    ],
+    "decision": "0",
+    "status": "none_found_online_screen",
+    "checked_date": "2026-11-08",
+    "reviewed_urls": [
+      "https://ctbbf2010.wixsite.com/ctbbf/關於我們"
+    ],
+    "limitations": "健美背景脈絡搜尋未發現符合範圍的公職親屬；排除80歲大溪音樂老師同名者。協會全文僅核對職涯，不證明無親屬。依使用者規則編0。"
+  },
+  {
+    "candidate_name": "郭璽",
+    "queries": [
+      "\"郭璽\" \"政治世家\"",
+      "\"郭璽\" \"林黎真\" 議員 公職 家族"
+    ],
+    "decision": "",
+    "status": "family_leads_need_full_text_review",
+    "checked_date": "2026-11-08",
+    "reviewed_urls": [],
+    "limitations": "搜尋片段有配偶與姻親名稱差異；不得僅憑片段定案，待全文核對"
+  },
+  {
+    "candidate_name": "唐新民",
+    "queries": [
+      "\"唐新民\" \"父親\" 政治",
+      "\"唐新民\" \"唐煥章\" 公職"
+    ],
+    "decision": "",
+    "status": "relative_public_role_pending",
+    "checked_date": "2026-11-08",
+    "reviewed_urls": [],
+    "limitations": "父親背景待核對，未自動填0"
+  }
+]
