@@ -104,6 +104,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Dataset | Role | Data file | Documentation | Processing notebook | Verification | SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- |
+| party_weighted_distances_20261114 | analysis input | [資料](data/processed/party_weighted_distances_20261114.csv) | [說明](data/processed/party_weighted_distances_20261114_documentation.ipynb) | [處理](data/code/prepare_party_weighted_distances_20261114.ipynb) | 2026-11-14 clean kernel；441列、三種比例、重讀／對稱／對角線／0–1核對；沿用來源假設 | bc7454bd77c457179736afcbacdbcff58cf6145558788c2de3bbb1c51c1abd29 |
 | party_vector_20261114 | analysis input | [資料](data/processed/party_vector_20261114.csv) | [說明](data/processed/party_vector_20261114_documentation.ipynb) | [處理](data/code/prepare_party_vector_20261114.ipynb) | 2026-11-14 clean kernel；重讀、鍵、正規化及向量檢查；來源口徑不同、缺值100假設 | f57ecc5c3f01211ee526dc82c99a7eb6922bfaa9c307a1c5ca63ea29c27e795f |
 | candidates_scope_g1_g6_party_vector_20261114 | analysis input | [資料](data/processed/candidates_scope_g1_g6_party_vector_20261114.csv) | [說明](data/processed/party_vector_20261114_documentation.ipynb) | [處理](data/code/prepare_party_vector_20261114.ipynb) | 2026-11-14 clean kernel；重讀、鍵、正規化及向量檢查；來源口徑不同、缺值100假設 | 97b96b65b9e89a27db44768f1d4e3da91889c454b8efa5b0577231e358340f18 |
 | party_difference_vector_20261114 | analysis input | [資料](data/processed/party_difference_vector_20261114.csv) | [說明](data/processed/party_vector_20261114_documentation.ipynb) | [處理](data/code/prepare_party_vector_20261114.ipynb) | 2026-11-14 clean kernel；重讀、鍵、正規化及向量檢查；來源口徑不同、缺值100假設 | 4d56330bc5628eac95054c12086baa388612e86421c4b6f4abf5e56bb15a22de |
@@ -3610,6 +3611,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
+| RUEI-HSIANG, CHANG（AI協助：Codex） | [政黨加權距離](data/code/prepare_party_weighted_distances_20261114.ipynb)：光譜：規模1:3、1:5、1:10單位向量內積，各組min–max；441列新CSV與執行資料文件 | 待提交（貢獻紀錄未完成） |
 | RUEI-HSIANG, CHANG（AI協助：Codex） | [政黨二維編碼](data/code/prepare_party_vector_20261114.ipynb)：缺值100、黨員min–max、267人合併與441政黨差距向量；資料文件clean kernel驗證；未重跑PAM | 待提交（貢獻紀錄未完成） |
 | RUEI-HSIANG, CHANG | [189人帳號與S1–S10來源蒐集](report/strategy_collection_20261111.md)：公開來源擷取、帳號證據、兩篇貼文試抓、政策及視覺來源、執行處理與資料文件（AI協作） | 待提交（貢獻紀錄未完成） |
 | RUEI-HSIANG, CHANG（AI協助） | 依要求移除G5/G6兩欄分群及衍生群特徵finding、圖檔與伴隨報告，修復索引／來源文件參照；保留全部資料bytes及G1–G6分析程式，未重新執行分析 | 待提交（貢獻紀錄未完成） |
