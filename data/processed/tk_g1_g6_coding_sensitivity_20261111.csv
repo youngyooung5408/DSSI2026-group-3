@@ -1,0 +1,7 @@
+﻿pool,check,N,method,k,ARI_vs_primary_common_candidates
+all,education_ordinal_at_fixed_method_K,189,PAM,3,0.8012836931216527
+all,exclude_unpublished_education_flag_at_fixed_method_K,184,PAM,3,1.0
+all,other_algorithm_same_K,189,Average linkage,3,0.007986358088120314
+council,education_ordinal_at_fixed_method_K,178,PAM,4,0.4283959962139758
+council,exclude_unpublished_education_flag_at_fixed_method_K,173,PAM,4,0.33304817423940647
+council,other_algorithm_same_K,178,Average linkage,4,0.17614423360758105

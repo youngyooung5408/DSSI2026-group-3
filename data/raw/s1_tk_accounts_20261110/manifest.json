@@ -1,0 +1,163 @@
+[
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/b5569e490b3760cbe5db.json",
+    "sha256": "c547b1b1ed389ba3614d226a58efd2969b7af5376768c202173f89dcab726637",
+    "requested_url": "https://dpptaipei.org.tw/publicservans/hsu-shu-hua/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/52d517f2cd091856f373.json",
+    "sha256": "257a985c858f78c0935aa704d2044b96a20cb84d3f3a47755636b69f2d7d7c99",
+    "requested_url": "https://john.oen.tw/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/a25f32bc5bc915c6154f.json",
+    "sha256": "7e7fe4fc9aeb324592e618dcc842b68bc446728b67643058cc425fbdfe6c3190",
+    "requested_url": "https://page.line.me/eso5326z",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/cc0c1e1c2980eeb19dfd.json",
+    "sha256": "5c7dcf2c7e15811a43d242cececb1aa4da7fd69fb7199f8ca227b8d0d9a8f93b",
+    "requested_url": "https://pridewatch.tw/user/309",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/ba5c7302d507e102d6d7.json",
+    "sha256": "0c12e0714946201baba7c0d3b76d14febe575008d256d8f06b63cb36f504ca68",
+    "requested_url": "https://pridewatch.tw/user/3825",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/791ed83075ae33efd279.json",
+    "sha256": "64a354480630486e0ac22821e36d1499571365735d7e4881bc0dba5bb6f286e6",
+    "requested_url": "https://pridewatch.tw/user/4235",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/c7cebfaa688ae4109ed3.json",
+    "sha256": "20b53db06a3e774ee6b57f63a1a22baa47bf08a9ae5d4f05029f675ee0eb53c7",
+    "requested_url": "https://pridewatch.tw/user/429",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/524f9f72447ce1a08c59.json",
+    "sha256": "a6d41121f1c80181691d8aaf2c16ab0360cbb9a70303bce92c766ceacc82fc44",
+    "requested_url": "https://pridewatch.tw/user/685",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/cef3d8b2984123575d1b.json",
+    "sha256": "239fc81159c72c35049836230c45e1e20cbf5848218228095c59a30441bb8abe",
+    "requested_url": "https://pridewatch.tw/user/772",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/0a3c61e17821ee90df2b.json",
+    "sha256": "6a2aec453318cd15f7d29e7bfd4b0cb74b8afca5683b0498b1deeadb7d60b758",
+    "requested_url": "https://puma.taipei/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/cab91a155008312e422c.json",
+    "sha256": "dab0114cc3ef9c58025cfeb1171672bb5e28a4fdb1ab48d5bcf14640b7b216c6",
+    "requested_url": "https://teamtaiwan.dpp.org.tw/asset/types/election/js/script_mayor.js?v=1.06",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/3dad9737fe02bf5b9822.json",
+    "sha256": "7ebab7322f224ec2b73ec4d80a0bef4013bd4976c47efcce73c9e64fd73d808d",
+    "requested_url": "https://www.kcc.gov.tw/Member_List3.aspx?n=39&sms=9028",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/0914bd34bf0b52ef2c4a.json",
+    "sha256": "a80368f1672219343f065c08e7948e2b3532989f8fcb1824a93a55833e4e6586",
+    "requested_url": "https://www.pumashen.org/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/ea8701d95029e885aad6.json",
+    "sha256": "4545d220cd44c15b64386c1282a66f4d49b494d534092259bd8a1d12120b4d0c",
+    "requested_url": "https://www.taiwangogo.tw/chen-chih-ying/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/50b22ce8b7a3e6fd7409.json",
+    "sha256": "c84aa58f2360c0d57e160ee3c0f8b63ce9b34a747e25cdd65e5dd555adf793e2",
+    "requested_url": "https://www.taiwangogo.tw/hsieh-min-hung/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/ca24a3eb1da1a498883c.json",
+    "sha256": "a841df0ed0c21a3967a79db57d7eaefb1e48a6b4730d39dbe08ce8b53b4153b6",
+    "requested_url": "https://www.taiwangogo.tw/hsueh-chao-chi/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/8853da31089f05ed88af.json",
+    "sha256": "2b0536db4ad694a2f553514ca81b5bdf8307466f88e853d75cb6e1316e587dae",
+    "requested_url": "https://www.taiwangogo.tw/li-hui-hsuan/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/38c8a89a30712044dac9.json",
+    "sha256": "2ef4a0e41019cb672ecc93dfd982de321edd098dd59a9a1387025a7efec445d9",
+    "requested_url": "https://www.taiwangogo.tw/teng-le-chiang/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/4b68edf3fc599a2eba40.json",
+    "sha256": "4c04559fdf01a10146c105d726a612b95337918b0ead0e9503f2da168b26af35",
+    "requested_url": "https://www.taiwangogo.tw/wang-chen-ting/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/d08b17c685eeeea3a02d.json",
+    "sha256": "171bda650c1b04ebc0f341d668cd3bdbc4c9d67309a1157d069fa81ef62a661a",
+    "requested_url": "https://www.taiwangogo.tw/wu-hsin-tai/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/6d70f296f13d0d4fc261.json",
+    "sha256": "787181b7c3c9f845ce6d31dc8043280541c01a88ba8c0baaffe1eb482c87f285",
+    "requested_url": "https://www.taiwangogo.tw/yu-hsien-ling/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/058b1362bec1f063b8ae.json",
+    "sha256": "95e2f9c624316f764f5042531ee4fafd5755c8c1bbc077412f4b906ad29db775",
+    "requested_url": "https://www.tcc.gov.tw/",
+    "http_status": 200,
+    "error": ""
+  },
+  {
+    "path": "data/raw/s1_tk_accounts_20261110/6b48718b731b217b3a07.json",
+    "sha256": "6cbcd301897cc1ace64c89a138ca8c4685586d0b853e76d5d48cf2fa66289dac",
+    "requested_url": "https://www.zenolai.tw/",
+    "http_status": 200,
+    "error": ""
+  }
+]

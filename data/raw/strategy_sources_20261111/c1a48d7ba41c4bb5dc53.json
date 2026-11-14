@@ -1,0 +1,3821 @@
+{
+  "capture_id": "c1a48d7ba41c4bb5dc53",
+  "requested_url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86",
+  "fetched_at_utc": "2026-11-10T17:23:22.933824+00:00",
+  "title": "賴瑞隆 - 维基百科，自由的百科全书",
+  "links": [
+    {
+      "text": "跳转到内容",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#bodyContent"
+    },
+    {
+      "text": "首页",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "分类索引",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95"
+    },
+    {
+      "text": "特色内容",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9"
+    },
+    {
+      "text": "新闻动态",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B"
+    },
+    {
+      "text": "随机条目",
+      "url": "https://zh.wikipedia.org/wiki/Special:Random"
+    },
+    {
+      "text": "联络我们",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "帮助",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "维基社群",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "编辑入门",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E5%85%A5%E9%97%A8"
+    },
+    {
+      "text": "互助客栈",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88"
+    },
+    {
+      "text": "IRC即时聊天",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"
+    },
+    {
+      "text": "最近更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChanges"
+    },
+    {
+      "text": "特殊页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:SpecialPages"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "搜索",
+      "url": "https://zh.wikipedia.org/wiki/Special:Search"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "序言",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "1 早年",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#早年"
+    },
+    {
+      "text": "2 政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#政治生涯"
+    },
+    {
+      "text": "2.1 幕僚",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#幕僚"
+    },
+    {
+      "text": "2.2 行政院",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#行政院"
+    },
+    {
+      "text": "2.3 高雄市政府",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#高雄市政府"
+    },
+    {
+      "text": "2.4 立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#立法委員"
+    },
+    {
+      "text": "2.5 參選高雄市長",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#參選高雄市長"
+    },
+    {
+      "text": "3 爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#爭議"
+    },
+    {
+      "text": "3.1 孩子疑似涉校園霸凌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#孩子疑似涉校園霸凌"
+    },
+    {
+      "text": "3.2 收受詐騙集團政治獻金",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#收受詐騙集團政治獻金"
+    },
+    {
+      "text": "4 選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#選舉紀錄"
+    },
+    {
+      "text": "5 參考文獻",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#參考文獻"
+    },
+    {
+      "text": "6 外部連結",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#外部連結"
+    },
+    {
+      "text": "日本語",
+      "url": "https://ja.wikipedia.org/wiki/%E9%A0%BC%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "한국어",
+      "url": "https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EB%A3%A8%EC%9D%B4%EB%A3%BD"
+    },
+    {
+      "text": "编辑链接",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q19825797#sitelinks-wikipedia"
+    },
+    {
+      "text": "条目",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "讨论",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "不转换",
+      "url": "https://zh.wikipedia.org/zh/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "简体",
+      "url": "https://zh.wikipedia.org/zh-hans/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "繁體",
+      "url": "https://zh.wikipedia.org/zh-hant/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "大陆简体",
+      "url": "https://zh.wikipedia.org/zh-cn/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "香港繁體",
+      "url": "https://zh.wikipedia.org/zh-hk/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "澳門繁體",
+      "url": "https://zh.wikipedia.org/zh-mo/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "大马简体",
+      "url": "https://zh.wikipedia.org/zh-my/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "新加坡简体",
+      "url": "https://zh.wikipedia.org/zh-sg/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "臺灣正體",
+      "url": "https://zh.wikipedia.org/zh-tw/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "查看源代码",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "查看源代码",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "链入页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:WhatLinksHere/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "相关更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChangesLinked/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "上传文件",
+      "url": "https://zh.wikipedia.org/wiki/Project:上传"
+    },
+    {
+      "text": "固定链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&oldid=95295152"
+    },
+    {
+      "text": "页面信息",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&action=info"
+    },
+    {
+      "text": "引用此页",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=%E8%B3%B4%E7%91%9E%E9%9A%86&id=95295152&wpFormIdentifier=titleform"
+    },
+    {
+      "text": "获取短链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2F%25E8%25B3%25B4%25E7%2591%259E%25E9%259A%2586"
+    },
+    {
+      "text": "下载为PDF",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=%E8%B3%B4%E7%91%9E%E9%9A%86&action=show-download-screen"
+    },
+    {
+      "text": "打印页面",
+      "url": "javascript:print();"
+    },
+    {
+      "text": "维基共享资源",
+      "url": "https://commons.wikimedia.org/wiki/Category:Lai_Jui-lung"
+    },
+    {
+      "text": "维基数据项目",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q19825797"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%BF%9D%E8%AD%B7#semi"
+    },
+    {
+      "text": "討論頁",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E8%B3%B4%E7%91%9E%E9%9A%86.jpg"
+    },
+    {
+      "text": "中華民國立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "高雄市第八選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E5%85%AB%E9%81%B8%E8%88%89%E5%8D%80_(%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)"
+    },
+    {
+      "text": "林國正",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%9C%8B%E6%AD%A3"
+    },
+    {
+      "text": "高雄市第九選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E4%B9%9D%E9%81%B8%E8%88%89%E5%8D%80_(2010%E2%80%932016%E5%B9%B4%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)"
+    },
+    {
+      "text": "高雄市政府",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "陳菊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%8F%8A"
+    },
+    {
+      "text": "高雄市政府新聞局",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C%E6%96%B0%E8%81%9E%E5%B1%80"
+    },
+    {
+      "text": "丁允恭",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%81%E5%85%81%E6%81%AD"
+    },
+    {
+      "text": "臺灣省",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%9C%81"
+    },
+    {
+      "text": "彰化縣",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E7%B8%A3"
+    },
+    {
+      "text": "大村鄉",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%9D%91%E9%84%89_(%E5%8F%B0%E7%81%A3)"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "臺北縣板橋市莒光國民小學",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E8%8E%92%E5%85%89%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8"
+    },
+    {
+      "text": "臺北縣江翠國民中學",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E6%B1%9F%E7%BF%A0%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "省立板橋高中",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E6%9D%BF%E6%A9%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "東吳大學",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E5%90%B3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "國立臺灣大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "民主進步黨立法院黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "立法院經濟委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E7%B6%93%E6%BF%9F%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "立法院內政委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E5%85%A7%E6%94%BF%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "高雄市政府",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "高雄市政府新聞局",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C%E6%96%B0%E8%81%9E%E5%B1%80"
+    },
+    {
+      "text": "2009年世界運動會",
+      "url": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4%E4%B8%96%E7%95%8C%E9%81%8B%E5%8B%95%E6%9C%83"
+    },
+    {
+      "text": "行政院新聞局",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A1%8C%E6%94%BF%E9%99%A2%E6%96%B0%E8%81%9E%E5%B1%80"
+    },
+    {
+      "text": "行政院勞工委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%8B%9E%E5%8B%95%E9%83%A8"
+    },
+    {
+      "text": "立法院",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "新潮流系",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%BD%AE%E6%B5%81%E7%B3%BB"
+    },
+    {
+      "text": "高雄市市長",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B8%82%E9%95%B7"
+    },
+    {
+      "text": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "民主進步黨立法院黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "高雄市政府",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "高雄市政府新聞局",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C%E6%96%B0%E8%81%9E%E5%B1%80"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Wiki_letter_w_cropped.svg"
+    },
+    {
+      "text": "扩充",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&action=edit"
+    },
+    {
+      "text": "彰化縣",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E7%B8%A3"
+    },
+    {
+      "text": "大村鄉",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%9D%91%E9%84%89_(%E5%8F%B0%E7%81%A3)"
+    },
+    {
+      "text": "板橋市",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%BF%E6%A9%8B%E5%B8%82"
+    },
+    {
+      "text": "板橋市莒光國民小學",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E8%8E%92%E5%85%89%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8"
+    },
+    {
+      "text": "吳思瑤",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D%E7%91%A4"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:0-1"
+    },
+    {
+      "text": "臺北縣江翠國民中學",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E6%B1%9F%E7%BF%A0%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "省立板橋高中",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E6%9D%BF%E6%A9%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "東吳大學",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E5%90%B3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "國立臺灣大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "田徑",
+      "url": "https://zh.wikipedia.org/wiki/%E7%94%B0%E5%BE%91"
+    },
+    {
+      "text": "鉛球",
+      "url": "https://zh.wikipedia.org/wiki/%E9%89%9B%E7%90%83"
+    },
+    {
+      "text": "[ 2 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:2-2"
+    },
+    {
+      "text": "鐵餅",
+      "url": "https://zh.wikipedia.org/wiki/%E9%90%B5%E9%A4%85"
+    },
+    {
+      "text": "標槍",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A8%99%E6%A7%8D"
+    },
+    {
+      "text": "排球",
+      "url": "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83"
+    },
+    {
+      "text": "棒球",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A3%92%E7%90%83"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:0-1"
+    },
+    {
+      "text": "蘇貞昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E8%B2%9E%E6%98%8C"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:0-1"
+    },
+    {
+      "text": "賴勁麟",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E5%8B%81%E9%BA%9F"
+    },
+    {
+      "text": "[ 3 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-3"
+    },
+    {
+      "text": "行政院勞工委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A1%8C%E6%94%BF%E9%99%A2%E5%8B%9E%E5%B7%A5%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "陳菊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%8F%8A"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:0-1"
+    },
+    {
+      "text": "[ 4 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:1-4"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:0-1"
+    },
+    {
+      "text": "2009年高雄世運",
+      "url": "https://zh.wikipedia.org/wiki/2009%E5%B9%B4%E4%B8%96%E7%95%8C%E9%81%8B%E5%8B%95%E6%9C%83"
+    },
+    {
+      "text": "[ 2 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:2-2"
+    },
+    {
+      "text": "高雄市政府新聞局",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C%E6%96%B0%E8%81%9E%E5%B1%80"
+    },
+    {
+      "text": "[ 4 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-:1-4"
+    },
+    {
+      "text": "五月天",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E6%9C%88%E5%A4%A9"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-5"
+    },
+    {
+      "text": "[ 6 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-6"
+    },
+    {
+      "text": "高雄市政府",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "高雄市第九選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E4%B9%9D%E9%81%B8%E8%88%89%E5%8D%80_(2010%E2%80%932016%E5%B9%B4%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)"
+    },
+    {
+      "text": "前鎮區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%89%8D%E9%8E%AE%E5%8D%80"
+    },
+    {
+      "text": "小港區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%B8%AF%E5%8D%80"
+    },
+    {
+      "text": "陳信瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BF%A1%E7%91%9C"
+    },
+    {
+      "text": "[ 7 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-7"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "林國正",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%9C%8B%E6%AD%A3"
+    },
+    {
+      "text": "[ 8 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-8"
+    },
+    {
+      "text": "高雄市第八選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E5%85%AB%E9%81%B8%E8%88%89%E5%8D%80_(%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)"
+    },
+    {
+      "text": "2008年",
+      "url": "https://zh.wikipedia.org/wiki/2008%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "[ 9 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-9"
+    },
+    {
+      "text": "[ 10 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-10"
+    },
+    {
+      "text": "邱議瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%AD%B0%E7%91%A9"
+    },
+    {
+      "text": "林岱樺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B2%B1%E6%A8%BA"
+    },
+    {
+      "text": "許智傑",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%99%BA%E5%82%91"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "柯志恩",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BF%97%E6%81%A9"
+    },
+    {
+      "text": "[ 11 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-11"
+    },
+    {
+      "text": "[ 12 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-12"
+    },
+    {
+      "text": "TVBS",
+      "url": "https://zh.wikipedia.org/wiki/TVBS"
+    },
+    {
+      "text": "[ 13 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-13"
+    },
+    {
+      "text": "[ 14 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-14"
+    },
+    {
+      "text": "[ 15 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-15"
+    },
+    {
+      "text": "[ 16 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-16"
+    },
+    {
+      "text": "[ 17 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-17"
+    },
+    {
+      "text": "[ 18 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-18"
+    },
+    {
+      "text": "[ 19 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-19"
+    },
+    {
+      "text": "[ 20 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-20"
+    },
+    {
+      "text": "[ 21 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-21"
+    },
+    {
+      "text": "[ 22 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-22"
+    },
+    {
+      "text": "[ 23 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_note-23"
+    },
+    {
+      "text": "第9屆立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "高雄市第九選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E4%B9%9D%E9%81%B8%E8%88%89%E5%8D%80_(2010%E2%80%932016%E5%B9%B4%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Elected_candidate_symbol_(voting_stamp,_Taiwan).svg"
+    },
+    {
+      "text": "第10屆立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC10%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "高雄市第八選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E5%85%AB%E9%81%B8%E8%88%89%E5%8D%80_(%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)"
+    },
+    {
+      "text": "第11屆立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "第5屆高雄市市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89#高雄市"
+    },
+    {
+      "text": "高雄市",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82"
+    },
+    {
+      "text": "1.0",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:0_1-0"
+    },
+    {
+      "text": "1.1",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:0_1-1"
+    },
+    {
+      "text": "1.2",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:0_1-2"
+    },
+    {
+      "text": "1.3",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:0_1-3"
+    },
+    {
+      "text": "1.4",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:0_1-4"
+    },
+    {
+      "text": "從投履歷給蘇貞昌到追隨陳菊南下　賴瑞隆的從政路在高雄發光發熱",
+      "url": "https://www.cmmedia.com.tw/home/articles/54198"
+    },
+    {
+      "text": "2.0",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:2_2-0"
+    },
+    {
+      "text": "2.1",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:2_2-1"
+    },
+    {
+      "text": "歷史觀測站／五月天推手到打造黃色小鴨傳奇！賴瑞隆20年港都從政之路",
+      "url": "https://www.ftvnews.com.tw/news/detail/2026509W0201"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-3"
+    },
+    {
+      "text": "百里侯爭霸／「跟高雄人站一起」 政策控賴瑞隆盯行政效率",
+      "url": "https://udn.com/vote2026/story/124652/9601492"
+    },
+    {
+      "text": "4.0",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:1_4-0"
+    },
+    {
+      "text": "4.1",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-:1_4-1"
+    },
+    {
+      "text": "賴瑞隆 接高雄市新聞局長",
+      "url": "https://www.ctee.com.tw/news/20101224700127-439901"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-5"
+    },
+    {
+      "text": "賴瑞隆獲選10大MVP經理人",
+      "url": "https://web.archive.org/web/20220402110646/https://www.chinatimes.com/newspapers/20131205000627-260107?chdtv"
+    },
+    {
+      "text": "原始内容",
+      "url": "https://www.chinatimes.com/newspapers/20131205000627-260107?chdtv"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-6"
+    },
+    {
+      "text": "高市府新聞、海洋局 新舊局長交接",
+      "url": "https://tw.news.yahoo.com/%E9%AB%98%E5%B8%82%E5%BA%9C%E6%96%B0%E8%81%9E-%E6%B5%B7%E6%B4%8B%E5%B1%80-%E6%96%B0%E8%88%8A%E5%B1%80%E9%95%B7%E4%BA%A4%E6%8E%A5-050042006.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-7"
+    },
+    {
+      "text": "高雄小港立委初選　賴瑞隆勝出",
+      "url": "https://web.archive.org/web/20150419140740/http://www.appledaily.com.tw/realtimenews/article/new/20150320/577824/"
+    },
+    {
+      "text": "原始内容",
+      "url": "http://www.appledaily.com.tw/realtimenews/article/new/20150320/577824/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-8"
+    },
+    {
+      "text": "首次參選就勝選　賴瑞隆：高雄拚轉型改變",
+      "url": "http://www.ettoday.net/news/20160116/632241.htm"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190412190519/https://www.ettoday.net/news/20160116/632241.htm"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-9"
+    },
+    {
+      "text": "高雄市綠委賴瑞隆宣布當選 狂喜丟3承諾、5感謝",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/3037310"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20200810125419/https://news.ltn.com.tw/news/politics/breakingnews/3037310"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-10"
+    },
+    {
+      "text": "賴瑞隆連兩屆奪下高雄立委選舉最高票 今展開謝票",
+      "url": "http://web.archive.org/web/20240226185138/https://news.ltn.com.tw/news/politics/breakingnews/4551875"
+    },
+    {
+      "text": "原始内容",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/4551875"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-11"
+    },
+    {
+      "text": "民進黨高雄市長初選賴瑞隆勝出　中執會21日提名",
+      "url": "https://www.cna.com.tw/news/aipl/202601135005.aspx"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20260113100801/https://www.cna.com.tw/news/aipl/202601135005.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-12"
+    },
+    {
+      "text": "綠高雄市長初選賴瑞隆勝出 柯志恩回應將以小搏大取勝",
+      "url": "https://news.pts.org.tw/article/790508"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20260114080905/https://news.pts.org.tw/article/790508"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-13"
+    },
+    {
+      "text": "獨／「爆打同學還出言恐嚇」 南部某市長參選人子女被控霸凌",
+      "url": "https://news.tvbs.com.tw/politics/3063079"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20260208212421/https://news.tvbs.com.tw/politics/3063079"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-14"
+    },
+    {
+      "text": "兒遭控霸凌同儕「堵廁所威脅12分鐘」！賴瑞隆：全力配合調查",
+      "url": "https://news.ttv.com.tw/news/11412050000200W"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20251208182435/https://news.ttv.com.tw/news/11412050000200W"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-15"
+    },
+    {
+      "text": "家人校園惹風波 賴瑞隆致歉：自我檢討深切反省",
+      "url": "https://www.cna.com.tw/news/aipl/202512050095.aspx"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20260104232856/https://www.cna.com.tw/news/aipl/202512050095.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-16"
+    },
+    {
+      "text": "家人校園惹風波 賴瑞隆落淚致歉",
+      "url": "https://www.cna.com.tw/news/aloc/202512070142.aspx"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20260105190702/https://www.cna.com.tw/news/aloc/202512070142.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-17"
+    },
+    {
+      "text": "賴瑞隆兒子涉霸凌同學！校方啟動輔導措施 「4點聲明」全文曝光",
+      "url": "https://www.ftvnews.com.tw/news/detail/2025C05W0289"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-18"
+    },
+    {
+      "text": "兒涉霸凌賴瑞隆當面道歉！女童媽：只想制止傷害 敬佩賴瑞隆的擔當",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5270842"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20251214132210/https://news.ltn.com.tw/news/politics/breakingnews/5270842"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-19"
+    },
+    {
+      "text": "家人校園風波 賴瑞隆：與對方達成共識非霸凌",
+      "url": "https://www.cna.com.tw/news/aipl/202512270077.aspx"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20260108145847/https://www.cna.com.tw/news/aipl/202512270077.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-20"
+    },
+    {
+      "text": "獨／賴瑞隆聲明稱「是衝突非霸凌」 孩童家屬氣：掉進陷阱被設計",
+      "url": "https://news.tvbs.com.tw/politics/3085943"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20260221220224/https://news.tvbs.com.tw/politics/3085943"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-21"
+    },
+    {
+      "text": "賴瑞隆控柯志恩「詐騙共犯」 許采蓁翻政治獻金：也收五互20萬",
+      "url": "https://tw.news.yahoo.com/%E8%B3%B4%E7%91%9E%E9%9A%86%E6%8E%A7%E6%9F%AF%E5%BF%97%E6%81%A9-%E8%A9%90%E9%A8%99%E5%85%B1%E7%8A%AF-%E8%A8%B1%E9%87%87%E8%93%81%E7%BF%BB%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91-%E4%B9%9F%E6%94%B6%E4%BA%94%E4%BA%9220%E8%90%AC-063813905.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-22"
+    },
+    {
+      "text": "遭爆收「吸金200億五互集團」政治獻金 賴瑞隆：爭議款項全返還 | ETtoday政治新聞 | ETtoday新聞雲",
+      "url": "https://www.ettoday.net/news/20260902/3230076.htm"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#cite_ref-23"
+    },
+    {
+      "text": "賴瑞隆收詐團政治獻金全退遭打臉 藍爆「只退龍海、不退陳秋白」公然說謊",
+      "url": "https://tw.news.yahoo.com/%E8%B3%B4%E7%91%9E%E9%9A%86%E6%94%B6%E8%A9%90%E5%9C%98%E6%94%BF%E6%B2%BB%E7%8D%BB%E9%87%91%E5%85%A8%E9%80%80%E9%81%AD%E6%89%93%E8%87%89-%E8%97%8D%E7%88%86-%E5%8F%AA%E9%80%80%E9%BE%8D%E6%B5%B7-%E4%B8%8D%E9%80%80%E9%99%B3%E7%A7%8B%E7%99%BD-%E5%85%AC%E7%84%B6%E8%AA%AA%E8%AC%8A-090353352.html"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Commons-logo.svg"
+    },
+    {
+      "text": "维基共享资源",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%9F%BA%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90"
+    },
+    {
+      "text": "賴瑞隆",
+      "url": "https://commons.wikimedia.org/wiki/Category:Lai_Jui-lung"
+    },
+    {
+      "text": "賴瑞隆| Facebook",
+      "url": "https://www.facebook.com/pages/%E8%B3%B4%E7%91%9E%E9%9A%86/774908905922784"
+    },
+    {
+      "text": "中華民國政府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Emblem_of_Kaohsiung_City.svg"
+    },
+    {
+      "text": "高雄市政府",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "新聞局",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C%E6%96%B0%E8%81%9E%E5%B1%80"
+    },
+    {
+      "text": "丁允恭",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%81%E5%85%81%E6%81%AD"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/wiki/Template_talk:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "立法院第九屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E5%90%8D%E5%96%AE"
+    },
+    {
+      "text": "院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "蘇嘉全",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%98%89%E5%85%A8"
+    },
+    {
+      "text": "副院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E5%89%AF%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "民主進步黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "吳思瑤",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D%E7%91%A4"
+    },
+    {
+      "text": "姚文智",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A7%9A%E6%96%87%E6%99%BA"
+    },
+    {
+      "text": "何志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "呂孫綾",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E5%AD%AB%E7%B6%BE"
+    },
+    {
+      "text": "林淑芬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%B7%91%E8%8A%AC"
+    },
+    {
+      "text": "高志鵬",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BF%97%E9%B5%AC"
+    },
+    {
+      "text": "余天",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%99%E5%A4%A9"
+    },
+    {
+      "text": "吳秉叡",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%A7%89%E5%8F%A1"
+    },
+    {
+      "text": "蘇巧慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%B7%A7%E6%85%A7"
+    },
+    {
+      "text": "張宏陸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%AE%8F%E9%99%B8"
+    },
+    {
+      "text": "羅致政",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E8%87%B4%E6%94%BF"
+    },
+    {
+      "text": "江永昌",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E6%B0%B8%E6%98%8C"
+    },
+    {
+      "text": "吳琪銘",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%90%AA%E9%8A%98"
+    },
+    {
+      "text": "蔡適應",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E9%81%A9%E6%87%89"
+    },
+    {
+      "text": "陳歐珀",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%AD%90%E7%8F%80"
+    },
+    {
+      "text": "鄭運鵬",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E9%81%8B%E9%B5%AC"
+    },
+    {
+      "text": "陳賴素美",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%B3%B4%E7%B4%A0%E7%BE%8E"
+    },
+    {
+      "text": "鄭寶清",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%AF%B6%E6%B8%85"
+    },
+    {
+      "text": "趙正宇",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B6%99%E6%AD%A3%E5%AE%87"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "張廖萬堅",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%BB%96%E8%90%AC%E5%A0%85"
+    },
+    {
+      "text": "黃國書",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%9C%8B%E6%9B%B8_(1964%E5%B9%B4)"
+    },
+    {
+      "text": "何欣純",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%AC%A3%E7%B4%94"
+    },
+    {
+      "text": "黃秀芳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%A7%80%E8%8A%B3"
+    },
+    {
+      "text": "洪宗熠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%AE%97%E7%86%A0"
+    },
+    {
+      "text": "陳素月",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%B4%A0%E6%9C%88"
+    },
+    {
+      "text": "蘇治芬",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E6%B2%BB%E8%8A%AC"
+    },
+    {
+      "text": "劉建國",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E5%BB%BA%E5%9C%8B_(%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "蔡易餘",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%93%E9%A4%98"
+    },
+    {
+      "text": "陳明文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%98%8E%E6%96%87"
+    },
+    {
+      "text": "王美惠",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%8E%E6%83%A0"
+    },
+    {
+      "text": "李俊俋",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E4%BF%8A%E4%BF%8B"
+    },
+    {
+      "text": "葉宜津",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%89%E5%AE%9C%E6%B4%A5"
+    },
+    {
+      "text": "黃偉哲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%81%89%E5%93%B2"
+    },
+    {
+      "text": "郭國文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E5%9C%8B%E6%96%87"
+    },
+    {
+      "text": "陳亭妃",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BA%AD%E5%A6%83"
+    },
+    {
+      "text": "林俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "邱議瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%AD%B0%E7%91%A9"
+    },
+    {
+      "text": "邱志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "劉世芳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E4%B8%96%E8%8A%B3"
+    },
+    {
+      "text": "林岱樺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B2%B1%E6%A8%BA"
+    },
+    {
+      "text": "管碧玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "text": "李昆澤",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%98%86%E6%BE%A4"
+    },
+    {
+      "text": "趙天麟",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B6%99%E5%A4%A9%E9%BA%9F_(1973%E5%B9%B4)"
+    },
+    {
+      "text": "許智傑",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%99%BA%E5%82%91"
+    },
+    {
+      "text": "鍾佳濱",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E4%BD%B3%E6%BF%B1"
+    },
+    {
+      "text": "蘇震清",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E9%9C%87%E6%B8%85"
+    },
+    {
+      "text": "鍾佳濱",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E4%BD%B3%E6%BF%B1"
+    },
+    {
+      "text": "莊瑞雄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%8A%E7%91%9E%E9%9B%84"
+    },
+    {
+      "text": "蕭美琴",
+      "url": "https://zh.wikipedia.org/wiki/%E8%95%AD%E7%BE%8E%E7%90%B4"
+    },
+    {
+      "text": "劉櫂豪",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E6%AB%82%E8%B1%AA"
+    },
+    {
+      "text": "楊曜",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E6%9B%9C"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "吳焜裕",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%84%9C%E8%A3%95"
+    },
+    {
+      "text": "吳玉琴",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%8E%89%E7%90%B4"
+    },
+    {
+      "text": "陳曼麗",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%9B%BC%E9%BA%97"
+    },
+    {
+      "text": "顧立雄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A1%A7%E7%AB%8B%E9%9B%84"
+    },
+    {
+      "text": "蔡培慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%9F%B9%E6%85%A7"
+    },
+    {
+      "text": "王榮璋",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%A6%AE%E7%92%8B"
+    },
+    {
+      "text": "谷辣斯·尤達卡",
+      "url": "https://zh.wikipedia.org/wiki/Kolas_Yotaka"
+    },
+    {
+      "text": "余宛如",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%99%E5%AE%9B%E5%A6%82"
+    },
+    {
+      "text": "蘇嘉全",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%98%89%E5%85%A8"
+    },
+    {
+      "text": "段宜康",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B5%E5%AE%9C%E5%BA%B7"
+    },
+    {
+      "text": "鄭麗君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E9%BA%97%E5%90%9B"
+    },
+    {
+      "text": "陳其邁",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%B6%E9%82%81"
+    },
+    {
+      "text": "尤美女",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%A4%E7%BE%8E%E5%A5%B3"
+    },
+    {
+      "text": "李應元",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%87%89%E5%85%83"
+    },
+    {
+      "text": "鍾孔炤",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E5%AD%94%E7%82%A4"
+    },
+    {
+      "text": "林靜儀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%9D%9C%E5%84%80"
+    },
+    {
+      "text": "徐國勇",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%9C%8B%E5%8B%87"
+    },
+    {
+      "text": "周春米",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%A8%E6%98%A5%E7%B1%B3"
+    },
+    {
+      "text": "施義芳",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%BD%E7%BE%A9%E8%8A%B3"
+    },
+    {
+      "text": "李麗芬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%BA%97%E8%8A%AC_(%E7%A4%BE%E9%81%8B%E4%BA%BA%E5%A3%AB)"
+    },
+    {
+      "text": "郭正亮",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E6%AD%A3%E4%BA%AE"
+    },
+    {
+      "text": "邱泰源",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E6%B3%B0%E6%BA%90"
+    },
+    {
+      "text": "蔣絜安",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E7%B5%9C%E5%AE%89"
+    },
+    {
+      "text": "陳靜敏",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%9D%9C%E6%95%8F"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "陳瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%91%A9_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:9th_Legislative_Yuan.svg"
+    },
+    {
+      "text": "中國國民黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "江啟臣",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%95%9F%E8%87%A3"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "蔣萬安",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E8%90%AC%E5%AE%89"
+    },
+    {
+      "text": "李彥秀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BD%A5%E7%A7%80"
+    },
+    {
+      "text": "蔣乃辛",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E4%B9%83%E8%BE%9B"
+    },
+    {
+      "text": "費鴻泰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B2%BB%E9%B4%BB%E6%B3%B0"
+    },
+    {
+      "text": "赖士葆",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%96%E5%A3%AB%E8%91%86"
+    },
+    {
+      "text": "林德福",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%BE%B7%E7%A6%8F_(%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8)"
+    },
+    {
+      "text": "羅明才",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%98%8E%E6%89%8D"
+    },
+    {
+      "text": "陳學聖",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%AD%B8%E8%81%96"
+    },
+    {
+      "text": "呂玉玲",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E7%8E%89%E7%8E%B2"
+    },
+    {
+      "text": "林為洲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E7%82%BA%E6%B4%B2"
+    },
+    {
+      "text": "陳超明",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%B6%85%E6%98%8E"
+    },
+    {
+      "text": "徐志榮",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%BF%97%E6%A6%AE"
+    },
+    {
+      "text": "顏寬恒",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A1%8F%E5%AF%AC%E6%81%92"
+    },
+    {
+      "text": "盧秀燕",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E7%A7%80%E7%87%95"
+    },
+    {
+      "text": "沈智慧",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E6%99%BA%E6%85%A7_(%E8%87%BA%E7%81%A3)"
+    },
+    {
+      "text": "楊瓊瓔",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E7%93%8A%E7%93%94"
+    },
+    {
+      "text": "王惠美",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%83%A0%E7%BE%8E"
+    },
+    {
+      "text": "柯呈枋",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%91%88%E6%9E%8B"
+    },
+    {
+      "text": "馬文君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%96%87%E5%90%9B"
+    },
+    {
+      "text": "許淑華",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%B7%91%E8%8F%AF_(1975%E5%B9%B4)"
+    },
+    {
+      "text": "楊鎮浯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E9%8E%AE%E6%B5%AF"
+    },
+    {
+      "text": "陳玉珍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%8E%89%E7%8F%8D_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "陳雪生",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%9B%AA%E7%94%9F"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "王金平",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "text": "柯志恩",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BF%97%E6%81%A9"
+    },
+    {
+      "text": "陳宜民",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%AE%9C%E6%B0%91"
+    },
+    {
+      "text": "林麗蟬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%BA%97%E8%9F%AC"
+    },
+    {
+      "text": "許毓仁",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%AF%93%E4%BB%81"
+    },
+    {
+      "text": "曾銘宗",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E9%8A%98%E5%AE%97"
+    },
+    {
+      "text": "黃昭順",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%98%AD%E9%A0%86"
+    },
+    {
+      "text": "吳志揚",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%BF%97%E6%8F%9A_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "張麗善",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%BA%97%E5%96%84"
+    },
+    {
+      "text": "徐榛蔚",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E6%A6%9B%E8%94%9A"
+    },
+    {
+      "text": "王育敏",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%82%B2%E6%95%8F"
+    },
+    {
+      "text": "林奕華",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A5%95%E8%8F%AF_(%E8%87%BA%E7%81%A3)"
+    },
+    {
+      "text": "童惠珍",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%A5%E6%83%A0%E7%8F%8D"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "鄭天財",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%A4%A9%E8%B2%A1"
+    },
+    {
+      "text": "廖國棟",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%9C%8B%E6%A3%9F"
+    },
+    {
+      "text": "簡東明",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B0%A1%E6%9D%B1%E6%98%8E"
+    },
+    {
+      "text": "孔文吉",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AD%94%E6%96%87%E5%90%89"
+    },
+    {
+      "text": "時代力量黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "黃國昌",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%9C%8B%E6%98%8C"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "林昶佐",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%98%B6%E4%BD%90"
+    },
+    {
+      "text": "黃國昌",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%9C%8B%E6%98%8C"
+    },
+    {
+      "text": "洪慈庸",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E6%85%88%E5%BA%B8"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "高潞·以用·巴魕剌",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E6%BD%9E%C2%B7%E4%BB%A5%E7%94%A8%C2%B7%E5%B7%B4%E9%AD%95%E5%89%8C"
+    },
+    {
+      "text": "徐永明",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E6%B0%B8%E6%98%8E"
+    },
+    {
+      "text": "鄭秀玲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E7%A7%80%E7%8E%B2"
+    },
+    {
+      "text": "親民黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A6%AA%E6%B0%91%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "李鴻鈞",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%B4%BB%E9%88%9E_(1959%E5%B9%B4)"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "李鴻鈞",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%B4%BB%E9%88%9E_(1959%E5%B9%B4)"
+    },
+    {
+      "text": "陳怡潔",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%80%A1%E6%BD%94"
+    },
+    {
+      "text": "周陳秀霞",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%A8%E9%99%B3%E7%A7%80%E9%9C%9E"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "無盟",
+      "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E9%BB%A8%E5%9C%98%E7%B5%90%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "高金素梅",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%87%91%E7%B4%A0%E6%A2%85"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "林昶佐",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%98%B6%E4%BD%90"
+    },
+    {
+      "text": "洪慈庸",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E6%85%88%E5%BA%B8"
+    },
+    {
+      "text": "第八屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%85%AB%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "第九屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "第十屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/wiki/Template_talk:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "立法院第十屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E5%90%8D%E5%96%AE"
+    },
+    {
+      "text": "院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "游錫堃",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E9%8C%AB%E5%A0%83"
+    },
+    {
+      "text": "副院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E5%89%AF%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "民主進步黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "吳思瑤",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D%E7%91%A4"
+    },
+    {
+      "text": "何志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "高嘉瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E5%98%89%E7%91%9C"
+    },
+    {
+      "text": "林昶佐",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%98%B6%E4%BD%90"
+    },
+    {
+      "text": "林淑芬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%B7%91%E8%8A%AC"
+    },
+    {
+      "text": "余天",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%99%E5%A4%A9"
+    },
+    {
+      "text": "吳秉叡",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%A7%89%E5%8F%A1"
+    },
+    {
+      "text": "蘇巧慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%B7%A7%E6%85%A7"
+    },
+    {
+      "text": "張宏陸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%AE%8F%E9%99%B8"
+    },
+    {
+      "text": "羅致政",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E8%87%B4%E6%94%BF"
+    },
+    {
+      "text": "江永昌",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E6%B0%B8%E6%98%8C"
+    },
+    {
+      "text": "吳琪銘",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%90%AA%E9%8A%98"
+    },
+    {
+      "text": "賴品妤",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E5%93%81%E5%A6%A4"
+    },
+    {
+      "text": "蔡適應",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E9%81%A9%E6%87%89"
+    },
+    {
+      "text": "陳歐珀",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%AD%90%E7%8F%80"
+    },
+    {
+      "text": "鄭運鵬",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E9%81%8B%E9%B5%AC"
+    },
+    {
+      "text": "黃世杰",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%B8%96%E6%9D%B0_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "趙正宇",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B6%99%E6%AD%A3%E5%AE%87"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "林靜儀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%9D%9C%E5%84%80"
+    },
+    {
+      "text": "張廖萬堅",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%BB%96%E8%90%AC%E5%A0%85"
+    },
+    {
+      "text": "黃國書",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%9C%8B%E6%9B%B8_(1964%E5%B9%B4)"
+    },
+    {
+      "text": "何欣純",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%AC%A3%E7%B4%94"
+    },
+    {
+      "text": "陳秀寳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%A7%80%E5%AF%B3"
+    },
+    {
+      "text": "黃秀芳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%A7%80%E8%8A%B3"
+    },
+    {
+      "text": "陳素月",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%B4%A0%E6%9C%88"
+    },
+    {
+      "text": "蔡培慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%9F%B9%E6%85%A7"
+    },
+    {
+      "text": "蘇治芬",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E6%B2%BB%E8%8A%AC"
+    },
+    {
+      "text": "劉建國",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E5%BB%BA%E5%9C%8B_(%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "蔡易餘",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%93%E9%A4%98"
+    },
+    {
+      "text": "陳明文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%98%8E%E6%96%87"
+    },
+    {
+      "text": "王美惠",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%8E%E6%83%A0"
+    },
+    {
+      "text": "賴惠員",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%83%A0%E5%93%A1"
+    },
+    {
+      "text": "郭國文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E5%9C%8B%E6%96%87"
+    },
+    {
+      "text": "陳亭妃",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BA%AD%E5%A6%83"
+    },
+    {
+      "text": "林宜瑾",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%AE%9C%E7%91%BE"
+    },
+    {
+      "text": "林俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "邱議瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%AD%B0%E7%91%A9"
+    },
+    {
+      "text": "邱志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "劉世芳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E4%B8%96%E8%8A%B3"
+    },
+    {
+      "text": "林岱樺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B2%B1%E6%A8%BA"
+    },
+    {
+      "text": "李昆澤",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%98%86%E6%BE%A4"
+    },
+    {
+      "text": "趙天麟",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B6%99%E5%A4%A9%E9%BA%9F_(1973%E5%B9%B4)"
+    },
+    {
+      "text": "許智傑",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%99%BA%E5%82%91"
+    },
+    {
+      "text": "鍾佳濱",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E4%BD%B3%E6%BF%B1"
+    },
+    {
+      "text": "蘇震清",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E9%9C%87%E6%B8%85"
+    },
+    {
+      "text": "劉櫂豪",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E6%AB%82%E8%B1%AA"
+    },
+    {
+      "text": "楊曜",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E6%9B%9C"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "吳玉琴",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%8E%89%E7%90%B4"
+    },
+    {
+      "text": "洪申翰",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E7%94%B3%E7%BF%B0"
+    },
+    {
+      "text": "范雲",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8C%83%E9%9B%B2_(1968%E5%B9%B4)"
+    },
+    {
+      "text": "羅美玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E7%BE%8E%E7%8E%B2_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "邱泰源",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E6%B3%B0%E6%BA%90"
+    },
+    {
+      "text": "周春米",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%A8%E6%98%A5%E7%B1%B3"
+    },
+    {
+      "text": "游錫堃",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E9%8C%AB%E5%A0%83"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "管碧玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "text": "莊瑞雄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%8A%E7%91%9E%E9%9B%84"
+    },
+    {
+      "text": "沈發惠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E7%99%BC%E6%83%A0"
+    },
+    {
+      "text": "林楚茵",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%A5%9A%E8%8C%B5"
+    },
+    {
+      "text": "湯蕙禎",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%95%99%E7%A6%8E"
+    },
+    {
+      "text": "陳靜敏",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%9D%9C%E6%95%8F"
+    },
+    {
+      "text": "陳培瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "陳瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%91%A9_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "伍麗華",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8D%E9%BA%97%E8%8F%AF"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:10th_Legislative_Yuan_Seat_Composition.svg"
+    },
+    {
+      "text": "中國國民黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "曾銘宗",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E9%8A%98%E5%AE%97"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "蔣萬安",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E8%90%AC%E5%AE%89"
+    },
+    {
+      "text": "王鴻薇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "text": "林奕華",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A5%95%E8%8F%AF_(%E8%87%BA%E7%81%A3)"
+    },
+    {
+      "text": "費鴻泰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B2%BB%E9%B4%BB%E6%B3%B0"
+    },
+    {
+      "text": "赖士葆",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%96%E5%A3%AB%E8%91%86"
+    },
+    {
+      "text": "洪孟楷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%AD%9F%E6%A5%B7"
+    },
+    {
+      "text": "林淑芬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%B7%91%E8%8A%AC"
+    },
+    {
+      "text": "林德福",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%BE%B7%E7%A6%8F_(%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8)"
+    },
+    {
+      "text": "羅明才",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%98%8E%E6%89%8D"
+    },
+    {
+      "text": "魯明哲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AD%AF%E6%98%8E%E5%93%B2"
+    },
+    {
+      "text": "萬美玲",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E7%BE%8E%E7%8E%B2"
+    },
+    {
+      "text": "林為洲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E7%82%BA%E6%B4%B2"
+    },
+    {
+      "text": "林思銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%80%9D%E9%93%AD"
+    },
+    {
+      "text": "鄭正鈐",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E6%AD%A3%E9%88%90"
+    },
+    {
+      "text": "陳超明",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%B6%85%E6%98%8E"
+    },
+    {
+      "text": "徐志榮",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%BF%97%E6%A6%AE"
+    },
+    {
+      "text": "楊瓊瓔",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E7%93%8A%E7%93%94"
+    },
+    {
+      "text": "江啟臣",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%95%9F%E8%87%A3"
+    },
+    {
+      "text": "謝衣鳯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AC%9D%E8%A1%A3%E9%B3%AF"
+    },
+    {
+      "text": "馬文君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%96%87%E5%90%9B"
+    },
+    {
+      "text": "許淑華",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%B7%91%E8%8F%AF_(1975%E5%B9%B4)"
+    },
+    {
+      "text": "傅崐萁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%82%85%E5%B4%90%E8%90%81"
+    },
+    {
+      "text": "陳玉珍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%8E%89%E7%8F%8D_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "陳雪生",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%9B%AA%E7%94%9F"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "曾銘宗",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E9%8A%98%E5%AE%97"
+    },
+    {
+      "text": "游毓蘭",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E6%AF%93%E8%98%AD"
+    },
+    {
+      "text": "李貴敏",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%B2%B4%E6%95%8F"
+    },
+    {
+      "text": "吳斯懷",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%96%AF%E6%87%B7"
+    },
+    {
+      "text": "鄭麗文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E9%BA%97%E6%96%87"
+    },
+    {
+      "text": "林文瑞",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%96%87%E7%91%9E"
+    },
+    {
+      "text": "廖婉汝",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%A9%89%E6%B1%9D"
+    },
+    {
+      "text": "翁重鈞",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BF%81%E9%87%8D%E9%88%9E"
+    },
+    {
+      "text": "吳怡玎",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%A1%E7%8E%8E"
+    },
+    {
+      "text": "陳以信",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BB%A5%E4%BF%A1"
+    },
+    {
+      "text": "張育美",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E8%82%B2%E7%BE%8E"
+    },
+    {
+      "text": "李德維",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BE%B7%E7%B6%AD"
+    },
+    {
+      "text": "溫玉霞",
+      "url": "https://zh.wikipedia.org/wiki/%E6%BA%AB%E7%8E%89%E9%9C%9E"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "鄭天財",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%A4%A9%E8%B2%A1"
+    },
+    {
+      "text": "廖國棟",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%9C%8B%E6%A3%9F"
+    },
+    {
+      "text": "高金素梅",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%87%91%E7%B4%A0%E6%A2%85"
+    },
+    {
+      "text": "孔文吉",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AD%94%E6%96%87%E5%90%89"
+    },
+    {
+      "text": "台灣民眾黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B0%91%E7%9C%BE%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "邱臣遠",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%87%A3%E9%81%A0"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "賴香伶",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E9%A6%99%E4%BC%B6"
+    },
+    {
+      "text": "張其祿",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%85%B6%E7%A5%BF"
+    },
+    {
+      "text": "高虹安",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E8%99%B9%E5%AE%89"
+    },
+    {
+      "text": "邱臣遠",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%87%A3%E9%81%A0"
+    },
+    {
+      "text": "蔡壁如",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%A3%81%E5%A6%82"
+    },
+    {
+      "text": "吳欣盈",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%AC%A3%E7%9B%88"
+    },
+    {
+      "text": "陳琬惠",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%90%AC%E6%83%A0"
+    },
+    {
+      "text": "時代力量黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "邱顯智",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E9%A1%AF%E6%99%BA"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "陳椒華",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%A4%92%E8%8F%AF"
+    },
+    {
+      "text": "邱顯智",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E9%A1%AF%E6%99%BA"
+    },
+    {
+      "text": "王婉諭",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A9%89%E8%AB%AD"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "基",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%9F%BA%E9%80%B2"
+    },
+    {
+      "text": "陳柏惟",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%9F%8F%E6%83%9F"
+    },
+    {
+      "text": "黃國書",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%9C%8B%E6%9B%B8_(1964%E5%B9%B4)"
+    },
+    {
+      "text": "劉櫂豪",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E6%AB%82%E8%B1%AA"
+    },
+    {
+      "text": "第九屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "第十屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "第十一屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/wiki/Template_talk:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "立法院第十一屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E5%90%8D%E5%96%AE"
+    },
+    {
+      "text": "院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "韓國瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9F%93%E5%9C%8B%E7%91%9C"
+    },
+    {
+      "text": "副院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E5%89%AF%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "江啟臣",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%95%9F%E8%87%A3"
+    },
+    {
+      "text": "中國國民黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "傅崐萁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%82%85%E5%B4%90%E8%90%81"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "王鴻薇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "text": "李彥秀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BD%A5%E7%A7%80"
+    },
+    {
+      "text": "羅智強",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "text": "徐巧芯",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%B7%A7%E8%8A%AF"
+    },
+    {
+      "text": "赖士葆",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%96%E5%A3%AB%E8%91%86"
+    },
+    {
+      "text": "洪孟楷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%AD%9F%E6%A5%B7"
+    },
+    {
+      "text": "葉元之",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%89%E5%85%83%E4%B9%8B"
+    },
+    {
+      "text": "張智倫",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%99%BA%E5%80%AB"
+    },
+    {
+      "text": "林德福",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%BE%B7%E7%A6%8F_(%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8)"
+    },
+    {
+      "text": "羅明才",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%98%8E%E6%89%8D"
+    },
+    {
+      "text": "廖先翔",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%85%88%E7%BF%94"
+    },
+    {
+      "text": "林沛祥",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%B2%9B%E7%A5%A5"
+    },
+    {
+      "text": "牛煦庭",
+      "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E7%85%A6%E5%BA%AD"
+    },
+    {
+      "text": "涂權吉",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B6%82%E6%AC%8A%E5%90%89"
+    },
+    {
+      "text": "魯明哲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AD%AF%E6%98%8E%E5%93%B2"
+    },
+    {
+      "text": "萬美玲",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E7%BE%8E%E7%8E%B2"
+    },
+    {
+      "text": "呂玉玲",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E7%8E%89%E7%8E%B2"
+    },
+    {
+      "text": "邱若華",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%8B%A5%E8%8F%AF"
+    },
+    {
+      "text": "徐欣瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E6%AC%A3%E7%91%A9"
+    },
+    {
+      "text": "林思銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%80%9D%E9%93%AD"
+    },
+    {
+      "text": "鄭正鈐",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E6%AD%A3%E9%88%90"
+    },
+    {
+      "text": "陳超明",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%B6%85%E6%98%8E"
+    },
+    {
+      "text": "邱鎮軍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E9%8E%AE%E8%BB%8D"
+    },
+    {
+      "text": "顏寬恒",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A1%8F%E5%AF%AC%E6%81%92"
+    },
+    {
+      "text": "楊瓊瓔",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E7%93%8A%E7%93%94"
+    },
+    {
+      "text": "廖偉翔",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%81%89%E7%BF%94"
+    },
+    {
+      "text": "黃健豪",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%81%A5%E8%B1%AA"
+    },
+    {
+      "text": "羅廷瑋",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E5%BB%B7%E7%91%8B"
+    },
+    {
+      "text": "江啟臣",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%95%9F%E8%87%A3"
+    },
+    {
+      "text": "謝衣鳯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AC%9D%E8%A1%A3%E9%B3%AF"
+    },
+    {
+      "text": "馬文君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%96%87%E5%90%9B"
+    },
+    {
+      "text": "游顥",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E9%A1%A5"
+    },
+    {
+      "text": "丁學忠",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%81%E5%AD%B8%E5%BF%A0"
+    },
+    {
+      "text": "傅崐萁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%82%85%E5%B4%90%E8%90%81"
+    },
+    {
+      "text": "黃建賓",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%BB%BA%E8%B3%93"
+    },
+    {
+      "text": "陳雪生",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%9B%AA%E7%94%9F"
+    },
+    {
+      "text": "陳玉珍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%8E%89%E7%8F%8D_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "韓國瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9F%93%E5%9C%8B%E7%91%9C"
+    },
+    {
+      "text": "柯志恩",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BF%97%E6%81%A9"
+    },
+    {
+      "text": "葛如鈞",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%9B%E5%A6%82%E9%88%9E"
+    },
+    {
+      "text": "翁曉玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BF%81%E6%9B%89%E7%8E%B2"
+    },
+    {
+      "text": "陳菁徽",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%8F%81%E5%BE%BD"
+    },
+    {
+      "text": "吳宗憲",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%AE%97%E6%86%B2_(1971%E5%B9%B4)"
+    },
+    {
+      "text": "林倩綺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%80%A9%E7%B6%BA"
+    },
+    {
+      "text": "陳永康",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B8%E5%BA%B7_(%E8%BB%8D%E5%AE%98)"
+    },
+    {
+      "text": "許宇甄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E5%AE%87%E7%94%84"
+    },
+    {
+      "text": "謝龍介",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AC%9D%E9%BE%8D%E4%BB%8B"
+    },
+    {
+      "text": "蘇清泉",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E6%B8%85%E6%B3%89"
+    },
+    {
+      "text": "張嘉郡",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%98%89%E9%83%A1"
+    },
+    {
+      "text": "王育敏",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%82%B2%E6%95%8F"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "鄭天財",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%A4%A9%E8%B2%A1"
+    },
+    {
+      "text": "黃仁",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%BB%81_(%E8%87%BA%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "盧縣一",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E7%B8%A3%E4%B8%80"
+    },
+    {
+      "text": "高金素梅",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%87%91%E7%B4%A0%E6%A2%85"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:11th_Legislative_Yuan.svg"
+    },
+    {
+      "text": "民主進步黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "吳思瑤",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D%E7%91%A4"
+    },
+    {
+      "text": "王世堅",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E5%A0%85"
+    },
+    {
+      "text": "吳沛憶",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%B2%9B%E6%86%B6"
+    },
+    {
+      "text": "林淑芬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%B7%91%E8%8A%AC"
+    },
+    {
+      "text": "李坤城",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%9D%A4%E5%9F%8E_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "吳秉叡",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%A7%89%E5%8F%A1"
+    },
+    {
+      "text": "蘇巧慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%B7%A7%E6%85%A7"
+    },
+    {
+      "text": "張宏陸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%AE%8F%E9%99%B8"
+    },
+    {
+      "text": "吳琪銘",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%90%AA%E9%8A%98"
+    },
+    {
+      "text": "陳俊宇",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BF%8A%E5%AE%87"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "何欣純",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%AC%A3%E7%B4%94"
+    },
+    {
+      "text": "陳秀寳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%A7%80%E5%AF%B3"
+    },
+    {
+      "text": "黃秀芳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%A7%80%E8%8A%B3"
+    },
+    {
+      "text": "陳素月",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%B4%A0%E6%9C%88"
+    },
+    {
+      "text": "劉建國",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E5%BB%BA%E5%9C%8B_(%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "蔡易餘",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%93%E9%A4%98"
+    },
+    {
+      "text": "陳冠廷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%A0%E5%BB%B7_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "王美惠",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%8E%E6%83%A0"
+    },
+    {
+      "text": "賴惠員",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%83%A0%E5%93%A1"
+    },
+    {
+      "text": "郭國文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E5%9C%8B%E6%96%87"
+    },
+    {
+      "text": "陳亭妃",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BA%AD%E5%A6%83"
+    },
+    {
+      "text": "林宜瑾",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%AE%9C%E7%91%BE"
+    },
+    {
+      "text": "林俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "邱議瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%AD%B0%E7%91%A9"
+    },
+    {
+      "text": "邱志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "李柏毅",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%9F%8F%E6%AF%85_(%E9%AB%98%E9%9B%84%E5%B8%82)"
+    },
+    {
+      "text": "林岱樺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B2%B1%E6%A8%BA"
+    },
+    {
+      "text": "李昆澤",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%98%86%E6%BE%A4"
+    },
+    {
+      "text": "黃捷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%8D%B7"
+    },
+    {
+      "text": "許智傑",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%99%BA%E5%82%91"
+    },
+    {
+      "text": "鍾佳濱",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E4%BD%B3%E6%BF%B1"
+    },
+    {
+      "text": "徐富癸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%AF%8C%E7%99%B8"
+    },
+    {
+      "text": "楊曜",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E6%9B%9C"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "林月琴",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%9C%88%E7%90%B4_(%E8%87%BA%E7%81%A3)"
+    },
+    {
+      "text": "沈伯洋",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "張雅琳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%9B%85%E7%90%B3"
+    },
+    {
+      "text": "洪申翰",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E7%94%B3%E7%BF%B0"
+    },
+    {
+      "text": "羅美玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E7%BE%8E%E7%8E%B2_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "游錫堃",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E9%8C%AB%E5%A0%83"
+    },
+    {
+      "text": "范雲",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8C%83%E9%9B%B2_(1968%E5%B9%B4)"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "沈發惠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E7%99%BC%E6%83%A0"
+    },
+    {
+      "text": "莊瑞雄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%8A%E7%91%9E%E9%9B%84"
+    },
+    {
+      "text": "林楚茵",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%A5%9A%E8%8C%B5"
+    },
+    {
+      "text": "郭昱晴",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E6%98%B1%E6%99%B4"
+    },
+    {
+      "text": "陳培瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "text": "王正旭",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E6%97%AD"
+    },
+    {
+      "text": "王義川",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%A9%E5%B7%9D"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "陳瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%91%A9_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "伍麗華",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8D%E9%BA%97%E8%8F%AF"
+    },
+    {
+      "text": "台灣民眾黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B0%91%E7%9C%BE%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "陳清龍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B8%85%E9%BE%8D"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "黃珊珊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%8F%8A%E7%8F%8A"
+    },
+    {
+      "text": "黃國昌",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%9C%8B%E6%98%8C"
+    },
+    {
+      "text": "陳昭姿",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%98%AD%E5%A7%BF"
+    },
+    {
+      "text": "吳春城",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%98%A5%E5%9F%8E"
+    },
+    {
+      "text": "麥玉珍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E7%8E%89%E7%8F%8D"
+    },
+    {
+      "text": "林國成",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%9C%8B%E6%88%90"
+    },
+    {
+      "text": "林憶君",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%86%B6%E5%90%9B"
+    },
+    {
+      "text": "張啓楷",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%95%93%E6%A5%B7"
+    },
+    {
+      "text": "李貞秀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%B2%9E%E7%A7%80"
+    },
+    {
+      "text": "劉書彬",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E6%9B%B8%E5%BD%AC"
+    },
+    {
+      "text": "洪毓祥",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E6%AF%93%E7%A5%A5"
+    },
+    {
+      "text": "蔡春綢",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%A5%E7%B6%A2"
+    },
+    {
+      "text": "王安祥",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A5%A5"
+    },
+    {
+      "text": "邱慧洳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E6%85%A7%E6%B4%B3"
+    },
+    {
+      "text": "陳清龍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B8%85%E9%BE%8D"
+    },
+    {
+      "text": "許忠信",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E5%BF%A0%E4%BF%A1"
+    },
+    {
+      "text": "第十屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "第十一屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Template_talk:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83&action=edit&redlink=1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "主席",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E4%B8%BB%E5%B8%AD"
+    },
+    {
+      "text": "蔡英文",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E8%8B%B1%E6%96%87"
+    },
+    {
+      "text": "陳其邁",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%B6%E9%82%81"
+    },
+    {
+      "text": "賴清德",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7"
+    },
+    {
+      "text": "秘書長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%A7%98%E6%9B%B8%E9%95%B7"
+    },
+    {
+      "text": "林錫耀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%8C%AB%E8%80%80"
+    },
+    {
+      "text": "林鶴明",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%B6%B4%E6%98%8E"
+    },
+    {
+      "text": "許立明",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E7%AB%8B%E6%98%8E"
+    },
+    {
+      "text": "楊懿珊",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E6%87%BF%E7%8F%8A"
+    },
+    {
+      "text": "副秘書長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%A7%98%E6%9B%B8%E9%95%B7"
+    },
+    {
+      "text": "楊懿珊",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E6%87%BF%E7%8F%8A"
+    },
+    {
+      "text": "許嘉恬",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E5%98%89%E6%81%AC"
+    },
+    {
+      "text": "何博文",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E5%8D%9A%E6%96%87"
+    },
+    {
+      "text": "黃建嘉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%BB%BA%E5%98%89"
+    },
+    {
+      "text": "翁世豪",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BF%81%E4%B8%96%E8%B1%AA"
+    },
+    {
+      "text": "賴清德",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7"
+    },
+    {
+      "text": "黨主席",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E4%B8%BB%E5%B8%AD"
+    },
+    {
+      "text": "黃偉哲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%81%89%E5%93%B2"
+    },
+    {
+      "text": "直轄市長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%B4%E8%BD%84%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "陳其邁",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%B6%E9%82%81"
+    },
+    {
+      "text": "直轄市長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%B4%E8%BD%84%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "立院黨團三長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "吳思瑤",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D%E7%91%A4"
+    },
+    {
+      "text": "立院黨團三長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "莊瑞雄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%8A%E7%91%9E%E9%9B%84"
+    },
+    {
+      "text": "立院黨團三長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "翁章梁",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BF%81%E7%AB%A0%E6%A2%81"
+    },
+    {
+      "text": "縣",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B8%A3_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "陳茂松",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%8C%82%E6%9D%BE"
+    },
+    {
+      "text": "黃承國",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%89%BF%E5%9C%8B"
+    },
+    {
+      "text": "何志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "蘇巧慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%B7%A7%E6%85%A7"
+    },
+    {
+      "text": "蔡易餘",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%93%E9%A4%98"
+    },
+    {
+      "text": "林右昌",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%8F%B3%E6%98%8C"
+    },
+    {
+      "text": "陳世凱",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%B8%96%E5%87%B1"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "林俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "許淑華",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%B7%91%E8%8F%AF_(1973%E5%B9%B4)"
+    },
+    {
+      "text": "周春米",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%A8%E6%98%A5%E7%B1%B3"
+    },
+    {
+      "text": "縣",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B8%A3_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "陳光復",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%89%E5%BE%A9"
+    },
+    {
+      "text": "縣",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B8%A3_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "呂林小鳳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E6%9E%97%E5%B0%8F%E9%B3%B3"
+    },
+    {
+      "text": "黃世杰",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%B8%96%E6%9D%B0_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "簡煥宗",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B0%A1%E7%85%A5%E5%AE%97"
+    },
+    {
+      "text": "許菡芸",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E8%8F%A1%E8%8A%B8"
+    },
+    {
+      "text": "彭成龍",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BD%AD%E6%88%90%E9%BE%8D&action=edit&redlink=1"
+    },
+    {
+      "text": "李姸慧",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%A6%8D%E6%85%A7"
+    },
+    {
+      "text": "林益邦",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9E%97%E7%9B%8A%E9%82%A6&action=edit&redlink=1"
+    },
+    {
+      "text": "彭佳芸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%AD%E4%BD%B3%E8%8A%B8"
+    },
+    {
+      "text": "陳淑華",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B7%91%E8%8F%AF"
+    },
+    {
+      "text": "紀桂珠",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E7%B4%80%E6%A1%82%E7%8F%A0&action=edit&redlink=1"
+    },
+    {
+      "text": "陳亭妃",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BA%AD%E5%A6%83"
+    },
+    {
+      "text": "蘇治芬",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E6%B2%BB%E8%8A%AC"
+    },
+    {
+      "text": "陳啟能",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%95%9F%E8%83%BD_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "許淑華",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%B7%91%E8%8F%AF_(1973%E5%B9%B4)"
+    },
+    {
+      "text": "潘孟安",
+      "url": "https://zh.wikipedia.org/wiki/%E6%BD%98%E5%AD%9F%E5%AE%89"
+    },
+    {
+      "text": "郭再欽",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%83%AD%E5%86%8D%E6%AC%BD&action=edit&redlink=1"
+    },
+    {
+      "text": "鄭美娟",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%84%AD%E7%BE%8E%E5%A8%9F&action=edit&redlink=1"
+    },
+    {
+      "text": "邱俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "王義川",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%A9%E5%B7%9D"
+    },
+    {
+      "text": "曾姿雯",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E5%A7%BF%E9%9B%AF&action=edit&redlink=1"
+    },
+    {
+      "text": "高閔琳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%96%94%E7%90%B3"
+    },
+    {
+      "text": "黃文益",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%96%87%E7%9B%8A"
+    },
+    {
+      "text": "陳坤榮",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%99%B3%E5%9D%A4%E6%A6%AE&action=edit&redlink=1"
+    },
+    {
+      "text": "許文獻",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%A8%B1%E6%96%87%E7%8D%BB&action=edit&redlink=1"
+    },
+    {
+      "text": "呂孫綾",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E5%AD%AB%E7%B6%BE"
+    },
+    {
+      "text": "管碧玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "text": "陳文治",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%96%87%E6%B2%BB"
+    },
+    {
+      "text": "林宜瑾",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%AE%9C%E7%91%BE"
+    },
+    {
+      "text": "李偉智",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%8E%E5%81%89%E6%99%BA&action=edit&redlink=1"
+    },
+    {
+      "text": "王博程",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E7%8E%8B%E5%8D%9A%E7%A8%8B&action=edit&redlink=1"
+    },
+    {
+      "text": "林寶興",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9E%97%E5%AF%B6%E8%88%88&action=edit&redlink=1"
+    },
+    {
+      "text": "第十九屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "第二十屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "第二十一屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Template_talk:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83&action=edit&redlink=1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "主席",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E4%B8%BB%E5%B8%AD"
+    },
+    {
+      "text": "賴清德",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7"
+    },
+    {
+      "text": "秘書長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%A7%98%E6%9B%B8%E9%95%B7"
+    },
+    {
+      "text": "林右昌",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%8F%B3%E6%98%8C"
+    },
+    {
+      "text": "何博文",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E5%8D%9A%E6%96%87"
+    },
+    {
+      "text": "徐國勇",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%9C%8B%E5%8B%87"
+    },
+    {
+      "text": "副秘書長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%A7%98%E6%9B%B8%E9%95%B7"
+    },
+    {
+      "text": "翁世豪",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BF%81%E4%B8%96%E8%B1%AA"
+    },
+    {
+      "text": "賴清德",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7"
+    },
+    {
+      "text": "黨主席",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E4%B8%BB%E5%B8%AD"
+    },
+    {
+      "text": "黃偉哲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%81%89%E5%93%B2"
+    },
+    {
+      "text": "直轄市長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%B4%E8%BD%84%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "陳其邁",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%B6%E9%82%81"
+    },
+    {
+      "text": "直轄市長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%B4%E8%BD%84%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "黨團三長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "莊瑞雄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%8A%E7%91%9E%E9%9B%84"
+    },
+    {
+      "text": "黨團三長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "范雲",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8C%83%E9%9B%B2_(1968%E5%B9%B4)"
+    },
+    {
+      "text": "黨團三長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "翁章梁",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BF%81%E7%AB%A0%E6%A2%81"
+    },
+    {
+      "text": "縣",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B8%A3_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "陳亭妃",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BA%AD%E5%A6%83"
+    },
+    {
+      "text": "林俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "王世堅",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E5%A0%85"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "鍾佩玲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E4%BD%A9%E7%8E%B2"
+    },
+    {
+      "text": "陳淑華",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B7%91%E8%8F%AF"
+    },
+    {
+      "text": "陳茂松",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%8C%82%E6%9D%BE"
+    },
+    {
+      "text": "張宏陸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%AE%8F%E9%99%B8"
+    },
+    {
+      "text": "洪申翰",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E7%94%B3%E7%BF%B0"
+    },
+    {
+      "text": "邱志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "周春米",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%A8%E6%98%A5%E7%B1%B3"
+    },
+    {
+      "text": "縣",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B8%A3_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "陳光復",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%85%89%E5%BE%A9"
+    },
+    {
+      "text": "縣",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B8%A3_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%82_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "張嘉玲",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E5%98%89%E7%8E%B2&action=edit&redlink=1"
+    },
+    {
+      "text": "黃世杰",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%B8%96%E6%9D%B0_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "徐富癸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%AF%8C%E7%99%B8"
+    },
+    {
+      "text": "戴瑋姍",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E7%91%8B%E5%A7%8D"
+    },
+    {
+      "text": "鄭志宏",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%84%AD%E5%BF%97%E5%AE%8F&action=edit&redlink=1"
+    },
+    {
+      "text": "鄭光峰",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%85%89%E5%B3%B0"
+    },
+    {
+      "text": "林宜瑾",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%AE%9C%E7%91%BE"
+    },
+    {
+      "text": "黃守達",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%AE%88%E9%81%94"
+    },
+    {
+      "text": "賴秋媚",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%A7%8B%E5%AA%9A"
+    },
+    {
+      "text": "何文海",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%96%87%E6%B5%B7"
+    },
+    {
+      "text": "張慈馨",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E6%85%88%E9%A6%A8&action=edit&redlink=1"
+    },
+    {
+      "text": "呂林小鳳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E6%9E%97%E5%B0%8F%E9%B3%B3"
+    },
+    {
+      "text": "鄭美娟",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%84%AD%E7%BE%8E%E5%A8%9F&action=edit&redlink=1"
+    },
+    {
+      "text": "陳睿生",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%99%B3%E7%9D%BF%E7%94%9F&action=edit&redlink=1"
+    },
+    {
+      "text": "王世堅",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E5%A0%85"
+    },
+    {
+      "text": "林岱樺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B2%B1%E6%A8%BA"
+    },
+    {
+      "text": "鄭孟洳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%AD%9F%E6%B4%B3"
+    },
+    {
+      "text": "潘新傳",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%BD%98%E6%96%B0%E5%82%B3&action=edit&redlink=1"
+    },
+    {
+      "text": "卓冠廷",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%93%E5%86%A0%E5%BB%B7"
+    },
+    {
+      "text": "童子瑋",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%A5%E5%AD%90%E7%91%8B"
+    },
+    {
+      "text": "林益邦",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9E%97%E7%9B%8A%E9%82%A6&action=edit&redlink=1"
+    },
+    {
+      "text": "李妍慧",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%A6%8D%E6%85%A7"
+    },
+    {
+      "text": "洪宗熠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%AE%97%E7%86%A0"
+    },
+    {
+      "text": "李宗翰",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AE%97%E7%BF%B0_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "張丞儀",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E4%B8%9E%E5%84%80&action=edit&redlink=1"
+    },
+    {
+      "text": "曾朝榮",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E6%9C%9D%E6%A6%AE"
+    },
+    {
+      "text": "蔡昌達",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%8C%E9%81%94"
+    },
+    {
+      "text": "呂孫綾",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E5%AD%AB%E7%B6%BE"
+    },
+    {
+      "text": "周志賢",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%91%A8%E5%BF%97%E8%B3%A2&action=edit&redlink=1"
+    },
+    {
+      "text": "黃中志",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BB%83%E4%B8%AD%E5%BF%97&action=edit&redlink=1"
+    },
+    {
+      "text": "陳怡君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%80%A1%E5%90%9B_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "李雨庭",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%8E%E9%9B%A8%E5%BA%AD&action=edit&redlink=1"
+    },
+    {
+      "text": "第二十屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "二十一屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "第二十二屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%B1%86%E4%B8%AD%E5%A4%AE%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "https://zh.wikipedia.org/w/index.php?title=賴瑞隆&oldid=95295152",
+      "url": "https://zh.wikipedia.org/w/index.php?title=賴瑞隆&oldid=95295152"
+    },
+    {
+      "text": "分类",
+      "url": "https://zh.wikipedia.org/wiki/Special:Categories"
+    },
+    {
+      "text": "1973年出生",
+      "url": "https://zh.wikipedia.org/wiki/Category:1973%E5%B9%B4%E5%87%BA%E7%94%9F"
+    },
+    {
+      "text": "在世人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%A8%E4%B8%96%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "立法院第九屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E4%B9%9D%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "立法院第十屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "立法院第十一屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "新潮流系",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%96%B0%E6%BD%AE%E6%B5%81%E7%B3%BB"
+    },
+    {
+      "text": "陳菊市府成員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E9%99%B3%E8%8F%8A%E5%B8%82%E5%BA%9C%E6%88%90%E5%93%A1"
+    },
+    {
+      "text": "高雄市新聞局局長",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%B0%E8%81%9E%E5%B1%80%E5%B1%80%E9%95%B7"
+    },
+    {
+      "text": "民主進步黨籍立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%B1%8D%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "國立臺灣大學社會科學院校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8%E9%99%A2%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "東吳大學校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%9D%B1%E5%90%B3%E5%A4%A7%E5%AD%B8%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "臺灣省立板橋高級中學校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E7%81%A3%E7%9C%81%E7%AB%8B%E6%9D%BF%E6%A9%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "大村鄉人 (臺灣)",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%A4%A7%E6%9D%91%E9%84%89%E4%BA%BA_(%E8%87%BA%E7%81%A3)"
+    },
+    {
+      "text": "赖姓",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%B5%96%E5%A7%93"
+    },
+    {
+      "text": "高雄市選出的立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E9%AB%98%E9%9B%84%E5%B8%82%E9%81%B8%E5%87%BA%E7%9A%84%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "民主進步黨中央評議委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E4%B8%AD%E5%A4%AE%E8%A9%95%E8%AD%B0%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "新北市板橋區莒光國民小學校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E8%8E%92%E5%85%89%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "中華民國勞動部相關人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%8B%9E%E5%8B%95%E9%83%A8%E7%9B%B8%E9%97%9C%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "行政院新聞局人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%A1%8C%E6%94%BF%E9%99%A2%E6%96%B0%E8%81%9E%E5%B1%80%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "避免破坏保护",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E9%81%BF%E5%85%8D%E7%A0%B4%E5%9D%8F%E4%BF%9D%E6%8A%A4"
+    },
+    {
+      "text": "自2026年2月扩充中的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%AA2026%E5%B9%B42%E6%9C%88%E6%89%A9%E5%85%85%E4%B8%AD%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "扩充中的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%89%A9%E5%85%85%E4%B8%AD%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "所有扩充中的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%89%80%E6%9C%89%E6%89%A9%E5%85%85%E4%B8%AD%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "拒绝当选首页新条目推荐栏目的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%8B%92%E7%BB%9D%E5%BD%93%E9%80%89%E9%A6%96%E9%A1%B5%E6%96%B0%E6%9D%A1%E7%9B%AE%E6%8E%A8%E8%8D%90%E6%A0%8F%E7%9B%AE%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "使用小型訊息框的頁面",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%BD%BF%E7%94%A8%E5%B0%8F%E5%9E%8B%E8%A8%8A%E6%81%AF%E6%A1%86%E7%9A%84%E9%A0%81%E9%9D%A2"
+    },
+    {
+      "text": "维基共享资源分类链接使用了维基数据上的匹配项",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%BB%B4%E5%9F%BA%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90%E5%88%86%E7%B1%BB%E9%93%BE%E6%8E%A5%E4%BD%BF%E7%94%A8%E4%BA%86%E7%BB%B4%E5%9F%BA%E6%95%B0%E6%8D%AE%E4%B8%8A%E7%9A%84%E5%8C%B9%E9%85%8D%E9%A1%B9"
+    },
+    {
+      "text": "知识共享 署名-相同方式共享 4.0协议",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC"
+    },
+    {
+      "text": "使用条款",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use"
+    },
+    {
+      "text": "维基媒体基金会",
+      "url": "https://wikimediafoundation.org"
+    },
+    {
+      "text": "非营利慈善机构",
+      "url": "https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility"
+    },
+    {
+      "text": "隐私政策",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "免责声明",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E"
+    },
+    {
+      "text": "法律与安全事项联系方式",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information"
+    },
+    {
+      "text": "行为准则",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct"
+    },
+    {
+      "text": "开发者",
+      "url": "https://developer.wikimedia.org"
+    },
+    {
+      "text": "统计",
+      "url": "https://stats.wikimedia.org/#/zh.wikipedia.org"
+    },
+    {
+      "text": "Cookie声明",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement"
+    },
+    {
+      "text": "移动版视图",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B3%B4%E7%91%9E%E9%9A%86&mobileaction=toggle_view_mobile"
+    },
+    {
+      "text": "",
+      "url": "https://www.wikimedia.org/"
+    },
+    {
+      "text": "",
+      "url": "https://www.mediawiki.org/"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    },
+    {
+      "text": "添加话题",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86#"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/static/images/icons/wikipedia.png"
+    },
+    {
+      "alt": "维基百科",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-zh.svg"
+    },
+    {
+      "alt": "自由的百科全书",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-zh.svg"
+    },
+    {
+      "alt": "此条目已依據方針獲得半保護，因为曾经遭受破坏，直至2027年5月20日15時58分",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E8%B3%B4%E7%91%9E%E9%9A%86.jpg/250px-%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E8%B3%B4%E7%91%9E%E9%9A%86.jpg?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "[icon]",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/20px-Wiki_letter_w_cropped.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "民主進步黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg/20px-Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "高雄市市旗",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Emblem_of_Kaohsiung_City.svg/40px-Emblem_of_Kaohsiung_City.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/9th_Legislative_Yuan.svg/120px-9th_Legislative_Yuan.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/10th_Legislative_Yuan_Seat_Composition.svg/120px-10th_Legislative_Yuan_Seat_Composition.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/11th_Legislative_Yuan.svg/120px-11th_Legislative_Yuan.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "民主進步黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+    },
+    {
+      "alt": "Wikimedia Foundation",
+      "url": "https://zh.wikipedia.org/static/images/footer/wikimedia.svg"
+    },
+    {
+      "alt": "Powered by MediaWiki",
+      "url": "https://zh.wikipedia.org/w/resources/assets/mediawiki_compact.svg"
+    }
+  ],
+  "og_image": [
+    "https://upload.wikimedia.org/wikipedia/commons/8/82/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E8%B3%B4%E7%91%9E%E9%9A%86.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+  ],
+  "structured_data": [
+    "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Article\",\"name\":\"\\u8cf4\\u745e\\u9686\",\"url\":\"https:\\/\\/zh.wikipedia.org\\/wiki\\/%E8%B3%B4%E7%91%9E%E9%9A%86\",\"sameAs\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q19825797\",\"mainEntity\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q19825797\",\"author\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u9879\\u76ee\\u8d21\\u732e\\u8005\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u57fa\\u91d1\\u4f1a\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.wikimedia.org\\/static\\/images\\/wmf-hor-googpub.png\"}},\"datePublished\":\"2015-04-19T10:25:01Z\",\"dateModified\":\"2026-10-27T03:21:56Z\",\"image\":\"https:\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/8\\/82\\/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E8%B3%B4%E7%91%9E%E9%9A%86.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=original\",\"headline\":\"\\u81fa\\u7063\\u653f\\u6cbb\\u4eba\\u7269\"}"
+  ],
+  "final_url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86",
+  "http_status": 200,
+  "full_visible_text": "賴瑞隆 - 维基百科，自由的百科全书\n跳转到内容\n主菜单\n主菜单\n移至侧栏\n隐藏\n导航\n首页\n分类索引\n特色内容\n新闻动态\n随机条目\n联络我们\n关于维基百科\n贡献\n帮助\n维基社群\n编辑入门\n互助客栈\nIRC即时聊天\n最近更改\n特殊页面\n搜索\n搜索\n外观\n资助维基百科\n创建账号\n登录\n个人工具\n资助维基百科\n创建账号\n登录\n目录\n移至侧栏\n隐藏\n序言\n1\n早年\n2\n政治生涯\n开关政治生涯子章节\n2.1\n幕僚\n2.2\n行政院\n2.3\n高雄市政府\n2.4\n立法委員\n2.5\n參選高雄市長\n3\n爭議\n开关爭議子章节\n3.1\n孩子疑似涉校園霸凌\n3.2\n收受詐騙集團政治獻金\n4\n選舉紀錄\n5\n參考文獻\n6\n外部連結\n开关目录\n賴瑞隆\n2种语言\n日本語\n한국어\n编辑链接\n条目\n讨论\n不转换\n不转换\n简体\n繁體\n大陆简体\n香港繁體\n澳門繁體\n大马简体\n新加坡简体\n臺灣正體\n阅读\n查看源代码\n查看历史\n保存\n工具\n工具\n移至侧栏\n隐藏\n操作\n阅读\n查看源代码\n查看历史\n保存\n常规\n链入页面\n相关更改\n上传文件\n固定链接\n页面信息\n引用此页\n获取短链接\n打印/导出\n下载为PDF\n打印页面\n在其他项目中\n维基共享资源\n维基数据项目\n外观\n移至侧栏\n隐藏\n维基百科，自由的百科全书\n此条目\n不完整\n。\n(\n2026年2月14日\n)\n請幫忙改善本條目，或到\n討論頁\n去討論该條目的問題。\n賴瑞隆\n第9－11屆\n中華民國立法委員\n现任\n就任日期\n2020年2月1日\n选区\n高雄市第八選舉區\n任期\n2016年2月1日—2020年1月31日\n前任\n林國正\n选区\n高雄市第九選舉區\n第3任\n高雄市政府\n海洋局局長\n任期\n2014年2月24日—2015年3月9日\n市長\n陳菊\n前任\n藍健菖\n继任\n柯尚余\n第1任\n高雄市政府新聞局\n局長\n任期\n2010年12月25日—2014年2月23日\n市長\n陳菊\n前任\n首任\n继任\n丁允恭\n个人资料\n出生\n(\n1973-11-15\n)\n1973年11月15日\n（\n52歲）\n臺灣省\n彰化縣\n大村鄉\n政党\n民主進步黨\n配偶\n陳怡元\n学历\n臺北縣板橋市莒光國民小學\n臺北縣江翠國民中學\n省立板橋高中\n東吳大學\n政治學系\n國立臺灣大學\n國家發展研究所碩士\n经历\n立法委員（第9－11屆）\n（2016年2月1日－）\n民主進步黨立法院黨團\n副幹事長\n民主進步黨中央評議委員會主任委員\n立法院經濟委員會\n召集委員\n立法院內政委員會\n召集委員\n高雄市政府\n建設局專門委員\n高雄市政府觀光局主任秘書\n高雄市政府新聞局\n局長\n高雄市政府海洋局局長\n2009年世界運動會\n執行秘書\n行政院新聞局\n簡任秘書\n行政院勞工委員會\n機要專員\n立法院\n國會助理\n著作\n《小鴨把拔向前衝》\n賴瑞隆\n（1973年11月15日—），中華民國政治人物，\n民主進步黨\n籍，\n新潮流系\n，\n高雄市市長\n候選人。現任\n立法委員\n、曾任\n民主進步黨\n中央評議委員會主任委員、\n民主進步黨立法院黨團\n副幹事長、\n高雄市政府\n海洋局局長、\n高雄市政府新聞局\n局長、高雄市政府觀光局主任秘書等職位。\n早年\n此章节需要\n扩充\n。\n賴瑞隆出生於\n彰化縣\n大村鄉\n，由於父親北上工作，全家搬遷至臺北縣\n板橋市\n。就讀\n板橋市莒光國民小學\n期間和\n吳思瑤\n為同學。\n[\n1\n]\n後畢業於\n臺北縣江翠國民中學\n、\n省立板橋高中\n、\n東吳大學\n政治學系、\n國立臺灣大學\n國家發展研究所兩岸組碩士。\n賴瑞隆從小擅長運動，國小時參加\n田徑\n隊及\n鉛球\n隊並在比賽中獲得冠軍。\n[\n2\n]\n後來還練過\n鐵餅\n、\n標槍\n、\n排球\n、\n棒球\n等多種項目，高中時在鉛球比賽中獲得臺北縣第4名。\n[\n1\n]\n政治生涯\n幕僚\n大學畢業後，成為時任立委\n蘇貞昌\n助理。\n[\n1\n]\n其後改任時任立委\n賴勁麟\n幕僚。\n[\n3\n]\n行政院\n受到時任\n行政院勞工委員會\n主委\n陳菊\n邀請擔任機要專員，\n[\n1\n]\n後改任行政院新聞局簡任秘書。\n[\n4\n]\n高雄市政府\n2006年陳菊當選高雄市長，賴瑞隆隨之任職於高雄市政府並舉家搬至高雄。\n[\n1\n]\n其後歷任觀光局主任秘書、建設局專門委員、\n2009年高雄世運\n執行秘書。\n[\n2\n]\n2010年12月，成為\n高雄市政府新聞局\n局長，\n[\n4\n]\n任內邀請樂團\n五月天\n擔任高雄城市代言人。2013年6月，爭取黃色小鴨在高雄策展，獲《經理人月刊》評選為「2013年十大超級MVP經理人」\n[\n5\n]\n。\n2014年2月，成為海洋局局長。\n[\n6\n]\n立法委員\n2015年3月7日，賴瑞隆辭去\n高雄市政府\n海洋局局長，投入\n民主進步黨\n高雄市第九選舉區\n（\n前鎮區\n51里、\n小港區\n）立法委員黨內初選，並於黨內初選民調中勝過市議員\n陳信瑜\n，獲民主進步黨提名\n[\n7\n]\n。正式選舉中，他以逾60%得票率勝過尋求連任的\n中國國民黨\n籍立委\n林國正\n[\n8\n]\n。\n2020年，賴瑞隆爭取連任，因選舉區域調整，他改參選\n高雄市第八選舉區\n（前鎮區、小港區、旗津區），以135,052票當選，為\n2008年\n選舉區變革以來高雄最高票、全國第三高票\n[\n9\n]\n。2024年選舉賴瑞隆再度連任，二度獲高雄立委最高票。\n[\n10\n]\n參選高雄市長\n2026年，賴瑞隆參選高雄市市長，並在民進黨初選中勝過同為立委的\n邱議瑩\n、\n林岱樺\n、\n許智傑\n三人，對上\n中國國民黨\n立法委員\n柯志恩\n。\n[\n11\n]\n[\n12\n]\n爭議\n孩子疑似涉校園霸凌\n2025年12月4日，\nTVBS\n獨家報導指稱，賴瑞隆的孩子涉嫌於同年10月在校園內霸凌同學\n[\n13\n]\n[\n14\n]\n，賴瑞隆後續召開記者會致歉\n[\n15\n]\n[\n16\n]\n。校方則表示媒體報導內容與事實不盡相符，然基於兒少保護原則，無法說明細節\n[\n17\n]\n。當事女童家長在與賴瑞隆見面後，表示感受到誠意並接受道歉\n[\n18\n]\n。12月27日，賴瑞隆與對方家長共同聲明，將透過學校機制釐清事實、簽署調和同意；賴更表示事件為「衝突」而不是「霸凌」，但媒體報導女童家屬表示此為賴單方面的主張\n[\n19\n]\n[\n20\n]\n。\n收受詐騙集團政治獻金\n2026年9月1日，賴瑞隆被曝在2020年及2024年立法委員選舉中收受「五互集團」負責人陳秋白及集團旗下「龍海生活事業」兩筆政治獻金共計20萬元，該集團涉嫌非法吸金200億元\n[\n21\n]\n。次日，賴瑞隆就此事回應已全額返還這一部分有爭議的政治獻金\n[\n22\n]\n。10日，有國民黨議員再爆料賴瑞隆退還「龍海生活事業」部分政治獻金，並未退還陳秋白個人款項\n[\n23\n]\n。\n選舉紀錄\n年度\n選舉屆數\n選舉區\n所屬政黨\n得票數\n得票率\n當選標記\n備註\n2016\n第9屆立法委員選舉\n高雄市第九選舉區\n民主進步黨\n100,862\n60.57%\n2020\n第10屆立法委員選舉\n高雄市第八選舉區\n135,052\n57.73%\n選舉區重劃\n2024\n第11屆立法委員選舉\n121,064\n57.75%\n2026\n第5屆高雄市市長選舉\n高雄市\n參考文獻\n^\n1.0\n1.1\n1.2\n1.3\n1.4\n胡智凱.\n從投履歷給蘇貞昌到追隨陳菊南下　賴瑞隆的從政路在高雄發光發熱\n. 信傳媒. 2025-05-09\n[\n2026-09-04\n]\n.\n^\n2.0\n2.1\n陳奕劭.\n歷史觀測站／五月天推手到打造黃色小鴨傳奇！賴瑞隆20年港都從政之路\n. 民視新聞網. 2026-05-09\n[\n2026-09-04\n]\n.\n^\n張議晨; 徐白櫻; 王昭月; 蕭白雪.\n百里侯爭霸／「跟高雄人站一起」 政策控賴瑞隆盯行政效率\n. 2026九合一選舉. 聯合線上公司. 2026-07-02\n[\n2026-09-04\n]\n.\n^\n4.0\n4.1\n顏瑞田.\n賴瑞隆 接高雄市新聞局長\n. 工商時報. 2010-12-24\n[\n2026-09-04\n]\n.\n^\n賴瑞隆獲選10大MVP經理人\n.\n[\n2019-05-06\n]\n. （\n原始内容\n存档于2022-04-02）.\n^\n高市府新聞、海洋局 新舊局長交接\n. Yahoo News. 2014-02-25\n[\n2026-09-04\n]\n–通过民視新聞台\n（中文（臺灣））\n.\n^\n林修卉.\n高雄小港立委初選　賴瑞隆勝出\n. 蘋果日報 (台北). 2015-03-20\n[\n2015-04-19\n]\n. （\n原始内容\n存档于2015-04-19）.\n^\n首次參選就勝選　賴瑞隆：高雄拚轉型改變\n. 高市: ETtoday新聞雲. 2016-01-16\n[\n2017-03-28\n]\n. （原始内容\n存档\n于2019-04-12）.\n^\n黃旭磊.\n高雄市綠委賴瑞隆宣布當選 狂喜丟3承諾、5感謝\n. 自由時報 (高雄). 2020-01-11\n[\n2020-03-31\n]\n. （原始内容\n存档\n于2020-08-10）.\n^\n葛祐豪.\n賴瑞隆連兩屆奪下高雄立委選舉最高票 今展開謝票\n. 自由時報電子報. 2024-01-14\n[\n2026-09-04\n]\n. （\n原始内容\n存档于2024-02-26）.\n^\n葉素萍. 蘇龍麒; 楊凱翔 , 编.\n民進黨高雄市長初選賴瑞隆勝出　中執會21日提名\n. 台北. 中央社 CNA. 2026-01-13\n[\n2026-01-13\n]\n. （原始内容\n存档\n于2026-01-13）\n（中文（臺灣））\n.\n^\n黃子杰; 陳昌維. 吳仲安 , 编.\n綠高雄市長初選賴瑞隆勝出 柯志恩回應將以小搏大取勝\n. 公視新聞網 PNN. 2026-01-13\n[\n2026-01-13\n]\n. （原始内容\n存档\n于2026-01-14）\n（中文（臺灣））\n.\n^\n獨／「爆打同學還出言恐嚇」 南部某市長參選人子女被控霸凌\n. TVBS新聞網. 2025-12-04\n[\n2025-12-08\n]\n. （原始内容\n存档\n于2026-02-08）.\n^\n兒遭控霸凌同儕「堵廁所威脅12分鐘」！賴瑞隆：全力配合調查\n. 台視新聞網. 2025-12-05\n[\n2025-12-27\n]\n. （原始内容\n存档\n于2025-12-08）.\n^\n林敬殷. 謝佳珍 , 编.\n家人校園惹風波 賴瑞隆致歉：自我檢討深切反省\n. 台北. 中央社 CNA. 2025-12-05\n[\n2025-12-08\n]\n. （原始内容\n存档\n于2026-01-04）\n（中文（臺灣））\n.\n^\n蔡孟妤. 黃名璽 , 编.\n家人校園惹風波 賴瑞隆落淚致歉\n. 高雄. 中央社 CNA. 2025-12-07\n[\n2025-12-08\n]\n. （原始内容\n存档\n于2026-01-05）\n（中文（臺灣））\n.\n^\n黃于庭.\n賴瑞隆兒子涉霸凌同學！校方啟動輔導措施 「4點聲明」全文曝光\n. 民視新聞網. 2025-12-05\n[\n2025-12-08\n]\n.\n^\n王榮祥.\n兒涉霸凌賴瑞隆當面道歉！女童媽：只想制止傷害 敬佩賴瑞隆的擔當\n. 自由時報 (高雄). 2025-12-07\n[\n2025-12-08\n]\n. （原始内容\n存档\n于2025-12-14）.\n^\n林巧璉. 李明宗 , 编.\n家人校園風波 賴瑞隆：與對方達成共識非霸凌\n. 高雄. 中央社 CNA. 2025-12-27\n[\n2025-12-27\n]\n. （原始内容\n存档\n于2026-01-08）\n（中文（臺灣））\n.\n^\n獨／賴瑞隆聲明稱「是衝突非霸凌」 孩童家屬氣：掉進陷阱被設計\n. TVBS新聞. 2025-12-29\n[\n2026-01-15\n]\n. （原始内容\n存档\n于2026-02-21）.\n^\n賴瑞隆控柯志恩「詐騙共犯」 許采蓁翻政治獻金：也收五互20萬\n. Yahoo News. 2026-09-01.\n^\n遭爆收「吸金200億五互集團」政治獻金 賴瑞隆：爭議款項全返還 | ETtoday政治新聞 | ETtoday新聞雲\n. ETtoday新聞雲. 2026-09-02.\n^\n賴瑞隆收詐團政治獻金全退遭打臉 藍爆「只退龍海、不退陳秋白」公然說謊\n. Yahoo News. 2026-09-10.\n外部連結\n维基共享资源\n上的相关多媒体资源：\n賴瑞隆\n賴瑞隆| Facebook\n中華民國政府\n職務\n高雄市政府\n前任：\n藍健菖\n海洋局局長\n2014年2月24日—2015年3月9日\n繼任：\n柯尚余\n前任：\n首任\n新聞局\n局長\n2010年12月25日－2014年2月25日\n繼任：\n丁允恭\n查\n论\n编\n立法院第九屆立法委員\n院長\n：\n▌\n蘇嘉全\n（民）\n副院長\n：\n▌\n蔡其昌\n（民）\n多數黨\n民主進步黨黨團\n（68+1）\n總召\n：\n柯建銘\n區域\n席次（49+1）\n吳思瑤\n姚文智\n辭\n何志偉\n補選\n呂孫綾\n林淑芬\n高志鵬\n褫奪公權\n余天\n補選\n吳秉叡\n蘇巧慧\n張宏陸\n羅致政\n江永昌\n吳琪銘\n蔡適應\n陳歐珀\n鄭運鵬\n陳賴素美\n鄭寶清\n趙正宇\n無黨籍\n柯建銘\n蔡其昌\n張廖萬堅\n黃國書\n何欣純\n黃秀芳\n洪宗熠\n陳素月\n蘇治芬\n劉建國\n蔡易餘\n陳明文\n王美惠\n李俊俋\n葉宜津\n黃偉哲\n辭\n郭國文\n補選\n陳亭妃\n林俊憲\n王定宇\n邱議瑩\n邱志偉\n劉世芳\n林岱樺\n管碧玲\n李昆澤\n趙天麟\n許智傑\n賴瑞隆\n鍾佳濱\n蘇震清\n鍾佳濱\n莊瑞雄\n蕭美琴\n劉櫂豪\n楊曜\n不分區及僑選\n席次（18）\n吳焜裕\n吳玉琴\n陳曼麗\n顧立雄\n辭\n蔡培慧\n王榮璋\n谷辣斯·尤達卡\n辭\n余宛如\n蘇嘉全\n段宜康\n鄭麗君\n辭\n陳其邁\n辭\n尤美女\n李應元\n辭\n鍾孔炤\n林靜儀\n徐國勇\n辭\n周春米\n施義芳\n遞補\n李麗芬\n遞補\n郭正亮\n遞補\n邱泰源\n遞補\n蔣絜安\n遞補\n陳靜敏\n遞補\n原住民\n席次（1）\n陳瑩\n少數黨\n中國國民黨黨團\n（35）\n總召\n：\n江啟臣\n區域\n席次（20）\n蔣萬安\n李彥秀\n蔣乃辛\n費鴻泰\n赖士葆\n林德福\n羅明才\n陳學聖\n呂玉玲\n林為洲\n陳超明\n徐志榮\n顏寬恒\n盧秀燕\n辭\n沈智慧\n補選\n楊瓊瓔\n王惠美\n辭\n柯呈枋\n補選\n馬文君\n許淑華\n楊鎮浯\n辭\n陳玉珍\n補選；上任後恢復黨籍\n陳雪生\n不分區及僑選\n席次（11）\n王金平\n柯志恩\n陳宜民\n林麗蟬\n許毓仁\n曾銘宗\n黃昭順\n吳志揚\n張麗善\n辭\n徐榛蔚\n辭\n王育敏\n林奕華\n遞補\n童惠珍\n僑；遞補\n原住民\n席次（4）\n鄭天財\n廖國棟\n簡東明\n孔文吉\n時代力量黨團\n（3）\n總召\n：\n黃國昌\n區域\n席次（1）\n林昶佐\n退黨\n黃國昌\n洪慈庸\n退黨\n不分區及僑選\n席次（2）\n高潞·以用·巴魕剌\n開除黨籍\n徐永明\n鄭秀玲\n遞補\n親民黨黨團\n（3+1）\n總召\n：\n李鴻鈞\n不分區及僑選\n席次（3）\n李鴻鈞\n陳怡潔\n周陳秀霞\n原住民\n席次（1）\n▌\n(\n無盟\n)\n高金素梅\n無黨籍或未加入黨團立委\n區域\n席次（2）\n▌\n(無)\n林昶佐\n退出時代力量\n▌\n(無)\n洪慈庸\n退出時代力量\n第八屆\n→\n第九屆\n→\n第十屆\n查\n论\n编\n立法院第十屆立法委員\n院長\n：\n▌\n游錫堃\n（民）\n副院長\n：\n▌\n蔡其昌\n（民）\n多數黨\n民主進步黨黨團\n（62+2）\n總召\n：\n柯建銘\n區域\n席次（47+2）\n吳思瑤\n何志偉\n高嘉瑜\n林昶佐\n上任後入黨\n林淑芬\n余天\n吳秉叡\n蘇巧慧\n張宏陸\n羅致政\n江永昌\n吳琪銘\n賴品妤\n蔡適應\n陳歐珀\n鄭運鵬\n黃世杰\n趙正宇\n無黨籍\n蔡其昌\n林靜儀\n補選\n張廖萬堅\n黃國書\n退黨\n何欣純\n陳秀寳\n黃秀芳\n陳素月\n蔡培慧\n補選\n蘇治芬\n劉建國\n蔡易餘\n陳明文\n王美惠\n賴惠員\n郭國文\n陳亭妃\n林宜瑾\n林俊憲\n王定宇\n邱議瑩\n邱志偉\n劉世芳\n林岱樺\n李昆澤\n趙天麟\n許智傑\n賴瑞隆\n鍾佳濱\n蘇震清\n無黨籍\n劉櫂豪\n退黨\n楊曜\n不分區及僑選\n席次（13）\n吳玉琴\n洪申翰\n范雲\n羅美玲\n邱泰源\n周春米\n辭\n游錫堃\n柯建銘\n管碧玲\n辭\n莊瑞雄\n沈發惠\n林楚茵\n湯蕙禎\n陳靜敏\n遞補\n陳培瑜\n遞補\n原住民\n席次（2）\n陳瑩\n伍麗華\n少數黨\n中國國民黨黨團\n（37+1）\n總召\n：\n曾銘宗\n區域\n席次（22+1）\n蔣萬安\n辭\n王鴻薇\n補\n林奕華\n辭\n費鴻泰\n赖士葆\n洪孟楷\n林淑芬\n林德福\n羅明才\n魯明哲\n萬美玲\n林為洲\n林思銘\n鄭正鈐\n陳超明\n黨籍停權\n徐志榮\n楊瓊瓔\n江啟臣\n謝衣鳯\n馬文君\n許淑華\n辭\n傅崐萁\n上任後入黨\n陳玉珍\n陳雪生\n不分區及僑選\n席次（13）\n曾銘宗\n游毓蘭\n李貴敏\n吳斯懷\n鄭麗文\n林文瑞\n廖婉汝\n翁重鈞\n吳怡玎\n陳以信\n張育美\n李德維\n溫玉霞\n原住民\n席次（3+1）\n鄭天財\n廖國棟\n高金素梅\n無黨籍\n孔文吉\n台灣民眾黨黨團\n（5）\n總召\n：\n邱臣遠\n不分區及僑選\n席次（5）\n賴香伶\n張其祿\n高虹安\n辭\n邱臣遠\n蔡壁如\n辭\n吳欣盈\n遞補\n陳琬惠\n遞補\n時代力量黨團\n（3）\n總召\n：\n邱顯智\n不分區及僑選\n席次（3）\n陳椒華\n邱顯智\n王婉諭\n無黨籍或未加入黨團立委\n區域\n席次（2）\n▌\n(\n基\n)\n陳柏惟\n罷免\n▌\n(無)\n黃國書\n退出民進黨\n▌\n(無)\n劉櫂豪\n退出民進黨\n第九屆\n→\n第十屆\n→\n第十一屆\n查\n论\n编\n立法院第十一屆立法委員\n院長\n：\n▌\n韓國瑜\n（國）\n副院長\n：\n▌\n江啟臣\n（國）\n多數黨\n中國國民黨黨團\n（53+1）\n總召\n：\n傅崐萁\n區域\n席次（37）\n王鴻薇\n李彥秀\n羅智強\n徐巧芯\n赖士葆\n洪孟楷\n葉元之\n張智倫\n林德福\n羅明才\n廖先翔\n林沛祥\n牛煦庭\n涂權吉\n魯明哲\n萬美玲\n呂玉玲\n邱若華\n徐欣瑩\n林思銘\n鄭正鈐\n陳超明\n邱鎮軍\n顏寬恒\n楊瓊瓔\n廖偉翔\n黃健豪\n羅廷瑋\n江啟臣\n謝衣鳯\n馬文君\n游顥\n丁學忠\n傅崐萁\n黃建賓\n陳雪生\n陳玉珍\n不分區及僑選\n席次（13）\n韓國瑜\n柯志恩\n葛如鈞\n翁曉玲\n陳菁徽\n吳宗憲\n林倩綺\n陳永康\n許宇甄\n謝龍介\n蘇清泉\n張嘉郡\n王育敏\n原住民\n席次（3+1）\n鄭天財\n黃仁\n盧縣一\n高金素梅\n無黨籍\n少數黨\n民主進步黨黨團\n（51）\n總召\n：\n蔡其昌\n區域\n席次（36）\n吳思瑤\n王世堅\n吳沛憶\n林淑芬\n李坤城\n吳秉叡\n蘇巧慧\n張宏陸\n吳琪銘\n陳俊宇\n蔡其昌\n何欣純\n陳秀寳\n黃秀芳\n陳素月\n劉建國\n蔡易餘\n陳冠廷\n王美惠\n賴惠員\n郭國文\n陳亭妃\n林宜瑾\n林俊憲\n王定宇\n邱議瑩\n邱志偉\n李柏毅\n林岱樺\n李昆澤\n黃捷\n許智傑\n賴瑞隆\n鍾佳濱\n徐富癸\n楊曜\n不分區及僑選\n席次（13）\n林月琴\n沈伯洋\n張雅琳\n洪申翰\n辭職\n羅美玲\n游錫堃\n辭職\n范雲\n柯建銘\n沈發惠\n莊瑞雄\n林楚茵\n郭昱晴\n陳培瑜\n王正旭\n遞補\n王義川\n遞補\n原住民\n席次（2）\n陳瑩\n伍麗華\n台灣民眾黨黨團\n（8）\n總召\n：\n陳清龍\n不分區及僑選\n席次（8）\n黃珊珊\n辭職\n黃國昌\n辭職\n陳昭姿\n吳春城\n辭職\n麥玉珍\n辭職\n林國成\n辭職\n林憶君\n辭職\n張啓楷\n辭職\n李貞秀\n遞補、解職\n劉書彬\n遞補\n洪毓祥\n遞補\n蔡春綢\n遞補\n王安祥\n遞補\n邱慧洳\n遞補\n陳清龍\n遞補\n許忠信\n遞補\n第十屆\n→\n第十一屆\n查\n论\n编\n民主進步黨\n第二十屆中央委員會\n2022年7月17日－2024年7月20日\n主席\n蔡英文\n→\n陳其邁\n（代理）\n→\n賴清德\n秘書長\n林錫耀\n→\n林鶴明\n（代理）\n→\n許立明\n→\n楊懿珊\n（代理）\n副秘書長\n楊懿珊\n許嘉恬\n→\n何博文\n黃建嘉\n→\n翁世豪\n中央常務委員會\n當然中央常務委員\n賴清德\n（\n黨主席\n）\n黃偉哲\n（\n直轄市長\n）\n陳其邁\n（\n直轄市長\n）\n柯建銘\n（\n立院黨團三長\n）\n吳思瑤\n（\n立院黨團三長\n）\n莊瑞雄\n（\n立院黨團三長\n）\n翁章梁\n（\n縣\n市\n首長代表）\n中央常務委員\n陳茂松\n黃承國\n何志偉\n蘇巧慧\n蔡易餘\n林右昌\n陳世凱\n王定宇\n林俊憲\n許淑華\n中央執行委員會\n當然中央執行委員\n周春米\n（\n縣\n市\n首長）\n陳光復\n（\n縣\n市\n首長）\n中央執行委員\n呂林小鳳\n黃世杰\n簡煥宗\n許菡芸\n彭成龍\n李姸慧\n林益邦\n彭佳芸\n陳淑華\n紀桂珠\n陳亭妃\n蘇治芬\n陳啟能\n許淑華\n潘孟安\n郭再欽\n鄭美娟\n邱俊憲\n王義川\n曾姿雯\n高閔琳\n中央評議委員會\n主任委員\n賴瑞隆\n中央評議委員\n黃文益\n陳坤榮\n許文獻\n賴瑞隆\n呂孫綾\n管碧玲\n陳文治\n林宜瑾\n李偉智\n王博程\n林寶興\n第十九屆\n→\n第二十屆\n→\n第二十一屆\n查\n论\n编\n民主進步黨\n第二十一屆中央委員會\n2024年7月21日－2026年7月19日\n主席\n賴清德\n秘書長\n林右昌\n→\n何博文\n（代理）\n→\n徐國勇\n副秘書長\n何博文\n翁世豪\n中央常務委員會\n（17席）\n當然中常委（7席）\n賴清德\n（\n黨主席\n）\n黃偉哲\n（\n直轄市長\n）\n陳其邁\n（\n直轄市長\n）\n蔡其昌\n（\n黨團三長\n）\n莊瑞雄\n（\n黨團三長\n）\n范雲\n（\n黨團三長\n）\n翁章梁\n（\n縣\n市\n長互推）\n中常委（10席）\n陳亭妃\n林俊憲\n王世堅\n王定宇\n鍾佩玲\n陳淑華\n陳茂松\n張宏陸\n洪申翰\n邱志偉\n中央執行委員會\n（24席）\n當然中執委（2席）\n周春米\n（\n縣\n市\n長）\n陳光復\n（\n縣\n市\n長）\n中執委（22席）\n張嘉玲\n黃世杰\n徐富癸\n戴瑋姍\n鄭志宏\n鄭光峰\n林宜瑾\n黃守達\n賴秋媚\n何文海\n張慈馨\n呂林小鳳\n鄭美娟\n陳睿生\n王世堅\n林岱樺\n鄭孟洳\n潘新傳\n卓冠廷\n童子瑋\n林益邦\n李妍慧\n中央評議委員會\n（11席）\n主委\n賴瑞隆\n（中評委互推）\n中評委（11席）\n洪宗熠\n李宗翰\n張丞儀\n曾朝榮\n蔡昌達\n呂孫綾\n周志賢\n黃中志\n陳怡君\n李雨庭\n賴瑞隆\n第二十屆\n→\n二十一屆\n→\n第二十二屆\n取自“\nhttps://zh.wikipedia.org/w/index.php?title=賴瑞隆&oldid=95295152\n”\n分类\n：\n1973年出生\n在世人物\n立法院第九屆立法委員\n立法院第十屆立法委員\n立法院第十一屆立法委員\n新潮流系\n陳菊市府成員\n高雄市新聞局局長\n民主進步黨籍立法委員\n國立臺灣大學社會科學院校友\n東吳大學校友\n臺灣省立板橋高級中學校友\n大村鄉人 (臺灣)\n赖姓\n高雄市選出的立法委員\n民主進步黨中央評議委員\n新北市板橋區莒光國民小學校友\n中華民國勞動部相關人物\n行政院新聞局人物\n隐藏分类：\n避免破坏保护\n自2026年2月扩充中的条目\n扩充中的条目\n所有扩充中的条目\n拒绝当选首页新条目推荐栏目的条目\n使用小型訊息框的頁面\n维基共享资源分类链接使用了维基数据上的匹配项\n本页面最后修订于2026年10月27日 (星期二) 03:21。\n本站的全部文字在\n知识共享 署名-相同方式共享 4.0协议\n之条款下提供，附加条款亦可能应用。（请参阅\n使用条款\n）\nWikipedia®和维基百科标志是\n维基媒体基金会\n的注册商标；维基™是维基媒体基金会的商标。\n维基媒体基金会是按美国国內稅收法501(c)(3)登记的\n非营利慈善机构\n。\n隐私政策\n关于维基百科\n免责声明\n法律与安全事项联系方式\n行为准则\n开发者\n统计\nCookie声明\n移动版视图\n搜索\n搜索\n开关目录\n賴瑞隆\n2种语言\n添加话题",
+  "original_sha256": "09ba50ac621988c99ec30e1d16fada4b9c903cb90d7f92e26fd273d33d418a31",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/c1a48d7ba41c4bb5dc53.html"
+}

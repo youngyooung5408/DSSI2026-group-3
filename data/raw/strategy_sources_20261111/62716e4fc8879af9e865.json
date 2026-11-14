@@ -1,0 +1,961 @@
+{
+  "capture_id": "62716e4fc8879af9e865",
+  "requested_url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C",
+  "fetched_at_utc": "2026-11-10T17:23:18.309405+00:00",
+  "title": "湯詠瑜 - 维基百科，自由的百科全书",
+  "links": [
+    {
+      "text": "跳转到内容",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#bodyContent"
+    },
+    {
+      "text": "首页",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "分类索引",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95"
+    },
+    {
+      "text": "特色内容",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9"
+    },
+    {
+      "text": "新闻动态",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B"
+    },
+    {
+      "text": "随机条目",
+      "url": "https://zh.wikipedia.org/wiki/Special:Random"
+    },
+    {
+      "text": "联络我们",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "帮助",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "维基社群",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "编辑入门",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E5%85%A5%E9%97%A8"
+    },
+    {
+      "text": "互助客栈",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88"
+    },
+    {
+      "text": "IRC即时聊天",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"
+    },
+    {
+      "text": "最近更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChanges"
+    },
+    {
+      "text": "特殊页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:SpecialPages"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "搜索",
+      "url": "https://zh.wikipedia.org/wiki/Special:Search"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "序言",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "1 生平",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#生平"
+    },
+    {
+      "text": "2 選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#選舉紀錄"
+    },
+    {
+      "text": "3 參考文獻",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#參考文獻"
+    },
+    {
+      "text": "添加链接",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q127427965#sitelinks-wikipedia"
+    },
+    {
+      "text": "条目",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "讨论",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Talk:%E6%B9%AF%E8%A9%A0%E7%91%9C&action=edit&redlink=1"
+    },
+    {
+      "text": "不转换",
+      "url": "https://zh.wikipedia.org/zh/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "简体",
+      "url": "https://zh.wikipedia.org/zh-hans/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "繁體",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "大陆简体",
+      "url": "https://zh.wikipedia.org/zh-cn/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "香港繁體",
+      "url": "https://zh.wikipedia.org/zh-hk/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "澳門繁體",
+      "url": "https://zh.wikipedia.org/zh-mo/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "大马简体",
+      "url": "https://zh.wikipedia.org/zh-my/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "新加坡简体",
+      "url": "https://zh.wikipedia.org/zh-sg/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "臺灣正體",
+      "url": "https://zh.wikipedia.org/zh-tw/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "链入页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:WhatLinksHere/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "相关更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChangesLinked/%E6%B9%AF%E8%A9%A0%E7%91%9C"
+    },
+    {
+      "text": "上传文件",
+      "url": "https://zh.wikipedia.org/wiki/Project:上传"
+    },
+    {
+      "text": "固定链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&oldid=93758221"
+    },
+    {
+      "text": "页面信息",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=info"
+    },
+    {
+      "text": "引用此页",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=%E6%B9%AF%E8%A9%A0%E7%91%9C&id=93758221&wpFormIdentifier=titleform"
+    },
+    {
+      "text": "获取短链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2F%25E6%25B9%25AF%25E8%25A9%25A0%25E7%2591%259C"
+    },
+    {
+      "text": "下载为PDF",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=show-download-screen"
+    },
+    {
+      "text": "打印页面",
+      "url": "javascript:print();"
+    },
+    {
+      "text": "维基数据项目",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q127427965"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:%E6%B9%AF%E8%A9%A0%E7%91%9C.jpg"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Flag_of_Kaohsiung_City.svg"
+    },
+    {
+      "text": "高雄市議會",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E6%9C%83"
+    },
+    {
+      "text": "前金區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%89%8D%E9%87%91%E5%8D%80"
+    },
+    {
+      "text": "新興區",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E8%88%88%E5%8D%80_(%E5%8F%B0%E7%81%A3)"
+    },
+    {
+      "text": "苓雅區",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8B%93%E9%9B%85%E5%8D%80"
+    },
+    {
+      "text": "臺灣",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%9C%B0%E5%8D%80"
+    },
+    {
+      "text": "嘉義市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%98%89%E7%BE%A9%E5%B8%82"
+    },
+    {
+      "text": "中華民國",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "湯金全",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E9%87%91%E5%85%A8"
+    },
+    {
+      "text": "劉鐵錚",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E9%90%B5%E9%8C%9A"
+    },
+    {
+      "text": "七賢國小",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%96%B0%E8%88%88%E5%8D%80%E4%B8%83%E8%B3%A2%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8"
+    },
+    {
+      "text": "五福國中",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E4%BA%94%E7%A6%8F%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "高雄女中",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%A5%B3%E4%B8%AD"
+    },
+    {
+      "text": "臺灣大學",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "紐約大學",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B4%90%E7%B4%84%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "高雄市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "臺灣",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "高雄市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#cite_note-1"
+    },
+    {
+      "text": "湯金全",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E9%87%91%E5%85%A8"
+    },
+    {
+      "text": "高雄市",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=edit&section=1"
+    },
+    {
+      "text": "台灣",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3"
+    },
+    {
+      "text": "嘉義市",
+      "url": "https://zh.wikipedia.org/wiki/%E5%98%89%E7%BE%A9%E5%B8%82"
+    },
+    {
+      "text": "美麗島事件",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "text": "[ 2 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#cite_note-2"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=edit&section=2"
+    },
+    {
+      "text": "第四屆高雄市議員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1%E5%8F%8A%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%8D%80%E6%8A%95%E7%A5%A8%E7%B5%90%E6%9E%9C%E5%88%97%E8%A1%A8#高雄市第八選舉區（前金區、新興區、苓雅區）"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Elected_candidate_symbol_(voting_stamp,_Taiwan).svg"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&action=edit&section=3"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#cite_ref-1"
+    },
+    {
+      "text": "議員-湯詠瑜",
+      "url": "https://kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2208"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20240423163750/https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2208"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#cite_ref-2"
+    },
+    {
+      "text": "台美雙律師拚上高雄新科議員　湯詠瑜隱藏版身份曝光",
+      "url": "https://web.archive.org/web/20240620055130/https://rwnews.tw/article.php?news=6110"
+    },
+    {
+      "text": "原始内容",
+      "url": "https://rwnews.tw/article.php?news=6110"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC%E5%9B%9B%E5%B1%86%E8%AD%B0%E5%93%A1_(%E5%90%88%E4%BD%B5%E5%BE%8C)"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Template_talk:%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC%E5%9B%9B%E5%B1%86%E8%AD%B0%E5%93%A1_(%E5%90%88%E4%BD%B5%E5%BE%8C)&action=edit&redlink=1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC%E5%9B%9B%E5%B1%86%E8%AD%B0%E5%93%A1_(%E5%90%88%E4%BD%B5%E5%BE%8C)"
+    },
+    {
+      "text": "高雄市議會",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E6%9C%83"
+    },
+    {
+      "text": "議員",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E6%9C%83"
+    },
+    {
+      "text": "康裕成",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BA%B7%E8%A3%95%E6%88%90"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Green_Taiwan_with_White_Cross_(cropped).svg"
+    },
+    {
+      "text": "曾俊傑",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E4%BF%8A%E5%82%91"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Black-nill.png"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "林義迪",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9E%97%E7%BE%A9%E8%BF%AA&action=edit&redlink=1"
+    },
+    {
+      "text": "李亞築",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%8E%E4%BA%9E%E7%AF%89&action=edit&redlink=1"
+    },
+    {
+      "text": "方信淵",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B9%E4%BF%A1%E6%B7%B5"
+    },
+    {
+      "text": "宋立彬",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%AE%8B%E7%AB%8B%E5%BD%AC&action=edit&redlink=1"
+    },
+    {
+      "text": "陸淑美",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B8%E6%B7%91%E7%BE%8E"
+    },
+    {
+      "text": "白喬茵",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E5%96%AC%E8%8C%B5"
+    },
+    {
+      "text": "李眉蓁",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E7%9C%89%E8%93%81"
+    },
+    {
+      "text": "李雅芬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%9B%85%E8%8A%AC"
+    },
+    {
+      "text": "陳麗珍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%BA%97%E7%8F%8D_(%E5%8F%B0%E7%81%A3)"
+    },
+    {
+      "text": "陳玫娟",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%99%B3%E7%8E%AB%E5%A8%9F&action=edit&redlink=1"
+    },
+    {
+      "text": "吳利成",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%88%A9%E6%88%90"
+    },
+    {
+      "text": "蔡金晏",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E9%87%91%E6%99%8F"
+    },
+    {
+      "text": "陳美雅",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%BE%8E%E9%9B%85"
+    },
+    {
+      "text": "黃柏霖",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%9F%8F%E9%9C%96"
+    },
+    {
+      "text": "黃香菽",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BB%83%E9%A6%99%E8%8F%BD&action=edit&redlink=1"
+    },
+    {
+      "text": "許采蓁",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E9%87%87%E8%93%81"
+    },
+    {
+      "text": "黃紹庭",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%B4%B9%E5%BA%AD"
+    },
+    {
+      "text": "李雅靜",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E9%9B%85%E9%9D%9C"
+    },
+    {
+      "text": "鍾易仲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E6%98%93%E4%BB%B2"
+    },
+    {
+      "text": "劉德林",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8A%89%E5%BE%B7%E6%9E%97&action=edit&redlink=1"
+    },
+    {
+      "text": "鄭安秝",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%AE%89%E7%A7%9D"
+    },
+    {
+      "text": "曾麗燕",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E9%BA%97%E7%87%95"
+    },
+    {
+      "text": "蔡武宏",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%94%A1%E6%AD%A6%E5%AE%8F&action=edit&redlink=1"
+    },
+    {
+      "text": "陳麗娜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%BA%97%E5%A8%9C_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "邱于軒",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E4%BA%8E%E8%BB%92"
+    },
+    {
+      "text": "黃天煌",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BB%83%E5%A4%A9%E7%85%8C&action=edit&redlink=1"
+    },
+    {
+      "text": "王耀裕",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E7%8E%8B%E8%80%80%E8%A3%95&action=edit&redlink=1"
+    },
+    {
+      "text": "王義雄",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E7%8E%8B%E7%BE%A9%E9%9B%84_(1960%E5%B9%B4)&action=edit&redlink=1"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Flag_of_Kaohsiung_City.svg"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "林富寶",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9E%97%E5%AF%8C%E5%AF%B6&action=edit&redlink=1"
+    },
+    {
+      "text": "陳明澤",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%98%8E%E6%BE%A4"
+    },
+    {
+      "text": "黃明太",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BB%83%E6%98%8E%E5%A4%AA&action=edit&redlink=1"
+    },
+    {
+      "text": "林志誠",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9E%97%E5%BF%97%E8%AA%A0&action=edit&redlink=1"
+    },
+    {
+      "text": "黃秋瑛",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BB%83%E7%A7%8B%E7%91%9B&action=edit&redlink=1"
+    },
+    {
+      "text": "李柏毅",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%9F%8F%E6%AF%85_(%E9%AB%98%E9%9B%84%E5%B8%82)"
+    },
+    {
+      "text": "李雅慧",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%8E%E9%9B%85%E6%85%A7&action=edit&redlink=1"
+    },
+    {
+      "text": "黃文志",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%96%87%E5%BF%97_(%E5%8F%B0%E7%81%A3)"
+    },
+    {
+      "text": "黃飛鳳",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BB%83%E9%A3%9B%E9%B3%B3&action=edit&redlink=1"
+    },
+    {
+      "text": "江瑞鴻",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E7%91%9E%E9%B4%BB"
+    },
+    {
+      "text": "張勝富",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%8B%9D%E5%AF%8C"
+    },
+    {
+      "text": "邱俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "簡煥宗",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B0%A1%E7%85%A5%E5%AE%97"
+    },
+    {
+      "text": "李喬如",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%96%AC%E5%A6%82"
+    },
+    {
+      "text": "鄭孟洳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%AD%9F%E6%B4%B3"
+    },
+    {
+      "text": "康裕成",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BA%B7%E8%A3%95%E6%88%90"
+    },
+    {
+      "text": "何權峰",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%AC%8A%E5%B3%B0"
+    },
+    {
+      "text": "郭建盟",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E5%BB%BA%E7%9B%9F"
+    },
+    {
+      "text": "黃文益",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%96%87%E7%9B%8A"
+    },
+    {
+      "text": "陳慧文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%85%A7%E6%96%87"
+    },
+    {
+      "text": "林智鴻",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%99%BA%E9%B4%BB"
+    },
+    {
+      "text": "張漢忠",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%BC%A2%E5%BF%A0_(%E5%8F%B0%E7%81%A3)"
+    },
+    {
+      "text": "鄭光峰",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%85%89%E5%B3%B0"
+    },
+    {
+      "text": "陳致中",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%87%B4%E4%B8%AD"
+    },
+    {
+      "text": "黃彥毓",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%BD%A5%E6%AF%93"
+    },
+    {
+      "text": "李雨庭",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%8E%E9%9B%A8%E5%BA%AD&action=edit&redlink=1"
+    },
+    {
+      "text": "黃捷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%8D%B7"
+    },
+    {
+      "text": "無黨團結聯盟",
+      "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E9%BB%A8%E5%9C%98%E7%B5%90%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "朱信強",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%B1%E4%BF%A1%E5%BC%B7"
+    },
+    {
+      "text": "陳善慧",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%99%B3%E5%96%84%E6%85%A7&action=edit&redlink=1"
+    },
+    {
+      "text": "李順進",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%8E%E9%A0%86%E9%80%B2&action=edit&redlink=1"
+    },
+    {
+      "text": "台聯黨",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E8%81%AF%E9%BB%A8"
+    },
+    {
+      "text": "吳銘賜",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%B3%E9%8A%98%E8%B3%9C&action=edit&redlink=1"
+    },
+    {
+      "text": "無黨籍",
+      "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E9%BB%A8%E7%B1%8D"
+    },
+    {
+      "text": "高忠德",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%AB%98%E5%BF%A0%E5%BE%B7&action=edit&redlink=1"
+    },
+    {
+      "text": "陳幸富",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%99%B3%E5%B9%B8%E5%AF%8C&action=edit&redlink=1"
+    },
+    {
+      "text": "范織欽",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8C%83%E7%B9%94%E6%AC%BD&action=edit&redlink=1"
+    },
+    {
+      "text": "曾俊傑",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E4%BF%8A%E5%82%91"
+    },
+    {
+      "text": "張博洋",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%8D%9A%E6%B4%8B"
+    },
+    {
+      "text": "2022年中華民國直轄市議員及縣市議員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1%E5%8F%8A%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "李柏毅",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%9F%8F%E6%AF%85_(%E9%AB%98%E9%9B%84%E5%B8%82)"
+    },
+    {
+      "text": "第11屆立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "第11屆立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "台灣基進",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%9F%BA%E9%80%B2"
+    },
+    {
+      "text": "https://zh.wikipedia.org/w/index.php?title=湯詠瑜&oldid=93758221",
+      "url": "https://zh.wikipedia.org/w/index.php?title=湯詠瑜&oldid=93758221"
+    },
+    {
+      "text": "分类",
+      "url": "https://zh.wikipedia.org/wiki/Special:Categories"
+    },
+    {
+      "text": "1976年出生",
+      "url": "https://zh.wikipedia.org/wiki/Category:1976%E5%B9%B4%E5%87%BA%E7%94%9F"
+    },
+    {
+      "text": "在世人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%A8%E4%B8%96%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "高雄市議會第四屆議員 (合併後)",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E9%AB%98%E9%9B%84%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC%E5%9B%9B%E5%B1%86%E8%AD%B0%E5%93%A1_(%E5%90%88%E4%BD%B5%E5%BE%8C)"
+    },
+    {
+      "text": "嘉義市人",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%98%89%E7%BE%A9%E5%B8%82%E4%BA%BA"
+    },
+    {
+      "text": "國立臺灣大學校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "民主進步黨籍女性縣市議員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%B1%8D%E5%A5%B3%E6%80%A7%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "知识共享 署名-相同方式共享 4.0协议",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC"
+    },
+    {
+      "text": "使用条款",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use"
+    },
+    {
+      "text": "维基媒体基金会",
+      "url": "https://wikimediafoundation.org"
+    },
+    {
+      "text": "非营利慈善机构",
+      "url": "https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility"
+    },
+    {
+      "text": "隐私政策",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "免责声明",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E"
+    },
+    {
+      "text": "法律与安全事项联系方式",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information"
+    },
+    {
+      "text": "行为准则",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct"
+    },
+    {
+      "text": "开发者",
+      "url": "https://developer.wikimedia.org"
+    },
+    {
+      "text": "统计",
+      "url": "https://stats.wikimedia.org/#/zh.wikipedia.org"
+    },
+    {
+      "text": "Cookie声明",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement"
+    },
+    {
+      "text": "移动版视图",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B9%AF%E8%A9%A0%E7%91%9C&mobileaction=toggle_view_mobile"
+    },
+    {
+      "text": "",
+      "url": "https://www.wikimedia.org/"
+    },
+    {
+      "text": "",
+      "url": "https://www.mediawiki.org/"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    },
+    {
+      "text": "添加话题",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C#"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/static/images/icons/wikipedia.png"
+    },
+    {
+      "alt": "维基百科",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-zh.svg"
+    },
+    {
+      "alt": "自由的百科全书",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-zh.svg"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/%E6%B9%AF%E8%A9%A0%E7%91%9C.jpg/250px-%E6%B9%AF%E8%A9%A0%E7%91%9C.jpg?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_Kaohsiung_City.svg/40px-Flag_of_Kaohsiung_City.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/40px-Flag_of_the_Republic_of_China.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/40px-Flag_of_the_Republic_of_China.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "民主進步黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "民主進步黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg/20px-Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Black-nill.png/20px-Black-nill.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "中國國民黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/20px-Emblem_of_the_Kuomintang.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "高雄市市旗",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_Kaohsiung_City.svg/120px-Flag_of_Kaohsiung_City.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "民主進步黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Grey_and_red.svg/20px-Grey_and_red.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "台灣團結聯盟",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Taiwan_orange.svg/20px-Taiwan_orange.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+    },
+    {
+      "alt": "Wikimedia Foundation",
+      "url": "https://zh.wikipedia.org/static/images/footer/wikimedia.svg"
+    },
+    {
+      "alt": "Powered by MediaWiki",
+      "url": "https://zh.wikipedia.org/w/resources/assets/mediawiki_compact.svg"
+    }
+  ],
+  "og_image": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/46/%E6%B9%AF%E8%A9%A0%E7%91%9C.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+  ],
+  "structured_data": [
+    "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Article\",\"name\":\"\\u6e6f\\u8a60\\u745c\",\"url\":\"https:\\/\\/zh.wikipedia.org\\/wiki\\/%E6%B9%AF%E8%A9%A0%E7%91%9C\",\"sameAs\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q127427965\",\"mainEntity\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q127427965\",\"author\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u9879\\u76ee\\u8d21\\u732e\\u8005\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u57fa\\u91d1\\u4f1a\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.wikimedia.org\\/static\\/images\\/wmf-hor-googpub.png\"}},\"datePublished\":\"2024-06-20T05:05:33Z\",\"dateModified\":\"2026-08-03T16:12:06Z\",\"image\":\"https:\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/4\\/46\\/%E6%B9%AF%E8%A9%A0%E7%91%9C.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=original\"}"
+  ],
+  "final_url": "https://zh.wikipedia.org/wiki/%E6%B9%AF%E8%A9%A0%E7%91%9C",
+  "http_status": 200,
+  "full_visible_text": "湯詠瑜 - 维基百科，自由的百科全书\n跳转到内容\n主菜单\n主菜单\n移至侧栏\n隐藏\n导航\n首页\n分类索引\n特色内容\n新闻动态\n随机条目\n联络我们\n关于维基百科\n贡献\n帮助\n维基社群\n编辑入门\n互助客栈\nIRC即时聊天\n最近更改\n特殊页面\n搜索\n搜索\n外观\n资助维基百科\n创建账号\n登录\n个人工具\n资助维基百科\n创建账号\n登录\n目录\n移至侧栏\n隐藏\n序言\n1\n生平\n2\n選舉紀錄\n3\n參考文獻\n开关目录\n湯詠瑜\n添加语言\n添加链接\n条目\n讨论\n不转换\n不转换\n简体\n繁體\n大陆简体\n香港繁體\n澳門繁體\n大马简体\n新加坡简体\n臺灣正體\n阅读\n编辑\n查看历史\n保存\n工具\n工具\n移至侧栏\n隐藏\n操作\n阅读\n编辑\n查看历史\n保存\n常规\n链入页面\n相关更改\n上传文件\n固定链接\n页面信息\n引用此页\n获取短链接\n打印/导出\n下载为PDF\n打印页面\n在其他项目中\n维基数据项目\n外观\n移至侧栏\n隐藏\n维基百科，自由的百科全书\n湯詠瑜\n高雄市議會\n第4屆議員\n现任\n就任日期\n2022年12月25日\n选区\n第八選舉區\n（\n前金區\n、\n新興區\n、\n苓雅區\n）\n个人资料\n性别\n女\n出生\n(\n1976-11-12\n)\n1976年11月12日\n（\n49歲）\n臺灣\n嘉義市\n国籍\n中華民國\n政党\n民主進步黨\n配偶\n劉定基\n亲属\n湯金全\n（父）\n劉鐵錚\n（公公）\n学历\n七賢國小\n五福國中\n高雄女中\n臺灣大學\n法學士\n紐約大學\n法學碩士\n经历\n國際通商法律事務所合夥律師\n高雄市職業總工會法律顧問\n高雄市集中市場零售攤販職業工會法律顧問\n高雄市縫紉業職業工會法律顧問\n高雄郵政工會法律顧問\n第4屆\n高雄市議員\n（2022年12月25日－）\n湯詠瑜\n（1976年11月12日—），\n臺灣\n民主進步黨\n籍政治人物，現任\n高雄市議員\n[\n1\n]\n。其父\n湯金全\n曾任\n高雄市\n副市長、\n立法委員\n。\n生平\n[\n编辑\n]\n湯詠瑜生於\n台灣\n嘉義市\n，其父湯金全是\n美麗島事件\n的辯護律師之一。他繼承父業擔任律師，並在2022年時參選高雄市議員，順利當選。\n[\n2\n]\n選舉紀錄\n[\n编辑\n]\n年度\n選舉屆數\n選舉區\n所屬政黨\n得票數\n得票率\n當選標記\n備註\n2022\n第四屆高雄市議員選舉\n高雄市第八選舉區\n民主進步黨\n18,535\n15.93%\n參考文獻\n[\n编辑\n]\n^\n議員-湯詠瑜\n. 高雄市議會.\n[\n2024-06-20\n]\n. （原始内容\n存档\n于2024-04-23）\n（中文（臺灣））\n.\n^\n台美雙律師拚上高雄新科議員　湯詠瑜隱藏版身份曝光\n. 菱傳媒. 2022-12-09\n[\n2024-06-20\n]\n. （\n原始内容\n存档于2024-06-20）.\n查\n论\n编\n高雄市議會\n第四屆\n議員\n議長\n：\n康裕成\n（\n） ·\n副議長\n：\n曾俊傑\n（\n）\n中國國民黨\n（27席）\n林義迪\n李亞築\n方信淵\n宋立彬\n陸淑美\n白喬茵\n李眉蓁\n李雅芬\n陳麗珍\n陳玫娟\n吳利成\n蔡金晏\n陳美雅\n黃柏霖\n黃香菽\n許采蓁\n黃紹庭\n8\n李雅靜\n鍾易仲\n劉德林\n鄭安秝\n曾麗燕\n蔡武宏\n陳麗娜\n邱于軒\n黃天煌\n王耀裕\n王義雄\n民主進步黨\n（25席）\n林富寶\n陳明澤\n黃明太\n林志誠\n黃秋瑛\n李柏毅\n4\n李雅慧\n黃文志\n黃飛鳳\n江瑞鴻\n張勝富\n邱俊憲\n簡煥宗\n李喬如\n鄭孟洳\n康裕成\n何權峰\n郭建盟\n湯詠瑜\n黃文益\n陳慧文\n林智鴻\n張漢忠\n鄭光峰\n陳致中\n5\n黃彥毓\n李雨庭\n黃捷\n6\n無黨團結聯盟\n（3席）\n朱信強\n陳善慧\n李順進\n台聯黨\n（1席）\n吳銘賜\n無黨籍\n（5席）\n高忠德\n陳幸富\n范織欽\n曾俊傑\n3\n張博洋\n7\n1\n該屆議員由\n2022年中華民國直轄市議員及縣市議員選舉\n選出。\n2\n該屆議員任期為2022年12月25日至2026年12月25日。\n3\n曾俊傑於2022年12月25日宣佈退出\n中國國民黨\n。\n4\n李柏毅\n於\n第11屆立法委員選舉\n中當選，於2024年2月1日轉任立法委員。\n5\n陳致中因案解職，但未褫奪公權，無須遞補。\n6\n黃捷於2023年6月26日宣佈加入\n民主進步黨\n，於\n第11屆立法委員選舉\n中當選，於2024年2月1日轉任立法委員。\n7\n張博洋於2025年6月25日宣布退出\n台灣基進\n並於7月4日正式退黨。\n8\n黃紹庭於2026年6月24日因案解職。\n取自“\nhttps://zh.wikipedia.org/w/index.php?title=湯詠瑜&oldid=93758221\n”\n分类\n：\n1976年出生\n在世人物\n高雄市議會第四屆議員 (合併後)\n嘉義市人\n國立臺灣大學校友\n民主進步黨籍女性縣市議員\n本页面最后修订于2026年8月3日 (星期一) 16:12。\n本站的全部文字在\n知识共享 署名-相同方式共享 4.0协议\n之条款下提供，附加条款亦可能应用。（请参阅\n使用条款\n）\nWikipedia®和维基百科标志是\n维基媒体基金会\n的注册商标；维基™是维基媒体基金会的商标。\n维基媒体基金会是按美国国內稅收法501(c)(3)登记的\n非营利慈善机构\n。\n隐私政策\n关于维基百科\n免责声明\n法律与安全事项联系方式\n行为准则\n开发者\n统计\nCookie声明\n移动版视图\n搜索\n搜索\n开关目录\n湯詠瑜\n添加语言\n添加话题",
+  "original_sha256": "21ea317cb89de0178dec2e7bf1daf925dc7d8a0075bf5927a571641c52d51fd9",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/62716e4fc8879af9e865.html"
+}

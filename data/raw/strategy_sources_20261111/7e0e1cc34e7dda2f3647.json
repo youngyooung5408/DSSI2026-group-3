@@ -1,0 +1,37 @@
+{
+  "capture_id": "7e0e1cc34e7dda2f3647",
+  "requested_url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%85%A7%E6%96%87",
+  "fetched_at_utc": "2026-11-10T17:23:25.271661+00:00",
+  "title": "Wikimedia Error",
+  "links": [
+    {
+      "text": "",
+      "url": "https://www.wikimedia.org"
+    },
+    {
+      "text": "Wikimedia Status",
+      "url": "https://www.wikimediastatus.net/"
+    },
+    {
+      "text": "",
+      "url": "https://wikimediafoundation.org/"
+    }
+  ],
+  "images": [
+    {
+      "alt": "Wikimedia",
+      "url": "https://www.wikimedia.org/static/images/footer/wikimedia.svg"
+    },
+    {
+      "alt": "Wikimedia Foundation",
+      "url": "https://www.wikimedia.org/static/images/wmf.png"
+    }
+  ],
+  "og_image": [],
+  "structured_data": [],
+  "final_url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%85%A7%E6%96%87",
+  "http_status": 429,
+  "full_visible_text": "Wikimedia Error\nError\nToo many requests (f061ab2)\nWikimedia Status\nIf you report this error to the Wikimedia System Administrators, please include the details below.\nRequest served via cp5026 cp5026, Varnish XID 1001370206\nUpstream caches: cp5026 int\nError: 429, Too many requests (f061ab2) at Tue, 10 Nov 2026 17:23:25 GMT\nSensitive client information\nIP address: 123.252.17.251",
+  "original_sha256": "7707a4c9b67f83c4f58cc08237d058cf0ec5103bc102768200c0d4310a9b4012",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/7e0e1cc34e7dda2f3647.html"
+}

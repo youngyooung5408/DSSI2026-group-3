@@ -1,0 +1,2409 @@
+{
+  "capture_id": "3c0911ae5962674ff3f5",
+  "requested_url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9",
+  "fetched_at_utc": "2026-11-10T17:23:05.747085+00:00",
+  "title": "曾獻瑩 - 维基百科，自由的百科全书",
+  "links": [
+    {
+      "text": "跳转到内容",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#bodyContent"
+    },
+    {
+      "text": "首页",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "分类索引",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95"
+    },
+    {
+      "text": "特色内容",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9"
+    },
+    {
+      "text": "新闻动态",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B"
+    },
+    {
+      "text": "随机条目",
+      "url": "https://zh.wikipedia.org/wiki/Special:Random"
+    },
+    {
+      "text": "联络我们",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "帮助",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "维基社群",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "编辑入门",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E5%85%A5%E9%97%A8"
+    },
+    {
+      "text": "互助客栈",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88"
+    },
+    {
+      "text": "IRC即时聊天",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"
+    },
+    {
+      "text": "最近更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChanges"
+    },
+    {
+      "text": "特殊页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:SpecialPages"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "搜索",
+      "url": "https://zh.wikipedia.org/wiki/Special:Search"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "序言",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "1 經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#經歷"
+    },
+    {
+      "text": "1.1 早年生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#早年生涯"
+    },
+    {
+      "text": "1.2 公共事務參與",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#公共事務參與"
+    },
+    {
+      "text": "2 擔任臺北市議員期間",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#擔任臺北市議員期間"
+    },
+    {
+      "text": "3 性別議題主張",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#性別議題主張"
+    },
+    {
+      "text": "3.1 婚姻定義",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#婚姻定義"
+    },
+    {
+      "text": "3.2 家庭定義",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#家庭定義"
+    },
+    {
+      "text": "3.3 教育制度",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#教育制度"
+    },
+    {
+      "text": "3.3.1 支持適齡性平教育",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#支持適齡性平教育"
+    },
+    {
+      "text": "3.3.2 家長教育參與權與選擇權",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#家長教育參與權與選擇權"
+    },
+    {
+      "text": "4 爭議事件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#爭議事件"
+    },
+    {
+      "text": "4.1 評5億高中生命案同婚言論",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#評5億高中生命案同婚言論"
+    },
+    {
+      "text": "5 選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#選舉紀錄"
+    },
+    {
+      "text": "6 參考文獻",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#參考文獻"
+    },
+    {
+      "text": "7 外部連結",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#外部連結"
+    },
+    {
+      "text": "粵語",
+      "url": "https://zh-yue.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "编辑链接",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q30949165#sitelinks-wikipedia"
+    },
+    {
+      "text": "条目",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "讨论",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "不转换",
+      "url": "https://zh.wikipedia.org/zh/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "简体",
+      "url": "https://zh.wikipedia.org/zh-hans/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "繁體",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "大陆简体",
+      "url": "https://zh.wikipedia.org/zh-cn/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "香港繁體",
+      "url": "https://zh.wikipedia.org/zh-hk/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "澳門繁體",
+      "url": "https://zh.wikipedia.org/zh-mo/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "大马简体",
+      "url": "https://zh.wikipedia.org/zh-my/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "新加坡简体",
+      "url": "https://zh.wikipedia.org/zh-sg/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "臺灣正體",
+      "url": "https://zh.wikipedia.org/zh-tw/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "链入页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:WhatLinksHere/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "相关更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChangesLinked/%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "上传文件",
+      "url": "https://zh.wikipedia.org/wiki/Project:上传"
+    },
+    {
+      "text": "固定链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&oldid=95348991"
+    },
+    {
+      "text": "页面信息",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=info"
+    },
+    {
+      "text": "引用此页",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=%E6%9B%BE%E7%8D%BB%E7%91%A9&id=95348991&wpFormIdentifier=titleform"
+    },
+    {
+      "text": "获取短链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2F%25E6%259B%25BE%25E7%258D%25BB%25E7%2591%25A9"
+    },
+    {
+      "text": "下载为PDF",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=show-download-screen"
+    },
+    {
+      "text": "打印页面",
+      "url": "javascript:print();"
+    },
+    {
+      "text": "维基共享资源",
+      "url": "https://commons.wikimedia.org/wiki/Category:Tseng_Hsien-ying"
+    },
+    {
+      "text": "维基数据项目",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q30949165"
+    },
+    {
+      "text": "改善本條目",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit"
+    },
+    {
+      "text": "討論頁",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "引用需要清理，使其符合格式",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%97%E6%98%8E%E6%9D%A5%E6%BA%90#文獻參考的格式"
+    },
+    {
+      "text": "引用",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%97%E6%98%8E%E6%9D%A5%E6%BA%90"
+    },
+    {
+      "text": "脚注",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E8%84%9A%E6%B3%A8"
+    },
+    {
+      "text": "外部链接",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%A4%96%E9%83%A8%E9%93%BE%E6%8E%A5"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Copyright-problem.svg"
+    },
+    {
+      "text": "受版权保护",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E8%91%97%E4%BD%9C%E6%9D%83%E4%BF%A1%E6%81%AF"
+    },
+    {
+      "text": "方针",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%9D%9E%E8%87%AA%E7%94%B1%E5%86%85%E5%AE%B9%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%99"
+    },
+    {
+      "text": "指引",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%90%88%E7%90%86%E4%BD%BF%E7%94%A8"
+    },
+    {
+      "text": "违规內容",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%B8%8D%E8%A6%81%E5%8C%85%E5%90%AB%E5%8E%9F%E5%A7%8B%E8%B5%84%E6%96%99%E7%9A%84%E5%89%AF%E6%9C%AC"
+    },
+    {
+      "text": "条目讨论页",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "中立性",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%B8%AD%E7%AB%8B%E7%9A%84%E8%A7%82%E7%82%B9"
+    },
+    {
+      "text": "地方色彩",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%81%BF%E5%85%8D%E5%9C%B0%E5%9F%9F%E4%B8%AD%E5%BF%83"
+    },
+    {
+      "text": "讨论页",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "討論頁",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%9B%BE%E7%8D%BB%E7%91%A9"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:%E6%9B%BE%E7%8D%BB%E7%91%A9%E7%85%A7%E7%89%87.jpg"
+    },
+    {
+      "text": "臺北市議會",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83"
+    },
+    {
+      "text": "議員",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "大安區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AE%89%E5%8D%80_(%E8%87%BA%E5%8C%97%E5%B8%82)"
+    },
+    {
+      "text": "文山區",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%B1%B1%E5%8D%80"
+    },
+    {
+      "text": "彰化縣",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E7%B8%A3"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "信心希望聯盟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E5%BF%83%E5%B8%8C%E6%9C%9B%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "基督教",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%9D%A3%E6%95%99"
+    },
+    {
+      "text": "臺北市議員曾獻瑩",
+      "url": "https://tcc11111.tcc.gov.tw/"
+    },
+    {
+      "text": "臺灣省立臺中第一高級中學",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E4%B8%AD%E5%B8%82%E7%AB%8B%E8%87%BA%E4%B8%AD%E7%AC%AC%E4%B8%80%E9%AB%98%E7%B4%9A%E4%B8%AD%E7%AD%89%E5%AD%B8%E6%A0%A1"
+    },
+    {
+      "text": "國立臺灣大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "學士",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AD%B8%E5%A3%AB"
+    },
+    {
+      "text": "碩士",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A2%A9%E5%A3%AB"
+    },
+    {
+      "text": "台積電",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%A9%8D%E9%9B%BB"
+    },
+    {
+      "text": "台北真理堂",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E5%8C%97%E7%9C%9F%E7%90%86%E5%A0%82"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-#1-1"
+    },
+    {
+      "text": "臺灣",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3"
+    },
+    {
+      "text": "彰化縣",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%B0%E5%8C%96%E7%B8%A3"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "[ 2 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-2"
+    },
+    {
+      "text": "國立臺灣大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "學士",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AD%B8%E5%A3%AB"
+    },
+    {
+      "text": "國立臺灣大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "碩士",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A2%A9%E5%A3%AB"
+    },
+    {
+      "text": "賴士葆",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E5%A3%AB%E8%91%86"
+    },
+    {
+      "text": "台積電",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%A9%8D%E9%9B%BB"
+    },
+    {
+      "text": "臺北市大安區龍安國民小學",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E9%BE%8D%E5%AE%89%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8"
+    },
+    {
+      "text": "[ 3 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-3"
+    },
+    {
+      "text": "性別平等教育",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%88%A5%E5%B9%B3%E7%AD%89%E6%95%99%E8%82%B2%E6%B3%95"
+    },
+    {
+      "text": "[ 4 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-4"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=1"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=2"
+    },
+    {
+      "text": "台中一中",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E4%B8%AD%E5%B8%82%E7%AB%8B%E8%87%BA%E4%B8%AD%E7%AC%AC%E4%B8%80%E9%AB%98%E7%B4%9A%E4%B8%AD%E7%AD%89%E5%AD%B8%E6%A0%A1"
+    },
+    {
+      "text": "國立台灣大學工商管理學系",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:1-5"
+    },
+    {
+      "text": "[ 6 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:2-6"
+    },
+    {
+      "text": "台積電",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E7%A9%8D%E9%AB%94%E9%9B%BB%E8%B7%AF%E8%A3%BD%E9%80%A0"
+    },
+    {
+      "text": "[ 7 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-7"
+    },
+    {
+      "text": "失望",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%B1%E6%9C%9B"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:1-5"
+    },
+    {
+      "text": "[ 6 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:2-6"
+    },
+    {
+      "text": "台灣信義會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E4%BF%A1%E7%BE%A9%E6%9C%83"
+    },
+    {
+      "text": "詩篇",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A9%A9%E7%AF%87"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:1-5"
+    },
+    {
+      "text": "[ 6 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:2-6"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:1-5"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=3"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:1-5"
+    },
+    {
+      "text": "[ 6 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:2-6"
+    },
+    {
+      "text": "信心希望聯盟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E5%BF%83%E5%B8%8C%E6%9C%9B%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-#1-1"
+    },
+    {
+      "text": "臺北市大安區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AE%89%E5%8D%80_(%E8%87%BA%E5%8C%97%E5%B8%82)"
+    },
+    {
+      "text": "[ 8 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-8"
+    },
+    {
+      "text": "家庭主流化",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%B6%E5%BA%AD%E4%B8%BB%E6%B5%81%E5%8C%96"
+    },
+    {
+      "text": "[ 9 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:3-9"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:1-5"
+    },
+    {
+      "text": "[ 6 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:2-6"
+    },
+    {
+      "text": "[ 10 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-10"
+    },
+    {
+      "text": "下一代幸福聯盟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%B9%B8%E7%A6%8F%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "[ 11 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-11"
+    },
+    {
+      "text": "[ 12 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-12"
+    },
+    {
+      "text": "信心希望聯盟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E5%BF%83%E5%B8%8C%E6%9C%9B%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "[ 13 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-13"
+    },
+    {
+      "text": "[ 14 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-14"
+    },
+    {
+      "text": "[ 15 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-15"
+    },
+    {
+      "text": "適齡性平教育公投",
+      "url": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%85%A8%E5%9C%8B%E6%80%A7%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8"
+    },
+    {
+      "text": "民法婚姻以外立法形式規範同性結合公投",
+      "url": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%85%A8%E5%9C%8B%E6%80%A7%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8"
+    },
+    {
+      "text": "公投綁大選",
+      "url": "https://zh.wikipedia.org/wiki/2018%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%85%A8%E5%9C%8B%E6%80%A7%E5%85%AC%E6%B0%91%E6%8A%95%E7%A5%A8"
+    },
+    {
+      "text": "家庭主流化",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%B6%E5%BA%AD%E4%B8%BB%E6%B5%81%E5%8C%96"
+    },
+    {
+      "text": "[ 16 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:4-16"
+    },
+    {
+      "text": "[ 17 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:5-17"
+    },
+    {
+      "text": "臺北市國小學生家長會聯合會",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E5%8C%97%E5%B8%82%E5%9C%8B%E5%B0%8F%E5%AD%B8%E7%94%9F%E5%AE%B6%E9%95%B7%E6%9C%83%E8%81%AF%E5%90%88%E6%9C%83&action=edit&redlink=1"
+    },
+    {
+      "text": "家庭教育",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2"
+    },
+    {
+      "text": "性別平等教育",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%88%A5%E5%B9%B3%E7%AD%89%E6%95%99%E8%82%B2%E6%B3%95"
+    },
+    {
+      "text": "[ 18 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-18"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "[ 19 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-19"
+    },
+    {
+      "text": "[ 20 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-20"
+    },
+    {
+      "text": "無黨籍",
+      "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E9%BB%A8%E7%B1%8D"
+    },
+    {
+      "text": "大安",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%AE%89%E5%8D%80_(%E8%87%BA%E5%8C%97%E5%B8%82)"
+    },
+    {
+      "text": "文山",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%B1%B1%E5%8D%80"
+    },
+    {
+      "text": "[ 21 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-21"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=4"
+    },
+    {
+      "text": "議員",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "記者會",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%98%E8%80%85%E6%9C%83"
+    },
+    {
+      "text": "[ 22 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-22"
+    },
+    {
+      "text": "男孩子",
+      "url": "https://zh.wikipedia.org/wiki/%E7%94%B7%E5%AD%A9%E5%AD%90"
+    },
+    {
+      "text": "色情",
+      "url": "https://zh.wikipedia.org/wiki/%E8%89%B2%E6%83%85%E4%BD%9C%E5%93%81"
+    },
+    {
+      "text": "女孩子",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%AD%A9%E5%AD%90"
+    },
+    {
+      "text": "限制",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%90%E5%88%B6"
+    },
+    {
+      "text": "[ 23 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-23"
+    },
+    {
+      "text": "[ 24 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-24"
+    },
+    {
+      "text": "[ 25 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-25"
+    },
+    {
+      "text": "[ 26 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-26"
+    },
+    {
+      "text": "臺灣青年民主協會",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E9%9D%92%E5%B9%B4%E6%B0%91%E4%B8%BB%E5%8D%94%E6%9C%83"
+    },
+    {
+      "text": "論文",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AE%BA%E6%96%87"
+    },
+    {
+      "text": "社交",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A4%BE%E4%BA%A4"
+    },
+    {
+      "text": "因果關係",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9B%A0%E6%9E%9C%E5%85%B3%E7%B3%BB"
+    },
+    {
+      "text": "明確",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%9A%E4%B9%89%E8%89%AF%E5%A5%BD"
+    },
+    {
+      "text": "父母",
+      "url": "https://zh.wikipedia.org/wiki/%E7%88%B6%E6%AF%8D"
+    },
+    {
+      "text": "[ 27 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-27"
+    },
+    {
+      "text": "臺北市議會",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83"
+    },
+    {
+      "text": "中國",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B"
+    },
+    {
+      "text": "地區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%8D%80"
+    },
+    {
+      "text": "未成年",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%AA%E6%88%90%E5%B9%B4%E4%BA%BA"
+    },
+    {
+      "text": "「防沉迷」規則",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E9%98%B2%E6%B2%89%E8%BF%B7%E7%B3%BB%E7%BB%9F"
+    },
+    {
+      "text": "[ 28 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-28"
+    },
+    {
+      "text": "蔣萬安市府團隊",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E8%90%AC%E5%AE%89%E5%B8%82%E5%BA%9C"
+    },
+    {
+      "text": "蔣萬安",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E8%90%AC%E5%AE%89"
+    },
+    {
+      "text": "承諾",
+      "url": "https://zh.wikipedia.org/wiki/%E6%89%BF%E8%AB%BE"
+    },
+    {
+      "text": "[ 29 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-29"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=5"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=6"
+    },
+    {
+      "text": "同性婚姻",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%A7%E5%A9%9A%E5%A7%BB"
+    },
+    {
+      "text": "[ 30 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-30"
+    },
+    {
+      "text": "[ 31 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-31"
+    },
+    {
+      "text": "後同",
+      "url": "https://zh.wikipedia.org/wiki/%E8%84%AB%E9%9B%A2%E5%90%8C%E6%80%A7%E6%88%80"
+    },
+    {
+      "text": "[ 32 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:0-32"
+    },
+    {
+      "text": "民法",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E6%B3%95_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "大法官",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B8%E6%B3%95%E9%99%A2%E5%A4%A7%E6%B3%95%E5%AE%98"
+    },
+    {
+      "text": "[ 33 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-33"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=7"
+    },
+    {
+      "text": "家庭主流化",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%B6%E5%BA%AD%E4%B8%BB%E6%B5%81%E5%8C%96"
+    },
+    {
+      "text": "[ 9 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:3-9"
+    },
+    {
+      "text": "[ 34 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-34"
+    },
+    {
+      "text": "[ 35 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-35"
+    },
+    {
+      "text": "[ 36 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-36"
+    },
+    {
+      "text": "[ 37 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-37"
+    },
+    {
+      "text": "[ 38 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-38"
+    },
+    {
+      "text": "[ 39 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-39"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=8"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=9"
+    },
+    {
+      "text": "國小",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%B0%8F"
+    },
+    {
+      "text": "[ 40 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-40"
+    },
+    {
+      "text": "[ 41 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-41"
+    },
+    {
+      "text": "[ 42 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-42"
+    },
+    {
+      "text": "性別平等",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%88%A5%E5%B9%B3%E7%AD%89"
+    },
+    {
+      "text": "[ 43 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-43"
+    },
+    {
+      "text": "恐同",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%8C%E6%80%A7%E6%88%80%E6%81%90%E6%87%BC"
+    },
+    {
+      "text": "[ 44 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-44"
+    },
+    {
+      "text": "保險套",
+      "url": "https://zh.wikipedia.org/wiki/%E9%81%BF%E5%AD%95%E5%A5%97"
+    },
+    {
+      "text": "[ 45 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-45"
+    },
+    {
+      "text": "國民教育",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E6%95%99%E8%82%B2"
+    },
+    {
+      "text": "[ 46 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-46"
+    },
+    {
+      "text": "[ 47 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:63-47"
+    },
+    {
+      "text": "12年國教課綱",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E5%B9%B4%E5%9C%8B%E6%95%99"
+    },
+    {
+      "text": "性別混淆",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%88%A5%E8%AA%8D%E5%90%8C%E9%9A%9C%E7%A4%99"
+    },
+    {
+      "text": "[ 48 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-48"
+    },
+    {
+      "text": "[ 49 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-49"
+    },
+    {
+      "text": "性別光譜",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%A7%E5%88%A5%E5%85%89%E8%AD%9C"
+    },
+    {
+      "text": "電影分級制度",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%BD%B1%E5%88%86%E7%B4%9A%E5%88%B6%E5%BA%A6"
+    },
+    {
+      "text": "[ 50 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-50"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=10"
+    },
+    {
+      "text": "[ 51 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-51"
+    },
+    {
+      "text": "[ 52 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-52"
+    },
+    {
+      "text": "[ 53 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-53"
+    },
+    {
+      "text": "[ 54 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-:7-54"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=11"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=12"
+    },
+    {
+      "text": "[ 55 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-ETtoday20230525-55"
+    },
+    {
+      "text": "[ 56 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_note-CNA20230525-56"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=13"
+    },
+    {
+      "text": "第九屆立法委員選舉選舉",
+      "url": "https://zh.wikipedia.org/wiki/2016%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "台北市第六選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E5%85%AD%E9%81%B8%E8%88%89%E5%8D%80_(%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1)"
+    },
+    {
+      "text": "信心希望聯盟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E5%BF%83%E5%B8%8C%E6%9C%9B%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "第十四屆臺北市議員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1%E5%8F%8A%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%8D%80%E6%8A%95%E7%A5%A8%E7%B5%90%E6%9E%9C%E5%88%97%E8%A1%A8#臺北市第六選舉區（大安區、文山區）"
+    },
+    {
+      "text": "無黨籍",
+      "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E9%BB%A8%E7%B1%8D"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Elected_candidate_symbol_(voting_stamp,_Taiwan).svg"
+    },
+    {
+      "text": "第十五屆臺北市議員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1%E5%8F%8A%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%8D%80%E6%8A%95%E7%A5%A8%E7%B5%90%E6%9E%9C%E5%88%97%E8%A1%A8#臺北市第六選舉區（大安區、文山區）"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=14"
+    },
+    {
+      "text": "1.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-#1_1-0"
+    },
+    {
+      "text": "1.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-#1_1-1"
+    },
+    {
+      "text": "「一旦同婚通過 同性戀者將爆增」護家盟：同志運動只是推動性解放",
+      "url": "http://www.chinatimes.com/newspapers/20161030000262-260118"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190629015622/https://www.chinatimes.com/newspapers/20161030000262-260118"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-2"
+    },
+    {
+      "text": "現任議員",
+      "url": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2603"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-3"
+    },
+    {
+      "text": "105 學年度臺北市大安區龍安國民小學學生家長會第一次委員會會議紀錄",
+      "url": "https://parentassociation-laes.weebly.com/uploads/9/6/5/0/96500408/105%E5%AD%B8%E5%B9%B4%E7%AC%AC1%E6%AC%A1%E5%B9%B4%E7%B4%9A%E5%A7%94%E5%93%A1%E6%9C%83%E8%AD%B0-%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20180808171610/https://parentassociation-laes.weebly.com/uploads/9/6/5/0/96500408/105%E5%AD%B8%E5%B9%B4%E7%AC%AC1%E6%AC%A1%E5%B9%B4%E7%B4%9A%E5%A7%94%E5%93%A1%E6%9C%83%E8%AD%B0-%E6%9C%83%E8%AD%B0%E7%B4%80%E9%8C%84.pdf"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-4"
+    },
+    {
+      "text": "臺北市國小學生家長會聯合會【第十五屆第二次理監聯席會會議議程】",
+      "url": "https://web.archive.org/web/20180808172114/http://www.upa.org.tw/wp-content/uploads/2017/10/%E7%AC%AC%E5%8D%81%E4%BA%94%E5%B1%86%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%90%86%E7%9B%A3%E8%81%AF%E5%B8%AD%E6%9C%83%E6%89%8B%E5%86%8A-%E6%9C%83%E8%AD%B0%E8%A8%98%E9%8C%84-Revised-0910.pdf"
+    },
+    {
+      "text": "原始内容",
+      "url": "http://www.upa.org.tw/wp-content/uploads/2017/10/%E7%AC%AC%E5%8D%81%E4%BA%94%E5%B1%86%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%90%86%E7%9B%A3%E8%81%AF%E5%B8%AD%E6%9C%83%E6%89%8B%E5%86%8A-%E6%9C%83%E8%AD%B0%E8%A8%98%E9%8C%84-Revised-0910.pdf"
+    },
+    {
+      "text": "5.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:1_5-0"
+    },
+    {
+      "text": "5.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:1_5-1"
+    },
+    {
+      "text": "5.2",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:1_5-2"
+    },
+    {
+      "text": "5.3",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:1_5-3"
+    },
+    {
+      "text": "5.4",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:1_5-4"
+    },
+    {
+      "text": "5.5",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:1_5-5"
+    },
+    {
+      "text": "昔父愛缺席　天父的愛讓他踏入政治山頭－曾獻瑩",
+      "url": "https://web.archive.org/web/20180808172247/http://www.cdn.org.tw/News.aspx?key=7281"
+    },
+    {
+      "text": "原始内容",
+      "url": "http://www.cdn.org.tw/News.aspx?key=7281"
+    },
+    {
+      "text": "6.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:2_6-0"
+    },
+    {
+      "text": "6.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:2_6-1"
+    },
+    {
+      "text": "6.2",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:2_6-2"
+    },
+    {
+      "text": "6.3",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:2_6-3"
+    },
+    {
+      "text": "6.4",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:2_6-4"
+    },
+    {
+      "text": "從家開始 成為主流帶出改變－訪曾獻瑩",
+      "url": "https://krtnews.tw/supplement/window-of-the-soul/article/12922.html"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20220304073646/https://krtnews.tw/supplement/window-of-the-soul/article/12922.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-7"
+    },
+    {
+      "text": "台灣積體電路－跨團隊高效能，建構知識平台",
+      "url": "https://web.archive.org/web/20190611004217/http://epaper.pchome.com.tw/archive/last.htm?s_date=old&s_dir=20041216&s_code=0210&s_cat="
+    },
+    {
+      "text": "原始内容",
+      "url": "http://epaper.pchome.com.tw/archive/last.htm?s_date=old&s_dir=20041216&s_code=0210&s_cat="
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-8"
+    },
+    {
+      "text": "個人簡歷",
+      "url": "https://web.archive.org/web/20210122100655/https://politicsfromfamily.com/about/"
+    },
+    {
+      "text": "原始内容",
+      "url": "http://politicsfromfamily.com/about/"
+    },
+    {
+      "text": "9.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:3_9-0"
+    },
+    {
+      "text": "9.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:3_9-1"
+    },
+    {
+      "text": "大安曾獻瑩 主要政見：家庭主流化政策",
+      "url": "http://politicsfromfamily.com/issue-views/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20210122084832/https://politicsfromfamily.com/issue-views/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-10"
+    },
+    {
+      "text": "2016總統、立委大選>立委即時開票>曾獻瑩立委候選人",
+      "url": "https://web.archive.org/web/20180808233833/http://www.chinatimes.com/vote2016/legislator/63000/0609"
+    },
+    {
+      "text": "原始内容",
+      "url": "http://www.chinatimes.com/vote2016/legislator/63000/0609"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-11"
+    },
+    {
+      "text": "下一代幸福聯盟發動公投記者會會後新聞稿 同性婚姻應交付公投",
+      "url": "https://taiwanfamily.com/102393"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20170810130607/https://taiwanfamily.com/102393"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-12"
+    },
+    {
+      "text": "參加彩虹愛家公益音樂會",
+      "url": "https://www.facebook.com/politicsfromfamily/posts/2121526851463522"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-13"
+    },
+    {
+      "text": "曾獻瑩登記大安文山市議員初選 賴趙郝齊推薦",
+      "url": "https://tw.news.yahoo.com/%E6%9B%BE%E7%8D%BB%E7%91%A9%E7%99%BB%E8%A8%98%E5%A4%A7%E5%AE%89%E6%96%87%E5%B1%B1%E5%B8%82%E8%AD%B0%E5%93%A1%E5%88%9D%E9%81%B8-%E8%B3%B4%E8%B6%99%E9%83%9D%E9%BD%8A%E6%8E%A8%E8%96%A6-133249931.html"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20220415182920/https://tw.news.yahoo.com/%E6%9B%BE%E7%8D%BB%E7%91%A9%E7%99%BB%E8%A8%98%E5%A4%A7%E5%AE%89%E6%96%87%E5%B1%B1%E5%B8%82%E8%AD%B0%E5%93%A1%E5%88%9D%E9%81%B8-%E8%B3%B4%E8%B6%99%E9%83%9D%E9%BD%8A%E6%8E%A8%E8%96%A6-133249931.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-14"
+    },
+    {
+      "text": "「大魔王來了」？李彥秀、歐陽龍傳評估再戰台北市議員",
+      "url": "https://udn.com/news/story/6656/5988598"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20220304072512/https://udn.com/news/story/6656/5988598"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-15"
+    },
+    {
+      "text": "大安文山曾獻瑩 – 堅持婚姻一男一女，堅持國中小不應實施同志教育",
+      "url": "https://politicsfromfamily.com/politics-post/5130/"
+    },
+    {
+      "text": "页面存档备份",
+      "url": "https://web.archive.org/web/20221205072106/https://politicsfromfamily.com/politics-post/5130/"
+    },
+    {
+      "text": "互联网档案馆",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:4_16-0"
+    },
+    {
+      "text": "推動家庭主流化 大聲公辦公投實務培訓",
+      "url": "http://krtnews.tw/chinese-church/local/article/18128.html"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190605224219/http://krtnews.tw/chinese-church/local/article/18128.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:5_17-0"
+    },
+    {
+      "text": "「下一代幸福聯盟」促教會合一 公投拒台灣同性婚姻合法",
+      "url": "http://chinese.gospelherald.com/articles/26879/20180607/%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%B9%B8%E7%A6%8F%E8%81%AF%E7%9B%9F-%E4%BF%83%E6%95%99%E6%9C%83%E5%90%88%E4%B8%80-%E5%85%AC%E6%8A%95%E6%8B%92%E5%8F%B0%E7%81%A3%E5%90%8C%E6%80%A7%E5%A9%9A%E5%A7%BB%E5%90%88%E6%B3%95.htm"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190629184810/https://chinese.gospelherald.com/articles/26879/20180607/%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%B9%B8%E7%A6%8F%E8%81%AF%E7%9B%9F-%E4%BF%83%E6%95%99%E6%9C%83%E5%90%88%E4%B8%80-%E5%85%AC%E6%8A%95%E6%8B%92%E5%8F%B0%E7%81%A3%E5%90%8C%E6%80%A7%E5%A9%9A%E5%A7%BB%E5%90%88%E6%B3%95.htm"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-18"
+    },
+    {
+      "text": "婚姻定義公投力拚二階段連署　曾獻瑩：目標定在35萬份",
+      "url": "https://tw.news.yahoo.com/%E5%A9%9A%E5%A7%BB%E5%AE%9A%E7%BE%A9%E5%85%AC%E6%8A%95%E5%8A%9B%E6%8B%9A%E4%BA%8C%E9%9A%8E%E6%AE%B5%E9%80%A3%E7%BD%B2-%E6%9B%BE%E7%8D%BB%E7%91%A9-%E7%9B%AE%E6%A8%99%E5%AE%9A%E5%9C%A835%E8%90%AC%E4%BB%BD-013625306.html"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190606171755/https://tw.news.yahoo.com/%E5%A9%9A%E5%A7%BB%E5%AE%9A%E7%BE%A9%E5%85%AC%E6%8A%95%E5%8A%9B%E6%8B%9A%E4%BA%8C%E9%9A%8E%E6%AE%B5%E9%80%A3%E7%BD%B2-%E6%9B%BE%E7%8D%BB%E7%91%A9-%E7%9B%AE%E6%A8%99%E5%AE%9A%E5%9C%A835%E8%90%AC%E4%BB%BD-013625306.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-19"
+    },
+    {
+      "text": "馬金合體挺曾獻瑩 藍基層：幫破壞初選制度的人站台？ - 政治",
+      "url": "https://www.chinatimes.com/realtimenews/20221119003000-260407?chdtv"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230429212952/https://www.chinatimes.com/realtimenews/20221119003000-260407?chdtv"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-20"
+    },
+    {
+      "text": "馬、金合體輔選「無黨籍」曾獻瑩 藍小雞憂「黨內互打」｜#鏡新聞",
+      "url": "https://www.youtube.com/watch?v=TnMSL6sq4ZQ"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230501042708/https://www.youtube.com/watch?v=TnMSL6sq4ZQ"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-21"
+    },
+    {
+      "text": "藍報准參選惹議 曾獻瑩宣布以無黨籍參選北市",
+      "url": "https://udn.com/vote2022/story/122682/6519501"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20220819010343/https://udn.com/vote2022/story/122682/6519501"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-22"
+    },
+    {
+      "text": "親子關係|成癮|新聞|議員籲重視兒童手機成癮 造成親子衝突多",
+      "url": "https://www.youtube.com/watch?v=n36MDpy3W0o"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230404155749/https://www.youtube.com/watch?v=n36MDpy3W0o"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-23"
+    },
+    {
+      "text": "Rti 中央廣播電臺 - 手機成癮調查：逾半數孩子作息嚴重受影響 近9成有親子衝突",
+      "url": "https://www.rti.org.tw/news/view/id/2140940"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230501094210/https://www.rti.org.tw/news/view/id/2140940"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-24"
+    },
+    {
+      "text": "兒少手機成癮比例增高 5成家庭因手機起衝突 - 生活",
+      "url": "https://www.chinatimes.com/realtimenews/20230331003503-260405?chdtv"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230430101420/https://www.chinatimes.com/realtimenews/20230331003503-260405?chdtv"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-25"
+    },
+    {
+      "text": "兒少手機成癮多可怕？5成家庭因手機起衝突",
+      "url": "https://udn.com/news/story/6885/7069882"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230501151224/https://udn.com/news/story/6885/7069882"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-26"
+    },
+    {
+      "text": "問卷調查 六成家長：孩子手機成癮 半數家庭起衝突",
+      "url": "https://www.mdnkids.com/content.asp?sub=1&sn=10856"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-27"
+    },
+    {
+      "text": "【 議員揭六成家長認孩子手機成癮 國外研究卻顯示父母使用過度是主因 】",
+      "url": "https://www.instagram.com/p/Cqsd448S6pb/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230425115217/https://www.instagram.com/p/Cqsd448S6pb/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-28"
+    },
+    {
+      "text": "被點名是精神鴉片，騰訊將限制未成年玩家一天只能玩 1 小時手遊",
+      "url": "https://technews.tw/2021/08/04/gaming-tencent/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230429031331/https://technews.tw/2021/08/04/gaming-tencent/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-29"
+    },
+    {
+      "text": "台北淪詐騙提款天堂？蔣萬安：防詐騙是重中之重，也要預防兒少手機成癮。",
+      "url": "https://www.youtube.com/watch?v=-LFYN8kUEVE"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230425115225/https://www.youtube.com/watch?v=-LFYN8kUEVE&gl=US&hl=en"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-30"
+    },
+    {
+      "text": "【會後稿】全國民調公布：同性婚姻入法應停止審查交付公投",
+      "url": "https://www.coolloud.org.tw/node/87227"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190609050938/https://www.coolloud.org.tw/node/87227"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-31"
+    },
+    {
+      "text": "反同婚團體：7成6民眾贊成同婚訴諸公投",
+      "url": "https://news.ltn.com.tw/news/life/breakingnews/1925340"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190402155739/https://news.ltn.com.tw/news/life/breakingnews/1925340"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:0_32-0"
+    },
+    {
+      "text": "後同志：同婚若合法，我就沒機會恢復性別認同",
+      "url": "https://newtalk.tw/news/view/2017-03-22/83311"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190613154821/https://newtalk.tw/news/view/2017-03-22/83311"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-33"
+    },
+    {
+      "text": "「只有正方何來辯論？」　型男接棒反同婚",
+      "url": "http://www.appledaily.com.tw/realtimenews/article/new/20170324/1083611/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20170518103009/http://www.appledaily.com.tw/realtimenews/article/new/20170324/1083611/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-34"
+    },
+    {
+      "text": "台灣家庭政策國際研討會》 家庭主流化 先影響評估再制定政策",
+      "url": "http://krtnews.tw/chinese-church/local/article/16047.html"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190609050938/http://krtnews.tw/chinese-church/local/article/16047.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-35"
+    },
+    {
+      "text": "草地音樂會 政治人物也要愛家 - 基督教論壇報",
+      "url": "https://www.ct.org.tw/1273238"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190604154521/https://www.ct.org.tw/1273238"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-36"
+    },
+    {
+      "text": "存档副本",
+      "url": "https://web.archive.org/web/20200812042252/https://kairos.news/24814"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-37"
+    },
+    {
+      "text": "存档副本",
+      "url": "https://web.archive.org/web/20170420235033/https://kairos.news/25134"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-38"
+    },
+    {
+      "text": "草地音樂會政治人物也要愛家",
+      "url": "https://www.ct.org.tw/1273238"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190604154521/https://www.ct.org.tw/1273238"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-39"
+    },
+    {
+      "text": "突破政策盲點：政府應支持家庭功能　而非取代家庭角色",
+      "url": "https://web.archive.org/web/20170721145921/http://www.cdn.org.tw/News.aspx?key=7517"
+    },
+    {
+      "text": "原始内容",
+      "url": "http://www.cdn.org.tw/News.aspx?key=7517"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-40"
+    },
+    {
+      "text": "貍貓換太子？家長會演講突換盟盟講者",
+      "url": "http://www.appledaily.com.tw/realtimenews/article/new/20170116/1035519/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20170518103705/http://www.appledaily.com.tw/realtimenews/article/new/20170116/1035519/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-41"
+    },
+    {
+      "text": "存档副本",
+      "url": "https://web.archive.org/web/20190629123621/https://kairos.news/58241"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-42"
+    },
+    {
+      "text": "「彩虹恐怖」 反同團體控霸凌 - 蘋果日報",
+      "url": "http://www.appledaily.com.tw/appledaily/article/headline/20161211/37481509/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20170518055959/http://www.appledaily.com.tw/appledaily/article/headline/20161211/37481509/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-43"
+    },
+    {
+      "text": "「恐怕會滑向性解放」，他們反對性別教育納入同志平權 - 端傳媒",
+      "url": "https://theinitium.com/article/20161229-taiwan-same-sex-marriage1/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20201027195922/https://theinitium.com/article/20161229-taiwan-same-sex-marriage1/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-44"
+    },
+    {
+      "text": "〈台北都會〉同婚影響教育？ 北市說明會挨轟偏頗 - 地方 - 自由時報電子報",
+      "url": "https://news.ltn.com.tw/news/local/paper/1056697"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20201031143014/https://news.ltn.com.tw/news/local/paper/1056697"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-45"
+    },
+    {
+      "text": "6％國小男生有性經驗 家長團體看法大相逕庭",
+      "url": "https://udn.com/news/story/7266/2657405"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190611200303/https://udn.com/news/story/7266/2657405"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-46"
+    },
+    {
+      "text": "曾獻瑩補正教育公投主文",
+      "url": "https://web.cec.gov.tw/upload/file/2018-04-26/67c544fd-64de-4007-8ee7-eafb17e53613/f80d5d82de5359867ba74d3f7e18d54f.pdf"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20180724183554/https://web.cec.gov.tw/upload/file/2018-04-26/67c544fd-64de-4007-8ee7-eafb17e53613/f80d5d82de5359867ba74d3f7e18d54f.pdf"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:63_47-0"
+    },
+    {
+      "text": "反同公投提案 補正後未牴觸大法官解釋",
+      "url": "http://www.cna.com.tw/news/firstnews/201804180331-1.aspx"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20180705175646/http://www.cna.com.tw/news/firstnews/201804180331-1.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-48"
+    },
+    {
+      "text": "「同志教育影響孩童身心」 幸福盟提適齡性平教育公投",
+      "url": "https://newtalk.tw/news/view/2018-01-31/112599"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20201103171911/https://newtalk.tw/news/view/2018-01-31/112599"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-49"
+    },
+    {
+      "text": "「不應對未成年孩子實施同志教育？」幸福盟再提公投反「性平教育」",
+      "url": "https://www.thenewslens.com/article/88905"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20200516152619/https://www.thenewslens.com/article/88905"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-50"
+    },
+    {
+      "text": "反同志教育　公投提案人：如果連自己孩子都保護不了，這國家有什麼偉大可言？",
+      "url": "https://www.storm.mg/article/410859"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20181124210522/https://www.storm.mg/article/410859"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-51"
+    },
+    {
+      "text": "不當性平教材進校園 500家長關切",
+      "url": "http://krtnews.tw/chinese-church/local/article/default/15443.html"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20171201032725/http://krtnews.tw/chinese-church/local/article/default/15443.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-52"
+    },
+    {
+      "text": "【性別平等教育增能研習】孩子受教內容家長有優先選擇權",
+      "url": "https://www.ct.org.tw/1305783"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20201201150200/https://www.ct.org.tw/1305783"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-53"
+    },
+    {
+      "text": "最近有許多朋友關心家庭教育法的修法",
+      "url": "https://www.facebook.com/politicsfromfamily/photos/a.1635247503424795.1073741828.1633741366908742/1920388084910734/?type=3&theater"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-:7_54-0"
+    },
+    {
+      "text": "家庭教育法修法弱化家長參與權　引起家長不滿",
+      "url": "https://tw.news.yahoo.com/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2%E6%B3%95%E4%BF%AE%E6%B3%95%E5%BC%B1%E5%8C%96%E5%AE%B6%E9%95%B7%E5%8F%83%E8%88%87%E6%AC%8A-%E5%BC%95%E8%B5%B7%E5%AE%B6%E9%95%B7%E4%B8%8D%E6%BB%BF-091609130.html"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20190606105645/https://tw.news.yahoo.com/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2%E6%B3%95%E4%BF%AE%E6%B3%95%E5%BC%B1%E5%8C%96%E5%AE%B6%E9%95%B7%E5%8F%83%E8%88%87%E6%AC%8A-%E5%BC%95%E8%B5%B7%E5%AE%B6%E9%95%B7%E4%B8%8D%E6%BB%BF-091609130.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-ETtoday20230525_55-0"
+    },
+    {
+      "text": "5億高中生婚後墜亡　北市議員竟說「同婚也是謀財害命的好管道」",
+      "url": "https://www.ettoday.net/news/20230525/2506703.htm"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#cite_ref-CNA20230525_56-0"
+    },
+    {
+      "text": "指同婚是謀財害命管道引爭議 北市議員曾獻瑩：覺得不妥已刪文",
+      "url": "https://www.cna.com.tw/news/ahel/202305250314.aspx"
+    },
+    {
+      "text": "编辑",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&action=edit&section=15"
+    },
+    {
+      "text": "曾獻瑩的Facebook專頁",
+      "url": "https://www.facebook.com/politicsfromfamily"
+    },
+    {
+      "text": "政治從家開始 - 曾獻瑩",
+      "url": "http://politicsfromfamily.com/"
+    },
+    {
+      "text": "页面存档备份",
+      "url": "https://web.archive.org/web/20210122090500/http://politicsfromfamily.com/"
+    },
+    {
+      "text": "互联网档案馆",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Taiwan-icon.svg"
+    },
+    {
+      "text": "臺灣主題",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E8%87%BA%E7%81%A3"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:A_coloured_voting_box.svg"
+    },
+    {
+      "text": "政治主題",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E6%94%BF%E6%B2%BB"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Taipei_101_from_afar.jpg"
+    },
+    {
+      "text": "臺北主題",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E8%87%BA%E5%8C%97"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:P_vip.svg"
+    },
+    {
+      "text": "人物主題",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AC%AC14%E5%B1%86%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Template_talk:%E7%AC%AC14%E5%B1%86%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E5%93%A1&action=edit&redlink=1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E7%AC%AC14%E5%B1%86%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "臺北市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E5%93%A1%E5%88%97%E8%A1%A8"
+    },
+    {
+      "text": "戴錫欽",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E9%8C%AB%E6%AC%BD"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Emblem_of_the_Kuomintang.svg"
+    },
+    {
+      "text": "葉林傳",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%89%E6%9E%97%E5%82%B3"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Emblem_of_the_Kuomintang.svg"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "汪志冰",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%AA%E5%BF%97%E5%86%B0"
+    },
+    {
+      "text": "張斯綱",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%96%AF%E7%B6%B1"
+    },
+    {
+      "text": "陳重文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%87%8D%E6%96%87"
+    },
+    {
+      "text": "林杏兒",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%9D%8F%E5%85%92"
+    },
+    {
+      "text": "李彥秀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BD%A5%E7%A7%80"
+    },
+    {
+      "text": "闕枚莎",
+      "url": "https://zh.wikipedia.org/wiki/%E9%97%95%E6%9E%9A%E8%8E%8E"
+    },
+    {
+      "text": "李明賢",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%98%8E%E8%B3%A2"
+    },
+    {
+      "text": "游淑慧",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E6%B7%91%E6%85%A7"
+    },
+    {
+      "text": "吳世正",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E4%B8%96%E6%AD%A3"
+    },
+    {
+      "text": "王鴻薇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "text": "徐巧芯",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%B7%A7%E8%8A%AF"
+    },
+    {
+      "text": "秦慧珠",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%A6%E6%85%A7%E7%8F%A0"
+    },
+    {
+      "text": "詹為元",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A9%B9%E7%82%BA%E5%85%83"
+    },
+    {
+      "text": "戴錫欽",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E9%8C%AB%E6%AC%BD"
+    },
+    {
+      "text": "葉林傳",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%89%E6%9E%97%E5%82%B3"
+    },
+    {
+      "text": "柳采葳",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%B3%E9%87%87%E8%91%B3"
+    },
+    {
+      "text": "陳炳甫",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%B3%E7%94%AB"
+    },
+    {
+      "text": "吳志剛",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%BF%97%E5%89%9B_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "應曉薇",
+      "url": "https://zh.wikipedia.org/wiki/%E6%87%89%E6%9B%89%E8%96%87"
+    },
+    {
+      "text": "郭昭巖",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E6%98%AD%E5%B7%96"
+    },
+    {
+      "text": "鍾小平",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E5%B0%8F%E5%B9%B3"
+    },
+    {
+      "text": "王欣儀",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AC%A3%E5%84%80"
+    },
+    {
+      "text": "李柏毅",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%9F%8F%E6%AF%85_(%E8%87%BA%E5%8C%97%E5%B8%82)"
+    },
+    {
+      "text": "徐弘庭",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%BC%98%E5%BA%AD"
+    },
+    {
+      "text": "鍾沛君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E6%B2%9B%E5%90%9B"
+    },
+    {
+      "text": "耿葳",
+      "url": "https://zh.wikipedia.org/wiki/%E8%80%BF%E8%91%B3"
+    },
+    {
+      "text": "陳錦祥",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%8C%A6%E7%A5%A5"
+    },
+    {
+      "text": "楊植斗",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E6%A4%8D%E6%96%97"
+    },
+    {
+      "text": "李芳儒",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%8A%B3%E5%84%92"
+    },
+    {
+      "text": "李傅中武",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%82%85%E4%B8%AD%E6%AD%A6"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Flag_of_Taipei_City.svg"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "鍾佩玲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E4%BD%A9%E7%8E%B2"
+    },
+    {
+      "text": "林世宗",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%B8%96%E5%AE%97"
+    },
+    {
+      "text": "陳慈慧",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%85%88%E6%85%A7"
+    },
+    {
+      "text": "陳賢蔚",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%B3%A2%E8%94%9A"
+    },
+    {
+      "text": "林延鳳",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%BB%B6%E9%B3%B3"
+    },
+    {
+      "text": "何孟樺",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E5%AD%9F%E6%A8%BA"
+    },
+    {
+      "text": "王孝維",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AD%9D%E7%BB%B4"
+    },
+    {
+      "text": "李建昌",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BB%BA%E6%98%8C_(%E5%8F%B0%E7%81%A3)"
+    },
+    {
+      "text": "張文潔",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%96%87%E6%BD%94"
+    },
+    {
+      "text": "許家蓓",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E5%AE%B6%E8%93%93"
+    },
+    {
+      "text": "許淑華",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%B7%91%E8%8F%AF_(1973%E5%B9%B4)"
+    },
+    {
+      "text": "洪健益",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%81%A5%E7%9B%8A"
+    },
+    {
+      "text": "王世堅",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E5%A0%85"
+    },
+    {
+      "text": "陳怡君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%80%A1%E5%90%9B_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "顏若芳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A1%8F%E8%8B%A5%E8%8A%B3"
+    },
+    {
+      "text": "吳沛憶",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%B2%9B%E6%86%B6"
+    },
+    {
+      "text": "劉耀仁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E8%80%80%E4%BB%81"
+    },
+    {
+      "text": "洪婉臻",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%A9%89%E8%87%BB"
+    },
+    {
+      "text": "赵怡翔",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%B5%E6%80%A1%E7%BF%94"
+    },
+    {
+      "text": "簡舒培",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B0%A1%E8%88%92%E5%9F%B9"
+    },
+    {
+      "text": "王閔生",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%96%94%E7%94%9F"
+    },
+    {
+      "text": "林亮君",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BA%AE%E5%90%9B"
+    },
+    {
+      "text": "台灣民眾黨",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B0%91%E7%9C%BE%E9%BB%A8"
+    },
+    {
+      "text": "黃瀞瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%80%9E%E7%91%A9"
+    },
+    {
+      "text": "陳宥丞",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%AE%A5%E4%B8%9E"
+    },
+    {
+      "text": "林珍羽",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E7%8F%8D%E7%BE%BD"
+    },
+    {
+      "text": "張志豪",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%BF%97%E8%B1%AA_(1972%E5%B9%B44%E6%9C%88)"
+    },
+    {
+      "text": "新黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "text": "侯漢廷",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BE%AF%E6%BC%A2%E5%BB%B7"
+    },
+    {
+      "text": "社會民主黨",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A4%BE%E6%9C%83%E6%B0%91%E4%B8%BB%E9%BB%A8_(%E8%87%BA%E7%81%A3)"
+    },
+    {
+      "text": "苗博雅",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8B%97%E5%8D%9A%E9%9B%85"
+    },
+    {
+      "text": "無黨籍",
+      "url": "https://zh.wikipedia.org/wiki/%E7%84%A1%E9%BB%A8%E7%B1%8D"
+    },
+    {
+      "text": "陳政忠",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%94%BF%E5%BF%A0"
+    },
+    {
+      "text": "徐立信",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E7%AB%8B%E4%BF%A1"
+    },
+    {
+      "text": "李彥秀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BD%A5%E7%A7%80"
+    },
+    {
+      "text": "徐巧芯",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%B7%A7%E8%8A%AF"
+    },
+    {
+      "text": "王世堅",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E5%A0%85"
+    },
+    {
+      "text": "吳沛憶",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%B2%9B%E6%86%B6"
+    },
+    {
+      "text": "第11屆立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "王鴻薇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "text": "臺北市第三選舉區立法委員缺額補選",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E4%B8%89%E9%81%B8%E8%88%89%E5%8D%80%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E7%BC%BA%E9%A1%8D%E8%A3%9C%E9%81%B8"
+    },
+    {
+      "text": "許家蓓",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E5%AE%B6%E8%93%93"
+    },
+    {
+      "text": "赵怡翔",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%B5%E6%80%A1%E7%BF%94"
+    },
+    {
+      "text": "國家安全會議",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%B6%E5%AE%89%E5%85%A8%E6%9C%83%E8%AD%B0_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "林亮君",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BA%AE%E5%90%9B"
+    },
+    {
+      "text": "陳政忠",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%94%BF%E5%BF%A0"
+    },
+    {
+      "text": "https://zh.wikipedia.org/w/index.php?title=曾獻瑩&oldid=95348991",
+      "url": "https://zh.wikipedia.org/w/index.php?title=曾獻瑩&oldid=95348991"
+    },
+    {
+      "text": "分类",
+      "url": "https://zh.wikipedia.org/wiki/Special:Categories"
+    },
+    {
+      "text": "1976年出生",
+      "url": "https://zh.wikipedia.org/wiki/Category:1976%E5%B9%B4%E5%87%BA%E7%94%9F"
+    },
+    {
+      "text": "在世人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%A8%E4%B8%96%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "第14屆臺北市議員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%AC%AC14%E5%B1%86%E8%87%BA%E5%8C%97%E5%B8%82%E8%AD%B0%E5%93%A1"
+    },
+    {
+      "text": "彰化縣人",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%BD%B0%E5%8C%96%E7%B8%A3%E4%BA%BA"
+    },
+    {
+      "text": "曾姓",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%9B%BE%E5%A7%93"
+    },
+    {
+      "text": "臺灣省立臺中第一高級中學校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E7%81%A3%E7%9C%81%E7%AB%8B%E8%87%BA%E4%B8%AD%E7%AC%AC%E4%B8%80%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "國立臺灣大學管理學院校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%AE%A1%E7%90%86%E5%AD%B8%E9%99%A2%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "臺灣新教徒",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E7%81%A3%E6%96%B0%E6%95%99%E5%BE%92"
+    },
+    {
+      "text": "台灣工程師",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%8F%B0%E7%81%A3%E5%B7%A5%E7%A8%8B%E5%B8%AB"
+    },
+    {
+      "text": "臺灣反同性婚姻人士",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E7%81%A3%E5%8F%8D%E5%90%8C%E6%80%A7%E5%A9%9A%E5%A7%BB%E4%BA%BA%E5%A3%AB"
+    },
+    {
+      "text": "信心希望聯盟黨員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%BF%A1%E5%BF%83%E5%B8%8C%E6%9C%9B%E8%81%AF%E7%9B%9F%E9%BB%A8%E5%93%A1"
+    },
+    {
+      "text": "中國國民黨黨員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8%E9%BB%A8%E5%93%A1"
+    },
+    {
+      "text": "自2025年5月维基百科来源清理",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%AA2025%E5%B9%B45%E6%9C%88%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A5%E6%BA%90%E6%B8%85%E7%90%86"
+    },
+    {
+      "text": "自2025年10月带有不当合理使用内容的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%AA2025%E5%B9%B410%E6%9C%88%E5%B8%A6%E6%9C%89%E4%B8%8D%E5%BD%93%E5%90%88%E7%90%86%E4%BD%BF%E7%94%A8%E5%86%85%E5%AE%B9%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "自2025年10月中立性有争议的作品",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%AA2025%E5%B9%B410%E6%9C%88%E4%B8%AD%E7%AB%8B%E6%80%A7%E6%9C%89%E4%BA%89%E8%AE%AE%E7%9A%84%E4%BD%9C%E5%93%81"
+    },
+    {
+      "text": "拒绝当选首页新条目推荐栏目的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%8B%92%E7%BB%9D%E5%BD%93%E9%80%89%E9%A6%96%E9%A1%B5%E6%96%B0%E6%9D%A1%E7%9B%AE%E6%8E%A8%E8%8D%90%E6%A0%8F%E7%9B%AE%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "含有多个问题的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%90%AB%E6%9C%89%E5%A4%9A%E4%B8%AA%E9%97%AE%E9%A2%98%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "含有英語的條目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE"
+    },
+    {
+      "text": "知识共享 署名-相同方式共享 4.0协议",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC"
+    },
+    {
+      "text": "使用条款",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use"
+    },
+    {
+      "text": "维基媒体基金会",
+      "url": "https://wikimediafoundation.org"
+    },
+    {
+      "text": "非营利慈善机构",
+      "url": "https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility"
+    },
+    {
+      "text": "隐私政策",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "免责声明",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E"
+    },
+    {
+      "text": "法律与安全事项联系方式",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information"
+    },
+    {
+      "text": "行为准则",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct"
+    },
+    {
+      "text": "开发者",
+      "url": "https://developer.wikimedia.org"
+    },
+    {
+      "text": "统计",
+      "url": "https://stats.wikimedia.org/#/zh.wikipedia.org"
+    },
+    {
+      "text": "Cookie声明",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement"
+    },
+    {
+      "text": "移动版视图",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BE%E7%8D%BB%E7%91%A9&mobileaction=toggle_view_mobile"
+    },
+    {
+      "text": "",
+      "url": "https://www.wikimedia.org/"
+    },
+    {
+      "text": "",
+      "url": "https://www.mediawiki.org/"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    },
+    {
+      "text": "添加话题",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9#"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/static/images/icons/wikipedia.png"
+    },
+    {
+      "alt": "维基百科",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-zh.svg"
+    },
+    {
+      "alt": "自由的百科全书",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-zh.svg"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Copyright-problem.svg/60px-Copyright-problem.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Emblem-scales.svg/40px-Emblem-scales.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/%E6%9B%BE%E7%8D%BB%E7%91%A9%E7%85%A7%E7%89%87.jpg/250px-%E6%9B%BE%E7%8D%BB%E7%91%A9%E7%85%A7%E7%89%87.jpg?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg/20px-Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "中國國民黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/20px-Emblem_of_the_Kuomintang.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Taiwan-icon.svg/20px-Taiwan-icon.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/A_coloured_voting_box.svg/40px-A_coloured_voting_box.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Taipei_101_from_afar.jpg/40px-Taipei_101_from_afar.jpg?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/P_vip.svg/40px-P_vip.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/20px-Emblem_of_the_Kuomintang.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/20px-Emblem_of_the_Kuomintang.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "中國國民黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/20px-Emblem_of_the_Kuomintang.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "臺北市市旗",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Taipei_City.svg/120px-Flag_of_Taipei_City.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "民主進步黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "台灣民眾黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Emblem_of_Taiwan_People%27s_Party_2019_Logo_Only.svg/20px-Emblem_of_Taiwan_People%27s_Party_2019_Logo_Only.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/LogoCNP.svg/20px-LogoCNP.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+    },
+    {
+      "alt": "Wikimedia Foundation",
+      "url": "https://zh.wikipedia.org/static/images/footer/wikimedia.svg"
+    },
+    {
+      "alt": "Powered by MediaWiki",
+      "url": "https://zh.wikipedia.org/w/resources/assets/mediawiki_compact.svg"
+    }
+  ],
+  "og_image": [
+    "https://upload.wikimedia.org/wikipedia/commons/0/08/%E6%9B%BE%E7%8D%BB%E7%91%A9%E7%85%A7%E7%89%87.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+  ],
+  "structured_data": [
+    "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Article\",\"name\":\"\\u66fe\\u737b\\u7469\",\"url\":\"https:\\/\\/zh.wikipedia.org\\/wiki\\/%E6%9B%BE%E7%8D%BB%E7%91%A9\",\"sameAs\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q30949165\",\"mainEntity\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q30949165\",\"author\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u9879\\u76ee\\u8d21\\u732e\\u8005\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u57fa\\u91d1\\u4f1a\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.wikimedia.org\\/static\\/images\\/wmf-hor-googpub.png\"}},\"datePublished\":\"2017-03-22T15:09:15Z\",\"dateModified\":\"2026-10-31T09:00:17Z\",\"image\":\"https:\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/0\\/08\\/%E6%9B%BE%E7%8D%BB%E7%91%A9%E7%85%A7%E7%89%87.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=original\",\"headline\":\"\\u53f0\\u7063\\u5bb6\\u5ead\\u4e3b\\u6d41\\u5316\\u904b\\u52d5\\u8005\"}"
+  ],
+  "final_url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9",
+  "http_status": 200,
+  "full_visible_text": "曾獻瑩 - 维基百科，自由的百科全书\n跳转到内容\n主菜单\n主菜单\n移至侧栏\n隐藏\n导航\n首页\n分类索引\n特色内容\n新闻动态\n随机条目\n联络我们\n关于维基百科\n贡献\n帮助\n维基社群\n编辑入门\n互助客栈\nIRC即时聊天\n最近更改\n特殊页面\n搜索\n搜索\n外观\n资助维基百科\n创建账号\n登录\n个人工具\n资助维基百科\n创建账号\n登录\n目录\n移至侧栏\n隐藏\n序言\n1\n經歷\n开关經歷子章节\n1.1\n早年生涯\n1.2\n公共事務參與\n2\n擔任臺北市議員期間\n3\n性別議題主張\n开关性別議題主張子章节\n3.1\n婚姻定義\n3.2\n家庭定義\n3.3\n教育制度\n3.3.1\n支持適齡性平教育\n3.3.2\n家長教育參與權與選擇權\n4\n爭議事件\n开关爭議事件子章节\n4.1\n評5億高中生命案同婚言論\n5\n選舉紀錄\n6\n參考文獻\n7\n外部連結\n开关目录\n曾獻瑩\n1种语言\n粵語\n编辑链接\n条目\n讨论\n不转换\n不转换\n简体\n繁體\n大陆简体\n香港繁體\n澳門繁體\n大马简体\n新加坡简体\n臺灣正體\n阅读\n编辑\n查看历史\n保存\n工具\n工具\n移至侧栏\n隐藏\n操作\n阅读\n编辑\n查看历史\n保存\n常规\n链入页面\n相关更改\n上传文件\n固定链接\n页面信息\n引用此页\n获取短链接\n打印/导出\n下载为PDF\n打印页面\n在其他项目中\n维基共享资源\n维基数据项目\n外观\n移至侧栏\n隐藏\n维基百科，自由的百科全书\n本條目存在以下問題\n，請協助\n改善本條目\n或在\n討論頁\n針對議題發表看法。\n此条目的\n引用需要清理，使其符合格式\n。\n(\n2025年5月13日\n)\n参考文献应符合正确的\n引用\n、\n脚注\n及\n外部链接\n格式。\n此条目\n或許过多或不当使用\n受版权保护\n的文字、图像及多媒体文件。\n(\n2025年10月8日\n)\n请细阅有关合理使用媒体文件的\n方针\n和\n指引\n，并协助改正\n违规內容\n，然后移除此消息框。\n条目讨论页\n可能有更多資訊。\n此条目之\n中立性\n有争议\n。其內容、語調可能\n帶有明顯的個人觀點或\n地方色彩\n。\n相关讨论可见于\n讨论页\n。\n(\n2025年10月29日\n)\n加上此模板的編輯者需在\n討論頁\n說明此文中立性有爭議的原因，以便讓各編輯者討論和改善。在編輯之前請務必察看讨论页。\n曾獻瑩\n第14屆\n臺北市議會\n議員\n现任\n就任日期\n2022年12月25日\n选区\n臺北市第六選區（\n大安區\n、\n文山區\n）\n个人资料\n性别\n男\n出生\n(\n1976-03-16\n)\n1976年3月16日\n（\n50歲）\n彰化縣\n政党\n中國國民黨\n其他政党\n信心希望聯盟\n（2015年9月6日－2020年4月29日）\n宗教信仰\n基督教\n网站\n臺北市議員曾獻瑩\n学历\n臺灣省立臺中第一高級中學\n國立臺灣大學\n工商管理學系企業管理組\n學士\n國立臺灣大學企業管理學Global MBA\n碩士\n经历\n台北市議員參選人（大安文山區）\n賴士葆服務處總顧問\n台積電\n資深工程師\n台積電卓越工程師獎（領有多項專利獎項）\n台北真理堂\n傳播部負責人\n信心希望聯盟中央執行委員\n信心希望聯盟家庭政策工作會主委\n[\n1\n]\n下一代幸福聯盟聯盟理事長\n下一代幸福聯盟家長代表\n臺北市大安區龍安國民小學家長會會長（2016年9月至2017年9月）\n臺北市國小學生家長會聯合會理事（2016年9月至2017年9月）\n臺北市國小學生家長會聯合會性別平等教育委員會總召（2016年9月至2017年9月）\n臺北市國小學生家長會聯合會顧問\n曾獻瑩\n（英語：\nTseng Hsien-Ying\n，1976年3月6日—），是\n臺灣\n彰化縣\n出生的政治人物，\n中國國民黨\n籍，現任台北市第六選區（大安區、文山區）議員\n[\n2\n]\n。\n國立臺灣大學\n工商管理學系企業管理組\n學士\n、\n國立臺灣大學\n企業管理學Global MBA\n碩士\n。曾擔任立法委員\n賴士葆\n青年總顧問。曾任\n台積電\n工程師，在職期間獲得台積電卓越工程師獎，並領有多項專利獎項。曾任\n臺北市大安區龍安國民小學\n105年度家長會會長\n[\n3\n]\n、臺北市國小學生家長會聯合會顧問、第15屆理事及該聯合會\n性別平等教育\n委員會總召\n[\n4\n]\n。著有《用對愛之語》、《這樣養寵物，家庭超幸福》等書。\n經歷\n[\n编辑\n]\n早年生涯\n[\n编辑\n]\n曾獻瑩是家中長子，四歲時父親病逝，後陸續於\n台中一中\n和\n國立台灣大學工商管理學系\n畢業。\n[\n5\n]\n[\n6\n]\n大學畢業後，於\n台積電\n擔任工程師\n[\n7\n]\n，曾獲得台積電卓越工程師獎項及多項專利獎項。但此時曾獻瑩自認對人生感到\n失望\n，\n[\n5\n]\n[\n6\n]\n直到有一天他路過\n台灣信義會\n台北真理堂，被門口「\n詩篇\n128篇」的文宣吸引，加入教會。\n[\n5\n]\n[\n6\n]\n2003年至2008年間，積極投入教會活動。並於2005年從台積電離職，成為台北真理堂傳播部負責人。\n[\n5\n]\n公共事務參與\n[\n编辑\n]\n2010年起，曾獻瑩開始配合教會的理念，全程參與宣傳「守約、守貞、守份、守承」等家庭價值觀的「活力台灣、幸福家庭、快樂義走」活動。\n[\n5\n]\n[\n6\n]\n2015年9月，加入\n信心希望聯盟\n，並於該黨擔任中執委和家庭政策工作會主委\n[\n1\n]\n，並代表該黨參選2016年1月的\n臺北市大安區\n立委選舉\n[\n8\n]\n，以「\n家庭主流化\n政策」為主要政見，\n[\n9\n]\n[\n5\n]\n[\n6\n]\n，但未能當選。\n[\n10\n]\n曾任\n下一代幸福聯盟\n理事長\n[\n11\n]\n[\n12\n]\n、\n信心希望聯盟\n中央執行委員\n[\n13\n]\n[\n14\n]\n。為臺灣堅持婚姻定義為一男一女的知名人物\n[\n15\n]\n，2018年發起「\n適齡性平教育公投\n」與「\n民法婚姻以外立法形式規範同性結合公投\n」，最後透過\n公投綁大選\n讓上述兩項公投成案。此後仍持續投入\n家庭主流化\n運動的倡議活動\n[\n16\n]\n[\n17\n]\n，並在105學年度（2016年9月至2017年9月）成為\n臺北市國小學生家長會聯合會\n理事、性平教育委員會總召和家長代表，參與\n家庭教育\n和\n性別平等教育\n等議題。\n[\n18\n]\n2022年投入\n中國國民黨\n台北市議員初選失利後，報請黨中央\n[\n19\n]\n[\n20\n]\n以\n無黨籍\n身分參選第六選區（\n大安\n、\n文山\n區）議員。2022年11月，曾獻瑩最終以第三高票（21,888票）當選\n[\n21\n]\n台北市議會第六選區議員。\n擔任臺北市議員期間\n[\n编辑\n]\n預防兒少手機成癮\n2023年，曾獻瑩\n議員\n召開\n記者會\n公布「2023兒少手機成癮問卷調查」\n[\n22\n]\n。表示「\n男孩子\n最容易成癮於網路電玩及網路\n色情\n，\n女孩子\n則是交友與追劇。建議家長要多向孩子表達愛與陪伴，並善用手機管理軟體，為孩子設定每日使用手機時間上限，並可針對特定程式加以\n限制\n。」\n[\n23\n]\n[\n24\n]\n[\n25\n]\n[\n26\n]\n對此，\n臺灣青年民主協會\n則舉出《Pediatric Research》期刊發表的\n論文\n提醒「許多家長認為科技設備干擾\n社交\n互動，使孩子出現問題行為。然而，研究認為\n因果關係\n不\n明確\n，反而更可能是\n父母\n因為沉浸在科技中，使他們的孩子更容易發生行為問題\n[\n27\n]\n。」\n嗣後，\n臺北市議會\n第14屆第1次定期大會質詢過程中曾獻瑩議員提出\n中國\n大陸\n地區\n針對\n未成年\n人的「每周3天」、「1天遊玩上限1小時」的\n「防沉迷」規則\n[\n28\n]\n，請\n蔣萬安市府團隊\n承諾預防兒少手機成癮，而市長\n蔣萬安\n承諾\n將會列為「施政重要的一環」\n[\n29\n]\n。\n性別議題主張\n[\n编辑\n]\n婚姻定義\n[\n编辑\n]\n2016年12月22日，曾獻瑩指出有少部分的民眾認為不應改變婚姻定義，但可另立法保障同性伴侶在醫療、財產處理上的權益。他認為\n同性婚姻\n目前在台灣是零共識議題，呼籲立法院停止審查，將同婚議題交付公投，應給予社會對話的時間與空間，且須提出影響評估報告。\n[\n30\n]\n[\n31\n]\n2017年3月，在大法官釋憲言詞辯論前，與多位\n後同\n代表召開記者會，表示「同性婚姻修法攸關動搖社會價值觀，應該審慎思考」、「社會上仍有許多不同的同性戀生命經歷，必須納入釋憲的考量」\n[\n32\n]\n。曾獻瑩指出，\n民法\n是由立法權依照社會演變跟社會共識所制訂，婚姻家庭制度應由全民來決定，若同婚議題僅由幾位\n大法官\n決定，恐有侵犯人民的權利與立法權利之虞。\n[\n33\n]\n家庭定義\n[\n编辑\n]\n在2016年立委選舉中，以「\n家庭主流化\n政策」做為競選政見主軸\n[\n9\n]\n[\n34\n]\n[\n35\n]\n，並推出結合家庭價值推廣的桌遊\n[\n36\n]\n、及以「愛我們的家」為主題的草地音樂會\n[\n37\n]\n[\n38\n]\n。主張制定任何政策都應跳脫個人主義，轉而進到家庭，考慮政策會不會傷害到家庭，或有無真正幫助到家庭。\n[\n39\n]\n教育制度\n[\n编辑\n]\n支持適齡性平教育\n[\n编辑\n]\n曾獻瑩曾於2016年至2017年間，擔任臺北市\n國小\n學生家長會聯合會性別平等委員會總召\n[\n40\n]\n，多次參與家長會、下一代幸福聯盟所召開之記者會\n[\n41\n]\n[\n42\n]\n，指出目前在校園中出現的許多作爲多元性別教育的教材內容為「不當」性平教材，反對現行\n性別平等\n教育內容，認為國中小的性平教材中，現在的『性教育』只有在談『性』，但情感、婚姻、性和生育應該是一起談的\n[\n43\n]\n。\n2016年11月26日，以「同性婚姻對我們孩子教育的影響」為題，宣傳「尊重同志，但反對同婚、同志教材」的立場，提出兩大主張，包括「孩子性傾向會受到文化及教育影響」、「家長對孩子所受教育，有優先選擇的權利」。他指出，國中小教材教導的同志觀念，會使孩童面臨很大的壓力，以為不支持同性婚姻就是「\n恐同\n」、「基督教霸權」。因此他呼籲家長要團結，爭取各級教育機關的教材、性別等委員會的家長席次應達三分之一，以防教材誤導、影響孩子的性傾向\n[\n44\n]\n。\n2017年8月22日，針對「六成大學生有性經驗，且6%男性的初體驗發生於國小」的校園問卷調查結果，指出這是因為教科書沒有強調從事性行為風險的後果，導致青少年會輕易嘗試性行為。目前的性平教育並不適齡，甚至試圖淡化性行為伴隨的風險。他以國小三年級的\n保險套\n課程為例，指出這階段的孩童身體未發生變化，根本就還不需要用到保險套，並強調教導「正確的性觀念」和「懂得尊重他人」是兩回事，太早教孩子複雜的性觀念，反而會驅使孩子好奇而去嘗試性行為。\n[\n45\n]\n2018年1月31日，曾獻瑩發起「適齡性平教育公投」，該公投題目經補正後，主文為「你是否同意在\n國民教育\n階段內（國中及國小），教育部及各級學校不應對學生實施性別平等教育法施行細則所定之同志教育？」\n[\n46\n]\n[\n47\n]\n。曾獻瑩在發起公投記者會中提出三點公投理由：第一，適齡性平教材符合多數家長的想法，自2016至2017年，全台已有13個縣市的市議會提案反對不當性平教材，其中家長對國中小學生接受同志教育的反彈聲浪最大；第二，同志教育涵蓋多元情慾、性別光譜等內容，不適合心智發展不成熟或身心快速變化的青春期學生；第三，教育部正研擬的\n12年國教課綱\n，規劃讓國小學生，從小認識性傾向、性別認同的多元面貌，將會影響學生的身心發展，帶來\n性別混淆\n的問題。\n[\n48\n]\n對於曾獻瑩提出的公投，婚姻平權大平台立法遊說經理鄧筑媛表示遺憾，她認為就是因為過去未落實性平教育，以及多元性別教育未透過社會教育落實於各個年齡層，才會有團體提出這樣的公投。\n[\n49\n]\n在公投聽證會中，他解釋發起公投是為了保護兒少身心發展，他以「\n性別光譜\n」為例，指出現行教學內容僅告訴學生可以做變性手術，卻沒告訴學生「變性是不可逆、高風險、甚至有生命危險的手術」，並主張「同志教育給台灣帶來很多負面的影響，很可能為國小學生帶來嚴重性別認同混淆、影響孩童性傾向跟身心發展」。他強調這個公投並不是要霸凌誰或歧視誰，而是期望教育能比照\n電影分級制度\n，給孩子最適齡的性平教育\n[\n50\n]\n。\n家長教育參與權與選擇權\n[\n编辑\n]\n曾獻瑩主張，家長對孩子在學校所受的教育內容，有優先選擇的權利，他鼓勵家長應積極參與學校事務，若發現不適合的性平教材或課程，可於班親會或家長會代表會時提出。同時也鼓勵家長深入了解國教107課綱，若發現有問題應跟校方和教育主管單位反映。\n[\n51\n]\n[\n52\n]\n對於家庭教育法的修法方向，主張「家庭教育推展會」應納入法定家長團體代表，認為「親師合作才是孩子的福音，沒有家長的參與，家庭教育法形同虛設」。他也批評教育部的家庭教育法修正草案不僅未保障家長參與，甚至要把家長移除。\n[\n53\n]\n他直言「過去教育部推動許多政策跟內容，都遭遇家長強烈反對，希望教育部不要重蹈覆轍。」\n[\n54\n]\n爭議事件\n[\n编辑\n]\n評5億高中生命案同婚言論\n[\n编辑\n]\n2023年5月24日，台中發生「5億高中生命案」，台北市議員曾獻瑩於社群媒體臉書發文表示，該命案說明了為何「同婚也是謀財害命的好管道」，並提出包含「可繼承遺產」、「無姻親規定」、「未來還能娶妻生子傳承財產」等3點理由\n[\n55\n]\n。\n台灣青年民主協會對此發表聲明嚴厲譴責，認為其將同性婚姻與命案進行不當連結，批評其拿命案操作歧視。曾獻瑩隨後於25日回應表示，認同不論同性或異性婚姻皆可能遇到謀財害命事件，因引發爭議覺得不妥，已刪除該篇貼文\n[\n56\n]\n。\n選舉紀錄\n[\n编辑\n]\n年度\n選舉屆數\n選舉區\n所屬政黨\n得票數\n得票率\n當選標記\n備註\n2016\n第九屆立法委員選舉選舉\n台北市第六選舉區\nFH\n信心希望聯盟\n4,826\n3.01%\n2022\n第十四屆臺北市議員選舉\n台北市第六選舉區\n無黨籍\n21,888\n7.68%\n2026\n第十五屆臺北市議員選舉\n中國國民黨\n參考文獻\n[\n编辑\n]\n^\n1.0\n1.1\n邱琮皓、余祥.\n「一旦同婚通過 同性戀者將爆增」護家盟：同志運動只是推動性解放\n. 中國時報. 2016-10-30. （原始内容\n存档\n于2019-06-29）.\n^\n現任議員\n. 台北市議會官網.\n^\n黃家豪.\n105 學年度臺北市大安區龍安國民小學學生家長會第一次委員會會議紀錄\n(PDF)\n. 臺北市大安區龍安國民小學家長會. 2016-10-13\n[\n2018-08-08\n]\n. （原始内容\n存档\n(PDF)\n于2018-08-08）.\n^\n洪宸甄.\n臺北市國小學生家長會聯合會【第十五屆第二次理監聯席會會議議程】\n(PDF)\n. 臺北市國小學生家長會聯合會. 2017-06-12\n[\n2018-08-08\n]\n. （\n原始内容\n(PDF)\n存档于2018-08-08）.\n^\n5.0\n5.1\n5.2\n5.3\n5.4\n5.5\n杜胤廣.\n昔父愛缺席　天父的愛讓他踏入政治山頭－曾獻瑩\n. 基督教今日報. 2015-12-06. （\n原始内容\n存档于2018-08-08）.\n^\n6.0\n6.1\n6.2\n6.3\n6.4\n林稚雯.\n從家開始 成為主流帶出改變－訪曾獻瑩\n. 國度復興報. 2015-12-01. （原始内容\n存档\n于2022-03-04）.\n^\n吳怡銘.\n台灣積體電路－跨團隊高效能，建構知識平台\n. 能力雜誌 (PChome電子報). 2004, (2004-12-16)\n[\n2018-08-08\n]\n. （\n原始内容\n存档于2019-06-11）.\n^\n曾獻瑩.\n個人簡歷\n. 政治從家開始-曾獻瑩. 2016\n[\n2018-08-08\n]\n. （\n原始内容\n存档于2021-01-22）.\n^\n9.0\n9.1\n曾獻瑩.\n大安曾獻瑩 主要政見：家庭主流化政策\n. 政治從家開始-曾獻瑩. 2015\n[\n2018-08-08\n]\n. （原始内容\n存档\n于2021-01-22）.\n^\n中央選舉委員會.\n2016總統、立委大選>立委即時開票>曾獻瑩立委候選人\n. 中國時報. 2016-01-16. （\n原始内容\n存档于2018-08-08）.\n^\n下一代幸福聯盟.\n下一代幸福聯盟發動公投記者會會後新聞稿 同性婚姻應交付公投\n. 下一代幸福聯盟. 2017-05-25\n[\n2018-08-08\n]\n. （原始内容\n存档\n于2017-08-10）.\n^\n曾獻瑩.\n參加彩虹愛家公益音樂會\n. 臉書. 2018-07-08\n[\n2018-08-09\n]\n.\n^\n記者郭大衛.\n曾獻瑩登記大安文山市議員初選 賴趙郝齊推薦\n. Yahoo新聞平台 (風向新聞). 2022-04-08\n[\n2022-04-11\n]\n. （原始内容\n存档\n于2022-04-15）\n（中文（中国大陆））\n.\n^\n記者周志豪.\n「大魔王來了」？李彥秀、歐陽龍傳評估再戰台北市議員\n. 聯合報 (聯合報). 2021-12-26\n[\n2022-03-04\n]\n. （原始内容\n存档\n于2022-03-04）\n（中文）\n.\n^\n大安文山曾獻瑩 – 堅持婚姻一男一女，堅持國中小不應實施同志教育\n（\n页面存档备份\n，存于\n互联网档案馆\n），家庭主流化-曾獻瑩，2022-07-22\n^\n魏麒原.\n推動家庭主流化 大聲公辦公投實務培訓\n. 國度復興報. 2018-04-23\n[\n2018-08-08\n]\n. （原始内容\n存档\n于2019-06-05）.\n^\n基督日報編輯室.\n「下一代幸福聯盟」促教會合一 公投拒台灣同性婚姻合法\n. 基督日報. 2018-06-07. （原始内容\n存档\n于2019-06-29）.\n^\n李遊博.\n婚姻定義公投力拚二階段連署　曾獻瑩：目標定在35萬份\n. 風向新聞. 2018-05-05. （原始内容\n存档\n于2019-06-06）.\n^\n中時新聞網.\n馬金合體挺曾獻瑩 藍基層：幫破壞初選制度的人站台？ - 政治\n. 中時新聞網.\n[\n2023-04-25\n]\n. （原始内容\n存档\n于2023-04-29）\n（中文（臺灣））\n.\n^\n馬、金合體輔選「無黨籍」曾獻瑩 藍小雞憂「黨內互打」｜#鏡新聞\n,\n[\n2023-04-25\n]\n, （原始内容\n存档\n于2023-05-01）\n（中文（中国大陆））\n^\n藍報准參選惹議 曾獻瑩宣布以無黨籍參選北市\n.\n[\n2022-08-08\n]\n. （原始内容\n存档\n于2022-08-19）.\n^\n親子關係|成癮|新聞|議員籲重視兒童手機成癮 造成親子衝突多\n,\n[\n2023-04-25\n]\n, （原始内容\n存档\n于2023-04-04）\n（中文（中国大陆））\n^\nRti 中央廣播電臺 - 手機成癮調查：逾半數孩子作息嚴重受影響 近9成有親子衝突\n. Rti 中央廣播電臺.\n[\n2023-04-25\n]\n. （原始内容\n存档\n于2023-05-01）\n（中文（臺灣））\n.\n^\n中時新聞網.\n兒少手機成癮比例增高 5成家庭因手機起衝突 - 生活\n. 中時新聞網.\n[\n2023-04-25\n]\n. （原始内容\n存档\n于2023-04-30）\n（中文（臺灣））\n.\n^\n聯合新聞網.\n兒少手機成癮多可怕？5成家庭因手機起衝突\n. 聯合新聞網.\n[\n2023-04-25\n]\n. （原始内容\n存档\n于2023-05-01）\n（中文（臺灣））\n.\n^\n問卷調查 六成家長：孩子手機成癮 半數家庭起衝突\n. www.mdnkids.com.\n[\n2023-04-25\n]\n.\n^\n【 議員揭六成家長認孩子手機成癮 國外研究卻顯示父母使用過度是主因 】\n.\n[\n2023-04-25\n]\n. （原始内容\n存档\n于2023-04-25）.\n^\n被點名是精神鴉片，騰訊將限制未成年玩家一天只能玩 1 小時手遊\n. TechNews 科技新報.\n[\n2023-04-25\n]\n. （原始内容\n存档\n于2023-04-29）\n（中文（臺灣））\n.\n^\n台北淪詐騙提款天堂？蔣萬安：防詐騙是重中之重，也要預防兒少手機成癮。\n,\n[\n2023-04-25\n]\n, （原始内容\n存档\n于2023-04-25）\n（中文（中国大陆））\n^\n下一代幸福聯盟.\n【會後稿】全國民調公布：同性婚姻入法應停止審查交付公投\n. 苦勞網. 2016-12-22. （原始内容\n存档\n于2019-06-09）.\n^\n陳炳宏.\n反同婚團體：7成6民眾贊成同婚訴諸公投\n. 自由時報. 2016-12-22. （原始内容\n存档\n于2019-04-02）.\n^\n鄭佑漢.\n後同志：同婚若合法，我就沒機會恢復性別認同\n. 新頭殼Newtalk. 2017-03-22\n[\n2018-08-09\n]\n. （原始内容\n存档\n于2019-06-13）\n（中文（臺灣））\n.\n^\n黃哲民.\n「只有正方何來辯論？」　型男接棒反同婚\n. 蘋果日報. 2017-03-24. （原始内容\n存档\n于2017-05-18）\n（中文（臺灣））\n.\n^\n國度復興報.\n台灣家庭政策國際研討會》 家庭主流化 先影響評估再制定政策\n.\n[\n2017-07-19\n]\n. （原始内容\n存档\n于2019-06-09）.\n^\n草地音樂會 政治人物也要愛家 - 基督教論壇報\n.\n[\n2016-01-14\n]\n. （原始内容\n存档\n于2019-06-04）.\n^\n存档副本\n.\n[\n2016-01-07\n]\n. 原始内容存档于2020-08-12.\n^\n畢翠絲.\n存档副本\n. 2016-01-28. 原始内容存档于2017-04-20.\n^\n盧明正.\n草地音樂會政治人物也要愛家\n. 基督教論壇報. 2016-01-14. （原始内容\n存档\n于2019-06-04）.\n^\n基督教今日報.\n突破政策盲點：政府應支持家庭功能　而非取代家庭角色\n.\n[\n2017-07-19\n]\n. （\n原始内容\n存档于2017-07-21）.\n^\n貍貓換太子？家長會演講突換盟盟講者\n. 蘋果日報.\n[\n2017-04-20\n]\n. （原始内容\n存档\n于2017-05-18）\n（中文（臺灣））\n.\n^\n存档副本\n.\n[\n2016-12-02\n]\n. 原始内容存档于2019-06-29.\n^\n「彩虹恐怖」 反同團體控霸凌 - 蘋果日報\n.\n[\n2016-12-11\n]\n. （原始内容\n存档\n于2017-05-18）.\n^\n「恐怕會滑向性解放」，他們反對性別教育納入同志平權 - 端傳媒\n.\n[\n2016-12-29\n]\n. （原始内容\n存档\n于2020-10-27）.\n^\n〈台北都會〉同婚影響教育？ 北市說明會挨轟偏頗 - 地方 - 自由時報電子報\n.\n[\n2017-04-20\n]\n. （原始内容\n存档\n于2020-10-31）.\n^\n吳佩旻.\n6％國小男生有性經驗 家長團體看法大相逕庭\n. 聯合報. 2017-08-22. （原始内容\n存档\n于2019-06-11）.\n^\n曾獻瑩.\n曾獻瑩補正教育公投主文\n(PDF)\n. 中央選舉委員會. 2018-04-12\n[\n2018-07-25\n]\n. （原始内容\n存档\n(PDF)\n于2018-07-24）.\n^\n劉麗榮.\n反同公投提案 補正後未牴觸大法官解釋\n. 中央社. 2018-04-18. （原始内容\n存档\n于2018-07-05）.\n^\n黃韋銓.\n「同志教育影響孩童身心」 幸福盟提適齡性平教育公投\n. 新頭殼. 2018-01-31. （原始内容\n存档\n于2020-11-03）.\n^\n羊正鈺.\n「不應對未成年孩子實施同志教育？」幸福盟再提公投反「性平教育」\n. 關鍵評論網. 2018-02-01. （原始内容\n存档\n于2020-05-16）.\n^\n謝孟穎.\n反同志教育　公投提案人：如果連自己孩子都保護不了，這國家有什麼偉大可言？\n. 風傳媒. 2018-03-14. （原始内容\n存档\n于2018-11-24）.\n^\n蔡蕥鍹.\n不當性平教材進校園 500家長關切\n. 國度復興報. 2017-02-24. （原始内容\n存档\n于2017-12-01）.\n^\n梁敬彥.\n【性別平等教育增能研習】孩子受教內容家長有優先選擇權\n. 基督教論壇報. 2017-04-19. （原始内容\n存档\n于2020-12-01）.\n^\n曾獻瑩.\n最近有許多朋友關心家庭教育法的修法\n. 臉書. 2017-07-18\n[\n2018-08-09\n]\n.\n^\n馮紹恩.\n家庭教育法修法弱化家長參與權　引起家長不滿\n. 風向新聞. 2017-07-13. （原始内容\n存档\n于2019-06-06）.\n^\n趙蔡州.\n5億高中生婚後墜亡　北市議員竟說「同婚也是謀財害命的好管道」\n. ETtoday新聞雲. 2023-05-25\n[\n2026-10-03\n]\n.\n^\n劉建邦.\n指同婚是謀財害命管道引爭議 北市議員曾獻瑩：覺得不妥已刪文\n. 中央通訊社. 2023-05-25\n[\n2026-10-03\n]\n.\n外部連結\n[\n编辑\n]\n曾獻瑩的Facebook專頁\n官網：\n政治從家開始 - 曾獻瑩\n（\n页面存档备份\n，存于\n互联网档案馆\n）\n臺灣主題\n政治主題\n臺北主題\n人物主題\n查\n论\n编\n第14屆\n臺北市議員\n議長\n：\n戴錫欽\n（\n） ·\n副議長\n：\n葉林傳\n（\n）\n中國國民黨\n（28席）\n汪志冰\n張斯綱\n陳重文\n林杏兒\n李彥秀\n註1\n闕枚莎\n李明賢\n游淑慧\n吳世正\n王鴻薇\n註2\n徐巧芯\n註1\n秦慧珠\n詹為元\n戴錫欽\n葉林傳\n柳采葳\n陳炳甫\n吳志剛\n應曉薇\n郭昭巖\n鍾小平\n王欣儀\n李柏毅\n徐弘庭\n鍾沛君\n耿葳\n陳錦祥\n楊植斗\n李芳儒\n李傅中武\n曾獻瑩\n註3\n民主進步黨\n（18席）\n鍾佩玲\n林世宗\n陳慈慧\n陳賢蔚\n林延鳳\n何孟樺\n王孝維\n李建昌\n張文潔\n許家蓓\n註4\n許淑華\n洪健益\n王世堅\n註1\n陳怡君\n顏若芳\n吳沛憶\n註1\n劉耀仁\n洪婉臻\n赵怡翔\n註5\n簡舒培\n王閔生\n林亮君\n註6\n台灣民眾黨\n（4席）\n黃瀞瑩\n陳宥丞\n林珍羽\n張志豪\n新黨\n（1席）\n侯漢廷\n社\n社會民主黨\n（1席）\n苗博雅\n無黨籍\n（1席）\n陳政忠\n註7\n徐立信\n1\n李彥秀\n、\n徐巧芯\n、\n王世堅\n、\n吳沛憶\n於\n第11屆立法委員選舉\n中當選，於2024年2月1日轉任立法委員。\n2\n王鴻薇\n於\n臺北市第三選舉區立法委員缺額補選\n中當選，於2023年1月16日轉任立法委員。\n3\n曾獻瑩\n經國民黨中央同意以無黨籍身份參選。\n4\n許家蓓\n於2024年9月18日病逝。\n5\n赵怡翔\n於2025年9月1日辭職，轉任\n國家安全會議\n副秘書長。\n6\n林亮君\n於2023年9月18日正式加入民主進步黨。\n7\n陳政忠\n於2024年7月17日因案解職。\n取自“\nhttps://zh.wikipedia.org/w/index.php?title=曾獻瑩&oldid=95348991\n”\n分类\n：\n1976年出生\n在世人物\n第14屆臺北市議員\n彰化縣人\n曾姓\n臺灣省立臺中第一高級中學校友\n國立臺灣大學管理學院校友\n臺灣新教徒\n台灣工程師\n臺灣反同性婚姻人士\n信心希望聯盟黨員\n中國國民黨黨員\n隐藏分类：\n自2025年5月维基百科来源清理\n自2025年10月带有不当合理使用内容的条目\n自2025年10月中立性有争议的作品\n拒绝当选首页新条目推荐栏目的条目\n含有多个问题的条目\n含有英語的條目\n本页面最后修订于2026年10月31日 (星期六) 09:00。\n本站的全部文字在\n知识共享 署名-相同方式共享 4.0协议\n之条款下提供，附加条款亦可能应用。（请参阅\n使用条款\n）\nWikipedia®和维基百科标志是\n维基媒体基金会\n的注册商标；维基™是维基媒体基金会的商标。\n维基媒体基金会是按美国国內稅收法501(c)(3)登记的\n非营利慈善机构\n。\n隐私政策\n关于维基百科\n免责声明\n法律与安全事项联系方式\n行为准则\n开发者\n统计\nCookie声明\n移动版视图\n搜索\n搜索\n开关目录\n曾獻瑩\n1种语言\n添加话题",
+  "original_sha256": "7f4716a8b235b8cbc202fa60823d8249034838009e3cfabc7c0b5de46e0f8455",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/3c0911ae5962674ff3f5.html"
+}

@@ -1,0 +1,837 @@
+{
+  "capture_id": "5e959165f83813c40855",
+  "requested_url": "https://tshng-a.kunlim.cc/",
+  "fetched_at_utc": "2026-11-10T17:18:00.121734+00:00",
+  "title": "串仔 tshǹg-á｜民進黨地方候選人社群追蹤工具",
+  "links": [
+    {
+      "text": "串仔 tshǹg-á",
+      "url": "https://tshng-a.kunlim.cc/"
+    },
+    {
+      "text": "首頁",
+      "url": "https://tshng-a.kunlim.cc/"
+    },
+    {
+      "text": "全台候選人",
+      "url": "https://tshng-a.kunlim.cc/candidates/"
+    },
+    {
+      "text": "關於串仔",
+      "url": "https://tshng-a.kunlim.cc/about/"
+    },
+    {
+      "text": "選擇縣市／選區",
+      "url": "https://tshng-a.kunlim.cc/#region"
+    },
+    {
+      "text": "查看全部候選人",
+      "url": "https://tshng-a.kunlim.cc/candidates/"
+    },
+    {
+      "text": "關於串仔 →",
+      "url": "https://tshng-a.kunlim.cc/about/"
+    },
+    {
+      "text": "去找候選人",
+      "url": "https://tshng-a.kunlim.cc/candidates/"
+    },
+    {
+      "text": "追蹤本區候選人",
+      "url": "https://tshng-a.kunlim.cc/candidates/#follow-pack"
+    },
+    {
+      "text": "沈伯洋 臺北市長候選人 →",
+      "url": "https://tshng-a.kunlim.cc/candidate/shen-po-yang/"
+    },
+    {
+      "text": "林世宗 臺北市議員候選人 · 臺北市第一選舉區(北投區、士林區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-shih-tsung/"
+    },
+    {
+      "text": "陳慈慧 臺北市議員候選人 · 臺北市第一選舉區(北投區、士林區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-tzu-hui/"
+    },
+    {
+      "text": "鍾佩玲 臺北市議員候選人 · 臺北市第一選舉區(北投區、士林區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chung-pei-ling/"
+    },
+    {
+      "text": "林延鳳 臺北市議員候選人 · 臺北市第一選舉區(北投區、士林區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-yen-feng/"
+    },
+    {
+      "text": "陳賢蔚 臺北市議員候選人 · 臺北市第一選舉區(北投區、士林區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-hsien-wei/"
+    },
+    {
+      "text": "陳又新 臺北市議員候選人 · 臺北市第二選舉區(內湖區、南港區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-yu-hsin/"
+    },
+    {
+      "text": "王孝維 臺北市議員候選人 · 臺北市第二選舉區(內湖區、南港區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/wang-hsiao-wei/"
+    },
+    {
+      "text": "何孟樺 臺北市議員候選人 · 臺北市第二選舉區(內湖區、南港區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/ho-meng-hua/"
+    },
+    {
+      "text": "瑜 高嘉瑜 臺北市議員候選人 · 臺北市第二選舉區(內湖區、南港區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/kao-chia-yu/"
+    },
+    {
+      "text": "許淑華 臺北市議員候選人 · 臺北市第三選舉區(松山區、信義區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/hsu-shu-hua/"
+    },
+    {
+      "text": "洪健益 臺北市議員候選人 · 臺北市第三選舉區(松山區、信義區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/hung-chien-i/"
+    },
+    {
+      "text": "張文潔 臺北市議員候選人 · 臺北市第三選舉區(松山區、信義區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chang-wen-chieh/"
+    },
+    {
+      "text": "郭凡 臺北市議員候選人 · 臺北市第三選舉區(松山區、信義區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/kuo-fan/"
+    },
+    {
+      "text": "林亮君 臺北市議員候選人 · 臺北市第四選舉區(中山區、大同區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-liang-chun/"
+    },
+    {
+      "text": "顏若芳 臺北市議員候選人 · 臺北市第四選舉區(中山區、大同區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/yen-jo-fang/"
+    },
+    {
+      "text": "林子揚 臺北市議員候選人 · 臺北市第四選舉區(中山區、大同區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-tzu-yang/"
+    },
+    {
+      "text": "賴俊翰 臺北市議員候選人 · 臺\u0000\u0000北市第四選舉區(中山區、大同區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/lai-chun-han/"
+    },
+    {
+      "text": "劉耀仁 臺北市議員候選人 · 臺北市第五選舉區(中正區、萬華區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/liu-yao-jen/"
+    },
+    {
+      "text": "洪婉臻 臺北市議員候選人 · 臺北市第五選舉區(中正區、萬華區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/hung-wan-chen/"
+    },
+    {
+      "text": "馬郁雯 臺北市議員候選人 · 臺北市第五選舉區(中正區、萬華區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/ma-yu-wen/"
+    },
+    {
+      "text": "張銘祐 臺北市議員候選人 · 臺北市第五選舉區(中正區、萬華區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chang-ming-yu/"
+    },
+    {
+      "text": "簡舒培 臺北市議員候選人 · 臺北市第六選舉區(大安區、文山區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chien-shu-pei/"
+    },
+    {
+      "text": "王閔生 臺北市議員候選人 · 臺北市第六選舉區(大安區、文山區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/wang-min-sheng/"
+    },
+    {
+      "text": "陳聖文 臺北市議員候選人 · 臺北市第六選舉區(大安區、文山區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-sheng-wen/"
+    },
+    {
+      "text": "劉品妡 臺北市議員候選人 · 臺北市第六選舉區(大安區、文山區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/liu-pin-hsin/"
+    },
+    {
+      "text": "豪 林家豪 臺北市議員候選人 · 臺北市第八選舉區(山地原住民) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-chia-hao/"
+    },
+    {
+      "text": "苗博雅 臺北市議員候選人 · 臺北市第六選舉區(大安區、文山區) →",
+      "url": "https://tshng-a.kunlim.cc/candidate/miao-po-ya/"
+    },
+    {
+      "text": "直轄市長 臺北市 · 臺北市長候選人 臺北市長候選人 3 沈伯洋",
+      "url": "https://tshng-a.kunlim.cc/candidate/shen-po-yang/"
+    },
+    {
+      "text": "直轄市長 新北市 · 新北市長候選人 新北市長候選人 1 蘇巧慧",
+      "url": "https://tshng-a.kunlim.cc/candidate/su-chiao-hui/"
+    },
+    {
+      "text": "直轄市長 桃園市 · 桃園市長候選人 桃園市長候選人 1 黃世杰",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-shih-chieh/"
+    },
+    {
+      "text": "直轄市長 臺中市 · 臺中市長候選人 臺中市長候選人 1 何欣純",
+      "url": "https://tshng-a.kunlim.cc/candidate/ho-hsin-chun/"
+    },
+    {
+      "text": "直轄市長 臺南市 · 臺南市長候選人 臺南市長候選人 3 陳亭妃",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-ting-fei/"
+    },
+    {
+      "text": "直轄市長 高雄市 · 高雄市長候選人 高雄市長候選人 5 賴瑞隆",
+      "url": "https://tshng-a.kunlim.cc/candidate/lai-jui-lung/"
+    },
+    {
+      "text": "縣市長 基隆市 · 基隆市長候選人 基隆市長候選人 1 童子瑋",
+      "url": "https://tshng-a.kunlim.cc/candidate/tung-tzu-wei/"
+    },
+    {
+      "text": "縣市長 新竹市 · 新竹市長候選人 新竹市長候選人 3 莊競程",
+      "url": "https://tshng-a.kunlim.cc/candidate/chuang-ching-cheng/"
+    },
+    {
+      "text": "縣市長 新竹縣 · 新竹縣長候選人 新竹縣長候選人 1 鄭朝方",
+      "url": "https://tshng-a.kunlim.cc/candidate/cheng-chao-fang/"
+    },
+    {
+      "text": "縣市長 宜蘭縣 · 宜蘭縣長候選人 宜蘭縣長候選人 1 林國漳",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-kuo-chang/"
+    },
+    {
+      "text": "縣市長 苗栗縣 · 苗栗縣長候選人 苗栗縣長候選人 1 陳品安",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-pin-an/"
+    },
+    {
+      "text": "縣市長 彰化縣 · 彰化縣長候選人 彰化縣長候選人 1 陳素月",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-su-yueh/"
+    },
+    {
+      "text": "縣市長 南投縣 · 南投縣長候選人 南投縣長候選人 2 温世政",
+      "url": "https://tshng-a.kunlim.cc/candidate/wen-shih-cheng/"
+    },
+    {
+      "text": "縣市長 雲林縣 · 雲林縣長候選人 雲林縣長候選人 3 劉建國",
+      "url": "https://tshng-a.kunlim.cc/candidate/liu-chien-kuo/"
+    },
+    {
+      "text": "縣市長 嘉義縣 · 嘉義縣長候選人 嘉義縣長候選人 2 蔡易餘",
+      "url": "https://tshng-a.kunlim.cc/candidate/tsai-i-yu/"
+    },
+    {
+      "text": "縣市長 嘉義市 · 嘉義市長候選人 嘉義市長候選人 4 王美惠",
+      "url": "https://tshng-a.kunlim.cc/candidate/wang-mei-hui/"
+    },
+    {
+      "text": "縣市長 屏東縣 · 屏東縣長候選人 屏東縣長候選人 2 周春米",
+      "url": "https://tshng-a.kunlim.cc/candidate/chou-chun-mi/"
+    },
+    {
+      "text": "縣市長 臺東縣 · 臺東縣長候選人 臺東縣長候選人 2 陳瑩",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-ying/"
+    },
+    {
+      "text": "縣市長 花蓮縣 · 花蓮縣長候選人 花蓮縣長候選人 2 張峻 無黨籍 台派友善",
+      "url": "https://tshng-a.kunlim.cc/candidate/chang-chun/"
+    },
+    {
+      "text": "縣市長 澎湖縣 · 澎湖縣長候選人 澎湖縣長候選人 4 吳淑瑾",
+      "url": "https://tshng-a.kunlim.cc/candidate/wu-shu-chin/"
+    },
+    {
+      "text": "基隆市",
+      "url": "https://tshng-a.kunlim.cc/candidates/keelung/"
+    },
+    {
+      "text": "臺北市",
+      "url": "https://tshng-a.kunlim.cc/candidates/taipei/"
+    },
+    {
+      "text": "新北市",
+      "url": "https://tshng-a.kunlim.cc/candidates/new-taipei/"
+    },
+    {
+      "text": "桃園市",
+      "url": "https://tshng-a.kunlim.cc/candidates/taoyuan/"
+    },
+    {
+      "text": "新竹市",
+      "url": "https://tshng-a.kunlim.cc/candidates/hsinchu-city/"
+    },
+    {
+      "text": "新竹縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/hsinchu-county/"
+    },
+    {
+      "text": "宜蘭縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/yilan/"
+    },
+    {
+      "text": "苗栗縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/miaoli/"
+    },
+    {
+      "text": "臺中市",
+      "url": "https://tshng-a.kunlim.cc/candidates/taichung/"
+    },
+    {
+      "text": "彰化縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/changhua/"
+    },
+    {
+      "text": "南投縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/nantou/"
+    },
+    {
+      "text": "雲林縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/yunlin/"
+    },
+    {
+      "text": "嘉義縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/chiayi-county/"
+    },
+    {
+      "text": "嘉義市",
+      "url": "https://tshng-a.kunlim.cc/candidates/chiayi-city/"
+    },
+    {
+      "text": "臺南市",
+      "url": "https://tshng-a.kunlim.cc/candidates/tainan/"
+    },
+    {
+      "text": "高雄市",
+      "url": "https://tshng-a.kunlim.cc/candidates/kaohsiung/"
+    },
+    {
+      "text": "屏東縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/pingtung/"
+    },
+    {
+      "text": "臺東縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/taitung/"
+    },
+    {
+      "text": "花蓮縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/hualien/"
+    },
+    {
+      "text": "澎湖縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/penghu/"
+    },
+    {
+      "text": "金門縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/kinmen/"
+    },
+    {
+      "text": "連江縣",
+      "url": "https://tshng-a.kunlim.cc/candidates/lienchiang/"
+    },
+    {
+      "text": "查看完整村里長列表 →",
+      "url": "https://tshng-a.kunlim.cc/candidates/?type=village"
+    },
+    {
+      "text": "黃梓恩 宜蘭縣羅東鎮公正里",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-tzu-en/"
+    },
+    {
+      "text": "乾 黃文乾 臺南市七股區義合里",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-wen-chien/"
+    },
+    {
+      "text": "曾俊仁 臺南市中西區小西門里",
+      "url": "https://tshng-a.kunlim.cc/candidate/tseng-chun-jen/"
+    },
+    {
+      "text": "江 陳俊江 臺南市中西區小西門里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-chun-chiang/"
+    },
+    {
+      "text": "曾雅志 臺南市中西區兌悅里",
+      "url": "https://tshng-a.kunlim.cc/candidate/tseng-ya-chih/"
+    },
+    {
+      "text": "菁 陳永菁 臺南市中西區赤崁里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-yung-ching/"
+    },
+    {
+      "text": "華 張耕華 臺南市中西區赤崁里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chang-keng-hua/"
+    },
+    {
+      "text": "國 陳建國 臺南市中西區淺草里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-chien-kuo/"
+    },
+    {
+      "text": "傑 林子傑 臺南市仁德區二行里",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-tzu-chieh/"
+    },
+    {
+      "text": "正 林家正 臺南市仁德區仁德里",
+      "url": "https://tshng-a.kunlim.cc/candidate/lin-chia-cheng/"
+    },
+    {
+      "text": "宗 黃文宗 臺南市北區大興里",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-wen-tsung/"
+    },
+    {
+      "text": "南 余禮南 臺南市北區大豐里",
+      "url": "https://tshng-a.kunlim.cc/candidate/yu-li-nan/"
+    },
+    {
+      "text": "泉 謝水泉 臺南市北區小北里",
+      "url": "https://tshng-a.kunlim.cc/candidate/hsieh-shui-chuan/"
+    },
+    {
+      "text": "蓁 侯喬蓁 臺南市北區元美里",
+      "url": "https://tshng-a.kunlim.cc/candidate/hou-chiao-chen/"
+    },
+    {
+      "text": "美 吳春美 臺南市北區文元里",
+      "url": "https://tshng-a.kunlim.cc/candidate/wu-chun-mei/"
+    },
+    {
+      "text": "椿 蘇來椿 臺南市北區文成里",
+      "url": "https://tshng-a.kunlim.cc/candidate/su-lai-chun/"
+    },
+    {
+      "text": "吉 吳銅吉 臺南市北區正覺里",
+      "url": "https://tshng-a.kunlim.cc/candidate/wu-tung-chi/"
+    },
+    {
+      "text": "元 鄭景元 臺南市北區成功里",
+      "url": "https://tshng-a.kunlim.cc/candidate/cheng-ching-yuan/"
+    },
+    {
+      "text": "得 李茂得 臺南市北區長興里",
+      "url": "https://tshng-a.kunlim.cc/candidate/li-mao-te/"
+    },
+    {
+      "text": "絜 趙品絜 臺南市北區重興里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chao-pin-chieh/"
+    },
+    {
+      "text": "華 邱美華 臺南市北區開元里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chiu-mei-hua/"
+    },
+    {
+      "text": "得 黃富得 臺南市北區賢北里",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-fu-te/"
+    },
+    {
+      "text": "志 李建志 臺南市永康區大橋里",
+      "url": "https://tshng-a.kunlim.cc/candidate/li-chien-chih/"
+    },
+    {
+      "text": "義 鄭文義 臺南市永康區大灣里",
+      "url": "https://tshng-a.kunlim.cc/candidate/cheng-wen-i/"
+    },
+    {
+      "text": "宏 陳志宏 臺南市永康區五王里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-chih-hung/"
+    },
+    {
+      "text": "輝 李信輝 臺南市永康區六合里",
+      "url": "https://tshng-a.kunlim.cc/candidate/li-hsin-hui/"
+    },
+    {
+      "text": "生 鄭文生 臺南市永康區北興里",
+      "url": "https://tshng-a.kunlim.cc/candidate/cheng-wen-sheng/"
+    },
+    {
+      "text": "詳 方富詳 臺南市永康區北灣里",
+      "url": "https://tshng-a.kunlim.cc/candidate/fang-fu-hsiang/"
+    },
+    {
+      "text": "祥 吳和祥 臺南市永康區甲頂里",
+      "url": "https://tshng-a.kunlim.cc/candidate/wu-ho-hsiang/"
+    },
+    {
+      "text": "柯景維 臺南市永康區埔園里",
+      "url": "https://tshng-a.kunlim.cc/candidate/ko-ching-wei/"
+    },
+    {
+      "text": "信 李忠信 臺南市永康區崑山里",
+      "url": "https://tshng-a.kunlim.cc/candidate/li-chung-hsin/"
+    },
+    {
+      "text": "城 魏銘城 臺南市永康區網寮里",
+      "url": "https://tshng-a.kunlim.cc/candidate/wei-ming-cheng/"
+    },
+    {
+      "text": "劉天福 臺南市永康區鹽行里",
+      "url": "https://tshng-a.kunlim.cc/candidate/liu-tien-fu/"
+    },
+    {
+      "text": "在 鄭進在 臺南市永康區鹽興里",
+      "url": "https://tshng-a.kunlim.cc/candidate/cheng-chin-tsai/"
+    },
+    {
+      "text": "星 黃景星 臺南市安平區王城里",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-ching-hsing/"
+    },
+    {
+      "text": "宜 陳虹宜 臺南市安平區王城里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-hung-i/"
+    },
+    {
+      "text": "珀 李秀珀 臺南市安平區平通里",
+      "url": "https://tshng-a.kunlim.cc/candidate/li-hsiu-po/"
+    },
+    {
+      "text": "江 李文江 臺南市安平區華平里",
+      "url": "https://tshng-a.kunlim.cc/candidate/li-wen-chiang/"
+    },
+    {
+      "text": "賀 陳瑞賀 臺南市安南區大安里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-jui-ho/"
+    },
+    {
+      "text": "芳 吳佳芳 臺南市安南區安東里",
+      "url": "https://tshng-a.kunlim.cc/candidate/wu-chia-fang/"
+    },
+    {
+      "text": "勝 陳輝勝 臺南市安南區海佃里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-hui-sheng/"
+    },
+    {
+      "text": "君 郭怡君 臺南市安南區海佃里",
+      "url": "https://tshng-a.kunlim.cc/candidate/kuo-i-chun/"
+    },
+    {
+      "text": "楨 陳蓓楨 臺南市安南區國安里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-pei-chen/"
+    },
+    {
+      "text": "根 黃旺根 臺南市安南區淵東里",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-wang-ken/"
+    },
+    {
+      "text": "順 鄭順 臺南市安南區理想里",
+      "url": "https://tshng-a.kunlim.cc/candidate/cheng-shun/"
+    },
+    {
+      "text": "峰 蕭旭峰 臺南市安南區溪墘里",
+      "url": "https://tshng-a.kunlim.cc/candidate/hsiao-hsu-feng/"
+    },
+    {
+      "text": "蓮 朱小蓮 臺南市安南區鹽田里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chu-hsiao-lien/"
+    },
+    {
+      "text": "勳 謝博勳 臺南市安南區鹽田里",
+      "url": "https://tshng-a.kunlim.cc/candidate/hsieh-po-hsun/"
+    },
+    {
+      "text": "雀 曾婓雀 臺南市東山區東原里",
+      "url": "https://tshng-a.kunlim.cc/candidate/tseng-fei-chueh/"
+    },
+    {
+      "text": "秀 陳錦秀 臺南市東區大福里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-chin-hsiu/"
+    },
+    {
+      "text": "俊 洪榮俊 臺南市東區和平里",
+      "url": "https://tshng-a.kunlim.cc/candidate/hung-jung-chun/"
+    },
+    {
+      "text": "指 陳郭玉指 臺南市東區復興里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-kuo-yu-chih/"
+    },
+    {
+      "text": "銘 尤俊銘 臺南市南區府南里",
+      "url": "https://tshng-a.kunlim.cc/candidate/yu-chun-ming/"
+    },
+    {
+      "text": "興 陳進興 臺南市南區府南里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-chin-hsing/"
+    },
+    {
+      "text": "柱 蘇三柱 臺南市南區明亮里",
+      "url": "https://tshng-a.kunlim.cc/candidate/su-san-chu/"
+    },
+    {
+      "text": "恩 辜福恩 臺南市南區南華里",
+      "url": "https://tshng-a.kunlim.cc/candidate/ku-fu-en/"
+    },
+    {
+      "text": "江勝雄 臺南市南區建南里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chiang-sheng-hsiung/"
+    },
+    {
+      "text": "益 王全益 臺南市南區郡南里",
+      "url": "https://tshng-a.kunlim.cc/candidate/wang-chuan-i/"
+    },
+    {
+      "text": "治 王喬治 臺南市南區新昌里",
+      "url": "https://tshng-a.kunlim.cc/candidate/wang-chiao-chih/"
+    },
+    {
+      "text": "初 邱志初 臺南市南區新興里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chiu-chih-chu/"
+    },
+    {
+      "text": "義 柯進義 臺南市南區鹽埕里",
+      "url": "https://tshng-a.kunlim.cc/candidate/ko-chin-i/"
+    },
+    {
+      "text": "儔 陳焜儔 臺南市麻豆區大埕里",
+      "url": "https://tshng-a.kunlim.cc/candidate/chen-kun-chou/"
+    },
+    {
+      "text": "義 黃新義 臺南市新營區民榮里",
+      "url": "https://tshng-a.kunlim.cc/candidate/huang-hsin-i/"
+    },
+    {
+      "text": "良 盧振良 臺南市關廟區五甲里",
+      "url": "https://tshng-a.kunlim.cc/candidate/lu-chen-liang/"
+    },
+    {
+      "text": "查看全部候選人",
+      "url": "https://tshng-a.kunlim.cc/candidates/"
+    },
+    {
+      "text": "逐一追蹤本區候選人",
+      "url": "https://tshng-a.kunlim.cc/candidates/#follow-pack"
+    },
+    {
+      "text": "關於串仔 tshǹg-á",
+      "url": "https://tshng-a.kunlim.cc/about/"
+    },
+    {
+      "text": "資料來源",
+      "url": "https://tshng-a.kunlim.cc/sources/"
+    },
+    {
+      "text": "隱私說明",
+      "url": "https://tshng-a.kunlim.cc/privacy/"
+    },
+    {
+      "text": "聯絡我們",
+      "url": "https://tshng-a.kunlim.cc/contact/"
+    },
+    {
+      "text": "全台候選人名單",
+      "url": "https://tshng-a.kunlim.cc/candidates/"
+    },
+    {
+      "text": "回報資料",
+      "url": "https://tshng-a.kunlim.cc/report/"
+    }
+  ],
+  "images": [
+    {
+      "alt": "沈伯洋 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c001.webp?v=1"
+    },
+    {
+      "alt": "林世宗 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c002.webp?v=1"
+    },
+    {
+      "alt": "陳慈慧 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c003.webp?v=1"
+    },
+    {
+      "alt": "鍾佩玲 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c004.webp?v=1"
+    },
+    {
+      "alt": "林延鳳 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c005.webp?v=1"
+    },
+    {
+      "alt": "陳賢蔚 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c006.webp?v=1"
+    },
+    {
+      "alt": "陳又新 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c007.webp?v=1"
+    },
+    {
+      "alt": "王孝維 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c008.webp?v=1"
+    },
+    {
+      "alt": "何孟樺 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c009.webp?v=1"
+    },
+    {
+      "alt": "許淑華 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c011.webp?v=1"
+    },
+    {
+      "alt": "洪健益 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c012.webp?v=1"
+    },
+    {
+      "alt": "張文潔 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c013.webp?v=1"
+    },
+    {
+      "alt": "郭凡 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c014.webp?v=1"
+    },
+    {
+      "alt": "林亮君 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c015.webp?v=1"
+    },
+    {
+      "alt": "顏若芳 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c016.webp?v=1"
+    },
+    {
+      "alt": "林子揚 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c017.webp?v=1"
+    },
+    {
+      "alt": "賴俊翰 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c018.webp?v=1"
+    },
+    {
+      "alt": "劉耀仁 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c019.webp?v=1"
+    },
+    {
+      "alt": "洪婉臻 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c020.webp?v=1"
+    },
+    {
+      "alt": "馬郁雯 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c021.webp?v=1"
+    },
+    {
+      "alt": "張銘祐 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c022.webp?v=1"
+    },
+    {
+      "alt": "簡舒培 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c023.webp?v=1"
+    },
+    {
+      "alt": "王閔生 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c024.webp?v=1"
+    },
+    {
+      "alt": "陳聖文 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c025.webp?v=1"
+    },
+    {
+      "alt": "劉品妡 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-c026.webp?v=1"
+    },
+    {
+      "alt": "苗博雅 大頭照",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/thumbs/taipei-friendly-c001.webp?v=1"
+    },
+    {
+      "alt": "沈伯洋｜臺北市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/taipei-c001.webp?v=1"
+    },
+    {
+      "alt": "蘇巧慧｜新北市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/new-taipei-c001.webp?v=1"
+    },
+    {
+      "alt": "黃世杰｜桃園市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/taoyuan-c001.webp?v=1"
+    },
+    {
+      "alt": "何欣純｜臺中市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/taichung-c001.webp?v=1"
+    },
+    {
+      "alt": "陳亭妃｜臺南市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/tainan-c001.webp?v=1"
+    },
+    {
+      "alt": "賴瑞隆｜高雄市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/kaohsiung-c001.webp?v=1"
+    },
+    {
+      "alt": "童子瑋｜基隆市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/keelung-c001.webp?v=1"
+    },
+    {
+      "alt": "莊競程｜新竹市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/hsinchu-city-c001.webp?v=1"
+    },
+    {
+      "alt": "鄭朝方｜新竹縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/hsinchu-county-c013.webp?v=1"
+    },
+    {
+      "alt": "林國漳｜宜蘭縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/yilan-c001.webp?v=1"
+    },
+    {
+      "alt": "陳品安｜苗栗縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/miaoli-c001.webp?v=1"
+    },
+    {
+      "alt": "陳素月｜彰化縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/changhua-c001.webp?v=1"
+    },
+    {
+      "alt": "温世政｜南投縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/nantou-c001.webp?v=1"
+    },
+    {
+      "alt": "劉建國｜雲林縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/yunlin-c001.webp?v=1"
+    },
+    {
+      "alt": "蔡易餘｜嘉義縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/chiayi-county-c001.webp?v=1"
+    },
+    {
+      "alt": "王美惠｜嘉義市長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/chiayi-city-c001.webp?v=1"
+    },
+    {
+      "alt": "周春米｜屏東縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/pingtung-c001.webp?v=1"
+    },
+    {
+      "alt": "陳瑩｜臺東縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/taitung-c001.webp?v=1"
+    },
+    {
+      "alt": "張峻｜花蓮縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/hualien-friendly-c001.webp?v=1"
+    },
+    {
+      "alt": "吳淑瑾｜澎湖縣長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/penghu-c005.webp?v=1"
+    },
+    {
+      "alt": "黃梓恩｜宜蘭縣村里長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/yilan-c021.webp?v=1"
+    },
+    {
+      "alt": "曾俊仁｜臺南市村里長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/tainan-c053.webp?v=1"
+    },
+    {
+      "alt": "曾雅志｜臺南市村里長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/tainan-c052.webp?v=1"
+    },
+    {
+      "alt": "柯景維｜臺南市村里長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/tainan-c086.webp?v=1"
+    },
+    {
+      "alt": "劉天福｜臺南市村里長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/tainan-c084.webp?v=1"
+    },
+    {
+      "alt": "江勝雄｜臺南市村里長候選人",
+      "url": "https://tshng-a.kunlim.cc/candidate-photos/cards/tainan-c072.webp?v=1"
+    }
+  ],
+  "og_image": [
+    "https://tshng-a.kunlim.cc/og-default.png"
+  ],
+  "structured_data": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"@id\":\"https://tshng-a.kunlim.cc/#website\",\"url\":\"https://tshng-a.kunlim.cc/\",\"name\":\"串仔 tshǹg-á\",\"alternateName\":[\"串仔\",\"串仔 2026\",\"串仔 tshǹg-á\"],\"description\":\"串仔 tshǹg-á 整理民進黨 2026 地方選舉候選人的公開資料與社群連結，讓支持者從自己的選區開始，快速找到候選人、追蹤社群、建立地方關注名單。\",\"inLanguage\":\"zh-Hant-TW\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://tshng-a.kunlim.cc/candidates/?q={search_term_string}\",\"query-input\":\"required name=search_term_string\"}},{\"@type\":\"Organization\",\"@id\":\"https://tshng-a.kunlim.cc/#organization\",\"name\":\"串仔 tshǹg-á\",\"alternateName\":[\"串仔\",\"串仔 2026\",\"串仔 tshǹg-á\"],\"url\":\"https://tshng-a.kunlim.cc/\",\"logo\":\"https://tshng-a.kunlim.cc/icon-512.png\"}]}"
+  ],
+  "final_url": "https://tshng-a.kunlim.cc/",
+  "http_status": 200,
+  "full_visible_text": "串仔 tshǹg-á｜民進黨地方候選人社群追蹤工具\n串仔\ntshǹg-á\n首頁\n全台候選人\n關於串仔\n投票倒數\n21\n天\n串仔 tshǹg-á\n從一個追蹤開始，\n把地方支持串起來。\n找到你的縣市與選區，追蹤民進黨 2026 地方選舉候選人的公開社群帳號。\n選擇縣市／選區\n查看全部候選人\n關於串仔 →\n691 位民進黨地方候選人\n·\n全台 22 縣市\n投票倒數\n2026.11.28\n21\n天\n09\n時\n05\n分\n39\n秒\n你住哪裡？\n選你的縣市或選舉區，立刻跳到當地候選人列表。\n我具原住民身份\n我的關注名單\n尚未收藏候選人\n在任何候選人卡片或個人頁點 ★ 加入，這裡會出現你的私人關注名單（存在本機，不上傳）。\n去找候選人\n追蹤本區候選人\n馬祖\n金門\n澎湖\n連江縣（0 位候選人）\n宜蘭縣（25 位候選人）\n彰化縣（32 位候選人）\n南投縣（16 位候選人）\n雲林縣（30 位候選人）\n屏東縣（38 位候選人）\n臺東縣（7 位候選人）\n花蓮縣（9 位候選人）\n澎湖縣（7 位候選人）\n基隆市（14 位候選人）\n新竹市（11 位候選人）\n臺北市（28 位候選人）\n新北市（37 位候選人）\n臺中市（33 位候選人）\n臺南市（96 位候選人）\n桃園市（28 位候選人）\n苗栗縣（13 位候選人）\n新竹縣（13 位候選人）\n嘉義縣（37 位候選人）\n金門縣（1 位候選人）\n高雄市（208 位候選人）\n嘉義市（8 位候選人）\n0\n25\n32\n16\n30\n38\n7\n9\n7\n14\n11\n28\n37\n33\n96\n28\n13\n13\n37\n1\n208\n8\n目前選中\n已有候選人\n尚未提名\n互動地圖\n點縣市，看看誰在你的家鄉打拚\n真實縣市輪廓，點任一塊地看當地候選人。已有候選人的縣市標為綠色，被選中時轉為深綠，標示「0」的縣市則尚未提名。\nNORTH\nREGION\n臺北市\n共\n28\n位候選人\n直轄市長\n1\n沈伯洋\n臺北市長候選人\n→\n直轄市議員\n27\n林世宗\n臺北市議員候選人\n· 臺北市第一選舉區(北投區、士林區)\n→\n陳慈慧\n臺北市議員候選人\n· 臺北市第一選舉區(北投區、士林區)\n→\n鍾佩玲\n臺北市議員候選人\n· 臺北市第一選舉區(北投區、士林區)\n→\n林延鳳\n臺北市議員候選人\n· 臺北市第一選舉區(北投區、士林區)\n→\n陳賢蔚\n臺北市議員候選人\n· 臺北市第一選舉區(北投區、士林區)\n→\n陳又新\n臺北市議員候選人\n· 臺北市第二選舉區(內湖區、南港區)\n→\n王孝維\n臺北市議員候選人\n· 臺北市第二選舉區(內湖區、南港區)\n→\n何孟樺\n臺北市議員候選人\n· 臺北市第二選舉區(內湖區、南港區)\n→\n瑜\n高嘉瑜\n臺北市議員候選人\n· 臺北市第二選舉區(內湖區、南港區)\n→\n許淑華\n臺北市議員候選人\n· 臺北市第三選舉區(松山區、信義區)\n→\n洪健益\n臺北市議員候選人\n· 臺北市第三選舉區(松山區、信義區)\n→\n張文潔\n臺北市議員候選人\n· 臺北市第三選舉區(松山區、信義區)\n→\n郭凡\n臺北市議員候選人\n· 臺北市第三選舉區(松山區、信義區)\n→\n林亮君\n臺北市議員候選人\n· 臺北市第四選舉區(中山區、大同區)\n→\n顏若芳\n臺北市議員候選人\n· 臺北市第四選舉區(中山區、大同區)\n→\n林子揚\n臺北市議員候選人\n· 臺北市第四選舉區(中山區、大同區)\n→\n賴俊翰\n臺北市議員候選人\n· 臺\u0000\u0000北市第四選舉區(中山區、大同區)\n→\n劉耀仁\n臺北市議員候選人\n· 臺北市第五選舉區(中正區、萬華區)\n→\n洪婉臻\n臺北市議員候選人\n· 臺北市第五選舉區(中正區、萬華區)\n→\n馬郁雯\n臺北市議員候選人\n· 臺北市第五選舉區(中正區、萬華區)\n→\n張銘祐\n臺北市議員候選人\n· 臺北市第五選舉區(中正區、萬華區)\n→\n簡舒培\n臺北市議員候選人\n· 臺北市第六選舉區(大安區、文山區)\n→\n王閔生\n臺北市議員候選人\n· 臺北市第六選舉區(大安區、文山區)\n→\n陳聖文\n臺北市議員候選人\n· 臺北市第六選舉區(大安區、文山區)\n→\n劉品妡\n臺北市議員候選人\n· 臺北市第六選舉區(大安區、文山區)\n→\n豪\n林家豪\n臺北市議員候選人\n· 臺北市第八選舉區(山地原住民)\n→\n苗博雅\n臺北市議員候選人\n· 臺北市第六選舉區(大安區、文山區)\n→\n縣市首長\n先看你的縣市首長候選人\n19 位民進黨提名的縣市首長候選人、1 位民進黨禮讓支持的台派友善候選人，2 個縣市仍在徵召作業。從你的縣市開始追蹤社群。\n直轄市長\n臺北市 · 臺北市長候選人\n臺北市長候選人\n3\n沈伯洋\n☆\n直轄市長\n新北市 · 新北市長候選人\n新北市長候選人\n1\n蘇巧慧\n☆\n直轄市長\n桃園市 · 桃園市長候選人\n桃園市長候選人\n1\n黃世杰\n☆\n直轄市長\n臺中市 · 臺中市長候選人\n臺中市長候選人\n1\n何欣純\n☆\n直轄市長\n臺南市 · 臺南市長候選人\n臺南市長候選人\n3\n陳亭妃\n☆\n直轄市長\n高雄市 · 高雄市長候選人\n高雄市長候選人\n5\n賴瑞隆\n☆\n縣市長\n基隆市 · 基隆市長候選人\n基隆市長候選人\n1\n童子瑋\n☆\n縣市長\n新竹市 · 新竹市長候選人\n新竹市長候選人\n3\n莊競程\n☆\n縣市長\n新竹縣 · 新竹縣長候選人\n新竹縣長候選人\n1\n鄭朝方\n☆\n縣市長\n宜蘭縣 · 宜蘭縣長候選人\n宜蘭縣長候選人\n1\n林國漳\n☆\n縣市長\n苗栗縣 · 苗栗縣長候選人\n苗栗縣長候選人\n1\n陳品安\n☆\n縣市長\n彰化縣 · 彰化縣長候選人\n彰化縣長候選人\n1\n陳素月\n☆\n縣市長\n南投縣 · 南投縣長候選人\n南投縣長候選人\n2\n温世政\n☆\n縣市長\n雲林縣 · 雲林縣長候選人\n雲林縣長候選人\n3\n劉建國\n☆\n縣市長\n嘉義縣 · 嘉義縣長候選人\n嘉義縣長候選人\n2\n蔡易餘\n☆\n縣市長\n嘉義市 · 嘉義市長候選人\n嘉義市長候選人\n4\n王美惠\n☆\n縣市長\n屏東縣 · 屏東縣長候選人\n屏東縣長候選人\n2\n周春米\n☆\n縣市長\n臺東縣 · 臺東縣長候選人\n臺東縣長候選人\n2\n陳瑩\n☆\n縣市長\n花蓮縣 · 花蓮縣長候選人\n花蓮縣長候選人\n2\n張峻\n無黨籍\n台派友善\n☆\n縣市長\n澎湖縣 · 澎湖縣長候選人\n澎湖縣長候選人\n4\n吳淑瑾\n☆\n金\n尚未提名\n金門縣長候選人\n徵召作業中\n人選確定後會即時更新\n連\n尚未提名\n連江縣長候選人\n徵召作業中\n人選確定後會即時更新\n各縣市完整名單\n基隆市\n臺北市\n新北市\n桃園市\n新竹市\n新竹縣\n宜蘭縣\n苗栗縣\n臺中市\n彰化縣\n南投縣\n雲林縣\n嘉義縣\n嘉義市\n臺南市\n高雄市\n屏東縣\n臺東縣\n花蓮縣\n澎湖縣\n金門縣\n連江縣\n尚未提名\n仍在路上的候選人\n64 位村里長完成登記、2 個縣市首長徵召中，他們同樣在地方深耕。\n縣市首長徵召中\n金\n金門縣長\n連\n連江縣長\n已登記村里長\n查看完整村里長列表 →\n黃梓恩\n宜蘭縣羅東鎮公正里\n乾\n黃文乾\n臺南市七股區義合里\n曾俊仁\n臺南市中西區小西門里\n江\n陳俊江\n臺南市中西區小西門里\n曾雅志\n臺南市中西區兌悅里\n菁\n陳永菁\n臺南市中西區赤崁里\n華\n張耕華\n臺南市中西區赤崁里\n國\n陳建國\n臺南市中西區淺草里\n傑\n林子傑\n臺南市仁德區二行里\n正\n林家正\n臺南市仁德區仁德里\n宗\n黃文宗\n臺南市北區大興里\n南\n余禮南\n臺南市北區大豐里\n泉\n謝水泉\n臺南市北區小北里\n蓁\n侯喬蓁\n臺南市北區元美里\n美\n吳春美\n臺南市北區文元里\n椿\n蘇來椿\n臺南市北區文成里\n吉\n吳銅吉\n臺南市北區正覺里\n元\n鄭景元\n臺南市北區成功里\n得\n李茂得\n臺南市北區長興里\n絜\n趙品絜\n臺南市北區重興里\n華\n邱美華\n臺南市北區開元里\n得\n黃富得\n臺南市北區賢北里\n志\n李建志\n臺南市永康區大橋里\n義\n鄭文義\n臺南市永康區大灣里\n宏\n陳志宏\n臺南市永康區五王里\n輝\n李信輝\n臺南市永康區六合里\n生\n鄭文生\n臺南市永康區北興里\n詳\n方富詳\n臺南市永康區北灣里\n祥\n吳和祥\n臺南市永康區甲頂里\n柯景維\n臺南市永康區埔園里\n信\n李忠信\n臺南市永康區崑山里\n城\n魏銘城\n臺南市永康區網寮里\n劉天福\n臺南市永康區鹽行里\n在\n鄭進在\n臺南市永康區鹽興里\n星\n黃景星\n臺南市安平區王城里\n宜\n陳虹宜\n臺南市安平區王城里\n珀\n李秀珀\n臺南市安平區平通里\n江\n李文江\n臺南市安平區華平里\n賀\n陳瑞賀\n臺南市安南區大安里\n芳\n吳佳芳\n臺南市安南區安東里\n勝\n陳輝勝\n臺南市安南區海佃里\n君\n郭怡君\n臺南市安南區海佃里\n楨\n陳蓓楨\n臺南市安南區國安里\n根\n黃旺根\n臺南市安南區淵東里\n順\n鄭順\n臺南市安南區理想里\n峰\n蕭旭峰\n臺南市安南區溪墘里\n蓮\n朱小蓮\n臺南市安南區鹽田里\n勳\n謝博勳\n臺南市安南區鹽田里\n雀\n曾婓雀\n臺南市東山區東原里\n秀\n陳錦秀\n臺南市東區大福里\n俊\n洪榮俊\n臺南市東區和平里\n指\n陳郭玉指\n臺南市東區復興里\n銘\n尤俊銘\n臺南市南區府南里\n興\n陳進興\n臺南市南區府南里\n柱\n蘇三柱\n臺南市南區明亮里\n恩\n辜福恩\n臺南市南區南華里\n江勝雄\n臺南市南區建南里\n益\n王全益\n臺南市南區郡南里\n治\n王喬治\n臺南市南區新昌里\n初\n邱志初\n臺南市南區新興里\n義\n柯進義\n臺南市南區鹽埕里\n儔\n陳焜儔\n臺南市麻豆區大埕里\n義\n黃新義\n臺南市新營區民榮里\n良\n盧振良\n臺南市關廟區五甲里\n從一個追蹤開始，\n把地方支持串起來。\n691 位民進黨地方候選人的公開社群帳號都在這裡。今天就先串起一個。\n查看全部候選人\n逐一追蹤本區候選人\n串仔\ntshǹg-á\n民進黨 2026 地方候選人社群追蹤工具\n串仔 tshǹg-á 是支持者自發整理的公民科技工具，非民進黨官方網站。資料來自公開資訊，若有錯誤或缺漏，歡迎協助回報。\n認識串仔\n關於串仔 tshǹg-á\n資料來源\n隱私說明\n聯絡我們\n行動\n全台候選人名單\n回報資料\n© 2026 串仔 tshǹg-á · 支持者自發整理，非民進黨官方網站\n資料來自公開資訊",
+  "original_sha256": "2ee7b66fec0d893be6ff29c36d37c86ead52a2b1160886ce20a9e081b3e541ed",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/5e959165f83813c40855.html"
+}

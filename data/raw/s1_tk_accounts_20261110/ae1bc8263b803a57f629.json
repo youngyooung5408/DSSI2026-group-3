@@ -1,0 +1,6 @@
+{
+  "requested_url": "https://www.kcc.gov.tw/MemberInfo_New.aspx?n=39&sms=9028&msn=2230",
+  "fetched_at_utc": "2026-11-10T15:14:02.696323+00:00",
+  "capture_id": "ae1bc8263b803a57f629",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.kcc.gov.tw', port=443): Read timed out. (read timeout=25)"
+}

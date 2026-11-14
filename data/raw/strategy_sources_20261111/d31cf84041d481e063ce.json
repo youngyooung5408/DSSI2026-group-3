@@ -1,0 +1,785 @@
+{
+  "capture_id": "d31cf84041d481e063ce",
+  "requested_url": "https://2026.kmtks.org.tw/",
+  "fetched_at_utc": "2026-11-10T17:19:31.392260+00:00",
+  "title": "2026中國國民黨高雄市選舉資訊網",
+  "links": [
+    {
+      "text": "2026中國國民黨高雄市選舉資訊網",
+      "url": "https://2026.kmtks.org.tw/"
+    },
+    {
+      "text": "首頁",
+      "url": "https://2026.kmtks.org.tw/"
+    },
+    {
+      "text": "市長候選人柯志恩",
+      "url": "https://2026.kmtks.org.tw/mayor"
+    },
+    {
+      "text": "議員候選人介紹",
+      "url": "https://2026.kmtks.org.tw/Council"
+    },
+    {
+      "text": "最新消息",
+      "url": "https://2026.kmtks.org.tw/news"
+    },
+    {
+      "text": "行程公告",
+      "url": "https://2026.kmtks.org.tw/Schedule"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://2026.kmtks.org.tw/debug"
+    },
+    {
+      "text": "圖卡資訊",
+      "url": "https://2026.kmtks.org.tw/cards"
+    },
+    {
+      "text": "首頁",
+      "url": "https://2026.kmtks.org.tw/"
+    },
+    {
+      "text": "市長候選人柯志恩",
+      "url": "https://2026.kmtks.org.tw/mayor"
+    },
+    {
+      "text": "議員候選人介紹",
+      "url": "https://2026.kmtks.org.tw/Council"
+    },
+    {
+      "text": "最新消息",
+      "url": "https://2026.kmtks.org.tw/news"
+    },
+    {
+      "text": "行程公告",
+      "url": "https://2026.kmtks.org.tw/Schedule"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://2026.kmtks.org.tw/debug"
+    },
+    {
+      "text": "圖卡資訊",
+      "url": "https://2026.kmtks.org.tw/cards"
+    },
+    {
+      "text": "認識各區議員候選人 →",
+      "url": "https://2026.kmtks.org.tw/Council"
+    },
+    {
+      "text": "查看最新行程 →",
+      "url": "https://2026.kmtks.org.tw/Schedule"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/mayor"
+    },
+    {
+      "text": "查看全部行程 →",
+      "url": "https://2026.kmtks.org.tw/Schedule"
+    },
+    {
+      "text": "桃源區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-01f82d4c3baa&district=1&area=%E6%A1%83%E6%BA%90%E5%8D%80"
+    },
+    {
+      "text": "那瑪夏區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-52146731aaad&district=1&area=%E9%82%A3%E7%91%AA%E5%A4%8F%E5%8D%80"
+    },
+    {
+      "text": "甲仙區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-b9204b50cd3f&district=1&area=%E7%94%B2%E4%BB%99%E5%8D%80"
+    },
+    {
+      "text": "六龜區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-08dbbe528cc6&district=1&area=%E5%85%AD%E9%BE%9C%E5%8D%80"
+    },
+    {
+      "text": "杉林區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-36f2053c14d9&district=1&area=%E6%9D%89%E6%9E%97%E5%8D%80"
+    },
+    {
+      "text": "內門區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-f3da2a14e63d&district=1&area=%E5%85%A7%E9%96%80%E5%8D%80"
+    },
+    {
+      "text": "旗山區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-4c4b3b7bd43c&district=1&area=%E6%97%97%E5%B1%B1%E5%8D%80"
+    },
+    {
+      "text": "美濃區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-ab665e53a543&district=1&area=%E7%BE%8E%E6%BF%83%E5%8D%80"
+    },
+    {
+      "text": "茂林區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-0caf984c4984&district=1&area=%E8%8C%82%E6%9E%97%E5%8D%80"
+    },
+    {
+      "text": "茄萣區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-0adf9d93b9d3&district=2&area=%E8%8C%84%E8%90%A3%E5%8D%80"
+    },
+    {
+      "text": "湖內區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-0c68f7061c66&district=2&area=%E6%B9%96%E5%85%A7%E5%8D%80"
+    },
+    {
+      "text": "路竹區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-48f3059bef6f&district=2&area=%E8%B7%AF%E7%AB%B9%E5%8D%80"
+    },
+    {
+      "text": "阿蓮區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-b0d8da3a22af&district=2&area=%E9%98%BF%E8%93%AE%E5%8D%80"
+    },
+    {
+      "text": "田寮區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-d38349bdfd79&district=2&area=%E7%94%B0%E5%AF%AE%E5%8D%80"
+    },
+    {
+      "text": "永安區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-8c93a4908991&district=3&area=%E6%B0%B8%E5%AE%89%E5%8D%80"
+    },
+    {
+      "text": "岡山區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-00a589f1a065&district=3&area=%E5%B2%A1%E5%B1%B1%E5%8D%80"
+    },
+    {
+      "text": "燕巢區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-4f2579544482&district=3&area=%E7%87%95%E5%B7%A2%E5%8D%80"
+    },
+    {
+      "text": "彌陀區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-3aaf4acacc49&district=3&area=%E5%BD%8C%E9%99%80%E5%8D%80"
+    },
+    {
+      "text": "梓官區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-072f5d95b9d4&district=3&area=%E6%A2%93%E5%AE%98%E5%8D%80"
+    },
+    {
+      "text": "橋頭區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-2e2a08adb738&district=3&area=%E6%A9%8B%E9%A0%AD%E5%8D%80"
+    },
+    {
+      "text": "楠梓區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-aac5b0379e10&district=4&area=%E6%A5%A0%E6%A2%93%E5%8D%80"
+    },
+    {
+      "text": "左營區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-c0145952b9a7&district=4&area=%E5%B7%A6%E7%87%9F%E5%8D%80"
+    },
+    {
+      "text": "大社區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-dfaf8649e4c7&district=5&area=%E5%A4%A7%E7%A4%BE%E5%8D%80"
+    },
+    {
+      "text": "仁武區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-9c946599dd26&district=5&area=%E4%BB%81%E6%AD%A6%E5%8D%80"
+    },
+    {
+      "text": "鳥松區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-4c78a5144a76&district=5&area=%E9%B3%A5%E6%9D%BE%E5%8D%80"
+    },
+    {
+      "text": "大樹區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-e5d5094d6fee&district=5&area=%E5%A4%A7%E6%A8%B9%E5%8D%80"
+    },
+    {
+      "text": "鼓山區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-6634cda080d7&district=6&area=%E9%BC%93%E5%B1%B1%E5%8D%80"
+    },
+    {
+      "text": "鹽埕區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-fb04d6b49311&district=6&area=%E9%B9%BD%E5%9F%95%E5%8D%80"
+    },
+    {
+      "text": "旗津區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-b4bf7dfd1a83&district=6&area=%E6%97%97%E6%B4%A5%E5%8D%80"
+    },
+    {
+      "text": "三民區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-547310f26424&district=7&area=%E4%B8%89%E6%B0%91%E5%8D%80"
+    },
+    {
+      "text": "前金區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-275aa84f9e8c&district=8&area=%E5%89%8D%E9%87%91%E5%8D%80"
+    },
+    {
+      "text": "新興區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-0c0c7c08e8c5&district=8&area=%E6%96%B0%E8%88%88%E5%8D%80"
+    },
+    {
+      "text": "苓雅區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-ebd42dd84937&district=8&area=%E8%8B%93%E9%9B%85%E5%8D%80"
+    },
+    {
+      "text": "鳳山區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-f234d5f7d2b7&district=9&area=%E9%B3%B3%E5%B1%B1%E5%8D%80"
+    },
+    {
+      "text": "前鎮區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-994fb8c89ca5&district=10&area=%E5%89%8D%E9%8E%AE%E5%8D%80"
+    },
+    {
+      "text": "小港區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-284c9d6e08c6&district=10&area=%E5%B0%8F%E6%B8%AF%E5%8D%80"
+    },
+    {
+      "text": "大寮區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-ecd497d3abaf&district=11&area=%E5%A4%A7%E5%AF%AE%E5%8D%80"
+    },
+    {
+      "text": "林園區",
+      "url": "https://2026.kmtks.org.tw/Council?district_id=kh-area-d0a726a7d18a&district=11&area=%E6%9E%97%E5%9C%92%E5%8D%80"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/li-zhen-hao"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/lin-yi-di"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/li-ya-zhu"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/fang-xin-yuan"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/song-li-bin"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/huang-yun-han"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/li-ya-fen"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/bai-qiao-yin"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/li-mei-zhen"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/chen-mei-juan"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/chen-li-zhen"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/chen-ruo-cui"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/wu-li-cheng"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/tsaijinyen"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/meiya"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/tong-yan-zhen"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/huangxiangshu"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/huang-bo-lin"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/huang-yu-ting"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/hsutsaichen"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/huangyuting"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/zheng-an-li"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/liu-de-lin"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/leeyajing"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/chung-yi-chung"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/tang-ju-ting"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/cai-wu-hong"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/chen-li-na"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/huang-tian-huang"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/chiu-yu-hsuan"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/wang-yao-yu"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/song-shao-ming"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/wang-yihsiung"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/ge-pei-ying"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/hong-ying-xiong"
+    },
+    {
+      "text": "查看完整介紹 →",
+      "url": "https://2026.kmtks.org.tw/Council/chen-yi-zhen"
+    },
+    {
+      "text": "查看全部候選人 →",
+      "url": "https://2026.kmtks.org.tw/Council"
+    },
+    {
+      "text": "前往訊息中心 →",
+      "url": "https://2026.kmtks.org.tw/news"
+    },
+    {
+      "text": "",
+      "url": "https://2026.kmtks.org.tw/news/115115114"
+    },
+    {
+      "text": "最新消息",
+      "url": "https://2026.kmtks.org.tw/news?category=%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF"
+    },
+    {
+      "text": "議員新聞",
+      "url": "https://2026.kmtks.org.tw/news?category=%E8%AD%B0%E5%93%A1%E6%96%B0%E8%81%9E"
+    },
+    {
+      "text": "回應時事",
+      "url": "https://2026.kmtks.org.tw/news?category=%E5%9B%9E%E6%87%89%E6%99%82%E4%BA%8B"
+    },
+    {
+      "text": "公督盟罵柯志恩「聽話的狗」　陳菁徽率藍議員怒嗆賴瑞隆：為何不敢譴責？",
+      "url": "https://2026.kmtks.org.tw/news/115115114"
+    },
+    {
+      "text": "",
+      "url": "https://2026.kmtks.org.tw/news/115113308"
+    },
+    {
+      "text": "最新消息",
+      "url": "https://2026.kmtks.org.tw/news?category=%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF"
+    },
+    {
+      "text": "談談政策",
+      "url": "https://2026.kmtks.org.tw/news?category=%E8%AB%87%E8%AB%87%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "議員新聞",
+      "url": "https://2026.kmtks.org.tw/news?category=%E8%AD%B0%E5%93%A1%E6%96%B0%E8%81%9E"
+    },
+    {
+      "text": "高科技笑嘻嘻 傳統產業苦哈哈  黃韻涵今提三箭齊發，救大岡山的傳統產業",
+      "url": "https://2026.kmtks.org.tw/news/115113308"
+    },
+    {
+      "text": "",
+      "url": "https://2026.kmtks.org.tw/news/115117021"
+    },
+    {
+      "text": "最新消息",
+      "url": "https://2026.kmtks.org.tw/news?category=%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF"
+    },
+    {
+      "text": "破圈合體呂捷！柯志恩怒轟「新潮流壟斷」：給我機會服務4年",
+      "url": "https://2026.kmtks.org.tw/news/115117021"
+    },
+    {
+      "text": "查看全部澄清 →",
+      "url": "https://2026.kmtks.org.tw/debug"
+    },
+    {
+      "text": "",
+      "url": "https://2026.kmtks.org.tw/debug/115083131"
+    },
+    {
+      "text": "闢謠澄清",
+      "url": "https://2026.kmtks.org.tw/debug?category=%E9%97%A2%E8%AC%A0%E6%BE%84%E6%B8%85"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://2026.kmtks.org.tw/debug?category=%E9%97%A2%E8%AC%A0%E5%B0%88%E5%8D%80"
+    },
+    {
+      "text": "闢謠澄清｜「3％首都稅」根本不存在！",
+      "url": "https://2026.kmtks.org.tw/debug/115083131"
+    },
+    {
+      "text": "#首都稅",
+      "url": "https://2026.kmtks.org.tw/debug?tag=%E9%A6%96%E9%83%BD%E7%A8%85"
+    },
+    {
+      "text": "#財劃法",
+      "url": "https://2026.kmtks.org.tw/debug?tag=%E8%B2%A1%E5%8A%83%E6%B3%95"
+    },
+    {
+      "text": "#造謠",
+      "url": "https://2026.kmtks.org.tw/debug?tag=%E9%80%A0%E8%AC%A0"
+    },
+    {
+      "text": "#賴瑞隆",
+      "url": "https://2026.kmtks.org.tw/debug?tag=%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "閱讀完整內容 →",
+      "url": "https://2026.kmtks.org.tw/debug/115083131"
+    },
+    {
+      "text": "",
+      "url": "https://2026.kmtks.org.tw/debug/115073980"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://2026.kmtks.org.tw/debug?category=%E9%97%A2%E8%AC%A0%E5%B0%88%E5%8D%80"
+    },
+    {
+      "text": "闢謠澄清｜柯志恩擋高雄預算？",
+      "url": "https://2026.kmtks.org.tw/debug/115073980"
+    },
+    {
+      "text": "閱讀完整內容 →",
+      "url": "https://2026.kmtks.org.tw/debug/115073980"
+    },
+    {
+      "text": "",
+      "url": "https://2026.kmtks.org.tw/debug/115075128"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://2026.kmtks.org.tw/debug?category=%E9%97%A2%E8%AC%A0%E5%B0%88%E5%8D%80"
+    },
+    {
+      "text": "闢謠澄清｜柯志恩家人都在美國？",
+      "url": "https://2026.kmtks.org.tw/debug/115075128"
+    },
+    {
+      "text": "閱讀完整內容 →",
+      "url": "https://2026.kmtks.org.tw/debug/115075128"
+    },
+    {
+      "text": "查看更多圖卡 →",
+      "url": "https://2026.kmtks.org.tw/cards"
+    },
+    {
+      "text": "挺勞工-四大訴求與行動計劃",
+      "url": "https://2026.kmtks.org.tw/cards/115076735"
+    },
+    {
+      "text": "交通改革政策—雄好行 高雄行",
+      "url": "https://2026.kmtks.org.tw/cards/115077974"
+    },
+    {
+      "text": "高雄市教師職業工會市長支持柯志恩",
+      "url": "https://2026.kmtks.org.tw/cards/115073988"
+    },
+    {
+      "text": "2026中國國民黨高雄市選舉資訊網",
+      "url": "https://2026.kmtks.org.tw/"
+    },
+    {
+      "text": "首頁",
+      "url": "https://2026.kmtks.org.tw/"
+    },
+    {
+      "text": "市長候選人柯志恩",
+      "url": "https://2026.kmtks.org.tw/mayor"
+    },
+    {
+      "text": "議員候選人介紹",
+      "url": "https://2026.kmtks.org.tw/Council"
+    },
+    {
+      "text": "最新消息",
+      "url": "https://2026.kmtks.org.tw/news"
+    },
+    {
+      "text": "行程公告",
+      "url": "https://2026.kmtks.org.tw/Schedule"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://2026.kmtks.org.tw/debug"
+    },
+    {
+      "text": "圖卡資訊",
+      "url": "https://2026.kmtks.org.tw/cards"
+    },
+    {
+      "text": "關於本站",
+      "url": "https://2026.kmtks.org.tw/about"
+    },
+    {
+      "text": "聯絡我們",
+      "url": "https://2026.kmtks.org.tw/contact"
+    },
+    {
+      "text": "內容發布原則",
+      "url": "https://2026.kmtks.org.tw/editorial-policy"
+    },
+    {
+      "text": "資訊更正說明",
+      "url": "https://2026.kmtks.org.tw/corrections"
+    }
+  ],
+  "images": [
+    {
+      "alt": "中國國民黨黨徽",
+      "url": "https://i.meee.com.tw/JAWTB2E.png"
+    },
+    {
+      "alt": "柯志恩候選人",
+      "url": "https://2026.kmtks.org.tw/uploads/2026/07/candidate-4cfbb20c5efe130f.png"
+    },
+    {
+      "alt": "中國國民黨標準黨徽",
+      "url": "https://2026.kmtks.org.tw/assets/kmt-emblem-2026.png"
+    },
+    {
+      "alt": "李振豪候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/li-zhen-hao.webp"
+    },
+    {
+      "alt": "林義迪候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/lin-yi-di.webp"
+    },
+    {
+      "alt": "李亞築候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/li-ya-zhu.webp"
+    },
+    {
+      "alt": "方信淵候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/fang-xin-yuan.webp"
+    },
+    {
+      "alt": "宋立彬候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/song-li-bin.webp"
+    },
+    {
+      "alt": "黃韻涵候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/huang-yun-han.webp"
+    },
+    {
+      "alt": "李雅芬候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/li-ya-fen.webp"
+    },
+    {
+      "alt": "白喬茵候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/bai-qiao-yin.webp"
+    },
+    {
+      "alt": "李眉蓁候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/li-mei-zhen.webp"
+    },
+    {
+      "alt": "陳玫娟候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chen-mei-juan.webp"
+    },
+    {
+      "alt": "陳麗珍候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chen-li-zhen.webp"
+    },
+    {
+      "alt": "陳若翠候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chen-ruo-cui.webp"
+    },
+    {
+      "alt": "吳利成候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/wu-li-cheng.webp"
+    },
+    {
+      "alt": "蔡金晏候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/cai-jin-yan.webp"
+    },
+    {
+      "alt": "陳美雅候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chen-mei-ya.webp"
+    },
+    {
+      "alt": "童燕珍候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/tong-yan-zhen.webp"
+    },
+    {
+      "alt": "黃香菽候選人",
+      "url": "https://2026.kmtks.org.tw/uploads/2026/07/candidate-5367cd4beb5774fd.jpg"
+    },
+    {
+      "alt": "黃柏霖候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/huang-bo-lin.webp"
+    },
+    {
+      "alt": "黃裕庭候選人",
+      "url": "https://i.urusai.cc/KAtDN.jpg"
+    },
+    {
+      "alt": "許采蓁候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/hsu-tsai-chen.webp"
+    },
+    {
+      "alt": "黃鈺婷（報準）候選人",
+      "url": "https://l.urusai.cc/d2gIt.png"
+    },
+    {
+      "alt": "鄭安秝候選人",
+      "url": "https://l.urusai.cc/EDecy.png"
+    },
+    {
+      "alt": "劉德林候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/liu-de-lin.webp"
+    },
+    {
+      "alt": "李雅靜候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/li-ya-jing.webp"
+    },
+    {
+      "alt": "鍾易仲候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chung-yi-chung.webp"
+    },
+    {
+      "alt": "湯茹婷（報準）候選人",
+      "url": "https://l.urusai.cc/E9oWl.png"
+    },
+    {
+      "alt": "蔡武宏候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/cai-wu-hong.webp"
+    },
+    {
+      "alt": "陳麗娜候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chen-li-na.webp"
+    },
+    {
+      "alt": "黃天煌候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/huang-tian-huang.webp"
+    },
+    {
+      "alt": "邱于軒候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chiu-yu-hsuan.webp"
+    },
+    {
+      "alt": "王耀裕候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/wang-yao-yu.webp"
+    },
+    {
+      "alt": "宋紹銘候選人",
+      "url": "https://2026.kmtks.org.tw/uploads/2026/07/candidate-73140dd155197553.jpg"
+    },
+    {
+      "alt": "王義雄候選人",
+      "url": "https://2026.kmtks.org.tw/uploads/2026/07/candidate-813846851c3d2d93.png"
+    },
+    {
+      "alt": "葛姵瑩候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/ge-pei-ying.webp"
+    },
+    {
+      "alt": "洪英雄候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/hong-ying-xiong.webp"
+    },
+    {
+      "alt": "陳奕蓁候選人",
+      "url": "https://2026.kmtks.org.tw/candidate-photos/chen-yi-zhen.webp"
+    },
+    {
+      "alt": "公督盟罵柯志恩「聽話的狗」　陳菁徽率藍議員怒嗆賴瑞隆：為何不敢譴責？封面",
+      "url": "https://i.urusai.cc/TCbRs.jpg"
+    },
+    {
+      "alt": "高科技笑嘻嘻 傳統產業苦哈哈  黃韻涵今提三箭齊發，救大岡山的傳統產業封面",
+      "url": "https://i.urusai.cc/uBkrd.jpg"
+    },
+    {
+      "alt": "破圈合體呂捷！柯志恩怒轟「新潮流壟斷」：給我機會服務4年封面",
+      "url": "https://i.urusai.cc/tfPA5.jpg"
+    },
+    {
+      "alt": "闢謠澄清｜「3％首都稅」根本不存在！封面",
+      "url": "https://2026.kmtks.org.tw/uploads/2026/07/debug-default-cover-c1f88d0119bf56d6.png"
+    },
+    {
+      "alt": "闢謠澄清｜柯志恩擋高雄預算？封面",
+      "url": "https://2026.kmtks.org.tw/uploads/2026/07/debug-default-cover-c1f88d0119bf56d6.png"
+    },
+    {
+      "alt": "闢謠澄清｜柯志恩家人都在美國？封面",
+      "url": "https://2026.kmtks.org.tw/uploads/2026/07/debug-default-cover-c1f88d0119bf56d6.png"
+    },
+    {
+      "alt": "挺勞工-四大訴求與行動計劃",
+      "url": "https://l.urusai.cc/Z0zeb.jpg"
+    },
+    {
+      "alt": "交通改革政策—雄好行 高雄行",
+      "url": "https://i.urusai.cc/5UDn8.jpg"
+    },
+    {
+      "alt": "高雄市教師職業工會市長支持柯志恩",
+      "url": "https://i.urusai.cc/hD9TF.jpeg"
+    },
+    {
+      "alt": "中國國民黨黨徽",
+      "url": "https://i.meee.com.tw/JAWTB2E.png"
+    }
+  ],
+  "og_image": [
+    "https://2026.kmtks.org.tw/uploads/2026/07/open-graph-ec0157e06fb28dee.png"
+  ],
+  "structured_data": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://2026.kmtks.org.tw/#organization\",\"name\":\"中國國民黨高雄市黨部\",\"url\":\"https://2026.kmtks.org.tw/\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://2026.kmtks.org.tw/assets/kmt-emblem-2026.png\"},\"contactPoint\":{\"@type\":\"ContactPoint\",\"telephone\":\"07-2237171\",\"email\":\"service@2026.kmtks.org.tw\"},\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"高雄市三民區建國一路463號\",\"addressCountry\":\"TW\"}},{\"@type\":\"WebSite\",\"@id\":\"https://2026.kmtks.org.tw/#website\",\"url\":\"https://2026.kmtks.org.tw/\",\"name\":\"2026中國國民黨高雄市選舉資訊網\",\"description\":\"中國國民黨高雄市115年選舉資訊網，提供各候選人介紹、最新活動訊息、行程資訊等內容。\",\"publisher\":{\"@id\":\"https://2026.kmtks.org.tw/#organization\"},\"inLanguage\":\"zh-TW\"}]}"
+  ],
+  "final_url": "https://2026.kmtks.org.tw/",
+  "http_status": 200,
+  "full_visible_text": "2026中國國民黨高雄市選舉資訊網\n2026中國國民黨高雄市選舉資訊網\n首頁\n市長候選人柯志恩\n議員候選人介紹\n最新消息\n行程公告\n闢謠專區\n圖卡資訊\n選單\n首頁\n市長候選人柯志恩\n議員候選人介紹\n最新消息\n行程公告\n闢謠專區\n圖卡資訊\n2026 有志一同，翻轉高雄\n夢想海港\n世界雄心\n認識國民黨高雄市長與各選區市議員候選人，掌握最新行程、活動與政策訊息。\n認識各區議員候選人 →\n查看最新行程 →\n高雄市長候選人\n柯志恩\n查看完整介紹 →\n距離翻轉高雄\n還有\n17\n天\n最新公開行程\n公開行程確認中\n時間與地點確認後將即時更新\n查看全部行程 →\n在地團隊\n提名議員候選人\n國民黨提名議員候選人介紹、行程及最新活動訊息\n桃源區\n那瑪夏區\n甲仙區\n六龜區\n杉林區\n內門區\n旗山區\n美濃區\n茂林區\n茄萣區\n湖內區\n路竹區\n阿蓮區\n田寮區\n永安區\n岡山區\n燕巢區\n彌陀區\n梓官區\n橋頭區\n楠梓區\n左營區\n大社區\n仁武區\n鳥松區\n大樹區\n鼓山區\n鹽埕區\n旗津區\n三民區\n前金區\n新興區\n苓雅區\n鳳山區\n前鎮區\n小港區\n大寮區\n林園區\n候選人資料整理中\n此選區目前尚無候選人資料，確認後將第一時間更新於此。\n‹\n第一選區（桃源區、那瑪夏區、甲仙區、六龜區、杉林區、內門區、旗山區、美濃區、茂林區）\n1\n李振豪\n桃源、那瑪夏、甲仙、六龜、杉林、內門、旗山、美濃、茂林\n查看完整介紹\n→\n第一選區（桃源區、那瑪夏區、甲仙區、六龜區、杉林區、內門區、旗山區、美濃區、茂林區）\n2\n林義迪\n桃源、那瑪夏、甲仙、六龜、杉林、內門、旗山、美濃、茂林\n查看完整介紹\n→\n第二選區（茄萣區、湖內區、路竹區、阿蓮區、田寮區）\n2\n李亞築\n茄萣、湖內、路竹、阿蓮、田寮\n查看完整介紹\n→\n第三選區（永安區、岡山區、燕巢區、彌陀區、梓官區、橋頭區）\n1\n方信淵\n永安、岡山、燕巢、彌陀、梓官、橋頭\n查看完整介紹\n→\n第三選區（永安區、岡山區、燕巢區、彌陀區、梓官區、橋頭區）\n3\n宋立彬\n永安、岡山、燕巢、彌陀、梓官、橋頭\n查看完整介紹\n→\n第三選區（永安區、岡山區、燕巢區、彌陀區、梓官區、橋頭區）\n7\n黃韻涵\n永安、岡山、燕巢、彌陀、梓官、橋頭\n查看完整介紹\n→\n第四選區（楠梓區、左營區）\n2\n李雅芬\n楠梓、左營\n查看完整介紹\n→\n第四選區（楠梓區、左營區）\n3\n白喬茵\n楠梓、左營\n查看完整介紹\n→\n第四選區（楠梓區、左營區）\n5\n李眉蓁\n楠梓、左營\n查看完整介紹\n→\n第四選區（楠梓區、左營區）\n7\n陳玫娟\n楠梓、左營\n查看完整介紹\n→\n第四選區（楠梓區、左營區）\n10\n陳麗珍\n楠梓、左營\n查看完整介紹\n→\n第五選區（大社區、仁武區、鳥松區、大樹區）\n6\n陳若翠\n大社、仁武、鳥松、大樹\n查看完整介紹\n→\n第五選區（大社區、仁武區、鳥松區、大樹區）\n7\n吳利成\n大社、仁武、鳥松、大樹\n查看完整介紹\n→\n第六選區（鼓山區、鹽埕區、旗津區）\n3\n蔡金晏\n鼓山、鹽埕、旗津\n查看完整介紹\n→\n第六選區（鼓山區、鹽埕區、旗津區）\n4\n陳美雅\n鼓山、鹽埕、旗津\n查看完整介紹\n→\n第七選區（三民區）\n2\n童燕珍\n三民\n查看完整介紹\n→\n第七選區（三民區）\n4\n黃香菽\n三民\n查看完整介紹\n→\n第七選區（三民區）\n10\n黃柏霖\n三民\n查看完整介紹\n→\n第八選區（前金區、新興區、苓雅區）\n2\n黃裕庭\n前金、新興、苓雅\n查看完整介紹\n→\n第八選區（前金區、新興區、苓雅區）\n3\n許采蓁\n前金、新興、苓雅\n查看完整介紹\n→\n第八選區（前金區、新興區、苓雅區）\n6\n黃鈺婷（報準）\n前金、新興、苓雅\n查看完整介紹\n→\n第九選區（鳳山區）\n3\n鄭安秝\n鳳山\n查看完整介紹\n→\n第九選區（鳳山區）\n6\n劉德林\n鳳山\n查看完整介紹\n→\n第九選區（鳳山區）\n7\n李雅靜\n鳳山\n查看完整介紹\n→\n第九選區（鳳山區）\n9\n鍾易仲\n鳳山\n查看完整介紹\n→\n第十選區（前鎮區、小港區）\n2\n湯茹婷（報準）\n前鎮、小港\n查看完整介紹\n→\n第十選區（前鎮區、小港區）\n4\n蔡武宏\n前鎮、小港\n查看完整介紹\n→\n第十選區（前鎮區、小港區）\n8\n陳麗娜\n前鎮、小港\n查看完整介紹\n→\n第十一選區（大寮區、林園區）\n2\n黃天煌\n大寮、林園\n查看完整介紹\n→\n第十一選區（大寮區、林園區）\n3\n邱于軒\n大寮、林園\n查看完整介紹\n→\n第十一選區（大寮區、林園區）\n4\n王耀裕\n大寮、林園\n查看完整介紹\n→\n第十二選區 （平地原住民候選人）\n2\n宋紹銘\n居住高雄市之平地原住民\n查看完整介紹\n→\n第十二選區 （平地原住民候選人）\n3\n王義雄\n居住高雄市之平地原住民\n查看完整介紹\n→\n第十三選區 （山地原住民候選人）\n2\n葛姵瑩\n居住那瑪夏區、甲仙區、杉林區、內門區、旗山區、茄定區、湖內區、路竹區、永安區、彌陀區、梓官區、楠梓區、左營區、三民區之山地原住民\n查看完整介紹\n→\n第十四選區 （山地原住民候選人）\n1\n洪英雄\n居住桃源區、六龜區、美濃區、阿蓮區、田寮區、岡山區、燕巢區、橋頭區、鼓山區、鹽埕區、前金區、新興區之山地原住民\n查看完整介紹\n→\n第十五選區 （山地原住民候選人）\n2\n陳奕蓁\n居住茂林區、大社區、大樹區、仁武區、鳥松區、鳳山區、大寮區、旗津區、苓雅區、前鎮區、小港區、林園區之山地原住民\n查看完整介紹\n→\n›\n查看全部候選人 →\n最新動態\n訊息、活動與重要公告\n前往訊息中心 →\n最新消息\n議員新聞\n回應時事\n115年11月10日\n公督盟罵柯志恩「聽話的狗」　陳菁徽率藍議員怒嗆賴瑞隆：為何不敢譴責？\n最新消息\n談談政策\n議員新聞\n115年11月9日\n高科技笑嘻嘻 傳統產業苦哈哈  黃韻涵今提三箭齊發，救大岡山的傳統產業\n最新消息\n115年11月5日\n破圈合體呂捷！柯志恩怒轟「新潮流壟斷」：給我機會服務4年\n查證專區\n闢謠澄清\n查看全部澄清 →\n闢謠澄清\n闢謠專區\n115年8月14日\n闢謠澄清｜「3％首都稅」根本不存在！\n#首都稅\n#財劃法\n#造謠\n#賴瑞隆\n閱讀完整內容\n→\n闢謠專區\n115年7月28日\n闢謠澄清｜柯志恩擋高雄預算？\n閱讀完整內容\n→\n闢謠專區\n115年7月14日\n闢謠澄清｜柯志恩家人都在美國？\n閱讀完整內容\n→\n圖卡專區\n圖卡資訊\n查看更多圖卡 →\n挺勞工-四大訴求與行動計劃\n交通改革政策—雄好行 高雄行\n高雄市教師職業工會市長支持柯志恩\n2026中國國民黨高雄市選舉資訊網\n首頁\n市長候選人柯志恩\n議員候選人介紹\n最新消息\n行程公告\n闢謠專區\n圖卡資訊\n關於本站\n｜\n聯絡我們\n｜\n內容發布原則\n｜\n資訊更正說明\n© 2026 中國國民黨115年高雄選舉資訊網",
+  "original_sha256": "6d8d97755ad48493037526f915eb6e23795c6dc26bba33165753f530c4f88385",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/d31cf84041d481e063ce.html"
+}

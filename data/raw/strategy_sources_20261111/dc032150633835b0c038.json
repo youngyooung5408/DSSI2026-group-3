@@ -1,0 +1,6 @@
+{
+  "capture_id": "dc032150633835b0c038",
+  "requested_url": "http://tcc9105.tcc.gov.tw",
+  "fetched_at_utc": "2026-11-10T17:17:53.650296+00:00",
+  "error": "ConnectionError: HTTPConnectionPool(host='tcc9105.tcc.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='tcc9105.tcc.gov.tw', port=80): Failed to establish a new connection: [Errno 65] No route to host\"))"
+}

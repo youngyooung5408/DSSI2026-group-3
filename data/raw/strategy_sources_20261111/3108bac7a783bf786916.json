@@ -1,0 +1,4161 @@
+{
+  "capture_id": "3108bac7a783bf786916",
+  "requested_url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B",
+  "fetched_at_utc": "2026-11-10T17:23:15.788215+00:00",
+  "title": "沈伯洋 - 维基百科，自由的百科全书",
+  "links": [
+    {
+      "text": "跳转到内容",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#bodyContent"
+    },
+    {
+      "text": "首页",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "分类索引",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95"
+    },
+    {
+      "text": "特色内容",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9"
+    },
+    {
+      "text": "新闻动态",
+      "url": "https://zh.wikipedia.org/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B"
+    },
+    {
+      "text": "随机条目",
+      "url": "https://zh.wikipedia.org/wiki/Special:Random"
+    },
+    {
+      "text": "联络我们",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "帮助",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "维基社群",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "编辑入门",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E5%85%A5%E9%97%A8"
+    },
+    {
+      "text": "互助客栈",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88"
+    },
+    {
+      "text": "IRC即时聊天",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"
+    },
+    {
+      "text": "最近更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChanges"
+    },
+    {
+      "text": "特殊页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:SpecialPages"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+    },
+    {
+      "text": "搜索",
+      "url": "https://zh.wikipedia.org/wiki/Special:Search"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "资助维基百科",
+      "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=zh.wikipedia.org&uselang=zh"
+    },
+    {
+      "text": "创建账号",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "登录",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "序言",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "1 早年生活",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#早年生活"
+    },
+    {
+      "text": "1.1 成長及求學",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#成長及求學"
+    },
+    {
+      "text": "1.2 学术生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#学术生涯"
+    },
+    {
+      "text": "1.3 公共參與",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#公共參與"
+    },
+    {
+      "text": "2 從政生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#從政生涯"
+    },
+    {
+      "text": "2.1 立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#立法委員"
+    },
+    {
+      "text": "2.2 參選台北市長",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#參選台北市長"
+    },
+    {
+      "text": "3 政治立场",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#政治立场"
+    },
+    {
+      "text": "3.1 受中華人民共和國制裁",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#受中華人民共和國制裁"
+    },
+    {
+      "text": "4 争议",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#争议"
+    },
+    {
+      "text": "4.1 两岸交流",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#两岸交流"
+    },
+    {
+      "text": "4.2 管制藥物議題",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#管制藥物議題"
+    },
+    {
+      "text": "5 選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#選舉紀錄"
+    },
+    {
+      "text": "6 個人生活",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#個人生活"
+    },
+    {
+      "text": "7 主要著作",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#主要著作"
+    },
+    {
+      "text": "7.1 學術論文",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#學術論文"
+    },
+    {
+      "text": "7.2 期刊論文",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#期刊論文"
+    },
+    {
+      "text": "7.3 合著作品",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#合著作品"
+    },
+    {
+      "text": "8 參考資料",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#參考資料"
+    },
+    {
+      "text": "9 外部連結",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#外部連結"
+    },
+    {
+      "text": "Deutsch",
+      "url": "https://de.wikipedia.org/wiki/Shen_Pao-yang"
+    },
+    {
+      "text": "English",
+      "url": "https://en.wikipedia.org/wiki/Puma_Shen"
+    },
+    {
+      "text": "日本語",
+      "url": "https://ja.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "한국어",
+      "url": "https://ko.wikipedia.org/wiki/%EC%84%A0%EB%B3%B4%EC%96%91"
+    },
+    {
+      "text": "閩南語 / Bân-lâm-gí",
+      "url": "https://zh-min-nan.wikipedia.org/wiki/S%C3%ADm_Pek-i%C3%BB%E2%81%BF"
+    },
+    {
+      "text": "粵語",
+      "url": "https://zh-yue.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "编辑链接",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q96156873#sitelinks-wikipedia"
+    },
+    {
+      "text": "条目",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "讨论",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "不转换",
+      "url": "https://zh.wikipedia.org/zh/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "简体",
+      "url": "https://zh.wikipedia.org/zh-hans/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "繁體",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "大陆简体",
+      "url": "https://zh.wikipedia.org/zh-cn/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "香港繁體",
+      "url": "https://zh.wikipedia.org/zh-hk/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "澳門繁體",
+      "url": "https://zh.wikipedia.org/zh-mo/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "大马简体",
+      "url": "https://zh.wikipedia.org/zh-my/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "新加坡简体",
+      "url": "https://zh.wikipedia.org/zh-sg/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "臺灣正體",
+      "url": "https://zh.wikipedia.org/zh-tw/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "查看源代码",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "阅读",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "查看源代码",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=edit"
+    },
+    {
+      "text": "查看历史",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=history"
+    },
+    {
+      "text": "保存",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "链入页面",
+      "url": "https://zh.wikipedia.org/wiki/Special:WhatLinksHere/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "相关更改",
+      "url": "https://zh.wikipedia.org/wiki/Special:RecentChangesLinked/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "上传文件",
+      "url": "https://zh.wikipedia.org/wiki/Project:上传"
+    },
+    {
+      "text": "固定链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&oldid=95500028"
+    },
+    {
+      "text": "页面信息",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=info"
+    },
+    {
+      "text": "引用此页",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=%E6%B2%88%E4%BC%AF%E6%B4%8B&id=95500028&wpFormIdentifier=titleform"
+    },
+    {
+      "text": "获取短链接",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2F%25E6%25B2%2588%25E4%25BC%25AF%25E6%25B4%258B"
+    },
+    {
+      "text": "下载为PDF",
+      "url": "https://zh.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=show-download-screen"
+    },
+    {
+      "text": "打印页面",
+      "url": "javascript:print();"
+    },
+    {
+      "text": "维基共享资源",
+      "url": "https://commons.wikimedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "维基语录",
+      "url": "https://zh.wikiquote.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "维基数据项目",
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q96156873"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%BF%9D%E8%AD%B7#semi"
+    },
+    {
+      "text": "改善本條目",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=edit"
+    },
+    {
+      "text": "討論頁",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "疑欠准确",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%87%86%E7%A1%AE%E6%80%A7%E4%BA%89%E8%AE%AE"
+    },
+    {
+      "text": "讨论页",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "准确度",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%87%86%E7%A1%AE%E6%80%A7%E4%BA%89%E8%AE%AE"
+    },
+    {
+      "text": "存廢討論",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A0%81%E9%9D%A2%E5%AD%98%E5%BB%A2%E8%A8%8E%E8%AB%96"
+    },
+    {
+      "text": "原创研究",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%9D%9E%E5%8E%9F%E5%88%9B%E7%A0%94%E7%A9%B6"
+    },
+    {
+      "text": "相关内联标签",
+      "url": "https://zh.wikipedia.org/wiki/Template:Original_research_inline"
+    },
+    {
+      "text": "改善这篇条目",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=edit"
+    },
+    {
+      "text": "讨论页",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Puma_Shen_2024.jpg"
+    },
+    {
+      "text": "中華民國立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "全國不分區及僑居國外國民立法委員選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80"
+    },
+    {
+      "text": "中華民國",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B"
+    },
+    {
+      "text": "臺北市",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-cna0186-1"
+    },
+    {
+      "text": "[ 註 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-2"
+    },
+    {
+      "text": "母校",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AF%8D%E6%A0%A1"
+    },
+    {
+      "text": "臺北市私立復興中小學",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%A7%81%E7%AB%8B%E5%BE%A9%E8%88%88%E5%AF%A6%E9%A9%97%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "臺北市立建國高級中學",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AB%8B%E5%BB%BA%E5%9C%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "國立臺灣大學法律學院",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E6%B3%95%E5%BE%8B%E5%AD%B8%E9%99%A2"
+    },
+    {
+      "text": "賓州大學法學院",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%BE%E5%A4%95%E6%B3%95%E5%B0%BC%E4%BA%9A%E5%A4%A7%E5%AD%A6%E5%87%AF%E9%87%8C%E6%B3%95%E5%AD%A6%E9%99%A2"
+    },
+    {
+      "text": "加州大學爾灣分校",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%B8%E7%88%BE%E7%81%A3%E5%88%86%E6%A0%A1"
+    },
+    {
+      "text": "不當黨產處理委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%95%B6%E9%BB%A8%E7%94%A2%E8%99%95%E7%90%86%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "台灣人權促進會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E4%BA%BA%E6%AC%8A%E4%BF%83%E9%80%B2%E6%9C%83"
+    },
+    {
+      "text": "台灣民主實驗室",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B0%91%E4%B8%BB%E5%AF%A6%E9%A9%97%E5%AE%A4"
+    },
+    {
+      "text": "經濟民主連合",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B6%93%E6%BF%9F%E6%B0%91%E4%B8%BB%E9%80%A3%E5%90%88"
+    },
+    {
+      "text": "[ 2 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-3"
+    },
+    {
+      "text": "立法院外交及國防委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E5%A4%96%E4%BA%A4%E5%8F%8A%E5%9C%8B%E9%98%B2%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "犯罪學",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8A%AF%E7%BD%AA%E5%AD%B8"
+    },
+    {
+      "text": "法律社会学",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B%E7%A4%BE%E4%BC%9A%E5%AD%A6"
+    },
+    {
+      "text": "刑罰學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%91%E7%BD%B0%E5%AD%B8"
+    },
+    {
+      "text": "國立臺北大學社會科學學院",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E5%A4%A7%E5%AD%B8%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8%E5%AD%B8%E9%99%A2"
+    },
+    {
+      "text": "白領犯罪",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E9%A0%98%E7%8A%AF%E7%BD%AA"
+    },
+    {
+      "text": "刑法",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%91%E6%B3%95"
+    },
+    {
+      "text": "刑事政策",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%91%E4%BA%8B%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "資訊戰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%87%E8%A8%8A%E6%88%B0"
+    },
+    {
+      "text": "認知作戰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AA%8D%E7%9F%A5%E4%BD%9C%E6%88%B0"
+    },
+    {
+      "text": "中華民國",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B"
+    },
+    {
+      "text": "政治人物",
+      "url": "https://zh.wikipedia.org/wiki/%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "法律學家",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B%E5%AD%B8%E5%AE%B6"
+    },
+    {
+      "text": "犯罪學家",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8A%AF%E7%BD%AA%E5%AD%B8%E5%AE%B6"
+    },
+    {
+      "text": "律師",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%8B%E5%B8%AB"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "國立臺北大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "不當黨產處理委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%95%B6%E9%BB%A8%E7%94%A2%E8%99%95%E7%90%86%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "台灣人權促進會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E4%BA%BA%E6%AC%8A%E4%BF%83%E9%80%B2%E6%9C%83"
+    },
+    {
+      "text": "經濟民主連合",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B6%93%E6%BF%9F%E6%B0%91%E4%B8%BB%E9%80%A3%E5%90%88"
+    },
+    {
+      "text": "中央通訊社",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E9%80%9A%E8%A8%8A%E7%A4%BE"
+    },
+    {
+      "text": "國防",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%98%B2"
+    },
+    {
+      "text": "資安",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%87%E5%AE%89"
+    },
+    {
+      "text": "人權",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E6%AC%8A"
+    },
+    {
+      "text": "兒少",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%92%E5%B0%91"
+    },
+    {
+      "text": "收養",
+      "url": "https://zh.wikipedia.org/wiki/%E6%94%B6%E9%A4%8A"
+    },
+    {
+      "text": "臺大法律系",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%A4%A7%E6%B3%95%E5%BE%8B%E7%B3%BB"
+    },
+    {
+      "text": "刑法",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%91%E6%B3%95"
+    },
+    {
+      "text": "賓州大學",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%93%E5%B7%9E%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "[ 3 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-4"
+    },
+    {
+      "text": "加州大學爾灣分校",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%B8%E7%88%BE%E7%81%A3%E5%88%86%E6%A0%A1"
+    },
+    {
+      "text": "犯罪學",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8A%AF%E7%BD%AA%E5%AD%B8"
+    },
+    {
+      "text": "法律社会学",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B%E7%A4%BE%E4%BC%9A%E5%AD%A6"
+    },
+    {
+      "text": "社會生態",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A4%BE%E6%9C%83%E7%94%9F%E6%85%8B%E5%AD%B8"
+    },
+    {
+      "text": "白領犯罪",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E9%A0%98%E7%8A%AF%E7%BD%AA"
+    },
+    {
+      "text": "刑事政策",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%91%E4%BA%8B%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "[ 4 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:3-5"
+    },
+    {
+      "text": "國立臺北大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "犯罪學",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8A%AF%E7%BD%AA%E5%AD%B8"
+    },
+    {
+      "text": "中華人民共和國",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B"
+    },
+    {
+      "text": "信息戰",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E6%81%AF%E6%88%98"
+    },
+    {
+      "text": "認知作戰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AA%8D%E7%9F%A5%E4%BD%9C%E6%88%B0"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:5-6"
+    },
+    {
+      "text": "台灣民主實驗室",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B0%91%E4%B8%BB%E5%AF%A6%E9%A9%97%E5%AE%A4"
+    },
+    {
+      "text": "黑熊學院",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E7%86%8A%E5%AD%B8%E9%99%A2"
+    },
+    {
+      "text": "[ 6 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-7"
+    },
+    {
+      "text": "立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "全國不分區立法委員名單第2名",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80"
+    },
+    {
+      "text": "支持「台獨」",
+      "url": "https://zh.wikipedia.org/wiki/%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90"
+    },
+    {
+      "text": "臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "蔣萬安",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E8%90%AC%E5%AE%89"
+    },
+    {
+      "text": "臺北市",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82"
+    },
+    {
+      "text": "五分埔",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%94%E5%88%86%E5%9F%94_(%E8%87%BA%E5%8C%97%E5%B8%82)"
+    },
+    {
+      "text": "[ 註 2 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-8"
+    },
+    {
+      "text": "[ 7 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-9"
+    },
+    {
+      "text": "[ 8 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-10"
+    },
+    {
+      "text": "蕁麻疹",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8D%A8%E9%BA%BB%E7%96%B9"
+    },
+    {
+      "text": "氣喘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%A3%E5%96%98"
+    },
+    {
+      "text": "[ 9 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-11"
+    },
+    {
+      "text": "[ 10 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-12"
+    },
+    {
+      "text": "厄瓜多",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8E%84%E7%93%9C%E5%A4%9A%E5%B0%94"
+    },
+    {
+      "text": "[ 11 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-13"
+    },
+    {
+      "text": "復興國中",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%A7%81%E7%AB%8B%E5%BE%A9%E8%88%88%E5%AF%A6%E9%A9%97%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "建國中學",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AB%8B%E5%BB%BA%E5%9C%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8"
+    },
+    {
+      "text": "[ 12 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-一鏡到底-14"
+    },
+    {
+      "text": "[ 13 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-BusinessToday2026-15"
+    },
+    {
+      "text": "李茂生",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%8C%82%E7%94%9F_(%E6%B3%95%E5%AD%B8%E5%AE%B6)"
+    },
+    {
+      "text": "矯正學校",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9F%AF%E6%AD%A3%E5%AD%B8%E6%A0%A1"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:5-6"
+    },
+    {
+      "text": "[ 14 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-余玫鈴2023-16"
+    },
+    {
+      "text": "[ 4 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:3-5"
+    },
+    {
+      "text": "[ 15 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-17"
+    },
+    {
+      "text": "宾夕法尼亚大学",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%BE%E5%A4%95%E6%B3%95%E5%B0%BC%E4%BA%9A%E5%A4%A7%E5%AD%A6"
+    },
+    {
+      "text": "[ 16 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-18"
+    },
+    {
+      "text": "[ 註 3 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-19"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:5-6"
+    },
+    {
+      "text": "[ 17 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-20"
+    },
+    {
+      "text": "替代役",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BF%E4%BB%A3%E5%BD%B9_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "[ 4 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:3-5"
+    },
+    {
+      "text": "[ 18 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-21"
+    },
+    {
+      "text": "加州大學爾灣分校",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%B8%E7%88%BE%E7%81%A3%E5%88%86%E6%A0%A1"
+    },
+    {
+      "text": "社會生態學院",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%B8%E7%88%BE%E7%81%A3%E5%88%86%E6%A0%A1%E7%A4%BE%E6%9C%83%E7%94%9F%E6%85%8B%E5%AD%B8%E9%99%A2&action=edit&redlink=1"
+    },
+    {
+      "text": "University of California, Irvine School of Social Ecology",
+      "url": "https://en.wikipedia.org/wiki/University_of_California,_Irvine_School_of_Social_Ecology"
+    },
+    {
+      "text": "[ 19 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-22"
+    },
+    {
+      "text": "都市設計",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%BD%E5%B8%82%E8%A8%AD%E8%A8%88"
+    },
+    {
+      "text": "社會心理",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A4%BE%E6%9C%83%E5%BF%83%E7%90%86%E5%AD%B8"
+    },
+    {
+      "text": "[ 5 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:5-6"
+    },
+    {
+      "text": "[ 20 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-23"
+    },
+    {
+      "text": "洪仲丘事件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E4%BB%B2%E4%B8%98%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "text": "太陽花運動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B"
+    },
+    {
+      "text": "[ 21 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-24"
+    },
+    {
+      "text": "[ 22 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-25"
+    },
+    {
+      "text": "[ 23 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-26"
+    },
+    {
+      "text": "北卡罗来纳州立大学",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%8D%A1%E7%BD%97%E6%9D%A5%E7%BA%B3%E5%B7%9E%E7%AB%8B%E5%A4%A7%E5%AD%A6"
+    },
+    {
+      "text": "[ 4 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:3-5"
+    },
+    {
+      "text": "[ 12 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-一鏡到底-14"
+    },
+    {
+      "text": "國立臺北大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "[ 24 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-NTPU-Official-27"
+    },
+    {
+      "text": "統一臺灣",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%94%BE%E5%8F%B0%E6%B9%BE"
+    },
+    {
+      "text": "資訊戰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%87%E8%A8%8A%E6%88%B0"
+    },
+    {
+      "text": "[ 25 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-陳昱婷2023-28"
+    },
+    {
+      "text": "假新聞",
+      "url": "https://zh.wikipedia.org/wiki/%E5%81%87%E6%96%B0%E8%81%9E"
+    },
+    {
+      "text": "[ 26 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-CW-20191111-29"
+    },
+    {
+      "text": "認知作戰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AA%8D%E7%9F%A5%E4%BD%9C%E6%88%B0"
+    },
+    {
+      "text": "中華人民共和國政府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E6%94%BF%E5%BA%9C"
+    },
+    {
+      "text": "[ 25 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-陳昱婷2023-28"
+    },
+    {
+      "text": "中國共產黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%85%B1%E7%94%A2%E9%BB%A8"
+    },
+    {
+      "text": "[ 25 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-陳昱婷2023-28"
+    },
+    {
+      "text": "世界民主運動",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%96%E7%95%8C%E6%B0%91%E4%B8%BB%E9%81%8B%E5%8B%95&action=edit&redlink=1"
+    },
+    {
+      "text": "World Movement for Democracy",
+      "url": "https://en.wikipedia.org/wiki/World_Movement_for_Democracy"
+    },
+    {
+      "text": "[ 27 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-30"
+    },
+    {
+      "text": "[ 28 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-31"
+    },
+    {
+      "text": "不當黨產處理委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8D%E7%95%B6%E9%BB%A8%E7%94%A2%E8%99%95%E7%90%86%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "林峯正",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B3%AF%E6%AD%A3"
+    },
+    {
+      "text": "[ 29 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-CIPAS-32"
+    },
+    {
+      "text": "[ 30 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-33"
+    },
+    {
+      "text": "[ 31 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-34"
+    },
+    {
+      "text": "[ 32 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-35"
+    },
+    {
+      "text": "[ 33 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-36"
+    },
+    {
+      "text": "台灣人權促進會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E4%BA%BA%E6%AC%8A%E4%BF%83%E9%80%B2%E6%9C%83"
+    },
+    {
+      "text": "國家通訊傳播委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%B6%E9%80%9A%E8%A8%8A%E5%82%B3%E6%92%AD%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "中天新聞台",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9E%E5%8F%B0"
+    },
+    {
+      "text": "[ 34 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-37"
+    },
+    {
+      "text": "[ 35 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-38"
+    },
+    {
+      "text": "何澄輝",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%BE%84%E8%BC%9D"
+    },
+    {
+      "text": "黑熊學院",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E7%86%8A%E5%AD%B8%E9%99%A2"
+    },
+    {
+      "text": "全民防衛",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E6%B0%91%E9%98%B2%E8%A1%9B"
+    },
+    {
+      "text": "公開情報蒐集",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E6%9D%A5%E6%BA%90%E6%83%85%E6%8A%A5"
+    },
+    {
+      "text": "聯電",
+      "url": "https://zh.wikipedia.org/wiki/%E8%81%AF%E8%8F%AF%E9%9B%BB%E5%AD%90"
+    },
+    {
+      "text": "曹興誠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E8%88%88%E8%AA%A0"
+    },
+    {
+      "text": "[ 36 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-39"
+    },
+    {
+      "text": "[ 37 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-40"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Puma_Shen_in_2024_Taiwan_general_election.jpg"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "2024年立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "不分區立委",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80"
+    },
+    {
+      "text": "[ 38 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-41"
+    },
+    {
+      "text": "臺灣地區與大陸地區人民關係條例",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%9C%B0%E5%8D%80%E8%88%87%E5%A4%A7%E9%99%B8%E5%9C%B0%E5%8D%80%E4%BA%BA%E6%B0%91%E9%97%9C%E4%BF%82%E6%A2%9D%E4%BE%8B"
+    },
+    {
+      "text": "[ 39 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-42"
+    },
+    {
+      "text": "[ 40 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-43"
+    },
+    {
+      "text": "國家安全法",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E5%AE%B6%E5%AE%89%E5%85%A8%E6%B3%95"
+    },
+    {
+      "text": "[ 41 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-44"
+    },
+    {
+      "text": "[ 42 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-45"
+    },
+    {
+      "text": "國會改革法案",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E7%AB%8B%E6%B3%95%E9%99%A2%E6%94%B9%E9%9D%A9%E7%88%AD%E8%AD%B0"
+    },
+    {
+      "text": "韓國瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9F%93%E5%9C%8B%E7%91%9C"
+    },
+    {
+      "text": "郭國文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E5%9C%8B%E6%96%87"
+    },
+    {
+      "text": "邱志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%BF%97%E5%81%89_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "[ 43 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-46"
+    },
+    {
+      "text": "[ 44 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-47"
+    },
+    {
+      "text": "廖偉翔",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%81%89%E7%BF%94"
+    },
+    {
+      "text": "邱鎮軍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E9%8E%AE%E8%BB%8D"
+    },
+    {
+      "text": "[ 45 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-48"
+    },
+    {
+      "text": "[ 46 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-49"
+    },
+    {
+      "text": "[ 47 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-50"
+    },
+    {
+      "text": "[ 48 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-51"
+    },
+    {
+      "text": "[ 49 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-52"
+    },
+    {
+      "text": "小燈泡",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%87%88%E6%B3%A1%E5%91%BD%E6%A1%88"
+    },
+    {
+      "text": "劉世芳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E4%B8%96%E8%8A%B3"
+    },
+    {
+      "text": "[ 50 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-53"
+    },
+    {
+      "text": "[ 51 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-54"
+    },
+    {
+      "text": "[ 52 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-55"
+    },
+    {
+      "text": "[ 53 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-56"
+    },
+    {
+      "text": "臺北市警局大安分局",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%AD%A6%E5%AF%9F%E5%B1%80"
+    },
+    {
+      "text": "[ 54 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-57"
+    },
+    {
+      "text": "臺北地方檢察署",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%9C%B0%E6%96%B9%E6%AA%A2%E5%AF%9F%E7%BD%B2"
+    },
+    {
+      "text": "香港",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF"
+    },
+    {
+      "text": "[ 55 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-58"
+    },
+    {
+      "text": "個人資料保護法",
+      "url": "https://zh.wikisource.org/wiki/%E5%80%8B%E4%BA%BA%E8%B3%87%E6%96%99%E4%BF%9D%E8%AD%B7%E6%B3%95_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)"
+    },
+    {
+      "text": "境外敵對勢力",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A2%83%E5%A4%96%E6%95%B5%E5%B0%8D%E5%8B%A2%E5%8A%9B"
+    },
+    {
+      "text": "[ 56 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-59"
+    },
+    {
+      "text": "[ 57 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-60"
+    },
+    {
+      "text": "大罢免",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%BD%B7%E5%85%8D"
+    },
+    {
+      "text": "民進黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E9%80%B2%E9%BB%A8"
+    },
+    {
+      "text": "[ 58 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-61"
+    },
+    {
+      "text": "傅崐萁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%82%85%E5%B4%90%E8%90%81"
+    },
+    {
+      "text": "[ 59 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-62"
+    },
+    {
+      "text": "曹興誠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E8%88%88%E8%AA%A0"
+    },
+    {
+      "text": "賴清德",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7"
+    },
+    {
+      "text": "[ 60 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-63"
+    },
+    {
+      "text": "[ 61 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-64"
+    },
+    {
+      "text": "[ 62 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-65"
+    },
+    {
+      "text": "[ 63 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-66"
+    },
+    {
+      "text": "2026年臺北市市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "洋流 (政治)",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%8B%E6%B5%81_(%E6%94%BF%E6%B2%BB)"
+    },
+    {
+      "text": "市長，你給我聽好了",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%82%E9%95%B7%EF%BC%8C%E4%BD%A0%E7%B5%A6%E6%88%91%E8%81%BD%E5%A5%BD%E4%BA%86"
+    },
+    {
+      "text": "政策島",
+      "url": "https://zh.wikipedia.org/wiki/%E6%94%BF%E7%AD%96%E5%B3%B6"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "臺北市市長",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7"
+    },
+    {
+      "text": "賴清德",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%B8%85%E5%BE%B7"
+    },
+    {
+      "text": "蔣萬安",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A3%E8%90%AC%E5%AE%89"
+    },
+    {
+      "text": "[ 64 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-67"
+    },
+    {
+      "text": "[ 65 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:4-68"
+    },
+    {
+      "text": "[ 66 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-69"
+    },
+    {
+      "text": "[ 67 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-70"
+    },
+    {
+      "text": "[ 68 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-71"
+    },
+    {
+      "text": "[ 69 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-72"
+    },
+    {
+      "text": "[ 70 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-73"
+    },
+    {
+      "text": "[ 71 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-74"
+    },
+    {
+      "text": "[ 72 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-75"
+    },
+    {
+      "text": "[ 73 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-76"
+    },
+    {
+      "text": "松山機場",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E5%8C%97%E6%9D%BE%E5%B1%B1%E6%A9%9F%E5%A0%B4"
+    },
+    {
+      "text": "[ 74 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-77"
+    },
+    {
+      "text": "獨立國家",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%8B%AC%E7%AB%8B"
+    },
+    {
+      "text": "[ 75 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-78"
+    },
+    {
+      "text": "認知作戰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AA%8D%E7%9F%A5%E4%BD%9C%E6%88%B0"
+    },
+    {
+      "text": "[ 76 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-79"
+    },
+    {
+      "text": "[ 77 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-80"
+    },
+    {
+      "text": "[ 78 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-81"
+    },
+    {
+      "text": "洗腦",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%97%E8%85%A6"
+    },
+    {
+      "text": "[ 26 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-CW-20191111-29"
+    },
+    {
+      "text": "中國共產黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%85%B1%E7%94%A2%E9%BB%A8"
+    },
+    {
+      "text": "建制派",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%BA%E5%88%B6%E6%B4%BE_(%E9%A6%99%E6%B8%AF)"
+    },
+    {
+      "text": "假消息",
+      "url": "https://zh.wikipedia.org/wiki/%E5%81%87%E6%B6%88%E6%81%AF"
+    },
+    {
+      "text": "資訊戰",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%87%E8%A8%8A%E6%88%B0"
+    },
+    {
+      "text": "[ 79 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-82"
+    },
+    {
+      "text": "中國共產黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%85%B1%E7%94%A2%E9%BB%A8"
+    },
+    {
+      "text": "國安部",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%AE%B6%E5%AE%89%E5%85%A8%E9%83%A8"
+    },
+    {
+      "text": "中共中央統戰部",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E7%B5%B1%E6%88%B0%E9%83%A8"
+    },
+    {
+      "text": "中共中央台辦",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%8F%B0%E8%BE%A6"
+    },
+    {
+      "text": "解放軍",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%94%BE%E8%BB%8D"
+    },
+    {
+      "text": "共青團",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%85%B1%E7%94%A2%E4%B8%BB%E7%BE%A9%E9%9D%92%E5%B9%B4%E5%9C%98"
+    },
+    {
+      "text": "[ 80 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-Bus-83"
+    },
+    {
+      "text": "[ 81 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-84"
+    },
+    {
+      "text": "中共中央台灣工作辦公室",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%8F%B0%E7%81%A3%E5%B7%A5%E4%BD%9C%E8%BE%A6%E5%85%AC%E5%AE%A4"
+    },
+    {
+      "text": "「台獨」頑固分子",
+      "url": "https://zh.wikipedia.org/wiki/%E3%80%8C%E5%8F%B0%E7%8D%A8%E3%80%8D%E9%A0%91%E5%9B%BA%E5%88%86%E5%AD%90"
+    },
+    {
+      "text": "[ 82 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-85"
+    },
+    {
+      "text": "[ 83 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-h293-86"
+    },
+    {
+      "text": "「台獨」打手幫凶",
+      "url": "https://zh.wikipedia.org/wiki/%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90#“台独”打手帮凶"
+    },
+    {
+      "text": "曹興誠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E8%88%88%E8%AA%A0"
+    },
+    {
+      "text": "重慶市公安局",
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E5%BA%86%E5%B8%82%E5%85%AC%E5%AE%89%E5%B1%80"
+    },
+    {
+      "text": "黑熊學院",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E7%86%8A%E5%AD%B8%E9%99%A2"
+    },
+    {
+      "text": "分裂國家",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%86%E8%A3%82%E5%9C%8B%E5%AE%B6%E8%A1%8C%E7%82%BA"
+    },
+    {
+      "text": "关于依法惩治“台独”顽固分子分裂国家、煽动分裂国家犯罪的意见",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%B3%E4%BA%8E%E4%BE%9D%E6%B3%95%E6%83%A9%E6%B2%BB%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90%E5%88%86%E8%A3%82%E5%9B%BD%E5%AE%B6%E3%80%81%E7%85%BD%E5%8A%A8%E5%88%86%E8%A3%82%E5%9B%BD%E5%AE%B6%E7%8A%AF%E7%BD%AA%E7%9A%84%E6%84%8F%E8%A7%81"
+    },
+    {
+      "text": "[ 84 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-c391-87"
+    },
+    {
+      "text": "[ 85 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-88"
+    },
+    {
+      "text": "中國中央電視台",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E4%B8%AD%E5%A4%AE%E9%9B%BB%E8%A6%96%E5%8F%B0"
+    },
+    {
+      "text": "國際刑警組織",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E5%88%91%E8%AD%A6%E7%B5%84%E7%B9%94"
+    },
+    {
+      "text": "红色通报",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E8%89%B2%E9%80%9A%E6%8A%A5"
+    },
+    {
+      "text": "[ 86 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-89"
+    },
+    {
+      "text": "德國聯邦議院",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%9C%8B%E8%81%AF%E9%82%A6%E8%AD%B0%E9%99%A2"
+    },
+    {
+      "text": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "[ 87 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-90"
+    },
+    {
+      "text": "[ 88 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-91"
+    },
+    {
+      "text": "正值訪歐的蔡英文",
+      "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E8%94%A1%E8%8B%B1%E6%96%87%E8%A8%AA%E5%95%8F%E6%AD%90%E6%B4%B2"
+    },
+    {
+      "text": "[ 89 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-92"
+    },
+    {
+      "text": "美國國務院",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E5%9C%8B%E5%8B%99%E9%99%A2"
+    },
+    {
+      "text": "言論自由",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1"
+    },
+    {
+      "text": "[ 90 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-93"
+    },
+    {
+      "text": "[ 91 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-94"
+    },
+    {
+      "text": "過度細節內容",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:NOT"
+    },
+    {
+      "text": "整理",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&action=edit"
+    },
+    {
+      "text": "維基百科內容方針",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:NOT"
+    },
+    {
+      "text": "討論頁",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "中立性",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E4%B8%AD%E7%AB%8B%E7%9A%84%E8%A7%82%E7%82%B9"
+    },
+    {
+      "text": "地方色彩",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%81%BF%E5%85%8D%E5%9C%B0%E5%9F%9F%E4%B8%AD%E5%BF%83"
+    },
+    {
+      "text": "讨论页",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "討論頁",
+      "url": "https://zh.wikipedia.org/wiki/Talk:%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "馬龍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E9%BE%8D_(%E4%B9%92%E4%B9%93)"
+    },
+    {
+      "text": "中國共產黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%85%B1%E7%94%A2%E9%BB%A8"
+    },
+    {
+      "text": "[ 92 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-95"
+    },
+    {
+      "text": "[ 93 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-96"
+    },
+    {
+      "text": "中國國民黨",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+    },
+    {
+      "text": "羅智強",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "text": "[ 94 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-97"
+    },
+    {
+      "text": "大公報",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%85%AC%E5%A0%B1"
+    },
+    {
+      "text": "[ 95 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-98"
+    },
+    {
+      "text": "[ 96 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-99"
+    },
+    {
+      "text": "中共中央臺辦",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%8F%B0%E5%8A%9E"
+    },
+    {
+      "text": "[ 97 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-j029-100"
+    },
+    {
+      "text": "[ 65 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:4-68"
+    },
+    {
+      "text": "[ 98 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-101"
+    },
+    {
+      "text": "文汇报",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E6%B1%87%E6%8A%A5"
+    },
+    {
+      "text": "[ 99 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-102"
+    },
+    {
+      "text": "雙城論壇",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9B%99%E5%9F%8E%E8%AB%96%E5%A3%87"
+    },
+    {
+      "text": "[ 100 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-103"
+    },
+    {
+      "text": "[ 101 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-104"
+    },
+    {
+      "text": "原文如此",
+      "url": "https://zh.wikipedia.org/wiki/Sic"
+    },
+    {
+      "text": "[ 102 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-105"
+    },
+    {
+      "text": "[ 103 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-106"
+    },
+    {
+      "text": "[ 104 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-107"
+    },
+    {
+      "text": "[ 105 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-108"
+    },
+    {
+      "text": "[ 106 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-109"
+    },
+    {
+      "text": "[ 107 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-110"
+    },
+    {
+      "text": "[ 108 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-111"
+    },
+    {
+      "text": "[ 109 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-112"
+    },
+    {
+      "text": "[ 110 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-113"
+    },
+    {
+      "text": "[ 111 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-114"
+    },
+    {
+      "text": "美沙冬",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E6%B2%99%E5%86%AC"
+    },
+    {
+      "text": "[ 112 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-115"
+    },
+    {
+      "text": "[ 113 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-116"
+    },
+    {
+      "text": "[ 114 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-117"
+    },
+    {
+      "text": "[ 115 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-businesstoday20261004-118"
+    },
+    {
+      "text": "[ 116 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-pts20261004-119"
+    },
+    {
+      "text": "疾病管制署",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A1%9B%E7%94%9F%E7%A6%8F%E5%88%A9%E9%83%A8%E7%96%BE%E7%97%85%E7%AE%A1%E5%88%B6%E7%BD%B2"
+    },
+    {
+      "text": "羅一鈞",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E4%B8%80%E9%88%9E"
+    },
+    {
+      "text": "[ 115 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-businesstoday20261004-118"
+    },
+    {
+      "text": "第11屆立法委員選舉",
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "全國不分區及僑居國外國民立法委員選舉區",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80"
+    },
+    {
+      "text": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Elected_candidate_symbol_(voting_stamp,_Taiwan).svg"
+    },
+    {
+      "text": "第9屆臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89"
+    },
+    {
+      "text": "臺北市",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E5%8C%97%E5%B8%82"
+    },
+    {
+      "text": "籃球",
+      "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83"
+    },
+    {
+      "text": "桌球",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A1%8C%E7%90%83_(%E7%90%83%E6%8B%8D%E9%81%8B%E5%8B%95)"
+    },
+    {
+      "text": "匹克球",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%B9%E5%85%8B%E7%90%83"
+    },
+    {
+      "text": "[ 117 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-120"
+    },
+    {
+      "text": "安室奈美惠",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%AE%A4%E5%A5%88%E7%BE%8E%E6%83%A0"
+    },
+    {
+      "text": "[ 118 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:2-121"
+    },
+    {
+      "text": "楊過",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E9%81%8E"
+    },
+    {
+      "text": "[ 119 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:1-122"
+    },
+    {
+      "text": "新世紀福音戰士",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E4%B8%96%E7%B4%80%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB"
+    },
+    {
+      "text": "福音戰士新劇場版",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB%E6%96%B0%E5%8A%87%E5%A0%B4%E7%89%88"
+    },
+    {
+      "text": "[ 118 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-:2-121"
+    },
+    {
+      "text": "民法",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E6%B3%95"
+    },
+    {
+      "text": "[ 120 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-123"
+    },
+    {
+      "text": "法人",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E4%BA%BA"
+    },
+    {
+      "text": "[ 121 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-124"
+    },
+    {
+      "text": "[ 122 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-商工登記-125"
+    },
+    {
+      "text": "[ 123 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-126"
+    },
+    {
+      "text": "勵馨基金會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8B%B5%E9%A6%A8%E5%9F%BA%E9%87%91%E6%9C%83"
+    },
+    {
+      "text": "收養",
+      "url": "https://zh.wikipedia.org/wiki/%E6%94%B6%E9%A4%8A"
+    },
+    {
+      "text": "麻糬",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BA%BB%E7%B3%AC"
+    },
+    {
+      "text": "[ 1 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-cna0186-1"
+    },
+    {
+      "text": "[ 14 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-余玫鈴2023-16"
+    },
+    {
+      "text": "碩士",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A2%A9%E5%A3%AB"
+    },
+    {
+      "text": "[ 124 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-127"
+    },
+    {
+      "text": "[ 125 ]",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_note-128"
+    },
+    {
+      "text": "https://doi.org/10.6460/CPCP.202008_(25).05",
+      "url": "https://doi.org/10.6460/CPCP.202008_(25).05"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-2"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-8"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-19"
+    },
+    {
+      "text": "蘇巧慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%B7%A7%E6%85%A7"
+    },
+    {
+      "text": "戴杰",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B4%E6%9D%B0_(%E6%B3%95%E5%AD%B8%E5%AE%B6)"
+    },
+    {
+      "text": "1.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-cna0186_1-0"
+    },
+    {
+      "text": "1.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-cna0186_1-1"
+    },
+    {
+      "text": "收養一歲娃 沈伯洋：接住他們未來不一樣",
+      "url": "https://web.archive.org/web/20211001100200/https://www.cna.com.tw/news/acul/202110010186.aspx"
+    },
+    {
+      "text": "原始内容",
+      "url": "https://www.cna.com.tw/news/acul/202110010186.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-3"
+    },
+    {
+      "text": "法人登記資料",
+      "url": "https://web.archive.org/web/20250120152056/https://aomp109.judicial.gov.tw/judbp/whd6k/q/Fk7-fYc15NQ7tdLFth9Rt8EFbPKDEOl1RbacjHOZoT5uLMaImOFSYzgQr72m"
+    },
+    {
+      "text": "原始内容",
+      "url": "https://aomp109.judicial.gov.tw/judbp/whd6k/q/Fk7-fYc15NQ7tdLFth9Rt8EFbPKDEOl1RbacjHOZoT5uLMaImOFSYzgQr72m"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-4"
+    },
+    {
+      "text": "沈伯洋鏡文學專訪1／學霸沈伯洋曾想「把老師教的全學會」 李茂生一句話點醒他",
+      "url": "https://www.mirrormedia.mg/story/20260907cul001"
+    },
+    {
+      "text": "4.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:3_5-0"
+    },
+    {
+      "text": "4.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:3_5-1"
+    },
+    {
+      "text": "4.2",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:3_5-2"
+    },
+    {
+      "text": "4.3",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:3_5-3"
+    },
+    {
+      "text": "沈伯洋鏡文學專訪2／只叫AI「幫我摘要」就完蛋！ 沈伯洋：閱讀不足恐讓知識階級差距更大",
+      "url": "https://www.mirrormedia.mg/story/20260907cul002"
+    },
+    {
+      "text": "5.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:5_6-0"
+    },
+    {
+      "text": "5.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:5_6-1"
+    },
+    {
+      "text": "5.2",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:5_6-2"
+    },
+    {
+      "text": "5.3",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:5_6-3"
+    },
+    {
+      "text": "走出暗黝森林──《鏡文學》專訪沈伯洋談閱讀、陪伴與文化",
+      "url": "https://www.mirrormedia.mg/story/20260907cul006"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-7"
+    },
+    {
+      "text": "沈伯洋專訪／「一場60分挫敗」看到另一種人生！從楊過到黑熊…滿是標籤不按慣例走，如何踏上政治最前線- 今周刊",
+      "url": "https://www.businesstoday.com.tw/article/category/183027/post/202608260070/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-9"
+    },
+    {
+      "text": "在地身分加分？沈伯洋搬家族史自曝「五分埔大戶」後代 - 政治",
+      "url": "https://www.chinatimes.com/realtimenews/20260411001326-260407?chdtv"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-10"
+    },
+    {
+      "text": "比蔣家「正港」？ 沈：我家「乾隆年間」占五分埔「二分」｜東森新聞",
+      "url": "https://news.ebc.net.tw/news/politics/546265"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-11"
+    },
+    {
+      "text": "沈伯洋談父母離異的成長經驗：有人愛才是最重要的！「如果沒有，要有其他的愛去填補」",
+      "url": "https://www.fountmedia.io/article/432789"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-12"
+    },
+    {
+      "text": "收養一歲娃 沈伯洋：接住他們未來不一樣 | 文化",
+      "url": "https://www.cna.com.tw/news/acul/202110010186.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-13"
+    },
+    {
+      "text": "被質疑父親在中國經商！沈伯洋怒批：真的很惡劣",
+      "url": "https://www.ftvnews.com.tw/news/detail/2026513W0398"
+    },
+    {
+      "text": "12.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-一鏡到底_14-0"
+    },
+    {
+      "text": "12.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-一鏡到底_14-1"
+    },
+    {
+      "text": "這裡的犯罪不流血 犯罪學者沈伯洋",
+      "url": "https://www.mirrormedia.mg/story/20190427pol001"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20201101082352/https://www.mirrormedia.mg/story/20190427pol001/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-BusinessToday2026_15-0"
+    },
+    {
+      "text": "Puma Shen interview: From a score of 60 to the political front lines",
+      "url": "https://www.businesstoday.com.tw/article/category/183027/post/202608260070/"
+    },
+    {
+      "text": "14.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-余玫鈴2023_16-0"
+    },
+    {
+      "text": "14.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-余玫鈴2023_16-1"
+    },
+    {
+      "text": "從接觸「非行少年」萌生收養念頭：教授沈伯洋：想要成為父母，不一定要自己生，沒有血緣也可以很相愛！",
+      "url": "https://futureparenting.cwgv.com.tw/family/content/index/29168"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20231119153043/https://futureparenting.cwgv.com.tw/family/content/index/29168"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-17"
+    },
+    {
+      "text": "94年專門職業及技術人員高等考試律師、會計師、社會工作師、民間之公證人、不動產估價師考試及格人員榜單",
+      "url": "https://gaz.ncl.edu.tw/browseDetail.jsp?p=C,9,-2.81311725E8&id=E0601419"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-18"
+    },
+    {
+      "text": "Jacques deLisle Says Taiwan’s Future is in Good Hands with Promising Penn Carey Law Alumni",
+      "url": "https://journal.law.upenn.edu/issue/summer-2023/jacques-delisle-says-taiwans-future-is-in-good-hands-with-promising-penn-carey-law-alumni/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-20"
+    },
+    {
+      "text": "犯罪中女性主體的形塑－個人與法律選擇",
+      "url": "http://tdr.lib.ntu.edu.tw/jspui/handle/123456789/42059"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-21"
+    },
+    {
+      "text": "沈伯洋服替代役不是體位問題 他解釋：我是外文專長替代役",
+      "url": "https://www.fountmedia.io/article/381365"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-22"
+    },
+    {
+      "text": "Shen, Pao-Yang | Graduate Student Services",
+      "url": "https://grads.soceco.uci.edu/alumni/shen-pao-yang"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-23"
+    },
+    {
+      "text": "【解剖惡的教授一】看過上流社會、中產與底層 反骨的沈伯洋決定研究白領犯罪",
+      "url": "https://www.mirrormedia.mg/story/20190427pol002"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-24"
+    },
+    {
+      "text": "遍地開花》律師沈伯洋破解服貿傳言 網友喊讚",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/976046"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-25"
+    },
+    {
+      "text": "獨家專訪｜沈伯洋3年蛻變「中二魂」掀洋流 因他一席話闖政壇「老婆嚇一跳」（壹蘋10點強打）｜壹蘋新聞網",
+      "url": "https://news.nextapple.com/politics/20261006/5D48029533215F2D4892413DC676C8B5"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-26"
+    },
+    {
+      "text": "Shen, Pao-Yang | Graduate Student Services",
+      "url": "https://grads.soceco.uci.edu/alumni/shen-pao-yang"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-NTPU-Official_27-0"
+    },
+    {
+      "text": "沈伯洋 副教授兼所長",
+      "url": "https://crm.ntpu.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=119"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20231119153713/https://crm.ntpu.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=119"
+    },
+    {
+      "text": "25.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-陳昱婷2023_28-0"
+    },
+    {
+      "text": "25.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-陳昱婷2023_28-1"
+    },
+    {
+      "text": "25.2",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-陳昱婷2023_28-2"
+    },
+    {
+      "text": "沈伯洋列民進黨不分區第2 盼快速建立台灣認知防衛",
+      "url": "https://www.cna.com.tw/news/aipl/202311150244.aspx"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20231204204132/https://www.cna.com.tw/news/aipl/202311150244.aspx"
+    },
+    {
+      "text": "26.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-CW-20191111_29-0"
+    },
+    {
+      "text": "26.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-CW-20191111_29-1"
+    },
+    {
+      "text": "台北大學犯研所助理教授沈伯洋：假訊息最可怕的是長期洗腦",
+      "url": "https://opinion.cw.com.tw/blog/profile/441/article/8704"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20200531163445/https://opinion.cw.com.tw/blog/profile/441/article/8704"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-30"
+    },
+    {
+      "text": "沈伯洋教授入選「世界民主運動」指導委員會",
+      "url": "https://new.ntpu.edu.tw/news/6531ce14c30cd7076658c539?lang=zh"
+    },
+    {
+      "text": "國立臺北大學",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E5%A4%A7%E5%AD%B8"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20231119153043/https://new.ntpu.edu.tw/news/6531ce14c30cd7076658c539?lang=zh"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-31"
+    },
+    {
+      "text": "國立臺北大學112學年度單位主管人員名冊",
+      "url": "https://new.ntpu.edu.tw/news/64d1c2e5c30cd7076658adbd"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20230810225027/https://new.ntpu.edu.tw/news/64d1c2e5c30cd7076658adbd"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-CIPAS_32-0"
+    },
+    {
+      "text": "不當黨產委員",
+      "url": "https://web.archive.org/web/20220614233710/https://www.cipas.gov.tw/about/members"
+    },
+    {
+      "text": "原始内容",
+      "url": "https://www.cipas.gov.tw/about/members"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-33"
+    },
+    {
+      "text": "黨產會人事：沈伯洋接替楊偉中遺缺",
+      "url": "https://paper.udn.com/udnpaper/PID0001/332561/web/#7L-13397739L"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20240106172851/https://paper.udn.com/udnpaper/PID0001/332561/web/#7L-13397739L"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-34"
+    },
+    {
+      "text": "政院挺黨產會 林峯正續任主委",
+      "url": "https://news.ltn.com.tw/news/politics/paper/1396005"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20221018044050/https://news.ltn.com.tw/news/politics/paper/1396005"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-35"
+    },
+    {
+      "text": "打台灣不如騙台灣 檢查你是否成為認知作戰受害者",
+      "url": "https://www.cna.com.tw/news/ahel/202407145002.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-36"
+    },
+    {
+      "text": "社團法人台灣民主實驗室",
+      "url": "https://foundations.olc.tw/foundations/view/1813c986-0a4a-4ae2-a3f1-5338b97c4db9/2019-11-29/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-37"
+    },
+    {
+      "text": "中天聽證會 台灣人權促進會作為鑑定人之意見書",
+      "url": "https://www.tahr.org.tw/news/2809/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-38"
+    },
+    {
+      "text": "換照聽證會 鑑定人：中天遭裁罰紀錄居新聞台之冠",
+      "url": "https://www.cna.com.tw/news/firstnews/202010265006.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-39"
+    },
+    {
+      "text": "曹興誠資助6億元強化民防教育 沈伯洋：期待家家戶戶有「黑熊勇士」",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/4044669"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20221014170435/https://news.ltn.com.tw/news/politics/breakingnews/4044669"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-40"
+    },
+    {
+      "text": "沈伯洋：黑熊學院培養台灣人抗敵意識",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4483232"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20231119153043/https://ec.ltn.com.tw/article/breakingnews/4483232"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-41"
+    },
+    {
+      "text": "民進黨不分區立委名單出爐 林月琴、沈伯洋入列",
+      "url": "https://news.pts.org.tw/article/666780"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20231201224111/https://news.pts.org.tw/article/666780"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-42"
+    },
+    {
+      "text": "沈伯洋提立委赴中須限制 立院程委會表決遭封殺",
+      "url": "https://www.cna.com.tw/news/aipl/202404230264.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-43"
+    },
+    {
+      "text": "有多怕？藍白封殺國安法案1297次 沈伯洋「立委赴中納管」被擋次數最高",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5564845"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-44"
+    },
+    {
+      "text": "國安法制改革 綠提加重間諜處罰、保護關鍵技術修法",
+      "url": "https://www.cna.com.tw/news/aipl/202502140367.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-45"
+    },
+    {
+      "text": "「國家安全法第三條、第八條及第十八條條文修正草案」，請審議案。",
+      "url": "https://ppg.ly.gov.tw/ppg/bills/202110073810000/details"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-46"
+    },
+    {
+      "text": "沈伯洋重摔前畫面曝！王定宇重複喊「爬我們背」助攻爬人牆",
+      "url": "https://www.ettoday.net/news/20240518/2741142.htm"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20240522204807/https://www.ettoday.net/news/20240518/2741142.htm"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-47"
+    },
+    {
+      "text": "沈伯洋爬人牆重摔 陳玉珍還原不同角度影像：王定宇慫恿的",
+      "url": "https://www.ettoday.net/news/20240518/2741102.htm"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20240522204506/https://www.ettoday.net/news/20240518/2741102.htm"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-48"
+    },
+    {
+      "text": "直擊！沈伯洋遭邱鎮軍「雙手一推」重摔　廖偉翔偷偷補拳",
+      "url": "https://www.ftvnews.com.tw/news/detail/2024517W0332"
+    },
+    {
+      "text": "民視新聞",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E8%A6%96%E6%96%B0%E8%81%9E"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20240518163116/https://www.ftvnews.com.tw/news/detail/2024517W0332"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-49"
+    },
+    {
+      "text": "沈伯洋摔下2樓前「還被揮拳攻擊」　綠民代po影片痛批藍委",
+      "url": "https://tw.nextapple.com/politics/20240517/CF7F894C821A3D03B6541E6F92DA8C93"
+    },
+    {
+      "text": "壹蘋新聞網",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A3%B9%E8%98%8B%E6%96%B0%E8%81%9E%E7%B6%B2"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20240627142619/https://tw.nextapple.com/politics/20240517/CF7F894C821A3D03B6541E6F92DA8C93"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-50"
+    },
+    {
+      "text": "沈伯洋重摔「照MRI」遭質疑！台大急診醫揭腦震盪處理：要看症狀",
+      "url": "https://health.ettoday.net/news/2741169"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-51"
+    },
+    {
+      "text": "沈伯洋腦震盪 台北大學6教授發起連署：嚴厲譴責國會暴力",
+      "url": "https://udn.com/news/story/123475/7972137E"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20250605124552/https://udn.com/news/story/123475/7972137E"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-52"
+    },
+    {
+      "text": "民進黨團推國安10法 籲在野黨莫當中共代理人",
+      "url": "https://www.cna.com.tw/news/aipl/202503180178.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-53"
+    },
+    {
+      "text": "綠委挺罷免遭恐嚇 民進黨：嚴厲譴責不法",
+      "url": "https://www.cna.com.tw/news/aipl/202504170049.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-54"
+    },
+    {
+      "text": "劉世芳：各黨立委皆有人遭恐嚇 若有需要可申請隨扈",
+      "url": "https://www.cna.com.tw/news/aipl/202504170265.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-55"
+    },
+    {
+      "text": "沈伯洋收恐嚇信「變第二個小燈泡」 警追IP有進展了",
+      "url": "https://news.tvbs.com.tw/politics/3039442"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-56"
+    },
+    {
+      "text": "香港人委託全天監控 沈伯洋：應該不只我個人",
+      "url": "https://www.cna.com.tw/news/aipl/202610070222.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-57"
+    },
+    {
+      "text": "收「死」字恐嚇信！自爆住家被裝針孔偷拍　沈伯洋：報警仍無進展",
+      "url": "https://news.tvbs.com.tw/politics/2976469"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-58"
+    },
+    {
+      "text": "徵信業者收香港人36萬跟監沈伯洋　北檢起訴求刑1年半",
+      "url": "https://www.cna.com.tw/news/asoc/202610070071.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-59"
+    },
+    {
+      "text": "徵信業者收香港人36萬跟監沈伯洋　北檢起訴求刑1年半",
+      "url": "https://www.cna.com.tw/news/asoc/202610070071.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-60"
+    },
+    {
+      "text": "香港人委託全天監控　沈伯洋：應該不只我個人",
+      "url": "https://www.cna.com.tw/news/aipl/202610070222.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-61"
+    },
+    {
+      "text": "沈伯洋籲適時協助罷團 民進黨：尊重公民行使權利",
+      "url": "https://www.cna.com.tw/news/aipl/202502040305.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-62"
+    },
+    {
+      "text": "罷傅案 沈伯洋偕民進黨中央幹部花蓮掃街衝連署",
+      "url": "https://www.cna.com.tw/news/aipl/202504120075.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-63"
+    },
+    {
+      "text": "沈伯洋：曹興誠向賴清德更新罷免情勢 盼效益極大化",
+      "url": "https://www.cna.com.tw/news/aipl/202506130337.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-64"
+    },
+    {
+      "text": "罷團集結凱道催票 曹興誠：罷免是愛台與賣台對決",
+      "url": "https://www.cna.com.tw/news/aipl/202507240347.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-65"
+    },
+    {
+      "text": "大罷免大失敗 沈伯洋認了「錯在我」：對罷團需求掌握不夠",
+      "url": "https://news.tvbs.com.tw/politics/2943518"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-66"
+    },
+    {
+      "text": "沈伯洋：罷免失利應檢討 建議民進黨提823方案助罷團",
+      "url": "https://www.cna.com.tw/news/aipl/202507280163.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-67"
+    },
+    {
+      "text": "民進黨徵召沈伯洋參選台北市長　賴清德讚他是不二人選",
+      "url": "https://www.cna.com.tw/news/aipl/202605130200.aspx"
+    },
+    {
+      "text": "65.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:4_68-0"
+    },
+    {
+      "text": "65.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:4_68-1"
+    },
+    {
+      "text": "「九合一」台北市長選戰：蔣萬安的2028前哨戰，沈伯洋能否靠「洋流」突圍？",
+      "url": "https://www.bbc.com/zhongwen/articles/ck0j0wv57jw7o/trad"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-69"
+    },
+    {
+      "text": "沈伯洋參選北市長　以女兒故事談「改變是可能的」",
+      "url": "https://www.cna.com.tw/news/aipl/202605130221.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-70"
+    },
+    {
+      "text": "沈伯洋發布競選願景　從「心」出發推5大政見",
+      "url": "https://www.cna.com.tw/news/aloc/202608110044.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-71"
+    },
+    {
+      "text": "沈伯洋提4大交通政見　聚焦綠色通勤議題",
+      "url": "https://www.cna.com.tw/news/aloc/202609160127.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-72"
+    },
+    {
+      "text": "沈伯洋青年政策：城市基金、AI卡、圓夢計畫",
+      "url": "https://www.cna.com.tw/news/aipl/202608180126.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-73"
+    },
+    {
+      "text": "沈伯洋拋政見　關渡蓋國際足球場、花博建超級運動中心",
+      "url": "https://www.cna.com.tw/news/aipl/202607160060.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-74"
+    },
+    {
+      "text": "沈伯洋提教育政策4大支持　主張教師減壓、親師解套",
+      "url": "https://www.cna.com.tw/news/aipl/202610020066.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-75"
+    },
+    {
+      "text": "蔣萬安、沈伯洋辯論會10/31舉辦　納交互詰問、媒體提問",
+      "url": "https://www.cna.com.tw/news/aloc/202610150331.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-76"
+    },
+    {
+      "text": "沈伯洋：要當全民市長　政見不分藍綠",
+      "url": "https://www.cna.com.tw/news/aloc/202610200207.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-77"
+    },
+    {
+      "text": "松機遷建　沈伯洋：北市回函未涵蓋醫療後送等配套",
+      "url": "https://www.cna.com.tw/news/aipl/202610160079.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-78"
+    },
+    {
+      "text": "蔣萬安：中華民國本來就是主權獨立國家",
+      "url": "https://www.cna.com.tw/news/aipl/202605170096.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-79"
+    },
+    {
+      "text": "沈伯洋：台灣抵抗意志不足 因應中國認知戰3因素堪憂",
+      "url": "https://www.cna.com.tw/news/aipl/202309110006.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-80"
+    },
+    {
+      "text": "全民防衛意識抬頭 社企開課讓民眾找到戰鬥位置",
+      "url": "https://www.cna.com.tw/news/aipl/202209010350.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-81"
+    },
+    {
+      "text": "沈伯洋委員",
+      "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46775"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-82"
+    },
+    {
+      "text": "港傳北車現大量「台版黑警」？沈伯洋：盜用《自由》舊圖",
+      "url": "https://m.ltn.com.tw/news/politics/breakingnews/3180921"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20200607103928/https://m.ltn.com.tw/news/politics/breakingnews/3180921"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-Bus_83-0"
+    },
+    {
+      "text": "台灣已進入準戰爭狀態？ 專家揭秘中共對台資訊戰背後秘密",
+      "url": "https://www.businesstoday.com.tw/article/category/154769/post/201909190020/"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20241210175734/https://www.businesstoday.com.tw/article/category/154769/post/201909190020/"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-84"
+    },
+    {
+      "text": "曝中共早已介選 沈伯洋：抖音微博是台灣國安最大威脅",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/4523278"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-85"
+    },
+    {
+      "text": "國台辦點名台獨 沈伯洋、曹興誠及黑熊學院入列",
+      "url": "https://www.cna.com.tw/news/acn/202410140152.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-h293_86-0"
+    },
+    {
+      "text": "Report on the PRC’s Transnational Repression and Malign Influence in 2025",
+      "url": "https://www.cecc.gov/sites/evo-subsites/cecc.house.gov/files/evo-media-document/long-arm-report-cecc.pdf"
+    },
+    {
+      "text": "美國國會及行政當局中國委員會",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E5%9C%8B%E6%9C%83%E5%8F%8A%E8%A1%8C%E6%94%BF%E7%95%B6%E5%B1%80%E4%B8%AD%E5%9C%8B%E5%A7%94%E5%93%A1%E6%9C%83"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-c391_87-0"
+    },
+    {
+      "text": "公安机关决定对“台独”顽固分子沈伯洋立案侦查",
+      "url": "http://www.news.cn/legal/20251028/9e4d515d2eb543608e403788a636909d/c.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-88"
+    },
+    {
+      "text": "重慶公安立案偵查沈伯洋 指其透過「黑熊學院」從事分裂國家活動",
+      "url": "https://udn.com/news/story/7331/9100624"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-89"
+    },
+    {
+      "text": "沈伯洋：不會屈服中國打壓　持續進行國會外交",
+      "url": "https://www.cna.com.tw/news/aipl/202511100179.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-90"
+    },
+    {
+      "text": "現身德國國會　沈伯洋：勇敢台灣人不因中國恐嚇退縮",
+      "url": "https://www.cna.com.tw/news/aipl/202511120399.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-91"
+    },
+    {
+      "text": "Desinformation durch autokratische Staaten mit dem Ziel der Schwächung von Demokratie und Bedrohung der Menschenrechte Desinformation durch autokratische Staaten mit dem Ziel der Schwächung von Demokratie und Bedrohung der Menschenrechte Digitale Autokratie vs. demokratische Resilienz",
+      "url": "https://www.bundestag.de/resource/blob/1126350/Stellungnahme-des-SV-Dr-Shen-deutsch-.pdf"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-92"
+    },
+    {
+      "text": "蔡英文出手助沈伯洋突破中共封鎖訪德 外交部證實：獲雙方同意安排",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5597039"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-93"
+    },
+    {
+      "text": "中國揚言抓捕沈伯洋　國際刑警組織：不處理政治案件",
+      "url": "https://www.cna.com.tw/news/aipl/202511140293.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-94"
+    },
+    {
+      "text": "美關切中國偵查沈伯洋　批中破壞支撐兩岸現狀規範",
+      "url": "https://www.cna.com.tw/news/aipl/202511150018.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-95"
+    },
+    {
+      "text": "馬龍為中共黨員以陸生訪台 沈伯洋：中國把交流均視為統戰",
+      "url": "https://newtalk.tw/news/view/2024-11-27/946470"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-96"
+    },
+    {
+      "text": "馬龍陸生訪團被爆「清一色共黨背景」　沈伯洋提一事：不得不慎",
+      "url": "https://news.tvbs.com.tw/politics/2699582"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-97"
+    },
+    {
+      "text": "立法院第11屆第2會期內政委員會會議發言紀錄",
+      "url": "https://ivod.ly.gov.tw/Demand/Speech/157821"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-98"
+    },
+    {
+      "text": "大公報披露：「台獨」頑固分子沈伯洋父子大陸採購島內倒賣賺差價",
+      "url": "https://www.tkww.hk/a/202506/05/AP6841170fe4b0fbda9a202e2d.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-99"
+    },
+    {
+      "text": "藍質疑兩岸問題雙標 沈伯洋：赴中都是高風險",
+      "url": "https://www.cna.com.tw/news/aipl/202506060192.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-j029_100-0"
+    },
+    {
+      "text": "大陆国台办宣布惩戒民进党立委沈伯洋关联企业",
+      "url": "https://www.zaobao.com.sg/realtime/china/story20250605-6567684"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20250605124501/https://www.zaobao.com.sg/realtime/china/story20250605-6567684"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-101"
+    },
+    {
+      "text": "沈伯洋之父以新公司从大陆谋利 国台办：实施惩戒",
+      "url": "https://www.news.cn/tw/20261014/2295cae8138847e3934509e0c6fe4494/c.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-102"
+    },
+    {
+      "text": "沈伯洋表面「抗中」急先鋒 暗中縱容父親「賺紅錢」 其父名下公司遭制裁後換殼 半年多在陸貿易額近70萬美元",
+      "url": "https://www.wenweipo.com/a/202610/13/AP6acd42e9e4b01d54a286e949.html"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-103"
+    },
+    {
+      "text": "沈伯洋談雙城論壇：不必要且恐成滲透破口",
+      "url": "https://news.tvbs.com.tw/politics/3189623"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-104"
+    },
+    {
+      "text": "沈伯洋談雙城論壇：效益極低 沒有效益就不要辦",
+      "url": "https://www.cna.com.tw/news/aipl/202605140045.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-105"
+    },
+    {
+      "text": "沈伯洋：兩岸交流應首都對首都　台北可與北京對話",
+      "url": "https://www.cna.com.tw/news/aloc/202606060097.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-106"
+    },
+    {
+      "text": "沈伯洋談雙城論壇　提無政治前提、有實益、市民參與3原則",
+      "url": "https://www.cna.com.tw/news/aloc/202609180068.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-107"
+    },
+    {
+      "text": "沈伯洋談雙城論壇：沒有政治前提就可以參加",
+      "url": "https://udn.com/news/story/124652/9801088"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-108"
+    },
+    {
+      "text": "沈伯洋拋兩岸交流「首都對首都」 國民黨青年批雙標又選擇性失憶",
+      "url": "https://udn.com/news/story/124652/9550297"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-109"
+    },
+    {
+      "text": "沈伯洋規劃訪日　討論城市外交及成立海外後援會",
+      "url": "https://www.cna.com.tw/news/aloc/202609020133.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-110"
+    },
+    {
+      "text": "沈伯洋毒品爭議文另一篇　「大麻問題需要用合法化解決」",
+      "url": "https://news.nextapple.com/politics/20261006/E4ED4696BAD2ADBE0856559F386CB89D"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-111"
+    },
+    {
+      "text": "【撲馬想想】柯震東震出我國毒品政策的爛瘡",
+      "url": "https://www.thinkingtaiwan.net/content/3055"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-112"
+    },
+    {
+      "text": "沈伯洋上趙少康專訪拚破圈 不推毒品除罪化.不贊成大麻合法化",
+      "url": "https://news.ttv.com.tw/news/11510070041000N"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-113"
+    },
+    {
+      "text": "沈伯洋提反毒政見　蔣萬安稱勿拿美沙冬遮掩引網路熱議",
+      "url": "https://www.cna.com.tw/news/aloc/202610030206.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-114"
+    },
+    {
+      "text": "反毒熱議 蔣萬安問沈伯洋在何處設中心發毒品",
+      "url": "https://www.cna.com.tw/news/aipl/202610040062.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-115"
+    },
+    {
+      "text": "遭藍營指控主張社區中心發毒品　沈伯洋：純造謠將採法律行動",
+      "url": "https://www.cna.com.tw/news/aipl/202610050112.aspx"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-116"
+    },
+    {
+      "text": "遭趙少康問毒品立場！沈伯洋「搬出蔣萬安2句話」 全場瞬間靜默 | 政治 | 三立新聞網 SETN.COM",
+      "url": "https://www.setn.com/news/1919021"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-117"
+    },
+    {
+      "text": "沈伯洋：立場其實一直都很清楚　不主張毒品除罪化",
+      "url": "https://www.cna.com.tw/news/aipl/202610060294.aspx"
+    },
+    {
+      "text": "115.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-businesstoday20261004_118-0"
+    },
+    {
+      "text": "115.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-businesstoday20261004_118-1"
+    },
+    {
+      "text": "蔣萬安喊台北能給針頭？為何引爆40萬留言破世界紀錄⋯遭起底這法案他簽的！美沙冬是什麼？與沈伯洋攻防整理",
+      "url": "https://www.businesstoday.com.tw/article/category/183027/post/202610040004"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-pts20261004_119-0"
+    },
+    {
+      "text": "蔣萬安批以美沙冬遮掩說法 沈伯洋：毒品立場沒變",
+      "url": "https://news.pts.org.tw/article/829848"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-120"
+    },
+    {
+      "text": "蔣萬安最強對手出現？「他」來歷超驚人 綠營證實：體育、音樂俱佳",
+      "url": "https://www.ftvnews.com.tw/news/detail/2026420W0236"
+    },
+    {
+      "text": "118.0",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:2_121-0"
+    },
+    {
+      "text": "118.1",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:2_121-1"
+    },
+    {
+      "text": "【解剖惡的教授番外篇】刑法學者超「中二」 著作封面暗藏動漫密碼",
+      "url": "https://www.mirrormedia.mg/story/20190427pol005"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-:1_122-0"
+    },
+    {
+      "text": "【解剖惡的教授番外篇】從律師到犯罪學家 他說自己註定反骨",
+      "url": "https://www.mirrormedia.mg/story/20190427pol006"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-123"
+    },
+    {
+      "text": "黑熊學院「藍鵲行動」 培養民眾「迎戰」能力",
+      "url": "https://www.ftvnews.com.tw/news/detail/2023930L10M1"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-124"
+    },
+    {
+      "text": "黑熊社會企業有限公司",
+      "url": "https://twincn.com/item.aspx?no=90143280"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-商工登記_125-0"
+    },
+    {
+      "text": "黑熊社會企業有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do?banNo=90143280"
+    },
+    {
+      "text": "中華民國經濟部",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%B6%93%E6%BF%9F%E9%83%A8"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20220901134329/https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do?banNo=90143280"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-126"
+    },
+    {
+      "text": "黑熊學院「藍鵲行動」　培養民眾「迎戰」能力",
+      "url": "https://www.ftvnews.com.tw/news/detail/2023930L10M1"
+    },
+    {
+      "text": "民視新聞網",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E8%A6%96%E6%96%B0%E8%81%9E%E7%B6%B2"
+    },
+    {
+      "text": "存档",
+      "url": "https://web.archive.org/web/20240204110825/https://www.ftvnews.com.tw/news/detail/2023930L10M1"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-127"
+    },
+    {
+      "text": "犯罪中女性主體的形塑－個人與法律選擇",
+      "url": "https://hdl.handle.net/11296/82yx2v"
+    },
+    {
+      "text": "^",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#cite_ref-128"
+    },
+    {
+      "text": "LOCAL IDEOLOGIES AND PUNISHMENT FOR WHITE-COLLAR CRIME: A COMPARISON BETWEEN THE U.S. AND CHINA",
+      "url": "https://escholarship.org/uc/item/6x04x0x7"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Commons-logo.svg"
+    },
+    {
+      "text": "维基共享资源",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%9F%BA%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90"
+    },
+    {
+      "text": "沈伯洋",
+      "url": "https://commons.wikimedia.org/wiki/Category:Puma_Shen"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:Wikiquote-logo.svg"
+    },
+    {
+      "text": "维基语录",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%9F%BA%E8%AF%AD%E5%BD%95"
+    },
+    {
+      "text": "沈伯洋语录",
+      "url": "https://zh.wikiquote.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B"
+    },
+    {
+      "text": "沈伯洋的個人網站",
+      "url": "https://www.pumashen.org/"
+    },
+    {
+      "text": "沈伯洋的Facebook專頁",
+      "url": "https://www.facebook.com/pumashen"
+    },
+    {
+      "text": "沈伯洋的Facebook專頁",
+      "url": "https://www.facebook.com/puma.taipei"
+    },
+    {
+      "text": "沈伯洋的Instagram帳戶",
+      "url": "https://www.instagram.com/pumashen/"
+    },
+    {
+      "text": "沈伯洋的Threads帳戶",
+      "url": "https://www.threads.net/pumashen"
+    },
+    {
+      "text": "YouTube上的 沈伯洋 頻道",
+      "url": "https://www.youtube.com/@PumaShen"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/wiki/Template_talk:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "立法院第十一屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E5%90%8D%E5%96%AE"
+    },
+    {
+      "text": "院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "韓國瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9F%93%E5%9C%8B%E7%91%9C"
+    },
+    {
+      "text": "副院長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AB%8B%E6%B3%95%E9%99%A2%E5%89%AF%E9%99%A2%E9%95%B7"
+    },
+    {
+      "text": "江啟臣",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%95%9F%E8%87%A3"
+    },
+    {
+      "text": "中國國民黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "傅崐萁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%82%85%E5%B4%90%E8%90%81"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "王鴻薇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "text": "李彥秀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%BD%A5%E7%A7%80"
+    },
+    {
+      "text": "羅智強",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "text": "徐巧芯",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%B7%A7%E8%8A%AF"
+    },
+    {
+      "text": "赖士葆",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%96%E5%A3%AB%E8%91%86"
+    },
+    {
+      "text": "洪孟楷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%AD%9F%E6%A5%B7"
+    },
+    {
+      "text": "葉元之",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%89%E5%85%83%E4%B9%8B"
+    },
+    {
+      "text": "張智倫",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%99%BA%E5%80%AB"
+    },
+    {
+      "text": "林德福",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%BE%B7%E7%A6%8F_(%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8)"
+    },
+    {
+      "text": "羅明才",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%98%8E%E6%89%8D"
+    },
+    {
+      "text": "廖先翔",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%85%88%E7%BF%94"
+    },
+    {
+      "text": "林沛祥",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%B2%9B%E7%A5%A5"
+    },
+    {
+      "text": "牛煦庭",
+      "url": "https://zh.wikipedia.org/wiki/%E7%89%9B%E7%85%A6%E5%BA%AD"
+    },
+    {
+      "text": "涂權吉",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B6%82%E6%AC%8A%E5%90%89"
+    },
+    {
+      "text": "魯明哲",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AD%AF%E6%98%8E%E5%93%B2"
+    },
+    {
+      "text": "萬美玲",
+      "url": "https://zh.wikipedia.org/wiki/%E8%90%AC%E7%BE%8E%E7%8E%B2"
+    },
+    {
+      "text": "呂玉玲",
+      "url": "https://zh.wikipedia.org/wiki/%E5%91%82%E7%8E%89%E7%8E%B2"
+    },
+    {
+      "text": "邱若華",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%8B%A5%E8%8F%AF"
+    },
+    {
+      "text": "徐欣瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E6%AC%A3%E7%91%A9"
+    },
+    {
+      "text": "林思銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%80%9D%E9%93%AD"
+    },
+    {
+      "text": "鄭正鈐",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E6%AD%A3%E9%88%90"
+    },
+    {
+      "text": "陳超明",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%B6%85%E6%98%8E"
+    },
+    {
+      "text": "邱鎮軍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E9%8E%AE%E8%BB%8D"
+    },
+    {
+      "text": "顏寬恒",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A1%8F%E5%AF%AC%E6%81%92"
+    },
+    {
+      "text": "楊瓊瓔",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E7%93%8A%E7%93%94"
+    },
+    {
+      "text": "廖偉翔",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%96%E5%81%89%E7%BF%94"
+    },
+    {
+      "text": "黃健豪",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%81%A5%E8%B1%AA"
+    },
+    {
+      "text": "羅廷瑋",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E5%BB%B7%E7%91%8B"
+    },
+    {
+      "text": "江啟臣",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%95%9F%E8%87%A3"
+    },
+    {
+      "text": "謝衣鳯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AC%9D%E8%A1%A3%E9%B3%AF"
+    },
+    {
+      "text": "馬文君",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%96%87%E5%90%9B"
+    },
+    {
+      "text": "游顥",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E9%A1%A5"
+    },
+    {
+      "text": "丁學忠",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%81%E5%AD%B8%E5%BF%A0"
+    },
+    {
+      "text": "傅崐萁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%82%85%E5%B4%90%E8%90%81"
+    },
+    {
+      "text": "黃建賓",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%BB%BA%E8%B3%93"
+    },
+    {
+      "text": "陳雪生",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E9%9B%AA%E7%94%9F"
+    },
+    {
+      "text": "陳玉珍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%8E%89%E7%8F%8D_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "韓國瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9F%93%E5%9C%8B%E7%91%9C"
+    },
+    {
+      "text": "柯志恩",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BF%97%E6%81%A9"
+    },
+    {
+      "text": "葛如鈞",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%9B%E5%A6%82%E9%88%9E"
+    },
+    {
+      "text": "翁曉玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BF%81%E6%9B%89%E7%8E%B2"
+    },
+    {
+      "text": "陳菁徽",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E8%8F%81%E5%BE%BD"
+    },
+    {
+      "text": "吳宗憲",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%AE%97%E6%86%B2_(1971%E5%B9%B4)"
+    },
+    {
+      "text": "林倩綺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%80%A9%E7%B6%BA"
+    },
+    {
+      "text": "陳永康",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B8%E5%BA%B7_(%E8%BB%8D%E5%AE%98)"
+    },
+    {
+      "text": "許宇甄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E5%AE%87%E7%94%84"
+    },
+    {
+      "text": "謝龍介",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AC%9D%E9%BE%8D%E4%BB%8B"
+    },
+    {
+      "text": "蘇清泉",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E6%B8%85%E6%B3%89"
+    },
+    {
+      "text": "張嘉郡",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%98%89%E9%83%A1"
+    },
+    {
+      "text": "王育敏",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%82%B2%E6%95%8F"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "鄭天財",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%A4%A9%E8%B2%A1"
+    },
+    {
+      "text": "黃仁",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E4%BB%81_(%E8%87%BA%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "盧縣一",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E7%B8%A3%E4%B8%80"
+    },
+    {
+      "text": "高金素梅",
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%87%91%E7%B4%A0%E6%A2%85"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/File:11th_Legislative_Yuan.svg"
+    },
+    {
+      "text": "民主進步黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "區域",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#區域立法委員選舉區"
+    },
+    {
+      "text": "吳思瑤",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D%E7%91%A4"
+    },
+    {
+      "text": "王世堅",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E5%A0%85"
+    },
+    {
+      "text": "吳沛憶",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%B2%9B%E6%86%B6"
+    },
+    {
+      "text": "林淑芬",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%B7%91%E8%8A%AC"
+    },
+    {
+      "text": "李坤城",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%9D%A4%E5%9F%8E_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "吳秉叡",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%A7%89%E5%8F%A1"
+    },
+    {
+      "text": "蘇巧慧",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E5%B7%A7%E6%85%A7"
+    },
+    {
+      "text": "張宏陸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%AE%8F%E9%99%B8"
+    },
+    {
+      "text": "吳琪銘",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E7%90%AA%E9%8A%98"
+    },
+    {
+      "text": "陳俊宇",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BF%8A%E5%AE%87"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "何欣純",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%AC%A3%E7%B4%94"
+    },
+    {
+      "text": "陳秀寳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%A7%80%E5%AF%B3"
+    },
+    {
+      "text": "黃秀芳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%A7%80%E8%8A%B3"
+    },
+    {
+      "text": "陳素月",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%B4%A0%E6%9C%88"
+    },
+    {
+      "text": "劉建國",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E5%BB%BA%E5%9C%8B_(%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "蔡易餘",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%93%E9%A4%98"
+    },
+    {
+      "text": "陳冠廷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%A0%E5%BB%B7_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "王美惠",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%8E%E6%83%A0"
+    },
+    {
+      "text": "賴惠員",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E6%83%A0%E5%93%A1"
+    },
+    {
+      "text": "郭國文",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E5%9C%8B%E6%96%87"
+    },
+    {
+      "text": "陳亭妃",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BA%AD%E5%A6%83"
+    },
+    {
+      "text": "林宜瑾",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%AE%9C%E7%91%BE"
+    },
+    {
+      "text": "林俊憲",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BF%8A%E6%86%B2"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "邱議瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E8%AD%B0%E7%91%A9"
+    },
+    {
+      "text": "邱志偉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%BF%97%E5%81%89"
+    },
+    {
+      "text": "李柏毅",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%9F%8F%E6%AF%85_(%E9%AB%98%E9%9B%84%E5%B8%82)"
+    },
+    {
+      "text": "林岱樺",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B2%B1%E6%A8%BA"
+    },
+    {
+      "text": "李昆澤",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%98%86%E6%BE%A4"
+    },
+    {
+      "text": "黃捷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%8D%B7"
+    },
+    {
+      "text": "許智傑",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%99%BA%E5%82%91"
+    },
+    {
+      "text": "賴瑞隆",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%91%9E%E9%9A%86"
+    },
+    {
+      "text": "鍾佳濱",
+      "url": "https://zh.wikipedia.org/wiki/%E9%8D%BE%E4%BD%B3%E6%BF%B1"
+    },
+    {
+      "text": "徐富癸",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%AF%8C%E7%99%B8"
+    },
+    {
+      "text": "楊曜",
+      "url": "https://zh.wikipedia.org/wiki/%E6%A5%8A%E6%9B%9C"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "林月琴",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%9C%88%E7%90%B4_(%E8%87%BA%E7%81%A3)"
+    },
+    {
+      "text": "張雅琳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%9B%85%E7%90%B3"
+    },
+    {
+      "text": "洪申翰",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E7%94%B3%E7%BF%B0"
+    },
+    {
+      "text": "羅美玲",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E7%BE%8E%E7%8E%B2_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "游錫堃",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E9%8C%AB%E5%A0%83"
+    },
+    {
+      "text": "范雲",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8C%83%E9%9B%B2_(1968%E5%B9%B4)"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "沈發惠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E7%99%BC%E6%83%A0"
+    },
+    {
+      "text": "莊瑞雄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8E%8A%E7%91%9E%E9%9B%84"
+    },
+    {
+      "text": "林楚茵",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%A5%9A%E8%8C%B5"
+    },
+    {
+      "text": "郭昱晴",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E6%98%B1%E6%99%B4"
+    },
+    {
+      "text": "陳培瑜",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "text": "王正旭",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E6%97%AD"
+    },
+    {
+      "text": "王義川",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BE%A9%E5%B7%9D"
+    },
+    {
+      "text": "原住民",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89%E5%8D%80%E5%88%97%E8%A1%A8#原住民立法委員選舉區"
+    },
+    {
+      "text": "陳瑩",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%91%A9_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
+    },
+    {
+      "text": "伍麗華",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BC%8D%E9%BA%97%E8%8F%AF"
+    },
+    {
+      "text": "台灣民眾黨黨團",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B0%91%E7%9C%BE%E9%BB%A8%E7%AB%8B%E6%B3%95%E9%99%A2%E9%BB%A8%E5%9C%98"
+    },
+    {
+      "text": "陳清龍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B8%85%E9%BE%8D"
+    },
+    {
+      "text": "不分區及僑選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E5%B1%85%E5%9C%8B%E5%A4%96%E5%9C%8B%E6%B0%91%E9%81%B8%E5%8D%80"
+    },
+    {
+      "text": "黃珊珊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%8F%8A%E7%8F%8A"
+    },
+    {
+      "text": "黃國昌",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%9C%8B%E6%98%8C"
+    },
+    {
+      "text": "陳昭姿",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%98%AD%E5%A7%BF"
+    },
+    {
+      "text": "吳春城",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%98%A5%E5%9F%8E"
+    },
+    {
+      "text": "麥玉珍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E7%8E%89%E7%8F%8D"
+    },
+    {
+      "text": "林國成",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%9C%8B%E6%88%90"
+    },
+    {
+      "text": "林憶君",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%86%B6%E5%90%9B"
+    },
+    {
+      "text": "張啓楷",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%95%93%E6%A5%B7"
+    },
+    {
+      "text": "李貞秀",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E8%B2%9E%E7%A7%80"
+    },
+    {
+      "text": "劉書彬",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E6%9B%B8%E5%BD%AC"
+    },
+    {
+      "text": "洪毓祥",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E6%AF%93%E7%A5%A5"
+    },
+    {
+      "text": "蔡春綢",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%A5%E7%B6%A2"
+    },
+    {
+      "text": "王安祥",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A5%A5"
+    },
+    {
+      "text": "邱慧洳",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E6%85%A7%E6%B4%B3"
+    },
+    {
+      "text": "陳清龍",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B8%85%E9%BE%8D"
+    },
+    {
+      "text": "許忠信",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E5%BF%A0%E4%BF%A1"
+    },
+    {
+      "text": "第十屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "第十一屆",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "查",
+      "url": "https://zh.wikipedia.org/wiki/Template:%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90"
+    },
+    {
+      "text": "论",
+      "url": "https://zh.wikipedia.org/wiki/Template_talk:%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90"
+    },
+    {
+      "text": "编",
+      "url": "https://zh.wikipedia.org/wiki/Special:EditPage/Template:%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90"
+    },
+    {
+      "text": "“台独”顽固分子",
+      "url": "https://zh.wikipedia.org/wiki/%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90"
+    },
+    {
+      "text": "中共中央台湾工作办公室",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%8F%B0%E6%B9%BE%E5%B7%A5%E4%BD%9C%E5%8A%9E%E5%85%AC%E5%AE%A4"
+    },
+    {
+      "text": "吳釗燮",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E9%87%97%E7%87%AE"
+    },
+    {
+      "text": "蘇貞昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%98%87%E8%B2%9E%E6%98%8C"
+    },
+    {
+      "text": "游錫堃",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B8%B8%E9%8C%AB%E5%A0%83"
+    },
+    {
+      "text": "蕭美琴",
+      "url": "https://zh.wikipedia.org/wiki/%E8%95%AD%E7%BE%8E%E7%90%B4"
+    },
+    {
+      "text": "顧立雄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A1%A7%E7%AB%8B%E9%9B%84"
+    },
+    {
+      "text": "蔡其昌",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E5%85%B6%E6%98%8C"
+    },
+    {
+      "text": "柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "text": "林飛帆",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%A3%9B%E5%B8%86"
+    },
+    {
+      "text": "陳椒華",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%A4%92%E8%8F%AF"
+    },
+    {
+      "text": "王定宇",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%9A%E5%AE%87"
+    },
+    {
+      "text": "曹興誠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E8%88%88%E8%AA%A0"
+    },
+    {
+      "text": "劉世芳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E4%B8%96%E8%8A%B3"
+    },
+    {
+      "text": "鄭英耀",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E8%8B%B1%E8%80%80"
+    },
+    {
+      "text": "劉世芳",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E4%B8%96%E8%8A%B3"
+    },
+    {
+      "text": "吴思瑶",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E6%80%9D%E7%91%A4"
+    },
+    {
+      "text": "黃捷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%8D%B7"
+    },
+    {
+      "text": "林达",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%81%94_(%E6%AA%A2%E5%AF%9F%E5%AE%98)"
+    },
+    {
+      "text": "林俊言",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E4%BF%8A%E8%A8%80_(%E6%AA%A2%E5%AF%9F%E5%AE%98)"
+    },
+    {
+      "text": "林俊廷",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9E%97%E4%BF%8A%E5%BB%B7_(%E8%87%BA%E7%81%A3)&action=edit&redlink=1"
+    },
+    {
+      "text": "曹興誠",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%B9%E8%88%88%E8%AA%A0"
+    },
+    {
+      "text": "史書華",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E6%9B%B8%E8%8F%AF"
+    },
+    {
+      "text": "温子渝",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%82%AF"
+    },
+    {
+      "text": "陈柏源",
+      "url": "https://zh.wikipedia.org/wiki/%E9%97%BD%E5%8D%97%E7%8B%BCPYC"
+    },
+    {
+      "text": "陈舒怡",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E9%99%88%E8%88%92%E6%80%A1&action=edit&redlink=1"
+    },
+    {
+      "text": "臺灣民主基金會",
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%B0%91%E4%B8%BB%E5%9F%BA%E9%87%91%E6%9C%83"
+    },
+    {
+      "text": "國際合作發展基金會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E7%99%BC%E5%B1%95%E5%9F%BA%E9%87%91%E6%9C%83"
+    },
+    {
+      "text": "兩岸交流遠景基金會",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%A9%E5%B2%B8%E4%BA%A4%E6%B5%81%E9%81%A0%E6%99%AF%E5%9F%BA%E9%87%91%E6%9C%83"
+    },
+    {
+      "text": "亞洲自由民主聯盟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%9E%E6%B4%B2%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E8%81%AF%E7%9B%9F"
+    },
+    {
+      "text": "黑熊學院",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E7%86%8A%E5%AD%B8%E9%99%A2"
+    },
+    {
+      "text": "兆億公司",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E5%85%86%E5%84%84%E5%85%AC%E5%8F%B8&action=edit&redlink=1"
+    },
+    {
+      "text": "VWAY公司",
+      "url": "https://zh.wikipedia.org/w/index.php?title=VWAY%E5%85%AC%E5%8F%B8&action=edit&redlink=1"
+    },
+    {
+      "text": "反分裂國家法",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%8D%E5%88%86%E8%A3%82%E5%9C%8B%E5%AE%B6%E6%B3%95"
+    },
+    {
+      "text": "关于依法惩治“台独”顽固分子分裂国家、煽动分裂国家犯罪的意见",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%B3%E4%BA%8E%E4%BE%9D%E6%B3%95%E6%83%A9%E6%B2%BB%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90%E5%88%86%E8%A3%82%E5%9B%BD%E5%AE%B6%E3%80%81%E7%85%BD%E5%8A%A8%E5%88%86%E8%A3%82%E5%9B%BD%E5%AE%B6%E7%8A%AF%E7%BD%AA%E7%9A%84%E6%84%8F%E8%A7%81"
+    },
+    {
+      "text": "中共中央台办、国务院台办“依法惩治‘台独’顽固分子”专题网站",
+      "url": "http://www.gwytb.gov.cn/zccs/zccs_61195/cjtdwgfz/"
+    },
+    {
+      "text": "规范控制数据库",
+      "url": "https://zh.wikipedia.org/wiki/Help:%E8%A7%84%E8%8C%83%E6%8E%A7%E5%88%B6"
+    },
+    {
+      "text": "",
+      "url": "https://www.wikidata.org/wiki/Q96156873#identifiers"
+    },
+    {
+      "text": "Google学术",
+      "url": "https://scholar.google.com/citations?user=mKiaEYIAAAAJ"
+    },
+    {
+      "text": "ORCID",
+      "url": "https://orcid.org/0000-0002-6139-6892"
+    },
+    {
+      "text": "https://zh.wikipedia.org/w/index.php?title=沈伯洋&oldid=95500028",
+      "url": "https://zh.wikipedia.org/w/index.php?title=沈伯洋&oldid=95500028"
+    },
+    {
+      "text": "分类",
+      "url": "https://zh.wikipedia.org/wiki/Special:Categories"
+    },
+    {
+      "text": "1982年出生",
+      "url": "https://zh.wikipedia.org/wiki/Category:1982%E5%B9%B4%E5%87%BA%E7%94%9F"
+    },
+    {
+      "text": "在世人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%A8%E4%B8%96%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "立法院第十一屆立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%AB%8B%E6%B3%95%E9%99%A2%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "沈姓",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%B2%88%E5%A7%93"
+    },
+    {
+      "text": "泉州裔臺灣人",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%B3%89%E5%B7%9E%E8%A3%94%E8%87%BA%E7%81%A3%E4%BA%BA"
+    },
+    {
+      "text": "臺北市私立復興實驗高級中學校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E5%8C%97%E5%B8%82%E7%A7%81%E7%AB%8B%E5%BE%A9%E8%88%88%E5%AF%A6%E9%A9%97%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "臺北市立建國高級中學校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E5%8C%97%E5%B8%82%E7%AB%8B%E5%BB%BA%E5%9C%8B%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B8%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "國立臺灣大學法律學院校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E6%B3%95%E5%BE%8B%E5%AD%B8%E9%99%A2%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "臺灣戰後時期留美學生",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E7%81%A3%E6%88%B0%E5%BE%8C%E6%99%82%E6%9C%9F%E7%95%99%E7%BE%8E%E5%AD%B8%E7%94%9F"
+    },
+    {
+      "text": "宾夕法尼亚大学法学院校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%AE%BE%E5%A4%95%E6%B3%95%E5%B0%BC%E4%BA%9A%E5%A4%A7%E5%AD%A6%E6%B3%95%E5%AD%A6%E9%99%A2%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "加州大學爾灣分校校友",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%B8%E7%88%BE%E7%81%A3%E5%88%86%E6%A0%A1%E6%A0%A1%E5%8F%8B"
+    },
+    {
+      "text": "台灣律師",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%8F%B0%E7%81%A3%E5%BE%8B%E5%B8%AB"
+    },
+    {
+      "text": "國立臺北大學教授",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E5%A4%A7%E5%AD%B8%E6%95%99%E6%8E%88"
+    },
+    {
+      "text": "臺灣刑法學家",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%BA%E7%81%A3%E5%88%91%E6%B3%95%E5%AD%B8%E5%AE%B6"
+    },
+    {
+      "text": "刑事政策學者",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%88%91%E4%BA%8B%E6%94%BF%E7%AD%96%E5%AD%B8%E8%80%85"
+    },
+    {
+      "text": "犯罪學家",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%8A%AF%E7%BD%AA%E5%AD%B8%E5%AE%B6"
+    },
+    {
+      "text": "資訊戰學者",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%B3%87%E8%A8%8A%E6%88%B0%E5%AD%B8%E8%80%85"
+    },
+    {
+      "text": "不當黨產處理委員會委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%B8%8D%E7%95%B6%E9%BB%A8%E7%94%A2%E8%99%95%E7%90%86%E5%A7%94%E5%93%A1%E6%9C%83%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "中央通訊社董事",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%B8%AD%E5%A4%AE%E9%80%9A%E8%A8%8A%E7%A4%BE%E8%91%A3%E4%BA%8B"
+    },
+    {
+      "text": "民主進步黨男性黨員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%94%B7%E6%80%A7%E9%BB%A8%E5%93%A1"
+    },
+    {
+      "text": "民主進步黨籍立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8%E7%B1%8D%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "台北市出身政治人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%8F%B0%E5%8C%97%E5%B8%82%E5%87%BA%E8%BA%AB%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "學者出身的政治人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%AD%B8%E8%80%85%E5%87%BA%E8%BA%AB%E7%9A%84%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "律師出身的台灣政治人物",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%BE%8B%E5%B8%AB%E5%87%BA%E8%BA%AB%E7%9A%84%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9"
+    },
+    {
+      "text": "中華民國不分區及僑選立法委員",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E4%B8%8D%E5%88%86%E5%8D%80%E5%8F%8A%E5%83%91%E9%81%B8%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1"
+    },
+    {
+      "text": "中共中央台湾工作办公室认定的“台独”顽固分子",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%8F%B0%E6%B9%BE%E5%B7%A5%E4%BD%9C%E5%8A%9E%E5%85%AC%E5%AE%A4%E8%AE%A4%E5%AE%9A%E7%9A%84%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E9%A1%BD%E5%9B%BA%E5%88%86%E5%AD%90"
+    },
+    {
+      "text": "因台湾问题而被中华人民共和国制裁的台湾人",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%9B%A0%E5%8F%B0%E6%B9%BE%E9%97%AE%E9%A2%98%E8%80%8C%E8%A2%AB%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%88%B6%E8%A3%81%E7%9A%84%E5%8F%B0%E6%B9%BE%E4%BA%BA"
+    },
+    {
+      "text": "被中华人民共和国政治通缉的台湾人",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%A2%AB%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%94%BF%E6%B2%BB%E9%80%9A%E7%BC%89%E7%9A%84%E5%8F%B0%E6%B9%BE%E4%BA%BA"
+    },
+    {
+      "text": "有蓝链却未移除内部链接助手模板的页面",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%9C%89%E8%93%9D%E9%93%BE%E5%8D%B4%E6%9C%AA%E7%A7%BB%E9%99%A4%E5%86%85%E9%83%A8%E9%93%BE%E6%8E%A5%E5%8A%A9%E6%89%8B%E6%A8%A1%E6%9D%BF%E7%9A%84%E9%A1%B5%E9%9D%A2"
+    },
+    {
+      "text": "CS1美国英语来源 (en-us)",
+      "url": "https://zh.wikipedia.org/wiki/Category:CS1%E7%BE%8E%E5%9B%BD%E8%8B%B1%E8%AF%AD%E6%9D%A5%E6%BA%90_(en-us)"
+    },
+    {
+      "text": "CS1德语来源 (de)",
+      "url": "https://zh.wikipedia.org/wiki/Category:CS1%E5%BE%B7%E8%AF%AD%E6%9D%A5%E6%BA%90_(de)"
+    },
+    {
+      "text": "避免破坏保护",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E9%81%BF%E5%85%8D%E7%A0%B4%E5%9D%8F%E4%BF%9D%E6%8A%A4"
+    },
+    {
+      "text": "准确性有争议的作品",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%87%86%E7%A1%AE%E6%80%A7%E6%9C%89%E4%BA%89%E8%AE%AE%E7%9A%84%E4%BD%9C%E5%93%81"
+    },
+    {
+      "text": "拒绝当选首页新条目推荐栏目的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E6%8B%92%E7%BB%9D%E5%BD%93%E9%80%89%E9%A6%96%E9%A1%B5%E6%96%B0%E6%9D%A1%E7%9B%AE%E6%8E%A8%E8%8D%90%E6%A0%8F%E7%9B%AE%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "可能带有原创研究的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%8F%AF%E8%83%BD%E5%B8%A6%E6%9C%89%E5%8E%9F%E5%88%9B%E7%A0%94%E7%A9%B6%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "含有多个问题的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%90%AB%E6%9C%89%E5%A4%9A%E4%B8%AA%E9%97%AE%E9%A2%98%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "含有英語的條目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE"
+    },
+    {
+      "text": "含有hCards的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%90%AB%E6%9C%89hCards%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "自2026年10月维基百科需要风格编辑的条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%AA2026%E5%B9%B410%E6%9C%88%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E9%9C%80%E8%A6%81%E9%A3%8E%E6%A0%BC%E7%BC%96%E8%BE%91%E7%9A%84%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "自2026年10月中立性有争议的作品",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%87%AA2026%E5%B9%B410%E6%9C%88%E4%B8%AD%E7%AB%8B%E6%80%A7%E6%9C%89%E4%BA%89%E8%AE%AE%E7%9A%84%E4%BD%9C%E5%93%81"
+    },
+    {
+      "text": "维基共享资源分类链接使用了维基数据上的匹配项",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E7%BB%B4%E5%9F%BA%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90%E5%88%86%E7%B1%BB%E9%93%BE%E6%8E%A5%E4%BD%BF%E7%94%A8%E4%BA%86%E7%BB%B4%E5%9F%BA%E6%95%B0%E6%8D%AE%E4%B8%8A%E7%9A%84%E5%8C%B9%E9%85%8D%E9%A1%B9"
+    },
+    {
+      "text": "與維基數據不同的Facebook ID",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E8%88%87%E7%B6%AD%E5%9F%BA%E6%95%B8%E6%93%9A%E4%B8%8D%E5%90%8C%E7%9A%84Facebook_ID"
+    },
+    {
+      "text": "含有內容需登入查看的頁面",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%90%AB%E6%9C%89%E5%85%A7%E5%AE%B9%E9%9C%80%E7%99%BB%E5%85%A5%E6%9F%A5%E7%9C%8B%E7%9A%84%E9%A0%81%E9%9D%A2"
+    },
+    {
+      "text": "包含Google Scholar标识符的维基百科条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%8C%85%E5%90%ABGoogle_Scholar%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "包含ORCID标识符的维基百科条目",
+      "url": "https://zh.wikipedia.org/wiki/Category:%E5%8C%85%E5%90%ABORCID%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE"
+    },
+    {
+      "text": "知识共享 署名-相同方式共享 4.0协议",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC"
+    },
+    {
+      "text": "使用条款",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use"
+    },
+    {
+      "text": "维基媒体基金会",
+      "url": "https://wikimediafoundation.org"
+    },
+    {
+      "text": "非营利慈善机构",
+      "url": "https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility"
+    },
+    {
+      "text": "隐私政策",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy"
+    },
+    {
+      "text": "关于维基百科",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E"
+    },
+    {
+      "text": "免责声明",
+      "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E"
+    },
+    {
+      "text": "法律与安全事项联系方式",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information"
+    },
+    {
+      "text": "行为准则",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct"
+    },
+    {
+      "text": "开发者",
+      "url": "https://developer.wikimedia.org"
+    },
+    {
+      "text": "统计",
+      "url": "https://stats.wikimedia.org/#/zh.wikipedia.org"
+    },
+    {
+      "text": "Cookie声明",
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement"
+    },
+    {
+      "text": "移动版视图",
+      "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E4%BC%AF%E6%B4%8B&mobileaction=toggle_view_mobile"
+    },
+    {
+      "text": "",
+      "url": "https://www.wikimedia.org/"
+    },
+    {
+      "text": "",
+      "url": "https://www.mediawiki.org/"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    },
+    {
+      "text": "添加话题",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B#"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/static/images/icons/wikipedia.png"
+    },
+    {
+      "alt": "维基百科",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-zh.svg"
+    },
+    {
+      "alt": "自由的百科全书",
+      "url": "https://zh.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-zh.svg"
+    },
+    {
+      "alt": "此条目已依據方針獲得半保護，因为曾经遭受破坏，直至2027年4月25日04時02分",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/System-search.svg/60px-System-search.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Puma_Shen_2024.jpg/250px-Puma_Shen_2024.jpg?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Puma_Shen_in_2024_Taiwan_general_election.jpg/250px-Puma_Shen_in_2024_Taiwan_general_election.jpg?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Emblem-scales.svg/40px-Emblem-scales.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "民主進步黨",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Green_Taiwan_with_White_Cross_%28cropped%29.svg/20px-Green_Taiwan_with_White_Cross_%28cropped%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg/20px-Elected_candidate_symbol_%28voting_stamp%2C_Taiwan%29.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/40px-Wikiquote-logo.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "需註冊",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/20px-Lock-gray-alt-2.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/11th_Legislative_Yuan.svg/120px-11th_Legislative_Yuan.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "編輯維基數據鏈接",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=zh.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    },
+    {
+      "alt": "",
+      "url": "https://zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+    },
+    {
+      "alt": "Wikimedia Foundation",
+      "url": "https://zh.wikipedia.org/static/images/footer/wikimedia.svg"
+    },
+    {
+      "alt": "Powered by MediaWiki",
+      "url": "https://zh.wikipedia.org/w/resources/assets/mediawiki_compact.svg"
+    }
+  ],
+  "og_image": [
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Puma_Shen_2024.jpg/960px-Puma_Shen_2024.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+  ],
+  "structured_data": [
+    "{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Article\",\"name\":\"\\u6c88\\u4f2f\\u6d0b\",\"url\":\"https:\\/\\/zh.wikipedia.org\\/wiki\\/%E6%B2%88%E4%BC%AF%E6%B4%8B\",\"sameAs\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q96156873\",\"mainEntity\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q96156873\",\"author\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u9879\\u76ee\\u8d21\\u732e\\u8005\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"\\u7ef4\\u57fa\\u5a92\\u4f53\\u57fa\\u91d1\\u4f1a\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.wikimedia.org\\/static\\/images\\/wmf-hor-googpub.png\"}},\"datePublished\":\"2020-06-02T20:16:07Z\",\"dateModified\":\"2026-11-10T07:52:28Z\",\"image\":\"https:\\/\\/upload.wikimedia.org\\/wikipedia\\/commons\\/3\\/36\\/Puma_Shen_2024.jpg?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=original\",\"headline\":\"\\u4e2d\\u83ef\\u6c11\\u570b\\u7acb\\u6cd5\\u59d4\\u54e1\"}"
+  ],
+  "final_url": "https://zh.wikipedia.org/wiki/%E6%B2%88%E4%BC%AF%E6%B4%8B",
+  "http_status": 200,
+  "full_visible_text": "沈伯洋 - 维基百科，自由的百科全书\n跳转到内容\n主菜单\n主菜单\n移至侧栏\n隐藏\n导航\n首页\n分类索引\n特色内容\n新闻动态\n随机条目\n联络我们\n关于维基百科\n贡献\n帮助\n维基社群\n编辑入门\n互助客栈\nIRC即时聊天\n最近更改\n特殊页面\n搜索\n搜索\n外观\n资助维基百科\n创建账号\n登录\n个人工具\n资助维基百科\n创建账号\n登录\n目录\n移至侧栏\n隐藏\n序言\n1\n早年生活\n开关早年生活子章节\n1.1\n成長及求學\n1.2\n学术生涯\n1.3\n公共參與\n2\n從政生涯\n开关從政生涯子章节\n2.1\n立法委員\n2.2\n參選台北市長\n3\n政治立场\n开关政治立场子章节\n3.1\n受中華人民共和國制裁\n4\n争议\n开关争议子章节\n4.1\n两岸交流\n4.2\n管制藥物議題\n5\n選舉紀錄\n6\n個人生活\n7\n主要著作\n开关主要著作子章节\n7.1\n學術論文\n7.2\n期刊論文\n7.3\n合著作品\n8\n參考資料\n9\n外部連結\n开关目录\n沈伯洋\n6种语言\nDeutsch\nEnglish\n日本語\n한국어\n閩南語 / Bân-lâm-gí\n粵語\n编辑链接\n条目\n讨论\n不转换\n不转换\n简体\n繁體\n大陆简体\n香港繁體\n澳門繁體\n大马简体\n新加坡简体\n臺灣正體\n阅读\n查看源代码\n查看历史\n保存\n工具\n工具\n移至侧栏\n隐藏\n操作\n阅读\n查看源代码\n查看历史\n保存\n常规\n链入页面\n相关更改\n上传文件\n固定链接\n页面信息\n引用此页\n获取短链接\n打印/导出\n下载为PDF\n打印页面\n在其他项目中\n维基共享资源\n维基语录\n维基数据项目\n外观\n移至侧栏\n隐藏\n维基百科，自由的百科全书\n本條目存在以下問題\n，請協助\n改善本條目\n或在\n討論頁\n針對議題發表看法。\n此条目\n內容\n疑欠准确\n，有待查證。\n請在\n讨论页\n討論問題所在及加以改善，若此條目仍有爭議及\n准确度\n欠佳，會被提出\n存廢討論\n。\n此条目\n可能包含\n原创研究\n。\n请协助補充参考资料、添加\n相关内联标签\n和删除原创研究内容以\n改善这篇条目\n。详细情况请参见\n讨论页\n。\n沈伯洋\n2024年立法院官方肖像照\n第11屆\n中華民國立法委員\n现任\n就任日期\n2024年2月1日\n选区\n全國不分區及僑居國外國民立法委員選舉區\n个人资料\n别名\n撲馬（\nPuma\n）\n出生\n(\n1982-06-07\n)\n1982年6月7日\n（\n44歲）\n中華民國\n臺北市\n政党\n民主進步黨\n配偶\n曾心慧\n儿女\n1養女\n[\n1\n]\n[\n註 1\n]\n父母\n父：沈土城\n母校\n臺北市私立復興中小學\n（附幼、國小、國中）\n臺北市立建國高級中學\n國立臺灣大學法律學院\n（LLB、碩士）\n賓州大學法學院\n（LLM）\n加州大學爾灣分校\n（PhD）\n职业\n法律學者\n倡議者\n政治人物\n经历\n不當黨產處理委員會\n委員\n（2018年－2020年）\n台灣人權促進會\n副會長\n（2020年－2022年）\n台灣民主實驗室\n理事長\n經濟民主連合\n理事\n[\n2\n]\n立法委員（第11屆）\n（2024年2月1日－）\n立法院外交及國防委員會\n召集委員\n學術工作\n學科\n犯罪學\n與\n法律社会学\n副學科\n刑罰學\n研究機構\n國立臺北大學社會科學學院\n主要領域\n白領犯罪\n、\n刑法\n、\n刑事政策\n、\n資訊戰\n、\n認知作戰\n沈伯洋\n（1982年6月7日—），\n中華民國\n政治人物\n、\n法律學家\n暨\n犯罪學家\n、\n律師\n，\n民主進步黨\n籍，現任\n立法委員\n、\n國立臺北大學\n犯罪學研究所副教授，曾任臺北大學犯罪學研究所所長、\n不當黨產處理委員會\n兼任委員、\n台灣人權促進會\n副會長、\n經濟民主連合\n理事、\n中央通訊社\n董事。主要關注議題為\n國防\n、\n資安\n、\n人權\n、\n兒少\n福利、\n收養\n制度等。\n沈伯洋2004年自\n臺大法律系\n畢業，以榜首錄取臺大法研所刑事法組，後考取律師；同時以「撲馬」（Puma）為名於補習班教授\n刑法\n。2007年，取得\n賓州大學\n法學碩士及臺大法研所碩士；其後考取公費留學，並於退伍後赴美攻讀博士\n[\n3\n]\n。2017年，取得\n加州大學爾灣分校\n犯罪學\n與\n法律社会学\n博士學位，研究專長在\n社會生態\n、\n白領犯罪\n、\n刑事政策\n等領域\n[\n4\n]\n。返台後任教於\n國立臺北大學\n犯罪學\n研究所，並開始研究\n中華人民共和國\n對台\n信息戰\n及\n認知作戰\n。\n[\n5\n]\n2019年，沈伯洋創辦\n台灣民主實驗室\n並擔任理事長；2021年，創辦全民防衛教育機構\n黑熊學院\n並擔任院長\n[\n6\n]\n。\n沈於2023年投身選舉政治，並在2024年台灣\n立法委員選舉\n中，透過列入民進黨\n全國不分區立法委員名單第2名\n當選為立法委員。2024年10月，中國政府因沈被指\n支持「台獨」\n而對其施加制裁。2026年5月，民進黨提名沈參選\n臺北市長選舉\n，挑戰尋求連任的\n蔣萬安\n。\n早年生活\n成長及求學\n1982年，出生於\n臺北市\n，祖先為清朝乾隆年間由福建渡海來臺北開墾的「\n五分埔\n」五大家族中沈氏之後代\n[\n註 2\n]\n；日治時代，其曾祖父曾被推舉擔任五分埔里長\n[\n7\n]\n[\n8\n]\n。幼時跟著生母在台中生活，因長期受\n蕁麻疹\n、\n氣喘\n所苦，生母為醫療資源讓其回到台北的父親身邊，6歲時父母離婚\n[\n9\n]\n[\n10\n]\n。父親沈土城從事工商業，長期於\n厄瓜多\n經商\n[\n11\n]\n。沈伯洋就學於復興幼兒園、復興小學、\n復興國中\n、\n建國中學\n[\n12\n]\n。在校期間，他曾擔任「鄉土文化研究社」的社長。\n[\n13\n]\n2000年，沈伯洋進入臺灣大學法律系，就讀期間受到\n李茂生\n教授的深刻影響，除了開始關注犯罪與刑罰，因李茂生經常帶學生參訪少年監獄、\n矯正學校\n，並為「非行少年」提供課後輔導，這些經歷成為沈伯洋日後收養孩子的契機\n[\n5\n]\n[\n14\n]\n。2004年以第一名錄取台大法研所刑法組；為籌措留學經費，沈伯洋以「撲馬」（Puma）的別名到補習班講授刑法\n[\n4\n]\n。2005年11月考取中華民國律師資格\n[\n15\n]\n。2007年，取得\n宾夕法尼亚大学\n法學碩士學位\n[\n16\n]\n[\n註 3\n]\n；回台後取得臺大法律研究所碩士學位\n[\n5\n]\n[\n17\n]\n。\n2009年，沈伯洋考取教育部公費留學刑事法學組，為該年度該組唯一錄取者；隨後申請外語專長\n替代役\n，服役協助觀光相關業務\n[\n4\n]\n[\n18\n]\n。2011年，退役後前往美國\n加州大學爾灣分校\n社會生態學院\n（\n英语\n：\nUniversity of California, Irvine School of Social Ecology\n）\n就讀「犯罪與法律社會學」博士班，\n[\n19\n]\n研究內容包含\n都市設計\n、\n社會心理\n、環境心理、法律及犯罪等，博士論文專研美中白領犯罪比較的研究\n[\n5\n]\n[\n20\n]\n。2013年，參與\n洪仲丘事件\n義務律師團並上媒體說明；2014年，聲援\n太陽花運動\n並協助網路資訊整理及擴散\n[\n21\n]\n[\n22\n]\n。2017年，取得加州大學爾灣分校「犯罪與法律社會學」博士學位\n[\n23\n]\n，並獲得\n北卡罗来纳州立大学\n及另外一所私立大學的終身教職邀約，歷經長考後選擇返臺\n[\n4\n]\n[\n12\n]\n。\n学术生涯\n2017年，沈伯洋回臺後，受聘為\n國立臺北大學\n社會科學學院犯罪學研究所助理教授。他在學術領域主要關注的是刑法、法律社會學、刑事政策及白領犯罪等課題。\n[\n24\n]\n自2018年起，沈伯洋開始研究中華人民共和國試圖\n統一臺灣\n的行為，尤其是\n資訊戰\n。\n[\n25\n]\n他也不時地就資訊戰與\n假新聞\n議題接受訪問。\n[\n26\n]\n後來，研究拓展到\n認知作戰\n。2019年間，為了讓\n中華人民共和國政府\n透過臺灣當地人士進行的促進統一行為能夠透明化，沈伯洋與民進黨立委合作推動「代理人法案」。\n[\n25\n]\n此外，沈伯洋也推動與世界各國合作，防禦來自中華人民共和國的不利行為，他因此發展能呈現一地被\n中國共產黨\n影響深淺的「中共滲透指數」。\n[\n25\n]\n2023年間，獲選為\n世界民主運動\n（\n英语\n：\nWorld Movement for Democracy\n）\n委員。\n[\n27\n]\n2023年間，沈伯洋升等為副教授，並自2023年8月起擔任犯罪學研究所所長。\n[\n28\n]\n公共參與\n2018年10月，沈伯洋接受\n不當黨產處理委員會\n主任委員\n林峯正\n的邀請而兼任黨產會委員。\n[\n29\n]\n[\n30\n]\n2020年8月30日任期屆滿後，因為教學與研究事務繁忙，婉拒續任。\n[\n31\n]\n2019年，沈伯洋參與創辦台灣民主實驗室（Doublethink Lab），並出任創會理事長。\n[\n32\n]\n該組織於同年完成法人登記，沈伯洋為首任理事長及法人代表。\n[\n33\n]\n2020年，沈伯洋以\n台灣人權促進會\n副會長身分擔任\n國家通訊傳播委員會\n中天新聞台\n換照聽證會的7名鑑定人之一，並主筆台灣人權促進會提交的鑑定意見書。該意見書認為中天新聞台在多元觀點、事實查核及內部控制等方面存在問題，最終建議NCC不予換照。\n[\n34\n]\n[\n35\n]\n2020年代初期，沈伯洋與戰略學者\n何澄輝\n一同發起「\n黑熊學院\n」，希望針對臺灣一般民眾推廣\n全民防衛\n教育，培養抗敵意識、訓練民眾戰時的基本自衛能力，包含避難、急救等等，甚至投入\n公開情報蒐集\n，協助國軍作戰，獲前\n聯電\n董事長\n曹興誠\n贊助新台幣6億元。\n[\n36\n]\n[\n37\n]\n從政生涯\n立法委員\n2024年，沈伯洋於總統大選中演講。\n2023年11月，沈伯洋獲\n民主進步黨\n列入\n2024年立法委員選舉\n的\n不分區立委\n名單，排行第二順位並當選。\n[\n38\n]\n2024年就任立法委員後，沈伯洋主要推動國家安全及兩岸交流相關法案。同年4月，他領銜提出《\n臺灣地區與大陸地區人民關係條例\n》第9條及第91條修正草案，主張將立法委員、直轄市議員及縣市議員納入國安管制人員範圍，赴中國大陸應受到一定限制，並要求相關人員與中國大陸、香港及澳門特定對象接觸時申報往來情形及內容。\n[\n39\n]\n該案在立法院內被中國國民黨杯葛，與其類似的修正案合計杯葛上千次。\n[\n40\n]\n沈伯洋亦領銜提出《\n國家安全法\n》第3條、第8條及第18條修正草案，以強化對國家核心關鍵技術及營業秘密的保護，並將受境外敵對勢力指示、委託或資助後，再轉而指示、委託或資助他人從事危害國家安全行為的「中間人」納入規範。\n[\n41\n]\n[\n42\n]\n2024年5月17日，立法院就\n國會改革法案\n作二讀。期間，中國國民黨籍立法委員在主席台簇擁，并以人墻封堵主席台旁的側門，以保障院長\n韓國瑜\n主持會議。沈伯洋、\n郭國文\n、\n邱志偉\n等3名民進黨立委試圖取道側門進去主席台，根據立法院監視器畫面，沈伯洋是在同黨立委\n王定宇\n慫恿下，爬到立委的身上並翻過人牆，以在人群上方爬行方式闖入\n[\n43\n]\n[\n44\n]\n。國民黨立委\n廖偉翔\n在推擠時，數度出拳搥打，接著國民黨立委\n邱鎮軍\n將沈伯洋向外甩出，導致沈從高處疑似頭部著地\n[\n45\n]\n[\n46\n]\n，經緊急送醫以MRI檢查，有輕微腦震盪及肩膀挫傷。\n[\n47\n]\n台北大學6教授對此發起連署，譴責國會暴力。\n[\n48\n]\n2025年3月，民進黨立法院黨團提出涵蓋《反滲透法》、《兩岸人民關係條例》、《香港澳門關係條例》、《國籍法》、《通訊保障及監察法》、《國家安全法》、《國家情報工作法》、《資通安全管理法》、《陸海空軍刑法》及《刑法》等10項國安修法方向。時任立法院外交及國防委員會召集委員的沈伯洋表示，相關修法主要從精準處理不同風險身分、提高資訊透明度及風險管理等方向補強國安法制。\n[\n49\n]\n2025年4月17日，沈伯洋表示收到針對其家人的恐嚇信，寄件者要求他辭去立法委員並退出政壇，否則將傷害其妻女；信中揚言要「幹掉我老婆」，並使其女兒成為「第二個\n小燈泡\n」。沈伯洋稱，此前雖曾多次收到威脅訊息，但這是首次直接以家人生命安全相威脅。民進黨其後譴責相關行為並表示將提供法律協助；內政部長\n劉世芳\n則表示，警方將依法調查，立法委員如有安全需求亦可申請隨扈。\n[\n50\n]\n[\n51\n]\n警方其後追查恐嚇訊息的網路來源。沈伯洋於2025年11月表示，案件已追查至日本的IP跳板，日本警方亦協助調查。\n[\n52\n]\n截至2026年10月，沈伯洋表示，警方曾循線追查至巴西及日本的網路跳板，但仍未能查明實際發送恐嚇訊息者。\n[\n53\n]\n2025年9月，沈伯洋公開表示自己長期遭人跟蹤，並曾在住家門口發現偽裝成機車零件的針孔攝影設備，因而向\n臺北市警局大安分局\n報案。\n[\n54\n]\n次月，\n臺北地方檢察署\n偵查後指出，\n香港\n人士鞠覺賢、林慶於2024年9月以約新臺幣36萬元委託徵信業者鄭永津跟監沈伯洋。鄭永津其後將工作轉包予其他徵信業者，相關人員除駕車跟監外，亦在沈伯洋住家附近的機車上安裝微型攝影機，自同年10月1日至11月8日持續拍攝沈伯洋及其妻女進出住所的情形，並將影像經通訊軟體傳送予委託人。\n[\n55\n]\n此後，臺北地檢署依違反《\n個人資料保護法\n》起訴鄭永津、謝乙辰、江文鑫及侯凱瀚等4人，並對鄭永津求刑1年6月；鞠覺賢、林慶因已離境而遭發布通緝。檢方在起訴理由中表示，相關監控所得的個人資料若流向\n境外敵對勢力\n，可能對當事人造成潛在安全威脅，並認為鄭永津收受境外人士高額報酬從事監控的行為應予嚴懲。\n[\n56\n]\n沈伯洋回應稱，自己在從政以前便曾遭中國方面針對，並認為類似情況「應該不只我個人」，表示將加強自身及家人的安全維護。\n[\n57\n]\n2025年\n大罢免\n運動期間，沈伯洋是\n民進黨\n方的核心代表人物之一，多次公開支持罷免國民黨立法委員。2025年2月，沈伯洋已经主张应该协助罢团。\n[\n58\n]\n4月參與花蓮罷免国民党总召\n傅崐萁\n的連署活動時，他將花蓮形容為大罷免的重要選區，並主張當地選民可透過罷免重新決定其政治代表。\n[\n59\n]\n6月，他與反共護台志工聯盟創辦人\n曹興誠\n會見兼任民進黨主席的總統\n賴清德\n，表示自己是公民罷團與民進黨之間的溝通橋梁之一，並稱罷團雖保持自主性，但希望與民進黨協調活動與資源，避免力量分散。\n[\n60\n]\n首波罷免投票前夕，沈伯洋持續參與催票及造勢活動，呼籲選民投下同意罷免票。\n[\n61\n]\n7月26日首波24名國民黨立委罷免案全部未通過後，沈伯洋表示罷團不應為結果負責，政治人物及協助罷免的民進黨才應接受檢討；他稱自己負責協調罷團、民進黨中央與相關聯盟，但對罷團需求及地方政治掌握不足，表示「這一點，錯在我」，並認為民進黨在說服及動員支持者方面仍有不足。\n[\n62\n]\n[\n63\n]\n參選台北市長\n参见：\n2026年臺北市市長選舉\n、\n洋流 (政治)\n、\n市長，你給我聽好了\n和\n政策島\n2026年5月13日，\n民主進步黨\n選舉對策委員會建議徵召沈伯洋參選\n臺北市市長\n，當日下午經中執會通過提名，由黨主席\n賴清德\n宣布徵召，挑戰尋求連任的中國國民黨籍市長\n蔣萬安\n。\n[\n64\n]\n[\n65\n]\n沈伯洋在獲提名時表示，臺北市面臨人口流失、交通、環境衛生、食品安全及托育等問題，並將城市治理與長期規劃作為競選主軸。\n[\n66\n]\n競選期間，沈伯洋以「HEART」作為五大政策主軸，涵蓋交通、育兒、長期照顧、青年發展及城市治理。\n[\n67\n]\n其中交通政策包括建立通學區共同標準、公車安全改革、擴充自行車通勤路網，以及將共享電動機車納入TPASS等方案；\n[\n68\n]\n青年政策則提出城市青年基金、青年人工智慧使用支持方案及青年圓夢基金等措施。\n[\n69\n]\n此外，他亦提出在關渡規劃國際級足球場、於花博地區興建大型市民運動中心等運動政策。\n[\n70\n]\n在教育政策方面，沈伯洋主張從教師減壓、親師關係、幼兒教育及特殊教育等面向進行改革，包括在學生人數下降時維持教師人力、增加正式教師員額及減少教師行政負擔。\n[\n71\n]\n2026年10月，沈伯洋與尋求連任的臺北市長蔣萬安陣營協商電視辯論安排，雙方確定於10月31日舉行首場辯論，內容包括交互詰問及媒體提問。\n[\n72\n]\n2026年10月20日，沈伯洋接受媒體專訪時表示，希望成為「全民市長」，並稱其政見不分藍綠，主張爭取不同政黨傾向選民的支持。\n[\n73\n]\n針對\n松山機場\n遷建議題，沈伯洋表示，應一併考量國防、國安、醫療後送及救災等配套，並指出相關替代方案仍需充分討論。\n[\n74\n]\n政治立场\n沈伯洋主張臺灣為主權\n獨立國家\n，认为这就是現狀。\n[\n75\n]\n沈伯洋長期研究中华人民共和国對臺\n認知作戰\n及資訊操弄，認為其透過資訊戰、兩岸交流等方式影響臺灣社會，並主張提升臺灣社會的抵抗意志及辨識資訊操弄的能力。\n[\n76\n]\n在國防與民防方面，他主張強化全民防衛韌性，認為民防並非要求全民持武器作戰，而是讓民眾具備避難、救護、災害應變及後勤支援等能力，以在危機或戰爭期間維持社會運作。\n[\n77\n]\n沈伯洋長期參與人權及民主倡議，曾任台灣人權促進會執行委員及台灣民主實驗室理事長。\n[\n78\n]\n沈伯洋認為假訊息的威力很強大且在不同領域都會存在，在長期\n洗腦\n之下最可怕的是讓你自己得出結論，而不是人家告訴你結論。\n[\n26\n]\n他曾經多次指，\n中國共產黨\n及香港親\n建制派\n都不時在發佈\n假消息\n，甚至是進行\n資訊戰\n。\n[\n79\n]\n他也指出，\n中國共產黨\n發起的資訊戰共有5條線路，分別為\n國安部\n、\n中共中央統戰部\n、\n中共中央台辦\n、\n解放軍\n以及\n共青團\n。\n[\n80\n]\n沈伯洋認為抖音和微博會是容易散發假消息的平台，會是國安最大威脅。\n[\n81\n]\n受中華人民共和國制裁\n2024年10月14日，\n中共中央台灣工作辦公室\n將沈伯洋列為\n「台獨」頑固分子\n。\n[\n82\n]\n[\n83\n]\n2025年3月，再被列為\n「台獨」打手幫凶\n，是三位（另兩位為劉世芳、\n曹興誠\n）重複上榜人士之一。\n2025年10月28日，中华人民共和国\n重慶市公安局\n發布警情通報，指沈伯洋透過台獨分裂組織「\n黑熊學院\n」從事\n分裂國家\n犯罪活動，根據《中華人民共和國刑法》和《\n关于依法惩治“台独”顽固分子分裂国家、煽动分裂国家犯罪的意见\n》，對其涉嫌分裂國家犯罪立案偵查，依法追究其刑事責任。\n[\n84\n]\n[\n85\n]\n11月9日，\n中國中央電視台\n發布以沈伯洋為主題的影片，其中引述中國人民大學法學院教授程雷的說法，稱可利用\n國際刑警組織\n红色通报\n等方式在全球範圍對沈伯洋進行抓捕。沈伯洋回應稱，此舉具有對內宣傳及心理戰目的，並表示不會因此停止國會外交活動。\n[\n86\n]\n同月12日，沈伯洋赴\n德國聯邦議院\n人權與人道援助委員會，出席以威權國家散播假資訊、削弱民主及威脅人權為題的公開聽證會，並以臺灣\n立法委員\n身分擔任專家證人。他表示，中华人民共和国方面的追緝威脅不會使其停止出國活動，並稱此次赴德也是為自由與民主發聲。\n[\n87\n]\n[\n88\n]\n為確保沈伯洋訪德之人身安全，國安單位與\n正值訪歐的蔡英文\n合作，讓沈於蔡英文訪團包下的飯店專區下榻。\n[\n89\n]\n國際刑警組織則回應中央社詢問表示，紅色通報申請須經該組織審查，且依其章程不得介入具有政治、軍事、宗教或種族性質的活動。\n美國國務院\n同日亦對中华人民共和國對沈伯洋立案偵查及相關追捕言論表示關切，認為此舉威脅\n言論自由\n，並破壞維持臺海現狀的既有規範。\n[\n90\n]\n[\n91\n]\n争议\n此章節\n包含過多僅特定讀者會感興趣的\n過度細節內容\n。\n(\n2026年10月\n)\n請重新\n整理\n本章節以切合主題，並移除与\n維基百科內容方針\n相悖的過度細節內容。詳情請參見\n討論頁\n。\n此章节之\n中立性\n有争议\n。其內容、語調可能\n帶有明顯的個人觀點或\n地方色彩\n。\n相关讨论可见于\n讨论页\n。\n(\n2026年10月11日\n)\n加上此模板的編輯者需在\n討論頁\n說明此文中立性有爭議的原因，以便讓各編輯者討論和改善。在編輯之前請務必察看讨论页。\n两岸交流\n2024年11月，桌球選手\n馬龍\n等來自中國大陸大專院校的師生訪問臺灣，引發訪團成員具有\n中國共產黨\n黨員身分及統戰疑慮的討論。沈伯洋受訪時表示，「對他們（中國）來講所有的交流都是統戰的一部分」，並稱「中國可能透過交流刺探機密、吸收對中共有好感者或尋找統戰樣板」，提醒臺灣民眾「應注意相關風險」。\n[\n92\n]\n[\n93\n]\n相關發言其後被\n中國國民黨\n等政治人物概括為沈伯洋主張「兩岸交流全部都是統戰」，並用以批評其兩岸政策。2024年12月，國民黨立法委員\n羅智強\n於立法院質詢時稱沈伯洋希望兩岸不要交流；沈伯洋當場反駁，表示其原意是「對臺灣而言，我們想要做交流，但是對中國而言，他們都要用這個交流當作統戰」，因此主張對交流可能產生的國安風險進行管理，而非反對所有兩岸交流。\n[\n94\n]\n2025年6月5日，香港亲中共媒体《\n大公報\n》披露，沈伯洋父親沈土城名下的台灣兆億有限公司與中國大陆企業有生意往來，自2008年起與從中國大陆各省購買商品，再轉手賣往厄瓜多等國，交易金額達上億元人民幣，令人质疑与沈伯洋反中共立场相悖\n[\n95\n]\n。國民黨再引用其「所有交流都是統戰的一部分」言論，質疑其對自身家人與一般兩岸交流採取不同標準；沈伯洋則表示，赴中國本身存在不同程度的風險，應依接觸對象及身分進行風險管理，並反駁將正常國際貿易直接等同遭統戰的說法。\n[\n96\n]\n隨後，\n中共中央臺辦\n宣布懲戒其父名下的公司，禁止其与中国大陆企业或个人交易\n[\n97\n]\n。沈伯洋稱其父生意主要於中南美洲，中华人民共和国只是進口國其一。\n[\n65\n]\n2026年10月14日，中国国台办再宣布制裁沈伯洋父亲沈土城的另一家公司VWAY\n[\n98\n]\n。据香港另一家亲中共媒体《\n文汇报\n》报道，沈土城名下的“兆亿有限公司”被国台办制裁后，沈土城转用名下另一家叫VWAY公司绕过制裁，继续与中国企业进行贸易往来与业务合作\n[\n99\n]\n。\n2026年參選臺北市市長期間，沈伯洋多次談及臺北、上海\n雙城論壇\n。4月受訪時，他表示現行雙城論壇「不但不必要，很多時候都是造成滲透的破口」，並主張以面向東京、紐約、巴黎等國際城市的交流平台取代（“无限城论坛”）。\n[\n100\n]\n獲民進黨提名後，他進一步表示，是否續辦雙城論壇應視其實際效益而定，若缺乏具體成果則沒有舉辦必要。\n[\n101\n]\n同年6月，沈伯洋表示並不反對與中國\n（\n原文如此\n）\n城市交流，但主張「臺北作為首都」，若進行正式城市交流應採取「首都對首都」原則，「與北京進行對等交流」；他同時強調，交流涉及資訊及國安風險，應建立相應的安全控管機制。\n[\n102\n]\n9月，他將兩岸城市交流的條件概括為不附帶政治前提、具有實際效益及市民參與，並表示若能符合相關條件，並無必要全面排斥交流。\n[\n103\n]\n10月受訪時，沈伯洋表示若雙城論壇「沒有政治前提」即可參加，並稱風險管理不代表拒絕與中國大陸對話。\n[\n104\n]\n蔣萬安及國民黨人士因此再次引用其過去言論(即「對他們（中國）來講所有的交流都是統戰的一部分」），質疑其立場前後不一。\n[\n105\n]\n沈伯洋則表示，其立場並未改變，過去所稱的是中國政府會將交流納入統戰工作，而非主張「臺灣不應與中國交流」；同年9月，他再次表示自己已針對相關說法澄清近兩年，並稱「國人赴中國交流仍應注意統戰及國安風險」。\n[\n106\n]\n管制藥物議題\n2014年8月20日，沈伯洋在Facebook分享一篇討論大麻的文章，並從毒品的階級、族群及執法等面向評論大麻管制，稱「大麻背後真正的問題其實是需要用合法化解決的」，並認為僅從成癮性及犯罪性討論無法處理根本問題\n[\n107\n]\n。2014年9月1日，沈伯洋以筆名「撲馬」在《想想論壇》撰文討論並列出了三种毒品政策，其中A為毒品非法化；B為毒品除罪化，協助有毒癮者，並管制毒品；C則是找出吸毒的社會原因並減少動機，並在結論採用C方案\n[\n108\n]\n[\n109\n]\n。\n2026年臺北市長選舉期間，臺北市長蔣萬安質疑沈伯洋模糊毒品與一般藥物的界線，並要求其說明所稱社區中心將設於何處、提供何種毒品；蔣萬安亦表示，美沙冬治療與針具交換等現行措施不能用來回應上述主張，並表態反對毒品除罪化\n[\n110\n]\n[\n111\n]\n。沈伯洋則反駁，針具交換及\n美沙冬\n治療均屬既有的毒品防治措施，並指出臺北市即曾率先實施相關政策；對於國民黨將其立場描述為主張由社區中心向吸毒者發放毒品，他稱此說法為造謠，表示自己討論的是毒品減害，並非鼓勵吸毒\n[\n112\n]\n；並於媒體專訪中明確表示其文章所支持的是C方案而非B方案\n[\n113\n]\n。10月6日，沈伯洋表示其一貫立場是「不主張毒品除罪化」，並稱此前與學生進行的研究所得結論也是「臺灣不適合大麻除罪化」。\n[\n114\n]\n沈伯洋回應表示自身毒品立場沒有改變，批評對手為了選舉將減害政策扭曲為鼓勵吸毒。\n[\n115\n]\n[\n116\n]\n疾病管制署\n長\n羅一鈞\n發文說明減害政策之公衛成效，指出台大公衛學院研究顯示，清潔針具與美沙冬替代療法在2005至2020年間預防超過1.3萬名靜脈藥癮者感染愛滋病毒，具備高度成本效益。\n[\n115\n]\n選舉紀錄\n年度\n選舉屆數\n選舉區\n所屬政黨\n得票數\n得票率\n當選標記\n備註\n2024\n第11屆立法委員選舉\n全國不分區及僑居國外國民立法委員選舉區\n民主進步黨\n4,982,062\n36.16%\n2026\n第9屆臺北市長選舉\n臺北市\n個人生活\n沈伯洋喜愛運動，擅長\n籃球\n、\n桌球\n和\n匹克球\n。\n[\n117\n]\n沈伯洋喜愛的歌手是\n安室奈美惠\n。\n[\n118\n]\n欣賞的人物是《神鵰俠侶》中的\n楊過\n。\n[\n119\n]\n喜愛動畫及漫畫，最愛的作品是《\n新世紀福音戰士\n》，因而使用了《\n福音戰士新劇場版\n》系列作之名稱為其著作《撲馬老師開講-刑法總則-破》及《撲馬老師開講-刑法分則-Q》命名。\n[\n118\n]\n沈伯洋的妻子曾心慧是一位律師，同時也在補習班以「千尋」為筆名教授\n民法\n[\n120\n]\n。在沈伯洋創立黑熊學院後，她擔任黑熊學院公司\n法人\n（黑熊社會企業有限公司）董事長至2024年3月卸任\n[\n121\n]\n[\n122\n]\n[\n123\n]\n這對夫婦沒有親生子女，但在2021年透過\n勵馨基金會\n收養\n了一名暱稱「\n麻糬\n」的女孩。\n[\n1\n]\n[\n14\n]\n主要著作\n學術論文\n國立臺灣大學\n碩士\n論文：《犯罪中女性主體的形塑－個人與法律選擇》，沈伯洋（2008）。\n[\n124\n]\nUC Irvine的博士論文：\"Local Ideologies and Punishment for White-collar Crime: A Comparison Between the U.S. and China\",  Shen (2017).\n[\n125\n]\n期刊論文\n林詩韻、黃聿斐、沈伯洋（2020），受監護處分男性精神疾病犯罪者再犯分析。刑事政策與犯罪防治研究專刊，25，183-243。\nhttps://doi.org/10.6460/CPCP.202008_(25).05\nLee, M. & Shen, P.﹐Recent Trends in School Social Control in Japan﹐Handbook of School Security, Surveillance, and Punishment﹐2017.\nPuma Shen﹐Reforming the Appeals System﹐Judicial Reform in Taiwan: Institutionalizing Democracy and the Diffusion of Law﹐2015.\nGhazi-Tehrani, A., Pushkarna, N., Shen, P., Geis, G., & Pontell, H.N. ﹐White-Collar and Corporate Crime in China: A Comparative Analysis of Enforcement Capacity and Non-Issue Making﹐Crime, Law and Social Change﹐ Vol.60 No.3 ﹐2013﹐ PP.241~260. (SSCI).\nPuma Shen﹐\"The Rise and Fall of 'Citizen 1985' \"﹐Journal of Judicial Reform﹐第98卷﹐2013﹐第34~36頁。\n沈伯洋，1985的成與敗，司法改革雜誌，第九十八期，頁32-36。\n沈伯洋，犯罪中女性主體形塑，犯罪與刑事司法研究，第十五期，頁117-173。\n合著作品\n洪浩唐、沈伯洋等：《戰狼來了：關西機場事件的假新聞、資訊戰》（台北：新自然主義，2021）\n王立、沈伯洋（協助撰寫第三部）：《阿共打來怎麼辦：你以為知道但實際一無所知的台海軍事常識》（台北：大塊文化，2021）\n吳銘軒、台灣民主實驗室、沈伯洋：《\n打台灣不如騙台灣\n：中國對台灣認知作戰的Q&A》（台北：大塊文化，2024）\n撲馬、傑米 ：《撲馬老師開講-刑法總則-破》（志光教育保成數位出版，2022）\n撲馬、傑米 ：《撲馬老師開講-刑法分則-Q》（志光教育保成數位出版，2022）\n參考資料\n註腳\n^\n於2021年7月與配偶透過勵馨基金會收養1女。\n^\n沈伯洋敘述其曾祖父母為五大家族其中兩家聯姻，因而有其家族有五分中的兩分之談。\n^\n沈伯洋於賓州大學凱里法學院和\n蘇巧慧\n同樣為\n戴杰\n的學生，兩人也因此相識。\n參照\n^\n1.0\n1.1\n張若瑤. 張芷瑄 , 编.\n收養一歲娃 沈伯洋：接住他們未來不一樣\n. 台北. 中央社 CNA. 2021-10-01\n[\n2024-11-05\n]\n. （\n原始内容\n存档于2021-10-01）\n（中文（臺灣））\n.\n^\n法人登記資料\n. 司法院全球資訊網. 2023-09-07\n[\n2024-05-02\n]\n. （\n原始内容\n存档于2025-01-20）.\n^\n鏡文學.\n沈伯洋鏡文學專訪1／學霸沈伯洋曾想「把老師教的全學會」 李茂生一句話點醒他\n. 鏡週刊 Mirror Media. 2026-09-07\n[\n2026-10-11\n]\n（中文（繁體））\n.\n^\n4.0\n4.1\n4.2\n4.3\n鏡文學.\n沈伯洋鏡文學專訪2／只叫AI「幫我摘要」就完蛋！ 沈伯洋：閱讀不足恐讓知識階級差距更大\n. 鏡週刊 Mirror Media. 2026-09-07\n[\n2026-10-11\n]\n（中文（繁體））\n.\n^\n5.0\n5.1\n5.2\n5.3\n走出暗黝森林──《鏡文學》專訪沈伯洋談閱讀、陪伴與文化\n. 鏡週刊 Mirror Media. 2026-09-09\n[\n2026-10-08\n]\n（中文（繁體））\n.\n^\n蘇芳禾、鄭鴻達.\n沈伯洋專訪／「一場60分挫敗」看到另一種人生！從楊過到黑熊…滿是標籤不按慣例走，如何踏上政治最前線- 今周刊\n. www.businesstoday.com.tw. 2026-08-31\n[\n2026-10-08\n]\n（中文（臺灣））\n.\n^\n中時新聞網.\n在地身分加分？沈伯洋搬家族史自曝「五分埔大戶」後代 - 政治\n. 中時新聞網. 2026-04-11\n[\n2026-10-11\n]\n（中文（臺灣））\n.\n^\n東森新聞.\n比蔣家「正港」？ 沈：我家「乾隆年間」占五分埔「二分」｜東森新聞\n. 東森新聞. 2026-04-10\n[\n2026-10-11\n]\n（中文（臺灣））\n.\n^\n沈伯洋談父母離異的成長經驗：有人愛才是最重要的！「如果沒有，要有其他的愛去填補」\n. 放言Fount Media.\n[\n2026-10-11\n]\n.\n^\n中央通訊社.\n收養一歲娃 沈伯洋：接住他們未來不一樣 | 文化\n. 中央社 CNA. 2021-10-01\n[\n2026-10-11\n]\n（中文（臺灣））\n.\n^\n民間全民電視公司.\n被質疑父親在中國經商！沈伯洋怒批：真的很惡劣\n. 民視新聞網. 2026-05-13\n[\n2026-10-11\n]\n（中文（繁體））\n.\n^\n12.0\n12.1\n簡竹書.\n這裡的犯罪不流血 犯罪學者沈伯洋\n. 鏡週刊 Mirror Media. 2019-04-30\n[\n2022-10-13\n]\n. （原始内容\n存档\n于2022-10-14）.\n^\nSu, Fang-ho; Cheng, Hung-ta.\nPuma Shen interview: From a score of 60 to the political front lines\n. Business Today. 2026-08-31\n（中文（臺灣））\n.\n^\n14.0\n14.1\n余玫鈴.\n從接觸「非行少年」萌生收養念頭：教授沈伯洋：想要成為父母，不一定要自己生，沒有血緣也可以很相愛！\n. 未來Family未來親子學習平台. 2023-11-10\n[\n2023-11-19\n]\n. （原始内容\n存档\n于2023-11-19）\n（中文（臺灣））\n.\n^\n94年專門職業及技術人員高等考試律師、會計師、社會工作師、民間之公證人、不動產估價師考試及格人員榜單\n. 考試院公報. Vol. 24 no. 24. 2005-12-30: 57.\n^\nJacques deLisle Says Taiwan’s Future is in Good Hands with Promising Penn Carey Law Alumni\n. The Journal. University of Pennsylvania Carey Law School. 2023-06-01\n[\n2026-09-28\n]\n（美国英语）\n.\n^\n沈伯洋.\n犯罪中女性主體的形塑－個人與法律選擇\n. 國立臺灣大學. 2008.\n^\n姚孟汝.\n沈伯洋服替代役不是體位問題 他解釋：我是外文專長替代役\n. 放言Fount Media. 2026-05-18\n[\n2026-09-28\n]\n.\n^\nShen, Pao-Yang | Graduate Student Services\n. UC Irvine School of Social Ecology.\n[\n2026-10-12\n]\n.\n^\n簡竹書; 楊子磊; 何懿原; 吳偉韶; 智偉.\n【解剖惡的教授一】看過上流社會、中產與底層 反骨的沈伯洋決定研究白領犯罪\n. 鏡週刊 Mirror Media. 2019-04-30\n[\n2026-10-11\n]\n.\n^\n遍地開花》律師沈伯洋破解服貿傳言 網友喊讚\n. 自由時報電子報. 2014-03-26\n[\n2026-05-04\n]\n.\n^\n葉家瑋.\n獨家專訪｜沈伯洋3年蛻變「中二魂」掀洋流 因他一席話闖政壇「老婆嚇一跳」（壹蘋10點強打）｜壹蘋新聞網\n. 壹蘋新聞網. 2026-10-06\n[\n2026-10-11\n]\n（中文（臺灣））\n.\n^\nShen, Pao-Yang | Graduate Student Services\n. grads.soceco.uci.edu.\n[\n2026-10-11\n]\n.\n^\n沈伯洋 副教授兼所長\n. 國立台北大學犯罪學研究所.\n[\n2023-11-19\n]\n. （原始内容\n存档\n于2023-11-19）.\n^\n25.0\n25.1\n25.2\n陳昱婷. 翟思嘉 , 编.\n沈伯洋列民進黨不分區第2 盼快速建立台灣認知防衛\n. 台北. 中央社 CNA. 2023-11-15\n[\n2023-11-19\n]\n. （原始内容\n存档\n于2023-12-04）\n（中文（臺灣））\n.\n^\n26.0\n26.1\n沈伯洋; 賓靜蓀.\n台北大學犯研所助理教授沈伯洋：假訊息最可怕的是長期洗腦\n. 獨立評論. 天下雜誌. 2019-11-11\n[\n2020-06-02\n]\n. （原始内容\n存档\n于2020-05-31）.\n^\n林惠華.\n沈伯洋教授入選「世界民主運動」指導委員會\n.\n國立臺北大學\n. 2023-10-20\n[\n2023-11-19\n]\n. （原始内容\n存档\n于2023-11-19）\n（中文（臺灣））\n.\n^\n吳聲宗.\n國立臺北大學112學年度單位主管人員名冊\n. ntpu.edu.tw.\n[\n2023-08-08\n]\n. （原始内容\n存档\n于2023-08-10）.\n^\n不當黨產委員\n.\n[\n2020-07-25\n]\n. （\n原始内容\n存档于2022-06-14）.\n^\n王寓中.\n黨產會人事：沈伯洋接替楊偉中遺缺\n. 聯合報. 2018-10-15\n[\n2022-10-13\n]\n. （原始内容\n存档\n于2024-01-06）.\n^\n李欣芳.\n政院挺黨產會 林峯正續任主委\n. 自由時報. 2020-08-28\n[\n2022-10-13\n]\n. （原始内容\n存档\n于2022-10-18）.\n^\n打台灣不如騙台灣 檢查你是否成為認知作戰受害者\n. 中央社. 2024-07-14\n[\n2026-10-07\n]\n.\n^\n社團法人台灣民主實驗室\n. 社團財團法人資料站.\n[\n2026-10-07\n]\n.\n^\n中天聽證會 台灣人權促進會作為鑑定人之意見書\n. 台灣人權促進會. 2020-10-26\n[\n2026-10-07\n]\n.\n^\n換照聽證會 鑑定人：中天遭裁罰紀錄居新聞台之冠\n. 中央社. 2020-10-26\n[\n2026-10-07\n]\n.\n^\n陳鈺馥.\n曹興誠資助6億元強化民防教育 沈伯洋：期待家家戶戶有「黑熊勇士」\n. 自由時報. 2022-09-01\n[\n2022-10-13\n]\n. （原始内容\n存档\n于2022-10-14）.\n^\n林浥樺; 歐祥義.\n沈伯洋：黑熊學院培養台灣人抗敵意識\n. 自由時報. 2023-11-09\n[\n2023-11-19\n]\n. （原始内容\n存档\n于2023-11-19）.\n^\n楊子瑩; 洪詩宸; 黃瑀喬.\n民進黨不分區立委名單出爐 林月琴、沈伯洋入列\n. 公視新聞網. 2023-11-15\n[\n2023-11-15\n]\n. （原始内容\n存档\n于2023-12-01）\n（中文（臺灣））\n.\n^\n范正祥.\n沈伯洋提立委赴中須限制 立院程委會表決遭封殺\n. 中央社. 2024-04-23\n[\n2026-10-07\n]\n.\n^\n有多怕？藍白封殺國安法案1297次 沈伯洋「立委赴中納管」被擋次數最高\n. 自由時報. 2026-09-06.\n^\n王揚宇.\n國安法制改革 綠提加重間諜處罰、保護關鍵技術修法\n. 中央社. 2025-02-14\n[\n2026-10-07\n]\n.\n^\n「國家安全法第三條、第八條及第十八條條文修正草案」，請審議案。\n. 立法院議事暨公報資訊網.\n[\n2026-10-07\n]\n.\n^\n崔至雲.\n沈伯洋重摔前畫面曝！王定宇重複喊「爬我們背」助攻爬人牆\n. 台北: ETtoday新聞雲. 2024-05-18\n[\n2024-10-22\n]\n. （原始内容\n存档\n于2024-05-22）.\n^\n崔至雲.\n沈伯洋爬人牆重摔 陳玉珍還原不同角度影像：王定宇慫恿的\n. ETtoday新聞雲. 2024-05-18\n[\n2024-05-19\n]\n. （原始内容\n存档\n于2024-05-22）\n（中文（臺灣））\n.\n^\n李昶毅.\n直擊！沈伯洋遭邱鎮軍「雙手一推」重摔　廖偉翔偷偷補拳\n.\n民視新聞\n. 2024-05-17\n[\n2024-06-27\n]\n. （原始内容\n存档\n于2024-05-18）.\n^\n劉育良.\n沈伯洋摔下2樓前「還被揮拳攻擊」　綠民代po影片痛批藍委\n.\n壹蘋新聞網\n. 2024-05-17\n[\n2024-06-27\n]\n. （原始内容\n存档\n于2024-06-27）.\n^\n洪巧藍.\n沈伯洋重摔「照MRI」遭質疑！台大急診醫揭腦震盪處理：要看症狀\n. 台北: ETtoday新聞雲. 2024-05-18\n[\n2024-05-18\n]\n.\n^\n楊德宜.\n沈伯洋腦震盪 台北大學6教授發起連署：嚴厲譴責國會暴力\n. 聯合新聞網. 2024-05-18\n[\n2025-03-03\n]\n. （原始内容\n存档\n于2025-06-05）\n（中文（臺灣））\n.\n^\n林敬殷.\n民進黨團推國安10法 籲在野黨莫當中共代理人\n. 中央社. 2025-03-18\n[\n2026-10-07\n]\n.\n^\n葉素萍.\n綠委挺罷免遭恐嚇 民進黨：嚴厲譴責不法\n. 中央社. 2025-04-17\n[\n2026-10-09\n]\n.\n^\n賴于榛.\n劉世芳：各黨立委皆有人遭恐嚇 若有需要可申請隨扈\n. 中央社. 2025-04-17\n[\n2026-10-09\n]\n.\n^\n沈伯洋收恐嚇信「變第二個小燈泡」 警追IP有進展了\n. TVBS新聞網. 2025-11-08\n[\n2026-10-09\n]\n.\n^\n黃麗芸.\n香港人委託全天監控 沈伯洋：應該不只我個人\n. 中央社. 2026-10-07\n[\n2026-10-09\n]\n.\n^\n劉庭宇.\n收「死」字恐嚇信！自爆住家被裝針孔偷拍　沈伯洋：報警仍無進展\n. TVBS新聞網. 2025-09-01\n[\n2026-10-09\n]\n.\n^\n林長順.\n徵信業者收香港人36萬跟監沈伯洋　北檢起訴求刑1年半\n. 中央社. 2026-10-07\n[\n2026-10-09\n]\n.\n^\n林長順.\n徵信業者收香港人36萬跟監沈伯洋　北檢起訴求刑1年半\n. 中央社. 2026-10-07\n[\n2026-10-09\n]\n.\n^\n黃麗芸.\n香港人委託全天監控　沈伯洋：應該不只我個人\n. 中央社. 2026-10-07\n[\n2026-10-09\n]\n.\n^\n葉素萍.\n沈伯洋籲適時協助罷團 民進黨：尊重公民行使權利\n. 中央社. 2025-02-04\n[\n2026-10-07\n]\n.\n^\n罷傅案 沈伯洋偕民進黨中央幹部花蓮掃街衝連署\n. 中央社. 2025-04-12\n[\n2026-10-07\n]\n.\n^\n溫貴香、王揚宇.\n沈伯洋：曹興誠向賴清德更新罷免情勢 盼效益極大化\n. 中央社. 2025-06-13\n[\n2026-10-07\n]\n.\n^\n罷團集結凱道催票 曹興誠：罷免是愛台與賣台對決\n. 中央社. 2025-07-24\n[\n2026-10-07\n]\n.\n^\n林茜妤.\n大罷免大失敗 沈伯洋認了「錯在我」：對罷團需求掌握不夠\n. TVBS新聞網. 2025-07-27\n[\n2026-10-07\n]\n.\n^\n王揚宇.\n沈伯洋：罷免失利應檢討 建議民進黨提823方案助罷團\n. 中央社. 2025-07-28\n[\n2026-10-07\n]\n.\n^\n溫貴香、葉素萍.\n民進黨徵召沈伯洋參選台北市長　賴清德讚他是不二人選\n. 中央社. 2026-05-13\n[\n2026-10-07\n]\n.\n^\n65.0\n65.1\n「九合一」台北市長選戰：蔣萬安的2028前哨戰，沈伯洋能否靠「洋流」突圍？\n. BBC. 2026-10-06.\n^\n葉素萍、溫貴香.\n沈伯洋參選北市長　以女兒故事談「改變是可能的」\n. 中央社. 2026-05-13\n[\n2026-10-07\n]\n.\n^\n劉建邦.\n沈伯洋發布競選願景　從「心」出發推5大政見\n. 中央社. 2026-08-11\n[\n2026-10-07\n]\n.\n^\n王揚宇.\n沈伯洋提4大交通政見　聚焦綠色通勤議題\n. 中央社. 2026-09-16\n[\n2026-10-07\n]\n.\n^\n王揚宇.\n沈伯洋青年政策：城市基金、AI卡、圓夢計畫\n. 中央社. 2026-08-18\n[\n2026-10-07\n]\n.\n^\n王揚宇.\n沈伯洋拋政見　關渡蓋國際足球場、花博建超級運動中心\n. 中央社. 2026-07-16\n[\n2026-10-07\n]\n.\n^\n葉素萍.\n沈伯洋提教育政策4大支持　主張教師減壓、親師解套\n. 中央社. 2026-10-02\n[\n2026-10-07\n]\n.\n^\n蔣萬安、沈伯洋辯論會10/31舉辦　納交互詰問、媒體提問\n. 中央社. 2026-10-15.\n^\n沈伯洋：要當全民市長　政見不分藍綠\n. 中央社. 2026-10-20.\n^\n松機遷建　沈伯洋：北市回函未涵蓋醫療後送等配套\n. 中央社. 2026-10-16.\n^\n蔣萬安：中華民國本來就是主權獨立國家\n. 中央社. 2026-05-17\n[\n2026-10-07\n]\n.\n^\n沈伯洋：台灣抵抗意志不足 因應中國認知戰3因素堪憂\n. 中央社. 2023-09-11\n[\n2026-10-07\n]\n.\n^\n全民防衛意識抬頭 社企開課讓民眾找到戰鬥位置\n. 中央社. 2022-09-01\n[\n2026-10-07\n]\n.\n^\n沈伯洋委員\n. 立法院全球資訊網.\n[\n2026-10-07\n]\n.\n^\n港傳北車現大量「台版黑警」？沈伯洋：盜用《自由》舊圖\n. 2020-05-29\n[\n2020-06-02\n]\n. （原始内容\n存档\n于2020-06-07）.\n^\n莊翊晨.\n台灣已進入準戰爭狀態？ 專家揭秘中共對台資訊戰背後秘密\n. 今周刊. 2019-09-19\n[\n2020-06-02\n]\n. （原始内容\n存档\n于2024-12-10）.\n^\n曝中共早已介選 沈伯洋：抖音微博是台灣國安最大威脅\n. 自由時報. 2023-12-17.\n^\n張淑伶; 周慧盈 (编).\n國台辦點名台獨 沈伯洋、曹興誠及黑熊學院入列\n. 台北. 中央社 CNA. 2024-10-14.\n^\nReport on the PRC’s Transnational Repression and Malign Influence in 2025\n(PDF)\n.\n美國國會及行政當局中國委員會\n. 2026-06-04.\n^\n公安机关决定对“台独”顽固分子沈伯洋立案侦查\n. 新华网. 2025-10-28\n[\n2025-10-28\n]\n（中文）\n.\n^\n重慶公安立案偵查沈伯洋 指其透過「黑熊學院」從事分裂國家活動\n. 聯合新聞網. 2025-10-28\n[\n2025-10-28\n]\n.\n^\n王揚宇.\n沈伯洋：不會屈服中國打壓　持續進行國會外交\n. 中央社. 2025-11-10\n[\n2026-10-07\n]\n.\n^\n王揚宇.\n現身德國國會　沈伯洋：勇敢台灣人不因中國恐嚇退縮\n. 中央社. 2025-11-12\n[\n2026-10-07\n]\n.\n^\n沈伯洋.\nDesinformation durch autokratische Staaten mit dem Ziel der Schwächung von Demokratie und Bedrohung der Menschenrechte Desinformation durch autokratische Staaten mit dem Ziel der Schwächung von Demokratie und Bedrohung der Menschenrechte Digitale Autokratie vs. demokratische Resilienz\n(PDF)\n. 德國聯邦議院. 2025-11-12\n[\n2026-10-07\n]\n（德语）\n.\n^\n蔡英文出手助沈伯洋突破中共封鎖訪德 外交部證實：獲雙方同意安排\n. 自由時報. 2026-10-06\n（中文（臺灣））\n.\n^\n曾依璇.\n中國揚言抓捕沈伯洋　國際刑警組織：不處理政治案件\n. 中央社. 2025-11-14\n[\n2026-10-07\n]\n.\n^\n侯姿瑩.\n美關切中國偵查沈伯洋　批中破壞支撐兩岸現狀規範\n. 中央社. 2025-11-15\n[\n2026-10-07\n]\n.\n^\n馬龍為中共黨員以陸生訪台 沈伯洋：中國把交流均視為統戰\n. Newtalk新聞. 2024-11-27\n[\n2026-10-09\n]\n.\n^\n潘袁詩羽.\n馬龍陸生訪團被爆「清一色共黨背景」　沈伯洋提一事：不得不慎\n. TVBS. 2024-11-27\n[\n2026-10-09\n]\n.\n^\n立法院第11屆第2會期內政委員會會議發言紀錄\n. 立法院議事轉播網. 2024-12-04\n[\n2026-10-09\n]\n.\n^\n大公報披露：「台獨」頑固分子沈伯洋父子大陸採購島內倒賣賺差價\n. 大公文匯網. 2025-06-05\n[\n2025-06-06\n]\n.\n^\n王承中、林敬殷.\n藍質疑兩岸問題雙標 沈伯洋：赴中都是高風險\n. 中央社. 2025-06-06\n[\n2026-10-09\n]\n.\n^\n大陆国台办宣布惩戒民进党立委沈伯洋关联企业\n. 联合早报. 2025-06-05\n[\n2025-06-05\n]\n. （原始内容\n存档\n于2025-06-05）\n（中文）\n.\n^\n沈伯洋之父以新公司从大陆谋利 国台办：实施惩戒\n. 新华社. 2026-10-14\n[\n2026-10-14\n]\n.\n^\n沈伯洋表面「抗中」急先鋒 暗中縱容父親「賺紅錢」 其父名下公司遭制裁後換殼 半年多在陸貿易額近70萬美元\n. 香港文匯報. 2026-10-13\n[\n2026-10-14\n]\n.\n^\n沈伯洋談雙城論壇：不必要且恐成滲透破口\n. TVBS新聞網. 2026-04\n[\n2026-10-09\n]\n.\n^\n沈伯洋談雙城論壇：效益極低 沒有效益就不要辦\n. 中央社. 2026-05-14\n[\n2026-10-09\n]\n.\n^\n沈伯洋：兩岸交流應首都對首都　台北可與北京對話\n. 中央社. 2026-06-06\n[\n2026-10-09\n]\n.\n^\n沈伯洋談雙城論壇　提無政治前提、有實益、市民參與3原則\n. 中央社. 2026-09-18\n[\n2026-10-09\n]\n.\n^\n沈伯洋談雙城論壇：沒有政治前提就可以參加\n. 聯合報. 2026-10-07\n[\n2026-10-09\n]\n.\n^\n屈彥辰.\n沈伯洋拋兩岸交流「首都對首都」 國民黨青年批雙標又選擇性失憶\n. 聯合報. 2026-06-06\n[\n2026-10-09\n]\n.\n^\n劉建邦.\n沈伯洋規劃訪日　討論城市外交及成立海外後援會\n. 中央社. 2026-09-02\n[\n2026-10-09\n]\n.\n^\n劉育良.\n沈伯洋毒品爭議文另一篇　「大麻問題需要用合法化解決」\n. 壹蘋新聞網. 2026-10-06\n[\n2026-10-07\n]\n.\n^\n撲馬.\n【撲馬想想】柯震東震出我國毒品政策的爛瘡\n. 想想論壇. 2014-09-01\n[\n2026-10-07\n]\n.\n^\n陳盈真.\n沈伯洋上趙少康專訪拚破圈 不推毒品除罪化.不贊成大麻合法化\n. 台視新聞網. 2026-10-07\n[\n2026-10-11\n]\n.\n^\n葉蓁芸.\n沈伯洋提反毒政見　蔣萬安稱勿拿美沙冬遮掩引網路熱議\n. 中央社. 2026-10-03\n[\n2026-10-07\n]\n.\n^\n楊淑閔.\n反毒熱議 蔣萬安問沈伯洋在何處設中心發毒品\n. 中央社. 2026-10-04\n[\n2026-10-07\n]\n.\n^\n陳俊華、王揚宇.\n遭藍營指控主張社區中心發毒品　沈伯洋：純造謠將採法律行動\n. 中央社. 2026-10-05\n[\n2026-10-07\n]\n.\n^\n三立新聞網.\n遭趙少康問毒品立場！沈伯洋「搬出蔣萬安2句話」 全場瞬間靜默 | 政治 | 三立新聞網 SETN.COM\n. www.setn.com.\n[\n2026-10-08\n]\n（中文（臺灣））\n.\n^\n黃麗芸、葉蓁芸.\n沈伯洋：立場其實一直都很清楚　不主張毒品除罪化\n. 中央社. 2026-10-06\n[\n2026-10-07\n]\n.\n^\n115.0\n115.1\n數位內容部整理.\n蔣萬安喊台北能給針頭？為何引爆40萬留言破世界紀錄⋯遭起底這法案他簽的！美沙冬是什麼？與沈伯洋攻防整理\n. 今周刊. 2026-10-04\n[\n2026-10-04\n]\n.\n^\n張志雄、方雋淮.\n蔣萬安批以美沙冬遮掩說法 沈伯洋：毒品立場沒變\n. 公視新聞網. 2026-10-04\n[\n2026-10-04\n]\n.\n^\n黃于庭.\n蔣萬安最強對手出現？「他」來歷超驚人 綠營證實：體育、音樂俱佳\n. 民視新聞網. 2026-04-20\n[\n2026-04-29\n]\n.\n^\n118.0\n118.1\n簡竹書.\n【解剖惡的教授番外篇】刑法學者超「中二」 著作封面暗藏動漫密碼\n. 鏡週刊 Mirror Media. 2019-04-30\n[\n2026-04-29\n]\n.\n^\n簡竹書.\n【解剖惡的教授番外篇】從律師到犯罪學家 他說自己註定反骨\n. 鏡週刊 Mirror Media. 2019-04-30\n[\n2026-04-29\n]\n.\n^\n黑熊學院「藍鵲行動」 培養民眾「迎戰」能力\n. 民視新聞網. 2023-09-30\n[\n2023-11-19\n]\n（中文（繁體））\n.\n^\n黑熊社會企業有限公司\n. 台灣公司網.\n[\n2026-10-29\n]\n.\n^\n黑熊社會企業有限公司\n. 經濟部商工登記公示資料查詢服務.\n中華民國經濟部\n.\n[\n2023-11-19\n]\n. （原始内容\n存档\n于2022-09-01）\n（中文（繁體））\n.\n^\n黑熊學院「藍鵲行動」　培養民眾「迎戰」能力\n.\n民視新聞網\n. 2023-09-30\n[\n2023-11-19\n]\n. （原始内容\n存档\n于2024-02-04）\n（中文（繁體））\n.\n^\n《\n犯罪中女性主體的形塑－個人與法律選擇\n》。\n。\n^\nLOCAL IDEOLOGIES AND PUNISHMENT FOR WHITE-COLLAR CRIME: A COMPARISON BETWEEN THE U.S. AND CHINA\n.\nUC Irvine\n.\n外部連結\n维基共享资源\n上的相关多媒体资源：\n沈伯洋\n维基语录\n上的\n沈伯洋语录\n沈伯洋的個人網站\n沈伯洋的Facebook專頁\n（個人）\n沈伯洋的Facebook專頁\n沈伯洋的Instagram帳戶\n沈伯洋的Threads帳戶\nYouTube上的\n沈伯洋\n頻道\n查\n论\n编\n立法院第十一屆立法委員\n院長\n：\n▌\n韓國瑜\n（國）\n副院長\n：\n▌\n江啟臣\n（國）\n多數黨\n中國國民黨黨團\n（53+1）\n總召\n：\n傅崐萁\n區域\n席次（37）\n王鴻薇\n李彥秀\n羅智強\n徐巧芯\n赖士葆\n洪孟楷\n葉元之\n張智倫\n林德福\n羅明才\n廖先翔\n林沛祥\n牛煦庭\n涂權吉\n魯明哲\n萬美玲\n呂玉玲\n邱若華\n徐欣瑩\n林思銘\n鄭正鈐\n陳超明\n邱鎮軍\n顏寬恒\n楊瓊瓔\n廖偉翔\n黃健豪\n羅廷瑋\n江啟臣\n謝衣鳯\n馬文君\n游顥\n丁學忠\n傅崐萁\n黃建賓\n陳雪生\n陳玉珍\n不分區及僑選\n席次（13）\n韓國瑜\n柯志恩\n葛如鈞\n翁曉玲\n陳菁徽\n吳宗憲\n林倩綺\n陳永康\n許宇甄\n謝龍介\n蘇清泉\n張嘉郡\n王育敏\n原住民\n席次（3+1）\n鄭天財\n黃仁\n盧縣一\n高金素梅\n無黨籍\n少數黨\n民主進步黨黨團\n（51）\n總召\n：\n蔡其昌\n區域\n席次（36）\n吳思瑤\n王世堅\n吳沛憶\n林淑芬\n李坤城\n吳秉叡\n蘇巧慧\n張宏陸\n吳琪銘\n陳俊宇\n蔡其昌\n何欣純\n陳秀寳\n黃秀芳\n陳素月\n劉建國\n蔡易餘\n陳冠廷\n王美惠\n賴惠員\n郭國文\n陳亭妃\n林宜瑾\n林俊憲\n王定宇\n邱議瑩\n邱志偉\n李柏毅\n林岱樺\n李昆澤\n黃捷\n許智傑\n賴瑞隆\n鍾佳濱\n徐富癸\n楊曜\n不分區及僑選\n席次（13）\n林月琴\n沈伯洋\n張雅琳\n洪申翰\n辭職\n羅美玲\n游錫堃\n辭職\n范雲\n柯建銘\n沈發惠\n莊瑞雄\n林楚茵\n郭昱晴\n陳培瑜\n王正旭\n遞補\n王義川\n遞補\n原住民\n席次（2）\n陳瑩\n伍麗華\n台灣民眾黨黨團\n（8）\n總召\n：\n陳清龍\n不分區及僑選\n席次（8）\n黃珊珊\n辭職\n黃國昌\n辭職\n陳昭姿\n吳春城\n辭職\n麥玉珍\n辭職\n林國成\n辭職\n林憶君\n辭職\n張啓楷\n辭職\n李貞秀\n遞補、解職\n劉書彬\n遞補\n洪毓祥\n遞補\n蔡春綢\n遞補\n王安祥\n遞補\n邱慧洳\n遞補\n陳清龍\n遞補\n許忠信\n遞補\n第十屆\n→\n第十一屆\n查\n论\n编\n“台独”顽固分子\n清單（\n中共中央台湾工作办公室\n擬定）\n“台独”顽固分子\n吳釗燮\n蘇貞昌\n游錫堃\n蕭美琴\n顧立雄\n蔡其昌\n柯建銘\n林飛帆\n陳椒華\n王定宇\n沈伯洋\n曹興誠\n劉世芳\n鄭英耀\n“台独”打手帮凶\n劉世芳\n沈伯洋\n吴思瑶\n黃捷\n林达\n林俊言\n林俊廷\n曹興誠\n史書華\n温子渝\n陈柏源\n陈舒怡\n“台独”顽固分子关联机构\n臺灣民主基金會\n國際合作發展基金會\n兩岸交流遠景基金會\n亞洲自由民主聯盟\n黑熊學院\n兆億公司\nVWAY公司\n相關司法文件\n《\n反分裂國家法\n》\n《\n关于依法惩治“台独”顽固分子分裂国家、煽动分裂国家犯罪的意见\n》\n中共中央台办、国务院台办“依法惩治‘台独’顽固分子”专题网站\n规范控制数据库\n：学术\nGoogle学术\nORCID\n取自“\nhttps://zh.wikipedia.org/w/index.php?title=沈伯洋&oldid=95500028\n”\n分类\n：\n1982年出生\n在世人物\n立法院第十一屆立法委員\n沈姓\n泉州裔臺灣人\n臺北市私立復興實驗高級中學校友\n臺北市立建國高級中學校友\n國立臺灣大學法律學院校友\n臺灣戰後時期留美學生\n宾夕法尼亚大学法学院校友\n加州大學爾灣分校校友\n台灣律師\n國立臺北大學教授\n臺灣刑法學家\n刑事政策學者\n犯罪學家\n資訊戰學者\n不當黨產處理委員會委員\n中央通訊社董事\n民主進步黨男性黨員\n民主進步黨籍立法委員\n台北市出身政治人物\n學者出身的政治人物\n律師出身的台灣政治人物\n中華民國不分區及僑選立法委員\n中共中央台湾工作办公室认定的“台独”顽固分子\n因台湾问题而被中华人民共和国制裁的台湾人\n被中华人民共和国政治通缉的台湾人\n隐藏分类：\n有蓝链却未移除内部链接助手模板的页面\nCS1美国英语来源 (en-us)\nCS1德语来源 (de)\n避免破坏保护\n准确性有争议的作品\n拒绝当选首页新条目推荐栏目的条目\n可能带有原创研究的条目\n含有多个问题的条目\n含有英語的條目\n含有hCards的条目\n自2026年10月维基百科需要风格编辑的条目\n自2026年10月中立性有争议的作品\n维基共享资源分类链接使用了维基数据上的匹配项\n與維基數據不同的Facebook ID\n含有內容需登入查看的頁面\n包含Google Scholar标识符的维基百科条目\n包含ORCID标识符的维基百科条目\n本页面最后修订于2026年11月10日 (星期二) 07:52。\n本站的全部文字在\n知识共享 署名-相同方式共享 4.0协议\n之条款下提供，附加条款亦可能应用。（请参阅\n使用条款\n）\nWikipedia®和维基百科标志是\n维基媒体基金会\n的注册商标；维基™是维基媒体基金会的商标。\n维基媒体基金会是按美国国內稅收法501(c)(3)登记的\n非营利慈善机构\n。\n隐私政策\n关于维基百科\n免责声明\n法律与安全事项联系方式\n行为准则\n开发者\n统计\nCookie声明\n移动版视图\n搜索\n搜索\n开关目录\n沈伯洋\n6种语言\n添加话题",
+  "original_sha256": "7aa489189d366b39d2e3190ff69892ec430ed46b549dec5ed55780c2a843e996",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/3108bac7a783bf786916.html"
+}

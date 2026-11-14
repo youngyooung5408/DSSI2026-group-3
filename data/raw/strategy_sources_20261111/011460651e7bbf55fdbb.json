@@ -1,0 +1,625 @@
+{
+  "capture_id": "011460651e7bbf55fdbb",
+  "requested_url": "https://puma.taipei/policies",
+  "fetched_at_utc": "2026-11-10T17:20:21.792665+00:00",
+  "title": "政見 — 沈伯洋台北市長競選官方網站",
+  "links": [
+    {
+      "text": "",
+      "url": "https://puma.taipei/"
+    },
+    {
+      "text": "參選聲明",
+      "url": "https://puma.taipei/declaration"
+    },
+    {
+      "text": "學經歷與國際交流",
+      "url": "https://puma.taipei/experience"
+    },
+    {
+      "text": "最新行程",
+      "url": "https://puma.taipei/schedule"
+    },
+    {
+      "text": "捕捉野生沈伯洋",
+      "url": "https://gotcha.puma.taipei"
+    },
+    {
+      "text": "HEART 政策生態系",
+      "url": "https://puma.taipei/heart"
+    },
+    {
+      "text": "HEART 政策島",
+      "url": "https://puma.taipei/heart-island"
+    },
+    {
+      "text": "伯洋分類帽",
+      "url": "https://puma.taipei/heart/quiz/1"
+    },
+    {
+      "text": "政策專區",
+      "url": "https://puma.taipei/policies"
+    },
+    {
+      "text": "市長，你給我聽好了",
+      "url": "https://puma.taipei/taipeispeaksup"
+    },
+    {
+      "text": "台北民意觀察室",
+      "url": "https://puma.taipei/observatory"
+    },
+    {
+      "text": "競選歌曲",
+      "url": "https://puma.taipei/songs"
+    },
+    {
+      "text": "洋流好店",
+      "url": "https://storemap.puma.taipei/"
+    },
+    {
+      "text": "台北大洋流",
+      "url": "https://puma.taipei/taipei-current"
+    },
+    {
+      "text": "市政 debug 松",
+      "url": "https://puma.taipei/hackathon"
+    },
+    {
+      "text": "洋流小物",
+      "url": "https://puma.taipei/merch"
+    },
+    {
+      "text": "文宣下載",
+      "url": "https://puma.taipei/documents"
+    },
+    {
+      "text": "洋流誌",
+      "url": "https://puma.taipei/soonmook"
+    },
+    {
+      "text": "順報",
+      "url": "https://puma.taipei/soon-daily"
+    },
+    {
+      "text": "每日受訪",
+      "url": "https://puma.taipei/videos"
+    },
+    {
+      "text": "直播",
+      "url": "https://puma.taipei/live"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://puma.taipei/fact-checks"
+    },
+    {
+      "text": "H 空間，順起來 Habitat",
+      "url": "https://puma.taipei/policy/heart/h"
+    },
+    {
+      "text": "E 機會，給出來 Empower",
+      "url": "https://puma.taipei/policy/heart/e"
+    },
+    {
+      "text": "A 陪伴，不孤單 Accompany",
+      "url": "https://puma.taipei/policy/heart/a"
+    },
+    {
+      "text": "R 韌性，有安心 Resilience",
+      "url": "https://puma.taipei/policy/heart/r"
+    },
+    {
+      "text": "T 時間，省下來 Time",
+      "url": "https://puma.taipei/policy/heart/t"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "原住民族政策",
+      "url": "https://puma.taipei/policies/%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "原住民族政策",
+      "url": "https://puma.taipei/policy/tag/%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E4%BD%8F%E5%AE%85%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "住宅政策",
+      "url": "https://puma.taipei/policies/%E4%BD%8F%E5%AE%85%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "住宅政策",
+      "url": "https://puma.taipei/policy/tag/%E4%BD%8F%E5%AE%85%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "都更政策",
+      "url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "都更政策",
+      "url": "https://puma.taipei/policy/tag/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "教育政策",
+      "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "教育政策",
+      "url": "https://puma.taipei/policy/tag/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "交通政策",
+      "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "交通政策",
+      "url": "https://puma.taipei/policy/tag/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "社福政策",
+      "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "社福政策",
+      "url": "https://puma.taipei/policy/tag/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91"
+    },
+    {
+      "text": "台北文化徑×山林徑",
+      "url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91"
+    },
+    {
+      "text": "台北文化徑×山林徑",
+      "url": "https://puma.taipei/policy/tag/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97"
+    },
+    {
+      "text": "都市微森林",
+      "url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97"
+    },
+    {
+      "text": "都市微森林",
+      "url": "https://puma.taipei/policy/tag/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97"
+    },
+    {
+      "text": "把樹種回來",
+      "url": "https://puma.taipei/policy/tag/%E6%8A%8A%E6%A8%B9%E7%A8%AE%E5%9B%9E%E4%BE%86"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "青年政策",
+      "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "青年政策",
+      "url": "https://puma.taipei/policy/tag/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "50萬起跑本金",
+      "url": "https://puma.taipei/policy/tag/50%E8%90%AC%E8%B5%B7%E8%B7%91%E6%9C%AC%E9%87%91"
+    },
+    {
+      "text": "AI使用支持方案",
+      "url": "https://puma.taipei/policy/tag/AI%E4%BD%BF%E7%94%A8%E6%94%AF%E6%8C%81%E6%96%B9%E6%A1%88"
+    },
+    {
+      "text": "圓夢舞台",
+      "url": "https://puma.taipei/policy/tag/%E5%9C%93%E5%A4%A2%E8%88%9E%E5%8F%B0"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "運動政策",
+      "url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "運動政見",
+      "url": "https://puma.taipei/policy/tag/%E9%81%8B%E5%8B%95%E6%94%BF%E8%A6%8B"
+    },
+    {
+      "text": "台北運動生態系",
+      "url": "https://puma.taipei/policy/tag/%E5%8F%B0%E5%8C%97%E9%81%8B%E5%8B%95%E7%94%9F%E6%85%8B%E7%B3%BB"
+    },
+    {
+      "text": "國際足球場",
+      "url": "https://puma.taipei/policy/tag/%E5%9C%8B%E9%9A%9B%E8%B6%B3%E7%90%83%E5%A0%B4"
+    },
+    {
+      "text": "超級市民運動中心",
+      "url": "https://puma.taipei/policy/tag/%E8%B6%85%E7%B4%9A%E5%B8%82%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E2%80%A8"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
+    },
+    {
+      "text": "家庭一站通",
+      "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
+    },
+    {
+      "text": "家庭一站通",
+      "url": "https://puma.taipei/policy/tag/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
+    },
+    {
+      "text": "家庭支持服務站",
+      "url": "https://puma.taipei/policy/tag/%E5%AE%B6%E5%BA%AD%E6%94%AF%E6%8C%81%E6%9C%8D%E5%8B%99%E7%AB%99"
+    },
+    {
+      "text": "家庭教育陪伴師",
+      "url": "https://puma.taipei/policy/tag/%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2%E9%99%AA%E4%BC%B4%E5%B8%AB"
+    },
+    {
+      "text": "多元家庭教育課程",
+      "url": "https://puma.taipei/policy/tag/%E5%A4%9A%E5%85%83%E5%AE%B6%E5%BA%AD%E6%95%99%E8%82%B2%E8%AA%B2%E7%A8%8B"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "公務員政策",
+      "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "公務員",
+      "url": "https://puma.taipei/policy/tag/%E5%85%AC%E5%8B%99%E5%93%A1"
+    },
+    {
+      "text": "友善職場",
+      "url": "https://puma.taipei/policy/tag/%E5%8F%8B%E5%96%84%E8%81%B7%E5%A0%B4"
+    },
+    {
+      "text": "EAP",
+      "url": "https://puma.taipei/policy/tag/EAP"
+    },
+    {
+      "text": "彈性上下班",
+      "url": "https://puma.taipei/policy/tag/%E5%BD%88%E6%80%A7%E4%B8%8A%E4%B8%8B%E7%8F%AD"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1"
+    },
+    {
+      "text": "親子同行卡",
+      "url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1"
+    },
+    {
+      "text": "台北親子卡",
+      "url": "https://puma.taipei/policy/tag/%E5%8F%B0%E5%8C%97%E8%A6%AA%E5%AD%90%E5%8D%A1"
+    },
+    {
+      "text": "文化幣",
+      "url": "https://puma.taipei/policy/tag/%E6%96%87%E5%8C%96%E5%B9%A3"
+    },
+    {
+      "text": "運動幣",
+      "url": "https://puma.taipei/policy/tag/%E9%81%8B%E5%8B%95%E5%B9%A3"
+    },
+    {
+      "text": "閱讀袋",
+      "url": "https://puma.taipei/policy/tag/%E9%96%B1%E8%AE%80%E8%A2%8B"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "水域政策",
+      "url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "水域政策",
+      "url": "https://puma.taipei/policy/tag/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "AI政策",
+      "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "ai政策",
+      "url": "https://puma.taipei/policy/tag/ai%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "客家政策",
+      "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "客家政策",
+      "url": "https://puma.taipei/policy/tag/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4"
+    },
+    {
+      "text": "城市外交",
+      "url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4"
+    },
+    {
+      "text": "無限城論壇",
+      "url": "https://puma.taipei/policy/tag/%E7%84%A1%E9%99%90%E5%9F%8E%E8%AB%96%E5%A3%87"
+    },
+    {
+      "text": "城市外交",
+      "url": "https://puma.taipei/policy/tag/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90"
+    },
+    {
+      "text": "營養午餐",
+      "url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90"
+    },
+    {
+      "text": "營養午餐",
+      "url": "https://puma.taipei/policy/tag/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90"
+    },
+    {
+      "text": "贊助我們",
+      "url": "https://puma.oen.tw/"
+    },
+    {
+      "text": "加入 LINE",
+      "url": "https://join.puma.taipei/line/UkfBBgZ2"
+    },
+    {
+      "text": "",
+      "url": "https://puma.taipei/"
+    },
+    {
+      "text": "Facebook",
+      "url": "https://facebook.com/1087764201093899"
+    },
+    {
+      "text": "Threads",
+      "url": "https://www.threads.com/@pumashen"
+    },
+    {
+      "text": "YouTube",
+      "url": "https://www.youtube.com/@PumaShen"
+    },
+    {
+      "text": "Instagram",
+      "url": "https://www.instagram.com/pumashen/"
+    },
+    {
+      "text": "臺北市中正區北平東路30-1號1樓",
+      "url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%8C%97%E5%B9%B3%E6%9D%B1%E8%B7%AF30-1%E8%99%9F1%E6%A8%93"
+    },
+    {
+      "text": "參選聲明",
+      "url": "https://puma.taipei/declaration"
+    },
+    {
+      "text": "學經歷與國際交流",
+      "url": "https://puma.taipei/experience"
+    },
+    {
+      "text": "每日受訪",
+      "url": "https://puma.taipei/videos"
+    },
+    {
+      "text": "最新行程",
+      "url": "https://puma.taipei/schedule"
+    },
+    {
+      "text": "捕捉野生沈伯洋",
+      "url": "https://gotcha.puma.taipei"
+    },
+    {
+      "text": "HEART 政策生態系",
+      "url": "https://puma.taipei/heart"
+    },
+    {
+      "text": "HEART 政策島",
+      "url": "https://puma.taipei/heart-island"
+    },
+    {
+      "text": "伯洋分類帽",
+      "url": "https://puma.taipei/heart/quiz/1"
+    },
+    {
+      "text": "政策專區",
+      "url": "https://puma.taipei/policies"
+    },
+    {
+      "text": "市長，你給我聽好了",
+      "url": "https://puma.taipei/taipeispeaksup"
+    },
+    {
+      "text": "台北民意觀察室",
+      "url": "https://puma.taipei/observatory"
+    },
+    {
+      "text": "競選歌曲",
+      "url": "https://puma.taipei/songs"
+    },
+    {
+      "text": "洋流好店",
+      "url": "https://storemap.puma.taipei/"
+    },
+    {
+      "text": "台北大洋流",
+      "url": "https://puma.taipei/taipei-current"
+    },
+    {
+      "text": "市政 debug 松",
+      "url": "https://puma.taipei/hackathon"
+    },
+    {
+      "text": "洋流小物",
+      "url": "https://puma.taipei/merch"
+    },
+    {
+      "text": "文宣下載",
+      "url": "https://puma.taipei/documents"
+    },
+    {
+      "text": "洋流誌",
+      "url": "https://puma.taipei/soonmook"
+    },
+    {
+      "text": "順報",
+      "url": "https://puma.taipei/soon-daily"
+    },
+    {
+      "text": "闢謠專區",
+      "url": "https://puma.taipei/fact-checks"
+    },
+    {
+      "text": "政策專區",
+      "url": "https://puma.taipei/policies"
+    },
+    {
+      "text": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/deed.zh-hant"
+    }
+  ],
+  "images": [
+    {
+      "alt": "你的市長 沈伯洋",
+      "url": "https://puma.taipei/images/brand/candidate-lockup.webp"
+    },
+    {
+      "alt": "",
+      "url": "https://puma.taipei/images/run-hug/sprite-run.png"
+    },
+    {
+      "alt": "原住民族政策 代表圖",
+      "url": "https://media.puma.taipei/files/433/PQdn183krKX7uoVr9lIraWl2pFokYnkHWliHcfFb.jpg"
+    },
+    {
+      "alt": "住宅政策 代表圖",
+      "url": "https://media.puma.taipei/files/425/PJq0URAuTlLpcUdja3wQobuZyk2320G8Ez3w65ae.jpg"
+    },
+    {
+      "alt": "都更政策 代表圖",
+      "url": "https://media.puma.taipei/files/414/G7JjRRk9q6eKy9tYh1JozSuun1a4c2XNEJGqaQvt.jpg"
+    },
+    {
+      "alt": "教育政策 代表圖",
+      "url": "https://media.puma.taipei/files/200/01M3X2SD9CX5B5H5JR6WB4FWGA.jpg"
+    },
+    {
+      "alt": "交通政策 代表圖",
+      "url": "https://media.puma.taipei/files/193/01M2KYP737B6KS45R03NPZZGV6.jpg"
+    },
+    {
+      "alt": "社福政策 代表圖",
+      "url": "https://media.puma.taipei/files/192/01M27QHKA28GR3A2D42HY8K675.jpg"
+    },
+    {
+      "alt": "台北文化徑×山林徑 代表圖",
+      "url": "https://media.puma.taipei/files/191/01M204R77HRB5EZ9GQ55DB1TBC.jpg"
+    },
+    {
+      "alt": "都市微森林 代表圖",
+      "url": "https://media.puma.taipei/files/190/01M22BJFVPR3M9GMA3NME26KKJ.jpg"
+    },
+    {
+      "alt": "青年政策 代表圖",
+      "url": "https://media.puma.taipei/files/189/01M22F84RM3173Q1NDGXRYEHTD.jpg"
+    },
+    {
+      "alt": "運動政策 代表圖",
+      "url": "https://media.puma.taipei/files/187/01M277H9CVHEQMGE13CWFY51KW.jpg"
+    },
+    {
+      "alt": "家庭一站通 代表圖",
+      "url": "https://media.puma.taipei/files/184/01M24TGF36PVV7NNT8WKCRRB53.jpg"
+    },
+    {
+      "alt": "公務員政策 代表圖",
+      "url": "https://media.puma.taipei/files/171/01M24R6Y5WK33KKXBQKQ8GS0P9.jpg"
+    },
+    {
+      "alt": "親子同行卡 代表圖",
+      "url": "https://media.puma.taipei/files/169/01M24R99W8JSPB6WXMTHK15Y70.jpg"
+    },
+    {
+      "alt": "水域政策 代表圖",
+      "url": "https://media.puma.taipei/files/381/RIv9vvP8qHzyasGNsvJtqD9TwZFrXHe02CGY00f6.jpg"
+    },
+    {
+      "alt": "AI政策 代表圖",
+      "url": "https://media.puma.taipei/files/372/bLSTt978OI2xU4B5Sg2vSjyryImR1uy8BTONLAu1.jpg"
+    },
+    {
+      "alt": "客家政策 代表圖",
+      "url": "https://media.puma.taipei/files/368/0WFBSPJRi20amugQmdLShtceF2EbgLvsH7MZt1uF.jpg"
+    },
+    {
+      "alt": "城市外交 代表圖",
+      "url": "https://media.puma.taipei/files/302/lTdkkCOd5aERMwU3juBtwutgmPBfGOpdc594Qljz.jpg"
+    },
+    {
+      "alt": "營養午餐 代表圖",
+      "url": "https://media.puma.taipei/files/194/01M364EB4635040MB7QV41YB6D.jpg"
+    },
+    {
+      "alt": "",
+      "url": "https://puma.taipei/images/run-hug/sprite-run.png"
+    },
+    {
+      "alt": "",
+      "url": "https://puma.taipei/images/run-hug/sprite-head-pat.webp"
+    },
+    {
+      "alt": "FUTURE SOON 台北順起來",
+      "url": "https://puma.taipei/images/brand/future-soon-lockup.webp"
+    }
+  ],
+  "og_image": [
+    "https://puma.taipei/images/og-default-20261013.webp"
+  ],
+  "structured_data": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://puma.taipei/policies\",\"url\":\"https://puma.taipei/policies\",\"name\":\"政見\",\"inLanguage\":\"zh-Hant\",\"isPartOf\":{\"@id\":\"https://puma.taipei/#website\"},\"mainEntity\":{\"@type\":\"ItemList\",\"numberOfItems\":18,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"Article\",\"name\":\"原住民族政策\",\"url\":\"https://puma.taipei/policies/%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"Article\",\"name\":\"住宅政策\",\"url\":\"https://puma.taipei/policies/%E4%BD%8F%E5%AE%85%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"Article\",\"name\":\"都更政策\",\"url\":\"https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"Article\",\"name\":\"教育政策\",\"url\":\"https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"Article\",\"name\":\"交通政策\",\"url\":\"https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":6,\"item\":{\"@type\":\"Article\",\"name\":\"社福政策\",\"url\":\"https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":7,\"item\":{\"@type\":\"Article\",\"name\":\"台北文化徑×山林徑\",\"url\":\"https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91\"}},{\"@type\":\"ListItem\",\"position\":8,\"item\":{\"@type\":\"Article\",\"name\":\"都市微森林\",\"url\":\"https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97\"}},{\"@type\":\"ListItem\",\"position\":9,\"item\":{\"@type\":\"Article\",\"name\":\"青年政策\",\"url\":\"https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":10,\"item\":{\"@type\":\"Article\",\"name\":\"運動政策\",\"url\":\"https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":11,\"item\":{\"@type\":\"Article\",\"name\":\"家庭一站通\",\"url\":\"https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A\"}},{\"@type\":\"ListItem\",\"position\":12,\"item\":{\"@type\":\"Article\",\"name\":\"公務員政策\",\"url\":\"https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":13,\"item\":{\"@type\":\"Article\",\"name\":\"親子同行卡\",\"url\":\"https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1\"}},{\"@type\":\"ListItem\",\"position\":14,\"item\":{\"@type\":\"Article\",\"name\":\"水域政策\",\"url\":\"https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":15,\"item\":{\"@type\":\"Article\",\"name\":\"AI政策\",\"url\":\"https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":16,\"item\":{\"@type\":\"Article\",\"name\":\"客家政策\",\"url\":\"https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96\"}},{\"@type\":\"ListItem\",\"position\":17,\"item\":{\"@type\":\"Article\",\"name\":\"城市外交\",\"url\":\"https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4\"}},{\"@type\":\"ListItem\",\"position\":18,\"item\":{\"@type\":\"Article\",\"name\":\"營養午餐\",\"url\":\"https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90\"}}]}},{\"@type\":\"Person\",\"@id\":\"https://puma.taipei/#puma-shen\",\"name\":\"沈伯洋\",\"alternateName\":\"Puma Shen\",\"jobTitle\":[\"立法委員\",\"台北市長候選人\"],\"description\":\"土生土長的台北人、收養家庭的爸爸，宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。\",\"url\":\"https://puma.taipei/\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://puma.taipei/images/og-default-20261013.webp\",\"width\":1200,\"height\":630},\"nationality\":\"TW\",\"sameAs\":[\"https://facebook.com/1087764201093899\",\"https://www.threads.com/@pumashen\",\"https://www.youtube.com/@PumaShen\",\"https://www.instagram.com/pumashen/\"],\"alumniOf\":[{\"@type\":\"EducationalOrganization\",\"name\":\"國立臺灣大學\"},{\"@type\":\"EducationalOrganization\",\"name\":\"University of Pennsylvania\"},{\"@type\":\"EducationalOrganization\",\"name\":\"University of California\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://puma.taipei/#website\",\"url\":\"https://puma.taipei/\",\"name\":\"沈伯洋｜台北市長候選人\",\"description\":\"沈伯洋宣布參選台北市長，提出讓台北重新成為可持續運轉城市生態系的願景。\",\"inLanguage\":\"zh-Hant\",\"publisher\":{\"@id\":\"https://puma.taipei/#puma-shen\"}}]}"
+  ],
+  "final_url": "https://puma.taipei/policies",
+  "http_status": 200,
+  "full_visible_text": "政見 — 沈伯洋台北市長競選官方網站\n關於伯洋\n個人經歷\n參選聲明\n學經歷與國際交流\n伯洋足跡\n最新行程\n捕捉野生沈伯洋\n政策願景\n前瞻規劃\nHEART 政策生態系\nHEART 政策島\n伯洋分類帽\n政策專區\n市民意見\n市長，你給我聽好了\n台北民意觀察室\n洋流來襲\n洋流活動\n競選歌曲\n洋流好店\n台北大洋流\n市政 debug 松\n募款專區\n洋流小物\n下載專區\n文宣下載\n洋流誌\n順報\n闢謠專區\n影音專區\n每日受訪\n直播\n文字專區\n闢謠專區\n公告\n公告圖片預覽\n本機版位樣板・不會公開\n前往相關資訊\nPOLICIES\n政見\n以 HEART 五個面向，整理對台北的政策主張。\nH\n空間，順起來\nHabitat\nE\n機會，給出來\nEmpower\nA\n陪伴，不孤單\nAccompany\nR\n韌性，有安心\nResilience\nT\n時間，省下來\nTime\n空間，順起來\n機會，給出來\n陪伴，不孤單\n原住民族政策\n原住民族政策\n空間，順起來\n陪伴，不孤單\n韌性，有安心\n住宅政策\n住宅政策\n空間，順起來\n陪伴，不孤單\n韌性，有安心\n都更政策\n都更政策\n機會，給出來\n陪伴，不孤單\n教育政策\n破解北市教職流失與校園危機 沈伯洋提教育四大支持\n教育政策\n空間，順起來\n時間，省下來\n交通政策\n沈伯洋提四大交通政見　讓綠色通勤選項＋1\n交通政策\n機會，給出來\n陪伴，不孤單\n韌性，有安心\n社福政策\n社福是衡量城市溫度的尺 沈伯洋提全齡政見打造完善體系\n社福政策\n空間，順起來\n陪伴，不孤單\n台北文化徑×山林徑\n串起城市歷史與山林　沈伯洋推四大文化徑、三大登山中心：打造亞洲第一觀光登山城\n台北文化徑×山林徑\n空間，順起來\n韌性，有安心\n都市微森林\n從「種樹」走向「養森林」！沈伯洋推都市微森林四大改革、打造台北處處有樹蔭\n都市微森林\n把樹種回來\n機會，給出來\n時間，省下來\n青年政策\n提青年加碼　沈伯洋祭城市基金、AI支持、圓夢計畫\n青年政策\n50萬起跑本金\nAI使用支持方案\n圓夢舞台\n空間，順起來\n機會，給出來\n時間，省下來\n運動政策\n沈伯洋發佈運動政見 將推國際足球場 超級市民運動中心\n運動政見\n台北運動生態系\n國際足球場\n超級市民運動中心\n陪伴，不孤單\n韌性，有安心\n時間，省下來\n家庭一站通\n沈伯洋拋「家庭一站通」政策，期盼台北成為有溫度、為人設計的城市\n家庭一站通\n家庭支持服務站\n家庭教育陪伴師\n多元家庭教育課程\n時間，省下來\n公務員政策\n公務員\n友善職場\nEAP\n彈性上下班\n陪伴，不孤單\n時間，省下來\n親子同行卡\n台北親子卡\n文化幣\n運動幣\n閱讀袋\n空間，順起來\n陪伴，不孤單\n韌性，有安心\n水域政策\n水域政策\n機會，給出來\n陪伴，不孤單\nAI政策\nai政策\n機會，給出來\n陪伴，不孤單\n客家政策\n客家政策\n機會，給出來\n韌性，有安心\n城市外交\n無限城論壇\n城市外交\n韌性，有安心\n營養午餐\n營養午餐\n贊助我們\n加入 LINE\n追蹤沈伯洋\nFacebook\nThreads\nYouTube\nInstagram\n沈伯洋台北市長競選總部\n週一至週日 10:00 - 20:00\n臺北市中正區北平東路30-1號1樓\n關於伯洋\n個人經歷\n參選聲明\n學經歷與國際交流\n影音行程\n每日受訪\n最新行程\n捕捉野生沈伯洋\n政策願景\n前瞻規劃\nHEART 政策生態系\nHEART 政策島\n伯洋分類帽\n政策專區\n市民意見\n市長，你給我聽好了\n台北民意觀察室\n洋流來襲\n洋流活動\n競選歌曲\n洋流好店\n台北大洋流\n市政 debug 松\n募款專區\n洋流小物\n下載專區\n文宣下載\n洋流誌\n順報\n闢謠專區\n本站文字資料與\n政策專區\n圖文採用\nCC BY 4.0\n授權",
+  "original_sha256": "c067c4dabaaa958dd1055fed4e89bd7f408cad8a5398c5f3215f94e19abfaf3f",
+  "private_original": "/Users/young/.codex/private-source-captures/strategy_sources_20261111/011460651e7bbf55fdbb.html"
+}
