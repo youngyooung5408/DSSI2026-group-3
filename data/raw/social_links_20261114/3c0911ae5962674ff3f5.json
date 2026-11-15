@@ -1,0 +1,11 @@
+{
+  "source_url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8D%BB%E7%91%A9",
+  "candidate_keys": [
+    "2026|直轄市議員|臺北市第6選舉區|曾獻瑩"
+  ],
+  "source_tier": "encyclopedia_unverified_lead",
+  "checked_at": "2026-11-14T09:23:12.894199+00:00",
+  "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)",
+  "http_status": 0,
+  "links": []
+}

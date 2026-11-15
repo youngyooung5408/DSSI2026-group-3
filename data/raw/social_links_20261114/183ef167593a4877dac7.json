@@ -1,0 +1,12 @@
+{
+  "source_url": "http://tcc10312.tcc.gov.tw",
+  "candidate_keys": [
+    "2026|直轄市議員|臺北市第6選舉區|徐弘庭"
+  ],
+  "source_tier": "official_council_personal_site",
+  "discovered_on": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2605",
+  "checked_at": "2026-11-14T09:23:51.180778+00:00",
+  "error": "URLError: <urlopen error [Errno 65] No route to host>",
+  "http_status": 0,
+  "links": []
+}

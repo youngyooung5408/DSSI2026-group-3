@@ -1,0 +1,20 @@
+[
+  {
+    "path": "data/raw/social_links_20261114_round2/historical_facebook.csv",
+    "source_url": "https://raw.githubusercontent.com/kiang/elections/master/Console/Command/data/facebook_candidates.csv",
+    "sha256": "de7a3a5bbd5e68d195007d19bdb702d88ad636d5fb1007eee7a334df819d6ebc",
+    "checked_at": "2026-11-14T09:41:28.023116+00:00"
+  },
+  {
+    "path": "data/raw/social_links_20261114_round2/civicwind_person.html",
+    "source_url": "https://civicwind.app/person",
+    "sha256": "310cadf20937096dfae9eb85d9ee47c62e595ea8ce367a9e2b47cfa72ca311b8",
+    "checked_at": "2026-11-14T09:41:29.604111+00:00"
+  },
+  {
+    "path": "data/raw/social_links_20261114_round2/kmt_youth_chair.html",
+    "source_url": "https://youth.kmtks.org.tw/chairman",
+    "sha256": "4e53719b9fdcbc8c3f978ef75844b245e40e7a5162c4d5b0382a16d9d75583e5",
+    "checked_at": "2026-11-14T09:41:30.517903+00:00"
+  }
+]

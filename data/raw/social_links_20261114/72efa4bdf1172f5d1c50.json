@@ -1,0 +1,12 @@
+{
+  "source_url": "http://tcc9513.tcc.gov.tw",
+  "candidate_keys": [
+    "2026|直轄市議員|臺北市第5選舉區|吳志剛"
+  ],
+  "source_tier": "official_council_personal_site",
+  "discovered_on": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2596",
+  "checked_at": "2026-11-14T09:24:13.855704+00:00",
+  "error": "URLError: <urlopen error [Errno 65] No route to host>",
+  "http_status": 0,
+  "links": []
+}
