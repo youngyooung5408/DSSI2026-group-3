@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>王肇民 threads at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.5e485425356583f3072f.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="王肇民 threads" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40fishyes%2Fpost%2FDfTnZcxFOSJ%2F%25E5%25A5%2587%25E5%25A6%2599%25E7%259A%2584%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA&amp;rut=bc44eee2bf411d7a1a038d66827d68186ad2ea8872f3feb3750ce9b1f836eae4">奇妙的高雄市長候選人 - threads.com</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40fishyes%2Fpost%2FDfTnZcxFOSJ%2F%25E5%25A5%2587%25E5%25A6%2599%25E7%259A%2584%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA&amp;rut=bc44eee2bf411d7a1a038d66827d68186ad2ea8872f3feb3750ce9b1f836eae4">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40fishyes%2Fpost%2FDfTnZcxFOSJ%2F%25E5%25A5%2587%25E5%25A6%2599%25E7%259A%2584%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA&amp;rut=bc44eee2bf411d7a1a038d66827d68186ad2ea8872f3feb3750ce9b1f836eae4">
+                            www.threads.com/@fishyes/post/DfTnZcxFOSJ/奇妙的高雄市長候選人
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40fishyes%2Fpost%2FDfTnZcxFOSJ%2F%25E5%25A5%2587%25E5%25A6%2599%25E7%259A%2584%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA&amp;rut=bc44eee2bf411d7a1a038d66827d68186ad2ea8872f3feb3750ce9b1f836eae4">影片裡這位是2026高雄市長候選人2號王肇民，無黨籍，選委會資料出生日是052/08/29。 這次高雄有5人完成登記，是縣市合併以來最多人參選，號次是1號張靜、2號王肇民、3號柯志恩、4號洪方隆、5號賴瑞隆，公辦政見會排在11/14各講24分鐘不辯論。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fudn.com%2Fnews%2Fstory%2F124652%2F9858861&amp;rut=8cbae3a82a3f3908a5cbcbbb6d6cbf4c1d00a733c8697da6bbe86a9578927b8f">王肇民高雄造勢晚會台下冷清!自架手機直播 網友佩服：一個人也要堅持到底 | 縣市長議員選戰 | 要聞 | 聯合新聞網</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fudn.com%2Fnews%2Fstory%2F124652%2F9858861&amp;rut=8cbae3a82a3f3908a5cbcbbb6d6cbf4c1d00a733c8697da6bbe86a9578927b8f">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/udn.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fudn.com%2Fnews%2Fstory%2F124652%2F9858861&amp;rut=8cbae3a82a3f3908a5cbcbbb6d6cbf4c1d00a733c8697da6bbe86a9578927b8f">
+                            udn.com/news/story/124652/9858861
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fudn.com%2Fnews%2Fstory%2F124652%2F9858861&amp;rut=8cbae3a82a3f3908a5cbcbbb6d6cbf4c1d00a733c8697da6bbe86a9578927b8f">一名網友在 <b>Threads</b> 曝光王肇民於3日晚間在岡山壽天宮前的造勢晚會，現場僅有數名觀眾，然而王肇民仍自行用手機架設直播畫面，對著台下侃侃而談 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ettoday.net%2Fnews%2F20261106%2F3267823.htm&amp;rut=827eb1be5048e198448cc29ad8fa6720390186f0381d3bf4dec3d8b28ca67fee">高雄市長候選人造勢!台下僅8人仍講完68分鐘 辛酸影片讓網喊佩服</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ettoday.net%2Fnews%2F20261106%2F3267823.htm&amp;rut=827eb1be5048e198448cc29ad8fa6720390186f0381d3bf4dec3d8b28ca67fee">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.ettoday.net.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ettoday.net%2Fnews%2F20261106%2F3267823.htm&amp;rut=827eb1be5048e198448cc29ad8fa6720390186f0381d3bf4dec3d8b28ca67fee">
+                            www.ettoday.net/news/20261106/3267823.htm
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ettoday.net%2Fnews%2F20261106%2F3267823.htm&amp;rut=827eb1be5048e198448cc29ad8fa6720390186f0381d3bf4dec3d8b28ca67fee">網友在Threads貼出王肇民的造勢活動影片，可以看見現年63歲的王肇民當時穿著西裝登台，身旁看不到大量的競選團隊成員，從直播到宣講幾乎都自己 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6890166&amp;rut=396af5738e0e5616cb2722f660919f0ffcef86f625fbdd397548ca10b2b20615">高雄市長候選人造勢台下僅8人!上台狂講68分鍾 辛酸畫面全佩服 | 新奇網搜 | 生活 | NOWnews今日新聞</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6890166&amp;rut=396af5738e0e5616cb2722f660919f0ffcef86f625fbdd397548ca10b2b20615">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.nownews.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6890166&amp;rut=396af5738e0e5616cb2722f660919f0ffcef86f625fbdd397548ca10b2b20615">
+                            www.nownews.com/news/6890166
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6890166&amp;rut=396af5738e0e5616cb2722f660919f0ffcef86f625fbdd397548ca10b2b20615">無黨籍高雄市長候選人王肇民近日舉辦造勢晚會，結果現場民眾只有8位，還是努力演講68分鐘。（圖/Threads@fishyes）</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ebc.net.tw%2Fnews%2Fpolitics%2F579444&amp;rut=07a6014a64fc6e74a8799ff3f47b675bbcdcd1c6b19d948afc42f0f878c357c1">高雄市長候選人造勢「台下只有8人」!冷清畫面曝｜東森新聞</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ebc.net.tw%2Fnews%2Fpolitics%2F579444&amp;rut=07a6014a64fc6e74a8799ff3f47b675bbcdcd1c6b19d948afc42f0f878c357c1">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/news.ebc.net.tw.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ebc.net.tw%2Fnews%2Fpolitics%2F579444&amp;rut=07a6014a64fc6e74a8799ff3f47b675bbcdcd1c6b19d948afc42f0f878c357c1">
+                            news.ebc.net.tw/news/politics/579444
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ebc.net.tw%2Fnews%2Fpolitics%2F579444&amp;rut=07a6014a64fc6e74a8799ff3f47b675bbcdcd1c6b19d948afc42f0f878c357c1">高雄市長候選人王肇民近日舉辦造勢活動，儘管現場只有8名民眾坐在台下，他依舊獨自講滿68分鐘。（圖／Threads @fishyes授權提供）</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fctinews.com%2Fnews%2Fitems%2Fq6xVpyD7W7&amp;rut=e0af481c195d1aa360078b2c7aeceaca0ce42e6a025073631512f6bc2ca52e21">台下才8人!高雄市長候選人王肇民「堅持講完稿」爆紅台下才8人!高雄市長候選人王肇民「堅持講完稿」爆紅</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fctinews.com%2Fnews%2Fitems%2Fq6xVpyD7W7&amp;rut=e0af481c195d1aa360078b2c7aeceaca0ce42e6a025073631512f6bc2ca52e21">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/ctinews.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fctinews.com%2Fnews%2Fitems%2Fq6xVpyD7W7&amp;rut=e0af481c195d1aa360078b2c7aeceaca0ce42e6a025073631512f6bc2ca52e21">
+                            ctinews.com/news/items/q6xVpyD7W7
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fctinews.com%2Fnews%2Fitems%2Fq6xVpyD7W7&amp;rut=e0af481c195d1aa360078b2c7aeceaca0ce42e6a025073631512f6bc2ca52e21">高雄市長選舉，無黨籍候選人王肇民在網路引起討論。 （圖／取自王肇民臉書） 根據一名女網友在社群平台 <b>Threads</b> 上的分享，王肇民於3日晚間在壽天宮進行宣講活動。 由於身為無黨籍候選人，缺乏政黨資源與知名度，到場支持民眾相當有限。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E5%258F%25B0%25E4%25B8%258B%25E6%2589%258D8%25E4%25BA%25BA%2D%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E7%258E%258B%25E8%2582%2587%25E6%25B0%2591%2D%25E5%25A0%2585%25E6%258C%2581%25E8%25AC%259B%25E5%25AE%258C%25E7%25A8%25BF%2D%25E7%2588%2586%25E7%25B4%2585%2D062842511.html&amp;rut=5e54a3c76b7ddaafd33f3dc4ba0afcade9f1c794c89a9973370c834555b66a43">台下才8人!高雄市長候選人王肇民「堅持講完稿」爆紅</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E5%258F%25B0%25E4%25B8%258B%25E6%2589%258D8%25E4%25BA%25BA%2D%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E7%258E%258B%25E8%2582%2587%25E6%25B0%2591%2D%25E5%25A0%2585%25E6%258C%2581%25E8%25AC%259B%25E5%25AE%258C%25E7%25A8%25BF%2D%25E7%2588%2586%25E7%25B4%2585%2D062842511.html&amp;rut=5e54a3c76b7ddaafd33f3dc4ba0afcade9f1c794c89a9973370c834555b66a43">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/tw.news.yahoo.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E5%258F%25B0%25E4%25B8%258B%25E6%2589%258D8%25E4%25BA%25BA%2D%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E7%258E%258B%25E8%2582%2587%25E6%25B0%2591%2D%25E5%25A0%2585%25E6%258C%2581%25E8%25AC%259B%25E5%25AE%258C%25E7%25A8%25BF%2D%25E7%2588%2586%25E7%25B4%2585%2D062842511.html&amp;rut=5e54a3c76b7ddaafd33f3dc4ba0afcade9f1c794c89a9973370c834555b66a43">
+                            tw.news.yahoo.com/台下才8人-高雄市長候選人王肇民-堅持講完稿-爆紅-062842511.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E5%258F%25B0%25E4%25B8%258B%25E6%2589%258D8%25E4%25BA%25BA%2D%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E7%258E%258B%25E8%2582%2587%25E6%25B0%2591%2D%25E5%25A0%2585%25E6%258C%2581%25E8%25AC%259B%25E5%25AE%258C%25E7%25A8%25BF%2D%25E7%2588%2586%25E7%25B4%2585%2D062842511.html&amp;rut=5e54a3c76b7ddaafd33f3dc4ba0afcade9f1c794c89a9973370c834555b66a43">根據一名女網友在社群平台 <b>Threads</b> 上的分享，王肇民於3日晚間在壽天宮進行宣講活動。由於身為無黨籍候選人，缺乏政黨資源與知名度，到場支持 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E9%2580%25A0%25E5%258B%25A2%2D%25E5%258F%25B0%25E4%25B8%258B%25E5%258F%25AA%25E6%259C%25898%25E4%25BA%25BA%2D%25E5%2586%25B7%25E6%25B8%2585%25E7%2595%25AB%25E9%259D%25A2%25E6%259B%259D%2D132500098.html&amp;rut=a1f4361d713539cf44a7da3f533dbc87d84b42adaca34b822208fddc845997b3">高雄市長候選人造勢「台下只有8人」!冷清畫面曝</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E9%2580%25A0%25E5%258B%25A2%2D%25E5%258F%25B0%25E4%25B8%258B%25E5%258F%25AA%25E6%259C%25898%25E4%25BA%25BA%2D%25E5%2586%25B7%25E6%25B8%2585%25E7%2595%25AB%25E9%259D%25A2%25E6%259B%259D%2D132500098.html&amp;rut=a1f4361d713539cf44a7da3f533dbc87d84b42adaca34b822208fddc845997b3">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/tw.news.yahoo.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E9%2580%25A0%25E5%258B%25A2%2D%25E5%258F%25B0%25E4%25B8%258B%25E5%258F%25AA%25E6%259C%25898%25E4%25BA%25BA%2D%25E5%2586%25B7%25E6%25B8%2585%25E7%2595%25AB%25E9%259D%25A2%25E6%259B%259D%2D132500098.html&amp;rut=a1f4361d713539cf44a7da3f533dbc87d84b42adaca34b822208fddc845997b3">
+                            tw.news.yahoo.com/高雄市長候選人造勢-台下只有8人-冷清畫面曝-132500098.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Ftw.news.yahoo.com%2F%25E9%25AB%2598%25E9%259B%2584%25E5%25B8%2582%25E9%2595%25B7%25E5%2580%2599%25E9%2581%25B8%25E4%25BA%25BA%25E9%2580%25A0%25E5%258B%25A2%2D%25E5%258F%25B0%25E4%25B8%258B%25E5%258F%25AA%25E6%259C%25898%25E4%25BA%25BA%2D%25E5%2586%25B7%25E6%25B8%2585%25E7%2595%25AB%25E9%259D%25A2%25E6%259B%259D%2D132500098.html&amp;rut=a1f4361d713539cf44a7da3f533dbc87d84b42adaca34b822208fddc845997b3">高雄市長候選人王肇民近日舉辦造勢活動，儘管現場只有8名民眾坐在台下，他依舊獨自講滿68分鐘。（圖／Threads @fishyes授權提供）</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mirrormedia.mg%2Fstory%2F20261107edi016&amp;rut=7bb10e96786fe755f352b82f16c4edebef5792ba84007bb2bdcde31d2ed94919">台下只有8個人「不看稿講完68分鐘」!百萬人朝聖 高雄市長候選人：沒打算拿回保證金 - 鏡週刊 Mirror Media</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mirrormedia.mg%2Fstory%2F20261107edi016&amp;rut=7bb10e96786fe755f352b82f16c4edebef5792ba84007bb2bdcde31d2ed94919">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.mirrormedia.mg.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mirrormedia.mg%2Fstory%2F20261107edi016&amp;rut=7bb10e96786fe755f352b82f16c4edebef5792ba84007bb2bdcde31d2ed94919">
+                            www.mirrormedia.mg/story/20261107edi016
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mirrormedia.mg%2Fstory%2F20261107edi016&amp;rut=7bb10e96786fe755f352b82f16c4edebef5792ba84007bb2bdcde31d2ed94919">高雄市長候選人王肇民近日舉行造勢活動，台下只有8個人，仍自己不看稿完成68分鐘演講。（翻攝自YouTube向揚錄影網路電視有限公司） 文｜ 陳凱俊 九合一大選倒數21天，除了藍綠兩大黨積極搶攻選票，還有很多獨立參選的候選人也想讓選民聽見他們的政見。號次2號的無黨籍高雄市長候選人王肇民 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.chinatimes.com%2Frealtimenews%2F20261107001742%2D260405&amp;rut=7466eebb11c07eb008cc2aa5baeb7f03f2fc2560735ceaae2dd7c4d3b301bd22">高雄市長候選人造勢 台下僅8人「68分鐘講好講滿」爆紅</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.chinatimes.com%2Frealtimenews%2F20261107001742%2D260405&amp;rut=7466eebb11c07eb008cc2aa5baeb7f03f2fc2560735ceaae2dd7c4d3b301bd22">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.chinatimes.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.chinatimes.com%2Frealtimenews%2F20261107001742%2D260405&amp;rut=7466eebb11c07eb008cc2aa5baeb7f03f2fc2560735ceaae2dd7c4d3b301bd22">
+                            www.chinatimes.com/realtimenews/20261107001742-260405
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.chinatimes.com%2Frealtimenews%2F20261107001742%2D260405&amp;rut=7466eebb11c07eb008cc2aa5baeb7f03f2fc2560735ceaae2dd7c4d3b301bd22">高雄市長候選人王肇民3日晚間在壽天宮宣講，台下只有8名支持者，他依然講好講滿68分鐘，在網路上爆紅。（圖／網友fishyes ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="王肇民 threads" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-188801826388763892945816392474862305497" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

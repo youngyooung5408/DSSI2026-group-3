@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>蕭文乾 threads at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.5e485425356583f3072f.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="蕭文乾 threads" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40tsaiweiche%2Fpost%2FDPpnGVZk0mC&amp;rut=57965caa370c4ab2b988e55de00a9ecdf1c1f6c50234e80b9954f72438eb10b2">蕭文乾博士有發明完整的對應英文的注音符號 ... - Thread</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40tsaiweiche%2Fpost%2FDPpnGVZk0mC&amp;rut=57965caa370c4ab2b988e55de00a9ecdf1c1f6c50234e80b9954f72438eb10b2">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40tsaiweiche%2Fpost%2FDPpnGVZk0mC&amp;rut=57965caa370c4ab2b988e55de00a9ecdf1c1f6c50234e80b9954f72438eb10b2">
+                            www.threads.com/@tsaiweiche/post/DPpnGVZk0mC
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40tsaiweiche%2Fpost%2FDPpnGVZk0mC&amp;rut=57965caa370c4ab2b988e55de00a9ecdf1c1f6c50234e80b9954f72438eb10b2">蕭文乾博士有發明完整的對應英文的注音符號，可以參考。 漢語拼音未必比較好，英文也會被漢語拼音的發音干擾，一個符號重複代表多個聲音註定是悲劇。 請不要無故指責我甜貢 因為好比日韓等漢字圈國語辭典 都是以「發音字母」作排列的 +86更不用說 中文辭典全都用拼音排列的</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dhk&amp;rut=e38c589bf1c64b5bdd44f4d6cb90f3c52dccff03215c95b67091c48cd23f8131">Threads（@threads） • Threads，暢所欲言</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dhk&amp;rut=e38c589bf1c64b5bdd44f4d6cb90f3c52dccff03215c95b67091c48cd23f8131">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dhk&amp;rut=e38c589bf1c64b5bdd44f4d6cb90f3c52dccff03215c95b67091c48cd23f8131">
+                            www.threads.com/@threads?hl=zh-hk
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dhk&amp;rut=e38c589bf1c64b5bdd44f4d6cb90f3c52dccff03215c95b67091c48cd23f8131">696.2 萬位粉絲 • 1,436 則串文 • Come see what everyone&#x27;s talking about 。查看 @<b>threads</b> 參與的最新對話。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%4011.sns%3Fhl%3Dzh%2Dtw&amp;rut=df984e3e64b096e6d0d92debdb373d3e0746d977480d77f866d8b2c369f36a06">蕭伊 소이（@11.sns） • Threads，暢所欲言</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%4011.sns%3Fhl%3Dzh%2Dtw&amp;rut=df984e3e64b096e6d0d92debdb373d3e0746d977480d77f866d8b2c369f36a06">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%4011.sns%3Fhl%3Dzh%2Dtw&amp;rut=df984e3e64b096e6d0d92debdb373d3e0746d977480d77f866d8b2c369f36a06">
+                            www.threads.com/@11.sns?hl=zh-tw
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%4011.sns%3Fhl%3Dzh%2Dtw&amp;rut=df984e3e64b096e6d0d92debdb373d3e0746d977480d77f866d8b2c369f36a06">蕭伊團購限時優惠賣場 155 2 蕭伊 소이 (@11.sns) 2026年9月6日上午5:35 🩷 我朋友唱歌也太好了吧 請點下面播放這首歌👇🏻 逝去的煙花 · Ginger</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%3Fhl%3Dzh%2Dtw&amp;rut=f3a5eeddf0ca088ebbca041385452caaf358d80545735c9d9249bf7a4e2868e7">Threads</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%3Fhl%3Dzh%2Dtw&amp;rut=f3a5eeddf0ca088ebbca041385452caaf358d80545735c9d9249bf7a4e2868e7">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%3Fhl%3Dzh%2Dtw&amp;rut=f3a5eeddf0ca088ebbca041385452caaf358d80545735c9d9249bf7a4e2868e7">
+                            www.threads.com/?hl=zh-tw
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%3Fhl%3Dzh%2Dtw&amp;rut=f3a5eeddf0ca088ebbca041385452caaf358d80545735c9d9249bf7a4e2868e7">加入 <b>Threads</b> 即可分享意見、詢問問題、隨興發佈想法、尋找志趣相投的同好等等。使用你的 Instagram 登入。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=c4b304f15cb1c574d521a09c6ec860364a039c429725ce9700f4b6152dd989cd">蕭文乾的最新討論 | Dcard</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=c4b304f15cb1c574d521a09c6ec860364a039c429725ce9700f4b6152dd989cd">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.dcard.tw.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=c4b304f15cb1c574d521a09c6ec860364a039c429725ce9700f4b6152dd989cd">
+                            www.dcard.tw/topics/蕭文乾
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=c4b304f15cb1c574d521a09c6ec860364a039c429725ce9700f4b6152dd989cd"><b>蕭文乾</b> 1 篇文章 0 人追蹤 追蹤 看板篩選 最新 熱門 六都市長大選板 國立中興大學中間選民8 小時</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40hwwc.23&amp;rut=4fbe6c22d850abae36a9cc9e18462d83eb4f8faa1b54a8a489f57e0f0bfd1a2e">蕭文嘉 Willis (@hwwc.23) • Threads, Say more</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40hwwc.23&amp;rut=4fbe6c22d850abae36a9cc9e18462d83eb4f8faa1b54a8a489f57e0f0bfd1a2e">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40hwwc.23&amp;rut=4fbe6c22d850abae36a9cc9e18462d83eb4f8faa1b54a8a489f57e0f0bfd1a2e">
+                            www.threads.com/@hwwc.23
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40hwwc.23&amp;rut=4fbe6c22d850abae36a9cc9e18462d83eb4f8faa1b54a8a489f57e0f0bfd1a2e">247 Followers • 250 <b>Threads</b> • 好累ㄛ 躺平好了. See the latest conversations with @hwwc.23.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE%3Ftab%3Dhot&amp;rut=8b3e4274cc95847435f212113c0d6a8dec10748f29f285f9c36a55b8f849f9bf">蕭文乾 的熱門話題 | Dcard</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE%3Ftab%3Dhot&amp;rut=8b3e4274cc95847435f212113c0d6a8dec10748f29f285f9c36a55b8f849f9bf">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.dcard.tw.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE%3Ftab%3Dhot&amp;rut=8b3e4274cc95847435f212113c0d6a8dec10748f29f285f9c36a55b8f849f9bf">
+                            www.dcard.tw/topics/蕭文乾?tab=hot
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE%3Ftab%3Dhot&amp;rut=8b3e4274cc95847435f212113c0d6a8dec10748f29f285f9c36a55b8f849f9bf"><b>蕭文乾</b> 1 篇文章 0 人追蹤 追蹤 看板篩選 最新 熱門 六都市長大選板 國立中興大學中間選民8 小時</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=193cdb68b7e235624d0e8eb7926927809a4370c0912f9c314871ef0a431a27c9">蕭文乾 - 維基百科，自由的百科全書</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=193cdb68b7e235624d0e8eb7926927809a4370c0912f9c314871ef0a431a27c9">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/zh.wikipedia.org.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=193cdb68b7e235624d0e8eb7926927809a4370c0912f9c314871ef0a431a27c9">
+                            zh.wikipedia.org/zh-tw/蕭文乾
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2595%25AD%25E6%2596%2587%25E4%25B9%25BE&amp;rut=193cdb68b7e235624d0e8eb7926927809a4370c0912f9c314871ef0a431a27c9">蕭文乾認為臺灣的英文教育跳過美國的「科學閱讀SoR」第一階段「音素覺察」，直接教導學童 Phonics，是導致許多學童放棄學習英文的原因，因此2020年，他成立 臺灣雙語無法黨 及 臺灣雙母語研究學會，依據美國的「科學閱讀 Science of Reading,SoR」研發「雙母語教學系統」，以及結合中文音素 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2587%25BA%25E7%2581%25A3SoR%25E7%2584%25A1%25E6%25B3%2595%25E9%25BB%25A8&amp;rut=d06a14a1c1cc730e5f0b9c1065d7598c7ada0b655e0a729d37c55cbce4deb73e">臺灣SoR無法黨 - 維基百科，自由的百科全書</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2587%25BA%25E7%2581%25A3SoR%25E7%2584%25A1%25E6%25B3%2595%25E9%25BB%25A8&amp;rut=d06a14a1c1cc730e5f0b9c1065d7598c7ada0b655e0a729d37c55cbce4deb73e">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/zh.wikipedia.org.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2587%25BA%25E7%2581%25A3SoR%25E7%2584%25A1%25E6%25B3%2595%25E9%25BB%25A8&amp;rut=d06a14a1c1cc730e5f0b9c1065d7598c7ada0b655e0a729d37c55cbce4deb73e">
+                            zh.wikipedia.org/zh-tw/臺灣SoR無法黨
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E8%2587%25BA%25E7%2581%25A3SoR%25E7%2584%25A1%25E6%25B3%2595%25E9%25BB%25A8&amp;rut=d06a14a1c1cc730e5f0b9c1065d7598c7ada0b655e0a729d37c55cbce4deb73e">臺灣SoR無法黨 ，原名 臺灣雙語無法黨，是 中華民國 一個 政黨 組織，於民國109年（2020年）1月19日由臺灣雙母語學殿股份有限公司負責人 <b>蕭文乾</b> 所發起、組建，並於同年3月3日經內政部審核通過，成為中華民國第366個政黨。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fblindvote.app%2Fbio%2Ftaipei%2Fhsiao%2Dwen%2Dchien&amp;rut=69246028b2415d9af7102d54d48d3aca7566b3873df63af826a310992716e2c1">蕭文乾 學歷與經歷｜2026 台北市長候選人｜留白投票所</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fblindvote.app%2Fbio%2Ftaipei%2Fhsiao%2Dwen%2Dchien&amp;rut=69246028b2415d9af7102d54d48d3aca7566b3873df63af826a310992716e2c1">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/blindvote.app.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fblindvote.app%2Fbio%2Ftaipei%2Fhsiao%2Dwen%2Dchien&amp;rut=69246028b2415d9af7102d54d48d3aca7566b3873df63af826a310992716e2c1">
+                            blindvote.app/bio/taipei/hsiao-wen-chien
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fblindvote.app%2Fbio%2Ftaipei%2Fhsiao%2Dwen%2Dchien&amp;rut=69246028b2415d9af7102d54d48d3aca7566b3873df63af826a310992716e2c1">2026 台北市長候選人蕭文乾（臺灣SoR無法黨）的學歷與經歷，逐字照抄政府網站的公布，附出處。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="蕭文乾 threads" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-59386953749389016361832839635753715738" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

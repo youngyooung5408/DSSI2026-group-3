@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>張靜 threads at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.5e485425356583f3072f.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="張靜 threads" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40mm1i2tw&amp;rut=33142c6c4b4ee98fc3794c22ad96bd5005dde5779f2035ce352eaac92a7f64bf">張靜工程師 (@mm1i2tw) • Threads, Say more</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40mm1i2tw&amp;rut=33142c6c4b4ee98fc3794c22ad96bd5005dde5779f2035ce352eaac92a7f64bf">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40mm1i2tw&amp;rut=33142c6c4b4ee98fc3794c22ad96bd5005dde5779f2035ce352eaac92a7f64bf">
+                            www.threads.com/@mm1i2tw
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40mm1i2tw&amp;rut=33142c6c4b4ee98fc3794c22ad96bd5005dde5779f2035ce352eaac92a7f64bf">116.7K Followers • 2.4K <b>Threads</b> • 從護理師 轉職到 半導體當製程工程師 座標台中 約拍請私i g 日文名字是 森上 梅酉前 終究是瘋了凉 ENFJ. See the latest conversations with @mm1i2tw.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40lin8elu%3Fhl%3Dzh%2Dtw&amp;rut=b1a57009a78934956963da8c57797124b7abd6813a3e87e771ab5be9a227731c">張語靜（@lin8elu） • Threads，暢所欲言</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40lin8elu%3Fhl%3Dzh%2Dtw&amp;rut=b1a57009a78934956963da8c57797124b7abd6813a3e87e771ab5be9a227731c">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40lin8elu%3Fhl%3Dzh%2Dtw&amp;rut=b1a57009a78934956963da8c57797124b7abd6813a3e87e771ab5be9a227731c">
+                            www.threads.com/@lin8elu?hl=zh-tw
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40lin8elu%3Fhl%3Dzh%2Dtw&amp;rut=b1a57009a78934956963da8c57797124b7abd6813a3e87e771ab5be9a227731c">lin8elu 張語靜 lin8elu 唯一帳號 無其他小號💬 ♥️快來追蹤我♥️本人接洽👋 ⚠️如果見面非本人歡迎馬上離開 🇹🇼台中人27y 詐騙+變態走開🙏 linkbio.co/8090914SbIQpQ</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.tvbs.com.tw%2Fpolitics%2F4049794&amp;rut=0f88062a64f20a480e20e9004ee6782b5b501d84aafcd6ec26e77532c87f3e1e">張善政開通Threads首發文!遭酸「新店市長」本人親回：官邸外當面聊</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.tvbs.com.tw%2Fpolitics%2F4049794&amp;rut=0f88062a64f20a480e20e9004ee6782b5b501d84aafcd6ec26e77532c87f3e1e">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/news.tvbs.com.tw.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.tvbs.com.tw%2Fpolitics%2F4049794&amp;rut=0f88062a64f20a480e20e9004ee6782b5b501d84aafcd6ec26e77532c87f3e1e">
+                            news.tvbs.com.tw/politics/4049794
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.tvbs.com.tw%2Fpolitics%2F4049794&amp;rut=0f88062a64f20a480e20e9004ee6782b5b501d84aafcd6ec26e77532c87f3e1e">2026九合一大選投票倒數15天，桃園市長張善政今（12）日正式開通Threads帳號，首篇貼文迅速吸引超過11萬次瀏覽。不過，他沒有談論選舉或政治 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.instagram.com%2Fmm1i2tw%2F&amp;rut=87f2cad7522d91615322a1fa43ca8ce97a23b0b740c4fdea753df9dcbca7deb8">張靜工程師 (@mm1i2tw) • Instagram photos and videos</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.instagram.com%2Fmm1i2tw%2F&amp;rut=87f2cad7522d91615322a1fa43ca8ce97a23b0b740c4fdea753df9dcbca7deb8">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.instagram.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.instagram.com%2Fmm1i2tw%2F&amp;rut=87f2cad7522d91615322a1fa43ca8ce97a23b0b740c4fdea753df9dcbca7deb8">
+                            www.instagram.com/mm1i2tw/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.instagram.com%2Fmm1i2tw%2F&amp;rut=87f2cad7522d91615322a1fa43ca8ce97a23b0b740c4fdea753df9dcbca7deb8">112K Followers, 1,786 Following, 744 Posts - 張靜工程師 (@mm1i2tw) on Instagram: &quot;我從#護理師 轉職到 半導體當製程 #工程師 啦 💌合作zhangjingmm1i2tw@gmail.com #ENFJ 人生不過體驗而已&quot;</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FdNCL1lkyC8g&amp;rut=3d1a834b4b7acf523706ac3d0d936bc5c3b94799b9429f9bab2f9d3555c91bbb">Threads 被罵能告嗎？｜張靜律師解析言論自由與法律責任 - YouTube</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FdNCL1lkyC8g&amp;rut=3d1a834b4b7acf523706ac3d0d936bc5c3b94799b9429f9bab2f9d3555c91bbb">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.youtube.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FdNCL1lkyC8g&amp;rut=3d1a834b4b7acf523706ac3d0d936bc5c3b94799b9429f9bab2f9d3555c91bbb">
+                            www.youtube.com/shorts/dNCL1lkyC8g
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FdNCL1lkyC8g&amp;rut=3d1a834b4b7acf523706ac3d0d936bc5c3b94799b9429f9bab2f9d3555c91bbb">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fzhang.jing.915644%2F&amp;rut=c100ec7b2e2a829d458d9d28b86f270434e0bc04b7407d5dfc4a885d985bc9fb">張靜</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fzhang.jing.915644%2F&amp;rut=c100ec7b2e2a829d458d9d28b86f270434e0bc04b7407d5dfc4a885d985bc9fb">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.facebook.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fzhang.jing.915644%2F&amp;rut=c100ec7b2e2a829d458d9d28b86f270434e0bc04b7407d5dfc4a885d985bc9fb">
+                            www.facebook.com/zhang.jing.915644/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fzhang.jing.915644%2F&amp;rut=c100ec7b2e2a829d458d9d28b86f270434e0bc04b7407d5dfc4a885d985bc9fb">張靜. 12,740 followers · 4,454 talking about this. 嗨～我是張靜</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.upmedia.mg%2Ftw%2Ffocus%2Fbreaking%2Dnews%2F274069&amp;rut=cac1a97c44a311747c936f6393090e10203ad01b80305287364512705a9aca57">張善政開通Threads!回擊老哏「新店市長」 本人親揪：到官邸聊聊</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.upmedia.mg%2Ftw%2Ffocus%2Fbreaking%2Dnews%2F274069&amp;rut=cac1a97c44a311747c936f6393090e10203ad01b80305287364512705a9aca57">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.upmedia.mg.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.upmedia.mg%2Ftw%2Ffocus%2Fbreaking%2Dnews%2F274069&amp;rut=cac1a97c44a311747c936f6393090e10203ad01b80305287364512705a9aca57">
+                            www.upmedia.mg/tw/focus/breaking-news/274069
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.upmedia.mg%2Ftw%2Ffocus%2Fbreaking%2Dnews%2F274069&amp;rut=cac1a97c44a311747c936f6393090e10203ad01b80305287364512705a9aca57">桃園市長張善政12日開通社群平台Threads帳號。 （資料照片／王侑聖攝） 桃園市長張善政今天（12日）下午開通社群平台Threads帳號，對外說明美光桃園廠勞資爭議，並呼籲外界表達意見之餘，應保持理性。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891874&amp;rut=8a51e2314914ad110da8563ebe2d7111062e9737d9d9139e0c42183b20163b66">開Threads遭酸「新店市長」!張善政約官邸見面聊 現場湧人潮 | 要聞 | NOWnews今日新聞</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891874&amp;rut=8a51e2314914ad110da8563ebe2d7111062e9737d9d9139e0c42183b20163b66">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.nownews.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891874&amp;rut=8a51e2314914ad110da8563ebe2d7111062e9737d9d9139e0c42183b20163b66">
+                            www.nownews.com/news/6891874
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891874&amp;rut=8a51e2314914ad110da8563ebe2d7111062e9737d9d9139e0c42183b20163b66">桃園市長張善政今（12）日請假第一天拚選戰，也正式開通Threads帳號向外界說明美光桃園廠勞資談判進度，卻被民眾大酸「新店市長首次發文，看來 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.storm.mg%2Farticle%2F11181083&amp;rut=43669c6b04cd45fa6a2bedca508306ba0a4b01144ca7bf8e52e4fc7dc4a020d5">張善政開通Threads不談選舉 首篇貼文先談「這件事」：社群言論恐被解讀為輿論操作 | 蕭宥宸 | 新聞 - 風傳媒</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.storm.mg%2Farticle%2F11181083&amp;rut=43669c6b04cd45fa6a2bedca508306ba0a4b01144ca7bf8e52e4fc7dc4a020d5">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.storm.mg.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.storm.mg%2Farticle%2F11181083&amp;rut=43669c6b04cd45fa6a2bedca508306ba0a4b01144ca7bf8e52e4fc7dc4a020d5">
+                            www.storm.mg/article/11181083
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.storm.mg%2Farticle%2F11181083&amp;rut=43669c6b04cd45fa6a2bedca508306ba0a4b01144ca7bf8e52e4fc7dc4a020d5">桃園市長張善政（前左）12日正式投入選戰，南下雲林與國民黨縣長參選人張嘉郡（前右）車隊掃街，同日開通Threads帳號 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fmm1i2tw%2F&amp;rut=e7abf82ea8ea7094b00ce3be4e784010b3746f416b0a5ddd412323368c39219d">張靜護理師Hannah nurse</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fmm1i2tw%2F&amp;rut=e7abf82ea8ea7094b00ce3be4e784010b3746f416b0a5ddd412323368c39219d">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.facebook.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fmm1i2tw%2F&amp;rut=e7abf82ea8ea7094b00ce3be4e784010b3746f416b0a5ddd412323368c39219d">
+                            www.facebook.com/mm1i2tw/
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fmm1i2tw%2F&amp;rut=e7abf82ea8ea7094b00ce3be4e784010b3746f416b0a5ddd412323368c39219d">張靜護理師Hannah nurse. 27,181 followers · 7,389 talking about this. 我從護理師 轉職成 工程師啦! 我的斜槓生活</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="張靜 threads" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-21342921129479507775882895784782851459" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>

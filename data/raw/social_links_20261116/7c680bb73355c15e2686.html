@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--[if IE 6]><html class="ie6" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 7]><html class="lt-ie8 lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+  <meta name="referrer" content="origin" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>唐新民 threads at DuckDuckGo</title>
+  <link title="DuckDuckGo (HTML)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_html_v2.xml" />
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/h.5e485425356583f3072f.css" type="text/css"/>
+</head>
+
+<body class="body--html">
+  <a name="top" id="top"></a>
+
+  <form action="/html/" method="post">
+    <input type="text" name="state_hidden" id="state_hidden" />
+  </form>
+
+  <div>
+    <div class="site-wrapper-border"></div>
+
+    <div id="header" class="header cw header--html">
+      <a title="DuckDuckGo" href="/html/" class="header__logo-wrap"></a>
+
+      <form name="x" class="header__form" action="/html/" method="post">
+        <div class="search search--header">
+          <input name="q" autocomplete="off" class="search__input" id="search_form_input_homepage" type="text" value="唐新民 threads" />
+          <input name="b" id="search_button_homepage" class="search__button search__button--html" value="" title="Search" alt="Search" type="submit" />
+        </div>
+
+        
+        
+        
+        
+
+        <div class="frm__select">
+          <select name="kl">
+            
+              <option value="" >All Regions</option>
+            
+              <option value="ar-es" >Argentina</option>
+            
+              <option value="au-en" >Australia</option>
+            
+              <option value="at-de" >Austria</option>
+            
+              <option value="be-fr" >Belgium (fr)</option>
+            
+              <option value="be-nl" >Belgium (nl)</option>
+            
+              <option value="br-pt" >Brazil</option>
+            
+              <option value="bg-bg" >Bulgaria</option>
+            
+              <option value="ca-en" >Canada (en)</option>
+            
+              <option value="ca-fr" >Canada (fr)</option>
+            
+              <option value="ct-ca" >Catalonia</option>
+            
+              <option value="cl-es" >Chile</option>
+            
+              <option value="cn-zh" >China</option>
+            
+              <option value="co-es" >Colombia</option>
+            
+              <option value="hr-hr" >Croatia</option>
+            
+              <option value="cz-cs" >Czech Republic</option>
+            
+              <option value="dk-da" >Denmark</option>
+            
+              <option value="ee-et" >Estonia</option>
+            
+              <option value="fi-fi" >Finland</option>
+            
+              <option value="fr-fr" >France</option>
+            
+              <option value="de-de" >Germany</option>
+            
+              <option value="gr-el" >Greece</option>
+            
+              <option value="hk-tzh" >Hong Kong</option>
+            
+              <option value="hu-hu" >Hungary</option>
+            
+              <option value="is-is" >Iceland</option>
+            
+              <option value="in-en" >India (en)</option>
+            
+              <option value="id-en" >Indonesia (en)</option>
+            
+              <option value="ie-en" >Ireland</option>
+            
+              <option value="il-en" >Israel (en)</option>
+            
+              <option value="it-it" >Italy</option>
+            
+              <option value="jp-jp" >Japan</option>
+            
+              <option value="kr-kr" >Korea</option>
+            
+              <option value="lv-lv" >Latvia</option>
+            
+              <option value="lt-lt" >Lithuania</option>
+            
+              <option value="my-en" >Malaysia (en)</option>
+            
+              <option value="mx-es" >Mexico</option>
+            
+              <option value="nl-nl" >Netherlands</option>
+            
+              <option value="nz-en" >New Zealand</option>
+            
+              <option value="no-no" >Norway</option>
+            
+              <option value="pk-en" >Pakistan (en)</option>
+            
+              <option value="pe-es" >Peru</option>
+            
+              <option value="ph-en" >Philippines (en)</option>
+            
+              <option value="pl-pl" >Poland</option>
+            
+              <option value="pt-pt" >Portugal</option>
+            
+              <option value="ro-ro" >Romania</option>
+            
+              <option value="ru-ru" >Russia</option>
+            
+              <option value="xa-ar" >Saudi Arabia</option>
+            
+              <option value="sg-en" >Singapore</option>
+            
+              <option value="sk-sk" >Slovakia</option>
+            
+              <option value="sl-sl" >Slovenia</option>
+            
+              <option value="za-en" >South Africa</option>
+            
+              <option value="es-ca" >Spain (ca)</option>
+            
+              <option value="es-es" >Spain (es)</option>
+            
+              <option value="se-sv" >Sweden</option>
+            
+              <option value="ch-de" >Switzerland (de)</option>
+            
+              <option value="ch-fr" >Switzerland (fr)</option>
+            
+              <option value="tw-tzh" >Taiwan</option>
+            
+              <option value="th-en" >Thailand (en)</option>
+            
+              <option value="tr-tr" >Turkey</option>
+            
+              <option value="us-en" >US (English)</option>
+            
+              <option value="us-es" >US (Spanish)</option>
+            
+              <option value="ua-uk" >Ukraine</option>
+            
+              <option value="uk-en" >United Kingdom</option>
+            
+              <option value="vn-en" >Vietnam (en)</option>
+            
+          </select>
+        </div>
+
+        <div class="frm__select frm__select--last">
+          <select class="" name="df">
+            
+              <option value="" selected>Any Time</option>
+            
+              <option value="d" >Past Day</option>
+            
+              <option value="w" >Past Week</option>
+            
+              <option value="m" >Past Month</option>
+            
+              <option value="y" >Past Year</option>
+            
+          </select>
+        </div>
+      </form>
+    </div>
+
+    
+
+    
+      <!-- Web results are present -->
+      <div>
+        <div class="serp__results">
+          <div id="links" class="results">
+            
+
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dtw&amp;rut=74f08105106b0c3a50574f478bab1a591bcb2bd9cfa2c431f3d0c16ff740009d">Threads（@threads） • Threads，暢所欲言</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dtw&amp;rut=74f08105106b0c3a50574f478bab1a591bcb2bd9cfa2c431f3d0c16ff740009d">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dtw&amp;rut=74f08105106b0c3a50574f478bab1a591bcb2bd9cfa2c431f3d0c16ff740009d">
+                            www.threads.com/@threads?hl=zh-tw
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F%40threads%3Fhl%3Dzh%2Dtw&amp;rut=74f08105106b0c3a50574f478bab1a591bcb2bd9cfa2c431f3d0c16ff740009d">697.6 萬位粉絲 • 1,451 則串文 • Come see what everyone&#x27;s talking about 。查看 @<b>threads</b> 參與的最新對話。</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F&amp;rut=48514797437b527eed4523f03d4bc76c94475d12ed5203cf30fbc2cdf7de7ef1">Threads</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F&amp;rut=48514797437b527eed4523f03d4bc76c94475d12ed5203cf30fbc2cdf7de7ef1">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.threads.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F&amp;rut=48514797437b527eed4523f03d4bc76c94475d12ed5203cf30fbc2cdf7de7ef1">
+                            www.threads.com
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.threads.com%2F&amp;rut=48514797437b527eed4523f03d4bc76c94475d12ed5203cf30fbc2cdf7de7ef1"><b>Threads</b> is a platform to share ideas, ask questions, connect with people, and explore diverse conversations.</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591%3Ftab%3Dhot&amp;rut=fb45e67e8f5b63661361087042cc77e815ae644b7670c27e25d86634045df620">唐新民 的熱門話題 | Dcard</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591%3Ftab%3Dhot&amp;rut=fb45e67e8f5b63661361087042cc77e815ae644b7670c27e25d86634045df620">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.dcard.tw.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591%3Ftab%3Dhot&amp;rut=fb45e67e8f5b63661361087042cc77e815ae644b7670c27e25d86634045df620">
+                            www.dcard.tw/topics/唐新民?tab=hot
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dcard.tw%2Ftopics%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591%3Ftab%3Dhot&amp;rut=fb45e67e8f5b63661361087042cc77e815ae644b7670c27e25d86634045df620"><b>唐新民</b> 10 篇文章 13 人追蹤 追蹤 看板篩選 最新 熱門 六都市長大選板 國立高雄應用科技大學支持蔣萬安6 天</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fdisp.cc%2Fb%2FHatePolitics%2FikY7&amp;rut=05b64d40b31b90e9adca7a19ebcac96bf8884ef3680df36ac51fe8095d872dbc">[新聞] 唐新民稱他「蜥蜴人外星人」沈伯洋14字回應 - HatePolitics板 - Disp BBS</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fdisp.cc%2Fb%2FHatePolitics%2FikY7&amp;rut=05b64d40b31b90e9adca7a19ebcac96bf8884ef3680df36ac51fe8095d872dbc">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/disp.cc.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fdisp.cc%2Fb%2FHatePolitics%2FikY7&amp;rut=05b64d40b31b90e9adca7a19ebcac96bf8884ef3680df36ac51fe8095d872dbc">
+                            disp.cc/b/HatePolitics/ikY7
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fdisp.cc%2Fb%2FHatePolitics%2FikY7&amp;rut=05b64d40b31b90e9adca7a19ebcac96bf8884ef3680df36ac51fe8095d872dbc">唐新民稱他「蜥蜴人外星人」 沈伯洋14字回應了 壹蘋 【劉育良／綜合報導】台北市長選舉公辦政見發表會今登場，候選人唐新民稱民進黨對手 沈伯洋是外星人、共濟會特務等，沈伯洋在threads以14字做出</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.nextapple.com%2Fpolitics%2F20261114%2FAAA3047AA14835AB7380F0CA03B24AE4&amp;rut=867878ab65d8592f171edd112c89d1bcba033a02f3cf7e070dadd5c319f5bf2d">唐新民稱他「蜥蜴人外星人」 沈伯洋14字回應了｜壹蘋新聞網</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.nextapple.com%2Fpolitics%2F20261114%2FAAA3047AA14835AB7380F0CA03B24AE4&amp;rut=867878ab65d8592f171edd112c89d1bcba033a02f3cf7e070dadd5c319f5bf2d">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/news.nextapple.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.nextapple.com%2Fpolitics%2F20261114%2FAAA3047AA14835AB7380F0CA03B24AE4&amp;rut=867878ab65d8592f171edd112c89d1bcba033a02f3cf7e070dadd5c319f5bf2d">
+                            news.nextapple.com/politics/20261114/AAA3047AA14835AB7380F0CA03B24AE4
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.nextapple.com%2Fpolitics%2F20261114%2FAAA3047AA14835AB7380F0CA03B24AE4&amp;rut=867878ab65d8592f171edd112c89d1bcba033a02f3cf7e070dadd5c319f5bf2d">台北市長選舉公辦政見發表會今登場，候選人唐新民稱民進黨對手沈伯洋是外星人、共濟會特務等，沈伯洋在threads以14字做出 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ptt.cc%2Fbbs%2FHatePolitics%2FM.1794658693.A.15B.html&amp;rut=7937d39beef289508f7aaa1a51f94313bab68f8aee47c3acc79c2ea48dad6d4b">[新聞] 唐新民稱他「蜥蜴人外星人」沈伯洋14字回應 - 看板 HatePolitics - 批踢踢實業坊</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ptt.cc%2Fbbs%2FHatePolitics%2FM.1794658693.A.15B.html&amp;rut=7937d39beef289508f7aaa1a51f94313bab68f8aee47c3acc79c2ea48dad6d4b">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.ptt.cc.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ptt.cc%2Fbbs%2FHatePolitics%2FM.1794658693.A.15B.html&amp;rut=7937d39beef289508f7aaa1a51f94313bab68f8aee47c3acc79c2ea48dad6d4b">
+                            www.ptt.cc/bbs/HatePolitics/M.1794658693.A.15B.html
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ptt.cc%2Fbbs%2FHatePolitics%2FM.1794658693.A.15B.html&amp;rut=7937d39beef289508f7aaa1a51f94313bab68f8aee47c3acc79c2ea48dad6d4b">唐新民稱他「蜥蜴人外星人」 沈伯洋14字回應了 https://news.nextapple.com/politics/20261114/AAA3047AA14835AB7380F0CA03B24AE4 壹蘋 【劉育良／綜合報導】台北市長選舉公辦政見發表會今登場，候選人唐新民稱民進黨對手 沈伯洋是外星人、共濟會特務等，沈伯洋在threads以14字做出 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ltn.com.tw%2Fnews%2Fpolitics%2Fbreakingnews%2F5638226&amp;rut=c0599d1d60ff3b7912be4edbd551a37f0e339577b34ab6a60e34063d477b3604">真假？台北市長候選人稱「沈伯洋是外星人」 在《推背圖》有一席之地 - 政治 - 自由時報電子報</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ltn.com.tw%2Fnews%2Fpolitics%2Fbreakingnews%2F5638226&amp;rut=c0599d1d60ff3b7912be4edbd551a37f0e339577b34ab6a60e34063d477b3604">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/news.ltn.com.tw.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ltn.com.tw%2Fnews%2Fpolitics%2Fbreakingnews%2F5638226&amp;rut=c0599d1d60ff3b7912be4edbd551a37f0e339577b34ab6a60e34063d477b3604">
+                            news.ltn.com.tw/news/politics/breakingnews/5638226
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fnews.ltn.com.tw%2Fnews%2Fpolitics%2Fbreakingnews%2F5638226&amp;rut=c0599d1d60ff3b7912be4edbd551a37f0e339577b34ab6a60e34063d477b3604">伯克萊電機博士唐新民這次代表「三勢團結促進聯盟」參選台北市長，自稱「紫微聖人」、「蔣經國繼承人」，過去就曾多次發表引發爭議言論，2022 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891740&amp;rut=6e53ca01b130ceb131da2545424905668363a4c8ff72e41411dceb7d799f55c2">「他不是人類!」沈伯洋被爆是虎頭蜥蜴 本尊親自這句 | 政治快訊 | 要聞 | NOWnews今日新聞</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891740&amp;rut=6e53ca01b130ceb131da2545424905668363a4c8ff72e41411dceb7d799f55c2">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/www.nownews.com.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891740&amp;rut=6e53ca01b130ceb131da2545424905668363a4c8ff72e41411dceb7d799f55c2">
+                            www.nownews.com/news/6891740
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.nownews.com%2Fnews%2F6891740&amp;rut=6e53ca01b130ceb131da2545424905668363a4c8ff72e41411dceb7d799f55c2">台北市長候選人、三勢團結促進聯盟的唐新民驚爆，民進黨候選人沈伯洋「不是人類」、「是虎頭蜥蜴」。（圖／記者陳佩君 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591&amp;rut=2ac8237d126122e61b0119a2635ad67b187f56439dfbc6570f13df38fc80d0b9">唐新民 - 維基百科，自由的百科全書</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591&amp;rut=2ac8237d126122e61b0119a2635ad67b187f56439dfbc6570f13df38fc80d0b9">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/zh.wikipedia.org.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591&amp;rut=2ac8237d126122e61b0119a2635ad67b187f56439dfbc6570f13df38fc80d0b9">
+                            zh.wikipedia.org/zh-tw/唐新民
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2Fzh.wikipedia.org%2Fzh%2Dtw%2F%25E5%2594%2590%25E6%2596%25B0%25E6%25B0%2591&amp;rut=2ac8237d126122e61b0119a2635ad67b187f56439dfbc6570f13df38fc80d0b9"><b>唐新民</b> （1950年12月25日—）， 台灣 政治人物，籍貫 廣西省 桂林市，曾就讀 建國中學 、 台灣大學 、 加州大學柏克萊分校 等校。 [1] 1950年12月25日，唐新民出生於 新竹市 中山堂的 臨時軍眷營區，父親唐煥章，母親聶舜玉為前九江商會總會長聶鐵民之女，1985年與林美智結婚，有二子一女。 2022年9月 ...</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+              
+                <div class="result results_links results_links_deep web-result ">
+                  <div class="links_main links_deep result__body"> <!-- This is the visible part -->
+                    
+                      <h2 class="result__title">
+                        <a rel="nofollow" class="result__a" href="//duckduckgo.com/l/?uddg=https%3A%2F%2F%E6%AD%A3%E8%A6%8B.tw%2Fpolitician%2F33ea63ad%2D5f9d%2D4d19%2Da5b3%2Dc117481f4c68&amp;rut=b3023bf75e4e4f99fe4e0627d59701bff7976281cc03003e92028522ed9f55a5">唐新民（6 號）｜2026 台北市長候選人 | 正見</a>
+                      </h2>
+
+                    
+
+                    
+                      <div class="result__extras">
+                        <div class="result__extras__url">
+                          <span class="result__icon">
+                            <a rel="nofollow" href="//duckduckgo.com/l/?uddg=https%3A%2F%2F%E6%AD%A3%E8%A6%8B.tw%2Fpolitician%2F33ea63ad%2D5f9d%2D4d19%2Da5b3%2Dc117481f4c68&amp;rut=b3023bf75e4e4f99fe4e0627d59701bff7976281cc03003e92028522ed9f55a5">
+                              <img class="result__icon__img" width="16" height="16" alt="" src="//external-content.duckduckgo.com/ip3/xn--2lw665d.tw.ico" name="i15" />
+                            </a>
+                          </span>
+                          <a class="result__url" href="//duckduckgo.com/l/?uddg=https%3A%2F%2F%E6%AD%A3%E8%A6%8B.tw%2Fpolitician%2F33ea63ad%2D5f9d%2D4d19%2Da5b3%2Dc117481f4c68&amp;rut=b3023bf75e4e4f99fe4e0627d59701bff7976281cc03003e92028522ed9f55a5">
+                            正見.tw/politician/33ea63ad-5f9d-4d19-a5b3-c117481f4c68
+                          </a>
+                          
+                        </div>
+                      </div>
+                    
+
+                    
+                      
+                        <a class="result__snippet" href="//duckduckgo.com/l/?uddg=https%3A%2F%2F%E6%AD%A3%E8%A6%8B.tw%2Fpolitician%2F33ea63ad%2D5f9d%2D4d19%2Da5b3%2Dc117481f4c68&amp;rut=b3023bf75e4e4f99fe4e0627d59701bff7976281cc03003e92028522ed9f55a5">唐新民（6 號，三勢團結促進聯盟，2026 台北市長候選人）：1950年12月25日生，籍貫廣西桂林。台灣大學土木工程系、加州大學柏克萊分校電機計算機工程學系畢業。多次參選台北市長：2022年代表共和黨參選，最終僅獲316票 (0.02%)，於政見發表會自稱「蔣經國指定繼承人」並提出多項爭議性主張；…</a>
+                      
+                    
+
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            
+
+            
+              
+              
+                <div class="nav-link">
+                  <form action="/html/" method="post">
+                    <input type="submit" class='btn btn--alt' value="Next" />
+                    <input type="hidden" name="q" value="唐新民 threads" />
+                    <input type="hidden" name="s" value="10" />
+                    <input type="hidden" name="nextParams" value="" />
+                    <input type="hidden" name="v" value="l" />
+                    <input type="hidden" name="o" value="json" />
+                    <input type="hidden" name="dc" value="11" />
+                    <input type="hidden" name="api" value="d.js" />
+                    <input type="hidden" name="vqd" value="4-228987641762633201599973560286390132007" />
+
+                    
+                    
+                    
+                      <input name="kl" value="wt-wt" type="hidden" />
+                    
+                    
+                    
+                    
+                  </form>
+                </div>
+              
+            
+
+            <div class="feedback-btn">
+              <a rel="nofollow" href="//duckduckgo.com/feedback.html" target="_new">Feedback</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div> <!-- links wrapper //-->
+    
+  </div>
+
+  <div id="bottom_spacing2"></div>
+
+  
+    <img src="//duckduckgo.com/t/sl_h"/>
+  
+</body>
+</html>
