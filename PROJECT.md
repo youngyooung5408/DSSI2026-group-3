@@ -3623,7 +3623,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
-| 楊喬茵（AI協助） | [2026選舉公報抽取](data/code/bulletin_2026.ipynb)：下載45份公報，抽出279/280位候選人的號次、出生日期、性別、出生地、政黨、學歷、經歷與政見全文（政見184人為OCR；游智彬資格不符未列公報） | 待提交 |
+| 楊喬茵（AI協助） | [2026選舉公報抽取](data/code/bulletin_2026.ipynb)：下載45份公報，抽出279/280位候選人的號次、出生日期、性別、出生地、政黨、學歷、經歷與政見全文（政見184人為OCR；游智彬資格不符未列公報） | `6ab71fe`（已推送並核對：2026-11-18 origin/main 指向此 commit） |
 | 楊喬茵（AI協助） | [280人社群連結第三輪補查](data/code/social_links_20261116.ipynb)：兩輪搜尋，437缺格補入213格（200格為搜尋摘要「不確定」層級，待人工點開確認），就地更新整合表並加note欄；證據表957筆 | `161adeb`（已推送並核對：2026-11-16 origin/main 指向此 commit） |
 | RUEI-HSIANG, CHANG（AI協助：Codex） | [社群連結第二輪續查](data/code/prepare_social_links_scope_20261114.ipynb)：新增12個Facebook缺漏連結，14筆來源觀察，歷史來源／未核實標記保留；整合280人及840列工作單，更新保存檔hash與執行文件 | 待提交（貢獻紀錄未完成） |
 | RUEI-HSIANG, CHANG（AI協助：Codex） | [280人社群缺漏補查](data/code/prepare_social_links_scope_20261114.ipynb)：354次來源請求、47筆新觀察填入43個候選人平台缺漏；官方來源與未覆核lead分開，840列全範圍工作單及資料文件；未抓貼文 | 待提交（貢獻紀錄未完成） |
