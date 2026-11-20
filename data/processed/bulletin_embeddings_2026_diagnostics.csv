@@ -1,0 +1,6 @@
+﻿pair_type,text_a,text_b,cosine_similarity,source
+同議題同立場,支持重啟核電廠。,贊成恢復核能發電。,0.920354425907135,synthetic_diagnostic_not_bulletin
+同議題反立場,支持重啟核電廠。,反對重啟核電廠。,0.8470155000686646,synthetic_diagnostic_not_bulletin
+不同議題,支持重啟核電廠。,增設公共托育中心。,0.5828487873077393,synthetic_diagnostic_not_bulletin
+同議題不同措施,興建社會住宅。,擴大租金補貼。,0.6751764416694641,synthetic_diagnostic_not_bulletin
+同議題不同尺度,改善本市公共運輸。,改革全國公共運輸補助制度。,0.7932101488113403,synthetic_diagnostic_not_bulletin

@@ -77,7 +77,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Student | AI tool / client | Model | Agent entrypoint | Source |
 | --- | --- | --- | --- | --- |
-| 張睿庠 | Codex（IDE專案環境） | gpt-6.1-sol | AGENTS.md | 2026-11-10續作簡報時目前執行環境明示模型；使用者提供個人設定；不代表全組預設 |
+| 張睿庠 | Codex（遠端 Mac 專案工作區） | gpt-6.2-astra | AGENTS.md | 2026-11-20 目前執行環境與使用者指定身分 |
 | 楊喬茵 | Claude Code（VS Code擴充套件） | Claude Opus 5.5（claude-opus-5-5） | CLAUDE.md（匯入AGENTS.md） | 2026-11-04 目前執行環境 |
 | 許以琳 | Claude Code（VS Code擴充套件） | Claude Opus 5.5（claude-opus-5-5） | CLAUDE.md（匯入AGENTS.md） | 2026-11-08 目前執行環境 |
 
@@ -109,6 +109,15 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 | social_link_evidence_added_20261116 | collection / evidence | [資料](data/processed/social_link_evidence_added_20261116.csv) | 見處理筆記本README | [處理](data/code/social_links_20261116.ipynb) | 2026-11-16 clean kernel；957筆帳號觀察（含排除與較弱層級）、鍵唯一、來源檔hash與標題原文核對 | a584a27d7a5d3c02d0efff9177fd9f681a1780b129b5e6e8a4501b1531c21f5b |
 | social_link_missing_summary_20261116 | summary | [資料](data/processed/social_link_missing_summary_20261116.csv) | 見處理筆記本README | [處理](data/code/social_links_20261116.ipynb) | 2026-11-16 clean kernel；9列職位×平台前後缺漏 | 6000eb7a965f36f46962da4cf1fc8abf90a9f87d1e18db28dadbc89a5c4ae508 |
 | social_links_raw_20261116 | raw source manifest | [來源](data/raw/social_links_20261116/file_manifest.json) | [請求紀錄](data/raw/social_links_20261116/request_log.json) | [蒐集](data/code/collect_social_links_20261116.py) | 712次請求、711檔保存；處理前逐檔hash核對；串仔238頁、DuckDuckGo結果464頁、連結頁6頁 | 見manifest |
+| bulletin_embeddings_2026_corpus.csv | 候選人政見原文與向量列號 | [資料](data/processed/bulletin_embeddings_2026_corpus.csv) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_embeddings_2026.ipynb) | 2026-11-20，280列、279筆向量 | 28c6654cb7f460ad1b140b581b675dba72d580d37fcdad9364561359d5705d54 |
+| bulletin_embeddings_2026_segments.csv | 逐段政見及原文位置 | [資料](data/processed/bulletin_embeddings_2026_segments.csv) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_embeddings_2026.ipynb) | 2026-11-20，3598列 | 1a68f78d441edb77a5bb88c84007b3696cd32176dd2a68b257a278c13acb39fb |
+| bulletin_embeddings_2026_candidate_vectors.npy | 候選人全文向量 | [資料](data/processed/bulletin_embeddings_2026_candidate_vectors.npy) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_embeddings_2026.ipynb) | 2026-11-20，279×1024 | befb94644785578ca88a166e2d2702ed2c4fefd9d9df3c8d8b4eaca05df304a3 |
+| bulletin_embeddings_2026_segment_vectors.npy | 段落向量 | [資料](data/processed/bulletin_embeddings_2026_segment_vectors.npy) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_embeddings_2026.ipynb) | 2026-11-20，3598×1024 | 2198ca4af2af05878f3c1f90817c3a4aed77cade98a07b1177e603f3ede358ca |
+| bulletin_embeddings_2026_neighbors.csv | 跨候選人最近鄰 | [資料](data/processed/bulletin_embeddings_2026_neighbors.csv) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_embeddings_2026.ipynb) | 2026-11-20，逐段驗證餘弦相似度 | 976d68f296a86d0770247afeecd8421ab01852d2ec48477d93ead87955adc98f |
+| bulletin_embeddings_2026_diagnostics.csv | 另擬語句測試 | [資料](data/processed/bulletin_embeddings_2026_diagnostics.csv) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_embeddings_2026.ipynb) | 2026-11-20，5組對照 | 196317a95d9117263820f675b01bf14138b243b9c9ef58bec2ef9aa5a3a7b02a |
+| bulletin_embeddings_2026_run.json | 模型與輸出版本 | [資料](data/processed/bulletin_embeddings_2026_run.json) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_embeddings_2026.ipynb) | 2026-11-20，套件、模型revision與輸出hash | 171049d6c8571b299f4f72b4a8e097a6ddc5f44df141faf35691a0fba26fc6fa |
+| bulletin_embeddings_2026_ocr.json | 184張政見圖辨識證據 | [資料](data/processed/bulletin_embeddings_2026_ocr.json) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | [處理](data/code/bulletin_ocr_2026.py) | 2026-11-20，184個卡片鍵對應 | b1ee816896056cbd56729a48ab1d0eff671ef97e12014fe97c9e698f272891af |
+| bulletin_embeddings_2026_visual_check.csv | 公報單卡目視轉錄 | [資料](data/processed/bulletin_embeddings_2026_visual_check.csv) | [驗證](data/processed/bulletin_embeddings_2026_documentation.ipynb) | 目視原PDF轉錄 | 2026-11-20，36個勾選框、1張卡片 | 3e4cce0c05c693b52150037856b9abd2b5270ae133ff124d0c0d5460970f77f8 |
 | cec_bulletin_2026_raw | raw source manifest | [來源](data/raw/cec_bulletin_2026/file_manifest.json) | [下載失敗紀錄](data/raw/cec_bulletin_2026/download_failures.json) | [下載](data/code/collect_bulletin_2026.py) | 2026-11-18 自中選會公報網站下載45份PDF（22縣市首長＋臺北、高雄市議員），逐檔hash；臺東縣縣長公報在eebulletin連結404，改自bulletin.cec.gov.tw下載（楊喬茵提供目錄） | 7d2e3e9304b88c9c1385ee3a72d9c7020907f41192ad98d10c82da0f9a911313 |
 | candidate_bulletin_2026 | collection / text corpus（政見分析輸入） | [資料](data/processed/candidate_bulletin_2026.csv) | 見處理筆記本README與限制 | [處理](data/code/bulletin_2026.ipynb) | 2026-11-18 clean kernel；280列鍵唯一；279人抽出（4張高雄議員卡片姓名由AI目視判讀並以號次、生日、政黨核對）；游智彬因資格不符未列公報（公視2026-10-17報導佐證，bulletin_note註明）；公報性別與G2一致275/275；政見184人為OCR、95人為文字層，OCR有錯字與多欄順序錯亂，分析前需對照PDF | 742190f88cf9a1f1eb70ca2fdb6e570c7caf4949123805a1fd653184ed5d7950 |
 | bulletin_2026_cards_ocr | evidence | [資料](data/processed/bulletin_2026_cards_ocr.json) | 見處理筆記本README | [處理](data/code/bulletin_2026.ipynb) | 279張卡片四格的文字層原文與Windows OCR原始行（含座標） | 4b032748914700f2928e89589481f11261a7b5ca7db500c6d577d1312e8bc563 |
@@ -3623,6 +3632,7 @@ AI 只整理學生提供或明確確認的姓名與工作，不自行指派 PM�
 
 | Name | Contribution | Commit reference |
 | --- | --- | --- |
+| 張睿庠 | [2026公報政見逐人逐段向量與來源查核](report/bulletin_embeddings_2026.md) | 待提交 |
 | 楊喬茵（AI協助） | [2026選舉公報抽取](data/code/bulletin_2026.ipynb)：下載45份公報，抽出279/280位候選人的號次、出生日期、性別、出生地、政黨、學歷、經歷與政見全文（政見184人為OCR；游智彬資格不符未列公報） | `6ab71fe`（已推送並核對：2026-11-18 origin/main 指向此 commit） |
 | 楊喬茵（AI協助） | [280人社群連結第三輪補查](data/code/social_links_20261116.ipynb)：兩輪搜尋，437缺格補入213格（200格為搜尋摘要「不確定」層級，待人工點開確認），就地更新整合表並加note欄；證據表957筆 | `161adeb`（已推送並核對：2026-11-16 origin/main 指向此 commit） |
 | RUEI-HSIANG, CHANG（AI協助：Codex） | [社群連結第二輪續查](data/code/prepare_social_links_scope_20261114.ipynb)：新增12個Facebook缺漏連結，14筆來源觀察，歷史來源／未核實標記保留；整合280人及840列工作單，更新保存檔hash與執行文件 | 待提交（貢獻紀錄未完成） |

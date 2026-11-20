@@ -1,0 +1,67 @@
+{
+  "model_id": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "dimensions": 1024,
+  "max_sequence_tokens": 8192,
+  "batch_size": 8,
+  "device": "mps",
+  "dtype": "float32",
+  "normalize_embeddings": true,
+  "similarity": "cosine",
+  "prompt": null,
+  "segmentation": "bullet and punctuation v2: 。！？；!?; boundaries; layout whitespace collapsed; commas/newlines not split",
+  "scope": "2026 only; 81 chiefs + 199 Taipei/Kaohsiung council candidates",
+  "input_hashes": {
+    "data/processed/bulletin_embeddings_2026_ocr.json": "b1ee816896056cbd56729a48ab1d0eff671ef97e12014fe97c9e698f272891af",
+    "data/processed/candidate_bulletin_2026.csv": "d2e1c4d5f9d7ef8266ffefd3f5f853eeda35f2174692c03f59b371713adafc7b",
+    "data/processed/bulletin_2026_cards_ocr.json": "4b032748914700f2928e89589481f11261a7b5ca7db500c6d577d1312e8bc563",
+    "data/raw/cec_bulletin_2026/file_manifest.json": "3d1dc56485df2be41b12c53732a2cc21be5464519d6fb02e332ea60d3f9f0aea"
+  },
+  "manifest_pdf_count": 45,
+  "candidate_count": 280,
+  "embedded_candidates": 279,
+  "segment_count": 3598,
+  "selected_reading_counts": {
+    "ocr": 120,
+    "text_layer": 95,
+    "tesseract_ocr": 64,
+    "": 1
+  },
+  "extraction_source_counts": {
+    "ocr": 184,
+    "text_layer": 95,
+    "": 1
+  },
+  "candidate_token_range": [
+    18,
+    1282
+  ],
+  "segment_token_range": [
+    3,
+    540
+  ],
+  "packages": {
+    "sentence-transformers": "6.3.0",
+    "transformers": "5.23.0",
+    "torch": "2.15.0",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "huggingface-hub": "2.4.0"
+  },
+  "python": "3.12.13",
+  "output_hashes": {
+    "data/processed/bulletin_embeddings_2026_corpus.csv": "28c6654cb7f460ad1b140b581b675dba72d580d37fcdad9364561359d5705d54",
+    "data/processed/bulletin_embeddings_2026_segments.csv": "1a68f78d441edb77a5bb88c84007b3696cd32176dd2a68b257a278c13acb39fb",
+    "data/processed/bulletin_embeddings_2026_candidate_vectors.npy": "befb94644785578ca88a166e2d2702ed2c4fefd9d9df3c8d8b4eaca05df304a3",
+    "data/processed/bulletin_embeddings_2026_segment_vectors.npy": "2198ca4af2af05878f3c1f90817c3a4aed77cade98a07b1177e603f3ede358ca",
+    "data/processed/bulletin_embeddings_2026_neighbors.csv": "976d68f296a86d0770247afeecd8421ab01852d2ec48477d93ead87955adc98f",
+    "data/processed/bulletin_embeddings_2026_diagnostics.csv": "196317a95d9117263820f675b01bf14138b243b9c9ef58bec2ef9aa5a3a7b02a"
+  },
+  "limitations": [
+    "OCR not fully visually verified; designed multi-column reading order can be mixed",
+    "Segments may contain several proposals or slogans; cannot be treated as S5 units",
+    "Topic/stance/scope unlabelled; S5/S6/S7/S10 not yet calculated",
+    "Nearest neighbors are exploratory; no validated similarity threshold",
+    "Whole-section vectors can conceal topic distribution"
+  ]
+}
